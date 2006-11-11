@@ -2,11 +2,6 @@
 title: Main Page
 ---
 
-<big>'''{{SITENAME}} Wiki'''</big>
+<big>NESCent Working Group '''Towards an Intregrated Database for Fish Evolution'''</big>
 
 Use the links in the sidebar to navigate the wiki.
-
-== MediaWiki Help if you need it ==
-
-* [http://meta.wikipedia.org/wiki/MediaWiki_User%27s_Guide User's Guide]
-* [http://www.mediawiki.org/wiki/Help:FAQ MediaWiki FAQ]
