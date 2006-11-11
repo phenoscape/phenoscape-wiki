@@ -2,6 +2,6 @@
 title: Main Page
 ---
 
-<big>NESCent Working Group '''Towards an Intregrated Database for Fish Evolution'''</big>
+<center><big>'''Towards an Intregrated Database for Fish Evolution'''</big><p>A NESCent Working Group</p></center>
 
 Use the links in the sidebar to navigate the wiki.
