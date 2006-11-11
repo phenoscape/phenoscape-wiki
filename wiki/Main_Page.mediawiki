@@ -4,4 +4,31 @@ title: Main Page
 
 <center><big>'''Towards an Intregrated Database for Fish Evolution'''</big><p>A NESCent Working Group</p></center>
 
-Use the links in the sidebar to navigate the wiki.
+Model systems provide a way to untangle complex problems. Often concepts worked out in organisms such as fruit flies or frogs can be applied to other systems, including humans. Zebrafish have become a primary model for studying developmental genetics and evolutionary developmental biology, or "EvoDevo". Ichthyologists (fish biologists) have also studied zebrafish, among other cypriniforms (generally small, tropical fish like minnows, barbs, carps and goldfish), to understand their evolutionary relationships. Groups that work on the same organism, but from different viewpoints can learn a lot from each other and potentially advance their science dramatically by combining their information. However, developmental biologists and fish evolutionists have not historically interacted to a great extent, and generally have not "spoken the same language", making collaboration and interaction challenging.
+
+This working group brings together members of the zebrafish research community (including those involved with the Zebrafish Information Network - [http://zfin.org ZFIN]) and the Cypriniform research community (including those involved with the Cypriniform Tree of Life, or [http://bio.slu.edu/mayden/cypriniformes/home.html CToL], project) with the goal of linking information from both fields. The group proposes to join databases to combine the genetic information from developmental biology with the morphological data from evolutionary biology. One of the key challenges for this group is finding a common language, since every field has its own jargon and the same term can mean different things in different fields. One way of accomplishing this is by using ontologies, which are hierarchical constrained vocabularies. Another challenge will be determining how best to use the available data. What kinds of information would be most useful? How should one kind of information be linked to another? The group will tackle the logistics of developing such a database, from basic data entry curation through programming, beginning with a prototype.
+
+The Fish Database Workgroup had their first meeting at NESCent November 4-7, 2005. Participants are:
+{|
+|-
+|Paula Mabee, University of South Dakota
+|-
+|Monte Westerfield,	 University of Oregon
+|-
+|Miles Coburn,	 John Carroll University
+|-
+|Melissa Haendel,	 University of Oregon
+|-
+|Erik Hilton,	 Field Museum of Natural History
+|-
+|John Lundberg,	 Academy of Natural Sciences
+|-
+|Carol Lushbough,	 University of South Dakota
+|-
+|Rick Mayden,	 St. Louis University
+|-
+|Nelson Rios,	 Tulane University
+|-
+|Gloria Arratia,	 University of Kansas
+|-
+|}
