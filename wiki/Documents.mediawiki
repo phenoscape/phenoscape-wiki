@@ -18,7 +18,7 @@ Slides for talks are linked to from the [[Agenda|meeting agenda]].
 ===Break-out Group 1===
 
 * Question: Why?
-* [[Break-out Group 1|Material from break-out group 1]]
+* [[Ontology Service API Break-out Group]]
 
 ===Break-out Group 2===
 
