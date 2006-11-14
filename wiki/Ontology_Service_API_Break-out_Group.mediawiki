@@ -2,6 +2,10 @@
 title: Ontology Service API Break-out Group
 ---
 
+==Goal and motivation==
+
+A common API implemented by ontology data services enables clients such as EQ editors that heavily rely on such a service to plug into different data providers, local or remote, at their choice.
+
 ==Service definitions==
 
 # Ontology lookup
