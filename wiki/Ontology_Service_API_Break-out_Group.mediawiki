@@ -2,4 +2,49 @@
 title: Ontology Service API Break-out Group
 ---
 
-==Service Definitions==
+==Service definitions==
+
+# Ontology lookup
+#* Function: lookup the ontologies being served by the data service
+#* Input:
+#* Output:
+# Look up term 
+#* Function: Obtain the full term information for a given ID
+#* Input:
+#* Output:
+# Completion list
+#* Function: Obtain matching term names for a partial term name string
+#* Input:
+#* Output:
+# Neighborhood graph
+#* Function: Obtain parents, children, descendants, or ancestors for a given term
+#* Input:
+#* Output:
+# Downloading ontology
+#* Function: Obtain all terms and relationships comprising an ontology
+#* Input:
+#* Output:
+# Login
+#* Function: Given a username and secret, obtain an authentication token
+#* Input:
+#* Output:
+# Save EQ statements
+#* Function: Save an array of EQ statements to the data store
+#* Input:
+#* Output:
+# Load EQ statements
+#* Function: Load an array of EQ statements from the data store
+#* Input:
+#* Output:
+
+==Query languages==
+
+* SPARQL
+
+==Data exchange formats==
+
+* Text over HTTP:
+** OBO format
+** OBO-XML format
+** OBD-XML format
+** RDF
