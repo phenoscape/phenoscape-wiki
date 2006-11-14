@@ -40,6 +40,13 @@ A common API implemented by ontology data services enables clients such as EQ ed
 #* Function: Load an array of EQ statements from the data store
 #* Input:
 #* Output:
+# SPARQL endpoint
+#* Function: Issue SPARQL queries and obtain the results in RDF
+#* Input:
+#* Output:
+
+; Notes :
+;* 
 
 ==Query languages==
 
