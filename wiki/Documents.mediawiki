@@ -22,6 +22,8 @@ Slides for talks are linked to from the [[Agenda|meeting agenda]].
 
 ===Break-out Group 2===
 
+Meeting notes for this break out group go here.
+
 * Question: How?
 * [[Break-out Group 2|Material from break-out group 2]]
 ===Final presentations===
