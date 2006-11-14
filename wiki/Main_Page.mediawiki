@@ -2,7 +2,7 @@
 title: Main Page
 ---
 
-<center><big>'''Towards an Intregrated Database for Fish Evolution'''</big><p>A NESCent Working Group</p></center>
+<center><big>'''Towards an Integrated Database for Fish Evolution'''</big><p>A NESCent Working Group</p></center>
 
 Model systems provide a way to untangle complex problems. Often concepts worked out in organisms such as fruit flies or frogs can be applied to other systems, including humans. Zebrafish have become a primary model for studying developmental genetics and evolutionary developmental biology, or "EvoDevo". Ichthyologists (fish biologists) have also studied zebrafish, among other cypriniforms (generally small, tropical fish like minnows, barbs, carps and goldfish), to understand their evolutionary relationships. Groups that work on the same organism, but from different viewpoints can learn a lot from each other and potentially advance their science dramatically by combining their information. However, developmental biologists and fish evolutionists have not historically interacted to a great extent, and generally have not "spoken the same language", making collaboration and interaction challenging.
 
