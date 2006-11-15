@@ -58,8 +58,15 @@ A common API implemented by ontology data services enables clients such as EQ ed
 
 ==Data exchange formats==
 
-* Text over HTTP:
+* Plain text over HTTP:
 ** OBO format
+** YAML
+** JSON
+
+* XML over HTTP:
 ** OBO-XML format
 ** OBD-XML format
-** RDF
+
+* RDF over HTTP:
+** RDF/XML
+** RDF/N-triples
