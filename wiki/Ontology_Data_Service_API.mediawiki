@@ -1,0 +1,65 @@
+---
+title: Ontology Data Service API
+---
+
+==Goal and motivation==
+
+A common API implemented by ontology data services enables clients such as EQ editors that heavily rely on such a service to plug into different data providers, local or remote, at their choice.
+
+==Service definitions==
+
+# Ontology listing lookup
+#* Function: lookup the ontologies being served by the data service
+#* Input: none, or a particular name, and/or the name of the ontology category
+#* Output: a record of name, version, identifier, meta-data (e.g., retired? in production? purpose?) for each ontology being served
+# Look up term 
+#* Function: Obtain the full term information for a given ID
+#* Input: a term ID, or the combination of a term name and ontology ID
+#* Output: the matching term in OBO or RDF/OWL format
+#* Notes: do we need neighborhood here too (e.g., with IDs only); OBO only has parents, not children.
+# Completion list
+#* Function: Obtain matching term names for a partial term name string
+#* Input: partial term name string, a list of ontology IDs, search parameters (search names only or synonyms only or both, search obsoletes or not, search definition or not)
+#* Output: matches as records of term name, term ID, ontology ID, synonym that was hit, how the term was hit (name, synonym, or definition)
+# Neighborhood graph
+#* Function: Obtain parents, children, descendants, or ancestors for a given term
+#* Input: term ID, list of relationships to include or exclude, number of levels (path length) up and down to include
+#* Output: list of terms in OBO or RDF format
+#* Note: Is it sensible to return a graph as OBO format? Do we need to mandate the semantics of matching mixed-type paths (e.g., is-a and part-of)?
+# Downloading ontology
+#* Function: Obtain all terms and relationships comprising an ontology
+#* Input: ontology ID, optionally name of the slim
+#* Output: the ontology as an OBO or OWL stream of text
+#* Notes: do we need a parameter for specifying the desired format? do we need parameter for including obsoletes or not 
+# Login
+#* Function: Given a username and secret, obtain an authentication token
+#* Input: 
+#* Output:
+# Save EQ statements
+#* Function: Save an array of EQ statements to the data store
+#* Input: a list of EQ statements on OBD-xml or pheno-xml format
+#* Output: success/failure indicator
+# Load EQ statements
+#* Function: Load an array of EQ statements from the data store
+#* Input: author, or list of taxa, 
+#* Output: matching EQ statements in pheno-xml or pheno-syntax format
+#* Notes: do we need parameter of list of entities to obtain EQs for?
+# SPARQL endpoint
+#* Function: Issue SPARQL queries and obtain the results in RDF
+#* Input:
+#* Output:
+
+; Notes :
+;*
+
+==Query languages==
+
+* SPARQL
+
+==Data exchange formats==
+
+* Text over HTTP:
+** OBO format
+** OBO-XML format
+** OBD-XML format
+** RDF
