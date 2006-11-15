@@ -49,14 +49,14 @@ A common API implemented by ontology data services enables clients such as EQ ed
 #* Input:
 #* Output:
 
-; Notes :
-;*
+; Notes applicable to all :
+;* 
 
-==Query languages==
+===Query languages===
 
 * SPARQL
 
-==Data exchange formats==
+===Data exchange formats===
 
 * Plain text over HTTP:
 ** OBO format
@@ -70,3 +70,15 @@ A common API implemented by ontology data services enables clients such as EQ ed
 * RDF over HTTP:
 ** RDF/XML
 ** RDF/N-triples
+
+==Next Steps==
+
+# Finalize list of services for the ontology data service API.
+#* This will be an initial revision 1.0 - we'll surely have iterations later down the road.
+#* We'll need an acronym - anyone had a flash of creativity? What about OBODS
+# Define which services are mandatory, and which are optional.
+# Decide on protocol and query syntax.
+#* What about using REST, e.g., http://onto.myorg.edu/obods?q=list_ontology&category=anatomy, or using paths http://onto.myorg.edu/obods/ontology/list?category=anatomy)
+# Create a reference implementation for the server.
+#* A very generic reference implementation would be a wrapper over a SPARQL endpoint, i.e., translating API calls into SPARQL queries and transforming returned RDF into the required format.
+# Create a reference implementation for a web-application client (using JavaScript) and for, e.g., a Java client (for servlets or Java stand-alone apps).
