@@ -17,7 +17,7 @@ Slides for talks are linked to from the [[Agenda|meeting agenda]].
 
 ===Break-out Group 1===
 
-* Question: Why?
+* Motivation: A common API implemented by ontology data services enables clients such as EQ editors that heavily rely on such a service to plug into different data providers, local or remote, at their choice.
 * [[Ontology Service API Break-out Group]]
 
 ===Break-out Group 2===
