@@ -89,3 +89,9 @@ A common API implemented by ontology data services enables clients such as EQ ed
 # Create a reference implementation for the server.
 #* A very generic reference implementation would be a wrapper over a SPARQL endpoint, i.e., translating API calls into SPARQL queries and transforming returned RDF into the required format.
 # Create a reference implementation for a web-application client (using JavaScript) and for, e.g., a Java client (for servlets or Java stand-alone apps).
+
+==References==
+
+<biblio>
+#cote2006 pmid=16507094
+</biblio>
