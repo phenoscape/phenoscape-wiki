@@ -34,3 +34,7 @@ Participants are:
 |Gloria Arratia,	 University of Kansas
 |-
 |}
+
+==Public Pages==
+
+* [[Public:Ontology_Data_Service_API|Ontology Data Service API Description]]
