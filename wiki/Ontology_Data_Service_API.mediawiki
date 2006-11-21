@@ -8,6 +8,8 @@ A common API implemented by ontology data services enables clients such as EQ ed
 
 ==Service definitions==
 
+===Ontology Data Service===
+
 # Ontology listing lookup
 #* Function: lookup the ontologies being served by the data service
 #* Input: none, or a particular name, and/or the name of the ontology category
@@ -31,6 +33,17 @@ A common API implemented by ontology data services enables clients such as EQ ed
 #* Input: ontology ID, optionally name of the slim
 #* Output: the ontology as an OBO or OWL stream of text
 #* Notes: do we need a parameter for specifying the desired format? do we need parameter for including obsoletes or not 
+# SPARQL endpoint
+#* Function: Issue SPARQL queries and obtain the results in RDF
+#* Input:
+#* Output:
+
+'''Notes applicable to all:'''
+* Do we need to add search parameter to specify the 'slim' for each service that involves specifying an ontoloy?
+* Should we have a protocol for client and server negotiating the desired return format, or should this be a parameter (in which case we also need a method to obtain all supported formats from the server)?
+
+===Phenotype Data Services===
+
 # Login
 #* Function: Given a username and secret, obtain an authentication token
 #* Input: 
@@ -44,14 +57,6 @@ A common API implemented by ontology data services enables clients such as EQ ed
 #* Input: author, or list of taxa, 
 #* Output: matching EQ statements in pheno-xml or pheno-syntax format
 #* Notes: do we need parameter of list of entities to obtain EQs for?
-# SPARQL endpoint
-#* Function: Issue SPARQL queries and obtain the results in RDF
-#* Input:
-#* Output:
-
-'''Notes applicable to all:'''
-* Do we need to add search parameter to specify the 'slim' for each service that involves specifying an ontoloy?
-* Should we have a protocol for client and server negotiating the desired return format, or should this be a parameter (in which case we also need a method to obtain all supported formats from the server)?
 
 ===Query languages===
 
