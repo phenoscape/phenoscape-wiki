@@ -42,7 +42,7 @@ A common API implemented by ontology data services enables clients such as EQ ed
 * Do we need to add search parameter to specify the 'slim' for each service that involves specifying an ontoloy?
 * Should we have a protocol for client and server negotiating the desired return format, or should this be a parameter (in which case we also need a method to obtain all supported formats from the server)?
 
-===Phenotype Data Services===
+===Phenotype Data Service===
 
 # Login
 #* Function: Given a username and secret, obtain an authentication token
