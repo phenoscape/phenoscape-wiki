@@ -82,10 +82,11 @@ A common API implemented by ontology data services enables clients such as EQ ed
 * A team at the EBI created the [http://www.ebi.ac.uk/ontology-lookup/ Ontology Lookup Service (OLS)].<cite>cote2006</cite> According to the website, the OLS can integrate any ontology available in OBO format. OLS is implemented as a web-service. The website has documentation on
 **  [http://www.ebi.ac.uk/ontology-lookup/WSDLDocumentation.do web-service API] (representing the WSDL) with [http://www.ebi.ac.uk/ontology-lookup/api/uk/ac/ebi/ook/web/interfaces/QueryImpl.html JavaDoc for the interface contract], and
 ** [http://www.ebi.ac.uk/ontology-lookup/implementationOverview.do implementation overview] (architecture)
-* This service provides 3 ReST-style services, similar to some of the lookups described above.  These queries return a simple key-value XML format.
+* The OLS service provides 3 ReST-style services, similar to some of the lookups described above.  These queries return a simple key-value XML format.
 ** Term info: http://www.ebi.ac.uk/ontology-lookup/ajax.view?q=termmetadata&termid=ID&ontologyname=LABEL
 ** Completion list: http://www.ebi.ac.uk/ontology-lookup/ajax.view?q=termautocomplete&termname=NAME&ontologyname=LABEL
 ** Term name for ID: http://www.ebi.ac.uk/ontology-lookup/ajax.view?q=termname&termid=ID&ontologyname=LABEL
+* There is also the NCBO [http://www.bioontology.org/ncbo/faces/index.xhtml BioPortal].  It is not clear that it supports a public service API.
 
 ==Next Steps==
 
