@@ -4,29 +4,5 @@ title: Documents
 
 ''For collaborative writing of documents, you may wish to use [http://www.writely.com/ Writely]''
 
-==Presentation Slides==
-
-Slides for talks are linked to from the [[Agenda|meeting agenda]].
-
-==Relevant Information==
-==Break-out Group Documents==
-===Questions to be addressed by all groups===
-
-# Question 1
-# Question 2
-
-===Break-out Group 1===
-
-* Motivation: A common API implemented by ontology data services enables clients such as EQ editors that heavily rely on such a service to plug into different data providers, local or remote, at their choice.
-* [[Ontology Service API Break-out Group]]
-
-===Break-out Group 2===
-
-Meeting notes for this break out group go here.
-
-* Question: How?
-* [[Break-out Group 2|Material from break-out group 2]]
-===Final presentations===
-==Reports==
-
-''To be added by meeting participants ...''
+==Meetings==
+*[[26feb07|PI Meeting 26 Feb 2007]]
