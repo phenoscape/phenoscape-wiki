@@ -4,5 +4,10 @@ title: Documents
 
 ''For collaborative writing of documents, you may wish to use [http://www.writely.com/ Writely]''
 
+==Applications and APIs==
+
+===Proposals===
+* [[Public:Ontology_Data_Service_API|Ontology Data Service API Description]]
+
 ==Meetings==
 *[[26feb07|PI Meeting 26 Feb 2007]]
