@@ -6,7 +6,14 @@ title: Links
 
 ==Bibliography==
 
-* ''please add here ...''
+===Reprints===
+
+* Mabee PM et al (2007). [[Media:TREE Mabee.pdf|Phenotype ontologies: the bridge between genomics and evolution.]] Trends Ecol Evol <cite>mabee2007</cite>
+
+===References===
+<biblio>
+#mabee2007 pmid=17416439 <br/>[[Media:TREE Mabee.pdf|Reprint]]
+</biblio>
 
 ==Local Links==
 
