@@ -6,4 +6,4 @@ title: Ontology Service API Break-out Group
 
 A common API implemented by ontology data services enables clients such as EQ editors that heavily rely on such a service to plug into different data providers, local or remote, at their choice.
 
-The content of this page has been moved to [[Public:Ontology_Data_Service_API|Ontology Data Service API]], a ''public'' page . If you need to add comments that should be visible only to the working group, please post them on this page. Otherwise, use the public page.
+The content of this page has been moved to [[Ontology_Data_Service_API|Ontology Data Service API]].
