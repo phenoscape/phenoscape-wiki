@@ -10,30 +10,11 @@ This working group brings together members of the zebrafish research community (
 
 The Fish Database Workgroup had their first meeting at NESCent November 4-7, 2005. The focus of our second meeting from April 9 to 11 was on tying homology relationships into anatomy, taxonomy, and phylogeny ontologies. We began technical discussions of developing taxonomy ontologies and how to reference anatomy using such ontologies. We talked through the coding of multiple systematic characters using two ontologies (Anatomy and PATO).
 
-Participants are:
-{|
-|-
-|Paula Mabee, University of South Dakota
-|-
-|Monte Westerfield,	 University of Oregon
-|-
-|Miles Coburn,	 John Carroll University
-|-
-|Melissa Haendel,	 University of Oregon
-|-
-|Erik Hilton,	 Field Museum of Natural History
-|-
-|John Lundberg,	 Academy of Natural Sciences
-|-
-|Carol Lushbough,	 University of South Dakota
-|-
-|Rick Mayden,	 St. Louis University
-|-
-|Nelson Rios,	 Tulane University
-|-
-|Gloria Arratia,	 University of Kansas
-|-
-|}
+==News==
+
+
+
+12:57, 18 April 2007 (EDT) We are hiring two research programmers. See the [http://www.nescent.org/about/employment.php NESCent employment page] for more details. [[User:Hlapp]]
 
 ==Pages of public interest==
 
