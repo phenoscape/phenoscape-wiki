@@ -1,0 +1,60 @@
+---
+title: EQ Editor
+---
+
+==EQ Editor requirements==
+
+''These requirements are a first stab taken at the PI meeting at NESCent on Feb 26-27, 2007.''
+
+===Morphologist Workflow===
+
+# One reference publication, many species, several characters
+#* Have reference publication about taxonomic group, with figures, for skeletal characters
+#* May proceed section by section; need to specify section, or figure, or generally part of a reference
+#* Need to denote species, choose anatomical entity, choose quality, such as anterior margin, specify value
+#* May have questions, or need to input free text comments, e.g., about uncertainties
+# Single species, single publication, multiple characters
+#* Might also have a paper describing a single species
+#* Curator would use a specimen to confirm accuracy of annotation 
+# Many species, many publications, single character 
+#* May also use a character survey
+#* Would use many different papers
+#* Would span many different species
+# Specimen may be a fossil record
+#* Need to record geological time
+#* Will do that later
+# Specimen-based annotation is not part of the project
+
+* Need to reference "traditional" character: should be able to verbatim quote original character description, also give publication reference; there are often differing, even conflicting, definitions for the same character 
+* Need to be able to see what is already present about a particular character; may also need to look at "similar" characters (as defined by, e.g., characters using sibling terms and sibling qualities)
+* Need to see the values that have been assigned already for a character
+
+* There may be conflicting character states reported in different publications; the data curator will decide whether these conflicts need to be kept or can be reconciled.
+* Verification of characters descriptions and state values by Data Curator or even Morphologist, e.g., using actual specimen(s), and attributing the verification
+
+* Want all annotations to be associated with voucher specimens (may only be a photograph though)
+
+===UI requirements===
+
+For example, the Fink & Fink paper
+
+* start by setting the reference we will be working with
+* define a set of species we are going to work on
+* select skeletal region as a focus, e.g. the gill arch region, or tail fin
+* look at what has already been annotated for this region, as a character-by-taxon matrix
+** expect several hundred taxa, and between 50 and 200 characters, depending on how feature-rich the region is
+** a source paper may not give the character at the species level, so the taxon may be a higher-level taxon 
+* if characters are already present, just add the reference
+* otherwise define new character
+** choose existing entity term, initially this will be an anatomy term; term may not exist yet in which case we need to work with a provisional term
+** choose attribute term from PATO; term may not exist yet in which case we need to work with a provisional term
+** denote original character description, with reference (which will probably be the paper we are working with)
+* edit/view character: will see the images that have been used for the different states (values) that have been assigned 
+* assign/edit character states using a table with only the set of species chosen earlier, and one or more characters that correspond to the original character definition
+** denote original character state description, with reference (which will probably be the paper we are working with)
+
+* Taxonomic naming challenges: need to map original names to current classification; should never have two distinct rows for what is currently considered (as defined by the taxonomic ontology) the same species
+
+===Database requirements===
+
+* Need to have references to digital information, such as specimen record and image
