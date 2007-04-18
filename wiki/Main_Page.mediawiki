@@ -12,7 +12,7 @@ The Fish Database Workgroup had their first meeting at NESCent November 4-7, 200
 
 ==News==
 
-12:59, 18 April 2007 (EDT) The manuscript [[Media:TREE Mabee.pdf|Phenotype ontologies: the bridge between genomics and evolution]] by Paula Mabee et al. was accepted by TREE.
+12:59, 18 April 2007 (EDT) The manuscript [[Media:TREE Mabee.pdf|Phenotype ontologies: the bridge between genomics and evolution]] by Paula Mabee et al. was accepted by TREE. (see [[Links|bibliography]] for full reference) [[User:Hlapp]]
 
 12:57, 18 April 2007 (EDT) We are hiring two research programmers. See the [http://www.nescent.org/about/employment.php NESCent employment page] for more details. [[User:Hlapp]]
 
