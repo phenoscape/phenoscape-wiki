@@ -35,6 +35,6 @@ Participants are:
 |-
 |}
 
-==Public Pages==
+==Pages of public interest==
 
-* [[Public:Ontology_Data_Service_API|Ontology Data Service API Description]]
+* [[Ontology_Data_Service_API|Ontology Data Service API Description]]
