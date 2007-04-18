@@ -10,4 +10,4 @@ title: Documents
 * [[Public:Ontology_Data_Service_API|Ontology Data Service API Description]]
 
 ==Meetings==
-*[[26feb07|PI Meeting 26 Feb 2007]]
+*[[WG:PI Meeting 26feb07|PI Meeting 26 Feb 2007]]
