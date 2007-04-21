@@ -9,10 +9,11 @@ title: Links
 ===Reprints===
 
 * Mabee PM et al (2007). [[Media:TREE Mabee.pdf|Phenotype ontologies: the bridge between genomics and evolution.]] Trends Ecol Evol <cite>mabee2007</cite>
+* Schulz et al (2007). [http://www.biomedcentral.com/1471-2105/8/134 Spatial location and its relevance for terminological inferences in bio-ontologies.] BMC Bioinformatics 2007, 8:134 [http://dx.doi.org/10.1186/1471-2105-8-134 doi:10.1186/1471-2105-8-134]
 
 ===References===
 <biblio>
-#mabee2007 pmid=17416439 <br/>[[Media:TREE Mabee.pdf|Reprint]]
+#mabee2007 pmid=17416439
 </biblio>
 
 ==Local Links==
