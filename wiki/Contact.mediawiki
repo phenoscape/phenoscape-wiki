@@ -1,0 +1,25 @@
+---
+title: Contact
+---
+
+* '''Paula Mabee''': Principal Investigator 
+:University of South Dakota
+:Email: [mailto:pmabee%40usd%2eedu pmabee&#64;usd&#46;edu] 
+:Phone: 605-677-6171
+:FAX: 605-677-6557
+
+* '''Todd Vision''': Co-principal Investigator 
+:University of North Carolina
+:Email: [mailto:tjv%40bio%2eunc%2eedu tjv&#64;bio&#46;edu]
+:Phone: 919-843-4507
+
+* '''Monte Westerfield''': Co-principal Investigator 
+:University of Oregon
+:Email: [mailto:monte%40uoneuro%2uoregon%2edu monte&#64;uoneuro&#46;uoregon&#46;edu]
+:Phone: 
+
+* '''Hilmar Lapp''': Co-principal Investigator 
+:Assistant Director for Informatics
+:National Evolutionary Synthesis Center
+:Email: [mailto:hlapp%40nescent%2org hlapp&#64;nescent&#46;org]
+:Phone: 919-490-5288
