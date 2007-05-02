@@ -30,14 +30,3 @@ title: Links
 <biblio>
 #mabee2007 pmid=17416439
 </biblio>
-
-==Local Links==
-
-; Hotel
-* [http://www.millenniumhotels.com/MCIL.nsf/LU_HOTELDOC/113$$HotelDescription?OpenDocument Millenium Hotel]
-
-; Dining & Entertainment
-* [http://www.ninthst.com/ Ninth Street] (right across from NESCent)
-
-; Historic
-* [http://www.owdna.org/mill.htm Erwin Mills]
