@@ -2,7 +2,7 @@
 title: Lists
 ---
 
-==Mailing List for the Meeting==
+==Project mailing list==
 
 The mailing list is called {{GroupEmailName}} and is hosted by NESCent. You can send email to all meeting participants by posting to [mailto:wg-{{SITENAME}}%40nescent%2eorg wg-{{SITENAME}}&#64;nescent&#46;org].
 
