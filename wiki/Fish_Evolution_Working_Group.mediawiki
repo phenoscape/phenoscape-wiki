@@ -11,3 +11,19 @@ Model systems provide a way to untangle complex problems. Often concepts worked 
 This working group brings together members of the zebrafish research community (including those involved with the Zebrafish Information Network - [http://zfin.org ZFIN]) and the Cypriniform research community (including those involved with the Cypriniform Tree of Life, or [http://bio.slu.edu/mayden/cypriniformes/home.html CToL], project) with the goal of linking information from both fields. The group proposes to join databases to combine the genetic information from developmental biology with the morphological data from evolutionary biology. One of the key challenges for this group is finding a common language, since every field has its own jargon and the same term can mean different things in different fields. One way of accomplishing this is by using ontologies, which are hierarchical constrained vocabularies. Another challenge will be determining how best to use the available data. What kinds of information would be most useful? How should one kind of information be linked to another? The group will tackle the logistics of developing such a database, from basic data entry curation through programming, beginning with a prototype.
 
 The Fish Database Workgroup had their first meeting at NESCent November 4-7, 2005. The focus of our second meeting from April 9 to 11 was on tying homology relationships into anatomy, taxonomy, and phylogeny ontologies. We began technical discussions of developing taxonomy ontologies and how to reference anatomy using such ontologies. We talked through the coding of multiple systematic characters using two ontologies (Anatomy and PATO).
+
+==Working Group resources==
+
+''Note that these may be specific to the working group and its participants, and hence most of these links may not be public.''
+
+* [[WG:Meeting Information|Meeting information]] such as hotel, transportation, etc.
+* [[WG:Agenda|Meeting agendas]]
+
+==Local Links==
+
+; Hotel
+* [http://www.millenniumhotels.com/MCIL.nsf/LU_HOTELDOC/113$$HotelDescription?OpenDocument Millenium Hotel]
+; Dining & Entertainment
+* [http://www.ninthst.com/ Ninth Street] (right across from NESCent)
+; Historic
+* [http://www.owdna.org/mill.htm Erwin Mills]
