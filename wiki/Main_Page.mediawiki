@@ -2,6 +2,8 @@
 title: Main Page
 ---
 
+''This project arose from the achievements of a [http://www.nescent.org/science/workinggroup.php Working Group at NESCent] led by Paula Mabee and Monte Westerfield named "Towards an Intregrated Database for Fish Evolution". [[Fish Evolution Working Group|Goals and summaries of the group]] are archived on this wiki.''
+
 ==Linking Evolution to Genomics Using Phenotype Ontologies==
 
 ===About this project===
