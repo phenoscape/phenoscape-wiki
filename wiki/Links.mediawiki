@@ -16,8 +16,8 @@ title: Links
 * [http://digimorph.org/ Digimorph]  
 * [http://www.digitalfishlibrary.org/ Digital Fish Library]  
 * [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes]  
-* http://fishbase.org/ FishBase] 
-* [http://aug.csres.utexas.edu/PhylogenyWiki/ Morphster] 
+* [http://fishbase.org/ FishBase] 
+* [http://aug.csres.utexas.edu/PhylogenyWiki/ Morphster]
 
 ==Bibliography==
 
