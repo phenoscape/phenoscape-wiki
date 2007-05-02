@@ -2,19 +2,58 @@
 title: Main Page
 ---
 
-<center><big>'''Towards an Integrated Database for Fish Evolution'''</big><p>A NESCent Working Group</p></center>
+==Linking Evolution to Genomics Using Phenotype Ontologies==
 
-Model systems provide a way to untangle complex problems. Often concepts worked out in organisms such as fruit flies or frogs can be applied to other systems, including humans. Zebrafish have become a primary model for studying developmental genetics and evolutionary developmental biology, or "EvoDevo". Ichthyologists (fish biologists) have also studied zebrafish, among other cypriniforms (generally small, tropical fish like minnows, barbs, carps and goldfish), to understand their evolutionary relationships. Groups that work on the same organism, but from different viewpoints can learn a lot from each other and potentially advance their science dramatically by combining their information. However, developmental biologists and fish evolutionists have not historically interacted to a great extent, and generally have not "spoken the same language", making collaboration and interaction challenging.
+===About this project===
 
-This working group brings together members of the zebrafish research community (including those involved with the Zebrafish Information Network - [http://zfin.org ZFIN]) and the Cypriniform research community (including those involved with the Cypriniform Tree of Life, or [http://bio.slu.edu/mayden/cypriniformes/home.html CToL], project) with the goal of linking information from both fields. The group proposes to join databases to combine the genetic information from developmental biology with the morphological data from evolutionary biology. One of the key challenges for this group is finding a common language, since every field has its own jargon and the same term can mean different things in different fields. One way of accomplishing this is by using ontologies, which are hierarchical constrained vocabularies. Another challenge will be determining how best to use the available data. What kinds of information would be most useful? How should one kind of information be linked to another? The group will tackle the logistics of developing such a database, from basic data entry curation through programming, beginning with a prototype.
+What are the developmental and genetic bases of evolutionary differences in morphology across species?  Currently it is difficult to approach this question, given the absence of computational approaches to data-mining genomic data together with comparative morphological/anatomical data.  
 
-The Fish Database Workgroup had their first meeting at NESCent November 4-7, 2005. The focus of our second meeting from April 9 to 11 was on tying homology relationships into anatomy, taxonomy, and phylogeny ontologies. We began technical discussions of developing taxonomy ontologies and how to reference anatomy using such ontologies. We talked through the coding of multiple systematic characters using two ontologies (Anatomy and PATO).
+We will develop EQSYTE (Entity-Quality System for Trait Evolution) as the database, tools and data to integrate evolutionary and developmental/genomic data for fishes.   We are prototyping this approach by developing a database of morphological characters for a large clade of fishes (the Ostariophysi) that will be connected to the existing [http://zfin.org zebrafish database], through [[#The_Role_of_Ontologies|common ontologies]].  Because the ontologies will be developed and shared with model organism databases, they will allow immediate integration with genetic and developmental data.  EQSYTE will be a community research tool that will be used to integrate data to address questions about the genetic and developmental regulation of evolutionary morphological transitions. 
+
+Tool and database development will be guided by use cases that are defined by the devo-evo community.  We will demonstrate the feasibility of our approach by implementing a select number of these use-case queries as a proof-of-concept. The queries will be implemented via a web-based user interface for searching and analyzing the data content.  These tools will be designed to be generalized such that other taxon-model organism integrations can be made.   <!-- Mention open-source development here and generalizability….(Todd/Hilmar, please fill in here appropriately and add link if possible).  -->
+
+===The Role of Ontologies===
+
+====Background====
+
+Ontologies are constrained, structured vocabularies with well defined relationships among terms. Ontologies represent a knowledge-base of a particular discipline, and provide not only a mechanism for consistent annotation of data, but also greater interoperability among people and machines. The most widely used biological ontology is the [http://www.geneontology.org Gene Ontology], which is utilized to annotate molecular function, biological processes and subcellular localization to gene products from different organisms. 
+
+====Phenotype ontologies==== 
+
+; For model organisms : Approximately 500 mutant zebrafish lines (alleles) with over 660 annotated phenotypic characters from the jaw or gill arches (n=250), fins (n=210), axial skeleton (n=190) and other features (n=10) of the skeleton have been described. Researchers in the [http://www.zfin.org Zebrafish Information Network] (ZFIN) are annotating mutant phenotypes using the zebrafish anatomy ontology and the [http://www.bioontology.org/wiki/index.php/PATO:Main_Page Phenotype And Trait Ontology] (PATO). PATO is a “universal” ontology of terms describing qualities (e.g. shape, color, size) that may be applied to any organism. 
+
+; For multiple species (for evolutionary biology) : Representing anatomical character (and character state) data in an ontology-based framework is a new, forward-looking, and integrative move for phylogenetic systematic studies. 
+
+====Anatomical ontologies====
+
+A multi-species ontology for ostariophysan fishes, The Anatomy of Ostariophysi <!-- or: The Anatomical Ontology --> (TAO), will be developed by expanding on the terms in the zebrafish anatomical ontology.  To begin with, development of the TAO will concentrate on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology.  The [http://zfin.org/zf_info/anatomy/dict/sum.html zebrafish anatomical ontology] currently contains 236 skeletal system entities. 
+
+The multi-species anatomy ontology for ostariophysan fishes will be used in combination with the PATO ontology (see EQ format) to describe the naturally occurring phenotypes in non-model species (i.e. various ostariophysan fish species).  
+
+====Taxonomic ontology====
+
+We will develop a taxonomic ontology based on the Catalog of Fishes and taxonomic experts in order to relate species with particular characters and states.  The taxonomic ontology will include nodes ancestral to the Ostariophysi as far back as the Vertebrata in order to associate certain anatomical terms with more inclusive clades than the Ostariophysi.  The taxonomic ontology will be edited using OBO-Edit, similar to the taxonomic ontologies based on NCBI. 
+
+As part of this process, we will store statements of homology between entities, so that individual investigators may select particular relationships based on evidence.  Thus, for the first time, research questions can be addressed (for example, using the web-interface and query tools that we will build) that require simultaneous data-mining of phylogenetic and genetic data.  This approach will also promote integration across morphological systematic studies.  Our study, which matches zebrafish model organism genetic data with phylogenetic data from the lineage to which zebrafish belongs (Cypriniformes and ostariophysan relatives), can be generalized to other model organisms and their respective clades. We bring to this study a unique collaboration between evolutionary and model organism biologists that builds upon the strengths of two national centers, a model organism database, a Tree of Life study, a Research Coordination Network, and several community image databases.
+
+====Fish Morphology====
+
+Although the comparative anatomy of fishes has been documented in the literature for several hundred years, it is not available in a computable format.  A Data Curator will input morphological character data that is gleaned from the literature, culled by experts (Table 1 – link to this? See below) and the ichthyological community [link http://www.deepfin.org/ here].  The model of a “curated” database is one that has proven effective for model organism databases such as [http://zfin.org zebrafish], [http://www.FlyBase.org Drosophila], and [http://www.informatics.jax.org mouse].  EQSYTE (Entity-Quality System for Trait Evolution) will consist of a database and user interface in which the ontologies and data for evolutionary phenotypes are integrated with the zebrafish mutant phenotypes and associated genetic data from ZFIN.  
+
+Our goal is to input approximately 4,000 morphological features in an “EQ” format ([[Media:TREE Mabee.pdf|Mabee et al. 2007a]]<!--; Mabee et al. 2007 in process-->) using a combination of ontologies.  
+
+ <!-- LATER: “VIEW THE CHARACTERS IN THE DATABASE THUS FAR” -->
+===Help needed===
+
+We are hiring two research programmers. See the [http://www.nescent.org/about/employment.php NESCent employment page] for more details. 
+
+===Contact===
+
+Paula Mabee (University of South Dakota) is the Principal Investigator. Co-principal investigators are Todd Vision (University of North Carolina, Chapel Hill), Monte Westerfield (University of Oregon, ZFIN), and Hilmar Lapp (NESCent) ([[Contact|see their contact addresses]]).
 
 ==News==
 
 12:59, 18 April 2007 (EDT) The manuscript [[Media:TREE Mabee.pdf|Phenotype ontologies: the bridge between genomics and evolution]] by Paula Mabee et al. was accepted by TREE. (see [[Links|bibliography]] for full reference) [[User:Hlapp]]
-
-12:57, 18 April 2007 (EDT) We are hiring two research programmers. See the [http://www.nescent.org/about/employment.php NESCent employment page] for more details. [[User:Hlapp]]
 
 ==Pages of public interest==
 
