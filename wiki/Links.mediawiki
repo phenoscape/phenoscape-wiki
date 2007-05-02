@@ -2,7 +2,22 @@
 title: Links
 ---
 
-''Note: We suggest you consider using [http://en.wikipedia.org/wiki/Social_bookmarking Social Bookmarking] for creating larger lists of links, as those you add here can't be searched by semantic tags. Popular sites include [http://www.citeulike.org/ CiteUlike], [http://www.connotea.org/ Connotea] and [http://del.icio.us del.icio.us].''
+<!-- ''Note: We suggest you consider using [http://en.wikipedia.org/wiki/Social_bookmarking Social Bookmarking] for creating larger lists of links, as those you add here can't be searched by semantic tags. Popular sites include [http://www.citeulike.org/ CiteUlike], [http://www.connotea.org/ Connotea] and [http://del.icio.us del.icio.us].'' -->
+
+==Links relevant to the project==
+
+* [http://www.bioontology.org National Center for Biomedical Ontology]
+** [http://www.bioontology.org/ncbo/faces/pages/ontology_list.xhtml Ontologies from NCBO]  
+** [http://www.phenote.org Phenote] 
+* [http://www.zfin.org Zebrafish Information Network] (ZFIN) 
+* [http://www.deepfin.org/ DeepFin] 
+* [http://www.morphbank.net/ Morphbank]
+* [http://morphobank.geongrid.org/ MorphoBank]  
+* [http://digimorph.org/ Digimorph]  
+* [http://www.digitalfishlibrary.org/ Digital Fish Library]  
+* [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes]  
+* http://fishbase.org/ FishBase] 
+* [http://aug.csres.utexas.edu/PhylogenyWiki/ Morphster] 
 
 ==Bibliography==
 
