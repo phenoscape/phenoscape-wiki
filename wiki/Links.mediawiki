@@ -6,18 +6,30 @@ title: Links
 
 ==Links relevant to the project==
 
-* [http://www.bioontology.org National Center for Biomedical Ontology]
-** [http://www.bioontology.org/ncbo/faces/pages/ontology_list.xhtml Ontologies from NCBO]  
-** [http://www.phenote.org Phenote] 
+===Ontologies===
+
+'''[http://www.bioontology.org National Center for Biomedical Ontology]'''
+* [http://www.bioontology.org/ncbo/faces/pages/ontology_list.xhtml Ontologies from NCBO]  
+* [http://obofoundry.org/cgi-bin/detail.cgi?caro Common Anatomy Reference Ontology (CARO)] ([http://purl.org/obo/owl/CARO also available in OWL format])
+
+===Fish resources===
+
 * [http://www.zfin.org Zebrafish Information Network] (ZFIN) 
 * [http://www.deepfin.org/ DeepFin] 
-* [http://www.morphbank.net/ Morphbank]
-* [http://morphobank.geongrid.org/ MorphoBank]  
-* [http://digimorph.org/ Digimorph]  
 * [http://www.digitalfishlibrary.org/ Digital Fish Library]  
 * [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes]  
 * [http://fishbase.org/ FishBase] 
+
+===Morphology image database resources===
+
+* [http://www.morphbank.net/ Morphbank]
+* [http://morphobank.geongrid.org/ MorphoBank]  
+* [http://digimorph.org/ Digimorph]  
 * [http://aug.csres.utexas.edu/PhylogenyWiki/ Morphster]
+
+===Software===
+
+* [http://www.phenote.org Phenote]
 
 ==Bibliography==
 
