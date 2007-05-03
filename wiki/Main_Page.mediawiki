@@ -44,7 +44,7 @@ Although the comparative anatomy of fishes has been documented in the literature
 
 Our goal is to input approximately 4,000 morphological features in an “EQ” format ([[Media:TREE Mabee.pdf|Mabee et al. 2007a]]<!--; Mabee et al. 2007 in process-->) using a combination of ontologies.  
 
-{| border="1" cellpadding="0"
+{| border="1" cellspacing="0" cellpadding="3"
 |-
 ! Year !! Taxon !! PI !! # Papers !!  # Characters !! # Taxa !! # Species, Genera, Families
 |-
