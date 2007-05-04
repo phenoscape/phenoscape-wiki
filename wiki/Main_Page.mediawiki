@@ -2,13 +2,13 @@
 title: Main Page
 ---
 
-''This project arose from the achievements of a [http://www.nescent.org/science/workinggroup.php Working Group at NESCent] led by Paula Mabee and Monte Westerfield named "Towards an Intregrated Database for Fish Evolution". [[Fish Evolution Working Group|Goals and summaries of the group]] are archived on this wiki.''
+''This project arose from a [http://www.nescent.org/science/workinggroup.php NESCent Working Group] led by Paula Mabee and Monte Westerfield, "towards an Intregrated Database for Fish Evolution". [[Fish Evolution Working Group|Goals and summaries of the group]] are archived on this wiki.''
 
 ==Linking Evolution to Genomics Using Phenotype Ontologies==
 
 ===About this project===
 
-What are the developmental and genetic bases of evolutionary differences in morphology across species?  Currently it is difficult to approach this question, given the absence of computational approaches to data-mining genomic data together with comparative morphological/anatomical data.  
+What are the developmental and genetic bases of evolutionary differences in morphology across species?  Currently it is difficult to approach this question due to a lack of computational tools that allow researchers to integrate developmental genetic and comparative morphological/anatomical data.  
 
 We will develop EQSYTE (Entity-Quality System for Trait Evolution) as the database, tools and data to integrate evolutionary and developmental/genomic data for fishes.   We are prototyping this approach by developing a database of morphological characters for a large clade of fishes (the Ostariophysi) that will be connected to the existing [http://zfin.org zebrafish database], through [[#The_Role_of_Ontologies|common ontologies]].  Because the ontologies will be developed and shared with model organism databases, they will allow immediate integration with genetic and developmental data.  EQSYTE will be a community research tool that will be used to integrate data to address questions about the genetic and developmental regulation of evolutionary morphological transitions. 
 
