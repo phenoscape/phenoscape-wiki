@@ -24,7 +24,6 @@ Ontologies are constrained, structured vocabularies with well defined relationsh
 
 For model organisms : Approximately 500 mutant zebrafish lines (alleles) with over 660 annotated phenotypic characters from the jaw or gill arches (n=250), fins (n=210), axial skeleton (n=190) and other features (n=10) of the skeleton have been described. Researchers in the [http://www.zfin.org Zebrafish Information Network] (ZFIN) are annotating mutant phenotypes using the zebrafish anatomy ontology and the [http://www.bioontology.org/wiki/index.php/PATO:Main_Page Phenotype And Trait Ontology] (PATO). PATO is a “universal” ontology of terms describing qualities (e.g. shape, color, size) that may be applied to any organism. 
 
-
 ====Anatomical ontologies====
 
 A multi-species ontology for ostariophysan fishes, The Anatomy of Ostariophysi <!-- or: The Anatomical Ontology --> (TAO), is being developed by expanding on the terms in the zebrafish anatomical ontology.  To begin with, development of the TAO will concentrate on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology.  The [http://zfin.org/zf_info/anatomy/dict/sum.html zebrafish anatomical ontology] currently contains 236 skeletal system entities. 
@@ -34,7 +33,6 @@ The multi-species anatomy ontology for ostariophysan fishes will be used in comb
 ====Taxonomic ontology====
 
 Together with taxonomic experts, we are developing a taxonomic ontology (based on the Catalog of Fishes [ADD LINK]) in order to relate species with particular characters and states.  The taxonomic ontology will include nodes ancestral to the Ostariophysi as far back as the Vertebrata in order to associate certain anatomical terms with more inclusive clades than the Ostariophysi.  
-
 
 ====Fish Morphology====
 
@@ -60,7 +58,6 @@ Although the comparative anatomy of fishes has been documented in the literature
 |}
 <nowiki>*</nowiki> includes original characters from CToL<br/>
 <nowiki>**</nowiki> All Catfish project (J. Lundberg)
-<!-- LATER: “VIEW THE CHARACTERS IN THE DATABASE THUS FAR” -->
 
 ===Help needed===
 
