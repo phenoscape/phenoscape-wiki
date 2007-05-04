@@ -22,7 +22,7 @@ Ontologies are constrained, structured vocabularies with well defined relationsh
 
 ; For model organisms : Approximately 500 mutant zebrafish lines (alleles) with over 660 annotated phenotypic characters from the jaw or gill arches (n=250), fins (n=210), axial skeleton (n=190) and other features (n=10) of the skeleton have been described. Researchers in the [http://www.zfin.org Zebrafish Information Network] (ZFIN) are annotating mutant phenotypes using the zebrafish anatomy ontology and the [http://www.bioontology.org/wiki/index.php/PATO:Main_Page Phenotype And Trait Ontology] (PATO). PATO is a “universal” ontology of terms describing qualities (e.g. shape, color, size) that may be applied to any organism. 
 
-; For multiple species (for evolutionary biology) : Representing anatomical character (and character state) data in an ontology-based framework is a new, forward-looking, and integrative move for phylogenetic systematic studies. 
+; For multiple species (for evolutionary biology) : In this project, we will be representing anatomical character (and character state) data in an ontology-based framework for all of the Ostariophysi.  We are extending the ontology tools to allow for homology of anatomical entities across species.
 
 ====Anatomical ontologies====
 
