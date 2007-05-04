@@ -38,9 +38,7 @@ Together with taxonomic experts, we are developing a taxonomic ontology (based o
 
 ====Fish Morphology====
 
-Although the comparative anatomy of fishes has been documented in the literature for several hundred years, it is not available in a computable format.  A Data Curator will input morphological character data that is gleaned from the literature, culled by experts (see table below) and the [http://www.deepfin.org/ ichthyological community].  The model of a “curated” database is one that has proven effective for model organism databases such as [http://zfin.org zebrafish], [http://www.FlyBase.org Drosophila], and [http://www.informatics.jax.org mouse].  EQSYTE (Entity-Quality System for Trait Evolution) will consist of a database and user interface in which the ontologies and data for evolutionary phenotypes are integrated with the zebrafish mutant phenotypes and associated genetic data from ZFIN.  
-
-Our goal is to input approximately 4,000 morphological features in an “EQ” format ([[Media:TREE Mabee.pdf|Mabee et al. 2007a]]<!--; Mabee et al. 2007 in process-->) using a combination of ontologies.  
+Although the comparative anatomy of fishes has been documented in the literature for several hundred years, it is not available in a computable format.  A Data Curator will input morphological character data that is gleaned from the literature, culled by experts (see table below) and the [http://www.deepfin.org/ ichthyological community].  Our goal is to input approximately 4,000 morphological features in an “EQ” format ([[Media:TREE Mabee.pdf|Mabee et al. 2007a]]<!--; Mabee et al. 2007 in process-->) using a combination of ontologies.  
 
 {| border="1" cellspacing="0" cellpadding="3"
 |-
