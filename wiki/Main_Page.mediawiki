@@ -20,15 +20,14 @@ Ontologies are constrained, structured vocabularies with well defined relationsh
 
 ====Phenotype ontologies==== 
 
-; For model organisms : Approximately 500 mutant zebrafish lines (alleles) with over 660 annotated phenotypic characters from the jaw or gill arches (n=250), fins (n=210), axial skeleton (n=190) and other features (n=10) of the skeleton have been described. Researchers in the [http://www.zfin.org Zebrafish Information Network] (ZFIN) are annotating mutant phenotypes using the zebrafish anatomy ontology and the [http://www.bioontology.org/wiki/index.php/PATO:Main_Page Phenotype And Trait Ontology] (PATO). PATO is a “universal” ontology of terms describing qualities (e.g. shape, color, size) that may be applied to any organism. 
+For model organisms : Approximately 500 mutant zebrafish lines (alleles) with over 660 annotated phenotypic characters from the jaw or gill arches (n=250), fins (n=210), axial skeleton (n=190) and other features (n=10) of the skeleton have been described. Researchers in the [http://www.zfin.org Zebrafish Information Network] (ZFIN) are annotating mutant phenotypes using the zebrafish anatomy ontology and the [http://www.bioontology.org/wiki/index.php/PATO:Main_Page Phenotype And Trait Ontology] (PATO). PATO is a “universal” ontology of terms describing qualities (e.g. shape, color, size) that may be applied to any organism. 
 
-; For multiple species (for evolutionary biology) : In this project, we will be representing anatomical character (and character state) data in an ontology-based framework for all of the Ostariophysi.  We are extending the ontology tools to allow for homology of anatomical entities across species.
 
 ====Anatomical ontologies====
 
-A multi-species ontology for ostariophysan fishes, The Anatomy of Ostariophysi <!-- or: The Anatomical Ontology --> (TAO), will be developed by expanding on the terms in the zebrafish anatomical ontology.  To begin with, development of the TAO will concentrate on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology.  The [http://zfin.org/zf_info/anatomy/dict/sum.html zebrafish anatomical ontology] currently contains 236 skeletal system entities. 
+A multi-species ontology for ostariophysan fishes, The Anatomy of Ostariophysi <!-- or: The Anatomical Ontology --> (TAO), is being developed by expanding on the terms in the zebrafish anatomical ontology.  To begin with, development of the TAO will concentrate on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology.  The [http://zfin.org/zf_info/anatomy/dict/sum.html zebrafish anatomical ontology] currently contains 236 skeletal system entities. 
 
-The multi-species anatomy ontology for ostariophysan fishes will be used in combination with the PATO ontology (see EQ format) to describe the naturally occurring phenotypes in non-model species (i.e. various ostariophysan fish species).  
+The multi-species anatomy ontology for ostariophysan fishes will be used in combination with the PATO ontology (see EQ format) to describe the naturally occurring phenotypes in non-model species (i.e. various ostariophysan fish species).  We are also developing a separate catalog of homology statements for entities within TAO.
 
 ====Taxonomic ontology====
 
