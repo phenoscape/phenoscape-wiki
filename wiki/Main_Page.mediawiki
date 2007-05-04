@@ -12,6 +12,8 @@ What are the developmental and genetic bases of evolutionary differences in morp
 
 We are addressing this by developing a database of evolutionarily variable morphological characters for a large clade of fishes (the Ostariophysi) and connecting this database to the large collection of mutant phenotypes in the [http://zfin.org ZFIN zebrafish database].  The evolutionary and mutant phenotypes are being described using common [[#The_Role_of_Ontologies|ontologies]].  The database with its web-interface, called EQSYTE (Entity-Quality System for Trait Evolution), together with the extended ontologies and data curation tools, will allow researchers to ask novel questions about the genetic and developmental regulation of evolutionary morphological transitions. Tool and database development are being guided by [http://en.wikipedia.org/wiki/Use_case use cases], or driving research questions, defined by the devo-evo community.  These tools are being developed under an open-source, open-development model, and in such a way that they can be used for additional biological systems in the future.
 
+This project is a unique collaboration between evolutionary and model organism biologists including two national centers (NESCent and NCBO), the ZFIN model organism database, the CTOL Tree of Life project, the DeepFin Research Coordination Network, and the ??? community image databases. [LINKS]
+
 ===The Role of Ontologies===
 
 ====Background====
@@ -27,13 +29,12 @@ For model organisms : Approximately 500 mutant zebrafish lines (alleles) with ov
 
 A multi-species ontology for ostariophysan fishes, The Anatomy of Ostariophysi <!-- or: The Anatomical Ontology --> (TAO), is being developed by expanding on the terms in the zebrafish anatomical ontology.  To begin with, development of the TAO will concentrate on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology.  The [http://zfin.org/zf_info/anatomy/dict/sum.html zebrafish anatomical ontology] currently contains 236 skeletal system entities. 
 
-The multi-species anatomy ontology for ostariophysan fishes will be used in combination with the PATO ontology (see EQ format) to describe the naturally occurring phenotypes in non-model species (i.e. various ostariophysan fish species).  We are also developing a separate catalog of homology statements for entities within TAO.
+The multi-species anatomy ontology for ostariophysan fishes will be used in combination with the PATO ontology (see EQ format) to describe the naturally occurring phenotypes in non-model species (i.e. various ostariophysan fish species).  We are also developing a separate catalog of homology statements for entities within TAO, so that individual investigators may select particular relationships based on evidence.
 
 ====Taxonomic ontology====
 
-We will develop a taxonomic ontology based on the Catalog of Fishes and taxonomic experts in order to relate species with particular characters and states.  The taxonomic ontology will include nodes ancestral to the Ostariophysi as far back as the Vertebrata in order to associate certain anatomical terms with more inclusive clades than the Ostariophysi.  The taxonomic ontology will be edited using OBO-Edit, similar to the taxonomic ontologies based on NCBI. 
+Together with taxonomic experts, we are developing a taxonomic ontology (based on the Catalog of Fishes [ADD LINK]) in order to relate species with particular characters and states.  The taxonomic ontology will include nodes ancestral to the Ostariophysi as far back as the Vertebrata in order to associate certain anatomical terms with more inclusive clades than the Ostariophysi.  
 
-As part of this process, we will store statements of homology between entities, so that individual investigators may select particular relationships based on evidence.  Thus, for the first time, research questions can be addressed (for example, using the web-interface and query tools that we will build) that require simultaneous data-mining of phylogenetic and genetic data.  This approach will also promote integration across morphological systematic studies.  Our study, which matches zebrafish model organism genetic data with phylogenetic data from the lineage to which zebrafish belongs (Cypriniformes and ostariophysan relatives), can be generalized to other model organisms and their respective clades. We bring to this study a unique collaboration between evolutionary and model organism biologists that builds upon the strengths of two national centers, a model organism database, a Tree of Life study, a Research Coordination Network, and several community image databases.
 
 ====Fish Morphology====
 
