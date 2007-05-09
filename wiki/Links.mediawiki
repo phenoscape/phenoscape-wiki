@@ -11,6 +11,7 @@ title: Links
 '''[http://www.bioontology.org National Center for Biomedical Ontology]'''
 * [http://www.bioontology.org/ncbo/faces/pages/ontology_list.xhtml Ontologies from NCBO]  
 * [http://obofoundry.org/cgi-bin/detail.cgi?caro Common Anatomy Reference Ontology (CARO)] ([http://purl.org/obo/owl/CARO also available in OWL format])
+* [http://www.fruitfly.org/~cjm/obd/formats.html OBD Phenotype file formats] - Includes standards and schemas for PhenoSyntax and PhenoXML
 
 ===Fish resources===
 
