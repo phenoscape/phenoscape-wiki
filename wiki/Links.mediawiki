@@ -34,7 +34,7 @@ title: Links
 
 ==Bibliography==
 
-We also maintain a list of references on [http://www.connotea.org Connotea], using the tag "[http://www.connotea.org/tag/phenomap phenomap]". This list may be more up-to-date than the bibliograpgy below.
+We also maintain a list of references on [http://www.connotea.org Connotea], using the tag "[http://www.connotea.org/tag/phenomap phenomap]". This list may be more up-to-date than the bibliography below.
 
 Anyone can easily recommend references (and in fact any site or resource) to us simply by tagging it with "phenomap" in Connotea.
 
