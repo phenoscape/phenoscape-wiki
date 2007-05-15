@@ -2,7 +2,44 @@
 title: EQ Editor
 ---
 
-==EQ Editor requirements==
+=EQ Editor requirements=
+===Minimum data entry capabilities to begin EQ curation===
+* species name (free text until taxonomic ontology is available?)
+* EQ statement for character (i.e. Q should be an attribute rather than value)
+** E from fish anatomy (ontology ID)
+** Q from PATO (ontology ID)
+** E2 from fish anatomy (if Q is descendant of "relational quality of continuant" or "relational quality of occurrent") (ontology ID)
+* Q for value, either:
+** Q from PATO, descendant of Q in character (ontology ID)
+** measurement (number followed by unit name)
+* original character description (free text)
+* original state descriptions (free text)
+* publication/citation (DOI? older publications don't have DOI, do they?)
+* image or URL for image (image data or URL)
+* voucher specimen ID (format?)
+
+===Interface technological possibilities for EQ editor===
+
+''This list will need to driven by further discussion of the EQ editing requirements - for now it's just an illustration of some possibilities.''
+
+* Mesquite plug-in + extensions to NEXUS format
+** this would allow a curator to work locally and begin working with data before any database is created
+** data would be stored in extended NEXUS format files
+** would provide community value, since Mesquite is general and widely used
+
+* Custom web application
+** could have a more customized interface
+** interface will not depend on integrating into Mesquite; this might allow faster development
+** would a central database need to be set up to store the data?
+
+* Specialized additions to Phenote
+** already has lots of development behind it
+** does not work well with a matrix mindset (Phenote works with a list of value descriptions)
+** development for this purpose might not mesh well with more central uses of the application
+
+
+
+==EQ Editor requirements (February discussion)==
 
 ''These requirements are a first stab taken at the PI meeting at NESCent on Feb 26-27, 2007.''
 
