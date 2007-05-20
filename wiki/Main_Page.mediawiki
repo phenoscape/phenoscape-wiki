@@ -37,28 +37,7 @@ Together with taxonomic experts, we are developing a taxonomic ontology (based o
 
 ====Fish Morphology====
 
-Although the comparative anatomy of fishes has been documented in the literature for several hundred years, it is not available in a computable format.  A Data Curator will input morphological character data that is gleaned from the literature, culled by experts (see table below) and the [http://www.deepfin.org/ ichthyological community].  Our goal is to input approximately 4,000 morphological features in an “EQ” format ([[Media:TREE Mabee.pdf|Mabee et al. 2007a]]<!--; Mabee et al. 2007 in process-->) using a combination of ontologies.  
-
-{| border="1" cellspacing="0" cellpadding="3"
-|-
-! Year !! Taxon !! PI !! # Papers !!  # Characters !! # Taxa !! # Species, Genera, Families
-|-
-|1 || Cypriniformes || Mayden  || 72 || 1125* || 1000 || 3268,  321, 5
-|-
-|1 || Siluriformes || Lundberg  ||  150 || 1200** || 1000 || 2867,  446, 35
-|-
-|2 || Characiformes || Coburn  || 81 || 800 || 550 || 1674,  270, 18
-|-
-|2 || Gymnotiformes || Arratia ||  20 ||  200 || 50 || 134,  30, 5
-|-
-|3 || Gonorhynchiformes || Arratia || 40 || 75 || 20 || 37,  7, 4
-|-
-|3 || Clupeiformes || Hilton  || 60 || 380 || 125 || 364,  84, 5
-|-
-| || TOTAL ||  || 423 ||  37802 || 2745 || 8344, 1158, 72
-|}
-<nowiki>*</nowiki> includes original characters from CToL<br/>
-<nowiki>**</nowiki> All Catfish project (J. Lundberg)
+Although the comparative anatomy of fishes has been documented in the literature for several hundred years, it is not available in a computable format.  A Data Curator will input morphological character data that is gleaned from the literature, culled by experts and the [http://www.deepfin.org/ ichthyological community].  Our goal is to [[Morphology|input approximately 4,000 morphological features]] in an “EQ” format ([[Media:TREE Mabee.pdf|Mabee et al. 2007a]]<!--; Mabee et al. 2007 in process-->) using a combination of ontologies.
 
 ===Help needed===
 
