@@ -6,6 +6,8 @@ title: EQ for character matrices
 
 Encoding evolutionary character matrices using the EQ format (PATO formalism) currently presents some problems that may need to be resolved.  I will try to describe the issues here.
 
+===EQ statements vs. character matrices===
+
 The EQ format provides a "phenotype statement" documenting the phenotype of an individual organism (usually a genetic mutant).  The anatomical structure being described is represented by the Entity term chosen from an anatomical ontology, and the aspect of that structure being described is the Quality term, chosen from the PATO ontology.  These phenotype statements usually describe the value the mutant exhibits:
 
 E="dorsal fin" Q="round"   --> This fish has a rounded dorsal fin.
@@ -45,10 +47,17 @@ If these fish are different species, you can see that there are 2 values for the
 | fish2 || lobate || red || ?
 |}
 
-===Inferring attributes from values in PATO===
+So the problem is that the existing EQ system (and formats such as PhenoSyntax and PhenoXML) only stores a list of character states, and cannot group those states into characters.  Possible solutions to this problem for evolutionary data are: 1) Only storing character values and automatically generating characters when a matrix is desired, or 2) Finding a way to code and store EQ statements for both characters and character states.
+
+===1. Automatically inferring attributes from values in PATO===
 
 PATO does not distinguish qualities representing values from those representing attributes, except that values descend from attributes in the hierarchy.  But given an arbitrary value, it is not possible to automatically infer the attribute it is a value for.  Many values are children of other values - for example, "bright blue" and "dark blue" are children of "blue".  You need to traverse up two levels to reach the attribute "color".  Also, some terminal terms in PATO are not values - they are attributes for which no values are defined in PATO.  Examples are "acceleration" and "buoyancy".
 
 [[Image:Patofragment.png|center|500px]]
 
-In order to automatically generate a character matrix from EQ data in Phenote, Attribute and Value slims were added to PATO.  These are categories which are applied to each term in PATO, so that software can determine the use of each term.  In the PATO NEXUS-format exporter, the list of phenotype statements is grouped into characters based on whether they share a nearest common Attribute ancestor.  In order for this to work, the Attribute and Value slims must continue to be maintained as terms are added to PATO.  However no one else seems to be using these slims at this time.
+In order to automatically generate a character matrix from EQ data in Phenote, Attribute and Value slims were added to PATO.  These slims are categories which are applied to each term in PATO, so that software can determine the use of each term.  In the PATO NEXUS-format exporter, the list of phenotype statements is grouped into characters based on whether they share a nearest common Attribute ancestor.
+Problems:
+* In order for this to work, the Attribute and Value slims must continue to be maintained by curators as terms are added to PATO.  However no one else seems to be using these slims at this time.
+* A researcher may be interested in coding a character such as "fin morphology", with various species having values "lobate", "stubby", and "elongated".  However, without a way to store the desired character attribute, the current Phenote NEXUS exporter would see these phenotypes as states for the separate characters "fin shape", "fin size", and "fin length", respectively.  Conversely, if the researcher was generating a matrix by choosing an entity-attribute pair, what should happen if a given species has values for both "fin lobate" and "fin elongated" - i.e. would this be a different character state from another species which was only coded for "fin lobate"?
+
+===2. Storing EQ statements for both characters and character states===
