@@ -19,7 +19,6 @@ The character (a column header in the matrix) is composed of an Entity and a Qua
 Clearly, evolutionary characters and character states can be represented using an EQ system as mutant phenotypes are.  However there is a major difference in the two data models: the data formats being developed for mutant phenotype EQ statements store only a list of phenotype value statements, with no place to reference an independent character.  So you may have a data set like this:
 
 {| border="1" cellpadding="3"
-! Species
 ! Genotype
 ! Entity
 ! Quality
@@ -36,6 +35,7 @@ Clearly, evolutionary characters and character states can be represented using a
 If these fish are different species, you can see that there are 2 values for the character "dorsal fin shape", 1 value for "dorsal fin color", and 1 value for "pectoral fin color".  But nowhere in the existing EQ data formats is the character stored.  We had to infer it from the PATO hierarchy to generate a matrix like this:
 
 {| border="1" cellpadding="3"
+! Species
 ! dorsal fin shape
 ! dorsal fin color
 ! pectoral fin color
