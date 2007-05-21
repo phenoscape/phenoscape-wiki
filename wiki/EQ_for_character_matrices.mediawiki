@@ -47,7 +47,7 @@ If these fish are different species, you can see that there are 2 values for the
 
 So the problem is that the existing EQ system (and formats such as [http://www.fruitfly.org/~cjm/obd/formats.html PhenoSyntax and PhenoXML]) only stores a list of character states, and cannot group those states into characters.  Possible solutions to this problem for evolutionary data are: 1) Only storing character values and automatically generating characters when a matrix is desired, or 2) Finding a way to code and store EQ statements for both characters and character states.
 
-===1. Automatically inferring attributes from values in PATO===
+===1. Automatically inferring characters from character states using PATO===
 
 PATO does not distinguish qualities representing values from those representing attributes, except that values descend from attributes in the hierarchy.  But given an arbitrary value, it is not possible to automatically infer the attribute it is a value for.  Many values are children of other values - for example, "bright blue" and "dark blue" are children of "blue".  You need to traverse up two levels to reach the attribute "color".  Also, some terminal terms in PATO are not values - they are attributes for which no values are defined in PATO.  Examples are "acceleration" and "buoyancy".
 
