@@ -1,0 +1,9 @@
+---
+title: EQ for character matrices
+---
+
+Encoding evolutionary character matrices using the EQ format (PATO formalism) currently presents some problems that may need to be resolved.  I will try to describe the issues here.
+
+The EQ format provides a "phenotype statement" documenting the phenotype of an individual organism (usually a genetic mutant).  The anatomical structure being described is represented by the Entity term chosen from an anatomical ontology, and the aspect of that structure being described is the Quality term, chosen from the PATO ontology.  These phenotype statements usually describe the value the mutant exhibits:
+
+E=eye Q=red   --> This fly has red eyes.
