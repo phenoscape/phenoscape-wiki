@@ -11,3 +11,4 @@ The EQ format provides a "phenotype statement" documenting the phenotype of an i
 E=eye Q=red   --> This fly has red eyes.
 
 Evolutionary phenotype descriptions are often formated as a character matrix.  For a given set of species, a list of distinguishing characters is formulated, and species-specific value for each character is entered into the matrix.  In this situation, each character (column in the matrix) represents an entity and attribute, and the character state cells contain values.  Here is a graphical depiction of the relationship between evolutionary characters and the components of the EQ system:
+[[Image:EQmatrix.png|center|500px]]
