@@ -32,7 +32,7 @@ Clearly, evolutionary characters and character states can be represented using a
 | fish1 || pectoral fin || blue
 |}
 
-If these fish are different species, you can see that there are 2 values for the character "dorsal fin shape", 1 value for "dorsal fin color", and 1 value for "pectoral fin color".  But nowhere in the existing EQ data formats is the character stored.  We had to infer it from the PATO hierarchy to generate a matrix like this:
+If these fish are different species, you can see that there are 2 values for the character "dorsal fin shape", 1 value for "dorsal fin color", and 1 value for "pectoral fin color".  But nowhere in the existing EQ data formats is the character stored.  We have to infer it from the PATO hierarchy to generate a matrix like this:
 
 {| border="1" cellpadding="3"
 ! Species
