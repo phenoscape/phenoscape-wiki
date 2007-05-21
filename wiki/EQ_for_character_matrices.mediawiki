@@ -44,3 +44,7 @@ If these fish are different species, you can see that there are 2 values for the
 |-
 | fish2 || lobate || red || ?
 |}
+
+===Inferring attributes from values in PATO===
+
+PATO does not distinguish qualities representing values from those representing attributes, except that values descend from attributes in the hierarchy.  But given an arbitrary value, it is not possible to automatically infer the attribute it is a value for.  Many values are children of other values - for example, "bright blue" and "dark blue" are children of "blue".  You need to traverse up two levels to reach the attribute "color".  Also, some terminal terms in PATO are not values - they are attributes for which no values are defined in PATO.  Examples are "acceleration" and "buoyancy".
