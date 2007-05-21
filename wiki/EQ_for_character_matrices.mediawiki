@@ -8,7 +8,8 @@ Encoding evolutionary character matrices using the EQ format (PATO formalism) cu
 
 The EQ format provides a "phenotype statement" documenting the phenotype of an individual organism (usually a genetic mutant).  The anatomical structure being described is represented by the Entity term chosen from an anatomical ontology, and the aspect of that structure being described is the Quality term, chosen from the PATO ontology.  These phenotype statements usually describe the value the mutant exhibits:
 
-E=eye Q=red   --> This fly has red eyes.
+E="dorsal fin" Q="round"   --> This fish has a rounded dorsal fin.
 
 Evolutionary phenotype descriptions are often formated as a character matrix.  For a given set of species, a list of distinguishing characters is formulated, and species-specific value for each character is entered into the matrix.  In this situation, each character (column in the matrix) represents an entity and attribute, and the character state cells contain values.  Here is a graphical depiction of the relationship between evolutionary characters and the components of the EQ system:
+
 [[Image:EQmatrix.png|center|500px]]
