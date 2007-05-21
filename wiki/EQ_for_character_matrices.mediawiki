@@ -61,3 +61,8 @@ Problems:
 * A researcher may be interested in coding a character such as "fin morphology", with various species having values "lobate", "stubby", and "elongated".  However, without a way to store the desired character attribute, the current Phenote NEXUS exporter would see these phenotypes as states for the separate characters "fin shape", "fin size", and "fin length", respectively.  Conversely, if the researcher was generating a matrix by choosing an entity-attribute pair, what should happen if a given species has values for both "fin lobate" and "fin elongated" - i.e. would this be a different character state from another species which was only coded for "fin lobate"?
 
 ===2. Storing EQ statements for both characters and character states===
+
+It would be possible to store EQ statements for both characters (Entity+Attribute) and character states (maybe just Value), either by defining a custom data format or by extending PhenoXML and PhenoSyntax.  Probably, given a character such as "dorsal fin color", valid values would only be PATO descendants of "color", such as "red" or "bright blue".  However this approach may have some problems as well:
+* It would require development of a data format and prevent the use of the current NCBO standards.
+* Such extensions to the PhenoXML standard may not be desired by the current developers and users.
+* If an ancestor-descendant relationship between attributes and values is desired, this coding would not be robust to future rearrangements of PATO (where a value may not descend from a particular attribute in the future, and so becomes an invalid statement).
