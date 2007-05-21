@@ -14,7 +14,7 @@ Evolutionary phenotype descriptions are often formatted as a character matrix.  
 
 [[Image:EQmatrix.png|center|500px]]
 
-The character (a column header in the matrix) is composed of an Entity and a Quality representing an attribute (e.g. "shape").  Values for this character are entered into the cells (e.g. "round).  So you can see that the Q of EQ is represented in both the character and the character state.  When EQ is used to describe mutant phenotypes, typically only the value is stated, since one can traverse back through the PATO hierarchy to find ancestor terms representing attributes - "round" is a child of "shape".
+The character (a column header in the matrix) is composed of an Entity, and a Quality representing an attribute (e.g. "shape").  Values for this character are entered into the cells (e.g. "round").  So you can see that the Q of EQ is represented in both the character and the character state.  When EQ is used to describe mutant phenotypes, typically only the value is stated, since one can traverse back through the PATO hierarchy to find ancestor terms representing attributes - "round" is a child of "shape".
 
 Clearly, evolutionary characters and character states can be represented using an EQ system as mutant phenotypes are.  However there is a major difference in the two data models: the data formats being developed for mutant phenotype EQ statements store only a list of phenotype value statements, with no place to reference an independent character.  So you may have a data set like this:
 
