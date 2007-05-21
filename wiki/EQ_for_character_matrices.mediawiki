@@ -10,6 +10,24 @@ The EQ format provides a "phenotype statement" documenting the phenotype of an i
 
 E="dorsal fin" Q="round"   --> This fish has a rounded dorsal fin.
 
-Evolutionary phenotype descriptions are often formated as a character matrix.  For a given set of species, a list of distinguishing characters is formulated, and species-specific value for each character is entered into the matrix.  In this situation, each character (column in the matrix) represents an entity and attribute, and the character state cells contain values.  Here is a graphical depiction of the relationship between evolutionary characters and the components of the EQ system:
+Evolutionary phenotype descriptions are often formatted as a character matrix.  For a given set of species, a list of distinguishing characters is formulated, and species-specific value for each character is entered into the matrix.  In this situation, each character (column in the matrix) represents an entity and attribute, and the character state cells contain values.  Here is a graphical depiction of the relationship between evolutionary characters and the components of the EQ system:
 
 [[Image:EQmatrix.png|center|500px]]
+
+The character (a column header in the matrix) is composed of an Entity and a Quality representing an attribute (e.g. "shape").  Values for this character are entered into the cells (e.g. "round).  So you can see that the Q of EQ is represented in both the character and the character state.  When EQ is used to describe mutant phenotypes, typically only the value is stated, since one can traverse back through the PATO hierarchy to find ancestor terms representing attributes - "round" is a child of "shape".
+
+Clearly, evolutionary characters and character states can be represented using an EQ system as mutant phenotypes are.  However there is a major difference in the two data models: the data formats being developed for mutant phenotype EQ statements store only a list of phenotype value statements, with no place to reference an independent character.  So if you have this data set:
+
+{| border="1" cellpadding="3"
+! Genotype
+! Entity
+! Quality
+|-
+| fish1 || dorsal fin || round
+|-
+| fish2 || dorsal fin || lobate
+|-
+| fish2 || dorsal fin || red
+|-
+| fish1 || pectoral fin || blue
+|}
