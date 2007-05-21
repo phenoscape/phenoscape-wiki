@@ -2,8 +2,6 @@
 title: EQ for character matrices
 ---
 
-''This document is under construction... --[[User:Jpb15|Jpb15]] 12:13, 21 May 2007 (EDT)''
-
 Encoding evolutionary character matrices using the [http://www.bioontology.org/wiki/index.php/PATO:About EQ format] (PATO formalism) currently presents some problems that may need to be resolved.  I will try to describe the issues here.
 
 ===EQ statements vs. character matrices===
