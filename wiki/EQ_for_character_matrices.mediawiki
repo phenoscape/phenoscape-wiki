@@ -10,7 +10,7 @@ The EQ format provides a "phenotype statement" documenting the phenotype of an i
 
 E="dorsal fin" Q="round"   --> This fish has a rounded dorsal fin.
 
-Evolutionary phenotype descriptions are often formatted as a character matrix.  For a given set of species, a list of distinguishing characters is formulated, and species-specific value for each character is entered into the matrix.  In this situation, each character (column in the matrix) represents an entity and attribute, and the character state cells contain values.  Here is a graphical depiction of the relationship between evolutionary characters and the components of the EQ system:
+Evolutionary phenotype descriptions are often formatted as a character matrix.  For a given set of species, a list of distinguishing characters is formulated, and the species-specific value for each character is entered into the matrix.  In this situation, each character (column in the matrix) represents an entity and attribute, and the character state cells contain values.  Here is a graphical depiction of the relationship between evolutionary characters and the components of the EQ system:
 
 [[Image:EQmatrix.png|center|500px]]
 
