@@ -45,7 +45,7 @@ If these fish are different species, you can see that there are 2 values for the
 | fish2 || lobate || red || ?
 |}
 
-So the problem is that the existing EQ system (and formats such as [http://www.fruitfly.org/~cjm/obd/formats.html PhenoSyntax and PhenoXML]) only stores a list of character states, and cannot group those states into characters.  Storing only character states would be perfectly adequate for most of the data integration benefits provided by the PhenoMap project.  However,    Possible solutions to this problem for evolutionary data are: 1) Only storing character values and automatically generating characters when a matrix is desired, or 2) Finding a way to code and store EQ statements for both characters and character states.
+So the problem is that the existing EQ system (and formats such as [http://www.fruitfly.org/~cjm/obd/formats.html PhenoSyntax and PhenoXML]) only stores a list of character states, and cannot group those states into characters.  Storing only character states would be perfectly adequate for most of the data integration benefits provided by the PhenoMap project.  However, evolutionary data is often described in the character+character state framework, and a few reasons why we may want to preserve this are listed below.  Possible solutions to this problem for evolutionary data are: 1) Only storing character values and automatically generating characters when a matrix is desired, or 2) Finding a way to code and store EQ statements for both characters and character states.
 
 ===1. Automatically inferring characters from character states using PATO===
 
