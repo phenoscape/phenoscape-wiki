@@ -4,6 +4,8 @@ title: EQ for character matrices
 
 Encoding evolutionary character matrices using the [http://www.bioontology.org/wiki/index.php/PATO:About EQ format] (PATO formalism) currently presents some problems that may need to be resolved.  I will try to describe the issues here.
 
+==Background==
+
 ===EQ statements vs. character matrices===
 
 The EQ format provides a "phenotype statement" documenting the phenotype of an individual organism (usually a genetic mutant).  The anatomical structure being described is represented by the Entity term chosen from an anatomical ontology, and the aspect of that structure being described is the Quality term, chosen from the PATO ontology.  These phenotype statements usually describe the value the mutant exhibits:
@@ -47,7 +49,9 @@ If these fish are different species, you can see that there are 2 values for the
 
 So the problem is that the existing EQ system (and formats such as [http://www.fruitfly.org/~cjm/obd/formats.html PhenoSyntax and PhenoXML]) only stores a list of character states, and cannot group those states into characters.  Storing only character states would be perfectly adequate for most of the data integration benefits provided by the PhenoMap project.  However, evolutionary data is often described in the character+character state framework, and a few reasons why we may want to preserve this are listed below.  Possible solutions to this problem for evolutionary data are: 1) Only storing character values and automatically generating characters when a matrix is desired, or 2) Finding a way to code and store EQ statements for both characters and character states.
 
-===1. Automatically inferring characters from character states using PATO===
+==Possible solutions==
+
+===Automatically inferring characters from character states using PATO===
 
 PATO does not distinguish qualities representing values from those representing attributes, except that values descend from attributes in the hierarchy.  But given an arbitrary value, it is not possible to automatically infer the attribute it is a value for.  Many values are children of other values - for example, "bright blue" and "dark blue" are children of "blue".  You need to traverse up two levels to reach the attribute "color".  Also, some terminal terms in PATO are not values - they are attributes for which no values are defined in PATO.  Examples are "acceleration" and "buoyancy".
 
@@ -59,7 +63,7 @@ Problems:
 * A researcher may be interested in coding a character such as "fin morphology", with various species having values "lobate", "stubby", and "elongated".  However, without a way to store the desired character attribute, the current Phenote NEXUS exporter would see these phenotypes as states for the separate characters "fin shape", "fin size", and "fin length", respectively ("morphology" is a deeper ancestor of these 3 attributes).  Conversely, if the researcher was generating a matrix from a database of EQ statements by choosing an entity-attribute pair such as "fin morphology", what should happen if a given species has values for both "fin lobate" and "fin elongated" - i.e. would this be a different character state from another species which was only coded for "fin lobate"?
 * The original publication may have valuable textual information describing the character, independent of particular character states.  We may want a place to preserve this.
 
-===2. Storing EQ statements for both characters and character states===
+===Storing EQ statements for both characters and character states===
 
 It would be possible to store EQ statements for both characters (Entity+Attribute) and character states (maybe just Value), either by defining a custom data format or by extending PhenoXML and PhenoSyntax.  Probably, given a character such as "dorsal fin color", valid values would only be PATO descendants of "color", such as "red" or "bright blue".  However this approach may have some problems as well:
 * It would require development of a specialized data model and prevent the use of the current NCBO standards.
