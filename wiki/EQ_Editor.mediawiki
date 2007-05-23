@@ -3,95 +3,32 @@ title: EQ Editor
 ---
 
 =EQ Editor requirements=
-===Minimum data entry capabilities to begin EQ curation===
-* species name (free text until taxonomic ontology is available?)
-* EQ statement for character (i.e. Q should be an attribute rather than value)
-** E from fish anatomy (ontology ID)
-** Q from PATO (ontology ID)
-** E2 from fish anatomy (if Q is descendant of "relational quality of continuant" or "relational quality of occurrent") (ontology ID)
-* Q for value, either:
-** Q from PATO, descendant of Q in character (ontology ID)
-** measurement (number followed by unit name)
-* original character description (free text)
-* original state descriptions (free text)
-* publication/citation (DOI? older publications don't have DOI, do they?)
-* image or URL for image (image data or URL)
-* voucher specimen ID (format?)
 
-===Interface technological possibilities for EQ editor===
+The EQ Editor will be used by curators to annotate phenotypic descriptions of Ostariophysi using EQ syntax and ontologies.
 
-''This list will need to driven by further discussion of the EQ editing requirements - for now it's just an illustration of some possibilities.''
+The curator will use the EQ Editor to code phenotypic data from an existing publication into the EQ format.  This data consists of descriptions of character state values for corresponding species.  Each species will be represented by values for multiple different characters.  A published character state description may contain: the species or higher taxonomic specification, a textual description of the character state value, reference to a voucher specimen for this description, an image showing the character.  The character state may be a value for a separately defined character, which may have its own descriptive text in the publication (especially if the data is in in a species-by-character matrix).
 
-* Mesquite plug-in + extensions to NEXUS format
-** this would allow a curator to work locally and begin working with data before any database is created
-** data would be stored in extended NEXUS format files
-** would provide community value, since Mesquite is general and widely used
+===Workflow===
 
-* Custom web application
-** could have a more customized interface
-** interface will not depend on integrating into Mesquite; this might allow faster development
-** would a central database need to be set up to store the data?
+The publication being coded may contain data in one of a few different formats.  The given data format may suggest its own style of workflow.  These publication types include 3 main forms:
 
-* Specialized additions to Phenote
-** already has lots of development behind it
-** does not work well with a matrix mindset (Phenote works with a list of value descriptions)
-** development for this purpose might not mesh well with more central uses of the application
+# A data matrix with multiple species and multiple characters.  There is a character state value for each cell in this matrix.
+#A single species description of values for many characters.
+# Description of a single character for many species (perhaps less common than the other two formats?).  If focusing on a single character the data may come from multiple publications.
 
+It seems like scenarios 2 and 3 can be treated as special cases of scenario 1.  For each character, an interface is required for choosing the Entity and Quality from their respective ontologies, and entering free text such as the original character descriptions.
 
+Since many species will share common values of character states, the interface should have a way of choosing previously entered character states, perhaps by separately enumerating the possible values for a character.  It is not clear whether EQ coding should be performed for characters as well as character states - see "EQ for character matrices".
 
-==EQ Editor requirements (February discussion)==
+At the [[WG:PI_Meeting_26feb07|February 2007 PI meeting]], some features of the workflow were discussed which may be most useful when the central database of character states is in place, such as:
+* see what is already present about a particular character or "similar" characters (based on related entities or qualities)
+* see what values have been previously assigned for a character (from other publications)
+* view conflicting character states from different publications, choose to keep both or reconcile
 
-''These requirements are a first stab taken at the PI meeting at NESCent on Feb 26-27, 2007.''
+One possible workflow would be a curator dealing with a single publication during a session of working with the EQ Editor.  Steps might be:
 
-===Morphologist Workflow===
-
-# One reference publication, many species, several characters
-#* Have reference publication about taxonomic group, with figures, for skeletal characters
-#* May proceed section by section; need to specify section, or figure, or generally part of a reference
-#* Need to denote species, choose anatomical entity, choose quality, such as anterior margin, specify value
-#* May have questions, or need to input free text comments, e.g., about uncertainties
-# Single species, single publication, multiple characters
-#* Might also have a paper describing a single species
-#* Curator would use a specimen to confirm accuracy of annotation 
-# Many species, many publications, single character 
-#* May also use a character survey
-#* Would use many different papers
-#* Would span many different species
-# Specimen may be a fossil record
-#* Need to record geological time
-#* Will do that later
-# Specimen-based annotation is not part of the project
-
-* Need to reference "traditional" character: should be able to verbatim quote original character description, also give publication reference; there are often differing, even conflicting, definitions for the same character 
-* Need to be able to see what is already present about a particular character; may also need to look at "similar" characters (as defined by, e.g., characters using sibling terms and sibling qualities)
-* Need to see the values that have been assigned already for a character
-
-* There may be conflicting character states reported in different publications; the data curator will decide whether these conflicts need to be kept or can be reconciled.
-* Verification of characters descriptions and state values by Data Curator or even Morphologist, e.g., using actual specimen(s), and attributing the verification
-
-* Want all annotations to be associated with voucher specimens (may only be a photograph though)
-
-===UI requirements===
-
-For example, the Fink & Fink paper
-
-* start by setting the reference we will be working with
-* define a set of species we are going to work on
-* select skeletal region as a focus, e.g. the gill arch region, or tail fin
-* look at what has already been annotated for this region, as a character-by-taxon matrix
-** expect several hundred taxa, and between 50 and 200 characters, depending on how feature-rich the region is
-** a source paper may not give the character at the species level, so the taxon may be a higher-level taxon 
-* if characters are already present, just add the reference
-* otherwise define new character
-** choose existing entity term, initially this will be an anatomy term; term may not exist yet in which case we need to work with a provisional term
-** choose attribute term from PATO; term may not exist yet in which case we need to work with a provisional term
-** denote original character description, with reference (which will probably be the paper we are working with)
-* edit/view character: will see the images that have been used for the different states (values) that have been assigned 
-* assign/edit character states using a table with only the set of species chosen earlier, and one or more characters that correspond to the original character definition
-** denote original character state description, with reference (which will probably be the paper we are working with)
-
-* Taxonomic naming challenges: need to map original names to current classification; should never have two distinct rows for what is currently considered (as defined by the taxonomic ontology) the same species
-
-===Database requirements===
-
-* Need to have references to digital information, such as specimen record and image
+# Create a new EQ Editor document.
+# Enter document-wide data, such as publication information including author, title, journal, etc.
+# Create a list of taxa which are described in the publication.  If a taxonomic ontology is available, the taxa could be chosen from the ontology; otherwise, simply entered as free text (are other forms of identifier available for fish species?)
+# Create a list of characters described in the publication.  For each character, choose an Entity from the anatomy ontology and a Quality from PATO.  If the Quality is a relational quality, choose another Entity to which it refers.  Because this is a character, the quality should be an Attribute, not a Value.  For each character, the curator can also add free text containing the original character title and notes.
+# After taxa and characters have been defined, the curator can begin annotating character states for each character for each species.  For each character state, the curator will choose a value from a list of the Value descendants in PATO of the Attribute specified in the character.  The curator can also add free text containing the original character state title and notes.  Each character state can also be annotated with an image URL and a voucher specimen ID.
