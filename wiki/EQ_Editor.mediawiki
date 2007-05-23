@@ -40,7 +40,7 @@ At the [[WG:PI_Meeting_26feb07|February 2007 PI meeting]], some features of the 
 
 ===Data Model===
 
-The following are the essential data elements to be captured by the EQ Editor (format is in parentheses):
+The following are the essential data elements to be captured by the EQ Editor (format is in parentheses).  There is some additional discussion of how to treat character definitions at [[EQ_for_character_matrices|"EQ for character matrices"]].
 
 * species name (free text until taxonomic ontology is available?)
 * EQ statement for character (i.e. Q should be an attribute rather than value)
