@@ -60,6 +60,6 @@ The following are essential data elements to be captured by the EQ Editor (forma
 
 Some technology choices may figure into the application requirements, particularly if integration with another application or system is a desired feature.  Possibilities include:
 * Implement EQ editing as a Mesquite plug-in, providing some additional interface to the character editing already in Mesquite.  This would require extensions to the NEXUS format for storing ontology term information.
-* Extending [http://www.phenote.org/ Phenote] with any additional functionality that is required.
+* Extending [http://www.phenote.org/ Phenote] with any additional functionality that is required.  Phenote is being actively developed by the model organism community, but deals with a list of unordered EQ statements rather than a species-by-character matrix.
 * Web-based application.
 * Components from all of the above.
