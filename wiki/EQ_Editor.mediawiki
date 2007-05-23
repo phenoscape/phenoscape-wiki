@@ -57,3 +57,9 @@ The following are the essential data elements to be captured by the EQ Editor (f
 * voucher specimen ID (format?)
 
 ===Technology===
+
+Some technology choices may figure into the application requirements, particularly if integration with another application or system is a desired feature.  Possibilities include:
+* Implement EQ editing as a Mesquite plug-in, providing some additional interface to the character editing already in Mesquite.  This would require extensions to the NEXUS format for storing ontology term information.
+* Extending [http://www.phenote.org/ Phenote] with any additional functionality that is required.
+* Web-based application.
+* Components from all of the above.
