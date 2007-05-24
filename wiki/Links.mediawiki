@@ -43,6 +43,8 @@ Anyone can easily recommend references (and in fact any site or resource) to us 
 
 ===Reprints===
 
+* Haendel, M.A., Neuhaus, F., Osumi-Sutherland, D.S., Mabee, P.M., Mejino J.L.V., Mungall, C.J., and Smith, B. (2008) [[Media:Caroreprint.pdf|CARO - The Common Anatomy Reference Ontology]]. ''In:'' Albert Burger, Duncan Davidson and Richard Baldock (Editors): ''Anatomy Ontologies for Bioinformatics: Principles and Prac- 
+tice''. ISBN 978-1-84628-884-5.
 * Mabee PM et al (2007). [[Media:TREE Mabee.pdf|Phenotype ontologies: the bridge between genomics and evolution.]] Trends Ecol Evol <cite>mabee2007</cite>
 * Schulz et al (2007). [http://www.biomedcentral.com/1471-2105/8/134 Spatial location and its relevance for terminological inferences in bio-ontologies.] BMC Bioinformatics 2007, 8:134 [http://dx.doi.org/10.1186/1471-2105-8-134 doi:10.1186/1471-2105-8-134]
 
