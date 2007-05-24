@@ -9,8 +9,10 @@ title: Links
 ===Ontologies===
 
 '''[http://www.bioontology.org National Center for Biomedical Ontology]'''
-* [http://www.bioontology.org/ncbo/faces/pages/ontology_list.xhtml Ontologies from NCBO]  
+* [http://www.bioontology.org/ncbo/faces/pages/ontology_list.xhtml Ontologies from NCBO]
+* [http://obo.cvs.sourceforge.net/*checkout*/obo/obo/ontology/anatomy/gross_anatomy/animal_gross_anatomy/fish/zebrafish_anatomy.obo Ontology of Zebrafish Anatomy and Development]
 * [http://obofoundry.org/cgi-bin/detail.cgi?caro Common Anatomy Reference Ontology (CARO)] ([http://purl.org/obo/owl/CARO also available in OWL format])
+* [http://www.bioontology.org/wiki/index.php/CL:Aligning_species-specific_anatomy_ontologies_with_CL Maintaining inter-ontology relations between species specific anatomy ontologies and CL/GO/CARO]
 * [http://www.fruitfly.org/~cjm/obd/formats.html OBD Phenotype file formats] - Includes standards and schemas for PhenoSyntax and PhenoXML
 
 '''Data typed using phenotype ontology'''
