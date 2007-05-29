@@ -52,7 +52,7 @@ The following are essential data elements to be captured by the EQ Editor (forma
 ** measurement (number followed by unit name)
 * original character description (free text)
 * original state descriptions (free text)
-* publication/citation (DOI? older publications don't have DOI, do they?)
+* publication/citation (DOI? older publications don't have DOI, do they? Another possibility is [http://iphylo.blogspot.com/2007/05/openurl-and-spiders.html SICI])
 * image or URL for image (image data or URL)
 * voucher specimen ID (format?)
 
