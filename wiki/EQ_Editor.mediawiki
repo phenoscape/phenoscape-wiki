@@ -16,7 +16,8 @@ The publication being coded may contain data in one of a few different formats. 
 
 # A data matrix with multiple species and multiple characters.  There is a character state value for each cell in this matrix.
 #A single species description of values for many characters.
-# Description of a single character for many species (perhaps less common than the other two formats?).  If focusing on a single character the data may come from multiple publications.
+# Description of a single character for many species (perhaps less common than the first two formats?).  If focusing on a single character the data may come from multiple publications.
+# Description of many characters for many species and higher taxonomic levels; no character-by-taxon matrix published.
 
 It seems like scenarios 2 and 3 can be treated as special cases of scenario 1.  For each character, an interface is required for choosing the Entity and Quality from their respective ontologies, and entering free text such as the original character descriptions, as well as other [[#Data_Model|relevant data]].
 
