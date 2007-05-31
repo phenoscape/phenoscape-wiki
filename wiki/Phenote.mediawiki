@@ -7,3 +7,9 @@ title: Phenote
 Here is sample data in the default configuration:
 
 [[Image:Phenote-default.png|center|700px]]
+
+The input fields in Phenote are highly configurable.  Here is a sample of how Phenote might be configured for the PhenoMap project:
+
+[[Image:Phenote-phenomap.png|center|700px]]
+
+This configuration file can be downloaded here.  Phenote configurations are described in the [http://www.phenote.org/content/howtos/customize.shtml documentation].
