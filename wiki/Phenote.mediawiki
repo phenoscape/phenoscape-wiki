@@ -1,0 +1,5 @@
+---
+title: Phenote
+---
+
+[http://www.phenote.org/ Phenote] is being used for phenotype annotation of within model-organism projects.  It allows the creation of a simple list of phenotype statements, rather than a species-by-character matrix.
