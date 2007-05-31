@@ -12,4 +12,4 @@ The input fields in Phenote are highly configurable.  Here is a sample of how Ph
 
 [[Image:Phenote-phenomap.png|center|700px]]
 
-This configuration file can be downloaded here.  Phenote configurations are described in the [http://www.phenote.org/content/howtos/customize.shtml documentation].
+This configuration file can be downloaded [[Media:phenomap.cfg.zip|here]].  Phenote configurations are described in the [http://www.phenote.org/content/howtos/customize.shtml documentation].
