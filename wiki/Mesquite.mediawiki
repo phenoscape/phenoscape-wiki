@@ -1,0 +1,5 @@
+---
+title: Mesquite
+---
+
+[http://mesquiteproject.org/mesquite/mesquite.html Mesquite] is "software for evolutionary biology, designed to help biologists analyze comparative data about organisms."  Mesquite is written in Java and supports extension via third-party modules.  It natively provides editing of evolutionary character matrices:
