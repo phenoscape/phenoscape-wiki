@@ -52,4 +52,6 @@ Anyone can easily recommend references (and in fact any site or resource) to us 
 ===References===
 <biblio>
 #mabee2007 pmid=17416439
+#rosen1974 Rosen DE. 1974. ''Phylogeny and zoogeography of salmoniform fishes and relationships of Lepidogalaxias salamandroides.'' Bulletin of the American Museum of Natural History 153:267-325.
+#finkfink1981 Fink SV, Fink WL. 1981. ''Interrelationships of the ostariophysan fishes (Teleostei)''. Zoological Journal of the Linnean Society 72(4):297-353.
 </biblio>
