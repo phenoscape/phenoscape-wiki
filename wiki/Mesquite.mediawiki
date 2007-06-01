@@ -10,4 +10,4 @@ Mesquite support annotations for characters, character states, and taxa, includi
 
 [[Image:Mesquite-characters.png|frame|Mesquite characters list|center|700px]]
 
-[[Image:Phenote-states.png|center|700px]]
+[[Image:Phenote-states.png|frame|Mesquite character states list|center|700px]]
