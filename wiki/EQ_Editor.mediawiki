@@ -40,7 +40,7 @@ One possible workflow would be a curator dealing with a single publication durin
 * What will be done (in the immediate term) with the annotations produced by the EQ Editor?  Will they be stored in separate documents, or compiled into a central repository?
 * Is a "post-composition" capability required?
 
-====Features probably suited for EQSYTE====
+====Features perhaps suited for EQSYTE====
 
 At the [[WG:PI_Meeting_26feb07|February 2007 PI meeting]], some features of the workflow were discussed which may be most useful when the central database of character states is in place, such as:
 * see what is already present about a particular character or "similar" characters (based on related entities or qualities)
