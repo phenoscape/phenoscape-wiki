@@ -39,6 +39,7 @@ One possible workflow would be a curator dealing with a single publication durin
 * What should the user be able to do if there is not an appropriate term in the ontology?
 * What will be done (in the immediate term) with the annotations produced by the EQ Editor?  Will they be stored in separate documents, or compiled into a central repository?
 * Is a "post-composition" capability required?
+* Need to add a button to say "Need a new term"
 
 ====Features perhaps suited for EQSYTE====
 
