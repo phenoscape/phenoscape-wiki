@@ -58,7 +58,6 @@ The following are essential data elements to be captured by the EQ Editor (forma
 ** Q from PATO (ontology ID)
 ** measurement (number followed by unit name)
 ** E2 from fish anatomy (if Q is descendant of "relational quality of continuant" or "relational quality of occurrent") (ontology ID)
-
 ** May be polymorphic within a species/taxon
 * original character description (free text)
 * original state descriptions (free text)
