@@ -64,6 +64,7 @@ The following are essential data elements to be captured by the EQ Editor (forma
 * publication/citation (DOI? older publications don't have DOI, do they? Another possibility is [http://iphylo.blogspot.com/2007/05/openurl-and-spiders.html SICI])
 * image or URL for image (image data or URL)
 * voucher specimen ID (format?)
+* evidence statement (confirmation by taxonomic expert, etc.)
 
 ===Technology===
 
