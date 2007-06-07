@@ -14,5 +14,6 @@ The taxonomic ontology is not yet available, but it will be generated from the [
 
 ===On your desktop===
 
+You can download the ontologies as OBO files from the above web sites.  You can download and install [http://oboedit.org/ OBO-Edit] to view in a desktop application.
 
 ==Annotating phenotypes==
