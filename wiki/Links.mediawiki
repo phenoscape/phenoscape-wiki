@@ -36,6 +36,7 @@ title: Links
 ===Software===
 
 * [http://www.phenote.org Phenote]
+* [http://oboedit.org/ OBO-Edit]
 
 ==Bibliography==
 
