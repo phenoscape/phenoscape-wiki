@@ -18,4 +18,4 @@ You can download the ontologies as OBO files from the above web sites.  You can 
 
 ==Annotating phenotypes==
 
-We are working on a specialized [[EQ Editor]] for data curation.  Until it is ready for use, EQ annotations can be created using [http://www.phenote.org/ Phenote].  You can download a customized [[Media:phenomap.cfg.zip|Phenote configuration file]] which is suited to our data.  See the [http://www.phenote.org/content/howtos/customize.shtml instructions] on how to use this configuration.
+We are working on a specialized [[EQ Editor]] for data curation.  Until it is ready for use, EQ annotations can be created using [http://www.phenote.org/ Phenote].  You can download a customized [[Media:phenomap.cfg.zip|Phenote configuration file]] which is suited to our data.  See the [http://www.phenote.org/content/howtos/customize.shtml instructions] on how to use a custom configuration.
