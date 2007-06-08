@@ -26,6 +26,38 @@ We are working on a specialized [[EQ Editor]] for data curation.  Until it is re
 ===Phenote===
 
 [http://www.phenote.org/ Phenote] is used by ZFIN and FlyBase for mutant phenotype annotation.
+
+====Installation and start up====
+
 * Launch Phenote using the [http://www.phenote.org/phenote/latest/phenote.jnlp webstart link].
 * You can download a customized [[Media:phenomap.cfg.zip|Phenote configuration file]] which is suited to our data.  See the [http://www.phenote.org/content/howtos/customize.shtml instructions] on how to use a custom configuration.
 * Save your files using the PhenoSyntax file format.
+
+====Usage====
+
+The following table describes the entry fields in the PhenoMap configuration.  Phenote does not force you to fill in them all, but see the table for when to use each field.
+
+{| border="1" cellspacing="0" cellpadding="3"
+! Field
+! Usage
+|-
+| Publication || ''forthcoming''
+|-
+| Taxon || ''forthcoming''
+|-
+| Specimen || ''forthcoming''
+|-
+| Entity || ''forthcoming''
+|-
+| Quality || ''forthcoming''
+|-
+| Add'l Entity || ''forthcoming''
+|-
+| Numerical Value || ''forthcoming''
+|-
+| Unit || ''forthcoming''
+|-
+| Original Description || ''forthcoming''
+|-
+| Image URI || ''forthcoming''
+|}
