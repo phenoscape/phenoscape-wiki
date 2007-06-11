@@ -41,25 +41,25 @@ The following table describes the entry fields in the PhenoMap configuration.  P
 ! Field
 ! Usage
 |-
-| Publication || ''forthcoming''
+| Publication || The publication describing the character state
 |-
-| Taxon || ''forthcoming''
+| Taxon || Genus & species
 |-
-| Specimen || ''forthcoming''
+| Specimen || museum lot ID
 |-
-| Entity || ''forthcoming''
+| Entity || term from anatomy ontology (currently using zebrafish)
 |-
-| Quality || ''forthcoming''
+| Quality || term from PATO - should be "value" term, unless you are filling in an absolute measurement (e.g. "length")
 |-
-| Add'l Entity || ''forthcoming''
+| Add'l Entity || term from anatomy ontology - only use if the Quality term descends from "relational quality of continuant"
 |-
-| Numerical Value || ''forthcoming''
+| Numerical Value || absolute measurement - useful as value for terms such as "length"
 |-
-| Unit || ''forthcoming''
+| Unit || unit of measurement, if Numerical Value is filled in
 |-
-| Original Description || ''forthcoming''
+| Original Description || textual description of character state in publication
 |-
-| Image URI || ''forthcoming''
+| Image URI || web link to an image, if available
 |}
 
 ==Ontology change requests==
