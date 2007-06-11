@@ -61,3 +61,9 @@ The following table describes the entry fields in the PhenoMap configuration.  P
 |-
 | Image URI || ''forthcoming''
 |}
+
+==Ontology change requests==
+
+Here are links to ontology term trackers:
+* [http://sourceforge.net/tracker/?group_id=76834&atid=595654 PATO tracker]
+* Zebrafish anatomy - ''does anyone know if there is a term tracker?''
