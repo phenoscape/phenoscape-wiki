@@ -41,7 +41,7 @@ The following table describes the entry fields in the PhenoMap configuration.  P
 ! Field
 ! Usage
 |-
-| Publication || The publication describing the character state
+| Publication || the publication describing the character state
 |-
 | Taxon || Genus & species
 |-
