@@ -11,6 +11,9 @@ Many ontologies are available for browsing at the [http://www.bioontology.org/nc
 * [http://www.bioontology.org/ncbo/faces/pages/ontology_details.xhtml?ontology_display_name=PATO PATO]
 Click the "Visualize" button on the ontology's homepage to browse it graphically.
 
+Other ontologies:
+* [http://www.obofoundry.org/ro/ OBO-relations]
+
 The taxonomic ontology is not yet available, but it will be generated from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes].
 
 ===On your desktop===
