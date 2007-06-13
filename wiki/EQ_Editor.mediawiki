@@ -10,6 +10,25 @@ The curator will use the EQ Editor to code phenotypic data from an existing publ
 
 ===Workflow===
 
+===Data Model===
+
+The following are essential data elements to be captured by the EQ Editor for each character state description (format is in parentheses).  There is some additional discussion of how to treat character definitions at [[EQ_for_character_matrices|"EQ for character matrices"]].
+
+* species name (free text until taxonomic ontology is available?)
+* voucher specimen lot ID (format?)
+* specimen count
+* specimen preparation (cleared and stained, etc.)
+* EQ statement for character state (Q should be a value)
+** E from fish anatomy (ontology ID)
+** Q from PATO (ontology ID)
+** measurement (number) - used if Q is an attribute suitable for measurement (e.g. "length")
+** measurement unit (units ontology ID)
+** E2 from fish anatomy (if Q is descendant of "relational quality of continuant" or "relational quality of occurrent") (ontology ID)
+* original description (free text)
+* publication/citation (DOI? older publications don't have DOI, do they? Another possibility is [http://iphylo.blogspot.com/2007/05/openurl-and-spiders.html SICI])
+* image or URL for image (image data or URL)
+* evidence statement (confirmation by taxonomic expert, etc.) ''- this requires discussion''
+
 ====Sources of data====
 
 The publication being coded may contain data in one of a few different formats.  The given data format may suggest its own style of workflow.  These publication types include 3 main forms:
@@ -48,25 +67,6 @@ At the [[WG:PI_Meeting_26feb07|February 2007 PI meeting]], some features of the 
 * see what is already present about a particular character or "similar" characters (based on related entities or qualities)
 * see what values have been previously assigned for a character (from other publications)
 * view conflicting character states from different publications, choose to keep both or reconcile
-
-===Data Model===
-
-The following are essential data elements to be captured by the EQ Editor (format is in parentheses).  There is some additional discussion of how to treat character definitions at [[EQ_for_character_matrices|"EQ for character matrices"]].
-
-* species name (free text until taxonomic ontology is available?)
-* voucher specimen lot ID (format?)
-* specimen count
-* specimen preparation (cleared and stained, etc.)
-* EQ statement for character state (Q should be a value)
-** E from fish anatomy (ontology ID)
-** Q from PATO (ontology ID)
-** measurement (number) - used if Q is an attribute suitable for measurement (e.g. "length")
-** measurement unit (units ontology ID)
-** E2 from fish anatomy (if Q is descendant of "relational quality of continuant" or "relational quality of occurrent") (ontology ID)
-* original description (free text)
-* publication/citation (DOI? older publications don't have DOI, do they? Another possibility is [http://iphylo.blogspot.com/2007/05/openurl-and-spiders.html SICI])
-* image or URL for image (image data or URL)
-* evidence statement (confirmation by taxonomic expert, etc.) ''- this requires discussion''
 
 ===Technology===
 
