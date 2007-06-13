@@ -19,8 +19,9 @@ The following are essential data elements to be captured by the EQ Editor for ea
 * EQ statement for character state (Q should be a value)
 ** E from fish anatomy (ontology ID) - may be post-composed from multiple ontology terms, especially in conjunction with a spatial modifier ontology
 ** Q from PATO (ontology ID)
-** measurement (number) - used if Q is an attribute suitable for measurement (e.g. "length")
-** measurement unit (units ontology ID)
+** measurement - used if Q is an attribute suitable for measurement (e.g. "length")
+*** number - should be able to put in single value, a range, or <, > ''- can all this be done within EQ formalism?''
+*** unit (units ontology ID)
 ** E2 from fish anatomy (if Q is descendant of "relational quality of continuant" or "relational quality of occurrent") (ontology ID)
 * original description (free text)
 * publication/citation (DOI? older publications don't have DOI, do they? Another possibility is [http://iphylo.blogspot.com/2007/05/openurl-and-spiders.html SICI])
