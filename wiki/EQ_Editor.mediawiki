@@ -48,7 +48,9 @@ Since many species will share common values of character states, the interface s
 One possible workflow would be a curator dealing with a single publication during a session of working with the EQ Editor.  Steps might be:
 
 # Create a new EQ Editor document.
-# Enter document-wide data, such as publication information including author, title, journal, etc.
+# Enter document-wide data:
+## publication information (author, title, journal)
+## list of specimens - input specimen info and choose taxon from taxonomic ontology for each one
 # Create a list of taxa which are described in the publication.  If a taxonomic ontology is available, the taxa could be chosen from the ontology; otherwise, simply entered as free text (are other forms of identifier available for fish species?)
 # Create a list of characters described in the publication.  For each character, choose an Entity from the anatomy ontology and a Quality from PATO.  If the Quality is a relational quality, choose another Entity to which it refers.  Because this is a character, the quality should be an Attribute, not a Value.  For each character, the curator can also add free text containing the original character title and notes.
 # After taxa and characters have been defined, the curator can begin annotating character states for each character for each species.  For each character state, the curator will choose a value from a list of the Value descendants in PATO of the Attribute specified in the character.  The curator can also add free text containing the original character state title and notes.  Each character state can also be annotated with an image URL and a voucher specimen ID.
