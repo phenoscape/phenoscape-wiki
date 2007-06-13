@@ -17,7 +17,7 @@ The following are essential data elements to be captured by the EQ Editor for ea
 * specimen count
 * specimen preparation (cleared and stained, etc.)
 * EQ statement for character state (Q should be a value)
-** E from fish anatomy (ontology ID)
+** E from fish anatomy (ontology ID) - may be post-composed from multiple ontology terms, especially in conjunction with a spatial modifier ontology
 ** Q from PATO (ontology ID)
 ** measurement (number) - used if Q is an attribute suitable for measurement (e.g. "length")
 ** measurement unit (units ontology ID)
