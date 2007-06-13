@@ -10,7 +10,7 @@ The curator will use the EQ Editor to code phenotypic data from an existing publ
 
 ===Data Model===
 
-The following are essential data elements to be captured by the EQ Editor for each character state description (format is in parentheses).  There is some additional discussion of how to treat character definitions at [[EQ_for_character_matrices|"EQ for character matrices"]].
+The following are essential data elements to be captured by the EQ Editor for each character state description (format is in parentheses).  EQ coding will be performed at the level of character states, but there may be a facility for dynamically viewing entries in a character matrix format.  See [[EQ_for_character_matrices|"EQ for character matrices"]] for a discussion - at the [[WG:PI_Meeting_5Jun07|June 5 PI meeting]] we decided to work with only character states.
 
 * species name (free text until taxonomic ontology is available?)
 * voucher specimen lot ID (format?)
