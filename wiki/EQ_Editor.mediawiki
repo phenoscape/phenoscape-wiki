@@ -73,13 +73,6 @@ The standard workflow would be a curator dealing with a single publication durin
 * Is a "post-composition" capability required?
 * Need to add a button to say "Need a new term"
 
-====Features perhaps suited for EQSYTE====
-
-At the [[WG:PI_Meeting_26feb07|February 2007 PI meeting]], some features of the workflow were discussed which may be most useful when the central database of character states is in place, such as:
-* see what is already present about a particular character or "similar" characters (based on related entities or qualities)
-* see what values have been previously assigned for a character (from other publications)
-* view conflicting character states from different publications, choose to keep both or reconcile
-
 ===Technology===
 
 Some technology choices may figure into the application requirements, particularly if integration with another application or system is a desired feature.  Possibilities include:
