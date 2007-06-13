@@ -14,14 +14,15 @@ The curator will use the EQ Editor to code phenotypic data from an existing publ
 
 The publication being coded may contain data in one of a few different formats.  The given data format may suggest its own style of workflow.  These publication types include 3 main forms:
 
-# A data matrix with multiple species and multiple characters.  There is a character state value for each cell in this matrix.
-#A single species description of values for many characters.
-# Description of a single character for many species (perhaps less common than the first two formats?).  If focusing on a single character the data may come from multiple publications.
 # Description of many characters for many species and higher taxonomic levels; no character-by-taxon matrix published.
+# A data matrix with multiple species and multiple characters.  There is a character state value for each cell in this matrix.
+# A single species description of values for many characters.
+# Description of a single character for many species (perhaps less common than the other formats?).  If focusing on a single character the data may come from multiple publications.
+
 
 It seems like scenarios 2 and 3 can be treated as special cases of scenario 1.  For each character, an interface is required for choosing the Entity and Quality from their respective ontologies, and entering free text such as the original character descriptions, as well as other [[#Data_Model|relevant data]].
 
-Since many species will share common values of character states, the interface should have a way of choosing previously entered character states, perhaps by separately enumerating the possible values for a character.  It is not clear whether EQ coding should be performed for characters as well as character states - see [[EQ_for_character_matrices|"EQ for character matrices"]].
+Since many species will share common values of character states, the interface should have a way of choosing previously entered character states, perhaps by separately enumerating the possible values for a character.  EQ coding will be performed at the level of character states, but there may be a facility for dynamically viewing entries in a character matrix format.  See [[EQ_for_character_matrices|"EQ for character matrices"]] for a discussion - at the June 5 PI meeting we decided to work with only character states.
 
 ====Detailed steps====
 
