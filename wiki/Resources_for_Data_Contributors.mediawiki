@@ -34,7 +34,7 @@ We are working on a specialized [[EQ Editor]] for data curation.  Until it is re
 
 * Launch Phenote using the [http://www.phenote.org/phenote/latest/phenote.jnlp webstart link].
 * You can download a customized [[Media:phenomap.cfg.zip|Phenote configuration file]] which is suited to our data.  See the [http://www.phenote.org/content/howtos/customize.shtml instructions] on how to use a custom configuration.
-* Save your files using the PhenoSyntax file format.
+* Save your files using the PhenoSyntax file format (or perhaps the Excel-compatible tab-delimited format - not tested yet).
 
 ====Usage====
 
