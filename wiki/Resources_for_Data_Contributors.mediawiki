@@ -33,7 +33,8 @@ We are working on a specialized [[EQ Editor]] for data curation.  Until it is re
 ====Installation and start up====
 
 * Launch Phenote using the [http://www.phenote.org/phenote/latest/phenote.jnlp webstart link].
-* You can download a customized [[Media:phenomap.cfg.zip|Phenote configuration file]] which is suited to our data.  See the [http://www.phenote.org/content/howtos/customize.shtml instructions] on how to use a custom configuration.  If you are using a Mac, it can be tricky to access the Phenote configuration folder using the Finder - it begins with a "." and as a result is invisible.  To get to it while using Finder, in the menubar select Go > Go to Folder..., then type "~/.phenote", and press Go.  You should then see the folder.
+* You can download a customized [[Media:phenomap.cfg.zip|Phenote configuration file]] which is suited to our data.  See the [http://www.phenote.org/content/howtos/customize.shtml instructions] on how to use a custom configuration.
+* If you are using a Mac, it can be tricky to access the Phenote configuration folder using the Finder - it begins with a "." and as a result is invisible.  To get to it while using Finder, in the menubar select Go > Go to Folder..., then type "~/.phenote", and press Go.  You should then see the folder.
 * Save your files using the PhenoSyntax file format (or perhaps the Excel-compatible tab-delimited format - not tested yet).
 
 ====Usage====
