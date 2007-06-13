@@ -41,8 +41,6 @@ The publication being coded may contain data in one of a few different formats. 
 
 It seems like scenarios 2 and 3 can be treated as special cases of scenario 1.  For each character, an interface is required for choosing the Entity and Quality from their respective ontologies, and entering free text such as the original character descriptions, as well as other [[#Data_Model|relevant data]].
 
-Since many species will share common values of character states, the interface should have a way of choosing previously entered character states, perhaps by separately enumerating the possible values for a character.  EQ coding will be performed at the level of character states, but there may be a facility for dynamically viewing entries in a character matrix format.  See [[EQ_for_character_matrices|"EQ for character matrices"]] for a discussion - at the [[WG:PI_Meeting_5Jun07|June 5 PI meeting]] we decided to work with only character states.
-
 ====Detailed steps====
 
 The standard workflow would be a curator dealing with a single publication during a session of working with the EQ Editor.  Steps might be:
