@@ -45,7 +45,7 @@ Since many species will share common values of character states, the interface s
 
 ====Detailed steps====
 
-One possible workflow would be a curator dealing with a single publication during a session of working with the EQ Editor.  Steps might be:
+The standard workflow would be a curator dealing with a single publication during a session of working with the EQ Editor.  Steps might be:
 
 # Create a new EQ Editor document.
 # Enter document-wide data:
