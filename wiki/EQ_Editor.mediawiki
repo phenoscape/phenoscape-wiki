@@ -69,7 +69,7 @@ The standard workflow would be a curator dealing with a single publication durin
 ** Flat list of all entered EQ statements.
 ** Filtered flat list - a search text field can allow quick filtering by any of the data fields.
 ** Character-by-taxon matrix - generated from EQ statements by grouping via shared PATO Attributes.
-** Filtered matrix view - what capabilities are needed?
+** Filtered matrix view - what capabilities are needed?  filter by taxon, entity, quality: if one of these is a higher term in the ontology, show all descendant matches
 
 ====Questions====
 
