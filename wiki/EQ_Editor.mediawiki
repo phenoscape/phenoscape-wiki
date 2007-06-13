@@ -8,8 +8,6 @@ The EQ Editor will be used by curators to annotate phenotypic descriptions of Os
 
 The curator will use the EQ Editor to code phenotypic data from an existing publication into the EQ format.  This data consists of descriptions of character state values for corresponding species (or, more precisely, specimens).  A published character state description may contain: the species or higher taxonomic specification, a textual description of the character state value, reference to a voucher specimen for this description, an image showing the character.
 
-===Workflow===
-
 ===Data Model===
 
 The following are essential data elements to be captured by the EQ Editor for each character state description (format is in parentheses).  There is some additional discussion of how to treat character definitions at [[EQ_for_character_matrices|"EQ for character matrices"]].
@@ -28,6 +26,8 @@ The following are essential data elements to be captured by the EQ Editor for ea
 * publication/citation (DOI? older publications don't have DOI, do they? Another possibility is [http://iphylo.blogspot.com/2007/05/openurl-and-spiders.html SICI])
 * image or URL for image (image data or URL)
 * evidence statement (confirmation by taxonomic expert, etc.) ''- this requires discussion''
+
+===Workflow===
 
 ====Sources of data====
 
