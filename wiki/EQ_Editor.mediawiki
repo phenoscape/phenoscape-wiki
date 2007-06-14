@@ -58,7 +58,7 @@ The standard workflow would be a curator dealing with a single publication durin
 ## If the Quality is an Attribute term (such as "length"), enter a measurement and its units
 ## If the Quality is relational, enter a second Entity from the anatomy ontology
 ## If dealing with a single specimen, enter optional image data (URL).  Images may not be applied to multiple specimens at once.
-# At any point, the curator can save the current work to a document (or database).  We should investigate requirements regarding the document format (relationship to PhenoXML/PhenoSyntax, NEXUS, etc.), which will depend on the detailed data model.
+# At any point, the curator can save the current work to a document (or database).
 
 ====Working with EQ statements====
 * A particular EQ statement (specific combination of Entity and Quality) will often be applied to multiple specimens within one document.  Specimens are likely to share EQ values as a result of phylogenetic history, so facilities for efficiently selecting groups of related specimens should be available.  Entries with this EQ statement would be generated for each selected specimen.
