@@ -87,3 +87,15 @@ Some technology choices may figure into the application requirements, particular
 * Standalone application
 ** Can work offline
 ** Offline usage would preclude incorporation of web services into software features (such as loading ontology information from a remote server)
+
+=Project Plan=
+
+==Enhancements to Phenote==
+
+# Document-wide list of specimens and their taxa which can be pre-entered.  "Bulk" EQ statements can be applied to hand-selected groups of specimens.
+# Taxonomy-based bulk selection tool.
+# Tree-based bulk selection tool (significantly more effort than #2).
+# Matrix view of data.
+# Filtering of matrix view based on various criteria.  The details of this target need to be elaborated.
+
+==PhenoMap-specific EQ Editor==
