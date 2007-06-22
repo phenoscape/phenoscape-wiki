@@ -90,6 +90,8 @@ Some technology choices may figure into the application requirements, particular
 
 =Project Plan=
 
+We will begin with some targeted enhancements to Phenote.  A dedicated EQ Editor for PhenoMap will be developed alongside our web services and database infrastructure.
+
 ===Enhancements to Phenote===
 
 # Document-wide list of specimens and their taxa which can be pre-entered.  "Bulk" EQ statements can be applied to hand-selected groups of specimens.
