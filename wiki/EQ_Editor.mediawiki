@@ -90,7 +90,7 @@ Some technology choices may figure into the application requirements, particular
 
 =Project Plan=
 
-==Enhancements to Phenote==
+===Enhancements to Phenote===
 
 # Document-wide list of specimens and their taxa which can be pre-entered.  "Bulk" EQ statements can be applied to hand-selected groups of specimens.
 # Taxonomy-based bulk selection tool.
@@ -98,4 +98,4 @@ Some technology choices may figure into the application requirements, particular
 # Matrix view of data.
 # Filtering of matrix view based on various criteria.  The details of this target need to be elaborated.
 
-==PhenoMap-specific EQ Editor==
+===PhenoMap-specific EQ Editor===
