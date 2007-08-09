@@ -22,7 +22,6 @@ The NCBI taxonomy ontology has some special terms and relations which are probab
 id: has_rank
 name: has_rank
 def: "A metadata relation between a class and its taxonomic rank (eg species, family)" []
-comment: This is an abstract class for use with the NCBI taxonomy to name the depth of the node within the tree. The link between the node term and th
-e rank is only visible if you are using an obo 1.3 aware browser/editor; otherwise this can be ignored
+comment: This is an abstract class for use with the NCBI taxonomy to name the depth of the node within the tree. The link between the node term and the rank is only visible if you are using an obo 1.3 aware browser/editor; otherwise this can be ignored
 is_metadata_tag: true
 </pre>
