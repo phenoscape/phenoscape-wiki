@@ -1,0 +1,9 @@
+---
+title: Phenote:Phylogeny Chooser
+---
+
+When selecting specimens for EQ editing from the specimen list, a user may want to view a phylogenetic tree relating the specimens, and then simply select a node containing all the specimens to use.  This functionality is available in an accessory window within Phenote.  When viewing the [[Phenote:Specimen_List|specimen list window]], click on the "Choosers" menu, and select "Phylogeny Chooser".  You should see a new window like this:
+
+[[Image:phylogeny-chooser.png|center]]
+
+text
