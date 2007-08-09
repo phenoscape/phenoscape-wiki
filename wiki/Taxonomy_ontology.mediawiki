@@ -10,3 +10,5 @@ Here are some useful resources for creating the taxonomy ontology:
 * Catalog of Fishes database [[cof_schema|schema documentation]].
 * [http://www.geneontology.org/GO.format.obo-1_2.shtml OBO Flat File Format Specification]
 * [http://www.obofoundry.org/wiki/index.php/Identifiers OBO Identifier Lifecycle]
+
+The NCBI taxonomy ontology has some special terms and relations which are probably relevant to the fish taxonomy ontology.  One of these is the
