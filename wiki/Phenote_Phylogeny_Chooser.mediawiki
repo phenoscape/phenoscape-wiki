@@ -6,4 +6,12 @@ When selecting specimens for EQ editing from the specimen list, a user may want 
 
 [[Image:phylogeny-chooser.png|center]]
 
-text
+You can paste [http://evolution.genetics.washington.edu/phylip/newicktree.html Newick-format] tree text into the "Newick Tree" field at the bottom of the window.  Press "Return", and the tree will be loaded into the window.  Click on any node to select it and its descendants.  Press the "Apply Selection" button, and the specimen list window will come forward - any specimens with exactly matching taxon names will be checked.  Only taxa on the tips of the tree can match specimens (not internal nodes).
+
+When the taxonomy ontology is available for inclusion within Phenote, your Newick tree should be composed of ontology IDs from the taxonomy ontology.  The tree view will automatically display the actual taxon name from the ontology.
+
+Hints:
+* Any internal node labels in your Newick tree can be displayed by the tree view, making it easier to find the node you're looking for.
+* If there is a problem with your Newick format, the "Newick Tree:" text will be colored red.
+* Control-click a node to select or deselect it without affecting the rest of your selection.
+* You can drag over instead of directly clicking on nodes to select them.
