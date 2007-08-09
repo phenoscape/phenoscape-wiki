@@ -11,6 +11,7 @@ You can paste [http://evolution.genetics.washington.edu/phylip/newicktree.html N
 When the taxonomy ontology is available for inclusion within Phenote, your Newick tree should be composed of ontology IDs from the taxonomy ontology.  The tree view will automatically display the actual taxon name from the ontology.
 
 Hints:
+* Create your tree using Mesquite, MacClade, or other tree-editing software.
 * Any internal node labels in your Newick tree can be displayed by the tree view, making it easier to find the node you're looking for.
 * If there is a problem with your Newick format, the "Newick Tree:" text will be colored red.
 * Control-click a node to select or deselect it without affecting the rest of your selection.
