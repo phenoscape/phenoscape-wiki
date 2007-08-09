@@ -96,7 +96,7 @@ We will begin with some targeted enhancements to Phenote.  A dedicated EQ Editor
 
 # Document-wide list of specimens and their taxa which can be pre-entered.  "Bulk" EQ statements can be applied to hand-selected groups of specimens.
 # Taxonomy-based bulk selection tool.
-# Tree-based bulk selection tool (significantly more effort than #2).
+# Tree-based bulk selection tool.
 # Matrix view of data.
 # Filtering of matrix view based on various criteria.  The details of this target need to be elaborated.
 
