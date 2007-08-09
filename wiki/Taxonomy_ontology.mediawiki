@@ -53,28 +53,23 @@ is_a: NCBITaxon:taxonomic_rank
 etc....
 </pre>
 
-Here are two actual taxon terms.  The term for the species descends via ''is_a'' from the term for the genus.  The rank is specified in the property value.  Other names are placed in the synonym fields:
+Here are two actual taxon terms.  The term for the species descends via ''is_a'' from the term for the genus.  The rank is specified in the property_value.  Other names are placed in the synonym fields:
 
 <pre>
 [Term]
-id: NCBITaxon:16
-name: Methylophilus
-is_a: NCBITaxon:32011
-synonym: "Methylophilus Jenkins et al. 1987" RELATED synonym []
-synonym: "Methylotrophus" RELATED misspelling []
-synonym: "Methyliphilus" EXACT equivalent_name []
+id: NCBITaxon:22
+name: Shewanella
+is_a: NCBITaxon:267890
+synonym: "Shewanella MacDonell and Colwell 1986" RELATED synonym []
 property_value: has_rank NCBITaxon:genus
 xref: GC_ID:11
 
 [Term]
-id: NCBITaxon:17
-name: Methylophilus methylotrophus
-is_a: NCBITaxon:16
-synonym: "Methylophilus methylotrophus Jenkins et al. 1987" RELATED synonym []
-synonym: "Methylotrophus methylophilus" RELATED synonym []
-synonym: "Methylophilus methylitrophus" EXACT equivalent_name []
-synonym: "Methyliphilus methylotrophus" EXACT equivalent_name []
-synonym: "Methyliphilus methylitrophus" EXACT equivalent_name []
+id: NCBITaxon:23
+name: Shewanella colwelliana
+is_a: NCBITaxon:22
+synonym: "Alteromonas colwelliana" RELATED synonym []
+synonym: "Shewanella colwelliana (Weiner et al. 1988) Coyne et al. 1990" RELATED synonym []
 property_value: has_rank NCBITaxon:species
 xref: GC_ID:11
 </pre>
