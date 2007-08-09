@@ -1,0 +1,7 @@
+---
+title: Phenote:Specimen List
+---
+
+A user may want to enter a pre-defined list of specimens from which to repeatedly create different EQ statements.  This functionality is available in an accessory window within Phenote.  Launch Phenote and click on the "View" menu, then select "Specimen List".  You should see a new window like this:
+
+[[Image:specimen-list.png|center]]
