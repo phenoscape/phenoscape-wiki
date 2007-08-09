@@ -2,6 +2,7 @@
 title: CoF schema
 ---
 
+<pre>
 GENERA
 	[CAS_GEN] [int] 				-- Unique identifying number.
 	[GEN_NAME] [nvarchar] (25)  	-- Genus or subgenus name.
@@ -155,3 +156,4 @@ JOURNAL
 	[NOTES] [nvarchar] (138)	
 	[REMARKS] [nvarchar] (255)	
 	[TimeStamp] [datetime]
+</pre>
