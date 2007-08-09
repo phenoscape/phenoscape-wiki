@@ -94,7 +94,7 @@ We will begin with some targeted enhancements to Phenote.  A dedicated EQ Editor
 
 ===Enhancements to Phenote===
 
-# Document-wide list of specimens and their taxa which can be pre-entered.  "Bulk" EQ statements can be applied to hand-selected groups of specimens.
+# Document-wide list of specimens and their taxa which can be pre-entered.  "Bulk" EQ statements can be applied to hand-selected groups of specimens. [[specimen-list screenshot|screenshot]]
 # Taxonomy-based bulk selection tool.
 # Tree-based bulk selection tool.
 # Matrix view of data.
