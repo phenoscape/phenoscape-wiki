@@ -7,3 +7,4 @@ The taxonomy ontology will be based on the Catalog of Fishes.
 Here are some useful resources for creating the taxonomy ontology:
 
 * Chris Mungall's [http://www.berkeleybop.org/ontologies/obo-all/ncbi_taxonomy/ncbi_taxonomy.obo NCBI Taxonomy in OBO format] - ''this file is huge!''
+* Catalog of Fishes database [[cof_schema schema documentation]].
