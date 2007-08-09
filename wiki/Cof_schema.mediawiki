@@ -1,0 +1,5 @@
+---
+title: Cof schema
+---
+
+#REDIRECT [[CoF schema]]
