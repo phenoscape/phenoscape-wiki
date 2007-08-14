@@ -53,28 +53,35 @@ is_a: NCBITaxon:taxonomic_rank
 etc....
 </pre>
 
-Here are two actual taxon terms.  The term for the species descends via ''is_a'' from the term for the genus.  The rank is specified in the property_value.  Other names are placed in the synonym fields:
+Here are three actual taxon terms.  The term for the species descends via ''is_a'' from the term for the genus, and likewise for the genus and family.  The rank is specified in the property_value.  Other names are placed in the synonym fields:
 
 <pre>
 [Term]
-id: NCBITaxon:22
-name: Shewanella
-is_a: NCBITaxon:267890
-synonym: "Shewanella MacDonell and Colwell 1986" RELATED synonym []
-property_value: has_rank NCBITaxon:genus
-xref: GC_ID:11
+id: NCBITaxon:7996
+name: Ictaluridae
+is_a: NCBITaxon:7995
+synonym: "North American freshwater catfishes" EXACT common_name []
+synonym: "bullhead catfishes" EXACT genbank_common_name []
+property_value: has_rank NCBITaxon:family
+xref: GC_ID:1
 
 [Term]
-id: NCBITaxon:23
-name: Shewanella colwelliana
-is_a: NCBITaxon:22
-synonym: "Alteromonas colwelliana" RELATED synonym []
-synonym: "Shewanella colwelliana (Weiner et al. 1988) Coyne et al. 1990" RELATED synonym []
+id: NCBITaxon:7997
+name: Ictalurus
+is_a: NCBITaxon:7996
+property_value: has_rank NCBITaxon:genus
+xref: GC_ID:1
+
+[Term]
+id: NCBITaxon:7998
+name: Ictalurus punctatus
+is_a: NCBITaxon:7997
+synonym: "channel catfish" EXACT genbank_common_name []
 property_value: has_rank NCBITaxon:species
-xref: GC_ID:11
+xref: GC_ID:1
 </pre>
 
-Other uses for the synonym field can be seen in the OBO file, such as for a common name.  We may want to also provide a definition from the original species description.
+Other uses for the synonym field can be seen in the OBO file, such as for obsolete names.  We may want to also provide a definition from the original species description.
 
 ==Taxonomy ontology content from Catalog of Fishes==
 
