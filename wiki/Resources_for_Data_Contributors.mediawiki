@@ -59,7 +59,7 @@ The following table describes the entry fields in the PhenoMap configuration.  P
 |-
 | Quality || term from PATO - should be "value" term, unless you are filling in an absolute measurement (e.g. "length")
 |-
-| Additionall Entity || term from anatomy ontology - only use if the Quality term descends from "relational quality of continuant"
+| Additional Entity || term from anatomy ontology - only use if the Quality term descends from "relational quality of continuant"
 |-
 | Measurement || absolute measurement - useful as value for terms such as "length"
 |-
