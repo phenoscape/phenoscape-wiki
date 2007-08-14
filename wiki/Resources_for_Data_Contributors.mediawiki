@@ -27,7 +27,7 @@ You can download the ontologies as OBO files from the above web sites.  You can 
 [http://www.phenote.org/ Phenote] is used by ZFIN and FlyBase for mutant phenotype annotation.  We are developing enhancements to the Phenote [[EQ Editor]] for PhenoMap data curation.  Some of the PhenoMap-specific enhancements include:
 
 * [[Phenote:Specimen List|A specimen list window]] allowing repeated annotation of the specimens within one publication.
-* [[Phenote:Phylogeny-based Selector|A phylogeny view]] allowing application of an EQ annotation to all specimens from a clade at once.
+* [[Phenote:Phylogeny Chooser|A phylogeny view]] allowing application of an EQ annotation to all specimens from a clade at once.
 
 ====Installation and start up====
 
