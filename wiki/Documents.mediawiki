@@ -2,8 +2,6 @@
 title: Documents
 ---
 
-''For collaborative writing of documents, you may wish to use [http://www.writely.com/ Writely]''
-
 ==Applications and APIs==
 
 ===Proposals===
