@@ -74,7 +74,7 @@ property_value: has_rank NCBITaxon:species
 xref: GC_ID:11
 </pre>
 
-Other uses for the synonym field can be seen in the OBO file, such as for a common name.  It seems like a common name could alternatively go in the definition field, but this doesn't seem to be the case in the NCBI taxonomy ontology.
+Other uses for the synonym field can be seen in the OBO file, such as for a common name.  We may want to also provide a definition from the original species description.
 
 ==Taxonomy ontology content from Catalog of Fishes==
 
