@@ -4,4 +4,4 @@ title: Ontologies
 
 Evolutionary phenotypes will be described using the [http://www.bioontology.org/wiki/index.php/PATO:About Entity-Quality system], which combines morphological terms from an anatomical ontology with quality terms from the [http://www.bioontology.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)].
 
-Phenotypes will be associated with taxa using a [[taxonomy ontology]] derived from the Catalog of Fishes.
+Phenotypes will be associated with taxa using a [[taxonomy ontology]] derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes].
