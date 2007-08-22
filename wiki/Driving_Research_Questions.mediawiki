@@ -2,10 +2,12 @@
 title: Driving Research Questions
 ---
 
+==Motivation==
 Driving biological research questions for this project (also called "use-cases") are meant to push the current limits of inferring knowledge or generating hypotheses about the origin and forces behind phenotypic changes, as well as the developmental processes that are involved in these.  
 
 These research questions will in turn drive the development of our database and web-based interfaces to ensure that the system we are developing, and the data that we are collecting, will allow the research community to obtain answers to those questions.
 
+==Examples==
 For illustration, we have identified three initial use-cases as depicted below.
 
 ===Identifying candidate genes for a particular evolutionary phenotype===
