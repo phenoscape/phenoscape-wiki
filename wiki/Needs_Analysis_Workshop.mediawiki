@@ -16,6 +16,50 @@ title: Needs Analysis Workshop
 
 We are developing the first informatics system to integrate evolutionary, anatomical, developmental, and genetics data.  Such a system will serve the community of developmental and evolutionary biologists by providing web-based access to integrated information.
 
-This workshop engages scientists from the fields of morphology, developmental and evolutionary biology, genetics, and ichthyology to collaboratively develop, refine, and prioritize how the research community will be able to use this system.  The goal of the workshop is to develop use-cases, or driving biological research questions that push the limits of knowledge in the developmental and evolutionary biology fields. These will in turn drive the development of the database and web-based interfaces.
+This workshop engages scientists from the fields of morphology, developmental and evolutionary biology, genetics, and ichthyology to collaboratively develop, refine, and prioritize how the research community will be able to use this system.  The goal of the workshop is to develop use-cases, or [[Driving Research Questions|driving biological research questions]] that push the limits of knowledge in the developmental and evolutionary biology fields. These will in turn drive the development of the database and web-based interfaces.
  
-The workshop will also provide a interesting opportunity to brainstorm about the informatics tools and data required to push beyond these limits, thus fostering new discoveries at the interface between evolution and developmental genetics.
+The workshop will also provide an interesting opportunity to brainstorm about the informatics tools and data required to push beyond these limits, thus fostering new discoveries at the interface between evolution and developmental genetics.
+
+==Agenda==
+
+'''Monday, August 17'''
+
+
+'''Tuesday, August 18'''
+
+==Logistics==
+
+* For long-distance participants, the hotel is the [http://www.millenniumhotels.com/MCIL.nsf/LU_HOTELDOC/113$$HotelDescription?OpenDocument Millenium Hotel] (2800 Campus Walk Ave, Durham, NC  27705; tel. (919) 383-8575)
+* For dining & entertainment, NESCent is right across from [http://www.ninthst.com/ Ninth Street]
+* For the venue, NESCent is in the historic [http://www.owdna.org/mill.htm Erwin Mills] building (<span class="plainlinks">[http://www.nescent.org/about/directions.php directions]</span>)
+
+==Reading==
+
+* We have started to use the tag "<span class="plainlinks">[http://www.connotea.org/tag/phenomap phenomap]</span>" on Connotea. Everyone is welcome to suggest references by using this tag.
+
+==Participants==
+
+Members of the project team are in '''bold font'''.
+
+{| border="1" cellpadding="3" cellspacing="0"
+|-
+! Name !! Institution
+{{Participant|Abzhanov|Arhat|abzhanov@fas.harvard.edu|Department of Organismic and Evolutionary Biology, Harvard University}}
+{{Participant|Balhoff|Jim|balhoff@nescent.org|NESCent|'''}}
+{{Participant|Dahdul|Wasila|dahdul@acnatsci.org|Department of Ichthyology, Academy of Natural Sciences}}
+{{Participant|Hanken|Jim|hanken@oeb.harvard.edu|Museum of Comparative Zoology, Harvard University}}
+{{Participant|Hoekstra|Hopi|hoekstra@oeb.harvard.edu|Department of Organismic and Evolutionary Biology, Harvard University}}
+{{Participant|Hofmann|Hans|hans@mail.utexas.edu|Dept. Integrative Biology, University of Texas at Austin}}
+{{Participant|Jockusch|Elizabeth|elizabeth.jockusch@uconn.edu|Department of Ecology & Evolutionary Biology, University of Connecticut}}
+{{Participant|Kellogg|Toby|kellogge@msx.umsl.edu|Dept. of Biology, University of Missouri - St. Louis}}
+{{Participant|Kimmel|Chuck|kimmel@uoneuro.uoregon.edu|Institute of Neuroscience, University of Oregon}}
+{{Participant|Lapp|Hilmar|hlapp@nescent.org|NESCent|'''}}
+{{Participant|Lundberg|John|lundberg@acnatsci.org |Department of Ichthyology, Academy of Natural Sciences|'''}}
+{{Participant|Mabee|Paula|pmabee@usd.edu|University of South Dakota|'''}}
+{{Participant|Midford|Peter|petermidford@yahoo.com|Dept. of Zoology, Univ. of British Columbia|'''}}
+{{Participant|Naylor|Gavin|naylor@csit.fsu.edu|Dept. of Biological Science, Florida State University}}
+{{Participant|Stern|David|dstern@princeton.edu|Department of Ecology and Evolutionary Biology, Princeton University}}
+{{Participant|Vision|Todd|tjv@bio.unc.edu|NESCent, and Department of Biology, University of North Carolina at Chapel Hill|'''}}
+{{Participant|Wagner|Gunter|gunter.wagner@yale.edu|Yale University}}
+{{Participant|Westerfield|Monte|monte@uoneuro.uoregon.edu|Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon|'''}}
+|}
