@@ -39,8 +39,6 @@ Together with taxonomic experts, we are developing a taxonomic ontology (based o
 
 Although the comparative anatomy of fishes has been documented in the literature for several hundred years, it is not available in a computable format.  A Data Curator will input morphological character data that is gleaned from the literature, culled by experts and the [http://www.deepfin.org/ ichthyological community].  Our goal is to [[Morphology|input approximately 4,000 morphological features]] in an “EQ” format ([[Media:TREE Mabee.pdf|Mabee et al. 2007a]]<!--; Mabee et al. 2007 in process-->) using a combination of ontologies.
 
-
-
 ===Contact===
 
 Paula Mabee (University of South Dakota) is the Principal Investigator. Co-principal investigators are Todd Vision (University of North Carolina, Chapel Hill), Monte Westerfield (University of Oregon, ZFIN), and Hilmar Lapp (NESCent) ([[Contact|see their contact addresses]]).
