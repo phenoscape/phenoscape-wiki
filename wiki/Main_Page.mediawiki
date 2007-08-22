@@ -2,6 +2,8 @@
 title: Main Page
 ---
 
+{{EventBox1|We will be hosting a "[[Needs_Analysis_Workshop|Needs Analysis Workshop]]" for this project on Sep 17-18, 2007.}}
+
 ''This project arose from a [http://www.nescent.org/science/workinggroup.php NESCent Working Group] led by Paula Mabee and Monte Westerfield, "Towards an Integrated Database for Fish Evolution". [[Fish Evolution Working Group|Goals and summaries of the group]] are archived on this wiki.''
 
 ==Linking Evolution to Genomics Using Phenotype Ontologies==
@@ -42,6 +44,11 @@ Although the comparative anatomy of fishes has been documented in the literature
 ===Contact===
 
 Paula Mabee (University of South Dakota) is the Principal Investigator. Co-principal investigators are Todd Vision (University of North Carolina, Chapel Hill), Monte Westerfield (University of Oregon, ZFIN), and Hilmar Lapp (NESCent) ([[Contact|see their contact addresses]]).
+
+==News==
+
+* We will be hosting a "[[Needs_Analysis_Workshop|Needs Analysis Workshop]]" for this project on Sep 17-18, 2007.
+* We are recruiting a Research Programmer to be in charge of data modeling, database design, middleware, and data service layer. The position will be located at NESCent and work directly with the research programmer for the user interfaces. More details are on the [http://www.nescent.org/about/employment.php#datamodeling NESCent employment page].
 
 ==Pages of public interest==
 
