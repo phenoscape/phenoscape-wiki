@@ -44,22 +44,22 @@ Members of the project team are in '''bold font'''.
 {| border="1" cellpadding="3" cellspacing="0"
 |-
 ! Name !! Institution
-{{Participant|Abzhanov|Arhat|abzhanov@fas.harvard.edu|Department of Organismic and Evolutionary Biology, Harvard University}}
-{{Participant|Balhoff|Jim|balhoff@nescent.org|NESCent|'''}}
-{{Participant|Dahdul|Wasila|dahdul@acnatsci.org|Department of Ichthyology, Academy of Natural Sciences}}
-{{Participant|Hanken|Jim|hanken@oeb.harvard.edu|Museum of Comparative Zoology, Harvard University}}
-{{Participant|Hoekstra|Hopi|hoekstra@oeb.harvard.edu|Department of Organismic and Evolutionary Biology, Harvard University}}
-{{Participant|Hofmann|Hans|hans@mail.utexas.edu|Dept. Integrative Biology, University of Texas at Austin}}
-{{Participant|Jockusch|Elizabeth|elizabeth.jockusch@uconn.edu|Department of Ecology & Evolutionary Biology, University of Connecticut}}
-{{Participant|Kellogg|Toby|kellogge@msx.umsl.edu|Dept. of Biology, University of Missouri - St. Louis}}
-{{Participant|Kimmel|Chuck|kimmel@uoneuro.uoregon.edu|Institute of Neuroscience, University of Oregon}}
-{{Participant|Lapp|Hilmar|hlapp@nescent.org|NESCent|'''}}
-{{Participant|Lundberg|John|lundberg@acnatsci.org |Department of Ichthyology, Academy of Natural Sciences|'''}}
-{{Participant|Mabee|Paula|pmabee@usd.edu|University of South Dakota|'''}}
-{{Participant|Midford|Peter|petermidford@yahoo.com|Dept. of Zoology, Univ. of British Columbia|'''}}
-{{Participant|Naylor|Gavin|naylor@csit.fsu.edu|Dept. of Biological Science, Florida State University}}
-{{Participant|Stern|David|dstern@princeton.edu|Department of Ecology and Evolutionary Biology, Princeton University}}
-{{Participant|Vision|Todd|tjv@bio.unc.edu|NESCent, and Department of Biology, University of North Carolina at Chapel Hill|'''}}
-{{Participant|Wagner|Gunter|gunter.wagner@yale.edu|Yale University}}
-{{Participant|Westerfield|Monte|monte@uoneuro.uoregon.edu|Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon|'''}}
+{{EventParticipant|Abzhanov|Arhat|abzhanov@fas.harvard.edu|Department of Organismic and Evolutionary Biology, Harvard University|}}
+{{EventParticipant|Balhoff|Jim|balhoff@nescent.org|NESCent|'''}}
+{{EventParticipant|Dahdul|Wasila|dahdul@acnatsci.org|Department of Ichthyology, Academy of Natural Sciences|'''}}
+{{EventParticipant|Hanken|Jim|hanken@oeb.harvard.edu|Museum of Comparative Zoology, Harvard University|}}
+{{EventParticipant|Hoekstra|Hopi|hoekstra@oeb.harvard.edu|Department of Organismic and Evolutionary Biology, Harvard University|}}
+{{EventParticipant|Hofmann|Hans|hans@mail.utexas.edu|Dept. Integrative Biology, University of Texas at Austin|}}
+{{EventParticipant|Jockusch|Elizabeth|elizabeth.jockusch@uconn.edu|Department of Ecology & Evolutionary Biology, University of Connecticut|}}
+{{EventParticipant|Kellogg|Elizabeth|kellogge@msx.umsl.edu|Dept. of Biology, University of Missouri - St. Louis|}}
+{{EventParticipant|Kimmel|Chuck|kimmel@uoneuro.uoregon.edu|Institute of Neuroscience, University of Oregon|}}
+{{EventParticipant|Lapp|Hilmar|hlapp@nescent.org|NESCent|'''}}
+{{EventParticipant|Lundberg|John|lundberg@acnatsci.org |Department of Ichthyology, Academy of Natural Sciences|'''}}
+{{EventParticipant|Mabee|Paula|pmabee@usd.edu|University of South Dakota|'''}}
+{{EventParticipant|Midford|Peter|petermidford@yahoo.com|Dept. of Zoology, Univ. of British Columbia|'''}}
+{{EventParticipant|Naylor|Gavin|naylor@csit.fsu.edu|Dept. of Biological Science, Florida State University|}}
+{{EventParticipant|Stern|David|dstern@princeton.edu|Department of Ecology and Evolutionary Biology, Princeton University|}}
+{{EventParticipant|Vision|Todd|tjv@bio.unc.edu|NESCent, and Department of Biology, University of North Carolina at Chapel Hill|'''}}
+{{EventParticipant|Wagner|Gunter|gunter.wagner@yale.edu|Yale University|}}
+{{EventParticipant|Westerfield|Monte|monte@uoneuro.uoregon.edu|Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon|'''}}
 |}
