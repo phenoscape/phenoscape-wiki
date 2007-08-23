@@ -47,12 +47,14 @@ Anyone can easily recommend references (and in fact any site or resource) to us 
 ===Reprints===
 
 * Haendel, M.A., Neuhaus, F., Osumi-Sutherland, D.S., Mabee, P.M., Mejino J.L.V., Mungall, C.J., and Smith, B. (2008) [[Media:Caroreprint.pdf|CARO - The Common Anatomy Reference Ontology]]. ''In:'' Albert Burger, Duncan Davidson and Richard Baldock (Editors): ''Anatomy Ontologies for Bioinformatics: Principles and Practice''. ISBN 978-1-84628-884-5.
-* Mabee PM et al (2007). [[Media:TREE Mabee.pdf|Phenotype ontologies: the bridge between genomics and evolution.]] Trends Ecol Evol <cite>mabee2007</cite>
+* Mabee PM et al (2007a). [[Media:TREE Mabee.pdf|Phenotype ontologies: the bridge between genomics and evolution.]] Trends Ecol Evol <cite>mabee2007a</cite>
+* Mabee PM et al (2007b). [[Media: JEZ Mabee.pdf|Connecting evolutionary morphology to genomics using ontologies: a case study from Cypriniformes including zebrafish.]] J Exp Zoolog B Mol Dev Evol. <cite>mabee2007b</cite>
 * Schulz et al (2007). [http://www.biomedcentral.com/1471-2105/8/134 Spatial location and its relevance for terminological inferences in bio-ontologies.] BMC Bioinformatics 2007, 8:134 [http://dx.doi.org/10.1186/1471-2105-8-134 doi:10.1186/1471-2105-8-134]
 
 ===References===
 <biblio>
-#mabee2007 pmid=17416439
+#mabee2007a pmid=17416439
+#mabee2007b pmid=17599725
 #rosen1974 Rosen DE. 1974. ''[http://hdl.handle.net/2246/606 Phylogeny and zoogeography of salmoniform fishes and relationships of Lepidogalaxias salamandroides].'' Bulletin of the American Museum of Natural History 153:267-325.
 #finkfink1981 Fink SV, Fink WL. 1981. ''Interrelationships of the ostariophysan fishes (Teleostei)''. Zoological Journal of the Linnean Society 72(4):297-353.
 #finkfink1997 Fink, S.V. and W.L. Fink. 1997. Interrelationships of the Ostariophysi. In: ''Interrelationships of Fishes'', M. Stiassney, L. Parenti and D. Johnson (Eds). Academic Press, 209-249. 
