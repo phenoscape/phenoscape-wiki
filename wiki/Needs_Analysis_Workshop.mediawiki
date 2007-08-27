@@ -64,7 +64,6 @@ Members of the project team are in '''bold font'''.
 {{EventParticipant|Lundberg|John|lundberg@acnatsci.org |Department of Ichthyology, Academy of Natural Sciences|'''}}
 {{EventParticipant|Mabee|Paula|pmabee@usd.edu|University of South Dakota|'''}}
 {{EventParticipant|Midford|Peter|petermidford@yahoo.com|Dept. of Ecology and Evolutionary Biology, Univ. of Kansas|'''}}
-{{EventParticipant|Naylor|Gavin|naylor@csit.fsu.edu|Dept. of Biological Science, Florida State University|}}
 {{EventParticipant|Stern|David|dstern@princeton.edu|Department of Ecology and Evolutionary Biology, Princeton University|}}
 {{EventParticipant|Vision|Todd|tjv@bio.unc.edu|NESCent, and Department of Biology, University of North Carolina at Chapel Hill|'''}}
 {{EventParticipant|Wagner|Gunter|gunter.wagner@yale.edu|Yale University|}}
