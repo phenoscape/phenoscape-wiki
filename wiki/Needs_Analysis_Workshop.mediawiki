@@ -14,11 +14,7 @@ title: Needs Analysis Workshop
 
 ==Introduction==
 
-We are developing the first informatics system to integrate evolutionary, anatomical, developmental, and genetics data.  Such a system will serve the community of developmental and evolutionary biologists by providing web-based access to integrated information.
-
-This workshop engages scientists from the fields of morphology, developmental and evolutionary biology, genetics, and ichthyology to collaboratively develop, refine, and prioritize how the research community will be able to use this system.  The goal of the workshop is to develop use-cases, or [[Driving Research Questions|driving biological research questions]] that push the limits of knowledge in the developmental and evolutionary biology fields. These will in turn drive the development of the database and web-based interfaces.
- 
-The workshop will also provide an interesting opportunity to brainstorm about the informatics tools and data required to push beyond these limits, thus fostering new discoveries at the interface between evolution and developmental genetics.
+This workshop brings together scientists from the fields of morphology, development, evolution, genetics, and ichthyology to define what informatic tools need to exist in order to enable synthetic research that takes full advantage of the accumulated data in each of these fields.  The workshop organizers are funded by NSF to develop a system that provides web-based access to integrated evolutionary, anatomical, developmental, and genetics data in the Ostariophysii, and to make the software tools a community resource that can be more broadly applied.  Thus, the major goal of the workshop is to identify [[Driving Research Questions|driving biological research questions]] that take advantage of these data to push the limits of what is currently possible, and to identify what informatic tools are needed in order to answer those questions.  These will, in turn, be distilled to Use Cases that drive the software development activities at NESCent.
 
 ==Agenda==
 
