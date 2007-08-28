@@ -18,13 +18,36 @@ This workshop brings together scientists from the fields of morphology, developm
 
 ==Agenda==
 
+''Note that the agenda below is tentative.''
+
 '''Monday, August 17'''
 
-''To be added soon.''
+* 8.30am NESCent introduction (K. Smith, J. Sturkey)
+* 8.45am Introduction to Workshop
+** Participant introductions (10mins)
+** Linking Evolution to Genomics: Motivation, Approach, Project Goals (P. Mabee, 15mins)
+** Uncovering gene function through mutant phenotypes in zebrafish, a model organism (M. Westerfield, 15mins)
+** Managing of and computing with phenotypes, evolutionary change, and genetics: Informatics challenges (T. Vision or H. Lapp, 15mins)
+* 9.40am Opportunities and research challenges
+** Chalk talks (5mins each)
+** Goals of the workshop (T. Vision)
+* 10.25am '''''Coffee break'''''
+* 10.45am Break-out groups
+** Break-out group 1: Developmental genetics of morphology
+** Break-out group 2: Evolution of morphology
+* 12.00pm '''''Lunch break'''''
+* 1.15pm Continuation of break-out groups, with some participants rotating to different groups
+* 2.45pm '''''Coffee break'''''
+* 3.15pm Report-out from break-out groups, and large group discussion (40mins per group)
+* 4.40pm Discussion of topics for second day
 
 '''Tuesday, August 18'''
 
-''To be added soon.''
+* 9.00am Break-out groups (new composition, topics arisen from previous day)
+* 10.15am '''''Coffee break'''''
+* 10.30am Report-out from break-out groups (20mins per group)
+* 11.10am Future research avenues possibly enabled by this project: large-group brainstorming
+* 12pm '''''Adjourn'''''
 
 ==Logistics==
 
