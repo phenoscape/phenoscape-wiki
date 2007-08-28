@@ -1,0 +1,9 @@
+---
+title: Needs Analysis Workshop/Breakout group 1
+---
+
+==Break-out Group 1: Developmental genetics of morphology==
+
+Examples for driving research questions:
+* Which genes are known to be expressed in the development of a particular morphological structure? 
+* Is there a model organism mutant that has a phenotype similar to a human disease?
