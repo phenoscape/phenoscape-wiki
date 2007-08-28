@@ -33,8 +33,8 @@ This workshop brings together scientists from the fields of morphology, developm
 ** Goals of the workshop (T. Vision)
 * 10.25am '''''Coffee break'''''
 * 10.45am Break-out groups
-** Break-out group 1: Developmental genetics of morphology
-** Break-out group 2: Evolution of morphology
+** [[Needs Analysis Workshop/Breakout group 1|Break-out group 1]]: Developmental genetics of morphology
+** [[Needs Analysis Workshop/Breakout group 2|Break-out group 2]]: Evolution of morphology
 * 12.00pm '''''Lunch break'''''
 * 1.15pm Continuation of break-out groups, with some participants rotating to different groups
 * 2.45pm '''''Coffee break'''''
