@@ -70,21 +70,22 @@ Members of the project team are in '''bold font'''.
 {| border="1" cellpadding="3" cellspacing="0"
 |-
 ! Name !! Institution
-{{EventParticipant|Abzhanov|Arhat|abzhanov@fas.harvard.edu|Department of Organismic and Evolutionary Biology, Harvard University|}}
-{{EventParticipant|Balhoff|Jim|balhoff@nescent.org|NESCent|'''}}
-{{EventParticipant|Dahdul|Wasila|dahdul@acnatsci.org|Department of Ichthyology, Academy of Natural Sciences|'''}}
-{{EventParticipant|Hanken|Jim|hanken@oeb.harvard.edu|Museum of Comparative Zoology, Harvard University|}}
-{{EventParticipant|Hoekstra|Hopi|hoekstra@oeb.harvard.edu|Department of Organismic and Evolutionary Biology, Harvard University|}}
-{{EventParticipant|Hofmann|Hans|hans@mail.utexas.edu|Dept. Integrative Biology, University of Texas at Austin|}}
-{{EventParticipant|Jockusch|Elizabeth|elizabeth.jockusch@uconn.edu|Department of Ecology & Evolutionary Biology, University of Connecticut|}}
-{{EventParticipant|Kellogg|Elizabeth|kellogge@msx.umsl.edu|Dept. of Biology, University of Missouri - St. Louis|}}
-{{EventParticipant|Kimmel|Chuck|kimmel@uoneuro.uoregon.edu|Institute of Neuroscience, University of Oregon|}}
-{{EventParticipant|Lapp|Hilmar|hlapp@nescent.org|NESCent|'''}}
-{{EventParticipant|Lundberg|John|lundberg@acnatsci.org |Department of Ichthyology, Academy of Natural Sciences|'''}}
-{{EventParticipant|Mabee|Paula|pmabee@usd.edu|University of South Dakota|'''}}
-{{EventParticipant|Midford|Peter|petermidford@yahoo.com|Dept. of Ecology and Evolutionary Biology, Univ. of Kansas|'''}}
-{{EventParticipant|Stern|David|dstern@princeton.edu|Department of Ecology and Evolutionary Biology, Princeton University|}}
-{{EventParticipant|Vision|Todd|tjv@bio.unc.edu|NESCent, and Department of Biology, University of North Carolina at Chapel Hill|'''}}
-{{EventParticipant|Wagner|Gunter|gunter.wagner@yale.edu|Yale University|}}
-{{EventParticipant|Westerfield|Monte|monte@uoneuro.uoregon.edu|Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon|'''}}
+{{EventParticipant|Abzhanov|Arhat|abzhanov%40fas%2eharvard%2eedu|Department of Organismic and Evolutionary Biology, Harvard University|}}
+{{EventParticipant|Balhoff|Jim|balhoff%40nescent%2eorg|NESCent|'''}}
+{{EventParticipant|Dahdul|Wasila|dahdul%40acnatsci%2eorg|Department of Ichthyology, Academy of Natural Sciences|'''}}
+{{EventParticipant|Hanken|Jim|hanken%40oeb%2eharvard%2eedu|Museum of Comparative Zoology, Harvard University|}}
+{{EventParticipant|Hoekstra|Hopi|hoekstra%40oeb%2eharvard%2eedu|Department of Organismic and Evolutionary Biology, Harvard University|}}
+{{EventParticipant|Hofmann|Hans|hans%40mail%2eutexas%2eedu|Dept. Integrative Biology, University of Texas at Austin|}}
+{{EventParticipant|Jockusch|Elizabeth|elizabeth%2ejockusch%40uconn%2eedu|Department of Ecology & Evolutionary Biology, University of Connecticut|}}
+{{EventParticipant|Kellogg|Elizabeth|kellogge%40msx%2eumsl%2eedu|Dept. of Biology, University of Missouri - St. Louis|}}
+{{EventParticipant|Kimmel|Chuck|kimmel%40uoneuro%2euoregon%2eedu|Institute of Neuroscience, University of Oregon|}}
+{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
+{{EventParticipant|Lundberg|John|lundberg%40acnatsci%2eorg |Department of Ichthyology, Academy of Natural Sciences|'''}}
+{{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|University of South Dakota|'''}}
+{{EventParticipant|Mast|Austin|amast%40bio%2efsu%2eedu|Department of Biological Science, Florida State University|}}
+{{EventParticipant|Midford|Peter|petermidford%40yahoo%2ecom|Dept. of Ecology and Evolutionary Biology, University of Kansas|'''}}
+{{EventParticipant|Stern|David|dstern%40princeton%2eedu|Department of Ecology and Evolutionary Biology, Princeton University|}}
+{{EventParticipant|Vision|Todd|tjv%40bio%2eunc%2eedu|NESCent, and Department of Biology, University of North Carolina at Chapel Hill|'''}}
+{{EventParticipant|Wagner|Gunter|gunter%2ewagner%40yale%2eedu|Yale University|}}
+{{EventParticipant|Westerfield|Monte|monte%40uoneuro%2euoregon%2eedu|Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon|'''}}
 |}
