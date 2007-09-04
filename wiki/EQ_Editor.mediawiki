@@ -100,4 +100,6 @@ We will begin with some targeted enhancements to Phenote.  A dedicated EQ Editor
 # Matrix view of data.
 # Filtering of matrix view based on various criteria.  The details of this target need to be elaborated.
 
+See the [[software roadmap]] for further plans.
+
 ===PhenoMap-specific EQ Editor===
