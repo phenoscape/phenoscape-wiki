@@ -10,6 +10,6 @@ title: Software roadmap
 * Phenote: Search field for character list tables.  Choose field to filter on, choose text or ontology mode.
 
 ===October 2007===
-* Editable character matrix for data entry as well as viewing.
+* Phenote: Editable character matrix for data entry as well as viewing.
 
 ==History==
