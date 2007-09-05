@@ -14,7 +14,7 @@ title: Software roadmap
 * Phenote: Improved document opening/saving functionality.
 
 ===November 2007===
-* Annotation using temporary terms, when an appropriate term is not available in an ontology.  Ability to update these terms to official term once it is available.
+* Phenote: Annotation using temporary terms, when an appropriate term is not available in an ontology.  Ability to update these terms to official term once it is available.
 
 ===Early 2008===
 * TBD
