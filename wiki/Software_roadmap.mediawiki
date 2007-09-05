@@ -13,4 +13,6 @@ title: Software roadmap
 * Phenote: Editable character matrix for data entry as well as viewing.
 * Phenote: Improved document opening/saving functionality.
 
+===Early 2008===
+
 ==History==
