@@ -98,7 +98,7 @@ We will begin with some targeted enhancements to Phenote.  A dedicated EQ Editor
 # Taxonomy-based bulk selection tool.
 # Tree-based bulk selection tool. ''[[Phenote:Phylogeny-based Selector|screenshot]]''
 # Matrix view of data.
-# Filtering of matrix view based on various criteria.  The details of this target need to be elaborated.
+# Filtering of matrix view using a search text field.
 
 See the [[software roadmap]] for further plans.
 
