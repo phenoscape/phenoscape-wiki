@@ -71,6 +71,8 @@ The following table describes the entry fields in the PhenoMap configuration.  P
 | Image URI || web link to an image, if available
 |}
 
+Please report any issues you come across by using the [https://sourceforge.net/tracker/?group_id=76834&atid=887913 Phenote tracker].
+
 ==Ontology change requests==
 
 Here are links to ontology term trackers:
