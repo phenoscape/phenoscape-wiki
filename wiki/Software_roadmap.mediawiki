@@ -17,6 +17,7 @@ title: Software roadmap
 
 ===November 2007===
 * Phenote: Annotation using temporary terms, when an appropriate term is not available in an ontology.  Ability to update these terms to official term once it is available.
+* Phenote: Should be feature-complete for essential character annotation work by curators.
 
 ===Early 2008===
 * TBD
