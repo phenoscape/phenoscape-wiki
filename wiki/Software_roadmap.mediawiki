@@ -6,9 +6,9 @@ title: Software roadmap
 
 ===September 2007===
 
-* Phenote: Character matrix view of entered data.  Read-only.
 * Phenote: Search field for character list tables.  Filter out table rows by simple text matching.
 * Phenote: Ontology mode for search field.  Show only rows using a term descending from the search term.
+* Phenote: Character matrix view of entered data.  Read-only.
 
 ===October 2007===
 * Phenote: Editable character matrix for data entry as well as viewing.
