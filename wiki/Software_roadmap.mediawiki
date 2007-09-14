@@ -31,5 +31,5 @@ title: Software roadmap
 ! rowspan=2 | November 2007
 | Annotation using temporary terms, when an appropriate term is not available in an ontology.  Ability to update these terms to official term once it is available.
 |-
-| style="background:#ffdead;" | Phenote feature-complete to be productively and efficiently used by curators.
+| style="background:#efefef;" | Phenote feature-complete to be productively and efficiently used by curators.
 |}
