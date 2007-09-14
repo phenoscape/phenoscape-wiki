@@ -4,6 +4,7 @@ title: Software roadmap
 
 ==Deliverables & Milestones==
 * Phenotype annotation editor
+*# Enhance Phenote with necessary features to be productively and efficiently used by curators.
 * Ontology editor
 * A database and web-application to store and query the taxonomies, ontologies, and phenotype data.
 
