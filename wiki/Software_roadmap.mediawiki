@@ -15,8 +15,8 @@ title: Software roadmap
 ** User should be able to access common application commands while any window is in front.
 ** On Mac, menu should properly use Quit menu and other standard menu items.
 * Phenote: Improved document opening/saving functionality.
-** User will be able to quickly save a document to the same file it was opened from.
-** User will be able to open multiple documents simultaneously.
+** User should be able to quickly save a document to the same file it was opened from.
+** User should be able to open multiple documents simultaneously.
 * Phenote: Editable character matrix for data entry as well as viewing.
 
 ===November 2007===
