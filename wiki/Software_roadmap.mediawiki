@@ -7,7 +7,8 @@ title: Software roadmap
 {| border="1"
 ! Timeline !! Phenote
 |-
-| September 2007 || Search field for character list tables.  Filter out table rows by simple text matching.
+| rowspan=2 | September 2007 
+| Search field for character list tables.  Filter out table rows by simple text matching.
 |-
 |  || Ontology mode for search field.  Show only rows using a term descending from the search term.
 |}
