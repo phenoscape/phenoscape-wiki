@@ -2,6 +2,11 @@
 title: Software roadmap
 ---
 
+==Deliverables & Milestones==
+* Phenotype Annotation Editor
+* Ontology Editor
+* A database and web-application to store and query the taxonomies, ontologies, and phenotype data.
+
 ==Development Plan==
 
 {| border="1" cellpadding="5"
@@ -23,6 +28,7 @@ title: Software roadmap
 |-
 ! rowspan=1 | November 2007
 | Annotation using temporary terms, when an appropriate term is not available in an ontology.  Ability to update these terms to official term once it is available.
+|- Milestone: Phenote feature-complete to be productively and efficiently used by curators.
 |}
 
 
