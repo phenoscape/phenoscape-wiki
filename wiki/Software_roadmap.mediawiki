@@ -17,7 +17,7 @@ title: Software roadmap
 |-
 ! rowspan=3 | September 2007 
 | Search field for character list tables.  Filter out table rows by simple text matching. ''Complete --[[User:Jpb15|jim]] 16:35, 14 September 2007 (EDT)''
-| Curators use OBO-Edit to view and edit project ontologies.
+| style="background:#efefef;" | Curators use OBO-Edit to view and edit project ontologies.
 |-
 | Ontology mode for search field.  Show only rows using a term descending from the search term.
 |-
