@@ -4,7 +4,7 @@ title: Software roadmap
 
 ==Development Plan==
 
-{| border="1"
+{| border="1" cellpadding="5"
 ! Timeline !! Phenote
 |-
 ! rowspan=2 | September 2007 
