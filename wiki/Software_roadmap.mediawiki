@@ -4,7 +4,7 @@ title: Software roadmap
 
 ==Development Plan==
 
-{|
+{| border="1"
 ! Timeline !! Phenote
 |-
 | September 2007 || Search field for character list tables.  Filter out table rows by simple text matching.
