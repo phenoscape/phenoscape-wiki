@@ -27,5 +27,3 @@ title: Software roadmap
 
 
 * Phenote: Should be feature-complete for essential character annotation work by curators.
-
-==History==
