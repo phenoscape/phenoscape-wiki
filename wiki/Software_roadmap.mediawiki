@@ -7,18 +7,18 @@ title: Software roadmap
 {| border="1" cellpadding="5"
 ! Timeline !! Phenote
 |-
-! rowspan=2 | September 2007 
+! rowspan=3 | September 2007 
 | Search field for character list tables.  Filter out table rows by simple text matching.
 |-
 | Ontology mode for search field.  Show only rows using a term descending from the search term.
+|-
+| Character matrix view of entered data.  Read-only.
+|-
+! rowspan=5 | October 2007
+|  Improved menu handling. User should be able to access common application commands while any window is in front.  On Mac, menu should properly use Quit menu and other standard menu items.
 |}
 
 
-===September 2007===
-
-* Phenote: Search field for character list tables.  Filter out table rows by simple text matching.
-* Phenote: Ontology mode for search field.  Show only rows using a term descending from the search term.
-* Phenote: Character matrix view of entered data.  Read-only.
 
 ===October 2007===
 * Phenote: Improved menu handling.
