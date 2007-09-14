@@ -3,8 +3,8 @@ title: Software roadmap
 ---
 
 ==Deliverables & Milestones==
-* Phenotype Annotation Editor
-* Ontology Editor
+* Phenotype annotation editor
+* Ontology editor
 * A database and web-application to store and query the taxonomies, ontologies, and phenotype data.
 
 ==Development Plan==
