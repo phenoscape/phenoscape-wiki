@@ -11,10 +11,10 @@ title: Software roadmap
 * Phenote: Character matrix view of entered data.  Read-only.
 
 ===October 2007===
-* Phenote: Editable character matrix for data entry as well as viewing.
 * Phenote: Improved document opening/saving functionality.
 ** User will be able to quickly save a document to the same file it was opened from.
 ** User will be able to open multiple documents simultaneously.
+* Phenote: Editable character matrix for data entry as well as viewing.
 
 ===November 2007===
 * Phenote: Annotation using temporary terms, when an appropriate term is not available in an ontology.  Ability to update these terms to official term once it is available.
