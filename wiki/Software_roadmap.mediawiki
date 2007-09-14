@@ -11,6 +11,9 @@ title: Software roadmap
 * Phenote: Character matrix view of entered data.  Read-only.
 
 ===October 2007===
+* Phenote: Improved menu handling.
+** User should be able to access common application commands while any window is in front.
+** On Mac, menu should properly use Quit menu and other standard menu items.
 * Phenote: Improved document opening/saving functionality.
 ** User will be able to quickly save a document to the same file it was opened from.
 ** User will be able to open multiple documents simultaneously.
