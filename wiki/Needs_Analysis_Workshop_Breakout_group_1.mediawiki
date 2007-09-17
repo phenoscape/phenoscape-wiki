@@ -90,10 +90,18 @@ See change in developmental affects in genes - do you see similar evolutionary c
 See rapid evolutionary change in gene sequence within phylogeny - what phenotypic changes are associated with that part of phylogeny?
 * investigate possible correlations
 * requires phylogeny
-* map changes on phylogeny
+* map phenotypic changes on phylogeny
 ** Generate phylogenies on the fly
 ** User submit phylogeny
 ** User play with topology on screen and see results
 
 Negative information?
 * Database tell you what the gaps are that would allow you to answer a particular question
+
+Estimate rates of trait evolution?
+
+View synapomorphies for groups
+
+As data is provided by users from field
+* need latitude and longitude for specimen - can immediately interface with ecological data
+* developmental stage of specimen?  usually adult, usually give you size
