@@ -110,4 +110,7 @@ As data is provided by users from field
 Gene networks
 * are phenotypic changes non-randomly placed within gene networks?
 * hypothesis: can't play around much with receptors, but other components in signaling pathway can vary
-* is particular spot within pathway correlated with major phenotypic change
+* is particular node within pathway correlated with major phenotypic change
+
+Repository of micro-CT data
+- slice electronically
