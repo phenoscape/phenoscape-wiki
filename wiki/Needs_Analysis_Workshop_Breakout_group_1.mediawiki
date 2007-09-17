@@ -26,3 +26,12 @@ GW - would database be like GenBank - I could describe a fish and deposit my phe
 PM - data is representation of current knowledge - can change over time
 
 GW - how is change in knowledge, like of orthology statements, handled in genome databases
+
+Manually updated, typically
+
+MW - We should move above mechanics and focus on biological questions
+
+EJ - how can we use data to identify discrete modules of variation within evolution
+
+GW - taxonomic work in mammals often involves tooth characters - usually cusps are individualized
+- actually character identity should be attached to tooth type rather than cusp as unit character - resolves many homology issues
