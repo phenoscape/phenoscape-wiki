@@ -114,3 +114,15 @@ Gene networks
 
 Repository of micro-CT data
 - slice electronically
+- sort into series
+- find by ontological term association
+
+Map where shape changes on phylogeny
+* ask what else changes more than expected along those particular nodes
+* are than any structures changing in other groups in structures considered homologues
+
+Back to module discovery... what questions would you ask?
+* Look for discrete piece of development in developmental series
+* What pieces of development share a piece of genetic program?
+* Are the structures influenced by a common developmental trigger?  Even if not contiguous in space...
+*
