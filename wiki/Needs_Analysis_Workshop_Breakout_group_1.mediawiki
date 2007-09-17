@@ -63,7 +63,10 @@ Are there mutants in the mouse that affect phalanges?  Are there similar zebrafi
 Position, shape, cell type of skeletal elements?
 Similar gene expression patterns?  Does it support continuity of developmental identity?
 Evidence that there are intermediate forms - continuity
-
+- require fossil data
+# Are there mutants that affect phalanges?
+# What genes are involved?
+# Are there mutants in "similar" structures affected by those genes
 
 Compare in database?
 
