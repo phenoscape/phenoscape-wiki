@@ -91,3 +91,9 @@ See rapid evolutionary change in gene sequence within phylogeny - what phenotypi
 * investigate possible correlations
 * requires phylogeny
 * map changes on phylogeny
+** Generate phylogenies on the fly
+** User submit phylogeny
+** User play with topology on screen and see results
+
+Negative information?
+* Database tell you what the gaps are that would allow you to answer a particular question
