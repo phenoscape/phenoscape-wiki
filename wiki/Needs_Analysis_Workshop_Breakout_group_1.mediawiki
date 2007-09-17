@@ -48,3 +48,24 @@ GW - Homology and analogy
 - instead could have "character model"
 - contain kind of cells within, location in body, relation to other characters, what kind of states can it assume - represent variational tendencies of a chunk of the body
 - avoid simplifying biological reality - open-ended structure
+
+CK - can you really ask question like "what are modules of evolution" from database - is that too big
+
+PM and MW - hope to draw such conclusions from database
+
+EJ - quantify levels of covariation across clade as well as across experimental phenotypes
+
+
+Question:
+Paired appendages in vertebrates - fins and limbs etc.  Homologous, but endoskeletons are not comparable though
+Do fish have digits (digit homolog)?  Is there a skeletal structure that is historically continuous with digits?
+Are there mutants in the mouse that affect phalanges?  Are there similar zebrafish mutants that affect radials?
+Position, shape, cell type of skeletal elements?
+Similar gene expression patterns?  Does it support continuity of developmental identity?
+Evidence that there are intermediate forms - continuity
+
+
+Compare in database?
+
+Question:
+Comparative catalog of cell types
