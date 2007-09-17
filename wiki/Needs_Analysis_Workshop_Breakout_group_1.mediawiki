@@ -125,4 +125,5 @@ Back to module discovery... what questions would you ask?
 * Look for discrete piece of development in developmental series
 * What pieces of development share a piece of genetic program?
 * Are the structures influenced by a common developmental trigger?  Even if not contiguous in space...
-*
+* Intermodule connections are biologically less stable than intramodule
+* what is known about signals that co-influence structures?
