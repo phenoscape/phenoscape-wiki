@@ -7,3 +7,17 @@ title: Needs Analysis Workshop/Breakout group 1
 Examples for driving research questions:
 * Which genes are known to be expressed in the development of a particular morphological structure? 
 * Is there a model organism mutant that has a phenotype similar to a human disease?
+
+Characters
+
+GW - describe natural units
+ - not necessarily arbitrary
+- can phenotype be decomposed into natural mechanistic units
+
+CK - could ontology hold you back from describing some things
+
+GW - can lead to confusion
+
+EJ - this database can be a way of discovering these units
+
+GW - would database be like GenBank - I could describe a fish and deposit my phenotypes
