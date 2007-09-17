@@ -81,3 +81,13 @@ Data needed:
 * score amount of variation across phenotypes, mutant affects, pathways
 * measure phenotypic affect of a mutation on leg vs. antenna - how to measure magnitude of phenotypic change in either structure?
 ** current data are biased by screens
+
+Where do patterns of covariation change within evolution?
+* identify using database, give hints to experimental work
+
+See change in developmental affects in genes - do you see similar evolutionary change?
+
+See rapid evolutionary change in gene sequence within phylogeny - what phenotypic changes are associated with that part of phylogeny?
+* investigate possible correlations
+* requires phylogeny
+* map changes on phylogeny
