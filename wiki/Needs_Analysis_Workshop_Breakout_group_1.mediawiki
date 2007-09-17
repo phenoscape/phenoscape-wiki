@@ -11,7 +11,7 @@ Examples for driving research questions:
 Characters
 
 GW - describe natural units
- - not necessarily arbitrary
+- not necessarily arbitrary
 - can phenotype be decomposed into natural mechanistic units
 
 CK - could ontology hold you back from describing some things
@@ -21,3 +21,8 @@ GW - can lead to confusion
 EJ - this database can be a way of discovering these units
 
 GW - would database be like GenBank - I could describe a fish and deposit my phenotypes
+- structure of data would be fluid
+
+PM - data is representation of current knowledge - can change over time
+
+GW - how is change in knowledge, like of orthology statements, handled in genome databases
