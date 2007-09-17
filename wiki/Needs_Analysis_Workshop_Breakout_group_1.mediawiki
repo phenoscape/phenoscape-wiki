@@ -66,7 +66,8 @@ Evidence that there are intermediate forms - continuity
 - require fossil data
 # Are there mutants that affect phalanges?
 # What genes are involved?
-# Are there mutants in "similar" structures affected by those genes
+# Are there mutants in "similar" structures affected by any of those genes?
+#* Point you to best candidates in terms of phenotypic similarity, membership in pathway
 
 Compare in database?
 
