@@ -35,3 +35,16 @@ EJ - how can we use data to identify discrete modules of variation within evolut
 
 GW - taxonomic work in mammals often involves tooth characters - usually cusps are individualized
 - actually character identity should be attached to tooth type rather than cusp as unit character - resolves many homology issues
+
+Question:
+See same tooth type evolving again and again.
+Developmentally, cusps don't come and go individually.
+- see covariance within mutants
+query for mutants that affect cusp X - always see that other cusp is affected
+
+
+GW - Homology and analogy
+- often too "yes or no"
+- instead could have "character model"
+- contain kind of cells within, location in body, relation to other characters, what kind of states can it assume - represent variational tendencies of a chunk of the body
+- avoid simplifying biological reality - open-ended structure
