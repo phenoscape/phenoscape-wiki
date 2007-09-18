@@ -44,6 +44,9 @@ This workshop brings together scientists from the fields of morphology, developm
 '''Tuesday, August 18'''
 
 * 9.00am Break-out groups (new composition, topics arisen from previous day)
+*# [[NAW Semantics Break-out|Semantics]]
+*# [[NAW Correlation Break-out|Correlation of traits]]
+*# [[NAW Phylogeny Break-out|Phylogeny]]
 * 10.15am '''''Coffee break'''''
 * 10.30am Report-out from break-out groups (20mins per group)
 * 11.10am Future research avenues possibly enabled by this project: large-group brainstorming
