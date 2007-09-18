@@ -40,3 +40,4 @@ Of the genes affecting trait 1, how many also affect trait 2?
 Should we allow the user to specify the entity-quality combinations they want in their matrix?
 
 In mayflies, does having a particular gill morphology, increase diversity in habitat?
+Is gregariousness more likely to evolve in aposematically colored lineages?
