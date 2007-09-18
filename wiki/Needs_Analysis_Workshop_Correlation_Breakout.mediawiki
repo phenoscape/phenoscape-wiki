@@ -3,3 +3,15 @@ title: Needs Analysis Workshop/Correlation Breakout
 ---
 
 ==Notes==
+
+AA - Important to note difference in naming conventions between genetic terminology and diversity terminology
+
+TV - Ontologies are meant to solve this problem - can map synonym terms to each other
+
+EJ - many natural phenotypes are much more subtle than genetic mutants
+
+TV - that is an advantage of relationships in ontology - can tell that phenotypes are related to the same morphology
+
+AA - only some phenotypes will overlap - the types of variation are different
+
+TV - but at least both may be annotated as affecting the same part of morphology
