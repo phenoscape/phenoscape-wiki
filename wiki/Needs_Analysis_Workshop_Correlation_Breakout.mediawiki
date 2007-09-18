@@ -32,3 +32,11 @@ EJ - co-ocurrrence table will be useful for eyeballing interesting groupings
 EJ - also want to see which traits are related to the same genes
 
 HH - this should be either location of expression in both entities, or same type of effect in both entities
+
+On the branches where trait 1 changes, how many also have change in trait 2?
+Of the genes affecting trait 1, how many also affect trait 2?
+* View these in two matrices - are there correlations in these two matrices?
+
+Should we allow the user to specify the entity-quality combinations they want in their matrix?
+
+In mayflies, does having a particular gill morphology, increase diversity in habitat?
