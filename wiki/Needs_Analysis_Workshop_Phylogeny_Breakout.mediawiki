@@ -14,3 +14,5 @@ PM - what are participants most interested in?
 	-manipulation of existing trees?
 
 Group consensus - want the ability deliver trees and ability to manipulate them
+
+HH – want the ability to map as many phenotypic traits as possible; character mapping with phenotypic transitions, gains/losses, correlated changes; have sets of data mapped on tree – for example , all in situs done for a particular gene…
