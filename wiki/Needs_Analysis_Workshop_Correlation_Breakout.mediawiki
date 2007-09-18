@@ -53,3 +53,5 @@ I see these two traits covarying - how does the system tell you that?
 Gene can affect multiple tissues/structures
 
 What genes affects all x structures?  See results on anatomy view, separated into developmental series / developmental modules
+* See list of genes, click on gene, see mutant phenotypes, then see links to similar evolutionary phenotypes
+* See matrix of co-ocurring mutant phenotypes in two entities/ developmental regions
