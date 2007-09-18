@@ -5,7 +5,9 @@ title: Needs Analysis Workshop/Phylogeny Breakout
 Participants: Monte, Paula, Cartik, Chuck, Wasila, Hans
 
 
-PM: Paula: what are participants most interested in 
+PM - what are participants most interested in 
 	-computing tree on the fly
 	-repository of trees
 	-manipulation of existing trees?
+
+Group concensus - deliver trees and ability to manipulate
