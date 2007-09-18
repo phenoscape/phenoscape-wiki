@@ -15,3 +15,20 @@ TV - that is an advantage of relationships in ontology - can tell that phenotype
 AA - only some phenotypes will overlap - the types of variation are different
 
 TV - but at least both may be annotated as affecting the same part of morphology
+
+AA - user may want to be able to see traits at various levels within ontology - see everything within the tail or just one vertebra
+
+
+TV - Covariance matrix can provide table of co-occurring changes in entities on tree
+
+EJ - there are many complicated ways for doing character reconstruction - user will probably want to get data and run themselves
+
+HH - especially in the case of parsimony, can't always treat transition probabilities as equal
+
+HH & EJ - maybe provide some default methods, such as parsimony, maybe allowing specifying of transition models
+
+EJ - co-ocurrrence table will be useful for eyeballing interesting groupings
+
+EJ - also want to see which traits are related to the same genes
+
+HH - this should be either location of expression in both entities, or same type of effect in both entities
