@@ -41,3 +41,15 @@ Should we allow the user to specify the entity-quality combinations they want in
 
 In mayflies, does having a particular gill morphology, increase diversity in habitat?
 Is gregariousness more likely to evolve in aposematically colored lineages?
+
+I see these two traits covarying - how does the system tell you that?
+* table output (matrix) lets you visually scan for for co-occurrence
+* click on cell, bring up tree with covarying branches highlighted
+** or click on multiple cells and limit tree to those
+* further information on how the character changed...
+
+2 approaches - interested in investigating a particular branch vs. interested in trait correlation across independent changes across tree
+
+Gene can affect multiple tissues/structures
+
+What genes affects all x structures?  See results on anatomy view, separated into developmental series / developmental modules
