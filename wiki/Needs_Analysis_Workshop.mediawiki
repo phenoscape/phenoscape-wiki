@@ -27,7 +27,7 @@ This workshop brings together scientists from the fields of morphology, developm
 ** Uncovering gene function through mutant phenotypes in zebrafish, a model organism (M. Westerfield, 15mins)
 ** Managing of and computing with phenotypes, evolutionary change, and genetics: Informatics challenges (T. Vision, 15mins)
 * 9.40am Opportunities and research challenges
-** Chalk talks (5mins each)
+** [[Needs Analysis Workshop/Chalk talks|Chalk talks]] (5mins each)
 ** Goals of the workshop (H. Lapp)
 * 10.25am '''''Coffee break'''''
 * 10.45am Break-out groups
