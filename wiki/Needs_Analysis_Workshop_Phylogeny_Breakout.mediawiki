@@ -23,9 +23,15 @@ HH – want the ability to map as many phenotypic traits as possible;
 
 PM - view changes in all head bones
 
-Group - challenges of visualizing multiple characters mapped on the tree
+CK - choose a term and see all changes on tree, perhaps from a drop-down list
+
+Group - discussion of challenges of visualizing multiple characters mapped on the tree
+
+-similar functionality of MacClade, summarizing character change information as tick marks on branches, but this might get crowded
 
 CK – interested in getting figures on the phylogeny
+
+HH - look for correlation between gene expression and trait on tree
 
 HH – note whether in situs have been done at all for species of interest;  see which species have that data, download all the images.
  
