@@ -61,3 +61,9 @@ HH - interested in automation of data extraction from behavioral movies; creatio
 TK - would require building a model that describes your situation; have a database-wide matrix for pattern recognition
 
 TK - could use various tolerance levels in data extraction
+
+TK - interest in comparing your data to the database
+
+HH - user can add their own annotations and send them to the data curator
+
+AA  need to decide on the measures and layout of the data early on, so that everyone follows the standardized methods of data collection
