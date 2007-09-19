@@ -19,7 +19,21 @@ HH - provided an example of a workflow of research he conducts
 HH - Molecular basis of chage in the brain as it relates to behavior; change meaning development, plasticity in adult, evolutionary change.
 
 --have two populations that differ in escape response
+
 --have knowledge of physiology, hormones, neural circuitry (morphology) ==> relates to M-cell
+
 --questions: does it relate to ecology? if genetic changes occurred between populations, how did evolve?
 
---
+--collect imaging data, have sparser data on electrophysiology time series
+
+--M-cell --> extract RNA for profiling or CGH --> get candidate genes.  Imaging issues
+
+--kinds of data collected: expression imaging, histological sections, videos of behavior
+
+--Interested in integrating across biological levels, literature, existing databases
+
+TK - what is integration? how do you handle this data flow now?
+
+HH - covariance matrix, examine c-turn behavior associated with a particular cluster of individuals, determine which candidate genes correspond
+
+-- some genes don't cluster with his measures, so the database could fill in that information
