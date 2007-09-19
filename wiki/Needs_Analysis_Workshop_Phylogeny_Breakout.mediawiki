@@ -21,6 +21,16 @@ CK – interested in getting figures on the phylogeny
 
 HH – note whether in situs have been done at all for species of interest;  see which species have that data, download all the images.
  
-CK - interested in output/reports of statistics, such as statistics for testing character correlation
+CK - interested in output/reports of statistics and quantitative measures, such as statistics for testing character correlation
 
 HH - also independent contrasts to assess character independence
+
+HH - has used heat maps to visualize correlations in data sets; might be useful for this project
+
+CK - time component mapped on phylogeny: overlay movie showing developmental sequence
+
+WD - interest in input of your own data (unpublished) to interact with database?
+
+CK/HH - yes, but challenges of data entry; perhaps a temporary repository for data similar to blast searches
+
+MW - having a modified curator interface available for the user to enter their data and run analyses against the database
