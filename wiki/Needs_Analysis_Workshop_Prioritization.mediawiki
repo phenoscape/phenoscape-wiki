@@ -2,7 +2,7 @@
 title: Needs Analysis Workshop/Prioritization
 ---
 
-===Discussion===
+===Additional data types and query constraints===
 
 * Other data types or dimensions we haven't looked at
 ** Time: e.g., developmental time-series
@@ -25,7 +25,7 @@ title: Needs Analysis Workshop/Prioritization
 * Discovery of genetic or evolutionary modules
 * Integrating genetic data
 
-Visualizations:
+===Visualizations:===
 * body map
 * filtering options
 * visualizing the ontology
