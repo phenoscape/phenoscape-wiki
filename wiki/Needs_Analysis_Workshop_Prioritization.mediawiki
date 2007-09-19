@@ -1,0 +1,32 @@
+---
+title: Needs Analysis Workshop/Prioritization
+---
+
+===Discussion===
+
+* Other data types or dimensions we haven't looked at
+** Time: e.g., developmental time-series
+** Geography
+* Abilities to restrict traits by
+** high-level character modules
+** gene
+** GO
+** location
+** developmental stage
+** availability of sufficient data
+
+===Prioritization===
+
+* Character mapping on trees
+* Correlation matrix of traits
+* Downloadable reports of query results
+* Identifying clades which traits vary
+* Phenotypic BLAST to discover similar phenotypes and similar OTUs
+* Discovery of genetic or evolutionary modules
+* Integrating genetic data
+
+Visualizations:
+* body map
+* filtering options
+* visualizing the ontology
+* external data types, link-out to NCBI
