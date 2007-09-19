@@ -32,7 +32,7 @@ You can download the ontologies as OBO files from the above web sites.  You can 
 ====Installation and start up====
 
 * You need Java 1.5 or newer to run Phenote.  For the Mac this requires Mac OS X 10.4 or newer.
-* Launch Phenote using the [http://www.phenote.org/phenote/latest/phenote.jnlp webstart link].  Alternatively, you can try the in-progress builds with the latest features, packaged for [[https://www.nescent.org/wg/fishevolution/images/4/40/Phenote-MacOSX.zip|Mac OS X]] or [[Windows]].
+* Launch Phenote using the [http://www.phenote.org/phenote/latest/phenote.jnlp webstart link].  Alternatively, you can try the in-progress builds with the latest features, packaged for [https://www.nescent.org/wg/fishevolution/images/4/40/Phenote-MacOSX.zip Mac OS X] or [https://www.nescent.org/wg/fishevolution/images/d/db/Phenote-Windows.zip Windows].
 * Choose the "phenomap" configuration before beginning.
 * Save your files using the PhenoSyntax file format (or perhaps the Excel-compatible tab-delimited format).
 
