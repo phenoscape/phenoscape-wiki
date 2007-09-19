@@ -7,16 +7,20 @@ Participants: Monte Westerfield, Paula Mabee, Cartik Muthu, Chuck Kimmel, Wasila
 
 PM - what are participants most interested in?
 
-	-computing tree on the fly
+	-computing tree on the fly?
 
-	-repository of trees
+	-repository of trees?
 
 	-manipulation of existing trees?
 
-Group consensus - want the ability deliver trees and ability to manipulate them
+Group consensus - want the ability to deliver trees and ability to manipulate them
 
 HH – want the ability to map as many phenotypic traits as possible; character mapping with phenotypic transitions, gains/losses, correlated changes; have sets of data mapped on tree – for example , all in situs done for a particular gene…
 
 CK – interested in getting figures on the phylogeny
 
 HH – note whether in situs have been done at all for species of interest;  see which species have that data, download all the images.
+ 
+CK - interested in output/reports of statistics, such as statistics for testing character correlation
+
+HH - also independent contrasts to assess character independence
