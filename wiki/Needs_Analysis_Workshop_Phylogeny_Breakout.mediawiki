@@ -21,6 +21,8 @@ HH – want the ability to map as many phenotypic traits as possible;
 
 -have sets of data mapped on tree – for example , all in situs done for a particular gene…
 
+PM - view changes in all head bones
+
 Group - challenges of visualizing multiple characters mapped on the tree
 
 CK – interested in getting figures on the phylogeny
