@@ -37,3 +37,27 @@ TK - what is integration? how do you handle this data flow now?
 HH - covariance matrix, examine c-turn behavior associated with a particular cluster of individuals, determine which candidate genes correspond
 
 -- some genes don't cluster with his measures, so the database could fill in that information
+
+PM - ontology would be useful for sequences of behavior, but need larger vocabulary
+
+AA - in comparing sequences, what is the phylogenetic cap, because behavior greatly diverges at higher taxonomic levels.
+
+HH - Could ask such questions as: are the same genes being recruited for specific behaviors across different animal groups?
+
+AA - Are behaviors largely genetic? Genetic background x environment
+
+TK - Issue of formal descriptions of behavior, are there standards?
+
+HH - Not very standardized, and some people don't collect information that others might find useful.
+
+AA - in his work, method of taking beak measurements might differ among groups, and need normalization of data; data collected with different methodology is simply not comparable.
+
+TK - What are some community-wide tools that could be useful?  
+
+HH - interested in automation of data extraction from behavioral movies; creation of filters of extract complex behaviors, for example, sequence of locomotor action that signifies escape
+
+-- analagous to homeland security tools that detect individuals that move in suspicious ways
+
+TK - would require building a model that describes your situation; have a database-wide matrix for pattern recognition
+
+TK - could use various tolerance levels in data extraction
