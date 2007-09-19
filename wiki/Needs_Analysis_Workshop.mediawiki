@@ -48,9 +48,9 @@ This workshop brings together scientists from the fields of morphology, developm
 *# [[Needs Analysis Workshop/Correlation Breakout|Correlation of traits]]
 *# [[Needs Analysis Workshop/Phylogeny Breakout|Phylogeny]]
 * 10.15am '''''Coffee break'''''
-* 10.30am [[Needs Analysis Workshop/Report-out Day2|Report-out from break-out groups]] (20mins per group)
-* 11.10am Future research avenues possibly enabled by this project: large-group brainstorming
-* 12pm '''''Adjourn'''''
+* 10.30am [[Needs Analysis Workshop/Report-out Day2|Report-out from break-out groups]], and [[Needs Analysis Workshop/Prioritization|prioritization]]
+* 11.40am Future research avenues possibly enabled by this project: large-group brainstorming
+* 12.30pm '''''Adjourn'''''
 
 ==Logistics==
 
