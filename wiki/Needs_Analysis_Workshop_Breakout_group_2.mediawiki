@@ -8,9 +8,12 @@ Examples for driving research questions:
 * What is the set of genes that are associated with a particular type of morphological change that occurred independently in several clades during evolution? 
 * Which genes are responsible for evolutionary change in the shape of a particular body part? 
 * What evolutionary phenotype mirrors a particular human disease?
+<br/>
 ----
+<br/>
+'''Participants:''' Toby Kellogg, Austin Mast, Hans Hofmann, Arhat Abzhanov, Todd Vision, Wasila Dahdul, Hilmar Lapp, Peter Midford
 
-Participants: Toby Kellogg, Austin Mast, Hans Hofmann, Arhat Abzhanov, Todd Vision, Wasila Dahdul, Hilmar Lapp, Peter Midford
+'''''Notes taken by WD'''''
 
 TK - would like to avoid producing something that's too general to be useful
 
@@ -18,25 +21,25 @@ HH - provided an example of a workflow of research he conducts
 
 HH - Molecular basis of chage in the brain as it relates to behavior; change meaning development, plasticity in adult, evolutionary change.
 
---have two populations that differ in escape response
+* have two populations that differ in escape response
 
---have knowledge of physiology, hormones, neural circuitry (morphology) ==> relates to M-cell
+* have knowledge of physiology, hormones, neural circuitry (morphology) ==> relates to M-cell
 
---questions: does it relate to ecology? if genetic changes occurred between populations, how did evolve?
+* questions: does it relate to ecology? if genetic changes occurred between populations, how did evolve?
 
---collect imaging data, have sparser data on electrophysiology time series
+* collect imaging data, have sparser data on electrophysiology time series
 
---M-cell --> extract RNA for profiling or CGH --> get candidate genes.  Imaging issues
+* M-cell * > extract RNA for profiling or CGH * > get candidate genes.  Imaging issues
 
---kinds of data collected: expression imaging, histological sections, videos of behavior
+* kinds of data collected: expression imaging, histological sections, videos of behavior
 
---Interested in integrating across biological levels, literature, existing databases
+* Interested in integrating across biological levels, literature, existing databases
 
 TK - what is integration? how do you handle this data flow now?
 
 HH - covariance matrix, examine c-turn behavior associated with a particular cluster of individuals, determine which candidate genes correspond
 
--- some genes don't cluster with his measures, so the database could fill in that information
+* some genes don't cluster with his measures, so the database could fill in that information
 
 PM - ontology would be useful for sequences of behavior, but need larger vocabulary
 
@@ -56,7 +59,7 @@ TK - What are some community-wide tools that could be useful?
 
 HH - interested in automation of data extraction from behavioral movies; creation of filters of extract complex behaviors, for example, sequence of locomotor action that signifies escape
 
--- analagous to homeland security tools that detect individuals that move in suspicious ways
+* analagous to homeland security tools that detect individuals that move in suspicious ways
 
 TK - would require building a model that describes your situation; have a database-wide matrix for pattern recognition
 
@@ -67,3 +70,32 @@ TK - interest in comparing your data to the database
 HH - user can add their own annotations and send them to the data curator
 
 AA - need to decide on the measures and layout of the data early on, so that everyone follows the standardized methods of data collection
+
+'''''Notes taken by HL'''''
+
+* HH: the series of template questions is actually not linear, but circular - visualization of results will lead to new questions
+* HH: change: developmental, plastic, evolutionary; phenotypic change may be due to any of those
+* HH: candidate genes that have evolved differently, function differently (as in expression), or both
+* HH: integration challenge: phenotype change is driven possibly by ecologic conditions, life history, adaptation, evolutionary time; need all the respective data to elucidate mechanism
+* HH: gene covariance analysis across individuals could also be applied across species
+* association analysis between genes and a particular phenotype
+* a cluster of covarying genes may not always be annotated with a phenotypic observation
+* for example, a cluster resulting from studying escape behavior may be associated in the ZFIN database with locomotor behavior
+* PM: temporal dissection of complex behavior (such as escape behavior: which movement takes place when)
+* HH: are the same genes being recruited for the same type of behavior on different clades of organisms, or for the same change in behavior occurring in several lineages (for example, monogamous to polygamous transition)
+* raising individuals in different environments can reveal developmental plasticity - but not all species may have such plasticity
+* we may need a much higher resolution in ontologies over the duration of the developmental process
+* resolution and comprehensiveness of phenotype annotation based on images is also a challenge
+* AA, PM: need metadata standards for how the image and the specimen were prepared
+* HH, AA: need calibrations for morphometrics, otherwise almost can't compare
+* HH: bottleneck is automatic extraction of features and patterns from images, both from images (spatial problem) or movies (temporal problem)
+* PM: do we need a model-authoring tool that lets us express models of which processes, phenotypes, and genes interact or are related
+* TJV: do we need the ability for users to add their own annotation on their own images (assisted by the knowledge base or not) which they can then use for comparative querying
+* AA: the platform could be used to compare phenotypes from a variety of technologies in a standard manner, instead of everyone coming up with their own, which may make data harder to compare, not easier
+* AM: should be able to constrain phenotypic change matches by environment, ecological factors
+* HH: would like to look for environmental (e.g., habitat structure) or ecological factors correlated with phenotypical features (such as size of the forebrain)
+* serendipitously connect parts (threat display) of a superclass of behavior (aggressive behavior) to a different superclass of behavior (courtship behavior) through their respective gene clusters sharing genes in common
+* HH, AA: there is a lot of ignorance in naming anatomy and morphology between developmental biologists and evolutionary biologists, which can cause many problems, such as part of organs that have distinct functions being lumped together
+* AA: computers can quickly determine morphometric properties that change over a large series of images
+* AA: quality of the database (images, measurements) matters tremendously
+* HH: ontology may help already tremendously to simply pull out the images relevant to or matching a particular phenotype or entity term, can then use my own algorithms to analyze them
