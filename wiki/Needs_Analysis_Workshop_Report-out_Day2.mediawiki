@@ -44,9 +44,11 @@ title: Needs Analysis Workshop/Report-out Day2
 * searching or analyzing phenotypes by similarity would require more rigorous or deep semantics
 * too fine grained ontologies may be problematic for annotation
 * allelic links:
-** emerging dataset of genetic mutations that are proven to have caused evolutionary change (D. Stern)
+** emerging dataset of genetic mutations that are experimentally proven to have caused evolutionary change (D. Stern); experiments that allow strong hypotheses for polarity of gene change
 ** directionality of allelic changes may be important
 ** may need an evolves-from (develops-from?) relationship
+** restrict some queries to where information (e.g. gene expression) is available for >50% of the taxa
+** Visualizations: phylogenies, body maps, time series, geography
 
 ===Discussion===
 
