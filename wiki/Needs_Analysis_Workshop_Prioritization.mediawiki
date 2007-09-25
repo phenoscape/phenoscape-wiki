@@ -20,7 +20,7 @@ title: Needs Analysis Workshop/Prioritization
 * Character mapping on trees
 * Correlation matrix of traits
 * Downloadable reports of query results (e.g. candidate genes; comparative phenotypic data)
-* Identifying clades which traits vary
+* Identifying clades which traits vary (quick retrieval of character state distributions)
 * Phenotypic BLAST to discover similar phenotypes and similar OTUs
 * Discovery of genetic or evolutionary modules
 * Integrating genetic data
