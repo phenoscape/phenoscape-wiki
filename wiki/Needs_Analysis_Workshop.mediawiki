@@ -23,8 +23,8 @@ This workshop brings together scientists from the fields of morphology, developm
 * 8.30am NESCent introduction (K. Smith, J. Sturkey)
 * 8.45am Introduction to Workshop
 ** Participant introductions (10mins)
-** Linking Evolution to Genomics: Motivation, Approach, Project Goals (P. Mabee, 15mins)
-** Uncovering gene function through mutant phenotypes in zebrafish, a model organism (M. Westerfield, 15mins)
+** [[Media:Needs_intro_final_Mabee.pdf|Linking Evolution to Genomics: Motivation, Approach, Project Goals]] (P. Mabee, 15mins)
+** [[Media:Monte-intro.pdf|Uncovering gene function through mutant phenotypes in zebrafish, a model organism]] (M. Westerfield, 15mins)
 ** Managing of and computing with phenotypes, evolutionary change, and genetics: Informatics challenges (T. Vision, 15mins)
 * 9.40am Opportunities and research challenges
 ** [[Needs Analysis Workshop/Chalk talks|Chalk talks]] (5mins each)
