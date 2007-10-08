@@ -26,7 +26,7 @@ title: Needs Analysis Workshop/Report-out Day1
 * use the database to point out holes in the knowledge
 
 ===Discussion===
-[[Image:Day2-brainstorming1.whiteboard.JPG|thumb|left|384px|Analysis Pipeline, Character Modules]]
+[[Image:Day2-brainstorming1.whiteboard.JPG|thumb|right|384px|Analysis Pipeline, Character Modules]]
 * enrichment analysis: given a list of genes, which phenotype terms are overrepresented among them
 * capturing representing variation seems to be a general problem and challenge, but critically needed
 ** variation in regulatory (or morphogenic) gene expression and corresponding phenotypic changes (Hox gene expression example)
