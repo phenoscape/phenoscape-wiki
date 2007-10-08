@@ -16,7 +16,7 @@ title: Needs Analysis Workshop/Prioritization
 ** availability of sufficient data
 
 ===Prioritization===
-[[Image:Day2-prioritization.whiteboard.JPG|thumb|right|384px|Whiteboard capture]]
+[[Image:Day2-prioritization.whiteboard.JPG|thumb|right|384px|Priorities]]
 * Character mapping on trees
 * Correlation matrix of traits
 * Downloadable reports of query results (e.g. candidate genes; comparative phenotypic data)
