@@ -3,7 +3,7 @@ title: Needs Analysis Workshop/Prioritization
 ---
 
 ===Additional data types and query constraints===
-
+[[Image:Day2-dataintegration.whiteboard.JPG|thumb|right|384px|Data interrelationships]]
 * Other data types or dimensions we haven't looked at
 ** Time: e.g., developmental time-series
 ** Geography
