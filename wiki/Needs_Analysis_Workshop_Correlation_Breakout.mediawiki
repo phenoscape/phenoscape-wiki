@@ -5,7 +5,7 @@ title: Needs Analysis Workshop/Correlation Breakout
 Arhat Abzhanov, Todd Vision, Elizabeth Jockusch, Hopi Hoekstra, Jim Balhoff
 
 ==Notes==
-
+[[Image:Day2-correlation1.whiteboard.JPG|thumb|right|384px|Whiteboard]]
 AA - Important to note difference in naming conventions between genetic terminology and diversity terminology
 
 TV - Ontologies are meant to solve this problem - can map synonym terms to each other
