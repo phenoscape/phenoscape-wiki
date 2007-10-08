@@ -51,7 +51,7 @@ title: Needs Analysis Workshop/Report-out Day2
 ** Visualizations: phylogenies, body maps, time series, geography
 
 ===Discussion===
-
+[[Image:Day2-dataintegration.whiteboard.JPG|thumb|right|384px|Data interrelationships]]
 * Other data types or dimensions we haven't looked at
 ** Time: e.g., developmental time-series
 ** Geography
