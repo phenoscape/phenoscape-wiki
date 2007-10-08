@@ -22,7 +22,7 @@ title: Needs Analysis Workshop/Report-out Day2
 ** Parallel evolution
 
 ===Phenotype correlation (Todd Vision): Report-out===
-
+[[Image:Day2-correlation2.whiteboard.JPG|thumb|right|384px|Whiteboard examples]]
 * matrix showing numerical summaries
 * find cloud of similar annotations
 ** traits vs traits, traits vs genes, genes vs genes
