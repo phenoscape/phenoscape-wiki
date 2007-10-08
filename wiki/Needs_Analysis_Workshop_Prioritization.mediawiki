@@ -8,7 +8,7 @@ title: Needs Analysis Workshop/Prioritization
 ** Time: e.g., developmental time-series
 ** Geography
 * Abilities to restrict traits by
-** high-level character modules
+**  high-level character modules
 ** gene
 ** GO
 ** location
