@@ -4,8 +4,8 @@ title: Needs Analysis Workshop/Phylogeny Breakout
 
 Participants: Monte Westerfield, Paula Mabee, Cartik Muthu, Chuck Kimmel, Wasila Dahdul, Hans Hofman
 
-
-PM - what are participants most interested in?
+[[Image:Day2-phylogeny1.whiteboard.JPG|thumb|right|384px|Whiteboard]]
+PM - what are participants most interested in? 
 
 	-computing tree on the fly?
 
