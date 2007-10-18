@@ -76,7 +76,6 @@ Members of the project team are in '''bold font'''.
 {{EventParticipant|Abzhanov|Arhat|abzhanov%40fas%2eharvard%2eedu|Department of Organismic and Evolutionary Biology, Harvard University|}}
 {{EventParticipant|Balhoff|Jim|balhoff%40nescent%2eorg|NESCent|'''}}
 {{EventParticipant|Dahdul|Wasila|dahdul%40acnatsci%2eorg|Department of Ichthyology, Academy of Natural Sciences|'''}}
-{{EventParticipant|Hanken|Jim|hanken%40oeb%2eharvard%2eedu|Museum of Comparative Zoology, Harvard University|}}
 {{EventParticipant|Hoekstra|Hopi|hoekstra%40oeb%2eharvard%2eedu|Department of Organismic and Evolutionary Biology, Harvard University|}}
 {{EventParticipant|Hofmann|Hans|hans%40mail%2eutexas%2eedu|Dept. Integrative Biology, University of Texas at Austin|}}
 {{EventParticipant|Jockusch|Elizabeth|elizabeth%2ejockusch%40uconn%2eedu|Department of Ecology & Evolutionary Biology, University of Connecticut|}}
