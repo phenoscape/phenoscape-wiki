@@ -2,7 +2,7 @@
 title: Main Page
 ---
 
-{{EventBox1|We have hosted a "[[Needs_Analysis_Workshop|Needs Analysis Workshop]]" for this project on Sep 17-18, 2007.}}
+{{EventBox1|Together with the National Center for Biomedical Ontologies (NCBO) we are organizing a [[Training and Workshops|Evolutionary Biology and Ontologies Workshop]], to be held in conjunction with the Evolution 2008 Meetings in Minneapolis, MN.}}
 
 ==Linking Evolution to Genomics Using Phenotype Ontologies==
 
