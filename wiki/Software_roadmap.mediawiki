@@ -19,7 +19,7 @@ title: Software roadmap
 | Search field for character list tables.  Filter out table rows by simple text matching. ''Complete --[[User:Jpb15|jim]] 16:35, 14 September 2007 (EDT)''
 | style="background:#efefef;" | Curators use OBO-Edit to view and edit project ontologies.
 |-
-| Ontology mode for search field.  Show only rows using a term descending from the search term.
+| Ontology mode for search field.  Show only rows using a term descending from the search term. ''Complete --[[User:Jpb15|jim]] 17:20, 19 October 2007 (EDT)''
 |-
 ! rowspan=3 | October 2007
 |  Improved menu handling. User should be able to access common application commands while any window is in front.  On Mac, menu should properly use Quit menu and other standard menu items.
