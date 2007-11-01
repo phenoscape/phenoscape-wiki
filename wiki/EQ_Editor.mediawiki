@@ -15,7 +15,7 @@ The curators will use the EQ Editor to code phenotypic data from an existing pub
 
 ==Data Model==
 
-The following are essential data elements to be captured by the EQ Editor for each character state description (format is in parentheses).  EQ coding will be performed at the level of character states, but there may be a facility for dynamically viewing entries in a character matrix format.  See [[EQ_for_character_matrices|"EQ for character matrices"]] for a discussion - at the [[WG:PI_Meeting_5Jun07|June 5 PI meeting]] we decided to work with only character states.
+The following are essential data elements to be captured by the EQ Editor for each character state description (format is in parentheses).  EQ coding will be performed at the level of character states, but there may be a facility for dynamically viewing entries in a character matrix format.  See [[EQ_for_character_matrices|"EQ for character matrices"]] for a discussion - at the [[WG:PI_Meeting_5Jun07|June 5 PI meeting]] we decided to work with only character states.  Phenotype annotations should generally be made at the species taxonomic level.
 
 ===Phenotype Annotation===
 
