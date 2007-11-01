@@ -4,7 +4,7 @@ title: EQ Editor
 
 =EQ Editor requirements=
 
-These are the currently understood requirements - an earlier draft can be viewed at [EQ Editor requirements draft 1].
+These are the currently understood requirements - an earlier draft can be viewed at [[EQ Editor requirements draft 1]].
 
 The EQ Editor will be used by curators to annotate phenotypic descriptions of Ostariophysi using EQ syntax and ontologies.
 
