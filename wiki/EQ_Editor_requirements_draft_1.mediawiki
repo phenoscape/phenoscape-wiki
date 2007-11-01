@@ -1,0 +1,89 @@
+---
+title: EQ Editor requirements draft 1
+---
+
+=EQ Editor requirements=
+
+The EQ Editor will be used by curators to annotate phenotypic descriptions of Ostariophysi using EQ syntax and ontologies.
+
+The curator will use the EQ Editor to code phenotypic data from an existing publication into the EQ format.  This data consists of descriptions of character state values for corresponding species (or, more precisely, specimens).  A published character state description may contain: the species or higher taxonomic specification, a textual description of the character state value, reference to a voucher specimen for this description, an image showing the character.
+
+===Data Model===
+
+The following are essential data elements to be captured by the EQ Editor for each character state description (format is in parentheses).  EQ coding will be performed at the level of character states, but there may be a facility for dynamically viewing entries in a character matrix format.  See [[EQ_for_character_matrices|"EQ for character matrices"]] for a discussion - at the [[WG:PI_Meeting_5Jun07|June 5 PI meeting]] we decided to work with only character states.
+
+* species name (ontology ID)
+* voucher specimen lot ID (format?)
+* specimen count
+* specimen preparation (cleared and stained, etc.)
+* EQ statement for character state (Q should be a value)
+** E from fish anatomy (ontology ID) - may be post-composed from multiple ontology terms, especially in conjunction with a spatial modifier ontology
+** Q from PATO (ontology ID)
+** measurement - used if Q is an attribute suitable for measurement (e.g. "length")
+*** number - should be able to put in single value, a range, or <, > ''- can all this be done within EQ formalism?''
+*** unit (units ontology ID)
+** E2 from fish anatomy (if Q is descendant of "relational quality of continuant" or "relational quality of occurrent") (ontology ID)
+* original description (free text)
+* publication/citation (DOI? older publications don't have DOI, do they? Another possibility is [http://iphylo.blogspot.com/2007/05/openurl-and-spiders.html SICI])
+* image or URL for image (image data or URL)
+* evidence statement (confirmation by taxonomic expert, etc.) ''- this requires discussion''
+
+===Workflow===
+
+====Sources of data====
+
+The publication being coded may contain data in one of a few different formats.  The given data format may suggest its own style of workflow.  These publication types include 3 main forms:
+
+# Description of many characters for many species and higher taxonomic levels; no character-by-taxon matrix published.
+# A data matrix with multiple species and multiple characters.  There is a character state value for each cell in this matrix.
+# A single species description of values for many characters.
+# Description of a single character for many species (perhaps less common than the other formats?).  If focusing on a single character the data may come from multiple publications.
+
+It seems like scenarios 2 and 3 can be treated as special cases of scenario 1.  For each character, an interface is required for choosing the Entity and Quality from their respective ontologies, and entering free text such as the original character descriptions, as well as other [[#Data_Model|relevant data]].
+
+====Detailed steps====
+
+The standard workflow would be a curator dealing with a single publication during a session of working with the EQ Editor.  Steps might be:
+
+# Create a new EQ Editor document.
+# Enter document-wide data:
+## publication information (author, title, journal)
+## list of specimens - input specimen info, choosing museum institutions from a pick list, and choose taxon from taxonomic ontology for each one
+# Begin making character state annotations:
+## Select a specimen or multiple specimens to which this character state applies (there should be facilities for efficiently choosing sets of specimens/taxa)
+## Create a new EQ statement
+## Choose Entity from anatomy ontology
+## Choose Quality from PATO (usually a Value term)
+## If the Quality is an Attribute term (such as "length"), enter a measurement and its units
+## If the Quality is relational, enter a second Entity from the anatomy ontology
+## If dealing with a single specimen, enter optional image data (URL).  Images may not be applied to multiple specimens at once.
+# At any point, the curator can save the current work to a document (or database).
+
+====Working with EQ statements====
+* A particular EQ statement (specific combination of Entity and Quality) will often be applied to multiple specimens within one document.  Specimens are likely to share EQ values as a result of phylogenetic history, so facilities for efficiently selecting groups of related specimens should be available.  Entries with this EQ statement would be generated for each selected specimen.
+** An EQ entry panel could allow the user to choose a taxon from the taxonomic ontology, either by directly browsing the ontology or through an autocomplete text search field.  All specimens within that taxon would be selected.
+** A phylogenetic tree view could be provided, which allows the user to select a node or nodes to which to apply an EQ statement.  All specimens descending from that node would be selected.  This tree could be initialized by using the taxonomic ontology.  The user could manually edit the tree to provide additional resolution (perhaps by following a tree in the paper).  Alternatively, the software could allow the specification in Newick format of a tree created by another application.
+** It would be useful to be able to invert selections generated by either of the preceding methods.
+* The EQ statements entered into the document should be able to be viewed in various ways to allow checking data entry progress.  Various views are desired:
+** Flat list of all entered EQ statements.
+** Filtered flat list - a search text field can allow quick filtering by any of the data fields.
+** Character-by-taxon matrix - generated from EQ statements by grouping via shared PATO Attributes.
+** Filtered matrix view - what capabilities are needed?  filter by taxon, entity, quality: if one of these is a higher term in the ontology, show all descendant matches
+
+====Questions====
+
+* What should the user be able to do if there is not an appropriate term in the ontology?
+* Need to add a button to say "Need a new term"
+* What will be done (in the immediate term) with the annotations produced by the EQ Editor?  Will they be stored in separate documents, or compiled into a central repository?
+
+===Technology===
+
+Some technology choices may figure into the application requirements, particularly if integration with another application or system is a desired feature.  The major distinction to begin with is between a web-based application and a standalone (desktop) application:
+* Web application
+** Probably allows more rapid interface development
+** Development is likely to produce reusable web services
+** Instant deployment - everyone is working with the latest version on the web
+** Requires internet connection for usage
+* Standalone application
+** Can work offline
+** Offline usage would preclude incorporation of web services into software features (such as loading ontology information from a remote server)
