@@ -4,6 +4,8 @@ title: EQ Editor
 
 =EQ Editor requirements=
 
+These are the currently understood requirements - an earlier draft can be viewed at [EQ Editor requirements draft 1].
+
 The EQ Editor will be used by curators to annotate phenotypic descriptions of Ostariophysi using EQ syntax and ontologies.
 
 The curator will use the EQ Editor to code phenotypic data from an existing publication into the EQ format.  This data consists of descriptions of character state values for corresponding species (or, more precisely, specimens).  A published character state description may contain: the species or higher taxonomic specification, a textual description of the character state value, reference to a voucher specimen for this description, an image showing the character.
