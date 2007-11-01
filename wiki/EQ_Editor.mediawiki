@@ -2,6 +2,9 @@
 title: EQ Editor
 ---
 
+=Overview=
+Currently, the EQ Editor is being developed by customizing [http://www.phenote.org/ Phenote] to our needs.  We are collaborating with the developers of Phenote at NCBO by contributing improvements to the core Phenote code, and we are also developing specialized components and configuration required for our annotation workflow.
+
 =EQ Editor requirements=
 
 These are the currently understood requirements - an earlier draft can be viewed at [[EQ Editor requirements draft 1]].
