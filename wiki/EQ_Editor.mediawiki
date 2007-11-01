@@ -5,22 +5,19 @@ title: EQ Editor
 =Overview=
 Currently, the EQ Editor is being developed by customizing [http://www.phenote.org/ Phenote] to our needs.  We are collaborating with the developers of Phenote at NCBO by contributing improvements to the core Phenote code, and we are also developing specialized components and configuration required for our annotation workflow.
 
-=EQ Editor requirements=
+=Requirements=
 
 These are the currently understood requirements - an earlier draft can be viewed at [[EQ Editor requirements draft 1]].
 
-The EQ Editor will be used by curators to annotate phenotypic descriptions of Ostariophysi using EQ syntax and ontologies.
+The EQ Editor will be used by curators to annotate phenotypic descriptions of Ostariophysi fish using EQ syntax and ontologies.
 
-The curator will use the EQ Editor to code phenotypic data from an existing publication into the EQ format.  This data consists of descriptions of character state values for corresponding species (or, more precisely, specimens).  A published character state description may contain: the species or higher taxonomic specification, a textual description of the character state value, reference to a voucher specimen for this description, an image showing the character.
+The curators will use the EQ Editor to code phenotypic data from an existing publication into the EQ format.  This data consists of descriptions of character state values for corresponding species (or, more precisely, specimens).  A published character state description may contain: the species or higher taxonomic specification, a textual description of the character state value, reference to a voucher specimen for this description, an image showing the character.
 
-===Data Model===
+==Data Model==
 
 The following are essential data elements to be captured by the EQ Editor for each character state description (format is in parentheses).  EQ coding will be performed at the level of character states, but there may be a facility for dynamically viewing entries in a character matrix format.  See [[EQ_for_character_matrices|"EQ for character matrices"]] for a discussion - at the [[WG:PI_Meeting_5Jun07|June 5 PI meeting]] we decided to work with only character states.
 
 * species name (ontology ID)
-* voucher specimen lot ID (format?)
-* specimen count
-* specimen preparation (cleared and stained, etc.)
 * EQ statement for character state (Q should be a value)
 ** E from fish anatomy (ontology ID) - may be post-composed from multiple ontology terms, especially in conjunction with a spatial modifier ontology
 ** Q from PATO (ontology ID)
@@ -30,8 +27,9 @@ The following are essential data elements to be captured by the EQ Editor for ea
 ** E2 from fish anatomy (if Q is descendant of "relational quality of continuant" or "relational quality of occurrent") (ontology ID)
 * original description (free text)
 * publication/citation (DOI? older publications don't have DOI, do they? Another possibility is [http://iphylo.blogspot.com/2007/05/openurl-and-spiders.html SICI])
-* image or URL for image (image data or URL)
-* evidence statement (confirmation by taxonomic expert, etc.) ''- this requires discussion''
+* Reference to section, figure, or image from publication (free text)
+* Evidence code (''the list of evidence codes requires discussion'')
+** Specimen catalog number(s) supporting evidence code when required (direct observation)
 
 ===Workflow===
 
