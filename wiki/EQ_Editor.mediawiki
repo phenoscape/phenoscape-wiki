@@ -89,30 +89,7 @@ The standard workflow would be a curator dealing with a single publication durin
 * Need to add a button to say "Need a new term"
 * What will be done (in the immediate term) with the annotations produced by the EQ Editor?  Will they be stored in separate documents, or compiled into a central repository?
 
-==Technology==
 
-Some technology choices may figure into the application requirements, particularly if integration with another application or system is a desired feature.  The major distinction to begin with is between a web-based application and a standalone (desktop) application:
-* Web application
-** Probably allows more rapid interface development
-** Development is likely to produce reusable web services
-** Instant deployment - everyone is working with the latest version on the web
-** Requires internet connection for usage
-* Standalone application
-** Can work offline
-** Offline usage would preclude incorporation of web services into software features (such as loading ontology information from a remote server)
-
-=Project Plan=
-
-We will begin with some targeted enhancements to Phenote.  A dedicated EQ Editor for PhenoMap will be developed alongside our web services and database infrastructure.
-
-===Enhancements to Phenote===
-
-# Document-wide list of specimens and their taxa which can be pre-entered.  "Bulk" EQ statements can be applied to hand-selected groups of specimens. ''[[Phenote:Specimen List|screenshot]]''
-# Taxonomy-based bulk selection tool.
-# Tree-based bulk selection tool. ''[[Phenote:Phylogeny-based Selector|screenshot]]''
-# Matrix view of data.
-# Filtering of matrix view using a search text field.
+=Roadmap=
 
 See the [[software roadmap]] for further plans.
-
-===PhenoMap-specific EQ Editor===
