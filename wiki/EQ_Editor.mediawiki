@@ -17,6 +17,8 @@ The curators will use the EQ Editor to code phenotypic data from an existing pub
 
 The following are essential data elements to be captured by the EQ Editor for each character state description (format is in parentheses).  EQ coding will be performed at the level of character states, but there may be a facility for dynamically viewing entries in a character matrix format.  See [[EQ_for_character_matrices|"EQ for character matrices"]] for a discussion - at the [[WG:PI_Meeting_5Jun07|June 5 PI meeting]] we decided to work with only character states.
 
+===Phenotype Annotation===
+
 * species name (ontology ID)
 * EQ statement for character state (Q should be a value)
 ** E from fish anatomy (ontology ID) - may be post-composed from multiple ontology terms, especially in conjunction with a spatial modifier ontology
@@ -31,9 +33,14 @@ The following are essential data elements to be captured by the EQ Editor for ea
 * Evidence code (''the list of evidence codes requires discussion'')
 ** Specimen catalog number(s) supporting evidence code when required (direct observation)
 
-===Workflow===
+===Additional data per publication===
 
-====Sources of data====
+Some data from the publications may be useful to store in our database, independent of phenotype annotations.
+* Entire specimen list (catalog numbers) in publication materials.  This could be useful to users of the site who may want to see what specimens the author was using, even if the annotated phenotypes were not explicitly tied to a catalog number.  Further, we could use the catalog numbers to access museum specimen data services for various future applications.
+
+==Workflow==
+
+===Sources of data===
 
 The publication being coded may contain data in one of a few different formats.  The given data format may suggest its own style of workflow.  These publication types include 3 main forms:
 
@@ -44,7 +51,7 @@ The publication being coded may contain data in one of a few different formats. 
 
 It seems like scenarios 2 and 3 can be treated as special cases of scenario 1.  For each character, an interface is required for choosing the Entity and Quality from their respective ontologies, and entering free text such as the original character descriptions, as well as other [[#Data_Model|relevant data]].
 
-====Detailed steps====
+===Detailed steps===
 
 The standard workflow would be a curator dealing with a single publication during a session of working with the EQ Editor.  Steps might be:
 
@@ -62,7 +69,7 @@ The standard workflow would be a curator dealing with a single publication durin
 ## If dealing with a single specimen, enter optional image data (URL).  Images may not be applied to multiple specimens at once.
 # At any point, the curator can save the current work to a document (or database).
 
-====Working with EQ statements====
+===Working with EQ statements===
 * A particular EQ statement (specific combination of Entity and Quality) will often be applied to multiple specimens within one document.  Specimens are likely to share EQ values as a result of phylogenetic history, so facilities for efficiently selecting groups of related specimens should be available.  Entries with this EQ statement would be generated for each selected specimen.
 ** An EQ entry panel could allow the user to choose a taxon from the taxonomic ontology, either by directly browsing the ontology or through an autocomplete text search field.  All specimens within that taxon would be selected.
 ** A phylogenetic tree view could be provided, which allows the user to select a node or nodes to which to apply an EQ statement.  All specimens descending from that node would be selected.  This tree could be initialized by using the taxonomic ontology.  The user could manually edit the tree to provide additional resolution (perhaps by following a tree in the paper).  Alternatively, the software could allow the specification in Newick format of a tree created by another application.
@@ -73,13 +80,13 @@ The standard workflow would be a curator dealing with a single publication durin
 ** Character-by-taxon matrix - generated from EQ statements by grouping via shared PATO Attributes.
 ** Filtered matrix view - what capabilities are needed?  filter by taxon, entity, quality: if one of these is a higher term in the ontology, show all descendant matches
 
-====Questions====
+===Questions===
 
 * What should the user be able to do if there is not an appropriate term in the ontology?
 * Need to add a button to say "Need a new term"
 * What will be done (in the immediate term) with the annotations produced by the EQ Editor?  Will they be stored in separate documents, or compiled into a central repository?
 
-===Technology===
+==Technology==
 
 Some technology choices may figure into the application requirements, particularly if integration with another application or system is a desired feature.  The major distinction to begin with is between a web-based application and a standalone (desktop) application:
 * Web application
