@@ -59,7 +59,7 @@ The standard workflow would be a curator dealing with a single publication durin
 # Enter document-wide data:
 ## publication information (author, title, journal)
 ## list of species - choose taxon from taxonomic ontology for each one
-*** For each species, input list of specimen catalog numbers used in the publication, choosing museum institutions from a pick list
+##* For each species, input list of specimen catalog numbers used in the publication, choosing museum institutions from a pick list
 # Begin making character state annotations:
 ## Select a specimen or multiple specimens to which this character state applies (there should be facilities for efficiently choosing sets of specimens/taxa)
 ## Create a new EQ statement
