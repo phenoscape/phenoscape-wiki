@@ -61,13 +61,15 @@ The standard workflow would be a curator dealing with a single publication durin
 ## list of species - choose taxon from taxonomic ontology for each one
 ##* For each species, input list of specimen catalog numbers used in the publication, choosing museum institutions from a pick list
 # Begin making character state annotations:
-## Select a specimen or multiple specimens to which this character state applies (there should be facilities for efficiently choosing sets of specimens/taxa)
+## Select a species or multiple species to which this character state applies (there should be facilities for efficiently choosing sets of taxa)
+##* If the author makes a statement about a higher taxon (e.g. a family), make a phenotype annotation for every species in the materials list for that publication which is a member of the taxon.
 ## Create a new EQ statement
 ## Choose Entity from anatomy ontology
 ## Choose Quality from PATO (usually a Value term)
 ## If the Quality is an Attribute term (such as "length"), enter a measurement and its units
 ## If the Quality is relational, enter a second Entity from the anatomy ontology
-## If dealing with a single specimen, enter optional image data (URL).  Images may not be applied to multiple specimens at once.
+## Enter the evidence code appropriate for the published statement - if the phenotype is clearly based on one or more specific specimen numbers, enter them into the catalog number(s) field to support the appropriate evidence code.
+## Enter any information for the figure or section within the paper showing the character.
 # At any point, the curator can save the current work to a document (or database).
 
 ===Working with EQ statements===
