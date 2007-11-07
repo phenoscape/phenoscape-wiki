@@ -28,7 +28,7 @@ title: Contact
 
 ==Mailing lists==
 
-* Project-specific mailing list (reaches all PIs and coPIs, project team members, and those closely affiliated): [mailto:phenomap%40nescent%2eorg phenomap&#64;nescent&#46;org] - ''[https://lists.nescent.org/mailman/listinfo/phenomap List subscription and archives]''
+* Project-specific mailing list (reaches all PIs and coPIs, project team members, and those closely affiliated): [mailto:phenoscape%40nescent%2eorg phenoscape&#64;nescent&#46;org] - ''[https://lists.nescent.org/mailman/listinfo/phenoscape List subscription and archives]''
 * Fish morphology and character discussion: [mailto:wg-fishevolution%40nescent%2eorg wg-fishevolution&#64;nescent&#46;org] - ''[https://lists.nescent.org/mailman/listinfo/wg-fishevolution List subscription and archives]''
 * Discussion of EQ formalism, phenotype description, PATO terms: [mailto:obo-phenotype%40lists%2e.sourceforge%2enet obo-phenotype@lists&#46;sourceforge&#46;net]
 * Anatomy ontology terms: [mailto:obo-anatomy%40lists%2e.sourceforge%2enet obo-anatomy&#64;lists&#46;sourceforge&#46;net]
