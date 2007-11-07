@@ -24,7 +24,7 @@ You can download the ontologies as OBO files from the above web sites.  You can 
 
 ===Phenote===
 
-[http://www.phenote.org/ Phenote] is used by ZFIN and FlyBase for mutant phenotype annotation.  We are developing enhancements to the Phenote [[EQ Editor]] for PhenoMap data curation.  Some of the PhenoMap-specific enhancements include:
+[http://www.phenote.org/ Phenote] is used by ZFIN and FlyBase for mutant phenotype annotation.  We are developing enhancements to the Phenote [[EQ Editor]] for PhenoScape data curation.  Some of the PhenoScape-specific enhancements include:
 
 * [[Phenote:Specimen List|A specimen list window]] allowing repeated annotation of the specimens within one publication.
 * [[Phenote:Phylogeny Chooser|A phylogeny view]] allowing application of an EQ annotation to all specimens from a clade at once.
@@ -38,7 +38,7 @@ You can download the ontologies as OBO files from the above web sites.  You can 
 
 ====Usage====
 
-The following table describes the entry fields in the PhenoMap configuration.  Phenote does not force you to fill in them all, but see the table for when to use each field.
+The following table describes the entry fields in the PhenoScape configuration.  Phenote does not force you to fill in them all, but see the table for when to use each field.
 
 {| border="1" cellspacing="0" cellpadding="3"
 ! Field
