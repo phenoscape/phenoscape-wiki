@@ -60,7 +60,7 @@ This workshop brings together scientists from the fields of morphology, developm
 
 ==Reading==
 
-* We have started to use the tag "<span class="plainlinks">[http://www.connotea.org/tag/phenomap phenomap]</span>" on Connotea. Everyone is welcome to suggest references by using this tag.
+* We have started to use the tag "<span class="plainlinks">[http://www.connotea.org/tag/phenoscape phenoscape]</span>" on Connotea. Everyone is welcome to suggest references by using this tag.
 * Relevant manuscripts by members of the project team: 
 # Mabee PM, Ashburner M, Cronk Q, Gkoutos GV, Haendel M, Segerdell E, Mungall C, and Westerfield M. Phenotype ontologies: the bridge between genomics and evolution. Trends Ecol Evol 2007 Jul; 22(7) 345-50. [http://dx.doi.org/10.1016/j.tree.2007.03.013 doi:10.1016/j.tree.2007.03.013] 
 # Mabee PM, Arratia G, Coburn M, Haendel M, Hilton EJ, Lundberg JG, Mayden RL, Rios N, and Westerfield M. Connecting evolutionary morphology to genomics using ontologies: a case study from Cypriniformes including zebrafish. J Exp Zoolog B Mol Dev Evol 2007 Jun 28. [http://dx.doi.org/10.1002/jez.b.21181 doi:10.1002/jez.b.21181]
