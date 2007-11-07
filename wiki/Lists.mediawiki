@@ -4,4 +4,4 @@ title: Lists
 
 ==Project mailing list==
 
-The project-specific mailing list is [mailto:phenomap%40nescent%2eorg phenomap&#64;nescent&#46;org] and reaches all PIs and coPIs, project team members, and those closely affiliated.
+The project-specific mailing list is [mailto:phenoscape%40nescent%2eorg phenoscape&#64;nescent&#46;org] and reaches all PIs and coPIs, project team members, and those closely affiliated.
