@@ -3,7 +3,7 @@ title: Documents
 ---
 
 ==Pages of interest==
-[[Ongoing issues]]
+[[Topics for discussion]]
 
 ==Applications and APIs==
 
