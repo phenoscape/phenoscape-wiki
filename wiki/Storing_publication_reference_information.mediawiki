@@ -1,0 +1,16 @@
+---
+title: Storing publication reference information
+---
+
+==Problem==
+It would be simplest to store references to articles as an ID number which can be looked up elsewhere.  Here are some possibilities in order of preference:
+
+# DOI or Handle (*)
+# Pubmed ID (**)
+# SICI numbers, if the publisher uses it for a stable URL
+# Biodiversity Heritage Library URL of the article
+# constructed SICI ID (***)
+
+(*) I doubt that there are articles with both a DOI *and* a handle, but if you encounter one, use the DOI.
+(**) There aren't many articles with Pubmed ID that lack a DOI, but it's possible for pre-1998 pubs.
+(***) Jim & Hilmar looking into interface to help do this
