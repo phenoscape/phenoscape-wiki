@@ -2,8 +2,11 @@
 title: Documenting taxon concepts used in a publication
 ---
 
+==Problem==
 The species or specimens included within a taxon as used by the author of a paper may differ from the current concept.  For example, an author may say that family X has some particular phenotype.  A phenotype annotation should be made for all species in the paper that the author considered to be part of that family, although a modern classification may place one genus in another family.
 
 We are currently dealing with taxon concept changes by including obsolete names as synonyms for their current counterparts within the taxonomy ontology.  This allows a curator to find the correct current term when typing an older name from a paper into Phenote.  However, all annotations are then saved with the ontology ID for the current valid term.  Are there use cases ruled out by this methodology?  Since all phenotype annotations are made at the level of species, the fact that a species has moved to another family since the article was published may not matter, as long as the species gets the annotation when the paper is curated.
 
 If documentation of older concepts is a required use case, perhaps this should be dealt with somehow in the taxonomy ontology.
+
+==Resolution==
