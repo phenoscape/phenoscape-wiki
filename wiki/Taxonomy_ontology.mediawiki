@@ -87,6 +87,10 @@ Other uses for the synonym field can be seen in the OBO file, such as for obsole
 
 Which parts of the CoF schema should be included in the taxonomy ontology?  Also, is there information not in the Catalog of Fishes that should be included in the taxonomy ontology?
 
+<p>
+There is now a rough draft Taxonomy ontology directly from (somewhat dated) dump files from the Catalog of Fishes.  [[Media:TTO_test.obo.txt|It is here.]] <br>
+
+<br>
 Here is a preliminary taxonomy ontology, using data from a somewhat dated CoF dump.  The taxa represented here are mentioned in <br>
 Fink, S.V., and W. L. Fink. 1981. Interrelationships of the ostariophysan fishes (Teleostei). Zoological Journal of the Linnean
 Society 72: 297–353.
@@ -103,6 +107,7 @@ Species: 1000000 + the CAS_SPC value from CoF<br>
 Unnamed entities: 10000000+ (e.g., sp., spp., etc.)<br>
 <br>
 We should probably discuss whether this id scheme is really what we want to do - it means we can't add taxa from OBOEdit, though that isn't necessarily a problem.
+
 
 <pre>
 format-version: 1.2
