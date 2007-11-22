@@ -88,7 +88,7 @@ Other uses for the synonym field can be seen in the OBO file, such as for obsole
 Which parts of the CoF schema should be included in the taxonomy ontology?  Also, is there information not in the Catalog of Fishes that should be included in the taxonomy ontology?
 
 <p>
-There is now a rough draft Taxonomy ontology directly from (somewhat dated) dump files from the Catalog of Fishes.  [[Media:TTO_test.obo.txt|It is here.]] <br>
+There is now a rough draft Taxonomy ontology directly from (somewhat dated) dump files from the Catalog of Fishes.  It is will be available soon. <br>
 
 <br>
 Here is a preliminary taxonomy ontology, using data from a somewhat dated CoF dump.  The taxa represented here are mentioned in <br>
