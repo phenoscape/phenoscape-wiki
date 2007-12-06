@@ -77,4 +77,5 @@ Please report any issues you come across by using the [https://sourceforge.net/t
 
 Here are links to ontology term trackers:
 * [http://sourceforge.net/tracker/?group_id=76834&atid=595654 PATO tracker]
-* Zebrafish anatomy - ''does anyone know if there is a term tracker?''
+* [http://sourceforge.net/tracker/?group_id=76834&atid=994726 Zebrafish anatomy tracker]
+* [http://sourceforge.net/tracker/?group_id=76834&atid=994764 Teleost anatomy tracker]
