@@ -10,3 +10,5 @@ We are currently dealing with taxon concept changes by including obsolete names 
 If documentation of older concepts is a required use case, perhaps this should be dealt with somehow in the taxonomy ontology.
 
 ==Resolution==
+
+Just for the record, here is some of what TDWG is thinking on this front: [http://www.jstor.org/view/00400262/ap040278/04a00080/0 Pullen et al 2000]--[[User:Tjvision|Tjvision]] 10:22, 13 December 2007 (EST)
