@@ -33,5 +33,5 @@ title: Contact
 * Discussion of EQ formalism, phenotype description, PATO terms: [mailto:obo-phenotype%40lists%2e.sourceforge%2enet obo-phenotype@lists&#46;sourceforge&#46;net]
 * Anatomy ontology terms
 ** General anatomy: [mailto:obo-anatomy%40lists%2e.sourceforge%2enet obo-anatomy&#64;lists&#46;sourceforge&#46;net]
-** Teleost anatomy (TAO): [mailto:obo-teleost-discuss%40lists%2e.sourceforge%2enet obo-teleost-discuss&#64;lists&#46;sourceforge&#46;net]
+** Teleost anatomy (TAO): [mailto:obo-teleost-discuss%40lists%2e.sourceforge%2enet obo-teleost-discuss&#64;lists&#46;sourceforge&#46;net] - ''[https://lists.sourceforge.net/lists/listinfo/obo-teleost-discuss List subscription and archives]''
 * Phenote-related discussion: [mailto:obo-phenote%40lists%2e.sourceforge%2enet obo-phenote&#64;lists&#46;sourceforge&#46;net]
