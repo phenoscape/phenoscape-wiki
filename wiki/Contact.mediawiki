@@ -30,7 +30,7 @@ title: Contact
 
 * Project-specific mailing list (reaches all PIs and coPIs, project team members, and those closely affiliated): [mailto:phenoscape%40nescent%2eorg phenoscape&#64;nescent&#46;org] 
 * Fish morphology and character discussion: [mailto:wg-fishevolution%40nescent%2eorg wg-fishevolution&#64;nescent&#46;org] - ''[https://lists.nescent.org/mailman/listinfo/wg-fishevolution List subscription and archives]''
-* Discussion of EQ formalism, phenotype description, PATO terms: [mailto:obo-phenotype%40lists%2e.sourceforge%2enet obo-phenotype@lists&#46;sourceforge&#46;net]
+* Discussion of EQ formalism, phenotype description, PATO terms: [mailto:obo-phenotype%40lists%2e.sourceforge%2enet obo-phenotype@lists&#46;sourceforge&#46;net] - ''[https://sourceforge.net/mailarchive/forum.php?forum_name=obo-phenotype List subscription and archives]''
 * Anatomy ontology terms
 ** General anatomy: [mailto:obo-anatomy%40lists%2e.sourceforge%2enet obo-anatomy&#64;lists&#46;sourceforge&#46;net] - ''[https://lists.sourceforge.net/mailman/listinfo/obo-anatomy List subscription and archives]''
 ** Teleost anatomy (TAO): [mailto:obo-teleost-discuss%40lists%2e.sourceforge%2enet obo-teleost-discuss&#64;lists&#46;sourceforge&#46;net] - ''[https://lists.sourceforge.net/lists/listinfo/obo-teleost-discuss List subscription and archives]''
