@@ -89,7 +89,7 @@ Which parts of the CoF schema should be included in the taxonomy ontology?  Also
 
 <p>
 There is now a rough draft Taxonomy ontology directly from (somewhat dated) dump files from the Catalog of Fishes.
-[[Media:TTO_test.obo.txt|An updated version with synonyms is here.]] The actual top of the tree is still Craniata, other species
+[[Media:TTO.obo.txt|A draft version with synonyms is here.]] The actual top of the tree is still Craniata, other species
 appearing at the root represent problems - usually related to synonyms that we need to resolve. Also note that I have tagged all
 synonyms as "RELATED", the weakest category of synonymy.  Given the complexities of taxonomic synonymy, this seems to be the appropriate
 place to start.<br>
