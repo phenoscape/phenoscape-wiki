@@ -36,7 +36,7 @@ The term (B) is defined by its membership in higher category (A) and distinguish
 
 In example 1, the definition mentions the parent dermal bone of the term antorbital followed by the characteristics that differentiate antorbital from all other dermal bones.
 
-[http://wiki.geneontology.org/index.php/Logical_Definitions Logical definitions] (also known as cross-products) are constructed as the intersection between terms and take the form of genus-differentia definitions.
+[http://wiki.geneontology.org/index.php/Logical_Definitions Logical definitions] (also known as cross-products) are constructed as the intersection between terms and are genus-differentia definitions.
 
 ===Phenote===
 
