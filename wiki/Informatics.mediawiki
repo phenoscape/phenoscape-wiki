@@ -17,3 +17,5 @@ All software and database developments will be made freely available as open-sou
 
 ===Proposals===
 * [[Ontology_Data_Service_API|Ontology Data Service API Description]]
+
+[[Category:Informatics]]
