@@ -13,6 +13,9 @@ title: Documents
 * [[Ontology_Data_Service_API|Ontology Data Service API Description]]
 
 ==Meetings==
+
+[[WG:PhenoScape monthly conference call|PhenoScape monthly conference calls]] take place at 12 pm Eastern time on the second Thursday of each month.
+
 * [[WG:Phenote Working Group 02Oct07|Phenote Working Group meeting, 2 Oct 2007]] (Presentation of our additions to Phenote)
 * [[WG:All-Hands Meeting 18Sep07|All-Hands Meeting 18 Sep 2007]]
 * [[WG:Call 31Aug07|Call 31 Aug 2007]]
