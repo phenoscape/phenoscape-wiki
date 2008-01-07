@@ -93,3 +93,5 @@ The standard workflow would be a curator dealing with a single publication durin
 =Roadmap=
 
 See the [[software roadmap]] for further plans.
+
+[[Category:Informatics]]
