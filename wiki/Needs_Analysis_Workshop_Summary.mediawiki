@@ -36,7 +36,7 @@ The following is a bullet-point list highlighting both research questions and so
 * View traits related to particular parts of anatomy - just tail, or just vertebra [[Needs Analysis Workshop/Correlation Breakout|CB]]
 * User view ancestral character states on tree using default reconstruction methods [[Needs Analysis Workshop/Correlation Breakout|CB]]
 * User downloads data in a form useful for applying their own methods of character reconstruction [[Needs Analysis Workshop/Correlation Breakout|CB]]
-* find cloud of similar annotations using summary matrices [[Needs Analysis Workshop/Correlation Breakout|CB]]
+* Find cloud of similar annotations using summary matrices [[Needs Analysis Workshop/Correlation Breakout|CB]]
 ** traits vs traits, traits vs genes, genes vs genes
 ** cells would be number of branches on which the two traits change in common (traits vs traits), or number of mutants they have in common (traits vs traits, and traits vs genes), or number of traits in common (genes vs genes)
 * User uses interactive tree view to select taxa for summary matrix [[Needs Analysis Workshop/Correlation Breakout|CB]]
