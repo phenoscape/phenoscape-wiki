@@ -9,7 +9,7 @@ The PhenoScape [[Needs Analysis Workshop]] was held September 17-18, 2007 at NES
 ==Agenda==
 After being introduced to the project goals, the meeting participants each provided a brief [[Needs Analysis Workshop/Chalk talks|chalk talk]] outlining their integrative research problems.  The participants then split into two break-out groups, each arranged around either the [[Needs Analysis Workshop/Breakout group 1|developmental genetics of morphology]] or the [[Needs Analysis Workshop/Breakout group 2|evolution of morphology]].  At the end of the day the groups merged again to discuss the [[Needs Analysis Workshop/Report-out Day1|research questions]] arising in the breakout groups.
 
-The second day began with three break-out groups: [[Needs Analysis Workshop/Correlation Breakout|correlations]], [[Needs Analysis Workshop/Phylogeny Breakout|phylogeny]], and [[Needs Analysis Workshop/Semantics Breakout|semantics]].  As before, the whole group then [[Needs Analysis Workshop/Report-out Day2|discussed]] the uses cases arising in the break-out groups, and tried to identify priorities for the project.
+The second day began with three break-out groups: [[Needs Analysis Workshop/Correlation Breakout|correlations]], [[Needs Analysis Workshop/Phylogeny Breakout|phylogeny]], and [[Needs Analysis Workshop/Semantics Breakout|semantics]].  As before, the whole group then [[Needs Analysis Workshop/Report-out Day2|discussed]] the uses cases arising in the break-out groups, and tried to identify [[Needs Analysis Workshop/Prioritization|priorities]] for the project.
 
 ==Driving questions/use cases==
 
