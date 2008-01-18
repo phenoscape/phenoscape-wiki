@@ -48,6 +48,9 @@ The following is a bullet-point summary highlighting both research questions and
 
 ==Requirements arising from the use cases==
 
+
+===Overview===
+
 The use cases present requirements for both our scientific framework/data model and our software tools (curation tools and web application).  A good overview can also be found [[Needs Analysis Workshop/Prioritization|here]].
 
 * Provide character-state reconstructions on given phylogenies
@@ -69,6 +72,12 @@ The use cases present requirements for both our scientific framework/data model 
 * Provide body plan view linked to anatomical terms for selection and filtering
 * Support genetic diversity data along with phenotypic diversity data - molecular changes directly related to evolutionary changes
 
+===Web application===
+
 The requirements primarily address capabilities of the web application used as a front end to our data collection.  In many cases they do not significantly diverge from capabilities we would already be planning - using filters to restrict the data being fed into a view, providing link-outs to other genomic or museum databases, integrating data from those databases in useful ways, providing a means for a user to save and check favorite queries, and exporting the data to their local computer.
 
-Some of the proposed views are more challenging but doable.  The phylogenetic tree view is not a new idea, but the participants desired some advanced capabilities from it.  Displaying character state changes on the tree requires programming the graphics to do that, as well as computing the reconstruction of ancestral states.  Because there are several ways to do that reconstruction, we might choose a basic method and let users download the data for more complex analyses.  All methods of reconstruction rely on the data being in character matrix form - more on that below.  The body plan view will require annotation of a complex image with various ontology terms.  This could be fairly coarse, or as complex and fine-grained as we want to make it.
+Some of the proposed views are more challenging but doable.  The phylogenetic tree view is not a new idea, but the participants desired some advanced capabilities from it.  Displaying character state changes on the tree requires programming the graphics to do that, as well as computing the reconstruction of ancestral states.  Because there are several ways to do that reconstruction, we might choose a basic method and let users download the data for more complex analyses.  All methods of reconstruction rely on the data being in character matrix form - more on that below.  Further capabilities desired of the tree view lead to an almost complete implementation of the MacClade/Mesquite editing features within a webpage (presumably via JavaScript).  This would be a significant project, although probably quite useful to the community.  Some beginnings exist in other projects on the web.
+
+The body plan view will require annotation of a complex image with various ontology terms.  This could be fairly coarse, or as complex and fine-grained as we want to make it.
+
+===Data model===
