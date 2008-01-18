@@ -49,3 +49,21 @@ The following is a bullet-point summary highlighting both research questions and
 ==Requirements arising from the use cases==
 
 The uses cases present requirements for both our scientific framework/data model and our software tools (curation tools and web application).
+
+* Provide character-state reconstructions on given phylogenies
+** analysis
+** visualization
+* View and interactively/graphically edit phylogenies containing some subset of the taxa in the database
+* Connect with and integrate data from external databases
+** ZFIN, GenBank, other genomics-oriented databases
+** Ecological, geographic, historical data - perhaps through museum catalog data
+* Provide curation interface, storage, and analysis integration for private user data
+* Save user queries as RSS feeds
+* Filter view of data by ontology terms: anatomy, species, qualities
+** Provide advanced filtering functionality by means of ontology structure
+* Provide views of data in downloadable forms convenient for further analysi
+** simple tables
+** generated NEXUS format
+* Provide summary matrix views showing covariance of various datatypes
+** Should be easily linked to other types of views (tree, etc.) restricted to data in particular cells
+* Provide body plan view linked to anatomical terms for selection and filtering
