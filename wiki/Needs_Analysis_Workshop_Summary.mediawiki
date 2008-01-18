@@ -61,7 +61,7 @@ The uses cases present requirements for both our scientific framework/data model
 * Save user queries as RSS feeds
 * Filter view of data by ontology terms: anatomy, species, qualities
 ** Provide advanced filtering functionality by means of ontology structure
-* Provide views of data in downloadable forms convenient for further analysi
+* Provide views of data in downloadable forms convenient for further analysis
 ** simple tables
 ** generated NEXUS format
 * Provide summary matrix views showing covariance of various datatypes
