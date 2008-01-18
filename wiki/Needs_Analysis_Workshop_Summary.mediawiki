@@ -13,6 +13,8 @@ The second day began with three break-out groups: [[Needs Analysis Workshop/Corr
 
 ==Driving questions/use cases==
 
+The following is a bulleted list highlighting both research questions and software use cases produced by the discussion.  Minutes from the relevant session are linked next to each point.
+
 * Use the database to identify discrete evolutionary modules [[Needs Analysis Workshop/Breakout group 1|BG1]]
 ** Depends on identifying patterns of evolutionary covariation among phenotypes
 * For a branch hypothesized to be under positive selection (from e.g. a molecular analysis), identify candidate phenotypes that could have been selected for [[Needs Analysis Workshop/Breakout group 1|BG1]]
