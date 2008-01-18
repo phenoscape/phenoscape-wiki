@@ -7,7 +7,7 @@ title: Needs Analysis Workshop/Summary
 The PhenoScape [[Needs Analysis Workshop]] was held September 17-18, 2007 at NESCent.  We invited [[Needs Analysis Workshop#Participants|9 scientists]] from the fields of morphology, development, evolution, genetics, and ichthyology to help us define what informatic tools need to exist in order to enable synthetic research that takes full advantage of the accumulated data in each of these fields.  We hoped to identify driving biological questions and use cases to guide the development of our software tools and database.
 
 ==Agenda==
-After being introduced to the project goals, the meeting participants each provided a brief [[Needs Analysis Workshop/Chalk talks|chalk talk]] outlining their integrative research problems.  The participants then split into two break-out groups, each arranged around either the [[Needs Analysis Workshop/Breakout group 1|developmental genetics of morphology]] or the [[Needs Analysis Workshop/Breakout group 2|evolution of morphology]].
+After being introduced to the project goals, the meeting participants each provided a brief [[Needs Analysis Workshop/Chalk talks|chalk talk]] outlining their integrative research problems.  The participants then split into two break-out groups, each arranged around either the [[Needs Analysis Workshop/Breakout group 1|developmental genetics of morphology]] or the [[Needs Analysis Workshop/Breakout group 2|evolution of morphology]].  At the end of the day the groups merged again to discuss the [[Needs Analysis Workshop/Report-out Day1|research questions]] arising in the breakout groups.
 
 ==Driving questions/use cases==
 
