@@ -67,4 +67,4 @@ The use cases present requirements for both our scientific framework/data model 
 * Provide summary matrix views showing covariance/co-occurrence of various datatypes
 ** Should be easily linked to other types of views (tree, etc.) restricted to data in particular cells
 * Provide body plan view linked to anatomical terms for selection and filtering
-* Collect genetic diversity data along with phenotypic diversity data - molecular changes directly related to evolutionary changes
+* Support genetic diversity data along with phenotypic diversity data - molecular changes directly related to evolutionary changes
