@@ -51,7 +51,7 @@ The following is a bullet-point summary highlighting both research questions and
 
 ===Overview===
 
-The use cases present requirements for both our scientific framework/data model and our software tools (curation tools and web application).  A good overview can also be found [[Needs Analysis Workshop/Prioritization|here]].
+The use cases above present requirements for both our scientific framework/data model and our software tools (curation tools and web application).  A good overview can also be found [[Needs Analysis Workshop/Prioritization|here]].
 
 * Provide character-state reconstructions on given phylogenies
 ** analysis
