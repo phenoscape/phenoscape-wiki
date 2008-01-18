@@ -13,7 +13,7 @@ title: Needs Analysis Workshop/Summary
 * Integrate data regarding ecologic conditions, life history, adaptation, and evolutionary time with phenotypic and genetic data to elucidate mechanisms of phenotypic change [[Needs Analysis Workshop/Breakout group 2|BG2]]
 ** must integrate with existing databases, literature, across biological levels
 ** use other factors (environment, ecology) as constraints on data presentation
-* User adds own annotations, compares own data with database [[Needs Analysis Workshop/Breakout group 2|BG2]]
+* User adds own annotations using modified curator interface, compares own data with database [[Needs Analysis Workshop/Breakout group 2|BG2]], [[Needs Analysis Workshop/Phylogeny Breakout|PB]]
 ** user may also want to store media such as images and movies
 * Enrichment analysis: given a list of genes, find which phenotype terms are overrepresented among them [[Needs Analysis Workshop/Report-out Day1|RO1]]
 * User is notified of additions or changes to the database relevant to him/her [[Needs Analysis Workshop/Report-out Day1|RO1]]
@@ -32,6 +32,5 @@ title: Needs Analysis Workshop/Summary
 * User selects one or more regions on body plan view to view traits(genes) affecting all [[Needs Analysis Workshop/Correlation Breakout|CB]]
 ** then map corresponding traits on tree
 * User creates and edits a tree using MacClade-like interface, then visualizes character changes on tree [[Needs Analysis Workshop/Phylogeny Breakout|PB]]
-* User enters personal data, using modified curator interface, to view alongside database data [[Needs Analysis Workshop/Phylogeny Breakout|PB]]
 * User may want to work with data regarding mutations actually underlying evolutionary change [[Needs Analysis Workshop/Semantics Breakout|SB]]
 ** different genetic states in different species
