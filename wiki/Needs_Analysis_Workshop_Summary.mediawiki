@@ -45,3 +45,5 @@ The following is a bullet-point list highlighting both research questions and so
 * User creates and edits a tree using MacClade-like interface, then visualizes character changes on tree [[Needs Analysis Workshop/Phylogeny Breakout|PB]]
 * User may want to work with data regarding mutations actually underlying evolutionary change [[Needs Analysis Workshop/Semantics Breakout|SB]]
 ** different genetic states in different species
+
+==Requirements arising from the use cases==
