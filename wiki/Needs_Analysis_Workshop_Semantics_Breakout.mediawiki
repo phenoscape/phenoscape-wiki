@@ -146,3 +146,5 @@ AM – was thinking more about annotations to images – sifting through EQ stat
 HL – is it interesting to search for similar phenotypes – is there meaning in doing that?
 
 AM – would be interesting if you could query for variation in phenotypes; e.g. want to identify a branch, describe the hairs, trichomes; leaf broad vs. terate – are there other instances of genera in Australia that have both broad and terate leaves -
+
+[[Category:Needs Analysis Workshop]]
