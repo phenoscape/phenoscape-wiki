@@ -1,0 +1,37 @@
+---
+title: Needs Analysis Workshop/Summary
+---
+
+==Driving questions/use cases==
+
+* Use the database to identify discrete evolutionary modules [[Needs Analysis Workshop/Breakout group 1]]
+** Depends on identifying patterns of evolutionary covariation among phenotypes
+* For a branch hypothesized to be under positive selection (from e.g. a molecular analysis), identify candidate phenotypes that could have been selected for [[Needs Analysis Workshop/Breakout group 1]]
+** Requires mapping phenotypic changes on phylogeny, visualizing synapomorphies
+** Topology can be modified and the results of modification visualized
+* Use the database to help with negative information - what knowledge is missing that is required to answer a particular question? [[Needs Analysis Workshop/Breakout group 1]]
+* Integrate data regarding ecologic conditions, life history, adaptation, and evolutionary time with phenotypic and genetic data to elucidate mechanisms of phenotypic change [[Needs Analysis Workshop/Breakout group 2]]
+** must integrate with existing databases, literature, across biological levels
+** use other factors (environment, ecology) as constraints on data presentation
+* User adds own annotations, compares own data with database [[Needs Analysis Workshop/Breakout group 2]]
+** user may also want to store media such as images and movies
+* Enrichment analysis: given a list of genes, find which phenotype terms are overrepresented among them [[Needs Analysis Workshop/Report-out Day1]]
+* User is notified of additions or changes to the database relevant to him/her [[Needs Analysis Workshop/Report-out Day1]]
+** save user-defined queries as RSS feeds
+* Capture and represent within-species variation in phenotypes and genotypes [[Needs Analysis Workshop/Report-out Day1]]
+** describe polyphenism dependent on environmental factors or variable gene expression
+** view population frequencies of polymorphic phenotypes
+** describe phenotypic change through developmental time series
+* View traits related to particular parts of anatomy - just tail, or just vertebra [[Needs Analysis Workshop/Correlation Breakout]]
+* User view ancestral character states on tree using default reconstruction methods [[Needs Analysis Workshop/Correlation Breakout]]
+* User downloads data in a form useful for applying their own methods of character reconstruction [[Needs Analysis Workshop/Correlation Breakout]]
+* find cloud of similar annotations using summary matrices [[Needs Analysis Workshop/Correlation Breakout]]
+** traits vs traits, traits vs genes, genes vs genes
+** cells would be number of branches on which the two traits change in common (traits vs traits), or number of mutants they have in common (traits vs traits, and traits vs genes), or number of traits in common (genes vs genes)
+* User uses interactive tree view to select taxa for summary matrix [[Needs Analysis Workshop/Correlation Breakout]]
+* User selects one or more regions on body plan view to view traits(genes) affecting all [[Needs Analysis Workshop/Correlation Breakout]]
+** then map corresponding traits on tree
+* User creates and edits a tree using MacClade-like interface, then visualizes character changes on tree [[Needs Analysis Workshop/Phylogeny Breakout]]
+* User enters personal data, using modified curator interface, to view alongside database data [[Needs Analysis Workshop/Phylogeny Breakout]]
+* User may want to work with data regarding mutations actually underlying evolutionary change [[Needs Analysis Workshop/Semantics Breakout]]
+** different genetic states in different species
