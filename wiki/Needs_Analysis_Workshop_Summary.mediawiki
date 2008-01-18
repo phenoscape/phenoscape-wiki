@@ -68,3 +68,5 @@ The use cases present requirements for both our scientific framework/data model 
 ** Should be easily linked to other types of views (tree, etc.) restricted to data in particular cells
 * Provide body plan view linked to anatomical terms for selection and filtering
 * Support genetic diversity data along with phenotypic diversity data - molecular changes directly related to evolutionary changes
+
+The requirements primarily address capabilities of the web application used as a front end to our data collection.  In many cases they do not significantly diverge from capabilities we would already be planning - using filters to restrict the data being fed into a view, providing link-outs to other genomic or museum databases, integrating data from those databases in useful ways, providing a means for a user to save and check favorite queries, and exporting the data to their local computer.
