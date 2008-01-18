@@ -37,3 +37,5 @@ title: Needs Analysis Workshop/Report-out Day1
 ** linking out to genome databases seems mandatory
 * alerting features
 ** for example, saving queries as RSS feeds
+
+[[Category:Needs Analysis Workshop]]
