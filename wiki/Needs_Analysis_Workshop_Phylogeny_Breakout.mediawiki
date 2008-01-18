@@ -48,3 +48,5 @@ WD - interest in input of your own data (unpublished) to interact with database?
 CK/HH - yes, but challenges of data entry; perhaps a temporary repository for data similar to blast searches
 
 MW - having a modified curator interface available for the user to enter their data and run analyses against the database
+
+[[Category:Needs Analysis Workshop]]
