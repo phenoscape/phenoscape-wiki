@@ -64,6 +64,6 @@ The use cases present requirements for both our scientific framework/data model 
 * Provide views of data in downloadable forms convenient for further analysis
 ** simple tables
 ** generated NEXUS format
-* Provide summary matrix views showing covariance of various datatypes
+* Provide summary matrix views showing covariance/co-occurrence of various datatypes
 ** Should be easily linked to other types of views (tree, etc.) restricted to data in particular cells
 * Provide body plan view linked to anatomical terms for selection and filtering
