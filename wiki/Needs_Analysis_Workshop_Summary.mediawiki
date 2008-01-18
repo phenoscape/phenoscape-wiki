@@ -47,3 +47,5 @@ The following is a bullet-point list highlighting both research questions and so
 ** different genetic states in different species
 
 ==Requirements arising from the use cases==
+
+The uses cases present requirements for both our scientific framework/data model and our software tools (curation tools and web application).
