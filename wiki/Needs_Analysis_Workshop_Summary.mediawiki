@@ -81,3 +81,5 @@ Some of the proposed views are more challenging but doable.  The phylogenetic tr
 The body plan view will require annotation of a complex image with various ontology terms.  This could be fairly coarse, or as complex and fine-grained as we want to make it.
 
 ===Data model===
+
+Matrices displaying covariation/co-occurrence of phenotypic traits with other traits (or other data) will in many cases require ancestral state reconstruction.  This requires a tree, a reconstruction algorithm, and data in the proper format.
