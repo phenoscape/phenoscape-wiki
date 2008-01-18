@@ -99,3 +99,5 @@ AA - need to decide on the measures and layout of the data early on, so that eve
 * AA: computers can quickly determine morphometric properties that change over a large series of images
 * AA: quality of the database (images, measurements) matters tremendously
 * HH: ontology may help already tremendously to simply pull out the images relevant to or matching a particular phenotype or entity term, can then use my own algorithms to analyze them
+
+[[Category:Needs Analysis Workshop]]
