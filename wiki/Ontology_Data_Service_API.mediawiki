@@ -86,7 +86,9 @@ A common API implemented by ontology data services enables clients such as EQ ed
 ** Term info: http://www.ebi.ac.uk/ontology-lookup/ajax.view?q=termmetadata&termid=ID&ontologyname=LABEL
 ** Completion list: http://www.ebi.ac.uk/ontology-lookup/ajax.view?q=termautocomplete&termname=NAME&ontologyname=LABEL
 ** Term name for ID: http://www.ebi.ac.uk/ontology-lookup/ajax.view?q=termname&termid=ID&ontologyname=LABEL
-* There is also the NCBO [http://www.bioontology.org/ncbo/faces/index.xhtml BioPortal].  It is not clear that it supports a public service API.
+* The NCBO [http://www.bioontology.org/ncbo/faces/index.xhtml BioPortal] supports a [http://www.bioontology.org/docs/bioportal/development/web_services.html SOAP-based web-service API]:
+** WSDL: http://www.bioontology.org/ncboservicebeans/NCBOWebserviceBean?wsdl
+** Java JUnit test: [http://smi-protege.stanford.edu/repos/cbio/ncbo/trunk/test/webservice/NCBOServiceTest.java test.webservice.NCBOServiceTest.java]
 
 ==Next Steps==
 
