@@ -79,16 +79,19 @@ A common API implemented by ontology data services enables clients such as EQ ed
 
 ==Other ontology service definitions==
 
-* A team at the EBI created the [http://www.ebi.ac.uk/ontology-lookup/ Ontology Lookup Service (OLS)].<cite>cote2006</cite> According to the website, the OLS can integrate any ontology available in OBO format. OLS is implemented as a web-service. The website has documentation on
+* [http://www.ebi.ac.uk/ontology-lookup/ Ontology Lookup Service (OLS)] at the EBI. <cite>cote2006</cite> According to the website, the OLS can integrate any ontology available in OBO format. OLS is implemented as a web-service. The website has documentation on
 **  [http://www.ebi.ac.uk/ontology-lookup/WSDLDocumentation.do web-service API] (representing the WSDL) with [http://www.ebi.ac.uk/ontology-lookup/api/uk/ac/ebi/ook/web/interfaces/QueryImpl.html JavaDoc for the interface contract], and
 ** [http://www.ebi.ac.uk/ontology-lookup/implementationOverview.do implementation overview] (architecture)
-* The OLS service provides 3 ReST-style services, similar to some of the lookups described above.  These queries return a simple key-value XML format.
-** Term info: http://www.ebi.ac.uk/ontology-lookup/ajax.view?q=termmetadata&termid=ID&ontologyname=LABEL
-** Completion list: http://www.ebi.ac.uk/ontology-lookup/ajax.view?q=termautocomplete&termname=NAME&ontologyname=LABEL
-** Term name for ID: http://www.ebi.ac.uk/ontology-lookup/ajax.view?q=termname&termid=ID&ontologyname=LABEL
+**  OLS also provides 3 ReST-style services, similar to some of the lookups described above.  These queries return a simple key-value XML format.
+*** Term info: http://www.ebi.ac.uk/ontology-lookup/ajax.view?q=termmetadata&termid=ID&ontologyname=LABEL
+*** Completion list: http://www.ebi.ac.uk/ontology-lookup/ajax.view?q=termautocomplete&termname=NAME&ontologyname=LABEL
+***  Term name for ID: http://www.ebi.ac.uk/ontology-lookup/ajax.view?q=termname&termid=ID&ontologyname=LABEL
 * The NCBO [http://www.bioontology.org/ncbo/faces/index.xhtml BioPortal] supports a [http://www.bioontology.org/docs/bioportal/development/web_services.html SOAP-based web-service API]:
 ** WSDL: http://www.bioontology.org/ncboservicebeans/NCBOWebserviceBean?wsdl
-** Java JUnit test: [http://smi-protege.stanford.edu/repos/cbio/ncbo/trunk/test/webservice/NCBOServiceTest.java test.webservice.NCBOServiceTest.java]
+** Java JUnit test: [http://smi-protege.stanford.edu/repos/cbio/ncbo/trunk/test/webservice/NCBOServiceTest.java test.webservice.NCBOServiceTest]
+* The [http://zthes.z3950.org/srw/zthes-srw-1.0.html Zthes profile for SRU] is a specification for navigating and querying remote thesauri
+** [http://www.loc.gov/sru/ SRU] is a Library of Congress-sponsored standard for query interoperability between digital repositories
+** The Zthes profile for SRU is based on an [http://zthes.z3950.org/model/zthes-model-1.0.html abstract model for thesaurus representation], which is also available as an XML Schema implementation.
 
 ==Next Steps==
 
