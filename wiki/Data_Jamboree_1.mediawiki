@@ -1,0 +1,67 @@
+---
+title: Data Jamboree 1
+---
+
+<center><big>'''Linking Evolution to Genomics Using Phenotype Ontologies:'''<br/>'''First Morphology Data Jamboree'''</big><br/><br/>A workshop hosted by the National Evolutionary Synthesis Center (NESCent).</center>
+
+==Location and Date==
+
+'''Venue:''' National Evolutionary Synthesis Center (NESCent) (<span class="plainlinks">[http://www.nescent.org/about/directions.php directions]</span>, also see <span class="plainlinks">[http://www.nescent.org/about/information.php information for visitors]</span>)
+
+'''Date:''' April 18-20, 2008 
+
+'''Organizers:''' Paula Mabee, Monte Westerfield, Todd Vision, and Hilmar Lapp
+
+==Introduction==
+
+We have developed the software tools to input systematic character data in a formalized way to a degree that we have started to enter species-level as well as some of the higher level taxonomic characters (e.g. from Fink & Fink, 1981). This workshop brings together morphologists from the community of ichthyologists and project personnel focused on morphology, taxonomy, data curation, ontology curation, and informatics. The workshop will introduce ichthyologists to the approach, and pair morphologists from the community with project personnel to work one-on-one on entering published systematic character data.
+
+The hands-on curation work at the jamboree will almost certainly reveal ontological issues, such as terminology and synonymies, issues in annotation consistency or workflow, as well as usability and data flow issues involving the software tools. These will help drive the development of the database and web-based interfaces, but will also spur further development of the involved ontologies and refinement of the annotation procedures. The informatics as well as ontology personnel of the project will be on hand to respond to the issues on the spot.  
+
+Finally, the workshop will also provide a very interesting opportunity to brainstorm about the informatics tools and data required to push beyond current limits, thus fostering new discoveries at the interface between evolution and developmental genetics.    
+
+==Agenda==
+
+''The agenda is very tentative so far and will shape up over the next several weeks. Watch this space.''
+ 
+The Jamboree will start in the morning (~9am) on Friday, April 18, and continue through noon on Sunday, April 20. Non-project participants will arrive on Thursday, April 17, and depart in the afternoon of April 20.
+
+==Logistics==
+
+* For long-distance participants, the hotel is the [http://www.millenniumhotels.com/MCIL.nsf/LU_HOTELDOC/113$$HotelDescription?OpenDocument Millennium Hotel] (2800 Campus Walk Ave, Durham, NC  27705; tel. (919) 383-8575)
+* For dining & entertainment, NESCent is right across from [http://www.ninthst.com/ Ninth Street]
+* For the venue, NESCent is in the historic [http://www.owdna.org/mill.htm Erwin Mills] building (<span class="plainlinks">[http://www.nescent.org/about/directions.php directions]</span>)
+
+==Reading==
+
+* We use the tag "<span class="plainlinks">[http://www.connotea.org/tag/phenoscape phenoscape]</span>" on Connotea. Everyone is welcome to suggest references by using this tag.
+* Relevant manuscripts by members of the project team: 
+# Mabee PM, Ashburner M, Cronk Q, Gkoutos GV, Haendel M, Segerdell E, Mungall C, and Westerfield M. Phenotype ontologies: the bridge between genomics and evolution. Trends Ecol Evol 2007 Jul; 22(7) 345-50. [http://dx.doi.org/10.1016/j.tree.2007.03.013 doi:10.1016/j.tree.2007.03.013] 
+# Mabee PM, Arratia G, Coburn M, Haendel M, Hilton EJ, Lundberg JG, Mayden RL, Rios N, and Westerfield M. Connecting evolutionary morphology to genomics using ontologies: a case study from Cypriniformes including zebrafish. J Exp Zoolog B Mol Dev Evol 2007 Jun 28. [http://dx.doi.org/10.1002/jez.b.21181 doi:10.1002/jez.b.21181]
+# Haendel, M.A., Neuhaus, F., Osumi-Sutherland, D.S., Mabee, P.M., Mejino J.L.V., Mungall, C.J., and Smith, B. (2008) [[Media:Caroreprint.pdf|CARO - The Common Anatomy Reference Ontology]]. ''In:'' Albert Burger, Duncan Davidson and Richard Baldock (Editors): ''Anatomy Ontologies for Bioinformatics: Principles and Practice''. ISBN 978-1-84628-884-5.
+
+==Participants==
+
+Members of the project team are in '''bold font'''.
+
+{| border="1" cellpadding="3" cellspacing="0"
+|-
+! Name !! Institution
+{{EventParticipant|Balhoff|Jim|balhoff%40nescent%2eorg|NESCent|'''}}
+{{EventParticipant|Bemis|Willy|web24%40cornell%2eedu|Cornell University|}}
+{{EventParticipant|Coburn|Miles|coburn%40jcu%2eedu|John Carroll University|}}
+{{EventParticipant|Dahdul|Wasila|dahdul%40acnatsci%2eorg|Department of Ichthyology, Academy of Natural Sciences|'''}}
+{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
+{{EventParticipant|Lundberg|John|lundberg%40acnatsci%2eorg |Department of Ichthyology, Academy of Natural Sciences|'''}}
+{{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|University of South Dakota|'''}}
+{{EventParticipant|Midford|Peter|petermidford%40yahoo%2ecom|Dept. of Ecology and Evolutionary Biology, University of Kansas|'''}}
+{{EventParticipant|de Pinna|M&aacute;rio|pinna%40ib%2eusp%2ebr|Universidade de S&atilde;o Paulo|}}
+{{EventParticipant|Ringwald|Martin|ringwald%40informatics%2ejax%2eorg|The Jackson Laboratory|}}
+{{EventParticipant|Sidlauskas|Brian|bl16%40duke%2eedu|NESCent|}}
+{{EventParticipant|Vari|Rich|varir%40si%2eedu|Smithsonian Institution|}}
+{{EventParticipant|Vision|Todd|tjv%40bio%2eunc%2eedu|NESCent, and Department of Biology, University of North Carolina at Chapel Hill|'''}}
+{{EventParticipant|Washington|Nicole|NLwashington%40lbl%2egov|Lawrence Berkeley National Lab|}}
+{{EventParticipant|Westerfield|Monte|monte%40uoneuro%2euoregon%2eedu|Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon|'''}}
+|}
+
+[[Category:Data Jamboree]]
