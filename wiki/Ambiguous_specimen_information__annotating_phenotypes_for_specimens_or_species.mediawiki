@@ -1,0 +1,5 @@
+---
+title: Ambiguous specimen information: annotating phenotypes for specimens or species
+---
+
+#REDIRECT [[Hypodigm]]
