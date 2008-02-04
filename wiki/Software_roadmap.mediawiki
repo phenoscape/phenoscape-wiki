@@ -9,6 +9,7 @@ title: Software roadmap
 * '''[complete]''' Phylogeny view for selecting taxa to annotate
 * '''[complete]''' Search field to filter table rows
 * '''[complete]''' Ontology mode in search field for more advanced table filtering
+* '''[complete]''' Configuration for editing homology annotations
 * '''[complete]''' Transition PhenoScape components to Phenote 2 docking windows interface
 * '''[complete]''' Use standard menus and keyboard shortcuts for Open, Save, Quit, Cut, Copy, Paste, etc.
 * '''[complete]''' Improved document saving functionality. User should be able to quickly save a document to the same file it was opened from.
@@ -24,7 +25,6 @@ title: Software roadmap
 
 ===Phenote integration with PhenoScape web application and database===
 * Determine whether to integrate standalone Phenote application with web database, or migrate components into web application
-
 
 ==Ontology editor==
 ===Curators begin by using OBO-Edit to view and edit project ontologies===
