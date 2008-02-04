@@ -24,9 +24,11 @@ title: Software roadmap
 
 ===Phenote integration with PhenoScape web application and database===
 
+
 ==Ontology editor==
 ===Curators begin by using OBO-Edit to view and edit project ontologies===
 * '''[complete]''' Curators are using OBO-Edit successfully and no PhenoScape development
+
 
 ==A database and web application to store and query the taxonomies, ontologies, and phenotype data==
 
