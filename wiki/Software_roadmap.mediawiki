@@ -23,6 +23,7 @@ title: Software roadmap
 * Create lookup-enabled Publication field (enter DOI or PMID)
 
 ===Phenote integration with PhenoScape web application and database===
+* Determine whether to integrate standalone Phenote application with web database, or migrate components into web application
 
 
 ==Ontology editor==
