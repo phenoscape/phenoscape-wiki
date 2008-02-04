@@ -4,13 +4,13 @@ title: Software roadmap
 
 ==Phenotype annotation editor==
 ===Enhance Phenote with necessary features to be productively and efficiently used by curators -- March 2008===
-* [complete] Initial Phenote configuration for PhenoScape data model
-* [complete] Specimen List window allowing curators to repeatedly choose one or more taxa for EQ annotation
-* [complete] Phylogeny view for selecting taxa to annotate
-* [complete] Search field to filter table rows
-* [complete] Ontology mode in search field for more advanced table filtering
-* [complete] Transition PhenoScape components to Phenote 2 docking windows interface
-* [complete] Improved document saving functionality. User should be able to quickly save a document to the same file it was opened from.
+* '''[complete]''' Initial Phenote configuration for PhenoScape data model
+* '''[complete]''' Specimen List window allowing curators to repeatedly choose one or more taxa for EQ annotation
+* '''[complete]''' Phylogeny view for selecting taxa to annotate
+* '''[complete]''' Search field to filter table rows
+* '''[complete]''' Ontology mode in search field for more advanced table filtering
+* '''[complete]''' Transition PhenoScape components to Phenote 2 docking windows interface
+* '''[complete]''' Improved document saving functionality. User should be able to quickly save a document to the same file it was opened from.
 
 ===Phenote integration with PhenoScape web application and database===
 
