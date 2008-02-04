@@ -7,7 +7,7 @@ title: Software roadmap
 *
 *
 *
-===Based on feedback from Phenote use, either reimplement features as part of web application, or fully commit to Phenote standalone application===
+===Phenote integration with PhenoScape web application and database===
 
 ==Ontology editor==
 ===Curators begin by using OBO-Edit to view and edit project ontologies===
