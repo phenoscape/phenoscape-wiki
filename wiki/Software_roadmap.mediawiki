@@ -6,9 +6,10 @@ title: Software roadmap
 ===Phenotype annotation editor===
 ====Milestones====
 # Enhance Phenote with necessary features to be productively and efficiently used by curators.
+#*
+#*
+#*
 # Based on feedback from Phenote use, either reimplement features as part of web application, or fully commit to Phenote standalone application.
-
-====Development Plan====
 
 ===Ontology editor===
 ====Milestones====
