@@ -3,7 +3,7 @@ title: Software roadmap
 ---
 
 ==Phenotype annotation editor==
-===Enhance Phenote with necessary features to be productively and efficiently used by curators===
+===Enhance Phenote with necessary features to be productively and efficiently used by curators -- March 2008===
 *
 *
 *
