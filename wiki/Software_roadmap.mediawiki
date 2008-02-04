@@ -18,6 +18,9 @@ title: Software roadmap
 
 ===Features for the future===
 * Annotation using temporary terms, when an appropriate term is not available in an ontology. Ability to update these terms to official term once it is available.
+* Make DAG view work browsing entire ontology, with drag-and-drop to fields
+* Allow user to see what version of ontology is being used
+* Create lookup-enabled Publication field (enter DOI or PMID)
 
 ===Phenote integration with PhenoScape web application and database===
 
