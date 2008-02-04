@@ -10,6 +10,7 @@ title: Software roadmap
 * '''[complete]''' Search field to filter table rows
 * '''[complete]''' Ontology mode in search field for more advanced table filtering
 * '''[complete]''' Transition PhenoScape components to Phenote 2 docking windows interface
+* '''[complete]''' Use standard menus and keyboard shortcuts for Open, Save, Quit, Cut, Copy, Paste, etc.
 * '''[complete]''' Improved document saving functionality. User should be able to quickly save a document to the same file it was opened from.
 * Choose museum code from pick list when entering specimen IDs
 * Character matrix view of annotations: Taxon by Entity+Attribute
