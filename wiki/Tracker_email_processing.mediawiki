@@ -6,4 +6,6 @@ The default update emails from the ontology trackers are cluttered and confusing
 
 Thus, update emails from the [http://sourceforge.net/tracker/?group_id=76834&atid=994764 teleost anatomy] and [http://sourceforge.net/tracker/?group_id=76834&atid=994726 zebrafish anatomy] Sourceforge trackers are sent to an email address at NESCent.  Messages to this email address are automatically piped to [[Media:format_tracker_mail.txt|a script]], which replaces the "from" header with an address which is allowed to post on the teleost-discuss mailing list.  The "to" and "reply-to" headers are given the address of the mailing list, obo-teleost-discuss@lists.sourceforge.net.  The script extracts relevant information from the update emails and reformats it in a more user-friendly message.  Users can reply directly to the message and continue discussion of term proposals on the mailing list.
 
+The NESCent mail server runs the script with [[WG:tracker command line|this command line]].
+
 [[Category:Informatics]]
