@@ -17,7 +17,7 @@ title: Software roadmap
 * Choose museum code from pick list when entering specimen IDs
 * Character matrix view of annotations: Taxon by Entity+Attribute
 
-===Features for the future===
+===Unscheduled features===
 * Annotation using temporary terms, when an appropriate term is not available in an ontology. Ability to update these terms to official term once it is available.
 * Make DAG view work browsing entire ontology, with drag-and-drop to fields
 * Allow user to see what version of ontology is being used
