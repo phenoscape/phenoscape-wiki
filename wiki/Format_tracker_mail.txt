@@ -1,0 +1,156 @@
+#!/usr/bin/env python
+# encoding: utf-8
+"""
+format_tracker_mail.py
+
+This program takes an email message in standard input and resends it using the given From and To addresses.  An SMTP server must be specified on the command line.  Keep in mind that the input is not validated in any way.  This program requires an X-Mailer header to be set on its outgoing mail so it will not forward messages previously sent by itself.
+"""
+
+import sys
+import getopt
+import email
+from email.MIMEText import MIMEText
+from email.MIMEMultipart import MIMEMultipart
+import smtplib
+import re
+
+class TrackerMessage:
+    
+    def __init__(self, messageBody):
+        self.newCommenter = None
+        self.parseMessage(messageBody)
+        
+    def parseMessage(self, messageBody):
+        firstLineMatch = re.search(r"^.*", messageBody)
+        if firstLineMatch: self.firstLine = firstLineMatch.group()
+        categoryMatch = re.search(r"^>*Category: (.*)(?=\n>*Group:)", messageBody, (re.M|re.S))
+        if categoryMatch: self.category = categoryMatch.group(1).strip()
+        statusMatch = re.search(r"^>*Status: (.*)(?=\n>*Resolution:)", messageBody, (re.M|re.S))
+        if statusMatch: self.status = statusMatch.group(1).strip()
+        submitterMatch = re.search(r"^>*Submitted By: (.*)(?=\n>*Assigned to:)", messageBody, (re.M|re.S))
+        if submitterMatch: self.submitter = submitterMatch.group(1).strip()
+        summaryMatch = re.search(r"^>*Summary: (.*)(?=\n>*Initial Comment:)", messageBody, (re.M|re.S))
+        if summaryMatch: self.summary = summaryMatch.group(1).strip()
+        initialCommentMatch = re.search(r"^>*Initial Comment:\n(.*?)(?=\n----------------------------------------------------------------------\n)", messageBody, (re.M|re.S))
+        if initialCommentMatch: self.initialComment = initialCommentMatch.group(1).strip()
+        newCommentMatch = re.search(r"^>Comment By: (.*?)\nDate: (.*?)\n\nMessage:.*?user_id=.*?\n\n(.*?)(?=\n----------------------------------------------------------------------\n)", messageBody, (re.M|re.S))
+        if newCommentMatch:
+            self.newCommenter = newCommentMatch.group(1)
+            self.newCommentDate = newCommentMatch.group(2)
+            self.newComment = newCommentMatch.group(3)
+    
+    def parseLine(self, line):
+        pass
+        
+    def __getitem__(self, item):
+        return getattr(self, item, "")
+        
+    def __str__(self):
+        if (self.newCommenter):
+            return """New comment on tracker for:
+%(firstLine)s
+Summary: %(summary)s
+
+Comment by: %(newCommenter)s
+Date: %(newCommentDate)s
+
+%(newComment)s
+
+----------------------------------------------------------------------
+Category: %(category)s
+Status: %(status)s
+Submitted By: %(submitter)s
+Initial Comment:
+%(initialComment)s
+
+***You can respond to this email with comments or suggestions by hitting the reply button.***
+            
+""" % (self)
+        else:
+            return """%(firstLine)s
+Category: %(category)s
+Status: %(status)s
+Submitted By: %(submitter)s
+
+Summary: %(summary)s
+
+Initial Comment:
+%(initialComment)s
+
+***You can respond to this email with comments or suggestions by hitting the reply button.***
+""" % (self)
+        
+
+    
+def processMessage(aFile, xmailer, toReplace=None, fromReplace=None, replyReplace=None):
+    msg = email.message_from_file(aFile)
+    if msg["X-Mailer"] == xmailer: return None # prevent infinite mail loops
+    if (msg.is_multipart()):
+        newmsg = MIMEMultipart()
+        for item in msg.get_payload():
+            newmsg.attach(item)
+    else:
+        tm = TrackerMessage(msg.get_payload())
+        text = str(tm)
+        newmsg = MIMEText(text)
+    newmsg["Subject"] = msg["Subject"]
+    newmsg["X-Mailer"] = xmailer
+    if toReplace: newmsg["To"] = toReplace
+    else: newmsg["To"] = msg["To"]
+    if fromReplace: newmsg["From"] = fromReplace
+    else: newmsg["From"] = msg["From"]
+    if replyReplace: newmsg["Reply-To"] = replyReplace
+    else: newmsg["Reply-To"] = msg["Reply-To"]
+    return newmsg
+        
+
+def sendMessage(msg, smtp):
+    server = smtplib.SMTP(smtp)
+    server.sendmail(msg["From"], [msg["To"].split(",")], msg.as_string())
+    server.close()
+
+
+class Usage(Exception):
+    def __init__(self, msg):
+        self.msg = msg
+
+
+def main(argv=None):
+    toReplace = None
+    fromReplace = None
+    replyReplace = None
+    smtp = None
+    xmailer = None
+    if argv is None:
+        argv = sys.argv
+    try:
+        try:
+            opts, args = getopt.getopt(argv[1:], "", ["from=", "to=", "reply=", "smtp=", "xmailer="])
+        except getopt.error, msg:
+            raise Usage(msg)
+    
+        # option processing
+        for option, value in opts:
+            if option == "--to":
+                toReplace = value
+            if option == "--from":
+                fromReplace = value
+            if option == "--reply":
+                replyReplace = value
+            if option == "--smtp":
+                smtp = value
+            if option == "--xmailer":
+                xmailer = value
+        if not smtp: raise Usage("SMTP not specified")
+        if not xmailer: raise Usage("X-Mailer not specified")
+        
+    except Usage, err:
+        print >> sys.stderr, sys.argv[0].split("/")[-1] + ": " + str(err.msg)
+        return 2
+    
+    msg = processMessage(sys.stdin, xmailer, toReplace, fromReplace, replyReplace)
+    if msg: sendMessage(msg, smtp)
+
+
+if __name__ == "__main__":
+    sys.exit(main())
