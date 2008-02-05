@@ -27,11 +27,11 @@ title: Software roadmap
 * Create lookup-enabled Publication field (enter DOI or PMID).
 
 ===Phenote integration with PhenoScape web application and database===
-* Determine whether to integrate standalone Phenote application with web database, or migrate components into web application
+* Determine whether to integrate standalone Phenote application with web database, or migrate components into web application.
 
 ==Ontology editor==
 ===Curators begin by using OBO-Edit to view and edit project ontologies -- August 2007===
-* '''[complete]''' Curators are using OBO-Edit successfully
+* '''[complete]''' Curators are using OBO-Edit successfully.
 
 ==A database and web application to store and query the taxonomies, ontologies, and phenotype data==
 
