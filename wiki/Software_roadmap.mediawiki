@@ -3,7 +3,7 @@ title: Software roadmap
 ---
 
 ==Phenotype annotation editor==
-===Enhance Phenote with necessary features to be productively and efficiently used by curators -- March 2008===
+===Enhance Phenote with necessary features to be productively and efficiently used by curators -- March 2008 (first Data Jamboree)===
 * '''[complete]''' Initial Phenote configuration for PhenoScape data model
 * '''[complete]''' Specimen List window allowing curators to repeatedly choose one or more taxa for EQ annotation
 * '''[complete]''' Phylogeny view for selecting taxa to annotate
