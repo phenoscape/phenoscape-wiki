@@ -17,7 +17,7 @@ title: Software roadmap
 * Choose museum code from pick list when entering specimen IDs.
 * Character matrix view of annotations: Taxon by Entity+Attribute.
 
-===Post-data jamboree revision -- May 2008===
+===Post-Data Jamboree revision -- May 2008===
 * ''features?''
 
 ===Unscheduled features===
