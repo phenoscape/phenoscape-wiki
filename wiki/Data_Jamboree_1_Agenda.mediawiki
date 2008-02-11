@@ -10,6 +10,7 @@ title: Data Jamboree 1/Agenda
 ** Intro to Phenoscape and ontologies (presented by ?)
 ** Intro to Phenote (presented by ?)
 **
+* 9:30 am Work session
 * 10:30 am '''''Coffee break'''''
 * 11:00 am Work session
 * 12:00 pm '''''Lunch break'''''
