@@ -8,7 +8,7 @@ title: Data Jamboree 1/Agenda
 * 8:30 am  NESCent introduction (K. Smith, J. Sturkey)
 * 8:45 am Introduction to workshop
 ** Intro to Phenoscape and ontologies (presented by ?)
-** Intro to Phenote (presented by ?)
+** Intro to Phenote and annotation (presented by ?)
 * 9:30 am Work session
 * 10:30 am '''''Coffee break'''''
 * 11:00 am Work session
