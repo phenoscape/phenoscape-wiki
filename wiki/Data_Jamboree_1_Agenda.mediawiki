@@ -9,7 +9,7 @@ title: Data Jamboree 1/Agenda
 * 8:45 am Introduction to workshop
 ** Participant & project personnel introductions (5 min)
 ** Intro to Phenoscape and ontologies (presented by ?, 15 min)
-** Intro to Phenote and annotation (presented by ?, 30 min)
+** Intro to Phenote and annotation (presented by ?, 25 min)
 ** Goals of the workshop (presented by ?)
 * 9:45 am Work session
 * 10:30 am '''''Coffee break'''''
