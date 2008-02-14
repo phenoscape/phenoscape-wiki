@@ -1,0 +1,77 @@
+---
+title: Taxonomy ontology: ranks, unknown/unnamed species, & related issues
+---
+
+Taxonomy ontology: ranks, unknown/unnamed species, and related issues
+
+
+Conference call agenda – Teleost Taxonomy Ontology
+
+
+1. Taxonomic ranks - keep in TTO or make into separate ontology?
+
+current ranks in TTO:
+
+class 
+
+family 
+
+genus 
+
+order 
+
+phylum 
+
+species 
+
+subclass 
+
+subphylum 
+
+Unknown species 
+
+Unknown species group 
+
+Unnamed species 
+
+-	Currently every taxonomic name in the TTO is annotated to a particular rank above. Does not show in obo-edit because of use of has_rank, but has_value is the problem.  
+o	Peter will look into the above obo display issue
+-	We decided to drop the ‘unknown/unamed’ ranks 
+-	Peter will contact Chris Mungall about removing ranks from obo file
+-	Peter will email obo-discuss about setting up a ‘taxonomic ranks’ ontology, including proposed ranks from Michael Ashburner email
+-	
+
+2.	Representing unknown/unnamed species in ontology
+a.	Examples:
+i.	Chela sp.
+ii.	Esomus sp.
+iii.	Danio aff. dangila
+b.	Solution? Instead of assigning a rank, create new entities for these, with appropriate genus as the parent and reference publication information, possibly in the name, e.g.  ‘Chela sp. (Fang 2003)’ 
+
+-	We decided to follow solution given in 2b.  We will call these species whatever the author calls them, i.e. if Fang 2003 calls a species ‘Danio aff. dangila’, we will request the name ‘Danio aff. dangila (Fang 2003)’ from Peter.
+-	We will make requests for new species names through the TTO Tracker (vs. email to Peter.
+-	If there are multiple entries for an unknown species in the materials list (e.g., ‘Chela sp.’ is listed multiple times with different voucher numbers), we will create only one entity for the unknown species.  If in the future these multiple vouchers are identified as different species, then we will update our annotations to reflect the new species designation.
+-	All these names will be assigned ‘high’ ids, pending their incorporation into CoF or demotion to synonyms as appropriate in the future.
+
+
+3.	Representing incertae sedis in ontology
+
+-	We will represent incertae sedis as currently done (point species directly to appropriate level in ontology)
+-	We discussed creating duplicate taxonomic category for incertae sedis (for example, ‘Cyprinidae incertae sedis’) but this implies that all species within this category are a family and we want to avoid that
+-	We also discussed creating new taxonomic ranks for incertae sedis (e.g. Family incertae sedis, Order incertae sedis) to which we would annotate incertae sedis taxa (vs. assigning e.g. Order or Family rank); creates categories that are not ontologically sound, so no.
+-	Issue with representing uncertainly monophyletic genera – we think we can deal with this by giving users the options to view trees with alternative taxonomy for these species
+-	Tree views will solve many incertae sedis issues.
+-	I’m not sure how this will interact with groups where intermediate levels are added – lots of families might be incertae sedis at the level of tribe for example – (Peter).
+-	
+
+4. Incomplete tracking of synonyms from CoF to TTO
+a.	Short-term solution: curator sends Peter requests for addition of intermediate synonyms
+
+-	Peter will look into how to extract intermediate synonyms from ‘comments’ field in CoF file & will contact CoF folks to get file that contains this field
+-	Need most recent CoF for Peter.  Peter will contact Stan.  
+-	Extraction will take some time to implement. (Peter)
+
+
+5. 	Error reports to Peter – continue to send by email?  Thoughts to setting up a tracker?
+
+-	We should use a tracker, probably a separate tracker, but piggy backing on the TAO tracker with a ‘taxomony’ group might also work – (Peter)
