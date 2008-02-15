@@ -51,6 +51,7 @@ Members of the project team are in '''bold font'''.
 {{EventParticipant|Bemis|Willy|web24%40cornell%2eedu|Cornell University|}}
 {{EventParticipant|Coburn|Miles|coburn%40jcu%2eedu|John Carroll University|}}
 {{EventParticipant|Dahdul|Wasila|dahdul%40acnatsci%2eorg|Department of Ichthyology, Academy of Natural Sciences|'''}}
+{EventParticipant|Kothari|Cartik|cartik73%40yahoo%2ecom|University of British Columbia|'''}}
 {{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
 {{EventParticipant|Lundberg|John|lundberg%40acnatsci%2eorg |Department of Ichthyology, Academy of Natural Sciences|'''}}
 {{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|University of South Dakota|'''}}
