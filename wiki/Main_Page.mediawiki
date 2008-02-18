@@ -53,7 +53,7 @@ Paula Mabee (University of South Dakota) is the Principal Investigator. Co-princ
 
 ==News==
 
-* We have hosted a "[[Needs_Analysis_Workshop|Needs Analysis Workshop]]" for this project on Sep 17-18, 2007.
+* We hosted a "[[Needs_Analysis_Workshop|Needs Analysis Workshop]]" for this project on Sep 17-18, 2007.
 * We are recruiting a Research Programmer to be in charge of data modeling, database design, middleware, and data service layer. The position will be located at NESCent and work directly with the research programmer for the user interfaces. More details are on the [http://www.nescent.org/about/employment.php#datamodeling NESCent employment page].
 
 ==Pages of public interest==
