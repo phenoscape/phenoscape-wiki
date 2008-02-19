@@ -17,5 +17,6 @@ title: Publications and Posters
 #mabee2007b pmid=17599725
 </biblio>
 
-
 ==Posters==
+
+P, Mabee, J.P. Balhoff, W. Dahdul, H. Lapp, J. Lundberg, P. Midford, T.J. Vision, M. Westerfield (2007) [[Media:Biocurator2007-phenoscape.ppt|Linking Evolution to Genomics Using Phenotype Ontologies]]. Poster at the [http://tesuque.stanford.edu/biocurator.org/Mtg2007/ 2nd Int. BioCurator Meeting], San Jose, California, Oct 2007.
