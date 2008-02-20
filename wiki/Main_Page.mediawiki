@@ -2,6 +2,8 @@
 title: Main Page
 ---
 
+{{EventBox1|We have summer internship funding for graduate students and postdocs interested in gaining expertise in informatics and the application of ontologies to evolutionary, anatomical, developmental, and genetic data. See [http://www.nescent.org/about/employment.php#summer details on the NESCent employment page].}}
+
 {{EventBox1|Together with the National Center for Biomedical Ontologies (NCBO) we are organizing a [[Training and Workshops|Evolutionary Biology and Ontologies Workshop]], to be held in conjunction with the Evolution 2008 Meetings in Minneapolis, MN.}}
 
 ==Linking Evolution to Genomics Using Phenotype Ontologies==
@@ -50,11 +52,6 @@ Paula Mabee (University of South Dakota) is the Principal Investigator. Co-princ
 | This project is funded by NSF grant BDI<nowiki>-</nowiki>0641025, and supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0423641. <br/><br/>This project arose from a NESCent <span class="plainlinks">[http://www.nescent.org/science/workinggroup.php Working Group]</span> led by Paula Mabee and Monte Westerfield, "Towards an Integrated Database for Fish Evolution." [[Fish Evolution Working Group|Goals and summaries of the group]] are archived on this wiki.
 | http://www.nescent.org/about/images/nsf_logo.jpg
 |}
-
-==News==
-
-* We hosted a "[[Needs_Analysis_Workshop|Needs Analysis Workshop]]" for this project on Sep 17-18, 2007.
-* We are recruiting a Research Programmer to be in charge of data modeling, database design, middleware, and data service layer. The position will be located at NESCent and work directly with the research programmer for the user interfaces. More details are on the [http://www.nescent.org/about/employment.php#datamodeling NESCent employment page].
 
 ==Pages of public interest==
 
