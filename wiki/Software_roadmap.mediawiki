@@ -14,7 +14,7 @@ title: Software roadmap
 * '''[complete]''' Use standard menus and keyboard shortcuts for Open, Save, Quit, Cut, Copy, Paste, etc.
 * '''[complete]''' Improved document saving functionality. User should be able to quickly save a document to the same file it was opened from.
 * '''[complete]''' Rework Specimen List as Taxon List: each taxon has multiple specimens which can be picked from during annotation as supporting evidence.
-* Choose museum code from pick list when entering specimen IDs.
+* '''[complete]''' Choose museum code from pick list when entering specimen IDs.
 * Character matrix view of annotations: Taxon by Entity+Attribute.
 
 ===Post-Data Jamboree revision -- May 2008===
