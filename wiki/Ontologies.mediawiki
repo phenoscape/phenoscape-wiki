@@ -2,6 +2,8 @@
 title: Ontologies
 ---
 
-Evolutionary phenotypes will be described using the [http://www.bioontology.org/wiki/index.php/PATO:About Entity-Quality system], which combines morphological terms from an anatomical ontology with quality terms from the [http://www.bioontology.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)].
+Evolutionary phenotypes will be described using the [http://www.bioontology.org/wiki/index.php/PATO:About Entity-Quality system], which combines morphological terms from an anatomical ontology (here: the Teleost Anatomy Ontology, TAO) with quality terms from the [http://www.bioontology.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)].
 
-Phenotypes will be associated with taxa using a [[taxonomy ontology]] derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes].
+Phenotypes will be associated with taxa using a [[taxonomy ontology]] derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes], the Teleost Taxonomy Ontology (TTO).
+
+Although the anatomy as well as the taxonomy ontologies will keep changing to accommodate our curation needs, both have been admitted into the OBO CVS-based version-control system, from where the NCBO's BioPortal loads and updates ontologies on a regular basis.  Both [http://www.bioontology.org/ncbo/faces/pages/ontology_details.xhtml?ontology_display_name=Teleost%20anatomy%20and%20development%20(TAO) TAO] and [http://www.bioontology.org/ncbo/faces/pages/ontology_details.xhtml?ontology_display_name=Teleost%20taxonomy TTO] can be browsed, searched, and visualized at the NCBO BioPortal.
