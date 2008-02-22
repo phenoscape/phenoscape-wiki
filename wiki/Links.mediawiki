@@ -12,9 +12,7 @@ title: Links
 * [http://obofoundry.org/cgi-bin/detail.cgi?caro Common Anatomy Reference Ontology (CARO)] ([http://purl.org/obo/owl/CARO also available in OWL format])
 * [http://www.bioontology.org/wiki/index.php/CL:Aligning_species-specific_anatomy_ontologies_with_CL Maintaining inter-ontology relations between species specific anatomy ontologies and CL/GO/CARO]
 * [http://www.fruitfly.org/~cjm/obd/formats.html OBD Phenotype file formats] - Includes standards and schemas for PhenoSyntax and PhenoXML
-
-'''Data typed using phenotype ontology'''
-* [http://www.phenotypeontology.org/phenotype_annotation/ OBD data and schema downloads]
+* [http://www.berkeleybop.org/obd/ Open Biomedical Data (OBD) data model, API, and other downloads]
 
 ===Fish resources===
 
