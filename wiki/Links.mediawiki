@@ -34,6 +34,18 @@ title: Links
 * [http://www.phenote.org Phenote]
 * [http://oboedit.org/ OBO-Edit]
 
+===NCBO BioPortal support requests===
+
+Support (for issues) and feature requests for the NCBO BioPortal can be submitted through the following venues (according to Benjamin Dai, BioPortal Lead Software Architect):
+* [https://bmir-gforge.stanford.edu/gf/project/bioportal/tracker/?action=TrackerItemBrowse&tracker_id=63 BioPortal issue tracker] at the BMIR GForge installation 
+* Support email: [mailto:support%40bioontology%2eorg support&#64;bioontology&#46;org]
+
+'''NCBO BioPortal User Group:'''
+
+We are a (voting) member of the BioPortal User Group. The group has monthly teleconferences where new features are being discusses and subsequently prioritized through survey-voting. 
+
+* A Basecamp-based [https://ncboprojects.updatelog.com/projects/1487611/project/log BioPortal project management site] (login required) has User Group meeting presentations and other information.
+
 ==Bibliography==
 
 We also maintain a list of references on [http://www.connotea.org Connotea], using the tag "[http://www.connotea.org/tag/phenoscape phenoscape]". This list may be more up-to-date than the bibliography below. Anyone can easily recommend references (and in fact any site or resource) to us simply by tagging it with "phenoscape" in Connotea.
