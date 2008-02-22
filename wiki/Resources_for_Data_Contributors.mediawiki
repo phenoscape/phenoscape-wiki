@@ -63,7 +63,7 @@ The following table describes the entry fields in the PhenoScape configuration. 
 ! Field
 ! Usage
 |-
-| Publication || the publication describing the character state
+| Publication || the publication describing the character state<br/>CrossRef has a [http://www.crossref.org/SimpleTextQuery/ free-text query form] for looking up DOIs
 |-
 | Taxon || Genus & species
 |-
