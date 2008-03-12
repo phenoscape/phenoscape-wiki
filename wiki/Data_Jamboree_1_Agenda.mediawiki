@@ -12,15 +12,14 @@ Jamboree preparation...
 * 8:00 am Shuttle to NESCent – Please meet in the Millennium Hotel Lobby
 * 8:30 am  NESCent introduction (K. Smith, J. Sturkey)
 * 8:45 am Introduction to workshop
-** Participant & project personnel introductions (5 min)
+** Participant & project personnel introductions (10 min)
 ** Intro to Phenoscape and ontologies (presented by ?, 15 min)
-** Intro to Phenote and annotation (presented by ?, 25 min)
-** Goals of the workshop (presented by ?)
-* 9:45 am Working session
+** Intro to Phenote and annotation (presented by ?, 10 min)
+* 9:20 am Group annotation exercise
 * 10:30 am '''''Coffee break'''''
-* 11:00 am Working session
+* 11:00 am Group annotation exercise, conclude and discuss
 * 12:00 pm '''''Lunch break'''''
-* 1:00 pm Working session
+* 1:00 pm Working session on individual data
 * 3:00 pm '''''Coffee break'''''
 * 3:30 pm Group discussion
 * 5:00 pm End of the day's session
