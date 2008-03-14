@@ -14,8 +14,8 @@ Jamboree preparation...
 * 8:45 am Introduction to workshop
 ** Participant & project personnel introductions (10 min)
 ** Intro to Phenoscape and ontologies (presented by ?, 15 min)
-** Intro to Phenote and annotation (presented by ?, 10 min)
-* 9:20 am Group annotation exercise
+** Intro making annotation (presented by ?, 10 min)
+* 9:20 am Group annotation exercise & Phenote introduction
 * 10:30 am '''''Coffee break'''''
 * 11:00 am Group annotation exercise, conclusion and discussion
 * 12:00 pm '''''Lunch break'''''
