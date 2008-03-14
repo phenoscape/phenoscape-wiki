@@ -3,5 +3,3 @@ title: Category:Informatics
 ---
 
 Index of pages tagged with category 'Informatics'.
-
-[[Category:Help]]
