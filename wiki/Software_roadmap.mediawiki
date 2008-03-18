@@ -15,16 +15,19 @@ title: Software roadmap
 * '''[complete]''' Improved document saving functionality. User should be able to quickly save a document to the same file it was opened from.
 * '''[complete]''' Rework Specimen List as Taxon List: each taxon has multiple specimens which can be picked from during annotation as supporting evidence.
 * '''[complete]''' Choose museum code from pick list when entering specimen IDs.
-* Character matrix view of annotations: Taxon by Entity+Attribute.
+* Include two preset docking interface configurations: taxon list editing and annotation editing
+* Allow user to create multiple, temporary annotation template lists while editing.
+* Make DAG view work browsing entire ontology, with drag-and-drop to fields.
+* Allow user to edit field values directly in the table (especially for Specimen list).
 
 ===Post-Data Jamboree revision -- May 2008===
 * move to OBO-annotations data model [http://wiki.geneontology.org/index.php/OBO:_1.3_Whiteboard]
 
 ===Unscheduled features===
 * Annotation using temporary terms, when an appropriate term is not available in an ontology. Ability to update these terms to official term once it is available.
-* Make DAG view work browsing entire ontology, with drag-and-drop to fields.
 * Allow user to see what version of ontology is being used.
 * Create lookup-enabled Publication field (enter DOI or PMID).
+* Character matrix view of annotations: Taxon by Entity+Attribute.
 
 ===Phenote integration with PhenoScape web application and database===
 * Determine whether to integrate standalone Phenote application with web database, or migrate components into web application.
