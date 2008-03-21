@@ -15,9 +15,9 @@ title: Software roadmap
 * '''[complete]''' Improved document saving functionality. User should be able to quickly save a document to the same file it was opened from.
 * '''[complete]''' Rework Specimen List as Taxon List: each taxon has multiple specimens which can be picked from during annotation as supporting evidence.
 * '''[complete]''' Choose museum code from pick list when entering specimen IDs.
+* '''[complete]''' Make DAG view work browsing entire ontology, with drag-and-drop to fields.
 * Include two preset docking interface configurations: taxon list editing and annotation editing
 * Allow user to create multiple, temporary annotation template lists while editing.
-* Make DAG view work browsing entire ontology, with drag-and-drop to fields.
 * Allow user to edit field values directly in the table (especially for Specimen list).
 
 ===Post-Data Jamboree revision -- May 2008===
