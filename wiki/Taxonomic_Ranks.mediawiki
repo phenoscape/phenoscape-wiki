@@ -6,7 +6,7 @@ title: Taxonomic Ranks
 
 When the Teleost Taxonomy Ontology (TTO) was submitted to OBO, the suggest was made that the terms for taxonomic ranks (e.g., Family, Genus, Species) should be broken out.  Originally these terms were included in the TTO and cross referenced to similar terms in the NCBI taxonomy ontology.  Constructing an initial version of the ontology is straightforward, but there are some semantic issues that this page is devoted to.  
 
-The primary issue is how to represent the ordering among level terms.  There are two schools of thought:
+The primary issue is how to represent the ordering among level terms.  There are two points of view:
 <ol>
 <li>A special relation exists between taxonomic ranks.  It is certainly transitive and antisymmetric.
 <li>The relation is simply part_of.
