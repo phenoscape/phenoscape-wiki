@@ -26,3 +26,5 @@ In order to resolve whether the rank ordering relation is simply part_of, it may
           |                                |
   Davario aequipinnatus -------------->  Species
                           has_rank
+
+According to the documentation for the NCBI taxonomy ontology, which shares this structure, 'has_rank' is a metadata relation.
