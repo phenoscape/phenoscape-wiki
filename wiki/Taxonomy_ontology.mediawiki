@@ -2,7 +2,7 @@
 title: Taxonomy ontology
 ---
 
-The taxonomy ontology will be based on the Catalog of Fishes.
+The taxonomy ontology (TTO) is based on the Catalog of Fishes and will be updated as CoF updates appear as well as from input from area experts.
 
 ==Resources==
 
@@ -14,6 +14,8 @@ Here are some useful resources for creating the taxonomy ontology:
 * [http://www.obofoundry.org/wiki/index.php/Identifiers OBO Identifier Lifecycle]
 
 ==Taxonomy ontology structure==
+
+There is now a page devoted to discussion of [[Taxonomic Ranks]].
 
 The NCBI taxonomy ontology has some special terms and relations which are probably relevant to the fish taxonomy ontology.  One of these is the "has_rank" typedef, which is used as a property value on the taxon terms:
 
