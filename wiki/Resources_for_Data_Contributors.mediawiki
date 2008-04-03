@@ -96,9 +96,9 @@ Please report any issues you come across by using the [https://sourceforge.net/t
 
 ===Term post-composition and pre-coordination===
 
-Terms can be post-composed at annotation time rather than pre-composed (pre-coordinated) within the ontology. Post-composed terms are created in Phenote and follow genus-differentia definitions and, unlike pre-composed terms, do not have an ID. 
+Terms can be post-composed at the time of annotation rather than pre-composed (also known as pre-coordinated) within the ontology. Post-composed terms are created in Phenote and follow genus-differentia definitions. Unlike pre-composed terms, do not have an ID.
 
-====Post-composition====
+=====Post-composition=====
 
 Example 1: ‘branched dorsal fin ray’
 
