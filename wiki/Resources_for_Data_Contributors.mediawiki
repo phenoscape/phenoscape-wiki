@@ -97,6 +97,9 @@ Please report any issues you come across by using the [https://sourceforge.net/t
 ===Term post-composition and pre-coordination===
 
 Terms can be post-composed at annotation time rather than pre-composed (pre-coordinated) within the ontology. Post-composed terms are created in Phenote and follow genus-differentia definitions and, unlike pre-composed terms, do not have an ID. 
+
+====Post-composition====
+
 Example 1: ‘branched dorsal fin ray’
 
 	E= TAO: dorsal fin lepidotrichium^has_quality(PATO:branched)
@@ -110,6 +113,16 @@ Eb= BSPO: ventral region part_of TAO: supraorbital bone
 Note that Entity E1b is created within the post-composition (it is not an ‘additional entity’) 
 
 Post-composition in Phenote is enabled using the ‘comp’ button next to the Entity field.  In example 1, the genus term is ‘dorsal fin lepidotrichium’ and the differentia term is ‘branched.’  The term in example 2 requires nesting because term Eb is a post-composed term (it is not an ‘additional entity’). 
+
+=====Pre-composition=====
+The above term would be pre-coordinated using OBO-edit as:
+TAO: supraorbital ventral projection
+intersection of TAO: bony projection
+intersection of TAO: ventral region of suprorbital
+
+TAO: ventral region of suprorbital
+intersection of BSPO: ventral region
+intersection of TAO: suprorbital
 
 ====Known Issues:====
 Nesting of post-composed terms is not yet enabled in Phenote but has been requested. The post-compose feature in Phenote allows addition of multiple differentia that apply to the intial genus term.  In the meantime, we will create these post-composed terms that require nesting with a reminder in the 'curator notes' field that these terms will need proper updating once nesting is enabled.
