@@ -12,7 +12,7 @@ The primary issue is how to represent the ordering among level terms.  There are
 <li>The relation is simply part_of.
 </ol>
 <br>
-In order to resolve whether the rank ordering relation is simply part_of, it may be necessary to clarify the property 'has_rank' which is used to relate a particular taxon to its rank.
+In order to resolve whether the rank ordering relation is simply part_of, it may be necessary to clarify the property 'has_rank' which is used to relate a particular taxon to its rank.  This diagram may clarify where these relationships fit in the ontologies.
 
       Cyrinidae   -------------------->  Family
           ^             has_rank           ^
