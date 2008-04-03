@@ -100,11 +100,11 @@ Terms can be post-composed at the time of annotation rather than pre-composed (a
 
 =====Post-composition=====
 
-Example 1: ‘branched dorsal fin ray’
+''Example 1'': ‘branched dorsal fin ray’
 
 	E= TAO: dorsal fin lepidotrichium^has_quality(PATO:branched)
 
-Example 2: ‘supraorbital ventral projection’
+''Example 2'': ‘supraorbital ventral projection’
 
 bony projection^part_of [(ventral region)^part_of (supraorbital bone)]
 
@@ -118,12 +118,17 @@ Post-composition in Phenote is enabled using the ‘comp’ button next to the E
 
 =====Pre-composition=====
 The above term would be pre-coordinated using OBO-edit as:
+
 TAO: supraorbital ventral projection
+
 intersection of TAO: bony projection
+
 intersection of TAO: ventral region of suprorbital
 
 TAO: ventral region of suprorbital
+
 intersection of BSPO: ventral region
+
 intersection of TAO: suprorbital
 
 ====Known Issues:====
