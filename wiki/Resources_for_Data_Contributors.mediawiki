@@ -107,12 +107,14 @@ Example 1: ‘branched dorsal fin ray’
 Example 2: ‘supraorbital ventral projection’
 
 bony projection^part_of [(ventral region)^part_of (supraorbital bone)]
+
 Ea= TAO: bony projection
+
 Eb= BSPO: ventral region part_of TAO: supraorbital bone
 
 Note that Entity E1b is created within the post-composition (it is not an ‘additional entity’) 
 
-Post-composition in Phenote is enabled using the ‘comp’ button next to the Entity field.  In example 1, the genus term is ‘dorsal fin lepidotrichium’ and the differentia term is ‘branched.’  The term in example 2 requires nesting because term Eb is a post-composed term (it is not an ‘additional entity’). 
+Post-composition in Phenote is enabled using the ‘comp’ button next to the Entity field.  In example 1, the genus term is ‘dorsal fin lepidotrichium’ and the differentia term is ‘branched.’  The term in example 2 requires nesting because term Eb is a post-composed term (it is not an ‘additional entity’).
 
 =====Pre-composition=====
 The above term would be pre-coordinated using OBO-edit as:
