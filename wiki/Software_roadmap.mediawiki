@@ -25,7 +25,6 @@ title: Software roadmap
 
 ===Unscheduled features===
 * Annotation using temporary terms, when an appropriate term is not available in an ontology. Ability to update these terms to official term once it is available.
-* Allow user to see what version of ontology is being used.
 * Create lookup-enabled Publication field (enter DOI or PMID).
 * Character matrix view of annotations: Taxon by Entity+Attribute.
 
