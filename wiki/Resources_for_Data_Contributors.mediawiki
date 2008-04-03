@@ -132,7 +132,7 @@ intersection of BSPO: ventral region
 intersection of TAO: suprorbital
 
 ====Known Issues:====
-Nesting of post-composed terms is not yet enabled in Phenote but has been requested. The post-compose feature in Phenote allows addition of multiple differentia that apply to the intial genus term.  In the meantime, we will create these post-composed terms that require nesting with a reminder in the 'curator notes' field that these terms will need proper updating once nesting is enabled.
+The post-compose feature in Phenote allows addition of multiple differentia that apply to the initial genus term but nesting of terms is not yet enabled. In the meantime, when post-composed terms that require nesting are required during annotation, we will note in the 'curator notes' field that these terms will need proper updating once nesting is possible.
 
 ==Ontology change requests==
 
