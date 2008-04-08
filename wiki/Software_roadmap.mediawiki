@@ -17,8 +17,9 @@ title: Software roadmap
 * '''[complete]''' Choose museum code from pick list when entering specimen IDs.
 * '''[complete]''' Make DAG view work browsing entire ontology, with drag-and-drop to fields.
 * '''[complete]''' Allow user to edit field values directly in the table (especially for Specimen list).
+* '''[complete]''' Allow user to create multiple, temporary annotation template lists while editing.  ''Not savable with current file format, however''
 * Include two preset docking interface configurations: taxon list editing and annotation editing
-* Allow user to create multiple, temporary annotation template lists while editing.
+
 
 
 ===Post-Data Jamboree revision -- May 2008===
