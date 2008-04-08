@@ -27,4 +27,8 @@ In order to resolve whether the rank ordering relation is simply part_of, it may
   Davario aequipinnatus -------------->  Species
                           has_rank
 
-According to the documentation for the NCBI taxonomy ontology, which shares this structure, 'has_rank' is a metadata relation.
+According to the documentation for the NCBI taxonomy ontology, which shares this structure, 'has_rank' is a metadata relation.  As such, it does not have any meaning for a reasoner.  The assertion that 'has_rank' is a metadata relation might be subject to revision.
+
+The is_a hierarchy in the left-side column indicates that taxa are sets, a minority view among philosophers of biology.  If taxa are individuals, the is_a hierarchy should be replaced by a part_of hierarchy.  However, that does not require the 'rank ordering' relation for level terms to be part_of because has_rank is a metadata relation.
+
+There is another property of the 'rank ordering' that may be called, by analogy with the rational numbers, density.  The rational numbers are considered dense because between any two rational numbers a third rational number can be found.  Likewise, within limits, between any two rank terms another term can be inserted: for example by using sub- and super- prefixes.
