@@ -119,6 +119,28 @@ intersection of TAO: suprorbital
 The post-compose feature in Phenote allows addition of multiple differentia that apply to the initial genus term but nesting of terms is not yet enabled. In the meantime, when post-composed terms that require nesting are needed for annotation, we will note in the 'curator notes' field that these terms will need proper updating once nesting is possible.
 
 ==Curatorial Best Practices==
+===Genus-differentia definitions===
+
+Term definitions in the teleost anatomy ontology (TAO) take the form of genus-differentia definitions: 
+
+B is an A that has X.
+
+The term (B) is defined by its membership in higher category (A) and distinguished by characteristics (X). The following are examples of genus-differentia definitions in the TAO:
+
+1. The antorbital is a dermal bone that is located on the anterior margin of the infraorbital series, dorsal to the first infraorbital and lateral to the nasal bone. 
+
+2. The dentary is a dermal bone that forms the anterolateral part of the lower jaw.
+
+In example 1, the definition mentions the parent dermal bone of the term antorbital followed by the characteristics that differentiate antorbital from all other dermal bones.
+
+[http://wiki.geneontology.org/index.php/Logical_Definitions Logical definitions] (also known as cross-products) are constructed as the intersection between terms and are genus-differentia definitions.
+
+===Proper syntax for relative length===
+For the characters that relate the length of one bone to another, ratios are used in Phenote.  For example: Length of infraorbital 2: (0) over twice as long as infraorbital 1; (1) less than twice as long as infraorbital 1. This would be indicated in Phenote as follows:
+
+E1: Infraorbital 2, Q: increased length, , E2 : Infraorbital 1, Measurement:  >2, Unit: ratio
+
+E1: Infraorbital 2, Q: increased length, , E2 : Infraorbital 1, Measurement:  >2, Unit: ratio
 
 ==Ontology change requests==
 
