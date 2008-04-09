@@ -40,4 +40,4 @@ title: Software roadmap
 ==A database and web application to store and query the taxonomies, ontologies, and phenotype data==
 
 
-[[Category:Informatics]]
+[[Category:Informatics]] [[Category:demo]]
