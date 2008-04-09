@@ -26,21 +26,6 @@ You can download the ontologies as OBO files from the above web sites.  You can 
 
 ==Annotating phenotypes==
 
-===Genus-differentia definitions===
-
-Term definitions in the teleost anatomy ontology (TAO) take the form of genus-differentia definitions: 
-
-B is an A that has X.
-
-The term (B) is defined by its membership in higher category (A) and distinguished by characteristics (X). The following are examples of genus-differentia definitions in the TAO:
-
-1. The antorbital is a dermal bone that is located on the anterior margin of the infraorbital series, dorsal to the first infraorbital and lateral to the nasal bone. 
-
-2. The dentary is a dermal bone that forms the anterolateral part of the lower jaw.
-
-In example 1, the definition mentions the parent dermal bone of the term antorbital followed by the characteristics that differentiate antorbital from all other dermal bones.
-
-[http://wiki.geneontology.org/index.php/Logical_Definitions Logical definitions] (also known as cross-products) are constructed as the intersection between terms and are genus-differentia definitions.
 
 
 ===Phenote===
