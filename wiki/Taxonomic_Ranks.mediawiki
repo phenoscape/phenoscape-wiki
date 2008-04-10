@@ -108,12 +108,12 @@ Or even:
    Cyprinidae   -------------------->  Family ------------------> "portion of clade"
         ^                                 ^
         |                                 |
-        |                                 |  "rank_order"
+        | part_of                         |  "rank_order"
         |                is_a             |                               
      Davario    -------------------->   Genus ------------------> "portion of clade"
         ^                                 ^         is_a
         |                                 |
-        |                                 |  "rank_order"
+        | part_of                         |  "rank_order"
         |                   is_a          |                             
   Davario aequipinnatus ------------>  Species -----------------> "portion of clade"
 
