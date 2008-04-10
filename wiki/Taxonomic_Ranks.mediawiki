@@ -119,3 +119,5 @@ Or even:
 
 
 This approach also provides a natural bridge to the use of Phylogenetic definitions, which more or less restrict taxonomic labels to monophyletic clades.
+
+The major difficulties with such a model are potential conflicts with the OBO ontologies focus on classes, rather than individuals.
