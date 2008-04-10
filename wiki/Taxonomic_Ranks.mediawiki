@@ -82,7 +82,7 @@ Modeled this way, the TTO and taxon rank ontology might look as follows:
 
                           TTO                                TaxonRank Ontology
    
-
+  
                         is_a
   "portion of clade" <--------------  Cyprinidae   -------------------->  Family
                                           ^             has_rank           ^
@@ -96,3 +96,23 @@ Modeled this way, the TTO and taxon rank ontology might look as follows:
                        is_a               |                                |
   "portion of clade" <------- Davario aequipinnatus ---------------->  Species
                                                     has_rank
+
+
+Or even:
+
+
+                          TTO                                TaxonRank Ontology
+   
+  
+                        is_a                        is_a
+   Cyprinidae   -------------------->  Family ------------------> "portion of clade"
+        ^                                 ^
+        |                                 |
+        |                                 |  "rank_order"
+        |                is_a             |                               
+     Davario    -------------------->   Genus ------------------> "portion of clade"
+        ^                                 ^         is_a
+        |                                 |
+        |                                 |  "rank_order"
+        |                   is_a          |                             
+  Davario aequipinnatus ------------>  Species -----------------> "portion of clade"
