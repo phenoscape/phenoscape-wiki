@@ -101,7 +101,7 @@ Modeled this way, the TTO and taxon rank ontology might look as follows:
 Or even:
 
 
-                          TTO                                TaxonRank Ontology
+       TTO                                       TaxonRank Ontology
    
   
                         is_a                        is_a
