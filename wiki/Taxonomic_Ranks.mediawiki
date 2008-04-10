@@ -74,11 +74,8 @@ Resolving this issue may depend on the resolution of a second, closely related i
 
 Following the example of the OBO translation of the NCBI taxonomy, the TTO models taxa as a hierarchy of classes, defined by an is_a relation based on set theory.  This means that classes, hence taxa terms are represented as sets.  The taxon as set model extends all the way down to and including the species level.
 
-However, an increasingly influential view among philosophers of biology is that species should be not be seen as either classes (or natural kinds), but as evolutionary units, and hence as individuals (e.g., Hull 1974, Ghiselin 1978). 
+However, an increasingly influential view among philosophers of biology is that species should be not be seen as either classes (or natural kinds), but as evolutionary units, and hence as individuals (e.g., Hull 1974, Ghiselin 1978).  In this view, species are not sets of individual organisms, rather there is a part_of relation between organisms and their species.  The particular part_of relation is commonly portrayed as species (and other clades) being composed of lineages and lineages consisting of related individual organisms.  
 
+This view can be extended to consider clades as individuals, since they, like species are comprised of lineages.  Individuals comprised of lineages might be modeled as instances of the class 'portion of clade', which might include species (the class of all individual species) as a particular subclass because individual species are evolutionary units, unlike larger clades.
 
-In order to resolve whether the rank ordering relation is simply part_of, it may be necessary to clarify the property 'has_rank' which is used to relate a particular taxon to its rank.  This diagram may clarify where these relations and properties fit in the taxonomic ontologies.
-
-According to the documentation for the NCBI taxonomy ontology, which shares this structure, 'has_rank' is a metadata relation.  As such, it does not have any meaning for a reasoner.  The assertion that 'has_rank' is a metadata relation might be subject to revision.
-
-The is_a hierarchy in the left-side column indicates that taxa are sets, a minority view among philosophers of biology.  If taxa are individuals, the is_a hierarchy should be replaced by a part_of hierarchy.  However, that does not require the 'rank ordering' relation for level terms to be part_of because has_rank is a metadata relation.
+Kevin de Queiroz and Jacques Gauthier
