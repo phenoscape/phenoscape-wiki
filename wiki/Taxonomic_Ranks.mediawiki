@@ -116,3 +116,6 @@ Or even:
         |                                 |  "rank_order"
         |                   is_a          |                             
   Davario aequipinnatus ------------>  Species -----------------> "portion of clade"
+
+
+This approach also provides a natural bridge to the use of Phylogenetic definitions, which more or less restrict taxonomic labels to monophyletic clades.
