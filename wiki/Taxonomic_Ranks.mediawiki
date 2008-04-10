@@ -79,3 +79,20 @@ However, an increasingly influential view among philosophers of biology is that 
 This view can be extended to consider clades as individuals, since they, like species are comprised of lineages.  Individuals comprised of lineages might be modeled as instances of the class 'portion of clade', which might include species (the class of all individual species) as a particular subclass because individual species are evolutionary units, unlike larger clades.
 
 Modeled this way, the TTO and taxon rank ontology might look as follows:
+
+                          TTO                                TaxonRank Ontology
+   
+
+                        is_a
+  "portion of clade" <--------------  Cyprinidae   -------------------->  Family
+                                          ^             has_rank           ^
+                                          |                                |
+                                  part_of |                                |  "rank_order"
+                         is_a             |                                |
+  "portion of clade" <-----------      Davario    -------------------->  Genus
+                                          ^             has_rank           ^
+                                          |                                |
+                                  part_of |                                |  "rank_order"
+                       is_a               |                                |
+  "portion of clade" <------- Davario aequipinnatus ---------------->  Species
+                                                    has_rank
