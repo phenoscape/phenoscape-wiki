@@ -72,6 +72,10 @@ Resolving this issue may depend on the resolution of a second, closely related i
 
 == Modeling Taxa ==
 
+Following the example of the OBO translation of the NCBI taxonomy, the TTO models taxa as a hierarchy of classes, defined by an is_a relation based on set theory.  This means that classes, hence taxa terms are represented as sets.  The taxon as set model extends all the way down to and including the species level.
+
+However, an increasingly influential view among philosophers of biology is that species should be not be seen as either classes (or natural kinds), but as evolutionary units, and hence as individuals (e.g., Hull 1974, Ghiselin 1978). 
+
 
 In order to resolve whether the rank ordering relation is simply part_of, it may be necessary to clarify the property 'has_rank' which is used to relate a particular taxon to its rank.  This diagram may clarify where these relations and properties fit in the taxonomic ontologies.
 
