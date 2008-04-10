@@ -65,6 +65,8 @@ Chris Mungall's response to this question was:
   
   Declare the relation transitive
 
+Resolving this issue may depend on the resolution of a second, closely related issue that may have to be reopened for discussion.
+
 == Modeling Taxa ==
 
 
