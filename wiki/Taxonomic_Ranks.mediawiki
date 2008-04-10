@@ -31,7 +31,7 @@ As there is clearly an ordering among the rank terms, it would be worthwhile to 
 The proposed situation is 
 
           TTO                                TaxonRank Ontology
-
+   
         Cyprinidae   -------------------->  Family
              ^             has_rank           ^
              |                                |
