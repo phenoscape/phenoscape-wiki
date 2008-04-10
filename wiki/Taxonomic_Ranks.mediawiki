@@ -67,9 +67,6 @@ Chris Mungall's response to this question was:
 
 There is another property of the 'rank ordering' that should be noted.  The current TTO currently uses a rather limited number of taxonomic ranks.  However, if this ontology is intended to be shared across OBO projects, it will need to incorporate additional taxonomic level terms.  For example, the NCBI taxnomy defines over 30 rank terms.  As other groups develop taxonomies they will want to add ranks that are used in their systems.  Furthermore, the system of ranks is open-ended, so any particular group might need to add additional ranks in the future.  However, any one taxonomy will only use a subset of these terms, which means that in most cases, the is_a relation between two taxa will frequently correspond to more than one link up the rank taxonomy.  Another case where this situation comes up, even for a single taxonomy, is an incertae sedis taxa.  Thus a definition for the ordering relation needs to work without depending on having every step in the rank chain correspond to a taxonomic term in each tip to root path in the tree.
 
-may be called, by analogy with the rational numbers, density.  The rational numbers are considered dense because between any two rational numbers a third rational number can be found.  Likewise, within limits, between any two rank terms another term can be inserted: for example by using sub- and super- prefixes.
-
-
 
 Resolving this issue may depend on the resolution of a second, closely related issue that may have to be reopened for discussion.
 
