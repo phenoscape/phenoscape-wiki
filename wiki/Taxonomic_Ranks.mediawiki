@@ -24,13 +24,31 @@ The current implementation can be diagrammed as follows:
                           has_rank
 
 
-Presently, the rank terms are simply subclasses of taxonomic_rank.  There is no relation defined between the rank terms.  The has_rank relation, as defined in the NCBO ontology is a meta_data relation (c.f. OWL annotation properties), which means it is intended to be ignored by any reasoner.
+In the first draft of the ranks ontology, submitted to Chris Mungal and Michael Ashburner, the rank terms are simply subclasses of taxonomic_rank.  There is no relation defined between the rank terms.  The has_rank relation, as defined in the NCBO ontology is a meta_data relation (c.f. OWL annotation properties), which means it is intended to be ignored by any reasoner.
 
 As there is clearly an ordering among the rank terms, it would be worthwhile to define an ordering relation between terms so that the term 'family' is indicated as 'larger' or 'more inclusive' than the term 'genus.'
 
+The proposed situation is 
+
+          TTO                                TaxonRank Ontology
+
+        Cyprinidae   -------------------->  Family
+             ^             has_rank           ^
+             |                                |
+        is_a |                                |  "rank_order"
+             |                                |
+          Davario    -------------------->  Genus
+             ^             has_rank           ^
+             |                                |
+        is_a |                                | 
+             |                                |
+  Davario aequipinnatus ---------------->  Species
+                          has_rank
+
+
 There has been some question as to the nature of this ordering relation.  There appear to be two points of view:
 <ol>
-<li>A special relation exists between taxonomic ranks.  It is certainly transitive and antisymmetric.
+<li>A special relation exists between taxonomic ranks.  It would be transitive and antisymmetric.
 <li>The relation is simply part_of.  Part_of is transitive and antisymmetric.
 </ol>
 <br>
@@ -48,6 +66,7 @@ Chris Mungall's response to this question was:
   Declare the relation transitive
 
 
+== Modeling Taxa ==
 
 
 In order to resolve whether the rank ordering relation is simply part_of, it may be necessary to clarify the property 'has_rank' which is used to relate a particular taxon to its rank.  This diagram may clarify where these relations and properties fit in the taxonomic ontologies.
