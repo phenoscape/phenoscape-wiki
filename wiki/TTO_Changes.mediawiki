@@ -29,7 +29,7 @@ Notes: This update contains many subfamily assignments.  We don't currently incl
 * ''Acra'' changed so it is now a synonym of ''Bangana'' (was subgenus in CoF)
 * ''Longiculter'' no change (uncertain subfamily change)
 * ''Chalcalburnus'' obsoleted/demoted to synonym of ''Alburnus'' (as per online CoF) – no member species listed
-* ''Psilorhynchoides'' deleted/demoted to synonym of ''Psilorhynchus''
+* ''Psilorhynchoides'' obsoleted/demoted to synonym of ''Psilorhynchus''
 * ''Psilorhynchoides pseudecheneis'' changed to /demoted to synonym of ''Psilorhynchus pseudecheneis''
 * ''Psilorhynchoides arunachalensis'' changed to/demoted to synonym of ''Psilorhynchus arunachalensis''
 * ''Psilorhyncus robustus'' added as species 
