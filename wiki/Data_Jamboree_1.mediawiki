@@ -79,7 +79,6 @@ Members of the project team are in '''bold font'''.
 #Sawada, Y. 1982. Phylogeny and zoogeography of the superfamily Cobitoidea (Cyprinoidei: Cypriniformes). Mem. Fact. Fish. Hokkaido Univ. 28:65-223.
 
 *Kevin Conway
-#Conway, K. W., W-J Chen, and R. L. Mayden. 2008. The “Celestial Pearl danio” is a miniature Danio (s.s) (Ostariophysi: Cyprin- 
-idae): evidence from morphology and molecules. Zootaxa 1686:1-28
+#Conway, K. W., W-J Chen, and R. L. Mayden. 2008. The “Celestial Pearl danio” is a miniature Danio (s.s) (Ostariophysi: Cyprinidae): evidence from morphology and molecules. Zootaxa 1686:1-28
 #Conway, K. W., and R. L. Mayden. 2007. Gill Arches of Psilorhynchus (Ostariophysi: Psilorhynchidae). Copeia: 2007:267-280
 #Conway, K. W. 2005.  Monophyly of the genus Boraras (Teleostei: Cyprinidae)
