@@ -4,7 +4,7 @@ title: Main Page
 
 {{EventBox1|We have summer internship funding for graduate students and postdocs interested in gaining expertise in informatics and the application of ontologies to evolutionary, anatomical, developmental, and genetic data. See [http://www.nescent.org/about/employment.php#summer details on the NESCent employment page].}}
 
-{{EventBox1|We are hosting a [[Data_Jamboree_1||Data Jamboree]] April 18-20th at NESCent.}}
+{{EventBox1|We are hosting a [[Data_Jamboree_1|Data Jamboree]] April 18-20th at NESCent.}}
 
 {{EventBox1|Together with the National Center for Biomedical Ontologies (NCBO) we are organizing a [[Training and Workshops|Evolutionary Biology and Ontologies Workshop]], to be held in conjunction with the Evolution 2008 Meetings in Minneapolis, MN.}}
 
