@@ -69,8 +69,6 @@ Members of the project team are in '''bold font'''.
 
 ==Papers for Annotation==
 *Miles Coburn
-
- 
 #Cavender, Ted M., and Miles M. Coburn. 1992. Phylogenetic relationships of North American cyprinids. Pp. 293-327. In: Systematics, Historical Ecology, and North American Freshwater Fishes. R.L. Mayden (Ed.). Stanford University Press. Stanford, California. 969 p.
 #Bird, N.C., and P. M. Mabee. 2003. Developmental morphology of the axial skeleton of the zebrafish, Danio rerio (Ostariophysi: Cyprnidae). Dev. Dyn. 228:337-357.
 #Coburn, Miles M., and Ted M. Cavender. 1992. Interrelationships of North American cyprinid fishes. Pp. 323-378 In: Systematics, Historical Ecology, and North American Freshwater Fishes. R.L. Mayden (Ed.). Stanford University Press.            Stanford, California. 969 p.
@@ -82,3 +80,10 @@ Members of the project team are in '''bold font'''.
 #Conway, K. W., W-J Chen, and R. L. Mayden. 2008. The “Celestial Pearl danio” is a miniature Danio (s.s) (Ostariophysi: Cyprinidae): evidence from morphology and molecules. Zootaxa 1686:1-28
 #Conway, K. W., and R. L. Mayden. 2007. Gill Arches of Psilorhynchus (Ostariophysi: Psilorhynchidae). Copeia: 2007:267-280
 #Conway, K. W. 2005.  Monophyly of the genus Boraras (Teleostei: Cyprinidae)
+
+*Mario de Pinna
+#de Pinna MCC. 1996. A phylogenetic analysis of the Asian catfish families Sisoridae, Akysidae, and Amblycipitidae, with a hypothesis on the relationships of the neotropical Aspredinidae (Teleostei, Ostariophysi). Fieldiana: Zoology (New Series) 84: 1-83.
+#de Pinna MCC, Ferraris CJJ, Vari RP. 2007. A phylogenetic study of the neotropical catfish family Cetopsidae (Osteichthys, Ostariophysi, Siluriformes), with a new classification. Zoological Journal of the Linnean Society 150: 755-813.
+#de Pinna MCC. 1992. A new subfamily of Trichomycteridae (Teleostei, Siluriformes), lower loricarioid relationships and a discussion on the impact of additional taxa for phylogenetic analysis. Zoological Journal of the Linnean Society 106: 175-229.
+#de Pinna MCC, Grande T. 2003. Ontogeny of the accessory neural arch in pristigasteroid clupeomorphs and its bearing on the homology of the otophysan claustrum (Teleostei). Copeia: 838-845.
+de Pinna MCC. 1996. Teleostean monophyly Interrelationships of Fishes. New York: Academic Press. 147-162.
