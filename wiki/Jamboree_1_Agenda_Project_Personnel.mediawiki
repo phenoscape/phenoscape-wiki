@@ -19,6 +19,7 @@ title: Jamboree 1/Agenda/Project Personnel
 * 8:00 am Shuttle to NESCent – Please meet in the Millennium Hotel Lobby
 * 8:30 am  NESCent introduction (K. Smith, J. Sturkey)
 * 8:45 am Introduction to workshop
+''***Load Phenote onto participant laptops (JB)''
 ** Participant & project personnel introductions (10 min)
 ** Intro to Phenoscape and ontologies (presented by P. Mabee, 15 min)
 ** Intro to making annotations (presented by W. Dahdul, 10 min)
