@@ -86,4 +86,8 @@ Members of the project team are in '''bold font'''.
 #de Pinna MCC, Ferraris CJJ, Vari RP. 2007. A phylogenetic study of the neotropical catfish family Cetopsidae (Osteichthys, Ostariophysi, Siluriformes), with a new classification. Zoological Journal of the Linnean Society 150: 755-813.
 #de Pinna MCC. 1992. A new subfamily of Trichomycteridae (Teleostei, Siluriformes), lower loricarioid relationships and a discussion on the impact of additional taxa for phylogenetic analysis. Zoological Journal of the Linnean Society 106: 175-229.
 #de Pinna MCC, Grande T. 2003. Ontogeny of the accessory neural arch in pristigasteroid clupeomorphs and its bearing on the homology of the otophysan claustrum (Teleostei). Copeia: 838-845.
-de Pinna MCC. 1996. Teleostean monophyly Interrelationships of Fishes. New York: Academic Press. 147-162.
+#de Pinna MCC. 1996. Teleostean monophyly Interrelationships of Fishes. New York: Academic Press. 147-162.
+
+*B. Sidlauskas
+#Sidlauskas B, Vari RP. in press. Phylogenetic relationships within the South American fish family Anostomidae (Teleostei, Ostariophysi, Characiformes). Zoological Journal of the Linnean Society.
+#Vari RP, Castro RMC, Raredon SJ. 1995. The Neotropical fish family Chilodontidae (Teleostei: Characiformes): a phylogenetic study and a revision of Caenotropus Günther. Smithsonian Contributions to Zoology 577: 32.
