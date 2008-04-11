@@ -13,8 +13,9 @@ This is an overview of the possible actions for each change.
 * Genus obsoleted
 * Genus moved
 
-* Species created
-* Species changed to/synonym of
+* '''Species created''' A new TTO term, is created, which should have a dbxref referring to the publication or a (new) CASSPC identifier.
+* '''Species changed to/added as synonym of''' The TTO term and id are retained; the name is changed to the new name, the old name is added as a synonym.  The is_a relation for the species is updated to the new genus. The synonym should have a dbxref refering to the publication.  This is the default when the containing genus changes.
+* '''Species obsoleted/added as synonym of ''' The term is obsoleted, the old name is added as a synonym of the new name.  The CASSPC or other dbxref of the old term should be added to the synonym.  This is the default when species are merged.
 
 =Changes resulting from invited update (April 2008) of Mayden and Conway=
 
