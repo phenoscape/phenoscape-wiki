@@ -3,7 +3,18 @@ title: TTO Changes
 ---
 
 =Notes to the Reader=
-TBD
+
+This is an overview of the possible actions for each change.
+
+* Family created
+* Family obsoleted
+
+* Genus created
+* Genus obsoleted
+* Genus moved
+
+* Species created
+* Species changed to/synonym of
 
 =Changes resulting from invited update (April 2008) of Mayden and Conway=
 
