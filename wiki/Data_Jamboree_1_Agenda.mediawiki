@@ -5,7 +5,8 @@ title: Data Jamboree 1/Agenda
 ==Thursday, April 17==
 ''Travel day for jamboree participants''
 
-Jamboree preparation...
+* 8:30 am Shuttle to NESCent for project members – Please meet in the Millennium Hotel Lobby
+* 9:00 am Jamboree preparation...
 
 ==Friday, April 18==
 
@@ -23,6 +24,9 @@ Jamboree preparation...
 * 3:00 pm '''''Coffee break'''''
 * 3:30 pm Working session on individual data and group discussion
 * 5:00 pm End of the day's session
+* 5:00 pm Shuttle to Millennium Hotel - ''optional''
+* 6:15 pm Shuttle to NESCent – Please meet in the Millennium Hotel Lobby
+* 6:30 pm Group dinner at a local restaurant
 
 ==Saturday, April 19==
 
@@ -35,6 +39,9 @@ Jamboree preparation...
 * 3:00 pm '''''Coffee break'''''
 * 3:30 pm Working session
 * 5:00 pm End of the day's session
+* 5:00 pm Shuttle to Millennium Hotel - ''optional''
+* 6:15 pm Shuttle to NESCent – Please meet in the Millennium Hotel Lobby
+* 6:30 pm Group dinner at a local restaurant
 
 ==Sunday, April 20==
 
@@ -47,5 +54,7 @@ Jamboree preparation...
 
 ==Monday, April 21==
 
-[[Category:Data Jamboree 1]]
+* 8:00 am Shuttle to NESCent for project members – Please meet in the Millennium Hotel Lobby
 * 8:30 am Project meeting
+
+[[Category:Data Jamboree 1]]
