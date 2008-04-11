@@ -6,14 +6,16 @@ title: TTO Changes
 
 This is an overview of the possible actions for each change.
 
-* Family created
-* Family obsoleted
+Note: Obsoleting a term means it is no longer available for use and does not appear in the main hierarchy of the TTO.  Phenoscape needs to retain the name and term id so that annotations to the term do not break.
 
-* Genus created
-* Genus obsoleted
-* Genus moved
+* '''Family created''' A new TTO term is created, which should have a dbxref referring to the publication or some CoF derived identifier.
+* '''Family obsoleted''' The TTO term and id are obsoleted. Genera are moved to a new family or a higher taxon. 
 
-* '''Species created''' A new TTO term, is created, which should have a dbxref referring to the publication or a (new) CASSPC identifier.
+* '''Genus created''' A new TTO term is created, which should have a dbxref referring to the publication or a (new) CASGEN identifier
+* '''Genus obsoleted''' The TTO term and id are obsoleted.  Any species under this genus are changed to the new genus.
+* '''Genus moved''' The existing genus has its is_a relation changed to point to the new family or higher taxon.
+
+* '''Species created''' A new TTO term is created, which should have a dbxref referring to the publication or a (new) CASSPC identifier.
 * '''Species changed to/added as synonym of''' The TTO term and id are retained; the name is changed to the new name, the old name is added as a synonym.  The is_a relation for the species is updated to the new genus. The synonym should have a dbxref refering to the publication.  This is the default when the containing genus changes.
 * '''Species obsoleted/added as synonym of ''' The term is obsoleted, the old name is added as a synonym of the new name.  The CASSPC or other dbxref of the old term should be added to the synonym.  This is the default when species are merged.
 
