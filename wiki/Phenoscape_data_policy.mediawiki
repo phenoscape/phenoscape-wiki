@@ -1,0 +1,13 @@
+---
+title: Phenoscape data policy
+---
+
+This is a draft of the Phenoscape Data Policy, which applies to both submitters and users. 
+
+''Contributions to Phenoscape are predominantly (exclusively?) based on data reported in the published literature.  The copyright to the original publication remains with the original owner.  However, that copyright ownership does not extend to the representation of that data within Phenoscape under current United States copyright law.  By depositing data in Phenoscape, you are agreeing to allow use of the data according to the terms of a Creative Commons Attribution 3.0 Unported license [http://creativecommons.org/licenses/by/3.0].  This license lets others distribute, reuse, and derive works from the data for commercial or non-commercial uses provided that appropriate attribution is given.  Appropriate attribution is taken to be citation of the original paper from which the data was derived, as well as a citation to [Phenoscape or the individual data record?]  All contributions to Phenoscape will retain the identity of the data depositor, but no specific credit of the depositor is required.''
+
+===Issues===
+* Does unpublished data require a modified policy?
+* Should we require citation of Phenoscape, or a data record, or neither?
+* Does attribution of the original paper, but not the depositor, disincentivize our depositors?
+* Since copyright does not pertain to data, we would be using the CC license here as a set of normative, non-legally-bnding, guidelines.  Does anyone object to that?
