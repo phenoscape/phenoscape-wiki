@@ -24,7 +24,7 @@ Note: Obsoleting a term means it is no longer available for use and does not app
 Notes: This update contains many subfamily assignments.  We don't currently include subfamilies in the TTO, but the update file will be retained in case this policy changes.
 
 * ''Paracanthocobitis'' added as synonym to ''Acanthocobitis''
-* ''Botiidae'' added as family
+* Botiidae added as family
 * ''Botia'' moved to family Botiidae
 * ''Chromobotia'' moved to family Botiidae
 * ''Leptobotia'' moved to family Botiidae
