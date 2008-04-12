@@ -4,7 +4,17 @@ title: TTO Changes
 
 =Notes to the Reader=
 
-This is an overview of the possible actions for each change.
+=== Abbreviations ===
+
+CASGEN - California Academy of Sciences, Catalog of Fishes (CoF), Genera Database
+
+CASSPC - California Academy of Sciencies, Catalog of Fishes (CoF), Species Database
+
+CoF - William Eschmeyer's [http://research.calacademy.org/research/ichthyology/catalog/index.html Catalog of Fishes]
+
+TTO - [http://phenoscape.org/wiki/Taxonomy_ontology Teleost Taxonomy Ontology]
+
+=== Possible actions for each change ===
 
 Note: Obsoleting a term means it is no longer available for use and does not appear in the main hierarchy of the TTO.  Phenoscape needs to retain the name and term id so that annotations to the term do not break.
 
