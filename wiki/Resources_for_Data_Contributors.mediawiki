@@ -140,7 +140,7 @@ For the characters that relate the length of one bone to another, ratios are use
 
 E1: Infraorbital 2, Q: increased length, , E2 : Infraorbital 1, Measurement:  >2, Unit: ratio
 
-E1: Infraorbital 2, Q: increased length, , E2 : Infraorbital 1, Measurement:  >2, Unit: ratio
+E1: Infraorbital 2, Q: decreased length, , E2 : Infraorbital 1, Measurement:  <2, Unit: ratio
 
 ==Ontology change requests==
 
