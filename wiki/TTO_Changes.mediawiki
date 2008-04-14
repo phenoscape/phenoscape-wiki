@@ -42,7 +42,7 @@ Notes: This update contains many subfamily assignments.  We don't currently incl
 * ''Sinibotia'' moved to family Botiidae
 * ''Syncrossus'' moved to family Botiidae
 * ''Yasuhikotakia'' moved to family Botiidae
-* ''Bibarba'' added as genus (Chen and Chen 2007)
+* ''Bibarba'' added as genus (Chen & Chen 2007)
 * ''Erythroculter'' no change (unpublished suggestion to demote to synonym of Chandoichthys)
 * ''Akrokolioplax'' no change (already in CoF CASGEN:10888)
 * ''Henicorhynchus'' obsoleted/demoted to synonym of ''Bangana'' (Smith 1945)
@@ -52,12 +52,12 @@ Notes: This update contains many subfamily assignments.  We don't currently incl
 * ''Henicorhynchus ornatipinnis'' changed to/added as synonym of ''Bangana ornatipinnis''
 * ''Acra'' changed so it is now a synonym of ''Bangana'' (was subgenus in CoF)
 * ''Longiculter'' no change (uncertain subfamily change)
-* ''Chalcalburnus'' obsoleted/demoted to synonym of ''Alburnus'' (as per online CoF) – no member species listed
-* ''Psilorhynchoides'' obsoleted/demoted to synonym of ''Psilorhynchus''
+* ''Chalcalburnus'' obsoleted/demoted to synonym of ''Alburnus'' (as per online CoF) - member species pending TTO revision
+* ''Psilorhynchoides'' obsoleted/demoted to synonym of ''Psilorhynchus'' (Conway & Kottelat 2007)
 * ''Psilorhynchoides pseudecheneis'' changed to /demoted to synonym of ''Psilorhynchus pseudecheneis''
 * ''Psilorhynchoides arunachalensis'' changed to/demoted to synonym of ''Psilorhynchus arunachalensis''
-* ''Psilorhyncus robustus'' added as species 
-* ''Celesteichthys'' obsoleted/demoted to synonym of Danio
+* ''Psilorhyncus robustus'' added as species (Conway & Kottelat 2007)
+* ''Celesteichthys'' obsoleted/demoted to synonym of Danio (Roberts 2007)
 * ''Celesteichthys margaritatus'' changed to/added as synonym of ''Danio margaritatus''
 * ''Bengala'' demoted to synonym of ''Megarasbora''
 * ''Bengala elanga'' changed to/demoted to synonym of ''Megarasbora elanga''
