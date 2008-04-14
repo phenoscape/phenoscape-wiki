@@ -42,7 +42,8 @@ Notes: This update contains many subfamily assignments.  We don't currently incl
 * ''Sinibotia'' moved to family Botiidae
 * ''Syncrossus'' moved to family Botiidae
 * ''Yasuhikotakia'' moved to family Botiidae
-* ''Bibarba'' added as genus (Chen & Chen 2007)
+* ''Bibarba'' added as genus to family Cobitidae (Chen & Chen 2007)
+* ''Bibarba bibarba'' added as species (Chen & Chen 2007)
 * ''Erythroculter'' no change (unpublished suggestion to demote to synonym of Chandoichthys)
 * ''Akrokolioplax'' no change (already in CoF CASGEN:10888)
 * ''Henicorhynchus'' obsoleted/demoted to synonym of ''Bangana'' (Smith 1945)
@@ -68,7 +69,7 @@ Notes: This update contains many subfamily assignments.  We don't currently incl
 * ''Caucus'' – appears as cypriniform in online CoF, but was not in CAS species table so never added to TTO; after consultation recommendation was to remove/not add; no change. 
 * ''Oreodaimon'' – appears as synonym to Pseudolabrus in online CoF, no change.
 * ''Orthrias barbatulus zetensis'' no change (already demoted in CoF) 
-* ''Schistura cryptofasciata'' no change (already in CoF)
+* ''Schistura cryptofasciata'' no change (already in CoF; CASSPC 68781)
 * ''Notropis harperi'' changed to/demoted to synonym of ''Pteronotropis harperi''
 * ''Microrasbora micropthalma'' added as species
 * ''Araiocypris'' added as genus to Cyprinidae
