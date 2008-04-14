@@ -16,7 +16,7 @@ TTO - [http://phenoscape.org/wiki/Taxonomy_ontology Teleost Taxonomy Ontology]
 
 === Possible actions for each change ===
 
-Note: Obsoleting a term means it is no longer available for use and does not appear in the main hierarchy of the TTO.  Phenoscape needs to retain the name and term id so that annotations to the term do not break.
+Note: Obsoleting a term means it is no longer available for use and does not appear in the main hierarchy of the TTO.  Phenoscape needs to retain the name and term id so that prior annotations to the term do not break.
 
 * '''Family added''' A new TTO term is created, which should have a dbxref referring to the publication or some CoF derived identifier.
 * '''Family obsoleted''' The TTO term and id are obsoleted. Genera are moved to a new family or a higher taxon. 
