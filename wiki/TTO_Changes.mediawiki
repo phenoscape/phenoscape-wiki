@@ -33,8 +33,8 @@ Note: Obsoleting a term means it is no longer available for use and does not app
 
 Notes: This update contains many subfamily assignments.  We don't currently include subfamilies in the TTO, but the update file will be retained in case this policy changes.
 
-* ''Paracanthocobitis'' added as synonym to ''Acanthocobitis''
-* Botiidae added as family
+* ''Paracanthocobitis'' added as synonym to ''Acanthocobitis'' (Grant 2007)
+* Botiidae added as family (citation pending)
 * ''Botia'' moved to family Botiidae
 * ''Chromobotia'' moved to family Botiidae
 * ''Leptobotia'' moved to family Botiidae
@@ -42,9 +42,9 @@ Notes: This update contains many subfamily assignments.  We don't currently incl
 * ''Sinibotia'' moved to family Botiidae
 * ''Syncrossus'' moved to family Botiidae
 * ''Yasuhikotakia'' moved to family Botiidae
-* ''Bibarba'' added as genus
+* ''Bibarba'' added as genus (Chen and Chen 2007)
 * ''Erythroculter'' no change (unpublished suggestion to demote to synonym of Chandoichthys)
-* ''Akrokolioplax'' no change (already in CoF)
+* ''Akrokolioplax'' no change (already in CoF CASGEN:10888)
 * ''Henicorhynchus'' obsoleted/demoted to synonym of ''Bangana''
 * ''Henicorhynchus lobatus'' changed to/added as synonym of ''Bangana lobatus''
 * ''Henicorhynchus siamensis'' changed to/added as synonym of ''Bangana siamensis''
