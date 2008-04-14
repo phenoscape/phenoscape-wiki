@@ -71,6 +71,6 @@ Notes: This update contains many subfamily assignments.  We don't currently incl
 * ''Orthrias barbatulus zetensis'' no change (already demoted in CoF) 
 * ''Schistura cryptofasciata'' no change (already in CoF; CASSPC 68781)
 * ''Notropis harperi'' changed to/demoted to synonym of ''Pteronotropis harperi''
-* ''Microrasbora micropthalma'' added as species
+* ''Microrasbora micropthalma'' added as species (Jiang, Chen & Yang 2008)
 * ''Araiocypris'' added as genus to Cyprinidae
-* ''Araiocypris batodes'' added as species
+* ''Araiocypris batodes'' added as species (Conway & Kottelat 2008)
