@@ -45,7 +45,7 @@ Notes: This update contains many subfamily assignments.  We don't currently incl
 * ''Bibarba'' added as genus (Chen and Chen 2007)
 * ''Erythroculter'' no change (unpublished suggestion to demote to synonym of Chandoichthys)
 * ''Akrokolioplax'' no change (already in CoF CASGEN:10888)
-* ''Henicorhynchus'' obsoleted/demoted to synonym of ''Bangana''
+* ''Henicorhynchus'' obsoleted/demoted to synonym of ''Bangana'' (Smith 1945)
 * ''Henicorhynchus lobatus'' changed to/added as synonym of ''Bangana lobatus''
 * ''Henicorhynchus siamensis'' changed to/added as synonym of ''Bangana siamensis''
 * ''Henicorhynchus lineatus'' changed to/added as synonym of ''Bangana lineatus''
