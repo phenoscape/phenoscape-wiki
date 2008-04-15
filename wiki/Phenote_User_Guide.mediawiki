@@ -17,3 +17,5 @@ title: Phenote User Guide
 ===Phylogeny Chooser===
 
 ===Scratch Lists===
+
+==Troubleshooting problems
