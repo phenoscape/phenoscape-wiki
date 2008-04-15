@@ -18,4 +18,6 @@ title: Phenote User Guide
 
 ===Scratch Lists===
 
-==Troubleshooting problems
+==Troubleshooting problems==
+
+[[Informatics]] [[Help]]
