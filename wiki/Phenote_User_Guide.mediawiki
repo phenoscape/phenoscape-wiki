@@ -20,4 +20,4 @@ title: Phenote User Guide
 
 ==Troubleshooting problems==
 
-[[Informatics]] [[Help]]
+[[Category:Informatics]] [[Category:Help]]
