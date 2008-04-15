@@ -1,0 +1,19 @@
+---
+title: Phenote User Guide
+---
+
+==Installation==
+
+==Using the docking interface==
+
+==Working with files==
+
+==Using Phenote components==
+
+===Annotation Table===
+
+===Taxon List===
+
+===Phylogeny Chooser===
+
+===Scratch Lists===
