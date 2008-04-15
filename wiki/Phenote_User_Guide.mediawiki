@@ -10,13 +10,19 @@ title: Phenote User Guide
 
 ==Using Phenote components==
 
+===Annotation Editor===
+
+===Term Info Browser===
+
 ===Annotation Table===
 
-===Taxon List===
+===Taxon List and Specimens===
 
 ===Phylogeny Chooser===
 
 ===Scratch Lists===
+
+===Complete Ontology Tree View===
 
 ==Troubleshooting problems==
 
