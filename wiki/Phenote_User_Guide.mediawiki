@@ -3,7 +3,7 @@ title: Phenote User Guide
 ---
 
 ==System requirements==
-Phenote runs on most modern platforms, but requires Java 1.5 (aka Java 5) or later.  An appropriate Java is pre-installed with Mac OS X 10.4 or newer (Phenote cannot run on Mac OS X 10.3).  For Windows, you can download the latest Java from http://www.java.com/.  If you're running Linux, please consult your system documentation.
+Phenote runs on most modern platforms, but requires Java 1.5 (aka Java 5) or later.  An appropriate Java is pre-installed with Mac OS X 10.4 or newer (Phenote cannot run on Mac OS X 10.3).  For Windows, you can download the latest Java from http://www.java.com/.  If you're running Linux, please consult your system documentation for how to get Java.
 
 ==Installation==
 Phenote can be downloaded from the [http://sourceforge.net/project/showfiles.php?group_id=76834&package_id=270424 OBO Sourceforge project site].  There are separate downloads available for Mac and Windows, as well as a download of the application source code.  Download the appropriate zip file for your platform.
