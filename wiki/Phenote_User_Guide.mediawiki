@@ -3,6 +3,7 @@ title: Phenote User Guide
 ---
 
 ==Installation==
+Phenote can be downloaded from the [http://sourceforge.net/project/showfiles.php?group_id=76834&package_id=270424 OBO Sourceforge project site].
 
 ==Using the docking interface==
 
