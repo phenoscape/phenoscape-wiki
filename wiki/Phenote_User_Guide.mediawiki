@@ -48,6 +48,7 @@ Some autocomplete fields are followed by a "Comp" button.  Press this button to 
 The term info component displays detailed information about ontology terms as they are selected elsewhere in the interface.  You can view the term's definition, synonyms, relationships to parent and child terms, and several other properties.  Parent and child terms are displayed as hyperlinks which can be clicked to display information about those terms in the info component.
 
 ===Annotation Table===
+This is the data table containing the phenotype annotations stored in your main data file.  Add, delete, and duplicate rows (phenotype annotations) using the toolbar buttons above the table.  Select a row to edit its values in the [[#Annotation Editor component]].  You may need to click the title tab of the Annotation Table for the Annotation Editor to display the appropriate entry fields.  You can select multiple rows in order to enter the same value in a field for them all simultaneously (bulk editing).  Individual values can also be edited directly in the table by double-clicking the cell.  However, fields containing lists of values cannot be edited within the table.
 
 ===Taxon List and Specimens===
 
