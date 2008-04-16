@@ -54,6 +54,8 @@ The rows visible in the table can be filtered using the search field at the bott
 
 ===Taxon List and Specimens===
 Both of these tables behave in much the same way as the [[#Annotation Table|main annotation table]].  However, they also have some specialized features.
+====Taxon List====
+====Specimens====
 
 ===Phylogeny Chooser===
 
