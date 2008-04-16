@@ -7,6 +7,8 @@ title: Jamboree 1/Agenda/Project Personnel
 
 * 8:30 am Shuttle to NESCent for project members – Please meet in the Millennium Hotel Lobby
 * 9:00 am Jamboree preparation:
+** ''complete taxon lists and tree files''
+**'' add remaining term requests from TAO tracker''
 **''practice opening talks and group exercise (PM, WD)''
 **''print-out or photocopy papers for annotation (2 copies of each)''
 **''assemble participant folders''
