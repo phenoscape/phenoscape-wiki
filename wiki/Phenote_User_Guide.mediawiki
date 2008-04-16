@@ -59,5 +59,5 @@ The term info component displays detailed information about ontology terms as th
 
 ==Troubleshooting problems==
 ===Accessing Phenote configuration and logs===
-===Common issues===
+===Known issues===
 [[Category:Informatics]] [[Category:Help]]
