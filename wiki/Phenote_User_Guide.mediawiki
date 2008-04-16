@@ -13,8 +13,11 @@ Phenote can be downloaded from the [http://sourceforge.net/project/showfiles.php
 The first time you launch Phenote you will be presented with a window from which you can choose a configuration.  Select "phenoscape" and press OK.  This window can be accessed any time via the ''Settings > Set Configuration...'' menu item.  You will also likely be presented with the ontology update window.  Choose "Update All" and continue.  Once Phenote has finished starting up, choose the Phenoscape interface layout via the ''View > Layouts > Phenoscape'' menu item.
 
 ==Using the docking interface==
+===Docking components===
 Phenote's interface consists of "docking" components which can be arranged into any layout the user prefers.  A default layout for Phenoscape can be accessed via the menu item ''View > Layouts > Phenoscape''.  Each component can be minimized or closed using the window-like controls in its title tab.  Pressing the arrow in a title tab will pop out a component into its own floating window.  Pressing the arrow in the floating component's title tab will return it to the main window.  Components can be grouped together in tab groups, where only one of the tabbed components is shown at a time.  Click on a title tab to bring a component to the front.  If there is not enough space, all tabs in a tab group may not be visible.  In this case, left and right arrows will appear in the control tab for that group, which can be used to cycle through the components.  Alternatively the downward pointing arrow can be used to display a selectable menu of the tabbed components.
-
+===Locking the interface layout===
+The docking layout can be "locked" so that you don't accidentally rearrange your components (annoyingly easy to do).  Choose the ''Settings > Lock Docking Components'' menu item.
+===Displaying specific components===
 Components that are not currently displayed can be accessed through the ''View > Show'' menu.  Components are grouped into functional collection submenus.  Some components can be opened repeatedly to display multiple instances (e.g. Complete Ontology Tree View), while others will only display a single instance (e.g. Annotation Editor).
 
 ==Working with files==
