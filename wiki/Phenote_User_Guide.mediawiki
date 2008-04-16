@@ -2,7 +2,7 @@
 title: Phenote User Guide
 ---
 
-This guide covers the use of Phenote specifically for the Phenoscape configuration.
+This guide covers the use of Phenote specifically for the Phenoscape configuration.  While it covers all aspects of using Phenote, other general documentation can also be found at the [http://www.phenote.org/help.shtml Phenote website].
 
 ==System requirements==
 Phenote runs on most modern platforms, but requires Java 1.5 (aka Java 5) or later.  An appropriate Java is pre-installed with Mac OS X 10.4 or newer (Phenote cannot run on Mac OS X 10.3).  For Windows, you can download the latest Java from http://www.java.com/.  If you're running Linux, please consult your system documentation for how to get Java.
