@@ -66,4 +66,6 @@ Both of these tables behave in much the same way as the [[#Annotation Table|main
 ==Troubleshooting problems==
 ===Accessing Phenote configuration and logs===
 ===Known issues===
+* Phenote will not launch without a live internet connection.  This is a bug in the ontology updating feature.
+* Phenote will not launch if it attempts to load an ontology which contains a file error.  This is a bug in Phenote's ontology loading code.  If an ontology maintainer posts a faulty ontology to the web repository, Phenote will fail the next time it updates that ontology.  Report the error to the maintainer of the broken ontology.
 [[Category:Informatics]] [[Category:Help]]
