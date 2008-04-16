@@ -18,9 +18,7 @@ title: Software roadmap
 * '''[complete]''' Make DAG view work browsing entire ontology, with drag-and-drop to fields.
 * '''[complete]''' Allow user to edit field values directly in the table (especially for Specimen list).
 * '''[complete]''' Allow user to create multiple, temporary annotation template lists while editing.  ''Not savable with current file format, however''
-* Include two preset docking interface configurations: taxon list editing and annotation editing
-
-
+* '''[complete]''' Include preset docking interface configuration for Phenoscape
 
 ===Post-Data Jamboree revision -- May 2008===
 * move to OBO-annotations data model [http://wiki.geneontology.org/index.php/OBO:_1.3_Whiteboard]
