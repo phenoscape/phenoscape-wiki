@@ -12,6 +12,7 @@ Phenote can be downloaded from the [http://sourceforge.net/project/showfiles.php
 * '''Linux/Unix:''' ''forthcoming''
 
 ==Using the docking interface==
+Phenote's interface consists of "docking" components which can be dragged into any layout the user prefers.  A default layout for Phenoscape can be accessed via the menu item ''View > Layouts > Phenoscape''.
 
 ==Working with files==
 
