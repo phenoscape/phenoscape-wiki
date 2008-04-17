@@ -72,8 +72,8 @@ If you change the name of a scratch list while its table is open, the table comp
 ==Troubleshooting problems==
 ===Accessing Phenote configuration and logs===
 The Phenote settings folder contains your chosen configuration, cached ontology files, interface layouts, and log files.  Its location is platform-dependent:
-* '''Mac/Linux/Unix'''
-* '''Windows'''
+* '''Mac/Linux/Unix:''' A folder named ".phenote" within your user home directory.  Because its name begins with a ".", this folder is typically invisible and must be accessed via the terminal interface.
+* '''Windows:'''
 
 ===Known issues===
 * Phenote will not launch without a live internet connection.  This is a bug in the ontology updating feature.  Hie thee to the nearest coffee shop.
