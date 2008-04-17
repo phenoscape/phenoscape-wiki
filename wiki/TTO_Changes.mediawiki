@@ -81,3 +81,10 @@ Notes: This update contains many subfamily assignments.  We don't currently incl
 =Changes resulting from publication de Pinna and Grande (2003)=
 * ''Osteoglossum sp.'' (de Pinna and Grande 2003)
 * ''Elops sp.'' (de Pinna and Grande 2003)
+
+=Changes resulting from publication Conway et al. (2008)=
+
+
+* ''Oxygaster hypophthalmus'' added as synonym of ''Parachela hypophthalmus''
+* ''Rasboroides vaterifloris'' added as synonym of ''Rasbora vaterifloris''
+* ''Devario cf. aequipinnatus'' added as  (Conway et al. 2008)
