@@ -40,19 +40,19 @@ Note that “presence” is the parent term for absent and present, and should n
 ===Characters using monadic qualities===
 Monadic qualities are those that exist in a single entity, such as shape, and do not require another entity.  For example, annotation of “sigmoid-shaped supraorbital bone” is entered as:
 
-E: supraorbital, Q: sigmoid
+ E: supraorbital, Q: sigmoid
 
 ===Characters using relational qualities===
 Relational qualities are those that exist in an entity but require an additional entity in order to exist.  For example, annotation of “parietal fused with supraoccipital” is entered as:
 
-E: parietal, Q: fused with, AE: supraoccipital
+ E: parietal, Q: fused with, AE: supraoccipital
 
 ===Meristic data===
 Characters involving counts of entities are annotated using the “count” quality.  Values for counts are entered in the “count” field.  Note that ranges and lower or upper bounds can be recorded:
 	
-	E: vertebra, Q: count, C: 33 
-	E: vertebra, Q: count, C: 34-38
-	E: vertebra, Q: count, C: >38 
+ E: vertebra, Q: count, C: 33 
+ E: vertebra, Q: count, C: 34-38
+ E: vertebra, Q: count, C: >38 
 
 Could say here: Relationships across taxa between individual entities in a meristic series (e.g. vertebra 4 in a zebrafish vs. vertebra 4 in an eel), are not necessarily homologous.  These can be handled in several ways, and we will discuss them here. 
 
@@ -63,7 +63,7 @@ To post-compose the entity “branched dorsal-fin ray”, type “dorsal fin ray
 UPDATE SCREENSHOT
 
 The post-composed term appears as 
-E: dorsal fin lepidotrichium ^has_quality(branched)
+ E: dorsal fin lepidotrichium ^has_quality(branched)
 
 ===Post-composition using spatial terms===
 The Spatial Ontology is used to post-compose terms related to bone margins, surfaces, or regions.  For example, the character “anterior margin of frontal bone serrate” is post-composed as follows:
@@ -76,8 +76,8 @@ anatomical margin^has_position(anterior)^part_of(frontal bone)
 ===Size qualities===
 Because size qualities are monadic terms, comparison of size of one bone relative to another requires post-composition of the size quality.  For example, the character “frontal length greater than parietal length” is entered as:
 
-E: frontal 
-Q*: increased length, relative_to partietal
+ E: frontal 
+ Q*: increased length, relative_to partietal
 		
 *To post-compose the size quality, type ‘increased length’ in the quality field and click “comp” button. Select ‘relative_to’ in the relationship field and type ‘parietal’ in the differentia field.  click OK.
 
@@ -85,8 +85,7 @@ Q*: increased length, relative_to partietal
 For the characters in which a proportion or ratio is given in relating the length of one bone to another, the value of ratio is recorded. For example: 
 Length of infraorbital 2: (0) over twice as long as infraorbital 1; (1) less than twice as long as infraorbital 1. This would be indicated in Phenote as follows:
 
-E: infraorbital 2, Q*: increased length, relative_to: infraorbital 1, Measurement: >2, Unit: ratio
-
-E1: Infraorbital 2, Q*: decreased length, relative_to: infraorbital 1, Measurement: <2, Unit: ratio
-
-*post-composition
+ E: infraorbital 2, Q*: increased length, relative_to: infraorbital 1, Measurement: >2, Unit: ratio
+ E1: Infraorbital 2, Q*: decreased length, relative_to: infraorbital 1, Measurement: <2, Unit: ratio
+ 
+ *post-composition
