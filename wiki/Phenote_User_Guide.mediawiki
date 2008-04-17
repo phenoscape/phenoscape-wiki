@@ -55,6 +55,8 @@ The rows visible in the table can be filtered using the search field at the bott
 ===Taxon List and Specimens===
 Both of these tables behave in much the same way as the [[#Annotation Table|main annotation table]].  However, they also have some specialized features.
 ====Taxon List====
+You can enter the list of taxa described in a publication into the Taxon List table.  You can pick taxa from this table in order to annotate their phenotypes.  Select a taxon by using the checkbox on its row.  All the checked taxa can be copied into the main Annotation Table by pressing the Generate Characters button in the component's toolbar.  Since all the copied rows will be selected in the Annotation Table, you can apply the same phenotype to them using the bulk editing features of the [[#Annotation Editor|Annotation Editor]] component.
+
 ====Specimens====
 
 ===Phylogeny Chooser===
