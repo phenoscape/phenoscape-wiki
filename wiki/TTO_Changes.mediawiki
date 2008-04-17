@@ -87,4 +87,4 @@ Notes: This update contains many subfamily assignments.  We don't currently incl
 
 * ''Oxygaster hypophthalmus'' added as synonym of ''Parachela hypophthalmus''
 * ''Rasboroides vaterifloris'' added as synonym of ''Rasbora vaterifloris''
-* ''Devario cf. aequipinnatus'' added as  (Conway et al. 2008)
+* ''Devario cf. aequipinnatus'' added as species
