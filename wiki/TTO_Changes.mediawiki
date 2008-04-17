@@ -79,8 +79,8 @@ Notes: This update contains many subfamily assignments.  We don't currently incl
 * ''Rasbora cf. bankanensis'' added as species (Conway 2005)
 
 =Changes resulting from publication de Pinna and Grande (2003)=
-* ''Osteoglossum sp.'' (de Pinna and Grande 2003)
-* ''Elops sp.'' (de Pinna and Grande 2003)
+* ''Osteoglossum sp.'' added as species
+* ''Elops sp.'' added as species
 
 =Changes resulting from publication Conway et al. (2008)=
 
