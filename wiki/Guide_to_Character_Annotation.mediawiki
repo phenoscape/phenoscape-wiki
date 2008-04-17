@@ -32,8 +32,9 @@ The NAS evidence code should be used in all cases where the author makes a state
 The following are examples of character types commonly enountered in the systematic literature and how we annotate them using the EQ model in Phenote.  Abbreviations: E, entity; Q, quality, AE, additional entity, C, count.
 
 ===Presence/absence characters===
-E: pectoral fin, Q: present
-E: pectoral fin, Q: absent
+ E: pectoral fin, Q: present
+ E: pectoral fin, Q: absent
+
 Note that “presence” is the parent term for absent and present, and should not be used in annotations. 
 
 ===Characters using monadic qualities===
