@@ -61,6 +61,7 @@ You can enter the list of taxa described in a publication into the Taxon List ta
 The Specimens table displays the list of specimens entered for the taxon currently selected in the Taxon List.  Unlike other tables, the Specimens table does not use the [[#Annotation Editor|Annotation Editor]]; all editing is done directly in the table.  This allows you to work with the Taxon List and Specimens table simultaneously without repeatedly updating which table is being modified by the editor component.
 
 ===Phylogeny Chooser===
+''forthcoming''
 
 ===Scratch Lists===
 The Scratch Lists component lets you create temporary annotation tables in which you can create template annotations (usually, only partially filled in).  These template annotations can be dragged onto the [[#Annotation Table|main annotation table]] to start new phenotype annotations.  Use the toolbar buttons to create and delete scratch list tables.  You can double-click table cells to name a list anything you want.  Select a scratch list name and press the table button in the Scratch Lists toolbar to display the annotation table for that list.
