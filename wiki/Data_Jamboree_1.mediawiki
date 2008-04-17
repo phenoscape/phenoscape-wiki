@@ -26,6 +26,15 @@ Finally, the workshop will also provide a very interesting opportunity to brains
  
 The Jamboree will start in the morning (~9am) on Friday, April 18, and continue through noon on Sunday, April 20. Non-project participants will arrive on Thursday, April 17, and depart in the afternoon of April 20.
 
+
+==Documents==
+
+[https://webdav.nescent.org/phenoscape-data/Guide%20to%20Character%20Annotation.doc  Character annotation]
+
+[https://webdav.nescent.org/phenoscape-data/TaxonList_rev.doc Entering a taxon list]
+
+[https://webdav.nescent.org/phenoscape-data/group-exercise.doc Group exercise instructions]
+
 ==Logistics==
 
 * For long-distance participants, the hotel is the [http://www.millenniumhotels.com/MCIL.nsf/LU_HOTELDOC/113$$HotelDescription?OpenDocument Millennium Hotel] (2800 Campus Walk Ave, Durham, NC  27705; tel. (919) 383-8575)
