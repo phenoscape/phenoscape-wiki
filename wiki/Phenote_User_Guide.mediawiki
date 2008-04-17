@@ -44,7 +44,7 @@ Some autocomplete fields are configured to choose terms from more than one ontol
 
 Some autocomplete fields are followed by a "Comp" button.  Press this button to open the post-composition dialog, in which you can create a more specific ontology term by creating relationships to existing terms using the genus-differentia method.
 
-Two additional types of fields are the list field and the pick list field.  The list field displays an uneditable list of values in its text box.  Edit the values by using the corresponding annotation table (e.g. the [[#Specimens|Specimens table]]).  Click the "Edit" button next to the field to choose from a list of values.
+Two additional types of fields are the list field and the pick list field.  A list field displays an uneditable list of values in its text box.  Edit the values by using the corresponding annotation table (e.g. the [[#Specimens|Specimens table]]).  A pick list field is similar to a list field, but its values are chosen by clicking the "Edit" button next to the field to choose from values entered into another list field.  For example, the "Voucher(s)" field is configured to pick from values entered into the "Specimens" list field.
 
 ===Term Info Browser===
 The term info component displays detailed information about ontology terms as they are selected elsewhere in the interface.  You can view the term's definition, synonyms, relationships to parent and child terms, and several other properties.  Parent and child terms are displayed as hyperlinks which can be clicked to display information about those terms in the info component.
