@@ -78,8 +78,8 @@ Because size qualities are monadic terms, comparison of size of one bone relativ
 
  E: frontal 
  Q*: increased length, relative_to partietal
-		
-*To post-compose the size quality, type ‘increased length’ in the quality field and click “comp” button. Select ‘relative_to’ in the relationship field and type ‘parietal’ in the differentia field.  click OK.
+ 		
+ *To post-compose the size quality, type ‘increased length’ in the quality field and click “comp” button. Select ‘relative_to’ in the relationship field and type ‘parietal’ in the differentia field.  click OK.
 
 ===Size qualities with ratio===
 For the characters in which a proportion or ratio is given in relating the length of one bone to another, the value of ratio is recorded. For example: 
