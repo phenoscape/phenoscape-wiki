@@ -48,7 +48,6 @@ Members of the project team are in '''bold font'''.
 |-
 ! Name !! Institution
 {{EventParticipant|Balhoff|Jim|balhoff%40nescent%2eorg|NESCent|'''}}
-{{EventParticipant|Bemis|Willy|web24%40cornell%2eedu|Cornell University|}}
 {{EventParticipant|Coburn|Miles|coburn%40jcu%2eedu|John Carroll University|}}
 {{EventParticipant|Conway|Kevin|conwaykw%40gmail%2ecom|St. Louis University|}}
 {{EventParticipant|Dahdul|Wasila|dahdul%40acnatsci%2eorg|Department of Ichthyology, Academy of Natural Sciences|'''}}
