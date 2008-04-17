@@ -70,6 +70,8 @@ The post-composed term appears as
 The Spatial Ontology is used to post-compose terms related to bone margins, surfaces, or regions.  For example, the character “anterior margin of frontal bone serrate” is post-composed as follows:
 
 Type “anterior margin” in the entity field and click the “comp” button.  Note that the term anterior margin is expanded in the Post Composition window because “anterior margin” is a pre-coordinated term in the Spatial Ontology.  Click the + button to add relationship = part_of and differentia = frontal bone.  Click the OK button.
+
+[[Image:postcomposition2.png]]
  
 The post-composed term for anterior margin of frontal appears as:
 anatomical margin^has_position(anterior)^part_of(frontal bone)
