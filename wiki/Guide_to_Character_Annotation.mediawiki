@@ -61,7 +61,7 @@ Some terms can be post-composed at the time of annotation rather than pre-compos
 
 To post-compose the entity “branched dorsal-fin ray”, type “dorsal fin ray” in the Entity field, click the “comp” button, select “has_quality” in the relationship field, and type “branched” in differentia field.  Click OK.
 UPDATE SCREENSHOT
-[[Image:postcomposition]]
+[[Image:postcomposition.png]]
 
 The post-composed term appears as 
  E: dorsal fin lepidotrichium ^has_quality(branched)
