@@ -68,6 +68,7 @@ The Phylogeny Chooser component can display an evolutionary tree relating the sp
 The tree can be input by pasting a [http://evolution.genetics.washington.edu/phylip/newicktree.html Newick-format] phylogeny into the text field at the bottom of the component.  Alternatively, the tree can be obtained from a [[#File names|properly-named]] NEXUS file in the same folder as your main data file.  You can manually create this file outside of Phenote, and then copy it into place with the correct name.  More easily, you can use the "NEX" button in the Phylogeny Chooser toolbar to write out a default NEXUS file containing an unresolved phylogeny of all taxa presently entered into your Taxon List.  You can then open this file in a program such as [http://mesquiteproject.org/ Mesquite] or [http://macclade.org/macclade.html MacClade] to correct the topology of the tree.  The tree you want to use should be the first stored tree in the NEXUS file.  ''If you later add taxa to your taxon list, Phenote cannot merge them into an existing NEXUS file.  You should add them manually to an existing tree.''
 
 ====Making selections====
+Drag-select or click nodes on the phylogeny in order to select their descendant taxa.  Individual nodes can be selected or deselected via control-clicking.  Press the "Apply Selection" button (a blue square) in the Phylogeny Chooser toolbar to h
 The tree can contain either more or fewer taxa than are actually present in the Taxon List, but taxon names must exactly match those in the TTO for the phylogeny to be useful.
 
 ===Scratch Lists===
