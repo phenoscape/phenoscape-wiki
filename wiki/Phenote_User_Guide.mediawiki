@@ -65,7 +65,7 @@ The Specimens table displays the list of specimens entered for the taxon current
 ===Phylogeny Chooser===
 The Phylogeny Chooser component can display an evolutionary tree relating the species in the [[#Taxon List|Taxon List]].  By selecting nodes on the tree, you can select particular taxa in the Taxon List to use for a phenotype annotation.
 ====Inputting a phylogeny====
-The tree can be input by pasting a Newick-formatted phylogeny into the text field at the bottom of the component.  Alternatively, the tree can be obtained from a properly-named file in the same folder as your main data file.
+The tree can be input by pasting a Newick-formatted phylogeny into the text field at the bottom of the component.  Alternatively, the tree can be obtained from a [[File names|properly-named file]] in the same folder as your main data file.
 ====Making selections====
 The tree can contain either more or fewer taxa than are actually present in the Taxon List, but taxon names must exactly match those in the TTO for the phylogeny to be useful.
 
