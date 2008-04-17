@@ -42,7 +42,7 @@ The editor component displays a detailed data entry interface for the currently 
 
 Some autocomplete fields are configured to choose terms from more than one ontology.  In this case a popup menu in front of the field will allow you to search within either ALL or just one of the configured ontologies.
 
-Some autocomplete fields are followed by a "Comp" button.  Press this button to open the post-composition dialog, in which you can create a more specific ontology term by creating relationships to existing terms using the genus-differentia method.
+Some autocomplete fields are followed by a "Comp" button.  Press this button to open the post-composition dialog, in which you can create a more specific ontology term by creating relationships to existing terms using the [[Guide_to_Character_Annotation#Genus-differentia_definitions|genus-differentia method]].
 
 Two additional types of fields are the list field and the pick list field.  A list field displays an uneditable list of values in its text box.  Edit the values by using the corresponding annotation table (e.g. the [[#Specimens|Specimens table]]).  A pick list field is similar to a list field, but its values are chosen by clicking the "Edit" button next to the field to choose from values entered into another list field.  For example, the "Voucher(s)" field is configured to pick from values entered into the "Specimens" list field.
 
