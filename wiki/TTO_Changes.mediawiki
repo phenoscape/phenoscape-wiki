@@ -108,3 +108,4 @@ Zoology'' 564: 103.
 * ''Mesoborus sp.'' added as species
 * ''Pyrrhulina sp.'' added as species
 * ''Salminus sp.'' added as species
+* ''Hydrolycus pectoralis'' added as synonym of ''Hydrolycus scomberoides''
