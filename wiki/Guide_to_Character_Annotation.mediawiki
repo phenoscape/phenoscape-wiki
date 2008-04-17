@@ -59,7 +59,7 @@ Could say here: Relationships across taxa between individual entities in a meris
 ===Post-composition of entity term===
 Some terms can be post-composed at the time of annotation rather than pre-composed within the ontology. Post-composed terms are created in Phenote and follow genus-differentia definitions. Unlike pre-composed terms, post-composed terms do not have an ID. 
 
-To post-compose the entity “branched dorsal-fin ray”, type “dorsal fin ray” in the Entity field, click the “comp” button, select “has_quality” in the relationship field, and type “branched” in differentia field.  Click OK.
+To post-compose the entity “branched dorsal-fin ray”, type “dorsal fin ray” in the Entity field, click the “Comp” button, select “has_quality” in the relationship field, and type “branched” in differentia field.  Click OK.
 UPDATE SCREENSHOT
 [[Image:postcomposition.png]]
 
