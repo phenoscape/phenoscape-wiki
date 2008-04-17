@@ -63,7 +63,9 @@ The Specimens table displays the list of specimens entered for the taxon current
 ===Phylogeny Chooser===
 
 ===Scratch Lists===
-The Scratch Lists component lets you create temporary annotation tables in which you can create template annotations (usually, only partially filled in).  These template annotations can be dragged onto the [[#Annotation Table|main annotation table]] to start new phenotype annotations.
+The Scratch Lists component lets you create temporary annotation tables in which you can create template annotations (usually, only partially filled in).  These template annotations can be dragged onto the [[#Annotation Table|main annotation table]] to start new phenotype annotations.  Use the toolbar buttons to create and delete scratch list tables.  You can double-click table cells to name a list anything you want.  Select a scratch list name and press the table button in the Scratch Lists toolbar to display the annotation table for that list.
+
+If you change the name of a scratch list while its table is open, the table component's title tab will not update until it is closed and re-opened.  Also, keep in mind that scratch lists are temporary ("scratch") and are not saved with your data file.
 
 ===Complete Ontology Tree View===
 
