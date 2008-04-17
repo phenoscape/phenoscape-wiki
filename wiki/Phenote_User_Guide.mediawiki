@@ -58,7 +58,7 @@ Both of these tables behave in much the same way as the [[#Annotation Table|main
 You can enter the list of taxa described in a publication into the Taxon List table.  You can pick taxa from this table in order to annotate their phenotypes.  Select a taxon by using the checkbox on its row.  All the checked taxa can be copied into the main Annotation Table by pressing the Generate Characters button in the component's toolbar.  The other extra buttons in the Specimen List toolbar manipulate the checkboxes in various ways.  Since all the copied rows will be selected in the Annotation Table, you can apply the same phenotype to them all by using the bulk editing features of the [[#Annotation Editor|Annotation Editor component]].  Because the values are copied between tables when you use the Generate Characters function, keep in mind that modifications made to taxon information in the Specimen List will not be applied to phenotype annotations already created in the Annotation Table.
 
 ====Specimens====
-Unlike other tables, the Specimens table does not use the [[#Annotation Editor|Annotation Editor]]; all editing is done directly in the table.  This allows you to work with the Taxon List and Specimens table simultaneously without repeatedly updating which table is being modified by the editor component.
+The Specimens table displays the list of specimens entered for the taxon currently selected in the Taxon List.  Unlike other tables, the Specimens table does not use the [[#Annotation Editor|Annotation Editor]]; all editing is done directly in the table.  This allows you to work with the Taxon List and Specimens table simultaneously without repeatedly updating which table is being modified by the editor component.
 
 ===Phylogeny Chooser===
 
