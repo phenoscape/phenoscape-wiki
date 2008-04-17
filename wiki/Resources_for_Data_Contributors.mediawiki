@@ -121,6 +121,7 @@ intersection of TAO: suprorbital
 The post-compose feature in Phenote allows addition of multiple differentia that apply to the initial genus term but nesting of terms is not yet enabled. In the meantime, when post-composed terms that require nesting are needed for annotation, we will note in the 'curator notes' field that these terms will need proper updating once nesting is possible.
 
 ==Curatorial Best Practices==
+There is an in-progress [[Guide to Character Annotation]] which will eventually replace the following information.
 ===Genus-differentia definitions===
 
 Term definitions in the teleost anatomy ontology (TAO) take the form of genus-differentia definitions: 
