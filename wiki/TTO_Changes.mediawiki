@@ -88,3 +88,23 @@ Notes: This update contains many subfamily assignments.  We don't currently incl
 * ''Oxygaster hypophthalmus'' added as synonym of ''Parachela hypophthalmus''
 * ''Rasboroides vaterifloris'' added as synonym of ''Rasbora vaterifloris''
 * ''Devario cf. aequipinnatus'' added as species
+
+=Changes resulting from publication Vari(1995)=
+
+Citation is: 
+Vari RP. 1995. The Neotropical fish family Ctenoluciidae (Teleostei:
+Ostariophysi: Characiformes): supra and intrafamilial phylogenetic
+relationships, with a revisionary study. ''Smithsonian Contributions to
+Zoology'' 564: 103.
+
+* ''Agoniates sp.'' added as species
+* ''Copella sp.'' added as species
+* ''Distichodus sp.'' added as species
+* ''Eugnathichthys sp.'' added as species
+* ''Hemistichodus sp.'' added as species
+* ''Hoplias cf. malabaricus'' added as species
+* ''Hydrocynus sp.'' added as species
+* ''Lebiasina sp.'' added as species
+* ''Mesoborus sp.'' added as species
+* ''Pyrrhulina sp.'' added as species
+* ''Salminus sp.'' added as species
