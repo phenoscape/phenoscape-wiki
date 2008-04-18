@@ -21,11 +21,8 @@ The hands-on curation work at the jamboree will almost certainly reveal ontologi
 Finally, the workshop will also provide a very interesting opportunity to brainstorm about the informatics tools and data required to push beyond current limits, thus fostering new discoveries at the interface between evolution and developmental genetics.    
 
 ==Agenda==
-
-''[[Data Jamboree 1 Agenda|detailed agenda]].''
  
-The Jamboree will start in the morning (~9am) on Friday, April 18, and continue through noon on Sunday, April 20. Non-project participants will arrive on Thursday, April 17, and depart in the afternoon of April 20.
-
+The Jamboree will start in the morning (~9am) on Friday, April 18, and continue through noon on Sunday, April 20. Non-project participants will arrive on Thursday, April 17, and depart in the afternoon of April 20. Please see the ''[[Data Jamboree 1/Agenda|detailed agenda]]'' for the program for each day.
 
 ==Documents==
 
