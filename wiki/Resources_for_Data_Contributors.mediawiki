@@ -40,8 +40,8 @@ For more information please see the [[Phenote User Guide]].
 ====Installation and start up====
 
 * You need Java 1.5 or newer to run Phenote.  For the Mac this requires Mac OS X 10.4 or newer.
-* Launch Phenote using the [http://www.phenote.org/phenote/latest/phenote.jnlp webstart link].  Alternatively, you can try the in-progress builds with the latest features, packaged for [https://www.nescent.org/wg/phenoscape/images/4/40/Phenote-MacOSX.zip Mac OS X] or [https://www.nescent.org/wg/phenoscape/images/d/db/Phenote-Windows.zip Windows].
-* Choose the "phenomap" configuration before beginning (this will soon be replaced by a "phenoscape" config).
+* Though you can launch Phenote using the [http://www.phenote.org/phenote/latest/phenote.jnlp webstart link], we recommend installing the latest in-progress build, packaged for Mac OS X or Windows. These builds will have the latest features. Please see the [[Phenote User Guide]] for details.  
+* Choose the "phenoscape" configuration before beginning.
 * So far most curators are using the Excel-compatible tab-delimited format for saving files.
 
 ====Usage====
