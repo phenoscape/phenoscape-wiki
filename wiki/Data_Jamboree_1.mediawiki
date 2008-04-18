@@ -31,6 +31,7 @@ The Jamboree will start in the morning (~9am) on Friday, April 18, and continue 
 * [https://webdav.nescent.org/phenoscape-data/group-exercise.doc Group exercise instructions]
 * [[Phenote User Guide]] (this also contains detailed instructions for downloading and running Phenote)
 * [[Guide to Character Annotation]]
+* [[Resources for curators]]
 
 ==Logistics==
 
