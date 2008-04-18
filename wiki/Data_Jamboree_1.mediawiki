@@ -24,11 +24,13 @@ Finally, the workshop will also provide a very interesting opportunity to brains
  
 The Jamboree will start in the morning (~9am) on Friday, April 18, and continue through noon on Sunday, April 20. Non-project participants will arrive on Thursday, April 17, and depart in the afternoon of April 20. Please see the ''[[Data Jamboree 1/Agenda|detailed agenda]]'' for the program for each day.
 
-==Documents==
+==Resources==
 
 * [https://webdav.nescent.org/phenoscape-data/Guide%20to%20Character%20Annotation.doc  Character annotation]
 * [https://webdav.nescent.org/phenoscape-data/TaxonList_rev.doc Entering a taxon list]
 * [https://webdav.nescent.org/phenoscape-data/group-exercise.doc Group exercise instructions]
+* [[Phenote User Guide]] (this also contains detailed instructions for downloading and running Phenote)
+* [[Guide to Character Annotation]]
 
 ==Logistics==
 
