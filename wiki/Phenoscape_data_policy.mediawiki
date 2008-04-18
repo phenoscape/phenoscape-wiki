@@ -8,7 +8,7 @@ This is a draft of the Phenoscape Data Policy, which applies to both submitters 
 vers 4.18.08
 
 ''
-Phenoscape data is provided to enhance knowledge and progress in the scientific community.  The contents of Phenoscape are made available according to the terms of a Creative Commons Attribution 3.0 Unported license [1]. This license allows any party to distribute, reuse, and derive works from the data for commercial or non-commercial uses provided that appropriate attribution is given.  Any contents to which this license does not apply (such a copyrighted images provided by third parties) is specifically marked as such. 
+Phenoscape data is provided to enhance knowledge and progress in the scientific community.  The contents of Phenoscape are made available according to the terms of a Creative Commons Attribution 3.0 Unported license [1]. This license allows any party to distribute, reuse, and derive works from the data for commercial or non-commercial uses provided that appropriate attribution is given.  Any contents to which this license does not apply (such a copyrighted image provided by third parties) is specifically marked as such. 
 
 Contributions to Phenoscape are predominantly based on data reported in the published literature.  The copyright to the original publication remains with the original owner. Additionally, as far as technically possible, the identity of the depositor is stored for each record.  Users are requested to cite the original paper (or, in some cases, unpublished manuscript) from which the data was derived, as well as a citation to Phenoscape of the following form:
 
