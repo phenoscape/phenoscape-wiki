@@ -29,11 +29,9 @@ The Jamboree will start in the morning (~9am) on Friday, April 18, and continue 
 
 ==Documents==
 
-[https://webdav.nescent.org/phenoscape-data/Guide%20to%20Character%20Annotation.doc  Character annotation]
-
-[https://webdav.nescent.org/phenoscape-data/TaxonList_rev.doc Entering a taxon list]
-
-[https://webdav.nescent.org/phenoscape-data/group-exercise.doc Group exercise instructions]
+* [https://webdav.nescent.org/phenoscape-data/Guide%20to%20Character%20Annotation.doc  Character annotation]
+* [https://webdav.nescent.org/phenoscape-data/TaxonList_rev.doc Entering a taxon list]
+* [https://webdav.nescent.org/phenoscape-data/group-exercise.doc Group exercise instructions]
 
 ==Logistics==
 
