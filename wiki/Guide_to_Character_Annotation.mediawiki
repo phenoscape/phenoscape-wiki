@@ -92,9 +92,9 @@ anatomical margin^has_position(anterior)^part_of(frontal bone)
 Because size qualities are monadic terms, comparison of size of one bone relative to another requires post-composition of the size quality.  For example, the character “frontal length greater than parietal length” is entered as:
 
  E: frontal 
- Q*: increased length, relative_to partietal
- 		
- *To post-compose the size quality, type ‘increased length’ in the quality field and click “comp” button. Select ‘relative_to’ in the relationship field and type ‘parietal’ in the differentia field.  click OK.
+ Q: increased length, relative_to partietal(*)
+
+(*)To post-compose the size quality, type ‘increased length’ in the quality field and click “comp” button. Select ‘relative_to’ in the relationship field and type ‘parietal’ in the differentia field.  click OK.
 
 ===Size qualities with ratio===
 For the characters in which a proportion or ratio is given in relating the length of one bone to another, the value of ratio is recorded. For example: 
