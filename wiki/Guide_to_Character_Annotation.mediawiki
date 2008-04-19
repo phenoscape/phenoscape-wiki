@@ -100,7 +100,7 @@ Because size qualities are monadic terms, comparison of size of one bone relativ
 For the characters in which a proportion or ratio is given in relating the length of one bone to another, the value of ratio is recorded. For example: 
 Length of infraorbital 2: (0) over twice as long as infraorbital 1; (1) less than twice as long as infraorbital 1. This would be indicated in Phenote as follows:
 
- E: infraorbital 2, Q*: increased length, relative_to: infraorbital 1, Measurement: >2, Unit: ratio
- E1: Infraorbital 2, Q*: decreased length, relative_to: infraorbital 1, Measurement: <2, Unit: ratio
+ E: infraorbital 2, Q: increased length, relative_to: infraorbital 1, Measurement: >2, Unit: ratio
+ E1: Infraorbital 2, Q: decreased length, relative_to: infraorbital 1, Measurement: <2, Unit: ratio
  
- *post-composition
+The qualities are post-composed.
