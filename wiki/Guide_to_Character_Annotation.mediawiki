@@ -47,6 +47,17 @@ Relational qualities are those that exist in an entity but require an additional
 
  E: parietal, Q: fused with, AE: supraoccipital
 
+=== Characters involving presence/absence of developmentally dependent entities ===
+An example is  bone develops_from cartilage.
+
+Interhyal: (0) present and ossified; (1) present and cartilaginous; (2) absent
+
+ E: Interhyal bone, Q: present
+ E: Interhyal cartilage, Q: present
+ E: Interhyal cartilage, Q: absent(*)
+
+(*)Note that because interhyal bone develops_from interhyal cartilage, we can simply state that interhyal cartilage is absent, and it is implied that interhyal bone is also absent.
+
 ===Meristic data===
 Characters involving counts of entities are annotated using the “count” quality.  Values for counts are entered in the “count” field.  Note that ranges and lower or upper bounds can be recorded:
 	
