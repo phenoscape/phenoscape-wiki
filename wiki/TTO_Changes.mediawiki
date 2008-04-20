@@ -34,7 +34,7 @@ Note: Obsoleting a term means it is no longer available for use and does not app
 Notes: This update contains many subfamily assignments.  We don't currently include subfamilies in the TTO, but the update file will be retained in case this policy changes.
 
 * ''Paracanthocobitis'' added as synonym to ''Acanthocobitis'' (Grant 2007)
-* Botiidae added as family (citation pending)
+* Botiidae added as family (Nalbant, T. T. 2002))
 * ''Botia'' moved to family Botiidae
 * ''Chromobotia'' moved to family Botiidae
 * ''Leptobotia'' moved to family Botiidae
@@ -64,7 +64,7 @@ Notes: This update contains many subfamily assignments.  We don't currently incl
 * ''Bengala elanga'' changed to/demoted to synonym of ''Megarasbora elanga''
 * ''Cyprinopsis'' no change, problem appears in description date, not covered in TTO
 * ''Mirolabeo'' no change, uncertain demotion to synonym of ''Bangana''
-* ''Vaillantellidae'' added as family
+* ''Vaillantellidae'' added as family (Slechtova et al. 2007)
 * ''Vaillantella'' moved to family Vaillantellidae
 * ''Caucus'' – appears as cypriniform in online CoF, but was not in CAS species table so never added to TTO; after consultation recommendation was to remove/not add; no change. 
 * ''Oreodaimon'' – appears as synonym to Pseudolabrus in online CoF, no change.
