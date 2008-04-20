@@ -67,7 +67,7 @@ Characters involving counts of entities are annotated using the “count” qual
 
 Could say here: Relationships across taxa between individual entities in a meristic series (e.g. vertebra 4 in a zebrafish vs. vertebra 4 in an eel), are not necessarily homologous.  These can be handled in several ways, and we will discuss them here. 
 
-=== Refining terms  by post-composition ===
+== Refining terms  by post-composition ==
 
 Oftentimes the need arises to use a more granular term than is already present in the ontology, whether it is the anatomical entity or the quality. For example,  to prevent bloat, regions, margins, and projections of a bone are not in the anatomy ontology, but the bone itself is, and the concepts of margin, relative location of the margin (anterior, posterior, ventral, dorsal, etc), or bony projection are too, or are in other ontologies (spatial aspect, for example). Similarly, the directionality of a phenotype (such as a rotation, or curvature) isn't necessarily present in PATO, but can the component terms necessary to express it are. The act of combining terms on-the-fly into cross-product terms is called post-composition, as opposed to pre-composed terms that are already in the ontology.
 
@@ -77,7 +77,7 @@ The order in which the terms are composed is important if the composition relati
 
 Note that semantically, the post-composed term is equivalent to a pre-composed term, provided the pre-composed terms has both the inheritance relationship and the cross-product relationship properly recorded. For example,  "bony projecttion of lateral ethmoid" is-a "bony projection", and  "bony projection of lateral ethmoid" part-of "lateral ethmoid".
  
-==== Refining entity terms on-the-fly ====
+=== Refining entity terms on-the-fly ===
 
 To post-compose the entity “bony projection of lateral ethmoid”, type “bony projection” in the Entity field, click the “Comp” button, select “part_of” in the relationship field, and type “lateral ethmoid” in differentia field.  Click OK.
 
@@ -86,7 +86,7 @@ To post-compose the entity “bony projection of lateral ethmoid”, type “bon
 The post-composed term appears as 
  E: bony projection ^part_of(lateral ethmoid)
 
-==== Refining qualities using spatial terms ====
+=== Refining qualities using spatial terms ===
 The Spatial Ontology is used to post-compose terms related to bone margins, surfaces, or regions.  For example, the character “anterior margin of frontal bone serrate” is post-composed as follows:
 
 Type “anterior margin” in the entity field and click the “comp” button.  Note that the term anterior margin is expanded in the Post Composition window because “anterior margin” is a pre-coordinated term in the Spatial Ontology (from "anatomical margin" that has the position "anterior").  Click the + button to add relationship = part_of and differentia = frontal bone.  Click the OK button.
@@ -98,7 +98,7 @@ The post-composed term for anterior margin of frontal appears as:
 
 As for semantics, identifiability, and rules for post-composing, the same applies as above for entity terms. Start with the more general term (for example, the "anterior margin") as the genus, then refine it using a relationship and a differentia term (for example, anterior margin that is part-of the "frontal bone").
 
-==== Refining size qualities by making them relative ====
+=== Refining size qualities by making them relative ===
 Because size qualities are monadic terms, comparison of size of one bone relative to another requires post-composition of the size quality.  For example, the character “frontal length greater than parietal length” is entered as:
 
  E: frontal 
