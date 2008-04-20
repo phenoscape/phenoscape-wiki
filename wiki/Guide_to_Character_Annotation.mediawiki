@@ -67,8 +67,17 @@ Characters involving counts of entities are annotated using the “count” qual
 
 Could say here: Relationships across taxa between individual entities in a meristic series (e.g. vertebra 4 in a zebrafish vs. vertebra 4 in an eel), are not necessarily homologous.  These can be handled in several ways, and we will discuss them here. 
 
-=== Post-composition: Refining entity terms on-the-fly ===
-Terms can be refined, or post-composed, at the time of annotation rather than using a sufficiently granular term from the ontology (i.e., a pre-composed term). Post-composed terms are created in Phenote and follow genus-differentia definitions, where one term serves as the genus, which is then differentiated using a relationship and a differentia term. Unlike pre-composed terms, post-composed terms do not have an ID, and hence is an "anonymous term."
+=== Refining terms  by post-composition ===
+
+Oftentimes the need arises to use a more granular term than is already present in the ontology, whether it is the anatomical entity or the quality. For example,  to prevent bloat, regions, margins, and projections of a bone are not in the anatomy ontology, but the bone itself is, and the concepts of margin, relative location of the margin (anterior, posterior, ventral, dorsal, etc), or bony projection are too, or are in other ontologies (spatial aspect, for example). Similarly, the directionality of a phenotype (such as a rotation, or curvature) isn't necessarily present in PATO, but can the component terms necessary to express it are. The act of combining terms on-the-fly into cross-product terms is called post-composition, as opposed to pre-composed terms that are already in the ontology.
+
+Post-composed terms are created in Phenote and follow genus-differentia definitions, where one term serves as the genus, which is then differentiated using a relationship and a differentia term. Unlike pre-composed terms, post-composed terms do not have an ID, and hence are "anonymous." Therefore if the same post-composition is used multiple times, it has the same semantics, but not the same identity. For example, if one wants to assign multiple annotations to the same bony projection of the lateral ethmoid in the same specimen, using post-composed terms does not allow the identity of the anatomical structure between the annotations to be inferred.
+
+The order in which the terms are composed is important if the composition relationship is not reflexive (a relationship is reflexive iff A rel B <=> B rel A). Most relationships are not reflexive. As a general rule, choose the more general partas the genus, and then use the relationship and differentia to narrow down. For example, for "bony projection of the lateral ethmoid" use "bony projection" as the genus, and use the relationship and differentia to narrow down  which bony projection of the many that are possible you mean, such as using part_of for the relationship and "lateral ethmoid" as the differentia (formally, the "bony projections that is part_of the lateral ethmoid").
+
+Note that semantically, the post-composed term is equivalent to a pre-composed term, provided the pre-composed terms has both the inheritance relationship and the cross-product relationship properly recorded. For example,  "bony projecttion of lateral ethmoid" is-a "bony projection", and  "bony projection of lateral ethmoid" part-of "lateral ethmoid".
+ 
+==== Refining entity terms on-the-fly ====
 
 To post-compose the entity “bony projection of lateral ethmoid”, type “bony projection” in the Entity field, click the “Comp” button, select “part_of” in the relationship field, and type “lateral ethmoid” in differentia field.  Click OK.
 
@@ -76,12 +85,6 @@ To post-compose the entity “bony projection of lateral ethmoid”, type “bon
 
 The post-composed term appears as 
  E: bony projection ^part_of(lateral ethmoid)
-
-The order in which the terms are composed is important if the composition relationship is not reflexive (a relationship is reflexive iff A rel B <=> B rel A), which most relationships are not. As a general rule, choose the more general part (for example, the "bony projection") as the genus, and then use the relationship and differentia to narrow down (for example, which bony projection of the many that are possible do you mean).
- 
-Note that semantically, the post-composed term is equivalent to a pre-composed term (e.g., "bony projecttion of lateral ethmoid"), provided the pre-composed terms has both the inheritance relationship ("bony projection of lateral ethmoid" is-a "bony projection) and the cross-product relationship ("bony projection of lateral ethmoid" part-of "lateral ethmoid") properly recorded.
-
-However, unlike pre-composed terms, post-composed terms are anonymous, and therefore if the same post-composition is used multiple times, it has the same semantics, but not the same identity. For example, if one wants to assign multiple annotations to the same bony projection of the lateral ethmoid in the same specimen, using post-composed terms does not allow the identity of the anatomical structure between the annotations to be inferred.
 
 ===Post-composition: Refining qualities using spatial terms===
 The Spatial Ontology is used to post-compose terms related to bone margins, surfaces, or regions.  For example, the character “anterior margin of frontal bone serrate” is post-composed as follows:
