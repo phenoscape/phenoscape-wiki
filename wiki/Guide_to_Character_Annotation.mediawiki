@@ -86,7 +86,7 @@ To post-compose the entity “bony projection of lateral ethmoid”, type “bon
 The post-composed term appears as 
  E: bony projection ^part_of(lateral ethmoid)
 
-===Post-composition: Refining qualities using spatial terms===
+==== Refining qualities using spatial terms ====
 The Spatial Ontology is used to post-compose terms related to bone margins, surfaces, or regions.  For example, the character “anterior margin of frontal bone serrate” is post-composed as follows:
 
 Type “anterior margin” in the entity field and click the “comp” button.  Note that the term anterior margin is expanded in the Post Composition window because “anterior margin” is a pre-coordinated term in the Spatial Ontology (from "anatomical margin" that has the position "anterior").  Click the + button to add relationship = part_of and differentia = frontal bone.  Click the OK button.
