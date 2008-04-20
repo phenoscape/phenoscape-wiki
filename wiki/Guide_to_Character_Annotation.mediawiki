@@ -83,15 +83,17 @@ Note that semantically, the post-composed term is equivalent to a pre-composed t
 
 However, unlike pre-composed terms, post-composed terms are anonymous, and therefore if the same post-composition is used multiple times, it has the same semantics, but not the same identity. For example, if one wants to assign multiple annotations to the same bony projection of the lateral ethmoid in the same specimen, using post-composed terms does not allow the identity of the anatomical structure between the annotations to be inferred.
 
-===Post-composition using spatial terms===
+===Post-composition: Refining qualities using spatial terms===
 The Spatial Ontology is used to post-compose terms related to bone margins, surfaces, or regions.  For example, the character “anterior margin of frontal bone serrate” is post-composed as follows:
 
-Type “anterior margin” in the entity field and click the “comp” button.  Note that the term anterior margin is expanded in the Post Composition window because “anterior margin” is a pre-coordinated term in the Spatial Ontology.  Click the + button to add relationship = part_of and differentia = frontal bone.  Click the OK button.
+Type “anterior margin” in the entity field and click the “comp” button.  Note that the term anterior margin is expanded in the Post Composition window because “anterior margin” is a pre-coordinated term in the Spatial Ontology (from "anatomical margin" that has the position "anterior").  Click the + button to add relationship = part_of and differentia = frontal bone.  Click the OK button.
 
 [[Image:postcomposition2.png]]
  
 The post-composed term for anterior margin of frontal appears as:
-anatomical margin^has_position(anterior)^part_of(frontal bone)
+ anatomical margin^has_position(anterior)^part_of(frontal bone)
+
+As for semantics, identifiability, and rules for post-composing, the same applies as above for entity terms. Start with the more general term (for example, the "anterior margin") as the genus, then refine it using a relationship and a differentia term (for example, anterior margin that is part-of the "frontal bone").
 
 ===Size qualities===
 Because size qualities are monadic terms, comparison of size of one bone relative to another requires post-composition of the size quality.  For example, the character “frontal length greater than parietal length” is entered as:
