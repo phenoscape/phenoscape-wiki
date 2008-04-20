@@ -127,3 +127,5 @@ Cavender, Ted M., and Miles M. Coburn. 1992. Phylogenetic relationships of North
 * ''Notropis chrysocephalus'' added as synonym for ''Luxilus chrysocephalus''
 * ''Notropis coccogenis'' added as synonym for ''Luxilus coccogenis''
 * ''Notropis formosus'' added as synonym for ''Luxilus formosa''
+* ''Notropis galacturus'' added as synonym for ''Cyprinella galactura''
+* ''Notropis niveus'' added as synonym for ''Cyprinella nivea''
