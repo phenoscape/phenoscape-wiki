@@ -109,3 +109,12 @@ Zoology'' 564: 103.
 * ''Pyrrhulina sp.'' added as species
 * ''Salminus sp.'' added as species
 * ''Hydrolycus pectoralis'' added as synonym of ''Hydrolycus scomberoides''
+
+=Changes resulting from publication Cavender and Coburn (1992)=
+
+Citation is:
+Cavender, Ted M., and Miles M. Coburn. 1992. Phylogenetic relationships of North American cyprinids. Pp. 293-327. In: Systematics, Historical Ecology, and North American Freshwater Fishes. R.L. Mayden (Ed.). Stanford University Press. Stanford, California. 969 p.
+
+* ''Hybosis labrosa'' added as synonym for ''Cyprinella labrosa''
+* ''Hybosis monocha'' added as synonym for ''Erimonax monocha''
+* ''Hybosis zanema'' added as synonym for ''Cyprinella zanema''
