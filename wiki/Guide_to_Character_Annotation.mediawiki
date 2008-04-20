@@ -77,6 +77,8 @@ To post-compose the entity “bony projection of lateral ethmoid”, type “bon
 The post-composed term appears as 
  E: bony projection ^part_of(lateral ethmoid)
 
+The order in which the terms are composed is important if the composition relationship is not reflexive (a relationship is reflexive iff A rel B <=> B rel A), which most relationships are not. As a general rule, choose the more general part (for example, the "bony projection") as the genus, and then use the relationship and differentia to narrow down (for example, which bony projection of the many that are possible do you mean).
+ 
 Note that semantically, the post-composed term is equivalent to a pre-composed term (e.g., "bony projecttion of lateral ethmoid"), provided the pre-composed terms has both the inheritance relationship ("bony projection of lateral ethmoid" is-a "bony projection) and the cross-product relationship ("bony projection of lateral ethmoid" part-of "lateral ethmoid") properly recorded.
 
 However, unlike pre-composed terms, post-composed terms are anonymous, and therefore if the same post-composition is used multiple times, it has the same semantics, but not the same identity. For example, if one wants to assign multiple annotations to the same bony projection of the lateral ethmoid in the same specimen, using post-composed terms does not allow the identity of the anatomical structure between the annotations to be inferred.
