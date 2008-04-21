@@ -71,8 +71,6 @@ Members of the project team are in '''bold font'''.
 {{EventParticipant|Westerfield|Monte|monte%40uoneuro%2euoregon%2eedu|Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon|'''}}
 |}
 
-[[Category:Data Jamboree 1]]
-
 ==Papers for Annotation==
 *Miles Coburn
 #Cavender, Ted M., and Miles M. Coburn. 1992. Phylogenetic relationships of North American cyprinids. Pp. 293-327. In: Systematics, Historical Ecology, and North American Freshwater Fishes. R.L. Mayden (Ed.). Stanford University Press. Stanford, California. 969 p.
@@ -96,3 +94,5 @@ Members of the project team are in '''bold font'''.
 *B. Sidlauskas
 #Sidlauskas B, Vari RP. in press. Phylogenetic relationships within the South American fish family Anostomidae (Teleostei, Ostariophysi, Characiformes). Zoological Journal of the Linnean Society.
 #Vari RP, Castro RMC, Raredon SJ. 1995. The Neotropical fish family Chilodontidae (Teleostei: Characiformes): a phylogenetic study and a revision of Caenotropus Günther. Smithsonian Contributions to Zoology 577: 32.
+
+[[Category:Data Jamboree 1]]
