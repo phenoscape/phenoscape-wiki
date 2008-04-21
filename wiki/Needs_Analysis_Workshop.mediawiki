@@ -16,6 +16,9 @@ title: Needs Analysis Workshop
 
 This workshop brings together scientists from the fields of morphology, development, evolution, genetics, and ichthyology to define what informatic tools need to exist in order to enable synthetic research that takes full advantage of the accumulated data in each of these fields.  The workshop organizers are funded by NSF to develop a system that provides web-based access to integrated evolutionary, anatomical, developmental, and genetics data in the Ostariophysii, and to make the software tools a community resource that can be more broadly applied.  Thus, a major goal of the workshop is to identify [[Driving Research Questions|driving biological research questions]] that take advantage of these data to push the limits of what is currently possible, and to identify what informatic tools are needed in order to answer those questions.  These will, in turn, be distilled to Use Cases that drive the software development activities at NESCent.
 
+==Final Report==
+For a summary of the outcomes of this report, see [[Needs_Analysis_Workshop/Summary|here]].
+
 ==Agenda==
 
 '''Monday, September 17'''
