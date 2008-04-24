@@ -9,7 +9,7 @@ An annotation experiment was conducted on day 2 of the Phenoscape Data Jamboree 
 ====Results and Conclusions====
 
 =====Completeness of annotations=====
-Three of the four participants attempted annotations for all 11 characters, while one participant finished only 7 characters. All participants recorded the character number, textual description, and selected the appropriate voucher specimen for each annotation. Only two of the four participants recorded evidence codes for each annotation. 
+Three of the four participants attempted annotations for all 11 characters, while one participant finished only 7 characters. All participants recorded the character number and textual description, and selected the appropriate voucher specimen for each annotation. Only two of the four participants recorded evidence codes for each annotation.
 
 =====Variability of EQ statements=====
 A summary of annotation consistency among participants is presented in the table below (incomplete annotations due to software issues are excluded).
