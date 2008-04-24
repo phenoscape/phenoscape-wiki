@@ -1,0 +1,48 @@
+---
+title: Data Jamboree 1/Annotation Experiment
+---
+
+====Background and Participant Preparation====
+
+An annotation experiment was conducted on day 2 of the Phenoscape Data Jamboree in order to assess curation consistency among participants. Participant training consisted of a hands-on group annotation exercise on day 1, and individual work on each participant's own publications with assistance from project personnel on day 1 and 2. Participants were also given an Annotation Guide with examples of character types commonly encountered in the fish systematic literature.
+
+====Results====
+
+=====Summary Statistics=====
+{| border="1" cellspacing="0" cellpadding="3"
+! Character #
+! # Participants with Annotation*
+! % Consistency with Key
+! Specific Issues
+|-
+| 1 || 4 || 100 || 
+|-
+| 2 || 3 || 0  || post-composition of Q term for relative length
+|-
+| 3 || 3 || 0  || incorrect recording of count values
+|-
+| 4 || 4 || 0  || TAO term definition confusion (bone vs. cartilage)
+|-
+| 5 || 3 || 33  || E post-composition; choice of appropriate Q
+|-
+| 6 || 4 || 0  || E post-composition
+|-
+| 7 || 4 || 50  || E post-composition
+|-
+| 8 || 3 || 33  || choice of appropriate Q term
+|-
+| 9 || 3 || 0  || E post-composition; choice of appropriate Q term
+|-
+| 10 || 2 || 50  ||  choice of appropriate Q term
+|-
+| EC || 2 || 25  || anatomy term post-composition; choice of appropriate quality term
+|}
+* *incomplete annotations due to software issues were excluded
+
+====References====
+
+*Hilton EJ. 2003. Comparative osteology and phylogenetic systematics of fossil and living bony-tongue fishes (Actinopterygii, Teleostei, Osteoglossomorpha). Zoological Journal of the Linnean Society 137: 1-100.
+
+*Sanger TJ, McCune AR. 2002. Comparative osteology of the Danio (Cyprinidae: Ostariophysi) axial skeleton with comments on Danio relationships based on molecules and morphology. Zoological Journal of the Linnean Society 135:529-546.
+
+*Zanata AM, Vari RP. 2005. The family Alestidae (Ostariophysi, Characiformes): a phylogenetic analysis of a trans-Atlantic clade. Zoological Journal of the Linnean Society 145: 1-144.
