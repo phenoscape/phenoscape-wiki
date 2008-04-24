@@ -45,12 +45,4 @@ Completed Annotations*
 |}
 * *incomplete annotations due to software issues were excluded
 
-Participants annotated only one character identically. Variation in the other annotations was due to several reasons. Most commonly, annotations differed in how post-composed entity terms were created, particularly in the choice of relation in post-composition (for example, use of part_of/has_part). Annotations among participants also varied in choice of the appropriate quality term among many similar choices.  Another point of difference was due to confusion in the definition of an anatomy term, pointing to the importance of consistently naming bone terms in the TAO. The results of the annotation experiment highlight the need for annotation standards, and stream-lining of the software interface so that curators are not faced with so many similar choices for quality terms and relations. 
-
-====References====
-
-*Hilton EJ. 2003. Comparative osteology and phylogenetic systematics of fossil and living bony-tongue fishes (Actinopterygii, Teleostei, Osteoglossomorpha). Zoological Journal of the Linnean Society 137: 1-100.
-
-*Sanger TJ, McCune AR. 2002. Comparative osteology of the Danio (Cyprinidae: Ostariophysi) axial skeleton with comments on Danio relationships based on molecules and morphology. Zoological Journal of the Linnean Society 135:529-546.
-
-*Zanata AM, Vari RP. 2005. The family Alestidae (Ostariophysi, Characiformes): a phylogenetic analysis of a trans-Atlantic clade. Zoological Journal of the Linnean Society 145: 1-144.
+Participants annotated only one character identically. Variation in the other annotations was due to several reasons. Most commonly, annotations differed in how post-composed entity terms were created, particularly in the choice of relation in post-composition (for example, use of part_of/has_part). Annotations among participants also varied in choice of the appropriate quality term among many similar choices.  Another point of difference was due to confusion in the definition of an anatomy term, pointing to the importance of consistently naming bone terms in the TAO. The results of the annotation experiment highlight the need for annotation standards, and stream-lining of the software interface so that curators are not faced with so many similar choices for quality terms and relations.
