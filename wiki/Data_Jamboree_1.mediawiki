@@ -34,7 +34,7 @@ The Jamboree will start in the morning (~9am) on Friday, April 18, and continue 
 * [[Resources for curators]]
 * [[WG:Notes_from_participants|Minutes from the jamboree (password protected)]]
 * [[WG:All-Hands_Meeting_21Apr08|Minutes from the project meeting (password protected)]]
-* [[Annotation Experiment Results|Annotation Experiment results]]
+* [[Annotation Experiment|Annotation Experiment results]]
 
 ==Logistics==
 
