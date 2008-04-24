@@ -80,7 +80,6 @@ Use the taxon list and the character matrix given in Table 1 to annotate charact
 ! 8
 ! 9 
 ! 10
-! 11
 |-
 | Chanos chanos || 0 || 0 ||0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 
 |-
