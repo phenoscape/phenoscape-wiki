@@ -45,7 +45,7 @@ Completed Annotations*
 |}
 **incomplete annotations due to software issues were excluded
 
-Participants annotated only one character identically. Variation in the other annotations was due to several reasons: 
+Participants annotated only one character identically. Variation in other annotations was due to several reasons: 
 
 * Granularity of annotations. Some participants integrated very detailed information in post-compositions of entities or qualities, whereas others used single anatomy terms or broad term categories for quality.  Use of spatial information in post-composition also varied among participants.  
 
