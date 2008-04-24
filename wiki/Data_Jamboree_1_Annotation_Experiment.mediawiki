@@ -51,10 +51,10 @@ Participants annotated only one character identically. Variation in the other an
 
 * Granularity of annotations. For example, some participants integrated very detailed information in post-compositions of entities or qualities, whereas others used single anatomy terms or broad term categories for quality.  Also some participants used spatial information in post-composition.  
 
-    *Creation of post-composed entities. Participants had difficulty in deciding what term to use as the genus in post-composition.  Also, the relation used in post-composition (for example, use of part_of/has_part) differed in annotations among participants.
+*Creation of post-composed entities. Participants had difficulty in deciding what term to use as the genus in post-composition.  Also, the relation used in post-composition (for example, use of part_of/has_part) differed in annotations among participants.
 
-    *Choice of the appropriate quality term.  Participants had difficulty in choosing quality terms among many similar choices.  The appropriate use of monadic and relational qualities also differed in the annotations among participants.
+*Choice of the appropriate quality term.  Participants had difficulty in choosing quality terms among many similar choices.  The appropriate use of monadic and relational qualities also differed in the annotations among participants.
 
-    *Confusion regarding the definition of an anatomy term, pointing to the importance of consistently naming bone terms in the TAO.
+*Confusion regarding the definition of an anatomy term, pointing to the importance of consistently naming bone terms in the TAO.
 
 The results of the annotation experiment highlight the need for annotation standards, and stream-lining of the software interface so that curators are not faced with so many similar choices for terms and relations.
