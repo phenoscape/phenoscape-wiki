@@ -8,6 +8,13 @@ An annotation experiment was conducted on day 2 of the Phenoscape Data Jamboree 
 
 ====Results and Conclusions====
 
+=====Completeness of annotations=====
+All participants recorded the character number, textual description, and selected the appropriate voucher specimen for each annotation. Only two of the four participants recorded evidence codes for each annotation.
+
+=====Variability of EQ statements among participants=====
+A summary of annotation consistency among participants is presented in the table below (incomplete annotations due to software issues are excluded).  Three of the four participants attempted annotations for all 11 characters, while one participant finished only 7 characters. 
+
+Participants annotated only one character identically. Variation in the other annotations was due to several reasons.  Most commonly, participants differed in how they post-composed entity terms, particular in how entites were related in the post-composition (for example, use of part_of/has_part).  
 
 
 
