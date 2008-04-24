@@ -4,7 +4,7 @@ title: Data Jamboree 1/Annotation Experiment
 
 ====Background and Participant Preparation====
 
-An annotation experiment was conducted on day 2 of the Phenoscape Data Jamboree in order to assess curation consistency among the four trained participants.  Training consisted of a hands-on group annotation exercise on day 1, and individual work on each participant's own publications with assistance from project personnel on days 1 and 2. An Annotation Guide with examples of character types commonly encountered in the fish systematic literature was also given to participants.  Participants were given 2 hours to annotate 10 characters (plus one extra credit) taken from three publications (see References).
+An annotation experiment was conducted on day 2 of the Phenoscape Data Jamboree in order to assess curation consistency among the four trained participants.  Training consisted of a hands-on group annotation exercise on day 1, and individual work on each participant's own publications with assistance from project personnel on days 1 and 2. An Annotation Guide with examples of character types commonly encountered in the fish systematic literature was also given to participants.  For the experiment, participants were given 2 hours to annotate 10 characters (plus one extra credit) taken from three publications (see References).
 
 ====Results and Conclusions====
 
