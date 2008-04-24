@@ -21,7 +21,8 @@ Participants annotated only one character identically. Variation in the other an
 =====Summary Statistics=====
 {| border="1" cellspacing="0" cellpadding="3"
 ! Character #
-! # Participants with Annotation*
+! # Participants with 
+Completed Annotations*
 ! % Consistency with Key
 ! Specific Issues
 |-
