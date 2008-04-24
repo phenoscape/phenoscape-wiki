@@ -42,7 +42,7 @@ Completed Annotations*
 |-
 | 10 || 2 || 50  ||  choice of appropriate Q term
 |-
-| EC || 2 || 25  || anatomy term post-composition; choice of appropriate quality term
+| EC || 2 || 25  || E post-composition; choice of appropriate Q term
 |}
 * *incomplete annotations due to software issues were excluded
 
