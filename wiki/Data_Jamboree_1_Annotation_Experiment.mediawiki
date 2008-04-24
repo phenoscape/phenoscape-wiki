@@ -55,8 +55,7 @@ Participants annotated only one character identically. Variation in other annota
 
 *Confusion regarding the definition of ontology terms. For one character, confusion about the identity of a term resulted in differing annotations, and points to the need for consistent term names for bones in the TAO.
 
-The results of the annotation experiment provide detailed areas for improvement in establishing curation standards to assist in annotation, and stream-lining of the software interface so that curators are not faced with similar and inapplicable choices for terms and relations. Based on these results, curation standards and improvement to the Annotation Guide are in development, and improvements to the Phenote interface is planned.
-
+The results of the annotation experiment provide detailed areas for improvement in establishing curation standards to assist in annotation, and stream-lining of the software interface so that curators are not faced with similar and inapplicable choices for terms and relations. Based on these results, curation standards and improvement to the Annotation Guide are in development, and improvements to the Phenote interface are planned.
 
 ====Instructions to Participants====
 
