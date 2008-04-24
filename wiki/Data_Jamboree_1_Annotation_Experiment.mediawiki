@@ -14,7 +14,7 @@ Three of the four participants attempted annotations for all 11 characters, whil
 =====Variability of EQ statements=====
 A summary of annotation consistency among participants is presented in the table below (incomplete annotations due to software issues are excluded).
 
-=====Summary Statistics=====
+
 {| border="1" cellspacing="0" cellpadding="3"
 ! Character #
 ! # Participants with 
@@ -47,9 +47,7 @@ Completed Annotations*
 * *incomplete annotations due to software issues were excluded
 
 
-Participants annotated only one character identically. Variation in the other annotations was due to several reasons.  Most commonly, participants differed in how they post-composed entity terms, particular in how entities were related in  post-composition (for example, use of part_of/has_part).  Participants also varied in choosing the appropriate quality term among many similar choices.  
-
-
+Participants annotated only one character identically. Variation in the other annotations was due to several reasons.  Most commonly, participants differed in how they post-composed entity terms, particular in how entities were related in  post-composition (for example, use of part_of/has_part).  Participants also varied in choosing the appropriate quality term among many similar choices.
 
 ====References====
 
