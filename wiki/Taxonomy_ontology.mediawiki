@@ -7,6 +7,21 @@ The taxonomy ontology (TTO) is based on the Catalog of Fishes and will be update
 ==Organization==
 The current organization is derived from the ontology generated from the NCBI taxonomy.  There is currently a hierarchy of taxon names, each of which is a class.
 
+
+
+        Cyprinidae   -------------------->  Family
+             ^             has_rank           
+             |                                
+        is_a |                                
+             |                                
+          Davario    -------------------->  Genus
+             ^             has_rank           
+             |                                
+        is_a |                                 
+             |                                
+  Davario aequipinnatus ---------------->  Species
+                          has_rank
+
 ==Resources==
 
 Here are some useful resources related to the taxonomy ontology (TTO)
