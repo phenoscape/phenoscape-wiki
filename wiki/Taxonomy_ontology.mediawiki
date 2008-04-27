@@ -5,7 +5,7 @@ title: Taxonomy ontology
 The taxonomy ontology (TTO) is based on the Catalog of Fishes and will be updated as CoF updates appear as well as from input from area experts.  The reminder of this page will discuss how the TTO is currently implemented.  An alternative implementation, based on phylogenetic principles is discussed [[Individual-based taxonomy | here.]]
 
 ==Organization==
-The current organization is derived from the ontology generated from the NCBI taxonomy.  There is currently a hierarchy of taxon names, each of which is a class.
+The current organization is derived from the ontology generated from the NCBI taxonomy.  There is a hierarchy of taxon names, each of which is a class.
 
 
 
