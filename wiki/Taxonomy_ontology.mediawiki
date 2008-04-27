@@ -4,6 +4,8 @@ title: Taxonomy ontology
 
 The taxonomy ontology (TTO) is based on the Catalog of Fishes and will be updated as CoF updates appear as well as from input from area experts.  The reminder of this page will discuss how the TTO is currently implemented.  An alternative implementation, based on phylogenetic principles is discussed [[Individual-based taxonomy | here.]]
 
+==Organization==
+
 ==Resources==
 
 Here are some useful resources related to the taxonomy ontology (TTO)
