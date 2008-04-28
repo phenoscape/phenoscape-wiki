@@ -19,6 +19,9 @@ One of the attractions of a traditional taxonomy for ontology builders that it c
 
 Instead treating taxa as types in an ontology, we can treat individual taxa as instances of the type Taxon, or more specifically as instances of some taxonomic rank (see figure above).
 
+==Taxonomic Rank Ontology + Instance Graph of Taxonomy==
+
+
 ===Advantages===
 * Taxa are modeled as individuals.
 * Taxonomic rank terms are ordered through their ''part_of'' relationships.
