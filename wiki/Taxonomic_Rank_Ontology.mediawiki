@@ -4,6 +4,11 @@ title: Taxonomic Rank Ontology
 
 A taxonomic rank ontology allows particular taxa to be treated as historical individuals instead of as universal types.
 
-[[Image:TaxonomicRankDiagram.png|750px|thumb|Taxonomic rank ontology and sample instance data.  The ontology terms are surrounded by a grey background.  The "Continuant" term would reside in an upper ontology such as [http://www.ifomis.org/bfo BFO].  The instance data constitute a particular taxonomy.]] 
+[[Image:TaxonomicRankDiagram.png|750px|thumb|Taxonomic rank ontology and sample instance data.  The ontology terms are surrounded by a grey background.  The "Continuant" term would reside in an upper ontology such as [http://www.ifomis.org/bfo BFO].  The instance data constitute a particular taxonomy.]]
+
+Previous attempts to represent taxonomy using ontology usually include taxonomic groups as classes in the ontology.  There could be an ontology term Mammal, such that Primates and Rodents are more particular types of Mammals (''is_a'' descendants).
+
+===Advantages===
+* Taxa are modeled as individuals.
 
 [[Category:Ontology]]
