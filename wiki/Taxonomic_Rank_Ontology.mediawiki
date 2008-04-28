@@ -6,7 +6,12 @@ A taxonomic rank ontology allows particular taxa to be treated as historical ind
 
 [[Image:TaxonomicRankDiagram.png|750px|thumb|Taxonomic rank ontology and sample instance data.  The ontology terms are surrounded by a grey background.  The "Continuant" term would reside in an upper ontology such as [http://www.ifomis.org/bfo BFO].  The instance data constitute a particular taxonomy.]]
 
-Previous attempts to represent taxonomy using ontology usually include taxonomic groups as classes in the ontology.  Individual organisms are seen as instances of those universal types.  There could be an ontology term Mammal, such that Primates and Rodents are more particular types of Mammals (''is_a'' descendants).  Taxonomies are even often used as examples to help explain ontology inheritance to new users.  This scheme fails to represent reality in several ways and is even misleading.
+Previous attempts to represent taxonomy using ontology usually include taxonomic groups as classes in the ontology.  Individual organisms are seen as instances of those universal types.  There could be an ontology term Mammal, such that Primates and Rodents are more particular types of Mammals (''is_a'' descendants).  Taxonomies are even often used as examples to help explain ontology inheritance to new users.  This scheme fails to represent reality in several ways and, as this page will demonstrate, is even misleading.
+
+
+===Inference with traditional taxonomy===
+One of the attractions of a traditional taxonomy for ontology builders that it supports the most common sort of reasoning for Description Logic ontologies.
+
 
 ===Problems with the "traditional" view===
 * The only criterion for inclusion within a taxonomic group is physical descent from a member of that group (we are assuming a taxonomy consistent with phylogeny).  There are no universal properties one could ascribe to members of "Mammalia", besides things the members happen to share at this moment.  "Hair" is often used an example of a Mammalian property; but of course its commonality is the result of its presence in the common ancestor of all mammals, and many mammals lack hair almost entirely.  A mammal species that had no hair at all would nevertheless still be a mammal. Such reversals are common in phylogenies and can occur for both morphological properties (e.g., loss of legs in snakes) and molecular characters (e.g., inferred origin of pseudogenes).
@@ -18,5 +23,7 @@ Instead treating taxa as types in an ontology, we can treat individual taxa as i
 ===Advantages===
 * Taxa are modeled as individuals.
 * Taxonomic rank terms are ordered through their ''part_of'' relationships.
+
+===Inference with an ontology of taxonomic ranks + instance graph of taxa===
 
 [[Category:Ontology]]
