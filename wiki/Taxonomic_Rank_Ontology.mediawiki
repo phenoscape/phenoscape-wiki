@@ -13,7 +13,7 @@ Previous attempts to represent taxonomy using ontology usually include taxonomic
 * Properties of a taxonomic group change through time: its geographic range, genetic and morphological diversity, etc.  It can go extinct.
 * Treating taxonomic groups as "classes" or "types" reinforces essentialist ideas of life forms, which evolutionary biology has completely overturned.  Essentialist thought is a hindrance to understanding of the evolutionary process.
 
-Instead treating taxa as types in an ontology, we can treat individual taxa as instances of the type Taxon, or more specifically as instances of some taxonomic rank.
+Instead treating taxa as types in an ontology, we can treat individual taxa as instances of the type Taxon, or more specifically as instances of some taxonomic rank (see figure above).
 
 ===Advantages===
 * Taxa are modeled as individuals.
