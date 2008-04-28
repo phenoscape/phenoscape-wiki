@@ -120,6 +120,8 @@ Or even:
   Davario aequipinnatus ------------>  Species -----------------> "portion of clade"
 
 
-This approach also provides a natural bridge to the use of Phylogenetic definitions, which more or less restrict taxonomic labels to monophyletic clades.
+This approach also provides a natural bridge to the use of Phylogenetic definitions, which more or less restrict taxonomic labels to monophyletic clades.  A more detailed description of this approach can be found [[Taxonomic Rank Ontology|here]].
 
 The major difficulties with such a model are potential conflicts with the OBO ontologies focus on classes, rather than individuals.
+
+[[Category:Ontology]]
