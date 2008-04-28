@@ -78,7 +78,7 @@ Members of the project team are in '''bold font'''.
 ==Papers for Annotation==
 *Miles Coburn
 #Cavender, Ted M., and Miles M. Coburn. 1992. Phylogenetic relationships of North American cyprinids. Pp. 293-327. In: Systematics, Historical Ecology, and North American Freshwater Fishes. R.L. Mayden (Ed.). Stanford University Press. Stanford, California. 969 p.
-#Coburn, Miles M., and Ted M. Cavender. 1992. Interrelationships of North American cyprinid fishes. Pp. 323-378 In: Systematics, Historical Ecology, and North American Freshwater Fishes. R.L. Mayden (Ed.). Stanford University Press.            Stanford, California. 969 p.
+#Coburn, Miles M., and Ted M. Cavender. 1992. Interrelationships of North American cyprinid fishes. Pp. 328-373 In: Systematics, Historical Ecology, and North American Freshwater Fishes. R.L. Mayden (Ed.). Stanford University Press.            Stanford, California. 969 p.
 #Hoffmann, M. and R. Britz. 2006. Ontogeny and homology of the neural complex of otophysan Ostariophysi. Zool. J. Linn. Soc. 147(3):301-330.
 #Weitzman, S.H. 1962. The osteology of Brycon meeki, a generalized characid fish, with an osteological definition of the family. Stanford Ichthy. Bull. 8(1): 1-77.
 #Sawada, Y. 1982. Phylogeny and zoogeography of the superfamily Cobitoidea (Cyprinoidei: Cypriniformes). Mem. Fact. Fish. Hokkaido Univ. 28:65-223.
