@@ -27,6 +27,7 @@ Instead treating taxa as types in an ontology, we can treat individual taxa as i
 ===Advantages===
 * Taxa are modeled as individuals.
 * Taxonomic rank terms are ordered through their ''part_of'' relationships.
+* Multiple part_of parents introduce fewer problems in inference than multiple is_a parents.  This is important as more cases of reticulate phylogeny, caused by, for example, cross species hybridization or horizontal gene transfer, are discovered.
 
 ===Inference with an ontology of taxonomic ranks + instance graph of taxa===
 
