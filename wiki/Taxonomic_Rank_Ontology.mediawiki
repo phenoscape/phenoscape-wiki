@@ -21,6 +21,7 @@ Instead treating taxa as types in an ontology, we can treat individual taxa as i
 
 ==Taxonomic Rank Ontology + Instance Graph of Taxonomy==
 
+Species are increasingly seen to be better modelled as individuals.
 
 ===Advantages===
 * Taxa are modeled as individuals.
@@ -28,5 +29,9 @@ Instead treating taxa as types in an ontology, we can treat individual taxa as i
 * Multiple part_of parents introduce fewer problems in inference than multiple is_a parents.  This is important as more cases of reticulate phylogeny, caused by, for example, cross species hybridization or horizontal gene transfer, are discovered.
 
 ===Inference with an ontology of taxonomic ranks + instance graph of taxa===
+
+==Taxonomic Ranks as Metaclasses==
+
+An approach that allows taxa to be viewed as both classes and individuals is to view rank terms, such as 'genus' as metaclasses.  A metaclass is a class of classes. This would mean that a particular genus, e.g., ''Danio'' is both a subclass of Cyprinidae and an instance of genus.  Metaclasses are used when assigning particular properties to a class as a class.  An example of where this might be used is in defining 'extinct', as contrasted with 'dead.'  Extinct is a property we want to inhere in certain taxa only when all their individual constituents are dead.  We wouldn't want this property to inhere in classes in a chemical ontology, so we could say that biological taxa are instances of a class of things that might be extinct, but classes of chemicals are not instances of such a class.
 
 [[Category:Ontology]]
