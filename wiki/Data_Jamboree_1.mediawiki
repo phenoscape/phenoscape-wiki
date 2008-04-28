@@ -2,7 +2,7 @@
 title: Data Jamboree 1
 ---
 
-{{EventBox1|The final report from this event is available [[Media:phenoscape.jamboree.apr08.pdf|here]].}}
+{{EventBox1|The final report from this event is available [[Media:phenoscape.jamboree.report.apr08.pdf|here]].}}
 
 <center><big>'''Linking Evolution to Genomics Using Phenotype Ontologies:'''<br/>'''First Morphology Data Jamboree'''</big><br/><br/>A workshop hosted by the National Evolutionary Synthesis Center (NESCent).</center>
 
