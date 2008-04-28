@@ -8,6 +8,8 @@ A taxonomic rank ontology allows particular taxa to be treated as historical ind
 
 Previous attempts to represent taxonomy using ontology usually include taxonomic groups as classes in the ontology.  Individual organisms are seen as instances of those universal classes.  There could be an ontology term Mammal, such that Primates and Rodents are more particular types of Mammals (''is_a'' descendants).  Taxonomies are even often used as examples to help explain ontology inheritance to new users.  This scheme fails to represent reality in several ways and is even misleading.
 
+===Problems===
+
 ===Advantages===
 * Taxa are modeled as individuals.
 
