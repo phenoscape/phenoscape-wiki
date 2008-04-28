@@ -15,5 +15,6 @@ Previous attempts to represent taxonomy using ontology usually include taxonomic
 
 ===Advantages===
 * Taxa are modeled as individuals.
+* Taxonomic rank terms are ordered through their ''part_of'' relationships.
 
 [[Category:Ontology]]
