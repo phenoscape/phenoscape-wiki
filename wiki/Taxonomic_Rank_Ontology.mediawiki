@@ -2,6 +2,6 @@
 title: Taxonomic Rank Ontology
 ---
 
-[[Image:TaxonomicRankDiagram.png|800px|thumb|Taxonomic rank ontology and sample instance data.  The ontology terms are surrounded by a grey background.  The "Continuant" term would reside in an upper ontology such as [http://www.ifomis.org/bfo BFO].]]
+[[Image:TaxonomicRankDiagram.png|750px|thumb|Taxonomic rank ontology and sample instance data.  The ontology terms are surrounded by a grey background.  The "Continuant" term would reside in an upper ontology such as [http://www.ifomis.org/bfo BFO].]]
 
 [[Category:Ontology]]
