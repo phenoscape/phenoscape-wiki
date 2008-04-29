@@ -38,7 +38,7 @@ For curators:
 Notes and annotation results:
 * [[WG:Notes_from_participants|Minutes from the jamboree (password protected)]]
 * [[WG:All-Hands_Meeting_21Apr08|Minutes from the project meeting (password protected)]]
-* [[Annotation Experiment|Annotation Experiment results]]
+* [[Data Jamboree 1/Annotation Experiment|Annotation Experiment results]]
 
 ==Logistics==
 
