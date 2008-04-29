@@ -14,6 +14,10 @@ We are in the process of developing a separate ontology of [[Taxonomic Ranks]]. 
 
 The Teleost Anatomy Ontology (TAO)  is a multi-species ontology and was initialized with the terms in the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology.
 
+== Fish Collection Codes ==
+
+[https://obo.svn.sourceforge.net/viewvc/obo/phenote/trunk/obo-files/fish_collection_abbreviation.obo?view=markup Fish Collection Abbreviations]
+
 == OBO Repository Deposition ==
 
 Although the anatomy as well as the taxonomy ontologies will keep changing to accommodate our curation needs, both have been admitted into the OBO CVS-based version-control system, from where the NCBO's BioPortal loads and updates ontologies on a regular basis.  Both [http://www.bioontology.org/ncbo/faces/pages/ontology_details.xhtml?ontology_display_name=Teleost%20anatomy%20and%20development%20(TAO) TAO] and [http://www.bioontology.org/ncbo/faces/pages/ontology_details.xhtml?ontology_display_name=Teleost%20taxonomy TTO] can be browsed, searched, and visualized at the NCBO BioPortal.
