@@ -115,4 +115,259 @@ Form of parasphenoid: (0) relatively straight anteroposteriorly and with posteri
 * Sanger, TJ and AR McCune. 2002. Comparative osteology of the Danio (Cyprinidae: Ostariophysi) axial skeleton with comments on Danio relationships based on molecules and morphology. Zoological Journal of the Linnean Society 135: 529-546. 
 * Zanata AM and Vari RP. 2005. The family Alestidae (Ostariophysi, Characiformes): a phylogenetic analysis of a trans-Atlantic clade. Zoological Journal of the Linnean Society 145: 1-144.
 
+====Raw Data from Participants====
+{| {{table}}
+| align="center" style="background:#f0f0f0;"|'''Character Number'''
+| align="center" style="background:#f0f0f0;"|'''Character State'''
+| align="center" style="background:#f0f0f0;"|'''Participant'''
+| align="center" style="background:#f0f0f0;"|'''Entity Name'''
+| align="center" style="background:#f0f0f0;"|'''Quality Name'''
+| align="center" style="background:#f0f0f0;"|'''Additional Entity Name'''
+| align="center" style="background:#f0f0f0;"|'''Count'''
+| align="center" style="background:#f0f0f0;"|'''Measurement'''
+| align="center" style="background:#f0f0f0;"|'''Unit Name'''
+|-
+| 1||0||key||intercalar||present||||||||
+|-
+| 1||0||1||intercalar||present||||||||
+|-
+| 1||0||2||intercalar||present||||||||
+|-
+| 1||0||3||intercalar||present||||||||
+|-
+| 1||0||4||intercalar||present||||||||
+|-
+| 1||1||key||intercalar||absent||||||||
+|-
+| 1||1||1||intercalar||absent||||||||
+|-
+| 1||1||2||intercalar||absent||||||||
+|-
+| 1||1||3||intercalar||absent||||||||
+|-
+| 1||1||4||intercalar||absent||||||||
+|-
+| 2||0||key||opercle||depth^relative_to(width)||||||<2 ||ratio
+|-
+| 2||0||1||opercle||depth^relative_to(width)||opercle||||<2||ratio
+|-
+| 2||0||2||opercle||||||||||
+|-
+| 2||0||3||opercle||increased width||decreased height||||||
+|-
+| 2||0||4||opercle||relational shape quality||||||<2||
+|-
+| 2||1||key||opercle||depth^relative_to(width)||||||>, = 2||
+|-
+| 2||1||1||opercle||depth^relative_to(width)||||||>, = 2||ratio
+|-
+| 2||1||2||opercle||||||||||
+|-
+| 2||1||3||opercle||increased height||decreased height||||||
+|-
+| 2||1||4||opercle||relational shape quality||||||2 or >||
+|-
+| 3||0||key||pelvic fin lepidotrichium||count||||11||||
+|-
+| 3||0||1||pelvic fin lepidotrichium||count||||11||||
+|-
+| 3||0||2||pelvic fin lepidotrichium||count||||11||||
+|-
+| 3||0||3||pelvic fin lepidotrichium||count||||11||||
+|-
+| 3||0||4||accessory pretectal nucleus||count||||11||||
+|-
+| 3||1||key||pelvic fin lepidotrichium||count||||9||||
+|-
+| 3||1||1||pelvic fin lepidotrichium||count||||9||||
+|-
+| 3||1||2||pelvic fin lepidotrichium||count||||9||||
+|-
+| 3||1||3||pelvic fin lepidotrichium||count||||9||||
+|-
+| 3||1||4||pelvic fin||count||||>11||||
+|-
+| 3||1||key||pelvic fin||count||||>11||||
+|-
+| 3||2||1||pelvic fin lepidotrichium||count||||11
+|-
+| 3||2||2||pelvic fin lepidotrichium||count||||11
+|-
+| 3||2||3||pelvic fin lepidotrichium||count||||11
+|-
+| 3||2||4||pelvic fin||count||||11
+|-
+| 4||0||key||basihyal||present ||||
+|-
+| 4||0||1||basihyal^is_a(bone)||present||||
+|-
+| 4||0||2||basihyal cartilage||ossified||||
+|-
+| 4||0||3||basihyal||ossified||||
+|-
+| 4||0||4||basihyal||ossified||||
+|-
+| 4||1||key||basihyal cartilage||present ||||
+|-
+| 4||1||1||basihyal cartilage||present||||
+|-
+| 4||1||2||basihyal cartilage||cartilaginous||||
+|-
+| 4||1||3||basihyal||cartilaginous||||
+|-
+| 4||1||4||basihyal||cartilaginous||||
+|-
+| 4||2||key||basihyal cartilage||absent||||
+|-
+| 4||2||1||basihyal||absent||||
+|-
+| 4||2||2||basihyal cartilage||absent||||
+|-
+| 4||2||3||basihyal||absent||||
+|-
+| 4||2||4||basihyal||absent||||
+|-
+| 5||0||key||nasal bone||separated from||mesethmoid bone||
+|-
+| 5||0||1||nasal bone^has_boundary(posterior)||position||mesethmoid bone||
+|-
+| 5||0||2||anterior margin^part_of(nasal bone)||separated from||mesethmoid bone||
+|-
+| 5||0||3||nasal bone||length^ends_earlier_than(length)||mesethmoid bone^part_of(lateral ethmoid process)||
+|-
+| 5||0||4||nasal bone||posterior to||||
+|-
+| 5||0||4||nasal bone||posterior to||||
+|-
+| 5||1||key||nasal bone||overlaps with||lateral ethmoid ventral wing||
+|-
+| 5||1||1||basihyal||composition||||
+|-
+| 5||1||2||anterior margin^part_of(nasal bone)||overlap with||mesethmoid bone||
+|-
+| 5||1||3||nasal bone||length^ends_during(length)||mesethmoid bone^part_of(lateral ethmoid process)||
+|-
+| 5||1||4||nasal bone||lateral to||||
+|-
+| 6||0||key||hypural^part_of(caudal fin)||count||||4
+|-
+| 6||0||1||hypural||count||caudal fin^has_integral_part(caudal fin upper lobe)||4
+|-
+| 6||0||2||hypural||count||caudal fin upper lobe||4
+|-
+| 6||0||3||caudal fin upper lobe^contains(hypural)||count||||4
+|-
+| 6||0||4||caudal fin upper lobe^arises_from(medial surface)||count||||4
+|-
+| 6||1||key||hypural^part_of(caudal fin)||count||||3
+|-
+| 6||1||1||hypural||count||caudal fin^has_integral_part(caudal fin upper lobe)||3
+|-
+| 6||1||2||hypural||count||caudal fin upper lobe||3
+|-
+| 6||1||3||caudal fin upper lobe^contains(hypural)||count||||3
+|-
+| 6||1||4||caudal fin upper lobe||count||||3
+|-
+| 7||0||key||bony projection^part_of(ventral surface)^part_of(posttemporal)||present||||
+|-
+| 7||0||1||posttemporal||present||posttemporal^has_part(specialized hemal arch and spine)||4
+|-
+| 7||0||2||bony projection^part_of(ventral surface)^part_of(posttemporal)||present||||
+|-
+| 7||0||3||bony projection^contained_in(posttemporal)||present||||
+|-
+| 7||0||4||bony projection^part_of(posttemporal)||absent||||
+|-
+| 7||0||key||bony projection^part_of(ventral surface)^part_of(posttemporal)||absent||||
+|-
+| 7||1||1||posttemporal||present||posttemporal^has_part(specialized hemal arch and spine)||3
+|-
+| 7||1||2||bony projection^part_of(ventral surface)^part_of(posttemporal)||absent||||
+|-
+| 7||1||3||bony projection^contained_in(posttemporal)||absent||
+|-
+| 7||1||4||bony projection^part_of(posttemporal)||present||
+|-
+| 8||0||key||frontal bone||in contact with||pterotic
+|-
+| 8||0||2||frontal bone||in contact with||pterotic
+|-
+| 8||0||3||frontal bone||||pterotic
+|-
+| 8||0||3||frontal bone||||pterotic
+|-
+| 8||0||4||frontal bone||||pterotic
+|-
+| 8||1||key||frontal bone||separated from||pterotic
+|-
+| 8||1||2||frontal bone||separated from||pterotic
+|-
+| 8||1||3||frontal bone||||pterotic
+|-
+| 8||1||4||frontal bone||||pterotic
+|-
+| 8||1||4||frontal bone||||pterotic
+|-
+| 9||0||key||proximal region^part_of(pharyngobranchial 1 bone)||anteriorly rotated||
+|-
+| 9||0||2||proximal region^part_of(pharyngobranchial 1 bone)||anterioralized||
+|-
+| 9||0||3||pharyngobranchial 1 bone||||
+|-
+| 9||0||4||anatomical region^arises_from(medial surface)^part_of(pharyngobranchial 1 bone)||anteriorly rotated||
+|-
+| 9||1||key||proximal region^part_of(pharyngobranchial 1 bone)||posteriorly rotated
+|-
+| 9||1||2||proximal region^part_of(pharyngobranchial 1 bone)||posterioralized
+|-
+| 9||1||3||pharyngobranchial 1 bone||
+|-
+| 9||1||4||anatomical region^arises_from(medial surface)^part_of(pharyngobranchial 1 bone)||posteriorly rotated
+|-
+| 10||0||key||infraorbital 6||triangular
+|-
+| 10||0||2||infraorbital 6||triangular
+|-
+| 10||0||3||infraorbital 6||shape
+|-
+| 10||0||4||infraorbital 4||posteriorly rotated
+|-
+| 10||1||key||infraorbital 6||tripartite
+|-
+| 10||1||2||infraorbital 6||tripartite
+|-
+| 10||1||3||infraorbital 6||shape
+|-
+| 10||1||4||infraorbital 4||posteriorly rotated
+|-
+| 10||2||key||infraorbital 6||cylindrical
+|-
+| 10||2||2||infraorbital 6||cylindrical
+|-
+| 10||2||3||infraorbital 6||shape
+|-
+| 10||2||4||infraorbital 4||anteriorly rotated
+|-
+| 11a||0||key||anterior/posterior axis^part_of(parasphenoid)||straight angle||||||||
+|-
+| 11a||0||4||parasphenoid||straight angle||||||||
+|-
+| 11a||0||2||anterior/posterior axis^part_of(parasphenoid)||straight angle||||||||
+|-
+| 11a||1||key||anterior/posterior axis^part_of(parasphenoid)||curved ventral||||||||
+|-
+| 11a||1||4||parasphenoid||curved ventral||||||||
+|-
+| 11a||1||2||anterior/posterior axis^part_of(parasphenoid)||curved||vertebral column||||||
+|-
+| 11b||0||key||posterior region^part_of(parasphenoid)||aligned with||anterior region^part_of(vertebral column)||||||
+|-
+| 11b||0||2||posterior region^part_of(parasphenoid)||aligned with||vertebral column||||||
+|-
+| 11b||1||key||posterior region^part_of(parasphenoid)||ventral to||anterior region^part_of(vertebral column)||||||
+|-
+| 11b||1||2||posterior region^part_of(parasphenoid)||ventral to||||||||
+|}
+
 [[Category:Data Jamboree 1]]
