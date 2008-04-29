@@ -19,7 +19,7 @@ One of the attractions of a traditional taxonomy for ontology builders that it c
 * Treating taxonomic groups as "classes" or "types" reinforces essentialist ideas of life forms, which evolutionary biology has completely overturned.  Essentialist thought is a hindrance to understanding of the evolutionary process. 
 * Most contemporary treatments of the species concept (refs) treat them, and in many cases higher taxa, as individuals, possessing a history.
 
-Instead treating taxa as types in an ontology, we can treat individual taxa as instances of the type Taxon, or more specifically as instances of some taxonomic rank (see figure above).
+Instead of treating taxa as types in an ontology, we can treat individual taxa as instances of the type Taxon, or more specifically as instances of some taxonomic rank (see figure above).
 
 ==Taxonomic Rank Ontology + Instance Graph of Taxonomy==
 
