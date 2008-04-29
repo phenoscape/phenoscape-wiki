@@ -2,6 +2,8 @@
 title: Taxonomic Ranks
 ---
 
+See also the [[Taxonomic Rank Ontology]] being under development.
+
 == Developing an Ontology for Taxonomic Ranks ==
 
 When the Teleost Taxonomy Ontology (TTO) was submitted to OBO, the suggestion was made that the terms for taxonomic ranks (e.g., Family, Genus, Species) should be broken out.  At present, taxonomic ranks are included in the TTO and cross referenced to similar terms in the NCBI taxonomy ontology.   Although the process of constructing an ontology of rank terms is straightforward, there are some semantic issues that need to be resolved.
