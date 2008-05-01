@@ -16,6 +16,6 @@ This activity includes entering the list of species as named in the publication 
 ===Character matrix===
 A character matrix provides the annotation of each species with a particular character state for each described character.  Many studies publish the data already in matrix form.  If a matrix is not available, the curator will need to prepare one representing the data for that publication.  The states in the matrix are linked to those described in [[#EQ character state coding]] by using corresponding character and character state numbers.  The taxon names in the character matrix must match Publication Taxon entries in the taxon list.  This activity may also include choosing an evidence code, from the evidence code ontology, for each state assignment (each cell).  If a matrix is available for a publication, this activity requires little work on the part of an experience curator.
 
-Output from each of these activities can be merged using a non-interactive script, producing resultant taxon-specific EQ annotations.
+'''Output from each of these activities can be merged using a non-interactive script, producing resultant taxon-specific EQ annotations.'''
 
 [[Category:Informatics]]
