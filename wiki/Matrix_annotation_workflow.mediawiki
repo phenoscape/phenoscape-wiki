@@ -11,6 +11,7 @@ This workflow is divided into 3 main activities, each of which can be performed 
 This activity involves the translation of published character states into ontology-based EQ descriptions.  This requires deep domain knowledge providing full comprehension of the published descriptions and thorough understanding of anatomy and quality ontologies.  This activity can be performed independent of annotations to particular taxa - the curator focuses only on describing the character states.  As such, the curator will need to deal with far fewer rows of data when working in Phenote, as compared to simultaneous taxon annotation.
 
 ===Taxon and specimen lists===
+This activity includes entering the list of species as named in the publication ("Publication Taxon") and choosing the matching taxon term from the TTO for each.  Also at this step the list of specimens studied is entered for each taxon.  This activity can be easily performed by an assistant with minimal training.
 
 ===Character matrix===
 
