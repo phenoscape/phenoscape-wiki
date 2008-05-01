@@ -18,4 +18,6 @@ A character matrix provides the annotation of each species with a particular cha
 
 '''Output from each of these activities can be merged using a non-interactive script, producing resultant taxon-specific EQ annotations.'''
 
+==Implementation proposal==
+
 [[Category:Informatics]]
