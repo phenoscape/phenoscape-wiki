@@ -14,5 +14,6 @@ This activity involves the translation of published character states into ontolo
 This activity includes entering the list of species as named in the publication ("Publication Taxon") and choosing the matching taxon term from the TTO for each.  Also at this step the list of specimens studied is entered for each taxon.  This activity can be easily performed by an assistant with minimal training.
 
 ===Character matrix===
+A character matrix provides the annotation of each species with a particular character state for each described character.  Many studies publish the data already in matrix form.  If a matrix is not available, the curator will need to prepare one representing the data for that publication.  The states in the matrix are linked to those described in 
 
 [[Category:Informatics]]
