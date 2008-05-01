@@ -1,0 +1,7 @@
+---
+title: Matrix annotation workflow
+---
+
+The first Phenoscape data jamboree revealed that our curation workflow implemented in Phenote could be quite cumbersome, particularly in managing the huge numbers of rows containing annotations for every taxon.  Discussion after the jamboree settled on a new workflow which allows more division of effort, allowing experienced curators to focus on the description of phenotypes using EQ while input of specimen lists and character matrices can be done separately, possibly by assistants.
+
+[[Category:Informatics]]
