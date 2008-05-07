@@ -1,0 +1,8 @@
+---
+title: Categories
+---
+
+== Category Tag Cloud ==
+<tagcloud></tagcloud>
+== Alphabetical Listing of Categories ==
+<categorylinks></categorylinks>
