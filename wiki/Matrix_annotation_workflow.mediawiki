@@ -40,7 +40,7 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 #* If starting with NEXUS file, paste into FindIt>NEXUS web page (to be developed)
 # FindIt>NEXUS web page will return a NEXUS file with corrected taxon names
 # Open NEXUS file in Mesquite
-# Enter free text character and character state descriptions as needed, save in NEXUS file
+# Enter free text character and character state descriptions, and matrix data, as needed, save in NEXUS file
 # Import NEXUS file into Phenote specimen list editor
 # Phenote will attempt to choose a TTO taxon for each publication taxon
 # Correct Phenote TTO choices as necessary
