@@ -45,5 +45,8 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 # Phenote will attempt to choose a TTO taxon for each publication taxon
 # Correct Phenote TTO choices as necessary
 # Enter specimens for each taxon
+# Enter EQ phenotypes for each character state in Phenote
+# Merge NEXUS file containing matrix with Phenote EQ file, using standalone tool
+# Evidence codes?
 
 [[Category:Informatics]]
