@@ -47,6 +47,6 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 # Enter specimens for each taxon
 # Enter EQ phenotypes for each character state in Phenote
 # Merge NEXUS file containing matrix with Phenote EQ file, using standalone tool
-# Evidence codes?
+# Evidence codes?  This sequence requires no modification to Mesquite, but leaves out evidence codes.
 
 [[Category:Informatics]]
