@@ -3,6 +3,6 @@ title: Categories
 ---
 
 == Category Tag Cloud ==
-<tagcloud></tagcloud>
+<tagcloud/>
 == Alphabetical Listing of Categories ==
-<categorylinks></categorylinks>
+<categorylinks/>
