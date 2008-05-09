@@ -89,7 +89,7 @@ Members of the project team are in '''bold font'''.
 *Kevin Conway
 #Conway, K. W., W-J Chen, and R. L. Mayden. 2008. The “Celestial Pearl danio” is a miniature Danio (s.s) (Ostariophysi: Cyprinidae): evidence from morphology and molecules. Zootaxa 1686:1-28
 #Conway, K. W., and R. L. Mayden. 2007. Gill Arches of Psilorhynchus (Ostariophysi: Psilorhynchidae). Copeia: 2007:267-280
-#Conway, K. W. 2005.  Monophyly of the genus Boraras (Teleostei: Cyprinidae)
+#Conway, K. W. 2005.  Monophyly of the genus Boraras (Teleostei: Cyprinidae). Ichthyological Exploration of Freshwaters 16(3): 249-264.
 
 *Mario de Pinna
 #de Pinna MCC. 1996. A phylogenetic analysis of the Asian catfish families Sisoridae, Akysidae, and Amblycipitidae, with a hypothesis on the relationships of the neotropical Aspredinidae (Teleostei, Ostariophysi). Fieldiana: Zoology (New Series) 84: 1-83.
