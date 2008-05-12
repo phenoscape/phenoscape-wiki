@@ -1,0 +1,28 @@
+---
+title: Teleost Anatomy Ontology
+---
+
+==Teleost Anatomy Ontology==
+
+The Teleost Anatomy Ontology (TAO) is a multi-species anatomy ontology for ostariophysan fishes. Growth of the TAO is enabled by contributions from data curators and the ichthyological community (see Anatomy Term Trackers).  
+
+===TAO and ZFA synchronization===
+The TAO was initialized with terms from the ZFA, and we currently maintain manual synchronization of the two ontologies.  A synchronization tool (in development) will help automate this process.  
+
+One of the challenges in synchronzing the two ontologies involves the addition of terms to the TAO that are not required for the ZFA.  The addition of these terms to the TAO may require the creation of additional intermediate terms that are redundant for the ZFA.  For example, zebrafish have only one type of tooth (ceratobranchial 5 tooth.  Other teleost species have teeth on the jaw bones and other branchial arch bones.  Because of this, the term ‘tooth’ is needed in the TAO as a parent to all tooth types:
+
+* TAO:
+** ceratobranchial 5 tooth is_a tooth
+** tooth is_a multitissue structure
+
+The term ‘tooth’ is redundant for the ZFA because zebrafish have only one type of tooth:
+
+* ZFA:
+**ceratobranchial 5 tooth is_a multi-tissue structure
+
+
+===Anatomy Term Trackers===
+
+Term requests should include the name of the term being requested, its definition in genus-differentia form, any known synonyms, and all relevant relationships of the term with other existing terms.
+
+If a term applies to zebrafish and teleost fishes, it should be submitted to the zebrafish term tracker.  If a term does not apply zebrafish, submit your request to the TAO term tracker.
