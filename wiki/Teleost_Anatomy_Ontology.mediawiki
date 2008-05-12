@@ -18,7 +18,6 @@ The term ‘tooth’ is redundant for the ZFA because zebrafish have only one ty
 * ZFA:
 **ceratobranchial 5 tooth is_a multi-tissue structure
 
-
 ===Anatomy Term Trackers===
 
 Term requests should include the name of the term being requested, its definition in genus-differentia form, any known synonyms, and all relevant relationships of the term with other existing terms.
