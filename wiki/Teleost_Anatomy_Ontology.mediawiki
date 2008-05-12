@@ -2,7 +2,7 @@
 title: Teleost Anatomy Ontology
 ---
 
-The Teleost Anatomy Ontology (TAO) is a multi-species anatomy ontology for ostariophysan fishes. Growth of the TAO is enabled by contributions from data curators and the ichthyological community (see [[#Anatomy Term Trackers|Anatomy Term Trackers]],
+The Teleost Anatomy Ontology (TAO) is a multi-species anatomy ontology for ostariophysan fishes. Growth of the TAO is enabled by contributions from data curators and the ichthyological community (see [[#Anatomy Term Trackers|Anatomy Term Trackers]]).
 
 ===TAO and ZFA synchronization===
 The TAO was initialized with terms from the ZFA, and we currently maintain manual synchronization of the two ontologies.  A synchronization tool (in development) will help automate this process.
