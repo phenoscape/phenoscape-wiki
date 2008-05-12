@@ -11,6 +11,7 @@ One of the challenges in synchronzing the two ontologies involves the addition o
 
 * TAO:
 ** ceratobranchial 5 tooth is_a tooth
+** premaxillary tooth is_a tooth
 ** tooth is_a multitissue structure
 
 The term ‘tooth’ is redundant for the ZFA because zebrafish have only one type of tooth:
