@@ -23,4 +23,4 @@ The term ‘tooth’ is redundant for the ZFA because zebrafish have only one ty
 
 Term requests should include the name of the term being requested, its definition in genus-differentia form, any known synonyms, and all relevant relationships of the term with other existing terms.
 
-If a term applies to zebrafish and teleost fishes, it should be submitted to the zebrafish term tracker.  If a term does not apply zebrafish, submit your request to the TAO term tracker.
+If a term applies to zebrafish and teleost fishes, it should be submitted to [http://sourceforge.net/tracker/?group_id=76834&atid=994726 Zebrafish anatomy tracker].  If a term does not apply zebrafish, submit your request to [http://sourceforge.net/tracker/?group_id=76834&atid=994764 Teleost anatomy tracker]
