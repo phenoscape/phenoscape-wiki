@@ -25,4 +25,10 @@ Term requests should include the name of the term being requested, its definitio
 
 If a term applies to zebrafish and teleost fishes, it should be submitted to [http://sourceforge.net/tracker/?group_id=76834&atid=994726 Zebrafish anatomy tracker].  If a term does not apply zebrafish, submit your request to [http://sourceforge.net/tracker/?group_id=76834&atid=994764 Teleost anatomy tracker].  Submitted requests are forwarded from the tracker to the [https://lists.sourceforge.net/lists/listinfo/obo-teleost-discuss Teleost-discuss mailing list].  Terms are added to the anatomy ontology usually within one week, and incorporates comments and suggestions (if any) from  teleost-discuss.
 
+===Homology===
+
+Homology links are important in the use of multi-species ontologies because homology is not implied if the same term is used in annotations for different species, and homology links are needed to define homology relations between different terms in the ontology. Terms in the anatomy ontology are defined based on structural similarity, and it cannot be assumed that this similarity is due to common ancestry.  For example, zebrafish and humans both possess a frontal bone; however, there is evidence that the zebrafish frontal bone is homologous to the human parietal bone. Our use of the homologous_to relation between entities that are homologues will help clarify the identity of such similarly named but nonhomologous bones. 
+
+We have developed a method for homology designation by recording homology statements outside of the ontology, as an annotation with attribution and evidence codes.  Homology statements are hypotheses, and users of our database will have the option of viewing competing hypotheses of homology when they occur.
+
 [[Category:Ontology]]
