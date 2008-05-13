@@ -44,7 +44,6 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 # Open Mesquite or MacClade
 # Open NEXUS file (this file will have Publication Taxon name list as per above)
 # Enter matrix data (0,1,2, etc. for each character); save in NEXUS file
-# Import NEXUS file into Phenote specimen list editor
 
 ===Detailed steps for Specimen entry===
 # Import NEXUS file into Phenote specimen list editor 
