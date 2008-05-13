@@ -41,8 +41,10 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 # FindIt>NEXUS web page will return a NEXUS file with corrected taxon names (Jim:   what are "corrected taxon names"?) Some of the results from Findit will be garbage, e.g. river names, etc. that the curator will need to edit out.
 # Open NEXUS file in Mesquite
 ==Detailed steps for Character Matrix entry==
+# Open Mesquite or MacClade
 # Enter matrix data (0,1,2, etc. for each character); save in NEXUS file
 # Import NEXUS file into Phenote specimen list editor
+
 ==Detailed steps for Specimen entry==
 # Phenote will attempt to choose a TTO taxon for each publication taxon
 # Correct Phenote TTO choices as necessary
