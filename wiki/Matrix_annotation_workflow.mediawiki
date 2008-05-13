@@ -34,9 +34,9 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 *Save and read ontology data in custom block(s).
 *Make use of cell selection of matrix editor within separate evidence code panel.
 ==Detailed Workflow==
-===Detailed steps for obtaining a Publication Taxon List (creating a NEXUS file from results of Findit)===
-#* If starting from scratch, copy taxa from selectable PDF (or re-type, otherwise) into FindIt>NEXUS web page (to be developed)
-#* If starting with NEXUS file, paste into FindIt>NEXUS web page (to be developed)
+===Detailed steps for obtaining a Publication Taxon List in NEXUS file format (creating a NEXUS file from results of Findit)===
+# If starting from scratch, copy taxa from selectable PDF (or re-type, otherwise) into FindIt>NEXUS web page (to be developed)
+# If starting with NEXUS file, paste into FindIt>NEXUS web page (to be developed)
 # FindIt>NEXUS web page will return a NEXUS file with corrected taxon names (Jim:   what are "corrected taxon names"?) Some of the results from Findit will be garbage, e.g. river names, etc. that the curator will need to edit out.
 
 ===Detailed steps for Character Matrix entry===
