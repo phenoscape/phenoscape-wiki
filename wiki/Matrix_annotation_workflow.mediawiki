@@ -39,7 +39,7 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 #* If starting from scratch, copy taxa from selectable PDF (or re-type, otherwise) into FindIt>NEXUS web page (to be developed)
 #* If starting with NEXUS file, paste into FindIt>NEXUS web page (to be developed)
 # FindIt>NEXUS web page will return a NEXUS file with corrected taxon names (Jim:   what are "corrected taxon names"?) Some of the results from Findit will be garbage, e.g. river names, etc. that the curator will need to edit out.
-# Open NEXUS file in Mesquite 
+# Open NEXUS file in Mesquite
 # Enter free text character and character state descriptions, and matrix data, as needed, save in NEXUS file
 # Import NEXUS file into Phenote specimen list editor
 # Phenote will attempt to choose a TTO taxon for each publication taxon
@@ -47,6 +47,6 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 # Enter specimens for each taxon
 # Enter EQ phenotypes for each character state in Phenote
 # Merge NEXUS file containing matrix with Phenote EQ file, using standalone tool
-# Evidence codes?  This sequence requires no modification to Mesquite, but leaves out evidence codes.
+# Evidence codes:  These will be assigned in Phenote.  If there is a matrix in the paper, we will assign IVS to all species, characters, and character states.   This sequence requires no modification to Mesquite, but leaves out evidence codes.
 
 [[Category:Informatics]]
