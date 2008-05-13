@@ -79,9 +79,9 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 ===Creation of Taxon List===
 # Taxon List is created using the current Phenote interface and file format
 
-===Detailed steps for Character Matrix entry===
-# Open Mesquite or MacClade
-# Open NEXUS file (this file will have Publication Taxon name list as per above)
+===Creation of NEXUS file and Character Matrix entry===
+# Phenote exports NEXUS file with Publication Taxon names from the taxon list
+# Open file in Mesquite, MacClade, or excel (possible?)
 # Enter matrix data (0,1,2, etc. for each character); save in NEXUS file
 
 ===Detailed steps for Specimen entry===
