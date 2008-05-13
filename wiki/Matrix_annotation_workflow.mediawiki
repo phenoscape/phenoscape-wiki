@@ -47,6 +47,7 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 # Import NEXUS file into Phenote specimen list editor
 
 ===Detailed steps for Specimen entry===
+# Import NEXUS file into Phenote specimen list editor 
 # Phenote will attempt to choose a TTO taxon for each publication taxon
 # Correct Phenote TTO choices as necessary
 # Enter specimens for each taxon
