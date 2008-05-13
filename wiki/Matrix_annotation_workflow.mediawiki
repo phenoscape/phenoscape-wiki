@@ -78,6 +78,7 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 ==Detailed Workflow 2==
 ===Creation of Taxon List===
 # Taxon List is created using the current Phenote interface and file format
+# Specimen information (vouchers) are entered at this step
 
 ===Creation of NEXUS file and Character Matrix entry===
 # Phenote exports NEXUS file with Publication Taxon names from the taxon list
@@ -88,7 +89,7 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 # Import NEXUS file into Phenote specimen list editor (NEXUS file will come from above or directly from author; if from author directly, some publication names may need to be edited (e.g. if genus is abbreviated))
 # Phenote will attempt to choose a TTO taxon for each publication taxon
 # Correct Phenote TTO choices as necessary
-# Enter specimens for each taxon
+# Previously entered specimen information should appear at this step
 
 ===Detailed steps for EQ entry which can happen in parallel to Taxon entry above===
 # Curator enters EQ phenotypes for each character state in Phenote; add free text character descriptions at this point; add Evidence codes (this will remain a Phenote function; if there is a matrix in the paper, we will assign IVS to all species, characters, and character states).
