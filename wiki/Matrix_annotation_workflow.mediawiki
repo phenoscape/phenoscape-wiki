@@ -47,8 +47,7 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 # Enter specimens for each taxon
 
 ==Detailed steps for EQ entry which can happen in parallel to Taxon entry above==
-# Curator enters EQ phenotypes for each character state in Phenote; add free text character descriptions at this point
-# Evidence codes:  This will remain a Phenote function.  If there is a matrix in the paper, we will assign IVS to all species, characters, and character states.   This sequence requires no modification to Mesquite, but leaves out evidence codes.
+# Curator enters EQ phenotypes for each character state in Phenote; add free text character descriptions at this point; add evidence codes:  This will remain a Phenote function.  If there is a matrix in the paper, we will assign IVS to all species, characters, and character states.   This sequence requires no modification to Mesquite, but leaves out evidence codes.
 # Merge NEXUS file containing matrix with Phenote EQ file, using standalone tool (this is where we have the creation of the Phenote Character Matrix; this will be editable and we can add more taxa or characters as required)
 
 [[Category:Informatics]]
