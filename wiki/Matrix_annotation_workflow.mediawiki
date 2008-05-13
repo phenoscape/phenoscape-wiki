@@ -35,7 +35,6 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 *Make use of cell selection of matrix editor within separate evidence code panel.
 ==Detailed Workflow==
 ===Detailed steps for Taxon entry (creating a NEXUS file from results of Findit)===
-# Obtain correct taxon list in NEXUS file
 #* If starting from scratch, copy taxa from selectable PDF (or re-type, otherwise) into FindIt>NEXUS web page (to be developed)
 #* If starting with NEXUS file, paste into FindIt>NEXUS web page (to be developed)
 # FindIt>NEXUS web page will return a NEXUS file with corrected taxon names (Jim:   what are "corrected taxon names"?) Some of the results from Findit will be garbage, e.g. river names, etc. that the curator will need to edit out.
