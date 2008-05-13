@@ -85,14 +85,14 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 # Open file in Mesquite, MacClade, or excel (possible?)
 # Enter matrix data (0,1,2, etc. for each character); save in NEXUS file
 
-===Detailed steps for Specimen entry===
+===Detailed steps for character matrix + specimen list merge===
 # Import NEXUS file into Phenote specimen list editor (NEXUS file will come from above or directly from author; if from author directly, some publication names may need to be edited (e.g. if genus is abbreviated))
 # Phenote will attempt to choose a TTO taxon for each publication taxon
 # Correct Phenote TTO choices as necessary
 # Previously entered specimen information should appear at this step
 
 ===Detailed steps for EQ entry which can happen in parallel to Taxon entry above===
-# Curator enters EQ phenotypes for each character state in Phenote; add free text character descriptions at this point; add Evidence codes (this will remain a Phenote function; if there is a matrix in the paper, we will assign IVS to all species, characters, and character states).
+# Curator enters EQ phenotypes for each character state in Phenote; add free text character descriptions at this point; add Evidence codes (this will remain a Phenote function; if there is a matrix in the paper, we will assign IVS to all species, characters, and character states in bulk).
 # Merge NEXUS file containing matrix with Phenote EQ file, using standalone tool (this is where we have the creation of the Phenote Character Matrix; this will be editable and we can add more taxa or characters as required)
 
 [[Category:Informatics]]
