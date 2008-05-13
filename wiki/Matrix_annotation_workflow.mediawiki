@@ -33,7 +33,7 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 *Need to be aware of editing of TAXA block in order to keep Valid Taxon list up-to-date.
 *Save and read ontology data in custom block(s).
 *Make use of cell selection of matrix editor within separate evidence code panel.
-
+==Detailed Workflow==
 ==Detailed steps for Taxon entry==
 # Obtain correct taxon list in NEXUS file
 #* If starting from scratch, copy taxa from selectable PDF (or re-type, otherwise) into FindIt>NEXUS web page (to be developed)
@@ -42,7 +42,7 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 
 ==Detailed steps for Character Matrix entry==
 # Open Mesquite or MacClade
-# Open NEXUS file (this file will have Publication Taxon name list as per above) 
+# Open NEXUS file (this file will have Publication Taxon name list as per above)
 # Enter matrix data (0,1,2, etc. for each character); save in NEXUS file
 # Import NEXUS file into Phenote specimen list editor
 
