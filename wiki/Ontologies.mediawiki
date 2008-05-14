@@ -4,9 +4,11 @@ title: Ontologies
 
 Evolutionary phenotypes will be described using the [http://www.bioontology.org/wiki/index.php/PATO:About Entity-Quality system], which combines morphological terms from an anatomical ontology (here: the Teleost Anatomy Ontology, TAO) with quality terms from the [http://www.bioontology.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)].
 
-== Taxonomy Ontology == 
+== Taxonomy Ontology ==
 
 Phenotypes will be associated with taxa using a [[taxonomy ontology]] derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes], the Teleost Taxonomy Ontology (TTO).
+
+There is now a page of [TTO_Changes] relative to the latest version generated from a dump from the Catalog of Fishes.
 
 We are in the process of developing a separate ontology of [[Taxonomic Ranks]].  These terms (e.g., family, genus, etc.) will then be removed from the TTO and links from taxonomic terms (property_value: has_rank) will be updated.
 
