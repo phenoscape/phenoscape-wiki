@@ -77,6 +77,8 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 
 ==Integrated workflow via NEXml==
 Ideally we could have a single file containing the character matrix and phenotype annotations, which the user could edit as needed in both Phenote and Mesquite.  This should be feasible using the new standard [http://www.nexml.org/ NEXml].
+===File creation===
+The user should be able to create a new NEXml file using either Mesquite or Phenote.  If an existing NEXUS matrix is available to start from, the user can open the NEXUS file in Mesquite and re-save it as NEXml.
 
 [[Category:Informatics]]
 [[Category: Curation]]
