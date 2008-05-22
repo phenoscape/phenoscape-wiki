@@ -76,3 +76,4 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 # Merge NEXUS file containing matrix with Phenote EQ file, using standalone tool (this is where we have the creation of the Phenote Character Matrix; this will be editable and we can add more taxa or characters as required)
 
 [[Category:Informatics]]
+[[Category: Curation]]
