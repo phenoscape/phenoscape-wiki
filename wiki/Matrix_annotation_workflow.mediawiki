@@ -75,5 +75,8 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 # Curator enters EQ phenotypes for each character state in Phenote; add free text character descriptions at this point; add Evidence codes (this will remain a Phenote function; if there is a matrix in the paper, we will assign IVS to all species, characters, and character states in bulk).
 # Merge NEXUS file containing matrix with Phenote EQ file, using standalone tool (this is where we have the creation of the Phenote Character Matrix; this will be editable and we can add more taxa or characters as required)
 
+==Integrated workflow via NEXml==
+Ideally we could have a single file containing the character matrix and phenotype annotations, which the user could edit as needed in both Phenote and Mesquite.  This should be feasible using the new standard [http://www.nexml.org/ NEXml].
+
 [[Category:Informatics]]
 [[Category: Curation]]
