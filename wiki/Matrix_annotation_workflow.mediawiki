@@ -91,7 +91,7 @@ The user should be able to create a new NEXml file using either Mesquite or Phen
 * Choose appropriate character state for each taxon in matrix.
 
 ====Tree editing====
-* The user can create and edit a phylogeny containing taxa from the taxon list.  This tree can be saved within the NEXml file.  ''Note, the new data-entry workflow contains no use cases involving phylogenies.''
+* Create and edit a phylogeny containing taxa from the taxon list.  This tree can be saved within the NEXml file.  ''Note, the new data-entry workflow contains no use cases involving phylogenies.''
 
 ===Phenote tasks===
 ====Taxon list editing====
