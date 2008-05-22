@@ -88,6 +88,8 @@ The user should be able to create a new NEXml file using either Mesquite or Phen
 * Create and edit list of states for each character, with free-text for each
 
 ====Matrix editing====
+* Enter appropriate character state for each taxon in matrix.
+
 ====Tree editing====
 * The user can create and edit a phylogeny containing taxa from the taxon list.  This tree can be saved within the NEXml file.  ''Note, the new data-entry workflow contains no use cases involving phylogenies.''
 
