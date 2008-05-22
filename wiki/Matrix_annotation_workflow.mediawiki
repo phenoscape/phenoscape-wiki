@@ -76,9 +76,22 @@ After the matrix and taxon list information are entered in Mesquite, all ontolog
 # Merge NEXUS file containing matrix with Phenote EQ file, using standalone tool (this is where we have the creation of the Phenote Character Matrix; this will be editable and we can add more taxa or characters as required)
 
 ==Integrated workflow via NEXml==
-Ideally we could have a single file containing the character matrix and phenotype annotations, which the user could edit as needed in both Phenote and Mesquite.  This should be feasible using the new standard [http://www.nexml.org/ NEXml].
+Ideally we could have a single file containing the character matrix and phenotype annotations, which the user could edit as needed in both Phenote and Mesquite.  This should be feasible using the new standard [http://www.nexml.org/ NEXml].  With this approach tasks could be performed in almost any order.  Some tasks could optionally be accomplished in both Phenote and Mesquite, while some are possible in only one or the other of the programs.
 ===File creation===
 The user should be able to create a new NEXml file using either Mesquite or Phenote.  If an existing NEXUS matrix is available to start from, the user can open the NEXUS file in Mesquite and re-save it as NEXml.
+
+===Mesquite tasks===
+====Taxon list editing====
+* Enter list of taxa, with free-text names as used in publication.
+====Character/character state editing====
+====Matrix editing====
+
+
+===Phenote tasks===
+====Taxon list editing====
+* Enter list of taxa, with free-text names as used in publication.
+* Choose TTO term for each taxon.
+====Character/character state editing====
 
 [[Category:Informatics]]
 [[Category: Curation]]
