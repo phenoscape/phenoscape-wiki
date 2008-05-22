@@ -97,6 +97,8 @@ The user should be able to create a new NEXml file using either Mesquite or Phen
 ====Taxon list editing====
 * Enter list of taxa, with free-text names as used in publication.
 * Choose TTO term for each taxon.
+* Enter list of specimens for each taxon, choosing museum code from fish collections ontology and entering free-text ID.
+
 ====Character/character state editing====
 * Create and edit list of characters, with free-text for each.
 * Create and edit list of states for each character, with free-text for each.
