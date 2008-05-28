@@ -15,10 +15,13 @@ Other ontologies:
 * [http://www.obofoundry.org/ro/ OBO-relations]
 
 The teleost [[taxonomy ontology|taxonomy]] and anatomy ontologies is now available:
-* [http://www.bioontology.org/ncbo/faces/pages/ontology_details.xhtml?ontology_display_name=Teleost%20taxonomy Teleost taxonomy]
+* [http://www.bioontology.org/ncbo/faces/pages/ontology_details.xhtml?ontology_display_name=Teleost%20taxonomy Teleost taxonomy] (generated, with some modifications, from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes])
 * [http://www.bioontology.org/ncbo/faces/pages/ontology_details.xhtml?ontology_display_name=Teleost%20anatomy%20and%20development%20(TAO) Teleost Anatomy Ontology (TAO)]
 
 It is generated, with some modifications, from: [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes].
+
+[[Category:Curation]]
+[[Category:Help]]
 
 ===On your desktop===
 
