@@ -117,8 +117,9 @@ The user should be able to create a new NEXml file using either Mesquite or Phen
 # In matrix view panel, only Publication Taxon names are viewed
 # Enter matrix data (0,1,2, etc. for each character); save file
 
-===Detailed steps for EQ entry which can happen in parallel to Taxon entry above===
-# Curator enters EQ phenotypes for each character state in Phenote; add free text character descriptions at this point; add Evidence codes (this will remain a Phenote function; if there is a matrix in the paper, we will assign IVS to all species, characters, and character states in bulk).
+===Detailed steps for EQ entry ===
+# Open NEXml file in Phenote
+# Go to Curator enters EQ phenotypes for each character state in Phenote; add free text character descriptions at this point; add Evidence codes (this will remain a Phenote function; if there is a matrix in the paper, we will assign IVS to all species, characters, and character states in bulk).
 # Merge NEXUS file containing matrix with Phenote EQ file, using standalone tool (this is where we have the creation of the Phenote Character Matrix; this will be editable and we can add more taxa or characters as required)
 
 [[Category:Informatics]]
