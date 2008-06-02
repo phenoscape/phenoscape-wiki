@@ -106,18 +106,19 @@ The user should be able to create a new NEXml file using either Mesquite or Phen
 * Create and edit list of states for each character, with free-text for each.
 * Created and edit 1 or more EQ phenotype statements for each character state.
 
-==Example of Integrated workflow via NEXml==
-===Creation of Taxon List===
+==Example 1 of Integrated workflow via NEXml==
+===Phenote: creation of Taxon List===
 # Taxon List is created using the current Phenote interface and file format
-# Specimen information (vouchers) are entered at this step
+# Valid taxon, publication taxon, and specimen information (vouchers) are entered at this step
+# File is saved in NEXml format
 
-===Creation of NEXUS file and Character Matrix entry===
-# Phenote exports NEXUS file with Publication Taxon names from the taxon list
-# Open file in Mesquite, MacClade, or excel (possible?)
-# Enter matrix data (0,1,2, etc. for each character); save in NEXUS file
+===Mesquite: creation of Character Matrix ===
+# Open NEXml file in Mesquite
+# In matrix view panel, only Publication Taxon names are viewed
+# Enter matrix data (0,1,2, etc. for each character); save file
 
 ===Detailed steps for character matrix + specimen list merge===
-# Import NEXUS file into Phenote specimen list editor (NEXUS file will come from above or directly from author; if from author directly, some publication names may need to be edited (e.g. if genus is abbreviated))
+# Open NEXml file into Phenote specimen list editor (NEXUS file will come from above or directly from author; if from author directly, some publication names may need to be edited (e.g. if genus is abbreviated))
 # Phenote will attempt to choose a TTO taxon for each publication taxon
 # Correct Phenote TTO choices as necessary
 # Previously entered specimen information should appear at this step
