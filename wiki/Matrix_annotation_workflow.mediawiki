@@ -106,5 +106,7 @@ The user should be able to create a new NEXml file using either Mesquite or Phen
 * Create and edit list of states for each character, with free-text for each.
 * Created and edit 1 or more EQ phenotype statements for each character state.
 
+==Example of Integrated workflow via NEXml==
+
 [[Category:Informatics]]
 [[Category: Curation]]
