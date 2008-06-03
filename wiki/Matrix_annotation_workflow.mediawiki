@@ -105,7 +105,7 @@ The user should be able to create a new NEXml file using either Mesquite or Phen
 * Create and edit list of characters, with free-text for each.
 * Create and edit list of states for each character, with free-text for each.
 * Created and edit 1 or more EQ phenotype statements for each character state.
-[[Image:vomer_shape.png|center|700px|thumb|The top of the panel shows the list of characters, as can also be viewed in Mesquite.  Select a character to see its possible states.  Select a state to view and enter EQ phenotype statements characterizing that state.]]
+[[Image:vomer_shape.png|center|700px|thumb|The top of the panel shows the list of characters, as can also be viewed in Mesquite.  Select a character to see its possible states.  Select a state to view and enter EQ phenotype statements characterizing that state.  This is a mockup only - the top half would likely be in its own moveable panel in Phenote, while the bottom half would be as standard moveable Phenote table.]]
 
 [[Image:dentary_teeth.png|center|700px|thumb|Select the next character and see its states and EQ annotations.]]
 
