@@ -100,7 +100,7 @@ The user should be able to create a new NEXml file using either Mesquite or Phen
 * Enter list of taxa, with free-text names as used in publication.
 * Choose TTO term for each taxon.
 * Enter list of specimens for each taxon, choosing museum code from fish collections ontology and entering free-text ID.
-[[Image:taxon_editing.png|center|700px|thumb|some text]]
+[[Image:taxon_editing.png|center|700px|thumb|Taxon list editing is essentially unchanged from previous versions of Phenote.  However, the list of free-text Publication Taxa can be viewed and edited in Mesquite as a Taxa block.  The TTO identifier and list of specimens will be stored but invisible in Mesquite.]]
 
 ====Character/character state editing====
 * Create and edit list of characters, with free-text for each.
