@@ -108,7 +108,7 @@ The user should be able to create a new NEXml file using either Mesquite or Phen
 * Created and edit 1 or more EQ phenotype statements for each character state.
 [[Image:vomer_shape.png|center|700px|thumb|The top of the panel shows the list of characters, as can also be viewed in Mesquite.  Select a character to see its possible states.  Select a state to view and enter EQ phenotype statements characterizing that state.  This is a mockup only - the top half would likely be in its own new moveable panel in Phenote, while the bottom half would be a standard moveable Phenote annotation table.]]
 
-[[Image:dentary_teeth.png|center|700px|thumb|Select the next character and see its states and EQ annotations.  The characters and character states can also be viewed and edited in Mesquite, but the EQ annotations cannot - when the file is opened with Mesquite, the EQ annotations will be stored but invisible. (Sorry, the EQ should be "absent" - it's just a typo)]]
+[[Image:dentary_teeth.png|center|700px|thumb|Select the next character and see its states and EQ annotations.  The characters and character states can also be viewed and edited in Mesquite, but the EQ annotations cannot - when the file is opened with Mesquite, the EQ annotations will be stored but invisible. (Sorry, the EQ should be "present" - it's just a typo)]]
 
 == Example of integrated workflow via NEXml==
 
