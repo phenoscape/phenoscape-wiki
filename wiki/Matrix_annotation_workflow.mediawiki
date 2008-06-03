@@ -112,7 +112,6 @@ The user should be able to create a new NEXml file using either Mesquite or Phen
 # Taxon List is created using the current Phenote interface
 # Valid taxon, publication taxon, and specimen information (vouchers) are entered at this step
 # File is saved in NEXml format
-
 # Note: if NEXUS file of character x taxon matrix is available, then workflow begins in Mesquite: NEXUS file needs to be converted to NEXml,and  taxon names might need editing if not recorded as binomials. The NEXml file is then opened in Phenote, and Valid Taxon names are autocompleted (if that's a possible feature, otherwise chosen manually)
 
 ===Mesquite: creation of Character Matrix ===
@@ -127,11 +126,9 @@ The user should be able to create a new NEXml file using either Mesquite or Phen
 # Free text character and state descriptions can also be added at this point
 # Curator enters EQ phenotypes for each character state
 
-
-
-
 ===Open issues===
 # Assignment of evidence codes: one idea is to enter evidence codes in a taxon x character matrix viewer in Phenote, with cells linked to the Evidence Code ontology
+# Taxon lists must have Publication Taxon recorded for each row; it would be efficient to have Pub Taxon autofilled from Valid Taxon cell where they are the same name, and manually typed where Pub Taxon is a synonym.
 
 [[Category:Informatics]]
 [[Category: Curation]]
