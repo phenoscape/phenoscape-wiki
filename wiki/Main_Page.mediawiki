@@ -2,42 +2,40 @@
 title: Main Page
 ---
 
-{{EventBox1|We have summer internship funding for graduate students and postdocs interested in gaining expertise in informatics and the application of ontologies to evolutionary, anatomical, developmental, and genetic data. See [http://www.nescent.org/about/employment.php#summer details on the NESCent employment page].}}
-
 {{EventBox1|Together with the National Center for Biomedical Ontologies (NCBO) we are organizing a [[Training and Workshops|Evolutionary Biology and Ontologies Workshop]], to be held in conjunction with the Evolution 2008 Meetings in Minneapolis, MN.}}
 
 {{EventBox1|A report from the recent [[Data_Jamboree_1|Data Jamboree]] at NESCent (April 18-20, 2008) is now available.}}
 
 ==Linking Evolution to Genomics Using Phenotype Ontologies==
 
-[[Image:NESCent Logo.png|right]] 
+[[Image:NESCent Logo.png|right]]
 ===About this project===
 
-What are the developmental and genetic bases of evolutionary differences in morphology across species?  Currently it is difficult to approach this question due to a lack of computational tools that allow researchers to integrate developmental genetic and comparative morphological/anatomical data.  
+What are the developmental and genetic bases of evolutionary differences in morphology across species?  Currently it is difficult to approach this question due to a lack of computational tools that allow researchers to integrate developmental genetic and comparative morphological/anatomical data.
 
 [[Image:Ctol Logo.jpg|right]] [[Image:Zfinlogo.png|left]] We are addressing this by developing a database of evolutionarily variable morphological characters for a large clade of fishes (the Ostariophysi) and connecting this database to the large collection of mutant phenotypes in the [http://zfin.org ZFIN database], the central database of the zebrafish model organism community. The evolutionary and mutant phenotypes are being described using common [[#The_Role_of_Ontologies|ontologies]].  The database with its web-interface, called EQSYTE (Entity-Quality System for Trait Evolution), together with the extended ontologies and data curation tools, will allow researchers to ask novel questions about the genetic and developmental regulation of evolutionary morphological transitions. Tool and database development are being guided by [http://en.wikipedia.org/wiki/Use_case use cases], or driving research questions, defined by the devo-evo community.  These tools are being developed under an open-source, open-development model, and in such a way that they can be used for additional biological systems in the future.
 
 [[Image:Deepfin Logo.gif|right]] This project is a unique collaboration between evolutionary and model organism biologists including two national centers ([http://www.nescent.org NESCent] and [http://www.bioontology.org NCBO]), the [http://zfin.org ZFIN model organism database], the [http://bio.slu.edu/mayden/cypriniformes/home.html Cypriniformes Tree of Life] project, the [http://www.deepfin.org/ DeepFin Research Coordination Network], and the morphological image databases used by the evolutionary biology community ([http://www.morphbank.net/ Morphbank], [http://morphobank.geongrid.org/ MorphoBank], [http://digimorph.org/ DigiMorph], [http://www.digitalfishlibrary.org/ Digital Fish Library]).
 
 ===The Role of Ontologies===
-[[Image:Ncbo logo.gif|right]] 
+[[Image:Ncbo logo.gif|right]]
 ====Background====
 
 Ontologies are constrained, structured vocabularies with well defined relationships among terms. Ontologies represent the knowledge-base of a particular discipline, and provide not only a mechanism for consistent annotation of data, but also greater interoperability among people and machines. The most widely used biological ontology is the [http://www.geneontology.org Gene Ontology], which is utilized to annotate molecular function, biological processes and subcellular localization to gene products from different organisms.
 
-====Phenotype ontologies==== 
+====Phenotype ontologies====
 
 [[Image:EAV4_layers_flat2.png|right|320px]] For model organisms : Approximately 500 mutant zebrafish lines (alleles) with over 660 annotated phenotypic characters from the jaw or gill arches (n=250), fins (n=210), axial skeleton (n=190) and other features (n=10) of the skeleton have been described. Researchers in the [http://www.zfin.org Zebrafish Information Network] (ZFIN) are annotating mutant phenotypes using the [http://obofoundry.org/cgi-bin/detail.cgi?id=zebrafish_anatomy&title=Zebrafish%20anatomy%20and%20development zebrafish anatomy ontology] and the [http://www.bioontology.org/wiki/index.php/PATO:Main_Page Phenotype And Trait Ontology] (PATO). PATO is a “universal” ontology of terms describing qualities (e.g. shape, color, size) that may be applied to any organism.
 
 ====Anatomical ontologies====
 
-We have initiated a multi-species ontology for ostariophysan fishes, the Teleost Anatomy Ontology (TAO), which was initialized with the terms in the zebrafish anatomical ontology.  The development of the TAO  is currently focused on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology.  
+We have initiated a multi-species ontology for ostariophysan fishes, the Teleost Anatomy Ontology (TAO), which was initialized with the terms in the zebrafish anatomical ontology.  The development of the TAO  is currently focused on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology.
 
 This multi-species anatomy ontology is being used in combination with the PATO ontology (see EQ format) to describe the comparative morphological characters.  We have also developed a separate catalog of homology statements for entities within the TAO, so that individual investigators may select particular relationships based on evidence.
 
 ====Taxonomic ontology====
 
-Together with taxonomic experts, we are developing a taxonomic ontology (based on the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes]) in order to relate species with particular characters and states.  The taxonomic ontology will include nodes ancestral to the Ostariophysi as far back as the Vertebrata in order to associate certain anatomical terms with more inclusive clades than the Ostariophysi.  
+Together with taxonomic experts, we are developing a taxonomic ontology (based on the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes]) in order to relate species with particular characters and states.  The taxonomic ontology will include nodes ancestral to the Ostariophysi as far back as the Vertebrata in order to associate certain anatomical terms with more inclusive clades than the Ostariophysi.
 
 ====Fish Morphology====
 
