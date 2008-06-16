@@ -5,13 +5,13 @@ title: Creating Taxon Lists
 =Creating Taxon Lists=
 The following instructions provide details on how to build a taxon list from a published materials list using Phenote+.
 
-* Create a new folder and name it for the publication you are annotating (e.g., Smith-2008, Smith&Gomez-2008, Smith-etal-2008).  You can either do this from the Finder/Windows Explorer or (later) from the file dialog box if you know how.
+# Create a new folder and name it for the publication you are annotating (e.g., Smith-2008, Smith&Gomez-2008, Smith-etal-2008).  You can either do this from the Finder/Windows Explorer or (later) from the file dialog box if you know how.
 
-Start Phenote.  Make sure that you are using the Taxon configuration of Phenote (to check, go to Settings>Set Configuration, and confirm that ‘phenoscape_taxon’ is chosen). 
+Start Phenote.  Make sure that you are using the Taxon configuration of Phenote (to check, go to Settings>Set Configuration, and confirm that ‘phenoscape_taxon’ is chosen).
 
 Create your file using File>Save, naming the file for the publication with the extension ‘.tab’ (e.g. Smith-2008.tab).
 
-1. Make a list of examined taxon names:
+#Make a list of examined taxon names:
 
 Choose the Taxon list tab and click the ‘+’ button to add an entry to the taxon list.
 
@@ -33,3 +33,5 @@ To add a specimen, click the ‘+’ button in the Specimens tab: the first line
 Occasionally, a specimen entry will be missing a collection code.  Just enter the specimen id, and make a comment in the Taxon Comments field (Annotation editor) or an external file (as appropriate).
 
 We are not recording the number of specimens listed for each lot or the preparations (e.g. skeletal, cleared & stained, etc.).
+
+[[Category:Curation]]
