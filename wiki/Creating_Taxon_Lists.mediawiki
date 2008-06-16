@@ -15,22 +15,19 @@ Create your file using File>Save, naming the file for the publication with the e
 
 Choose the Taxon List tab and click the ‘+’ button to add an entry to the taxon list.
 
-Go to: Annotation Editor, go to “Valid Taxon” and add a taxon name.  The paper that you are annotating has “Danio devario” in the Materials and Methods.   Begin typing this species name, and you will notice that “Danio devario[syn]” comes up in drop down menu.  When you chose this, you notice that the valid name “Devario devario” is automatically entered.  If taxon isn’t in the drop down, type the name into the field “Publication taxon”.  You may add any notes (e.g. “I must contact the author about a particular question”) in the taxon comments.  Same thing for “Genus sp.” type names (e.g. an author might list “Psilorynchus sp.” in their Materials and Methods with voucher specimens with it)
+Go to: Annotation Editor, go to “Valid Taxon” and add a taxon name.  The paper that you are annotating has “Danio devario” in the Materials and Methods.   Begin typing this species name, and you will notice that “Danio devario[syn]” comes up in drop down menu.  When you chose this,  notice that the valid name “Devario devario” is automatically entered.  If the taxon name isn’t in the drop down, type the name into the field “Publication Taxon”.  You may add any notes (e.g. “Name appears to be misspelled”) in the taxon comments.  Same thing for “Genus sp.” type names (e.g. an author might list “Psilorynchus sp.” in their Materials and Methods with voucher specimens with it)
 
 Hints: If the genus is misspelled in the paper, sometimes typing just the species name will find the correct binomial.
 
-In the Taxon list tab, the ‘-‘ button will delete the current entry.
+In the Taxon List tab, the ‘-‘ button will delete the current entry.
 
-Fossils need to be added to the Taxonomy ontology on a case by case basis.  Enter the fossil name in the Publication Taxon field (Annotation Editor), and then go to the Teleost Taxonomy tracker to request this name: http://sourceforge.net/tracker/?group_id=76834&atid=1046550
-(go to “Submit New" at upper left side of tracker page)
+===Add voucher specimens to the taxon names===
 
-2. Add voucher specimens to the taxon names:
+When you are finished adding all of the taxa, go to Specimens tab (if not there, choose View:Show:Annotation:Specimens from the main menu and the tab will be added, but it may be floating around behind your main screen).
 
-When you are finished adding all of the taxa, go to Specimens tab (if not there, choose View:Show:Annotate:Specimens from the main menu and the tab will be added, but it may be floating around behind your main screen).
+To add a specimen, click the ‘+’ button in the Specimens tab: the first line will be greyed.  Now click twice in the first cell in the collection code column and start typing the collection code.  When the desired collection abbreviation appears in the menu, select it from the menu or type the abbreviation and hit return/enter.  Now double-click on the adjacent cell in the Specimen ID column, and a box for entering text will appear – enter the ID (lot number) and press enter/return.  You may want to copy and paste this from the pdf of the paper that you are annotating in order to avoid making mistakes (but double-check that you are not pasting extra characters).  When there are multiple specimens listed for a taxon, use the ‘+’ button to add another row, and select cells in the second row to enter the collection code and specimen id.  Specimens will sometimes lack lot numbers; in this case, type 'uncat.' in the Specimen ID field.
 
-To add a specimen, click the ‘+’ button in the Specimens tab: the first line will be greyed.  Now click twice in the first cell in the collection code column and start typing the collection code.  When the desired collection abbreviation appears in the menu, select it from the menu or type the abbreviation and hit return/enter.  Now double-click on the adjacent cell in the Specimen ID column, and a box for entering text will appear – enter the id (lot number) and press enter/return.  You may want to copy and paste this from the pdf of the paper that you are annotating in order to avoid making mistakes.  When there are multiple specimens listed for a taxon, use the ‘+’ button to add another row, and select cells in the second row to enter the collection code and specimen id.
-
-Occasionally, a specimen entry will be missing a collection code.  Just enter the specimen id, and make a comment in the Taxon Comments field (Annotation editor) or an external file (as appropriate).
+Occasionally, a specimen entry will be missing a collection code.  Just enter the specimen id, and make a comment in the Taxon Comments field (Annotation editor) or an external file (as appropriate). 
 
 We are not recording the number of specimens listed for each lot or the preparations (e.g. skeletal, cleared & stained, etc.).
 
