@@ -23,8 +23,8 @@ Hints
 
 Note: Type the taxon name in the "Publication Taxon" field when you encounter the following situations:
 * Binomial (''Genus species'') does not appear in Valid Taxon drop-down menu
-* Unknown species is listed (e.g., Danio sp.)
-* Uncertainty in species identification is indicated (e.g., Danio cf. devario; Danio aff. devario)
+* "Genus sp." type name is given (e.g., ''Danio'' sp.; ''Devario'' sp. Big Spot)
+* Uncertainty in species identification is indicated (e.g., ''Danio'' cf. ''devario''; ''Danio'' aff. ''devario'')
 
 ===Add voucher specimens to the taxon names===
 
