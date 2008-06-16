@@ -5,27 +5,26 @@ title: Creating Taxon Lists
 The following instructions provide details on how to build a taxon list from a published materials list using Phenote+.
 
 ===Create and save your taxon list file===
-Create a new folder and name it for the publication you are annotating (e.g., Smith-2008, Smith&Gomez-2008, Smith-etal-2008).  You can either do this from the Finder/Windows Explorer or (later) from the file dialog box if you know how.
 
-Start Phenote.  Make sure that you are using the Taxon configuration of Phenote (to check, go to Settings>Set Configuration, and confirm that ‘phenoscape_taxon’ is chosen).
 
-Create your file using File>Save, naming the file for the publication with the extension ‘.tab’ (e.g. Smith-2008.tab).
+Start Phenote+.  Make sure that you are using the Taxon configuration of Phenote (to check, go to Settings>Set Configuration, and confirm that ‘phenoscape_taxon’ is chosen).
+
+Create and save your file using File>Save, naming the file for the publication (e.g. Smith-2008).
 
 ===Make a list of examined taxon names===
 
-Choose the Taxon List tab and click the ‘+’ button to add an entry to the taxon list: the first line will be gray.
+Choose the Annotation Table tab and click the ‘+’ button to add an entry to the taxon list: the first line will be gray.
 
-Go to: Annotation Editor, go to “Valid Taxon” and add a taxon name.  The paper that you are annotating has “''Danio devario''” in the Materials and Methods.   Begin typing this species name, and you will notice that “''Danio devario''[syn]” comes up in drop down menu.  When you chose this,  notice that the valid name “''Devario devario''” is automatically entered.  If the taxon name isn’t in the drop down, type the name into the field “Publication Taxon”.  You may add any notes (e.g. “Name appears to be misspelled”) in the taxon comments.
+Go to: Annotation Editor, go to Publication Taxon, and paste the taxon name into this field that you copied from the pdf Material and Methods list.  
+
+Now, paste the same taxon name into the “Valid Taxon” field.   
+
+An example of a problem you might have: the paper that you are annotating has “''Danio devario''” in the Materials and Methods.   Begin typing this species name, and you will notice that “''Danio devario''[syn]” comes up in drop down menu.  When you chose this,  notice that the valid name “''Devario devario''” is automatically entered.  If the taxon name isn’t in the drop down, type the name into the field “Publication Taxon”.  You may add any notes (e.g. “Name appears to be misspelled”) in the taxon comments.
 
 Hints
 *If the genus is misspelled in the paper, sometimes typing just the species name will find the correct binomial.
-*In the Taxon List tab, the ‘-‘ button will delete the current entry.
+*In the Annotation Table tab, the ‘-‘ button will delete the current entry.
 *All data entry can be done in the Annotation Table by double or triple clicking cells until a blinking cursor appears.
-
-Note: Type the taxon name in the "Publication Taxon" field when you encounter the following situations:
-* Binomial (''Genus species'') does not appear in Valid Taxon drop-down menu
-* "Genus sp." type name is given (e.g., ''Danio'' sp.; ''Devario'' sp. Big Spot)
-* Uncertainty in species identification is indicated (e.g., ''Danio'' cf. ''devario''; ''Danio'' aff. ''devario'')
 
 ===Add voucher specimens to the taxon names===
 
