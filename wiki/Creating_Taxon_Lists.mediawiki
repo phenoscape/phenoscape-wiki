@@ -4,6 +4,7 @@ title: Creating Taxon Lists
 
 The following instructions provide details on how to build a taxon list from a published materials list using Phenote+.
 
+==Create and save your taxon list file==
 1. Create a new folder and name it for the publication you are annotating (e.g., Smith-2008, Smith&Gomez-2008, Smith-etal-2008).  You can either do this from the Finder/Windows Explorer or (later) from the file dialog box if you know how.
 
 Start Phenote.  Make sure that you are using the Taxon configuration of Phenote (to check, go to Settings>Set Configuration, and confirm that ‘phenoscape_taxon’ is chosen).
