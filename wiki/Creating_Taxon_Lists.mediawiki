@@ -13,7 +13,7 @@ Create your file using File>Save, naming the file for the publication with the e
 
 ===Make a list of examined taxon names===
 
-Choose the Taxon list tab and click the ‘+’ button to add an entry to the taxon list.
+Choose the Taxon List tab and click the ‘+’ button to add an entry to the taxon list.
 
 Go to: Annotation Editor, go to “Valid Taxon” and add a taxon name.  The paper that you are annotating has “Danio devario” in the Materials and Methods.   Begin typing this species name, and you will notice that “Danio devario[syn]” comes up in drop down menu.  When you chose this, you notice that the valid name “Devario devario” is automatically entered.  If taxon isn’t in the drop down, type the name into the field “Publication taxon”.  You may add any notes (e.g. “I must contact the author about a particular question”) in the taxon comments.  Same thing for “Genus sp.” type names (e.g. an author might list “Psilorynchus sp.” in their Materials and Methods with voucher specimens with it)
 
