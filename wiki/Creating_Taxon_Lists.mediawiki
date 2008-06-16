@@ -40,19 +40,18 @@ Notes:
 ===When you finish a taxon list:===
 #Copy the file to "Taxon lists (phenote+)" folder on phenoscape-data
 # Endnote update: indicate completion in the Custom 3 field (Taxon lists) of the master Endnote file (on phenoscape-data).  See below for example:
-
 #Send email to taxon expert (ask Paula or Wasila if you don’t know), and always cc: Wasila, Peter, and Paula. Attach the Phenote+ taxon list.  Here is a sample email:
 
-Dear Curator,
+"Dear Curator,
 
- Attached is a copy of the taxon list for Schaefer 1990 that I just completed.  You will notice that the list of publication taxa is complete (copied and pasted from paper), but there are a number of valid taxa that are not apparently in the ontology (i.e. a valid name does not pop up when publication taxon name is entered in valid taxon field). 
+Attached is a copy of the taxon list for Schaefer 1990 that I just completed.  You will notice that the list of publication taxa is complete (copied and pasted from paper), but there are a number of valid taxa that are not apparently in the ontology (i.e. a valid name does not pop up when publication taxon name is entered in valid taxon field).
 
-  I am sending this to you (taxon expert for catfish) to choose the appropriate valid taxon name and to update this file. Please notify Peter Midford if any new names are required in the Taxonomy Ontology.  
+I am sending this to you (taxon expert for catfish) to choose the appropriate valid taxon name and to update this file. Please notify Peter Midford if any new names are required in the Taxonomy Ontology.
 
 After you are done, please post the updated Taxon list for this paper to the “Taxon lists (phenote+)" folder on phenoscape-data.
 
- Thank you!
+Thank you!
 
-Your name (Paula’s lab)
+Your name (Paula’s lab)"
 
 [[Category:Curation]]
