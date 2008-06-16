@@ -40,6 +40,7 @@ Notes:
 ===When you finish a taxon list:===
 #Copy the file to "Taxon lists (phenote+)" folder on phenoscape-data
 # Endnote update: indicate completion in the Custom 3 field (Taxon lists) of the master Endnote file (on phenoscape-data).  See below for example:
+[[Image:endnote-taxlist.jpg]]
 #Send email to taxon expert (ask Paula or Wasila if you don’t know), and always cc: Wasila, Peter, and Paula. Attach the Phenote+ taxon list.  Here is a sample email:
 
 "Dear Curator,
