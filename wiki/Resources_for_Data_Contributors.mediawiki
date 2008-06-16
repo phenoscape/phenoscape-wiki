@@ -124,7 +124,7 @@ The post-compose feature in Phenote allows addition of multiple differentia that
 ==Curatorial Best Practices==
 ===[[Guide to Character Annotation]]===
 
-=[[Creating Taxon Lists]]=
+===[[Creating Taxon Lists]]===
 
 ==Ontology change requests==
 
