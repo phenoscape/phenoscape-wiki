@@ -13,7 +13,7 @@ Create your file using File>Save, naming the file for the publication with the e
 
 ===Make a list of examined taxon names===
 
-Choose the Taxon List tab and click the ‘+’ button to add an entry to the taxon list.
+Choose the Taxon List tab and click the ‘+’ button to add an entry to the taxon list: the first line will be gray.
 
 Go to: Annotation Editor, go to “Valid Taxon” and add a taxon name.  The paper that you are annotating has “Danio devario” in the Materials and Methods.   Begin typing this species name, and you will notice that “Danio devario[syn]” comes up in drop down menu.  When you chose this,  notice that the valid name “Devario devario” is automatically entered.  If the taxon name isn’t in the drop down, type the name into the field “Publication Taxon”.  You may add any notes (e.g. “Name appears to be misspelled”) in the taxon comments.  Same thing for “Genus sp.” type names (e.g. an author might list “Psilorynchus sp.” in their Materials and Methods with voucher specimens with it)
 
@@ -25,7 +25,7 @@ In the Taxon List tab, the ‘-‘ button will delete the current entry.
 
 When you are finished adding all of the taxa, go to Specimens tab (if not there, choose View:Show:Annotation:Specimens from the main menu and the tab will be added, but it may be floating around behind your main screen).
 
-To add a specimen, click the ‘+’ button in the Specimens tab: the first line will be greyed.  Now click twice in the first cell in the collection code column and start typing the collection code.  When the desired collection abbreviation appears in the menu, select it from the menu or type the abbreviation and hit return/enter.  Now double-click on the adjacent cell in the Specimen ID column, and a box for entering text will appear – enter the ID (lot number) and press enter/return.  You may want to copy and paste this from the pdf of the paper that you are annotating in order to avoid making mistakes (but double-check that you are not pasting extra characters).  When there are multiple specimens listed for a taxon, use the ‘+’ button to add another row, and select cells in the second row to enter the collection code and specimen id.  Specimens will sometimes be listed as 'uncataloged' (e.g., MNHN uncat.); in this case, choose the appropriate museum abbreviation and type 'uncat.' in the Specimen ID field.
+To add a specimen, click the ‘+’ button in the Specimens tab.  Now click three times in the first cell in the collection code column (you will see a blinking cursor) and start typing the collection code (for example, MNHN).  When the desired collection abbreviation appears in the menu, select it from the menu or type the abbreviation and hit return/enter.  Now double-click on the adjacent cell in the Specimen ID column, and a box for entering text will appear – enter the ID (lot number) and press enter/return.  You may want to copy and paste this from the pdf of the paper that you are annotating in order to avoid making mistakes (but double-check that you are not pasting extra characters).  When there are multiple specimens listed for a taxon, use the ‘+’ button to add another row, and select cells in the second row to enter the collection code and specimen id.  Specimens will sometimes be listed as 'uncataloged' (e.g., MNHN uncat.); in this case, choose the appropriate museum abbreviation and type 'uncat.' in the Specimen ID field.
 
 Occasionally, a specimen entry will be missing a collection code.  Just enter the taxon name, and make a comment in the Taxon Comments field.
 
