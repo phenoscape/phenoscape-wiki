@@ -5,17 +5,20 @@ title: Training and Workshops
 == Evolutionary Biology and Ontologies Workshop: June 20, 2008 ==
 
 [[Image:Evolution2008-OntologyWorkshop.png|right]]
-This workshop will be held in conjunction with the [http://www.cce.umn.edu/conferences/evolution/ Evolution 2008] meeting in Minneapolis, MN, 20 June 2008. It is organized under the auspices of the [http://ncbo.us National Center for Biomedical Ontologies] (NCBO) in collaboration with the [http://www.nescent.org/ National Evolutionary Synthesis Center] (NESCent). 
+This workshop will be held in conjunction with the [http://www.cce.umn.edu/conferences/evolution/ Evolution 2008] meeting in Minneapolis, MN, 20 June 2008. It is organized under the auspices of the [http://ncbo.us National Center for Biomedical Ontologies] (NCBO) in collaboration with the [http://www.nescent.org/ National Evolutionary Synthesis Center] (NESCent).
 
 ; Organizers: Barry Smith (Buffalo), Paula Mabee (University of South Dakota), Todd Vision (University of North Carolina, Chapel Hill), Monte Westerfield (University of Oregon)
 
-; Focus: This meeting is focused on the application of ontologies to studies in evolutionary biology and related disciplines, with a particular emphasis on studies of the phenotype. 
+; Focus: This meeting is focused on the application of ontologies to studies in evolutionary biology and related disciplines, with a particular emphasis on studies of the phenotype.
 
-; Goals: 
-:# Introducing what ontologies are, how they should be built, what makes an ontology useful, and how ontologies help people collaborate across disciplines; 
-:# Giving illustrations of ontologies actually being used to address problems of interest to evolutionary biologists; 
-:# Networking and planning: what do we do next in order to advance ontology-based information integration in evolutionary biology? 
+; Goals:
+:# Introducing what ontologies are, how they should be built, what makes an ontology useful, and how ontologies help people collaborate across disciplines;
+:# Giving illustrations of ontologies actually being used to address problems of interest to evolutionary biologists;
+:# Networking and planning: what do we do next in order to advance ontology-based information integration in evolutionary biology?
 
 ; Registration: Registration will be open to attendees of the Evolution 2008 conference at no additional cost.
 
 Further information can be found at the [http://www.bioontology.org/wiki/index.php/Evolutionary_Biology_and_Ontologies workshop page at the NCBO wiki]. There is also a [http://www.nescent.org/documents/EBO_Flyer.pdf  workshop flier] for dissemination. Please feel free to distribute the flier to your colleagues and students.
+
+
+===Presentations===
