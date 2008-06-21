@@ -24,3 +24,6 @@ Further information can be found at the [http://www.bioontology.org/wiki/index.p
 ===Presentations===
 
 [[Media:Balhoff.pdf|Balhoff.pdf]]
+[[Media:Maglia.ppt|Maglia.ppt]]
+[[Media:Ramirez.ppt|Ramirez.ppt]]
+[[Media:Smith.ppt|Smith.ppt]]
