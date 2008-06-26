@@ -2,11 +2,10 @@
 title: Main Page
 ---
 
-{{EventBox1|Together with the National Center for Biomedical Ontologies (NCBO) we are organizing a [[Training and Workshops|Evolutionary Biology and Ontologies Workshop]], to be held in conjunction with the Evolution 2008 Meetings in Minneapolis, MN.}}
-
-{{EventBox1|A report from the recent [[Data_Jamboree_1|Data Jamboree]] at NESCent (April 18-20, 2008) is now available.}}
-
-{{EventBox1|Check out the new Phenoscape [http://blog.phenoscape.org/ blog]!}}
+{{EventBox1|
+*Together with the National Center for Biomedical Ontologies (NCBO) we have organized a [[Training and Workshops|Evolutionary Biology and Ontologies Workshop]], which was held in conjunction with the Evolution 2008 Meetings in Minneapolis, MN.
+*A report from the recent [[Data_Jamboree_1|Data Jamboree]] at NESCent (April 18-20, 2008) is now available.
+*Check out the new Phenoscape [http://blog.phenoscape.org/ blog]!}}
 
 ==Linking Evolution to Genomics Using Phenotype Ontologies==
 
