@@ -6,7 +6,7 @@ title: Resources for Data Contributors
 
 ===On the web===
 
-Many ontologies are available for browsing at the [http://www.bioontology.org/ncbo/faces/index.xhtml NCBO BioPortal].  For example:
+Many [[Ontologies|ontologies]] are available for browsing at the [http://www.bioontology.org/ncbo/faces/index.xhtml NCBO BioPortal].  For example:
 
 * [http://www.bioontology.org/ncbo/faces/pages/ontology_details.xhtml?ontology_display_name=Teleost%20anatomy%20and%20development%20(TAO) Teleost Anatomy Ontology (TAO)]
 
