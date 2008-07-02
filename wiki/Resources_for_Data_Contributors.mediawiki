@@ -18,6 +18,8 @@ Click the "Visualize" button on the ontology's homepage to browse it graphically
 Other ontologies:
 * [http://www.obofoundry.org/ro/ OBO-relations]
 
+*[http://www.bioontology.org/ncbo/faces/pages/ontology_details.xhtml?ontology_display_name=Spatial%20Ontology Spatial Ontology]
+
 [[Category:Curation]]
 [[Category:Help]]
 
