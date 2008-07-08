@@ -7,7 +7,9 @@ The following instructions provide details on how to build a taxon list from a p
 ===Create and save your taxon list file===
 
 
-Make sure that you have an internet connection before starting Phenote+ as the software will need to download updated ontology files when available.  After Phenote+ has started up, check that you are using the Taxon configuration of Phenote (to check, go to Settings>Set Configuration, and confirm that ‘phenoscape_taxon’ is chosen).
+Make sure that you have an internet connection before starting Phenote+ as the software will need to download updated ontology files when available.  
+
+Start up Phenote+, and check that you are using the Taxon configuration of Phenote (to check, go to Settings>Set Configuration, and confirm that ‘phenoscape_taxon’ is chosen).
 
 Create and save your file using File>Save, naming the file for the publication and including "taxon-list" in the name (e.g. Smith-2008-taxon-list).
 
