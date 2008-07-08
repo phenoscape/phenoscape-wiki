@@ -2,7 +2,7 @@
 title: Creating Taxon Lists
 ---
 
-The following instructions provide details on how to build a taxon list from a published materials list using Phenote+.
+The following instructions provide details on how to build a Taxon List from a published materials list using Phenote+.
 
 ===Create and save your taxon list file===
 
@@ -14,12 +14,11 @@ Make sure that you have an internet connection before starting Phenote+ as the s
 
 ===Make a list of examined taxon names===
 
-Choose the Annotation Table tab and click the ‘+’ button to add an entry to the taxon list: the first line will be gray.
+#Choose the Annotation Table tab and click the ‘+’ button to add an entry to the taxon list: the first line will be gray.
+#Go to: Annotation Editor panel, go to Publication Taxon, and paste the taxon name into this field that you copied from the pdf Material and Methods list.  
+#Now, paste the same taxon name into the “Valid Taxon” field.  Because the "Valid Taxon" field is linked to the taxonomy ontology, you should see a drop-down menu appear with the taxon name; hit return, and note that the name appears in the spreadsheet. (If the name does not appear in the drop-down box, see Issues and special cases, below).
 
-Go to: Annotation Editor, go to Publication Taxon, and paste the taxon name into this field that you copied from the pdf Material and Methods list.
-
-Now, paste the same taxon name into the “Valid Taxon” field.
-
+====Issues and special cases====
 An example of a problem you might have: the paper that you are annotating has “''Danio devario''” in the Materials and Methods.   Begin typing this species name in the Valid Taxon field, and you will notice that “''Danio devario''[syn]” comes up in drop down menu.  When you chose this,  notice that the valid name “''Devario devario''” is automatically entered.  If the taxon name isn’t in the drop down, type the name into the field “Publication Taxon”.  You may add any notes (e.g. “Name appears to be misspelled”) in the taxon comments.
 
 Note: If a taxon is not identified to species in the materials list, then leave the Valid Taxon field blank.  For example, ''Arius'' sp. might be listed in the materials list; do not choose ''Arius'' from Valid Taxon; simply type ''Arius'' sp. in Publication Taxon.  Likewise, an author may indicate uncertainty in a species identification (e.g., ''Devario'' cf. ''devario'' or ''Devario'' aff. ''devario'') and therefore Valid Taxon should be left blank.
