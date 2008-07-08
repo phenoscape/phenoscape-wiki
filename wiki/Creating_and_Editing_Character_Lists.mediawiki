@@ -4,7 +4,7 @@ title: Creating and Editing Character Lists
 
 **Instructions are in progress**
 
-The following instructions provide details on how to enter annotate phenotypes using the phenoscape-character configuration in Phenote+.
+The following instructions detail the mechanics of recording phenotypes using the phenoscape-character configuration in Phenote+.
 
 ===Step 1: create and save your character file===
 Make sure that you have an internet connection before starting Phenote+ as the software will need to download updated ontology files when available.
@@ -13,7 +13,7 @@ Make sure that you have an internet connection before starting Phenote+ as the s
 
 ===Step 2: annotate the first character===
 
-The following steps detail how to enter the first character listed in a publication, using the following as an example:
+Follow the steps below to enter the first character listed in a publication, using the following as an example:
 
 "Character 1. Presence or absence of antorbital: 0, absent; 1, present"
 
@@ -21,7 +21,7 @@ The following steps detail how to enter the first character listed in a publicat
 #Go to: '''Annotation Editor''' panel, go to the Publication field and type the name of the publication (e.g., Smith 2008  and DOI number if available) and hit enter/return. Note: this step can be done in bulk when the character file is completed.
 #Now type “1” in the Character Number field and hit enter/return. Likewise, enter “0” in the State Number field.
 #In the Textual Description field, paste the description of the character that you have copied from the pdf, and hit enter/return.
-#You are now ready to enter phenotype information for character 1, state 0.  In the Entity field, begin typing antorbital and you will see a drop down list appear. Complete typing the word or select from the drop down and hit enter/return.  
+#You are now ready to enter phenotype information for character 1, state 0.  In the Entity field, begin typing antorbital and you will see a drop down list appear. Complete typing the word or select from the drop down and hit enter/return.
 #Similarly, in the Quality field, enter absent, and hit enter/return.  You have completed the annotation for character 1, state 0.
 #To annotate the second state for this character, click the Duplicate button and you will see the duplicated row highlighted in grey. Change the State Number of this row to “1” and the Quality to “present”.  You have now completed annotation of character 1.
 
@@ -32,7 +32,7 @@ To annotate a second character, click the “+” button to add a new row.  Repe
 ====Suggestions and shortcuts====
 *You can enter data directly in the Annotation Table by double or triple clicking on a cell until a blinking cursor appears
 *Remember to periodically save your data (apple-S on a mac, or File>Save)
-*To enter information for multiple rows at once, hold down the "shift" key as you select rows in the Annotation Table with the mouse, then type your data in the appropriate field within the Annotation Editor. Hit enter/return and you will see the information applied to all selected rows.  
+*To enter information for multiple rows at once, hold down the "shift" key as you select rows in the Annotation Table with the mouse, then type your data in the appropriate field within the Annotation Editor. Hit enter/return and you will see the information applied to all selected rows.
 *If you cannot find the a term in an ontology, check to make sure that the appropriate ontology for your term is enabled in the ontology field (see screenshot below):
 [[Image:Ontology-drop-list.jpg]]
 
