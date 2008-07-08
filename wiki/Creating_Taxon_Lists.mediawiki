@@ -14,7 +14,7 @@ Make sure that you have an internet connection before starting Phenote+ as the s
 
 ===Make a list of examined taxon names===
 
-#Choose the '''Annotation Table''' panel and click the ‘+’ button to add an entry to the taxon list: the first line will be gray.
+#Choose the '''Annotation Table''' panel and click the ‘+’ button to add an entry to the taxon list: the first row will be gray.  Select the row by clicking on it; it will turn blue.
 #Go to:''' Annotation Editor''' panel, go to Publication Taxon, and paste the taxon name into this field that you copied from the pdf Material and Methods list.
 #Now, paste the same taxon name into the “Valid Taxon” field.  Because the "Valid Taxon" field is linked to the taxonomy ontology, you should see a drop-down menu appear with the taxon name; hit return, and note that the name appears in the spreadsheet. (If the name does not appear in the drop-down box, see '''Issues and special cases''', below).
 
