@@ -15,8 +15,9 @@ Make sure that you have an internet connection before starting Phenote+ as the s
 ===Make a list of examined taxon names===
 
 #Choose the '''Annotation Table''' panel and click the ‘+’ button to add an entry to the taxon list: the first row will be gray.  Select the row by clicking on it; it will turn blue.
-#Go to:''' Annotation Editor''' panel, go to Publication Taxon, and paste the taxon name into this field that you copied from the pdf Material and Methods list.
-#Now, paste the same taxon name into the “Valid Taxon” field.  Because the "Valid Taxon" field is linked to the taxonomy ontology, you should see a drop-down menu appear with the taxon name; hit return, and note that the name appears in the spreadsheet. (If the name does not appear in the drop-down box, see '''Issues and special cases''', below).
+#Go to:''' Annotation Editor''' panel, go to Publication Taxon, and paste the taxon name into this field that you copied from the pdf Material and Methods list and hit enter/return.
+#Now, paste the same taxon name into the “Valid Taxon” field.  Because the "Valid Taxon" field is linked to the taxonomy ontology, you should see a drop-down menu appear with the taxon name; hit enter/return, and note that the name appears in the spreadsheet. (If the name does not appear in the drop-down box, see '''Issues and special cases''', below).
+#Repeat steps 1-3 for the entire taxon list.
 
 ====Issues and special cases====
 #Synonyms: for example, the paper that you are annotating has “''Danio devario''” in the Materials list.  Paste this species name in the Valid Taxon field, and you will notice that “''Danio devario''[syn]” appears in the drop down menu.  When you chose this,  notice that the valid name “''Devario devario''” is automatically entered.  You should record "Danio devario" in the Publication Taxon list as a record of the name used by the author in that publication.
