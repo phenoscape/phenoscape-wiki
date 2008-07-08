@@ -4,7 +4,7 @@ title: Creating Taxon Lists
 
 The following instructions provide details on how to build a Taxon List from a published materials list using Phenote+.
 
-===Create and save your taxon list file===
+===Step 1: create and save your taxon list file===
 
 
 Make sure that you have an internet connection before starting Phenote+ as the software will need to download updated ontology files when available.
@@ -12,10 +12,11 @@ Make sure that you have an internet connection before starting Phenote+ as the s
 #Start up Phenote+, and check that you are using the Taxon configuration of Phenote (to check, go to Settings>Set Configuration, and confirm that ‘phenoscape_taxon’ is chosen).
 #Create and save your file using File>Save, naming the file for the publication and including "taxon-list" in the name (e.g. Smith-2008-taxon-list).
 
-===Make a list of examined taxon names===
+===Step 2: make a list of examined taxon names===
 
 #Choose the '''Annotation Table''' panel and click the ‘+’ button to add an entry to the taxon list: the first row will be gray.  Select the row by clicking on it; it will turn blue.
-#Go to:''' Annotation Editor''' panel, go to Publication Taxon, and paste the taxon name into this field that you copied from the pdf Material and Methods list and hit enter/return.
+#Go to:''' Annotation Editor''' panel, go to Publication, and type in the author(s) and year for the publication (e.g., Smith 2008), and hit enter/return.  Note: this step can be done in bulk when the the taxon list is completed.
+#Go to Publication Taxon, and paste the taxon name into this field that you copied from the pdf Material and Methods list and hit enter/return.
 #Now, paste the same taxon name into the “Valid Taxon” field.  Because the "Valid Taxon" field is linked to the taxonomy ontology, you should see a drop-down menu appear with the taxon name; hit enter/return, and note that the name appears in the spreadsheet. (If the name does not appear in the drop-down box, see '''Issues and special cases''', below).
 #Repeat steps 1-3 for the entire taxon list.
 
@@ -32,7 +33,7 @@ Note: Be sure to hit enter/return after typing or pasting data, otherwise Phenot
 *In the Annotation Table tab, the ‘-‘ button will delete the currently selected row(s).
 *All data entry can be done in the Annotation Table by double or triple clicking cells until a blinking cursor appears.
 
-===Add voucher specimens to the taxon names===
+===Step 3: add voucher specimens to the taxon names===
 
 #When you are finished adding all of the taxa, go to the '''Specimens''' tab (if not there, choose View>Show>Annotation>Specimens from the main menu and the tab will be added, but it may be floating around behind your main screen).
 #To add a specimen, click the ‘+’ button in the Specimens panel.  Now click three times in the first cell in the Collection Code column (you will see a blinking cursor) and start typing the collection code (for example, MNHN).  When the desired collection abbreviation appears in the menu, select it from the menu or type the abbreviation and hit return/enter.
