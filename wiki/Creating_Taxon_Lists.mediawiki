@@ -46,8 +46,7 @@ Notes:
 
 ===When you finish a taxon list:===
 #Copy the file to "Taxon lists (phenote+)" folder on phenoscape-data
-# Update the publications list on Google docs: indicate completion in the Taxon List column.  See below for example:
-[[Image:endnote-taxlist.jpg]]
+# Update the publications list on Google docs: indicate completion in the Taxon List column.  See below for example: [[Image:endnote-taxlist.jpg]]
 #Send email to taxon expert (ask Paula or Wasila if you don’t know), and always cc: the phenoscape-curators mailing list (Phenoscape-curators@lists.sourceforge.net). Attach the Phenote+ taxon list.  Here is a sample email:
 
 "Dear Curator,
