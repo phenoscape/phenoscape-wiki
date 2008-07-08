@@ -30,15 +30,16 @@ Make sure that you have an internet connection before starting Phenote+ as the s
 
 ===Add voucher specimens to the taxon names===
 
-When you are finished adding all of the taxa, go to the '''Specimens''' tab (if not there, choose View>Show>Annotation>Specimens from the main menu and the tab will be added, but it may be floating around behind your main screen).
-
-To add a specimen, click the ‘+’ button in the Specimens panel.  Now click three times in the first cell in the collection code column (you will see a blinking cursor) and start typing the collection code (for example, MNHN).  When the desired collection abbreviation appears in the menu, select it from the menu or type the abbreviation and hit return/enter.  Now double-click on the adjacent cell in the Specimen ID column, and a box for entering text will appear – enter the ID (lot number) and press enter/return.  You may want to copy and paste this from the pdf of the paper that you are annotating in order to avoid making mistakes (but double-check that you are not pasting extra characters).  If there are multiple specimens listed for a taxon, use the ‘+’ button to add another row, and select cells in the second row to enter the collection code and specimen ID.
+#When you are finished adding all of the taxa, go to the '''Specimens''' tab (if not there, choose View>Show>Annotation>Specimens from the main menu and the tab will be added, but it may be floating around behind your main screen).
+#To add a specimen, click the ‘+’ button in the Specimens panel.  Now click three times in the first cell in the Collection Code column (you will see a blinking cursor) and start typing the collection code (for example, MNHN).  When the desired collection abbreviation appears in the menu, select it from the menu or type the abbreviation and hit return/enter.  
+#Now double-click on the adjacent cell in the Specimen ID column, and a box for entering text will appear – enter the ID (lot number) and press enter/return.  You may want to copy and paste this from the pdf of the paper that you are annotating in order to avoid making mistakes (but double-check that you are not pasting extra characters).  
+#If there are multiple specimens listed for a taxon, use the ‘+’ button to add another row, and select cells in the second row to enter the collection code and specimen ID.
 
 Notes:
-*If you don't find the appropriate museum abbreviation, you can begin typing the full name of the museum (e.g., Los Angeles County Museum of Natural History) to see if the museum is listed under a different code than the one used in the paper.
-*Add a note in the Taxon Comments field if you can't find a museum name or code listed in the drop-down menu.  We will add it to Phenote+ later.
-*Occasionally, a specimen entry will be missing a collection code (e.g., no museum is listed next to the species name).  Just enter the taxon name, and make a comment in the Taxon Comments field.
+*If you don't find the appropriate museum abbreviation, you can begin typing the full name of the museum (e.g., Los Angeles County Museum of Natural History) to see if the museum is listed under a different code than the one used in the paper.  Make a note in Taxon Comments whenever a paper lists a code not present in Phenote+.  We will add the new code to Phenote+ later.
+*Likewise, if you can't find a museum name listed in the drop-down menu, make a note in the Taxon Comments field.
 *Specimens will sometimes be listed as 'uncataloged' (e.g., MNHN uncat.); in this case, choose the appropriate museum abbreviation and type 'uncat.' in the Specimen ID field.
+*Occasionally, a specimen entry will be missing a collection code (e.g., no museum is listed next to the species name; or the specimen is an uncataloged aquarium specimen).  Just enter the taxon name, leave Specimens fields blank, and make a comment in the Taxon Comments field.
 *If a paper has multiple consecutive lots containing specimens of the same species, the individual lots should be entered separately only when there are less than 10 lots listed; for example:
 #Materials List has KIZ 846140-846142;  Enter into Phenote as: KIZ 846140, KIZ 846141, KIZ 846142
 #Materials List has AMNH 20050 – 20075;  Enter into Phenote as: AMNH 20050 – 20075
