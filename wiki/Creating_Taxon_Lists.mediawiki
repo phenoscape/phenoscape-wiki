@@ -31,8 +31,8 @@ Make sure that you have an internet connection before starting Phenote+ as the s
 ===Add voucher specimens to the taxon names===
 
 #When you are finished adding all of the taxa, go to the '''Specimens''' tab (if not there, choose View>Show>Annotation>Specimens from the main menu and the tab will be added, but it may be floating around behind your main screen).
-#To add a specimen, click the ‘+’ button in the Specimens panel.  Now click three times in the first cell in the Collection Code column (you will see a blinking cursor) and start typing the collection code (for example, MNHN).  When the desired collection abbreviation appears in the menu, select it from the menu or type the abbreviation and hit return/enter.  
-#Now double-click on the adjacent cell in the Specimen ID column, and a box for entering text will appear – enter the ID (lot number) and press enter/return.  You may want to copy and paste this from the pdf of the paper that you are annotating in order to avoid making mistakes (but double-check that you are not pasting extra characters).  
+#To add a specimen, click the ‘+’ button in the Specimens panel.  Now click three times in the first cell in the Collection Code column (you will see a blinking cursor) and start typing the collection code (for example, MNHN).  When the desired collection abbreviation appears in the menu, select it from the menu or type the abbreviation and hit return/enter.
+#Now double-click on the adjacent cell in the Specimen ID column, and a box for entering text will appear – enter the ID (lot number) and press enter/return.  You may want to copy and paste this from the pdf of the paper that you are annotating in order to avoid making mistakes (but double-check that you are not pasting extra characters).
 #If there are multiple specimens listed for a taxon, use the ‘+’ button to add another row, and select cells in the second row to enter the collection code and specimen ID.
 
 Notes:
@@ -46,9 +46,9 @@ Notes:
 
 ===When you finish a taxon list:===
 #Copy the file to "Taxon lists (phenote+)" folder on phenoscape-data
-# Endnote update: indicate completion in the Custom 3 field (Taxon lists) of the master Endnote file (on phenoscape-data).  See below for example:
+# Update the publications list on Google docs: indicate completion in the Taxon List column.  See below for example:
 [[Image:endnote-taxlist.jpg]]
-#Send email to taxon expert (ask Paula or Wasila if you don’t know), and always cc: Wasila, Peter, and Paula. Attach the Phenote+ taxon list.  Here is a sample email:
+#Send email to taxon expert (ask Paula or Wasila if you don’t know), and always cc: the phenoscape-curators mailing list (Phenoscape-curators@lists.sourceforge.net). Attach the Phenote+ taxon list.  Here is a sample email:
 
 "Dear Curator,
 
