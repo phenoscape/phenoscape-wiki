@@ -38,9 +38,8 @@ Notes:
 *If you don't find the appropriate museum abbreviation, you can begin typing the full name of the museum (e.g., Los Angeles County Museum of Natural History) to see if the museum is listed under a different code than the one reported in the paper. If you still don't find the museum in the drop-down menu, make a note in the Taxon Comments field that the museum name is missing.
 *Occasionally, a specimen entry will be missing a collection code (e.g., no museum is listed next to the species name).  Just enter the taxon name, and make a comment in the Taxon Comments field.
 *Specimens will sometimes be listed as 'uncataloged' (e.g., MNHN uncat.); in this case, choose the appropriate museum abbreviation and type 'uncat.' in the Specimen ID field.
-*If a paper has multiple consecutive lots containing specimens of the same species, the individual lots should be entered separately only when there are less than 10 lots listed; for example: 
+*If a paper has multiple consecutive lots containing specimens of the same species, the individual lots should be entered separately only when there are less than 10 lots listed; for example:
 #Materials List has KIZ 846140-846142;  Enter into Phenote as: KIZ 846140, KIZ 846141, KIZ 846142
-
 #Materials List has AMNH 20050 – 20075;  Enter into Phenote as: AMNH 20050 – 20075
 
 ===When you finish a taxon list:===
