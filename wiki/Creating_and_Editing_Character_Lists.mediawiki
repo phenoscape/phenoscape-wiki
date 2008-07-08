@@ -31,9 +31,10 @@ You have now completed annotation of character 1.
 
 To annotate a second character, click the “+” button to add a new row.  Repeat the steps given above for character annotation.
 
-Hints:
+====Suggestions and shortcuts====
 *You can enter data directly in the Annotation Table by double or triple clicking on a cell until a blinking cursor appears
 *Remember to periodically save your data (apple-S on a mac, or File>Save)
+*You can enter information for multiple rows by holding down the "shift" key as you select rows with the mouse, then enter data in the appropriate field within the Annotation Editor.
 
 Notes:
 *If you are unsure of how to annotate a phenotype, complete all of the steps above except for EQ information.  Make a note in the Curator Notes field about the uncertainty in this annotation.
