@@ -20,8 +20,15 @@ title: Software roadmap
 * '''[complete]''' Allow user to create multiple, temporary annotation template lists while editing.  ''Not savable with current file format, however''
 * '''[complete]''' Include preset docking interface configuration for Phenoscape
 
-===Post-Data Jamboree revision -- May 2008===
-* move to OBO-annotations data model [http://wiki.geneontology.org/index.php/OBO:_1.3_Whiteboard]
+===Phenoscape editor with custom character-oriented interface 1.0 -- July 2008===
+* '''[complete]''' Browse and edit characters and character states, edit EQ phenotypes per character state
+* '''[complete]''' Browse and edit taxa, edit specimens per taxon
+* Load from and save to NeXML file format
+* New post-composition editing interface
+
+===Phenoscape editor 1.1===
+* User-customizable ontology preferences
+* Undo/redo support
 
 ===Unscheduled features===
 * Annotation using temporary terms, when an appropriate term is not available in an ontology. Ability to update these terms to official term once it is available.
@@ -36,6 +43,5 @@ title: Software roadmap
 * '''[complete]''' Curators are using OBO-Edit successfully.
 
 ==A database and web application to store and query the taxonomies, ontologies, and phenotype data==
-
 
 [[Category:Informatics]]
