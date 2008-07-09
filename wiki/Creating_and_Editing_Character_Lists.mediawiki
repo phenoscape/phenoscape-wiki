@@ -31,14 +31,11 @@ To annotate a second character, click the “+” button to add a new row.  Repe
 
 ====Suggestions and shortcuts====
 *You can enter data directly in the Annotation Table by double or triple clicking on a cell until a blinking cursor appears
-*Remember to periodically save your data (apple-S on a mac, or File>Save)
 *To enter information for multiple rows at once, hold down the "shift" key as you select rows in the Annotation Table with the mouse, then type your data in the appropriate field within the Annotation Editor. Hit enter/return and you will see the information applied to all selected rows.
-*If you cannot find the a term in an ontology, check to make sure that the appropriate ontology for your term is enabled in the ontology field (see screenshot below):
+*If you cannot find a term in the drop down menu for an ontology field, check to make sure that the appropriate ontology is enabled in the ontology field (see screenshot below).
 [[Image:Ontology-drop-list.jpg]]
-
-
-Notes:
 *If you are unsure of how to annotate a phenotype, complete all of the steps above except for EQ information.  Make a note in the Curator Notes field about the uncertainty in this annotation (e.g. Need to complete annotation).
 *If you cannot complete an annotation because you have requested a new anatomy term, indicate this in the Curator Notes column, (e.g., Anatomy term [indicate name] requested).
+*Remember to periodically save your data (apple-S on a mac, or File>Save) and back up your file to the "Character-EQ lists (phenote+) folder" on phenoscape-data file share.
 
-Back up your file to the "Character-EQ lists (phenote+) folder" on phenoscape-data file share.
+[[Category:Curation]]
