@@ -8,7 +8,7 @@ The following instructions detail the mechanics of recording phenotypes using th
 
 ===Step 1: create and save your character file===
 Make sure that you have an internet connection before starting Phenote+ as the software will need to download updated ontology files when available.
-#Start Phenote+ (click "Update All" if the update panel appears). Check that you are using the character configuration of Phenote+ (go to Settings>Set Configuration, and confirm that ‘phenoscape_character is chosen).
+#Start Phenote+ (click "Update All" if the update panel appears). Check that you are using the character configuration of Phenote+ (go to Settings>Set Configuration, and confirm that ‘phenoscape_character is chosen.  You may need to restart Phenote+ for the configuration to appear).
 #Create and save your file using File>Save, naming the file for the publication (e.g. Smith-2008-characters).
 
 ===Step 2: annotate the first character===
