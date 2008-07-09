@@ -25,9 +25,12 @@ Follow the steps below to enter the first character listed in a publication, usi
 #Similarly, in the Quality field, enter absent, and hit enter/return.  You have completed the annotation for character 1, state 0.
 #To annotate the second state for this character, click the Duplicate button and you will see the duplicated row highlighted in grey. Change the State Number of this row to “1” and the Quality to “present”.  You have now completed annotation of character 1.
 
-===Add a second character===
+===Step 3: add subsequent characters===
 
 To annotate a second character, click the “+” button to add a new row.  Repeat Step 2 above to record the character annotation.
+
+===Step 4: backup file to phenoscape file share===
+*Remember to periodically save your data (apple-S on a mac, or File>Save) and backup your file to the "Character-EQ lists (phenote+) folder" on phenoscape-data file share.
 
 ====Suggestions and shortcuts====
 *You can enter data directly in the Annotation Table by double or triple clicking on a cell until a blinking cursor appears
@@ -36,6 +39,5 @@ To annotate a second character, click the “+” button to add a new row.  Repe
 [[Image:Ontology-drop-list.jpg]]
 *If you are unsure of how to annotate a phenotype, complete all of the steps above except for EQ information.  Make a note in the Curator Notes field about the uncertainty in this annotation (e.g. Need to complete annotation).
 *If you cannot complete an annotation because you have requested a new anatomy term, indicate this in the Curator Notes column, (e.g., Anatomy term [indicate name] requested).
-*Remember to periodically save your data (apple-S on a mac, or File>Save) and back up your file to the "Character-EQ lists (phenote+) folder" on phenoscape-data file share.
 
 [[Category:Curation]]
