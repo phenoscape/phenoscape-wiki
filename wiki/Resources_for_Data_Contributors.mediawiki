@@ -37,7 +37,7 @@ You can download the ontologies as OBO files from the above web sites.  You can 
 
 * [[Phenote:Specimen List|A specimen list window]] allowing repeated annotation of the specimens within one publication.
 * [[Phenote:Phylogeny Chooser|A phylogeny view]] allowing application of an EQ annotation to all specimens from a clade at once.
-[[Term Requests|Term Requests]]
+
 
 For more information please see the [[Phenote User Guide]].
 
