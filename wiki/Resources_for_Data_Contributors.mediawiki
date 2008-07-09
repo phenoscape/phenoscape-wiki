@@ -37,13 +37,14 @@ You can download the ontologies as OBO files from the above web sites.  You can 
 
 * [[Phenote:Specimen List|A specimen list window]] allowing repeated annotation of the specimens within one publication.
 * [[Phenote:Phylogeny Chooser|A phylogeny view]] allowing application of an EQ annotation to all specimens from a clade at once.
+[[Term Requests|Term Requests]]
 
 For more information please see the [[Phenote User Guide]].
 
 ====Installation and start up====
 
 * You need Java 1.5 or newer to run Phenote.  For the Mac this requires Mac OS X 10.4 or newer.
-* Though you can launch Phenote using the [http://www.phenote.org/phenote/latest/phenote.jnlp webstart link], we recommend installing the latest in-progress build, packaged for Mac OS X or Windows. These builds will have the latest features. Please see the [[Phenote User Guide]] for details.  
+* Though you can launch Phenote using the [http://www.phenote.org/phenote/latest/phenote.jnlp webstart link], we recommend installing the latest in-progress build, packaged for Mac OS X or Windows. These builds will have the latest features. Please see the [[Phenote User Guide]] for details.
 * Choose the "phenoscape" configuration before beginning.
 * So far most curators are using the Excel-compatible tab-delimited format for saving files.
 
