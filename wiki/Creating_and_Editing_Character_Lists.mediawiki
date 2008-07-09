@@ -8,7 +8,7 @@ The following instructions detail the mechanics of recording phenotypes using th
 
 ===Step 1: create and save your character file===
 Make sure that you have an internet connection before starting Phenote+ as the software will need to download updated ontology files when available.
-#Start Phenote+. Make sure that you are using the character configuration of Phenote+ (to check, go to Settings>Set Configuration, and confirm that ‘phenoscape_character is chosen).
+#Start Phenote+. Check that you are using the character configuration of Phenote+ (go to Settings>Set Configuration, and confirm that ‘phenoscape_character is chosen).
 #Create and save your file using File>Save, naming the file for the publication (e.g. Smith-2008-characters).
 
 ===Step 2: annotate the first character===
@@ -38,7 +38,7 @@ To annotate a second character, click the “+” button to add a new row.  Repe
 
 
 Notes:
-*If you are unsure of how to annotate a phenotype, complete all of the steps above except for EQ information.  Make a note in the Curator Notes field about the uncertainty in this annotation.
-*If you cannot complete an annotation because you have requested a new anatomy term, indicate this in the Curator Notes column
+*If you are unsure of how to annotate a phenotype, complete all of the steps above except for EQ information.  Make a note in the Curator Notes field about the uncertainty in this annotation (e.g. Need to complete annotation).
+*If you cannot complete an annotation because you have requested a new anatomy term, indicate this in the Curator Notes column, (e.g., Anatomy term [indicate name] requested).
 
-**EC information
+Back up your file to the "Character-EQ lists (phenote+) folder" on phenoscape-data file share.
