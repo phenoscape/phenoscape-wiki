@@ -2,8 +2,6 @@
 title: Creating and Editing Character Lists
 ---
 
-**Instructions are in progress**
-
 The following instructions detail the mechanics of recording phenotypes using the phenoscape-character configuration in Phenote+.
 
 ===Step 1: create and save your character file===
@@ -20,7 +18,7 @@ Follow the steps below to enter the first character listed in a publication, usi
 #Choose the '''Annotation Table''' panel and click the ‘+’ button to add an entry to the character list: the first line will be gray. Select the row by clicking on it; it will turn blue.
 #Go to: '''Annotation Editor''' panel, go to the Publication field and type the name of the publication (e.g., Smith 2008  and DOI number if available) and hit enter/return. Note: this step can be done in bulk when the character file is completed.
 #Now type “1” in the Character Number field and hit enter/return. Likewise, enter “0” in the State Number field.
-#In the Textual Description field, paste the description of the character that you have copied from the pdf, and hit enter/return.  It is sufficient to paste only the character and state descriptions, not character discussion that some authors may include. 
+#In the Textual Description field, paste the description of the character that you have copied from the pdf, and hit enter/return.  It is sufficient to paste only the character and state descriptions, not character discussion that some authors may include.
 #You are now ready to enter phenotype information for character 1, state 0.  In the Entity field, begin typing antorbital and you will see a drop down list appear. Complete typing the word or select from the drop down and hit enter/return.
 #Similarly, in the Quality field, enter absent, and hit enter/return.  You have completed the annotation for character 1, state 0.
 #To annotate the second state for this character, click the Duplicate button and you will see the duplicated row highlighted in grey. Change the State Number of this row to “1” and the Quality to “present”.  You have now completed annotation of character 1.
