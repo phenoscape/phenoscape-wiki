@@ -16,17 +16,18 @@ title: Links
 
 ===Fish resources===
 
-* [http://www.zfin.org Zebrafish Information Network] (ZFIN) 
-* [http://www.deepfin.org/ DeepFin] 
-* [http://www.digitalfishlibrary.org/ Digital Fish Library]  
-* [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes]  
-* [http://fishbase.org/ FishBase] 
+* [http://www.zfin.org Zebrafish Information Network] (ZFIN)
+* [http://www.deepfin.org/ DeepFin]
+* [http://silurus.acnatsci.org/ All Catfish Species]
+* [http://www.digitalfishlibrary.org/ Digital Fish Library]
+* [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes]
+* [http://fishbase.org/ FishBase]
 
 ===Morphology image database resources===
 
 * [http://www.morphbank.net/ Morphbank]
-* [http://morphobank.geongrid.org/ MorphoBank]  
-* [http://digimorph.org/ Digimorph]  
+* [http://morphobank.geongrid.org/ MorphoBank]
+* [http://digimorph.org/ Digimorph]
 * [http://aug.csres.utexas.edu/PhylogenyWiki/ Morphster]
 
 ===Software===
@@ -37,12 +38,12 @@ title: Links
 ===NCBO BioPortal support requests===
 
 Support (for issues) and feature requests for the NCBO BioPortal can be submitted through the following venues (according to Benjamin Dai, BioPortal Lead Software Architect):
-* [https://bmir-gforge.stanford.edu/gf/project/bioportal/tracker/?action=TrackerItemBrowse&tracker_id=63 BioPortal issue tracker] at the BMIR GForge installation 
+* [https://bmir-gforge.stanford.edu/gf/project/bioportal/tracker/?action=TrackerItemBrowse&tracker_id=63 BioPortal issue tracker] at the BMIR GForge installation
 * Support email: [mailto:support%40bioontology%2eorg support&#64;bioontology&#46;org]
 
 '''NCBO BioPortal User Group:'''
 
-We are a (voting) member of the BioPortal User Group. The group has monthly teleconferences where new features are being discusses and subsequently prioritized through survey-voting. 
+We are a (voting) member of the BioPortal User Group. The group has monthly teleconferences where new features are being discusses and subsequently prioritized through survey-voting.
 
 * A Basecamp-based [https://ncboprojects.updatelog.com/projects/1487611/project/log BioPortal project management site] (login required) has User Group meeting presentations and other information.
 
