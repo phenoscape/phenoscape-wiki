@@ -58,7 +58,9 @@ Characters involving counts of entities are annotated using the “count” qual
  E: vertebra, Q: count, C: >38
  E: vertebra, Q: count, C: =/>48
 
-Could say here: Relationships across taxa between individual entities in a meristic series (e.g. vertebra 4 in a zebrafish vs. vertebra 4 in an eel), are not necessarily homologous.  These can be handled in several ways, and we will discuss them here.
+
+== Serial homologues == 
+Individual entities in a meristic series (e.g. vertebra 4 in a zebrafish vs. vertebra 4 in an eel), are not necessarily homologous across taxa. These can be handled in several ways, and we will discuss them here.
 
 == Refining terms  by post-composition ==
 
