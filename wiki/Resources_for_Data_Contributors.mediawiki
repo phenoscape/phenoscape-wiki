@@ -126,13 +126,13 @@ The post-compose feature in Phenote allows addition of multiple differentia that
 
 ==Curatorial Best Practices==
 
-===[[Creating Taxon Lists]]===
+====[[Creating Taxon Lists]]====
 
-===[[Creating and Editing Character Lists|Creating Character Lists]]===
+====[[Creating and Editing Character Lists|Creating Character Lists]]====
 
-===[[Term Requests|How to Submit Term Requests]]===
+====[[Term Requests|How to Submit Term Requests]]====
 
-===[[Guide to Character Annotation]]===
+====[[Guide to Character Annotation]]====
 
 [[Category:Curation]]
 
