@@ -19,11 +19,9 @@ The term ‘tooth’ is redundant for the ZFA because zebrafish have only one ty
 * ZFA:
 **ceratobranchial 5 tooth is_a multi-tissue structure
 
-===Anatomy Term Trackers===
+===Anatomy Term Tracker===
 
-Term requests should include the name of the term being requested, its definition in [[Guide_to_Character_Annotation#Genus-differentia_definitions|genus-differentia form]], any known synonyms, and all relevant relationships of the term with other existing terms.
-
-If a term applies to zebrafish and teleost fishes, it should be submitted to [http://sourceforge.net/tracker/?group_id=76834&atid=994726 Zebrafish anatomy tracker].  If a term does not apply zebrafish, submit the request to [http://sourceforge.net/tracker/?group_id=76834&atid=994764 Teleost anatomy tracker].  Submitted requests are forwarded from the tracker to the [https://lists.sourceforge.net/lists/listinfo/obo-teleost-discuss Teleost-discuss mailing list] and terms are added to the TAO usually within one week, with any comments or suggestions from  teleost-discuss incorporated. We invite you to join the teleost-discuss mailing list and contribute to the discussion of terms.
+The anatomy ontology is regulary updated to include new terms and developed based on feedback from the community.  Requests for changes are submitted to the anatomy term tracker and a summary is forwarded to the teleost-discuss mailing list for community discussion (see [[Term Requests | instructions on requesting terms]] for details). Terms are added to the TAO usually within one week, with any comments or suggestions from  teleost-discuss incorporated. We invite you to join the teleost-discuss mailing list and contribute to the discussion of terms.
 
 ===Homology===
 
