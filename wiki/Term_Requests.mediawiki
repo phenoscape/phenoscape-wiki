@@ -2,4 +2,19 @@
 title: Term Requests
 ---
 
-How to submit requests to anatomy and taxonomy term trackers
+The ontologies developed by Phenoscape are updated regularly, and requests from the community for improvement to the ontologies are welcome.  These requests are typically for addition of new terms and synonyms, new and refined definitions and relationships, and corrections for spelling errors. Requests are submitted to one of the SourceForge trackers, and automatically forwarded to the teleost-discuss mailing list so that other users can provide feedback on the request.
+
+===Create Your SourceForge Account===
+Although requests can be submitted without logging in, creating your own account has the advantage of allowing you to track the progress of your request by email and through your sourceforge account page. Go to the [http://sourceforge.net/ SourceForge homepage] to create your account (click on the "create account" link on the upper right corner of the page).
+
+===Submit a Request===
+# Log on to your [http://sourceforge.net/ SourceForge] account
+# Go to the tracker page approporiate for your request: [http://sourceforge.net/tracker/?group_id=76834&atid=994764 teleost anatomy tracker] or [http://sourceforge.net/tracker/?atid=1046550&group_id=76834&func=browse taxonomy tracker]. Once you have submitted your first request, you can also navigate to the tracker page by clicking on the "Tracker" link within your Personal Page.
+# Click "submit new" 
+# In the Category field, pick the approporiate category for your request (new term request, obsoletion request, or other term-related request)
+#  In the Assigned to field, choose the appropriate curator for your request: wdahdul if anatomy, pmidford if taxonomy related.
+#  In the Summary field, type in the name of the requested term, or short description of the subject.  The text entered here will appear in the Subject line of the subsquent email created for this request.
+#  Describe your request in the Detailed Description field.  It is helpful to include the following information when possible:  name of new term, proposed definition, relationships, synonyms, and relevant citations.  
+# When finished, click the Submit button.  You will then receive two emails related to this request: a confirmation email of your submission and the teleost-discuss email summarizing the request.
+
+[[Category:Curation]]
