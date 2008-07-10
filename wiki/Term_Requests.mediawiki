@@ -4,6 +4,8 @@ title: Term Requests
 
 The ontologies developed by Phenoscape are updated regularly, and requests from the community for improvement to the ontologies are welcome.  These requests are typically for addition of new terms and synonyms, new and refined definitions and relationships, and corrections for spelling errors. Requests are submitted to one of the SourceForge trackers, and automatically forwarded to the teleost-discuss mailing list so that other users can provide feedback on the request.
 
+[[Image:tracker-flowchart.jpg]]
+
 ===Create Your SourceForge Account===
 Go to the [http://sourceforge.net/ SourceForge homepage] to create your account (click on the "create account" link on the upper right corner of the page). Although requests can be submitted without logging in, creating your own account has the advantage of allowing you to track the progress of your request by email and through your sourceforge account page.
 
