@@ -10,11 +10,18 @@ Although requests can be submitted without logging in, creating your own account
 ===Submit a Request===
 # Log on to your [http://sourceforge.net/ SourceForge] account
 # Go to the tracker page approporiate for your request: [http://sourceforge.net/tracker/?group_id=76834&atid=994764 teleost anatomy tracker] or [http://sourceforge.net/tracker/?atid=1046550&group_id=76834&func=browse taxonomy tracker]. Once you have submitted your first request, you can also navigate to the tracker page by clicking on the "Tracker" link within your Personal Page.
-# Click "submit new" 
+# Click "submit new"
 # In the Category field, pick the approporiate category for your request (new term request, obsoletion request, or other term-related request)
 #  In the Assigned to field, choose the appropriate curator for your request: wdahdul if anatomy, pmidford if taxonomy related.
 #  In the Summary field, type in the name of the requested term, or short description of the subject.  The text entered here will appear in the Subject line of the subsquent email created for this request.
-#  Describe your request in the Detailed Description field.  It is helpful to include the following information when possible:  name of new term, proposed definition, relationships, synonyms, and relevant citations.  
-# When finished, click the Submit button.  You will then receive two emails related to this request: a confirmation email of your submission and the teleost-discuss email summarizing the request.
+#  Describe your request in the Detailed Description field.  It is helpful to include the following information when possible:  name of new term, proposed definition, relationships, synonyms, and relevant citations.
+# When finished, click the Submit button.  You will then receive two emails related to this request: a confirmation email of your submission and the teleost-discuss email summarizing the request. You'll receive a third email once the request is fulfilled and the tracker item closed by a Phenoscape curator.
+
+===Links===
+Bookmark the following pages within your internet browser.  Clicking on the bookmarks is the easiest way to go to the tracker page after logging on to SourceForge.
+
+[http://sourceforge.net/tracker/?group_id=76834&atid=994764 Teleost Anatomy Tracker] 
+
+[http://sourceforge.net/tracker/?atid=1046550&group_id=76834&func=browse Teleost Taxonomy Tracker]
 
 [[Category:Curation]]
