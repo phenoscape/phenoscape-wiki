@@ -58,10 +58,6 @@ Characters involving counts of entities are annotated using the “count” qual
  E: vertebra, Q: count, C: >38
  E: vertebra, Q: count, C: =/>48
 
-
-== Serial homologues == 
-Individual entities in a meristic series (e.g. vertebra 4 in a zebrafish vs. vertebra 4 in an eel), are not necessarily homologous across taxa. These can be handled in several ways, and we will discuss them here.
-
 == Refining terms  by post-composition ==
 
 Oftentimes the need arises to use a more granular term than is already present in the ontology, whether it is the anatomical entity or the quality. For example,  to prevent bloat, regions, margins, and projections of a bone are not in the anatomy ontology, but the bone itself is, and the concepts of margin, relative location of the margin (anterior, posterior, ventral, dorsal, etc), or bony projection are too, or are in other ontologies (spatial aspect, for example). Similarly, the directionality of a phenotype (such as a rotation, or curvature) isn't necessarily present in PATO, but the component terms necessary to express it are. The act of combining terms on-the-fly into cross-product terms is called post-composition, as opposed to pre-composed terms that are already in the ontology.
@@ -109,3 +105,6 @@ Length of infraorbital 2: (0) over twice as long as infraorbital 1; (1) less tha
  E1: Infraorbital 2, Q: decreased length, relative_to: infraorbital 1, Measurement: <2, Unit: ratio
 
 The qualities are post-composed.
+
+== Serial homologues ==
+Individual entities in a meristic series (e.g. vertebra 4 in a zebrafish vs. vertebra 4 in an eel), are not necessarily homologous across taxa. These can be handled in several ways, and we will discuss them here.
