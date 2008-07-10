@@ -20,7 +20,7 @@ Go to the [http://sourceforge.net/ SourceForge homepage] to create your account 
 # When finished, click the Submit button.  You will then receive two emails related to this request: a confirmation email of your submission and the teleost-discuss email summarizing the request. All subsequent discussion of the request will take place on the teleost-discuss mailing list. You'll receive a third email once the request is fulfilled and the tracker item closed by a Phenoscape curator.
 
 ===Links===
-Bookmark the following pages within your internet browser. Clicking on the bookmarks is the easiest way to go to the tracker page after logging on to SourceForge.
+Bookmark the following links within your internet browser, as clicking on the bookmarks is the easiest way to go to the tracker page after logging onto SourceForge.
 
 [http://sourceforge.net/tracker/?group_id=76834&atid=994764 Teleost Anatomy Tracker]
 
