@@ -2,17 +2,7 @@
 title: Guide to Character Annotation
 ---
 
-==Genus-differentia definitions==
 
-Term definitions in the teleost anatomy ontology (TAO) take the form of genus-differentia definitions:  B is an A that has X.
-
-The term B is defined by its membership in higher category A and distinguished from its sibling terms by characteristic X. The following are examples of genus-differentia definitions in the TAO:
-#''Antorbital:'' Dermal bone that is located on the anterior margin of the infraorbital series, dorsal to the first infraorbital and lateral to the nasal bone.
-#''Dentary:'' Dermal bone that forms the anterolateral part of the lower jaw.
-
-In example 1, the definition mentions the parent dermal bone of the term antorbital, followed by the characteristics that differentiate antorbital from all other dermal bones.
-
-Post-composed terms (terms created on-the-fly at the time of annotation) take the form of genus-differentia definitions (see Character Type 5, below).
 
 ==Evidence Codes==
 
@@ -37,7 +27,7 @@ The following are examples of character types commonly enountered in the systema
  E: pectoral fin, Q: present
  E: pectoral fin, Q: absent
 
-Note that “presence” is the parent term for absent and present, and should not be used in annotations. 
+Note that “presence” is the parent term for absent and present, and should not be used in annotations.
 
 ===Characters using monadic qualities===
 Monadic qualities are those that exist in a single entity, such as shape, and do not require another entity.  For example, annotation of “sigmoid-shaped supraorbital bone” is entered as:
@@ -62,12 +52,12 @@ Interhyal: (0) present and ossified; (1) present and cartilaginous; (2) absent
 
 ===Meristic data===
 Characters involving counts of entities are annotated using the “count” quality.  Values for counts are entered in the “count” field.  Note that ranges and lower or upper bounds can be recorded:
-	
- E: vertebra, Q: count, C: 33 
- E: vertebra, Q: count, C: 34-38
- E: vertebra, Q: count, C: >38 
 
-Could say here: Relationships across taxa between individual entities in a meristic series (e.g. vertebra 4 in a zebrafish vs. vertebra 4 in an eel), are not necessarily homologous.  These can be handled in several ways, and we will discuss them here. 
+ E: vertebra, Q: count, C: 33
+ E: vertebra, Q: count, C: 34-38
+ E: vertebra, Q: count, C: >38
+
+Could say here: Relationships across taxa between individual entities in a meristic series (e.g. vertebra 4 in a zebrafish vs. vertebra 4 in an eel), are not necessarily homologous.  These can be handled in several ways, and we will discuss them here.
 
 == Refining terms  by post-composition ==
 
@@ -78,14 +68,14 @@ Post-composed terms can be created in Phenote following the genus-differentia pr
 The order in which the terms are composed is important if the composition relationship is not reflexive (a relationship is reflexive iff A rel B <=> B rel A). Most relationships are not reflexive. As a general rule, choose the more general part as the genus, and then use the relationship and differentia to narrow down. For example, for "bony projection of the lateral ethmoid" use "bony projection" as the genus, and use the relationship and differentia to narrow down  which bony projection of the many that are possible you mean, such as using part_of for the relationship and "lateral ethmoid" as the differentia (formally, the "bony projections that is part_of the lateral ethmoid").
 
 Note that semantically, the post-composed term is equivalent to a pre-composed term, provided the pre-composed terms has both the inheritance relationship and the cross-product relationship properly recorded. For example,  "bony projecttion of lateral ethmoid" is-a "bony projection", and  "bony projection of lateral ethmoid" part-of "lateral ethmoid".
- 
+
 === Refining entity terms on-the-fly ===
 
 To post-compose the entity “bony projection of lateral ethmoid”, type “bony projection” in the Entity field, click the “Comp” button, select “part_of” in the relationship field, and type “lateral ethmoid” in differentia field.  Click OK.
 
 [[Image:postcomposition.png]]
 
-The post-composed term appears as 
+The post-composed term appears as
  E: bony projection ^part_of(lateral ethmoid)
 
 === Refining qualities using spatial terms ===
@@ -94,7 +84,7 @@ The Spatial Ontology is used to post-compose terms related to bone margins, surf
 Type “anterior margin” in the entity field and click the “comp” button.  Note that the term anterior margin is expanded in the Post Composition window because “anterior margin” is a pre-coordinated term in the Spatial Ontology (from "anatomical margin" that has the position "anterior").  Click the + button to add relationship = part_of and differentia = frontal bone.  Click the OK button.
 
 [[Image:postcomposition2.png]]
- 
+
 The post-composed term for anterior margin of frontal appears as:
  anatomical margin^has_position(anterior)^part_of(frontal bone)
 
@@ -103,16 +93,16 @@ As for semantics, identifiability, and rules for post-composing, the same applie
 === Refining size qualities by making them relative ===
 Because size qualities are monadic terms, comparison of size of one bone relative to another requires post-composition of the size quality.  For example, the character “frontal length greater than parietal length” is entered as:
 
- E: frontal 
+ E: frontal
  Q: increased length, relative_to partietal
 
 To post-compose the size quality, type ‘increased length’ in the quality field and click “comp” button. Select ‘relative_to’ in the relationship field and type ‘parietal’ in the differentia field., then  click OK. Note that this post-composition follows the same rule of starting with the general terms ("increased length") as the genus, and then refining it with a relationship and a differentia (the increased length that is relative_to the "parietal").
 
 ===Size qualities with ratio===
-For the characters in which a proportion or ratio is given in relating the length of one bone to another, the value of ratio is recorded. For example: 
+For the characters in which a proportion or ratio is given in relating the length of one bone to another, the value of ratio is recorded. For example:
 Length of infraorbital 2: (0) over twice as long as infraorbital 1; (1) less than twice as long as infraorbital 1. This would be indicated in Phenote as follows:
 
  E: infraorbital 2, Q: increased length, relative_to: infraorbital 1, Measurement: >2, Unit: ratio
  E1: Infraorbital 2, Q: decreased length, relative_to: infraorbital 1, Measurement: <2, Unit: ratio
- 
+
 The qualities are post-composed.
