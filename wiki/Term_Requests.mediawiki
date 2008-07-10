@@ -6,6 +6,8 @@ The ontologies developed by Phenoscape are updated regularly, and requests from 
 
 [[Image:tracker-flowchart.jpg]]
 
+Submit requests related to any aspect of fish anatomy to the Teleost Anatomy Ontology (TAO) tracker. Requests related to taxonomic names and museum codes should be submitted to the Teleost Taxonomy Ontology (TTO) tracker.
+
 ===Create Your SourceForge Account===
 Go to the [http://sourceforge.net/ SourceForge homepage] to create your account (click on the "create account" link on the upper right corner of the page). Although requests can be submitted without logging in, creating your own account has the advantage of allowing you to track the progress of your request by email and through your sourceforge account page.
 
