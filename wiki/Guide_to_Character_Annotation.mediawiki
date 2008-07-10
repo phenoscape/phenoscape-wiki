@@ -2,7 +2,6 @@
 title: Guide to Character Annotation
 ---
 
-
 ==Evidence Codes==
 
 We record phenotype descriptions as properties of species, and annotations are assigned one of three evidence codes based on the level of evidence given by an author for phenotype observations. These specimen evidence codes are in an Evidence Codes Ontology that was developed by the broader biological community (see http://obofoundry.org/cgi-bin/detail.cgi?id=evidence_code). We have added evidence codes to this ontology, and we use the following in order below from strong to weak evidence.
@@ -36,7 +35,7 @@ Monadic qualities are those that exist in a single entity, such as shape, and do
 ===Characters using relational qualities===
 Relational qualities are those that exist in an entity but require an additional entity in order to exist.  For example, annotation of “parietal fused with supraoccipital” is entered as:
 
- E: parietal, Q: fused with, AE: supraoccipital 
+ E: parietal, Q: fused with, AE: supraoccipital
  E: parietal, Q: separated from, AE: supraoccipital
 
 
