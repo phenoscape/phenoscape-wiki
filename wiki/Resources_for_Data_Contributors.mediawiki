@@ -130,6 +130,8 @@ The post-compose feature in Phenote allows addition of multiple differentia that
 
 ====[[Creating and Editing Character Lists|Creating Character Lists]]====
 
+====[[Update Taxon Lists|Updating Taxon Lists (for taxonomic experts)]]====
+
 ====[[Term Requests|How to Submit Term Requests]]====
 
 ====[[Guide to Character Annotation]]====
