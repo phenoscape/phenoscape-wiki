@@ -26,7 +26,14 @@ Go to the [http://sourceforge.net/ SourceForge homepage] to create your account 
 
 The Collections Code ontology is maintained as a shared spreadsheet on Google Docs (ask a PhenoScaper for access to the spreadsheet). Requests for codes are submitted to the TTO tracker and added to the shared spreadsheet at the same time.
 
-#Submit the museum code request to the TTO tracker.  Include museum abbreviation, description, and synonym if needed.
+#Submit the museum code request to the TTO tracker.
+##Log on to your [http://sourceforge.net/ SourceForge] account
+##Go to the [http://sourceforge.net/tracker/?atid=1046550&group_id=76834&func=browse taxonomy tracker].
+## Click "submit new"
+##  In the Assigned to field, choose pmidford.
+##  In the Summary field, type "museum code: [insert relevant code]" The text entered here will appear in the Subject line of the subsquent email created for this request.
+##  Describe your request in the Detailed Description field.  Include museum abbreviation, description, and synonym if needed.
+## When finished, click the Submit button.  You will then receive two emails related to this request: a confirmation email of your submission and the teleost-discuss email summarizing the request. All subsequent discussion of the request will take place on the teleost-discuss mailing list. You'll receive a third email once the request is fulfilled and the tracker item closed by a Phenoscape curator.
 #Add code and description to the *last line* of the fish collection codes spreadsheet.  If you are adding a synonym to an existing collection code, use columns C or D as necessary.
 #Update your entry to Google Docs if comments on your request are made on the teleost-discuss mailing list.
 
