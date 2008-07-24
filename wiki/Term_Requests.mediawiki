@@ -24,16 +24,15 @@ Go to the [http://sourceforge.net/ SourceForge homepage] to create your account 
 
 ====Collection Code requests====
 
-The Museum Code ontology is maintained as a shared spreadsheet on Google Docs (ask a PhenoScaper for access to the spreadsheet). Requests for codes should be submitted to the TTO tracker and added to the shared spreadsheet at the same time.  
+The Collections Code ontology is maintained as a shared spreadsheet on Google Docs (ask a PhenoScaper for access to the spreadsheet). Requests for codes are submitted to the TTO tracker and added to the shared spreadsheet at the same time.
 
-Procedures for Museum Code addition:
-1. Submit the museum code request to the TTO tracker.  Include museum abbreviation, description, and synonym if needed.
-2. Add code and description to the *last line* of the fish collection codes spreadsheet.  If you are adding a synonym, use columns C or D as necessary.
-3. Update your entry to Google Docs if comments on your request are made on the teleost-discuss mailing list. 
+#Submit the museum code request to the TTO tracker.  Include museum abbreviation, description, and synonym if needed.
+#Add code and description to the *last line* of the fish collection codes spreadsheet.  If you are adding a synonym to an existing collection code, use columns C or D as necessary.
+#Update your entry to Google Docs if comments on your request are made on the teleost-discuss mailing list.
 
-If you are creating a Taxon List that requires a new museum code, make a note in the Curator Notes column that the code has been requested.  
+If you are creating a Taxon List that requires a new code or synonym addition, make a note in the Curator Notes column that the change has been requested.
 
-An OBO file will be generated from the spreadsheet at least once per month.  
+An OBO file will be generated from the spreadsheet at least once per month.
 
 ===Links===
 Bookmark the following links within your internet browser, as clicking on the bookmarks is the easiest way to go to the tracker page after logging onto SourceForge.
