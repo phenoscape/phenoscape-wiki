@@ -38,7 +38,7 @@ The Collection Code ontology is maintained as a shared spreadsheet on Google Doc
 #Update your entry to Google Docs if comments on your request are made on the teleost-discuss mailing list.
 
 
-If you are creating a Taxon List that requires a new code or synonym addition, make a note in the Curator Notes column that the change has been requested.
+If you are creating a taxon list in Phenote that requires a new code or synonym addition, make a note in the Curator Notes column of your Phenote file indicating that the change has been requested.
 
 An OBO file will be generated from the spreadsheet at least once per month.
 
