@@ -8,10 +8,11 @@ The ontologies developed by Phenoscape are updated regularly, and requests from 
 
 Submit requests related to any aspect of fish anatomy to the Teleost Anatomy Ontology (TAO) tracker. Requests related to taxonomic names and museum codes should be submitted to the Teleost Taxonomy Ontology (TTO) tracker.
 
-===Create Your SourceForge Account===
+==Create Your SourceForge Account==
 Go to the [http://sourceforge.net/ SourceForge homepage] to create your account (click on the "create account" link on the upper right corner of the page). Although requests can be submitted without logging in, creating your own account has the advantage of allowing you to track the progress of your request by email and through your sourceforge account page.
 
-===Submit a Request===
+==Request Procedures==
+====Anatomy or Taxonomy Requests====
 # Log on to your [http://sourceforge.net/ SourceForge] account
 # Go to the tracker page approporiate for your request: [http://sourceforge.net/tracker/?group_id=76834&atid=994764 teleost anatomy tracker] or [http://sourceforge.net/tracker/?atid=1046550&group_id=76834&func=browse taxonomy tracker]. Once you have submitted your first request, you can also navigate to the tracker page by clicking on the "Tracker" link within your Personal Page.
 # Click "submit new"
@@ -20,6 +21,19 @@ Go to the [http://sourceforge.net/ SourceForge homepage] to create your account 
 #  In the Summary field, type in the name of the requested term, or short description of the subject.  The text entered here will appear in the Subject line of the subsquent email created for this request.
 #  Describe your request in the Detailed Description field.  It is helpful to include the following information when possible:  name of new term, proposed definition, relationships, synonyms, and relevant citations. Definitions for anatomy terms should be given in [[Teleost_Anatomy_Ontology#Genus-differentia_definitions|genus-differentia form]]
 # When finished, click the Submit button.  You will then receive two emails related to this request: a confirmation email of your submission and the teleost-discuss email summarizing the request. All subsequent discussion of the request will take place on the teleost-discuss mailing list. You'll receive a third email once the request is fulfilled and the tracker item closed by a Phenoscape curator.
+
+====Collection Code requests====
+
+The Museum Code ontology is maintained as a shared spreadsheet on Google Docs (ask a PhenoScaper for access to the spreadsheet). Requests for codes should be submitted to the TTO tracker and added to the shared spreadsheet at the same time.  
+
+Procedures for Museum Code addition:
+1. Submit the museum code request to the TTO tracker.  Include museum abbreviation, description, and synonym if needed.
+2. Add code and description to the *last line* of the fish collection codes spreadsheet.  If you are adding a synonym, use columns C or D as necessary.
+3. Update your entry to Google Docs if comments on your request are made on the teleost-discuss mailing list. 
+
+If you are creating a Taxon List that requires a new museum code, make a note in the Curator Notes column that the code has been requested.  
+
+An OBO file will be generated from the spreadsheet at least once per month.  
 
 ===Links===
 Bookmark the following links within your internet browser, as clicking on the bookmarks is the easiest way to go to the tracker page after logging onto SourceForge.
