@@ -36,7 +36,7 @@ title: Software roadmap
 * Create lookup-enabled Publication field (enter DOI or PMID).
 * Character matrix view of annotations: Taxon by Entity+Attribute.
 
-===Phenote integration with PhenoScape web application and database===
+===Phenote integration with Phenoscape web application and database===
 * Determine whether to integrate standalone Phenote application with web database, or migrate components into web application.
 
 ==Ontology editor==
