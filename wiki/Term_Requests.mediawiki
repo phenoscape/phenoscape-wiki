@@ -24,7 +24,7 @@ Go to the [http://sourceforge.net/ SourceForge homepage] to create your account 
 
 ====Collection Code requests====
 
-The Collection Code ontology is maintained as a shared spreadsheet on Google Docs (ask a PhenoScaper for access to the spreadsheet). Requests for codes are submitted to the taxonomy (TTO) tracker and added to the shared spreadsheet at the same time. 
+The Collection Code ontology is maintained as a shared spreadsheet on Google Docs (ask a PhenoScaper for access to the spreadsheet). Requests for codes are submitted to the taxonomy (TTO) tracker and added to the shared spreadsheet at the same time; it is important to remember to edit the spreadsheet if comments relevant to your request are made on teleost-discuss.
 
 #Submit the museum code request to the taxonomy tracker.
 ##Log on to your [http://sourceforge.net/ SourceForge] account
