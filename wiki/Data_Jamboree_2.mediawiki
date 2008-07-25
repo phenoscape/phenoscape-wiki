@@ -14,11 +14,11 @@ title: Data Jamboree 2
 
 ==Introduction==
 
-We have developed the software tools to input systematic character data in a formalized way to a degree that we have started to enter species-level as well as some of the higher level taxonomic characters (e.g. from Fink & Fink, 1981). This workshop brings together morphologists from the community of ichthyologists and project personnel focused on morphology, taxonomy, data curation, ontology curation, and informatics. The workshop will introduce ichthyologists to the approach, and pair morphologists from the community with project personnel to work one-on-one on entering published systematic character data.
+Purpose:
 
-The hands-on curation work at the jamboree will almost certainly reveal ontological issues, such as terminology and synonymies, issues in annotation consistency or workflow, as well as usability and data flow issues involving the software tools. These will help drive the development of the database and web-based interfaces, but will also spur further development of the involved ontologies and refinement of the annotation procedures. The informatics as well as ontology personnel of the project will be on hand to respond to the issues on the spot.
-
-Finally, the workshop will also provide a very interesting opportunity to brainstorm about the informatics tools and data required to push beyond current limits, thus fostering new discoveries at the interface between evolution and developmental genetics.
+   1. Evaluation prototype database interface
+   2. Character data entry by experts; introduce new curators to Phenote and data entry; test/enhance curation consistency; further refine curation interface
+   3. Project personnel meeting
 
 ==Agenda==
 
