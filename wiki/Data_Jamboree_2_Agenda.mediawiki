@@ -10,7 +10,7 @@ title: Data Jamboree 2/Agenda
 ##* 1:00 am: Data curation
 ##* 5:00 pm: Dinner (drive to dinner spot)
 #* Monday, Sept. 29:
-##* 6:00 am: Buffalo roundup - participants driven to Custer State Park (~45 min)
+##* 6:00 am: Buffalo roundup - participants driven to Custer State Park (~45 min) http://www.sdgfp.info/Parks/Regions/Custer/round.htm
 ##* 12:00 pm: Lunch at roundup
 ##* 1:00 pm: Back to hotel
 ##* 2:00 pm: Resume meeting; focus on database interface?
