@@ -4,12 +4,16 @@ title: Data Jamboree 2/Agenda
 
 #Draft agenda for SD meeting:
 #* Saturday, Sept. 27: Participants fly into Rapid City, South Dakota
-#* Sunday, Sept. 28: Introductions, Data curation day 1
+#* Sunday, Sept. 28: Introductions, Data curation focus for this day
+##* 8:00 am: Introductions; data curation
+##* 12:00 pm: Lunch
+##* 1:00 am: Data curation
+##* 5:00 pm: Dinner (drive to dinner spot)
 #* Monday, Sept. 29:
-##* 6:00 am: Buffalo roundup - participants driven to Custer State Park (~45 min) 
+##* 6:00 am: Buffalo roundup - participants driven to Custer State Park (~45 min)
 ##* 12:00 pm: Lunch at roundup
 ##* 1:00 pm: Back to hotel
-##* 2:30 pm: Resume meeting; focus on database interface?
+##* 2:00 pm: Resume meeting; focus on database interface?
 ##* 6:00 pm: Dinner at hotel
 #* Tuesday, Sept. 30:
 ##* 8:00 am: Project personnel meeting concurrent with Data curation (1 curator in charge (e.g. Lundberg) + 4 invitee curators and 1 or 2 advisors)
