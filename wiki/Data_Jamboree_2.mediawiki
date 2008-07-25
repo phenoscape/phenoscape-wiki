@@ -2,7 +2,6 @@
 title: Data Jamboree 2
 ---
 
-
 <center><big>'''Linking Evolution to Genomics Using Phenotype Ontologies:'''<br/>'''Second Morphology Data Jamboree'''</big><br/><br/>A workshop hosted by the National Evolutionary Synthesis Center (NESCent).</center>
 
 ==Location and Date==
@@ -23,7 +22,7 @@ Finally, the workshop will also provide a very interesting opportunity to brains
 
 ==Agenda==
 
-Draft at ''[[Data Jamboree 2/Agenda|detailed agenda]]'' for the program for each day.
+Draft at ''[[Data_Jamboree_2/agenda]]'' for the program for each day.
 
 ==Resources==
 
