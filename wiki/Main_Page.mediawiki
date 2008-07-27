@@ -3,7 +3,7 @@ title: Main Page
 ---
 
 {{EventBox1|
-*Together with the National Center for Biomedical Ontologies (NCBO) we have organized a [[Training and Workshops|Evolutionary Biology and Ontologies Workshop]], which was held in conjunction with the Evolution 2008 Meetings in Minneapolis, MN.
+*Together with the National Center for Biomedical Ontologies (NCBO) we have organized a [[Training and Workshops|Evolutionary Biology and Ontologies Workshop]], which was held in conjunction with the Evolution 2008 Meetings in Minneapolis, MN.  A report is posted [[Media:ontologywkshp08.pdf|here]]
 *A report from the recent [[Data_Jamboree_1|Data Jamboree]] at NESCent (April 18-20, 2008) is now available.
 *Check out the new Phenoscape [http://blog.phenoscape.org/ blog]!}}
 
