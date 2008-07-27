@@ -37,3 +37,4 @@ title: Contact
 
 
 ==Blog==
+* Phenoscape blog: http://blog.phenoscape.org/
