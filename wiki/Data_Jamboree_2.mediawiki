@@ -46,6 +46,7 @@ Members of the project team are in '''bold font'''.
 {{EventParticipant|Balhoff|Jim|balhoff%40nescent%2eorg|NESCent|'''}}
 {{EventParticipant|Coburn|Miles|coburn%40jcu%2eedu|John Carroll University|}}
 {{EventParticipant|Dahdul|Wasila|dahdul%40acnatsci%2eorg|Department of Ichthyology, Academy of Natural Sciences|'''}}
+{{EventParticipant|Kothari|Cartik|cartik%40nescent%2eorg|NESCent|'''}}
 {{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
 {{EventParticipant|Lundberg|John|lundberg%40acnatsci%2eorg |Department of Ichthyology, Academy of Natural Sciences|'''}}
 {{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|University of South Dakota|'''}}
@@ -53,6 +54,8 @@ Members of the project team are in '''bold font'''.
 {{EventParticipant|Vision|Todd|tjv%40bio%2eunc%2eedu|NESCent, and Department of Biology, University of North Carolina at Chapel Hill|'''}}
 {{EventParticipant|Westerfield|Monte|monte%40uoneuro%2euoregon%2eedu|Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon|'''}}
 |}
+
+[[Category:Data Jamboree 2]]
 
 ==Reading==
 
