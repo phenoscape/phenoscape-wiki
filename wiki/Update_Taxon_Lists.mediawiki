@@ -21,6 +21,25 @@ Start up Phenote+ (click "Update All" if the update panel appears) and check tha
 
 Open the taxon file using File>Open.
 
+====Review Taxon List====
+
+Taxon Lists are spreadsheets with five fields used to record information from a publication's materials list (see screenshot below).  The Publication field records the name and DOI of a publication if available.  The Publication Taxon field is a free-text field used to record the name of a taxon used in the publication, and the Valid Taxon field is an ontology-enabled field linked to the Teleost Taxonomy Ontology, and  records the current, valid name of the taxon.  Comments or questions about a particular entry are recorded in the Curator Notes column, and the Specimens field is linked to a table that lists specimen information (museum vouchers).
+
+You can sort the taxon file by "Curator Notes" to review the questions or comments that a student recorded about the taxon list.  Also sort by "Valid Taxon" to view missing entries.
+
+====Make updates or requests====
+
+The following are examples of incomplete entries that a taxon expert may encounter when reviewing a taxon list.  If you make any updates on a file or submit term requests for an entry, be sure to write a dated note in the Curator Notes column detailing your actions (and preserve any previous notes left be a student).
+
+#Taxon name misspelled: Choose the appropriate name from the Valid Taxon field, and add note in Curator Notes field (e.g., correctly spelled valid taxon name chosen, Jane Gomes, 7/28/2008)
+#Taxon name not found: If the missing taxon name is a synonym of a valid name, then the synonym will need to be added to the taxonomy ontology.  Add a note in Curator Notes field (e.g., taxon XY is synonym of XZ: submitted TTO request on 7/28/2008).  Leave the Valid Taxon field blank.
+#Unnamed or unknown species:  Examples of unnamed or unknown species in a Materials list include: Danio sp., Cyprinus sp. 1, Cyprinus sp. 2, Danio aff. dangila, Danio cf. dangila, etc... These names should be added to the taxonomy ontology with reference to the publication. The request for new species names would be:
+
+*Danio sp. (Smith 2008)
+*Cyprinus sp. 1 (Smith 2008)
+*Cyprinus sp. 2 (Smith 2008)
+*Danio aff. dangila (Smith 2008)
+*Danio cf. dangila (Smith 2008)
 
 
 ====Copy updated file to fileshare====
