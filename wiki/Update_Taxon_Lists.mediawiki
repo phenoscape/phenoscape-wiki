@@ -53,4 +53,6 @@ After you have completed your updates and made notes regarding any term requests
 
 ====Update entry for publication on Google Docs====
 
+Remember to make a note (dated) in the Taxon List Notes column of the shared publication spreadsheet on Google Docs (ask a PhenoScaper for access to the spreadsheet), recording that you have reviewed the taxon list and made any necessary term requests.
+
 [[Category:Curation]]
