@@ -21,12 +21,7 @@ Start up Phenote+ (click "Update All" if the update panel appears) and check tha
 
 Open the taxon file using File>Open.
 
-====Make your taxonomic updates====
 
-You can sort the taxon file by "Curator Notes" to view questions or comments that a student recorded about missing entries.  You can also sort by Valid Taxon, which will group rows with blank "Valid Taxon" field.
-
-Missing entries in Valid Taxon field
-Notes from student in Curator Notes field
 
 ====Copy updated file to fileshare====
 
