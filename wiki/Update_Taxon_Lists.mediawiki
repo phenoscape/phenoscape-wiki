@@ -8,21 +8,22 @@ The following are instructions on how to update a taxon list after you have rece
 (ask a PhenoScaper for username and password)
 
 On a Mac, go to the Finder and Go > Connect to Server.  Type this in the Server Address:  https://webdav.nescent.org/phenoscape-data/
-Use Finder to navigate to the folder called "Taxon lists (phenote+)."  Find the relevant taxon list for your work, and copy to a location on your computer. 
 
 On a PC, ??
 
-After connecting to the server, navigate to the Taxon List (phenote+) folder and copy the file to your desktop.
+After connecting to the server, navigate to the Taxon List (phenote+) folder and copy the relavant file to your desktop.
 
 ====Open file in Phenote+====
 
-Make sure that you have an internet connection before starting Phenote+ as the software will need to download updated ontology files when available.
+Make sure that you have an internet connection before starting Phenote+ as the software will need to download updated ontology files if available.
 
 Start up Phenote+ (click "Update All" if the update panel appears) and check that you are using the Taxon configuration of Phenote (to check, go to Settings>Set Configuration, and confirm that ‘phenoscape_taxon’ is chosen. You may need to restart Phenote+ for the configuration to appear).
 
 Open the taxon file using File>Open.
 
 ====Make your taxonomic updates====
+
+You can sort the taxon file by "Curator Notes" to view questions or comments that a student recorded about missing entries.  You can also sort by Valid Taxon, which will group rows with blank "Valid Taxon" field.
 
 Missing entries in Valid Taxon field
 Notes from student in Curator Notes field
