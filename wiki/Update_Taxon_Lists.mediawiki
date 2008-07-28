@@ -2,14 +2,13 @@
 title: Update Taxon Lists
 ---
 
-** instructions in progress
-
-The following are instructions on how to update a taxon list after you have recieved an email from a student informing you that the taxon list for a particular publication was completed, and needs an update for taxonomy.
+The following are instructions on how to update a taxon list after you have received an email from a student informing you that the taxon list for a particular publication was completed, and needs an update for taxonomy.
 
 ====Download the taxon file from the phenoscape-fileshare====
 (ask a PhenoScaper for username and password)
 
 On a Mac, go to the Finder and Go > Connect to Server.  Type this in the Server Address:  https://webdav.nescent.org/phenoscape-data/
+Use Finder to navigate to the folder called "Taxon lists (phenote+)."  Find the relevant taxon list for your work, and copy to a location on your computer. 
 
 On a PC, ??
 
@@ -19,7 +18,7 @@ After connecting to the server, navigate to the Taxon List (phenote+) folder and
 
 Make sure that you have an internet connection before starting Phenote+ as the software will need to download updated ontology files when available.
 
-Start up Phenote+ (click "Update All" if the update panel appears) and check that you are using the Taxon configuration of Phenote (to check, go to Settings>Set Configuration, and confirm that ‘phenoscape_taxon’ is chosen. You may need to restart Phenote+ for the configuration to appear). 
+Start up Phenote+ (click "Update All" if the update panel appears) and check that you are using the Taxon configuration of Phenote (to check, go to Settings>Set Configuration, and confirm that ‘phenoscape_taxon’ is chosen. You may need to restart Phenote+ for the configuration to appear).
 
 Open the taxon file using File>Open.
 
@@ -31,3 +30,5 @@ Notes from student in Curator Notes field
 ====Copy updated file to fileshare====
 
 ====Update entry for publication on Google Docs====
+
+[[Category:Curation]]
