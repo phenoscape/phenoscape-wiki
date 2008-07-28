@@ -49,6 +49,8 @@ Submit only one request per publication.  See [https://www.nescent.org/phenoscap
 
 ====Copy updated file to fileshare====
 
+After you have completed your updates and made notes regarding any term requests submitted, upload your file to Phenoscape fileshare (you will overwrite the previous copy of the taxon list file).
+
 ====Update entry for publication on Google Docs====
 
 [[Category:Curation]]
