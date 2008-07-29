@@ -39,7 +39,7 @@ The following are examples of incomplete entries that a taxon expert may encount
 *Danio aff. dangila (Smith 2008)
 *Danio cf. dangila (Smith 2008)
 
-=====Teleost Taxonomy Ontology term additions or changes=====
+=====Taxonomy Ontology requests for term additions or changes=====
 
 You need only submit one request per publication.  See [https://www.nescent.org/phenoscape/Term_Requests term request instructions] for the TTO.
 
