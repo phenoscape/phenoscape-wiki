@@ -41,7 +41,7 @@ The following are examples of incomplete entries that a taxon expert may encount
 
 =====Teleost Taxonomy Ontology term additions or changes=====
 
-Submit only one request per publication.  See [https://www.nescent.org/phenoscape/Term_Requests term request instructions] for the TTO.
+You need only submit one request per publication.  See [https://www.nescent.org/phenoscape/Term_Requests term request instructions] for the TTO.
 
 [[Category:Curation]]
 
