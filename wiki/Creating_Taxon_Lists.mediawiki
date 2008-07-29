@@ -50,7 +50,7 @@ Notes:
 #Materials List has AMNH 20050 – 20075;  Enter into Phenote as: AMNH 20050 – 20075
 
 ===When you finish a taxon list:===
-#Copy the file to "Taxon lists (phenote+)" folder on phenoscape-data
+#Copy the file to "Taxon lists (phenote+)" folder on [https://phenoscape.org/wiki/Help:Contents#File_Shares Phenoscape file share] (ask a PhenoScaper for username and password).
 # Update the publications list on Google docs: indicate completion in the Taxon List column.  See below for example: [[Image:endnote-taxlist.jpg]]
 #Send email to taxon expert (ask Paula or Wasila if you don’t know), and always cc: the phenoscape-curators mailing list (Phenoscape-curators@lists.sourceforge.net). Attach the Phenote+ taxon list.  Here is a sample email:
 
