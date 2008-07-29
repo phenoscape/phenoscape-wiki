@@ -5,13 +5,11 @@ title: Update Taxon Lists
 The following are instructions on how to update a taxon list after you have received an email from a student informing you that the taxon list for a particular publication was completed, and needs an update for taxonomy.
 
 ====Download the taxon file from the phenoscape-fileshare====
-(ask a PhenoScaper for username and password)
 
-On a Mac, go to the Finder and Go > Connect to Server.  Type this in the Server Address:  https://webdav.nescent.org/phenoscape-data/
 
-On a PC, ??
+To download a copy of the taxon file, you will need to connect to the [https://phenoscape.org/wiki/Help:Contents#File_Shares| Phenoscape file share].  Ask a PhenoScaper for username and password.
 
-After connecting to the server, navigate to the Taxon List (phenote+) folder and copy the relavant file to your desktop.
+After connecting to the file share, navigate to the Taxon List (phenote+) folder and copy the relevant file to your desktop.
 
 ====Open file in Phenote+====
 
