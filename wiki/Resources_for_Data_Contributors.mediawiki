@@ -124,17 +124,19 @@ intersection of TAO: suprorbital
 ====Known Issues:====
 The post-compose feature in Phenote allows addition of multiple differentia that apply to the initial genus term but nesting of terms is not yet enabled. In the meantime, when post-composed terms that require nesting are needed for annotation, we will note in the 'curator notes' field that these terms will need proper updating once nesting is possible.
 
-==Curatorial Best Practices==
+=Curatorial Best Practices=
 
-====[[Creating Taxon Lists]]====
+===Taxon Lists===
 
-====[[Creating and Editing Character Lists|Creating Character Lists]]====
+#'''[[Creating Taxon Lists]]'''
+#'''[[Update Taxon Lists|Updating Taxon Lists (for taxonomic experts)]]'''
 
-====[[Update Taxon Lists|Updating Taxon Lists (for taxonomic experts)]]====
+===Character Annotation===
 
-====[[Term Requests|How to Submit Term Requests]]====
+#'''[[Creating and Editing Character Lists|Creating Character Lists]]'''
+#'''[[Guide to Character Annotation]]'''
 
-====[[Guide to Character Annotation]]====
+===[[Term Requests]]===
 
 [[Category:Curation]]
 
