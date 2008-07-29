@@ -20,8 +20,8 @@ Other ontologies:
 
 *[http://www.bioontology.org/ncbo/faces/pages/ontology_details.xhtml?ontology_display_name=Spatial%20Ontology Spatial Ontology]
 
-[[Category:Curation]]
-[[Category:Help]]
+
+
 
 ===On your desktop===
 
@@ -125,20 +125,15 @@ intersection of TAO: suprorbital
 The post-compose feature in Phenote allows addition of multiple differentia that apply to the initial genus term but nesting of terms is not yet enabled. In the meantime, when post-composed terms that require nesting are needed for annotation, we will note in the 'curator notes' field that these terms will need proper updating once nesting is possible.
 
 =Curatorial Best Practices=
-
 ===Taxon Lists===
-
-#'''[[Creating Taxon Lists]]'''
-#'''[[Update Taxon Lists|Updating Taxon Lists (for taxonomic experts)]]'''
-
+*'''[[Creating Taxon Lists]]'''
+*'''[[Update Taxon Lists|Updating Taxon Lists (for taxonomic experts)]]'''
 ===Character Annotation===
-
-#'''[[Creating and Editing Character Lists|Creating Character Lists]]'''
-#'''[[Guide to Character Annotation]]'''
-
+*'''[[Creating and Editing Character Lists|Creating Character Lists]]'''
+*'''[[Guide to Character Annotation]]'''
 ===[[Term Requests]]===
 
-[[Category:Curation]]
+
 
 ==Ontology change requests==
 
@@ -147,3 +142,6 @@ Here are links to ontology term trackers:
 * [http://sourceforge.net/tracker/?group_id=76834&atid=994726 Zebrafish anatomy tracker]
 * [http://sourceforge.net/tracker/?atid=1046550&group_id=76834 Teleost taxonomy ontology tracker]
 * [http://sourceforge.net/tracker/?group_id=76834&atid=595654 PATO tracker]
+
+[[Category:Curation]]
+[[Category:Help]]
