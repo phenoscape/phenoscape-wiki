@@ -30,7 +30,7 @@ You can sort the taxon file by "Taxon Comments" to review the questions or comme
 The following are examples of incomplete entries that a taxon expert may encounter when reviewing a taxon list.  If you make any updates on a file or submit term requests for an entry, be sure to write a dated note in the Taxon Comments column detailing your actions (and preserve any previous notes left by a student).
 
 #Taxon name misspelled: Choose the appropriate name from the Valid Taxon field, and add note in Taxon Comments field (e.g., correctly spelled valid taxon name chosen, Your Name, 7/28/2008)
-#Taxon name not found: If the missing taxon name is a synonym of a valid name, then the synonym will need to be added to the taxonomy ontology.  Add a note in Curator Notes field (e.g., taxon XY is synonym of XZ: submitted TTO request on 7/28/2008).  Leave the Valid Taxon field blank.
+#Taxon name not found: If the missing taxon name is a synonym of a valid name, then the synonym will need to be added to the taxonomy ontology.  Add a note in Taxon Comments field (e.g., taxon XY is synonym of XZ: submitted TTO request on 7/28/2008).  Leave the Valid Taxon field blank.
 #Unnamed or unknown species:  Examples of unnamed or unknown species in a Materials list might include: Danio sp., Cyprinus sp. 1, Cyprinus sp. 2, Danio aff. dangila, Danio cf. dangila, etc... These names should be added to the taxonomy ontology with reference to the publication. In this example, for a publication by Smith 2008, the request for new species names would be:
 
 *Danio sp. (Smith 2008)
