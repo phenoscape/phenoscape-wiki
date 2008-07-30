@@ -133,7 +133,7 @@ The post-compose feature in Phenote allows addition of multiple differentia that
 *'''[[Creating and Editing Character Lists|Creating Character Lists]]'''
 *'''[[Guide to Character Annotation]]'''
 ===Ontology change requests===
-*'''[[Term Request Instructions]]'''
+*'''[[Term_Requests | Term Request Instructions]]'''
 *'''Links to ontology term trackers'''
 ** [http://sourceforge.net/tracker/?group_id=76834&atid=994764 Teleost anatomy tracker]
 ** [http://sourceforge.net/tracker/?group_id=76834&atid=994726 Zebrafish anatomy tracker]
