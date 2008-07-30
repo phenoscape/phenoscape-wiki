@@ -15,9 +15,10 @@ After connecting to the file share, navigate to the Taxon List (phenote+) folder
 
 Make sure that you have an internet connection before starting Phenote+ as the software will need to download updated ontology files if available.
 
-Start up Phenote+ (click "Update All" if the update panel appears) and check that you are using the Taxon configuration of Phenote (to check, go to Settings>Set Configuration, and confirm that ‘phenoscape_taxon’ is chosen. You may need to restart Phenote+ for the configuration to appear).
+Start up Phenote+ (click "Update All" if the update panel appears) and check that you are using the '''Taxon configuration''' of Phenote (to check, go to Settings>Set Configuration, and confirm that ‘phenoscape_taxon’ is chosen. You may need to restart Phenote+ for the configuration to appear).
 
-Open the taxon file using File>Open.
+Below is a screenshot of the taxon configuration:
+[[Image:phenote-taxon-config.jpg]]
 
 ====Review Taxon List====
 
