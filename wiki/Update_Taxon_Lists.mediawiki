@@ -19,6 +19,7 @@ Start up Phenote+ (click "Update All" if the update panel appears) and check tha
 
 Below is a screenshot of the taxon configuration:
 
+[[image:phenote-taxon-config.jpg]]
 
 ====Review Taxon List====
 
