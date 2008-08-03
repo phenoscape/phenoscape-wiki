@@ -1,0 +1,11 @@
+---
+title: Phenoscape use cases
+---
+
+==Identify candidate genes for a particular evolutionary phenotype==
+
+==Identify evolutionary changes that match the phenotype of a zebrafish mutant==
+
+==Compare genetically and evolutionarily correlated characters==
+
+[[Category:Informatics]]
