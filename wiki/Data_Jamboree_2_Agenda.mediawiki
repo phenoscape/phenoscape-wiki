@@ -4,8 +4,10 @@ title: Data Jamboree 2/Agenda
 
 Draft agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in South Dakota:
 * Saturday, Sept. 27: Participants fly into Rapid City, South Dakota; meet for dinner and overnight in Rapid City hotel.
-* Sunday, Sept. 28: Introductions, Data curation focus for this day
-*# 8:00 am: Introductions; data curation
+* Sunday, Sept. 28: 
+*# 8:00 am: Travel to Sylvan Lodge (~1 hr drive)
+*# 9:30 am: Introductions 
+*# 9:45 am: Data curation
 *# 12:00 pm: Lunch
 *# 1:00 pm: Data curation
 *# 5:00 pm: Dinner (drive to dinner spot)
