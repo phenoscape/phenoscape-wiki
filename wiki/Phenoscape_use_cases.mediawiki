@@ -39,5 +39,6 @@ On a phylogenetic tree of the Ostariophysi, an evolutionary biologist observes a
 Multiple phenotype search specifications: entity, quality, etc. Option to match exactly or to match descendant terms (as in quality "count", above).
 
 ===Output===
+A list of ZFIN mutant identifiers and associated genes which are associated with phenotypes matching all, or perhaps just more than one, of the search criteria.
 
 [[Category:Informatics]]
