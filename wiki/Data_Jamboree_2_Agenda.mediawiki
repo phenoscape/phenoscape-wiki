@@ -4,13 +4,15 @@ title: Data Jamboree 2/Agenda
 
 Draft agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in South Dakota:
 * Saturday, Sept. 27: Participants fly into Rapid City, South Dakota; meet for dinner and overnight in Rapid City hotel.
-* Sunday, Sept. 28: 
+* Sunday, Sept. 28:
 *# 8:00 am: Travel to Sylvan Lodge (~1 hr drive)
-*# 9:30 am: Introductions 
-*# 9:45 am: Data curation
+*# 9:00 am: Introductions
+*# 9:15 am: Data curation: work on individual data
 *# 12:00 pm: Lunch
-*# 1:00 pm: Data curation
-*# 5:00 pm: Dinner (drive to dinner spot)
+*# 1:00 pm: Data curation: work on individual data
+*# 3:00 pm: Coffee break (10 min)
+*# 5:00 pm: Wrap up and discussion of curation issues
+*# 6:00 pm: Dinner (drive to dinner spot)
 * Monday, Sept. 29:
 *# 6:00 am: Buffalo roundup - participants driven to Custer State Park (~45 min) http://www.sdgfp.info/Parks/Regions/Custer/round.htm
 *# 12:00 pm: Lunch at roundup
@@ -19,11 +21,13 @@ Draft agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in S
 *# 6:00 pm: Dinner at hotel
 * Tuesday, Sept. 30:
 *# 8:00 am: Project personnel meeting concurrent with Data curation (1 curator in charge (e.g. Lundberg) + 4 invitee curators and 1 or 2 advisors)
+*#10:30 am: Coffee break (10 min)
 *# 12:00 pm: Lunch
 *# 1:00 pm: Project personnel meeting concurrent with Data curation (1 curator in charge (e.g. Lundberg) + 4 invitee curators and 1 or 2 advisors)
+*# 3:00 pm: Coffee break (10 min)
 *# 5:00 pm: Dinner (drive to dinner spot)
 * Wednesday, Oct. 1:
-*# 8:00 am: Wrap up;
+*# 8:00 am: Wrap up
 *# 12:00 pm: Participants depart / Lunch
 
 [[Category:Data Jamboree 2]]
