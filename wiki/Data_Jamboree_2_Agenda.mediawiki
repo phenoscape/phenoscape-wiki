@@ -11,27 +11,32 @@ Draft agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in S
 == Sunday, Sept. 28 ==
 
 * 8:00 am: Travel to Sylvan Lodge (~1 hr drive)
-* 9:00 am: Introductions
-* 9:15 am: Data curation: work on individual data
-* 12:00 pm: Lunch
+* 9:00 am: Project personnel and participant introductions
+* 9:10 am: Phenote introduction and group annotation exercise
+* 11:00 am: Data curation: work on individual data
+* 12:00 pm: '''''Lunch'''''
 * 1:00 pm: Data curation: work on individual data
-* 3:00 pm: Coffee break (10 min)
+* 3:00 pm: '''''Coffee break''''' (10 min)
+* 3:10 pm: Data curation: work on individual data
 * 5:00 pm: Wrap up and discussion of curation issues
 * 6:00 pm: Dinner (drive to dinner spot)
 
 == Monday, Sept. 29 ==
 * 6:00 am: Buffalo roundup - participants driven to Custer State Park (~45 min) http://www.sdgfp.info/Parks/Regions/Custer/round.htm
-* 12:00 pm: Lunch at roundup
+* 12:00 pm: '''Lunch at roundup'''
 * 1:00 pm: Back to hotel
 * 2:00 pm: Resume meeting; focus on web-based user interface for database?
 * 6:00 pm: Dinner at hotel
 
 == Tuesday, Sept. 30 ==
 * 8:00 am: Project personnel meeting concurrent with Data curation (1 curator in charge (e.g. Lundberg) + 4 invitee curators and 1 or 2 advisors)
-*10:30 am: Coffee break (10 min)
-* 12:00 pm: Lunch
+*9:45 am: '''''Coffee break''''' (10 min)
+*10:00 am: Curation consistency experiment (1 hr) concurrent with Project personnel meeting
+* 11:00 am: Review and discussion of consistency experiment (Project personnel and curators present)
+* 12:00 pm: '''''Lunch'''''
 * 1:00 pm: Project personnel meeting concurrent with Data curation (1 curator in charge (e.g. Lundberg) + 4 invitee curators and 1 or 2 advisors)
-* 3:00 pm: Coffee break (10 min)
+* 3:00 pm: '''''Coffee break''''' (10 min)
+*3:10 pm:  Project personnel meeting concurrent with Data curation (1 curator in charge (e.g. Lundberg) + 4 invitee curators and 1 or 2 advisors)
 * 5:00 pm: Dinner (drive to dinner spot)
 * Wednesday, Oct. 1:
 * 8:00 am: Wrap up
