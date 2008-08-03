@@ -26,6 +26,7 @@ A developmental biologist observes a reduction in number of branchiostegal rays 
 A phenotype search specification: entity, quality, etc. Option to match exactly or to match descendant terms (as in quality "count", above).
 
 ===Output===
+A list of matching evolutionary phenotypes and the taxon for each.
 
 ==Compare genetically and evolutionarily correlated characters==
 ===Motivation===
