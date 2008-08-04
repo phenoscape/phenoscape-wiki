@@ -52,5 +52,6 @@ A biologist observes in number of branchiostegal rays across taxa in the databas
 A list of taxa and their phenotypes for a previously searched character specification.  A phylogenetic tree including the taxa of interest.
 
 ===Output===
+A graphical representation of a phylogenetic tree (cladogram).  The branches are colored to represent reconstructed ancestral states of the given character values (or ambiguity).  The state reconstruction is performed using a standard algorithm such as parsimony or a maximum likelihood method.
 
 [[Category:Informatics]]
