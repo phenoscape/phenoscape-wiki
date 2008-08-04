@@ -43,12 +43,7 @@ The Collection Code ontology is maintained as a shared spreadsheet on Google Doc
 #Add requested code to the Fish Collection Codes spreadsheet on Google Docs:
 ##Add code and description to the *last line* of the spreadsheet.  If you are adding a synonym to an existing collection code, use columns C or D as necessary.
 ##In the Status column, type "pending" for your request.
-
-
-
-
-
-#Update your entry to Google Docs if comments on your request are made on the teleost-discuss mailing list.
+##Update your entry to Google Docs if comments on your request are made on the teleost-discuss mailing list.
 
 
 If you are creating a taxon list in Phenote that requires a new code or synonym addition, make a note in the Curator Notes column of your Phenote file indicating that the change has been requested.
