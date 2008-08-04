@@ -40,12 +40,13 @@ Note: Be sure to hit enter/return after typing or pasting data, otherwise Phenot
 #Now double-click on the adjacent cell in the Specimen ID column, and a box for entering text will appear – enter the ID (lot number) and press enter/return.  You may want to copy and paste this from the pdf of the paper that you are annotating in order to avoid making mistakes (but double-check that you are not pasting extra characters).
 #If there are multiple specimens listed for a taxon, use the ‘+’ button to add another row, and select cells in the second row to enter the collection code and specimen ID.
 
-'''Missing museum abbreviations:'''
+'''Requests for missing museum abbreviations:'''
+
 Use the Fish Collection Codes spreadsheet on Google Docs to request the addition of missing codes, or request addition of synonyms of an existing code:
 
 #Add code and full name of museum to the *last line* of the spreadsheet. If you are adding a synonym to an existing collection code, use columns C or D as necessary
 #In the Status column, type "pending" for your request.
-#In Phenote+, make a note in the Taxon Comments field describing your request (e.g., "museum code XYZ missing; code added to Google Docs on 8/3/2008, Your Initials").  
+#In Phenote+, make a note in the Taxon Comments field describing your request (e.g., "museum code XYZ missing; code added to Google Docs on 8/3/2008, Your Initials").
 
 
 '''Notes:'''
