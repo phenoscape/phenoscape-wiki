@@ -45,7 +45,7 @@ Note: Be sure to hit enter/return after typing or pasting data, otherwise Phenot
 Use the Fish Collection Codes spreadsheet on Google Docs to request the addition of missing codes, or request addition of synonyms of an existing code:
 
 #Add code and full name of museum to the *last line* of the spreadsheet. If you are adding a synonym to an existing collection code, use columns C or D as necessary
-#In the Status column, type "pending" for your request.
+#In the Status field, type "pending", and record the date of request and your initials in the Request Notes field.
 #In Phenote+, make a note in the Taxon Comments field describing your request (e.g., "museum code XYZ missing; code added to Google Docs on 8/3/2008, Your Initials").
 
 
