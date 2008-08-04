@@ -49,6 +49,7 @@ After observing variation of a trait in evolution (as found in use case [[#Ident
 A biologist observes in number of branchiostegal rays across taxa in the database (such as in the results of [[#Identify evolutionary changes that match the phenotype of a zebrafish mutant]]).  The biologist maps the character changes on a phylogeny, and sees that all cypriniforms,  including zebrafish, have three branchiostegal rays, but other fishes, including close ostariophysan  relatives, have higher and lower numbers (McAllister, '68).  Specifically, reduction in number has  occurred multiple times; solenostomids and syngnathids (ghost pipefishes and pipefishes), giganturids,  and saccopharyngoid (gulper and swallower) eels have the fewest branchiostegal rays (McAllister, '68).
 
 ===Input===
+A list of taxa and their phenotypes for a previously searched character specification.  A phylogenetic tree including the taxa of interest.
 
 ===Output===
 
