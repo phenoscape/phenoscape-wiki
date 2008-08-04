@@ -4,14 +4,14 @@ title: Update Taxon Lists
 
 The following are instructions on how to update a taxon list after you have received an email from a student informing you that the taxon list for a particular publication was completed, and needs an update for taxonomy.
 
-====1. Download the taxon file from the phenoscape-fileshare====
+====Download the taxon file from the phenoscape-fileshare====
 
 
 To download a copy of the taxon file, you will need to connect to the [https://phenoscape.org/wiki/Help:Contents#File_Shares Phenoscape file share].  Ask a PhenoScaper for username and password.
 
 After connecting to the file share, navigate to the Taxon List (phenote+) folder and copy the relevant file to your desktop.
 
-====2. Open file in Phenote+====
+====Open file in Phenote+====
 
 Make sure that you have an internet connection before starting Phenote+ as the software will need to download updated ontology files if available.
 
@@ -21,13 +21,13 @@ Below is a screenshot of the taxon configuration:
 
 [[image:phenote-taxon-config.jpg]]
 
-====3. Review Taxon List====
+====Review Taxon List====
 
 Taxon Lists are spreadsheets with five fields used to record information from a publication's materials list (see screenshot below).  The Publication field records the name and DOI of a publication if available.  The Publication Taxon field is a free-text field used to record the name of a taxon used in the publication, and the Valid Taxon field is an ontology-enabled field linked to the Teleost Taxonomy Ontology, and  records the current, valid name of the taxon.  Comments or questions about a particular entry are recorded in the Taxon Comments column, and the Specimens field is linked to a table that lists specimen information (museum vouchers).
 
 You can sort the taxon file by "Taxon Comments" to review the questions or comments that a student recorded about the taxon list.  Also sort by "Valid Taxon" to view missing entries.
 
-====4. Make updates or requests====
+====Make updates or requests====
 
 The following are examples of incomplete entries that a taxon expert may encounter when reviewing a taxon list.  If you make any updates on a file or submit term requests for an entry, be sure to write a dated note in the Taxon Comments column detailing your actions (and preserve any previous notes left by a student).
 
@@ -41,15 +41,15 @@ The following are examples of incomplete entries that a taxon expert may encount
 *Danio aff. dangila (Smith 2008)
 *Danio cf. dangila (Smith 2008)
 
-=====5. Taxonomy Ontology requests for term additions or changes=====
+=====Taxonomy Ontology requests for term additions or changes=====
 
 You need only submit one request per publication.  See [https://www.nescent.org/phenoscape/Term_Requests term request instructions] for the TTO.
 
-====6. Copy updated file to fileshare====
+====Copy updated file to fileshare====
 
 After you have completed your updates and made notes regarding any term requests submitted, upload your file to Phenoscape fileshare (you will overwrite the previous copy of the taxon list file).
 
-====7. Update entry for publication on Google Docs====
+====Update entry for publication on Google Docs====
 
 Remember to make a note (dated) in the Taxon List Notes column of the shared publication spreadsheet on Google Docs (ask a PhenoScaper for access to the spreadsheet), recording that you have reviewed the taxon list and made any necessary term requests.
 
