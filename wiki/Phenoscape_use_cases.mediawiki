@@ -36,7 +36,7 @@ Determining whether  morphological characters are independent or genetically/dev
 On a phylogenetic tree of the Ostariophysi, an evolutionary biologist observes a suite  of the characters that support the monophyly of a particular clade.  These characters, however, are all  marked by changes in size of the dentary, maxilla, ceratohyal, and opercle bones.  The user wants to know  whether the size modification of each of these bones represents independent support for this phylogenetic  hypothesis, or whether the changes are correlated due to a common genetic or developmental basis.  Querying the zebrafish mutant phenotype descriptions in EQ syntax with the above anatomical terms  would show that in sox9ahi1134 mutants, the dentary, opercle, and maxilla bones are reduced in size  relative to wild-type zebrafish, whereas other bones are relatively unaffected (Yan et al., '05).  This  suggests that the size of the dentary, opercle, and maxilla might be co-regulated in part by sox9a, and we  would conclude that support for the monophyly of this clade is not as strong as previously proposed.
 
 ===Input===
-Multiple phenotype search specifications: entity, quality, etc. Option to match exactly or to match descendant terms (as in quality "count", above).
+Multiple phenotype search specifications: entity, quality, etc., representing the evolutionary character changes. Option to match exactly or to match descendant terms (as in quality "count", above).
 
 ===Output===
 A list of ZFIN mutant identifiers and associated genes which are associated with phenotypes matching all, or perhaps just more than one, of the search criteria.
