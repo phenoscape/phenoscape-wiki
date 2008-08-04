@@ -47,7 +47,7 @@ You need only submit one request per publication.  See [https://www.nescent.org/
 
 =====''Museum Code Requests''=====
 
-We use the Fish Collection Codes spreadsheet on Google Docs, along with the taxonomy term tracker, to request the addition of missing codes, or request addition of synonyms of an existing code.  See instructions [https://www.nescent.org/phenoscape/Term_Requests#Collection_Code_requests]
+We use the Fish Collection Codes spreadsheet on Google Docs, along with the taxonomy term tracker, to request the addition of missing codes, or request addition of synonyms of an existing code.  See instructions [https://www.nescent.org/phenoscape/Term_Requests#Collection_Code_requests here]
 
 ====Copy updated file to fileshare====
 
