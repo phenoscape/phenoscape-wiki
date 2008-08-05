@@ -23,9 +23,9 @@ Below is a screenshot of the taxon configuration:
 
 ====Review Taxon List====
 
-Taxon Lists are spreadsheets with five fields used to record information from a publication's materials list (see screenshot below).  The Publication field records the name and DOI of a publication if available.  The Publication Taxon field is a free-text field used to record the name of a taxon used in the publication, and the Valid Taxon field is an ontology-enabled field linked to the Teleost Taxonomy Ontology, and  records the current, valid name of the taxon.  Comments or questions about a particular entry are recorded in the Taxon Comments column, and the Specimens field is linked to a table that lists specimen information (museum vouchers).
+Taxon Lists are spreadsheets with five fields used to record information from a publication's materials list (see screenshot above).  The Publication field records the name and DOI of a publication if available.  The Publication Taxon field is a free-text field used to record the name of a taxon used in the publication, and the Valid Taxon field is an ontology-enabled field linked to the Teleost Taxonomy Ontology, and  records the current, valid name of the taxon.  Comments or questions about a particular entry are recorded in the Taxon Comments column, and the Specimens field is linked to a table that lists specimen information (museum vouchers).
 
-You can sort the taxon file by "Taxon Comments" to review the questions or comments that a student recorded about the taxon list.  Also sort by "Valid Taxon" to view missing entries.
+You can sort the data by clicking on any column header.  Sort the "Taxon Comments" column to view the questions or comments that a student recorded about the taxon list.  Also sort by "Valid Taxon" to view missing entries.
 
 ====Make updates or requests====
 
