@@ -77,4 +77,17 @@ A phenotype search specification, with constraints on the entity term such as "i
 ===Output===
 A list of taxa and their phenotypes matching the input criteria.
 
+==View every change in an anatomical structure mapped on a tree==
+==Motivation==
+A biologist may be interested in how a particular structure has evolved, without knowing what types of changes have occurred in that structure.  It would be useful to view the pattern of evolution of all phenotypes involving that structure, visualized on a phylogeny as in [[#Map changes of an evolutionary character on a phylogeny]].
+
+==Example==
+A biologist is interested in the parietal bone.  She chooses this term from the anatomy ontology and then views a phylogeny displaying all reconstructed character transitions involving the parietal as an entity.
+
+==Input==
+An anatomical term from an anatomy ontology.  A phylogeny containing the species of interest.
+
+==Output==
+A listing of all phenotypes for each species which contain the entered term as an entity.  A display of the phylogeny mapping changes for each phenotypic character.
+
 [[Category:Informatics]]
