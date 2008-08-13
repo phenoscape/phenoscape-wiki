@@ -67,4 +67,14 @@ A phenotype search specification for the phenotype to match.  A second phenotype
 ===Output===
 A table containing a list of taxa matching the first entered phenotype.  A second column in the table presenting the value of each taxon for the second entered character.
 
+==View all species with multiple phenotypes matching a condition==
+===Example===
+A biologist wants to list all the species that have lost more than one bone.  O more specifically, all species that have lost more than one bone in the head.
+
+===Input===
+A phenotype search specification, with constraints on the entity term such as "is_a term1" and "part_of term2".  The threshold number of annotations matching the phenotype required to include a taxon.
+
+===Output===
+A list of taxa and their phenotypes matching the input criteria.
+
 [[Category:Informatics]]
