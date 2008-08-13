@@ -24,7 +24,7 @@ title: Software roadmap
 * '''[complete]''' Browse and edit characters and character states, edit EQ phenotypes per character state.
 * '''[complete]''' Browse and edit taxa, edit specimens per taxon.
 * '''[complete]''' New post-composition editing interface.
-* Load from and save to NeXML file format.
+* '''[complete]''' Load from and save to NeXML file format.
 * Interface for user option for whether to update ontologies.
 
 ===Phenoscape editor 1.1===
