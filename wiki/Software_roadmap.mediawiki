@@ -47,7 +47,7 @@ title: Software roadmap
 * '''[complete]''' Curators are using OBO-Edit successfully.
 
 ===Unscheduled features===
-* Character encoding syntax for OBO file format and support in OBO-Edit.
+* Character encoding syntax for OBO file format and support in OBO-Edit (for example, UTF-8).
 
 ==A database and web application to store and query the taxonomies, ontologies, and phenotype data==
 
