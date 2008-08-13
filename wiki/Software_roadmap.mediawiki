@@ -20,7 +20,7 @@ title: Software roadmap
 * '''[complete]''' Allow user to create multiple, temporary annotation template lists while editing.  ''Not savable with current file format, however''
 * '''[complete]''' Include preset docking interface configuration for Phenoscape
 
-===Phenoscape editor (Phenote with custom character-oriented interface) 1.0 -- July 2008===
+===Phenex editor (Phenote with custom character-oriented interface) 1.0 -- July 2008===
 * '''[complete]''' Browse and edit characters and character states, edit EQ phenotypes per character state.
 * '''[complete]''' Browse and edit taxa, edit specimens per taxon.
 * '''[complete]''' New post-composition editing interface.
