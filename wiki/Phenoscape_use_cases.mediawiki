@@ -54,4 +54,17 @@ A list of taxa and their phenotypes for a previously searched character specific
 ===Output===
 A graphical representation of a phylogenetic tree (cladogram).  The branches are colored to represent reconstructed ancestral states of the given character values (or ambiguity).  The state reconstruction is performed using a standard algorithm such as parsimony or a maximum likelihood method.
 
+==View values for a particular character for a set of species with some value for another character==
+===Motivation===
+A particular phenotype change may have evolutionary consequences for another aspect of phenotype.  This may be because they are linked via developmental or physical constraints, or are related through their effect on natural selection.
+
+===Example===
+A biologist observes a number of species missing the parietal bone.  It appears that these species are also generally small in size.  The biologist searches for all species in the database which lack the parietal bone.  He then requests the body length value for all those species.
+
+===Input===
+A phenotype search specification for the phenotype to match.  A second phenotype search specification for the attribute for which to search for values.
+
+===Output===
+A table containing a list of taxa matching the first entered phenotype.  A second column in the table presenting the value of each taxon for the second entered character.
+
 [[Category:Informatics]]
