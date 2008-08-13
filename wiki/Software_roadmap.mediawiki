@@ -27,6 +27,7 @@ title: Software roadmap
 * '''[complete]''' Load from and save to NeXML file format.
 
 ===Phenex editor 1.0===
+* Interface for user option for whether to update ontologies.
 * User-customizable ontology preferences.
 * Undo/redo support.
 
