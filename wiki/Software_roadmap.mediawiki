@@ -46,6 +46,9 @@ title: Software roadmap
 ===Curators begin by using OBO-Edit to view and edit project ontologies -- August 2007===
 * '''[complete]''' Curators are using OBO-Edit successfully.
 
+===Unscheduled features===
+* Character encoding syntax for OBO file format and support in OBO-Edit.
+
 ==A database and web application to store and query the taxonomies, ontologies, and phenotype data==
 
 [[Category:Informatics]]
