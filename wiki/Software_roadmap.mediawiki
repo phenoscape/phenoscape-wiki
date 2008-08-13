@@ -26,6 +26,11 @@ title: Software roadmap
 * '''[complete]''' New post-composition editing interface.
 * '''[complete]''' Load from and save to NeXML file format.
 
+===Phenex 1.0-beta3 -- August 2008===
+* Character matrix panel for viewing and editing
+* Open NEXUS files
+* Import data from tab-delimited taxon and character files
+
 ===Phenex 1.0===
 * Interface for user option for whether to update ontologies.
 * User-customizable ontology preferences.
