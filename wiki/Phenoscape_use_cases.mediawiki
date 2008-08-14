@@ -69,7 +69,7 @@ A table containing a list of taxa matching the first entered phenotype.  A secon
 
 ==View all species with multiple phenotypes matching a condition==
 ===Example===
-A biologist wants to list all the species that have lost more than one bone.  O more specifically, all species that have lost more than one bone in the head.
+A biologist wants to list all the species that have lost more than one bone.  Or more specifically, all species that have lost more than one bone in the head.
 
 ===Input===
 A phenotype search specification, with constraints on the entity term such as "is_a term1" and "part_of term2".  The threshold number of annotations matching the phenotype required to include a taxon.
