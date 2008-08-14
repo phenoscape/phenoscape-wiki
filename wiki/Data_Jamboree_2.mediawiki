@@ -33,8 +33,8 @@ For curators:
 * [[Phenote User Guide]] (this also contains detailed instructions for downloading and running Phenote)
 * [[Resources for curators]]
 
-
 ==Logistics==
+
 
 ==Participants==
 
@@ -58,8 +58,6 @@ Members of the project team are in '''bold font'''.
 {{EventParticipant|Vision|Todd|tjv%40bio%2eunc%2eedu|NESCent, and Department of Biology, University of North Carolina at Chapel Hill|'''}}
 {{EventParticipant|Westerfield|Monte|monte%40uoneuro%2euoregon%2eedu|Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon|'''}}
 |}
-
-[[Category:Data Jamboree 2]]
 
 ==Reading==
 
