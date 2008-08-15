@@ -30,16 +30,16 @@ A list of matching evolutionary phenotypes and the taxon for each.  [A list is t
 
 ==Comparison of genetically and evolutionarily correlated characters==
 ===Motivation===
-Determining whether morphological characters are independent or genetically/developmentally correlated has been a longstanding and intractable question in phylogenetic systematics. Often the correlation between two (or more) characters is difficult to  ascertain, particularly when the characters involved are linked together at the molecular level.  However,  if evolutionary character changes could be matched to mutant developmental and morphological  phenotypes, single-gene mutant phenotype data from zebrafish would allow a detailed analysis of this issue for any evolutionary characters of interest.
+For phylogenetic systematics, one would like to know if two or more characters show phylogenetic correlation due to an underlying genetical/developmental correlation.  One way to address this is to determine if changes to both (all) those characters are found in a single-gene zebrafish mutant.  [The reverse of this use case can be imagined--[[User:Tjvision|Tjvision]] 12:55, 15 August 2008 (EDT)]
 
 ===Example===
-On a phylogenetic tree of the Ostariophysi, an evolutionary biologist observes a suite  of the characters that support the monophyly of a particular clade.  These characters, however, are all  marked by changes in size of the dentary, maxilla, ceratohyal, and opercle bones.  The user wants to know  whether the size modification of each of these bones represents independent support for this phylogenetic  hypothesis, or whether the changes are correlated due to a common genetic or developmental basis.  Querying the zebrafish mutant phenotype descriptions in EQ syntax with the above anatomical terms  would show that in sox9ahi1134 mutants, the dentary, opercle, and maxilla bones are reduced in size  relative to wild-type zebrafish, whereas other bones are relatively unaffected (Yan et al., '05).  This  suggests that the size of the dentary, opercle, and maxilla might be co-regulated in part by sox9a, and we  would conclude that support for the monophyly of this clade is not as strong as previously proposed.
+The user observes a suite of changes in the size of the dentary, maxilla, ceratohyal, and opercle bones that support the monophyly of a particular clade.  The user queries the system for zebrafish mutant phenotypes in which two or more of the above anatomical terms are used.  Phenoscape returns sox9ahi1134, in which the the dentary, opercle, and maxilla bones are reduced in size relative to wild-type, whereas other bones are relatively unaffected.  [This seems like a variant on the first use case with multiple Es and no Qs, so perhaps these can be combined --[[User:Tjvision|Tjvision]] 12:55, 15 August 2008 (EDT)]
 
 ===Input===
-Multiple phenotype search specifications: entity, quality, etc., representing the evolutionary character changes. Option to match exactly or to match descendant terms (as in quality "count", above).
+Multiple phenotype search specifications: entity, quality, etc., representing the evolutionary character changes. Option to match exactly or to match descendant terms (as in quality "count", above). 
 
 ===Output===
-A list of ZFIN mutant identifiers and associated genes which are associated with phenotypes matching all, or perhaps just more than one, of the search criteria.
+A list of ZFIN mutant identifiers and associated genes which are associated with phenotypes matching 2 or more of the search criteria.  [The output should at least be a matrix of genes against phenotypes --[[User:Tjvision|Tjvision]] 12:55, 15 August 2008 (EDT)]
 
 ==Map changes of an evolutionary character on a phylogeny==
 ===Motivation===
