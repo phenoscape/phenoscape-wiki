@@ -59,13 +59,13 @@ A graphical representation of the phylogenetic tree (cladogram).  The branches a
 A particular phenotype change may have evolutionary consequences for another aspect of phenotype.  This may be because they are linked via developmental or physical constraints, or are related through their effect on natural selection.
 
 ===Example===
-User observes a number of species missing the parietal bone and notes that these species are also generally small in size. To determine the generality of that conclusion, the user searches for all species in the database which lack the parietal bone and requests the body length value for each.
+User observes a number of species missing the parietal bone and notes that these species are also generally small in size. To determine the generality of that conclusion, the user searches for all species in the database which lack the parietal bone and requests the body length value for each. [Is this not also or alternatively done with zebrafish mutant data?--[[User:Tjvision|Tjvision]] 13:12, 15 August 2008 (EDT)]
 
 ===Input===
 A phenotype search specification for the phenotype to match.  A second phenotype search specification for the attribute for which to search for values.
 
 ===Output===
-A table containing a list of taxa matching the first entered phenotype.  A second column in the table presenting the value of each taxon for the second entered character.
+A table containing, in each row, the name of the taxon matching the first entered phenotype, the value of the first phenotype (included under the assumption this may vary), and the value of the second phenotype.
 
 ==View all species with multiple phenotypes matching a condition==
 ===Example===
