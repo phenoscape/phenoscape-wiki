@@ -28,8 +28,11 @@ title: Software roadmap
 
 ===Phenex 1.0-beta3 -- August 2008===
 * '''[complete]''' Character matrix panel for viewing and editing.
-* Open NEXUS files.
-* Import data from tab-delimited taxon and character files.
+* '''[complete]''' Open NEXUS files.
+* '''[complete]''' Import data from tab-delimited taxon files.
+
+===Phenex 1.0-beta4 -- August 2008===
+* Import data from tab-delimited character files.
 
 ===Phenex 1.0===
 * Interface for user option for whether to update ontologies.
