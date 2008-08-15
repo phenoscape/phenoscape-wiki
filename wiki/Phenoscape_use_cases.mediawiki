@@ -59,7 +59,7 @@ A graphical representation of the phylogenetic tree (cladogram).  The branches a
 A particular phenotype change may have evolutionary consequences for another aspect of phenotype.  This may be because they are linked via developmental or physical constraints, or are related through their effect on natural selection.
 
 ===Example===
-A biologist observes a number of species missing the parietal bone.  It appears that these species are also generally small in size.  The biologist searches for all species in the database which lack the parietal bone.  He then requests the body length value for all those species.
+User observes a number of species missing the parietal bone and notes that these species are also generally small in size. To determine the generality of that conclusion, the user searches for all species in the database which lack the parietal bone and requests the body length value for each.
 
 ===Input===
 A phenotype search specification for the phenotype to match.  A second phenotype search specification for the attribute for which to search for values.
