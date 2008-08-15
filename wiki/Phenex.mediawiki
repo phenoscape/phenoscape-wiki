@@ -1,0 +1,8 @@
+---
+title: Phenex
+---
+
+==Importing matrix files and taxon lists into Phenex==
+# In order to combine a taxon list created in Phenote with matrix data stored in a NEXUS file, both files need to use identical taxon names.  For the Phenote file, this is the value in "Publication Taxon" (NOT "Valid Name").  For the NEXUS file, this is the ordinary taxon name you can see and edit in Mesquite.  It is much easier if all the taxon names are made identical before you do the merge.
+# First, open the  taxon list in Phenote and the NEXUS file in Mesquite.  Make sure all the taxon names you want to match are identical.  It is okay if the files don't have the same number of taxa - if there are more in the taxon list, the extra taxa will be added.  If there are fewer, you will just have some that don't get matched.
+# While the NEXUS file is open in Mesquite, choose "File > Save File As..." and save a new copy of the NEXUS file.  This will ensure that Mesquite re-writes the NEXUS file using a modern format which is more likely to be successfully opened by Phenex.  Use this new copy of the NEXUS file for all subsequent steps.
