@@ -78,7 +78,7 @@ A biologist wants to list all the species that have lost more than one bone.  Or
 A phenotype search specification, with constraints on the entity term such as "is_a term1" and "part_of term2".  The threshold number of annotations matching the phenotype required to include a taxon.
 
 ===Output===
-A list of taxa and their phenotypes matching the input criteria.
+A list of taxa (and/or mutants?) and their phenotypes matching the input criteria.
 
 ==View every change in an anatomical structure mapped on a tree==
 ===Motivation===
