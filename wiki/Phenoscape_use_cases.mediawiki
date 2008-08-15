@@ -95,10 +95,10 @@ A display of the phylogeny mapping changes for each phenotypic character. (Possi
 
 ==Find morphological hot spots==
 ===Motivation===
-Some parts of anatomy may evolve rapidly relative to others.  These can be identified as those that exhibit many evolutionary changes in phenotype.  This could be a simple metric like finding anatomical terms that exhibit many different value states for characters.  A more complex analysis might perform ancestral state reconstruction for every character in the database, and return the entity terms involved in phenotypes with the most transitions.
+Some parts of anatomy may evolve rapidly relative to others.  These can be identified as those that exhibit many evolutionary changes in phenotype.  This could be a simple metric like finding anatomical terms that exhibit many different value states for characters.  A more complex analysis might perform ancestral state reconstruction for every character in the database, and return the entity terms involved in phenotypes with the most transitions.  [Are there other general properties of interest that are easily measured?  Slowest evolving, most/least evolutionary data available, affected by most/least mutants, etc]. 
 
 ===Example===
-A biologist may be interested to know whether structures that evolve rapidly share any genetic commonality.  The biologist obtains a list of rapidly evolving structures using this query, and then performs further analyses of those structures.
+The user wants to know whether structures that evolve rapidly share any genetic commonality. User obtains a list of rapidly evolving structures using this query, and then performs further analyses of those structures. 
 
 ===Input===
 All phenotypes in the database.
