@@ -17,7 +17,7 @@ A list of ZFIN mutant identifiers with matching phenotype of each, associated ge
 
 ==Identify evolutionary changes that match the phenotype of a zebrafish mutant==
 ===Motivation===
-It would be of interest to identify phenotypic variation among wild species that could be due to the similar genetic changes as observed in a zebrafish mutant.
+It would be of interest to identify phenotypic variation among wild species that could plausibly arise from changes in the same gene that is perturbed in particular zebrafish mutant.
 
 ===Example===
 User observes a reduction in number of branchiostegal rays in a zebrafish mutant for the gene endothelin-1. The user wants to know whether branchiostegal ray number is variable among fish species, and if so, what is the pattern of change across fish evolution. User queries Phenoscape using Entity = Branchiostegal rays [from TAO] and all qualities pertaining to attribute ‘count’ [from the PATO]. Phenoscape returns a list [just a list?--[[User:Tjvision|Tjvision]] 12:40, 15 August 2008 (EDT)] of taxa and phenotypes. The user would see that all cypriniforms, including zebrafish, have three branchiostegal rays, but other fishes, including close ostariophysan relatives, have higher and lower numbers.  [How would a list achieve that?  Should this not be mapped on a phylogeny? --[[User:Tjvision|Tjvision]] 12:40, 15 August 2008 (EDT)]
