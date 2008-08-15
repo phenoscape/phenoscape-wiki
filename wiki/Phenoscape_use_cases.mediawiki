@@ -43,7 +43,7 @@ A list of ZFIN mutant identifiers and associated genes which are associated with
 
 ==Map changes of an evolutionary character on a phylogeny==
 ===Motivation===
-After observing variation of a trait in evolution (as found in use case above [https://www.nescent.org/phenoscape/Phenoscape_use_cases#Identify evolutionary changes that match the phenotype of a zebrafish mutant], a biologist may further want to know what the pattern of evolution of this trait has been.
+After observing variation of a trait in evolution (as found in use case [[#Identify evolutionary changes that match the phenotype of a zebrafish mutant|above]], a biologist may further want to know what the pattern of evolution of this trait has been.
 
 ===Example===
 The user observes variation in number of branchiostegal rays across taxa from above.  They prompt Phenoscape to map the character changes on a phylogeny. From this they can see that all cypriniforms, including zebrafish, have three branchiostegal rays, but other fishes, including close ostariophysan  relatives, have higher and lower numbers. Specifically, reduction in number has occurred multiple times; solenostomids and syngnathids (ghost pipefishes and pipefishes), giganturids, and saccopharyngoid (gulper and swallower) eels have the fewest branchiostegal rays.
