@@ -43,16 +43,16 @@ A list of ZFIN mutant identifiers and associated genes which are associated with
 
 ==Map changes of an evolutionary character on a phylogeny==
 ===Motivation===
-After observing variation of a trait in evolution (as found in use case [[#Identify evolutionary changes that match the phenotype of a zebrafish mutant]], a biologist may further want to know what the pattern of evolution of this trait has been.  This can lead to hypotheses relating to how often this trait changes in evolution, such as whether such changes occur in parallel at many places on the evolutionary tree.
+After observing variation of a trait in evolution (as found in use case [[#Identify evolutionary changes that match the phenotype of a zebrafish mutant]], a biologist may further want to know what the pattern of evolution of this trait has been. 
 
 ===Example===
-A biologist observes in number of branchiostegal rays across taxa in the database (such as in the results of [[#Identify evolutionary changes that match the phenotype of a zebrafish mutant]]).  The biologist maps the character changes on a phylogeny, and sees that all cypriniforms,  including zebrafish, have three branchiostegal rays, but other fishes, including close ostariophysan  relatives, have higher and lower numbers (McAllister, '68).  Specifically, reduction in number has  occurred multiple times; solenostomids and syngnathids (ghost pipefishes and pipefishes), giganturids,  and saccopharyngoid (gulper and swallower) eels have the fewest branchiostegal rays (McAllister, '68).
+The user observes variation in number of branchiostegal rays across taxa from above.  They prompt Phenoscape to map the character changes on a phylogeny. From this they can see that all cypriniforms, including zebrafish, have three branchiostegal rays, but other fishes, including close ostariophysan  relatives, have higher and lower numbers. Specifically, reduction in number has occurred multiple times; solenostomids and syngnathids (ghost pipefishes and pipefishes), giganturids, and saccopharyngoid (gulper and swallower) eels have the fewest branchiostegal rays.
 
 ===Input===
-A list of taxa and their phenotypes for a previously searched character specification.  A phylogenetic tree including the taxa of interest.
+A list of taxa and their phenotypes for a previously searched character specification.  A phylogenetic tree including the taxa of interest. [There should be trees internal to the system.  And I think this should simply be combined with the previous use case--[[User:Tjvision|Tjvision]] 13:02, 15 August 2008 (EDT)]
 
 ===Output===
-A graphical representation of a phylogenetic tree (cladogram).  The branches are colored to represent reconstructed ancestral states of the given character values (or ambiguity).  The state reconstruction is performed using a standard algorithm such as parsimony or a maximum likelihood method.
+A graphical representation of the phylogenetic tree (cladogram).  The branches are colored to represent reconstructed ancestral states of the given character values (or ambiguity) using, e.g. parsimony.  The phenotypic data matrix is shown at the tips.
 
 ==View values for a particular character for a set of species with some value for another character==
 ===Motivation===
