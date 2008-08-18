@@ -2,7 +2,7 @@
 title: Phenoscape use cases
 ---
 
-==Identify zebrafish candidate genes for an evolutionary phenotype (ranked #1 by TJV and PM)== 
+==1. Identify zebrafish candidate genes for an evolutionary phenotype (ranked #1 by TJV and PM)==
 ===Motivation===
 To obtain one or more candidate genes for an evolutionary change in phenotype, one would like to know which genes, when perturbed in a model organism, give rise to a "similar" phenotypic difference between wildtype and mutant genotypes.
 
