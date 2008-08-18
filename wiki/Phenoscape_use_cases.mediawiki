@@ -54,7 +54,7 @@ A list of taxa and their phenotypes for a previously searched character specific
 ===Output===
 A graphical representation of the phylogenetic tree (cladogram).  The branches are colored to represent reconstructed ancestral states of the given character values (or ambiguity) using, e.g. parsimony.  The phenotypic data matrix is shown at the tips.
 
-==View values for a particular character for a set of species with some value for another character==
+==4. View values for a particular character for a set of species with some value for another character (ranked equivalently with one other use case)==
 ===Motivation===
 A particular phenotype change may have evolutionary consequences for another aspect of phenotype.  This may be because they are linked via developmental or physical constraints, or are related through their effect on natural selection.
 
