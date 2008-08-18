@@ -28,7 +28,7 @@ A phenotype search specification: entity, quality, etc. Option to match exactly 
 ===Output===
 A list of matching evolutionary phenotypes and the taxon for each.  [A list is too crude - the phenotypes should be phylogenetically mapped as in the use case below --[[User:Tjvision|Tjvision]] 12:40, 15 August 2008 (EDT)]
 
-==Comparison of genetically and evolutionarily correlated characters==
+==3. Comparison of genetically and evolutionarily correlated characters==
 ===Motivation===
 For phylogenetic systematics, one would like to know if two or more characters show phylogenetic correlation due to an underlying genetical/developmental correlation.  One way to address this is to determine if changes to both (all) those characters are found in a single-gene zebrafish mutant.  [The reverse of this use case can be imagined--[[User:Tjvision|Tjvision]] 12:55, 15 August 2008 (EDT)][agree with Todd--[[User:Pmabee@usd.edu|Pmabee@usd.edu]] 16:03, 18 August 2008 (EDT)]
 
