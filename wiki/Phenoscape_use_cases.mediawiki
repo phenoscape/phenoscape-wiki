@@ -39,7 +39,7 @@ The user observes a suite of changes in the size of the dentary, maxilla, cerato
 Multiple phenotype search specifications: entity, quality, etc., representing the evolutionary character changes. Option to match exactly or to match descendant terms (as in quality "count", above).[Also, option to match ancestral terms a node or two up.--[[User:Pmabee@usd.edu|Pmabee@usd.edu]] 16:04, 18 August 2008 (EDT)]
 
 ===Output===
-A list of ZFIN mutant identifiers and associated genes which are associated with phenotypes matching 2 or more of the search criteria.  [The output should at least be a matrix of genes against phenotypes --[[User:Tjvision|Tjvision]] 12:55, 15 August 2008 (EDT)]
+A list of ZFIN mutant identifiers and associated genes which are associated with phenotypes matching 2 or more of the search criteria.  [The output should at least be a matrix of genes against phenotypes --[[User:Tjvision|Tjvision]] 12:55, 15 August 2008 (EDT)]  [Needs analysis workshop identified this "Correlation matrix of traits" as a high (#2) priority --[[User:Pmabee@usd.edu|Pmabee@usd.edu]] 18:10, 18 August 2008 (EDT)]
 
 ==2. Map changes of an evolutionary character on a phylogeny (ranked #2 by TJV & PM; see two other similar mapping use cases, also ranked #2)==
 ===Motivation===
