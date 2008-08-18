@@ -30,7 +30,7 @@ A list of matching evolutionary phenotypes and the taxon for each.  [A list is t
 
 ==Comparison of genetically and evolutionarily correlated characters==
 ===Motivation===
-For phylogenetic systematics, one would like to know if two or more characters show phylogenetic correlation due to an underlying genetical/developmental correlation.  One way to address this is to determine if changes to both (all) those characters are found in a single-gene zebrafish mutant.  [The reverse of this use case can be imagined--[[User:Tjvision|Tjvision]] 12:55, 15 August 2008 (EDT)]
+For phylogenetic systematics, one would like to know if two or more characters show phylogenetic correlation due to an underlying genetical/developmental correlation.  One way to address this is to determine if changes to both (all) those characters are found in a single-gene zebrafish mutant.  [The reverse of this use case can be imagined--[[User:Tjvision|Tjvision]] 12:55, 15 August 2008 (EDT)][agree with Todd--[[User:Pmabee@usd.edu|Pmabee@usd.edu]] 16:03, 18 August 2008 (EDT)]
 
 ===Example===
 The user observes a suite of changes in the size of the dentary, maxilla, ceratohyal, and opercle bones that support the monophyly of a particular clade.  The user queries the system for zebrafish mutant phenotypes in which two or more of the above anatomical terms are used.  Phenoscape returns sox9ahi1134, in which the the dentary, opercle, and maxilla bones are reduced in size relative to wild-type, whereas other bones are relatively unaffected.  [This seems like a variant on the first use case with multiple Es and no Qs, so perhaps these can be combined --[[User:Tjvision|Tjvision]] 12:55, 15 August 2008 (EDT)]
