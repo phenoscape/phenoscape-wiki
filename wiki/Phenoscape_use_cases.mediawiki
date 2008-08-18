@@ -23,7 +23,7 @@ It would be of interest to identify phenotypic variation among wild species that
 User observes a reduction in number of branchiostegal rays in a zebrafish mutant for the gene endothelin-1. The user wants to know whether branchiostegal ray number is variable among fish species, and if so, what is the pattern of change across fish evolution. User queries Phenoscape using Entity = Branchiostegal rays [from TAO] and all qualities pertaining to attribute ‘count’ [from the PATO]. Phenoscape returns a list [just a list?--[[User:Tjvision|Tjvision]] 12:40, 15 August 2008 (EDT)] of taxa and phenotypes. The user would see that all cypriniforms, including zebrafish, have three branchiostegal rays, but other fishes, including close ostariophysan relatives, have higher and lower numbers. [Better to be able to return (default) phylogeny with mapped character state changes --[[User:Pmabee@usd.edu|Pmabee@usd.edu]] 16:00, 18 August 2008 (EDT)]
 
 ===Input===
-A phenotype search specification: entity, quality, etc. Option to match exactly or to match descendant terms (as in quality "count", above).
+A phenotype search specification: entity, quality, etc. Option to match exactly or to match descendant terms (as in quality "count", above). [ Also, option to match ancestral terms a node or two up as per above use case --[[User:Pmabee@usd.edu|Pmabee@usd.edu]] 16:02, 18 August 2008 (EDT)]
 
 ===Output===
 A list of matching evolutionary phenotypes and the taxon for each.  [A list is too crude - the phenotypes should be phylogenetically mapped as in the use case below --[[User:Tjvision|Tjvision]] 12:40, 15 August 2008 (EDT)]
