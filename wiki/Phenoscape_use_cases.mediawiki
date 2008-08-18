@@ -93,14 +93,14 @@ An anatomical term from an anatomy ontology.  A (user supplied or built-in) phyl
 ===Output===
 A display of the phylogeny mapping changes for each phenotypic character. (Possibly a listing of all phenotypes for each species which contain the entered term as an entity).
 
-==Find morphological hot spots==
+==6. Find morphological hot spots==
 ===Motivation===
 Some parts of anatomy may evolve rapidly relative to others.  These can be identified as those that exhibit many evolutionary changes in phenotype.  This could be a simple metric like finding anatomical terms that exhibit many different value states for characters.  A more complex analysis might perform ancestral state reconstruction for every character in the database, and return the entity terms involved in phenotypes with the most transitions. [Quality terms also of significant interest - is size, shape, or presence/absence the most common change in a particular clade? How does frequency of different types (size, shape, qualitative) compare across clades? compare between clades and mutants? --[[User:Pmabee@usd.edu|Pmabee@usd.edu]] 16:25, 18 August 2008 (EDT)]
 
 [Are there other general properties of interest that are easily measured?  Slowest evolving, most/least evolutionary data available, affected by most/least mutants, etc].
 
 ===Example===
-The user wants to know whether structures that evolve rapidly share any genetic commonality. User obtains a list of rapidly evolving structures using this query, and then performs further analyses of those structures. 
+The user wants to know whether structures that evolve rapidly share any genetic commonality. User obtains a list of rapidly evolving structures using this query, and then performs further analyses of those structures.
 
 ===Input===
 All phenotypes in the database.
