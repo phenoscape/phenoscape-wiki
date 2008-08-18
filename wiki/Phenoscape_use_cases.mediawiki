@@ -80,7 +80,7 @@ A phenotype search specification, with constraints on the entity term such as "i
 ===Output===
 A list of taxa (and/or mutants?) and their phenotypes matching the input criteria.
 
-==View every change in an anatomical entity mapped on a tree==
+==2. View every change in an anatomical entity mapped on a tree (ranked #2 by PM with two other similar mapping use cases, also ranked #2)==
 ===Motivation===
 The user may be interested in how a particular structure has evolved, without knowing what types of changes have occurred in that structure.  It would be useful to view the pattern of evolution of all species phenotypes involving that structure, visualized on a phylogeny as in [[#Map changes of an evolutionary character on a phylogeny]].  [If multiple structures are examined, this could feed into a "generate me a NEXUS file" use case--[[User:Tjvision|Tjvision]] 13:20, 15 August 2008 (EDT)]  [Narrowed searches (e.g. from E="Branchiostegal rays", Q="all" to Q="count" are equivalent to Use cases "Map changes of an evolutionary character on a phylogeny" and "Identify evolutionary changes that match the phenotype of a zebrafish mutant" --[[User:Pmabee@usd.edu|Pmabee@usd.edu]] 17:33, 18 August 2008 (EDT)].  A user may also want to broaden a search (e.g., to "E=dermal bone") in the cases where the search results are null--[[User:Pmabee@usd.edu|Pmabee@usd.edu]] 16:35, 18 August 2008 (EDT)]
 
