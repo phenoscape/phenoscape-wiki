@@ -15,7 +15,7 @@ A phenotype search specification: entity (TAO), quality (PATO).  Option to match
 ===Output===
 A list of ZFIN mutant identifiers with matching phenotype(s) of each, associated gene(s), perhaps gene expression images (or links to).
 
-==2. Identify evolutionary changes that match the phenotype of a zebrafish mutant (ranked #2 by TJV & PM with two other similar mapping use cases, also ranked #2)==
+==2. Identify evolutionary changes that match the phenotype of a zebrafish mutant (ranked #2 by TJV & PM; see two other similar mapping use cases, also ranked #2)==
 ===Motivation===
 It would be of interest to identify phenotypic variation among wild species that could plausibly arise from changes in the same gene that is perturbed in particular zebrafish mutant.
 
