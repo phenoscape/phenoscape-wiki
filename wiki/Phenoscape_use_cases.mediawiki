@@ -13,7 +13,7 @@ User observes evolutionary variation among fishes in the size of the ceratobranc
 A phenotype search specification: entity (TAO), quality (PATO).  Option to match exactly or to match descendant terms (as in quality "size", above).  [Also, option to match ancestral terms a node or two up.  E.g. if a search yields no phenotype matches to "ceratobranchial 5", the user may want to search "ceratobranchial" (one node up) or even pharyngeal arch (more nodes up).  User will want to visualize the ontology simultaneously in order to make decisions about how to proceed in a search.  --[[User:Pmabee@usd.edu|Pmabee@usd.edu]] 15:50, 18 August 2008 (EDT)]
 
 ===Output===
-A list of ZFIN mutant identifiers with matching phenotype of each, associated gene, perhaps gene expression images (or links to).
+A list of ZFIN mutant identifiers with matching phenotype(s) of each, associated gene(s), perhaps gene expression images (or links to).
 
 ==Identify evolutionary changes that match the phenotype of a zebrafish mutant==
 ===Motivation===
