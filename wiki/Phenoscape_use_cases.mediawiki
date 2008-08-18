@@ -67,7 +67,7 @@ A phenotype search specification for the phenotype to match.  A second phenotype
 ===Output===
 A table containing, in each row, the name of the taxon matching the first entered phenotype, the value of the first phenotype (included under the assumption this may vary), and the value of the second phenotype.
 
-==View all species with multiple phenotypes matching a condition==
+==4. View all species with multiple phenotypes matching a condition==
 ===Motivation===
 To find taxa (or mutants) matching complex phenotype descriptions.  [[This begins to really take advantage of ontological reasoning--[[User:Tjvision|Tjvision]] 13:16, 15 August 2008 (EDT) ]]
 
