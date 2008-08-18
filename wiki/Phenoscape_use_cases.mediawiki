@@ -41,7 +41,7 @@ Multiple phenotype search specifications: entity, quality, etc., representing th
 ===Output===
 A list of ZFIN mutant identifiers and associated genes which are associated with phenotypes matching 2 or more of the search criteria.  [The output should at least be a matrix of genes against phenotypes --[[User:Tjvision|Tjvision]] 12:55, 15 August 2008 (EDT)]
 
-==#2 Map changes of an evolutionary character on a phylogeny (ranked #2 by TJV & PM with two other similar mapping use cases, also ranked #2)==
+==2. Map changes of an evolutionary character on a phylogeny (ranked #2 by TJV & PM with two other similar mapping use cases, also ranked #2)==
 ===Motivation===
 After observing phenotypic variation among species in a given trait (as in use case [[#Identify evolutionary changes that match the phenotype of a zebrafish mutant|above]]), the user wants to know what the pattern of evolution of this trait has been.
 
