@@ -108,4 +108,17 @@ All phenotypes in the database.
 ===Output===
 A list of anatomy terms exhibiting the highest number of phenotypes or changes, depending on the metric.
 
+==Genetic or evolutionary modules: discovery and testing==
+
+===Motivation===
+Some parts of anatomy may be developmentally integrated, sharing common genetic pathways.  Structures that are identified as sharing common developmental genes and/or pathways may be grouped as a possible module; this assemblage of entities can be mapped on phylogeny to see the level of constraint on its parts (i.e. whether it is evolutionarily conserved across, e.g. more nodes than one would expect from a randomly assembled group of entities).  Genetic module discovery mechanism unclear. 
+
+===Example===
+A user may want to know whether some a priori group of entities constitute a module (testing).  User may also want to know whether modules exist and what constitutes them (discovery)
+
+===Input===
+All phenotypes in the database.
+
+===Output===
+
 [[Category:Informatics]]
