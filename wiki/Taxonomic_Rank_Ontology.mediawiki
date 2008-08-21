@@ -33,6 +33,9 @@ Species are increasingly seen to be better modelled as individuals.
 
 ===Inference with an ontology of taxonomic ranks + instance graph of taxa===
 
+===Individuals/Instances===
+Implementing this approach will require [[Tool support for Instances]].
+
 ==Taxonomic Ranks as Metaclasses==
 
 An approach that allows taxa to be viewed as both classes and individuals is to view rank terms, such as 'genus' as metaclasses.  A metaclass is a class of classes. This would mean that a particular genus, e.g., ''Danio'' is both a subclass of Cyprinidae and an instance of genus.  Metaclasses are used when assigning particular properties to a class itself, rather than its members.  The property 'extinct' might be such a class-level property, as opposed to 'dead' a property that inheres in individuals.  Extinct is a property we want to inhere in certain taxa only when all their individual constituents are dead.  However, there are classes, such as anatomical parts, or behavior patterns that would not be subject to the possiblity of extinction.
