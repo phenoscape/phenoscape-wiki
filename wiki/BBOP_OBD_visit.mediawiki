@@ -129,4 +129,14 @@ TBD. Some ideas:
 e.g. to do integrate ZFIN genotype-phenotype annotations with evo-debo ones
 This can be done dynamically with a MultiShard
 
+==Notes==
+===OBD model===
+* Began mapping of Phenex data model to OBD model.  This is currently implemented in <code>org.phenoscape.bridge.OBDModelBridge.java</code>.
+
+===OBD API===
+
+===OBD web application===
+
+===Phenex OBD interaction===
+
 [[Category:Informatics]]
