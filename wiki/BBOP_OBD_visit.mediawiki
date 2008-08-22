@@ -140,7 +140,12 @@ This can be done dynamically with a MultiShard
 ** We may want to remove the count field from Phenex and input counts as measurements instead.  The "count" unit is available in the units ontology.  This is up for discussion at the moment.
 
 ===OBD SQL===
-
+* Instantiating the OBD database is easiest via running of scripts in the scripts directory in the OBDAPI project.
+* These scripts are currently not written to accept arbitrary DB usernames and passwords, but work well for a DB on localhost with no password.
+* The scripts are critical for easy importing of all needed ontologies.
+* Workaround - created a local OBD instance on laptop, then dumped and imported into darwin.nescent.org.
+* Importing dump into darwin.nescent.org is complicated by its attempt to create a plpgsql language, which can only be done by a DB superuser.
+* Workaround - have superuser create language for a blank DB.  Copy it as a template for future use ("emptydbplpgsql").  Comment out language creation in dump SQL.  Import dump into darwin DB.
 
 ===OBD API===
 * We used the OBD Java API to implement the mapping in Phenex (above).
