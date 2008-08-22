@@ -152,6 +152,7 @@ This can be done dynamically with a MultiShard
 ===OBD API===
 * We used the OBD Java API to implement the mapping in Phenex (above), including data loader from Phenex into OBD.
 * We successfully connected to and manipulated a local OBD database as well as an OBD instance at darwin.nescent.org via the OBD API.
+* Queries to the API can be performed directly from the Restlet application.  However, it would make sense to develop convenience APIs above OBDAPI for our application data model (reduce tedious traversals performed by view code).
 
 ===OBD Web UI===
 
