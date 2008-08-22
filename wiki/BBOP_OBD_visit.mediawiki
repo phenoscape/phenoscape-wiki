@@ -134,6 +134,8 @@ This can be done dynamically with a MultiShard
 * Began mapping of Phenex data model to OBD model.  This is currently implemented in <code>org.phenoscape.bridge.OBDModelBridge.java</code>.
 ** "Adminsistrative" entities such as the character matrix, characters, and states, are modeled as instances of types from CDAO.  This is currently done in a placeholder manner, e.g. "cdao:CharacterStateDataMatrix".
 ** Mapping of specimens is still to be implemented.
+* Phenotypes
+** Quantities such as measurement are not yet handled.  This will require further discussion between Cartik, Chris, and Jim.  Beyond basic quantities, we want to also handle min and max, as defined in PhenoXML.
 
 ===OBD API===
 
