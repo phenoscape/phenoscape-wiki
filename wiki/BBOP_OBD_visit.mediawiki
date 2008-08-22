@@ -149,7 +149,7 @@ This can be done dynamically with a MultiShard
 * We need to work with Chris and Rob on script workflow and handling of stricter DB security situations.
 
 ===OBD API===
-* We used the OBD Java API to implement the mapping in Phenex (above).
+* We used the OBD Java API to implement the mapping in Phenex (above), including data loader from Phenex into OBD.
 * We successfully connected to and manipulated a local OBD database as well as an OBD instance at darwin.nescent.org via the OBD API.
 
 ===OBD Web UI===
