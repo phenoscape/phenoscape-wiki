@@ -146,6 +146,7 @@ This can be done dynamically with a MultiShard
 * Workaround - created a local OBD instance on laptop, then dumped and imported into darwin.nescent.org.
 * Importing dump into darwin.nescent.org is complicated by its attempt to create a plpgsql language, which can only be done by a DB superuser.
 * Workaround - have superuser create language for a blank DB.  Copy it as a template for future use ("emptydbplpgsql").  Comment out language creation in dump SQL.  Import dump into darwin DB.
+* We need to work with Chris and Rob on script workflow and handling of stricter DB security situations.
 
 ===OBD API===
 * We used the OBD Java API to implement the mapping in Phenex (above).
