@@ -159,7 +159,8 @@ This can be done dynamically with a MultiShard
 * Loading of data from Phenex into OBD is implemented in <code>org.phenoscape.bridge.OBDModelBridgeTest.java</code>, as a JUnit test.
 * Ideally the reasoner needs to be run after ontology and data loading, to precompute relations.
 * For this reason a "data warehousing" approach may be the best plan for using the current code.
-** Annotated data could be deposited into a public directory (possibly SVN), and a script could periodically clear and repopulate the database, then run the reasoner.
+** Annotated data could be deposited into a public directory (possibly SVN), and a script could periodically clear and repopulate the database, by importing those files, then run the reasoner.
 ** This approach also avoids issues still under consideration regarding unique IDs for particular datasets and how to import modifications to datasets already in ODB.
+** This would also keep ontology content up-to-date.  The reasoner cannot currently remove previously precomputed links that an updated ontology version no longer implies.
 
 [[Category:Informatics]]
