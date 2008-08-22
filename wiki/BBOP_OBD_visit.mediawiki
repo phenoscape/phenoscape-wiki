@@ -136,6 +136,7 @@ This can be done dynamically with a MultiShard
 ** Mapping of specimens is still to be implemented.
 * Phenotypes
 ** Quantities such as measurement are not yet handled.  This will require further discussion between Cartik, Chris, and Jim.  Beyond basic quantities, we want to also handle min and max, as defined in PhenoXML.
+** We may want to remove the count field from Phenex and input counts as measurements instead.  The "count" unit is available in the units ontology.  This is up for discussion at the moment.
 
 ===OBD API===
 
