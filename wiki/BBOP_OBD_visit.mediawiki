@@ -138,9 +138,14 @@ This can be done dynamically with a MultiShard
 ** Quantities such as measurement are not yet handled.  This will require further discussion between Cartik, Chris, and Jim.  Beyond basic quantities, we want to also handle min and max, as defined in PhenoXML.
 ** We may want to remove the count field from Phenex and input counts as measurements instead.  The "count" unit is available in the units ontology.  This is up for discussion at the moment.
 
-===OBD API===
+==OBD SQL==
 
-===OBD web application===
+
+===OBD API===
+* We used the OBD Java API to implement the mapping in Phenex (above).
+* We successfully connected to and manipulated a local OBD database as well as an OBD instance at darwin.nescent.org via the OBD API.
+
+===OBD Web UI===
 
 ===Phenex OBD interaction===
 
