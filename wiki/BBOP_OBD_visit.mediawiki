@@ -133,6 +133,7 @@ This can be done dynamically with a MultiShard
 ===OBD model===
 * Began mapping of Phenex data model to OBD model.  This is currently implemented in <code>org.phenoscape.bridge.OBDModelBridge.java</code>, in the Phenex source.
 ** "Adminsistrative" entities such as the character matrix, characters, and states, are modeled as instances of types from CDAO.  This is currently done in a placeholder manner, e.g. "cdao:CharacterStateDataMatrix".
+** The mapper gives some of these entities generated IDs, which makes them easier to work with in ODB (avoiding blank nodes).  These IDs are being generated because it doesn't seem prudent to rely on the given ID in the NeXML file/Phenex, as that is more of a local, in-file identifier.  However, this presents complications for adding or modifying data for a data set already in OBD.
 ** Need to interact with EvoInfo group to confirm correct usage of types and relations from CDAO.
 ** Mapping of specimens is still to be implemented.
 * Phenotypes
@@ -154,6 +155,11 @@ This can be done dynamically with a MultiShard
 
 ===OBD Web UI===
 
-===Phenex OBD interaction===
+===Phenex OBD interaction, OBD data loading===
+* Loading of data from Phenex into OBD is implemented in <code>org.phenoscape.bridge.OBDModelBridgeTest.java</code>, as a JUnit test.
+* Ideally the reasoner needs to be run after ontology and data loading, to precompute relations.
+* For this reason a "data warehousing" approach may be the best plan for using the current code.
+** Annotated data could be deposited into a public directory (possibly SVN), and a script could periodically clear and repopulate the database, then run the reasoner.
+** This approach also avoids issues still under consideration regarding unique IDs for particular datasets and how to import modifications to datasets already in ODB.
 
 [[Category:Informatics]]
