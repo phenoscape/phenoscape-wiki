@@ -9,7 +9,7 @@ The following are instructions on how to update a taxon list after you have rece
 
 To download a copy of the taxon file, you will need to connect to the [https://phenoscape.org/wiki/Help:Contents#File_Shares Phenoscape file share].  Ask a PhenoScaper for username and password.
 
-After connecting to the file share, navigate to the Taxon List (phenote+) folder and copy the relevant file to your desktop.
+After connecting to the file share, navigate to the "Working Taxon lists (to phenex)" folder and copy the relevant file to your desktop.
 
 ====Open file in Phenote+====
 
