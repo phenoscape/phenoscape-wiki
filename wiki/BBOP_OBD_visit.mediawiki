@@ -156,7 +156,7 @@ This can be done dynamically with a MultiShard
 * Queries to the API can be performed directly from the Restlet application.  However, it would make sense to develop convenience APIs above OBDAPI for our application data model (reduce tedious traversals performed by view code).
 
 ===OBD Web UI===
-* OBDUI project is quite easy to build and package into a WAR from Eclipse.  Automated server builds via Ant are not yet implemented.
+* OBDUI project is quite easy to build and package into a WAR from Eclipse.  Automated server builds via Ant are not yet implemented.  Ant builds and automated deployment would be desirable from a NESCent perspective.
 * It is also quite simple to run the OBDUI application directly from Eclipse via a local copy of Tomcat.
 * Additional databases can be made available in the application by adding to the configuration in <code>WebContent/obdRestServletConfig.xml</code>.
 * The Phenoscape web UI can be begun by implementing Phenoscape-specific Resources within the existing OBDUI project.  The OBDUI application provides a useful infrastructure (such as important superclasses like <code>org.obd.ws.coreResource.OBDResource.java</code>), and the Phenoscape data source can easily be added in its own URL-space separate from other data sources loaded in the application.
