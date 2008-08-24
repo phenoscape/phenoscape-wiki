@@ -158,6 +158,9 @@ This can be done dynamically with a MultiShard
 ===OBD Web UI===
 * OBDUI project is quite easy to build and package into a WAR from Eclipse.  Automated server builds via Ant are not yet implemented.  Ant builds and automated deployment would be desirable from a NESCent perspective.
 * It is also quite simple to run the OBDUI application directly from Eclipse via a local copy of Tomcat.
+* Some of the URLs in the application including OBO identifiers require the following options enabled in Tomcat:
+** <code>-Dorg.apache.tomcat.util.buf.UDecoder.ALLOW_ENCODED_SLASH=true</code>
+** <code>-Dorg.apache.catalina.connector.CoyoteAdapter.ALLOW_BACKSLASH=true</code>
 * Additional databases can be made available in the application by adding to the configuration in <code>WebContent/obdRestServletConfig.xml</code>.
 * The Phenoscape web UI can be begun by implementing Phenoscape-specific Resources within the existing OBDUI project.  The OBDUI application provides a useful infrastructure (such as important superclasses like <code>org.obd.ws.coreResource.OBDResource.java</code>), and the Phenoscape data source can easily be added in its own URL-space separate from other data sources loaded in the application.
 * Longer term it may be wise to sort out better ways to develop a completely independent application which reuses functionality from the core OBDUI code.
