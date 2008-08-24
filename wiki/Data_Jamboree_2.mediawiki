@@ -45,7 +45,7 @@ Members of the project team are in '''bold font'''.
 ! Name !! Institution
 {{EventParticipant|Balhoff|Jim|balhoff%40nescent%2eorg|NESCent|'''}}
 {{EventParticipant|Blake|Judith|jblake%40informatics%2ejax.org|The Jackson Laboratory|}}
-{{EventParticipant|Coburn&dagger;|Miles|coburn%40jcu%2eedu|John Carroll University|}}
+{{EventParticipant|Grande|Terry|TGRANDE@luc.edu|Loyola University, Chicago|}}
 {{EventParticipant|Dahdul|Wasila|dahdul%40acnatsci%2eorg|Department of Ichthyology, Academy of Natural Sciences|'''}}
 {{EventParticipant|Hilton|Eric|ehilton%40vims%2eedu|Virginia Institute of Marine Science|}}
 {{EventParticipant|Kothari|Cartik|cartik%40nescent%2eorg|NESCent|'''}}
