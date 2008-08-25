@@ -39,6 +39,7 @@ These are notes from Jim's and Cartik's visit to BBOP.  Also of interest are Chr
 
 ===OBD Web UI===
 * Source https://geneontology.svn.sourceforge.net/svnroot/geneontology/OBDUI
+* BBOP instance: http://spade.lbl.gov:8080/OBDUI
 * OBDUI project is quite easy to build and package into a WAR from Eclipse.  Automated server builds via Ant are not yet implemented.  Ant builds and automated deployment would be desirable from a NESCent perspective.
 * It is also quite simple to run the OBDUI application directly from Eclipse via a local copy of Tomcat.
 * Some of the URLs in the application including certain OBO identifiers require the following options enabled in Tomcat:
