@@ -14,6 +14,9 @@ These are notes from Jim's and Cartik's visit to BBOP.  Also of interest are Chr
 * Phenotypes
 ** Quantities such as measurement are not yet handled.  This will require further discussion between Cartik, Chris, and Jim.  Beyond basic quantities, we want to also handle min and max, as defined in PhenoXML.
 ** We may want to remove the count field from Phenex and input counts as measurements instead.  The "count" unit is available in the units ontology.  This is up for discussion at the moment.
+** The relation of a taxon to a phenotype is currently called "exhibits".  The default semantics do not automatically map a phenotype to supertypes in the taxonomy ontology.  However, such inferences could be desirable.
+** Could find "some particular genus" exhibits "all the phenotypes of its member species"
+** Need to decide if we want that to come from reasoner and then provide needed semantics to relation
 * Status of phylogeny data is still undecided and unimplemented.  Could leave as an opaque piece of data and deal with only in application. Other extreme is to completely represent phylogeny via OBD links.  Middle path could leave opaque but at least create relations to TTO taxa referenced within.
 
 ===OBD SQL===
