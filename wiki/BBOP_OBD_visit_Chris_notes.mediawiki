@@ -2,6 +2,133 @@
 title: BBOP OBD visit/Chris notes
 ---
 
-blah
+Chris's initial plan before beginning work...
+
+== Setup ==
+
+Checkout code from NCBO GForge
+
+* OBDAPI
+* OBDUI
+
+Developers recommended to use Eclipse
+
+Everything can be run from command line; eventually everything can be
+run from a RESTy web admin interface.
+
+* TODO: web admin interface (PUNT)
+
+* TODO: add instructions for setting up PATH
+
+== Initialization ==
+
+=== Core database plus ontologies ===
+
+Run
+
+obd-create-db.pl -h <HOST> -d obdevo -c obdevo.conf
+
+Then run
+
+obd-reasoner.pl  -d obdevo@HOST
+
+This populates the deductive closure
+
+* TODO: create and test obdevo.conf (1 day)
+
+This is just a newline separate list of ontology IDs (teleost_anatomy
+quality etc) or URLs
+
+(Optional: sources can be loaded later)
+
+=== Load Phylogenies ===
+
+OPEN. Is this entirely covered by loading TTO? Do we want to load
+alternative phyogenetic hypotheses? Metadata on how the tree was
+arrived at? Branch lengths? How will these be used in queries?
+
+Loading of PhyloXML or NHX files would be easiest for us
+
+=== Load annotations ===
+
+Run
+
+obd-exec --format org.obd.parser.NESCENTPhenoteConfigParser <TAB-FILES>
+
+* TODO: write org.obd.parser.NESCENTPhenoteConfigParser (1 day)
+
+(use NCBO one as a template)
+
+Note that we could write a phenote mapping to org.obo.annotation
+instead. This is probably the way to go in the long run, but it will
+slow us in the short term. See Phenote section below
+
+
+Once the annotations are loaded we run the reasoner again:
+
+obd-reasoner.pl  -d obdevo@HOST
+
+This computes the subsumption relations between EQs
+
+* TODO: add NESCENT specific rules (3+ days) (PUNT)
+
+TBD: discuss the relation between a higher taxon and phenotypes
+instantiated by sub-taxa. How to deal with loss?
+
+See also phylogenies above
+
+== Set up UI / REST interface ==
+
+ROB: fill in generic OBD TomCat instructions here
+
+The web interface is bare bones, but it will allow you to navigate
+taxon-taxon, taxon-phenotype, phenotype-phenotype, phenotype-taxon
+
+(here phenotype encompasses EQ class expressions as well as individual
+ontology classes)
+
+Also uses reasoner results in querying
+
+PLAN: set up initial install, demo, discuss further requirements, what
+is required from API to implement them
+
+== Annotation and Ontology Lifecycle ==
+
+For now the easiest way to deal with lifecycle is to recreate the
+database from scratch. If all primary data is in cvs/svn/ftp we lose
+nothing, but there is admin overhead etc
+
+Longer term OBD will support incremental loading
+
+* TODO: incremental annotation loading support (PUNT)
+
+Medium term the entire load cycle can be automated, so long as
+everything is configured:
+
+* TODO: add NESCENT .tab file location to annotations metadata file
+
+This is the file here:
+http://obo.cvs.sourceforge.net/obo/obo/website/cgi-bin/annotations.txt?view=log
+
+It is easiest for OBD if all sources are registered.
+
+* TODO: load + reason entire OBD database automatically from config
+
+== Phenote integration ==
+
+* TODO: write org.phenote.datamodel.NESCENTTaxonPhenotypeMappingDriver (3 days) (PUNT)
+
+As noted above, this can be sidestepped in the short term for OBD loading
+
+* TODO: write adapter GUI in Phenote
+
+== Additional capabilites ==
+
+TBD. Some ideas:
+
+* evo-devo lenses (Jim/Rob)
+* integration with wider phenotype database
+e.g. to do integrate ZFIN genotype-phenotype annotations with evo-debo ones
+This can be done dynamically with a MultiShard
 
 [[Category:Informatics]]
