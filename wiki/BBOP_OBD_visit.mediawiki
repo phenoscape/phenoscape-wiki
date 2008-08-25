@@ -26,7 +26,7 @@ These are notes from Jim's and Cartik's visit to BBOP.  Also of interest are Chr
 **Run <code>obd-create-db.pl -h <HOST> -d obdevo -c obdevo.conf</code>
 **Then run <code>obd-reasoner.pl  -d obdevo@HOST</code>
 **This populates the deductive closure
-** "obdevo.conf" would just be a newline separate list of ontology IDs (teleost_anatomy, quality etc) or URLs
+** "obdevo.conf" would just be a newline separated list of ontology IDs (teleost_anatomy, quality etc) or URLs
 * These scripts are currently not written to accept arbitrary DB usernames and passwords, but work well for a DB on localhost with no password.
 * The scripts are critical for easy importing of all needed ontologies.
 * Workaround - created a local OBD instance on laptop, then dumped and imported into darwin.nescent.org.
