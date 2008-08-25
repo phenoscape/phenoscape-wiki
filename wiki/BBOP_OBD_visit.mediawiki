@@ -17,6 +17,7 @@ These are notes from Jim's and Cartik's visit to BBOP.  Also of interest are Chr
 * Status of phylogeny data is still undecided and unimplemented.  Could leave as an opaque piece of data and deal with only in application. Other extreme is to completely represent phylogeny via OBD links.  Middle path could leave opaque but at least create relations to TTO taxa referenced within.
 
 ===OBD SQL===
+* Source: https://obo.svn.sourceforge.net/svnroot/obo/obo-database/trunk
 * Instantiating the OBD database is easiest via running of scripts in the scripts directory in the OBDAPI project.
 **Run <code>obd-create-db.pl -h <HOST> -d obdevo -c obdevo.conf</code>
 **Then run <code>obd-reasoner.pl  -d obdevo@HOST</code>
