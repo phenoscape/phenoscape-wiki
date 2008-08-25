@@ -2,6 +2,8 @@
 title: BBOP OBD visit
 ---
 
+These are notes from Jim's and Cartik's visit to BBOP.  Also of interest are Chris Mungall's [[BBOP OBD visit/Chris notes|original notes]] for a work plan for the week.
+
 ==Notes==
 ===OBD model===
 * Began mapping of Phenex data model to OBD model.  This is currently implemented in <code>org.phenoscape.bridge.OBDModelBridge.java</code>, in the Phenex source.
