@@ -8,7 +8,7 @@ These are notes from Jim's and Cartik's visit to BBOP.  Also of interest are Chr
 ===OBD model===
 * Began mapping of Phenex data model to OBD model.  This is currently implemented in <code>org.phenoscape.bridge.OBDModelBridge.java</code>, in the Phenex source.
 ** "Administrative" entities such as the character matrix, characters, and states, are modeled as instances of types from CDAO.  This is currently done in a placeholder manner, e.g. "cdao:CharacterStateDataMatrix".
-** The mapper gives some of these entities generated IDs, which makes them easier to work with in ODB (avoiding blank nodes).  These IDs are being generated because it doesn't seem prudent to rely on the given ID in the NeXML file/Phenex, as that is more of a local, in-file identifier.  However, this presents complications for adding or modifying data for a data set already in OBD.
+** The mapper gives some of these entities generated IDs, which makes them easier to work with in OBD (avoiding blank nodes).  These IDs are being generated because it doesn't seem prudent to rely on the given ID in the NeXML file/Phenex, as that is more of a local, in-file identifier.  However, this presents complications for adding or modifying data for a data set already in OBD.
 ** Need to interact with EvoInfo group to confirm correct usage of types and relations from CDAO.
 ** Mapping of specimens is still to be implemented.
 * Phenotypes
