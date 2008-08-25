@@ -49,6 +49,7 @@ These are notes from Jim's and Cartik's visit to BBOP.  Also of interest are Chr
 * Longer term it may be wise to sort out better ways to develop a completely independent application which reuses functionality from the core OBDUI code.
 
 ===Phenex OBD interaction, OBD data loading===
+* Source: https://obo.svn.sourceforge.net/svnroot/obo/phenote/trunk
 * Loading of data from Phenex into OBD is implemented in <code>org.phenoscape.bridge.OBDModelBridgeTest.java</code>, as a JUnit test.
 * Ideally the reasoner needs to be run after ontology and data loading, to precompute relations.
 * For this reason a "data warehousing" approach may be the best plan for using the current code.
