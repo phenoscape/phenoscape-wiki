@@ -32,9 +32,10 @@ Detailed plan for database and web UI prototype development.
 
 ==Week 4 (Sep. 15-19)==
 * Jim
-** Contiue web UI coding
+** Continue web UI coding
 * Cartik
 ** Refine data loading to DB
+
 ==Week 5 (Sep. 22-26)==
 * Jim
 ** Mock-ups for other use cases
