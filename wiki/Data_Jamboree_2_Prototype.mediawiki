@@ -16,7 +16,8 @@ Detailed plan for database and web UI prototype development.
 ** run reasoner on DB
 
 ==Week 2 (Sep. 1-5)==
-* Jim - out on vacation most of the week.
+* Jim 
+** out on vacation most of the week.
 * Cartik
 ** continue DB data loading work
 ** OBD API query implementations
