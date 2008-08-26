@@ -8,7 +8,7 @@ Detailed plan for database and web UI prototype development.
 * Hilmar, Jim, Cartik - develop this plan
 * Jim - create Eclipse project for Phenoscape web UI at Phenoscape Sourceforge site
 * Jim - define OBD query requirements and deliver to Cartik
-* Jim - complete EQ import/merge functionality for Phenex
+* Jim - complete EQ and matrix import/merge functionality for Phenex
 
 ==Week 2 (Sep. 1-5)==
 * Jim - out on vacation most of the week.
