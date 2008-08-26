@@ -23,6 +23,12 @@ Detailed plan for database and web UI prototype development.
 ** OBD API query implementations
 
 ==Week 3 (Sep. 8-12)==
+* Jim
+** Compile needed data files
+** Code web UI
+* Cartik
+** Load data files into DB
+** Write Restlet web services to return query results (with Jim)
 
 ==Week 4 (Sep. 15-19)==
 
