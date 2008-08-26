@@ -23,6 +23,7 @@ These are notes from Jim's and Cartik's visit to BBOP.  Also of interest are Chr
 ===OBD SQL===
 * Source: https://obo.svn.sourceforge.net/svnroot/obo/obo-database/trunk
 * Instantiating the OBD database is easiest via running of scripts in the scripts directory in the OBDAPI project.
+** These scripts and those in the OBO-Edit project must all be in your Unix PATH.
 **Run <code>obd-create-db.pl -h <HOST> -d obdevo -c obdevo.conf</code>
 **Then run <code>obd-reasoner.pl  -d obdevo@HOST</code>
 **This populates the deductive closure
