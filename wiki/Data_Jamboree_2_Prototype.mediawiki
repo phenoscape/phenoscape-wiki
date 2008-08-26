@@ -7,6 +7,7 @@ Detailed plan for database and web UI prototype development.
 ==Week 1 (Aug. 25-29)==
 
 ==Week 2 (Sep. 1-5)==
+* Jim out on vacation most of the week.
 
 ==Week 3 (Sep. 8-12)==
 
