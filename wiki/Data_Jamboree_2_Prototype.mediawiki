@@ -17,6 +17,9 @@ Detailed plan for database and web UI prototype development.
 
 ==Week 2 (Sep. 1-5)==
 * Jim - out on vacation most of the week.
+* Cartik
+** continue DB data loading work
+** OBD API query implementations
 
 ==Week 3 (Sep. 8-12)==
 
