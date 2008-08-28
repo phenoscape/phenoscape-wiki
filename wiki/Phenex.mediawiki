@@ -14,7 +14,7 @@ title: Phenex
 # NOTE: If your publication does not include a character X taxon matrix, you can Merge Tab-delimited Taxa to import the taxon list and then save as a .xml Phenex file. A matrix can be entered at some later point, either in Phenex or Jim is developing a matrix import feature.
 
 ==Merging EQ annotations from a tab-delimited file==
-Using the menu item "File > Merge Tab-delimited Taxa...", you can merge EQ annotations from a tab file into an existing data set. The "Character Number" and "State Number" columns are used to match a character (by index) and state (by symbol) in the existing data set.  If the index falls outside the current range of characters, a new character is appended to the existing data set.  If a state with the given symbol does not exist, a new state is appended to the given character.  The character and state labels in the tab file will overwrite any labels in the existing data set.
+Using the menu item "File > Merge Tab-delimited Characters...", you can merge EQ annotations from a tab file into an existing data set. The "Character Number" and "State Number" columns are used to match a character (by index) and state (by symbol) in the existing data set.  If the index falls outside the current range of characters, a new character is appended to the existing data set.  If a state with the given symbol does not exist, a new state is appended to the given character.  The character and state labels in the tab file will overwrite any labels in the existing data set.
 
 [[Category:Curation]]
 [[Category:Informatics]]
