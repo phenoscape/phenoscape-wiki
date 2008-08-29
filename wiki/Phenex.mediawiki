@@ -17,11 +17,7 @@ title: Phenex
 Using the menu item "File > Merge Tab-delimited Characters...", you can merge EQ annotations from a tab file into an existing data set. The "Character Number" and "State Number" columns are used to match a character (by index) and state (by symbol) in the existing data set.  If the index falls outside the current range of characters, a new character is appended to the existing data set.  If a state with the given symbol does not exist, a new state is appended to the given character.  The character and state labels in the tab file will overwrite any labels in the existing data set.  If a "Count" value is not a basic number, it will be appended to the Notes field instead of Count.
 
 ==Merging matrix data (taxon by character state associations) from a NEXUS file==
-Using the menu item "File > Merge NEXUS Matrix...", you can merge matrix values into an existing data set.  The matrix must have the same number of characters as the existing data set. Characters are matched via their index.  Values are matched by comparing the symbol - if a state with that symbol is not available for the character in the existing data set, the taxon's state will be set to null.  Taxa are matched via their Publication Name.  Matrix values for unmatched taxa are unaltered.
-
-===Possible modifications to matrix merging (up for discussion)===
-* We could allow unequal numbers of characters, and just append additional characters if the matrix has more.
-* We could add states if the symbol in the matrix doesn't match anything in the data set.
+Using the menu item "File > Merge NEXUS Matrix...", you can merge matrix values into an existing data set.  Characters are matched via their index. Extra characters are appended to the existing data. Values are matched by comparing the symbol - if a state with that symbol is not available for the character in the existing data set, a new state with that symbol is added to the character. Taxa are matched via their Publication Name.  Matrix values for unmatched taxa are unaltered.
 
 [[Category:Curation]]
 [[Category:Informatics]]
