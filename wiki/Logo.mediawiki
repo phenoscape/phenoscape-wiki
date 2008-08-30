@@ -6,14 +6,14 @@ title: Logo
 
 Here is the final logo in several file types. The PNG and GIF versions are transparent.
 
-<gallery>
+<!--gallery-->
 [[Image:Phenoscape Logo.gif|GIF format]]
 [[Image:Phenoscape Logo.png|PNG format]]
 [[Image:Phenoscape Logo.jpg|JPEG format]]
 [[Image:Phenoscape Logo.psd|PSD format]]
 [[Image:Phenoscape Logo.eps|EPS format]]
 [[Image:Phenoscape Logo.ai|Adobe Illustrator format]]
-</gallery>
+<!--/gallery-->
 
 ==Logo Design Contest==
 
