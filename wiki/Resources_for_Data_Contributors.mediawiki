@@ -126,6 +126,9 @@ The post-compose feature in Phenote allows addition of multiple differentia that
 
 ==Curatorial Best Practices==
 
+===[[Phenex|Merging files in Phenex]]===
+
+
 ===Taxon Lists===
 *'''[[Creating Taxon Lists]]'''
 *'''[[Update Taxon Lists|Updating Taxon Lists (for taxonomic experts)]]'''
