@@ -2,7 +2,7 @@
 title: Update Taxon Lists
 ---
 
-The following are instructions on how to update a taxon list after you have received an email from a student informing you that the taxon list for a particular publication was completed, and needs an update for taxonomy.
+The following are instructions on how to update a taxon list for taxonomy and submit requests for needed taxonomic names in the TTO.
 
 ====Download the taxon file from the phenoscape-fileshare====
 
