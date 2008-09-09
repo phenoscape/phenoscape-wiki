@@ -2,6 +2,12 @@
 title: Data Jamboree 2/Preparation
 ---
 
-#Participant papers
+*Participant papers
+**Priorities for 3 pubs
+**Prepare neXML files for each participant
+***Include taxon list, matrix, character and state descriptions filled in, first pass EQ
+*Annotation exercise
+*Annotation experiment ?
+*Phenex documentation
 
 [[Category:Data Jamboree 2]]
