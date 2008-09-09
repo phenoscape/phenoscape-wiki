@@ -46,7 +46,7 @@ Members of the project team are in '''bold font'''.
 {{EventParticipant|Balhoff|Jim|balhoff%40nescent%2eorg|NESCent|'''}}
 {{EventParticipant|Blake|Judith|jblake%40informatics%2ejax.org|The Jackson Laboratory|}}
 {{EventParticipant|Grande|Terry|TGRANDE@luc.edu|Loyola University, Chicago|}}
-{{EventParticipant|Dahdul|Wasila|dahdul%40acnatsci%2eorg|Department of Ichthyology, Academy of Natural Sciences|'''}}
+{{EventParticipant|Dahdul|Wasila|Wasila.Dahdul%40usd%2eedu|University of South Dakota and NESCent|'''}}
 {{EventParticipant|Hilton|Eric|ehilton%40vims%2eedu|Virginia Institute of Marine Science|}}
 {{EventParticipant|Kothari|Cartik|cartik%40nescent%2eorg|NESCent|'''}}
 {{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
@@ -70,8 +70,9 @@ Members of the project team are in '''bold font'''.
 
 ==Papers for Annotation==
 see: http://spreadsheets.google.com/ccc?key=pTeXfTnVPxC-P1URVHbI4Qg&hl=en
-*Miles Coburn (Cypriniformes)
+*Terry Grande (Ostariophysi)
 *Richard Mayden (Cypriniformes and Ostariophsyi)
 *Eric Hilton (Clupeiformes)
+*Mark Sabaj (Siluriformes)
 
 [[Category:Data Jamboree 2]]
