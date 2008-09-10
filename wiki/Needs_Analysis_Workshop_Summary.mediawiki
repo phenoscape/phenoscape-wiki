@@ -87,3 +87,5 @@ Matrices displaying covariation/co-occurrence of phenotypic traits with other tr
 The other topic which could have an impact on our data model is the idea of dealing with genetic diversity along with phenotypic diversity.  This was primarily driven by David Stern's interests.  Currently we are cataloging phenotypic diversity, and linking these changes to mutant phenotypes in a single species about which we have genetic data (zebrafish).  Within David's research, genetic changes are known in multiple species and a causal link can sometimes be demonstrated between specific evolutionary genetic changes and phenotypic evolution.  Our system as currently proposed does not accommodate these data, nor provide a way to analyze them.
 
 [[Category:Needs Analysis Workshop]]
+[[Category:Informatics]]
+[[Category:Use Cases]]
