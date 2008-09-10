@@ -155,3 +155,4 @@ All phenotypes in the database.
 ===Output===
 
 [[Category:Informatics]]
+[[Category:Use Cases]]
