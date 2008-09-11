@@ -3,7 +3,7 @@ title: Data Jamboree 2/Preparation
 ---
 
 *Participant papers
-**Ask participants for their top 3 pubs for annotation
+**Correspond with participants regarding their three assigned publications for annotation at the data jamboree
 ***Wasila contacts: Sabaj Perez
 ***Paula contacts: Grande & Mayden & Hilton
 **Prepare neXML files for each participant
