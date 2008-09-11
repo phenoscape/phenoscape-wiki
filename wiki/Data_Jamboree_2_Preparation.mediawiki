@@ -4,8 +4,8 @@ title: Data Jamboree 2/Preparation
 
 *Participant papers
 **Ask participants for their top 3 pubs for annotation
-**Wasila contacts: Sabaj Perez & Hilton
-**Paula contacts: Grande & Mayden
+***Wasila contacts: Sabaj Perez & Hilton
+***Paula contacts: Grande & Mayden
 **Prepare neXML files for each participant
 ***Include taxon list, matrix, character and state descriptions filled in, first pass EQ
 *Ask participants to bring laptops
@@ -16,7 +16,7 @@ title: Data Jamboree 2/Preparation
 **Hilton (with Jim Balhoff)
 **Mayden (with Paula Mabee)
 **Sabaj Perez (with John Lundberg)
-(Peter Midford is "floater" curator)
+(Peter Midford, Jeff Engeman (and Mike Wallinga if attends?) are "floater" curators)
 *Annotation exercise
 *Annotation experiment ?
 *Phenex documentation
