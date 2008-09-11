@@ -19,6 +19,8 @@ title: Data Jamboree 2/Preparation
 **Sabaj Perez (with John Lundberg)
 (Peter Midford, Jeff Engeman (and Mike Wallinga if attends?) are "floater" curators)
 *Annotation exercise
+**Revise annotation exercise from data jamboree 1 (Wasila)
+**Need new Phenex documentation (Jim)
 *Annotation experiment ?
 *Phenex documentation
 *Finalize [[Data_Jamboree_2/agenda|agenda]]
