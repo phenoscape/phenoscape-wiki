@@ -71,9 +71,9 @@ Members of the project team are in '''bold font'''.
 
 ==Papers for Annotation==
 see: http://spreadsheets.google.com/ccc?key=pTeXfTnVPxC-P1URVHbI4Qg&hl=en
-*Terry Grande (Ostariophysi)
+*Terry Grande (Gonorynchiformes and Ostariophysi)
 *Richard Mayden (Cypriniformes and Ostariophsyi)
 *Eric Hilton (Clupeiformes)
-*Mark Sabaj (Siluriformes)
+*Mark Sabaj Perez (Siluriformes)
 
 [[Category:Data Jamboree 2]]
