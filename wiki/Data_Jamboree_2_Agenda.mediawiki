@@ -17,8 +17,8 @@ Draft agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in S
 * 10:45 am: Data curation: work on individual data
 * 12:00 pm: '''''Lunch'''''
 * 1:00 pm: Data curation: work on individual data
-* 3:00 pm: '''''Coffee break''''' (10 min)
-* 3:10 pm: Data curation: work on individual data
+* 3:00 pm: '''''Coffee break''''' (15 min)
+* 3:15 pm: Data curation: work on individual data
 * 5:00 pm: Wrap up and discussion of curation issues
 * 6:00 pm: Dinner
 
