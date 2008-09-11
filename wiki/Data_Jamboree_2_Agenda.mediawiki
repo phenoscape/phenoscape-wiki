@@ -11,8 +11,9 @@ Draft agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in S
 == Sunday, Sept. 28 ==
 
 * 8:30 am: Project personnel and participant introductions
-* 9:10 am: Phenote introduction and group annotation exercise
-* 11:00 am: Data curation: work on individual data
+* 9:00 am: Phenex introduction and curation exercise
+*10:30 am: Coffee Break
+*10:45 am: Data curation: work on individual data
 * 12:00 pm: '''''Lunch'''''
 * 1:00 pm: Data curation: work on individual data
 * 3:00 pm: '''''Coffee break''''' (10 min)
