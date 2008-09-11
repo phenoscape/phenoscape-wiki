@@ -8,7 +8,7 @@ title: Data Jamboree 2/Preparation
 ***Paula contacts: Grande & Mayden & Hilton
 **Prepare neXML files for each participant
 ***Include taxon list, matrix, character and state descriptions filled in, first pass EQ
-*Things to contact participants about ahead of time:
+*Things to contact participants about ahead of time (develop letter prior to conference call)
 **bring laptops
 ***download Phenex, Mesquite
 **subscribe to Phenoscape-curators
