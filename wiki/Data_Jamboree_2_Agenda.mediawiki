@@ -12,7 +12,7 @@ Draft agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in S
 
 * 8:30 am: Phenoscape Introduction (Paula); project personnel and participant introductions
 * 9:00 am: Phenex introduction and curation exercise
-*10:30 am: Coffee Break
+*10:30 am: '''''Coffee break''''' (15 min)
 *10:45 am: Data curation: work on individual data
 * 12:00 pm: '''''Lunch'''''
 * 1:00 pm: Data curation: work on individual data
