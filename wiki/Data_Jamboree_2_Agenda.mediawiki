@@ -34,7 +34,9 @@ Draft agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in S
 *10:00 am: Curation consistency experiment (1 hr) concurrent with Project personnel meeting
 * 11:00 am: Review and discussion of consistency experiment (Project personnel and curators present)
 * 12:00 pm: '''''Lunch'''''
-* 1:00 pm: Project personnel meeting concurrent with Data curation (1 curator in charge (e.g. Lundberg) + 4 invitee curators and 1 or 2 advisors)
+* 1:00 pm: [[SD meeting project personnel meeting/agenda|SD meeting Project personnel meeting agenda]]
+*Copies of pubs (2 each)
+Project personnel meeting concurrent with Data curation (1 curator in charge (e.g. Lundberg) + 4 invitee curators and 1 or 2 advisors)
 * 3:00 pm: '''''Coffee break''''' (10 min)
 *3:10 pm:  Project personnel meeting concurrent with Data curation (1 curator in charge (e.g. Lundberg) + 4 invitee curators and 1 or 2 advisors)
 * 5:00 pm: Dinner (drive to dinner spot)
