@@ -2,19 +2,19 @@
 title: Creating Taxon Lists
 ---
 
-The following instructions provide details on how to build a Taxon List from a published materials list using Phenote+.
+The following instructions provide details on how to build a Taxon List from a published materials list using Phenex.
 
-===Step 1: create and save your taxon list file===
+===Step 1: create and the file for your taxon list===
 
 
-Make sure that you have an internet connection before starting Phenex as the software will need to download updated ontology files when available.
+Make sure that you have an internet connection before starting Phenex, because the software needs to download updated ontology files.
 
-#Create and save your file using File>Save, naming the file for the publication and including "taxon-list" in the name (e.g. Smith-2008-taxon-list).
+#Create and save your file using File>Save, naming the file for the publication and appending .xml to the end (e.g. Smith_2008.xml).
 
-===Step 2: make a list of examined taxon names===
+===Step 2: make a list of taxon names from the Materials section of the publication===
 
-#Choose the '''Taxa''' panel and click the ‘+’ button to add an entry to the taxon list: the first row will be gray.  Select the row by clicking on it; it will turn blue.
-#Go to:''' Data Set''' panel, go to Publication, and type in the author(s) and year for the publication (e.g., Smith 2008), and hit enter/return.  
+#Choose the '''Taxa''' panel and click the ‘+’ button to add an entry to the taxon list: the first row will be gray.  By clicking on the column within the row you will be able to add data.
+#Go to:''' Data Set''' panel, go to Publication, and type in the author(s) and year for the publication (e.g., Smith 2008), and hit enter/return.
 #Go to '''Taxa''' panel and click into the Publication Taxon field. Paste the taxon name into this field that you copied from the pdf Material and Methods list and hit enter/return.
 #Now, paste the same taxon name into the “Valid Taxon” field.  Because the "Valid Taxon" field is linked to the taxonomy ontology, you should see a drop-down menu appear with the taxon name; hit enter/return, and note that the name appears in the spreadsheet. (If the name does not appear in the drop-down box, see '''Issues and special cases''', below).
 #Repeat steps 1-3 for the entire taxon list.
