@@ -3,7 +3,7 @@ title: Data Jamboree 2/Preparation
 ---
 
 *Things to prepare ahead of time
-**Need slims for TAO and PATO (Wasila)
+**Need slims for TAO and PATO (Wasila, Jim)
 **Curation Exercise
 ***Revise same (Group annotation exercise) from data jamboree 1
 ****Move making Taxon list to beginning; make matrix to merge; add instructions (Wasila)
