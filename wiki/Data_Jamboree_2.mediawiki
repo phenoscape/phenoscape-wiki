@@ -51,9 +51,9 @@ Members of the project team are in '''bold font'''.
 ! Name !! Institution
 {{EventParticipant|Balhoff|Jim|balhoff%40nescent%2eorg|NESCent|'''}}
 {{EventParticipant|Blake|Judith|jblake%40informatics%2ejax.org|The Jackson Laboratory|}}
-{{EventParticipant|Grande|Terry|TGRANDE@luc.edu|Loyola University, Chicago|}}
+{{EventParticipant|Grande|Terry|TGRANDE%40luc%2eedu|Loyola University, Chicago|}}
 {{EventParticipant|Dahdul|Wasila|Wasila.Dahdul%40usd%2eedu|University of South Dakota and NESCent|'''}}
-{{EventParticipant|Engeman|Jeff|jeffrey.engeman%40usd%2eedu|University of South Dakota|}}
+{{EventParticipant|Engeman|Jeff|jeffrey%2eengeman%40usd%2eedu|University of South Dakota|}}
 {{EventParticipant|Hilton|Eric|ehilton%40vims%2eedu|Virginia Institute of Marine Science|}}
 {{EventParticipant|Kothari|Cartik|cartik%40nescent%2eorg|NESCent|'''}}
 {{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
@@ -62,7 +62,7 @@ Members of the project team are in '''bold font'''.
 {{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|University of South Dakota|'''}}
 {{EventParticipant|Mayden|Rick|cypriniformes@gmail.com|St. Louis University|}}
 {{EventParticipant|Midford|Peter|petermidford%40yahoo%2ecom|Dept. of Ecology and Evolutionary Biology, University of Kansas|'''}}
-{{EventParticipant|Sabaj Pérez|Mark|sabaj@acnatsci.org|Academy of Natural Sciences, Philadelphia|}}
+{{EventParticipant|Sabaj Pérez|Mark|sabaj%40acnatsci%2eorg|Academy of Natural Sciences, Philadelphia|}}
 {{EventParticipant|Vision|Todd|tjv%40bio%2eunc%2eedu|NESCent, and Department of Biology, University of North Carolina at Chapel Hill|'''}}
 {{EventParticipant|Westerfield|Monte|monte%40uoneuro%2euoregon%2eedu|Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon|'''}}
 |}
