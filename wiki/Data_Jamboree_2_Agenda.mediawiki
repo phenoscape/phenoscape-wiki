@@ -28,7 +28,7 @@ Draft agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in S
 * 12:00 pm: '''Lunch at roundup'''
 * 1:00 pm: Drive to Sylvan lake lodge, check in
 * 2:00 pm: Data curation: work on individual data
-* 6:00 pm: Dinner at hotel
+* 6:00 pm: Dinner at Sylvan Lodge
 
 == Tuesday, Sept. 30 ==
 * 8:00 am: [[SD meeting project personnel meeting/agenda|Project personnel meeting agenda]] concurrent with Data curation 
