@@ -76,7 +76,7 @@ Members of the project team are in '''bold font'''.
 # Haendel, M.A., Neuhaus, F., Osumi-Sutherland, D.S., Mabee, P.M., Mejino J.L.V., Mungall, C.J., and Smith, B. (2008) [[Media:Caroreprint.pdf|CARO - The Common Anatomy Reference Ontology]]. ''In:'' Albert Burger, Duncan Davidson and Richard Baldock (Editors): ''Anatomy Ontologies for Bioinformatics: Principles and Practice''. ISBN 978-1-84628-884-5.
 
 ==Papers for Annotation==
-see: http://spreadsheets.google.com/ccc?key=pTeXfTnVPxC-P1URVHbI4Qg&hl=en
+for more information on the papers below see: http://spreadsheets.google.com/ccc?key=pTeXfTnVPxC-P1URVHbI4Qg&hl=en
 
 *Terry Grande (Gonorynchiformes and Ostariophysi)
 **de Pinna, M. C. C.; Grande, T. (1993)
@@ -91,7 +91,7 @@ see: http://spreadsheets.google.com/ccc?key=pTeXfTnVPxC-P1URVHbI4Qg&hl=en
 *Eric Hilton (Clupeiformes and Ostariophysi)
 **Fink, S. V.; Fink, W. L. (1996)
 **Chang, M-M; Maisey, J G (2003)
-**Arratia, G (1999) 
+**Arratia, G (1999)
 
 *Mark Sabaj Perez (Siluriformes)
 
