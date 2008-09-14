@@ -79,20 +79,19 @@ Members of the project team are in '''bold font'''.
 see: http://spreadsheets.google.com/ccc?key=pTeXfTnVPxC-P1URVHbI4Qg&hl=en
 
 *Terry Grande (Gonorynchiformes and Ostariophysi)
-**de Pinna, M. C. C.; Grande, T. (1993) 
-**Grande, T. ; Poyato-Ariza, F J (1999) 
+**de Pinna, M. C. C.; Grande, T. (1993)
+**Grande, T. ; Poyato-Ariza, F J (1999)
 **Poyato-Ariza, F. J. (1996)
 
-*Richard Mayden (Cypriniformes and Ostariophsyi)
+*Richard Mayden (Cypriniformes)
 **Mayden (1989)
 **Cavender & Coburn (1992)
 **Conway & Mayden (2007)
 
-*Eric Hilton (Ostariophysi and Clupeiformes)
-**Fink, S. V.; Fink, W. L. (1996) 
-**Chang, M-M; Maisey, J G Redescription of †Ellimma branneri and †Diplomystus shengliensis, and Relationships of
-Some Basal Clupeomorphs
-**Arratia, G (1999) The monophyly of Teleostei and stem-group teleosts. Consensus and disagreements
+*Eric Hilton (Clupeiformes and Ostariophysi)
+**Fink, S. V.; Fink, W. L. (1996)
+**Chang, M-M; Maisey, J G (2003)
+**Arratia, G (1999) 
 
 *Mark Sabaj Perez (Siluriformes)
 
