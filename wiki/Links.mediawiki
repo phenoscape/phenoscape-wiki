@@ -38,7 +38,7 @@ title: Links
 ===NCBO BioPortal support requests===
 
 Support (for issues) and feature requests for the NCBO BioPortal can be submitted through the following venues (according to Benjamin Dai, BioPortal Lead Software Architect):
-* [https://bmir-gforge.stanford.edu/gf/project/bioportal/tracker/?action=TrackerItemBrowse&tracker_id=63 BioPortal issue tracker] at the BMIR GForge installation
+* [https://bmir-gforge.stanford.edu/gf/project/bioportal_core/tracker/] at the BMIR GForge installation
 * Support email: [mailto:support%40bioontology%2eorg support&#64;bioontology&#46;org]
 
 '''NCBO BioPortal User Group:'''
