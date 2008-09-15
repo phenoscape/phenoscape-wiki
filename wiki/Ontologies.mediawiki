@@ -6,7 +6,7 @@ Evolutionary phenotypes will be described using the [http://www.bioontology.org/
 
 == Taxonomy Ontology ==
 
-Phenotypes are associated with species using a Taxonomy Ontology, the [http://bioportal.bioontology.org/visualize/38363 Teleost Taxonomy Ontology (TTO)] derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes].
+Phenotypes are associated with species using a taxonomy ontology, the [http://bioportal.bioontology.org/visualize/38363 Teleost Taxonomy Ontology (TTO)] derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes].
 
 There is now a page of [[TTO_Changes]] relative to the latest version generated from a dump from the Catalog of Fishes.
 
