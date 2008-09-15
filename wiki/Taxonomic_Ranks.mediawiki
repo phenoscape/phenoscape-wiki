@@ -8,21 +8,21 @@ See also the [[Taxonomic Rank Ontology]] being under development.
 
 When the Teleost Taxonomy Ontology (TTO) was submitted to OBO, the suggestion was made that the terms for taxonomic ranks (e.g., Family, Genus, Species) should be broken out.  At present, taxonomic ranks are included in the TTO and cross referenced to similar terms in the NCBI taxonomy ontology.   Although the process of constructing an ontology of rank terms is straightforward, there are some semantic issues that need to be resolved.
 
-The current implementation can be diagrammed as follows: 
+The current implementation can be diagrammed as follows:
 
 
 
         Cyprinidae   -------------------->  Family
-             ^             has_rank           
-             |                                
-        is_a |                                
-             |                                
-          Davario    -------------------->  Genus
-             ^             has_rank           
-             |                                
-        is_a |                                 
-             |                                
-  Davario aequipinnatus ---------------->  Species
+             ^             has_rank
+             |
+        is_a |
+             |
+          Devario    -------------------->  Genus
+             ^             has_rank
+             |
+        is_a |
+             |
+  Devario aequipinnatus ---------------->  Species
                           has_rank
 
 
@@ -30,10 +30,10 @@ In the first draft of the ranks ontology, submitted to Chris Mungal and Michael 
 
 As there is clearly an ordering among the rank terms, it would be worthwhile to define an ordering relation between terms so that the term 'family' is indicated as 'larger' or 'more inclusive' than the term 'genus.'
 
-The proposed situation is 
+The proposed situation is
 
           TTO                                TaxonRank Ontology
-   
+
         Cyprinidae   -------------------->  Family
              ^             has_rank           ^
              |                                |
@@ -58,15 +58,15 @@ There has been some question as to the nature of this ordering relation.  There 
 Chris Mungall's response to this question was:
 
   3. What about imposing an ordering among ranks and, if so, is part_of the appropriate relation?
-  
+
  so with any ontology you should ask "what are the instances". In this case, the instances are best considered
  to be terms/classes/categories rather than something tangible in nature. This takes us close to weird metaclass
  modeling territory.
-  
- but not to worry. I would say reserve part_of for "real" part_of relations, between objects and processes. I 
+
+ but not to worry. I would say reserve part_of for "real" part_of relations, between objects and processes. I
  would just go with a custom relation for ranks. I don't have strong opinions on what you name it - above/below?
  more_ancestral_than?
- 
+
  Declare the relation transitive
 
 There is another property of the 'rank ordering' that should be noted.  The current TTO currently uses a rather limited number of taxonomic ranks.  However, if this ontology is intended to be shared across OBO projects, it will need to incorporate additional taxonomic level terms.  For example, the NCBI taxnomy defines over 30 rank terms.  As other groups develop taxonomies they will want to add ranks that are used in their systems.  Furthermore, the system of ranks is open-ended, so any particular group might need to add additional ranks in the future.  However, any one taxonomy will only use a subset of these terms, which means that in most cases, the is_a relation between two taxa will frequently correspond to more than one link up the rank taxonomy.  Another case where this situation comes up, even for a single taxonomy, is an incertae sedis taxa.  Thus a definition for the ordering relation needs to work without depending on having every step in the rank chain correspond to a taxonomic term in each tip to root path in the tree.
