@@ -4,7 +4,6 @@ title: Documents
 
 ==Pages of interest==
 * [[Resources for curators]]
-* [[Phenoscape literature curation spreadsheet http://spreadsheets.google.com/pub?key=pTeXfTnVPxC-P1URVHbI4Qg]]
 * [[Software roadmap]]
 * [[Topics for discussion]]
 
