@@ -34,7 +34,7 @@ The Collection Code ontology is maintained as a shared spreadsheet on Google Doc
 #Submit the museum code request to the taxonomy tracker.
 ##Log on to your [http://sourceforge.net/ SourceForge] account
 ##Go to the [http://sourceforge.net/tracker/?atid=1046550&group_id=76834&func=browse taxonomy tracker].
-## Click "submit new"
+## Click the "add new artifact" link to begin submission of a new tracker item
 ##  In the Assigned to field, choose pmidford.
 ##  In the Summary field, type "museum code: [insert relevant code]" The text entered here will appear in the Subject line of the subsquent email created for this request.
 ##  Describe your request in the Detailed Description field.  Include museum abbreviation, description, and synonym if needed.
