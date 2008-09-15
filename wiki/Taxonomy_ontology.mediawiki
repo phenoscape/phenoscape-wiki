@@ -2,7 +2,7 @@
 title: Taxonomy ontology
 ---
 
-The taxonomy ontology (TTO) is based on the Catalog of Fishes and will be updated as CoF updates appear as well as from input from area experts.  The reminder of this page will discuss how the TTO is currently implemented.  See the [[Taxonomic Rank Ontology]], an alternative implementation based on phylogenetic principles.
+The Teleost Taxonomy Ontology (TTO) is based on the Catalog of Fishes and will be updated as CoF updates appear as well as from input from area experts.  The reminder of this page will discuss how the TTO is currently implemented.  See the [[Taxonomic Rank Ontology]], an alternative implementation based on phylogenetic principles.
 
 ==Organization==
 The current organization is derived from the ontology generated from the NCBI taxonomy.  There is a hierarchy of taxon names, each of which is a class.
@@ -10,15 +10,15 @@ The current organization is derived from the ontology generated from the NCBI ta
 
 
         Cyprinidae   -------------------->  Family
-             ^             has_rank           
-             |                                
-        is_a |                                
-             |                                
+             ^             has_rank
+             |
+        is_a |
+             |
           Davario    -------------------->  Genus
-             ^             has_rank           
-             |                                
-        is_a |                                 
-             |                                
+             ^             has_rank
+             |
+        is_a |
+             |
   Davario aequipinnatus ---------------->  Species
                           has_rank
 
@@ -26,7 +26,7 @@ The current organization is derived from the ontology generated from the NCBI ta
 
 Here are some useful resources related to the taxonomy ontology (TTO)
 
-* [[TTO Changes|Change list (relative to November 2007 CoF update) for TTO.]] This list is current for recent changes - older changes will be added. 
+* [[TTO Changes|Change list (relative to November 2007 CoF update) for TTO.]] This list is current for recent changes - older changes will be added.
 * [[Incubator | Suggested ideas for taxonomy browser and other tools]]
 
 This is a list of resources related to the development of the TTO.
