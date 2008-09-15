@@ -43,7 +43,8 @@ Draft agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in S
 * 5:30 pm: Dinner at Sage Creek Grille (Custer, SD) (http://rapidcityjournal.com/bhflavor/index.php?list=reviews&reid=59)
 
 == Wednesday, Oct. 1==
-* 8:00 am: Wrap up
+* 8:00 am: Data curation
+* 10:00 am: Wrap up
 * 12:00 pm: Participants depart / Lunch
 
 [[Category:Data Jamboree 2]]
