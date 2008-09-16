@@ -44,7 +44,7 @@ Draft agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in S
 
 == Wednesday, Oct. 1==
 * 8:00 am: Data curation
-* 10:00 am: Wrap up
-* 12:00 pm: Participants depart / Lunch
+* 10:00 am: Wrap up discussion
+* 12:00 pm: Participants depart (transportation to Rapid City airport provided)
 
 [[Category:Data Jamboree 2]]
