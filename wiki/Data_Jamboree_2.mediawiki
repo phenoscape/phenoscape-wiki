@@ -81,9 +81,9 @@ for more information on the papers below see: http://spreadsheets.google.com/ccc
 **Conway & Mayden (2007)
 
 *Eric Hilton (Clupeiformes and Ostariophysi)
-**Fink, S. V.; Fink, W. L. (1996)
 **Chang, M-M; Maisey, J G (2003)
 **Arratia, G (1999)
+**Fink, S. V.; Fink, W. L. (1996) (review first pass by Wasila Dahdul)
 
 *Mark Sabaj Perez (Siluriformes)
 **De Pinna (1993)
