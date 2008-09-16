@@ -18,8 +18,8 @@ Draft agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in S
 * 12:00 pm: '''''Lunch'''''
 * 1:00 pm: Data curation: work on individual data
 * 3:00 pm: '''''Coffee break''''' (15 min)
-* 3:15 pm: Web-based user interface discussion
-* 5:00 pm: Wrap up and discussion of curation issues
+'''* 3:15 pm: Web-based user interface discussion IS THIS THE BEST PLACE FOR THIS? MORE TIME?
+'''* 5:00 pm: Wrap up and discussion of curation issues
 * 6:00 pm: Dinner in Rapid City
 
 == Monday, Sept. 29 ==
