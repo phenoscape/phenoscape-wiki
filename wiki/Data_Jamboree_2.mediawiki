@@ -85,10 +85,10 @@ for more information on the papers below see: http://spreadsheets.google.com/ccc
 **Arratia, G (1999)
 **Fink, S. V.; Fink, W. L. (1996) (review first pass by Wasila Dahdul)
 
-*Mark Sabaj Perez (Siluriformes)
-**De Pinna (1993)
-**Mo (1991)
-**De Pinna (1996)
+*Mark Sabaj Pérez (Siluriformes)
+**De Pinna, M. C. C. 1993. Higher-level Phylogeny of Siluriformes (Teleostei: Ostariophysi), with a New Classification of the Order. City University of New York, New York.
+**Mo, T. 1991. Anatomy, Relationships and Systematics of the Bagridae (Teleostei: Siluroidei) with a Hypothesis of Siluroid Phylogeny, Theses Zoologicae, 17, Koeltz, Koenigstein.
+**De Pinna, M. C. C. 1996. A phylogenetic analysis of the Asian catfish families Sisoridae, Akysidae, and Amblycipitidae, with a hypothesis on the relationships of the neotropical Aspredinidae (Teleostei, Ostariophysi). Fieldiana: Zoology (New Series) 84:i–iv + 1-83.
 
 ==Background Reading==
 
