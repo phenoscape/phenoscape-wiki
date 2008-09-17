@@ -13,11 +13,11 @@ title: Data Jamboree 2/Preparation
 ***Upload to fileshare; print hard copies for all participants; email to participants (Wasila)
 **Consistency Experiment
 ***Revise so that results are publishable (Wasila & all) - low priority
-***Get feedback on experiment from advisors ahead of time
+***Get feedback on experiment from advisors ahead of time (Wasila)
 ***Upload to fileshare; print hard copies for all participants; email to participants (Wasila)
-**Revise [[Guide_to_Character_Annotation|Annotation guide]] on wiki -- (Wasila)
+**Revise [[Guide_to_Character_Annotation|Annotation guide]] on wiki -- (Wasila & curators)
 ***Upload to fileshare; print hard copies for all participants; email to participants (Wasila)
-*Things to contact participants about ahead of time (develop letter prior to conference call)
+*Things to contact participants about ahead of time (develop letter prior to conference call ''- Done PM Sept 17'')
 **bring laptops (Mac or PC?)
 ***how to download Phenex, Mesquite; links to each
 **how to subscribe to Phenoscape-curators and Teleost-discuss
@@ -33,7 +33,7 @@ title: Data Jamboree 2/Preparation
 ***Paula contacts: Grande & Mayden & Hilton - ''(done 12 Sept PM)''
 **Prepare neXML files for each participant (see Phenoscape Google spreadsheet for status)
 ***Include taxon list, matrix, character and state descriptions filled in
-***Prepare CD or USB key with copies of neXML files for each participant
+***Prepare CD with copies of neXML files for each participant
 **Provide corresponding pdf file for each neXML file
 *Participant-personnel pairs:
 **Grande (with Wasila Dahdul)
