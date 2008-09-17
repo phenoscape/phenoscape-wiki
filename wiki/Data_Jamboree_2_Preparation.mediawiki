@@ -18,7 +18,7 @@ title: Data Jamboree 2/Preparation
 **Revise [[Guide_to_Character_Annotation|Annotation guide]] on wiki -- (Wasila & curators)
 ***Upload to fileshare; print hard copies for all participants; email to participants (Wasila)
 *Things to contact participants about ahead of time (develop letter prior to conference call ''- Done PM Sept 17'')
-**bring laptops (Mac or PC?)
+**bring laptops (Mac or PC - Jim will ask and send them Java download linnk)
 ***how to download Phenex, Mesquite; links to each
 **how to subscribe to Phenoscape-curators and Teleost-discuss
 **send link for to Phenoscape publications spreadsheet (public access now)
@@ -41,7 +41,8 @@ title: Data Jamboree 2/Preparation
 **Mayden (with Paula Mabee)
 **Sabaj Perez (with John Lundberg)
 (Peter Midford, Jeff Engeman (and Mike Wallinga if attends?) are "floater" curators)
-*Finalize [[Data_Jamboree_2/agenda|agenda]]
+*Finalize [[Data_Jamboree_2/agenda|agenda]] - done (PM)
+* Bring data projector
 *Copies of pubs (2 each)
 
 [[Category:Data Jamboree 2]]
