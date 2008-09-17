@@ -73,7 +73,7 @@ Note that semantically, the post-composed term is equivalent to a pre-composed t
 Open the post-composition editor box by right-clicking on an empty Entity cell within the Phenotype panel and clicking on “Edit Post-composed Term.”   To post-compose the entity “supraorbital projection”, type “bony projection” in the Genus field, click the “+” button to add a row in the table, type “part_of” in the relationship field, and type “supraorbital” in the differentia field.  Click OK.
 
 The post-composed term appears as
-[[Image:postcomposition.png]]
+[[Image:Post-comp-box.jpg]]
 
 === Refining qualities using spatial terms ===
 The Spatial Ontology is used to post-compose terms related to bone margins, surfaces, or regions.  For example, the character “anterior margin of frontal bone serrate” is post-composed as follows:
