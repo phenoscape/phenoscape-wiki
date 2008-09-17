@@ -10,16 +10,18 @@ Draft agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in S
 
 == Sunday, Sept. 28 ==
 
-* 8:30 am: Phenoscape Introduction (Paula); project personnel and participant introductions
-* 9:00 am: Phenex introduction (Jim)
-* 9:15 am: Curation Exercise (Wasila)
+* 8:00 am: Phenoscape Introduction (Paula); project personnel and participant introductions
+* 8:30 am: Synthetic research databases for model organisms (Monte Westerfield)
+* 8:45 am: Phenotype databases: PhenoGO interface (Judy Blake) and OBD (Suzi Lewis)
+* 9:00 am: Phenex introduction (Jim Balhoff)
+* 9:15 am: Curation Exercise (Wasila Dahdul)
 * 10:30 am: '''''Coffee break''''' (15 min)
 * 10:45 am: Data curation: work on individual data
 * 12:00 pm: '''''Lunch'''''
 * 1:00 pm: Data curation: work on individual data
 * 3:00 pm: '''''Coffee break''''' (15 min)
-*''' 3:15 pm: Web-based user interface discussion IS THIS THE BEST PLACE FOR THIS? MORE TIME?
-*''' 5:00 pm: Wrap up and discussion of curation issues
+* 3:15 pm: Phenoscape user interface introduction (Jim Balhoff)
+* 5:00 pm: Wrap up and discussion of curation issues
 * 6:00 pm: Dinner in Rapid City
 
 == Monday, Sept. 29 ==
