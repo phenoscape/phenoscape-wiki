@@ -29,7 +29,7 @@ Draft agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in S
 * 6:00 am: Buffalo roundup - participants driven to [http://www.sdgfp.info/Parks/Regions/Custer/round.htm Custer State Park] (~45 min)
 * 12:00 pm: '''Lunch at roundup'''
 * 1:00 pm: Drive to Sylvan lake lodge, check in
-* 2:00 pm: Data curation: work on individual data
+* 2:00 pm: Data curation: work on individual data; begin individual meetings with Cartik, Hilmar, and Todd to look at mock-ups (web-based and paper) of Phenoscape user interface.
 * 6:00 pm: Dinner at Sylvan Lodge
 
 == Tuesday, Sept. 30 ==
