@@ -7,34 +7,34 @@ Detailed plan for database and web UI prototype development.
 ==Week 1 (Aug. 25-29)==
 * Hilmar, Jim, Cartik - develop this plan
 * Jim
-** Create Eclipse project for Phenoscape web UI at Phenoscape Sourceforge site
-** Define OBD query requirements and deliver to Cartik
-** Complete EQ and matrix import/merge functionality for Phenex
+** Create Eclipse project for Phenoscape web UI at Phenoscape Sourceforge site '''Done'''
+** Define OBD query requirements and deliver to Cartik '''Done'''
+** Complete EQ and matrix import/merge functionality for Phenex '''Done'''
 * Cartik
-** Empty current data from DB
-** Work out reliable protocol for reload of ontologies and annotations using scripts
-** Run reasoner on DB
+** Empty current data from DB ''Not done yet.''
+** Work out reliable protocol for reload of ontologies and annotations using scripts ''Not done yet.''
+** Run reasoner on DB ''Not done yet.''
 
 ==Week 2 (Sep. 1-5)==
 * Jim
 ** Out on vacation most of the week.
 * Cartik
-** Continue DB data loading work
-** OBD API query implementations
+** Continue DB data loading work ''Not done yet.''
+** OBD API query implementations ''In progress''
 
 ==Week 3 (Sep. 8-12)==
 * Jim
-** Compile needed data files
-** Code web UI
+** Compile needed data files ''Not done yet.''
+** Code web UI ''In progress'' 
 * Cartik
-** Load data files into DB
-** Write Restlet web services to return query results (with Jim)
+** Load data files into DB ''Not done yet.''
+** Write Restlet web services to return query results (with Jim) '''Done by Jim'''
 
 ==Week 4 (Sep. 15-19)==
 * Jim
-** Continue web UI coding
+** Continue web UI coding ''In progress''
 * Cartik
-** Refine data loading to DB
+** Refine data loading to DB ''Not done yet.''
 
 ==Week 5 (Sep. 22-26)==
 * Jim
