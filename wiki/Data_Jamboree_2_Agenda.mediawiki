@@ -31,7 +31,7 @@ Draft agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in S
 * 6:00 pm: Dinner at Sylvan Lodge
 
 == Tuesday, Sept. 30 ==
-* 8:00 am: [[SD meeting project personnel meeting/agenda|Project personnel meeting agenda]] concurrent with Data curation
+* 8:00 am: [[WG:All-Hands_Meeting_30Sep08|Project personnel meeting agenda]] concurrent with Data curation
 *9:45 am: '''''Coffee break'''''
 *10:00 am: Curation consistency experiment (1 hr) concurrent with Project personnel meeting
 * 11:00 am: Review and discussion of consistency experiment (Project personnel and curators present)
@@ -39,7 +39,7 @@ Draft agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in S
 * 1:00 pm: Project personnel meeting concurrent with Data curation
 * 3:00 pm: '''''Coffee break'''''
 *3:15 pm:  Project personnel meeting concurrent with Data curation
-* 4:45 pm: Leave for dinner 
+* 4:45 pm: Leave for dinner
 * 5:30 pm: Dinner at Sage Creek Grille (Custer, SD) (http://rapidcityjournal.com/bhflavor/index.php?list=reviews&reid=59)
 
 == Wednesday, Oct. 1==
