@@ -71,18 +71,18 @@ Members of the project team are in '''bold font'''.
 for more information on the papers below see: http://spreadsheets.google.com/ccc?key=pTeXfTnVPxC-P1URVHbI4Qg&hl=en
 
 *Terry Grande (Gonorynchiformes and Ostariophysi)
-**de Pinna, M. C. C.; Grande, T. (1993)
-**Grande, T. ; Poyato-Ariza, F J (1999)
-**Poyato-Ariza, F. J. (1996)
+**de Pinna, M. C. C., and T. Grande. 2003. Ontogeny of the accessory neural arch in pristigasteroid clupeomorphs and its bearing on the homology of the otophysan claustrum (Teleostei) Copeia 2003:838-845.
+**Grande, T., and F. J. Poyato-Ariza. 1999. Phylogenetic relationships of fossil and Recent gonorynchiform fishes (Teleostei: Ostariophysi). Zoological Journal of the Linnean Society 125:197-238.
+**Poyato-Ariza, F. J. 1996. A revision of the ostariophysan fish family Chanidae, with special reference to the Mesozoic forms. Palaeo Ichthyologica 6:1-52.
 
 *Richard Mayden (Cypriniformes)
-**Mayden (1989)
-**Cavender & Coburn (1992)
-**Conway & Mayden (2007)
+**Mayden, R. L. 1989. Phylogenetic studies of North American minnows, with emphasis on the genus Cyprinella (Teleostei: Cypriniformes). University of Kansas Museum of Natural History Miscellaneous Publications 80:1-189.
+**Cavender, T. M., and M. M. Coburn. 1992. Phylogenetic relationships of North American Cyprinidae. Pp. 293-327 in R. L. Mayden, ed. Systematics, Historical Ecology, and North American Freshwater Fishes. Stanford University Press, Stanford.
+**Conway, K. W., and R. L. Mayden. 2007. The gill arches of Psilorhynchus (Ostariophysi: Psilorhynchidae) Copeia 2007: 267–280 
 
 *Eric Hilton (Clupeiformes and Ostariophysi)
 **Chang, M-M; Maisey, J G (2003)
-**Arratia, G (1999)
+**Arratia, G. 1999. The monophyly of Teleostei and stem-group teleosts.  Consensus and disagreements. Pp. 265-334 in G. Arratia, and H.-P. Schultze, eds. Mesozoic Fishes 2- Systematics and Fossil Record. Verlag Dr. F. Pfeil, Munchen.
 **Fink, S. V.; Fink, W. L. (1996) (review first pass by Wasila Dahdul)
 
 *Mark Sabaj Pérez (Siluriformes)
