@@ -24,7 +24,7 @@ Purpose:
 
 ==Agenda==
 
-Draft at ''[[Data_Jamboree_2/Agenda]]'' for the program for each day.
+See ''[[Data_Jamboree_2/Agenda]]'' for the program for each day.
 
 ==Resources==
 
