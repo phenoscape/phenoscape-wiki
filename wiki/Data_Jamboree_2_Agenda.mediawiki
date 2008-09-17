@@ -24,7 +24,7 @@ Draft agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in S
 
 == Monday, Sept. 29 ==
 * 5:00 am: Check out; drive to Buffalo roundup
-* 6:00 am: Buffalo roundup - participants driven to Custer State Park (~45 min) http://www.sdgfp.info/Parks/Regions/Custer/round.htm
+* 6:00 am: Buffalo roundup - participants driven to [http://www.sdgfp.info/Parks/Regions/Custer/round.htm Custer State Park] (~45 min)
 * 12:00 pm: '''Lunch at roundup'''
 * 1:00 pm: Drive to Sylvan lake lodge, check in
 * 2:00 pm: Data curation: work on individual data
@@ -40,7 +40,7 @@ Draft agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in S
 * 3:00 pm: '''''Coffee break'''''
 *3:15 pm:  Project personnel meeting concurrent with Data curation
 * 4:45 pm: Leave for dinner
-* 5:30 pm: Dinner at Sage Creek Grille (Custer, SD) (http://rapidcityjournal.com/bhflavor/index.php?list=reviews&reid=59)
+* 5:30 pm: Dinner at [http://rapidcityjournal.com/bhflavor/index.php?list=reviews&reid=59 Sage Creek Grille] (Custer, SD)
 
 == Wednesday, Oct. 1==
 * 8:00 am: Data curation
