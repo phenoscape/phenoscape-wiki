@@ -20,7 +20,7 @@ title: Data Jamboree 2/Preparation
 *Things to contact participants about ahead of time (develop letter prior to conference call ''- Done PM Sept 17'')
 **bring laptops (Mac or PC - Jim will ask and send them Java download linnk)
 ***how to download Phenex (Jim will send instructions), Mesquite (Peter will send instructions); links to each
-**how to subscribe to Phenoscape-curators and Teleost-discuss
+**how to subscribe to Phenoscape-curators and Teleost-discuss (- Done WD Sept 18)
 **send link for to Phenoscape publications spreadsheet (public access now)
 **email each of the four participants pdfs of 3 assigned papers and 3 Phenex files
 * Curation
