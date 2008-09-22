@@ -27,7 +27,7 @@ The following are examples of character types commonly enountered in the systema
 You might see “presence” appear in the Quality field drop down menu, as it is the parent term for absent and present, but should not be used in annotations.
 
 ===Characters involving well developed vs. small or absent entities===
-For example, a character involving the auditory foramen might be coded with two states: 0, absent or small; 1, well developed.  State 0 is recorded as polymorphic in Phenex:
+For example, a character involving the auditory foramen is coded with two states: 0, absent or small; 1, well developed.  State 0 is recorded as polymorphic in Phenex:
 
  E: auditory foramen, Q: decreased size
  E: auditory foramen, Q: absent
