@@ -39,7 +39,7 @@ Relational qualities are those that exist in an entity but require an additional
 
 
 === Characters involving presence/absence of developmentally dependent entities ===
-An example is  bone develops_from cartilage. <span style="color: red;">THIS MAY NEED REVISION.</span>
+An example is  bone develops_from cartilage.
 
 Interhyal: (0) present and ossified; (1) present and cartilaginous; (2) absent
 
