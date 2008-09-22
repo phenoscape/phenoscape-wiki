@@ -18,7 +18,7 @@ Post-composed terms (described below) are terms created on-the-fly at the time o
 
 ==Character types==
 
-The following are examples of character types commonly enountered in the systematic literature and how we annotate them using the EQ model in Phenex.  Abbreviations: E, entity; Q, quality, AE, additional entity, C, count.
+The following are examples of character types commonly enountered in the systematic literature and how we annotate them using the EQ model in Phenex.  Abbreviations: E, entity; Q, quality, RE, related entity, C, count.
 
 ===Presence/absence characters===
  E: pectoral fin, Q: present
@@ -34,8 +34,8 @@ Monadic qualities are those that exist in a single entity, such as shape, and do
 ===Characters using relational qualities===
 Relational qualities are those that exist in an entity but require an additional entity in order to exist.  For example, annotation of “parietal fused with supraoccipital” is entered as:
 
- E: parietal, Q: fused with, AE: supraoccipital
- E: parietal, Q: separated from, AE: supraoccipital
+ E: parietal, Q: fused with, RE: supraoccipital
+ E: parietal, Q: separated from, RE: supraoccipital
 
 
 === Characters involving presence/absence of developmentally dependent entities ===
@@ -123,3 +123,5 @@ The TAS evidence code covers author statements that are attributed to a cited so
 
 ===Nontraceable Author Statement (NAS)===
 The NAS evidence code should be used in all cases where the author makes a statement that a curator wants to capture but for which there are neither results presented nor a specific reference cited in the source used to make the annotation. The source of the information may be peer reviewed papers, textbooks, database records or vouchered specimens.
+
+[[Category:Curation]]
