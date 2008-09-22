@@ -12,7 +12,7 @@ Agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in South D
 
 * 8:00 am: Phenoscape Introduction (Paula); project personnel and participant introductions
 * 8:30 am: Synthetic research databases for model organisms (Monte Westerfield)
-* 8:45 am: Phenotype databases: PhenoGO interface (Judy Blake) and OBD (Suzi Lewis)
+* 8:45 am: Phenotype-genotype relationships in the mouse (MGI) database: Judy Blake
 * 9:00 am: Phenex introduction (Jim Balhoff)
 * 9:15 am: Curation Exercise (Wasila Dahdul)
 * 10:30 am: '''''Coffee break''''' (15 min)
