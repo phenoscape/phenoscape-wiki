@@ -75,6 +75,7 @@ for more information on the papers below see: http://spreadsheets.google.com/ccc
 **De Pinna, M. C. C., and T. Grande. 2003. Ontogeny of the accessory neural arch in pristigasteroid clupeomorphs and its bearing on the homology of the otophysan claustrum (Teleostei). Copeia 2003:838-845.
 **Grande, T., and F. J. Poyato-Ariza. 1999. Phylogenetic relationships of fossil and Recent gonorynchiform fishes (Teleostei: Ostariophysi). Zoological Journal of the Linnean Society 125:197-238.
 **Poyato-Ariza, F. J. 1996. A revision of the ostariophysan fish family Chanidae, with special reference to the Mesozoic forms. Palaeo Ichthyologica 6:1-52.
+**Grande, T., and L. Grande. 2008. Reevaluation of the gonorynchiform genera Ramallichthys, Judeichthys and Notogoneus, with comments on the families Charitosomidae and Gonorynchidae. Mesozoic Fishes 4:295-310.
 
 *Richard Mayden (Cypriniformes)
 **Mayden, R. L. 1989. Phylogenetic studies of North American minnows, with emphasis on the genus ''Cyprinella'' (Teleostei: Cypriniformes). University of Kansas Museum of Natural History Miscellaneous Publications 80:1-189.
