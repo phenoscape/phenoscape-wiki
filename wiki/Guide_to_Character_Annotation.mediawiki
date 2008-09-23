@@ -62,10 +62,12 @@ Interhyal: (0) present and ossified; (1) present and cartilaginous; (2) absent
 ===Meristic data===
 Characters involving counts of entities are annotated using the “count” quality.  Values for counts are entered in the “count” field.  Note that ranges and lower or upper bounds can be recorded:
 
- E: vertebra, Q: count, C: 33
- E: vertebra, Q: count, C: 34-38
- E: vertebra, Q: count, C: >38
- E: vertebra, Q: count, C: =/>48
+ E: vertebra, Q: count, Count: 33
+ E: vertebra, Q: count, Comments: 34-38
+ E: vertebra, Q: count, Comments: >38
+ E: vertebra, Q: count, Comments: =/>48
+
+*Note: The Count field in Phenex is currently configured to only accept integer values.  Record ranges or min/max values in the Comments field.
 
 == Refining terms  by post-composition ==
 
