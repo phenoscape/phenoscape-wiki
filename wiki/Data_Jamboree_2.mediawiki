@@ -26,11 +26,10 @@ Purpose:
 
 See ''[[Data_Jamboree_2/Agenda]]'' for the program for each day.
 
-==Resources==
+==Resources For Participants==
 
-For curators:
+
 * [[Guide to Character Annotation]]
-* [https://webdav.nescent.org/phenoscape-data/TaxonList_rev.doc Entering a taxon list]
 * [https://webdav.nescent.org/phenoscape-data/group-exercise.doc Group exercise instructions]
 * [[Phenote User Guide]] (this also contains detailed instructions for downloading and running Phenote)
 * [[Resources for curators]]
