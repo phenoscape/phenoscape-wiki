@@ -31,7 +31,6 @@ See ''[[Data_Jamboree_2/Agenda]]'' for the program for each day.
 * [[Guide to Character Annotation]]
 * Curation Exercise instructions (forthcoming)
 * [[Term_Requests | Term request instructions]]
-* [[Phenote User Guide]] (this also contains detailed instructions for downloading and running Phenote)
 * [[Resources for curators | Additional resources for curators]]
 
 ==Logistics==
