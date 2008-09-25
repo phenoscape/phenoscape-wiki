@@ -101,6 +101,14 @@ anterior margin^part_of(frontal bone)
 
 As for semantics, identifiability, and rules for post-composing, the same applies as above for entity terms. Start with the more general term (for example, the "anterior margin") as the genus, then refine it using a relationship and a differentia term (for example, anterior margin that is part-of the "frontal bone").
 
+=== Specifying the contralateral half of a bilaterally paired structure ===
+
+Use the spatial term "contralateral" to post-compose entities for the right and left members of a paired structure. For example, a character may describe the  posterior processes of the pelvic bone in contact with each other.  This would be annotated as: 
+
+E: posterior process of basipterygium
+Q: in contact with
+RE: contralateral^part_of(posterior process of basipterygium)
+
 === Refining size qualities by making them relative ===
 Because size qualities are monadic terms, comparison of size of one bone relative to another requires post-composition of the size quality.  For example, the character “frontal length greater than parietal length” is entered as:
 
