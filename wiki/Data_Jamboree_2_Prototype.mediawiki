@@ -19,8 +19,8 @@ Detailed plan for database and web UI prototype development.
 * Jim
 ** Out on vacation most of the week.
 * Cartik
-** Continue DB data loading work ''Not done yet.''
-** OBD API query implementations ''In progress''
+** Continue DB data loading work '''Done'''
+** OBD API query implementations '''Done'''
 
 ==Week 3 (Sep. 8-12)==
 * Jim
