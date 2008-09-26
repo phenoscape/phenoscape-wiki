@@ -13,8 +13,10 @@ title: Phenoscape use cases
 '''Example'''
 
 '''Input'''
+* A phenotype description - e.g. input some entity and/or some quality.
 
 '''Output'''
+* A list of annotations from the database which match that entity and quality, with taxon.
 
 = Full List =
 
