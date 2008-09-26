@@ -102,7 +102,7 @@ Within the Post-composition Editor box, type “bony projection” in the genus 
 
 [[Image:Nested-boxes.png]]
 
-The post-composed term for anterior margin of frontal appears as:
+The post-composed term for projection on the anterior margin of frontal appears as:
  bony projection^part_of(anterior margin^part_of(supraorbital bone))
 
 As for semantics, identifiability, and rules for post-composing, the same applies as above for entity terms applies to spatial terms. In creating the nested term "anterior  margin of supraorbital bone", start with the more general term (for example, the "anterior margin") as the genus, then refine it using a relationship and a differentia term (for example, anterior margin that is part-of the "supraorbital bone").
