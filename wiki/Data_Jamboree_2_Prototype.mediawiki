@@ -27,7 +27,7 @@ Detailed plan for database and web UI prototype development.
 ** Compile needed data files '''Done by Wasila and Cartik'''
 ** Code web UI ''In progress''
 * Cartik
-** Load data files into DB ''Not done yet.''
+** Load data files into DB '''Done'''
 ** Write Restlet web services to return query results (with Jim) '''Done by Jim'''
 
 ==Week 4 (Sep. 15-19)==
