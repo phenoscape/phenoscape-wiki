@@ -89,7 +89,7 @@ To post-compose the entity “supraorbital projection”, type “bony projectio
 
 The post-composed term appears in the Entity field as:
 
-[[Image:Post-comp-entry.jpg]]
+ bony projection^part_of(supraorbital bone)
 
 === Refining qualities using spatial terms ===
 The Spatial Ontology is used to post-compose terms related to bone margins, surfaces, or regions.  For example, the entity “anterior margin of frontal bone” is post-composed as follows:
