@@ -49,7 +49,6 @@ Relational qualities are those that exist in an entity but require an additional
  E: parietal, Q: fused with, RE: supraoccipital
  E: parietal, Q: separated from, RE: supraoccipital
 
-
 === Characters involving presence/absence of developmentally dependent entities ===
 An example is  bone develops_from cartilage.
 
