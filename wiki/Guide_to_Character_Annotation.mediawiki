@@ -94,14 +94,16 @@ The post-composed term appears in the Entity field as:
  bony projection^part_of(supraorbital bone)
 
 === Refining qualities using spatial terms ===
-The Spatial Ontology is used to post-compose terms related to bone margins, surfaces, or regions.  For example, the entity “anterior margin of frontal bone” is post-composed as follows:
+Often we will want to include spatial information in a post-composed term.  The Spatial Ontology is used to post-compose terms related to bone margins, surfaces, or regions.  For example, the entity “bony projection on the anterior margin of supraorbital bone” is post-composed as follows:
 
-Within the Post-composition Editor box, type “anterior margin” in the genus field and click the “+” button to add relationship = part_of and differentia = frontal bone.  Click the OK button.
+Within the Post-composition Editor box, type “bony projection” in the genus field and click the “+” button to add relationship = part_of.  Right click on the differentia field to create a second post-composed term for "anterior margin of supraorbital bone" (see below).  Click the OK button after you have filled out the genus and differentia for this nested composition.
+
+[[Image:Nested-boxes.png]]
 
 The post-composed term for anterior margin of frontal appears as:
-anterior margin^part_of(frontal bone)
+bony projection^part_of(anterior margin^part_of(supraorbital bone))
 
-As for semantics, identifiability, and rules for post-composing, the same applies as above for entity terms. Start with the more general term (for example, the "anterior margin") as the genus, then refine it using a relationship and a differentia term (for example, anterior margin that is part-of the "frontal bone").
+As for semantics, identifiability, and rules for post-composing, the same applies as above for entity terms. Start with the more general term (for example, the "anterior margin") as the genus, then refine it using a relationship and a differentia term (for example, anterior margin that is part-of the "supraorbital bone").
 
 === Specifying the contralateral half of a bilaterally paired structure ===
 
