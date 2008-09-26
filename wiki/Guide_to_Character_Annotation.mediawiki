@@ -83,7 +83,7 @@ Note that semantically, the post-composed term is equivalent to a pre-composed t
 
 === Refining entity terms on-the-fly ===
 
-Open the Post-composition Editor box by right-clicking on an empty Entity cell within the "Phenotypes" panel: 
+Open the Post-composition Editor box by right-clicking on an empty Entity cell within the "Phenotypes" panel:
 
 [[Image:Right-click.png]]
 
@@ -114,6 +114,10 @@ Use the spatial term "contralateral" to post-compose entities for the right and 
  E: posterior process of basipterygium
  Q: in contact with
  RE: contralateral^part_of(posterior process of basipterygium)
+
+== Complex size and shape qualities ==
+
+We are currently annotating complex size and shape characters only to the level of "size" or "shape" for quality.  For some characters, entity post-composition can be used to refine size qualities to record details of size differences between states of a character:
 
 === Refining size qualities by making them relative ===
 Because size qualities are monadic terms, comparison of size of one bone relative to another requires post-composition of the size quality.  For example, the character “frontal length greater than parietal length” is entered as:
