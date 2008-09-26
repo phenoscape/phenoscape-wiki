@@ -81,11 +81,13 @@ Note that semantically, the post-composed term is equivalent to a pre-composed t
 
 === Refining entity terms on-the-fly ===
 
-Open the post-composition editor box by right-clicking on an empty Entity cell within the "Phenotypes for State:" panel and clicking on “Edit Post-composed Term.”
+Open the Post-composition Editor box by right-clicking on an empty Entity cell within the "Phenotypes" panel: 
+
+[[Image:Right-click.png]]
+
+Click on “Edit Post-composed Term.”  The Editor box should now appear (see below).  To post-compose the entity “supraorbital projection”, type “bony projection” in the Genus field, click the “+” button to add a row in the table, type “part_of” in the relationship field, and type “supraorbital” in the differentia field.  Click OK.
 
 [[Image:Post-comp-box.jpg]]
-
-To post-compose the entity “supraorbital projection”, type “bony projection” in the Genus field, click the “+” button to add a row in the table, type “part_of” in the relationship field, and type “supraorbital” in the differentia field.  Click OK.
 
 The post-composed term appears in the Entity field as:
 
