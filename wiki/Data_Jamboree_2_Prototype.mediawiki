@@ -34,7 +34,7 @@ Detailed plan for database and web UI prototype development.
 * Jim
 ** Continue web UI coding '''Done - but needs CSS beatification'''
 * Cartik
-** Refine data loading to DB ''Not done yet.''
+** Refine data loading to DB '''Done'''
 
 ==Week 5 (Sep. 22-26)==
 * Jim
