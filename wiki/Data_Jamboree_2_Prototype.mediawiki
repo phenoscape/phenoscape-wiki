@@ -11,9 +11,9 @@ Detailed plan for database and web UI prototype development.
 ** Define OBD query requirements and deliver to Cartik '''Done'''
 ** Complete EQ and matrix import/merge functionality for Phenex '''Done'''
 * Cartik
-** Empty current data from DB ''Not done yet.''
-** Work out reliable protocol for reload of ontologies and annotations using scripts ''Not done yet.''
-** Run reasoner on DB ''Not done yet.''
+** Empty current data from DB '''Done'''
+** Work out reliable protocol for reload of ontologies and annotations using scripts '''Done'''
+** Run reasoner on DB '''Done'''
 
 ==Week 2 (Sep. 1-5)==
 * Jim
