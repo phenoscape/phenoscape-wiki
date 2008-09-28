@@ -34,6 +34,7 @@ See ''[[Data_Jamboree_2/Agenda]]'' for the program for each day.
 **[http://sourceforge.net/tracker/?group_id=76834&atid=994764 link to submit Anatomy Requests]
 **[http://sourceforge.net/tracker/?atid=1046550&group_id=76834&func=browse link to submit Taxonomy Requests]
 * [[Resources for curators | Additional resources for curators]]
+* [Discussion Items]
 
 ==Logistics==
 
