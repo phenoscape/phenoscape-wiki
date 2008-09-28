@@ -4,7 +4,7 @@ title: Training and Workshops
 
 == Second Data Roundup: September 28-October 1, 2008 ==
 
-The second Morphology Data Jamboree, later renamed to Roundup, will take place in Rapid City and Sylvan Lake Lodge, South Dakota, and include project personnel, affiliated curators, and external advisors.
+The second Morphology Data Jamboree, later renamed to <span class="plainlinks">[http://www.travelsd.com/about/events/buffaloroundup.asp Roundup]</span>, will take place in Rapid City and Sylvan Lake Lodge, South Dakota, and include project personnel, affiliated curators, and external advisors.
 
 * [[Data Jamboree 2|Data Jamboree overview]] with links to agenda and related material
 
