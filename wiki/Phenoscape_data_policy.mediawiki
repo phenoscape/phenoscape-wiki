@@ -20,6 +20,6 @@ Contributions to Phenoscape are predominantly based on data reported in the publ
 ===Issues for discussion===
 * Liability
 * Permission for commercial use
-* Copyright for externally linked images (e.g. in Morphank)
+* Copyright for externally linked images (e.g. in Morpbank)
 * Availability and citation of unpublished data
 * Acknowledgement of contributor(s)
