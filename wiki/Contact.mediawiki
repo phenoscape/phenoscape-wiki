@@ -41,6 +41,7 @@ The following mailing lists have publicly accessible archives (linked to from th
 
 === Project-only mailing lists ===
 
+The following mailing lists have private archives, and subscription is usually restricted to project personnel. However, anybody may send email to them; the email may be held for moderation, but legitimate (i.e., non-spam) postings will typically be released quickly.
 * Project-specific mailing list (reaches all PIs and coPIs, project team members, and those closely affiliated): [mailto:phenoscape%40nescent%2eorg phenoscape&#64;nescent&#46;org]
 
 ==Blog==
