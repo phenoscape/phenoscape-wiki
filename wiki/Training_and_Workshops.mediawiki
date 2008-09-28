@@ -2,6 +2,12 @@
 title: Training and Workshops
 ---
 
+== Second Data Roundup: September 28-October 1, 2008 ==
+
+The second Morphology Data Jamboree, later renamed to Roundup, will take place in Rapid City and Sylvan Lake Lodge, South Dakota, and include project personnel, affiliated curators, and external advisors.
+
+* [[Data Jamboree 2|Data Jamboree overview]] with links to agenda and related material
+
 == Evolutionary Biology and Ontologies Workshop: June 20, 2008 ==
 
 [[Image:Evolution2008-OntologyWorkshop.png|right]]
@@ -20,27 +26,30 @@ This workshop will be held in conjunction with the [http://www.cce.umn.edu/confe
 
 Further information can be found at the [http://www.bioontology.org/wiki/index.php/Evolutionary_Biology_and_Ontologies workshop page at the NCBO wiki]. There is also a [http://www.nescent.org/documents/EBO_Flyer.pdf  workshop flier] for dissemination. Please feel free to distribute the flier to your colleagues and students.
 
-
 ===Presentations===
 
-[[Media:Balhoff.pdf|Jim Balhoff]]
+*[[Media:Balhoff.pdf|Jim Balhoff]]
+*[[Media:Evo2008.MAH.ppt|Melissa Haendel]]
+*[[Media:SuziLewis_Evo2008.pdf|Suzi Lewis]]
+*[[Media:Mabee.pdf|Paula Mabee]]
+*[[Media:Maglia.ppt|Anne Maglia]]
+*[[Media:Midford.ppt|Peter Midford]]
+*[[Media:Mungall.ppt|Chris Mungall]]
+*[[Media:Ramirez.pdf|Martin Ramirez]]
+*[[Media:Smith.ppt|Barry Smith]]
+*[[Media:Vision_evont08.pdf|Todd Vision]]
+*[[Media:Westerfield.ppt|Monte Westerfield]]
 
-[[Media:Evo2008.MAH.ppt|Melissa Haendel]]
+== First Morphology Data Jamboree: April 18-20, 2008 ==
 
-[[Media:SuziLewis_Evo2008.pdf|Suzi Lewis]]
+The first Data Jamboree on Morpholoy with project personnel, affiliated ichthyologists and curators, and external advisors was held at NESCent on April 18-20, 2008.
 
-[[Media:Mabee.pdf|Paula Mabee]]
+* [[Data Jamboree 1|Data Jamboree overview]] with links to agenda and related material
+* [[Media:phenoscape.jamboree.report.apr08.pdf|Final report]] from the event
 
-[[Media:Maglia.ppt|Anne Maglia]]
+== Needs Analysis Workshop: September 17-18, 2007 ==
 
-[[Media:Midford.ppt|Peter Midford]]
+The Needs Analysis Workshop brought together leading scientists from the fields of morphology, development, evolution, genetics, and ichthyology to identify driving biological research questions that take the most advantage of the evolutionary, anatomical, developmental, and genetics data that the Phenoscape will integrate. In particular, the workshop aimed to identify what informatic tools are needed in order to answer those questions. The workshop was held at NESCent on September 17-18, 2007.
 
-[[Media:Mungall.ppt|Chris Mungall]]
-
-[[Media:Ramirez.pdf|Martin Ramirez]]
-
-[[Media:Smith.ppt|Barry Smith]]
-
-[[Media:Vision_evont08.pdf|Todd Vision]]
-
-[[Media:Westerfield.ppt|Monte Westerfield]]
+* [[Needs Analysis Workshop|Overview page of the workshop]], with links to presentations and break-out group notes
+* [[Needs Analysis Workshop/Summary|Summary report]]
