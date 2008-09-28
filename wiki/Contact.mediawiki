@@ -27,14 +27,24 @@ title: Contact
 :Phone: 919-490-5288
 
 ==Mailing lists==
-* Friends of Phenoscape mailing list (for updates on the Phenoscape project (3-4 times/month): lists.sourceforge.net/lists/listinfo/phenoscape-discuss
-* Project-specific mailing list (reaches all PIs and coPIs, project team members, and those closely affiliated): [mailto:phenoscape%40nescent%2eorg phenoscape&#64;nescent&#46;org]
+
+=== Public mailing lists ===
+
+The following mailing lists have publicly accessible archives (linked to from the URLs below) and all interested people can subscribe themselves at the given URLs.
+* Friends of Phenoscape mailing list (for updates on the Phenoscape project (3-4 times/month): http://lists.sourceforge.net/lists/listinfo/phenoscape-discuss
+* Phenoscape Curators mailing list (for discussion and communication of data curation issues, solutions, and progress):  http://lists.sourceforge.net/lists/listinfo/phenoscape-curators
 * Discussion of EQ formalism, phenotype description, PATO terms: [mailto:obo-phenotype%40lists%2e.sourceforge%2enet obo-phenotype@lists&#46;sourceforge&#46;net] - ''[https://lists.sourceforge.net/mailman/listinfo/obo-phenotype List subscription and archives]''
 * Anatomy ontology terms
 ** General anatomy: [mailto:obo-anatomy%40lists%2e.sourceforge%2enet obo-anatomy&#64;lists&#46;sourceforge&#46;net] - ''[https://lists.sourceforge.net/mailman/listinfo/obo-anatomy List subscription and archives]''
 ** Teleost anatomy (TAO): [mailto:obo-teleost-discuss%40lists%2e.sourceforge%2enet obo-teleost-discuss&#64;lists&#46;sourceforge&#46;net] - ''[https://lists.sourceforge.net/lists/listinfo/obo-teleost-discuss List subscription and archives]''
 * Phenote-related discussion: [mailto:obo-phenote%40lists%2e.sourceforge%2enet obo-phenote&#64;lists&#46;sourceforge&#46;net] - ''[https://lists.sourceforge.net/mailman/listinfo/obo-phenote List subscription and archives]''
 
+=== Project-only mailing lists ===
+
+* Project-specific mailing list (reaches all PIs and coPIs, project team members, and those closely affiliated): [mailto:phenoscape%40nescent%2eorg phenoscape&#64;nescent&#46;org]
 
 ==Blog==
+
 * Phenoscape blog: http://blog.phenoscape.org/
+
+[[Category:Community]]
