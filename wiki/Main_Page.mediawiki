@@ -57,4 +57,5 @@ Paula Mabee (University of South Dakota) is the Principal Investigator. Co-princ
 
 ==Pages of public interest==
 
+* [[Training and Workshops]]
 * [[Ontology_Data_Service_API|Ontology Data Service API Description]]
