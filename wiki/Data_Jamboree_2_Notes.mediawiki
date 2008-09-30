@@ -1,0 +1,68 @@
+---
+title: Data Jamboree 2/Notes
+---
+
+==TAXON CONCEPTS==
+Synonym scanner is working well but will never be perfect because CoF doesn't list every synonym in existence (because they may not detect every use in literature, or maybe deemed a name not worthy of addition as synonym)
+
+TJP: Have we checked requested taxa not in CoF against UBio - that would provide an LSID that could provide a dbxref to anchor the taxon
+
+Addition of synonyms not in TTO: currently Peter must add it by hand.
+
+Need to track
+- Assoc between synonym, person who requested and publication?
+- Not being tracked right now.
+
+JGL: We don't want to give this to CoF because these synonyms are picked up in morphological or phylogenetic stdies.  These names that appear and we flag as synonyms to valid names in CoF are not names coming out of taxonomic research;  these are mistakes: OCR, typographical mistakes of author, or author mistakes of species in wrong genus.
+
+Seems we should  track all of this in database?
+
+We want:
+- author year of the reference (right now it's in comments) - want in a searchable context
+- does CoF have a database of publications?
+
+PM: ed publication information (DOI, SCSI)
+-CoF has an internal reference
+- We also need to record the full citation ourselves (name, year, unpublished dissertation...)
+
+Peter: dbxref from CoF add to TTO
+TTO just hold dbxref not whole ref (no structured place to hold it).
+
+synonym reference - how should it be handled?
+
+SL: synonym xref can be a person (initials)
+
+to summarize: full text ref would be in db; onotology owuld have a pointer to that
+
+Peter: need interface to the db; won't be visible to obo-edit
+- make the dbxref a url link to URI
+
+TV: We need a universal place to resolve that URL
+
+PM: synonym types necessary? misspellings; narrow etc...
+
+Peter: Hoping we can scan stuff in from CoF
+
+John: see ANSP collection search: type in a type specimen name and it pulls in the CoF ref
+need CoF identifier; CASspec?
+
+PM: who should do this?
+
+JGL: why can't curator do this?
+
+PM: too much time; can be done in bulk
+
+Peter: synonym types:
+- current vocab is exact, related, broader, narrower
+- all synonyms currently are related (the weakest relation).
+- we will want misspelling to be even weaker than related;
+- distinguish between published synonomy vs, curator made decision
+-
+
+HL: weighing how trustworthy the evidence vs. designation of weak/strong; to HL, misspelling is a strong exact synonym not weak
+
+PM: are misspelings the only exact synonyms?
+
+TV: not critical to have the types of synonyms; just use related
+
+all in agreement.
