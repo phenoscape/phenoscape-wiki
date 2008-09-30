@@ -28,6 +28,7 @@ Here are some useful resources related to the taxonomy ontology (TTO)
 
 * [[TTO Changes|Change list (relative to November 2007 CoF update) for TTO.]] This list is current for recent changes - older changes will be added.
 * [[Incubator | Suggested ideas for taxonomy browser and other tools]]
+* [[Data_Jamboree_2/Taxonomy | summary of a discussion of TTO issues at the second data jamboree (September 2008)]]
 
 This is a list of resources related to the development of the TTO.
 
