@@ -13,12 +13,12 @@ Agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in South D
 * 8:00 am: [[Media:PaulaMabee.ppt | Phenoscape Introduction ]] (Paula); project personnel and participant introductions
 * 8:30 am: [[Media:MonteWesterfield.ppt |Synthetic research databases for model organisms ]] (Monte Westerfield)
 * 8:45 am: [[Media:JudyBlake.ppt | Phenotype-genotype relationships in the mouse (MGI) database]] (Judy Blake)
-* 9:00 am: [[Media:SuziLewis.ppt | Mining phenotypes annotated using entity-quality syntax]] (Suzi Lewis)
-* 9:15 am: Phenex introduction (Jim Balhoff)
-* 9:30 am: Curation Exercise (Wasila Dahdul)
+* 9:15 am: [[Media:SuziLewis.ppt | Mining phenotypes annotated using entity-quality syntax]] (Suzi Lewis)
+* 9:45 am: Phenoscape data policy (Todd Vision)
+* 10:00 am: Phenex introduction (Jim Balhoff)
 * 10:30 am: '''''Coffee break''''' (15 min)
-* 10:45 am: Data curation: work on individual data
-* 12:00 pm: '''''Lunch'''''
+* 10:45 am: Curation Exercise (Wasila Dahdul)
+* 12:00 pm: '''''Box Lunch at Higher Education Center'''''
 * 1:00 pm: Data curation: work on individual data
 * 3:00 pm: '''''Coffee break''''' (15 min)
 * 3:15 pm: Phenoscape user interface introduction (Jim Balhoff)
