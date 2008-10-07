@@ -36,7 +36,7 @@ Agenda for the 2nd Phenoscape Data Jamboree and Project Meeting, held in South D
 == Tuesday, Sept. 30 ==
 * 8:00 am: [[WG:All-Hands_Meeting_30Sep08|Project personnel meeting agenda]] concurrent with Data curation
 *9:45 am: '''''Coffee break'''''
-*10:00 am: Curation consistency experiment (1 hr) concurrent with Project personnel meeting
+*10:00 am: [[Data Jamboree 2/Annotation Experiment|Curation consistency experiment]] (1 hr) concurrent with Project personnel meeting
 * 11:00 am: Review and discussion of consistency experiment (Project personnel and curators present)
 * 12:00 pm: ''''' Box Lunch - take to lake or veranda'''''
 * 1:00 pm: Project personnel meeting concurrent with Data curation
