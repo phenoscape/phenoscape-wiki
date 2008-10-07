@@ -283,6 +283,49 @@ Paula: non-curation of present entities
 
 *Paula: Will followup with curators regarding completeness of literature surveyed
 
+
+== Curation consistency experiment: Review of Results ==
+
+Character #2
+* difference between depth, length, width
+* some failed to post-compose (e.g., increased length)
+* need to standardize shape, length, depth, and width definitions
+* should then use higher level character (such as 'shape')
+
+Character #3
+* some use 'increased count' which is-a count
+
+Character #4
+* question of whether basihyal bone precludes presence (or implies absence) of cartilage
+* question of how to annotate this looks more difficult than in reality is
+* basihyal cartilage absent implies basihyal bone absent (because the latter develops from the former)
+** in fact it can also be that the cartilage is absent b/c it has developed into the bone (completely ossified)
+** hence need to add that basihyal is absent too
+* graph view can be very helpful
+
+Character #5
+* software should prevent filling in relative entities for qualities that aren't relational
+* post-composed relative entity because of uncertainty of whether the full (existing) term would be compatible with the definition the author may have been using (for a different clade)
+* difficulty to find the 'bony projection' by auto-completion (because it doesn't pop up when typing the beginnings of 'projection')
+* problem of capturing the 'overlaps with' aspect in addition to 'anterior to'
+* full text search of the definitions would be very useful
+
+Character #6
+* hypural is also contained within the upper lobe of the caudal fin
+* difficulty of finding and comparing definitions of relationship types
+
+Character #7
+* Software should ensure that entity starts with an entity term if post-composed, not a quality
+
+Character #8
+* sphenotic needs to go into the comment field
+
+Character #9
+* too complex to express the exact nature of the orientation, so choose just 'orientation'
+
+Character #10
+* triradiate versus tripartite
+
 [[Category:Curation]]
 [[Category:Ontology]]
 [[Category:Taxonomy]]
