@@ -78,15 +78,15 @@ Resolving this issue may depend on the resolution of a second, closely related i
 
 Following the example of the OBO translation of the NCBI taxonomy, the TTO models taxa as a hierarchy of classes, defined by an is_a relation based on set theory.  This means that classes, hence taxa terms are represented as sets.  The taxon as set model extends all the way down to and including the species level.
 
-However, an increasingly influential view among philosophers of biology is that species should be not be seen as either classes (or natural kinds), but as evolutionary units, and hence as individuals (e.g., Hull 1974, Ghiselin 1978).  In this view, species are not sets of individual organisms, rather there is a part_of relation between organisms and their species.  The particular part_of relation is commonly portrayed as species (and other clades) being composed of lineages and lineages consisting of related individual organisms.  
+However, an increasingly influential view among philosophers of biology is that species should be not be seen as either classes (or natural kinds), but as evolutionary units, and hence as individuals (e.g., Hull 1974, Ghiselin 1978).  In this view, species are not sets of individual organisms, rather there is a part_of relation between organisms and their species.  The particular part_of relation is commonly portrayed as species (and other clades) being composed of lineages and lineages consisting of related individual organisms.
 
 This view can be extended to consider clades as individuals, since they, like species are comprised of lineages.  Individuals comprised of lineages might be modeled as instances of the class 'portion of clade', which might include species (the class of all individual species) as a particular subclass because individual species are evolutionary units, unlike larger clades.
 
 Modeled this way, the TTO and taxon rank ontology might look as follows:
 
                           TTO                                TaxonRank Ontology
-   
-  
+
+
                         is_a
   "portion of clade" <--------------  Cyprinidae   -------------------->  Family
                                           ^             has_rank           ^
@@ -106,19 +106,19 @@ Or even:
 
 
        TTO                                       TaxonRank Ontology
-   
-  
+
+
                         is_a                        is_a
    Cyprinidae   -------------------->  Family ------------------> "portion of clade"
         ^                                 ^
         |                                 |
         | part_of                         |  "rank_order"
-        |                is_a             |                               
+        |                is_a             |
      Davario    -------------------->   Genus ------------------> "portion of clade"
         ^                                 ^         is_a
         |                                 |
         | part_of                         |  "rank_order"
-        |                   is_a          |                             
+        |                   is_a          |
   Davario aequipinnatus ------------>  Species -----------------> "portion of clade"
 
 
@@ -127,3 +127,4 @@ This approach also provides a natural bridge to the use of Phylogenetic definiti
 The major difficulties with such a model are potential conflicts with the OBO ontologies focus on classes, rather than individuals.
 
 [[Category:Ontology]]
+[[Category:Taxonomy]]
