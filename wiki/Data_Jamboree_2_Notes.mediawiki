@@ -87,8 +87,8 @@ MGI batch query demo
 * Group annotations by author, annotation date  (Paula Mabee)
 * Allow taxon/gene/phenotype combinations for querying (Paula Mabee)
 
-== Taxon Concepts (Monday, Sept. 29, 2008)==
-(Subgroup meeting: Peter Midford, Paula Mabee, Todd Vision, John Lundberg, Suzi Lewis, Judy Blake)
+== Taxon Concepts subgroup meeting (Monday, Sept. 29, 2008)==
+(Present: Peter Midford, Paula Mabee, Todd Vision, Wasila Dahdul, Hilmar Lapp, John Lundberg, Suzi Lewis, Judy Blake)
 
 Synonym scanner is working well but will never be perfect because CoF doesn't list every synonym in existence (because they may not detect every use in literature, or maybe deemed a name not worthy of addition as synonym)
 
