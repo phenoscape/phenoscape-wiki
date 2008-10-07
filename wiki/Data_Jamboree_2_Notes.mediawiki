@@ -81,3 +81,8 @@ Evidence for synonym to current name assignment needs to be recorded.
 * OBO edit allows typing in those references, but doesn't allow hyperlinking to a display of the source.
 * Many of these publications could be imported from CoF, which maintains a database of publications with identifiers (CoF#).
 * Synonym assignments will have relationship type 'RELATED' except for misspellings, for which it would be 'EXACT'.
+
+[[Category:Curation]]
+[[Category:Data Jamboree 2]]
+[[Category:Ontology]]
+[[Category:Taxonomy]]
