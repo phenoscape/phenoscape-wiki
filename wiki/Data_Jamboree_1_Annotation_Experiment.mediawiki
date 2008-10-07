@@ -16,12 +16,12 @@ A summary of annotation consistency among participants is presented in the table
 
 {| border="1" cellspacing="0" cellpadding="3"
 ! Character #
-! # Participants with 
+! # Participants with
 Completed Annotations*
 ! % Consistency with Key
 ! Variable component of annotation
 |-
-| 1 || 4 || 100 || 
+| 1 || 4 || 100 ||
 |-
 | 2 || 3 || 0  || post-composition of Q term for relative length
 |-
@@ -45,9 +45,9 @@ Completed Annotations*
 |}
 **incomplete annotations due to software issues were excluded
 
-Participants annotated only one character identically. Variation in other annotations was due to several reasons: 
+Participants annotated only one character identically. Variation in other annotations was due to several reasons:
 
-* Granularity of annotations. Some participants integrated very detailed information in post-compositions of entities or qualities, whereas others used single anatomy terms or broad term categories for quality.  Use of spatial information in post-composition also varied among participants.  
+* Granularity of annotations. Some participants integrated very detailed information in post-compositions of entities or qualities, whereas others used single anatomy terms or broad term categories for quality.  Use of spatial information in post-composition also varied among participants.
 
 *Creation of post-composed entities. Participants had difficulty in deciding what term to use as the genus in post-composition.  Also, the relation used in post-composition (for example, use of part_of/has_part) differed in annotations among participants.
 
@@ -61,7 +61,7 @@ The results of the annotation experiment provide detailed areas for improvement 
 
 In the following exercise, we would like to assess annotation consistency among data jamboree participants working independently on a common set of characters.  These characters are taken directly from the literature of comparative morphology of fishes.
 
-Download the annotation-experiment folder from the Phenoscape server.  
+Download the annotation-experiment folder from the Phenoscape server.
 
 Use the taxon list and the character matrix given in Table 1 to annotate characters 1-11 below. For the purpose of this exercise, character states noted in Table 1 were observed in all specimens listed in the materials list.  The name of this publication is: Lapp and Dahdul, 2008.
 
@@ -69,7 +69,7 @@ Use the taxon list and the character matrix given in Table 1 to annotate charact
 {| border="1" cellspacing="0" cellpadding="3"
 ! Taxon
 ! 1
-! 2 
+! 2
 ! 3
 ! 4
 ! 4
@@ -77,31 +77,31 @@ Use the taxon list and the character matrix given in Table 1 to annotate charact
 ! 6
 ! 7
 ! 8
-! 9 
+! 9
 ! 10
 |-
-| Chanos chanos || 0 || 0 ||0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 
+| Chanos chanos || 0 || 0 ||0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
 |-
 | Diplomystes chilensis || 0 || 0 || 0 || 1 || 0 || 0 || 0 || 0 || 0 || 1 || 0
 |-
-| Hiodon alosoides || 1 || 1 || 1 || 2 || 1 || 1 || 1 || 1 || 1 || 2 || 1	
+| Hiodon alosoides || 1 || 1 || 1 || 2 || 1 || 1 || 1 || 1 || 1 || 2 || 1
 |}
-								
-1. Presence or absence of intercalar: (0) present; (1) absent. 
+
+1. Presence or absence of intercalar: (0) present; (1) absent.
 
 2. Opercle depth to width ratio: (0) less than two; (1) about two or greater than two. Essentially, this character distinguishes between those taxa with a short, relatively broad opercle and those with a tall relatively slender opercle.
-		
+
 3. Number of unbranched plus branched pelvic-fin rays: (0) 11; (1) nine; (2) more than 11.
 
-4. Basihyal: (0) present and ossified; (1) present and cartilaginous; (2) absent. 
+4. Basihyal: (0) present and ossified; (1) present and cartilaginous; (2) absent.
 
-5. Position of anterior margin of nasal: (0) falling short of lateral process of mesethmoid (= lateral ethmoid wing of Weitzman, 1962); (1) extending anteriorly to overlie or extend beyond lateral process of mesethmoid. 
+5. Position of anterior margin of nasal: (0) falling short of lateral process of mesethmoid (= lateral ethmoid wing of Weitzman, 1962); (1) extending anteriorly to overlie or extend beyond lateral process of mesethmoid.
 
-6. Number of hypurals in upper lobe of caudal fin:  (0) four; (1) three. 
+6. Number of hypurals in upper lobe of caudal fin:  (0) four; (1) three.
 
-7. Presence or absence of medially directed, spine-like process on ventral surface of post-temporal: (0) present; (1) absent. 
+7. Presence or absence of medially directed, spine-like process on ventral surface of post-temporal: (0) present; (1) absent.
 
-8. Presence or absence of contact between frontal and pterotic: (0) frontal and pterotic bones in contact; (1) pterotic excluded from contact with frontal by sphenotic. 
+8. Presence or absence of contact between frontal and pterotic: (0) frontal and pterotic bones in contact; (1) pterotic excluded from contact with frontal by sphenotic.
 
 9. Orientation of infrapharyngobranchial 1: (0) proximal tip anteriorly directed; (1) proximal tip posteriorly directed.
 
@@ -112,7 +112,7 @@ Form of parasphenoid: (0) relatively straight anteroposteriorly and with posteri
 
 =====References=====
 * Hilton, EJ. 2003. Comparative osteology and phylogenetic systematics of fossil and living bony-tongue fishes (Actinopterygii, Teleostei, Osteoglossomorpha). Zoological Journal of the Linnean Society 137:1-100.
-* Sanger, TJ and AR McCune. 2002. Comparative osteology of the Danio (Cyprinidae: Ostariophysi) axial skeleton with comments on Danio relationships based on molecules and morphology. Zoological Journal of the Linnean Society 135: 529-546. 
+* Sanger, TJ and AR McCune. 2002. Comparative osteology of the Danio (Cyprinidae: Ostariophysi) axial skeleton with comments on Danio relationships based on molecules and morphology. Zoological Journal of the Linnean Society 135: 529-546.
 * Zanata AM and Vari RP. 2005. The family Alestidae (Ostariophysi, Characiformes): a phylogenetic analysis of a trans-Atlantic clade. Zoological Journal of the Linnean Society 145: 1-144.
 
 ====Raw Data from Participants====
@@ -371,3 +371,4 @@ Form of parasphenoid: (0) relatively straight anteroposteriorly and with posteri
 |}
 
 [[Category:Data Jamboree 1]]
+[[Category:Curation]]
