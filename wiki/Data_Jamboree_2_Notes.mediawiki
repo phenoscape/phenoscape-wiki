@@ -45,7 +45,7 @@ MGI batch query demo
 ** Number of matching taxa, ZFIN genes, publications
 * Search by anatomy term
 ** obtain the qualities (and entities if query is higher-level) for the query term
-** use this to be build query profile for obtaining matching ZFIN genes  
+** use this to be build query profile for obtaining matching ZFIN genes
 * Search by taxon:
 ** results in phenotypes annotated to this taxon
 ** list of publications, possibly as a secondary result after narrowing down phenotype list by anatomy term
@@ -60,7 +60,7 @@ MGI batch query demo
 * Summarizing data per publication
 ** number of taxa and/or anatomical entities or phenotypes matching the original query, compared to overall number of taxa or anatomical entities or phenotypes
 
-=== Feedback and Suggestions on proposed Phenoscape UI === 
+=== Feedback and Suggestions on proposed Phenoscape UI ===
 * Data cube like representation to represent taxa, phenotypes, and genes on three dimensions. This should allow combinations of two of the three parameters to be displayed at any given time(Rick Mayden)
 * While looking for gene-phenotype associations, display ALL phenotypes the gene is associated with IN ADDITION to the phenotypes of interest (Rick Mayden)
 * Term Information area for a selected term can be used to display all synonyms (dbxrefs?) and misspellings (Rick Mayden)
@@ -155,6 +155,121 @@ Evidence for synonym to current name assignment needs to be recorded.
 * OBO edit allows typing in those references, but doesn't allow hyperlinking to a display of the source.
 * Many of these publications could be imported from CoF, which maintains a database of publications with identifiers (CoF#).
 * Synonym assignments will have relationship type 'RELATED' except for misspellings, for which it would be 'EXACT'.
+
+== Notes from Data Curation Sessions ==
+Sylvan Lake Lodge Meeting Room - September 29, 2008 (Monday)
+
+'''''Wasila & Paula's notes'''''
+
+Comparative phenotypes: discussion of relative size, shape characters:
+Problem: Descriptors comparing size, shape among taxa within a pub cannot be extended to taxa outside the study (e.g., Rick's size of bone example with three character states: large (0), small (1), extremely small (2))
+How to do this with ontologies?  Judy pointed out that there is a (dynamic line)in annotation, between the depth of a structured vocabulary and free text.  I.e. where do you stop using an ontology and begin using free text?  Data specific to study should be free-text.
+
+Judy Blake intially suggested simply annotating our complex anatomical characters to "shape".  This indexing first pass is useful for users to be able to aggregate the data (vs. full curation).  Through further discussion, we agree that annotating to a more granular level, i.e. "shape: width" would be better and more informative.  The weakness of the current PATO comes in here, in that there need to be more nodes between shape and all the terminal nodes (the descriptors such as "narrow" "broad" etc.).  This might allow more depth than just "shape:width".
+
+We need to index our comparative systematic studies at a level that is useful for the field.  It is like a library, "binning" index to multiple things.
+
+John's idea for recording size comparison within a study:  Use shape: width and ALSO apply an internal grading system for these characters such that the least/smallest value is given 1.
+*graded series of lengths, widths, etc.. give 1, 2, 3 ...
+*least/smallest value is given 1
+
+Eric's example of incomplete/complete scute series:
+
+*E: scute series; Q: in contact RE: skull
+*E: scute series; Q: in contact RE: dorsal fin
+*E: scute series; Q: separated from RE: skull
+*E: scute series; Q: separated from RE: dorsal fin
+
+Judy: important to separate tasks of 1) anatomy ontology development and 2) annotation of publications
+*suggested having ontology development workshops and curation workshops
+*her suggestion: Curator needs to enter terms ahead of time and have experts fix the annotations (problem at our workshop currently is that people are not finding entities in ontology - need ontology work)
+
+Mark submitted TAO request on Weberian vertebra - relationships that don't hold for all taxa
+
+Wasila: batching vs. one term request: ok to submit related terms in one request
+
+Suzi: suggested having a small PATO workshop with ichthyologists, like anatomy workshop
+
+curators understand details of system
+
+JB: put 2-3 people together to do anatomical subtree: send out invite to ontology development
+
+'''''Judy's observation notes'''''
+
+* Wasila and John talking about anatomical terms and what they should be
+* Paula showing Mark how to log into sourceforge
+* Rick looking at characters for his paper
+* Wasila from Peter: question on batching or one term per request
+* Jeff helps Eric remember how to log into sourceforge
+* Terry working on her paper
+* looking for "right" first ... low hanging fruit
+* Rick annotating with Wasila's help
+* Mark entering successful s.f. proposal
+* Eric looking for term in his paper
+* Terry asking Jeff how to enter post-composed terms
+
+
+== Project Personnel Meeting ==
+September 30, 2008 (Tuesday)
+
+'''''Wasila's notes:'''''
+
+Advisor's feedback
+
+*Suzi: curators need to be aware that if they don't find the most appropriate term, they should not settle for the closest term but request what they need
+
+*Judy: curators should be aware of 2 jobs: annotation and ontology improvement
+
+*Suzi: add Wasila as ontology writer to Pato
+
+
+== Wrap-up discussion with curators ==
+October 1, 2008 (Wed morning) 
+
+'''''Wasila's notes'''''
+
+Paula: suggestions for improving curation process?
+
+*Terry: would like to go through a paper first to deal with needed terms
+**also liked annotating easy terms to become familiar with ontology structure
+
+*John: some things, like joints, can be added in bulk
+
+*All: visualization issues - how to know what is there, and their relationships
+**Need large poster of all terms
+
+**Paula: PDF mark-up tool that highlights terms matching to TAO; characters not highlighted would likely require new term
+**Todd and Paula: use Phenex to highlight ontology terms because character and state descriptions from pub are pre-entered as free text
+
+*Mark: how does a curator decide to precompose vs. postcompose
+**Wasila: if entity will be used repeatedly (in single or multiple pubs) then add to TAO; if not, post-compose
+**Mark: when post-composing, would be helpful if Phenex would autocomplete to pre-composed cross-product term (if present in TAO) so that curator can be aware of similar term in ontology
+
+*Suzi: tough anatomy stuff: you can discuss as a group of curators then submit and enter in ontology
+
+*Paula: need to set up svn for Phenex files - WD will send instructions to new curators
+
+*Rick: can we break down single character into  multiple characters?
+**Paula: make into multiple annotations - don't break down character
+
+*Pubs with same characters
+**Paula: curate it all separately
+**Jim: duplicates will come together in database
+
+Paula: non-curation of present entities
+*curate for basal taxa or annotate presence for a higher level group with weak evidence code
+
+*propogate by evolutionary inference
+
+*Jim: phenotypes are exhibits; congregate exhibits to higher level seems to be ok to do (e.g., cypriniformes exhibit red and blue dorsal fin)
+
+* inheritance vs. propagation
+
+* might need more than one reationship between taxon and a phenotype; right now we have exhibits as the relationship
+
+* Paula: This relates to character mapping
+
+*Paula: Will followup with curators regarding completeness of literature surveyed
 
 [[Category:Curation]]
 [[Category:Ontology]]
