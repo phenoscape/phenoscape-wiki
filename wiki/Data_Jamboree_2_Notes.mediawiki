@@ -66,3 +66,18 @@ PM: are misspelings the only exact synonyms?
 TV: not critical to have the types of synonyms; just use related
 
 all in agreement.
+
+=== Hilmar's notes ===
+
+There are taxonomic names that are found in publications and are absent from TTO.
+* These are usually synonyms of existing taxonomic definitions.
+* Curators file TTO synonym term requests for those missing terms, indicating what the currently valid taxon is
+* Based on a brief survey, some of these synonyms are in fact contained in the latest CoF update, but many are not.
+* Resolution against uBio has not been attempted yet.
+
+Evidence for synonym to current name assignment needs to be recorded.
+* OBO format allows dbxref for the synonym, which is used for storing the reference, such as the curator (e.g., pers. comm.)
+* Also need unique URLs and GUIDs for publications so that these can be referenced as dbxref.
+* OBO edit allows typing in those references, but doesn't allow hyperlinking to a display of the source.
+* Many of these publications could be imported from CoF, which maintains a database of publications with identifiers (CoF#).
+* Synonym assignments will have relationship type 'RELATED' except for misspellings, for which it would be 'EXACT'.
