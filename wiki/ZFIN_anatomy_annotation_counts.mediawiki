@@ -4,1338 +4,1338 @@ title: ZFIN anatomy annotation counts
 
 ===The first number is the count of direct annotations to the term.  The second number is the sum of all annotations to that term and its ''IS_A'' descendants.===
 
-* zebrafish anatomical entity '''0''' 10345
-** portion of organism substance '''0''' 11
-*** cerebral spinal fluid '''0''' 0
-*** otolith '''9''' 11
-**** sagitta '''1''' 1
-**** lapillus '''1''' 1
-**** asteriscus '''0''' 0
-*** enameloid '''0''' 0
-*** dentine '''0''' 0
-** unspecified '''870''' 870
-** anatomical space '''0''' 0
-** anatomical structure '''0''' 9464
-*** whole organism '''753''' 762
-**** male organism '''4''' 4
-**** female organism '''5''' 5
-*** compound organ '''1''' 1859
-**** pancreas '''77''' 77
-**** gill '''99''' 99
-**** head kidney '''8''' 8
-**** spleen '''49''' 49
-**** cavitated compound organ '''0''' 1329
-***** intestine '''94''' 94
-***** gonad '''8''' 209
-****** ovary '''109''' 109
-****** testis '''92''' 92
-***** kidney '''85''' 85
-***** brain '''403''' 403
-***** vasculature '''64''' 424
-****** tail vasculature '''11''' 31
-******* caudal vein plexus '''20''' 20
-****** axial vasculature '''27''' 27
-****** cardinal system '''2''' 2
-****** trunk vasculature '''18''' 18
-****** cranial vasculature '''24''' 29
-******* choroidal vascular plexus '''0''' 0
-******* ocular vasculature '''1''' 1
-******* brain vasculature '''4''' 4
-****** lymph vessel '''0''' 2
-******* pectoral lymphatic vessel '''0''' 0
-******* jugular lymphatic vessel '''0''' 0
-******* longitudinal lateral lymphatic vessel '''0''' 0
-******* facial lymphatic vessel '''0''' 0
-******* thoracic duct '''2''' 2
-****** fin vasculature '''2''' 3
-******* pectoral fin vasculature '''0''' 0
-******* intervessel commissure '''0''' 0
-******* central ray artery '''0''' 0
-******* interray vessel '''0''' 0
-******* caudal fin vasculature '''1''' 1
-******* ray vein '''0''' 0
-****** artery '''14''' 126
-******* primitive prosencephalic artery '''0''' 0
-******* renal artery '''0''' 0
-******* aortic arch '''7''' 9
-******** aortic arch 4 '''0''' 0
-******** aortic arch 3 '''0''' 0
-******** aortic arch 2 '''0''' 0
-******** aortic arch 1 '''2''' 2
-******** aortic arch 5 '''0''' 0
-******** aortic arch 6 '''0''' 0
-******* prosencephalic artery '''1''' 1
-******* carotid artery '''1''' 1
-******* internal carotid artery '''0''' 0
-******* basal communicating artery '''0''' 0
-******* palatocerebral artery '''0''' 0
-******* supraintestinal artery '''0''' 0
-******* nasal ciliary artery '''0''' 0
-******* afferent lamellar arteriole '''0''' 0
-******* posterior communicating artery '''0''' 0
-******* swim bladder artery '''0''' 0
-******* segmental intercostal artery '''1''' 1
-******* mesencephalic artery '''0''' 0
-******* hyaloid artery '''0''' 0
-******* celiacomesenteric artery '''0''' 0
-******* anterior mesenteric artery '''0''' 0
-******* caudal division of the internal carotid artery '''2''' 2
-******* efferent filamental artery '''0''' 0
-******* dorsal aorta '''68''' 68
-******* ventral branch nasal ciliary artery '''0''' 0
-******* efferent branchial artery '''0''' 0
-******* central artery '''1''' 1
-******** cerebellar central artery '''0''' 0
-******** anterior mesencephalic central artery '''0''' 0
-******** posterior mesencephalic central artery '''0''' 0
-******** middle mesencephalic central artery '''0''' 0
-******* vertebral artery '''0''' 0
-******* dorsal branch nasal ciliary artery '''0''' 0
-******* primitive mesencephalic artery '''1''' 1
-******* optic artery '''1''' 1
-******* caudal artery '''4''' 4
-******* spinal artery '''0''' 0
-******* filamental artery '''0''' 0
-******* afferent filamental artery '''0''' 0
-******* opercular artery '''2''' 2
-******* afferent branchial artery '''0''' 0
-******* concurrent branch afferent branchial artery '''0''' 0
-******* hypobranchial artery '''1''' 1
-******* metencephalic artery '''1''' 1
-******* lateral dorsal aorta '''9''' 9
-******* cranial division of the internal carotid artery '''2''' 2
-******* posterior mesenteric artery '''0''' 0
-******* pseudobranchial artery '''0''' 0
-******* pectoral artery '''1''' 1
-******* basilar artery '''0''' 0
-******* ventral aorta '''2''' 2
-******* intersegmental artery '''1''' 1
-******* recurrent branch afferent branchial artery '''0''' 0
-******* primitive internal carotid artery '''3''' 3
-******* nasal artery '''1''' 1
-******* communicating vessel palatocerebral artery '''0''' 0
-******* efferent lamellar arteriole '''0''' 0
-****** vein '''14''' 122
-******* intersegmental vein '''1''' 1
-******* primary head sinus '''1''' 1
-******* anterior cardinal vein '''1''' 1
-******* renal portal vein '''0''' 0
-******* anterior cerebral vein '''1''' 1
-******* posterior caudal vein '''3''' 3
-******* subintestinal vein '''7''' 7
-******* median axial vein '''3''' 3
-******* dorsal ciliary vein '''0''' 0
-******* posterior cardinal vein '''37''' 37
-******* mid cerebral vein '''9''' 9
-******* hyaloid vein '''0''' 0
-******* pectoral vein '''1''' 1
-******* dorsal longitudinal vein '''1''' 1
-******* median palatocerebral vein '''0''' 0
-******* caudal vein '''2''' 2
-******* hepatic vein '''0''' 0
-******* primordial hindbrain channel '''7''' 7
-******* mesencephalic vein '''1''' 1
-******* parachordal vessel '''3''' 3
-******* nasal vein '''0''' 0
-******* supraintestinal vein '''0''' 0
-******* hepatic portal vein '''1''' 1
-******* primordial midbrain channel '''7''' 7
-******* optic vein '''3''' 3
-******* palatocerebral vein '''0''' 0
-******* posterior cerebral vein '''2''' 2
-******* common cardinal vein '''17''' 17
-***** swim bladder '''49''' 49
-***** pronephros '''65''' 65
-**** posterior kidney '''2''' 2
-**** gall bladder '''7''' 7
-**** solid compound organ '''0''' 0
-***** Weberian ossicle '''0''' 0
-**** heart '''287''' 287
-*** embryonic structure '''4''' 1348
-**** tail bud '''167''' 167
-**** hypoblast '''53''' 53
-**** epiblast '''21''' 21
-**** blastoderm '''23''' 23
-**** DEL '''11''' 11
-**** blastomere '''32''' 66
-***** deep blastomere '''7''' 7
-***** superficial blastomere '''7''' 7
-***** marginal blastomere '''20''' 20
-**** neurogenic placode '''7''' 195
-***** epibranchial placode '''8''' 25
-****** vagal placode 1 '''3''' 3
-****** vagal placode 3 '''3''' 3
-****** vagal placode 4 '''3''' 3
-****** facial placode '''3''' 3
-****** vagal placode 2 '''3''' 3
-****** glossopharyngeal placode '''2''' 2
-***** dorsolateral placode '''1''' 113
-****** otic placode '''68''' 68
-****** middle lateral line placode '''0''' 0
-****** posterior lateral line placode '''6''' 6
-****** anterior lateral line placode '''8''' 8
-****** trigeminal placode '''30''' 30
-***** olfactory placode '''50''' 50
-**** margin '''112''' 112
-**** YSL '''53''' 53
-**** otic vesicle '''204''' 204
-**** Brachet's cleft '''0''' 0
-**** germ ring '''27''' 27
-**** blastodisc '''23''' 23
-**** hatching gland '''39''' 39
-**** fin bud '''8''' 55
-***** pectoral fin bud '''46''' 46
-***** pelvic fin bud '''1''' 1
-**** forerunner cell group '''46''' 46
-**** EVL '''18''' 18
-**** yolk '''24''' 24
-**** presumptive structure '''0''' 161
-***** presumptive enteric nervous system '''7''' 7
-***** presumptive ectoderm '''16''' 16
-***** presumptive median fin fold '''1''' 2
-****** presumptive dorsal fin fold '''0''' 0
-****** presumptive ventral fin fold '''1''' 1
-***** presumptive endoderm '''15''' 15
-***** axial chorda mesoderm '''39''' 39
-***** presumptive shield '''16''' 16
-***** presumptive mesoderm '''24''' 24
-***** presumptive hypochord '''1''' 1
-***** presumptive blood '''18''' 18
-***** presumptive neural plate '''23''' 23
-**** pancreatic bud '''33''' 46
-***** anterior pancreatic bud '''5''' 5
-***** posterior pancreatic bud '''8''' 8
-*** acellular anatomical structure '''0''' 0
-**** basal lamina '''0''' 0
-*** multi-tissue structure '''0''' 188
-**** pharyngeal arch '''97''' 122
-***** pharyngeal arch 1 '''1''' 1
-***** pharyngeal arch 2 '''1''' 1
-***** pharyngeal arch 3-7 '''18''' 23
-****** pharyngeal arch 7 '''0''' 0
-****** pharyngeal arch 4 '''1''' 1
-****** pharyngeal arch 3 '''2''' 2
-****** pharyngeal arch 6 '''1''' 1
-****** pharyngeal arch 5 '''1''' 1
-**** compound organ component '''0''' 0
-**** ceratobranchial 5 tooth '''7''' 18
-***** tooth 1V '''0''' 0
-***** tooth 2MD '''0''' 0
-***** tooth 3V '''3''' 3
-***** tooth 4V '''5''' 5
-***** tooth 1MD '''0''' 0
-***** tooth 5V '''3''' 3
-***** tooth 4MD '''0''' 0
-***** tooth 3MD '''0''' 0
-***** tooth 2D '''0''' 0
-***** tooth 2V '''0''' 0
-***** tooth 1D '''0''' 0
-**** dental organ '''0''' 0
-**** simple organ '''0''' 0
-**** CNS tracts and commissures '''0''' 48
-***** brain stem/spinal tract and commissures '''0''' 0
-***** diencephalic tracts and commissures '''2''' 40
-****** dorsoventral diencephalic tract '''0''' 0
-****** postoptic commissure '''7''' 7
-****** horizontal commissure '''2''' 2
-****** optic tract '''11''' 11
-****** optic chiasm '''11''' 11
-****** fasciculus retroflexus '''5''' 5
-****** medial forebrain bundle diencephalon '''0''' 0
-****** supraoptic commissure '''1''' 1
-****** commissure of the caudal tuberculum '''0''' 0
-****** habenular commissure '''1''' 1
-****** pretecto-mamillary tract '''0''' 0
-****** lateral forebrain bundle diencephalon '''0''' 0
-***** lateral forebrain bundle '''0''' 0
-***** medial forebrain bundle '''0''' 0
-***** telencephalic tracts '''0''' 8
-****** anterior commissure '''7''' 7
-****** medial olfactory tract '''0''' 0
-****** lateral forebrain bundle telencephalon '''1''' 1
-****** lateral olfactory tract '''0''' 0
-****** medial forebrain bundle telencephalon '''0''' 0
-*** anatomical group '''0''' 810
-**** anatomical system '''1''' 638
-***** nervous system '''20''' 156
-****** central nervous system '''103''' 103
-****** peripheral nervous system '''11''' 11
-****** autonomic nervous system '''0''' 22
-******* sympathetic nervous system '''2''' 2
-******* parasympathetic nervous system '''0''' 0
-******* enteric nervous system '''20''' 20
-***** reproductive system '''4''' 4
-***** sensory system '''1''' 26
-****** gustatory system '''0''' 0
-****** vestibuloauditory system '''0''' 0
-****** lateral line system '''16''' 20
-******* middle lateral line system '''0''' 0
-******* anterior lateral line system '''2''' 2
-******* posterior lateral line system '''2''' 2
-****** visual system '''0''' 0
-****** olfactory system '''5''' 5
-***** musculature system '''70''' 170
-****** fin musculature '''1''' 27
-******* pelvic fin musculature '''0''' 0
-******* dorsal fin musculature '''1''' 1
-******* pectoral fin musculature '''25''' 25
-******* caudal fin musculature '''0''' 0
-******* anal fin musculature '''0''' 0
-****** cephalic musculature '''21''' 32
-******* pharyngeal musculature '''5''' 5
-******* extraocular musculature '''6''' 6
-****** trunk musculature '''40''' 41
-******* abdominal musculature '''1''' 1
-****** enteric musculature '''0''' 0
-***** renal system '''4''' 4
-***** endocrine system '''1''' 1
-***** skeletal system '''5''' 229
-****** cranium '''9''' 215
-******* splanchnocranium '''16''' 198
-******** pharyngeal arch 3-7 skeleton '''81''' 105
-********* pharyngeal arch 6 skeleton '''3''' 3
-********* pharyngeal arch 3 skeleton '''8''' 8
-********* pharyngeal arch 5 skeleton '''4''' 4
-********* pharyngeal arch 7 skeleton '''3''' 3
-********* pharyngeal arch 4 skeleton '''6''' 6
-******** pharyngeal arch 2 skeleton '''25''' 25
-******** mandibular arch '''52''' 52
-******* neurocranium '''8''' 8
-****** postcranial axial skeleton '''1''' 5
-******* vertebral column '''0''' 0
-******* axial fin skeleton '''2''' 4
-******** caudal fin skeleton '''2''' 2
-******** dorsal fin skeleton '''0''' 0
-******** anal fin skeleton '''0''' 0
-****** paired fin skeleton '''0''' 4
-******* pectoral fin skeleton '''4''' 4
-******* pelvic fin skeleton '''0''' 0
-***** digestive system '''17''' 17
-***** liver and biliary system '''2''' 2
-***** immune system '''2''' 2
-***** hematopoietic system '''6''' 6
-***** cardiovascular system '''10''' 20
-****** lymphatic system '''2''' 2
-****** primordial vasculature '''4''' 8
-******* vascular cord '''4''' 4
-***** respiratory system '''0''' 0
-**** anatomical cluster '''0''' 172
-***** dermal bone cranium '''0''' 0
-***** joint '''1''' 1
-***** Weberian apparatus '''0''' 0
-***** lagenar capsule '''0''' 0
-***** occipital region '''0''' 0
-***** inner ear '''35''' 35
-***** otic region '''2''' 2
-***** olfactory region '''3''' 3
-***** dorsal fin pterygiophore '''1''' 1
-***** pectoral girdle '''0''' 0
-***** chondrocranium '''14''' 14
-***** sphenoid region '''0''' 0
-***** tooth row '''0''' 0
-****** mediodorsal tooth row '''0''' 0
-****** dorsal tooth row '''0''' 0
-****** ventral tooth row '''0''' 0
-***** neural complex '''0''' 0
-***** ventral hyoid arch '''5''' 5
-***** proliferative region '''8''' 8
-***** palatoquadrate arch '''11''' 11
-***** orbital region '''0''' 0
-***** suspensorium '''0''' 0
-***** neuromast '''41''' 73
-****** dorsal lateral line neuromast '''0''' 0
-****** posterior lateral line neuromast '''12''' 12
-****** mandibular lateral line neuromast '''2''' 2
-****** occipital lateral line neuromast '''2''' 2
-****** infraorbital lateral line neuromast '''2''' 2
-****** supraorbital lateral line neuromast '''1''' 1
-****** anterior lateral line neuromast '''4''' 4
-****** middle lateral line neuromast '''3''' 3
-****** opercular lateral line neuromast '''3''' 3
-****** otic lateral line neuromast '''3''' 3
-***** pelvic girdle '''0''' 0
-***** dorsal hyoid arch '''2''' 2
-***** ventral mandibular arch '''16''' 16
-***** anal fin pterygiophore '''1''' 1
-*** portion of tissue '''0''' 1534
-**** intestinal villus '''1''' 1
-**** regenerating tissue '''0''' 19
-***** apical epidermal cap '''0''' 0
-***** blastema '''18''' 18
-***** distal epidermal cap '''0''' 0
-***** basal regeneration epithelium '''1''' 1
-**** granulosa cell layer '''2''' 2
-**** pillar of the lateral semicircular canal '''1''' 1
-**** primary germ layer '''0''' 236
-***** endoderm '''84''' 84
-***** mesoderm '''89''' 89
-***** ectoderm '''63''' 63
-**** mesenchyme '''10''' 152
-***** mesenchyme pectoral fin '''11''' 11
-***** ventral mesenchyme '''9''' 9
-***** head mesenchyme '''29''' 33
-****** mesenchyme derived from head neural crest '''2''' 2
-****** dental mesenchyme '''0''' 0
-****** mesenchyme derived from head mesoderm '''2''' 2
-***** trunk mesenchyme '''5''' 88
-****** paraxial mesoderm '''79''' 79
-****** intermediate mesenchyme '''1''' 1
-****** lateral mesenchyme derived from mesoderm '''1''' 1
-****** mesenchyme derived from trunk neural crest '''2''' 2
-***** mesenchyme pelvic fin '''0''' 0
-***** mesenchyme median fin fold '''1''' 1
-**** endocardial ring '''2''' 5
-***** atrioventricular ring '''3''' 3
-**** nerve '''0''' 66
-***** cranial nerve '''5''' 65
-****** posterior lateral line nerve '''9''' 9
-****** terminal nerve '''3''' 3
-****** cranial nerve IV '''3''' 3
-****** cranial nerve II '''22''' 22
-****** cranial nerve VI '''0''' 0
-****** cranial nerve VII '''7''' 7
-****** cranial nerve V '''5''' 5
-****** cranial nerve III '''2''' 2
-****** cranial nerve X '''2''' 2
-****** cranial nerve IX '''0''' 0
-****** cranial nerve VIII '''2''' 2
-****** cranial nerve I '''1''' 1
-****** anterior lateral line nerve '''4''' 4
-***** ampullary nerve '''1''' 1
-**** notochord '''233''' 233
-**** muscle '''36''' 145
-***** myocardium '''17''' 17
-***** hypaxial myotome region '''8''' 8
-****** hypaxial region somite 8 '''0''' 0
-****** hypaxial region somite 3 '''0''' 0
-****** hypaxial region somite 1 '''0''' 0
-****** hypaxial region somite 20 '''0''' 0
-****** hypaxial region somite 13 '''0''' 0
-****** hypaxial region somite 28 '''0''' 0
-****** hypaxial region somite 14 '''0''' 0
-****** hypaxial region somite 19 '''0''' 0
-****** hypaxial region somite 29 '''0''' 0
-****** hypaxial region somite 7 '''0''' 0
-****** hypaxial region somite 18 '''0''' 0
-****** hypaxial region somite 23 '''0''' 0
-****** hypaxial region somite 22 '''0''' 0
-****** hypaxial region somite 9 '''0''' 0
-****** hypaxial region somite 2 '''0''' 0
-****** hypaxial region somite 15 '''0''' 0
-****** hypaxial region somite 25 '''0''' 0
-****** hypaxial region somite 10 '''0''' 0
-****** hypaxial region somite 6 '''0''' 0
-****** hypaxial region somite 21 '''0''' 0
-****** hypaxial region somite 24 '''0''' 0
-****** hypaxial region somite 5 '''0''' 0
-****** hypaxial region somite 11 '''0''' 0
-****** hypaxial region somite 4 '''0''' 0
-****** hypaxial region somite 27 '''0''' 0
-****** hypaxial region somite 12 '''0''' 0
-****** hypaxial region somite 26 '''0''' 0
-****** hypaxial region somite 30 '''0''' 0
-****** hypaxial region somite 17 '''0''' 0
-****** hypaxial region somite 16 '''0''' 0
-***** branchial muscle '''1''' 1
-***** myotome '''60''' 60
-***** epaxial myotome region '''1''' 1
-****** epaxial region somite 11 '''0''' 0
-****** epaxial region somite 28 '''0''' 0
-****** epaxial region somite 3 '''0''' 0
-****** epaxial region somite 17 '''0''' 0
-****** epaxial region somite 22 '''0''' 0
-****** epaxial region somite 24 '''0''' 0
-****** epaxial region somite 27 '''0''' 0
-****** epaxial region somite 26 '''0''' 0
-****** epaxial region somite 18 '''0''' 0
-****** epaxial region somite 1 '''0''' 0
-****** epaxial region somite 7 '''0''' 0
-****** epaxial region somite 30 '''0''' 0
-****** epaxial region somite 10 '''0''' 0
-****** epaxial region somite 9 '''0''' 0
-****** epaxial region somite 16 '''0''' 0
-****** epaxial region somite 5 '''0''' 0
-****** epaxial region somite 29 '''0''' 0
-****** epaxial region somite 20 '''0''' 0
-****** epaxial region somite 14 '''0''' 0
-****** epaxial region somite 2 '''0''' 0
-****** epaxial region somite 12 '''0''' 0
-****** epaxial region somite 21 '''0''' 0
-****** epaxial region somite 4 '''0''' 0
-****** epaxial region somite 13 '''0''' 0
-****** epaxial region somite 8 '''0''' 0
-****** epaxial region somite 15 '''0''' 0
-****** epaxial region somite 19 '''0''' 0
-****** epaxial region somite 25 '''0''' 0
-****** epaxial region somite 6 '''0''' 0
-****** epaxial region somite 23 '''0''' 0
-***** mandibular muscle '''5''' 17
-****** intermandibularis '''4''' 4
-****** adductor mandibulae '''6''' 6
-****** constrictor dorsalis '''0''' 0
-****** sternohyoid '''2''' 2
-***** hyoid muscle '''3''' 5
-****** dorsal adductor hyomandibulae '''0''' 0
-****** adductor operculi '''0''' 0
-****** inferior hyohyoid '''0''' 0
-****** ventral interhyoideus '''1''' 1
-****** abductor hyohyoid '''0''' 0
-****** adductor hyohyoid '''1''' 1
-****** adductor arcus palatini '''0''' 0
-****** levator operculi '''0''' 0
-****** protractor hyoidei '''0''' 0
-****** hyohyoideus '''0''' 0
-**** actinotrichium '''2''' 2
-***** dorsal actinotrichium '''0''' 0
-***** ventral actinotrichium '''0''' 0
-**** thecal cell layer '''2''' 2
-**** ganglion '''1''' 258
-***** cranial ganglion '''45''' 236
-****** epibranchial ganglion '''3''' 55
-******* facial ganglion '''13''' 13
-******* vagal ganglion 2 '''8''' 8
-******* vagal ganglion 1 '''10''' 10
-******* vagal ganglion 3 '''7''' 7
-******* vagal ganglion 4 '''6''' 6
-******* glossopharyngeal ganglion '''8''' 8
-****** trigeminal ganglion '''63''' 63
-****** lateral line ganglion '''12''' 46
-******* anterior lateral line ganglion '''12''' 16
-******** ventral anterior lateral line ganglion '''1''' 1
-******** dorsal anterior lateral line ganglion '''3''' 3
-******* posterior lateral line ganglion '''17''' 17
-******* middle lateral line ganglion '''1''' 1
-****** statoacoustic (VIII) ganglion '''27''' 27
-***** trunk ganglion '''2''' 21
-****** sympathetic chain ganglion '''2''' 2
-****** dorsal root ganglion '''17''' 17
-****** superior cervical ganglion '''0''' 0
-**** tooth placode '''4''' 4
-**** chordo neural hinge '''12''' 12
-**** portion of connective tissue '''0''' 304
-***** bone '''2''' 141
-****** replacement bone '''0''' 91
-******* perichondral bone '''0''' 0
-******* endochondral bone '''0''' 91
-******** parapophysis '''0''' 0
-********* parapophysis 1 '''0''' 0
-********* parapophysis 2 '''0''' 0
-******** hypobranchial bone '''0''' 0
-********* hypobranchial 1 bone '''0''' 0
-********* hypobranchial 4 bone '''0''' 0
-********* hypobranchial 3 bone '''0''' 0
-********* hypobranchial 2 bone '''0''' 0
-******** pharyngobranchial bone '''0''' 0
-********* pharyngobranchial 3 bone '''0''' 0
-********* pharyngobranchial 2 bone '''0''' 0
-******** rib '''0''' 0
-******** preethmoid bone '''0''' 0
-******** hemal postzygapophysis '''0''' 0
-******** intercalarium ascending process '''0''' 0
-******** neural postzygapophysis '''0''' 0
-******** manubrium '''0''' 0
-******** sphenotic '''1''' 1
-******** ural centrum 2 '''0''' 0
-******** os suspensorium '''0''' 0
-******** hemal spine '''1''' 1
-******** mesethmoid bone '''1''' 1
-******** hypohyal '''0''' 1
-********* dorsal hypohyal '''0''' 0
-********* ventral hypohyal '''1''' 1
-******** claustrum bone '''0''' 0
-******** epihyal '''1''' 1
-******** epibranchial bone '''0''' 0
-********* epibranchial 4 bone '''0''' 0
-********* epibranchial 1 bone '''0''' 0
-********* epibranchial 2 bone '''0''' 0
-********* epibranchial 3 bone '''0''' 0
-******** basipterygium '''0''' 0
-******** basibranchial '''5''' 5
-********* basibranchial 3 '''0''' 0
-********* basibranchial 2 '''0''' 0
-********* basibranchial 4 '''0''' 0
-********* basibranchial 1 '''0''' 0
-******** hemal prezygapophysis '''0''' 0
-******** symplectic '''4''' 4
-******** coracoid '''0''' 0
-******** hyomandibula '''2''' 2
-******** ceratohyal bone '''6''' 6
-******** metapterygoid '''1''' 1
-******** intermuscular bone '''0''' 0
-********* epipleural '''0''' 0
-********* epineural '''0''' 0
-******** radial '''0''' 0
-********* anal fin radial '''0''' 0
-********** anal fin proximal radial '''0''' 0
-********** anal fin distal radial '''0''' 0
-********* pelvic radial '''0''' 0
-********** pelvic radial 3 '''0''' 0
-********** pelvic radial 2 '''0''' 0
-********** pelvic radial 1 '''0''' 0
-********* dorsal fin radial '''0''' 0
-********** dorsal fin proximal radial '''0''' 0
-********** dorsal fin distal radial '''0''' 0
-********* pectoral fin radial '''0''' 0
-********** pectoral fin distal radial '''0''' 0
-*********** propterygium '''0''' 0
-********** pectoral fin proximal radial '''0''' 0
-******** specialized hemal arch and spine '''1''' 10
-********* hypurapophysis '''0''' 0
-********* hypural '''3''' 8
-********** hypural 5 '''1''' 1
-********** hypural 1 '''1''' 1
-********** hypural 4 '''1''' 1
-********** hypural 2 '''1''' 1
-********** hypural 3 '''1''' 1
-********* parhypural '''1''' 1
-******** os suspensorium medial flange '''0''' 0
-******** intercalarium articulating process '''0''' 0
-******** tripus '''0''' 0
-******** exoccipital posteroventral region '''0''' 0
-******** basioccipital '''2''' 2
-******** cleithrum '''16''' 16
-******** vertebra '''3''' 4
-********* ural vertebra 2 '''0''' 0
-********* precaudal vertebra '''0''' 0
-********** Weberian vertebra '''0''' 0
-*********** vertebra 4 '''0''' 0
-*********** vertebra 3 '''0''' 0
-*********** vertebra 2 '''0''' 0
-*********** vertebra 1 '''0''' 0
-********** non-Weberian precaudal vertebra '''0''' 0
-********* preural centrum 1+ ural centrum 1 '''0''' 0
-********* caudal vertebra '''1''' 1
-********** preural vertebra '''0''' 0
-*********** preural 1 vertebra '''0''' 0
-*********** preural 2 vertebra '''0''' 0
-******** mesocoracoid bone '''0''' 0
-******** retroarticular '''2''' 2
-******** centrum '''1''' 1
-******** basihyal '''4''' 4
-******** ceratobranchial bone '''12''' 15
-********* ceratobranchial 1 bone '''0''' 0
-********* ceratobranchial 5 bone '''3''' 3
-********* ceratobranchial 2 bone '''0''' 0
-********* ceratobranchial 4 bone '''0''' 0
-********* ceratobranchial 3 bone '''0''' 0
-******** anterior dorsomedial process of autopalatine '''0''' 0
-******** pterosphenoid '''1''' 1
-******** scapula '''0''' 0
-******** basioccipital posterodorsal region '''0''' 0
-******** sclerotic bone '''0''' 0
-********* anterior sclerotic bone '''0''' 0
-********* posterior sclerotic bone '''0''' 0
-******** supraneural '''0''' 0
-********* supraneural 3 '''0''' 0
-********* post-Weberian supraneural '''0''' 0
-********** supraneural 5 '''0''' 0
-********** supraneural 6 '''0''' 0
-********** supraneural 9 '''0''' 0
-********** supraneural 7 '''0''' 0
-********** supraneural 8 '''0''' 0
-********* supraneural 2 '''0''' 0
-******** neural spine '''2''' 3
-********* epural '''1''' 1
-********* neural spine 4 '''0''' 0
-******** pterotic '''0''' 0
-******** hemal arch '''1''' 1
-******** supraoccipital '''0''' 0
-******** epiotic '''0''' 0
-******** parapophysis/rib '''0''' 0
-******** prootic '''1''' 1
-******** autopalatine '''0''' 0
-******** orbitosphenoid '''0''' 0
-******** epibranchial uncinate process '''0''' 0
-******** quadrate ventral process '''0''' 0
-******** lateral ethmoid '''0''' 0
-******** exoccipital '''0''' 0
-******** anguloarticular '''2''' 2
-******** neural prezygapophysis '''0''' 0
-******** urostyle '''2''' 2
-******** quadrate '''2''' 2
-******** neural arch '''2''' 2
-********* intercalarium '''0''' 0
-********* uroneural '''0''' 0
-********* neural arch 4 '''0''' 0
-********* rudimentary neural arch '''0''' 0
-********* scaphium '''0''' 0
-********* neural arch 3 '''0''' 0
-******* perichordal bone '''0''' 0
-******** notochordal ossification '''0''' 0
-****** intramembranous bone '''0''' 48
-******* membrane bone '''0''' 0
-******** intercalar '''0''' 0
-******** tripus '''0''' 0
-******** claustrum bone '''0''' 0
-******* dermal bone '''0''' 48
-******** kinethmoid bone '''1''' 1
-******** opercle '''10''' 10
-******** preopercle horizontal limb '''0''' 0
-******** maxilla '''3''' 3
-******** lepidotrichium '''1''' 4
-********* pectoral fin lepidotrichium '''0''' 0
-********* dorsal fin lepidotrichium '''0''' 0
-********* anal fin lepidotrichium '''1''' 1
-********* pelvic fin lepidotrichium '''0''' 0
-********* caudal fin lepidotrichium '''2''' 2
-********** caudal procurrent ray '''0''' 0
-********** caudal principal ray '''0''' 0
-******** parasphenoid '''4''' 4
-******** ectopterygoid '''1''' 1
-******** branchiostegal ray '''2''' 6
-********* branchiostegal ray 2 '''1''' 1
-********* branchiostegal ray 1 '''1''' 1
-********* branchiostegal ray 3 '''2''' 2
-******** dentary '''3''' 3
-******** urohyal '''0''' 0
-******** nasal bone '''1''' 1
-******** supraorbital bone '''0''' 0
-******** coronomeckelian '''0''' 0
-******** prevomer '''0''' 0
-******** entopterygoid '''2''' 2
-******** preopercle '''2''' 2
-******** premaxilla ascending process '''0''' 0
-******** angular bone '''0''' 0
-******** posttemporal '''1''' 1
-******** supracleithrum '''0''' 0
-******** gill raker '''2''' 2
-******** infraorbital '''0''' 1
-********* infraorbital 4 '''0''' 0
-********* infraorbital 5 '''0''' 0
-********* infraorbital 2 '''0''' 0
-********* infraorbital 1 '''1''' 1
-********* infraorbital 3 '''0''' 0
-******** parietal bone '''1''' 1
-******** postcleithrum '''0''' 0
-******** anguloarticular '''2''' 2
-******** frontal bone '''0''' 0
-******** subopercle '''1''' 1
-******** supraethmoid '''0''' 0
-******** preopercle vertical limb '''0''' 0
-******** premaxilla '''2''' 2
-******** extrascapular '''0''' 0
-******** interopercle '''1''' 1
-***** cartilage '''2''' 162
-****** paired fin cartilage '''0''' 18
-******* pelvic fin cartilage '''0''' 0
-******** basipterygium cartilage '''0''' 0
-******** pelvic radial cartilage '''0''' 0
-********* pelvic radial 1 cartilage '''0''' 0
-********* pelvic radial 3 cartilage '''0''' 0
-********* pelvic radial 2 cartilage '''0''' 0
-******* pectoral fin cartilage '''13''' 18
-******** mesocorocoid cartilage '''0''' 0
-******** scapulocorocoid '''3''' 3
-******** pectoral fin endoskeletal disc '''2''' 2
-****** postcranial axial cartilage '''0''' 0
-******* basidorsal '''0''' 0
-******* claustrum cartilage '''0''' 0
-******* median fin cartilage '''0''' 0
-******* roofing cartilage '''0''' 0
-******* supradorsal '''0''' 0
-******* basiventral '''0''' 0
-****** cranial cartilage '''11''' 142
-******* pharyngeal arch cartilage '''14''' 98
-******** copula '''0''' 0
-********* copula 1 '''0''' 0
-********* copula 2 '''0''' 0
-******** hypobranchial cartilage '''0''' 0
-********* hypobranchial 1 cartilage '''0''' 0
-********* hypobranchial 2 cartilage '''0''' 0
-********* hypobranchial 4 cartilage '''0''' 0
-********* hypobranchial 3 cartilage '''0''' 0
-******** ceratobranchial cartilage '''6''' 14
-********* ceratobranchial 4 cartilage '''2''' 2
-********* ceratobranchial 3 cartilage '''2''' 2
-********* ceratobranchial 1 cartilage '''1''' 1
-********* ceratobranchial 5 cartilage '''2''' 2
-********* ceratobranchial 2 cartilage '''1''' 1
-******** ceratohyal cartilage '''13''' 13
-******** articular cartilage '''0''' 0
-******** Meckel's cartilage '''22''' 22
-******** palatoquadrate cartilage '''18''' 18
-******** pharyngobranchial cartilage '''0''' 0
-********* pharyngobranchial 2 cartilage '''0''' 0
-********* pharyngobranchial 3 cartilage '''0''' 0
-********* pharyngobranchial 4 cartilage '''0''' 0
-******** interhyal cartilage '''2''' 2
-******** hyosymplectic cartilage '''8''' 8
-******** basihyal cartilage '''2''' 2
-******** epibranchial cartilage '''0''' 5
-********* epibranchial 4 cartilage '''1''' 1
-********* epibranchial 3 cartilage '''1''' 1
-********* epibranchial 5 '''1''' 1
-********* epibranchial 2 cartilage '''1''' 1
-********* epibranchial 1 cartilage '''1''' 1
-******* chondrocranium cartilage '''2''' 33
-******** lamina orbitonasalis '''1''' 1
-******** trabecula communis '''0''' 0
-******** sclerotic cartilage '''0''' 0
-******** kinethmoid cartilage '''0''' 0
-******** taenia marginalis posterior '''0''' 0
-******** tectum synoticum '''0''' 0
-******** trabecula cranii '''4''' 4
-******** epiphyseal bar '''1''' 1
-******** occipital arch cartilage '''1''' 1
-******** parachordal cartilage '''4''' 4
-******** auditory capsule '''1''' 1
-******** basal plate cartilage '''1''' 1
-******** ethmoid cartilage '''9''' 9
-******** taenia marginalis anterior '''0''' 0
-******** neurocranial trabecula '''9''' 9
-***** perichordal connective tissue '''1''' 1
-***** bony projection '''0''' 0
-***** perichondrium '''0''' 0
-**** pillar of the anterior semicircular canal '''1''' 1
-**** endocardium '''14''' 16
-***** atrioventricular canal endocardium '''1''' 1
-***** ventricular endocardium '''1''' 1
-***** atrial endocardium '''0''' 0
-**** pillar of the posterior semicircular canal '''0''' 0
-**** dental papilla '''0''' 0
-**** epithelium '''8''' 75
-***** dental epithelium '''1''' 1
-****** outer dental epithelium '''0''' 0
-****** inner dental epithelium '''0''' 0
-****** primary dental epithelium '''0''' 0
-***** mesentery '''0''' 0
-****** ventral mesentery '''0''' 0
-****** dorsal mesentery '''0''' 0
-***** multilaminar epithelium '''0''' 0
-***** gut epithelium '''11''' 11
-***** unilaminar epithelium '''0''' 22
-****** simple columnar epithelium '''0''' 14
-******* esophageal epithelium '''0''' 0
-******* intestinal epithelium '''11''' 14
-******** mid intestine epithelium '''1''' 1
-******** intestinal bulb epithelium '''2''' 2
-******** posterior intestine epithelium '''0''' 0
-****** pharyngeal epithelium '''6''' 6
-****** simple squamous epithelium '''0''' 2
-******* endothelium '''2''' 2
-****** simple cuboidal epithelium '''0''' 0
-***** peritoneum '''0''' 0
-****** parietal peritoneum '''0''' 0
-****** visceral peritoneum '''0''' 0
-***** periderm '''17''' 17
-***** oral epithelium '''7''' 7
-***** atypical epithelium '''0''' 0
-***** regeneration epithelium '''9''' 9
-*** extraembryonic structure '''0''' 1
-**** chorion '''1''' 1
-*** organism subdivision '''0''' 1214
-**** post-vent region '''142''' 142
-**** surface structure '''1''' 786
-***** opercular flap '''0''' 0
-***** vent '''2''' 2
-***** mouth '''17''' 17
-***** urogenital papilla '''1''' 1
-***** eye '''359''' 359
-***** barbel primordium '''0''' 0
-***** barbel '''4''' 4
-***** median fin fold '''17''' 17
-***** integument '''80''' 80
-***** caudal fin upper lobe '''0''' 0
-***** caudal peduncle '''0''' 0
-***** fin '''42''' 247
-****** pelvic fin '''2''' 2
-****** regenerating fin '''19''' 19
-****** dorsal fin '''13''' 13
-****** anal fin '''5''' 5
-****** pectoral fin '''133''' 133
-****** caudal fin '''33''' 33
-***** fin bud '''8''' 55
-****** pectoral fin bud '''46''' 46
-****** pelvic fin bud '''1''' 1
-***** naris '''1''' 1
-****** anterior naris '''0''' 0
-****** posterior naris '''0''' 0
-***** lip '''2''' 2
-***** caudal fin lower lobe '''0''' 0
-**** head '''156''' 156
-**** trunk '''82''' 82
-**** axis '''48''' 48
-*** cell '''11''' 1748
-**** mucus secreting cell '''12''' 14
-***** goblet cell '''2''' 2
-**** absorptive cell '''0''' 1
-***** gut absorptive cell '''1''' 1
-**** acid secreting cell '''0''' 0
-**** keratin accumulating cell '''0''' 3
-***** keratinocyte '''3''' 3
-**** myelin accumulating cell '''0''' 7
-***** Schwann cell '''7''' 7
-**** extraembryonic cell '''0''' 0
-**** acinar cell '''1''' 1
-**** digestive enzyme secreting cell '''0''' 0
-**** barrier epithelial cell '''0''' 0
-**** somatic stem cell '''0''' 13
-***** single fate stem cell '''0''' 0
-****** muscle stem cell '''0''' 0
-****** osteoprogenitor cell '''0''' 0
-***** multi fate stem cell '''0''' 13
-****** nephrogenic mesenchyme stem cell '''0''' 0
-****** blastemal cell '''2''' 2
-****** angioblastic mesenchymal cell '''2''' 2
-****** neuronal stem cell '''0''' 6
-******* neuroblast '''2''' 6
-******** neuroblast (sensu Vertebrata) '''0''' 4
-********* radial glial cell '''4''' 4
-****** metanephric mesenchyme stem cell '''0''' 0
-****** hematopoietic stem cell '''3''' 3
-***** totipotent stem cell '''0''' 0
-**** exocrine cell '''0''' 0
-**** neuromast support cell '''2''' 2
-**** hatching gland cell '''0''' 0
-**** ciliated cell '''2''' 7
-***** ciliated epithelial cell '''1''' 5
-****** ependymal cell '''4''' 4
-******* choroid plexus epithelial cell '''0''' 0
-**** barrier cell '''0''' 38
-***** lining cell '''0''' 30
-****** synovial cell '''0''' 0
-****** mesothelial cell '''0''' 0
-****** endothelial cell '''3''' 30
-******* corneal endothelial cell '''0''' 0
-******* blood vessel endothelial cell '''23''' 25
-******** endothelial tip cell '''2''' 2
-******* gut endothelial cell '''2''' 2
-***** Sertoli cell '''1''' 1
-***** insulating cell '''0''' 7
-****** Schwann cell '''7''' 7
-**** alkali secreting cell '''0''' 0
-**** neuroplacodal cell '''0''' 0
-**** pericyte '''0''' 0
-**** egg '''3''' 3
-**** olfactory epithelial support cell '''0''' 0
-**** stratified epithelial stem cell '''0''' 0
-***** stratified keratinized epithelial stem cell '''0''' 0
-**** motile cell '''0''' 143
-***** primordial germ cell '''13''' 13
-***** leukocyte '''2''' 94
-****** professional antigen presenting cell '''0''' 32
-******* dendritic cell '''0''' 0
-******* macrophage '''31''' 31
-******** peritoneal macrophage '''0''' 0
-******** microglial cell '''0''' 0
-******* monocyte '''1''' 1
-******* mature B cell '''0''' 0
-******** naive B cell '''0''' 0
-****** myeloid leukocyte '''0''' 21
-******* granulocyte '''9''' 21
-******** neutrophil '''4''' 12
-********* immature neutrophil '''0''' 0
-********** neutrophilic metamyelocyte '''0''' 0
-********** neutrophilic myelocyte '''0''' 0
-********** band form neutrophil '''0''' 0
-********* mature neutrophil '''8''' 8
-****** mononuclear cell '''0''' 39
-******* mononuclear phagocyte '''0''' 32
-******** mononuclear osteoclast '''0''' 0
-********* mononuclear odontoclast '''0''' 0
-******** macrophage '''31''' 31
-********* peritoneal macrophage '''0''' 0
-********* microglial cell '''0''' 0
-******** monocyte '''1''' 1
-******* lymphocyte '''4''' 7
-******** natural killer cell '''0''' 0
-********* immature natural killer cell '''0''' 0
-********* mature natural killer cell '''0''' 0
-******** T cell '''2''' 2
-********* gamma-delta T cell '''0''' 0
-********** mature gamma-delta T cell '''0''' 0
-*********** gamma-delta intraepithelial T cell '''0''' 0
-********** immature gamma-delta T cell '''0''' 0
-********* memory T cell '''0''' 0
-********* alpha-beta T cell '''0''' 0
-********* immature T cell '''0''' 0
-********** immature gamma-delta T cell '''0''' 0
-********* mature T cell '''0''' 0
-********** mature gamma-delta T cell '''0''' 0
-*********** gamma-delta intraepithelial T cell '''0''' 0
-******** B cell '''0''' 1
-********* memory B cell '''0''' 0
-********* immature B cell '''1''' 1
-********** pre-B cell '''0''' 0
-********** transitional stage B cell '''0''' 0
-********* mature B cell '''0''' 0
-********** naive B cell '''0''' 0
-******** plasma cell '''0''' 0
-***** phagocyte '''1''' 1
-***** neural crest cell '''31''' 35
-****** cranial neural crest cell '''3''' 3
-****** trunk neural crest cell '''1''' 1
-**** germ line cell '''2''' 15
-***** gamete '''0''' 0
-***** primordial germ cell '''13''' 13
-**** ectodermal cell '''0''' 0
-**** yolk cell '''2''' 2
-**** sustentacular cell '''0''' 0
-**** tendon cell '''0''' 0
-**** pigment cell '''18''' 84
-***** melanocyte '''47''' 47
-***** leucophore '''0''' 0
-***** cyanophore '''0''' 0
-***** iridophore '''11''' 11
-***** erythrophore '''0''' 0
-***** pigment cell (sensu Vertebrata) '''0''' 0
-****** non-visual cell (sensu Vertebrata) '''0''' 0
-****** visual pigment cell (sensu Vertebrata) '''0''' 0
-***** xanthophore '''8''' 8
-**** cementoblast '''0''' 0
-**** nucleate erythrocyte '''19''' 19
-**** Merkel cell '''0''' 0
-**** spermatogonium '''0''' 0
-**** oxygen accumulating cell '''0''' 0
-**** mesodermal cell '''3''' 3
-**** neuromast mantle cell '''2''' 2
-**** paracrine cell '''0''' 0
-**** epithelial cell '''5''' 63
-***** squamous epithelial cell '''0''' 32
-****** corneal endothelial cell '''0''' 0
-****** mesothelial cell '''0''' 0
-****** epidermal cell '''4''' 4
-****** corneal epithelial cell '''2''' 2
-****** peridermal cell '''1''' 1
-****** hypodermal cell '''0''' 0
-****** blood vessel endothelial cell '''23''' 25
-******* endothelial tip cell '''2''' 2
-***** fenestrated cell '''0''' 0
-***** hepatocyte '''10''' 10
-***** transitional epithelial cell '''0''' 0
-***** stratified squamous epithelial cell '''0''' 0
-***** podocyte '''4''' 4
-***** columnar/cuboidal epithelial cell '''0''' 12
-****** sensory epithelial cell '''1''' 1
-****** gut endothelial cell '''2''' 2
-****** myoepithelial cell '''0''' 0
-****** brush border epithelial cell '''0''' 2
-******* enterocyte '''2''' 2
-****** ciliated epithelial cell '''1''' 5
-******* ependymal cell '''4''' 4
-******** choroid plexus epithelial cell '''0''' 0
-****** simple columnar epithelial cell '''0''' 0
-******* amelocyte '''0''' 0
-****** cerebrospinal fluid secreting cell '''0''' 0
-****** pigmented epithelial cell '''2''' 2
-***** M cell '''0''' 0
-***** stratified cuboidal epithelial cell '''0''' 0
-***** urothelial cell '''0''' 0
-**** early embryonic cell '''0''' 2
-***** blastoderm cell '''1''' 1
-***** gastrula cell '''1''' 1
-**** Rohon-Beard neuron '''56''' 56
-**** ligament cell '''0''' 0
-**** endocrine cell '''2''' 24
-***** enteroendocrine cell '''0''' 0
-****** D cell '''0''' 0
-***** neuroendocrine cell '''0''' 1
-****** chromaffin cell '''1''' 1
-***** thyroid hormone secreting cell '''0''' 0
-***** pinealocyte '''0''' 0
-***** biogenic amine secreting cell '''0''' 0
-****** serotin secreting cell '''0''' 0
-****** norepinephrin secreting cell '''0''' 0
-****** epinephrin secreting cell '''0''' 0
-***** folliculostellate cell '''0''' 0
-***** steroid hormone secreting cell '''1''' 3
-****** glucocorticoid secreting cell '''0''' 0
-****** androgen secreting cell '''0''' 0
-******* theca cell '''0''' 0
-****** testosterone secreting cell '''0''' 1
-******* Leydig cell '''1''' 1
-****** granulosa cell '''1''' 1
-****** progesterone secreting cell '''0''' 0
-****** estradiol secreting cell '''0''' 0
-***** peptide hormone secreting cell '''1''' 18
-****** substance P secreting cell '''0''' 0
-****** luteinizing hormone secreting cell '''1''' 1
-****** endorphin secreting cell '''0''' 0
-******* enkephalin secreting cell '''0''' 0
-****** glucagon secreting cell '''0''' 1
-******* pancreatic A cell '''1''' 1
-****** follicle stimulating hormone secreting cell '''0''' 0
-****** prolactin secreting cell '''2''' 2
-****** melanocyte stimulating hormone secreting cell '''1''' 1
-****** insulin secreting cell '''1''' 6
-******* pancreatic B cell '''5''' 5
-****** somatotropin secreting cell '''2''' 2
-****** somatostatin secreting cell '''1''' 1
-******* D cell '''0''' 0
-****** parathyroid hormone secreting cell '''0''' 0
-****** adrenocorticotropic hormone secreting cell '''1''' 1
-****** thyroid stimulating hormone secreting cell '''2''' 2
-****** calcitonin secreting cell '''0''' 0
-**** spermatocyte '''5''' 5
-**** endodermal cell '''7''' 7
-**** circulating cell '''0''' 130
-***** leukocyte '''2''' 94
-****** professional antigen presenting cell '''0''' 32
-******* dendritic cell '''0''' 0
-******* macrophage '''31''' 31
-******** peritoneal macrophage '''0''' 0
-******** microglial cell '''0''' 0
-******* monocyte '''1''' 1
-******* mature B cell '''0''' 0
-******** naive B cell '''0''' 0
-****** myeloid leukocyte '''0''' 21
-******* granulocyte '''9''' 21
-******** neutrophil '''4''' 12
-********* immature neutrophil '''0''' 0
-********** neutrophilic metamyelocyte '''0''' 0
-********** neutrophilic myelocyte '''0''' 0
-********** band form neutrophil '''0''' 0
-********* mature neutrophil '''8''' 8
-****** mononuclear cell '''0''' 39
-******* mononuclear phagocyte '''0''' 32
-******** mononuclear osteoclast '''0''' 0
-********* mononuclear odontoclast '''0''' 0
-******** macrophage '''31''' 31
-********* peritoneal macrophage '''0''' 0
-********* microglial cell '''0''' 0
-******** monocyte '''1''' 1
-******* lymphocyte '''4''' 7
-******** natural killer cell '''0''' 0
-********* immature natural killer cell '''0''' 0
-********* mature natural killer cell '''0''' 0
-******** T cell '''2''' 2
-********* gamma-delta T cell '''0''' 0
-********** mature gamma-delta T cell '''0''' 0
-*********** gamma-delta intraepithelial T cell '''0''' 0
-********** immature gamma-delta T cell '''0''' 0
-********* memory T cell '''0''' 0
-********* alpha-beta T cell '''0''' 0
-********* immature T cell '''0''' 0
-********** immature gamma-delta T cell '''0''' 0
-********* mature T cell '''0''' 0
-********** mature gamma-delta T cell '''0''' 0
-*********** gamma-delta intraepithelial T cell '''0''' 0
-******** B cell '''0''' 1
-********* memory B cell '''0''' 0
-********* immature B cell '''1''' 1
-********** pre-B cell '''0''' 0
-********** transitional stage B cell '''0''' 0
-********* mature B cell '''0''' 0
-********** naive B cell '''0''' 0
-******** plasma cell '''0''' 0
-***** blood cell '''9''' 9
-****** thrombocyte '''0''' 0
-****** reticulocyte '''0''' 0
-***** myeloid cell '''6''' 27
-****** myeloid leukocyte '''0''' 21
-******* granulocyte '''9''' 21
-******** neutrophil '''4''' 12
-********* immature neutrophil '''0''' 0
-********** neutrophilic metamyelocyte '''0''' 0
-********** neutrophilic myelocyte '''0''' 0
-********** band form neutrophil '''0''' 0
-********* mature neutrophil '''8''' 8
-****** erythroid lineage cell '''0''' 0
-******* reticulocyte '''0''' 0
-****** thrombocyte '''0''' 0
-**** sperm '''4''' 4
-**** electrically active cell '''0''' 1089
-***** electrically responsive cell '''0''' 607
-****** muscle cell '''15''' 124
-******* cardiac muscle cell '''18''' 18
-******* skeletal muscle cell '''28''' 89
-******** slow muscle cell '''36''' 36
-******** fast muscle cell '''25''' 25
-******* smooth muscle cell '''1''' 2
-******** vascular associated smooth muscle cell '''1''' 1
-****** neuroendocrine cell '''0''' 1
-******* chromaffin cell '''1''' 1
-****** neuron '''57''' 482
-******* polymodal neuron '''0''' 0
-******* unipolar neuron '''0''' 0
-******* efferent neuron '''1''' 94
-******** eurydendroid cell '''0''' 0
-******** Purkinje cell '''4''' 4
-******** neurosecretory neuron '''1''' 1
-******** motor neuron '''32''' 88
-********* secondary motor neuron '''12''' 12
-********* spinal accessory motor neuron '''0''' 0
-********* primary motor neuron '''36''' 44
-********** CAP motoneuron '''8''' 8
-******* pioneer neuron '''0''' 0
-******* serotonergic neuron '''4''' 4
-******* CNS neuron (sensu Vertebrata) '''5''' 47
-******** pyramidal cell '''0''' 0
-******** Purkinje cell '''4''' 4
-******** Golgi cell '''0''' 0
-******** CNS interneuron '''2''' 3
-********* CNS short range interneuron '''0''' 0
-********* CNS long range interneuron '''1''' 1
-******** stellate cell '''0''' 0
-******** retinal ganglion cell '''34''' 34
-******** granule cell '''1''' 1
-******** Cajal-Retzius cell '''0''' 0
-******** basket cell '''0''' 0
-******* secondary neuron '''0''' 12
-******** secondary motor neuron '''12''' 12
-******* primary neuron '''19''' 71
-******** primary interneuron '''8''' 8
-******** primary motor neuron '''36''' 44
-********* CAP motoneuron '''8''' 8
-******* pseudounipolar neuron '''0''' 0
-******* afferent neuron '''0''' 9
-******** sensory neuron '''9''' 9
-********* extramedullary cell '''0''' 0
-******* sensory processing neuron '''0''' 0
-******* autonomic neuron '''0''' 14
-******** peptidergic neuron '''1''' 1
-******** cholinergic neuron '''0''' 0
-******** serotinergic neuron '''0''' 0
-******** GABAergic neuron '''1''' 1
-******** dopaminergic neuron '''11''' 11
-******** nitrergic neuron '''0''' 0
-******** adrenergic neuron '''1''' 1
-******** glutamatergic neuron '''0''' 0
-******* multipolar neuron '''0''' 0
-******* peripheral neuron '''0''' 0
-******* receptor cell (sensu Animalia) '''0''' 96
-******** stretch receptor cell '''0''' 0
-********* pressoreceptor cell '''0''' 0
-******** chemoreceptor cell '''0''' 6
-********* olfactory receptor cell '''2''' 6
-********** microvillous olfactory receptor neuron '''2''' 2
-********** crypt olfactory receptor neuron '''0''' 0
-********** ciliated olfactory receptor neuron '''2''' 2
-********* taste receptor cell '''0''' 0
-******** mechanoreceptor cell '''0''' 33
-********* hair cell '''18''' 33
-********** neuromast hair cell '''11''' 11
-********** hair cell posterior macula '''2''' 2
-********** hair cell anterior macula '''2''' 2
-********** immature hair cell posterior macula '''0''' 0
-********** immature hair cell anterior macula '''0''' 0
-******** pain receptor cell '''0''' 0
-******** thermoreceptor cell '''0''' 0
-******** photoreceptor cell '''2''' 57
-********* UV sensitive photoreceptor cell '''0''' 0
-********* eye photoreceptor cell '''9''' 55
-********** retinal rod cell '''23''' 23
-********** retinal cone cell '''23''' 23
-********* visible light photoreceptor cell '''0''' 0
-********** photopic photoreceptor cell '''0''' 0
-*********** red sensitive photoreceptor cell '''0''' 0
-*********** green sensitive photoreceptor cell '''0''' 0
-*********** blue sensitive photoreceptor cell '''0''' 0
-******** auditory receptor cell '''0''' 0
-******* interneuron spinal cord '''12''' 12
-******* interneuron '''3''' 66
-******** inhibitory interneuron '''0''' 0
-******** bipolar neuron '''4''' 9
-********* retinal bipolar neuron '''5''' 5
-********** cone retinal bipolar cell '''0''' 0
-********** OFF-bipolar cell '''0''' 0
-********** ON-bipolar cell '''0''' 0
-*********** rod bipolar cell '''0''' 0
-********** rod bipolar cell '''0''' 0
-******** CNS interneuron '''2''' 3
-********* CNS short range interneuron '''0''' 0
-********* CNS long range interneuron '''1''' 1
-******** stellate interneuron '''0''' 0
-********* neuroglioform cell '''0''' 0
-******** amacrine cell '''30''' 30
-******** Mauthner neuron '''9''' 9
-******** primary interneuron '''8''' 8
-******** horizontal cell '''4''' 4
-***** electrically signaling cell '''0''' 482
-****** neuron '''57''' 482
-******* polymodal neuron '''0''' 0
-******* unipolar neuron '''0''' 0
-******* efferent neuron '''1''' 94
-******** eurydendroid cell '''0''' 0
-******** Purkinje cell '''4''' 4
-******** neurosecretory neuron '''1''' 1
-******** motor neuron '''32''' 88
-********* secondary motor neuron '''12''' 12
-********* spinal accessory motor neuron '''0''' 0
-********* primary motor neuron '''36''' 44
-********** CAP motoneuron '''8''' 8
-******* pioneer neuron '''0''' 0
-******* serotonergic neuron '''4''' 4
-******* CNS neuron (sensu Vertebrata) '''5''' 47
-******** pyramidal cell '''0''' 0
-******** Purkinje cell '''4''' 4
-******** Golgi cell '''0''' 0
-******** CNS interneuron '''2''' 3
-********* CNS short range interneuron '''0''' 0
-********* CNS long range interneuron '''1''' 1
-******** stellate cell '''0''' 0
-******** retinal ganglion cell '''34''' 34
-******** granule cell '''1''' 1
-******** Cajal-Retzius cell '''0''' 0
-******** basket cell '''0''' 0
-******* secondary neuron '''0''' 12
-******** secondary motor neuron '''12''' 12
-******* primary neuron '''19''' 71
-******** primary interneuron '''8''' 8
-******** primary motor neuron '''36''' 44
-********* CAP motoneuron '''8''' 8
-******* pseudounipolar neuron '''0''' 0
-******* afferent neuron '''0''' 9
-******** sensory neuron '''9''' 9
-********* extramedullary cell '''0''' 0
-******* sensory processing neuron '''0''' 0
-******* autonomic neuron '''0''' 14
-******** peptidergic neuron '''1''' 1
-******** cholinergic neuron '''0''' 0
-******** serotinergic neuron '''0''' 0
-******** GABAergic neuron '''1''' 1
-******** dopaminergic neuron '''11''' 11
-******** nitrergic neuron '''0''' 0
-******** adrenergic neuron '''1''' 1
-******** glutamatergic neuron '''0''' 0
-******* multipolar neuron '''0''' 0
-******* peripheral neuron '''0''' 0
-******* receptor cell (sensu Animalia) '''0''' 96
-******** stretch receptor cell '''0''' 0
-********* pressoreceptor cell '''0''' 0
-******** chemoreceptor cell '''0''' 6
-********* olfactory receptor cell '''2''' 6
-********** microvillous olfactory receptor neuron '''2''' 2
-********** crypt olfactory receptor neuron '''0''' 0
-********** ciliated olfactory receptor neuron '''2''' 2
-********* taste receptor cell '''0''' 0
-******** mechanoreceptor cell '''0''' 33
-********* hair cell '''18''' 33
-********** neuromast hair cell '''11''' 11
-********** hair cell posterior macula '''2''' 2
-********** hair cell anterior macula '''2''' 2
-********** immature hair cell posterior macula '''0''' 0
-********** immature hair cell anterior macula '''0''' 0
-******** pain receptor cell '''0''' 0
-******** thermoreceptor cell '''0''' 0
-******** photoreceptor cell '''2''' 57
-********* UV sensitive photoreceptor cell '''0''' 0
-********* eye photoreceptor cell '''9''' 55
-********** retinal rod cell '''23''' 23
-********** retinal cone cell '''23''' 23
-********* visible light photoreceptor cell '''0''' 0
-********** photopic photoreceptor cell '''0''' 0
-*********** red sensitive photoreceptor cell '''0''' 0
-*********** green sensitive photoreceptor cell '''0''' 0
-*********** blue sensitive photoreceptor cell '''0''' 0
-******** auditory receptor cell '''0''' 0
-******* interneuron spinal cord '''12''' 12
-******* interneuron '''3''' 66
-******** inhibitory interneuron '''0''' 0
-******** bipolar neuron '''4''' 9
-********* retinal bipolar neuron '''5''' 5
-********** cone retinal bipolar cell '''0''' 0
-********** OFF-bipolar cell '''0''' 0
-********** ON-bipolar cell '''0''' 0
-*********** rod bipolar cell '''0''' 0
-********** rod bipolar cell '''0''' 0
-******** CNS interneuron '''2''' 3
-********* CNS short range interneuron '''0''' 0
-********* CNS long range interneuron '''1''' 1
-******** stellate interneuron '''0''' 0
-********* neuroglioform cell '''0''' 0
-******** amacrine cell '''30''' 30
-******** Mauthner neuron '''9''' 9
-******** primary interneuron '''8''' 8
-******** horizontal cell '''4''' 4
-**** seminal fluid secreting cell '''0''' 0
+* zebrafish anatomical entity '''0''' ''10345''
+** portion of organism substance '''0''' ''11''
+*** cerebral spinal fluid '''0''' ''0''
+*** otolith '''9''' ''11''
+**** sagitta '''1''' ''1''
+**** lapillus '''1''' ''1''
+**** asteriscus '''0''' ''0''
+*** enameloid '''0''' ''0''
+*** dentine '''0''' ''0''
+** unspecified '''870''' ''870''
+** anatomical space '''0''' ''0''
+** anatomical structure '''0''' ''9464''
+*** whole organism '''753''' ''762''
+**** male organism '''4''' ''4''
+**** female organism '''5''' ''5''
+*** compound organ '''1''' ''1859''
+**** pancreas '''77''' ''77''
+**** gill '''99''' ''99''
+**** head kidney '''8''' ''8''
+**** spleen '''49''' ''49''
+**** cavitated compound organ '''0''' ''1329''
+***** intestine '''94''' ''94''
+***** gonad '''8''' ''209''
+****** ovary '''109''' ''109''
+****** testis '''92''' ''92''
+***** kidney '''85''' ''85''
+***** brain '''403''' ''403''
+***** vasculature '''64''' ''424''
+****** tail vasculature '''11''' ''31''
+******* caudal vein plexus '''20''' ''20''
+****** axial vasculature '''27''' ''27''
+****** cardinal system '''2''' ''2''
+****** trunk vasculature '''18''' ''18''
+****** cranial vasculature '''24''' ''29''
+******* choroidal vascular plexus '''0''' ''0''
+******* ocular vasculature '''1''' ''1''
+******* brain vasculature '''4''' ''4''
+****** lymph vessel '''0''' ''2''
+******* pectoral lymphatic vessel '''0''' ''0''
+******* jugular lymphatic vessel '''0''' ''0''
+******* longitudinal lateral lymphatic vessel '''0''' ''0''
+******* facial lymphatic vessel '''0''' ''0''
+******* thoracic duct '''2''' ''2''
+****** fin vasculature '''2''' ''3''
+******* pectoral fin vasculature '''0''' ''0''
+******* intervessel commissure '''0''' ''0''
+******* central ray artery '''0''' ''0''
+******* interray vessel '''0''' ''0''
+******* caudal fin vasculature '''1''' ''1''
+******* ray vein '''0''' ''0''
+****** artery '''14''' ''126''
+******* primitive prosencephalic artery '''0''' ''0''
+******* renal artery '''0''' ''0''
+******* aortic arch '''7''' ''9''
+******** aortic arch 4 '''0''' ''0''
+******** aortic arch 3 '''0''' ''0''
+******** aortic arch 2 '''0''' ''0''
+******** aortic arch 1 '''2''' ''2''
+******** aortic arch 5 '''0''' ''0''
+******** aortic arch 6 '''0''' ''0''
+******* prosencephalic artery '''1''' ''1''
+******* carotid artery '''1''' ''1''
+******* internal carotid artery '''0''' ''0''
+******* basal communicating artery '''0''' ''0''
+******* palatocerebral artery '''0''' ''0''
+******* supraintestinal artery '''0''' ''0''
+******* nasal ciliary artery '''0''' ''0''
+******* afferent lamellar arteriole '''0''' ''0''
+******* posterior communicating artery '''0''' ''0''
+******* swim bladder artery '''0''' ''0''
+******* segmental intercostal artery '''1''' ''1''
+******* mesencephalic artery '''0''' ''0''
+******* hyaloid artery '''0''' ''0''
+******* celiacomesenteric artery '''0''' ''0''
+******* anterior mesenteric artery '''0''' ''0''
+******* caudal division of the internal carotid artery '''2''' ''2''
+******* efferent filamental artery '''0''' ''0''
+******* dorsal aorta '''68''' ''68''
+******* ventral branch nasal ciliary artery '''0''' ''0''
+******* efferent branchial artery '''0''' ''0''
+******* central artery '''1''' ''1''
+******** cerebellar central artery '''0''' ''0''
+******** anterior mesencephalic central artery '''0''' ''0''
+******** posterior mesencephalic central artery '''0''' ''0''
+******** middle mesencephalic central artery '''0''' ''0''
+******* vertebral artery '''0''' ''0''
+******* dorsal branch nasal ciliary artery '''0''' ''0''
+******* primitive mesencephalic artery '''1''' ''1''
+******* optic artery '''1''' ''1''
+******* caudal artery '''4''' ''4''
+******* spinal artery '''0''' ''0''
+******* filamental artery '''0''' ''0''
+******* afferent filamental artery '''0''' ''0''
+******* opercular artery '''2''' ''2''
+******* afferent branchial artery '''0''' ''0''
+******* concurrent branch afferent branchial artery '''0''' ''0''
+******* hypobranchial artery '''1''' ''1''
+******* metencephalic artery '''1''' ''1''
+******* lateral dorsal aorta '''9''' ''9''
+******* cranial division of the internal carotid artery '''2''' ''2''
+******* posterior mesenteric artery '''0''' ''0''
+******* pseudobranchial artery '''0''' ''0''
+******* pectoral artery '''1''' ''1''
+******* basilar artery '''0''' ''0''
+******* ventral aorta '''2''' ''2''
+******* intersegmental artery '''1''' ''1''
+******* recurrent branch afferent branchial artery '''0''' ''0''
+******* primitive internal carotid artery '''3''' ''3''
+******* nasal artery '''1''' ''1''
+******* communicating vessel palatocerebral artery '''0''' ''0''
+******* efferent lamellar arteriole '''0''' ''0''
+****** vein '''14''' ''122''
+******* intersegmental vein '''1''' ''1''
+******* primary head sinus '''1''' ''1''
+******* anterior cardinal vein '''1''' ''1''
+******* renal portal vein '''0''' ''0''
+******* anterior cerebral vein '''1''' ''1''
+******* posterior caudal vein '''3''' ''3''
+******* subintestinal vein '''7''' ''7''
+******* median axial vein '''3''' ''3''
+******* dorsal ciliary vein '''0''' ''0''
+******* posterior cardinal vein '''37''' ''37''
+******* mid cerebral vein '''9''' ''9''
+******* hyaloid vein '''0''' ''0''
+******* pectoral vein '''1''' ''1''
+******* dorsal longitudinal vein '''1''' ''1''
+******* median palatocerebral vein '''0''' ''0''
+******* caudal vein '''2''' ''2''
+******* hepatic vein '''0''' ''0''
+******* primordial hindbrain channel '''7''' ''7''
+******* mesencephalic vein '''1''' ''1''
+******* parachordal vessel '''3''' ''3''
+******* nasal vein '''0''' ''0''
+******* supraintestinal vein '''0''' ''0''
+******* hepatic portal vein '''1''' ''1''
+******* primordial midbrain channel '''7''' ''7''
+******* optic vein '''3''' ''3''
+******* palatocerebral vein '''0''' ''0''
+******* posterior cerebral vein '''2''' ''2''
+******* common cardinal vein '''17''' ''17''
+***** swim bladder '''49''' ''49''
+***** pronephros '''65''' ''65''
+**** posterior kidney '''2''' ''2''
+**** gall bladder '''7''' ''7''
+**** solid compound organ '''0''' ''0''
+***** Weberian ossicle '''0''' ''0''
+**** heart '''287''' ''287''
+*** embryonic structure '''4''' ''1348''
+**** tail bud '''167''' ''167''
+**** hypoblast '''53''' ''53''
+**** epiblast '''21''' ''21''
+**** blastoderm '''23''' ''23''
+**** DEL '''11''' ''11''
+**** blastomere '''32''' ''66''
+***** deep blastomere '''7''' ''7''
+***** superficial blastomere '''7''' ''7''
+***** marginal blastomere '''20''' ''20''
+**** neurogenic placode '''7''' ''195''
+***** epibranchial placode '''8''' ''25''
+****** vagal placode 1 '''3''' ''3''
+****** vagal placode 3 '''3''' ''3''
+****** vagal placode 4 '''3''' ''3''
+****** facial placode '''3''' ''3''
+****** vagal placode 2 '''3''' ''3''
+****** glossopharyngeal placode '''2''' ''2''
+***** dorsolateral placode '''1''' ''113''
+****** otic placode '''68''' ''68''
+****** middle lateral line placode '''0''' ''0''
+****** posterior lateral line placode '''6''' ''6''
+****** anterior lateral line placode '''8''' ''8''
+****** trigeminal placode '''30''' ''30''
+***** olfactory placode '''50''' ''50''
+**** margin '''112''' ''112''
+**** YSL '''53''' ''53''
+**** otic vesicle '''204''' ''204''
+**** Brachet's cleft '''0''' ''0''
+**** germ ring '''27''' ''27''
+**** blastodisc '''23''' ''23''
+**** hatching gland '''39''' ''39''
+**** fin bud '''8''' ''55''
+***** pectoral fin bud '''46''' ''46''
+***** pelvic fin bud '''1''' ''1''
+**** forerunner cell group '''46''' ''46''
+**** EVL '''18''' ''18''
+**** yolk '''24''' ''24''
+**** presumptive structure '''0''' ''161''
+***** presumptive enteric nervous system '''7''' ''7''
+***** presumptive ectoderm '''16''' ''16''
+***** presumptive median fin fold '''1''' ''2''
+****** presumptive dorsal fin fold '''0''' ''0''
+****** presumptive ventral fin fold '''1''' ''1''
+***** presumptive endoderm '''15''' ''15''
+***** axial chorda mesoderm '''39''' ''39''
+***** presumptive shield '''16''' ''16''
+***** presumptive mesoderm '''24''' ''24''
+***** presumptive hypochord '''1''' ''1''
+***** presumptive blood '''18''' ''18''
+***** presumptive neural plate '''23''' ''23''
+**** pancreatic bud '''33''' ''46''
+***** anterior pancreatic bud '''5''' ''5''
+***** posterior pancreatic bud '''8''' ''8''
+*** acellular anatomical structure '''0''' ''0''
+**** basal lamina '''0''' ''0''
+*** multi-tissue structure '''0''' ''188''
+**** pharyngeal arch '''97''' ''122''
+***** pharyngeal arch 1 '''1''' ''1''
+***** pharyngeal arch 2 '''1''' ''1''
+***** pharyngeal arch 3-7 '''18''' ''23''
+****** pharyngeal arch 7 '''0''' ''0''
+****** pharyngeal arch 4 '''1''' ''1''
+****** pharyngeal arch 3 '''2''' ''2''
+****** pharyngeal arch 6 '''1''' ''1''
+****** pharyngeal arch 5 '''1''' ''1''
+**** compound organ component '''0''' ''0''
+**** ceratobranchial 5 tooth '''7''' ''18''
+***** tooth 1V '''0''' ''0''
+***** tooth 2MD '''0''' ''0''
+***** tooth 3V '''3''' ''3''
+***** tooth 4V '''5''' ''5''
+***** tooth 1MD '''0''' ''0''
+***** tooth 5V '''3''' ''3''
+***** tooth 4MD '''0''' ''0''
+***** tooth 3MD '''0''' ''0''
+***** tooth 2D '''0''' ''0''
+***** tooth 2V '''0''' ''0''
+***** tooth 1D '''0''' ''0''
+**** dental organ '''0''' ''0''
+**** simple organ '''0''' ''0''
+**** CNS tracts and commissures '''0''' ''48''
+***** brain stem/spinal tract and commissures '''0''' ''0''
+***** diencephalic tracts and commissures '''2''' ''40''
+****** dorsoventral diencephalic tract '''0''' ''0''
+****** postoptic commissure '''7''' ''7''
+****** horizontal commissure '''2''' ''2''
+****** optic tract '''11''' ''11''
+****** optic chiasm '''11''' ''11''
+****** fasciculus retroflexus '''5''' ''5''
+****** medial forebrain bundle diencephalon '''0''' ''0''
+****** supraoptic commissure '''1''' ''1''
+****** commissure of the caudal tuberculum '''0''' ''0''
+****** habenular commissure '''1''' ''1''
+****** pretecto-mamillary tract '''0''' ''0''
+****** lateral forebrain bundle diencephalon '''0''' ''0''
+***** lateral forebrain bundle '''0''' ''0''
+***** medial forebrain bundle '''0''' ''0''
+***** telencephalic tracts '''0''' ''8''
+****** anterior commissure '''7''' ''7''
+****** medial olfactory tract '''0''' ''0''
+****** lateral forebrain bundle telencephalon '''1''' ''1''
+****** lateral olfactory tract '''0''' ''0''
+****** medial forebrain bundle telencephalon '''0''' ''0''
+*** anatomical group '''0''' ''810''
+**** anatomical system '''1''' ''638''
+***** nervous system '''20''' ''156''
+****** central nervous system '''103''' ''103''
+****** peripheral nervous system '''11''' ''11''
+****** autonomic nervous system '''0''' ''22''
+******* sympathetic nervous system '''2''' ''2''
+******* parasympathetic nervous system '''0''' ''0''
+******* enteric nervous system '''20''' ''20''
+***** reproductive system '''4''' ''4''
+***** sensory system '''1''' ''26''
+****** gustatory system '''0''' ''0''
+****** vestibuloauditory system '''0''' ''0''
+****** lateral line system '''16''' ''20''
+******* middle lateral line system '''0''' ''0''
+******* anterior lateral line system '''2''' ''2''
+******* posterior lateral line system '''2''' ''2''
+****** visual system '''0''' ''0''
+****** olfactory system '''5''' ''5''
+***** musculature system '''70''' ''170''
+****** fin musculature '''1''' ''27''
+******* pelvic fin musculature '''0''' ''0''
+******* dorsal fin musculature '''1''' ''1''
+******* pectoral fin musculature '''25''' ''25''
+******* caudal fin musculature '''0''' ''0''
+******* anal fin musculature '''0''' ''0''
+****** cephalic musculature '''21''' ''32''
+******* pharyngeal musculature '''5''' ''5''
+******* extraocular musculature '''6''' ''6''
+****** trunk musculature '''40''' ''41''
+******* abdominal musculature '''1''' ''1''
+****** enteric musculature '''0''' ''0''
+***** renal system '''4''' ''4''
+***** endocrine system '''1''' ''1''
+***** skeletal system '''5''' ''229''
+****** cranium '''9''' ''215''
+******* splanchnocranium '''16''' ''198''
+******** pharyngeal arch 3-7 skeleton '''81''' ''105''
+********* pharyngeal arch 6 skeleton '''3''' ''3''
+********* pharyngeal arch 3 skeleton '''8''' ''8''
+********* pharyngeal arch 5 skeleton '''4''' ''4''
+********* pharyngeal arch 7 skeleton '''3''' ''3''
+********* pharyngeal arch 4 skeleton '''6''' ''6''
+******** pharyngeal arch 2 skeleton '''25''' ''25''
+******** mandibular arch '''52''' ''52''
+******* neurocranium '''8''' ''8''
+****** postcranial axial skeleton '''1''' ''5''
+******* vertebral column '''0''' ''0''
+******* axial fin skeleton '''2''' ''4''
+******** caudal fin skeleton '''2''' ''2''
+******** dorsal fin skeleton '''0''' ''0''
+******** anal fin skeleton '''0''' ''0''
+****** paired fin skeleton '''0''' ''4''
+******* pectoral fin skeleton '''4''' ''4''
+******* pelvic fin skeleton '''0''' ''0''
+***** digestive system '''17''' ''17''
+***** liver and biliary system '''2''' ''2''
+***** immune system '''2''' ''2''
+***** hematopoietic system '''6''' ''6''
+***** cardiovascular system '''10''' ''20''
+****** lymphatic system '''2''' ''2''
+****** primordial vasculature '''4''' ''8''
+******* vascular cord '''4''' ''4''
+***** respiratory system '''0''' ''0''
+**** anatomical cluster '''0''' ''172''
+***** dermal bone cranium '''0''' ''0''
+***** joint '''1''' ''1''
+***** Weberian apparatus '''0''' ''0''
+***** lagenar capsule '''0''' ''0''
+***** occipital region '''0''' ''0''
+***** inner ear '''35''' ''35''
+***** otic region '''2''' ''2''
+***** olfactory region '''3''' ''3''
+***** dorsal fin pterygiophore '''1''' ''1''
+***** pectoral girdle '''0''' ''0''
+***** chondrocranium '''14''' ''14''
+***** sphenoid region '''0''' ''0''
+***** tooth row '''0''' ''0''
+****** mediodorsal tooth row '''0''' ''0''
+****** dorsal tooth row '''0''' ''0''
+****** ventral tooth row '''0''' ''0''
+***** neural complex '''0''' ''0''
+***** ventral hyoid arch '''5''' ''5''
+***** proliferative region '''8''' ''8''
+***** palatoquadrate arch '''11''' ''11''
+***** orbital region '''0''' ''0''
+***** suspensorium '''0''' ''0''
+***** neuromast '''41''' ''73''
+****** dorsal lateral line neuromast '''0''' ''0''
+****** posterior lateral line neuromast '''12''' ''12''
+****** mandibular lateral line neuromast '''2''' ''2''
+****** occipital lateral line neuromast '''2''' ''2''
+****** infraorbital lateral line neuromast '''2''' ''2''
+****** supraorbital lateral line neuromast '''1''' ''1''
+****** anterior lateral line neuromast '''4''' ''4''
+****** middle lateral line neuromast '''3''' ''3''
+****** opercular lateral line neuromast '''3''' ''3''
+****** otic lateral line neuromast '''3''' ''3''
+***** pelvic girdle '''0''' ''0''
+***** dorsal hyoid arch '''2''' ''2''
+***** ventral mandibular arch '''16''' ''16''
+***** anal fin pterygiophore '''1''' ''1''
+*** portion of tissue '''0''' ''1534''
+**** intestinal villus '''1''' ''1''
+**** regenerating tissue '''0''' ''19''
+***** apical epidermal cap '''0''' ''0''
+***** blastema '''18''' ''18''
+***** distal epidermal cap '''0''' ''0''
+***** basal regeneration epithelium '''1''' ''1''
+**** granulosa cell layer '''2''' ''2''
+**** pillar of the lateral semicircular canal '''1''' ''1''
+**** primary germ layer '''0''' ''236''
+***** endoderm '''84''' ''84''
+***** mesoderm '''89''' ''89''
+***** ectoderm '''63''' ''63''
+**** mesenchyme '''10''' ''152''
+***** mesenchyme pectoral fin '''11''' ''11''
+***** ventral mesenchyme '''9''' ''9''
+***** head mesenchyme '''29''' ''33''
+****** mesenchyme derived from head neural crest '''2''' ''2''
+****** dental mesenchyme '''0''' ''0''
+****** mesenchyme derived from head mesoderm '''2''' ''2''
+***** trunk mesenchyme '''5''' ''88''
+****** paraxial mesoderm '''79''' ''79''
+****** intermediate mesenchyme '''1''' ''1''
+****** lateral mesenchyme derived from mesoderm '''1''' ''1''
+****** mesenchyme derived from trunk neural crest '''2''' ''2''
+***** mesenchyme pelvic fin '''0''' ''0''
+***** mesenchyme median fin fold '''1''' ''1''
+**** endocardial ring '''2''' ''5''
+***** atrioventricular ring '''3''' ''3''
+**** nerve '''0''' ''66''
+***** cranial nerve '''5''' ''65''
+****** posterior lateral line nerve '''9''' ''9''
+****** terminal nerve '''3''' ''3''
+****** cranial nerve IV '''3''' ''3''
+****** cranial nerve II '''22''' ''22''
+****** cranial nerve VI '''0''' ''0''
+****** cranial nerve VII '''7''' ''7''
+****** cranial nerve V '''5''' ''5''
+****** cranial nerve III '''2''' ''2''
+****** cranial nerve X '''2''' ''2''
+****** cranial nerve IX '''0''' ''0''
+****** cranial nerve VIII '''2''' ''2''
+****** cranial nerve I '''1''' ''1''
+****** anterior lateral line nerve '''4''' ''4''
+***** ampullary nerve '''1''' ''1''
+**** notochord '''233''' ''233''
+**** muscle '''36''' ''145''
+***** myocardium '''17''' ''17''
+***** hypaxial myotome region '''8''' ''8''
+****** hypaxial region somite 8 '''0''' ''0''
+****** hypaxial region somite 3 '''0''' ''0''
+****** hypaxial region somite 1 '''0''' ''0''
+****** hypaxial region somite 20 '''0''' ''0''
+****** hypaxial region somite 13 '''0''' ''0''
+****** hypaxial region somite 28 '''0''' ''0''
+****** hypaxial region somite 14 '''0''' ''0''
+****** hypaxial region somite 19 '''0''' ''0''
+****** hypaxial region somite 29 '''0''' ''0''
+****** hypaxial region somite 7 '''0''' ''0''
+****** hypaxial region somite 18 '''0''' ''0''
+****** hypaxial region somite 23 '''0''' ''0''
+****** hypaxial region somite 22 '''0''' ''0''
+****** hypaxial region somite 9 '''0''' ''0''
+****** hypaxial region somite 2 '''0''' ''0''
+****** hypaxial region somite 15 '''0''' ''0''
+****** hypaxial region somite 25 '''0''' ''0''
+****** hypaxial region somite 10 '''0''' ''0''
+****** hypaxial region somite 6 '''0''' ''0''
+****** hypaxial region somite 21 '''0''' ''0''
+****** hypaxial region somite 24 '''0''' ''0''
+****** hypaxial region somite 5 '''0''' ''0''
+****** hypaxial region somite 11 '''0''' ''0''
+****** hypaxial region somite 4 '''0''' ''0''
+****** hypaxial region somite 27 '''0''' ''0''
+****** hypaxial region somite 12 '''0''' ''0''
+****** hypaxial region somite 26 '''0''' ''0''
+****** hypaxial region somite 30 '''0''' ''0''
+****** hypaxial region somite 17 '''0''' ''0''
+****** hypaxial region somite 16 '''0''' ''0''
+***** branchial muscle '''1''' ''1''
+***** myotome '''60''' ''60''
+***** epaxial myotome region '''1''' ''1''
+****** epaxial region somite 11 '''0''' ''0''
+****** epaxial region somite 28 '''0''' ''0''
+****** epaxial region somite 3 '''0''' ''0''
+****** epaxial region somite 17 '''0''' ''0''
+****** epaxial region somite 22 '''0''' ''0''
+****** epaxial region somite 24 '''0''' ''0''
+****** epaxial region somite 27 '''0''' ''0''
+****** epaxial region somite 26 '''0''' ''0''
+****** epaxial region somite 18 '''0''' ''0''
+****** epaxial region somite 1 '''0''' ''0''
+****** epaxial region somite 7 '''0''' ''0''
+****** epaxial region somite 30 '''0''' ''0''
+****** epaxial region somite 10 '''0''' ''0''
+****** epaxial region somite 9 '''0''' ''0''
+****** epaxial region somite 16 '''0''' ''0''
+****** epaxial region somite 5 '''0''' ''0''
+****** epaxial region somite 29 '''0''' ''0''
+****** epaxial region somite 20 '''0''' ''0''
+****** epaxial region somite 14 '''0''' ''0''
+****** epaxial region somite 2 '''0''' ''0''
+****** epaxial region somite 12 '''0''' ''0''
+****** epaxial region somite 21 '''0''' ''0''
+****** epaxial region somite 4 '''0''' ''0''
+****** epaxial region somite 13 '''0''' ''0''
+****** epaxial region somite 8 '''0''' ''0''
+****** epaxial region somite 15 '''0''' ''0''
+****** epaxial region somite 19 '''0''' ''0''
+****** epaxial region somite 25 '''0''' ''0''
+****** epaxial region somite 6 '''0''' ''0''
+****** epaxial region somite 23 '''0''' ''0''
+***** mandibular muscle '''5''' ''17''
+****** intermandibularis '''4''' ''4''
+****** adductor mandibulae '''6''' ''6''
+****** constrictor dorsalis '''0''' ''0''
+****** sternohyoid '''2''' ''2''
+***** hyoid muscle '''3''' ''5''
+****** dorsal adductor hyomandibulae '''0''' ''0''
+****** adductor operculi '''0''' ''0''
+****** inferior hyohyoid '''0''' ''0''
+****** ventral interhyoideus '''1''' ''1''
+****** abductor hyohyoid '''0''' ''0''
+****** adductor hyohyoid '''1''' ''1''
+****** adductor arcus palatini '''0''' ''0''
+****** levator operculi '''0''' ''0''
+****** protractor hyoidei '''0''' ''0''
+****** hyohyoideus '''0''' ''0''
+**** actinotrichium '''2''' ''2''
+***** dorsal actinotrichium '''0''' ''0''
+***** ventral actinotrichium '''0''' ''0''
+**** thecal cell layer '''2''' ''2''
+**** ganglion '''1''' ''258''
+***** cranial ganglion '''45''' ''236''
+****** epibranchial ganglion '''3''' ''55''
+******* facial ganglion '''13''' ''13''
+******* vagal ganglion 2 '''8''' ''8''
+******* vagal ganglion 1 '''10''' ''10''
+******* vagal ganglion 3 '''7''' ''7''
+******* vagal ganglion 4 '''6''' ''6''
+******* glossopharyngeal ganglion '''8''' ''8''
+****** trigeminal ganglion '''63''' ''63''
+****** lateral line ganglion '''12''' ''46''
+******* anterior lateral line ganglion '''12''' ''16''
+******** ventral anterior lateral line ganglion '''1''' ''1''
+******** dorsal anterior lateral line ganglion '''3''' ''3''
+******* posterior lateral line ganglion '''17''' ''17''
+******* middle lateral line ganglion '''1''' ''1''
+****** statoacoustic (VIII) ganglion '''27''' ''27''
+***** trunk ganglion '''2''' ''21''
+****** sympathetic chain ganglion '''2''' ''2''
+****** dorsal root ganglion '''17''' ''17''
+****** superior cervical ganglion '''0''' ''0''
+**** tooth placode '''4''' ''4''
+**** chordo neural hinge '''12''' ''12''
+**** portion of connective tissue '''0''' ''304''
+***** bone '''2''' ''141''
+****** replacement bone '''0''' ''91''
+******* perichondral bone '''0''' ''0''
+******* endochondral bone '''0''' ''91''
+******** parapophysis '''0''' ''0''
+********* parapophysis 1 '''0''' ''0''
+********* parapophysis 2 '''0''' ''0''
+******** hypobranchial bone '''0''' ''0''
+********* hypobranchial 1 bone '''0''' ''0''
+********* hypobranchial 4 bone '''0''' ''0''
+********* hypobranchial 3 bone '''0''' ''0''
+********* hypobranchial 2 bone '''0''' ''0''
+******** pharyngobranchial bone '''0''' ''0''
+********* pharyngobranchial 3 bone '''0''' ''0''
+********* pharyngobranchial 2 bone '''0''' ''0''
+******** rib '''0''' ''0''
+******** preethmoid bone '''0''' ''0''
+******** hemal postzygapophysis '''0''' ''0''
+******** intercalarium ascending process '''0''' ''0''
+******** neural postzygapophysis '''0''' ''0''
+******** manubrium '''0''' ''0''
+******** sphenotic '''1''' ''1''
+******** ural centrum 2 '''0''' ''0''
+******** os suspensorium '''0''' ''0''
+******** hemal spine '''1''' ''1''
+******** mesethmoid bone '''1''' ''1''
+******** hypohyal '''0''' ''1''
+********* dorsal hypohyal '''0''' ''0''
+********* ventral hypohyal '''1''' ''1''
+******** claustrum bone '''0''' ''0''
+******** epihyal '''1''' ''1''
+******** epibranchial bone '''0''' ''0''
+********* epibranchial 4 bone '''0''' ''0''
+********* epibranchial 1 bone '''0''' ''0''
+********* epibranchial 2 bone '''0''' ''0''
+********* epibranchial 3 bone '''0''' ''0''
+******** basipterygium '''0''' ''0''
+******** basibranchial '''5''' ''5''
+********* basibranchial 3 '''0''' ''0''
+********* basibranchial 2 '''0''' ''0''
+********* basibranchial 4 '''0''' ''0''
+********* basibranchial 1 '''0''' ''0''
+******** hemal prezygapophysis '''0''' ''0''
+******** symplectic '''4''' ''4''
+******** coracoid '''0''' ''0''
+******** hyomandibula '''2''' ''2''
+******** ceratohyal bone '''6''' ''6''
+******** metapterygoid '''1''' ''1''
+******** intermuscular bone '''0''' ''0''
+********* epipleural '''0''' ''0''
+********* epineural '''0''' ''0''
+******** radial '''0''' ''0''
+********* anal fin radial '''0''' ''0''
+********** anal fin proximal radial '''0''' ''0''
+********** anal fin distal radial '''0''' ''0''
+********* pelvic radial '''0''' ''0''
+********** pelvic radial 3 '''0''' ''0''
+********** pelvic radial 2 '''0''' ''0''
+********** pelvic radial 1 '''0''' ''0''
+********* dorsal fin radial '''0''' ''0''
+********** dorsal fin proximal radial '''0''' ''0''
+********** dorsal fin distal radial '''0''' ''0''
+********* pectoral fin radial '''0''' ''0''
+********** pectoral fin distal radial '''0''' ''0''
+*********** propterygium '''0''' ''0''
+********** pectoral fin proximal radial '''0''' ''0''
+******** specialized hemal arch and spine '''1''' ''10''
+********* hypurapophysis '''0''' ''0''
+********* hypural '''3''' ''8''
+********** hypural 5 '''1''' ''1''
+********** hypural 1 '''1''' ''1''
+********** hypural 4 '''1''' ''1''
+********** hypural 2 '''1''' ''1''
+********** hypural 3 '''1''' ''1''
+********* parhypural '''1''' ''1''
+******** os suspensorium medial flange '''0''' ''0''
+******** intercalarium articulating process '''0''' ''0''
+******** tripus '''0''' ''0''
+******** exoccipital posteroventral region '''0''' ''0''
+******** basioccipital '''2''' ''2''
+******** cleithrum '''16''' ''16''
+******** vertebra '''3''' ''4''
+********* ural vertebra 2 '''0''' ''0''
+********* precaudal vertebra '''0''' ''0''
+********** Weberian vertebra '''0''' ''0''
+*********** vertebra 4 '''0''' ''0''
+*********** vertebra 3 '''0''' ''0''
+*********** vertebra 2 '''0''' ''0''
+*********** vertebra 1 '''0''' ''0''
+********** non-Weberian precaudal vertebra '''0''' ''0''
+********* preural centrum 1+ ural centrum 1 '''0''' ''0''
+********* caudal vertebra '''1''' ''1''
+********** preural vertebra '''0''' ''0''
+*********** preural 1 vertebra '''0''' ''0''
+*********** preural 2 vertebra '''0''' ''0''
+******** mesocoracoid bone '''0''' ''0''
+******** retroarticular '''2''' ''2''
+******** centrum '''1''' ''1''
+******** basihyal '''4''' ''4''
+******** ceratobranchial bone '''12''' ''15''
+********* ceratobranchial 1 bone '''0''' ''0''
+********* ceratobranchial 5 bone '''3''' ''3''
+********* ceratobranchial 2 bone '''0''' ''0''
+********* ceratobranchial 4 bone '''0''' ''0''
+********* ceratobranchial 3 bone '''0''' ''0''
+******** anterior dorsomedial process of autopalatine '''0''' ''0''
+******** pterosphenoid '''1''' ''1''
+******** scapula '''0''' ''0''
+******** basioccipital posterodorsal region '''0''' ''0''
+******** sclerotic bone '''0''' ''0''
+********* anterior sclerotic bone '''0''' ''0''
+********* posterior sclerotic bone '''0''' ''0''
+******** supraneural '''0''' ''0''
+********* supraneural 3 '''0''' ''0''
+********* post-Weberian supraneural '''0''' ''0''
+********** supraneural 5 '''0''' ''0''
+********** supraneural 6 '''0''' ''0''
+********** supraneural 9 '''0''' ''0''
+********** supraneural 7 '''0''' ''0''
+********** supraneural 8 '''0''' ''0''
+********* supraneural 2 '''0''' ''0''
+******** neural spine '''2''' ''3''
+********* epural '''1''' ''1''
+********* neural spine 4 '''0''' ''0''
+******** pterotic '''0''' ''0''
+******** hemal arch '''1''' ''1''
+******** supraoccipital '''0''' ''0''
+******** epiotic '''0''' ''0''
+******** parapophysis/rib '''0''' ''0''
+******** prootic '''1''' ''1''
+******** autopalatine '''0''' ''0''
+******** orbitosphenoid '''0''' ''0''
+******** epibranchial uncinate process '''0''' ''0''
+******** quadrate ventral process '''0''' ''0''
+******** lateral ethmoid '''0''' ''0''
+******** exoccipital '''0''' ''0''
+******** anguloarticular '''2''' ''2''
+******** neural prezygapophysis '''0''' ''0''
+******** urostyle '''2''' ''2''
+******** quadrate '''2''' ''2''
+******** neural arch '''2''' ''2''
+********* intercalarium '''0''' ''0''
+********* uroneural '''0''' ''0''
+********* neural arch 4 '''0''' ''0''
+********* rudimentary neural arch '''0''' ''0''
+********* scaphium '''0''' ''0''
+********* neural arch 3 '''0''' ''0''
+******* perichordal bone '''0''' ''0''
+******** notochordal ossification '''0''' ''0''
+****** intramembranous bone '''0''' ''48''
+******* membrane bone '''0''' ''0''
+******** intercalar '''0''' ''0''
+******** tripus '''0''' ''0''
+******** claustrum bone '''0''' ''0''
+******* dermal bone '''0''' ''48''
+******** kinethmoid bone '''1''' ''1''
+******** opercle '''10''' ''10''
+******** preopercle horizontal limb '''0''' ''0''
+******** maxilla '''3''' ''3''
+******** lepidotrichium '''1''' ''4''
+********* pectoral fin lepidotrichium '''0''' ''0''
+********* dorsal fin lepidotrichium '''0''' ''0''
+********* anal fin lepidotrichium '''1''' ''1''
+********* pelvic fin lepidotrichium '''0''' ''0''
+********* caudal fin lepidotrichium '''2''' ''2''
+********** caudal procurrent ray '''0''' ''0''
+********** caudal principal ray '''0''' ''0''
+******** parasphenoid '''4''' ''4''
+******** ectopterygoid '''1''' ''1''
+******** branchiostegal ray '''2''' ''6''
+********* branchiostegal ray 2 '''1''' ''1''
+********* branchiostegal ray 1 '''1''' ''1''
+********* branchiostegal ray 3 '''2''' ''2''
+******** dentary '''3''' ''3''
+******** urohyal '''0''' ''0''
+******** nasal bone '''1''' ''1''
+******** supraorbital bone '''0''' ''0''
+******** coronomeckelian '''0''' ''0''
+******** prevomer '''0''' ''0''
+******** entopterygoid '''2''' ''2''
+******** preopercle '''2''' ''2''
+******** premaxilla ascending process '''0''' ''0''
+******** angular bone '''0''' ''0''
+******** posttemporal '''1''' ''1''
+******** supracleithrum '''0''' ''0''
+******** gill raker '''2''' ''2''
+******** infraorbital '''0''' ''1''
+********* infraorbital 4 '''0''' ''0''
+********* infraorbital 5 '''0''' ''0''
+********* infraorbital 2 '''0''' ''0''
+********* infraorbital 1 '''1''' ''1''
+********* infraorbital 3 '''0''' ''0''
+******** parietal bone '''1''' ''1''
+******** postcleithrum '''0''' ''0''
+******** anguloarticular '''2''' ''2''
+******** frontal bone '''0''' ''0''
+******** subopercle '''1''' ''1''
+******** supraethmoid '''0''' ''0''
+******** preopercle vertical limb '''0''' ''0''
+******** premaxilla '''2''' ''2''
+******** extrascapular '''0''' ''0''
+******** interopercle '''1''' ''1''
+***** cartilage '''2''' ''162''
+****** paired fin cartilage '''0''' ''18''
+******* pelvic fin cartilage '''0''' ''0''
+******** basipterygium cartilage '''0''' ''0''
+******** pelvic radial cartilage '''0''' ''0''
+********* pelvic radial 1 cartilage '''0''' ''0''
+********* pelvic radial 3 cartilage '''0''' ''0''
+********* pelvic radial 2 cartilage '''0''' ''0''
+******* pectoral fin cartilage '''13''' ''18''
+******** mesocorocoid cartilage '''0''' ''0''
+******** scapulocorocoid '''3''' ''3''
+******** pectoral fin endoskeletal disc '''2''' ''2''
+****** postcranial axial cartilage '''0''' ''0''
+******* basidorsal '''0''' ''0''
+******* claustrum cartilage '''0''' ''0''
+******* median fin cartilage '''0''' ''0''
+******* roofing cartilage '''0''' ''0''
+******* supradorsal '''0''' ''0''
+******* basiventral '''0''' ''0''
+****** cranial cartilage '''11''' ''142''
+******* pharyngeal arch cartilage '''14''' ''98''
+******** copula '''0''' ''0''
+********* copula 1 '''0''' ''0''
+********* copula 2 '''0''' ''0''
+******** hypobranchial cartilage '''0''' ''0''
+********* hypobranchial 1 cartilage '''0''' ''0''
+********* hypobranchial 2 cartilage '''0''' ''0''
+********* hypobranchial 4 cartilage '''0''' ''0''
+********* hypobranchial 3 cartilage '''0''' ''0''
+******** ceratobranchial cartilage '''6''' ''14''
+********* ceratobranchial 4 cartilage '''2''' ''2''
+********* ceratobranchial 3 cartilage '''2''' ''2''
+********* ceratobranchial 1 cartilage '''1''' ''1''
+********* ceratobranchial 5 cartilage '''2''' ''2''
+********* ceratobranchial 2 cartilage '''1''' ''1''
+******** ceratohyal cartilage '''13''' ''13''
+******** articular cartilage '''0''' ''0''
+******** Meckel's cartilage '''22''' ''22''
+******** palatoquadrate cartilage '''18''' ''18''
+******** pharyngobranchial cartilage '''0''' ''0''
+********* pharyngobranchial 2 cartilage '''0''' ''0''
+********* pharyngobranchial 3 cartilage '''0''' ''0''
+********* pharyngobranchial 4 cartilage '''0''' ''0''
+******** interhyal cartilage '''2''' ''2''
+******** hyosymplectic cartilage '''8''' ''8''
+******** basihyal cartilage '''2''' ''2''
+******** epibranchial cartilage '''0''' ''5''
+********* epibranchial 4 cartilage '''1''' ''1''
+********* epibranchial 3 cartilage '''1''' ''1''
+********* epibranchial 5 '''1''' ''1''
+********* epibranchial 2 cartilage '''1''' ''1''
+********* epibranchial 1 cartilage '''1''' ''1''
+******* chondrocranium cartilage '''2''' ''33''
+******** lamina orbitonasalis '''1''' ''1''
+******** trabecula communis '''0''' ''0''
+******** sclerotic cartilage '''0''' ''0''
+******** kinethmoid cartilage '''0''' ''0''
+******** taenia marginalis posterior '''0''' ''0''
+******** tectum synoticum '''0''' ''0''
+******** trabecula cranii '''4''' ''4''
+******** epiphyseal bar '''1''' ''1''
+******** occipital arch cartilage '''1''' ''1''
+******** parachordal cartilage '''4''' ''4''
+******** auditory capsule '''1''' ''1''
+******** basal plate cartilage '''1''' ''1''
+******** ethmoid cartilage '''9''' ''9''
+******** taenia marginalis anterior '''0''' ''0''
+******** neurocranial trabecula '''9''' ''9''
+***** perichordal connective tissue '''1''' ''1''
+***** bony projection '''0''' ''0''
+***** perichondrium '''0''' ''0''
+**** pillar of the anterior semicircular canal '''1''' ''1''
+**** endocardium '''14''' ''16''
+***** atrioventricular canal endocardium '''1''' ''1''
+***** ventricular endocardium '''1''' ''1''
+***** atrial endocardium '''0''' ''0''
+**** pillar of the posterior semicircular canal '''0''' ''0''
+**** dental papilla '''0''' ''0''
+**** epithelium '''8''' ''75''
+***** dental epithelium '''1''' ''1''
+****** outer dental epithelium '''0''' ''0''
+****** inner dental epithelium '''0''' ''0''
+****** primary dental epithelium '''0''' ''0''
+***** mesentery '''0''' ''0''
+****** ventral mesentery '''0''' ''0''
+****** dorsal mesentery '''0''' ''0''
+***** multilaminar epithelium '''0''' ''0''
+***** gut epithelium '''11''' ''11''
+***** unilaminar epithelium '''0''' ''22''
+****** simple columnar epithelium '''0''' ''14''
+******* esophageal epithelium '''0''' ''0''
+******* intestinal epithelium '''11''' ''14''
+******** mid intestine epithelium '''1''' ''1''
+******** intestinal bulb epithelium '''2''' ''2''
+******** posterior intestine epithelium '''0''' ''0''
+****** pharyngeal epithelium '''6''' ''6''
+****** simple squamous epithelium '''0''' ''2''
+******* endothelium '''2''' ''2''
+****** simple cuboidal epithelium '''0''' ''0''
+***** peritoneum '''0''' ''0''
+****** parietal peritoneum '''0''' ''0''
+****** visceral peritoneum '''0''' ''0''
+***** periderm '''17''' ''17''
+***** oral epithelium '''7''' ''7''
+***** atypical epithelium '''0''' ''0''
+***** regeneration epithelium '''9''' ''9''
+*** extraembryonic structure '''0''' ''1''
+**** chorion '''1''' ''1''
+*** organism subdivision '''0''' ''1214''
+**** post-vent region '''142''' ''142''
+**** surface structure '''1''' ''786''
+***** opercular flap '''0''' ''0''
+***** vent '''2''' ''2''
+***** mouth '''17''' ''17''
+***** urogenital papilla '''1''' ''1''
+***** eye '''359''' ''359''
+***** barbel primordium '''0''' ''0''
+***** barbel '''4''' ''4''
+***** median fin fold '''17''' ''17''
+***** integument '''80''' ''80''
+***** caudal fin upper lobe '''0''' ''0''
+***** caudal peduncle '''0''' ''0''
+***** fin '''42''' ''247''
+****** pelvic fin '''2''' ''2''
+****** regenerating fin '''19''' ''19''
+****** dorsal fin '''13''' ''13''
+****** anal fin '''5''' ''5''
+****** pectoral fin '''133''' ''133''
+****** caudal fin '''33''' ''33''
+***** fin bud '''8''' ''55''
+****** pectoral fin bud '''46''' ''46''
+****** pelvic fin bud '''1''' ''1''
+***** naris '''1''' ''1''
+****** anterior naris '''0''' ''0''
+****** posterior naris '''0''' ''0''
+***** lip '''2''' ''2''
+***** caudal fin lower lobe '''0''' ''0''
+**** head '''156''' ''156''
+**** trunk '''82''' ''82''
+**** axis '''48''' ''48''
+*** cell '''11''' ''1748''
+**** mucus secreting cell '''12''' ''14''
+***** goblet cell '''2''' ''2''
+**** absorptive cell '''0''' ''1''
+***** gut absorptive cell '''1''' ''1''
+**** acid secreting cell '''0''' ''0''
+**** keratin accumulating cell '''0''' ''3''
+***** keratinocyte '''3''' ''3''
+**** myelin accumulating cell '''0''' ''7''
+***** Schwann cell '''7''' ''7''
+**** extraembryonic cell '''0''' ''0''
+**** acinar cell '''1''' ''1''
+**** digestive enzyme secreting cell '''0''' ''0''
+**** barrier epithelial cell '''0''' ''0''
+**** somatic stem cell '''0''' ''13''
+***** single fate stem cell '''0''' ''0''
+****** muscle stem cell '''0''' ''0''
+****** osteoprogenitor cell '''0''' ''0''
+***** multi fate stem cell '''0''' ''13''
+****** nephrogenic mesenchyme stem cell '''0''' ''0''
+****** blastemal cell '''2''' ''2''
+****** angioblastic mesenchymal cell '''2''' ''2''
+****** neuronal stem cell '''0''' ''6''
+******* neuroblast '''2''' ''6''
+******** neuroblast (sensu Vertebrata) '''0''' ''4''
+********* radial glial cell '''4''' ''4''
+****** metanephric mesenchyme stem cell '''0''' ''0''
+****** hematopoietic stem cell '''3''' ''3''
+***** totipotent stem cell '''0''' ''0''
+**** exocrine cell '''0''' ''0''
+**** neuromast support cell '''2''' ''2''
+**** hatching gland cell '''0''' ''0''
+**** ciliated cell '''2''' ''7''
+***** ciliated epithelial cell '''1''' ''5''
+****** ependymal cell '''4''' ''4''
+******* choroid plexus epithelial cell '''0''' ''0''
+**** barrier cell '''0''' ''38''
+***** lining cell '''0''' ''30''
+****** synovial cell '''0''' ''0''
+****** mesothelial cell '''0''' ''0''
+****** endothelial cell '''3''' ''30''
+******* corneal endothelial cell '''0''' ''0''
+******* blood vessel endothelial cell '''23''' ''25''
+******** endothelial tip cell '''2''' ''2''
+******* gut endothelial cell '''2''' ''2''
+***** Sertoli cell '''1''' ''1''
+***** insulating cell '''0''' ''7''
+****** Schwann cell '''7''' ''7''
+**** alkali secreting cell '''0''' ''0''
+**** neuroplacodal cell '''0''' ''0''
+**** pericyte '''0''' ''0''
+**** egg '''3''' ''3''
+**** olfactory epithelial support cell '''0''' ''0''
+**** stratified epithelial stem cell '''0''' ''0''
+***** stratified keratinized epithelial stem cell '''0''' ''0''
+**** motile cell '''0''' ''143''
+***** primordial germ cell '''13''' ''13''
+***** leukocyte '''2''' ''94''
+****** professional antigen presenting cell '''0''' ''32''
+******* dendritic cell '''0''' ''0''
+******* macrophage '''31''' ''31''
+******** peritoneal macrophage '''0''' ''0''
+******** microglial cell '''0''' ''0''
+******* monocyte '''1''' ''1''
+******* mature B cell '''0''' ''0''
+******** naive B cell '''0''' ''0''
+****** myeloid leukocyte '''0''' ''21''
+******* granulocyte '''9''' ''21''
+******** neutrophil '''4''' ''12''
+********* immature neutrophil '''0''' ''0''
+********** neutrophilic metamyelocyte '''0''' ''0''
+********** neutrophilic myelocyte '''0''' ''0''
+********** band form neutrophil '''0''' ''0''
+********* mature neutrophil '''8''' ''8''
+****** mononuclear cell '''0''' ''39''
+******* mononuclear phagocyte '''0''' ''32''
+******** mononuclear osteoclast '''0''' ''0''
+********* mononuclear odontoclast '''0''' ''0''
+******** macrophage '''31''' ''31''
+********* peritoneal macrophage '''0''' ''0''
+********* microglial cell '''0''' ''0''
+******** monocyte '''1''' ''1''
+******* lymphocyte '''4''' ''7''
+******** natural killer cell '''0''' ''0''
+********* immature natural killer cell '''0''' ''0''
+********* mature natural killer cell '''0''' ''0''
+******** T cell '''2''' ''2''
+********* gamma-delta T cell '''0''' ''0''
+********** mature gamma-delta T cell '''0''' ''0''
+*********** gamma-delta intraepithelial T cell '''0''' ''0''
+********** immature gamma-delta T cell '''0''' ''0''
+********* memory T cell '''0''' ''0''
+********* alpha-beta T cell '''0''' ''0''
+********* immature T cell '''0''' ''0''
+********** immature gamma-delta T cell '''0''' ''0''
+********* mature T cell '''0''' ''0''
+********** mature gamma-delta T cell '''0''' ''0''
+*********** gamma-delta intraepithelial T cell '''0''' ''0''
+******** B cell '''0''' ''1''
+********* memory B cell '''0''' ''0''
+********* immature B cell '''1''' ''1''
+********** pre-B cell '''0''' ''0''
+********** transitional stage B cell '''0''' ''0''
+********* mature B cell '''0''' ''0''
+********** naive B cell '''0''' ''0''
+******** plasma cell '''0''' ''0''
+***** phagocyte '''1''' ''1''
+***** neural crest cell '''31''' ''35''
+****** cranial neural crest cell '''3''' ''3''
+****** trunk neural crest cell '''1''' ''1''
+**** germ line cell '''2''' ''15''
+***** gamete '''0''' ''0''
+***** primordial germ cell '''13''' ''13''
+**** ectodermal cell '''0''' ''0''
+**** yolk cell '''2''' ''2''
+**** sustentacular cell '''0''' ''0''
+**** tendon cell '''0''' ''0''
+**** pigment cell '''18''' ''84''
+***** melanocyte '''47''' ''47''
+***** leucophore '''0''' ''0''
+***** cyanophore '''0''' ''0''
+***** iridophore '''11''' ''11''
+***** erythrophore '''0''' ''0''
+***** pigment cell (sensu Vertebrata) '''0''' ''0''
+****** non-visual cell (sensu Vertebrata) '''0''' ''0''
+****** visual pigment cell (sensu Vertebrata) '''0''' ''0''
+***** xanthophore '''8''' ''8''
+**** cementoblast '''0''' ''0''
+**** nucleate erythrocyte '''19''' ''19''
+**** Merkel cell '''0''' ''0''
+**** spermatogonium '''0''' ''0''
+**** oxygen accumulating cell '''0''' ''0''
+**** mesodermal cell '''3''' ''3''
+**** neuromast mantle cell '''2''' ''2''
+**** paracrine cell '''0''' ''0''
+**** epithelial cell '''5''' ''63''
+***** squamous epithelial cell '''0''' ''32''
+****** corneal endothelial cell '''0''' ''0''
+****** mesothelial cell '''0''' ''0''
+****** epidermal cell '''4''' ''4''
+****** corneal epithelial cell '''2''' ''2''
+****** peridermal cell '''1''' ''1''
+****** hypodermal cell '''0''' ''0''
+****** blood vessel endothelial cell '''23''' ''25''
+******* endothelial tip cell '''2''' ''2''
+***** fenestrated cell '''0''' ''0''
+***** hepatocyte '''10''' ''10''
+***** transitional epithelial cell '''0''' ''0''
+***** stratified squamous epithelial cell '''0''' ''0''
+***** podocyte '''4''' ''4''
+***** columnar/cuboidal epithelial cell '''0''' ''12''
+****** sensory epithelial cell '''1''' ''1''
+****** gut endothelial cell '''2''' ''2''
+****** myoepithelial cell '''0''' ''0''
+****** brush border epithelial cell '''0''' ''2''
+******* enterocyte '''2''' ''2''
+****** ciliated epithelial cell '''1''' ''5''
+******* ependymal cell '''4''' ''4''
+******** choroid plexus epithelial cell '''0''' ''0''
+****** simple columnar epithelial cell '''0''' ''0''
+******* amelocyte '''0''' ''0''
+****** cerebrospinal fluid secreting cell '''0''' ''0''
+****** pigmented epithelial cell '''2''' ''2''
+***** M cell '''0''' ''0''
+***** stratified cuboidal epithelial cell '''0''' ''0''
+***** urothelial cell '''0''' ''0''
+**** early embryonic cell '''0''' ''2''
+***** blastoderm cell '''1''' ''1''
+***** gastrula cell '''1''' ''1''
+**** Rohon-Beard neuron '''56''' ''56''
+**** ligament cell '''0''' ''0''
+**** endocrine cell '''2''' ''24''
+***** enteroendocrine cell '''0''' ''0''
+****** D cell '''0''' ''0''
+***** neuroendocrine cell '''0''' ''1''
+****** chromaffin cell '''1''' ''1''
+***** thyroid hormone secreting cell '''0''' ''0''
+***** pinealocyte '''0''' ''0''
+***** biogenic amine secreting cell '''0''' ''0''
+****** serotin secreting cell '''0''' ''0''
+****** norepinephrin secreting cell '''0''' ''0''
+****** epinephrin secreting cell '''0''' ''0''
+***** folliculostellate cell '''0''' ''0''
+***** steroid hormone secreting cell '''1''' ''3''
+****** glucocorticoid secreting cell '''0''' ''0''
+****** androgen secreting cell '''0''' ''0''
+******* theca cell '''0''' ''0''
+****** testosterone secreting cell '''0''' ''1''
+******* Leydig cell '''1''' ''1''
+****** granulosa cell '''1''' ''1''
+****** progesterone secreting cell '''0''' ''0''
+****** estradiol secreting cell '''0''' ''0''
+***** peptide hormone secreting cell '''1''' ''18''
+****** substance P secreting cell '''0''' ''0''
+****** luteinizing hormone secreting cell '''1''' ''1''
+****** endorphin secreting cell '''0''' ''0''
+******* enkephalin secreting cell '''0''' ''0''
+****** glucagon secreting cell '''0''' ''1''
+******* pancreatic A cell '''1''' ''1''
+****** follicle stimulating hormone secreting cell '''0''' ''0''
+****** prolactin secreting cell '''2''' ''2''
+****** melanocyte stimulating hormone secreting cell '''1''' ''1''
+****** insulin secreting cell '''1''' ''6''
+******* pancreatic B cell '''5''' ''5''
+****** somatotropin secreting cell '''2''' ''2''
+****** somatostatin secreting cell '''1''' ''1''
+******* D cell '''0''' ''0''
+****** parathyroid hormone secreting cell '''0''' ''0''
+****** adrenocorticotropic hormone secreting cell '''1''' ''1''
+****** thyroid stimulating hormone secreting cell '''2''' ''2''
+****** calcitonin secreting cell '''0''' ''0''
+**** spermatocyte '''5''' ''5''
+**** endodermal cell '''7''' ''7''
+**** circulating cell '''0''' ''130''
+***** leukocyte '''2''' ''94''
+****** professional antigen presenting cell '''0''' ''32''
+******* dendritic cell '''0''' ''0''
+******* macrophage '''31''' ''31''
+******** peritoneal macrophage '''0''' ''0''
+******** microglial cell '''0''' ''0''
+******* monocyte '''1''' ''1''
+******* mature B cell '''0''' ''0''
+******** naive B cell '''0''' ''0''
+****** myeloid leukocyte '''0''' ''21''
+******* granulocyte '''9''' ''21''
+******** neutrophil '''4''' ''12''
+********* immature neutrophil '''0''' ''0''
+********** neutrophilic metamyelocyte '''0''' ''0''
+********** neutrophilic myelocyte '''0''' ''0''
+********** band form neutrophil '''0''' ''0''
+********* mature neutrophil '''8''' ''8''
+****** mononuclear cell '''0''' ''39''
+******* mononuclear phagocyte '''0''' ''32''
+******** mononuclear osteoclast '''0''' ''0''
+********* mononuclear odontoclast '''0''' ''0''
+******** macrophage '''31''' ''31''
+********* peritoneal macrophage '''0''' ''0''
+********* microglial cell '''0''' ''0''
+******** monocyte '''1''' ''1''
+******* lymphocyte '''4''' ''7''
+******** natural killer cell '''0''' ''0''
+********* immature natural killer cell '''0''' ''0''
+********* mature natural killer cell '''0''' ''0''
+******** T cell '''2''' ''2''
+********* gamma-delta T cell '''0''' ''0''
+********** mature gamma-delta T cell '''0''' ''0''
+*********** gamma-delta intraepithelial T cell '''0''' ''0''
+********** immature gamma-delta T cell '''0''' ''0''
+********* memory T cell '''0''' ''0''
+********* alpha-beta T cell '''0''' ''0''
+********* immature T cell '''0''' ''0''
+********** immature gamma-delta T cell '''0''' ''0''
+********* mature T cell '''0''' ''0''
+********** mature gamma-delta T cell '''0''' ''0''
+*********** gamma-delta intraepithelial T cell '''0''' ''0''
+******** B cell '''0''' ''1''
+********* memory B cell '''0''' ''0''
+********* immature B cell '''1''' ''1''
+********** pre-B cell '''0''' ''0''
+********** transitional stage B cell '''0''' ''0''
+********* mature B cell '''0''' ''0''
+********** naive B cell '''0''' ''0''
+******** plasma cell '''0''' ''0''
+***** blood cell '''9''' ''9''
+****** thrombocyte '''0''' ''0''
+****** reticulocyte '''0''' ''0''
+***** myeloid cell '''6''' ''27''
+****** myeloid leukocyte '''0''' ''21''
+******* granulocyte '''9''' ''21''
+******** neutrophil '''4''' ''12''
+********* immature neutrophil '''0''' ''0''
+********** neutrophilic metamyelocyte '''0''' ''0''
+********** neutrophilic myelocyte '''0''' ''0''
+********** band form neutrophil '''0''' ''0''
+********* mature neutrophil '''8''' ''8''
+****** erythroid lineage cell '''0''' ''0''
+******* reticulocyte '''0''' ''0''
+****** thrombocyte '''0''' ''0''
+**** sperm '''4''' ''4''
+**** electrically active cell '''0''' ''1089''
+***** electrically responsive cell '''0''' ''607''
+****** muscle cell '''15''' ''124''
+******* cardiac muscle cell '''18''' ''18''
+******* skeletal muscle cell '''28''' ''89''
+******** slow muscle cell '''36''' ''36''
+******** fast muscle cell '''25''' ''25''
+******* smooth muscle cell '''1''' ''2''
+******** vascular associated smooth muscle cell '''1''' ''1''
+****** neuroendocrine cell '''0''' ''1''
+******* chromaffin cell '''1''' ''1''
+****** neuron '''57''' ''482''
+******* polymodal neuron '''0''' ''0''
+******* unipolar neuron '''0''' ''0''
+******* efferent neuron '''1''' ''94''
+******** eurydendroid cell '''0''' ''0''
+******** Purkinje cell '''4''' ''4''
+******** neurosecretory neuron '''1''' ''1''
+******** motor neuron '''32''' ''88''
+********* secondary motor neuron '''12''' ''12''
+********* spinal accessory motor neuron '''0''' ''0''
+********* primary motor neuron '''36''' ''44''
+********** CAP motoneuron '''8''' ''8''
+******* pioneer neuron '''0''' ''0''
+******* serotonergic neuron '''4''' ''4''
+******* CNS neuron (sensu Vertebrata) '''5''' ''47''
+******** pyramidal cell '''0''' ''0''
+******** Purkinje cell '''4''' ''4''
+******** Golgi cell '''0''' ''0''
+******** CNS interneuron '''2''' ''3''
+********* CNS short range interneuron '''0''' ''0''
+********* CNS long range interneuron '''1''' ''1''
+******** stellate cell '''0''' ''0''
+******** retinal ganglion cell '''34''' ''34''
+******** granule cell '''1''' ''1''
+******** Cajal-Retzius cell '''0''' ''0''
+******** basket cell '''0''' ''0''
+******* secondary neuron '''0''' ''12''
+******** secondary motor neuron '''12''' ''12''
+******* primary neuron '''19''' ''71''
+******** primary interneuron '''8''' ''8''
+******** primary motor neuron '''36''' ''44''
+********* CAP motoneuron '''8''' ''8''
+******* pseudounipolar neuron '''0''' ''0''
+******* afferent neuron '''0''' ''9''
+******** sensory neuron '''9''' ''9''
+********* extramedullary cell '''0''' ''0''
+******* sensory processing neuron '''0''' ''0''
+******* autonomic neuron '''0''' ''14''
+******** peptidergic neuron '''1''' ''1''
+******** cholinergic neuron '''0''' ''0''
+******** serotinergic neuron '''0''' ''0''
+******** GABAergic neuron '''1''' ''1''
+******** dopaminergic neuron '''11''' ''11''
+******** nitrergic neuron '''0''' ''0''
+******** adrenergic neuron '''1''' ''1''
+******** glutamatergic neuron '''0''' ''0''
+******* multipolar neuron '''0''' ''0''
+******* peripheral neuron '''0''' ''0''
+******* receptor cell (sensu Animalia) '''0''' ''96''
+******** stretch receptor cell '''0''' ''0''
+********* pressoreceptor cell '''0''' ''0''
+******** chemoreceptor cell '''0''' ''6''
+********* olfactory receptor cell '''2''' ''6''
+********** microvillous olfactory receptor neuron '''2''' ''2''
+********** crypt olfactory receptor neuron '''0''' ''0''
+********** ciliated olfactory receptor neuron '''2''' ''2''
+********* taste receptor cell '''0''' ''0''
+******** mechanoreceptor cell '''0''' ''33''
+********* hair cell '''18''' ''33''
+********** neuromast hair cell '''11''' ''11''
+********** hair cell posterior macula '''2''' ''2''
+********** hair cell anterior macula '''2''' ''2''
+********** immature hair cell posterior macula '''0''' ''0''
+********** immature hair cell anterior macula '''0''' ''0''
+******** pain receptor cell '''0''' ''0''
+******** thermoreceptor cell '''0''' ''0''
+******** photoreceptor cell '''2''' ''57''
+********* UV sensitive photoreceptor cell '''0''' ''0''
+********* eye photoreceptor cell '''9''' ''55''
+********** retinal rod cell '''23''' ''23''
+********** retinal cone cell '''23''' ''23''
+********* visible light photoreceptor cell '''0''' ''0''
+********** photopic photoreceptor cell '''0''' ''0''
+*********** red sensitive photoreceptor cell '''0''' ''0''
+*********** green sensitive photoreceptor cell '''0''' ''0''
+*********** blue sensitive photoreceptor cell '''0''' ''0''
+******** auditory receptor cell '''0''' ''0''
+******* interneuron spinal cord '''12''' ''12''
+******* interneuron '''3''' ''66''
+******** inhibitory interneuron '''0''' ''0''
+******** bipolar neuron '''4''' ''9''
+********* retinal bipolar neuron '''5''' ''5''
+********** cone retinal bipolar cell '''0''' ''0''
+********** OFF-bipolar cell '''0''' ''0''
+********** ON-bipolar cell '''0''' ''0''
+*********** rod bipolar cell '''0''' ''0''
+********** rod bipolar cell '''0''' ''0''
+******** CNS interneuron '''2''' ''3''
+********* CNS short range interneuron '''0''' ''0''
+********* CNS long range interneuron '''1''' ''1''
+******** stellate interneuron '''0''' ''0''
+********* neuroglioform cell '''0''' ''0''
+******** amacrine cell '''30''' ''30''
+******** Mauthner neuron '''9''' ''9''
+******** primary interneuron '''8''' ''8''
+******** horizontal cell '''4''' ''4''
+***** electrically signaling cell '''0''' ''482''
+****** neuron '''57''' ''482''
+******* polymodal neuron '''0''' ''0''
+******* unipolar neuron '''0''' ''0''
+******* efferent neuron '''1''' ''94''
+******** eurydendroid cell '''0''' ''0''
+******** Purkinje cell '''4''' ''4''
+******** neurosecretory neuron '''1''' ''1''
+******** motor neuron '''32''' ''88''
+********* secondary motor neuron '''12''' ''12''
+********* spinal accessory motor neuron '''0''' ''0''
+********* primary motor neuron '''36''' ''44''
+********** CAP motoneuron '''8''' ''8''
+******* pioneer neuron '''0''' ''0''
+******* serotonergic neuron '''4''' ''4''
+******* CNS neuron (sensu Vertebrata) '''5''' ''47''
+******** pyramidal cell '''0''' ''0''
+******** Purkinje cell '''4''' ''4''
+******** Golgi cell '''0''' ''0''
+******** CNS interneuron '''2''' ''3''
+********* CNS short range interneuron '''0''' ''0''
+********* CNS long range interneuron '''1''' ''1''
+******** stellate cell '''0''' ''0''
+******** retinal ganglion cell '''34''' ''34''
+******** granule cell '''1''' ''1''
+******** Cajal-Retzius cell '''0''' ''0''
+******** basket cell '''0''' ''0''
+******* secondary neuron '''0''' ''12''
+******** secondary motor neuron '''12''' ''12''
+******* primary neuron '''19''' ''71''
+******** primary interneuron '''8''' ''8''
+******** primary motor neuron '''36''' ''44''
+********* CAP motoneuron '''8''' ''8''
+******* pseudounipolar neuron '''0''' ''0''
+******* afferent neuron '''0''' ''9''
+******** sensory neuron '''9''' ''9''
+********* extramedullary cell '''0''' ''0''
+******* sensory processing neuron '''0''' ''0''
+******* autonomic neuron '''0''' ''14''
+******** peptidergic neuron '''1''' ''1''
+******** cholinergic neuron '''0''' ''0''
+******** serotinergic neuron '''0''' ''0''
+******** GABAergic neuron '''1''' ''1''
+******** dopaminergic neuron '''11''' ''11''
+******** nitrergic neuron '''0''' ''0''
+******** adrenergic neuron '''1''' ''1''
+******** glutamatergic neuron '''0''' ''0''
+******* multipolar neuron '''0''' ''0''
+******* peripheral neuron '''0''' ''0''
+******* receptor cell (sensu Animalia) '''0''' ''96''
+******** stretch receptor cell '''0''' ''0''
+********* pressoreceptor cell '''0''' ''0''
+******** chemoreceptor cell '''0''' ''6''
+********* olfactory receptor cell '''2''' ''6''
+********** microvillous olfactory receptor neuron '''2''' ''2''
+********** crypt olfactory receptor neuron '''0''' ''0''
+********** ciliated olfactory receptor neuron '''2''' ''2''
+********* taste receptor cell '''0''' ''0''
+******** mechanoreceptor cell '''0''' ''33''
+********* hair cell '''18''' ''33''
+********** neuromast hair cell '''11''' ''11''
+********** hair cell posterior macula '''2''' ''2''
+********** hair cell anterior macula '''2''' ''2''
+********** immature hair cell posterior macula '''0''' ''0''
+********** immature hair cell anterior macula '''0''' ''0''
+******** pain receptor cell '''0''' ''0''
+******** thermoreceptor cell '''0''' ''0''
+******** photoreceptor cell '''2''' ''57''
+********* UV sensitive photoreceptor cell '''0''' ''0''
+********* eye photoreceptor cell '''9''' ''55''
+********** retinal rod cell '''23''' ''23''
+********** retinal cone cell '''23''' ''23''
+********* visible light photoreceptor cell '''0''' ''0''
+********** photopic photoreceptor cell '''0''' ''0''
+*********** red sensitive photoreceptor cell '''0''' ''0''
+*********** green sensitive photoreceptor cell '''0''' ''0''
+*********** blue sensitive photoreceptor cell '''0''' ''0''
+******** auditory receptor cell '''0''' ''0''
+******* interneuron spinal cord '''12''' ''12''
+******* interneuron '''3''' ''66''
+******** inhibitory interneuron '''0''' ''0''
+******** bipolar neuron '''4''' ''9''
+********* retinal bipolar neuron '''5''' ''5''
+********** cone retinal bipolar cell '''0''' ''0''
+********** OFF-bipolar cell '''0''' ''0''
+********** ON-bipolar cell '''0''' ''0''
+*********** rod bipolar cell '''0''' ''0''
+********** rod bipolar cell '''0''' ''0''
+******** CNS interneuron '''2''' ''3''
+********* CNS short range interneuron '''0''' ''0''
+********* CNS long range interneuron '''1''' ''1''
+******** stellate interneuron '''0''' ''0''
+********* neuroglioform cell '''0''' ''0''
+******** amacrine cell '''30''' ''30''
+******** Mauthner neuron '''9''' ''9''
+******** primary interneuron '''8''' ''8''
+******** horizontal cell '''4''' ''4''
+**** seminal fluid secreting cell '''0''' ''0''
