@@ -87,19 +87,20 @@ MGI batch query demo
 * Group annotations by author, annotation date  (Paula Mabee)
 * Allow taxon/gene/phenotype combinations for querying (Paula Mabee)
 
-== Taxon Concepts ==
+== Taxon Concepts (Monday, Sept. 29, 2008)==
+(Subgroup meeting: Peter Midford, Paula Mabee, Todd Vision, John Lundberg, Suzi Lewis, Judy Blake)
 
 Synonym scanner is working well but will never be perfect because CoF doesn't list every synonym in existence (because they may not detect every use in literature, or maybe deemed a name not worthy of addition as synonym)
 
-TJP: Have we checked requested taxa not in CoF against UBio - that would provide an LSID that could provide a dbxref to anchor the taxon
+TJP: Have we checked requested taxa not in CoF against UBio? - that would provide an LSID that could provide a dbxref to anchor the taxon
 
-Addition of synonyms not in TTO: currently Peter must add it by hand.
+Addition of synonyms not in TTO: currently Peter must add by hand.
 
 Need to track
-- Assoc between synonym, person who requested and publication?
+- Association between synonym, person who requested and publication?
 - Not being tracked right now.
 
-JGL: We don't want to give this to CoF because these synonyms are picked up in morphological or phylogenetic stdies.  These names that appear and we flag as synonyms to valid names in CoF are not names coming out of taxonomic research;  these are mistakes: OCR, typographical mistakes of author, or author mistakes of species in wrong genus.
+JGL: We don't want to give this to CoF because these synonyms are picked up in morphological or phylogenetic studies.  These names that appear and we flag as synonyms to valid names in CoF are not names coming out of taxonomic research;  these are mistakes: OCR, typographical mistakes of author, or author mistakes of species in wrong genus.
 
 Seems we should  track all of this in database?
 
@@ -118,7 +119,7 @@ synonym reference - how should it be handled?
 
 SL: synonym xref can be a person (initials)
 
-to summarize: full text ref would be in db; onotology owuld have a pointer to that
+to summarize: full text ref would be in db; ontology wpuld have a pointer to that
 
 Peter: need interface to the db; won't be visible to obo-edit
 - make the dbxref a url link to URI
@@ -143,7 +144,6 @@ Peter: synonym types:
 - all synonyms currently are related (the weakest relation).
 - we will want misspelling to be even weaker than related;
 - distinguish between published synonomy vs, curator made decision
--
 
 HL: weighing how trustworthy the evidence vs. designation of weak/strong; to HL, misspelling is a strong exact synonym not weak
 
