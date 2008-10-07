@@ -168,6 +168,10 @@ Evidence for synonym to current name assignment needs to be recorded.
 * Many of these publications could be imported from CoF, which maintains a database of publications with identifiers (CoF#).
 * Synonym assignments will have relationship type 'RELATED' except for misspellings, for which it would be 'EXACT'.
 
+=== Action items ===
+* Peter will request field for CAS pub # from OBO
+* Wasila/Paula provide full refs for all curated pubs with CAS number (if cited in CAS); PMID or DOI if not cited in CAS
+
 == Notes from Data Curation Sessions ==
 Sylvan Lake Lodge Meeting Room - September 29, 2008 (Monday)
 
