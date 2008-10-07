@@ -279,7 +279,7 @@ Action items:
 *Paula & John: Will work up optimization example for group that summarizes basic user mapping needs
 
 == Curation consistency experiment: Review of Results ==
-
+DATE?  WHO DID THIS EXPERIMENT? LINK OUT TO DOC?
 Character #2
 * difference between depth, length, width
 * some failed to post-compose (e.g., increased length)
