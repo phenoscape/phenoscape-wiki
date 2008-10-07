@@ -16,8 +16,8 @@ One of the attractions of a traditional taxonomy for ontology builders that it c
 ===Problems with the "traditional" view===
 * The only criterion for inclusion within a taxonomic group is physical descent from a member of that group (we are assuming a taxonomy consistent with phylogeny).  There are no universal properties one could ascribe to members of "Mammalia", besides things the members happen to share at this moment.  "Hair" is often used an example of a Mammalian property; but of course its commonality is the result of its presence in the common ancestor of all mammals, and many mammals lack hair almost entirely.  A mammal species that had no hair at all would nevertheless still be a mammal. Such reversals are common in phylogenies and can occur for both morphological properties (e.g., loss of legs in snakes) and molecular characters (e.g., inferred origin of pseudogenes).
 * Descendant terms do not inherit (ontologically) all of the characteristics of their parents.  For example, Rodentia has a different age and geographic range from Mammalia.
-* Properties of a taxonomic group change through time: its geographic range, genetic and morphological diversity, etc.  It can go extinct.  These properties inhere in the group, not any one individual.  
-* Treating taxonomic groups as "classes" or "types" reinforces essentialist ideas of life forms, which evolutionary biology has completely overturned.  Essentialist thought is a hindrance to understanding of the evolutionary process. 
+* Properties of a taxonomic group change through time: its geographic range, genetic and morphological diversity, etc.  It can go extinct.  These properties inhere in the group, not any one individual.
+* Treating taxonomic groups as "classes" or "types" reinforces essentialist ideas of life forms, which evolutionary biology has completely overturned.  Essentialist thought is a hindrance to understanding of the evolutionary process.
 * Most contemporary treatments of the species concept (refs) treat them, and in many cases higher taxa, as individuals, possessing a history.
 
 Instead of treating taxa as types in an ontology, we can treat individual taxa as instances of the type Taxon, or more specifically as instances of some taxonomic rank (see figure above).
@@ -44,4 +44,7 @@ This approach is attractive because it allows taxa to be both classes, in line w
 
 ===Disadvantages===
 The main disadvantage with this approach is its complexity, both for human understanding and for reasoning.
+
 [[Category:Ontology]]
+[[Category:Taxonomy]]
+[[Category:Informatics]]
