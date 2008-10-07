@@ -2,7 +2,81 @@
 title: Data Jamboree 2/Notes
 ---
 
-==TAXON CONCEPTS==
+== User interface ==
+
+=== User interface demonstration ===
+
+* option for hierarchical indexing of results (taxonomy, phylogeny, but also anatomy ontology)
+* mapping characters on a tree: multiple phenotypes may match any particular query
+** map to different colors for indicators? use numbers as indexes?
+** mapping phenotypes onto trees cannot typically reconstruct character state changes, and hence traditional visualizations may be misleading?
+* ability to prune species with no data (values) for export
+* search interface: ability to combine taxon/entity/quality specifications (and, or, not)
+* graph navigation: Dbgraphnav, Cytoscape
+* clickable fish image for starting navigation
+* most common entry point is likely to be a simple one-field form for entering terms
+* phenotype query prototype: how do I get from here to the genes?
+* ability to see correlations between phenotypes
+
+MGI batch query demo
+* users don't use complex query forms
+* auto-detect type of input tokens
+* allow download in different formats
+* computationally savvy users
+* pre-written SQL as  available from GO website
+
+=== User interface strategy ===
+
+* Most common entry gateways: search by
+** taxon
+** gene (from ZFIN)
+** anatomical entity
+* Use case: find evolutionary phenotypes that match a mutant ZFIN phenotype
+** Query by phenotype, result is species and ZFIN mutants that have matching annotations
+** Alternatively, query by phenotype profile (several phenotypes)
+*** This could be retrieved by ZFIN mutant rather than typing them all in
+* Inverting this use case: find ZFIN mutants for a set of phenotypes that differs between two taxa
+** Query by two taxa, pull out all phenotype annotations that aren't annotated to both taxa (each of which may be a clade)
+** User can remove phenotype annotations from that result to create the search profile
+* Use case: find matching taxa and/or genes for a phenotype or phenotype profile
+** Query by anatomical entity to retrieve matching phenotypes ([Q]ualities, essentially)
+** Build phenotype profile from that (choosing or removing phenotype annotations)
+* Summarization of results:
+** Number of matching taxa, ZFIN genes, publications
+* Search by anatomy term
+** obtain the qualities (and entities if query is higher-level) for the query term
+** use this to be build query profile for obtaining matching ZFIN genes  
+* Search by taxon:
+** results in phenotypes annotated to this taxon
+** list of publications, possibly as a secondary result after narrowing down phenotype list by anatomy term
+** should be able to see where in the tree the currently selected taxon is
+* Search publications:
+** Search by author, by taxon, by anatomical term
+** Search by identifier (doi)
+* Search by ZFIN gene (or mutant)
+** Results in phenotypes annotated to this mutant
+** Use these to retrieve publications describing such phenotypes (regardless of taxon or gene)
+** Obtain the number of these phenotypes that are used for evolutionary annotation (i.e., annotated to - presumably normal - taxa)
+* Summarizing data per publication
+** number of taxa and/or anatomical entities or phenotypes matching the original query, compared to overall number of taxa or anatomical entities or phenotypes
+
+=== Feedback and Suggestions on proposed Phenoscape UI === 
+* Data cube like representation to represent taxa, phenotypes, and genes on three dimensions. This should allow combinations of two of the three parameters to be displayed at any given time(Rick Mayden)
+* While looking for gene-phenotype associations, display ALL phenotypes the gene is associated with IN ADDITION to the phenotypes of interest (Rick Mayden)
+* Term Information area for a selected term can be used to display all synonyms (dbxrefs?) and misspellings (Rick Mayden)
+* In publication search results, indicate whether the publication was curated or not. If curated, display the details of curations such as curator's info, date curated, and importantly, versions of the ontologies that were used in the curation process (Mark Sabaj, Rick Mayden)
+* Provide external links to other morphological databases such as MorphBank, MorphoBank etc (Rick Mayden, Mark Sabaj, Terry Grande, Eric Hilton)
+* Enable search for related entity to the phenotype (Eric Hilton)
+* While displaying publications, include a link to Authors' page and if possible, links to related people (Terry Grande)
+* Provide links to images (Terry Grande)
+* Group phenotype query results by taxa. Higher taxa should be expandable to display lower taxa (Paula Mabee, John Lundberg)
+* Display result distributions among taxa when displaying results from phenotype queries (Paula Mabee)
+* Group results by author, publication date etc while displaying publications (Paula Mabee)
+* Group annotations by author, annotation date  (Paula Mabee)
+* Allow taxon/gene/phenotype combinations for querying (Paula Mabee)
+
+== Taxon Concepts ==
+
 Synonym scanner is working well but will never be perfect because CoF doesn't list every synonym in existence (because they may not detect every use in literature, or maybe deemed a name not worthy of addition as synonym)
 
 TJP: Have we checked requested taxa not in CoF against UBio - that would provide an LSID that could provide a dbxref to anchor the taxon
@@ -83,6 +157,7 @@ Evidence for synonym to current name assignment needs to be recorded.
 * Synonym assignments will have relationship type 'RELATED' except for misspellings, for which it would be 'EXACT'.
 
 [[Category:Curation]]
-[[Category:Data Jamboree 2]]
 [[Category:Ontology]]
 [[Category:Taxonomy]]
+[[Category:Informatics]]
+[[Category:User Interface]]
