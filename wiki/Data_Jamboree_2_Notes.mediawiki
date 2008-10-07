@@ -221,18 +221,6 @@ JB: put 2-3 people together to do anatomical subtree: send out invite to ontolog
 * Terry asking Jeff how to enter post-composed terms
 
 
-== Project Personnel Meeting ==
-September 30, 2008 (Tuesday)
-
-'''''Wasila's notes:'''''
-
-Advisor's feedback
-
-*Suzi: curators need to be aware that if they don't find the most appropriate term, they should not settle for the closest term but request what they need
-
-*Judy: curators should be aware of 2 jobs: annotation and ontology improvement
-
-*Suzi: add Wasila as ontology writer to Pato
 
 
 == Wrap-up discussion with curators ==
