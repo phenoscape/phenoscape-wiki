@@ -517,3 +517,4 @@ is_a: TTO:taxonomic_rank ! taxonomic_rank
 </pre>
 
 [[Category:Ontology]]
+[[Category:Taxonomy]]
