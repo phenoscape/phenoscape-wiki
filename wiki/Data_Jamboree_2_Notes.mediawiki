@@ -231,28 +231,28 @@ JB: put 2-3 people together to do anatomical subtree: send out invite to ontolog
 == Wrap-up discussion with curators ==
 October 1, 2008 (Wed morning)
 
-'''''Wasila's notes'''''
+'''''Wasila + Paula's notes'''''
 
 Paula: suggestions for improving curation process?
 
 *Terry: would like to go through a paper first to deal with needed terms
 **also liked annotating easy terms to become familiar with ontology structure
 
-*John: some things, like joints, can be added in bulk
+*John: some things, like joints, can be added in bulk (e.g. in ontology development meeting like the one in Philadelphia)
 
-*All: visualization issues - how to know what is there, and their relationships
-**Need large poster of all terms
+*All: Had visualization issues - how to know what terms are there, and their relationships?
+**Need large poster of all terms (Paula, Wasila, Jeff Engeman will make one and send file to all curators to print)
 
 **Paula: PDF mark-up tool that highlights terms matching to TAO; characters not highlighted would likely require new term
-**Todd and Paula: use Phenex to highlight ontology terms because character and state descriptions from pub are pre-entered as free text
+**Todd and Paula: use Phenex to highlight ontology terms because character and state descriptions from pub are pre-entered as free text (Paula added this to Phenex tracker)
 
-*Mark: how does a curator decide to precompose vs. postcompose
+*Mark: how does a curator decide to precompose vs. postcompose?
 **Wasila: if entity will be used repeatedly (in single or multiple pubs) then add to TAO; if not, post-compose
 **Mark: when post-composing, would be helpful if Phenex would autocomplete to pre-composed cross-product term (if present in TAO) so that curator can be aware of similar term in ontology
 
 *Suzi: tough anatomy stuff: you can discuss as a group of curators then submit and enter in ontology
 
-*Paula: need to set up svn for Phenex files - WD will send instructions to new curators
+*Paula: need to set up svn for Phenex files (Jim will do this) - WD will send instructions to new curators
 
 *Rick: can we break down single character into  multiple characters?
 **Paula: make into multiple annotations - don't break down character
@@ -261,21 +261,22 @@ Paula: suggestions for improving curation process?
 **Paula: curate it all separately
 **Jim: duplicates will come together in database
 
-Paula: non-curation of present entities
-*curate for basal taxa or annotate presence for a higher level group with weak evidence code
+Paula: Problem I am worrying about: Currently we are not curating of entities that are always present (e.g. "maxilla" present in all Teleostei).  Problem is that users may search for distribution of a character and may find variability in very restricted taxon (genus) but have no information as to the condition in the larger group (teleost fishes).  Need to add these conserved characters. Two approaches - either fine for us - need input from Jim regarding database feasibility.  
 
-*propogate by evolutionary inference
+* 1. Inherit: annotate 1-2 basal species within each ostariophysan subgroup whose character states are optimized to ancestral/internal nodes.
+* 2. Propagate: annotate higher level group node (e.g. "Teleostei") with a character state (e.g. "presence") and flag with weak evidence code.  This character state is propagated to leaf nodes/species/terminals (unless run into different character state).  
 
-*Jim: phenotypes are exhibits; congregate exhibits to higher level seems to be ok to do (e.g., cypriniformes exhibit red and blue dorsal fin)
+* Jim: preference for 1 (inherit); 
+* Jim: relationship between EQ and taxon: "inferred to exhibit"; phenotypes are exhibited by taxa; congregating "exhibits" to higher levels seems to be ok to do (e.g., cypriniformes exhibit red and blue dorsal fin)
 
-* inheritance vs. propagation
+* Jim: might need more than one relationship between taxon and a phenotype; right now we have "exhibits" as the relationship
+* John: We want biological principles incorporated here/ examples of optimization
 
-* might need more than one reationship between taxon and a phenotype; right now we have exhibits as the relationship
+* Paula: This relates to character mapping/optimization.  May need new methods to optimize EQs?
 
-* Paula: This relates to character mapping
-
+Action items:
 *Paula: Will followup with curators regarding completeness of literature surveyed
-
+*Paula & John: Will work up optimization example for group that summarizes basic user mapping needs
 
 == Curation consistency experiment: Review of Results ==
 
