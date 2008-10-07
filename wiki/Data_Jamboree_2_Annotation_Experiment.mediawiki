@@ -45,3 +45,4 @@ Character #10
 * triradiate versus tripartite
 
 [[Category:Data Jamboree 2]]
+[[Category:Curation]]
