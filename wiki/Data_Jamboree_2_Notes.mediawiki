@@ -169,6 +169,7 @@ Evidence for synonym to current name assignment needs to be recorded.
 * Synonym assignments will have relationship type 'RELATED' except for misspellings, for which it would be 'EXACT'.
 
 === Action items ===
+* Peter will try UBIO for synonyms not in CAS (and report to Phenoscape group)
 * Peter will request field for CAS pub # from OBO
 * Wasila/Paula provide full refs for all curated pubs with CAS number (if cited in CAS); PMID or DOI if not cited in CAS
 
