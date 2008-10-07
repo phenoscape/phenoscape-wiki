@@ -6,6 +6,19 @@ title: Data Jamboree 2/Notes
 
 === User interface demonstration ===
 
+* Visualization
+*# Jim Balhoff suggested enabling drill down from higher taxa to lower ones. Typically, query for annotations will yield more results at higher levels in the taxonomy. Drilling down into the lower levels will serve to prune the results and narrow down to users' exact requirements. Monte Westerfield, and Paula Mabee seconded.
+*# Mark Sabaj suggested using a fish landscape with different predefined areas for visualization of results and guiding the search. Paula Mabee and John Lundberg approved.
+*# Todd Vision suggests displaying only those nodes of a taxonomy that have been annotated
+*# Judith Blake suggested using Cytoscape to browse through various nodes in the tree
+*# Monte Westerfield suggested linking phenotypes to genes
+*# Todd Vision suggested character correlations
+
+* Querying
+*# Todd Vision suggested using auto composition of search terms
+*# Monte Westerfield suggested using Boolean combinations of query parameters. Seconded by Judith Blake
+
+Other notes:
 * option for hierarchical indexing of results (taxonomy, phylogeny, but also anatomy ontology)
 * mapping characters on a tree: multiple phenotypes may match any particular query
 ** map to different colors for indicators? use numbers as indexes?
@@ -224,7 +237,7 @@ Advisor's feedback
 
 
 == Wrap-up discussion with curators ==
-October 1, 2008 (Wed morning) 
+October 1, 2008 (Wed morning)
 
 '''''Wasila's notes'''''
 
