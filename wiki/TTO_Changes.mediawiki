@@ -19,7 +19,7 @@ TTO - [http://phenoscape.org/wiki/Taxonomy_ontology Teleost Taxonomy Ontology]
 Note: Obsoleting a term means it is no longer available for use and does not appear in the main hierarchy of the TTO.  Phenoscape needs to retain the name and term id so that prior annotations to the term do not break.
 
 * '''Family added''' A new TTO term is created, which should have a dbxref referring to the publication or some CoF derived identifier.
-* '''Family obsoleted''' The TTO term and id are obsoleted. Genera are moved to a new family or a higher taxon. 
+* '''Family obsoleted''' The TTO term and id are obsoleted. Genera are moved to a new family or a higher taxon.
 
 * '''Genus added''' A new TTO term is created, which should have a dbxref referring to the publication or a (new) CASGEN identifier
 * '''Genus obsoleted''' The TTO term and id are obsoleted.  Any species under this genus are changed to the new genus.
@@ -66,9 +66,9 @@ Notes: This update contains many subfamily assignments.  We don't currently incl
 * ''Mirolabeo'' no change, uncertain demotion to synonym of ''Bangana''
 * ''Vaillantellidae'' added as family (Slechtova et al. 2007)
 * ''Vaillantella'' moved to family Vaillantellidae
-* ''Caucus'' – appears as cypriniform in online CoF, but was not in CAS species table so never added to TTO; after consultation recommendation was to remove/not add; no change. 
+* ''Caucus'' – appears as cypriniform in online CoF, but was not in CAS species table so never added to TTO; after consultation recommendation was to remove/not add; no change.
 * ''Oreodaimon'' – appears as synonym to Pseudolabrus in online CoF, no change.
-* ''Orthrias barbatulus zetensis'' no change (already demoted in CoF) 
+* ''Orthrias barbatulus zetensis'' no change (already demoted in CoF)
 * ''Schistura cryptofasciata'' no change (already in CoF; CASSPC 68781)
 * ''Notropis harperi'' changed to/demoted to synonym of ''Pteronotropis harperi''
 * ''Microrasbora micropthalma'' added as species (Jiang, Chen & Yang 2008)
@@ -91,7 +91,7 @@ Notes: This update contains many subfamily assignments.  We don't currently incl
 
 =Changes resulting from publication Vari(1995)=
 
-Citation is: 
+Citation is:
 Vari RP. 1995. The Neotropical fish family Ctenoluciidae (Teleostei:
 Ostariophysi: Characiformes): supra and intrafamilial phylogenetic
 relationships, with a revisionary study. ''Smithsonian Contributions to
@@ -141,3 +141,7 @@ Cavender, Ted M., and Miles M. Coburn. 1992. Phylogenetic relationships of North
 * ''Moroco steindachneri'' added as synonym for ''Phoxinus steindachneri''
 * ''Osteocheilus hasseltii'' added as synonym for ''Osteochilus hasseltii''
 * ''Rhotee cotio'' added as synonym for ''Osteobrama cotio''
+
+[[Category:Ontology]]
+[[Category:Taxonomy]]
+[[Category:Informatics]]
