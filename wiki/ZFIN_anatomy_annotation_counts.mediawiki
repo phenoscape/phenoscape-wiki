@@ -2,7 +2,7 @@
 title: ZFIN anatomy annotation counts
 ---
 
-The first number is the count of direct annotations to the term.  The second number is the sum of all annotations to that term and its ''IS_A'' descendants.
+===The first number is the count of direct annotations to the term.  The second number is the sum of all annotations to that term and its ''IS_A'' descendants.===
 
 * zebrafish anatomical entity 0 10345
 ** portion of organism substance 0 11
