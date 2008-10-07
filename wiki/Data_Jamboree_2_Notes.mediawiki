@@ -261,12 +261,12 @@ Paula: suggestions for improving curation process?
 **Paula: curate it all separately
 **Jim: duplicates will come together in database
 
-Paula: Problem I am worrying about: Currently we are not curating of entities that are always present (e.g. "maxilla" present in all Teleostei).  Problem is that users may search for distribution of a character and may find variability in very restricted taxon (genus) but have no information as to the condition in the larger group (teleost fishes).  Need to add these conserved characters. Two approaches - either fine for us - need input from Jim regarding database feasibility.  
+Paula: Problem: Currently we are not curating of entities that are always present (e.g. "maxilla" present in all Teleostei).  Problem is that users may search for distribution of a character and may find variability in very restricted taxon (genus) but have no information as to the condition in the larger group (teleost fishes).  Need to add these conserved characters. Two approaches - either fine for us - need input from Jim regarding database feasibility.
 
 * 1. Inherit: annotate 1-2 basal species within each ostariophysan subgroup whose character states are optimized to ancestral/internal nodes.
-* 2. Propagate: annotate higher level group node (e.g. "Teleostei") with a character state (e.g. "presence") and flag with weak evidence code.  This character state is propagated to leaf nodes/species/terminals (unless run into different character state).  
+* 2. Propagate: annotate higher level group node (e.g. "Teleostei") with a character state (e.g. "presence") and flag with weak evidence code.  This character state is propagated to leaf nodes/species/terminals (unless run into different character state).
 
-* Jim: preference for 1 (inherit); 
+* Jim: preference for 1 (inherit);
 * Jim: relationship between EQ and taxon: "inferred to exhibit"; phenotypes are exhibited by taxa; congregating "exhibits" to higher levels seems to be ok to do (e.g., cypriniformes exhibit red and blue dorsal fin)
 
 * Jim: might need more than one relationship between taxon and a phenotype; right now we have "exhibits" as the relationship
