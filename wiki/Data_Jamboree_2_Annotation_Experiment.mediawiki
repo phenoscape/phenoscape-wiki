@@ -14,6 +14,8 @@ Only one of the five curators had experience using Phenex prior to the data roun
 
 ===Results:===
 
+A summary of results for each character is presented below, and a comparison to the [[Data_Jamboree_1/Annotation_Experiment | first consistency experiment]] given at the Data Jamboree I is presented in this  [[Data_Jamboree_2/Annotation_Experiment#Comparison_of_Consistency_Experiment_I_vs._II | table.]]  Additional notes on the discussion of results with curators and advisors can be found [[Data_Jamboree_2/Notes#Curation_consistency_experiment:_Review_of_Results | here.]]
+
 ====Character Summary and Suggestions for Improvement====
 
 ''1. Presence or absence of intercalar: (0) present; (1) absent.3''
@@ -21,10 +23,10 @@ Only one of the five curators had experience using Phenex prior to the data roun
 *Summary: all curators annotated this character identically
 ''2. Opercle depth to width ratio: (0) less than two; (1) about two or greater than two. Essentially, this character distinguishes between those taxa with a short, relatively broad opercle and those with a tall relatively slender opercle.2''
 *Consistency: 1/5
-*Summary of variable annotations: 
-**The majority of curators used various size qualities (e.g., increased width; decreased depth) to describe differences in shape.  
+*Summary of variable annotations:
+**The majority of curators used various size qualities (e.g., increased width; decreased depth) to describe differences in shape.
 *Suggestions to improve consistency:
-** Definitions of size terms need to be improved; also, size and it's children do not share a parent with shape. 
+** Definitions of size terms need to be improved; also, size and it's children do not share a parent with shape.
 ** Annotation of characters with detailed size information should be annotated to higher level (shape in this case).
 '''''3.''' Number of unbranched plus branched pelvic-fin rays: (0) 11; (1) nine; (2) more than 11.3''
 *Consistency: 3/5
@@ -42,7 +44,7 @@ Only one of the five curators had experience using Phenex prior to the data roun
 *** in fact it can also be that the cartilage is absent b/c it has developed into the bone (completely ossified)
 *** hence need to add that basihyal is absent too
 ** graph view can be very helpful to visualize develops_from relationships
-''5. Position of anterior margin of nasal: (0) falling short of lateral process of mesethmoid (= lateral ethmoid wing of Weitzman, 1962); (1) extending anteriorly to overlie or extend beyond lateral process of mesethmoid.3'' 
+''5. Position of anterior margin of nasal: (0) falling short of lateral process of mesethmoid (= lateral ethmoid wing of Weitzman, 1962); (1) extending anteriorly to overlie or extend beyond lateral process of mesethmoid.3''
 *Consistency: 1/5
 *Summary:
 **Incorrect entity (naris vs. nasal bone) used in post-composition
@@ -63,7 +65,7 @@ Only one of the five curators had experience using Phenex prior to the data roun
 ''7. Presence or absence of medially directed, spine-like process on ventral surface of post-temporal: (0) present; (1) absent.3''
 *Consistency: 3/5
 *Summary:
-**post-composed entity incorrectly started with quality term 
+**post-composed entity incorrectly started with quality term
 **post-composed entity term lacking spatial information
 *Suggestions:
 ** Software should ensure that entity starts with a spatial or anatomy term if post-composed, not a quality
@@ -91,7 +93,7 @@ References:
 
 1Hilton, EJ. 2003. Comparative osteology and phylogenetic systematics of fossil and living bony-tongue fishes (Actinopterygii, Teleostei, Osteoglossomorpha). Zoological Journal of the Linnean Society 137:1-100.
 
-2Sanger, TJ and AR McCune. 2002. Comparative osteology of the Danio (Cyprinidae: Ostariophysi) axial skeleton with comments on Danio relationships based on molecules and morphology. Zoological Journal of the Linnean Society 135: 529-546. 
+2Sanger, TJ and AR McCune. 2002. Comparative osteology of the Danio (Cyprinidae: Ostariophysi) axial skeleton with comments on Danio relationships based on molecules and morphology. Zoological Journal of the Linnean Society 135: 529-546.
 
 3Zanata AM and Vari RP. 2005. The family Alestidae (Ostariophysi, Characiformes): a phylogenetic analysis of a trans-Atlantic clade. Zoological Journal of the Linnean Society 145: 1-144.
 
@@ -108,7 +110,7 @@ Completed Annotations (n=5; Exp. II)
 |-
 | 1 || 4 || 100 || 5 || 100
 |-
-| 2 || 3 || 0  || 5 || 20 
+| 2 || 3 || 0  || 5 || 20
 |-
 | 3 || 3 || 0  || 4 || 60
 |-
@@ -126,7 +128,7 @@ Completed Annotations (n=5; Exp. II)
 |-
 | 10 || 2 || 50  || 5 || 100
 |-
-| 
+|
 |}
 
 ====Raw data from participants====
