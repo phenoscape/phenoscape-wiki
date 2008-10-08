@@ -37,7 +37,9 @@ For Participants
 **[http://sourceforge.net/tracker/?atid=1046550&group_id=76834&func=browse link to submit Taxonomy Requests]
 * [[Resources for curators | Additional resources for curator]]
 
-Notes and Experiment Results
+[https://www.nescent.org/phenoscape/Data_Jamboree_2/Notes Notes]
+
+[[Data_Jamboree_2/Annotation_Experiment | Consistency Experiment Results]]
 
 ==Logistics==
 
