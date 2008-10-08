@@ -93,7 +93,7 @@ MGI batch query demo
 
 Synonym scanner is working well but will never be perfect because CoF doesn't list every synonym in existence (because they may not detect every use in literature, or maybe deemed a name not worthy of addition as synonym)
 
-TJP: Have we checked requested taxa not in CoF against UBio? - that would provide an LSID that could provide a dbxref to anchor the taxon
+TJP (TV?): Have we checked requested taxa not in CoF against UBio? - that would provide an LSID that could provide a dbxref to anchor the taxon
 
 Addition of synonyms not in TTO: currently Peter must add by hand.
 
@@ -131,7 +131,7 @@ PM: synonym types necessary? misspellings; narrow etc...
 
 Peter: Hoping we can scan stuff in from CoF
 
-John: see ANSP collection search: type in a type specimen name and it pulls in the CoF ref
+JGL: see ANSP collection search: type in a type specimen name and it pulls in the CoF ref
 need CoF identifier; CASspec?
 
 PM: who should do this?
