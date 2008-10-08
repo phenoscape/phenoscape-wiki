@@ -113,14 +113,14 @@ PM: ed publication information (DOI, SCSI)
 -CoF has an internal reference
 - We also need to record the full citation ourselves (name, year, unpublished dissertation...)
 
-Peter: dbxref from CoF add to TTO
-TTO just hold dbxref not whole ref (no structured place to hold it).
+Peter: dbxref from CoF can be added to TTO;  OBO ontologies are structured to hold dbxrefs,
+whole references in any structured way.
 
 synonym reference - how should it be handled?
 
 SL: synonym xref can be a person (initials)
 
-to summarize: full text ref would be in db; ontology wpuld have a pointer to that
+to summarize: full text ref would be in db; ontology would have a pointer to that
 
 Peter: need interface to the db; won't be visible to obo-edit
 - make the dbxref a url link to URI
@@ -172,7 +172,7 @@ Evidence for synonym to current name assignment needs to be recorded.
 === Action items ===
 * Peter will try UBIO for synonyms not in CAS (and report to Phenoscape group)
 * Peter will request dbx prefix from OBO for specifying CAS publication ids (e.g., CASREF)
-* Peter will propose scheme for adding the name of the requester to synonyms added to the TTO 
+* Peter will propose scheme for adding the name of the requester to synonyms added to the TTO
 * Wasila/Paula provide full refs for all curated pubs with CAS number (if cited in CAS); PMID or DOI if not cited in CAS
 
 == Notes from Data Curation Sessions ==
