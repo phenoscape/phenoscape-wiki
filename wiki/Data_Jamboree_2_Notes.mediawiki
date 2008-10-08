@@ -281,7 +281,10 @@ Action items:
 *Paula & John: Will work up optimization example for group that summarizes basic user mapping needs
 
 == Curation consistency experiment: Review of Results ==
-DATE?  WHO DID THIS EXPERIMENT? LINK OUT TO DOC?
+Five curators (Engeman, Grande, Hilton, Mayden, Sabaj) participated in the consistency experiment on September 30, 2008 (Wed.).  The results of the experiment are discussed in more detail [[Data_Jamboree_2/Annotation_Experiment | here ]]. 
+
+'''''Hilmar's notes on discussion of experiment with curators and advisors'''''
+
 Character #2
 * difference between depth, length, width
 * some failed to post-compose (e.g., increased length)
