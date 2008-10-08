@@ -130,6 +130,7 @@ Completed Annotations (n=5; Exp. II)
 |}
 
 ====Raw data from participants====
+* [[Media:Consistency-expt-II-rawdata.xls|download excel file]]
 
 [[Category:Data Jamboree 2]]
 [[Category:Curation]]
