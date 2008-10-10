@@ -88,6 +88,8 @@ Please report any issues you come across by using the [https://sourceforge.net/t
 
 ==Curatorial Best Practices==
 
+===[[Data Repository Access Instructions]]===
+
 ===[[Phenex|Merging files in Phenex]]===
 
 
