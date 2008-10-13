@@ -46,12 +46,10 @@ For Windows, click on the link "phenex-1.0-beta10-win.zip"
 You need Java 1.5 or newer to run Phenex.  For the Mac this requires Mac OS X 10.4 or newer. How to check your java version:
 
 * Windows:
-Go to http://www.java.com.  Click on "Do I have Java?".  On the following page don't worry if it says "Oops!  You don't have the recommended Java installed."  Look at the next line where it might say "Your Java version is Version 6 update 5".  It should be Version 5 or higher.  If you don't have Java at all or have an older version, please click on the Download Java Now link and install it.  If you would rather not do this yourself, we can look at it at the jamboree.
+Go to http://www.java.com.  Click on "Do I have Java?".  On the following page don't worry if it says "Oops!  You don't have the recommended Java installed."  Look at the next line where it might say "Your Java version is Version 6 update 5".  It should be Version 5 or higher.  If you don't have Java at all or have an older version, please click on the Download Java Now link and install it.  
 
 * Mac:
 If you have a Mac, you should be fine if you have Mac OS X 10.4 or higher (Java comes with the system).  Click on the Apple menu at the left of your menubar, and choose "About This Mac".  Under "Mac OS X" it should have the Mac OS version number.
-
-
 
 ====Usage====
 
