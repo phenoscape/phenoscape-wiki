@@ -142,6 +142,21 @@ Cavender, Ted M., and Miles M. Coburn. 1992. Phylogenetic relationships of North
 * ''Osteocheilus hasseltii'' added as synonym for ''Osteochilus hasseltii''
 * ''Rhotee cotio'' added as synonym for ''Osteobrama cotio''
 
+=Update from August 2008 Catalog of Fishes=
+TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.  
+
+=Changes resulting from publication Roberts (1969)=
+
+Citation is:
+Roberts, T. R. 1969. Osteology and relationships of characoid fishes, particularly the genera Hepsetus, Salminus, Hoplias, Ctenolucius and Acestrorhynchus. Proceedings of the California Academy of Sciences 36:391-500.
+
+* ''Anostomus sp. (Roberts 1969)'' added as species
+* ''Chilodus sp. (Roberts 1969)'' added as species
+* ''Hoplias sp. (Roberts 1969)'' added as species
+* ''Hydrocynus sp. (Roberts 1969)'' added as species
+* ''Mylossoma sp. (Roberts 1969)'' added as species
+* ''Serrasalmus sp. (Roberts 1969)'' added as species
+
 [[Category:Ontology]]
 [[Category:Taxonomy]]
 [[Category:Informatics]]
