@@ -25,7 +25,7 @@ Other ontologies:
 
 ===On your desktop===
 
-You can download the ontologies as OBO files from the above web sites.  You can download and install [http://oboedit.org/ OBO-Edit] to view in a desktop application.
+Ontologies can be downloaded as OBO files from the above web sites, and viewed on your desktop using the [http://oboedit.org/ OBO-Edit] desktop software.
 
 ==Annotating phenotypes==
 
