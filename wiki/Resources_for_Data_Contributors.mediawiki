@@ -103,7 +103,6 @@ Please report any issues you come across by using the [https://sourceforge.net/t
 *'''[[Term_Requests | Term Request Instructions]]'''
 *'''Links to ontology term trackers'''
 ** [http://sourceforge.net/tracker/?group_id=76834&atid=994764 Teleost anatomy tracker]
-** [http://sourceforge.net/tracker/?group_id=76834&atid=994726 Zebrafish anatomy tracker]
 ** [http://sourceforge.net/tracker/?atid=1046550&group_id=76834 Teleost taxonomy ontology tracker]
 ** [http://sourceforge.net/tracker/?group_id=76834&atid=595654 PATO tracker]
 
