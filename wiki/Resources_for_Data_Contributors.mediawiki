@@ -6,14 +6,14 @@ title: Resources for Data Contributors
 
 ===On the web===
 
-Many [[Ontologies|ontologies]] are available for browsing at the [http://www.bioontology.org/ncbo/faces/index.xhtml NCBO BioPortal].  For example:
+Many [[Ontologies|ontologies]] are available for browsing at the [http://www.bioontology.org/ncbo/faces/index.xhtml NCBO BioPortal]. For example:
 
 * [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (TAO)]
 
 * [http://bioportal.bioontology.org/visualize/38363 Teleost Taxonomy Ontology (TTO)] (generated, with some modifications, from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes])
 
 * [http://bioportal.bioontology.org/visualize/38339 Phenotype and Trait Ontology (PATO)]
-Click the "Visualize" button on the ontology's homepage to browse it graphically.
+Click on the "Visualization" tab to browse the ontologies graphically.
 
 Other ontologies:
 
