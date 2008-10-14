@@ -277,7 +277,7 @@ Paula: Problem: Currently we are not curating of entities that are always presen
 * Paula: This relates to character mapping/optimization.  May need new methods to optimize EQs?
 
 Action items:
-*Paula: Will followup with curators regarding completeness of literature surveyed
+*Paula: Will followup with curators regarding completeness of literature surveyed --[[User:Pmabee@usd.edu|Pmabee@usd.edu]] 11:05, 14 October 2008 (EDT)Done
 *Paula & John: Will work up optimization example for group that summarizes basic user mapping needs
 
 == Curation consistency experiment: Review of Results ==
