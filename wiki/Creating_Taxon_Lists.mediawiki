@@ -27,7 +27,6 @@ Note: Be sure to hit enter/return after typing or pasting data, otherwise Phenex
 #If a taxon is not identified to species in the materials list, then leave the Valid Taxon field blank.  For example, ''Arius'' sp. might be listed in the materials list; do not choose ''Arius'' from Valid Taxon; simply type ''Arius'' sp. in Publication Taxon.  Likewise, an author may indicate uncertainty in a species identification (e.g., ''Devario'' cf. ''devario'' or ''Devario'' aff. ''devario'') and therefore Valid Taxon should be left blank.**NB: Do not choose a taxon name from the drop down menu if it includes citation to another publication; using the example above, you might find Arius sp. (Jones 1990) in the drop down menu, but don't choose this as the Valid Taxon because it refers to an Arius sp. in another publication. By leaving the Valid Taxon field blank, Peter or Wasila will know to add Arius sp. (Smith 2008) to the taxonomy ontology, and we will update this file at a later time with this Valid Taxon name.
 
 ====Hints====
-*If the genus is misspelled in the paper, sometimes typing just the species name will find the correct binomial.
 *In the Annotation Table tab, the ‘-‘ button will delete the currently selected row(s).
 *All data entry can be done in the Annotation Table by double or triple clicking cells until a blinking cursor appears.
 
