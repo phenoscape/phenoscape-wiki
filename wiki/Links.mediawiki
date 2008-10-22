@@ -2,8 +2,6 @@
 title: Links
 ---
 
-==Links relevant to the project==
-
 ===Ontologies===
 
 '''[http://www.bioontology.org National Center for Biomedical Ontology]'''
@@ -57,8 +55,6 @@ See the [[Publications and Posters|publications page]] for manuscripts and poste
 
 We also maintain a list of references on [http://www.connotea.org Connotea], using the tag "[http://www.connotea.org/tag/phenoscape phenoscape]". This list may be more up-to-date than the bibliography below. Anyone can easily recommend references (and in fact any site or resource) to us simply by tagging it with "phenoscape" in Connotea.
 
-
-===References===
 <biblio>
 #rosen1974 Rosen DE. 1974. ''[http://hdl.handle.net/2246/606 Phylogeny and zoogeography of salmoniform fishes and relationships of Lepidogalaxias salamandroides].'' Bulletin of the American Museum of Natural History 153:267-325.
 #finkfink1981 Fink SV, Fink WL. 1981. ''Interrelationships of the ostariophysan fishes (Teleostei)''. Zoological Journal of the Linnean Society 72(4):297-353.
