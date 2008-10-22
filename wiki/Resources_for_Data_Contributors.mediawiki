@@ -26,18 +26,15 @@ If you have a Mac, you should be fine if you have Mac OS X 10.4 or higher (Java 
 
 
 
-==Curatorial Best Practices==
+==[[Data Repository Access Instructions]]==
 
-===[[Data Repository Access Instructions]]===
-
-
-===Taxon Lists===
+==Taxon Lists==
 *'''[[Creating Taxon Lists]]'''
 *'''[[Update Taxon Lists|Updating Taxon Lists (for taxonomic experts)]]'''
-===Character Annotation===
+==Character Annotation==
 *'''[[Guide to Character Annotation]]'''
 
-===Ontology change requests===
+==Ontology change requests==
 *'''[[Term_Requests | Term Request Instructions]]'''
 *'''Links to ontology term trackers'''
 ** [http://sourceforge.net/tracker/?group_id=76834&atid=994764 Teleost anatomy tracker]
