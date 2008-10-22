@@ -26,27 +26,15 @@ If you have a Mac, you should be fine if you have Mac OS X 10.4 or higher (Java 
 
 Phenoscape project files are .xml files created using Phenex and housed a data repository.  Instructions for accessing the data repository can be found [[Data Repository Access Instructions | here ]].
 
-==3. Update Taxon Lists==
-
-Most project files require a taxonomic expert to review the taxonomy used in a publication and update to reflect current taxonomy. Please see instructions for [[Update Taxon Lists| updating taxon lists]].
-
-==4. Use Ontologies to Annotate Characters ==
-
-The primary activity of a curator is to annotate the free-text characters from systematic studies using ontologies.  Instructions for this activity can be found in the [[Guide to Character Annotation | Phenoscape Guide to Character Annotation]].
-
-==5. Request New Terms for Ontologies==
-
-Curation drives ontology development and many new terms and relationships need to be added. For instructions on how to make these changes, please and see the [[Term_Requests | Term Request Instructions]].
-
-== Download Publication PDFs and Curation Posters ==
+==3. Download Publication PDFs and Curation Posters ==
 
  Connecting in MAC OS X
 
    1. In finder > Go > Connect to Server
    2. Type in https://webdav.nescent.org/[sharename]
-          * For example, https://webdav.nescent.org/phenoscape-data 
+          * For example, https://webdav.nescent.org/phenoscape-data
    3. Accept security warning about certificate
-   4. enter username and password 
+   4. enter username and password
 
 Connecting in Windows XP
 
@@ -55,10 +43,23 @@ Connecting in Windows XP
    3. Click Next twice
    4. In internet or Network address box, type in https://webdav.nescent.org/[sharename]/#
           * For example, https://webdav.nescent.org/phenoscape-data/#
-          * (there is a bug in MS implementation of webdav client. In fact, Internet explorer and this method use two different means of connecting to webdav. go figure. Therefore, you must suffix the URL with the pound sign as a workaround to the bug. 
+          * (there is a bug in MS implementation of webdav client. In fact, Internet explorer and this method use two different means of connecting to webdav. go figure. Therefore, you must suffix the URL with the pound sign as a workaround to the bug.
    5. Accept certificate warning, if given.
    6. Give the share a meaningful name. Default is usually fine.
    7. Finish
+
+
+==4. Update Taxon Lists==
+
+Most project files require a taxonomic expert to review the taxonomy used in a publication and update to reflect current taxonomy. Please see instructions for [[Update Taxon Lists| updating taxon lists]].
+
+==5. Use Ontologies to Annotate Characters ==
+
+The primary activity of a curator is to annotate the free-text characters from systematic studies using ontologies.  Instructions for this activity can be found in the [[Guide to Character Annotation | Phenoscape Guide to Character Annotation]].
+
+==6. Request New Terms for Ontologies==
+
+Curation drives ontology development and many new terms and relationships need to be added. For instructions on how to make these changes, please and see the [[Term_Requests | Term Request Instructions]].
 
 [[Category:Curation]]
 [[Category:Help]]
