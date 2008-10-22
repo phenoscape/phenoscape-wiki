@@ -2,7 +2,7 @@
 title: Update Taxon Lists
 ---
 
-If you need to create a taxon list for a publication, see instructions [[Creating Taxon Lists | instructions]].
+If you need to create a taxon list for a publication, see  [[Creating Taxon Lists | Creating Taxon Lists instructions]].
 
 The following are instructions on how to update a taxon list for taxonomy and submit requests for needed taxonomic names in the TTO.
 
