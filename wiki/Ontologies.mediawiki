@@ -21,26 +21,24 @@ There is a vocabulary of fish collections, based on [http://research.calacademy.
 The current release, as used in Phenex is
 [https://obo.svn.sourceforge.net/viewvc/obo/phenote/trunk/obo-files/fish_collection_abbreviation.obo?view=markup Fish Collection Abbreviations]
 
-== OBO Repository Deposition ==
-
-Although the anatomy as well as the taxonomy ontologies will keep changing to accommodate our curation needs, both have been admitted into the OBO CVS-based version-control system, from where the NCBO's BioPortal loads and updates ontologies on a regular basis.  Both [http://bioportal.bioontology.org/visualize/38362 TAO] and [http://bioportal.bioontology.org/visualize/38363 TTO] can be browsed, searched, and visualized at the NCBO BioPortal.
-
-==Viewing ontologies==
-
-
+=== Phenotype and Trait Ontology (PATO) ===
 
 * [http://bioportal.bioontology.org/visualize/38339 Phenotype and Trait Ontology (PATO)]
 Click on the "Visualization" tab to browse the ontologies graphically.
 
+=== Evidence Code Ontology ===
 
 *[http://bioportal.bioontology.org/visualize/36625 Evidence Code Ontology]
 
+=== Relations Ontology ===
 * [http://www.obofoundry.org/ro/ OBO-relations]
 
+=== Spatial Ontology ===
 *[http://bioportal.bioontology.org/visualize/29952 Spatial Ontology]
 
-===On your desktop===
 
-Ontologies can be downloaded as OBO files from the above web sites, and viewed on your desktop using the [http://oboedit.org/ OBO-Edit] desktop software.
+== OBO Repository Deposition ==
+
+Although the anatomy as well as the taxonomy ontologies will keep changing to accommodate our curation needs, both have been admitted into the OBO CVS-based version-control system, from where the NCBO's BioPortal loads and updates ontologies on a regular basis.  Both [http://bioportal.bioontology.org/visualize/38362 TAO] and [http://bioportal.bioontology.org/visualize/38363 TTO] can be browsed, searched, and visualized at the NCBO BioPortal.
 
 [[Category:Ontology]]
