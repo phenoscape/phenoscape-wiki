@@ -4,7 +4,6 @@ title: Documents
 
 ==Pages of interest==
 * [[Resources for curators]]
-* [[Software roadmap]]
 * [[Topics for discussion]]
 
 ==Applications and APIs==
