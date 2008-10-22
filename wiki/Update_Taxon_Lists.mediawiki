@@ -20,10 +20,9 @@ Taxon Lists are spreadsheets with five fields used to record information from a 
 
 You can sort the data by clicking on any column header.  Sort the "Taxon Comments" column to view the questions or comments that a student recorded about the taxon list.  Also sort by "Valid Taxon" to view missing entries.
 
-====Make updates or requests====
+====Making updates to taxon entries====
 
-The following are examples of incomplete entries that a taxon expert may encounter when reviewing a taxon list.  If you make any updates on a file or submit term requests for an entry, be sure to write a dated note in the Taxon Comments column detailing your actions (and preserve any previous notes left by a student).
-
+If you make any updates on a file or submit term requests for an entry, be sure to write a dated note in the Taxon Comments column detailing your actions (and preserve any previous notes left by a student).
 
 ====Taxonomy ontology change requests====
 #Taxon name misspelled: Misspellings are requested as synonyms of the correctly spelled taxon name in the TTO.  Choose the appropriate name from the Valid Taxon field, and add note in Taxon Comments field (e.g., Requested addition of synonym to TTO, Your Name, 7/28/2008)
