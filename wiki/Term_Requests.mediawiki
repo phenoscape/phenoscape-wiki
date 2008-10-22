@@ -2,7 +2,7 @@
 title: Term Requests
 ---
 
-The ontologies developed by Phenoscape are updated regularly, and requests from the community for improvement to the ontologies are welcome.  These requests are typically for addition of new terms and synonyms, new and refined definitions and relationships, and corrections for spelling errors. Requests are submitted to one of the SourceForge trackers, and automatically forwarded to the teleost-discuss mailing list so that other users can provide feedback on the request. Below is a flowchart showing the term request process for the anatomy ontology (TAO):
+The ontologies developed by Phenoscape are updated regularly, and requests from the community for improvement to the ontologies are welcome.  These requests are typically for addition of new terms and synonyms, new and refined definitions and relationships, and corrections for spelling errors. Requests are submitted to one of the SourceForge trackers, and automatically forwarded to the [obo-teleost-discuss@lists.sourceforge.net/ teleost-discuss mailing list] so that other users can provide feedback on the request. Below is a flowchart showing the term request process for the anatomy ontology (TAO):
 
 [[Image:tracker-flowchart.jpg]]
 
