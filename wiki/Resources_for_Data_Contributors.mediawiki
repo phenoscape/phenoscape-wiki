@@ -6,7 +6,7 @@ title: Resources for Data Contributors
 
 ===Download Most Recent Version of Phenex===
 
-Phenex is used by PhenoScape for annotation of comparative phenotypes.  Phenex can be downloaded at:
+Phenex was developed by Phenoscape for annotation of evolutionary phenotypes.  Phenex can be downloaded at:
 
 https://sourceforge.net/project/showfiles.php?group_id=76834&package_id=295042
 
@@ -23,7 +23,6 @@ Go to http://www.java.com.  Click on "Do I have Java?".  On the following page d
 
 * Mac:
 If you have a Mac, you should be fine if you have Mac OS X 10.4 or higher (Java comes with the system).  Click on the Apple menu at the left of your menubar, and choose "About This Mac".  Under "Mac OS X" it should have the Mac OS version number.
-
 
 ==Viewing ontologies==
 
