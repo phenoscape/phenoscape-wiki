@@ -2,9 +2,7 @@
 title: Ontologies
 ---
 
-Evolutionary phenotypes are being described using the [http://www.bioontology.org/wiki/index.php/PATO:About Entity-Quality system], which combines morphological terms from an anatomical ontology (here: the Teleost Anatomy Ontology, TAO) with quality terms from the [http://www.bioontology.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)].
-
-
+Phenoscape is using multiple ontologies to describe anatomical variation.  We have developed several new ontologies required for evolutionary biology, but whenever possible, we are sharing existing ontologies with the broader biological community.  This will ensure the greatest interoperability between evolutionary and model organism data.
 
 == New Ontologies ==
 
