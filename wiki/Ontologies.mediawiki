@@ -2,7 +2,7 @@
 title: Ontologies
 ---
 
-Phenoscape is using multiple ontologies to describe variation in phenotypes across species.  We have developed several [[#Ontologies/New Ontologies | new ontologies]] required for evolutionary biology, but whenever possible, we are sharing existing ontologies with the broader biological community.  This will ensure the greatest interoperability between evolutionary and model organism data.
+Phenoscape is using multiple ontologies to describe variation in phenotypes across species.  We have developed several [[#Ontologies/New Ontologies | new ontologies]] required for evolutionary biology, but whenever possible, we are sharing [[#Ontologies/Existing Ontologies | existing ontologies]] with the broader biological community.  This will ensure the greatest interoperability between evolutionary and model organism data.
 
 == New Ontologies ==
 
