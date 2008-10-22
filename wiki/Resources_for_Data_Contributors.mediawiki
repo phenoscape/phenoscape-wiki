@@ -38,5 +38,27 @@ The primary activity of a curator is to annotate the free-text characters from s
 
 Curation drives ontology development and many new terms and relationships need to be added. For instructions on how to make these changes, please and see the [[Term_Requests | Term Request Instructions]].
 
+== Download Publication PDFs and Curation Posters ==
+
+ Connecting in MAC OS X
+
+   1. In finder > Go > Connect to Server
+   2. Type in https://webdav.nescent.org/[sharename]
+          * For example, https://webdav.nescent.org/phenoscape-data 
+   3. Accept security warning about certificate
+   4. enter username and password 
+
+Connecting in Windows XP
+
+   1. Go to "My Network Places"
+   2. Add a Network Place (pulls up wizard)
+   3. Click Next twice
+   4. In internet or Network address box, type in https://webdav.nescent.org/[sharename]/#
+          * For example, https://webdav.nescent.org/phenoscape-data/#
+          * (there is a bug in MS implementation of webdav client. In fact, Internet explorer and this method use two different means of connecting to webdav. go figure. Therefore, you must suffix the URL with the pound sign as a workaround to the bug. 
+   5. Accept certificate warning, if given.
+   6. Give the share a meaningful name. Default is usually fine.
+   7. Finish
+
 [[Category:Curation]]
 [[Category:Help]]
