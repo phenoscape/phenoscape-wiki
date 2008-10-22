@@ -6,15 +6,13 @@ The following are instructions on how to update a taxon list for taxonomy and su
 
 ====Obtain the xml file from the Phenoscape data repository====
 
-====Open file in Phenote+====
+====Open file in Phenex====
 
-Make sure that you have an internet connection before starting Phenote+ as the software will need to download updated ontology files if available.
+Make sure that you have an internet connection before starting Phenex as the software will need to download updated ontology files if available.
 
-Start up Phenote+ (click "Update All" if the update panel appears) and check that you are using the '''Taxon configuration''' of Phenote (to check, go to Settings>Set Configuration, and confirm that ‘phenoscape_taxon’ is chosen. You may need to restart Phenote+ for the configuration to appear).  Open the taxon file using File>Open.
+Start up Phenex and open the xml file using File>Open.
 
-Below is a screenshot of the taxon configuration:
-
-[[image:phenote-taxon-config.jpg]]
+Choose the Taxon perspective by going to Window>Taxon. This will display only the Taxon panels (Taxa, Specimens, Term Info) in Phenex.
 
 ====Review Taxon List====
 
