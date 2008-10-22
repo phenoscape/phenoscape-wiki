@@ -23,7 +23,7 @@ Go to the [http://sourceforge.net/ SourceForge homepage] to create your account 
 # When finished, click the Submit button.  You will then receive two emails related to this request: a confirmation email of your submission and the teleost-discuss email summarizing the request. All subsequent discussion of the request will take place on the teleost-discuss mailing list. You'll receive a third email once the request is fulfilled and the tracker item closed by a Phenoscape curator.
 
 =====Note about taxonomic requests=====
-There are several types of taxonomic requests typically submitted after reviewing a taxon list.  This includes addition of synonyms or valid species names missing from the taxonomy ontology, and addition of unknown or unnamed species.  For example, Smith (2008) may have Danio sp. and Danio aff. dangila in their materials list.  These names should be added to the taxonomy ontology with reference to the publication.  The request for new species names would be:
+There are several types of taxonomic requests typically submitted after reviewing a taxon list.  This includes addition of synonyms or valid species names missing from the taxonomy ontology, and addition of unknown or unnamed species. For more details, see [[Update Taxon Lists]]. For example, Smith (2008) may have Danio sp. and Danio aff. dangila in their materials list.  These names should be added to the taxonomy ontology with reference to the publication.  The request for new species names would be:
 *Danio sp. (Smith 2008)
 *Danio aff. dangila (Smith 2008)
 
