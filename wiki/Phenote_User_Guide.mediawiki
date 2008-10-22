@@ -78,6 +78,44 @@ If you change the name of a scratch list while its table is open, the table comp
 ===Complete Ontology Tree View===
 ''forthcoming''
 
+
+====Usage====
+
+The following table describes the entry fields in the PhenoScape configuration.  Phenex does not force you to fill in them all, but see the table for when to use each field.
+
+{| border="1" cellspacing="0" cellpadding="3"
+! Field
+! Usage
+|-
+| Publication || the publication describing the character state<br/>CrossRef has a [http://www.crossref.org/SimpleTextQuery/ free-text query form] for looking up DOIs
+|-
+| Taxon || Genus & species
+|-
+| Catalog Number || museum lot ID
+|-
+| Specimen Count || number of specimens from lot examined
+|-
+| Preparation || type of specimen preparation (skeleton, cleared & stained, etc.)
+|-
+| Entity || term from anatomy ontology (currently using zebrafish)
+|-
+| Quality || term from PATO - should be "value" term, unless you are filling in an absolute measurement (e.g. "length")
+|-
+| Related Entity || term from anatomy ontology - only use if the Quality term descends from "relational quality of continuant"
+|-
+| Measurement || absolute measurement - useful as value for terms such as "length"
+|-
+| Unit || unit of measurement, if Numerical Value is filled in
+|-
+| Compare To || a taxon to which this phenotype is in comparison to (optional)
+|-
+| Textual Description || textual description of character state in publication
+|-
+| Image URI || web link to an image, if available
+|}
+
+Please report any issues you come across by using the [https://sourceforge.net/tracker/?group_id=76834&atid=887913 Phenote tracker].
+
 ==Troubleshooting problems==
 ===Accessing Phenote configuration and logs===
 The Phenote settings folder contains your chosen configuration, cached ontology files, interface layouts, and log files.  Its location is platform-dependent:
