@@ -35,7 +35,7 @@ Ontologies can be downloaded as OBO files from the above web sites, and viewed o
 
 Phenex is used by PhenoScape for annotation of comparative phenotypes.  Phenex can be downloaded at:
 
-https://sourceforge.net/project/showfiles.php?group_id=224046&package_id=287165&release_id=628849
+https://sourceforge.net/project/showfiles.php?group_id=76834&package_id=295042
 
 For Mac, click on the link "phenex-1.0-beta10-mac.zip"
 
@@ -46,7 +46,7 @@ For Windows, click on the link "phenex-1.0-beta10-win.zip"
 You need Java 1.5 or newer to run Phenex.  For the Mac this requires Mac OS X 10.4 or newer. How to check your java version:
 
 * Windows:
-Go to http://www.java.com.  Click on "Do I have Java?".  On the following page don't worry if it says "Oops!  You don't have the recommended Java installed."  Look at the next line where it might say "Your Java version is Version 6 update 5".  It should be Version 5 or higher.  If you don't have Java at all or have an older version, please click on the Download Java Now link and install it.  
+Go to http://www.java.com.  Click on "Do I have Java?".  On the following page don't worry if it says "Oops!  You don't have the recommended Java installed."  Look at the next line where it might say "Your Java version is Version 6 update 5".  It should be Version 5 or higher.  If you don't have Java at all or have an older version, please click on the Download Java Now link and install it.
 
 * Mac:
 If you have a Mac, you should be fine if you have Mac OS X 10.4 or higher (Java comes with the system).  Click on the Apple menu at the left of your menubar, and choose "About This Mac".  Under "Mac OS X" it should have the Mac OS version number.
