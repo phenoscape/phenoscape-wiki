@@ -45,13 +45,7 @@ We are a (voting) member of the BioPortal User Group. The group has monthly tele
 
 * A Basecamp-based [https://ncboprojects.updatelog.com/projects/1487611/project/log BioPortal project management site] (login required) has User Group meeting presentations and other information.
 
-
-==Project presentations==
-
-See the [[Publications and Posters|publications page]] for manuscripts and posters arising from the project.
-
-
-==Bibliography==
+=Bibliography==
 
 We also maintain a list of references on [http://www.connotea.org Connotea], using the tag "[http://www.connotea.org/tag/phenoscape phenoscape]". This list may be more up-to-date than the bibliography below. Anyone can easily recommend references (and in fact any site or resource) to us simply by tagging it with "phenoscape" in Connotea.
 
