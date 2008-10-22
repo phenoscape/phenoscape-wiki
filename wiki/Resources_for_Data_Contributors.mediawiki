@@ -32,7 +32,7 @@ Most project files require a taxonomic expert to review the taxonomy used in a p
 
 ==4. Use Ontologies to Annotate Characters ==
 
- [[Guide to Character Annotation]]
+The primary activity of a curator is to annotate the free-text characters from systematic studies using ontologies.  Instructions for this activity can be found in the [[Guide to Character Annotation | Phenoscape Guide to Character Annotation]].
 
 ==Ontology change requests==
 *'''[[Term_Requests | Term Request Instructions]]'''
