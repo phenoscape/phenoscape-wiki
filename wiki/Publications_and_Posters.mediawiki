@@ -17,7 +17,7 @@ title: Publications and Posters
 #mabee2007b pmid=17599725
 </biblio>
 
-==Posters==
+==Posters & Presentations==
 
 Paula Mabee, Jim Balhoff, Wasila Dahdul, Hilmar Lapp, John Lundberg, Peter Midford, Todd Vision, Monte Westerfield (2008). [[Media:Evolution2008-phenoscape.ppt|Linking evolutionary morphology to genomics using ontologies]]. Poster at the Evolution 2008 Conference, Minneapolis, MN, July 2008.
 
