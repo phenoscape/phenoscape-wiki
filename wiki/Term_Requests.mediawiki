@@ -56,4 +56,6 @@ Bookmark the following links within your internet browser, as clicking on the bo
 
 [http://sourceforge.net/tracker/?atid=1046550&group_id=76834&func=browse Teleost Taxonomy Tracker]
 
+[http://sourceforge.net/tracker/?group_id=76834&atid=595654 PATO tracker]
+
 [[Category:Curation]]
