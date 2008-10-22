@@ -26,7 +26,8 @@ If you have a Mac, you should be fine if you have Mac OS X 10.4 or higher (Java 
 
 Phenoscape project files are .xml files created using Phenex and housed a data repository.  Instructions for accessing the data repository can be found [[Data Repository Access Instructions | here ]].
 
-==3. Download Publication PDFs and Curation Posters ==
+==3. Download Publication PDFs and Ontology Posters ==
+You can download project PDFs and ontology posters by connecting to the Phenoscape file share.
 
 Connecting in MAC OS X
 # In finder > Go > Connect to Server
@@ -39,7 +40,7 @@ Connecting in Windows XP
 # Add a Network Place (pulls up wizard)
 # Click Next twice
 # In internet or Network address box, type in  https://ftp.nescent.org/phenoscape-data/
-* (there is a bug in MS implementation of webdav client. In fact, Internet explorer and this method use two different means of connecting to webdav. go figure. Therefore, you must suffix the URL with the pound sign as a workaround to the bug.
+**Note:  (there is a bug in MS implementation of webdav client. In fact, Internet explorer and this method use two different means of connecting to webdav. go figure. Therefore, you must suffix the URL with the pound sign as a workaround to the bug.
 # Accept certificate warning, if given.
 # Give the share a meaningful name. Default is usually fine.
 # Finish
