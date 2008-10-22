@@ -18,7 +18,7 @@ We are in the process of developing a separate ontology of [[Taxonomic Ranks]]. 
 
 === Teleost Anatomy Ontology ===
 
-The [[#Teleost_Anatomy_Ontology | Teleost Anatomy Ontology]] is a multi-species ontology that was initialized with the terms in the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology. The TAO can be browsed [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (TAO)]
+The [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (TAO)] is a multi-species ontology that was initialized with the terms in the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology. Details about the development of the TAO can be found [[Teleost Anatomy Ontology | here]].
 
 === Fish Collection Codes Ontology ===
 
