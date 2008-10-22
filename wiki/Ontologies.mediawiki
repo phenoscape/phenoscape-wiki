@@ -29,7 +29,7 @@ The current release, as used in Phenex is
 
 These ontologies were developed and shared by a variety of model organism communities. Phenoscape is involved in extending these ontologies.
 
-=== Phenotype and Trait Ontology (PATO) ===
+=== Phenotype and Trait Ontology ===
 
 * [http://bioportal.bioontology.org/visualize/38339 Phenotype and Trait Ontology (PATO)]
 
