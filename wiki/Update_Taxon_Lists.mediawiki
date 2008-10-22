@@ -22,7 +22,7 @@ You can sort the data by clicking on any column header.  Sort the "Taxon Comment
 
 ====Making updates to taxon entries====
 
-If you make any updates on a file or submit term requests for an entry, be sure to write a dated note in the Taxon Comments column detailing your actions (and preserve any previous notes left by a student).
+If an author has made an error in the generic assignment of a species, which does not representing a difference in taxonomic opinion or concepts, then the current valid name of that species should be chosen, and add a comment in the Taxon Comments about your change.  If you make any updates on a file or submit term requests for an entry, be sure to write a dated note in the Taxon Comments column detailing your actions (and preserve any previous notes left by a student).
 
 ====Taxonomy ontology change requests====
 #Taxon name misspelled: Misspellings are requested as synonyms of the correctly spelled taxon name in the TTO.  Choose the appropriate name from the Valid Taxon field, and add note in Taxon Comments field (e.g., Requested addition of synonym to TTO, Your Name, 7/28/2008)
