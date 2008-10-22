@@ -43,8 +43,6 @@ These ontologies were developed and shared by a variety of model organism commun
 === Spatial Ontology ===
 *[http://bioportal.bioontology.org/visualize/29952 Spatial Ontology]
 
-== OBO Repository Deposition ==
 
-Although the anatomy as well as the taxonomy ontologies will keep changing to accommodate our curation needs, both have been admitted into the OBO CVS-based version-control system, from where the NCBO's BioPortal loads and updates ontologies on a regular basis.  Both [http://bioportal.bioontology.org/visualize/38362 TAO] and [http://bioportal.bioontology.org/visualize/38363 TTO] can be browsed, searched, and visualized at the NCBO BioPortal.
 
 [[Category:Ontology]]
