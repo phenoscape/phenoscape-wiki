@@ -53,7 +53,7 @@ If you have a Mac, you should be fine if you have Mac OS X 10.4 or higher (Java 
 
 ====Usage====
 
-The following table describes the entry fields in the PhenoScape configuration.  Phenote does not force you to fill in them all, but see the table for when to use each field.
+The following table describes the entry fields in the PhenoScape configuration.  Phenex does not force you to fill in them all, but see the table for when to use each field.
 
 {| border="1" cellspacing="0" cellpadding="3"
 ! Field
