@@ -47,18 +47,23 @@ We are a (voting) member of the BioPortal User Group. The group has monthly tele
 
 * A Basecamp-based [https://ncboprojects.updatelog.com/projects/1487611/project/log BioPortal project management site] (login required) has User Group meeting presentations and other information.
 
-[[Category:Help]]
+
+==Project presentations==
+
+See the [[Publications and Posters|publications page]] for manuscripts and posters arising from the project.
+
 
 ==Bibliography==
 
 We also maintain a list of references on [http://www.connotea.org Connotea], using the tag "[http://www.connotea.org/tag/phenoscape phenoscape]". This list may be more up-to-date than the bibliography below. Anyone can easily recommend references (and in fact any site or resource) to us simply by tagging it with "phenoscape" in Connotea.
 
-Please see also our [[Publications and Posters|publications page]] for manuscripts and posters arising from the project.
 
 ===References===
 <biblio>
 #rosen1974 Rosen DE. 1974. ''[http://hdl.handle.net/2246/606 Phylogeny and zoogeography of salmoniform fishes and relationships of Lepidogalaxias salamandroides].'' Bulletin of the American Museum of Natural History 153:267-325.
 #finkfink1981 Fink SV, Fink WL. 1981. ''Interrelationships of the ostariophysan fishes (Teleostei)''. Zoological Journal of the Linnean Society 72(4):297-353.
-#finkfink1997 Fink, S.V. and W.L. Fink. 1997. Interrelationships of the Ostariophysi. In: ''Interrelationships of Fishes'', M. Stiassney, L. Parenti and D. Johnson (Eds). Academic Press, 209-249. 
+#finkfink1997 Fink, S.V. and W.L. Fink. 1997. Interrelationships of the Ostariophysi. In: ''Interrelationships of Fishes'', M. Stiassney, L. Parenti and D. Johnson (Eds). Academic Press, 209-249.
 #schulz2007 pmid=17448242
 </biblio>
+
+[[Category:Help]]
