@@ -25,20 +25,19 @@ The current release, as used in Phenex is
 
 Phenoscape is involved in extending the following community ontologies.
 
-=== Phenotype and Trait Ontology (PATO) ===
+==== Phenotype and Trait Ontology (PATO) ====
 
 * [http://bioportal.bioontology.org/visualize/38339 Phenotype and Trait Ontology (PATO)]
 
-=== Evidence Code Ontology ===
+==== Evidence Code Ontology ====
 
 *[http://bioportal.bioontology.org/visualize/36625 Evidence Code Ontology]
 
-=== Relations Ontology ===
+==== Relations Ontology ====
 * [http://www.obofoundry.org/ro/ OBO-relations]
 
-=== Spatial Ontology ===
+==== Spatial Ontology ====
 *[http://bioportal.bioontology.org/visualize/29952 Spatial Ontology]
-
 
 == OBO Repository Deposition ==
 
