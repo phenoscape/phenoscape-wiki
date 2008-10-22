@@ -5,11 +5,3 @@ title: Documents
 ===[[Phenoscape data policy]]===
 
 ===[[Storing publication reference information]] (DOI, PubMed ID, etc.)===
-
-
-
-
-==Applications and APIs==
-
-===Proposals===
-* [[Ontology_Data_Service_API|Ontology Data Service API Description]]
