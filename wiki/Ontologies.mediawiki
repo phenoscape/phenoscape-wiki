@@ -2,7 +2,7 @@
 title: Ontologies
 ---
 
-Evolutionary phenotypes will be described using the [http://www.bioontology.org/wiki/index.php/PATO:About Entity-Quality system], which combines morphological terms from an anatomical ontology (here: the Teleost Anatomy Ontology, TAO) with quality terms from the [http://www.bioontology.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)].
+Evolutionary phenotypes are being described using the [http://www.bioontology.org/wiki/index.php/PATO:About Entity-Quality system], which combines morphological terms from an anatomical ontology (here: the Teleost Anatomy Ontology, TAO) with quality terms from the [http://www.bioontology.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)].
 
 == Taxonomy Ontology ==
 
