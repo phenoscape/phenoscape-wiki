@@ -2,9 +2,12 @@
 title: Documents
 ---
 
-==Pages of interest==
+===[[Phenoscape data policy]]===
 
-* [[Topics for discussion]]
+===[[Storing publication reference information]] (DOI, PubMed ID, etc.)===
+
+
+
 
 ==Applications and APIs==
 
