@@ -4,7 +4,9 @@ title: Ontologies
 
 Evolutionary phenotypes are being described using the [http://www.bioontology.org/wiki/index.php/PATO:About Entity-Quality system], which combines morphological terms from an anatomical ontology (here: the Teleost Anatomy Ontology, TAO) with quality terms from the [http://www.bioontology.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)].
 
-== Phenoscape Developed Ontologies ==
+== New Ontologies ==
+
+Phenoscape has developed ontologies that are required for the annotation of evolutionary phenotypes in fishes.  These ontologies are publicly available and being used by the community. 
 
 === Teleost Taxonomy Ontology ===
 
