@@ -4,17 +4,19 @@ title: Ontologies
 
 Evolutionary phenotypes are being described using the [http://www.bioontology.org/wiki/index.php/PATO:About Entity-Quality system], which combines morphological terms from an anatomical ontology (here: the Teleost Anatomy Ontology, TAO) with quality terms from the [http://www.bioontology.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)].
 
-== Teleost Taxonomy Ontology ==
+== Phenoscape Ontologies ==
+
+=== Teleost Taxonomy Ontology ===
 
 Phenotypes are associated with species using a taxonomy ontology, the [http://bioportal.bioontology.org/visualize/38363 Teleost Taxonomy Ontology (TTO)] derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes]. The TTO is updated in concert with Catalog of Fishes updates.  Changes to the TTO relative to the latest version generated from a dump from the Catalog of Fishes are documented [[TTO_Changes]].
 
 We are in the process of developing a separate ontology of [[Taxonomic Ranks]].  These terms (e.g., family, genus, etc.) will then be removed from the TTO and links from taxonomic terms (property_value: has_rank) will be updated.
 
-== Teleost Anatomy Ontology ==
+=== Teleost Anatomy Ontology ===
 
 The [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (TAO)] is a multi-species ontology that was initialized with the terms in the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology.
 
-== Fish Collection Codes Ontology ==
+=== Fish Collection Codes Ontology ===
 
 There is a vocabulary of fish collections, based on [http://research.calacademy.org/research/ichthyology/catalog/abtabr.html a list used in Catalog of Fishes], though with a few additions listed on the [[Fish Collection Updates]] page.
 
