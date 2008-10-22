@@ -38,9 +38,5 @@ The primary activity of a curator is to annotate the free-text characters from s
 
 Curation drives ontology development and many new terms and relationships need to be added. For instructions on how to make these changes, see the *'''[[Term_Requests | Term Request Instructions]].'''
 
-** [http://sourceforge.net/tracker/?group_id=76834&atid=994764 Teleost anatomy tracker]
-** [http://sourceforge.net/tracker/?atid=1046550&group_id=76834 Teleost taxonomy ontology tracker]
-** [http://sourceforge.net/tracker/?group_id=76834&atid=595654 PATO tracker]
-
 [[Category:Curation]]
 [[Category:Help]]
