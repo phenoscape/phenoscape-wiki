@@ -49,7 +49,7 @@ If you are creating a taxon list in Phenote that requires a new code or synonym 
 
 An OBO file will be generated from the spreadsheet at least once per month.
 
-===Links===
+===Links to Trackers===
 Bookmark the following links within your internet browser, as clicking on the bookmarks is the easiest way to go to the tracker page after logging onto SourceForge.
 
 [http://sourceforge.net/tracker/?group_id=76834&atid=994764 Teleost Anatomy Tracker]
