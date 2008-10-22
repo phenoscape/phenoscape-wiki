@@ -24,32 +24,6 @@ Go to http://www.java.com.  Click on "Do I have Java?".  On the following page d
 * Mac:
 If you have a Mac, you should be fine if you have Mac OS X 10.4 or higher (Java comes with the system).  Click on the Apple menu at the left of your menubar, and choose "About This Mac".  Under "Mac OS X" it should have the Mac OS version number.
 
-==Viewing ontologies==
-
-===On the web===
-
-Many [[Ontologies|ontologies]] are available for browsing at the [http://www.bioontology.org/ncbo/faces/index.xhtml NCBO BioPortal]. For example:
-
-* [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (TAO)]
-
-* [http://bioportal.bioontology.org/visualize/38363 Teleost Taxonomy Ontology (TTO)] (generated, with some modifications, from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes])
-
-* [http://bioportal.bioontology.org/visualize/38339 Phenotype and Trait Ontology (PATO)]
-Click on the "Visualization" tab to browse the ontologies graphically.
-
-Other ontologies:
-
-*[http://bioportal.bioontology.org/visualize/36625 Evidence Code Ontology]
-
-* [http://www.obofoundry.org/ro/ OBO-relations]
-
-*[http://bioportal.bioontology.org/visualize/29952 Spatial Ontology]
-
-===On your desktop===
-
-Ontologies can be downloaded as OBO files from the above web sites, and viewed on your desktop using the [http://oboedit.org/ OBO-Edit] desktop software.
-
-
 
 
 ==Curatorial Best Practices==
