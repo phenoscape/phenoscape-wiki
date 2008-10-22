@@ -14,7 +14,7 @@ Go to the [http://sourceforge.net/ SourceForge homepage] to create your account 
 ==Request Procedures==
 ====Making Your Requests====
 # Log on to your [http://sourceforge.net/ SourceForge] account
-# Go to the tracker page appropriate for your request: [http://sourceforge.net/tracker/?group_id=76834&atid=994764 teleost anatomy tracker], [http://sourceforge.net/tracker/?atid=1046550&group_id=76834&func=browse taxonomy tracker], . Once you have submitted your first request, you can also navigate to the tracker page by clicking on the "Tracker" link within your Personal Page.
+# Go to the tracker page appropriate for your request: [http://sourceforge.net/tracker/?group_id=76834&atid=994764 teleost anatomy tracker], [http://sourceforge.net/tracker/?atid=1046550&group_id=76834&func=browse taxonomy tracker], and [http://sourceforge.net/tracker/?group_id=76834&atid=595654 phenotype and trait ontology (PATO) tracker]. Once you have submitted your first request, you can also navigate to the tracker page by clicking on the "Tracker" link within your Personal Page.
 # Click the "add new artifact" link to begin submission of a new tracker item
 # In the Category field, pick the appropriate category for your request (new term request, obsoletion request, or other term-related request)
 #  In the Assigned to field, choose the appropriate curator for your request: wdahdul if anatomy, pmidford if taxonomy related.
