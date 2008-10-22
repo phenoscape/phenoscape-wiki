@@ -30,8 +30,6 @@ If you have a Mac, you should be fine if you have Mac OS X 10.4 or higher (Java 
 
 ===[[Data Repository Access Instructions]]===
 
-===[[Phenex|Merging files in Phenex]]===
-
 
 ===Taxon Lists===
 *'''[[Creating Taxon Lists]]'''
