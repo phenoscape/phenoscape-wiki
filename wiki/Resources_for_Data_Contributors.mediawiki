@@ -35,8 +35,8 @@ If you have a Mac, you should be fine if you have Mac OS X 10.4 or higher (Java 
 *'''[[Creating Taxon Lists]]'''
 *'''[[Update Taxon Lists|Updating Taxon Lists (for taxonomic experts)]]'''
 ===Character Annotation===
-*'''[[Creating and Editing Character Lists|Creating Character Lists]]'''
 *'''[[Guide to Character Annotation]]'''
+
 ===Ontology change requests===
 *'''[[Term_Requests | Term Request Instructions]]'''
 *'''Links to ontology term trackers'''
