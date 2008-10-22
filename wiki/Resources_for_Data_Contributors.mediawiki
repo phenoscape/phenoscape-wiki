@@ -24,7 +24,7 @@ If you have a Mac, you should be fine if you have Mac OS X 10.4 or higher (Java 
 
 ==2. Access Project Files==
 
-Phenoscape project files are xml files created by Phenex and housed a data repository.  Instructions for accessing the data repository can be found [[Data Repository Access Instructions | here ]].
+Phenoscape project files are .xml files created using Phenex and housed a data repository.  Instructions for accessing the data repository can be found [[Data Repository Access Instructions | here ]].
 
 ==3. Update Taxon Lists==
 
