@@ -3,7 +3,7 @@ title: Documents
 ---
 
 ==Pages of interest==
-* [[Resources for curators]]
+
 * [[Topics for discussion]]
 
 ==Applications and APIs==
