@@ -10,21 +10,24 @@ Phenotypes are associated with species using a taxonomy ontology, the [http://bi
 
 We are in the process of developing a separate ontology of [[Taxonomic Ranks]].  These terms (e.g., family, genus, etc.) will then be removed from the TTO and links from taxonomic terms (property_value: has_rank) will be updated.
 
-== Anatomy Ontology ==
+== Teleost Anatomy Ontology ==
 
 The [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (TAO)] is a multi-species ontology that was initialized with the terms in the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology.
 
-== Fish Collection Codes ==
+== Fish Collection Codes Ontology ==
 
 There is a vocabulary of fish collections, based on [http://research.calacademy.org/research/ichthyology/catalog/abtabr.html a list used in Catalog of Fishes], though with a few additions listed on the [[Fish Collection Updates]] page.
 
 The current release, as used in Phenex is
 [https://obo.svn.sourceforge.net/viewvc/obo/phenote/trunk/obo-files/fish_collection_abbreviation.obo?view=markup Fish Collection Abbreviations]
 
+== Community Ontologies ==
+
+Phenoscape is involved in extending the following community ontologies.
+
 === Phenotype and Trait Ontology (PATO) ===
 
 * [http://bioportal.bioontology.org/visualize/38339 Phenotype and Trait Ontology (PATO)]
-Click on the "Visualization" tab to browse the ontologies graphically.
 
 === Evidence Code Ontology ===
 
