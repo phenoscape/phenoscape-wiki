@@ -2,7 +2,7 @@
 title: Resources for Data Contributors
 ---
 
-===Download Most Recent Version of Phenex===
+==1. Download Most Recent Version of Phenex==
 
 Phenex was developed by Phenoscape for annotation of evolutionary phenotypes.  Phenex can be downloaded at:
 
