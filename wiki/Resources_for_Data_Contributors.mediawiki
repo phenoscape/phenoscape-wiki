@@ -37,9 +37,9 @@ Phenex is used by PhenoScape for annotation of comparative phenotypes.  Phenex c
 
 https://sourceforge.net/project/showfiles.php?group_id=76834&package_id=295042
 
-For Mac, click on the link "phenex-1.0-beta10-mac.zip"
+For Mac, click on the link "phenex-1.0-beta12-mac.zip"
 
-For Windows, click on the link "phenex-1.0-beta10-win.zip"
+For Windows, click on the link "phenex-1.0-beta12-win.zip"
 
 ====Installation and start up====
 
