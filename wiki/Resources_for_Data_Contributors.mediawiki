@@ -34,7 +34,8 @@ Most project files require a taxonomic expert to review the taxonomy used in a p
 
 The primary activity of a curator is to annotate the free-text characters from systematic studies using ontologies.  Instructions for this activity can be found in the [[Guide to Character Annotation | Phenoscape Guide to Character Annotation]].
 
-==5. Request New terms for Ontologies==
+==5. Request New Terms for Ontologies==
+
 
 *'''[[Term_Requests | Term Request Instructions]]'''
 
