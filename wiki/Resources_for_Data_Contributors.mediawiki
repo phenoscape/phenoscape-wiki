@@ -28,7 +28,7 @@ Phenoscape project files are .xml files created using Phenex and housed a data r
 
 ==3. Update Taxon Lists==
 
-*'''[[Update Taxon Lists|Updating Taxon Lists (for taxonomic experts)]]'''
+Most project files require a taxonomic expert to review the taxonomy used in a publication and update to reflect current taxonomy. Please see instructions for [[Update Taxon Lists| updating taxon lists]].
 
 ==[[Guide to Character Annotation]]==
 
