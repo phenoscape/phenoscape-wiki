@@ -34,9 +34,10 @@ Most project files require a taxonomic expert to review the taxonomy used in a p
 
 The primary activity of a curator is to annotate the free-text characters from systematic studies using ontologies.  Instructions for this activity can be found in the [[Guide to Character Annotation | Phenoscape Guide to Character Annotation]].
 
-==Ontology change requests==
+==5. Request New terms for Ontologies==
+
 *'''[[Term_Requests | Term Request Instructions]]'''
-*'''Links to ontology term trackers'''
+
 ** [http://sourceforge.net/tracker/?group_id=76834&atid=994764 Teleost anatomy tracker]
 ** [http://sourceforge.net/tracker/?atid=1046550&group_id=76834 Teleost taxonomy ontology tracker]
 ** [http://sourceforge.net/tracker/?group_id=76834&atid=595654 PATO tracker]
