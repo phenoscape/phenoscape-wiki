@@ -17,6 +17,9 @@ Cartik, Jim, and Hilmar met to discuss web service requirements for the Phenosca
 ** OWL/RDF may be most useful for a standards-based alternative
 
 ====Text autocompletion====
+* Input: typed text, ontology name(s) (optional), matching options (name, synonym, definition)
+* Output: list of terms with ID & name, or more complex match objects identifying the matched text and what it matched (name, synonym, definition)
+** JSON
 
 ===="Anatomy search"====
 Didn't really cover this much in the discussion.  What format should summary counts be returned in?  These are then used to navigate to further data services.
