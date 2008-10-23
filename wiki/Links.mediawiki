@@ -30,7 +30,7 @@ title: Links
 
 ===Software===
 
-* [http://www.phenote.org Phenote]
+* [[Phenex]]
 * [http://oboedit.org/ OBO-Edit]
 
 ===NCBO BioPortal support requests===
