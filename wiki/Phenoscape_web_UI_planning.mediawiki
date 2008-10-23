@@ -9,6 +9,12 @@ Cartik, Jim, and Hilmar met to discuss web service requirements for the Phenosca
 ===Services===
 
 ====Term info====
+* Could use OLS, but makes more sense to retrieve exact data we're working off of in the database
+* Input: term ID
+* Output: name, parents & children (relation, ID, name), definition, other properties?
+* Could return numerous formats (JSON, OBO, OBD-XML, OWL/RDF)
+** JSON is most useful for web application
+** OWL/RDF may be most useful for a standards-based alternative
 
 ====Text autocompletion====
 
