@@ -18,6 +18,11 @@ Double-click the downloaded file to unzip it.  Copy Phenex.app anywhere you woul
 On Windows you must be sure to extract the Phenex folder from the zip archive - Phenex will not function properly if run from within the zip archive.  Right-click on the downloaded zip file and choose "Extract All...".  Use the Extraction Wizard to copy Phenex to a folder on your desktop.  You can then move the Phenex folder anywhere you like.  Within the Phenex folder, double-click the file "Phenex.bat" to launch the application.
 
 ===Installation on Linux/Unix===
+Currently there is not a separate download for Linux.  The easiest way to run Phenex on Linux is to download the Windows package, and then replace the Phenex.bat startup script with your own shell script.  The shell script  should look something like this:
+
+ java -Xmx1024m -jar lib/phenex.jar
+
+<code>cd</code> into the Phenex folder and run the shell script to launch Phenex.
 
 ==Menu choices for opening files==
 * File > Open...
