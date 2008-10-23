@@ -12,7 +12,7 @@ Phenex runs on any system with Java 5 or newer (Java 5 is also called 1.5).  Jav
 The latest version of Phenex can be obtained from [http://sourceforge.net/projects/obo/ OBO's Sourceforge project site].  Until the release of Phenex 1.0, only in-development "beta" downloads are available.  Download the file appropriate for your system ("mac" or "win").  The "src" download contains the sourcecode for the current release of Phenex.
 * [http://sourceforge.net/project/showfiles.php?group_id=76834&package_id=295042 Phenex beta downloads]
 ===Installation on Mac OS X===
-Double-click the downloaded file to unzip it.  Copy Phenex.app anywhere you would like to install it.  Doublie-click Phenex.app to launch the application.
+Double-click the downloaded file to unzip it.  Copy Phenex.app anywhere you would like to install it.  Double-click Phenex.app to launch the application.
 
 ===Installation on Windows===
 On Windows you must be sure to extract the Phenex folder from the zip archive - Phenex will not function properly if run from within the zip archive.  Right-click on the downloaded zip file and choose "Extract All...".  Use the Extraction Wizard to copy Phenex to a folder on your desktop.  You can then move the Phenex folder anywhere you like.  Within the Phenex folder, double-click the file "Phenex.bat" to launch the application.
