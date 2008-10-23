@@ -15,7 +15,7 @@ The latest version of Phenex can be obtained from [http://sourceforge.net/projec
 Double-click the downloaded file to unzip it.  Copy Phenex.app anywhere you would like to install it.
 
 ===Installation on Windows===
-
+On Windows you must be sure to extract the Phenex folder from the zip archive - Phenex will not function properly if run from within the zip archive.
 
 ===Installation on Linux/Unix===
 
