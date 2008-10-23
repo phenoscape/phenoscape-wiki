@@ -24,6 +24,8 @@ Currently there is not a separate download for Linux.  The easiest way to run Ph
 
 <code>cd</code> into the Phenex folder and run the shell script to launch Phenex.
 
+==Running Phenex==
+
 ==Menu choices for opening files==
 * File > Open...
 ** Open an existing NeXML file (native Phenex format), replacing all existing data.
