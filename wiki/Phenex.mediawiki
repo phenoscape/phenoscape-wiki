@@ -26,7 +26,7 @@ Currently there is not a separate download for Linux.  The easiest way to run Ph
 
 ===Obtaining Phenex source code (for developers)===
 The Phenex source for a particular release can be found in the "src" archive at the download site.  To make contributions to the project, you should check out a working copy from the Subversion repository:
-* https://obo.svn.sourceforge.net/svnroot/obo/phenex/trunk
+* https://obo.svn.sourceforge.net/svnroot/obo/phenex/trunk (use that URL with an SVN client, not a web browser)
 The Phenex source includes both an Eclipse project (used for most active development) and an Ant build file (used for making releases).
 
 ==Running Phenex==
