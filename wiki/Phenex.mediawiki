@@ -18,7 +18,7 @@ Double-click the downloaded file to unzip it.  Copy Phenex.app anywhere you woul
 On Windows you must be sure to extract the Phenex folder from the zip archive - Phenex will not function properly if run from within the zip archive.  Right-click on the downloaded zip file and choose "Extract All...".  Use the Extraction Wizard to copy Phenex to a folder on your desktop.  You can then move the Phenex folder anywhere you like.  Within the Phenex folder, double-click the file Phenex.bat to launch the application.
 
 ===Installation on Linux/Unix===
-Unzip the downloaded archive using a command such as <code>tar zxvf phenex-1.0-unix.tgz</code>. Change directories into the Phenex folder and run the shell script to launch Phenex.
+Unzip the downloaded archive using a command such as <code>tar zxvf phenex-1.0-unix.tgz</code>. Change directories into the Phenex folder and run the shell script to launch Phenex. Java should be in your executable <code>PATH</code>.
 
 ===Obtaining Phenex source code (for developers)===
 The Phenex source for a particular release can be found in the "src" archive at the download site.  To make contributions to the project or test the latest in-development code, you should check out a working copy from the Subversion repository:
