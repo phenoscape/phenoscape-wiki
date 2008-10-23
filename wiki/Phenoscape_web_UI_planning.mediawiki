@@ -13,6 +13,7 @@ Cartik, Jim, and Hilmar met to discuss web service requirements for the Phenosca
 ====Text autocompletion====
 
 ===="Anatomy search"====
+Didn't really cover this much in the discussion.  What format should summary counts be returned in?  These are then used to navigate to further data services.
 
 ====Publication detail====
 This could potentially be handled by the term info service, if the client knew which properties to traverse from the publication to get the information it needed.  This is a trade-off between general and more specific services.
