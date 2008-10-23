@@ -1,0 +1,29 @@
+---
+title: Phenoscape web UI planning
+---
+
+==Discussion, 2008-10-15==
+
+Cartik, Jim, and Hilmar met to discuss web service requirements for the Phenoscape web application.
+
+===Services===
+
+===Short-term plans===
+====Cartik====
+* By Oct. 30
+**Develop script for loading data files into database
+*** should be run both automated nightly and on-demand
+*** loading tool should check out latest data files from Phenoscape SVN, and load latest versions of all needed ontologies
+*** this could be a collection of distinct tools which are chained together in a shell script
+* By Nov. 6
+** Determine how to distinguish between pre- and post-composed compositional descriptions/relations - without hacks
+
+====Jim====
+* By Oct. 30
+** Initiate OBD-WS project in OBO repository
+** Define JSON schema for term info service
+** Prepare formal architecture draft of web application
+** Validate result of data loading script (identify missing data not yet handled by OBDModelBridge.java)
+** More comprehensively define data service requirements
+
+[[Category:Informatics]]
