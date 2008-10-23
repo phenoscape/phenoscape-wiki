@@ -27,7 +27,7 @@ Currently there is not a separate download for Linux.  The easiest way to run Ph
 ===Obtaining Phenex source code (for developers)===
 The Phenex source for a particular release can be found in the "src" archive at the download site.  To make contributions to the project or test the latest in-development code, you should check out a working copy from the Subversion repository:
 * https://obo.svn.sourceforge.net/svnroot/obo/phenex/trunk (use that URL with an SVN client, not a web browser)
-The Phenex source includes both an Eclipse project (used for most active development) and an Ant build file (used for making releases).
+The Phenex source includes both an Eclipse project (used for most active development) and an Ant build file (used for making releases).  You can browse Phenex SVN revisions on the web at http://obo.svn.sourceforge.net/viewvc/obo/phenex/.
 
 ==Running Phenex==
 After launching Phenex, Java can sometimes be a little slow to start up.  If you're running Java 6 or later, you should see a splash screen image shortly after launching.  This will be replaced by a panel informing you that Phenex is checking for ontology updates.  If you have not run Phenex before, your computer needs to be online in order for Phenex to download the required ontologies.  If you have run Phenex before, Phenex will check for the availability of a newer version of each ontology and download it if necessary.  It is okay to work offline if Phenex has previously had a chance to download the ontologies.  Phenex performs a check for ontology updates each time it is launched.
