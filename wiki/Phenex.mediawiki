@@ -27,7 +27,9 @@ Currently there is not a separate download for Linux.  The easiest way to run Ph
 ==Running Phenex==
 After launching Phenex, Java can sometimes be a little slow to start up.  If you're running Java 6 or later, you should see a splash screen image shortly after launching.  This will be replaced by a panel informing you that Phenex is checking for ontology updates.  If you have not run Phenex before, your computer needs to be online in order for Phenex to download the required ontologies.  If you have run Phenex before, Phenex will check for the availability of a newer version of each ontology and download it if necessary.  It is okay to work offline if Phenex has previously had a chance to download the ontologies.  Phenex performs a check for ontology updates each time it is launched.
 
-==Menu choices for opening files==
+==Documentation==
+
+===Menu choices for opening files===
 * File > Open...
 ** Open an existing NeXML file (native Phenex format), replacing all existing data.
 * File > Merge > Tab-delimited Taxa...
@@ -39,11 +41,13 @@ After launching Phenex, Java can sometimes be a little slow to start up.  If you
 * File > Merge > NeXML Data...
 ** Merge data from an existing NeXML file into your existing data.
 
-==Double-checking Taxon Lists for omissions and errors==
+===Merging data from Phenote files and NEXUS matrices (for Phenoscape curators)===
+
+====Double-checking Taxon Lists for omissions and errors====
 
 #Open the taxon file in Excel and print the taxon list.  Compare the printed copy against the publication's materials list, and use Phenote+ to add missing taxa or make other corrections to the file. Remember to upload the corrected file to the fileshare, and use the corrected file to merge in Phenex.
 
-==Importing matrix files and taxon lists into Phenex==
+====Importing matrix files and taxon lists into Phenex====
 # In order to combine a taxon list created in Phenote with matrix data stored in a NEXUS file, both files need to use identical taxon names.  For the Phenote file, this is the value in "Publication Taxon" (NOT "Valid Taxon").  For the NEXUS file, this is the ordinary taxon name you can see and edit in Mesquite.  It is much easier if all the taxon names are made identical before you do the merge.
 # First, open the  taxon list in Phenote and the NEXUS file in Mesquite.  Make sure all the taxon names you want to match are identical.  It is okay if the files don't have the same number of taxa - if there are more in the taxon list, the extra taxa will be added.  If there are fewer, you will just have some that don't get matched.
 # Next, make sure that the character description field has some content (more than numerical).  If it is blank, it leads to an import error in current Phenex (1.0-beta4; 25 Aug 08).  Copying the free text character name from the publication pdf works well.  Pasting in the character state free text, however, works better in Phenex than Mesquite (because Mesquite doesn't return to next character in list after entering character states from previous character).
@@ -54,10 +58,10 @@ After launching Phenex, Java can sometimes be a little slow to start up.  If you
 # Save your Phenex data to a new file using "File > Save".  It is recommended to append ".xml" to the file name.
 # NOTE: If your publication does not include a character X taxon matrix, you can Merge Tab-delimited Taxa to import the taxon list and then save as a .xml Phenex file. A matrix can be entered at some later point, either in Phenex or Jim is developing a matrix import feature (the first version of this is available now in 1.0-beta5).
 
-==Merging EQ annotations from a tab-delimited file==
+====Merging EQ annotations from a tab-delimited file====
 Using the menu item "File > Merge Tab-delimited Characters...", you can merge EQ annotations from a tab file into an existing data set. The "Character Number" and "State Number" columns are used to match a character (by index) and state (by symbol) in the existing data set.  If the index falls outside the current range of characters, a new character is appended to the existing data set.  If a state with the given symbol does not exist, a new state is appended to the given character.  The character and state labels in the tab file will overwrite any labels in the existing data set.  If a "Count" value is not a basic number, it will be appended to the Notes field instead of Count.
 
-==Merging matrix data (taxon by character state associations) from a NEXUS file==
+====Merging matrix data (taxon by character state associations) from a NEXUS file====
 Using the menu item "File > Merge NEXUS Matrix...", you can merge matrix values into an existing data set.  Characters are matched via their index. Extra characters are appended to the existing data. Values are matched by comparing the symbol - if a state with that symbol is not available for the character in the existing data set, a new state with that symbol is added to the character. Taxa are matched via their Publication Name.  Matrix values for unmatched taxa are unaltered.
 
 [[Category:Curation]]
