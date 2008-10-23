@@ -8,6 +8,15 @@ Cartik, Jim, and Hilmar met to discuss web service requirements for the Phenosca
 
 ===Services===
 
+====Term info====
+
+====Text autocompletion====
+
+===="Anatomy search"====
+
+====Publication detail====
+This could potentially be handled by the term info service, if the client knew which properties to traverse from the publication to get the information it needed.  This is a trade-off between general and more specific services.
+
 ===Short-term plans===
 ====Cartik====
 * By Oct. 30
