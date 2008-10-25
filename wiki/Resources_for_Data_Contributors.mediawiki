@@ -26,14 +26,14 @@ If you have a Mac, you should be fine if you have Mac OS X 10.4 or higher (Java 
 
 Phenoscape project files are .xml files created using Phenex and housed a data repository.  Instructions for accessing the data repository can be found [[Data Repository Access Instructions | here ]].
 
-==3. Download Publication PDFs and Ontology Posters ==
-You can download project PDFs and TAO and PATO ontology posters by connecting to the Phenoscape file share.
+==3. Download PDFs and Ontology Posters as Needed on Phenoscape Fileshare ==
+You can download publication PDFs and powerpoint posters of the TAO and PATO ontologies by connecting to the Phenoscape file share.
 
 Connecting in MAC OS X
 # In finder > Go > Connect to Server
 # Type in https://webdav.nescent.org/[sharename] .   For example, https://webdav.nescent.org/phenoscape-data
 # Accept security warning about certificate
-# enter username and password
+# enter username and password (ask a Phenoscaper)
 
 Connecting in Windows XP
 # Go to "My Network Places"
