@@ -15,15 +15,6 @@ All software and database developments will be made freely available as open-sou
 
 ==[[Software roadmap]]==
 
-* Phenoscape
-
-At present, we have implemented
-# A relational database to hold ontological definitions of concepts from ontologies such as the TTO, TAO, and PATO, and curated data from NeXML files
-# A query API to extract assertions from the database using combinations of taxon, entity, and quality parameters by extending the OBD API
-# A front end application to query the database by Entity Quality (EQ) combinations
-
-This application was demoed at the Data Roundup at Rapid City, SD
-
 ==APIs==
 
 ===Proposals===
