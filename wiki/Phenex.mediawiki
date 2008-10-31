@@ -37,7 +37,7 @@ Prioritizing tracker issues is essential for guiding Phenex development. Dependi
 * 7 - Serious issue, but workaround is not bad.
 * 6
 * 5
-* 4 - Default priority. Standard bug or feature request. Use 4, 5, and 6 to schedule some tasks before others.
+* 4 - Standard priority. Standard bug or feature request. Use 4, 5, and 6 to schedule some tasks before others (the tracker creates new request with priority 5 by default).
 * 3 -  I would really like this, but I appreciate that it is not a high priority.
 * 2
 * 1 - Nice idea to keep in mind; wishlist. Not scheduled for implementation.
