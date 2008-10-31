@@ -34,7 +34,12 @@ Report any bugs and make feature requests using the [http://sourceforge.net/trac
 Prioritizing tracker issues is essential for guiding Phenex development. Depending on your project role, you may be able to assign a priority to issues you submit.  Otherwise feel free to suggest a priority in your issue description.  Use the following guidelines in assigning priorities, from 1 (lowest) to 9 (highest).  Not every number has a definition - this allows some flexibility in ordering what tasks should be addressed first.
 * 9
 * 8
+* 7
+* 6
+* 5
+* 4
 * 3
+* 2
 * 1
 
 ==Documentation==
