@@ -2,7 +2,7 @@
 title: Informatics
 ---
 
-This page provides a broad overview of our informatics activities.  Phenoscape supports open development processes and collaboration.  All source code we create is available from open source repositories such as Sourceforge, we work with existing open-source projects whenever possible.  Development plans can be found at our [software roadmap].
+This page provides a broad overview of our informatics activities.  Phenoscape supports open development processes and collaboration.  All source code we create is available from open source repositories such as Sourceforge, we work with existing open-source projects whenever possible.  Development plans can be found at our [[software roadmap]].
 
 ==Phenoscape software components==
 
