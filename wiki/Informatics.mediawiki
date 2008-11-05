@@ -6,6 +6,12 @@ title: Informatics
 
 We are building the following database and software components for this project.
 
+===Phenex curation tool===
+
+===Data services built on OBD===
+
+===Phenoscape web UI===
+
 * An editor to create, maintain, and manage the taxonomy of Ostariophysi. We will focus on a reference taxonomy derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes].<br/>A taxonomy is a hypothesis about the phylogeny of clades of organisms, and as such we need to allow ultimately for different taxonomies that a user can choose from.
 * An editor to create, maintain, and manage the anatomical ontology for Ostariophysi (TAO).
 * An editor to create, maintain, and manage phenotype annotations in EQ syntax ("[[EQ Editor]]"). This editor needs to tightly integrate with the character annotation workflow that morphologists collaborating in the project will follow.
