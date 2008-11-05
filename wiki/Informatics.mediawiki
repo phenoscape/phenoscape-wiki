@@ -2,7 +2,7 @@
 title: Informatics
 ---
 
-This page provides a broad overview of our informatics activities.  Phenoscape supports open development processes and collaboration.  All source code we create is available from open source repositories such as Sourceforge, we work with existing open-source projects whenever possible.
+This page provides a broad overview of our informatics activities.  Phenoscape supports open development processes and collaboration.  All source code we create is available from open source repositories such as Sourceforge, we work with existing open-source projects whenever possible.  Development plans can be found at our [software roadmap].
 
 ==Phenoscape software components==
 
@@ -21,12 +21,5 @@ The Phenoscape web application will allow scientists to browse and query the phe
 We are using the [http://oboedit.org/ OBO-Edit] ontology editor to develop and maintain our [[ontologies]] such as the Teleost Anatomy Ontology and the Teleost Taxonomy Ontology.
 
 ===NeXML===
-
-==[[Software roadmap]]==
-
-==APIs==
-
-===Proposals===
-* [[Ontology_Data_Service_API|Ontology Data Service API Description]]
 
 [[Category:Informatics]]
