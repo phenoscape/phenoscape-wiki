@@ -51,4 +51,7 @@ These ontologies were developed and shared by a variety of model organism commun
 === Spatial Ontology ===
 *[http://bioportal.bioontology.org/visualize/29952 Spatial Ontology]
 
+=== Comparative Data Analysis Ontology ===
+* [http://www.evolutionaryontology.org/]
+
 [[Category:Ontology]]
