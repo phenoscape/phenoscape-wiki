@@ -34,6 +34,11 @@ The term “vertebra 1 part of Weberian apparatus” has relationship part_of: W
 
 ====3. part_of variability as a phenotype statement====
 
+ E: vertebra; Q: ? part_of; Related E: Weberian apparatus; Taxon: Otophysi
+
+- Problem: this is not a species-level annotation
+- What is appropriate quality?
+
 ===Representing serial homologues===
 
 neural arch 2 and intercalarium are children of neural arch
