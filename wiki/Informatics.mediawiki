@@ -4,7 +4,7 @@ title: Informatics
 
 ==Phenoscape Software Components==
 
-We are building the following database and software components for this project.
+This page provides a broad overview of our informatics activities.  Phenoscape supports open development processes and collaboration.  All source code we create is available from open source repositories such as Sourceforge.
 
 ===Phenex curation tool===
 [[Phenex]] is an application for annotating character matrix files with ontology terms to describe phenotypes and identify taxa.  Phenex is a Java application based on code from the [http://oboedit.org/ OBO-Edit] and [http://www.phenote.org/ Phenote] projects.  While still under development, Phenex is ready for use and enables our ongoing data curation activities.
