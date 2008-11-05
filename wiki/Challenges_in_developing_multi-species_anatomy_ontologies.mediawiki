@@ -13,3 +13,11 @@ An entity may have taxonomically variable part_of relationships.  For example, v
  precaudal vertebra
  <--is_a vertebra 1
  <--is_a vertebra 1 part of Weberian apparatus
+
+The term “vertebra 1 part of Weberian apparatus” has relationship part_of: Weberian apparatus
+
+- This requires that the curator chooses the taxonomically correct term at time of annotation
+
+- Search on “vertebra 1” will bring back results for all ostariophysans only if homologous_to statement is used:
+
+"vertebra 1" in Anotophysi homologous_to "vertebra 1 part of Weberian apparatus in Otophysi
