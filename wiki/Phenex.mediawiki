@@ -30,7 +30,7 @@ After launching Phenex, Java can sometimes be a little slow to start up.  If you
 
 ==Reporting Bugs and Feature Requests==
 Report any bugs and make feature requests using the [http://sourceforge.net/tracker/?group_id=76834&atid=1116214 Phenex issue tracker].  You will need to log in with a Sourceforge account to submit an issue (just create an account if you don't already have one).  Be sure to choose a category for your new issue, either Bug Report or Feature Request.
-===Assigning Request Priorities===
+===Assigning request priorities===
 Prioritizing tracker issues is essential for guiding Phenex development. Depending on your project role, you may be able to assign a priority to issues you submit.  Otherwise feel free to suggest a priority in your issue description.  Use the following guidelines in assigning priorities, from 1 (lowest) to 9 (highest).  Not every number has a definition - this allows some flexibility in ordering what tasks should be addressed first.
 * 9 - Showstopper bug or missing feature; makes Phenex unusable. Items of this priority take precedence over all other work.
 * 8 - Serious problem, quite urgent, but there is a very tedious workaround. Should be addressed before any other Phenex work.
