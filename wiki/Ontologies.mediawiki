@@ -52,6 +52,6 @@ These ontologies were developed and shared by a variety of model organism commun
 *[http://bioportal.bioontology.org/visualize/29952 Spatial Ontology]
 
 === Comparative Data Analysis Ontology ===
-* [http://www.evolutionaryontology.org/]
+* [http://www.evolutionaryontology.org/ CDAO]
 
 [[Category:Ontology]]
