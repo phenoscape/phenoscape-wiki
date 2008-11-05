@@ -1,0 +1,5 @@
+---
+title: Challenges in developing multi-species anatomy ontologies
+---
+
+===Representing taxonomically variable part_of relationships for an entity===
