@@ -17,11 +17,11 @@ The Phenoscape web application will allow scientists to browse and query the phe
 
 ===Phenoscape Data Loader===
 A data loader application to refresh the data in the Phenoscape database on a daily basis is under development. The application is being developed as a Perl module which:
-a) Downloads curated NeXML files from the Phenoscape SVN repositories
-b) Drops and recreates the database 
-c) Loads the requisite ontologies into the database
-d) Loads the data from the curated NeXML files into the database
-e) Invokes the OBD reasoner to elicit implicit information from the data and adds them to the database
+# Downloads curated NeXML files from the Phenoscape SVN repositories
+# Drops and recreates the database
+# Loads the requisite ontologies into the database
+# Loads the data from the curated NeXML files into the database, and
+# Invokes the OBD reasoner to elicit implicit information from the data and adds them to the database
 
 Concerns: The quality of the curated data is a constraint to the proper functioning of the data loader. Incomplete data that violates database integrity constraints will not be loaded into the database. Quality checks with respect to the completeness of the data are being implemented in parallel.
 
