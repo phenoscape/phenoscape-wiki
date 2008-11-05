@@ -20,6 +20,8 @@ The Phenoscape web application will allow scientists to browse and query the phe
 ===OBO-Edit===
 We are using the [http://oboedit.org/ OBO-Edit] ontology editor to develop and maintain our [[ontologies]] such as the Teleost Anatomy Ontology and the Teleost Taxonomy Ontology.
 
+===NeXML===
+
 ==[[Software roadmap]]==
 
 ==APIs==
