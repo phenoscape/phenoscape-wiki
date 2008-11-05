@@ -2,6 +2,10 @@
 title: EQ Editor
 ---
 
+{{EventBox1|
+[[Phenex]] is our production EQ Editor.  This is an early requirements-gathering document and is out of date.  Feature requests for Phenex should be directed to the Phenex tracker, linked from the [[Phenex|Phenex homepage]].
+}}
+
 =Overview=
 Currently, the EQ Editor is being developed by customizing [http://www.phenote.org/ Phenote] to our needs.  We are collaborating with the developers of Phenote at NCBO by contributing improvements to the core Phenote code, and we are also developing specialized components and configuration required for our annotation workflow.
 
