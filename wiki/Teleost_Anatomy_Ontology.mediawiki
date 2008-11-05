@@ -34,6 +34,8 @@ Post-composed terms (terms created on-the-fly at the time of annotation) take th
 
 The anatomy ontology is regulary updated to include new terms and developed based on feedback from the community.  Requests for changes are submitted to the anatomy term tracker and a summary is forwarded to the teleost-discuss mailing list for community discussion (see [[Term Requests | instructions on requesting terms]] for details). Terms are added to the TAO usually within one week, with any comments or suggestions from  teleost-discuss incorporated. We invite you to join the teleost-discuss mailing list and contribute to the discussion of terms.
 
+[[Challenges in developing multi-species anatomy ontologies]]
+
 ===Homology===
 
 Homology links are important in the use of multi-species ontologies to define homology relations between different terms in the ontology, and because homology is not implied if the same term is used in annotations for different species. Terms in the anatomy ontology are defined based on structural similarity, and it cannot be assumed that this similarity is due to common ancestry.  For example, zebrafish and humans both possess a frontal bone; however, there is evidence that the zebrafish frontal bone is homologous to the human parietal bone. Our use of the homologous_to relation between entities that are homologues will help clarify the identity of such similarly named but nonhomologous bones.
