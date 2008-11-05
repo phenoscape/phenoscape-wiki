@@ -5,5 +5,11 @@ title: Challenges in developing multi-species anatomy ontologies
 ===Representing taxonomically variable part_of relationships for an entity===
 See related [http://sourceforge.net/tracker/index.php?func=detail&aid=2137065&group_id=76834&atid=994764 TAO tracker request]
 
-An entity may have taxonomically variable part_of relationships.  For example, vertebra 1 may or may not be part_of the Weberian apparatus.  
+An entity may have taxonomically variable part_of relationships.  For example, vertebra 1 may or may not be part_of the Weberian apparatus.
 (The Weberian apparatus is an anatomical cluster consisting of the first four vertebrae (additional vertebra in some taxa) and associated structures which connect the gas bladder to the inner ear.  It is diagnostic of the Otophysi (Cypriniformes, Characiformes, Gymnotiformes, Siluriformes). Some species have vertebra 5 and/or 6 as part of Weberian apparatus).  How to represent taxonomically variable part_of information in a multi-species ontology?
+
+====1. create multiple vertebra 1 terms as children of “vertebra”====
+
+ precaudal vertebra
+ <--is_a vertebra 1
+ <--is_a vertebra 1 part of Weberian apparatus
