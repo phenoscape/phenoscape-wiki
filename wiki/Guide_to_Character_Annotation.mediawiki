@@ -24,6 +24,10 @@ The following are examples of character types commonly enountered in the systema
  E: pectoral fin, Q: present
  E: pectoral fin, Q: absent
 
+If a character describes the presence or absence of a structure on another entity, for example, teeth on a bone, first check to see whether the structure exists as a term in the TAO before post-composing.  So, for the character "teeth absent on basihyal bone"
+
+ E: basihyal tooth, Q: absent
+
 ===Characters involving well developed vs. small or absent entities===
 For example, a character involving the auditory foramen is coded with two states: 0, absent or small; 1, well developed.  
 
