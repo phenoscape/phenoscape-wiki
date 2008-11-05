@@ -17,9 +17,8 @@ The Phenoscape web application will allow scientists to browse and query the phe
 
 ==Affiliated projects==
 
-
-* An editor to create, maintain, and manage the taxonomy of Ostariophysi. We will focus on a reference taxonomy derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes].<br/>A taxonomy is a hypothesis about the phylogeny of clades of organisms, and as such we need to allow ultimately for different taxonomies that a user can choose from.
-* An editor to create, maintain, and manage the anatomical ontology for Ostariophysi (TAO).
+===OBO-Edit==
+We are using the [http://oboedit.org/ OBO-Edit] ontology editor to develop and maintain our [[ontologies]] such as the Teleost Anatomy Ontology and the Teleost Taxonomy Ontology.
 
 ==[[Software roadmap]]==
 
