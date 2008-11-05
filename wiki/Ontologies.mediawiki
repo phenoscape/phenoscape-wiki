@@ -52,7 +52,7 @@ These ontologies were developed and shared by a variety of model organism commun
 *[http://bioportal.bioontology.org/visualize/29952 Spatial Ontology]
 
 === Comparative Data Analysis Ontology ===
-CDAO is being developed by the [http://www.nescent.org/wg_evoinfo/Main_Page EvoInfo working group] at NESCent, and is being used within the Phenoscape OBD data repository.
+CDAO is developed by the [http://www.nescent.org/wg_evoinfo/Main_Page EvoInfo working group] at NESCent, and is being used within the Phenoscape OBD data repository.
 * [http://www.evolutionaryontology.org/ CDAO]
 
 [[Category:Ontology]]
