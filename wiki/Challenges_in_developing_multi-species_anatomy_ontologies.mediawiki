@@ -32,6 +32,8 @@ The term “vertebra 1 part of Weberian apparatus” has relationship part_of: W
 
 - Search on "vertebra 1 will bring back results for all ostariophysans, regardless of whether homologous_to statement is made
 
+====3. part_of variability as a phenotype statement====
+
 ===Representing serial homologues===
 
 neural arch 2 and intercalarium are children of neural arch
