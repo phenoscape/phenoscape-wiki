@@ -21,5 +21,6 @@ The Phenoscape web application will allow scientists to browse and query the phe
 We are using the [http://oboedit.org/ OBO-Edit] ontology editor to develop and maintain our [[ontologies]] such as the Teleost Anatomy Ontology and the Teleost Taxonomy Ontology.
 
 ===NeXML===
+Phenex saves character matrix data using the new evolutionary data standard [http://www.nexml.org/ NeXML].  NeXML is an XML Schema and has robust facilities for embedding additional data, such as our phenotype annotations, within a traditional character-by-taxon matrix.
 
 [[Category:Informatics]]
