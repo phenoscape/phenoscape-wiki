@@ -23,8 +23,6 @@ A data loader application to refresh the data in the Phenoscape database on a da
 # Loads the data from the curated NeXML files into the database, and
 # Invokes the OBD reasoner to elicit implicit information from the data and adds them to the database
 
-Concerns: The quality of the curated data is a constraint to the proper functioning of the data loader. Incomplete data that violates database integrity constraints will not be loaded into the database. Quality checks with respect to the completeness of the data are being implemented in parallel.
-
 ==Affiliated projects==
 
 ===OBO-Edit===
