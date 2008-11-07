@@ -30,7 +30,7 @@ In example 1, the definition mentions the parent dermal bone of the term antorbi
 
 Post-composed terms (terms created on-the-fly at the time of annotation) take the form of genus-differentia definitions.
 
-===Anatomy Term Tracker===
+===Anatomy Term Tracker and Teleost-discuss Mailing List===
 
 The anatomy ontology is regulary updated to include new terms and developed based on feedback from the community.  Requests for changes are submitted to the anatomy term tracker and a summary is forwarded to the teleost-discuss mailing list for community discussion (see [[Term Requests | instructions on requesting terms]] for details). Terms are added to the TAO usually within one week, with any comments or suggestions from  teleost-discuss incorporated. We invite you to join the [https://lists.sourceforge.net/lists/listinfo/obo-teleost-discuss teleost-discuss mailing list] and contribute to the discussion of terms. [http://sourceforge.net/mailarchive/forum.php?forum_name=obo-teleost-discuss Archives] of teleost-discuss are also available.
 
