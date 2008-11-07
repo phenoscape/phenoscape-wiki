@@ -38,7 +38,7 @@ This multi-species anatomy ontology is being used in combination with the PATO o
 
 ====Taxonomic ontology====
 
-Together with taxonomic experts, we are developing a taxonomic ontology (based on the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes]) in order to relate species with particular characters and states.  The taxonomic ontology will include nodes ancestral to the Ostariophysi as far back as the Vertebrata in order to associate certain anatomical terms with more inclusive clades than the Ostariophysi.
+Together with taxonomic experts, we have developed a taxonomic ontology (based on the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes]) in order to relate species with particular characters and states.  The taxonomic ontology will include nodes ancestral to the Ostariophysi as far back as the Vertebrata in order to associate certain anatomical terms with more inclusive clades than the Ostariophysi.
 
 ====Fish Morphology====
 
