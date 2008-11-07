@@ -32,7 +32,7 @@ Ontologies are constrained, structured vocabularies with well defined relationsh
 
 ====Anatomical ontologies====
 
-We have initiated a multi-species ontology for ostariophysan fishes, the Teleost Anatomy Ontology (TAO), which was initialized with the terms in the zebrafish anatomical ontology.  The development of the TAO  is currently focused on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology.
+We have initiated a multi-species ontology for ostariophysan fishes, the [[Teleost Anatomy Ontology]] (TAO), which was initialized with the terms in the zebrafish anatomical ontology.  The development of the TAO  is currently focused on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology.
 
 This multi-species anatomy ontology is being used in combination with the PATO ontology (see EQ format) to describe the comparative morphological characters.  We have also developed a separate catalog of homology statements for entities within the TAO, so that individual investigators may select particular relationships based on evidence.
 
