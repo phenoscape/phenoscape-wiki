@@ -10,6 +10,8 @@ Phenoscape comprises a front end user interface where biologists enter annotatio
 
 ==[http://www.phenoscape.org/wiki/Informatics/Frontend Front end user interface tools]==
 
+A summary of the front end user interface tools being developed primarily by Jim Balhoff
+
 ===Phenex curation tool===
 [[Phenex]] is an application for annotating character matrix files with ontology terms to describe phenotypes and identify taxa.  Phenex is a Java application based on code from the [http://oboedit.org/ OBO-Edit] and [http://www.phenote.org/ Phenote] projects.  While still under development, Phenex is ready for use and enables our ongoing data curation activities.
 
