@@ -58,3 +58,5 @@ If there is no term with the given ID, the service should return "404 Not Found"
 
 '''Returns'''
 <BASE URI>/term/search/{text}?name={true|false}&syn={true|false}&def={true|false}
+
+If there are no terms matching the given input, a document should still be returned, containing an empty results list.
