@@ -60,4 +60,10 @@ All URI parameters are optional.  Default values are name=true, syn=false, def=f
 
 '''Returns'''
 
+JSON:
+<javascript>
+[
+]
+</javascript>
+
 If there are no terms matching the given input, a document should still be returned, containing an empty results list.
