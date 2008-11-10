@@ -57,4 +57,4 @@ If there is no term with the given ID, the service should return "404 Not Found"
 
 
 '''Returns'''
-<BASE URI>/term/search/{text}
+<BASE URI>/term/search/{text}?name={true|false}&syn={true|false}&def={true|false}
