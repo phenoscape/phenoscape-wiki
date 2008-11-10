@@ -13,6 +13,13 @@ A data loader application to refresh the data in the Phenoscape database on a da
 ==Web services==
 ===Term info===
 '''URI'''
+
 ../info/{termID}
+
+'''Returns'''
+
+
+
+If there is no term with the given ID, the service should return "404 Not Found".
 
 ===Autocomplete===
