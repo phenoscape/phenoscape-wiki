@@ -11,6 +11,7 @@ A data loader application to refresh the data in the Phenoscape database on a da
 # Invokes the OBD reasoner to elicit implicit information from the data and adds them to the database
 
 ==Web services==
+Each service may support multiple media types.  The desired media type can be specified by appending <code>?media=json</code or similar to the request URL.
 ===Term info===
 '''URI'''
 
