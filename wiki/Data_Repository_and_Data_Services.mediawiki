@@ -12,7 +12,7 @@ A data loader application to refresh the data in the Phenoscape database on a da
 
 ==Web services==
 ===Term info===
-====URI====
+'''URI'''
 ../info/{termID}
 
 ===Autocomplete===
