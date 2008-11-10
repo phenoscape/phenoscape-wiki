@@ -43,6 +43,10 @@ JSON:
 // how should xrefs, etc. be represented, property_value definitions?
 </javascript>
 
+OWL-RDF:
+
+TBD...
+
 If there is no term with the given ID, the service should return "404 Not Found".
 
 ===Autocomplete===
