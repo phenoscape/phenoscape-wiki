@@ -90,4 +90,6 @@ JSON:
 ]
 </javascript>
 
+I'm not sure if an array can be the outer-most object in JSON (need to check).  If not, this should be wrapped in an object with a single "matches" key.
+
 If there are no terms matching the given input, a document should still be returned, containing an empty results list.
