@@ -17,13 +17,14 @@ A data loader application to refresh the data in the Phenoscape database on a da
 ../info/{termID}
 
 '''Returns'''
+
 JSON:
 <javascript>
 {
     "id" : "TAO:0001700",
     "name" : "caudal-fin stay",
     "definition" : "Bone that is located anterior to the caudal procurrent rays. Caudal fin stays are unpaired bone."
-    "parents" : 
+    "parents" :
     [
         {
             "relation" : "OBO_REL:is_a",
