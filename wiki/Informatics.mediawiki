@@ -8,7 +8,7 @@ This page provides a broad overview of our informatics activities.  Phenoscape s
 
 Phenoscape comprises a front end user interface where biologists enter annotations of curated publications. This data is stored in a backend relational database for subsequent retrieval and processing
 
-==[http://www.phenoscape.org/wiki/Informatics/Frontend Front end user interface tools]==
+==[[Front end user interface tools]]==
 
 A summary of the front end user interface tools being developed primarily by Jim Balhoff
 
