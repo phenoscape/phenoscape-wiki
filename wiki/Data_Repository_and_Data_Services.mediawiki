@@ -54,9 +54,9 @@ If there is no term with the given ID, the service should return "404 Not Found"
 ===Autocomplete===
 '''URI'''
 
-<BASE URI>/term/search/{text}?name=[true|false]&syn=[true|false]&def=[true|false]&ontology=[ont1,ont2,...]
+<BASE URI>/term/search/{text}?name=[true|false]&syn=[true|false]&def=[true|false]&ontology=[ont1;ont2;...]
 
-All URI parameters are optional.  Default values are name=true, syn=false, def=false.  The "ontology" parameter should be a comma-separated list of ontology prefixes to search within.  If not given, the default is to search all terms.
+All URI parameters are optional.  Default values are name=true, syn=false, def=false.  The "ontology" parameter should be a semicolon-separated list of ontology prefixes to search within.  If not given, the default is to search all terms.
 
 '''Returns'''
 
