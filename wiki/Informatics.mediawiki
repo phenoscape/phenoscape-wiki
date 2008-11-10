@@ -6,15 +6,14 @@ This page provides a broad overview of our informatics activities.  Phenoscape s
 
 ==Phenoscape software components==
 
-Phenoscape comprises a front end user interface where biologists enter annotations of curated publications. This data is stored in a backend relational database for subsequent retrieval and processing
+===Phenex curation tool===
+[[Phenex]] is an application for annotating character matrix files with ontology terms to describe phenotypes and identify taxa.  Phenex is a Java application based on code from the [http://oboedit.org/ OBO-Edit] and [http://www.phenote.org/ Phenote] projects.  While still under development, Phenex is ready for use and enables our ongoing data curation activities.
 
-==[[Front end User Interface Tools]]==
+===Data services built on OBD===
+We are adopting [http://www.bioontology.org/wiki/index.php/OBD:Main_Page OBD] as the ontology-driven datastore for our phenotype annotations.  We are collaborating with the [http://www.berkeleybop.org/ Berkeley Bioinformatics Open-source Projects] group in driving future development of OBD.  We are also developing a suite of web services on top of OBD to serve as a data access API and foundation for our user-oriented Phenoscape web application.  These web services make use of the OBD Java API and present a [http://en.wikipedia.org/wiki/Representational_State_Transfer RESTful] service interface using [http://www.restlet.org/ Restlet].
 
-A summary of the front end user interface tools being developed primarily by Jim Balhoff
-
-==[[Data Repository and Data Services]]==
-
-A summary of the backend database and the data services being implemented primarily by Cartik Kothari
+===Phenoscape web UI===
+The Phenoscape web application will allow scientists to browse and query the phenotype annotations as well as the supporting ontologies.  Initially, the query capabilities will concentrate on implementing a select set of "use-cases", research questions that show the utility of the approach. Ultimately, we will build interfaces that allow researchers to ask open-ended questions of the data.  The web application is being developed using [http://www.rubyonrails.org/ Ruby on Rails] and accesses phenotype data and ontology information via our OBD web services.
 
 ==Affiliated projects==
 
