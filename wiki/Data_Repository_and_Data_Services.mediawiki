@@ -45,7 +45,7 @@ JSON:
 
 OWL-RDF:
 
-Todo...
+ Todo...
 
 If there is no term with the given ID, the service should return "404 Not Found".
 
