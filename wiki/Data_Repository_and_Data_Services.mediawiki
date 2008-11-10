@@ -56,6 +56,8 @@ If there is no term with the given ID, the service should return "404 Not Found"
 
 <BASE URI>/term/search/{text}?name=[true|false]&syn=[true|false]&def=[true|false]&ontologies=[ont1,ont2,...]
 
+All URI parameters are optional.  Default values are name=true, syn=false, def=false.  The ontologies parameter should be a comma-separated list of ontology prefixes to search within.  If not given, the default is to search all terms.
+
 '''Returns'''
 
 If there are no terms matching the given input, a document should still be returned, containing an empty results list.
