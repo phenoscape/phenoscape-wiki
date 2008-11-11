@@ -35,7 +35,7 @@ This is a development roadmap for the first production iteration of the Phenosca
 ==Dec. 1-5==
 ===Jim===
 * Implement anatomy interface
-* Begin using autocomplete service in interface
+* Begin using autocomplete and term info services in interface
 
 ===Cartik===
 ==Dec. 8-12==
