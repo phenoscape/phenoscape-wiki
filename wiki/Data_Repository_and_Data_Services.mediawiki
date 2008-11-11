@@ -14,7 +14,8 @@ A data loader application to refresh the data in the Phenoscape database on a da
 *'''Invokes the OBD reasoner to elicit implicit information from the data and adds them to the database'''
 ** The OBD reasoner uses definitions of transitive relations, relation hierarchies, and relation compositions to infer implicit information. These inferences are added to the relational database in the final step
 
-* [[OBD API Documentation]]: Specific details of OBD related classes and interfaces as documented by Cartik Kothari. These will be updated very often and are meant to be used as an addendum to the [http://oboedit.org/?page=javadocs The OBOEdit Javadoc]
+* [['''OBD API Documentation''']]
+** Specific details of OBD related classes and interfaces as documented by Cartik Kothari. These will be updated very often and are meant to be used as an addendum to the [http://oboedit.org/?page=javadocs The OBOEdit Javadoc]
 
 ==Web services==
 Each service may support multiple media types.  The desired media type can be specified by appending <code>?media=json</code> or similar to the request URL.  URI specifications are defined (loosely) using [http://bitworking.org/projects/URI-Templates/draft-gregorio-uritemplate-00.html URI Templates].
