@@ -16,7 +16,7 @@ A data loader application to refresh the data in the Phenoscape database on a da
 * '''Invokes the OBD reasoner to elicit implicit information from the data and adds them to the database'''
 ** The OBD reasoner uses definitions of transitive relations, relation hierarchies, and relation compositions to infer implicit information. These inferences are added to the relational database in the final step
 * '''Logs incomplete annotations into a log file'''
-** The data loader does not load incomplete annotations from the NeXML files into the database. Instead, it logs these incomplete annotations on a file-specific basis in this [[Problem Log Format]]. Curators can then work on finishing these annotations which will be subsequently loaded into the database in the next execution of the data loader
+** The data loader does not load incomplete annotations from the NeXML files into the database. Incomplete annotations contain null values for taxa or phenotype or both. Instead, it logs these incomplete annotations on a file-specific basis in this [[Problem Log Format]]. Curators can then work on finishing these annotations which will be subsequently loaded into the database in the next execution of the data loader. 
 
 
 For code specific details
