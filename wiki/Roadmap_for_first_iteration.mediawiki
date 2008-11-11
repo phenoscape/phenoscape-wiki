@@ -13,7 +13,7 @@ title: Roadmap for first iteration
 * Begin implementing Term Info service
 * Write code to parse ZFIN phenotype data and load into OBD
 ** See http://zfin.org/zf_info/downloads.html#phenotype
-** http://zfin.org/data_transfer/Downloads/pheno_obo.txt
+** Data: http://zfin.org/data_transfer/Downloads/pheno_obo.txt
 ** should use "exhibits" relation
 
 ==Nov. 17-21==
