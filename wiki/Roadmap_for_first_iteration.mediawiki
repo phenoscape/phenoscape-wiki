@@ -56,3 +56,15 @@ This is a development roadmap for the first production iteration of the Phenosca
 * Complete gene interface
 
 ===Cartik===
+==Outcome==
+===Query UI===
+*Anatomy
+*Taxon
+*Gene
+===Data Content===
+* Ontologies
+* Anatomy ontologies linkage
+* Phenoscape annotations (NeXML)
+* ZFIN annotations (tab-delimited)
+
+[[Category:Informatics]]
