@@ -88,3 +88,7 @@ title: OBD API Documentation
 ''<org.obo.history>''
 
 * This class has been created to keep track of changes such as redefinitions and obsoletions of OBO entities such as OBOClass, OBORelation, OBORestriction etc. Every OBO entity contains a reference to a collection of HistoryItems to keep track of all the versions it has been through
+
+[[Category:Informatics]]
+[[Category: API]]
+[[Category: Database]]
