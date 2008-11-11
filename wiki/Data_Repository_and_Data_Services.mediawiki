@@ -5,10 +5,10 @@ title: Data Repository and Data Services
 ==Data loader==
 A data loader application to refresh the data in the Phenoscape database on a daily basis is under development. The application is being developed as a Perl module which:
 # Downloads curated NeXML files from the Phenoscape SVN repositories
-Ichthyologists curate scientific publications using the [[Phenex]] character matrix annotator and these curations are stored in an SVN repository. The data loader downloads these data files on a daily basis for subsequent uploading into the relational database
+*Ichthyologists curate scientific publications using the [[Phenex]] character matrix annotator and these curations are stored in an SVN repository. The data loader downloads these data files on a daily basis for subsequent uploading into the relational database
 # Drops and recreates the database
 # Loads the requisite ontologies into the database
-The annotations of character matrices use terms that are defined in life science ontologies. These ontologies include the [http://bioportal.bioontology.org/ontologies/38703 Teleost Taxonomy Ontology (TTO)] that contains definitions of taxa, the [https://www.nescent.org/phenoscape/Teleost_Anatomy_Ontology Teleost Anatomy Ontology (TAO)] that contains definitions of teleost specific anatomical characteristics, and the [http://bioontology.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)] that contains definitions of phenotypic qualities. The data loader loads these definitions into the relational database 
+*The annotations of character matrices use terms that are defined in life science ontologies. These ontologies include the [http://bioportal.bioontology.org/ontologies/38703 Teleost Taxonomy Ontology (TTO)] that contains definitions of taxa, the [https://www.nescent.org/phenoscape/Teleost_Anatomy_Ontology Teleost Anatomy Ontology (TAO)] that contains definitions of teleost specific anatomical characteristics, and the [http://bioontology.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)] that contains definitions of phenotypic qualities. The data loader loads these definitions into the relational database
 # Loads the data from the curated NeXML files into the database, and
 # Invokes the OBD reasoner to elicit implicit information from the data and adds them to the database
 
