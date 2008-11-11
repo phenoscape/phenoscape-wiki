@@ -2,7 +2,7 @@
 title: Data Repository and Data Services
 ---
 
-One of the chief objectives of the Phenoscape project is to present a centralized repository to store annotations entered by ichthyologists. These annotations can be queried from a user interface and used to answer [[Driving_Research_Questions]] and for use cases such as [[Phenoscape_Use_Cases]]. The following tools which are under various stages of development, will serve to realize this objective.  
+One of the chief objectives of the Phenoscape project is to present a centralized repository to store annotations entered by ichthyologists. These annotations can be queried from a user interface and used to answer [[Driving_Research_Questions]] and for use cases such as [[Phenoscape_use_cases]]. The following tools which are under various stages of development, will serve to realize this objective.
 
 ==Phenoscape Data loader==
 A data loader application to refresh the data in the Phenoscape database on a daily basis is under development. The application is being developed as a Perl module, which in sequential order:
