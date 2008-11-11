@@ -20,6 +20,9 @@ This is a development roadmap for the first production iteration of the Phenosca
 ==Nov. 17-21==
 ===Jim===
 * Document data retrieval web service specifications
+** Anatomy
+** Taxon
+** Genes
 * Implement Rails app skeleton and begin coding front page
 * Implement reusable JavaScript term info panel
 * Address file merging issues with Paula.
