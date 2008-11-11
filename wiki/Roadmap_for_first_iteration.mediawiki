@@ -44,4 +44,6 @@ title: Roadmap for first iteration
 
 ==Dec. 15-19==
 ===Jim===
+* Complete gene interface
+
 ===Cartik===
