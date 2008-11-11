@@ -37,11 +37,10 @@ title: Roadmap for first iteration
 
 ===Cartik===
 ==Dec. 8-12==
-* Implement taxon interface
-* Begin gene interface
 ===Jim===
 * Complete gene interface
 ===Cartik===
+
 ==Dec. 15-19==
 ===Jim===
 ===Cartik===
