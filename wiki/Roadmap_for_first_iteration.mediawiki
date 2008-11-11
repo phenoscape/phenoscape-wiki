@@ -11,7 +11,7 @@ This is a development roadmap for the first production iteration of the Phenosca
 * Write EQ count script, as per Paula's request, using Ruby; provide results to Phenoscape mailing list.
 
 ===Cartik===
-* Set up Eclipse project for Restlet based web service application in OBD-WS
+* Set up Eclipse project for Restlet based web service application on personal machine, commit to OBD-WS SVN.
 * Begin implementing Term Info service
 * Write code to parse ZFIN phenotype data and load into OBD
 ** See http://zfin.org/zf_info/downloads.html#phenotype
