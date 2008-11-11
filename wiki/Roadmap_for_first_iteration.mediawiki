@@ -24,7 +24,7 @@ This is a development roadmap for the first production iteration of the Phenosca
 ** Anatomy
 ** Taxon
 ** Genes
-* Implement Rails app skeleton and begin coding front page
+* Implement Rails app skeleton and code front page
 * Implement reusable JavaScript term info panel
 * Address file merging issues with Paula.
 
