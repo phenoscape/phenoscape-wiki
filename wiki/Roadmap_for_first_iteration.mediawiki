@@ -22,9 +22,11 @@ title: Roadmap for first iteration
 * Implement Rails app skeleton and begin coding front page
 * Implement reusable JavaScript term info panel
 ===Cartik===
+* Complete Term Info service
 * Enhance OBD data loader pipeline to perform pre-processing of ZFA ontology, replacing xrefs with is_a links to TAO
 ** These xrefs seem to still be in TAO - may have to fix that or work around
 * Implement autocomplete service
+
 ==Nov. 24-28==
 ===Jim===
 * mostly on vacation
