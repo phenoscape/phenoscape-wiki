@@ -32,6 +32,8 @@ This is a development roadmap for the first production iteration of the Phenosca
 ===Jim===
 * mostly on vacation
 ===Cartik===
+* Implement first data service (requirements pending).
+
 ==Dec. 1-5==
 ===Jim===
 * Implement anatomy interface
