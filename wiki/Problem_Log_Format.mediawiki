@@ -1,0 +1,48 @@
+---
+title: Problem Log Format
+---
+
+==PROBLEM LOG==
+
+'''Buckup_1998.xml'''
+
+*Taxon: TTO:1030219 exhibits null phenotype
+*Null identifier for taxon: untitled exhibiting quality cartilaginous inhering in mesethmoid-prevomer joint
+*Null identifier for taxon: untitled exhibiting null phenotype
+*Taxon: TTO:1004541 exhibits null phenotype
+*Taxon: TTO:1004170 exhibits null phenotype
+*Null identifier for taxon: untitled exhibiting quality present inhering in antorbital
+*Taxon: TTO:1004398 exhibits null phenotype
+*Taxon: TTO:1030015 exhibits null phenotype
+*Taxon: TTO:1029666 exhibits null phenotype
+*Taxon: TTO:1020741 exhibits null phenotype
+*Taxon: TTO:1004142 exhibits null phenotype
+*Taxon: TTO:1004160 exhibits null phenotype
+*Taxon: TTO:1004148 exhibits null phenotype
+*Null identifier for taxon: untitled exhibiting quality present inhering in upper pharyngeal 4 tooth
+*Null identifier for taxon: untitled exhibiting quality absent inhering in rhinosphenoid
+...
+...
+
+'''Castro_Vari_2004.xml'''
+
+*Taxon: TTO:1030219 exhibits null phenotype
+*Null identifier for taxon: untitled exhibiting quality cartilaginous inhering in mesethmoid-prevomer joint
+*Null identifier for taxon: untitled exhibiting null phenotype
+*Taxon: TTO:1004541 exhibits null phenotype**Taxon: TTO:1004170 exhibits null phenotype
+*Null identifier for taxon: untitled exhibiting quality present inhering in antorbital
+*Taxon: TTO:1004398 exhibits null phenotype
+*Taxon: TTO:1030015 exhibits null phenotype
+*Taxon: TTO:1029666 exhibits null phenotype
+*Taxon: TTO:1020741 exhibits null phenotype
+*Taxon: TTO:1004142 exhibits null phenotype
+*Taxon: TTO:1004160 exhibits null phenotype
+*Taxon: TTO:1004148 exhibits null phenotype
+*Null identifier for taxon: untitled exhibiting quality present inhering in upper pharyngeal 4 tooth
+...
+...
+
+'''Langeani_1998.xml'''
+..
+..
+..
