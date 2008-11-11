@@ -22,6 +22,8 @@ This is a development roadmap for the first production iteration of the Phenosca
 * Document data retrieval web service specifications
 * Implement Rails app skeleton and begin coding front page
 * Implement reusable JavaScript term info panel
+* Address file merging issues with Paula.
+
 ===Cartik===
 * Complete Term Info service
 * Deploy OBD-WS application; continue deploying in-progress builds.
