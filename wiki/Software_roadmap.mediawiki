@@ -53,7 +53,7 @@ title: Software roadmap
 * Character encoding syntax for OBO file format and support in OBO-Edit (for example, UTF-8).
 
 ==A database and web application to store and query the taxonomies, ontologies, and phenotype data==
-* [[Data Jamboree 2/Prototype Roadmap for prototype]] demoed at the Data Roundup
+* [[Data Jamboree 2/Prototype|Roadmap for prototype]] demoed at the Data Roundup
 * [[Roadmap for first iteration]] to be demoed and tested at SICB 2009
 
 [[Category:Informatics]]
