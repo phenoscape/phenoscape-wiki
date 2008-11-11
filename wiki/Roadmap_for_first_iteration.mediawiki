@@ -34,6 +34,7 @@ title: Roadmap for first iteration
 ==Dec. 1-5==
 ===Jim===
 * Implement anatomy interface
+* Begin using autocomplete service in interface
 
 ===Cartik===
 ==Dec. 8-12==
