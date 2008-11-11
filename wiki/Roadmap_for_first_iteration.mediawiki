@@ -10,11 +10,12 @@ title: Roadmap for first iteration
 * Write EQ count script using Ruby
 ===Cartik===
 * Set up Eclipse project for Restlet based web service application in OBD-WS
-* Implement Term Info service
+* Begin implementing Term Info service
 * Write code to parse ZFIN phenotype data and load into OBD
 ** See http://zfin.org/zf_info/downloads.html#phenotype
 ** http://zfin.org/data_transfer/Downloads/pheno_obo.txt
 ** should use "exhibits" relation
+
 ==Nov. 17-21==
 ===Jim===
 * Document data retrieval web service specifications
