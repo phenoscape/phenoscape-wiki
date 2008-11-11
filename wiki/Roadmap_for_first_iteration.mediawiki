@@ -8,7 +8,7 @@ This is a development roadmap for the first production iteration of the Phenosca
 * Document interface design requirements on wiki
 * Investigate and begin documenting additional data service needs required by interface
 * Start Rails web interface project; commit to SVN.
-* Write EQ count script using Ruby
+* Write EQ count script, as per Paula's request, using Ruby; provide results to Phenoscape mailing list.
 
 ===Cartik===
 * Set up Eclipse project for Restlet based web service application in OBD-WS
