@@ -43,7 +43,7 @@ This is a development roadmap for the first production iteration of the Phenosca
 ==Dec. 1-5==
 ===Jim===
 * Implement anatomy UI.
-* Begin using autocomplete and term info services in interface.
+* Begin using autocomplete and term info services in all so-far developed user interfaces.
 
 ===Cartik===
 * Continue implementing data services.
