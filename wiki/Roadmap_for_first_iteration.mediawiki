@@ -2,6 +2,7 @@
 title: Roadmap for first iteration
 ---
 
+This is a development roadmap for the first production iteration of the Phenoscape database and web interface.
 ==Nov. 10-14==
 ===Jim===
 * Document interface design requirements on wiki
