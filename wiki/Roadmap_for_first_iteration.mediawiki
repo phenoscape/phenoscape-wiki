@@ -6,9 +6,10 @@ This is a development roadmap for the first production iteration of the Phenosca
 ==Nov. 10-14==
 ===Jim===
 * Document interface design requirements on wiki
-* Investigate additional data service needs required by interface
+* Investigate and begin documenting additional data service needs required by interface
 * Start Rails web interface project
 * Write EQ count script using Ruby
+
 ===Cartik===
 * Set up Eclipse project for Restlet based web service application in OBD-WS
 * Begin implementing Term Info service
