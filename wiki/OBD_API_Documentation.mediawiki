@@ -3,13 +3,12 @@ title: OBD API Documentation
 ---
 
 '''DataAdapter <Interface>'''
-''<org.bbop.dataadapter.>''
+''<org.bbop.dataadapter>''
 
 * Uses a data adapter configuration (DataAdapterConfiguration) and a Data Adapter UI (DataAdapterUI).  A basic interface for data input and output. This interface specifies nothing about the storage/access method, the kind of operation, or what sort of data will be manipulated. This class specifies a standard data adapter interface to allow widgets for data adapter manipulation to be built.
 
-
-* Method declarations for 
-** Canceling data operation 
+* Method declarations for
+** Canceling data operation
 ** Returning list of operations
 ** Returning adapter configuration
 ** Generic method signature doOperation
@@ -44,7 +43,7 @@ title: OBD API Documentation
 '''PropertyValue <Interface>'''
 ''<org.obo.datamodel>''
 
-* Implements a method to compare property values based upon first comparing the property names and then comparing the property values. 
+* Implements a method to compare property values based upon first comparing the property names and then comparing the property values.
 * Includes method declarations to get file name, name, line number (int), get property name and value.
 
 '''NamespacedObject <Interface>'''
@@ -57,7 +56,7 @@ title: OBD API Documentation
 
 '''Relationship <Interface>'''
 ''<org.obo.datamodel>''
-* Provides methods to get and set type (OBOProperty), child (LinkObject), and nested values. 
+* Provides methods to get and set type (OBOProperty), child (LinkObject), and nested values.
 
 '''Link <Interface>'''
 ''<org.obo.datamodel>''
@@ -82,10 +81,10 @@ title: OBD API Documentation
 '''StringRelationship'''
 ''<org.obo.dataadapter>''
 
-* A class to represent relationships in subject – relation – object format with namespace context. Includes parameters to capture relation properties like inverse and cardinalities. Also provides a method to forward Ids or change relation, subject, or object Ids from old to new. 
+* A class to represent relationships in subject – relation – object format with namespace context. Includes parameters to capture relation properties like inverse and cardinalities. Also provides a method to forward Ids or change relation, subject, or object Ids from old to new.
 
 
 '''HistoryItem <Abstract>'''
-''Package: <org.obo.history>''
+''<org.obo.history>''
 
 * This class has been created to keep track of changes such as redefinitions and obsoletions of OBO entities such as OBOClass, OBORelation, OBORestriction etc. Every OBO entity contains a reference to a collection of HistoryItems to keep track of all the versions it has been through
