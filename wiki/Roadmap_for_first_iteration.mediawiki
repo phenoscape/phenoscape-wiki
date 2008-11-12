@@ -13,6 +13,7 @@ This is a development roadmap for the first production iteration of the Phenosca
 ===Cartik===
 * Set up Eclipse project for Restlet based web service application on personal machine, commit to OBD-WS SVN.
 ** '''Complete - Cartik and Jim worked together on this and discussed the basics of Restlet applications.'''
+** Can be found in SVN at https://obo.svn.sourceforge.net/svnroot/obo/OBD-WS/trunk
 * Begin implementing dummy term info and autocomplete services.
 
 ==Nov. 17-21==
