@@ -110,3 +110,5 @@ JSON:
 '''Error'''
 
 If there are no terms matching the given input, a document should still be returned, containing an empty results list.
+
+[[Category:Informatics]]
