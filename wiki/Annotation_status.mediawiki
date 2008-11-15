@@ -1,0 +1,13 @@
+---
+title: Annotation status
+---
+
+===2007-11-14===
+Publication count: 71
+Total characters: 5096
+Completed characters: 395
+In-progress characters: 47
+Empty characters: 4654
+Total annotations: 1067
+
+[[Category:Curation]]
