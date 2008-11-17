@@ -25,3 +25,7 @@ Mockup drawings created at the Phenoscape Data Roundup in September 2008.  These
 [[Image:web_term_info_panel.png]]
 
 [[Image:web_classified_results_list.png]]
+
+[[Category:Informatics]]
+[[Category:Data Jamboree 2]]
+[[Category:User Interface]]
