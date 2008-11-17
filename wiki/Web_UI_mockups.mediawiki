@@ -5,9 +5,11 @@ title: Web UI mockups
 Mockup drawings created at the Phenoscape Data Roundup in September 2008.  These are intended to stimulate discussion and provide direction for development of the first iteration of the Phenoscape web UI.
 
 ==Home page==
-{
+{|
+|-
 | [[Image:web_index.png|left|400px|thumb]]
-}
+|-
+|}
 ==Anatomy search==
 
 [[Image:web_search_anatomy.png|left|400px|thumb]]
