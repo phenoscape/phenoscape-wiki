@@ -1,0 +1,27 @@
+---
+title: Web UI mockups
+---
+
+Mockup drawings created at the Phenoscape Data Roundup in September 2008.  These are intended to stimulate discussion and provide direction for development of the first iteration of the Phenoscape web UI.
+
+[[Image:web_index.png]]
+
+[[Image:web_search_anatomy.png]]
+
+[[Image:web_search_taxonomy.png]]
+
+[[Image:web_search_genes.png]]
+
+[[Image:web_search_pubs.png]]
+
+[[Image:web_anatomy_results.png]]
+
+[[Image:web_taxonomy_results.png]]
+
+[[Image:web_pubs_results.png]]
+
+[[Image:web_annotation_detail.png]]
+
+[[Image:web_term_info_panel.png]]
+
+[[Image:web_classified_results_list.png]]
