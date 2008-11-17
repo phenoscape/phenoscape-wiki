@@ -4,27 +4,27 @@ title: Web UI mockups
 
 Mockup drawings created at the Phenoscape Data Roundup in September 2008.  These are intended to stimulate discussion and provide direction for development of the first iteration of the Phenoscape web UI.
 
-[[Image:web_index.png|400px|thumb]]
+[[Image:web_index.png|left|400px|thumb]]
 
-[[Image:web_search_anatomy.png|400px|thumb]]
+[[Image:web_search_anatomy.png|left|400px|thumb]]
 
-[[Image:web_search_taxonomy.png|400px|thumb]]
+[[Image:web_search_taxonomy.png|left|400px|thumb]]
 
-[[Image:web_search_genes.png|400px|thumb]]
+[[Image:web_search_genes.png|left|400px|thumb]]
 
-[[Image:web_search_pubs.png|400px|thumb]]
+[[Image:web_search_pubs.png|left|400px|thumb]]
 
-[[Image:web_anatomy_results.png|400px|thumb]]
+[[Image:web_anatomy_results.png|left|400px|thumb]]
 
-[[Image:web_taxonomy_results.png|400px|thumb]]
+[[Image:web_taxonomy_results.png|left|400px|thumb]]
 
-[[Image:web_pubs_results.png|400px|thumb]]
+[[Image:web_pubs_results.png|left|400px|thumb]]
 
-[[Image:web_annotation_detail.png|400px|thumb]]
+[[Image:web_annotation_detail.png|left|400px|thumb]]
 
-[[Image:web_term_info_panel.png|400px|thumb]]
+[[Image:web_term_info_panel.png|left|400px|thumb]]
 
-[[Image:web_classified_results_list.png|400px|thumb]]
+[[Image:web_classified_results_list.png|left|400px|thumb]]
 
 [[Category:Informatics]]
 [[Category:Data Jamboree 2]]
