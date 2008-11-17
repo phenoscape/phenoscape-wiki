@@ -6,7 +6,7 @@ Mockup drawings created at the Phenoscape Data Roundup in September 2008.  These
 
 ==Home page==
 {
-[[Image:web_index.png|left|400px|thumb]]
+| [[Image:web_index.png|left|400px|thumb]]
 }
 ==Anatomy search==
 
