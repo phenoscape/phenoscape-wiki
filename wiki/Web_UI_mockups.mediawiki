@@ -11,44 +11,65 @@ Mockup drawings created at the Phenoscape Data Roundup in September 2008.  These
 |-
 |}
 ==Anatomy search==
-
-[[Image:web_search_anatomy.png|left|400px|thumb]]
-
+{|
+|-
+| [[Image:web_search_anatomy.png|left|400px|thumb]]
+|-
+|}
 ==Taxonomic search==
-
-[[Image:web_search_taxonomy.png|left|400px|thumb]]
-
+{|
+|-
+| [[Image:web_search_taxonomy.png|left|400px|thumb]]
+|-
+|}
 ==Gene search==
-
-[[Image:web_search_genes.png|left|400px|thumb]]
-
+{|
+|-
+| [[Image:web_search_genes.png|left|400px|thumb]]
+|-
+|}
 ==Publications search==
-
-[[Image:web_search_pubs.png|left|400px|thumb]]
-
+{|
+|-
+| [[Image:web_search_pubs.png|left|400px|thumb]]
+|-
+|}
 ==Anatomy search results==
-
-[[Image:web_anatomy_results.png|left|400px|thumb]]
-
+{|
+|-
+| [[Image:web_anatomy_results.png|left|400px|thumb]]
+|-
+|}
 ==Taxonomic search results==
-
-[[Image:web_taxonomy_results.png|left|400px|thumb]]
-
+{|
+|-
+| [[Image:web_taxonomy_results.png|left|400px|thumb]]
+|-
+|}
 ==Publications search results==
-
-[[Image:web_pubs_results.png|left|400px|thumb]]
-
+{|
+|-
+| [[Image:web_pubs_results.png|left|400px|thumb]]
+|-
+|}
 ==Single annotation detail page==
-
-[[Image:web_annotation_detail.png|left|400px|thumb]]
-
+{|
+|-
+| [[Image:web_annotation_detail.png|left|400px|thumb]]
+|-
+|}
 ==Reusable term info panel==
-
-[[Image:web_term_info_panel.png|left|400px|thumb]]
-
+{|
+|-
+| [[Image:web_term_info_panel.png|left|400px|thumb]]
+|-
+|}
 ==Idea for classifying list of search results==
-
-[[Image:web_classified_results_list.png|left|400px|thumb]]
+{|
+|-
+| [[Image:web_classified_results_list.png|left|400px|thumb]]
+|-
+|}
 
 [[Category:Informatics]]
 [[Category:Data Jamboree 2]]
