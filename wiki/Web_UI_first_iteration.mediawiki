@@ -16,19 +16,26 @@ After clicking one of the entry points, the page dynamically displays a correspo
 * User is presented with a search field, which autocompletes terms from the anatomy ontology.
 * As terms are highlighted in the autocomplete field, a term info panel displays metadata.
 * Once an anatomy term has been selected, the user can press a Search button to retrieve a summary of database results about that term.
-* Summary is grouped into rows lumped by qualities.  For each quality, there are 3 columns:
-** n annotations in p taxa
-** n annotations in p genes
-** n annotations in p publications
-* There is also a checkbox next to each row - the user can select rows, and view the annotations summary counts for the intersection of the selected rows.
-* There are also buttons or links to view annotations for "All Taxa", "All Genes", or "All Pubs".
-* All of these annotation count summaries are links to annotation list pages.
+
 
 ===Taxonomy===
+* User is presented with a search field, which autocompletes terms from the taxonomy ontology.
+* As terms are highlighted in the autocomplete field, a term info panel displays metadata.
+* Once a taxonomy term has been selected, the user can press a Search button to retrieve a summary of database results about that term.
 
 ===Genes===
 
 ===Publications===
+
+==Annotation summary page==
+Summary is grouped into rows lumped by qualities.
+*For each quality, there are 3 columns:
+** n annotations in p taxa
+** n annotations in p genes
+** n annotations in p publications
+*There is also a checkbox next to each row - the user can select rows, and view the annotations summary counts for the intersection of the selected rows.
+* There are also buttons or links to view annotations for "All Taxa", "All Genes", or "All Pubs".
+* All of these annotation count summaries are links to annotation list pages.
 
 [[Category:Informatics]]
 [[Category:User Interface]]
