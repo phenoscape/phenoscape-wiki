@@ -37,6 +37,8 @@ Summary is grouped into rows lumped by qualities.
 * All of these annotation count summaries are links to annotation list pages.
 
 ==Taxonomy summary page==
+Summary is grouped by anatomy terms, and then qualities within.  Within each anatomy term grouping, the display is the same as the anatomy search results.
+* The anatomy term "header" acts as a row in the table displaying the union of the results for the qualities within it.
 
 [[Category:Informatics]]
 [[Category:User Interface]]
