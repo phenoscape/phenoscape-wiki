@@ -19,3 +19,6 @@ After clicking one of the entry points, the page dynamically displays a correspo
 ===Genes===
 
 ===Publications===
+
+[[Category:Informatics]]
+[[Category:User Interface]]
