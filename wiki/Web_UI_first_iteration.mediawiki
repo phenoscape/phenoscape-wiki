@@ -1,0 +1,5 @@
+---
+title: Web UI first iteration
+---
+
+Specifications for an initial implementation of the Phenoscape web user interface.
