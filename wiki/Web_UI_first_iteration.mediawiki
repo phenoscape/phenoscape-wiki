@@ -13,7 +13,7 @@ Start with 4 search entry points:
 
 After clicking one of the entry points, the page dynamically displays a corresponding search interface.
 ===Anatomy===
-[[Image:Web_search_anatomy.png|thumb|50px]]
+[[Image:Web_search_anatomy.png|thumb|100px]]
 * User is presented with a search field, which autocompletes terms from the anatomy ontology.
 * As terms are highlighted in the autocomplete field, a term info panel displays metadata.
 * Once an anatomy term has been selected, the user can press a Search button to retrieve a [[#Annotation summary page|summary of database results]] about that term.
