@@ -21,7 +21,7 @@ After clicking one of the entry points, the page dynamically displays a correspo
 ===Taxonomy===
 * User is presented with a search field, which autocompletes terms from the taxonomy ontology.
 * As terms are highlighted in the autocomplete field, a term info panel displays metadata.
-* Once a taxonomy term has been selected, the user can press a Search button to retrieve a summary of database results about that term.
+* Once a taxonomy term has been selected, the user can press a Search button to retrieve a [[#Taxonomy summary page|summary of database results]] about that term.
 
 ===Genes===
 
@@ -36,6 +36,8 @@ Summary is grouped into rows lumped by qualities.
 *There is also a checkbox next to each row - the user can select rows, and view the annotations summary counts for the intersection of the selected rows.
 * There are also buttons or links to view annotations for "All Taxa", "All Genes", or "All Pubs".
 * All of these annotation count summaries are links to annotation list pages.
+
+==Taxonomy summary page==
 
 [[Category:Informatics]]
 [[Category:User Interface]]
