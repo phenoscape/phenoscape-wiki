@@ -45,5 +45,7 @@ Summary is grouped into rows lumped by qualities.
 Summary is grouped by anatomy terms, and then qualities within.  Within each anatomy term grouping, the display is the same as the anatomy search results.
 * The anatomy term "header" acts as a row in the table displaying the union of the results for the qualities within it.
 
+==Gene summary page==
+
 [[Category:Informatics]]
 [[Category:User Interface]]
