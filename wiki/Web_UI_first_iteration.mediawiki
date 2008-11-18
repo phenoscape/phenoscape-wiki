@@ -25,6 +25,8 @@ After clicking one of the entry points, the page dynamically displays a correspo
 * Once a taxonomy term has been selected, the user can press a Search button to retrieve a [[#Taxonomy summary page|summary of database results]] about that term.
 
 ===Genes===
+* User is presented with a search field, which autocomplete gene and genotype names in the manner of the ZFIN web interface.
+* Pressing Search button sends user to a [[#Gene summary page|summary of database results about that term.
 
 ===Publications===
 
