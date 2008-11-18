@@ -15,6 +15,7 @@ This is a development roadmap for the first production iteration of the Phenosca
 ** Cartik and Jim worked together on this and discussed the basics of Restlet applications.
 ** Can be found in SVN at https://obo.svn.sourceforge.net/svnroot/obo/OBD-WS/trunk
 * '''[Term info complete 2008-11-14]''' Begin implementing dummy term info and autocomplete services.
+** Term info query has been tested with the database on Cartik's laptop. Results are returned in JSON format as requested by Jim
 
 ==Nov. 17-21==
 ===Jim===
