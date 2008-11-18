@@ -2,7 +2,7 @@
 title: Web UI first iteration
 ---
 
-Specifications for an initial implementation of the Phenoscape web user interface.
+Specifications for an initial implementation of the Phenoscape web user interface.  Drawings of these interfaces can be found [[Web_UI_mockups|here]].
 
 ==Entry page==
 Start with 4 search entry points:
