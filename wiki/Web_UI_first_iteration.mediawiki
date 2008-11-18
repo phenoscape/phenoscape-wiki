@@ -21,8 +21,8 @@ After clicking one of the entry points, the page dynamically displays a correspo
 ** n annotations in p genes
 ** n annotations in p publications
 * There is also a checkbox next to each row - the user can select rows, and view the annotations summary counts for the intersection of the selected rows.
-* All of these annotation count summaries are links to annotation list pages.
 * There are also buttons or links to view annotations for "All Taxa", "All Genes", or "All Pubs".
+* All of these annotation count summaries are links to annotation list pages.
 
 ===Taxonomy===
 
