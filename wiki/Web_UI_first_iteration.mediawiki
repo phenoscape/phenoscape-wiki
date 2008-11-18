@@ -27,7 +27,7 @@ After clicking one of the entry points, the page dynamically displays a correspo
 ===Genes===
 [[Image:web_search_genes.png|100px|thumb]]
 * User is presented with a search field, which autocomplete gene and genotype names in the manner of the ZFIN web interface.
-* Pressing Search button sends user to a [[#Gene summary page|summary of database results about that term.
+* Pressing Search button sends user to a [[#Gene summary page|summary of database results]] about that term.
 
 ===Publications===
 
