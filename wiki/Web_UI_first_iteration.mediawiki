@@ -15,7 +15,7 @@ After clicking one of the entry points, the page dynamically displays a correspo
 ===Anatomy===
 * User is presented with a search field, which autocompletes terms from the anatomy ontology.
 * As terms are highlighted in the autocomplete field, a term info panel displays metadata.
-* Once an anatomy term has been selected, the user can press a Search button to retrieve a summary of database results about that term.
+* Once an anatomy term has been selected, the user can press a Search button to retrieve a [[#Annotation summary page|summary of database results]] about that term.
 
 
 ===Taxonomy===
