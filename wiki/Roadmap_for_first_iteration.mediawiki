@@ -49,7 +49,7 @@ This is a development roadmap for the first production iteration of the Phenosca
 * Implement anatomy UI.
 * Begin using autocomplete and term info services in all so-far developed user interfaces.
 ===Cartik===
-* '''[Completed 2008-11-20]''' Write code to parse ZFIN phenotype data and load into OBD
+* '''[Complete 2008-11-20]''' Write code to parse ZFIN phenotype data and load into OBD
 ** See http://zfin.org/zf_info/downloads.html#phenotype
 ** Data: http://zfin.org/data_transfer/Downloads/pheno_obo.txt
 ** should use "exhibits" relation
