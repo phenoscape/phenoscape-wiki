@@ -49,10 +49,16 @@ This is a development roadmap for the first production iteration of the Phenosca
 * Implement anatomy UI.
 * Begin using autocomplete and term info services in all so-far developed user interfaces.
 ===Cartik===
-* Write code to parse ZFIN phenotype data and load into OBD
+* '''[Completed 11-20-2008]''' Write code to parse ZFIN phenotype data and load into OBD
 ** See http://zfin.org/zf_info/downloads.html#phenotype
 ** Data: http://zfin.org/data_transfer/Downloads/pheno_obo.txt
 ** should use "exhibits" relation
+** NOTES (Date: Nov 20, 2008): 
+# ZFIN phenotype curations have been loaded into OBD database on Cartik's laptop along with 71 NeXML files from Phenoscape project
+# ZFIN curations use PHENOSCAPE:exhibits and PHENOSCAPE:hasAllele relations
+# Database size is 1.6 GB after running the OBD reasoner
+# Database upload to Darwin to be commenced on the morrow (Nov 21, 2008)
+# Loaded ZFIN data has been tested against OBD query engine and Term search engine. The latter is to be part of prototype to be demo'ed at SICB, Boston
 * Enhance OBD data loader pipeline to perform pre-processing of ZFA ontology, replacing xrefs with is_a links to TAO
 ** These xrefs seem to still be in TAO - may have to fix that or work around
 
