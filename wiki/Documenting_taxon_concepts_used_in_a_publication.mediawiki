@@ -12,3 +12,6 @@ If documentation of older concepts is a required use case, perhaps this should b
 ==Resolution==
 
 Just for the record, here is some of what TDWG is doing with varying circumscriptions: [http://www.jstor.org/view/00400262/ap040278/04a00080/0 Pullan et al 2000]--[[User:Tjvision|Tjvision]] 10:22, 13 December 2007 (EST)
+
+[[Category:Curation]]
+[[Category:Ontology]]
