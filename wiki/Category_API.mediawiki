@@ -1,0 +1,7 @@
+---
+title: Category:API
+---
+
+Index of all pages labeled with category 'API'.
+
+[[Category:Informatics]]
