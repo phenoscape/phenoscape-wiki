@@ -14,3 +14,6 @@ Our discussion at the Biocuration meeting led to a new data model in which all p
 The same methodology can be extended to statements about higher taxa.  In this case, individual species-level phenotype annotations should be generated for every species of that taxon listed in the materials list.  These will generally all get the weaker evidence code.  If the author happened to point out one or more particular specimens illustrating the phenotype, these particular species can be given the stronger evidence code with catalog numbers attached.
 
 We need to standardize the list of evidence codes and their meaning for our data.  Here is a [http://www.geneontology.org/GO.evidence.shtml GO page about them], and here is [http://obofoundry.org/cgi-bin/detail.cgi?id=evidence_code an evidence_code ontology], with many more codes:
+
+[[Category:Curation]]
+[[Category:Specimen Annotation]]
