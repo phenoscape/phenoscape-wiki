@@ -4,6 +4,8 @@ title: Problem Log Format
 
 The [[Data_Repository_and_Data_Services#Phenoscape_Data_Loader|Phenoscape Data Loader]] is responsible for loading curated NeXML data, along with the ontological definitions of the terms used in the curation. Often, the curated files are in varying degrees of completeness comprising records with blank placeholders for taxon names and phenotype descriptions. Such records are not inserted into the database, because there is no real use for them until they are complete. Instead, these records are entered into a Problem Log by the Data Loader which can then be viewed and worked upon by curators. This is an excerpt from such a Problem Log created during the execution of the Data Loader. The problematic, incomplete records are grouped under the name of the curated NeXML file which contained them.
 
+The current problem log can be found [https://obo.svn.sourceforge.net/svnroot/obo/phenex/trunk/testfiles/problemLog.txt here].
+
 ==PROBLEM LOG==
 
 '''Buckup_1998.xml'''
