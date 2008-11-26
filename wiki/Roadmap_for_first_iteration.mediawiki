@@ -33,10 +33,8 @@ This is a development roadmap for the first production iteration of the Phenosca
 * Deploy OBD-WS application; continue deploying in-progress builds.
 ** Package as WAR, deploy on Eryops.
 ** Include dummy autocomplete and term info services.
-*'''[Complete term info and autocomplete services 2008-11-26]'''
 * Begin implementing live Term Info service within OBD-WS application.
 * Begin implementing live Autocomplete service within OBD-WS application.
-* ''NOTES'': Term info search and autocomplete services has been tested on Phenoscape database on Cartik's laptop. Results for autocomplete are returned in JSON format and need to be verified by Jim
 
 ==Nov. 24-28==
 ===Jim===
