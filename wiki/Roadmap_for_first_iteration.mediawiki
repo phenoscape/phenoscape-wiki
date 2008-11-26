@@ -43,7 +43,7 @@ This is a development roadmap for the first production iteration of the Phenosca
 *'''[Complete term info and autocomplete services 2008-11-26]'''
 ** Complete Term Info service
 ** Complete Autocomplete service.
-**'NOTES (November 26, 2008)': Term info search and autocomplete services have been tested on Phenoscape database on Cartik's laptop. Results for autocomplete are returned in JSON format and need to be verified by Jim
+** ''NOTES (November 26, 2008)'': Term info search and autocomplete services have been tested on Phenoscape database on Cartik's laptop. Results for autocomplete are returned in JSON format and need to be verified by Jim
 * Provide dummy Anatomy, Taxon, and Gene data service(s).
 
 ==Dec. 1-5==
