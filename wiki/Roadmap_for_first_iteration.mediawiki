@@ -61,7 +61,7 @@ This is a development roadmap for the first production iteration of the Phenosca
 *# Database size is 1.6 GB after running the OBD reasoner
 *# Database upload to Darwin to be commenced on the morrow (Nov 21, 2008)
 *# Loaded ZFIN data has been tested against OBD query engine and Term search engine. The latter is to be part of prototype to be demo'ed at SICB, Boston
-* Enhance OBD data loader pipeline to perform pre-processing of ZFA ontology, replacing xrefs with is_a links to TAO
+* '''[Began work on 2008-11-30]''' Enhance OBD data loader pipeline to perform pre-processing of ZFA ontology, replacing xrefs with is_a links to TAO
 ** These xrefs seem to still be in TAO - may have to fix that or work around
 
 ==Dec. 8-12==
