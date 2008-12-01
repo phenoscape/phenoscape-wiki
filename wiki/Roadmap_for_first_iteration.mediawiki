@@ -30,11 +30,11 @@ This is a development roadmap for the first production iteration of the Phenosca
 * Address NEXUS/Phenote file merging issues with Paula. Provide problematic files as NeXML to Paula and Wasila.
 
 ===Cartik===
-* Deploy OBD-WS application; continue deploying in-progress builds.
+* '''[First deployment on 2008-12-01]''' Deploy OBD-WS application; continue deploying in-progress builds.
 ** Package as WAR, deploy on Eryops.
 ** Include dummy autocomplete and term info services.
-* Begin implementing live Term Info service within OBD-WS application.
-* Begin implementing live Autocomplete service within OBD-WS application.
+* Begin implementing live Term Info service within OBD-WS application. ''[Done]''
+* Begin implementing live Autocomplete service within OBD-WS application. ''[Done]''
 
 ==Nov. 24-28==
 ===Jim===
