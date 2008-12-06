@@ -29,6 +29,33 @@ Note: Obsoleting a term means it is no longer available for use and does not app
 * '''Species changed to/added as synonym of''' The TTO term and id are retained; the name is changed to the new name, the old name is added as a synonym.  The is_a relation for the species is updated to the new genus. The synonym should have a dbxref refering to the publication.  This is the default when the containing genus changes.
 * '''Species obsoleted/added as synonym of ''' The term is obsoleted, the old name is added as a synonym of the new name.  The CASSPC or other dbxref of the old term should be added to the synonym.  This is the default when species are merged.
 
+=Changes resulting from publication Fink and Fink (1981)=
+* ''Abramites sp.'' added as species
+* ''Albula sp.'' added as species
+* ''Apareiodon sp.'' added as species
+* ''Astroblepus sp.'' added as species
+* ''Brycon sp.'' added as species
+* ''Carpiodes sp.'' added as species
+* ''Catostomus sp.'' added as species
+* ''Characidium sp.'' added as species
+* ''Coregonus sp.'' added as species
+* ''Creagrutus sp.'' added as species
+* ''Ctenolucius sp.'' added as species
+* ''Distichodus sp.'' added as species
+* ''Eigenmannia sp.'' added as species
+* ''Esox sp.'' added as species
+* ''Gyrinocheilus sp.'' added as species
+* ''Hemiodus sp.'' added as species
+* ''Homaloptera sp.'' added as species
+* ''Ichthyborus sp.'' added as species
+* ''Ictalurus sp.'' added as species
+* ''Megalops sp.'' added as species
+* ''Mesoborus sp.'' added as species
+* ''Poecilocharax sp.'' added as species
+* ''Salmo sp.'' added as species
+* ''Sternopygus sp.'' added as species
+* ''Vandellia sp.'' added as species
+
 =Changes resulting from invited update (April 2008) of Mayden and Conway=
 
 Notes: This update contains many subfamily assignments.  We don't currently include subfamilies in the TTO, but the update file will be retained in case this policy changes.
