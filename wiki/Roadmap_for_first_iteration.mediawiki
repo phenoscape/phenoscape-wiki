@@ -38,7 +38,7 @@ This is a development roadmap for the first production iteration of the Phenosca
 
 ==Nov. 24-28==
 ===Jim===
-* mostly on vacation
+* '''[Complete]''' mostly on vacation
 ===Cartik===
 *'''[Complete]'''
 ** Complete Term Info service ''[Complete]''
