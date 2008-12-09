@@ -21,7 +21,7 @@ This is a development roadmap for the first production iteration of the Phenosca
 
 ==Nov. 17-21==
 ===Jim===
-* Document data retrieval web service specifications
+* '''[Ongoing]''' Document data retrieval web service specifications
 ** Anatomy
 ** Taxon
 ** Genes
