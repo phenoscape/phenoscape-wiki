@@ -41,8 +41,9 @@ This is a development roadmap for the first production iteration of the Phenosca
 * '''[Complete]''' mostly on vacation
 ===Cartik===
 * '''[Complete]''' Complete Term Info service
-* '''[Complete]''' Complete Autocomplete service. 
-* ''NOTES (December 9, 2008)'': Term info search and autocomplete services have been tested on Phenoscape database on Eryops. Results for autocomplete are returned in JSON format and have been verified by Jim
+* '''[Complete]''' Complete Autocomplete service.
+** ''NOTES (December 9, 2008)'': Term info search and autocomplete services have been tested on Phenoscape database on Eryops. 
+** Results for autocomplete are returned in JSON format and have been verified by Jim
 * Provide dummy Anatomy, Taxon, and Gene data service(s).
 
 ==Dec. 1-5==
