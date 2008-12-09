@@ -33,8 +33,8 @@ This is a development roadmap for the first production iteration of the Phenosca
 * '''[Complete]''' Deploy OBD-WS application; continue deploying in-progress builds.
 ** Package as WAR, deploy on Eryops.
 ** Include dummy autocomplete and term info services.
-* Begin implementing live Term Info service within OBD-WS application. ''[Complete]''
-* Begin implementing live Autocomplete service within OBD-WS application. ''[Complete]''
+* '''[Complete]''' Begin implementing live Term Info service within OBD-WS application. 
+* '''[Complete]''' Begin implementing live Autocomplete service within OBD-WS application.
 
 ==Nov. 24-28==
 ===Jim===
