@@ -9,7 +9,7 @@ This is a development roadmap for the first production iteration of the Phenosca
 ** See [[Web_UI_first_iteration|overview]] and [[Web_UI_mockups|mockup drawings]].
 ** These will continue to be updated.
 * '''[Begun 2008-11-14]''' Investigate and begin documenting additional data service needs required by interface
-* Start Rails web interface project; commit to SVN.
+* '''[Complete]''' Start Rails web interface project; commit to SVN.
 * '''[Complete 2008-11-14]''' Write EQ count script, as per Paula's request, using Ruby; provide results to Phenoscape mailing list.
 
 ===Cartik===
