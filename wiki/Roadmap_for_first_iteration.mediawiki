@@ -26,7 +26,7 @@ This is a development roadmap for the first production iteration of the Phenosca
 ** Taxon
 ** Genes
 * '''[Complete]''' Implement Rails app skeleton and code front page
-* Implement reusable JavaScript term info panel and embed in front page search interface.
+* '''[Complete]''' Implement reusable JavaScript term info panel and embed in front page search interface.
 * Address NEXUS/Phenote file merging issues with Paula. Provide problematic files as NeXML to Paula and Wasila.
 
 ===Cartik===
