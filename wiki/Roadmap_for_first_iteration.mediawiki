@@ -8,7 +8,7 @@ This is a development roadmap for the first production iteration of the Phenosca
 * '''[Complete]''' Document interface design requirements on wiki
 ** See [[Web_UI_first_iteration|overview]] and [[Web_UI_mockups|mockup drawings]].
 ** These will continue to be updated.
-* '''[Begun]''' Investigate and begin documenting additional data service needs required by interface
+* '''[Ongoing]''' Investigate and begin documenting additional data service needs required by interface
 * '''[Complete]''' Start Rails web interface project; commit to SVN.
 * '''[Complete]''' Write EQ count script, as per Paula's request, using Ruby; provide results to Phenoscape mailing list.
 
