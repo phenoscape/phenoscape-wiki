@@ -43,14 +43,25 @@ JSON:
     "parents" :
     [
         {
-            "relation" : "OBO_REL:is_a",
-            "id" : "TAO:0001514",
-            "name" : "bone"
+            "relation" : {
+                "id" : "OBO_REL:is_a",
+                "name" : "is_a"
+            },
+            "target" : {
+                "id" : "TAO:0001514",
+                "name" : "bone"
+            }
+  
         },
         {
-            "relation" : "OBO_REL:part_of",
-            "id" : "TAO:0000862",
-            "name" : "caudal fin skeleton"
+            "relation" : {
+                "id" : "OBO_REL:part_of",
+                "name" : "part_of"
+            },
+            "target" : {
+                "id" : "TAO:0000862",
+                "name" : "caudal fin skeleton"
+            }
         }
     ],
     "children" : [] // if there are children, this content should be in the same format as the parents list
