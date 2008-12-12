@@ -71,7 +71,7 @@ Characters involving counts of entities are annotated using the “count in orga
  E: vertebra, Q: count in organism, Comments: =/>48
 
 *Note: The Count field in Phenex is currently configured to only accept integer values.  Record ranges or min/max values in the Comments field.
-**This term is currently (as of 12/10/08) unavailable in Phenex due to a bug - please leave the Quality field blank and record a note in the Comment field of the Characters panel that the corresponding annotation must be updated once the term becomes available.
+**The term "count in organism" is currently (as of 12/10/08) unavailable in Phenex due to a bug - please leave the Quality field blank and record a note in the Comment field of the Characters panel that the corresponding annotation must be updated once the term becomes available.
 
 == Refining terms  by post-composition ==
 
