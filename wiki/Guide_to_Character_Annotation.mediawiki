@@ -63,14 +63,15 @@ Interhyal: (0) present and ossified; (1) present and cartilaginous; (2) absent
 (*)Note that because interhyal bone develops_from interhyal cartilage, we can simply state that interhyal cartilage is absent, and it is implied that interhyal bone is also absent.
 
 ===Meristic data===
-Characters involving counts of entities are annotated using the “count” quality.  Values for counts are entered in the “count” field.  Note that ranges and lower or upper bounds can be recorded:
+Characters involving counts of entities are annotated using the “count in organism**” quality.  Values for counts are entered in the “count” field*.  Note that ranges and lower or upper bounds can be recorded:
 
- E: vertebra, Q: count, Count: 33
- E: vertebra, Q: count, Comments: 34-38
- E: vertebra, Q: count, Comments: >38
- E: vertebra, Q: count, Comments: =/>48
+ E: vertebra, Q: count in organism, Count: 33
+ E: vertebra, Q: count in organism, Comments: 34-38
+ E: vertebra, Q: count in organism, Comments: >38
+ E: vertebra, Q: count in organism, Comments: =/>48
 
 *Note: The Count field in Phenex is currently configured to only accept integer values.  Record ranges or min/max values in the Comments field.
+**This term is currently (as of 12/10/08) unavailable in Phenex due to a bug - please leave the Quality field blank and record a note in the Comment field of the Characters panel that the corresponding annotation must be updated once the term becomes available.
 
 == Refining terms  by post-composition ==
 
