@@ -129,6 +129,8 @@ If there are no terms matching the given input, a document should still be retur
 
  <BASE URI>/term/phenotypes/summary/{term_id}
 
+<code>term_id</code> is an anatomy search term.  This service returns a summary of all the phenotype annotations involving that anatomy term (or its descendants, via reasoning).  The summary is grouped by quality term.
+
 '''Returns'''
 
 JSON:
