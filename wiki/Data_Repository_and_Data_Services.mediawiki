@@ -51,7 +51,7 @@ JSON:
                 "id" : "TAO:0001514",
                 "name" : "bone"
             }
-  
+
         },
         {
             "relation" : {
@@ -123,5 +123,35 @@ JSON:
 '''Error'''
 
 If there are no terms matching the given input, a document should still be returned, containing an empty results list.
+
+===Anatomy search summary===
+'''URI'''
+
+ <BASE URI>/term/phenotypes/summary/{term_id}
+
+'''Returns'''
+
+JSON:
+<javascript>
+{
+    "qualities" : [
+        {
+            "id" : "PATO:0001594",
+            "name" : "arched",
+            "taxon_annotations" : {
+                "annotation_count": 5,
+                "taxon_count" : 3
+            },
+            "genotype_annotations" : {
+                "annotation_count" : 3,
+                "genotype_count" : 2
+            }
+        },
+        {
+            // another quality
+        } // etc.
+    ]
+}
+</javascript>
 
 [[Category:Informatics]]
