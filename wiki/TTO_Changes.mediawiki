@@ -87,8 +87,7 @@ Britz, R. and Hoffmann M. 2006.  Ontogeny and homology of the claustra in otophy
 =Changes resulting from publication Sidlauskas and Vari (2008)=
 Citation is:
 Sidlauskas, BL. and Vari RP. Phylogenetic relationships within the South American
-fish family anostomidae (Teleostei, Ostariophysi, Characiformes).  ''Zoological Journal of the
-Linnean Society'' 154:70-210.
+fish family anostomidae (Teleostei, Ostariophysi, Characiformes).  ''Zoological Journal of the Linnean Society'' 154:70-210.
 
 * ''Laemolyta sp.'' added as species
 * ''Leporinus'' cf. ''ecuadorensis'' added as species
@@ -249,6 +248,28 @@ Conway, KW. and Mayden RL. 2007. The gill arches of Psilorhynchus (Ostariophysi:
 * ''Gastromyzon sp.'' added as species
 * ''Ictiobius sp.'' added as species
 * ''Acantopsis sp.'' added as species
+
+
+=Changes resulting from publication Armbruster (2004)==
+
+Citation is:
+Armbruster, JW. 2004.  Phylogenetic relationships of the suckermouth armoured catfishes (Loricariidae) with emphasis on the Hypostominae and the Ancistrinae.  ''Zoological Journal of the Linnean Society'' 141:1-80.
+
+* ''Megalancistrus gigas'' added as synonym for ''Megalancistrus parananus''
+* ''Hemiancistrus panamensis'' added as synonym for ''Hemiancistrus aspidolepis''
+* ''Hemiancistrus sp.'' added as species
+* ''Hemiancistrus sp. Brazil'' added as species
+* ''Peckoltia sp. 1'' added as species
+* ''Peckoltia sp. 2'' added as species
+* ''Peckoltia sp. big spot'' added as species
+* ''Pseudancistrus sp. gold spot'' added as species
+* ''Hypostomus plecostomus 2'' added as species
+* ''Hypostomus sp. round snout 1'' added as species
+* ''Hypostomus sp. round snout 2'' added as species
+* ''Hemipsilichthys sp.'' added as species
+* ''Hemipsilichthys?'' added as species
+* ''Kronichthys sp. 1'' added as species
+* ''Kronichthys sp. 2'' added as species
 
 
 =Update from August 2008 Catalog of Fishes=
