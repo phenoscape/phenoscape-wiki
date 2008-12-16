@@ -250,7 +250,7 @@ Conway, KW. and Mayden RL. 2007. The gill arches of Psilorhynchus (Ostariophysi:
 * ''Acantopsis sp.'' added as species
 
 
-=Changes resulting from publication Armbruster (2004)==
+=Changes resulting from publication Armbruster (2004)=
 
 Citation is:
 Armbruster, JW. 2004.  Phylogenetic relationships of the suckermouth armoured catfishes (Loricariidae) with emphasis on the Hypostominae and the Ancistrinae.  ''Zoological Journal of the Linnean Society'' 141:1-80.
@@ -270,7 +270,6 @@ Armbruster, JW. 2004.  Phylogenetic relationships of the suckermouth armoured ca
 * ''Hemipsilichthys?'' added as species
 * ''Kronichthys sp. 1'' added as species
 * ''Kronichthys sp. 2'' added as species
-
 
 =Update from August 2008 Catalog of Fishes=
 TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.
