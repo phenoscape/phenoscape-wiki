@@ -76,7 +76,7 @@ Britz, R. and Hoffmann M. 2006.  Ontogeny and homology of the claustra in otophy
 * ''Ancistrus sp.'' added as species
 * ''Clarias sp.'' added as species
 * ''Puntius sp.'' added as species
-* ''Devario cf. aequipinnatus'' added as species
+* ''Devario'' cf. ''aequipinnatus'' added as species
 * ''Hemiloricaria beni'' added as synonym of ''Rineloricaria beni''
 
 =Changes resulting from publication Fang (2003)=
@@ -156,7 +156,7 @@ Notes: This update contains many subfamily assignments.  We don't currently incl
 * ''Araiocypris batodes'' added as species (Conway & Kottelat 2008)
 
 =Changes resulting from publication Conway (2005)=
-* ''Rasbora cf. bankanensis'' added as species
+* ''Rasbora'' cf. ''bankanensis'' added as species
 
 =Changes resulting from publication de Pinna and Grande (2003)=
 * ''Osteoglossum sp.'' added as species
@@ -167,7 +167,7 @@ Notes: This update contains many subfamily assignments.  We don't currently incl
 
 * ''Oxygaster hypophthalmus'' added as synonym of ''Parachela hypophthalmus''
 * ''Rasboroides vaterifloris'' added as synonym of ''Rasbora vaterifloris''
-* ''Devario cf. aequipinnatus'' added as species
+* ''Devario'' cf. ''aequipinnatus'' added as species
 
 =Changes resulting from publication Vari(1995)=
 
@@ -182,7 +182,7 @@ Zoology'' 564: 103.
 * ''Distichodus sp.'' added as species
 * ''Eugnathichthys sp.'' added as species
 * ''Hemistichodus sp.'' added as species
-* ''Hoplias cf. malabaricus'' added as species
+* ''Hoplias'' cf. ''malabaricus'' added as species
 * ''Hydrocynus sp.'' added as species
 * ''Lebiasina sp.'' added as species
 * ''Mesoborus sp.'' added as species
@@ -222,6 +222,22 @@ Cavender, Ted M., and Miles M. Coburn. 1992. Phylogenetic relationships of North
 * ''Moroco steindachneri'' added as synonym for ''Phoxinus steindachneri''
 * ''Osteocheilus hasseltii'' added as synonym for ''Osteochilus hasseltii''
 * ''Rhotee cotio'' added as synonym for ''Osteobrama cotio''
+
+=Changes resulting from publication de Pinna (1996)=
+
+Citation is:
+de Pinna M. C. C. 1996. A phylogenetic analysis of the Asian catfish families Sisoridae, Akysidae, and Amblycipitidae, with a hypothesis on the relationships of the neotropical Aspredinidae (Teleostei, Ostariophysi).
+Fieldiana: Zoology (New Series) 84:1-83.
+
+* ''Akysis sp. 1'' added as species
+* ''Akysis sp. 2'' added as species
+* ''Akysis sp. 3'' added as species
+* ''Erethistes sp.'' added as species
+* ''Exostoma sp.'' added as species
+* ''Glyptothorax sp.'' added as species
+* ''Bunocephalus sp.'' added as species
+* ''Ernstichthys sp.'' added as species
+
 
 =Update from August 2008 Catalog of Fishes=
 TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.
