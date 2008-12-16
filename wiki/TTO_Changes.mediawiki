@@ -319,20 +319,19 @@ Castro, RMC. and Vari, RP. 2004.  Detritivores of the South American fish family
 
 =Changes resulting from publication Toledo-Piza (2000)=
 
-* ''Cynodon sp.'' added as species
-* ''Hydrolycus sp.'' added as species
-* ''Agoniates sp.'' added as species
-* ''Gnathocharax sp.'' added as species
-* ''Heterocharax sp.'' added as species
-* ''Mylossoma sp.'' added as species
-* ''Roeboides sp.'' added as species
-* ''Serrasalmus sp.'' added as species
-* ''Triportheus sp.'' added as species
-* ''Hoplias'' cf. ''malabaricus'' added as species
-* ''Hemiodus sp.'' added as species
-* ''Hydrocynus sp.'' added as species
-* ''Pyrrhulina sp.'' added as species
-
+* ''Cynodon sp.'' (Toledo-Piza 2000) added as species
+* ''Hydrolycus sp.'' (Toledo-Piza 2000) added as species
+* ''Agoniates sp.'' (Toledo-Piza 2000) added as species
+* ''Gnathocharax sp.'' (Toledo-Piza 2000) added as species
+* ''Heterocharax sp.'' (Toledo-Piza 2000) added as species
+* ''Mylossoma sp.'' (Toledo-Piza 2000) added as species
+* ''Roeboides sp.'' (Toledo-Piza 2000) added as species
+* ''Serrasalmus sp.'' (Toledo-Piza 2000) added as species
+* ''Triportheus sp.'' (Toledo-Piza 2000) added as species
+* ''Hoplias'' cf. ''malabaricus'' (Toledo-Piza 2000) added as species
+* ''Hemiodus sp.'' (Toledo-Piza 2000) added as species
+* ''Hydrocynus sp.'' (Toledo-Piza 2000) added as species
+* ''Pyrrhulina sp.'' (Toledo-Piza 2000) added as species
 
 =Changes resulting from publication Toledo-Piza (2007)=
 
