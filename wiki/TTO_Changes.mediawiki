@@ -341,6 +341,17 @@ Toledo-Piza, M. 2007. Phylogenetic relationships among Acestrorhynchus species (
 
 * ''Bryconops sp.'' added as species
 
+
+=Changes resulting from publication Lucena and Menezes (1998)=
+
+Citation is:
+Lucena, C. A. S., and N. A. Menezes. 1998. A phylogenetic analysis of Roestes Günther and Gilbertolus Eigenmann with a hypothesis on the relationships of the Cynodontidae and Acestrorhynchidae (Teleostei, Ostariophysi, Characiformes) in L. R. Malabarba, R. E. Reis, R. P. Vari, Z. M. S. Lucena, and C. A. S. Lucena, eds. ''Phylogeny and Classification of Neotropical Fishes''. EDIPUCRS, Porto Alegre, Brazil.
+
+* ''Brycon sp.'' added as species
+* ''Roeboides sp.'' added as species
+* ''Roestes sp.'' added as species
+
+
 =Update from August 2008 Catalog of Fishes=
 TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.
 
