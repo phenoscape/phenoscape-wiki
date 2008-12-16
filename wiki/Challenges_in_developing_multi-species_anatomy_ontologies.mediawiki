@@ -32,12 +32,9 @@ The term “vertebra 1 part of Weberian apparatus” has relationship part_of: W
 
 - Search on "vertebra 1 will bring back results for all ostariophysans, regardless of whether homologous_to statement is made
 
-====3. part_of variability as a phenotype statement====
+====3. part_of variability as a phenotype statement using entity post-composition====
 
- E: vertebra; Q: ? part_of; Related E: Weberian apparatus; Taxon: Otophysi
-
-- Problem: this is not a species-level annotation
-- What is appropriate quality?
+ E: vertebra 5^part_of Weberian apparatus; Q: present; Taxon: Otophysi
 
 ===Representing serial homologues===
 
