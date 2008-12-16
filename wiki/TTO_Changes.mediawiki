@@ -339,7 +339,7 @@ Castro, RMC. and Vari, RP. 2004.  Detritivores of the South American fish family
 Citation is:
 Toledo-Piza, M. 2007. Phylogenetic relationships among Acestrorhynchus species (Ostariophysi: Characiformes: Acestrorhynchidae). ''Zoological Journal of the Linnean Society'' 151:691-757.
 
-* ''Bryconops sp.'' added as species
+* ''Bryconops sp.'' (Toledo-Piza 2007) added as species
 
 
 =Changes resulting from publication Lucena and Menezes (1998)=
@@ -347,9 +347,9 @@ Toledo-Piza, M. 2007. Phylogenetic relationships among Acestrorhynchus species (
 Citation is:
 Lucena, C. A. S., and N. A. Menezes. 1998. A phylogenetic analysis of Roestes Günther and Gilbertolus Eigenmann with a hypothesis on the relationships of the Cynodontidae and Acestrorhynchidae (Teleostei, Ostariophysi, Characiformes) in L. R. Malabarba, R. E. Reis, R. P. Vari, Z. M. S. Lucena, and C. A. S. Lucena, eds. ''Phylogeny and Classification of Neotropical Fishes''. EDIPUCRS, Porto Alegre, Brazil.
 
-* ''Brycon sp.'' added as species
-* ''Roeboides sp.'' added as species
-* ''Roestes sp.'' added as species
+* ''Brycon sp.'' (Lucena and Menezes 1989) added as species
+* ''Roeboides sp.'' (Lucena and Menezes 1989) added as species
+* ''Roestes sp.'' (Lucena and Menezes 1989) added as species
 
 =Changes resulting from publication Weitzman and Fink (1983)=
 
@@ -357,18 +357,54 @@ Citation is:
 Weitzman, S. H., and W. L. Fink. 1983. Relationships of the neon tetras, a group of South American freshwater fishes (Teleostei, Characidae), with comments on the phylogeny of New World Characiforms. ''Bulletin of the Museum
 of Comparative Zoology'', Harvard University 150:339-395.
 
-* ''Aphyodite sp.'' (Weitzman and Fink 1983)
-* ''Characidium sp.'' (Weitzman and Fink 1983)
-* ''Hemigrammus sp.'' (Weitzman and Fink 1983)
-* ''Hyphessobrycon sp.'' (Weitzman and Fink 1983)
-* ''Leptobrycon sp.'' (Weitzman and Fink 1983)
-* ''Microschemobrycon sp.'' (Weitzman and Fink 1983)
-* ''Oxybrycon sp.'' (Weitzman and Fink 1983)
-* ''Pristella sp.'' (Weitzman and Fink 1983)
+* ''Aphyodite sp.'' (Weitzman and Fink 1983) added as species
+* ''Characidium sp.'' (Weitzman and Fink 1983) added as species
+* ''Hemigrammus sp.'' (Weitzman and Fink 1983) added as species
+* ''Hyphessobrycon sp.'' (Weitzman and Fink 1983) added as species
+* ''Leptobrycon sp.'' (Weitzman and Fink 1983) added as species
+* ''Microschemobrycon sp.'' (Weitzman and Fink 1983) added as species
+* ''Oxybrycon sp.'' (Weitzman and Fink 1983) added as species
+* ''Pristella sp.'' (Weitzman and Fink 1983) added as species
 * ''Bryconamericus meridae'' added as synonym of ''Knodus meridae'
 * ''Cheirodon piaba'' added as synonym of ''Serrapinnus piaba''
 * ''Neolebias olbrechtsi'' added as synonym of ''Congocharax olbrechtsi''
 
+
+=Changes resulting from publication Vari (1983)=
+
+Citation is:
+Vari, R. P. 1983. Phylogenetic relationships of the families Curimatidae, Prochilodontidae, Anostomidae, and Chilodontidae (Pisces: Characiformes). ''Smithsonian Contributions to Zoology'' 378:60.
+
+
+* ''Ichthyoelephas sp.'' (Vari 1983) added as species
+* ''Prochilodus sp.'' (Vari 1983) added as species
+* ''Anostomus sp.'' (Vari 1983) added as species
+* ''Hemiodus sp.'' (Vari 1983) added as species
+* ''Citharinus sp.'' (Vari 1983) added as species
+
+=Changes resulting from publication Vari (1989a)=
+
+Citation is:
+Vari, R. P. 1989. A phylogenetic study of the Neotropical characiform family Curimatidae (Pisces: Ostariophysi). ''Smithsonian Contributions to Zoology'' 471:iv+1-71.
+
+* ''Anostomus sp.'' (Vari 1989a) added as species
+* ''Laemolyta sp.'' (Vari 1989a) added as species
+* ''Agoniates sp.'' (Vari 1989a) added as species
+* ''Hollandichthys sp.'' (Vari 1989a) added as species
+* ''Hydrocynus sp.'' (Vari 1989a) added as species
+* ''Mesoborus sp.'' (Vari 1989a) added as species
+* ''Hemiodus sp.'' (Vari 1989a) added as species
+* ''Ichthyoelephas sp.'' (Vari 1989a) added as species
+
+
+=Changes resulting from publication Weitzman and Fink (1985)=
+
+Citation is:
+Weitzman, S. H., and S. V. Fink. 1985. Xenurobryconin phylogeny and putative phermone pumps in glandulocaudine fishes (Teleostei: Characidae). ''Smithsonian Contributions to Zoology'' ?:1-121.
+
+* ''Argopleura sp. (Weitzman and Fink 1985)'' added as species
+* ''Gephyrocharax sp. (Weitzman and Fink 1985)'' added as species
+* ''Tyttocharax sp. (Weitzman and Fink 1985)'' added as species
 
 =Update from August 2008 Catalog of Fishes=
 TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.
@@ -385,16 +421,6 @@ Roberts, T. R. 1969. Osteology and relationships of characoid fishes, particular
 * ''Hydrocynus sp. (Roberts 1969)'' added as species
 * ''Mylossoma sp. (Roberts 1969)'' added as species
 * ''Serrasalmus sp. (Roberts 1969)'' added as species
-
-
-=Changes resulting from publication Weitzman and Fink (1985)=
-
-Citation is:
-Weitzman, S. H., and S. V. Fink. 1985. Xenurobryconin phylogeny and putative phermone pumps in glandulocaudine fishes (Teleostei: Characidae). ''Smithsonian Contributions to Zoology'' ?:1-121.
-
-* ''Argopleura sp. (Weitzman and Fink 1985)'' added as species
-* ''Gephyrocharax sp. (Weitzman and Fink 1985)'' added as species
-* ''Tyttocharax sp. (Weitzman and Fink 1985)'' added as species
 
 [[Category:Ontology]]
 [[Category:Taxonomy]]
