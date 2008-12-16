@@ -316,6 +316,31 @@ Castro, RMC. and Vari, RP. 2004.  Detritivores of the South American fish family
 
 * ''Anostomus sp.'' added as species
 
+
+=Changes resulting from publication Toledo-Piza (2000)=
+
+* ''Cynodon sp.'' added as species
+* ''Hydrolycus sp.'' added as species
+* ''Agoniates sp.'' added as species
+* ''Gnathocharax sp.'' added as species
+* ''Heterocharax sp.'' added as species
+* ''Mylossoma sp.'' added as species
+* ''Roeboides sp.'' added as species
+* ''Serrasalmus sp.'' added as species
+* ''Triportheus sp.'' added as species
+* ''Hoplias'' cf. ''malabaricus'' added as species
+* ''Hemiodus sp.'' added as species
+* ''Hydrocynus sp.'' added as species
+* ''Pyrrhulina sp.'' added as species
+
+
+=Changes resulting from publication Toledo-Piza (2007)=
+
+Citation is:
+Toledo-Piza, M. 2007. Phylogenetic relationships among Acestrorhynchus species (Ostariophysi: Characiformes: Acestrorhynchidae). ''Zoological Journal of the Linnean Society'' 151:691-757.
+
+* ''Bryconops sp.'' added as species
+
 =Update from August 2008 Catalog of Fishes=
 TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.
 
