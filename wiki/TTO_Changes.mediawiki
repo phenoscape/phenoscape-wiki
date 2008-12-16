@@ -271,6 +271,31 @@ Armbruster, JW. 2004.  Phylogenetic relationships of the suckermouth armoured ca
 * ''Kronichthys sp. 1'' added as species
 * ''Kronichthys sp. 2'' added as species
 
+
+=Changes resulting from publication Schaefer (1990)=
+
+Citation is:
+Schaefer, SA. 1990.  Anatomy and relationships of the scoloplacid catfishes.  ''Proceedings of the Academy of Natural Sciences of Philadelphia'' 142:167-210.
+
+* ''Arius sp.'' added as species
+* ''Henonemus sp.'' added as species
+* ''Stegophilus sp.'' added as species
+* ''Trichomycterus sp.'' added as species
+* ''Tridentopsis sp.'' added as species
+* ''Astroblepus sp.'' added as species
+* ''Cochliodon sp.'' added as species
+* ''Neoplecostomus sp.'' added as species
+* ''Perugia xanthus'' added as synonym of ''Megalonema xanthum''
+* ''Corydoras barbatus'' added as synonym of ''Scieromystax barbatus''
+* ''Isorineloricaria spinosissima'' added as species
+
+=Changes resulting from publication Winterbottom (1980)=
+
+Citation is:
+Winterbottom, R. 1980.  Systematics, osteology and phylogenetic relationships of fishes of the Ostariophysan subfamily Anostominae (Characoidei, Anostomidae).  ''Royal Ontario Museum Life Science Contributions'' 123:112.
+
+* ''Gnathodolus sp.'' added as species
+
 =Update from August 2008 Catalog of Fishes=
 TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.
 
