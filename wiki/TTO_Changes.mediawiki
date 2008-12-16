@@ -64,8 +64,10 @@ Fink, SV. and Fink, WL. 1981. Interrelations of the ostariophysan fishes (Teleos
 * ''Sternopygus sp.'' added as species
 * ''Vandellia sp.'' added as species
 
+
 =Change from a curator request=
 * ''Danio devario'' added as synonym of ''Devario devario''
+
 
 =Changes resulting from publication Britz and Hoffman (2006)=
 
@@ -79,10 +81,12 @@ Britz, R. and Hoffmann M. 2006.  Ontogeny and homology of the claustra in otophy
 * ''Devario'' cf. ''aequipinnatus'' added as species
 * ''Hemiloricaria beni'' added as synonym of ''Rineloricaria beni''
 
+
 =Changes resulting from publication Fang (2003)=
 * ''Danio'' aff. ''dangila'' added as species
 * ''Chela sp.'' added as species
 * ''Esomus sp.'' added as species
+
 
 =Changes resulting from publication Sidlauskas and Vari (2008)=
 Citation is:
@@ -107,6 +111,7 @@ fish family anostomidae (Teleostei, Ostariophysi, Characiformes).  ''Zoological 
 * ''Leporinus megalepis'' changed to/added as synonym of ''Hypomasticus megalepis''
 * ''Leporinus mormyrops'' changed to/added as synonym of ''Hypomasticus mormyrops''
 * ''Leporinus pachycheilus'' changed to/added as synonym of ''Hypomasticus pachycheilus''
+
 
 =Changes resulting from invited update (April 2008) of Mayden and Conway=
 
@@ -154,12 +159,15 @@ Notes: This update contains many subfamily assignments.  We don't currently incl
 * ''Araiocypris'' added as genus to Cyprinidae
 * ''Araiocypris batodes'' added as species (Conway & Kottelat 2008)
 
+
 =Changes resulting from publication Conway (2005)=
 * ''Rasbora'' cf. ''bankanensis'' added as species
+
 
 =Changes resulting from publication de Pinna and Grande (2003)=
 * ''Osteoglossum sp.'' added as species
 * ''Elops sp.'' added as species
+
 
 =Changes resulting from publication Conway et al. (2008)=
 
@@ -167,6 +175,7 @@ Notes: This update contains many subfamily assignments.  We don't currently incl
 * ''Oxygaster hypophthalmus'' added as synonym of ''Parachela hypophthalmus''
 * ''Rasboroides vaterifloris'' added as synonym of ''Rasbora vaterifloris''
 * ''Devario'' cf. ''aequipinnatus'' added as species
+
 
 =Changes resulting from publication Vari(1995)=
 
@@ -188,6 +197,7 @@ Zoology'' 564: 103.
 * ''Pyrrhulina sp.'' added as species
 * ''Salminus sp.'' added as species
 * ''Hydrolycus pectoralis'' added as synonym of ''Hydrolycus scomberoides''
+
 
 =Changes resulting from publication Cavender and Coburn (1992)=
 
@@ -221,6 +231,7 @@ Cavender, Ted M., and Miles M. Coburn. 1992. Phylogenetic relationships of North
 * ''Moroco steindachneri'' added as synonym for ''Phoxinus steindachneri''
 * ''Osteocheilus hasseltii'' added as synonym for ''Osteochilus hasseltii''
 * ''Rhotee cotio'' added as synonym for ''Osteobrama cotio''
+
 
 =Changes resulting from publication de Pinna (1996)=
 
@@ -289,12 +300,14 @@ Schaefer, SA. 1990.  Anatomy and relationships of the scoloplacid catfishes.  ''
 * ''Corydoras barbatus'' added as synonym of ''Scieromystax barbatus''
 * ''Isorineloricaria spinosissima'' added as species
 
+
 =Changes resulting from publication Winterbottom (1980)=
 
 Citation is:
 Winterbottom, R. 1980.  Systematics, osteology and phylogenetic relationships of fishes of the Ostariophysan subfamily Anostominae (Characoidei, Anostomidae).  ''Royal Ontario Museum Life Science Contributions'' 123:112.
 
 * ''Gnathodolus sp.'' added as species
+
 
 =Changes resulting from publication Castro and Vari (2004)=
 
@@ -305,6 +318,7 @@ Castro, RMC. and Vari, RP. 2004.  Detritivores of the South American fish family
 
 =Update from August 2008 Catalog of Fishes=
 TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.
+
 
 =Changes resulting from publication Roberts (1969)=
 
@@ -317,6 +331,7 @@ Roberts, T. R. 1969. Osteology and relationships of characoid fishes, particular
 * ''Hydrocynus sp. (Roberts 1969)'' added as species
 * ''Mylossoma sp. (Roberts 1969)'' added as species
 * ''Serrasalmus sp. (Roberts 1969)'' added as species
+
 
 =Changes resulting from publication Weitzman and Fink (1985)=
 
