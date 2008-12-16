@@ -86,7 +86,7 @@ Britz, R. and Hoffmann M. 2006.  Ontogeny and homology of the claustra in otophy
 
 =Changes resulting from publication Sidlauskas and Vari (2008)=
 Citation is:
-Sidlauskas, B. L. and Vari R. P. Phylogenetic relationships within the South American
+Sidlauskas, BL. and Vari RP. Phylogenetic relationships within the South American
 fish family anostomidae (Teleostei, Ostariophysi, Characiformes).  ''Zoological Journal of the
 Linnean Society'' 154:70-210.
 
@@ -226,8 +226,8 @@ Cavender, Ted M., and Miles M. Coburn. 1992. Phylogenetic relationships of North
 =Changes resulting from publication de Pinna (1996)=
 
 Citation is:
-de Pinna M. C. C. 1996. A phylogenetic analysis of the Asian catfish families Sisoridae, Akysidae, and Amblycipitidae, with a hypothesis on the relationships of the neotropical Aspredinidae (Teleostei, Ostariophysi).
-Fieldiana: Zoology (New Series) 84:1-83.
+de Pinna MCC. 1996. A phylogenetic analysis of the Asian catfish families Sisoridae, Akysidae, and Amblycipitidae, with a hypothesis on the relationships of the neotropical Aspredinidae (Teleostei, Ostariophysi).
+''Fieldiana: Zoology'' (New Series) 84:1-83.
 
 * ''Akysis sp. 1'' added as species
 * ''Akysis sp. 2'' added as species
@@ -239,13 +239,25 @@ Fieldiana: Zoology (New Series) 84:1-83.
 * ''Ernstichthys sp.'' added as species
 
 
+=Changes resulting from publication Conway and Mayden (2007)=
+
+Citation is:
+Conway, KW. and Mayden RL. 2007. The gill arches of Psilorhynchus (Ostariophysi: Psilorhynchidae). ''Copeia'' ? 267-280.
+
+* ''Acanthocobitis sp.'' added as species
+* ''Beaufortia'' cf. ''leveretti'' added as species
+* ''Gastromyzon sp.'' added as species
+* ''Ictiobius sp.'' added as species
+* ''Acantopsis sp.'' added as species
+
+
 =Update from August 2008 Catalog of Fishes=
 TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.
 
 =Changes resulting from publication Roberts (1969)=
 
 Citation is:
-Roberts, T. R. 1969. Osteology and relationships of characoid fishes, particularly the genera Hepsetus, Salminus, Hoplias, Ctenolucius and Acestrorhynchus. Proceedings of the California Academy of Sciences 36:391-500.
+Roberts, T. R. 1969. Osteology and relationships of characoid fishes, particularly the genera Hepsetus, Salminus, Hoplias, Ctenolucius and Acestrorhynchus. ''Proceedings of the California Academy of Sciences'' 36:391-500.
 
 * ''Anostomus sp. (Roberts 1969)'' added as species
 * ''Chilodus sp. (Roberts 1969)'' added as species
@@ -257,7 +269,7 @@ Roberts, T. R. 1969. Osteology and relationships of characoid fishes, particular
 =Changes resulting from publication Weitzman and Fink (1985)=
 
 Citation is:
-Weitzman, S. H., and S. V. Fink. 1985. Xenurobryconin phylogeny and putative phermone pumps in glandulocaudine fishes (Teleostei: Characidae). Smithsonian Contributions to Zoology:1-121.
+Weitzman, S. H., and S. V. Fink. 1985. Xenurobryconin phylogeny and putative phermone pumps in glandulocaudine fishes (Teleostei: Characidae). ''Smithsonian Contributions to Zoology'' ?:1-121.
 
 * ''Argopleura sp. (Weitzman and Fink 1985)'' added as species
 * ''Gephyrocharax sp. (Weitzman and Fink 1985)'' added as species
