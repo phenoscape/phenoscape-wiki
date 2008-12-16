@@ -84,10 +84,10 @@ Britz, R. and Hoffmann M. 2006.  Ontogeny and homology of the claustra in otophy
 * ''Chela sp.'' added as species
 * ''Esomus sp.'' added as species
 
-=Changes resulting from publication Sidlauskas and Vari 2008=
+=Changes resulting from publication Sidlauskas and Vari (2008)=
 Citation is:
 Sidlauskas, B. L. and Vari R. P. Phylogenetic relationships within the South American
-fish family anostomidae (Teleostei, Ostariophysi, Characiformes).  ''Zoological Journal of the 
+fish family anostomidae (Teleostei, Ostariophysi, Characiformes).  ''Zoological Journal of the
 Linnean Society'' 154:70-210.
 
 * ''Laemolyta sp.'' added as species
@@ -102,13 +102,12 @@ Linnean Society'' 154:70-210.
 * ''Petulanos'' added as genus
 * ''Anostomus intermedius'' changed to/added as synonym of ''Petulanos intermedius''
 * ''Anostomus plicatus'' changed to/added as synonym of ''Petulanos plicatus''
-* ''Anostomus spiloclistron'' changed to/added as synonym of ''Petulanos spiloclistron'' 
+* ''Anostomus spiloclistron'' changed to/added as synonym of ''Petulanos spiloclistron''
 * ''Hypomasticus'' added as genus (was subgenus of ''Leporinus'')
 * ''Leporinus despaxi'' changed to/added as synonym of ''Hypomasticus despaxi''
 * ''Leporinus megalepis'' changed to/added as synonym of ''Hypomasticus megalepis''
 * ''Leporinus mormyrops'' changed to/added as synonym of ''Hypomasticus mormyrops''
 * ''Leporinus pachycheilus'' changed to/added as synonym of ''Hypomasticus pachycheilus''
-
 
 =Changes resulting from invited update (April 2008) of Mayden and Conway=
 
