@@ -351,6 +351,24 @@ Lucena, C. A. S., and N. A. Menezes. 1998. A phylogenetic analysis of Roestes GÃ
 * ''Roeboides sp.'' added as species
 * ''Roestes sp.'' added as species
 
+=Changes resulting from publication Weitzman and Fink (1983)=
+
+Citation is:
+Weitzman, S. H., and W. L. Fink. 1983. Relationships of the neon tetras, a group of South American freshwater fishes (Teleostei, Characidae), with comments on the phylogeny of New World Characiforms. ''Bulletin of the Museum
+of Comparative Zoology'', Harvard University 150:339-395.
+
+* ''Aphyodite sp.'' (Weitzman and Fink 1983)
+* ''Characidium sp.'' (Weitzman and Fink 1983)
+* ''Hemigrammus sp.'' (Weitzman and Fink 1983)
+* ''Hyphessobrycon sp.'' (Weitzman and Fink 1983)
+* ''Leptobrycon sp.'' (Weitzman and Fink 1983)
+* ''Microschemobrycon sp.'' (Weitzman and Fink 1983)
+* ''Oxybrycon sp.'' (Weitzman and Fink 1983)
+* ''Pristella sp.'' (Weitzman and Fink 1983)
+* ''Bryconamericus meridae'' added as synonym of ''Knodus meridae'
+* ''Cheirodon piaba'' added as synonym of ''Serrapinnus piaba''
+* ''Neolebias olbrechtsi'' added as synonym of ''Congocharax olbrechtsi''
+
 
 =Update from August 2008 Catalog of Fishes=
 TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.
