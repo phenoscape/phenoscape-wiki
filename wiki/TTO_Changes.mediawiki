@@ -195,6 +195,7 @@ Zoology'' 564: 103.
 Citation is:
 Cavender, Ted M., and Miles M. Coburn. 1992. Phylogenetic relationships of North American cyprinids. Pp. 293-327. In: Systematics, Historical Ecology, and North American Freshwater Fishes. R.L. Mayden (Ed.). Stanford University Press. Stanford, California. 969 p.
 
+* ''Spratellicypris'' added as synonym for genus ''Puntius''
 * ''Hybosis labrosa'' added as synonym for ''Cyprinella labrosa''
 * ''Hybosis monocha'' added as synonym for ''Erimonax monocha''
 * ''Hybosis zanema'' added as synonym for ''Cyprinella zanema''
