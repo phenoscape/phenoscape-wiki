@@ -296,6 +296,14 @@ Winterbottom, R. 1980.  Systematics, osteology and phylogenetic relationships of
 
 * ''Gnathodolus sp.'' added as species
 
+=Changes resulting from publication Castro and Vari (2004)=
+
+Citation is:
+Castro, RMC. and Vari, RP. 2004.  Detritivores of the South American fish family Prochilodontidae (Ostariophysi: Characiformes): a phylogenetic and revisionary study.  Smithsonian Contributions to Zoology 622:1-190.
+
+* ''Anostomus sp.'' added as species
+
+
 =Update from August 2008 Catalog of Fishes=
 TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.
 
