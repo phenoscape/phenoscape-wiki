@@ -202,7 +202,7 @@ JSON:
 
 JSON:
 <javascript>
- 
+
 {
     "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
     "quality" : { "id" : "PATO:1234", "name" : "some attribute quality"},
@@ -224,7 +224,7 @@ JSON:
                 "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
                 "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
                 "quality" : { "id" : "PATO:34242", "name" : "some quality" }
-            }  
+            }
             ]
         },
         {
@@ -244,7 +244,7 @@ JSON:
                 "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
                 "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
                 "quality" : { "id" : "PATO:34242", "name" : "some quality" }
-            }  
+            }
             ]
         }
     ],
@@ -263,8 +263,41 @@ JSON:
                 "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
                 "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
                 "quality" : { "id" : "PATO:34242", "name" : "some quality" }
-            }  
+            }
             ]
+}
+</javascript>
+
+===Gene search summary===
+'''URI'''
+
+ <BASE URI>/phenotypes/summary/gene/{term_id}
+
+<code>term_id</code> is an gene search id.  This service returns a summary of all the phenotype annotations involving that gene.  The summary is grouped by entity term and then within that by quality attribute term - all annotations with qualities descending from the same closest attribute should be grouped into the same count.
+
+'''Returns'''
+
+JSON:
+<javascript>
+{
+    "term" : { "id" : "TAO:xxxxx", "name" : "some anatomical part"},
+    "qualities" : [
+        {
+            "id" : "PATO:000xxxxx",
+            "name" : "shape",
+            "taxon_annotations" : {
+                "annotation_count": 5,
+                "taxon_count" : 3
+            },
+            "genotype_annotations" : {
+                "annotation_count" : 3,
+                "genotype_count" : 2
+            }
+        },
+        {
+            // another quality attribute
+        } // etc.
+    ]
 }
 </javascript>
 
