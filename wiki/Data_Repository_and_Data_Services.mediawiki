@@ -273,30 +273,33 @@ JSON:
 
  <BASE URI>/phenotypes/summary/gene/{term_id}
 
-<code>term_id</code> is an gene search id.  This service returns a summary of all the phenotype annotations involving that gene.  The summary is grouped by entity term and then within that by quality attribute term - all annotations with qualities descending from the same closest attribute should be grouped into the same count.
+<code>term_id</code> is an gene search id.  This service returns all the phenotype annotations involving that gene.  It is organized by phenotype annotation (entity-quality combination).  All genotypes with the same phenotype are grouped into the genotypes list for that phenotype.
 
 '''Returns'''
 
 JSON:
 <javascript>
 {
-    "term" : { "id" : "TAO:xxxxx", "name" : "some anatomical part"},
-    "qualities" : [
+    "term" : { "id" : "ZFIN:xxxxx", "name" : "some gene name"},
+    "annotations" : [
         {
-            "id" : "PATO:000xxxxx",
-            "name" : "shape",
-            "taxon_annotations" : {
-                "annotation_count": 5,
-                "taxon_count" : 3
-            },
-            "genotype_annotations" : {
-                "annotation_count" : 3,
-                "genotype_count" : 2
-            }
+            "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
+            "quality" : { "id" : "PATO:34242", "name" : "some quality" },
+            "genotypes" : [
+                { "id" : "ZFIN:34242", "name" : "some genotype" },
+                { "id" : "ZFIN:34242", "name" : "some genotype" },
+                { "id" : "ZFIN:34242", "name" : "some genotype" }
+            ]
         },
         {
-            // another quality attribute
-        } // etc.
+            "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
+            "quality" : { "id" : "PATO:34242", "name" : "some quality" },
+            "genotypes" : [
+                { "id" : "ZFIN:34242", "name" : "some genotype" },
+                { "id" : "ZFIN:34242", "name" : "some genotype" },
+                { "id" : "ZFIN:34242", "name" : "some genotype" }
+            ]
+        }
     ]
 }
 </javascript>
