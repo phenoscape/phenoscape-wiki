@@ -200,6 +200,8 @@ JSON:
 
 <code>anatomy_term_id</code> is an anatomy search term.  This service returns all of the phenotype annotations involving that anatomy term (or its descendants, via reasoning) and the given quality term (or its descendants, via reasoning).  In the result, the values of the outer "entity" and "quality" keys are the search inputs.  The genotype annotations are grouped together by gene.  If the genotype is not linked to a specific gene, it should be put in the "other_genotype_annotations" group at the top level.
 
+The "attribute" query parameter is optional - if "true", the service should first find the corresponding attribute for the given quality, and use that in the search instead of the given quality.  The default should be "false".
+
 '''Returns'''
 
 JSON:
