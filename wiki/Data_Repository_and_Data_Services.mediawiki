@@ -191,4 +191,82 @@ JSON:
 }
 </javascript>
 
+===Anatomy genotypes annotations results===
+'''URI'''
+
+ <BASE URI>/phenotypes/anatomy/{anatomy_term_id}/genes/{quality_term_id}
+
+<code>anatomy_term_id</code> is an anatomy search term.  This service returns all of the phenotype annotations involving that anatomy term (or its descendants, via reasoning) and the given quality term (or its descendants, via reasoning).  In the result, the values of the outer "entity" and "quality" keys are the search inputs.  The genotype annotations are grouped together by gene.  If the genotype is not linked to a specific gene, it should be put in the "other_genotype_annotations" group at the top level.
+
+'''Returns'''
+
+JSON:
+<javascript>
+{
+    "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
+    "quality" : { "id" : "PATO:1234", "name" : "some attribute quality"},
+    "genes" : [
+        {
+            "id" : "ZFIN:324234", "name" : "some gene name",
+            "annotations" : [
+            {
+                "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
+                "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            },
+            {
+                "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
+                "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            },
+            {
+                "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
+                "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            }  
+            ]
+        },
+        {
+            "id" : "ZFIN:324234", "name" : "some gene name",
+            "annotations" : [
+            {
+                "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
+                "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            },
+            {
+                "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
+                "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            },
+            {
+                "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
+                "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            }  
+            ]
+        }
+            ]
+        }
+    ]
+    "other_genotype_annotations" :  [
+            {
+                "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
+                "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            },
+            {
+                "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
+                "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            },
+            {
+                "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
+                "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            }  
+            ]
+}
+</javascript>
+
 [[Category:Informatics]]
