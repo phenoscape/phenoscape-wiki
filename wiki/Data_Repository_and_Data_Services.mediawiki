@@ -206,69 +206,26 @@ The "attribute" query parameter is optional - if "true", the service should firs
 
 JSON:
 <javascript>
-
 {
     "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
     "quality" : { "id" : "PATO:1234", "name" : "some attribute quality"},
-    "genes" : [
-        {
-            "id" : "ZFIN:324234", "name" : "some gene name",
-            "annotations" : [
-            {
-                "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
-                "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
-                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
-            },
-            {
-                "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
-                "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
-                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
-            },
-            {
-                "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
-                "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
-                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
-            }
-            ]
+    "annotations" : [
+          {
+            "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
+            "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
+            "quality" : { "id" : "PATO:34242", "name" : "some quality" }
         },
         {
-            "id" : "ZFIN:324234", "name" : "some gene name",
-            "annotations" : [
-            {
-                "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
-                "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
-                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
-            },
-            {
-                "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
-                "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
-                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
-            },
-            {
-                "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
-                "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
-                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
-            }
-            ]
-        }
-    ],
-    "other_genotype_annotations" :  [
-            {
-                "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
-                "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
-                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
-            },
-            {
-                "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
-                "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
-                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
-            },
-            {
-                "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
-                "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
-                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
-            }
-            ]
+            "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
+            "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
+            "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+        },
+        {
+            "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
+            "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
+            "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+        }  
+    ]
 }
 </javascript>
 
