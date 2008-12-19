@@ -127,7 +127,7 @@ If there are no terms matching the given input, a document should still be retur
 ===Anatomy search summary===
 '''URI'''
 
- <BASE URI>/term/phenotypes/summary/{term_id}
+ <BASE URI>/phenotypes/summary/{term_id}
 
 <code>term_id</code> is an anatomy search term.  This service returns a summary of all the phenotype annotations involving that anatomy term (or its descendants, via reasoning).  The summary is grouped by quality attribute term - all annotations with qualities descending from the same closest attribute should be grouped into the same count.
 
@@ -153,6 +153,40 @@ JSON:
         {
             // another quality attribute
         } // etc.
+    ]
+}
+</javascript>
+
+===Anatomy taxon annotations results===
+'''URI'''
+
+ <BASE URI>/phenotypes/anatomy/{anatomy_term_id}/taxa/{quality_term_id}
+
+<code>term_id</code> is an anatomy search term.  This service returns a summary of all the phenotype annotations involving that anatomy term (or its descendants, via reasoning).  The summary is grouped by quality attribute term - all annotations with qualities descending from the same closest attribute should be grouped into the same count.
+
+'''Returns'''
+
+JSON:
+<javascript>
+{
+    "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
+    "quality" : { "id" : "PATO:1234", "name" : "some attribute quality"},
+    "annotations" : [
+    {
+        "taxon" : { "id" : "TTO:34242", "name" : "some species" },
+        "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
+        "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+    },
+    {
+        "taxon" : { "id" : "TTO:34242", "name" : "some species" },
+        "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
+        "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+    },
+    {
+        "taxon" : { "id" : "TTO:34242", "name" : "some species" },
+        "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
+        "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+    }  
     ]
 }
 </javascript>
