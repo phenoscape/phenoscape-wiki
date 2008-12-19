@@ -202,6 +202,7 @@ JSON:
 
 JSON:
 <javascript>
+ 
 {
     "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
     "quality" : { "id" : "PATO:1234", "name" : "some attribute quality"},
@@ -246,9 +247,7 @@ JSON:
             }  
             ]
         }
-            ]
-        }
-    ]
+    ],
     "other_genotype_annotations" :  [
             {
                 "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
