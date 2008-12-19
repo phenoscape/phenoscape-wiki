@@ -136,6 +136,7 @@ If there are no terms matching the given input, a document should still be retur
 JSON:
 <javascript>
 {
+    "term" : { "id" : "TAO:xxxxx", "name" : "some anatomical part"},
     "qualities" : [
         {
             "id" : "PATO:000xxxxx",
