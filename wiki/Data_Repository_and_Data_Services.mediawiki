@@ -277,7 +277,7 @@ JSON:
 
  <BASE URI>/phenotypes/summary/gene/{term_id}
 
-<code>term_id</code> is an gene search id.  This service returns all the phenotype annotations involving that gene.  It is organized by phenotype annotation (entity-quality combination).  All genotypes with the same phenotype are grouped into the genotypes list for that phenotype.
+<code>term_id</code> is an genotype search id.  This service returns all the phenotype annotations involving that genotype.
 
 '''Returns'''
 
