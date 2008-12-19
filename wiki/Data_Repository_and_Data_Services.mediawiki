@@ -127,7 +127,7 @@ If there are no terms matching the given input, a document should still be retur
 ===Anatomy search summary===
 '''URI'''
 
- <BASE URI>/phenotypes/summary/{term_id}
+ <BASE URI>/phenotypes/summary/anatomy/{term_id}
 
 <code>term_id</code> is an anatomy search term.  This service returns a summary of all the phenotype annotations involving that anatomy term (or its descendants, via reasoning).  The summary is grouped by quality attribute term - all annotations with qualities descending from the same closest attribute should be grouped into the same count.
 
