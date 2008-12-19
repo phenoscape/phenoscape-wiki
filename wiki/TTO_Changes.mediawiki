@@ -401,12 +401,48 @@ Vari, R. P. 1989. A phylogenetic study of the Neotropical characiform family Cur
 Citation is:
 Weitzman, S. H., and S. V. Fink. 1985. Xenurobryconin phylogeny and putative phermone pumps in glandulocaudine fishes (Teleostei: Characidae). ''Smithsonian Contributions to Zoology'' ?:1-121.
 
-* ''Argopleura sp. (Weitzman and Fink 1985)'' added as species
-* ''Gephyrocharax sp. (Weitzman and Fink 1985)'' added as species
-* ''Tyttocharax sp. (Weitzman and Fink 1985)'' added as species
+* ''Argopleura sp.'' (Weitzman and Fink 1985) added as species
+* ''Gephyrocharax sp.'' (Weitzman and Fink 1985) added as species
+* ''Tyttocharax sp.'' (Weitzman and Fink 1985) added as species
 
-=Update from August 2008 Catalog of Fishes=
-TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.
+=Changes resulting from unpublished thesis of Siebert=
+
+Citation is:
+Siebert, Darrell J. Interrelationships among families of the order
+Cypriniformes (Teleostei).Unpubl. PhD Thesis, City University of New York.
+1987.
+
+* ''Gyrinocheilus sp.'' (Siebert 1987) added as species
+* ''Ellopostoma sp.'' (Siebert 1987) added as species
+* ''Carpiodes sp.'' (Siebert 1987) added as species
+* ''Ictiobus sp.'' (Siebert 1987) added as species
+* ''Aopidoparia sp.'' (Siebert 1987) added as species
+* ''Acheilognathus intermedius'' added as species
+* ''Pantosteus clarki'' added as species
+* ''Hybopsis micropogon'' added as species
+* ''Hybopsis bigutattus'' added as species
+* ''Barbus matsudai'' added as species
+* ''Barbus conchonius'' added as synonym of ''Puntius conchonius''
+* ''Acanthopsis choirorhynchos'' added as synonym of ''Acantopsis choirorhynchos''
+* ''Acanthophthalmus kuhli'' added as synonym of ''Pangio kuhlii''
+* ''Chela anomalurus'' added as synonym of ''Oxygaster pointoni''
+* ''Chondrostoma ohridanus'' added as synonym of ''Chondrostoma nasus''
+* ''Cirrhinus chinensis'' added as synonym of ''Cirrhinus molitorella''
+* ''Cyprinion irregularis'' added as synonym of ''Cprinion watsoni''
+* ''Hemibarbus barbus'' added as synonym of ''Hemibarbus labeo''
+* ''Epalzeorhynchus kalopterus'' added as a synonym of ''Epalzeorhynchos kalopterus''
+* ''Labeo erythrura'' added as a synonym of ''Epalzeorhynchos frenatum''
+* ''Rhynchocypris variegata'' added as a synonym of ''Phoxinus oxycephalus''
+* ''Varicorhinus tamusuiensis'' added as a synonym of ''Varicorhinus barbatulus''
+* ''Scaphesthes tamusuiensis'' added as a synonym of ''Varicorhinus barbatulus''
+* ''Lepidocephalus hasselti'' added as a synonym of ''Lepidocephalichthys hasselti''
+* ''Leptobotia fasciata'' added as a synonym of ''Parabotia fasciata''
+* ''Morulius chrysophekadion'' added as a synonym of ''Labeo chrysophekadion''
+* ''Nemachelus posteroventralis'' added as a synonym of ''Barbatula toni''
+* ''Noemacheilus selangoricus'' added as a synonym of ''Nemacheilus selangoricus''
+* ''Hesperoleucas symmetricus'' added as synonym of ''Hesperoleucus symmetricus'
+* ''Noemacheilus pulcher'' added as a synonym of ''Micronemacheilus pulcher''
+* ''Nemacheilus pulcher'' added as a synonym of ''Micronemacheilus pulcher''
 
 
 =Changes resulting from publication Roberts (1969)=
@@ -420,6 +456,9 @@ Roberts, T. R. 1969. Osteology and relationships of characoid fishes, particular
 * ''Hydrocynus sp. (Roberts 1969)'' added as species
 * ''Mylossoma sp. (Roberts 1969)'' added as species
 * ''Serrasalmus sp. (Roberts 1969)'' added as species
+
+=Update from August 2008 Catalog of Fishes=
+TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.
 
 [[Category:Ontology]]
 [[Category:Taxonomy]]
