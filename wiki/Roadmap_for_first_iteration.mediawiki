@@ -70,8 +70,9 @@ This is a development roadmap for the first production iteration of the Phenosca
 
 ==Dec. 8-12==
 ===Jim===
-* Complete anatomy user interface.
-* Begin implementing taxon user interface.
+* '''[Done]''' Complete anatomy user interface.
+* '''[Ongoing]''' Begin implementing taxon user interface - changed to Gene interface
+
 ===Cartik===
 * '''[Complete]''' Complete ZFIN data loading tasks.
 * '''[First version deployed 12-12-2008]'''Implement data service(s) related to Anatomy (requirements documented Nov. 17-21).
