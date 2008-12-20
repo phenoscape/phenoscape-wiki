@@ -83,8 +83,9 @@ This is a development roadmap for the first production iteration of the Phenosca
 
 ==Dec. 15-19==
 ===Jim===
-* Complete taxon user interface.
-* Implement and complete gene user interface.
+* Complete taxon user interface. '''[Postponed]'''
+* '''[Ongoing]''' Implement and complete gene user interface.
+
 ===Cartik===
 * Complete implementing Anatomy data services.
 * Begin implementing Taxon data services.
