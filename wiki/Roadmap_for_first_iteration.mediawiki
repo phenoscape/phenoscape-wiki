@@ -21,9 +21,9 @@ This is a development roadmap for the first production iteration of the Phenosca
 ==Nov. 17-21==
 ===Jim===
 * '''[Ongoing]''' Document data retrieval web service specifications
-** Anatomy
-** Taxon
-** Genes
+** Anatomy '''[Done]'''
+** Taxon '''[Postponed]'''
+** Genes '''[Done]'''
 * '''[Complete]''' Implement Rails app skeleton and code front page
 * '''[Complete]''' Implement reusable JavaScript term info panel and embed in front page search interface.
 * '''[Postponed to after SICB]''' Address NEXUS/Phenote file merging issues with Paula. Provide problematic files as NeXML to Paula and Wasila.
