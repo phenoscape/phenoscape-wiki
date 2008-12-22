@@ -4,7 +4,7 @@ title: OBD API Documentation
 
 This section is to document the inherited (and sometimes modified) code in Java, Perl, and SQL, that downloads the ontologies and data from various repositories and locations online, and finally reasons with the downloaded data.
 
-=== Java Classes and Interfaces ===
+==Java Classes and Interfaces==
 
 '''DataAdapter <Interface>'''
 ''<org.bbop.dataadapter>''
@@ -92,7 +92,7 @@ This section is to document the inherited (and sometimes modified) code in Java,
 
 * This class has been created to keep track of changes such as redefinitions and obsoletions of OBO entities such as OBOClass, OBORelation, OBORestriction etc. Every OBO entity contains a reference to a collection of HistoryItems to keep track of all the versions it has been through
 
-=== Perl Scripts ===
+==Perl Scripts==
 
 '''obd-create-db.pl'''
 
