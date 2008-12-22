@@ -4,7 +4,7 @@ title: OBD API Documentation
 
 This section is to document the inherited (and sometimes modified) code in Java, Perl, and SQL, that downloads the ontologies and data from various repositories and locations online, and finally reasons with the downloaded data.
 
-==Java Classes and Interfaces==
+==OBD Data Model Entities==
 
 '''DataAdapter <Interface>'''
 ''<org.bbop.dataadapter>''
