@@ -167,6 +167,30 @@ In this method, depending on what tag is being processed, different methods are 
 
 All these method definitions are in ''DefaultOBOParser'' class
 
+After all the definitions are stored in the "OBOSession" instance (which is what  OBOFileAdapter -> doOperation(OBOAdapter.READ_ONTOLOGY, OBOFileAdapter.OBOAdapterConfiguration, null) essentially does
+
+1. OBO2Database -> convertFiles(OBOFileAdapter.OBOAdapterConfiguration, OBDSQLDatabaseAdapter.OBDSQLDatabaseAdapterConfiguration, false, false, false, null)
+
+calls
+
+1.2 OBDSQLDatabaseAdapter -> doOperation(OBDSQLDatabaseAdapter.WRITE_ONTOLOGY, OBDSQLDatabaseAdapter.OBDSQLDatabaseAdapterConfiguration, OBOSession)
+
+which starts to load in all the objects stored in OBOSession into the relational database
+
+1.2 OBDSQLDatabaseAdapter -> doOperation(OBDSQLDatabaseAdapter.WRITE_ONTOLOGY, OBDSQLDatabaseAdapter.OBDSQLDatabaseAdapterConfiguration, OBOSession)
+
+calls
+
+''OBDSQLDatabaseAdapter -> storeAll(OBOSession, LinkDatabase)''
+
+This method gets the connection to the database and starts to write to the database. First the subset categories such as "attribute_slim" etc are written in. Then the objects are cycled through. 
+
+If object is not an annotation, 
+
+''OBDSQLDatabaseAdapter -> saveObject(IdentifiedObject)'' is invoked. 
+
+In this method, various stored procedures from '../sql/api/obd-mutable-api.plpgsql' PLPGSQL script file are invoked to store the nodes and defined links from each node. DbXRef, subset, and various other links are entered into the database in this method
+
 [[Category:Informatics]]
 [[Category: API]]
 [[Category: Database]]
