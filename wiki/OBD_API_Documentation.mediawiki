@@ -157,7 +157,7 @@ OBOParseEngine -> doParse(String path)
 
 This is the method which actually READS the ontology file
 
-Line by line, this method invokes OBOParseEngine -> parseTag() and OBOParseEngine -> parseTagValue() methods to work with the name-value definitions in the input OBO file
+Line by line, this method invokes OBOParseEngine -> parseTag() which invokes OBOParseEngine -> parseTagValue() methods to work with the name-value definitions in the input OBO file
 
 [[Category:Informatics]]
 [[Category: API]]
