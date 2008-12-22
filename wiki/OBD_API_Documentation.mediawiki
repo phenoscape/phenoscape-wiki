@@ -2,7 +2,9 @@
 title: OBD API Documentation
 ---
 
-This section is to document the inherited (and sometimes modified) code in Java, Perl, and SQL, that downloads the ontologies and data from various repositories and locations online, and finally reasons with the downloaded data.
+This section is to document the inherited (and sometimes modified) code in Java, Perl, and SQL, that downloads the ontologies and data from various repositories and locations online, and finally reasons with (as in infers implicit knowledge from)  the downloaded data.
+
+WARNING: This section will probably never be properly formatted. It is meant mainly to be a breadcrumb trail for the author (Cartik). 
 
 ==OBD Data Model Entities==
 
@@ -159,7 +161,7 @@ This is the method which actually READS the ontology file
 
 Line by line, this method invokes OBOParseEngine -> parseTag() which invokes OBOParseEngine -> parseTagValue() methods to work with the name-value definitions in the input OBO file
 
-'''OBOParseEngine -> parseTagValue()''' 
+'''OBOParseEngine -> parseTagValue()'''
 In this method, depending on what tag is being processed, different methods are invoked to store the value of the tag.
 
 All these method definitions are in
