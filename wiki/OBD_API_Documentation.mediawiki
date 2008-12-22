@@ -92,7 +92,7 @@ This section is to document the inherited (and sometimes modified) code in Java,
 
 * This class has been created to keep track of changes such as redefinitions and obsoletions of OBO entities such as OBOClass, OBORelation, OBORestriction etc. Every OBO entity contains a reference to a collection of HistoryItems to keep track of all the versions it has been through
 
-==Perl Scripts==
+==Perl Scripts and Shell Scripts==
 
 '''obd-create-db.pl'''
 
@@ -106,8 +106,28 @@ This section is to document the inherited (and sometimes modified) code in Java,
 *# Creates new language with the handsome name, 'PLPGSQL'
 *# Inserts metadata into one of the created tables
 *# Uses PLPGSQL scripts to create more stored procedures
-*# For every entry in the 'obd-phenoscape.conf' file, resolves it to a PURL and downloads these ontologies (which they are) using Perl's famous 'wget' method
-*# Once downloaded, these ontologies are assigned to the 'obd-load-db-from-obo.pl' script
+*# For every entry in the 'obd-phenoscape.conf' file, it invokes the 'obd-load-db-from-obo.pl' script
+
+'''obd-load-db-from-obo.pl'''
+
+* Arguments
+
+** Name of the database to insert term definitions into
+** The entry from the 'obd-phenoscape.conf' file which is mapped into a PURL of an ontology
+
+* Steps
+
+*# Each ontology is downloaded using the 'wget' method from Perl
+*# After download, the 'obo2database" Shell script is invoked from the "../launch_scripts" directory for each ontology
+
+ '''obo2database'''
+
+This is a wrapper shell script for the 'OBO2Database' Java class in the '<org.oboedit.launcher>' package. This script:
+
+# Gathers all the required library (JAR file) locations on the file system and puts them together in a command line CLASSPATH argument
+# The name of the ontology file (download location), and name of the database to load the definitions into are assembled as command line arguments. IN addition to these, the command line argument also includes options for 'allowdangling' and 'o'
+# VM options are assembled from the obo2database.vmoptions file in the "/launch_scripts" directory. Typically, this file specifies the memory usage requirements for the Java class as 1024 Kb ('-Xmx1024m')
+# The OBO2Database class is now invoked with the assembled class path and command line arguments to start loading the ontology terms into the database
 
 [[Category:Informatics]]
 [[Category: API]]
