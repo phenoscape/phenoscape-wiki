@@ -137,11 +137,51 @@ The key method in this class is the ''convertFiles()'' method which has the OBOF
 
 Here is an outline of the flow of command
 
-OBO2Database -> convertFiles(OBOFileAdapter.OBOAdapterConfiguration, OBDSQLDatabaseAdapter.OBDSQLDatabaseAdapterConfiguration, false, false, false, null) 
+1. OBO2Database -> convertFiles(OBOFileAdapter.OBOAdapterConfiguration, OBDSQLDatabaseAdapter.OBDSQLDatabaseAdapterConfiguration, false, false, false, null)
 
 calls
 
-OBOFileAdapter -> doOperation(OBOAdapter.READ_ONTOLOGY, OBOFileAdapter.OBOAdapterConfiguration, null)
+1.1 OBOFileAdapter -> doOperation(OBOAdapter.READ_ONTOLOGY, OBOFileAdapter.OBOAdapterConfiguration, null)
+
+In this method, a OBOSimpleParser <org.obo.dataadapter.OBOSimpleParser> object is created and all the read configuration parameters are set. This OBOSimpleParserObject is then used to create an OBOParseEngine <org.obo.dataadapter.OBOParseEngine> object. The ''parse()'' method of this OBOParseEngine object is now invoked. The method is defined in the AbstractParseEngine class ''<org.obo.dataadapter.AbstractParseEngine>'' 
+
+1.1 OBOFileAdapter -> doOperation(OBOAdapter.READ_ONTOLOGY, OBOFileAdapter.OBOAdapterConfiguration, null)
+
+calls
+
+1.1.1 AbstractParseEngine -> parse();
+
+This method creates a path stack and invokes the ''startParse()'' method implemented in the ''DefaultOBOParser'' class ''<org.obo.dataadapter.DefaultOBOParser>''
+
+1.1.1 AbstractParseEngine -> parse();
+
+calls
+
+1.1.1.1. DefaultOBOParser -> startParse();
+
+calls
+
+1.1.1.1.1. org.obo.annotation.dataadapter.AnnotationParserExtension -> startParse();
+1.1.1.1.2. org.obo.dataadapter.PostcompParseExtension -> startParse();
+
+
+
+1.1.1.2. AbstractParseEngine -> parse(String path) ['path' variable contains location of the downloaded ontology file]
+
+calls
+
+1.1.1.2.1 DefaultOBOParser -> startFileParse(String uri)
+
+calls
+
+1.1.1.2.1.1 AnnotationParserExtension -> startFileParse(String uri) and
+1.1.1.2.1.2 PostcompParserExtension -> startFileParse(String uri)
+
+and 
+
+1.1.1.2.2 OBOParseEngine -> doParse(String path)
+
+This is the method which actually READS the ontology file
 
 [[Category:Informatics]]
 [[Category: API]]
