@@ -159,6 +159,13 @@ This is the method which actually READS the ontology file
 
 Line by line, this method invokes OBOParseEngine -> parseTag() which invokes OBOParseEngine -> parseTagValue() methods to work with the name-value definitions in the input OBO file
 
+'''OBOParseEngine -> parseTagValue()''' 
+In this method, depending on what tag is being processed, different methods are invoked to store the value of the tag.
+
+All these method definitions are in
+
+''DefaultOBOParser'' class
+
 [[Category:Informatics]]
 [[Category: API]]
 [[Category: Database]]
