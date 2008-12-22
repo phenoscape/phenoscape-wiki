@@ -92,7 +92,7 @@ This section is to document the inherited (and sometimes modified) code in Java,
 
 * This class has been created to keep track of changes such as redefinitions and obsoletions of OBO entities such as OBOClass, OBORelation, OBORestriction etc. Every OBO entity contains a reference to a collection of HistoryItems to keep track of all the versions it has been through
 
-==Perl Scripts and Shell Scripts==
+==Data Loader Entities==
 
 '''obd-create-db.pl'''
 
@@ -120,7 +120,7 @@ This section is to document the inherited (and sometimes modified) code in Java,
 *# Each ontology is downloaded using the 'wget' method from Perl
 *# After download, the 'obo2database" Shell script is invoked from the "../launch_scripts" directory for each ontology
 
- '''obo2database'''
+'''obo2database'''
 
 This is a wrapper shell script for the 'OBO2Database' Java class in the '<org.oboedit.launcher>' package. This script:
 
@@ -128,6 +128,20 @@ This is a wrapper shell script for the 'OBO2Database' Java class in the '<org.ob
 # The name of the ontology file (download location), and name of the database to load the definitions into are assembled as command line arguments. IN addition to these, the command line argument also includes options for 'allowdangling' and 'o'
 # VM options are assembled from the obo2database.vmoptions file in the "/launch_scripts" directory. Typically, this file specifies the memory usage requirements for the Java class as 1024 Kb ('-Xmx1024m')
 # The OBO2Database class is now invoked with the assembled class path and command line arguments to start loading the ontology terms into the database
+
+'''OBO2Database''' ''<org.oboedit.launcher>''
+
+This class does two things in order: reads in definitions from an OBO ontology and loads them into an OBOSession object, and then reads out from the OBOSession object and loads them into a relational database. To read in the OBO ontology, it uses an OBOFileAdapter ''<org.obo.dataadapter.OBOFileAdapter>'' object with a ReadConfiguration object. To write to the database, it uses an OBDSQLDatabaseAdapter <org,obo.dataadapter.OBDSQLDatabaseAdapter> with a WriteConfiguration object.
+
+The key method in this class is the ''convertFiles()'' method which has the OBOFileAdapter and OBDSQLDatabaseAdapter objects with all the attendant configuration parameters set to appropriate values ('setBasicSave' is false, -allowdangling' is read in from the command line, the '-o' option creates a FilteredPath object with a SessionReasoner parameter set to false, etc), as arguments. The ''converFiles()'' method first calls the ''doOperation()'' method of the OBOFileAdapter class.
+
+Here is an outline of the flow of command
+
+OBO2Database -> convertFiles(OBOFileAdapter.OBOAdapterConfiguration, OBDSQLDatabaseAdapter.OBDSQLDatabaseAdapterConfiguration, false, false, false, null) 
+
+calls
+
+OBOFileAdapter -> doOperation(OBOAdapter.READ_ONTOLOGY, OBOFileAdapter.OBOAdapterConfiguration, null)
 
 [[Category:Informatics]]
 [[Category: API]]
