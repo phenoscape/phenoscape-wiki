@@ -153,7 +153,7 @@ calls
 
 1.1.1 AbstractParseEngine -> parse();
 
-After a slew of method calls that initialize class variables across OBOParseEngine, and SimpleOBOParser engine classes, this method
+After a slew of method calls that initialize instance variables across OBOParseEngine, and SimpleOBOParser instances, this method (1.1.1) calls
 
 OBOParseEngine -> doParse(String path)
 
@@ -161,12 +161,11 @@ This is the method which actually READS the ontology file
 
 Line by line, this method invokes OBOParseEngine -> parseTag() which invokes OBOParseEngine -> parseTagValue() methods to work with the name-value definitions in the input OBO file
 
-'''OBOParseEngine -> parseTagValue()'''
+''OBOParseEngine -> parseTagValue()''
+
 In this method, depending on what tag is being processed, different methods are invoked to store the value of the tag.
 
-All these method definitions are in
-
-''DefaultOBOParser'' class
+All these method definitions are in ''DefaultOBOParser'' class
 
 [[Category:Informatics]]
 [[Category: API]]
