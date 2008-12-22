@@ -2,7 +2,7 @@
 title: OBD API Documentation
 ---
 
-'''DataAdapter <Interface>'''
+===DataAdapter <Interface>===
 ''<org.bbop.dataadapter>''
 
 * Uses a data adapter configuration (DataAdapterConfiguration) and a Data Adapter UI (DataAdapterUI).  A basic interface for data input and output. This interface specifies nothing about the storage/access method, the kind of operation, or what sort of data will be manipulated. This class specifies a standard data adapter interface to allow widgets for data adapter manipulation to be built.
@@ -14,7 +14,7 @@ title: OBD API Documentation
 ** Generic method signature doOperation
 *** Performs the specified operation on the input using the given configuration. The input value may be null if executing a read-only operation. The return value may be null if executing a write-only operation.
 
-'''DataAdapterUI <Interface>'''
+===DataAdapterUI <Interface>===
 ''<org.bbop.dataadapter>''
 
 * An interface to work with a data adapter. Uses an adapter configuration and a UI Configuration.
@@ -25,66 +25,65 @@ title: OBD API Documentation
 ** Getting and setting UI configuration
 ** Creating an empty configuration
 
-'''Namespace <Interface>'''
+===Namespace <Interface>===
 ''<org.obo.datamodel>''
 
 * Uses a path and id parameters, and a private id as well. Provides implementations of comparators and equals methods where Ids are compared. ID is the same as path.
 
-'''IdentifiableObject <Interface>'''
+===IdentifiableObject <Interface>===
 ''<org.obo.datamodel>''
 
 * Declares methods to get ID and determine if its anonymous
 
-'''NestedValue <Interface>'''
+===NestedValue <Interface>===
 ''<org.obo.datamodel>''
 
 * Declares methods to get property values, add a property value, get and set suggested comments and to get the name of the nested value
 
-'''PropertyValue <Interface>'''
+===PropertyValue <Interface>===
 ''<org.obo.datamodel>''
 
 * Implements a method to compare property values based upon first comparing the property names and then comparing the property values.
 * Includes method declarations to get file name, name, line number (int), get property name and value.
 
-'''NamespacedObject <Interface>'''
+===NamespacedObject <Interface>===
 ''<org.obo.datamodel>''
 * Declares methods to get and set namespaces and namespace extensions
 
-'''IdentifiedObject <Interface>'''
+===IdentifiedObject <Interface>===
 ''<org.obo.datamodel>''
 * Declares methods to get type and property values, get and set type extension, name, name extension, Id extension, anonymous extension, and add and remove property values
 
-'''Relationship <Interface>'''
+===Relationship <Interface>===
 ''<org.obo.datamodel>''
 * Provides methods to get and set type (OBOProperty), child (LinkObject), and nested values.
 
-'''Link <Interface>'''
+===Link <Interface>===
 ''<org.obo.datamodel>''
 * Adds to relationship. Provides methods to get and set parents and namespaces to relationship methods
 
-'''LinkedObject <Interface>'''
+===LinkedObject <Interface>===
 ''<org.obo.datamodel>''
 * Provides methods to get children (Links), and add and remove parent, and children, atomic or otherwise (Links)
 
-'''DefinedObject <Interface>'''
+===DefinedObject <Interface>===
 ''<org.obo.datamodel>''
 * Extends Identified Object. Declares methods to get and set definitions and Default DBXrefs
 
-'''DbXref <Interface>'''
+===DbXref <Interface>===
 ''<org.obo.datamodel>''
 * Defines method for comparing DbXrefs on the basis of Database name and Database ID comparisons. Can be of 5 kinds: anatomical, synonym, unknown, analog, or definitional. Declares methods to get and set database ids, databases, synonyms, descriptions, types (one of the 5 mentioned earlier), and nested values
 
-'''DataType <Interface>'''
+===DataType <Interface>===
 ''<org.obo.datamodel>''
 * Includes a number of static members which are instances of implementations for Strings, positive integers, dates, booleans, durations, etc. Declares methods to get parent datatypes, value (In terms of the datatype), and the actual name of the datatype (in String form)
 
-'''StringRelationship'''
+===StringRelationship===
 ''<org.obo.dataadapter>''
 
 * A class to represent relationships in subject – relation – object format with namespace context. Includes parameters to capture relation properties like inverse and cardinalities. Also provides a method to forward Ids or change relation, subject, or object Ids from old to new.
 
-
-'''HistoryItem <Abstract>'''
+===HistoryItem <Abstract>===
 ''<org.obo.history>''
 
 * This class has been created to keep track of changes such as redefinitions and obsoletions of OBO entities such as OBOClass, OBORelation, OBORestriction etc. Every OBO entity contains a reference to a collection of HistoryItems to keep track of all the versions it has been through
