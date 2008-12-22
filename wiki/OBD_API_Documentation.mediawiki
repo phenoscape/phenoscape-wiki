@@ -94,7 +94,7 @@ WARNING: This section will probably never be properly formatted. It is meant mai
 
 * This class has been created to keep track of changes such as redefinitions and obsoletions of OBO entities such as OBOClass, OBORelation, OBORestriction etc. Every OBO entity contains a reference to a collection of HistoryItems to keep track of all the versions it has been through
 
-==Data Loader Entities==
+==Ontology Loader Entities==
 
 '''obd-create-db.pl'''
 
@@ -183,13 +183,13 @@ calls
 
 ''OBDSQLDatabaseAdapter -> storeAll(OBOSession, LinkDatabase)''
 
-This method gets the connection to the database and starts to write to the database. First the subset categories such as "attribute_slim" etc are written in. Then the objects are cycled through. 
+This method gets the connection to the database and starts to write to the database. First the subset categories such as "attribute_slim" etc are written in. Then the objects are cycled through.
 
-If object is not an annotation, 
+If object is not an annotation,
 
-''OBDSQLDatabaseAdapter -> saveObject(IdentifiedObject)'' is invoked. 
+''OBDSQLDatabaseAdapter -> saveObject(IdentifiedObject)'' is invoked.
 
-In this method, various stored procedures from '../sql/api/obd-mutable-api.plpgsql' PLPGSQL script file are invoked to store the nodes and defined links from each node. DbXRef, subset, and various other links are entered into the database in this method
+In this method, various stored procedures from '../sql/api/obd-mutable-api.plpgsql' PLPGSQL script file are invoked to store the nodes and defined links from each node. DbXRef, subset, and various other links are entered into the database in this method.
 
 [[Category:Informatics]]
 [[Category: API]]
