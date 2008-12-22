@@ -94,8 +94,11 @@ This is a development roadmap for the first production iteration of the Phenosca
 ===Jim===
 * Mostly on vacation.
 ===Cartik===
-* Complete Taxon data services.
-* Completely implement Gene data services.
+* '''[Postponed]'''Complete Taxon data services.
+* '''[Complete]'''Completely implement Gene data services.
+** ''NOTES''
+**# First few versions of anatomy data services have been implemented and deployed on Eryops as of Dec 20
+**# First version of gene data services has been implemented and deployed on Eryops as of Dec 20
 
 ==Outcome==
 ===Query UI===
