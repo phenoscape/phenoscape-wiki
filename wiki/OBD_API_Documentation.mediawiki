@@ -90,6 +90,23 @@ title: OBD API Documentation
 
 * This class has been created to keep track of changes such as redefinitions and obsoletions of OBO entities such as OBOClass, OBORelation, OBORestriction etc. Every OBO entity contains a reference to a collection of HistoryItems to keep track of all the versions it has been through
 
+==Perl Scripts==
+
+'''obd-create-db.pl'''
+
+* Arguments
+** Name of the database
+** Name of text file that holds list of ontologies to be loaded. This is in the '/conf' directory and the file is called 'obd-phenoscape.conf'
+
+* Steps
+*# Creates the database of the given name
+*# Invokes SQL scripts table, function, and view creation that are stored in the '/sql' directory. The files are called 'obd-core-schema.sql' and 'obd-core-views.sql'
+*# Creates new language with the handsome name, 'PLPGSQL'
+*# Inserts metadata into one of the created tables
+*# Uses PLPGSQL scripts to create more stored procedures
+*# For every entry in the 'obd-phenoscape.conf' file, resolves it to a PURL and downloads these ontologies (which they are) using Perl's famous 'wget' method
+*# Once downloaded, these ontologies are assigned to the 'obd-load-db-from-obo.pl' script
+
 [[Category:Informatics]]
 [[Category: API]]
 [[Category: Database]]
