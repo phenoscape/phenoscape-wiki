@@ -236,22 +236,32 @@ JSON:
 
  <BASE URI>/phenotypes/summary/gene/{term_id}
 
-<code>term_id</code> is an genotype search id.  This service returns all the phenotype annotations involving that genotype.
+<code>term_id</code> is an gene symbol search id.  This service returns all the phenotype annotations involving that gene.  Identical annotations from different genotypes are lumped together.  Each annotation has a list of all the genotypes which exhibited it.
 
 '''Returns'''
 
 JSON:
 <javascript>
 {
-    "term" : { "id" : "ZFIN:xxxxx", "name" : "some genotype name"},
+    "gene" : { "id" : "ZFIN:xxxxx", "name" : "some gene name"},
     "annotations" : [
         {
             "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
-            "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            "quality" : { "id" : "PATO:34242", "name" : "some quality" },
+            "genotypes" : [
+                { "id" : "ZFIN:xxxxx", "name" : "some genotype" },
+                { "id" : "ZFIN:xxxxx", "name" : "some genotype" },
+                { "id" : "ZFIN:xxxxx", "name" : "some genotype" }
+            ]
         },
         {
             "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
-            "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            "quality" : { "id" : "PATO:34242", "name" : "some quality" },
+            "genotypes" : [
+                { "id" : "ZFIN:xxxxx", "name" : "some genotype" },
+                { "id" : "ZFIN:xxxxx", "name" : "some genotype" },
+                { "id" : "ZFIN:xxxxx", "name" : "some genotype" }
+            ]
         }
     ]
 }
