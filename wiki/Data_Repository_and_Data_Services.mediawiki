@@ -118,7 +118,7 @@ JSON:
         }
     ],
     "search_term" : "bone",
-    "total" : 1200
+    "total" : 1859
 }
 </javascript>
 
