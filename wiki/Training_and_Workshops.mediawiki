@@ -10,9 +10,9 @@ This workshop will be held in conjunction with the [http://www.sicb.org/meetings
 
 ; Goals: The workshop is focused on the application of ontologies to studies in comparative biology, with a particular emphasis on morphological and behavioral phenotypes.  The goal is to introduce what ontologies are, how they are built, what makes an ontology useful, how ontologies can help researchers collaborate across disciplines, and to highlight several applications of this approach to comparative biology.
 
-; Registration: Registration is open to attendees of the SICB 2009 conference at no additional cost. 
+; Registration: Registration is open to attendees of the SICB 2009 conference at no additional cost.
 
-Further information can be found at the [http://www.bioontology.org/wiki/index.php/Evolutionary_Biology_and_Ontologies_2009 workshop page at the NCBO wiki]. There is also a [http://www.sicb.org/meetings/2009/schedule/abstractdetails.php3?id=1385 workshop abstract] for dissemination at the SICB website or as [[[Media:SICB - 2009 meeting - Workshop Flyer.pdf|a single-page flyer in PDF]]. Please feel free to distribute the link to your colleagues and students.
+Further information can be found at the [http://www.bioontology.org/wiki/index.php/Evolutionary_Biology_and_Ontologies_2009 workshop page at the NCBO wiki]. There is also a [http://www.sicb.org/meetings/2009/schedule/abstractdetails.php3?id=1385 workshop abstract] for dissemination at the SICB website or as [[Media:SICB - 2009 meeting - Workshop Flyer.pdf|a single-page flyer in PDF]]. Please feel free to distribute the link to your colleagues and students.
 
 ===Presentations===
 
@@ -77,3 +77,6 @@ The Needs Analysis Workshop brought together leading scientists from the fields 
 
 * [[Needs Analysis Workshop|Overview page of the workshop]], with links to presentations and break-out group notes
 * [[Needs Analysis Workshop/Summary|Summary report]]
+
+[[Category:Community]]
+[[Category:Events]]
