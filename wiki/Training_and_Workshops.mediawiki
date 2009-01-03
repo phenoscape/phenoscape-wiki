@@ -2,6 +2,30 @@
 title: Training and Workshops
 ---
 
+== Evolutionary Biology and Ontologies Workshop: January 5, 2009 ==
+
+This workshop will be held in conjunction with the [http://www.sicb.org/meetings/2009/ 2009 SICB Annual Meeting] in Boston, MA, in the morning of January 5, 2009. It is cosponsored by the [http://www.nescent.org National Evolutionary Synthesis Center] (NESCent) and the [http://bioontology.org National Center for Biomedical Ontologies] (NCBO).
+
+; Organizers: Paula Mabee (U. South Dakota), Barry Smith (SUNY Buffalo), Todd Vision (UNC Chapel Hill, NESCent), Monte Westerfield (U. Oregon, ZFIN)
+
+; Goals: The workshop is focused on the application of ontologies to studies in comparative biology, with a particular emphasis on morphological and behavioral phenotypes.  The goal is to introduce what ontologies are, how they are built, what makes an ontology useful, how ontologies can help researchers collaborate across disciplines, and to highlight several applications of this approach to comparative biology.
+
+; Registration: Registration is open to attendees of the SICB 2009 conference at no additional cost. 
+
+Further information can be found at the [http://www.bioontology.org/wiki/index.php/Evolutionary_Biology_and_Ontologies_2009 workshop page at the NCBO wiki]. There is also a [http://www.sicb.org/meetings/2009/schedule/abstractdetails.php3?id=1385 workshop abstract] for dissemination at the SICB website or as [[[Media:SICB - 2009 meeting - Workshop Flyer.pdf|a single-page flyer in PDF]]. Please feel free to distribute the link to your colleagues and students.
+
+===Presentations===
+
+*[[Media:EvoBioOnt SICB09 Smith.ppt|Barry Smith]]
+*[[Media:EvoBioOnt SICB09 Westerfield.ppt|Monte Westerfield]]
+*[[Media:EvoBioOnt SICB09 Mabee.pdf|Paula Mabee]]
+*[[Media:EvoBioOnt SICB09 Dahdul.pdf|Wasila Dahdul]]
+*[[Media:EvoBioOnt SICB09 Balhoff.pdf|Jim Balhoff]]
+*[[Media:EvoBioOnt SICB09 Deans.pdf|Andy Deans]]
+*[[Media:EvoBioOnt SICB09 Midford.ppt|Peter Midford]]
+*[[Media:EvoBioOnt SICB09 Maglia.ppt|Anne Maglia]]
+*[[Media:EvoBioOnt SICB09 SuziLewis.pdf|Suzi Lewis]]
+
 == Second Data Roundup: September 28-October 1, 2008 ==
 
 The second Morphology Data Jamboree, later renamed to <span class="plainlinks">[http://www.travelsd.com/about/events/buffaloroundup.asp Roundup]</span>, will take place in Rapid City and Sylvan Lake Lodge, South Dakota, and include project personnel, affiliated curators, and external advisors.
