@@ -27,7 +27,7 @@ Further information can be found at the [http://www.bioontology.org/wiki/index.p
 
 == Second Data Roundup: September 28-October 1, 2008 ==
 
-The second Morphology Data Jamboree, later renamed to <span class="plainlinks">[http://www.travelsd.com/about/events/buffaloroundup.asp Roundup]</span>, took place in Rapid City and Sylvan Lake Lodge, South Dakota, and included project personnel, affiliated curators, and external advisors.
+The second Morphology Data Jamboree, later renamed to <span class="plainlinks">[http://www.travelsd.com/about/events/buffaloroundup.asp Data Roundup]</span>, took place in Rapid City and Sylvan Lake Lodge, South Dakota, and included project personnel, affiliated curators, and external advisors.
 
 * [[Data Jamboree 2|Data Jamboree overview]] with links to agenda and related material
 
