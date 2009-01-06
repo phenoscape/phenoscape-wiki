@@ -16,7 +16,7 @@ Further information can be found at the [http://www.bioontology.org/wiki/index.p
 
 ===Presentations===
 
-*[[Media:EvoBioOnt SICB09 Smith.ppt|Barry Smith]]
+*[[Media:EvoBioOnt SICB09 Smith.ppt|Barry Smith]] - An introduction to ontologies for evolutionary biologists 
 *[[Media:EvoBioOnt SICB09 Westerfield.ppt|Monte Westerfield]]
 *[[Media:EvoBioOnt SICB09 Mabee.pdf|Paula Mabee]]
 *[[Media:EvoBioOnt SICB09 Dahdul.pdf|Wasila Dahdul]]
