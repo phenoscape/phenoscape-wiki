@@ -26,8 +26,70 @@ For code specific details
 ** Specific details of OBD related classes and interfaces as documented by Cartik Kothari. These will be updated very often and are meant to be used as an addendum to the [http://oboedit.org/?page=javadocs The OBOEdit Javadoc]
 
 ==OBD Reasoner==
-*'''[[Documentation about the Reasoner]]'''
-** Details of the functioning of the OBD reasoner written by Chris Mungall, documented by Cartik Kothari
+This section documents the inherited code in Perl and embedded SQL, that extracts implicit inferences from the downloaded ontologies and annotations of ZFIN and Phenoscape phenotypes.
+
+===Relationships Used===
+
+'''Transitive Relationships (A R B, B R C => A R C)'''
+
+Transitive relationships are the simplest inferences to be extracted and comprise the majority of new assertions added by the reasoner. Transitive relationships include (ontology in brackets):
+* is_a (OBO Relations)
+* has_part (OBO Relations)
+* part_of (OBO Relations)
+* integral_part_of (OBO Relations)
+* has_integral_part (OBO Relations)
+* proper_part_of (OBO Relations)
+* has_proper_part (OBO Relations)
+* improper_part_of (OBO Relations)
+* has_improper_part (OBO Relations)
+* location_of (OBO Relations)
+* located_in (OBO Relations)
+* derives_from (OBO Relations)
+* derived_into (OBO Relations)
+* precedes (OBO Relations)
+* preceded_by (OBO Relations)
+* develops_from (Zebrafish Anatomy)
+* anterior_to (Spatial Ontology)
+* posterior_to (Spatial Ontology)
+* proximal_to (Spatial Ontology)
+* distal_to (Spatial Ontology)
+* dorsal_to (Spatial Ontology)
+* ventral_to (Spatial Ontology)
+* surrounds (Spatial Ontology)
+* surrounded_by (Spatial Ontology)
+* superficial_to (Spatial Ontology)
+* deep_to (Spatial Ontology)
+* left_of (Spatial Ontology)
+* right_of (Spatial Ontology)
+* complete_evidence_for_feature(Sequence Ontology)
+* evidence_for_feature (Sequence Ontology)
+* derives_from (Sequence Ontology)
+* member_of (Sequence Ontology)
+* exhibits (Phenoscape Ontology)
+
+'''Relation (role) compositions'''
+
+Relation (role) compositions are of the form A R1 B, B R2 C => A (R1|R2) C. For example, given A is_a B and B part_of C then A part_of C. The reasoner extracts such inferences and adds them to the database. Specifically, the following relation composition templates are used:
+* A is_a B, B R C => A R C, where R can be any relation
+* A R B, B is_a C => A R C, where R can be any relation
+* Reflexive relations (A is_a A)
+* Sub relations A R B, R is_a R2 => A R2 B
+** An example: If A father_of B and father_of is_a parent_of, then A parent_of B
+* Relation chains
+** Relation chains are a special case of relation composition. Component relations are accumulated into an assembly relation. Specifically, instances of
+the relation ''inheres_in_part_of'' are accumulated from instances of the relations of ''inheres_in'' and ''part_of''.
+IF A inheres_in B and B part_of C, THEN A inheres_in_part_of C
+
+'''Intersection Relations'''
+
+Phenotype annotations are typically "post-composed", where an entity and quality are combined into a Compositional Description. For example, an annotation about the quality ''decreased size (PATO:0000587)'' of the entity ''Dorsal Fin (TAO:0001173)'' may be post-composed into a Compositional Description that looks like ''PATO:0000587^OBO_REL:inheres_in(TAO:0001173)''. Instances of ''is_a'' and ''inheres_in'' relations are extracted from post compositions like this. In the above example, the reasoner extracts:
+
+# PATO:0000587^OBO_REL:inheres_in(TAO:0001173)              OBO_REL:inheres_in               TAO:0001173, and
+# PATO:0000587^OBO_REL:inheres_in(TAO:0001173)              OBO_REL:is_a                     PATO:0000587
+
+=== Sweeps ===
+
+A reasoner functions over several sweeps. In each sweep, new implicit inferences are derived from the explicit annotations (as described in the previous sections) and added to the database. In the following sweep, inferences added from the previous sweep are used to extract further inferences. This process continues until no additional inferences are added in a sweep. This is when the ''deductive closure of the inference procedure'' is reached. No further inferences are possible and the reasoner exits.
 
 ==Web services==
 Each service may support multiple media types.  The desired media type can be specified by appending <code>?media=json</code> or similar to the request URL.  URI specifications are defined (loosely) using [http://bitworking.org/projects/URI-Templates/draft-gregorio-uritemplate-00.html URI Templates].
