@@ -24,6 +24,8 @@ For status updates
 For code specific details
 * '''[[OBD API Documentation]]'''
 ** Specific details of OBD related classes and interfaces as documented by Cartik Kothari. These will be updated very often and are meant to be used as an addendum to the [http://oboedit.org/?page=javadocs The OBOEdit Javadoc]
+
+==OBD Reasoner==
 *'''[[Documentation about the Reasoner]]'''
 ** Details of the functioning of the OBD reasoner written by Chris Mungall, documented by Cartik Kothari
 
