@@ -226,7 +226,7 @@ JSON:
             "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
             "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
             "quality" : { "id" : "PATO:34242", "name" : "some quality" }
-        }  
+        }
     ]
 }
 </javascript>
