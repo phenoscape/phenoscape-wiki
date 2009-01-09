@@ -2,13 +2,13 @@
 title: Phenoscape data loader
 ---
 
-The Phenoscape Data Loader is being developed as a Perl module. This section offers an overview of the functioning of the Phenoscape Data Loader. 
+The Phenoscape Data Loader is being developed as a Perl module. This section offers an overview of the functioning of the Phenoscape Data Loader.
 
-==Functioning of the Phenoscape Data Loader
+==Functioning of the Phenoscape Data Loader==
 
 The Phenoscape Data Loader performs the following steps in sequence
 
-===Download curated NeXML files from the Phenoscape SVN repositories===
+===Downloads curated NeXML files from the Phenoscape SVN repositories===
 Ichthyologists curate scientific publications using the [[Phenex]] character matrix annotator and these curations are stored in an SVN repository. The data loader downloads these data files on a daily basis for subsequent uploading into the relational database
 
 ===Loads the requisite ontologies into the database===
