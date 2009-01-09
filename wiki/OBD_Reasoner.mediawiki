@@ -4,9 +4,21 @@ title: OBD Reasoner
 
 The OBD reasoner uses definitions of transitive relations, relation hierarchies, and relation compositions to infer implicit information. These inferences are added to the OBD Phenoscape database. This section documents the inherited code in Perl and embedded SQL, that extracts implicit inferences from the downloaded ontologies and annotations of ZFIN and Phenoscape phenotypes.
 
+== Notation ==
+
+When describing rules below, we use the following notations:
+
+* A, B, C: classes (as subjects or objects)
+* a, b, c: individuals (as subjects or objects)
+* ''R'': relationship (predicate)
+* ''R''(A, B): A ''R'' B, for example A ''is_a'' B. This is the functional form.
+
 ==Relationships Used==
 
-===Transitive Relationships (A R B, B R C => A R C)===
+=== Transitive Relationships ===
+ 
+'''Rule:''' <math>\forall</math>A, B, C, ''R'' and ''R'' transitive: ''R''(A, B) <math>\and</math> R''(B, C)<math>\Rightarrow</math> R(A, C)
+
 Transitive relationships are the simplest inferences to be extracted and comprise the majority of new assertions added by the reasoner. Transitive relationships include (ontology in brackets):
 * is_a (OBO Relations)
 * has_part (OBO Relations)
