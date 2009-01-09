@@ -54,24 +54,29 @@ Transitive relationships are the simplest inferences to be extracted and compris
 * member_of (Sequence Ontology)
 * exhibits (Phenoscape Ontology)
 
-[[Category:Informatics]]
-[[Category:Database]]
-[[Category:Ontology]]
-[[Category:Reasoning]]
-
 ===Relation (role) compositions===
+
 '''Rule:''' <math>\forall</math>A, B, C, ''R'': ''R''(A, B) <math>\and</math> ''is_a''(B, C) <math>\Rightarrow</math> ''R''(A, C)
 
 '''Rule:''' <math>\forall</math>A, B, C, ''R'': ''is_a''(A, B) <math>\and</math> ''R''(B, C) <math>\Rightarrow</math> ''R''(A, C)
 
-Relation (role) compositions are of the form A R1 B, B R2 C => A (R1|R2) C. For example, given A is_a B and B part_of C then A part_of C. The reasoner extracts such inferences and adds them to the database. Specifically, the following relation composition templates are used:
-* A is_a B, B R C => A R C, where R can be any relation
-* A R B, B is_a C => A R C, where R can be any relation
-* Reflexive relations (A is_a A)
-* Sub relations A R B, R is_a R2 => A R2 B
-** An example: If A father_of B and father_of is_a parent_of, then A parent_of B
-* Relation chains
-** Relation chains are a special case of relation composition. Component relations are accumulated into an assembly relation. Specifically, instances of the relation ''inheres_in_part_of'' are accumulated from instances of the relations of ''inheres_in'' and ''part_of''. IF A inheres_in B and B part_of C, THEN A inheres_in_part_of C
+Relation (role) compositions are of the form A R1 B, B R2 C => A (R1|R2) C. For example, given A is_a B and B part_of C then A part_of C. The reasoner extracts such inferences and adds them to the database. 
+
+===Reflexive relations===
+
+'''Rule:''' A ''is_a'' A
+
+===Relation Hierarchies===
+
+'''Rule: ''' <math>\forall</math>A, B, ''R1'', ''R2'': ''R1''(A, B) <math>\and</math> ''is_a''(''R1'', ''R2'') <math>\Rightarrow</math> ''R2''(A, B)
+
+An example: If A father_of B and father_of is_a parent_of, then A parent_of B
+
+===Relation chains===
+
+'''Rule:'''<math>\forall</math>A, B, C:''inheres_in''(A, B) <math>\and</math> ''part_of''(B, C) <math>\Rightarrow</math> ''inheres_in_part_of''(A, C)
+
+Relation chains are a special case of relation composition. Component relations are accumulated into an assembly relation. Specifically, instances of the relation ''inheres_in_part_of'' are accumulated from instances of the relations of ''inheres_in'' and ''part_of''. IF A inheres_in B and B part_of C, THEN A inheres_in_part_of C
 
 ===Intersection Relations===
 
@@ -81,6 +86,11 @@ Phenotype annotations are typically "post-composed", where an entity and quality
 
 # PATO:0000587^OBO_REL:inheres_in(TAO:0001173)              OBO_REL:inheres_in               TAO:0001173, and
 # PATO:0000587^OBO_REL:inheres_in(TAO:0001173)              OBO_REL:is_a                     PATO:0000587
+
+[[Category:Informatics]]
+[[Category:Database]]
+[[Category:Ontology]]
+[[Category:Reasoning]]
 
 ==Sweeps==
 A reasoner functions over several sweeps. In each sweep, new implicit inferences are derived from the explicit annotations (as described in the previous sections) and added to the database. In the following sweep, inferences added from the previous sweep are used to extract further inferences. This process continues until no additional inferences are added in a sweep. This is when the ''deductive closure of the inference procedure'' is reached. No further inferences are possible and the reasoner exits.
