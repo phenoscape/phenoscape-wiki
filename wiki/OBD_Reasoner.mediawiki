@@ -16,8 +16,8 @@ When describing rules below, we use the following notations:
 ==Relationships Used==
 
 === Transitive Relationships ===
- 
-'''Rule:''' <math>\forall</math>A, B, C, ''R'' and ''R'' transitive: ''R''(A, B) <math>\and</math> R''(B, C)<math>\Rightarrow</math> R(A, C)
+
+'''Rule:''' <math>\forall</math>A, B, C, ''R'' and ''R'' transitive: ''R''(A, B) <math>\and</math> ''R''(B, C) <math>\Rightarrow</math> ''R''(A, C)
 
 Transitive relationships are the simplest inferences to be extracted and comprise the majority of new assertions added by the reasoner. Transitive relationships include (ontology in brackets):
 * is_a (OBO Relations)
@@ -53,6 +53,11 @@ Transitive relationships are the simplest inferences to be extracted and compris
 * derives_from (Sequence Ontology)
 * member_of (Sequence Ontology)
 * exhibits (Phenoscape Ontology)
+
+[[Category:Informatics]]
+[[Category:Database]]
+[[Category:Ontology]]
+[[Category:Reasoning]]
 
 ===Relation (role) compositions===
 Relation (role) compositions are of the form A R1 B, B R2 C => A (R1|R2) C. For example, given A is_a B and B part_of C then A part_of C. The reasoner extracts such inferences and adds them to the database. Specifically, the following relation composition templates are used:
