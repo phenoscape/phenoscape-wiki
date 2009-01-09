@@ -2,23 +2,28 @@
 title: Phenoscape data loader
 ---
 
-==Phenoscape Data loader==
-A data loader application to refresh the data in the Phenoscape database on a daily basis is under development. The application is being developed as a Perl module, which in sequential order:
-* '''Downloads curated NeXML files from the Phenoscape SVN repositories'''
-** Ichthyologists curate scientific publications using the [[Phenex]] character matrix annotator and these curations are stored in an SVN repository. The data loader downloads these data files on a daily basis for subsequent uploading into the relational database
-* '''Drops and recreates the database'''
-* '''Loads the requisite ontologies into the database'''
-** The annotations of character matrices use terms that are defined in life science ontologies. These ontologies include the [http://bioportal.bioontology.org/ontologies/38703 Teleost Taxonomy Ontology (TTO)], the [http://www.obofoundry.org/ro/ Relations Ontology],  the [[Teleost_Anatomy_Ontology|Teleost Anatomy Ontology (TAO)]], and the [http://bioontology.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)]. The data loader loads all these definitions into the relational database
-* '''Loads the data from the curated NeXML files into the database''',
-** The data loader transforms the curated data from NeXML syntax to a set of relational tuples (records), which are then sequentially inserted into the database
-* '''Invokes the OBD reasoner to elicit implicit information from the data and adds them to the database'''
-** The OBD reasoner uses definitions of transitive relations, relation hierarchies, and relation compositions to infer implicit information. These inferences are added to the relational database in the final step
-* '''Logs incomplete annotations into a log file'''
-** The data loader does not load incomplete annotations from the NeXML files into the database. Incomplete annotations contain null values for taxa or phenotype or both. Instead, it logs these incomplete annotations on a file-specific basis in this [[Problem Log Format]]. Curators can then work on finishing these annotations which will be subsequently loaded into the database in the next execution of the data loader.
+The Phenoscape Data Loader is being developed as a Perl module. This section offers an overview of the functioning of the Phenoscape Data Loader. 
 
+==Functioning of the Phenoscape Data Loader
+
+The Phenoscape Data Loader performs the following steps in sequence
+
+===Download curated NeXML files from the Phenoscape SVN repositories===
+Ichthyologists curate scientific publications using the [[Phenex]] character matrix annotator and these curations are stored in an SVN repository. The data loader downloads these data files on a daily basis for subsequent uploading into the relational database
+
+===Loads the requisite ontologies into the database===
+The annotations of character matrices use terms that are defined in life science ontologies. These ontologies include the [http://bioportal.bioontology.org/ontologies/38703 Teleost Taxonomy Ontology (TTO)], the [http://www.obofoundry.org/ro/ Relations Ontology],  the [[Teleost_Anatomy_Ontology|Teleost Anatomy Ontology (TAO)]], and the [http://bioontology.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)]. The data loader loads all these definitions into the relational database
+
+===Loads the data from the curated NeXML files into the database===
+The data loader transforms the curated data from NeXML syntax to a set of relational tuples (records), which are then sequentially inserted into the database
+
+===Logs incomplete annotations into a log file===
+The data loader does not load incomplete annotations from the NeXML files into the database. Incomplete annotations contain null values for taxa or phenotype or both. Instead, it logs these incomplete annotations on a file-specific basis in this [[Problem Log Format]]. Curators can then work on finishing these annotations which will be subsequently loaded into the database in the next execution of the data loader.
+
+==[[Cartik's notes on the Phenoscape Data Loader]]==
 For status updates
-* '''[[Cartik's notes on the Phenoscape Data Loader]]'''
 
+
+==[[OBD API Documentation]]==
 For code specific details
-* '''[[OBD API Documentation]]'''
-** Specific details of OBD related classes and interfaces as documented by Cartik Kothari. These will be updated very often and are meant to be used as an addendum to the [http://oboedit.org/?page=javadocs The OBOEdit Javadoc]
+Specific details of OBD related classes and interfaces as documented by Cartik Kothari. These will be updated very often and are meant to be used as an addendum to the [http://oboedit.org/?page=javadocs The OBOEdit Javadoc]
