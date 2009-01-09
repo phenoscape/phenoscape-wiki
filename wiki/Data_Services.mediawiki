@@ -2,11 +2,9 @@
 title: Data Services
 ---
 
-This section details of the data services that query the OBD Phenoscape database and transfer the retrieved results to the Phenoscape UI
+This section details of the data services that query the OBD Phenoscape database and transfer the retrieved results to the Phenoscape UI. Each service may support multiple media types.  The desired media type can be specified by appending <code>?media=json</code> or similar to the request URL.  URI specifications are defined (loosely) using [http://bitworking.org/projects/URI-Templates/draft-gregorio-uritemplate-00.html URI Templates].
 
-==Web services==
-Each service may support multiple media types.  The desired media type can be specified by appending <code>?media=json</code> or similar to the request URL.  URI specifications are defined (loosely) using [http://bitworking.org/projects/URI-Templates/draft-gregorio-uritemplate-00.html URI Templates].
-===Term info===
+==Term info==
 '''URI'''
 
  <BASE URI>/term/{term_id}
@@ -56,9 +54,9 @@ OWL-RDF:
 
 If there is no term with the given ID, the service should return "404 Not Found".
 
-====Handling of anonymous post-compositions====
+===Handling of anonymous post-compositions===
 
-===Autocomplete===
+==Autocomplete==
 '''URI'''
 
  <BASE URI>/term/search?text=[input]&name=[true|false]&syn=[true|false]&def=[true|false]&ontology=[ont1,ont2,...]&limit=[count]
@@ -105,7 +103,7 @@ JSON:
 
 If there are no terms matching the given input, a document should still be returned, containing an empty results list.
 
-===Anatomy search summary===
+==Anatomy search summary==
 '''URI'''
 
  <BASE URI>/phenotypes/summary/anatomy/{term_id}
@@ -138,7 +136,7 @@ JSON:
 }
 </javascript>
 
-===Anatomy taxon annotations results===
+==Anatomy taxon annotations results==
 '''URI'''
 
  <BASE URI>/phenotypes/anatomy/{anatomy_term_id}/taxa/{quality_term_id}?attribute=[true|false]
@@ -174,7 +172,7 @@ JSON:
 }
 </javascript>
 
-===Anatomy genotypes annotations results===
+==Anatomy genotypes annotations results==
 '''URI'''
 
  <BASE URI>/phenotypes/anatomy/{anatomy_term_id}/genes/{quality_term_id}
@@ -210,7 +208,7 @@ JSON:
 }
 </javascript>
 
-===Gene search summary===
+==Gene search summary==
 '''URI'''
 
  <BASE URI>/phenotypes/summary/gene/{term_id}
