@@ -67,9 +67,7 @@ Relation (role) compositions are of the form A R1 B, B R2 C => A (R1|R2) C. For 
 * Sub relations A R B, R is_a R2 => A R2 B
 ** An example: If A father_of B and father_of is_a parent_of, then A parent_of B
 * Relation chains
-** Relation chains are a special case of relation composition. Component relations are accumulated into an assembly relation. Specifically, instances of
-the relation ''inheres_in_part_of'' are accumulated from instances of the relations of ''inheres_in'' and ''part_of''.
-IF A inheres_in B and B part_of C, THEN A inheres_in_part_of C
+** Relation chains are a special case of relation composition. Component relations are accumulated into an assembly relation. Specifically, instances of the relation ''inheres_in_part_of'' are accumulated from instances of the relations of ''inheres_in'' and ''part_of''. IF A inheres_in B and B part_of C, THEN A inheres_in_part_of C
 
 ===Intersection Relations===
 Phenotype annotations are typically "post-composed", where an entity and quality are combined into a Compositional Description. For example, an annotation about the quality ''decreased size (PATO:0000587)'' of the entity ''Dorsal Fin (TAO:0001173)'' may be post-composed into a Compositional Description that looks like ''PATO:0000587^OBO_REL:inheres_in(TAO:0001173)''. Instances of ''is_a'' and ''inheres_in'' relations are extracted from post compositions like this. In the above example, the reasoner extracts:
