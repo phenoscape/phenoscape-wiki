@@ -20,7 +20,7 @@ The data loader transforms the curated data from NeXML syntax to a set of relati
 ===Logs incomplete annotations into a log file===
 The data loader does not load incomplete annotations from the NeXML files into the database. Incomplete annotations contain null values for taxa or phenotype or both. Instead, it logs these incomplete annotations on a file-specific basis in this [[Problem Log Format]]. Curators can then work on finishing these annotations which will be subsequently loaded into the database in the next execution of the data loader.
 
-==[[Cartik's notes on the Phenoscape Data Loader]]==
+==Cartik's notes on the Phenoscape Data Loader==
 
 For status updates
 
