@@ -245,3 +245,6 @@ JSON:
     ]
 }
 </javascript>
+
+[[Category:Informatics]]
+[[Category:API]]
