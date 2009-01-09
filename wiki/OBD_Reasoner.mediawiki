@@ -60,5 +60,5 @@ Phenotype annotations are typically "post-composed", where an entity and quality
 # PATO:0000587^OBO_REL:inheres_in(TAO:0001173)              OBO_REL:inheres_in               TAO:0001173, and
 # PATO:0000587^OBO_REL:inheres_in(TAO:0001173)              OBO_REL:is_a                     PATO:0000587
 
-=== Sweeps ===
+==Sweeps==
 A reasoner functions over several sweeps. In each sweep, new implicit inferences are derived from the explicit annotations (as described in the previous sections) and added to the database. In the following sweep, inferences added from the previous sweep are used to extract further inferences. This process continues until no additional inferences are added in a sweep. This is when the ''deductive closure of the inference procedure'' is reached. No further inferences are possible and the reasoner exits.
