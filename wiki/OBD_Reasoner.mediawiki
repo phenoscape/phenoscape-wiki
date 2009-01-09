@@ -13,9 +13,9 @@ When describing rules below, we use the following notations:
 * ''R'': relationship (predicate)
 * ''R''(A, B): A ''R'' B, for example A ''is_a'' B. This is the functional form.
 
-==Relationships Used==
+==Implemented Relation Properties==
 
-=== Transitive Relationships ===
+=== Relation Transitivity===
 
 '''Rule:''' <math>\forall</math>A, B, C, ''R'' and ''R'' transitive: ''R''(A, B) <math>\and</math> ''R''(B, C) <math>\Rightarrow</math> ''R''(A, C)
 
@@ -60,9 +60,9 @@ Transitive relationships are the simplest inferences to be extracted and compris
 
 '''Rule:''' <math>\forall</math>A, B, C, ''R'': ''is_a''(A, B) <math>\and</math> ''R''(B, C) <math>\Rightarrow</math> ''R''(A, C)
 
-Relation (role) compositions are of the form A R1 B, B R2 C => A (R1|R2) C. For example, given A is_a B and B part_of C then A part_of C. The reasoner extracts such inferences and adds them to the database. 
+Relation (role) compositions are of the form A R1 B, B R2 C => A (R1|R2) C. For example, given A is_a B and B part_of C then A part_of C. The reasoner extracts such inferences and adds them to the database.
 
-===Reflexive relations===
+===Relations Reflexivity===
 
 '''Rule:''' A ''is_a'' A
 
@@ -72,13 +72,13 @@ Relation (role) compositions are of the form A R1 B, B R2 C => A (R1|R2) C. For 
 
 An example: If A father_of B and father_of is_a parent_of, then A parent_of B
 
-===Relation chains===
+===Relation Chains===
 
 '''Rule:'''<math>\forall</math>A, B, C:''inheres_in''(A, B) <math>\and</math> ''part_of''(B, C) <math>\Rightarrow</math> ''inheres_in_part_of''(A, C)
 
 Relation chains are a special case of relation composition. Component relations are accumulated into an assembly relation. Specifically, instances of the relation ''inheres_in_part_of'' are accumulated from instances of the relations of ''inheres_in'' and ''part_of''. IF A inheres_in B and B part_of C, THEN A inheres_in_part_of C
 
-===Intersection Relations===
+===Relation Intersections===
 
 '''Rule:''' <math>\forall</math>Q, E: ''inheres_in''(Q, E) ''inheres_in''(E) <math>\and</math> ''inheres_in''(Q, E)''is_a''(Q)
 
@@ -87,10 +87,26 @@ Phenotype annotations are typically "post-composed", where an entity and quality
 # PATO:0000587^OBO_REL:inheres_in(TAO:0001173)              OBO_REL:inheres_in               TAO:0001173, and
 # PATO:0000587^OBO_REL:inheres_in(TAO:0001173)              OBO_REL:is_a                     PATO:0000587
 
+==Relation Properties to be implemented ==
+
+The following relation properties may be implemented on the reasoner in future if necessary. 
+
+===Relation Symmetry===
+
+'''Rule:''' <math>\forall</math>A, B, ''R'' and ''R'' reflexive: ''R''(A, B) <math>\Rightarrow</math> ''R''(B, A)
+
+An example of a symmetric relation is the ''neighbor'' relation. IF Jim neighbor_of Ryan THEN Ryan neighbor_of Jim. 
+
+===Relation Inversion===
+
+'''Rule:''' <math>\forall</math>A, B, ''R1'', ''R2'': ''R1''(A, B) <math>\and</math> ''inverse_of''(''R1'', ''R2'') <math>\Rightarrow</math> ''R2''(B, A)
+
+An example of relation inversions can be found in the ''parent'' and ''child'' relations. IF Charles parent_of Harry AND child_of inverse_of parent_of THEN Harry child_of Charles.
+
+==Sweeps==
+A reasoner functions over several sweeps. In each sweep, new implicit inferences are derived from the explicit annotations (as described in the previous sections) and added to the database. In the following sweep, inferences added from the previous sweep are used to extract further inferences. This process continues until no additional inferences are added in a sweep. This is when the ''deductive closure of the inference procedure'' is reached. No further inferences are possible and the reasoner exits.
+
 [[Category:Informatics]]
 [[Category:Database]]
 [[Category:Ontology]]
 [[Category:Reasoning]]
-
-==Sweeps==
-A reasoner functions over several sweeps. In each sweep, new implicit inferences are derived from the explicit annotations (as described in the previous sections) and added to the database. In the following sweep, inferences added from the previous sweep are used to extract further inferences. This process continues until no additional inferences are added in a sweep. This is when the ''deductive closure of the inference procedure'' is reached. No further inferences are possible and the reasoner exits.
