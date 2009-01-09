@@ -61,6 +61,7 @@ Transitive relationships are the simplest inferences to be extracted and compris
 
 ===Relation (role) compositions===
 '''Rule:''' <math>\forall</math>A, B, C, ''R'': ''R''(A, B) <math>\and</math> ''is_a''(B, C) <math>\Rightarrow</math> ''R''(A, C)
+
 '''Rule:''' <math>\forall</math>A, B, C, ''R'': ''is_a''(A, B) <math>\and</math> ''R''(B, C) <math>\Rightarrow</math> ''R''(A, C)
 
 Relation (role) compositions are of the form A R1 B, B R2 C => A (R1|R2) C. For example, given A is_a B and B part_of C then A part_of C. The reasoner extracts such inferences and adds them to the database. Specifically, the following relation composition templates are used:
