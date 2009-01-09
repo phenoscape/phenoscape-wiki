@@ -5,8 +5,7 @@ title: Main Page
 {{EventBox1|
 * We held our 2nd [http://www.bioontology.org/wiki/index.php/Evolutionary_Biology_and_Ontologies_2009 Evolutionary Biology and Ontologies workshop] in conjunction with the Annual Meeting of the Society for Integrative and Comparative Biology (SICB) in Boston, MA on Monday, January 5, 2009. It was cosponsored by NESCent and the National Center for Biomedical Ontologies (NCBO).
 *We hosted the [[Data_Jamboree_2 | Second Data Jamboree]] on September 27 - October 1 in Rapid City, SD.
-*Check out the new Phenoscape [http://blog.phenoscape.org/ blog]!
-* We held our 1st [http://blog.phenoscape.org/2008/07/11/evolutionary-biology-ontologies-workshop-report/ Evolutionary Biology and Ontologies Workshop] in conjunction with the Evolution 2008 Meetings in Minneapolis, MN.  The event was cosponsored by NESCent and the NCBO.
+*Check out the Phenoscape [http://blog.phenoscape.org/ blog]!
 }}
 
 ==Linking Evolution to Genomics Using Phenotype Ontologies==
