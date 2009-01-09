@@ -1,0 +1,5 @@
+---
+title: OBD Reasoner
+---
+
+The OBD reasoner uses definitions of transitive relations, relation hierarchies, and relation compositions to infer implicit information. These inferences are added to the OBD Phenoscape database.
