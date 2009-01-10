@@ -89,3 +89,6 @@ Some technology choices may figure into the application requirements, particular
 * Standalone application
 ** Can work offline
 ** Offline usage would preclude incorporation of web services into software features (such as loading ontology information from a remote server)
+
+[[Category:Curation]]
+[[Category:Informatics]]
