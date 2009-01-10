@@ -50,3 +50,8 @@ The current problem log can be found [https://obo.svn.sourceforge.net/svnroot/ob
 ..
 ..
 ..
+
+[[Category:Informatics]]
+[[Category:Database]]
+[[Category:Curation]]
+[[Category:Help]]
