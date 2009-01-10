@@ -69,3 +69,7 @@ It would be possible to store EQ statements for both characters (Entity+Attribut
 * It would require development of a specialized data model and prevent the use of the current NCBO standards.
 * Such extensions to the PhenoXML standard may not be desired by the current developers and users.
 * If an ancestor-descendant relationship between attributes and values is desired, this coding would not be robust to future rearrangements of PATO (where a value may not descend from a particular attribute in the future, and so becomes an invalid statement).
+
+[[Category:Curation]]
+[[Category:Informatics]]
+[[Category:EQ Annotation]]
