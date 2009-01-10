@@ -2,6 +2,10 @@
 title: Documents
 ---
 
-===[[Phenoscape data policy]]===
+== For curators ==
 
-===[[Storing publication reference information]] (DOI, PubMed ID, etc.)===
+* [[Phenoscape data policy]]
+
+== Under active discussion ==
+
+* [[Storing publication reference information]] (DOI, PubMed ID, etc.)
