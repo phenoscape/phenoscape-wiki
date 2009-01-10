@@ -16,3 +16,8 @@ Hints:
 * If there is a problem with your Newick format, the "Newick Tree:" text will be colored red.
 * Control-click a node to select or deselect it without affecting the rest of your selection.
 * You can drag over instead of directly clicking on nodes to select them.
+
+[[Category:Curation]]
+[[Category:Informatics]]
+[[Category:EQ Annotation]]
+[[Category:User Interface]]
