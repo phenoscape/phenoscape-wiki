@@ -14,7 +14,7 @@ A common API implemented by ontology data services enables clients such as EQ ed
 #* Function: lookup the ontologies being served by the data service
 #* Input: none, or a particular name, and/or the name of the ontology category
 #* Output: a record of name, version, identifier, meta-data (e.g., retired? in production? purpose?) for each ontology being served
-# Look up term 
+# Look up term
 #* Function: Obtain the full term information for a given ID
 #* Input: a term ID, or the combination of a term name and ontology ID
 #* Output: the matching term in OBO or RDF/OWL format
@@ -32,7 +32,7 @@ A common API implemented by ontology data services enables clients such as EQ ed
 #* Function: Obtain all terms and relationships comprising an ontology
 #* Input: ontology ID, optionally name of the slim
 #* Output: the ontology as an OBO or OWL stream of text
-#* Notes: do we need a parameter for specifying the desired format? do we need parameter for including obsoletes or not 
+#* Notes: do we need a parameter for specifying the desired format? do we need parameter for including obsoletes or not
 # SPARQL endpoint
 #* Function: Issue SPARQL queries and obtain the results in RDF
 #* Input:
@@ -46,7 +46,7 @@ A common API implemented by ontology data services enables clients such as EQ ed
 
 # Login
 #* Function: Given a username and secret, obtain an authentication token
-#* Input: 
+#* Input:
 #* Output:
 # Save EQ statements
 #* Function: Save an array of EQ statements to the data store
@@ -54,7 +54,7 @@ A common API implemented by ontology data services enables clients such as EQ ed
 #* Output: success/failure indicator
 # Load EQ statements
 #* Function: Load an array of EQ statements from the data store
-#* Input: author, or list of taxa, 
+#* Input: author, or list of taxa,
 #* Output: matching EQ statements in pheno-xml or pheno-syntax format
 #* Notes: do we need parameter of list of entities to obtain EQs for?
 
@@ -110,3 +110,6 @@ A common API implemented by ontology data services enables clients such as EQ ed
 <biblio>
 #cote2006 pmid=16507094
 </biblio>
+
+[[Category:Informatics]]
+[[Category:API]]
