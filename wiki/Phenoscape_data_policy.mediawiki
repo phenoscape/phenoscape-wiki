@@ -21,3 +21,9 @@ Contributions to Phenoscape are predominantly based on data reported in the publ
 * Copyright for externally linked images (e.g. in Morphbank)
 * Availability and citation of unpublished data
 * Acknowledgement of contributor(s)
+
+[[Category:Community]]
+[[Category:Curation]]
+[[Category:Data Jamboree 1]]
+[[Category:Data Jamboree 2]]
+[[Category:EQ Annotation]]
