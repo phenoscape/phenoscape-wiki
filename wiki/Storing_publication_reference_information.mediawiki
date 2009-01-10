@@ -20,3 +20,7 @@ For most articles earlier than 1997 there almost certainly won't be a DOI. Try J
 (***) Jim & Hilmar looking into interface to help do this
 
 ==Resolution==
+
+[[Category:Informatics]]
+[[Category:Identifiers]]
+[[Category:Evidence]]
