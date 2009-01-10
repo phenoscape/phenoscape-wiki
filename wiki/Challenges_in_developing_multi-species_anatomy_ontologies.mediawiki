@@ -39,3 +39,6 @@ The term “vertebra 1 part of Weberian apparatus” has relationship part_of: W
 ===Representing serial homologues===
 
 neural arch 2 and intercalarium are children of neural arch
+
+[[Category:Curation]]
+[[Category:Ontology]]
