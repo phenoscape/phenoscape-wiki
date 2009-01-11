@@ -57,3 +57,4 @@ title: Software roadmap
 * [[Roadmap for first iteration]] to be demoed and tested at [http://www.sicb.org/meetings/2009/index.php3 SICB 2009]
 
 [[Category:Informatics]]
+[[Category:Roadmaps]]
