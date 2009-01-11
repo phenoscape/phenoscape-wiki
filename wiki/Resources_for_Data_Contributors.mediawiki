@@ -15,7 +15,7 @@ You can download publication PDFs and powerpoint posters of the TAO and PATO ont
 
 Connecting in MAC OS X
 # In finder > Go > Connect to Server
-# Type in https://webdav.nescent.org/[sharename] .   For example, https://webdav.nescent.org/phenoscape-data
+# Type in https://ftp.nescent.org/[sharename] .   For example, https://ftp.nescent.org/phenoscape-data
 # Accept security warning about certificate
 # enter username and password (ask a Phenoscaper)
 
