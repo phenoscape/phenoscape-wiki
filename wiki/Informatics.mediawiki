@@ -22,7 +22,7 @@ The Phenoscape web application will allow scientists to browse and query the phe
 
 == Source code ==
 
-The software source code is in part being contributed back directly to a variety of existing projects we build upon, and in part deposited on our SourceForge.net svn repository. 
+The software source code is in part being contributed back directly to a variety of existing projects we build upon, and in part deposited on our [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/ SourceForge.net svn repository].
 * Phenex:
 * Data loader:
 * Data services and middleware:
