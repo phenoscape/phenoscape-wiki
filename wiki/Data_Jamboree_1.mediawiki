@@ -10,7 +10,7 @@ title: Data Jamboree 1
 
 '''Venue:''' National Evolutionary Synthesis Center (NESCent) (<span class="plainlinks">[http://www.nescent.org/about/directions.php directions]</span>, also see <span class="plainlinks">[http://www.nescent.org/about/information.php information for visitors]</span>)
 
-'''Date:''' April 18-20, 2008 
+'''Date:''' April 18-20, 2008
 
 '''Organizers:''' Paula Mabee, Monte Westerfield, Todd Vision, and Hilmar Lapp
 
@@ -18,12 +18,12 @@ title: Data Jamboree 1
 
 We have developed the software tools to input systematic character data in a formalized way to a degree that we have started to enter species-level as well as some of the higher level taxonomic characters (e.g. from Fink & Fink, 1981). This workshop brings together morphologists from the community of ichthyologists and project personnel focused on morphology, taxonomy, data curation, ontology curation, and informatics. The workshop will introduce ichthyologists to the approach, and pair morphologists from the community with project personnel to work one-on-one on entering published systematic character data.
 
-The hands-on curation work at the jamboree will almost certainly reveal ontological issues, such as terminology and synonymies, issues in annotation consistency or workflow, as well as usability and data flow issues involving the software tools. These will help drive the development of the database and web-based interfaces, but will also spur further development of the involved ontologies and refinement of the annotation procedures. The informatics as well as ontology personnel of the project will be on hand to respond to the issues on the spot.  
+The hands-on curation work at the jamboree will almost certainly reveal ontological issues, such as terminology and synonymies, issues in annotation consistency or workflow, as well as usability and data flow issues involving the software tools. These will help drive the development of the database and web-based interfaces, but will also spur further development of the involved ontologies and refinement of the annotation procedures. The informatics as well as ontology personnel of the project will be on hand to respond to the issues on the spot.
 
-Finally, the workshop will also provide a very interesting opportunity to brainstorm about the informatics tools and data required to push beyond current limits, thus fostering new discoveries at the interface between evolution and developmental genetics.    
+Finally, the workshop will also provide a very interesting opportunity to brainstorm about the informatics tools and data required to push beyond current limits, thus fostering new discoveries at the interface between evolution and developmental genetics.
 
 ==Agenda==
- 
+
 The Jamboree will start in the morning (~9am) on Friday, April 18, and continue through noon on Sunday, April 20. Non-project participants will arrive on Thursday, April 17, and depart in the afternoon of April 20. Please see the ''[[Data Jamboree 1/Agenda|detailed agenda]]'' for the program for each day.
 
 ==Resources==
@@ -50,8 +50,8 @@ Notes and annotation results:
 ==Reading==
 
 * We use the tag "<span class="plainlinks">[http://www.connotea.org/tag/phenoscape phenoscape]</span>" on Connotea. Everyone is welcome to suggest references by using this tag.
-* Relevant manuscripts by members of the project team: 
-# Mabee PM, Ashburner M, Cronk Q, Gkoutos GV, Haendel M, Segerdell E, Mungall C, and Westerfield M. Phenotype ontologies: the bridge between genomics and evolution. Trends Ecol Evol 2007 Jul; 22(7) 345-50. [http://dx.doi.org/10.1016/j.tree.2007.03.013 doi:10.1016/j.tree.2007.03.013] 
+* Relevant manuscripts by members of the project team:
+# Mabee PM, Ashburner M, Cronk Q, Gkoutos GV, Haendel M, Segerdell E, Mungall C, and Westerfield M. Phenotype ontologies: the bridge between genomics and evolution. Trends Ecol Evol 2007 Jul; 22(7) 345-50. [http://dx.doi.org/10.1016/j.tree.2007.03.013 doi:10.1016/j.tree.2007.03.013]
 # Mabee PM, Arratia G, Coburn M, Haendel M, Hilton EJ, Lundberg JG, Mayden RL, Rios N, and Westerfield M. Connecting evolutionary morphology to genomics using ontologies: a case study from Cypriniformes including zebrafish. J Exp Zoolog B Mol Dev Evol 2007 Jun 28. [http://dx.doi.org/10.1002/jez.b.21181 doi:10.1002/jez.b.21181]
 # Haendel, M.A., Neuhaus, F., Osumi-Sutherland, D.S., Mabee, P.M., Mejino J.L.V., Mungall, C.J., and Smith, B. (2008) [[Media:Caroreprint.pdf|CARO - The Common Anatomy Reference Ontology]]. ''In:'' Albert Burger, Duncan Davidson and Richard Baldock (Editors): ''Anatomy Ontologies for Bioinformatics: Principles and Practice''. ISBN 978-1-84628-884-5.
 
@@ -103,3 +103,4 @@ Members of the project team are in '''bold font'''.
 #Vari RP, Castro RMC, Raredon SJ. 1995. The Neotropical fish family Chilodontidae (Teleostei: Characiformes): a phylogenetic study and a revision of Caenotropus Günther. Smithsonian Contributions to Zoology 577: 32.
 
 [[Category:Data Jamboree 1]]
+[[Category:Events]]
