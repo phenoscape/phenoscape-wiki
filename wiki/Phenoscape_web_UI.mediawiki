@@ -3,6 +3,9 @@ title: Phenoscape web UI
 ---
 
 ==Roadmap==
-
+===TBD===
+* Incorporate team feedback on existing interface components
+* Taxon search interface
+* Publication detail page(s)
 ===Feature complete - July 1, 2009===
 ===Public release: ASIH meeting, Portland, Oregon - July 22, 2009===
