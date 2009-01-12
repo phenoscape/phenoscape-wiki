@@ -18,7 +18,7 @@ We are adopting [http://www.bioontology.org/wiki/index.php/OBD:Main_Page OBD] as
 We are also developing a suite of web services on top of OBD to serve as a data access API and foundation for our user-oriented Phenoscape web application.  These web services make use of the OBD Java API and present a [http://en.wikipedia.org/wiki/Representational_State_Transfer RESTful] service interface using [http://www.restlet.org/ Restlet]. The specifications of these services are detailed in [[Data Services]].
 
 ===Phenoscape web UI===
-The Phenoscape web application will allow scientists to browse and query the phenotype annotations as well as the supporting ontologies.  Initially, the query capabilities will concentrate on implementing a select set of "use-cases", research questions that show the utility of the approach. Ultimately, we will build interfaces that allow researchers to ask open-ended questions of the data.  The web application is being developed using [http://www.rubyonrails.org/ Ruby on Rails] and accesses phenotype data and ontology information via our OBD web services.
+The [[Phenoscape web UI|Phenoscape web application]] will allow scientists to browse and query the phenotype annotations as well as the supporting ontologies.  Initially, the query capabilities will concentrate on implementing a select set of "use-cases", research questions that show the utility of the approach. Ultimately, we will build interfaces that allow researchers to ask open-ended questions of the data.  The web application is being developed using [http://www.rubyonrails.org/ Ruby on Rails] and accesses phenotype data and ontology information via our OBD web services.
 
 == Source code ==
 
