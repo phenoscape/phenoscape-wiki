@@ -14,5 +14,6 @@ title: Phenoscape web UI
 * "Splashy" search entry page
 ===May 2009===
 * Taxonomy-based tree-mapped data perspective
-===Feature complete - July 1, 2009===
+===Release candidate - July 1, 2009===
+
 ===Public release: ASIH meeting, Portland, Oregon - July 22, 2009===
