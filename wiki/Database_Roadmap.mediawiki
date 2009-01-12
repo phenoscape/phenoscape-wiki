@@ -12,7 +12,8 @@ This is a development roadmap for the second production iteration of the Phenosc
 * Finish documentation of the OBD reasoner on the Wiki
 
 ===Jan. 19-23===
-* Continue work on writing database views and procedures
+
+* Work on Unit test modules for database queries*
 * Begin work on augmenting OBD reasoner to infer presence and absence of anatomical features
 
 ===Jan. 26-30===
