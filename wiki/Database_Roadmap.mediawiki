@@ -8,7 +8,7 @@ This is a development roadmap for the second production iteration of the Phenosc
 
 ===Jan. 12-16===
 * Work on moving database connection parameters from code to properties file that does not go into SVN.
-* Document inherited database query module*
+* Document inherited database query module in OBD API*
 * Finish documentation of the OBD reasoner on the Wiki
 
 ===Jan. 19-23===
