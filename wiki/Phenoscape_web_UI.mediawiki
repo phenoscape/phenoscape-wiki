@@ -7,5 +7,6 @@ title: Phenoscape web UI
 * Incorporate team feedback on existing interface components
 * Taxon search interface
 * Publication detail page(s)
+* "Splashy" search entry page
 ===Feature complete - July 1, 2009===
 ===Public release: ASIH meeting, Portland, Oregon - July 22, 2009===
