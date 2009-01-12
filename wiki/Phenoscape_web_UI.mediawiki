@@ -4,5 +4,5 @@ title: Phenoscape web UI
 
 ==Roadmap==
 
-===Feature complete - July 1, 2009
+===Feature complete - July 1, 2009===
 ===Public release: ASIH meeting, Portland, Oregon - July 22, 2009===
