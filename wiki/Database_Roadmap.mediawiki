@@ -1,0 +1,54 @@
+---
+title: Database Roadmap
+---
+
+This is a development roadmap for the second production iteration of the Phenoscape database and web interface, intended for demonstration and testing at the [http://www.dce.k-state.edu/conf/jointmeeting/ ASIH 2009] meeting.
+
+==Cartik==
+===Jan. 12-16===
+* Work on moving database connection parameters from code to properties file that does not go into SVN.
+* Begin work on new database views and procedures to speed up anatomy and gene queries in Phenoscape
+* Finish documentation of the OBD reasoner on the Wiki
+
+===Jan. 19-23===
+* Continue work on writing database views and procedures
+* Begin work on augmenting OBD reasoner to infer presence and absence of anatomical features
+
+===Jan. 26-30===
+* Complete work on new database views and procedures
+* Test database for improved performance
+* Continue work on augmenting OBD reasoner
+
+===Feb. 2-6===
+* Commence work on adding collection information to phenotype annotations
+* Complete work on augmenting OBD reasoner
+
+===Feb. 9-13===
+* Continue work on adding collection information to the database
+* Commence work on adding extinct/extant species information to the database
+
+===Feb. 16-20===
+* Finish work on adding collection information
+* Continue work on adding extinct/extant species
+* Commence work on adding publication information to database
+** NOTE: Dependant upon SICI and Endote work
+
+===Feb. 23-27===
+* Finish work on adding extinct/extant species information
+* Continue work on adding publication information
+* Commence work on adding Taxon query service to Phenoscape
+
+===Mar.1-5===
+* Continue work on publications
+* Continue work on Taxon query service
+
+===Mar.8-12===
+* Complete work on publications
+* Complete work on Taxon query service
+* Bug fixes
+
+===Mar.15-19===
+* More bug fixes
+* Status check
+
+==Jim==
