@@ -7,7 +7,9 @@ title: Phenoscape web UI
 * Incorporate team feedback on existing interface components
 * Taxon search interface
 ===March 2009===
+* Incorporate publication links into annotation results displays
 * Publication detail page(s)
+
 ===April 2009===
 * "Splashy" search entry page
 ===May 2009===
