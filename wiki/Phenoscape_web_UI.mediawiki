@@ -6,11 +6,11 @@ title: Phenoscape web UI
 ===February 2009===
 * Incorporate team feedback on existing interface components
 * Taxon search interface
-===April 2009===
+===March 2009===
 * Publication detail page(s)
-===May 2009===
+===April 2009===
 * "Splashy" search entry page
-===June 2009===
+===May 2009===
 * Taxonomy-based tree-mapped data perspective
 ===Feature complete - July 1, 2009===
 ===Public release: ASIH meeting, Portland, Oregon - July 22, 2009===
