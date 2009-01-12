@@ -48,7 +48,6 @@ This is a development roadmap for the second production iteration of the Phenosc
 * Commence work on adding Taxon query service to Phenoscape
 
 ===Mar.15-19===
-* Finish work on publications
 * Continue work on Taxon query service
 * Complete work on publications
 
