@@ -5,9 +5,10 @@ title: Database Roadmap
 This is a development roadmap for the second production iteration of the Phenoscape database and web interface, intended for demonstration and testing at the [http://www.dce.k-state.edu/conf/jointmeeting/ ASIH 2009] meeting.
 
 ==Cartik==
+
 ===Jan. 12-16===
 * Work on moving database connection parameters from code to properties file that does not go into SVN.
-* Begin work on new database views and procedures to speed up anatomy and gene queries in Phenoscape
+* Document inherited database query module*
 * Finish documentation of the OBD reasoner on the Wiki
 
 ===Jan. 19-23===
