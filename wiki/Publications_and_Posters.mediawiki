@@ -5,8 +5,8 @@ title: Publications and Posters
 ==Publications==
 
 * Haendel, M.A., Neuhaus, F., Osumi-Sutherland, D.S., Mabee, P.M., Mejino J.L.V., Mungall, C.J., and Smith, B. (2008) [[Media:Caroreprint.pdf|CARO - The Common Anatomy Reference Ontology]]. ''In:'' Albert Burger, Duncan Davidson and Richard Baldock (Editors): ''Anatomy Ontologies for Bioinformatics: Principles and Practice''. ISBN 978-1-84628-884-5.
-* Mabee PM et al (2007a). [[Media:TREE Mabee.pdf|Phenotype ontologies: the bridge between genomics and evolution.]] Trends Ecol Evol <cite>mabee2007a</cite>
-* Mabee PM et al (2007b). [[Media: JEZ Mabee.pdf|Connecting evolutionary morphology to genomics using ontologies: a case study from Cypriniformes including zebrafish.]] J Exp Zoolog B Mol Dev Evol. <cite>mabee2007b</cite>
+* Mabee PM, Ashburner M, Cronk Q, Gkoutos GV, Haendel M, Segerdell E, Mungall C, and Westerfield M. Phenotype ontologies: the bridge between genomics and evolution. Trends Ecol Evol 2007 Jul; 22(7) 345-50. [http://dx.doi.org/10.1016/j.tree.2007.03.013 doi:10.1016/j.tree.2007.03.013]
+* Mabee PM, Arratia G, Coburn M, Haendel M, Hilton EJ, Lundberg JG, Mayden RL, Rios N, and Westerfield M. Connecting evolutionary morphology to genomics using ontologies: a case study from Cypriniformes including zebrafish. J Exp Zoolog B Mol Dev Evol 2007 Jun 28. [http://dx.doi.org/10.1002/jez.b.21181 doi:10.1002/jez.b.21181]
 
 ==Posters & Presentations==
 
