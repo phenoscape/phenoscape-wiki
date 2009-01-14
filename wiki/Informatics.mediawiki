@@ -27,9 +27,15 @@ The software source code is in part being contributed back directly to a variety
 ** [http://obo.svn.sourceforge.net/viewvc/obo/phenex/trunk/ Browse source]
 ** svn co https://obo.svn.sourceforge.net/svnroot/obo/phenex/trunk
 * Data loader:
+** [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/PhenoscapeDataLoader/ Browse]
+** svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeDataLoader
 * Data services and middleware:
+** [http://obo.svn.sourceforge.net/viewvc/obo/OBD-WS/trunk/ Browse]
+** svn co https://obo.svn.sourceforge.net/svnroot/obo/OBD-WS/trunk/
 * Web application:
 * Ontology conversion and management:
+** [http://obo.svn.sourceforge.net/viewvc/obo/OBDAPI/trunk/ Browse]
+** svn co https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk/
 * Other scripts and small tools:
 
 ==Affiliated projects==
