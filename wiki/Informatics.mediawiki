@@ -2,9 +2,9 @@
 title: Informatics
 ---
 
-This page provides a broad overview of our informatics activities.  Phenoscape supports open development processes and collaboration.  All source code we create is available from open source repositories such as Sourceforge, and we work with existing open-source projects whenever possible.  Development plans can be found at our [[software roadmap]]. 
+This page provides a broad overview of our informatics activities.  Phenoscape supports open development processes and collaboration.  All source code we create is available from open source repositories such as Sourceforge, and we work with existing open-source projects whenever possible.  Development plans can be found at our [[software roadmap]].
 
-One of the chief objectives of the Phenoscape project is to present a centralized repository to store annotations entered by ichthyologists. These annotations can be queried from a user interface and used to answer [[Driving_Research_Questions]] and for Advanced [[Phenoscape_use_cases]]. The following tools which are under various stages of development, will serve to realize this objective.
+One of the chief objectives of the Phenoscape project is to present a centralized repository to store annotations entered by ichthyologists. These annotations can be queried from a user interface and used to answer [[Driving Research Questions]] and for advanced [[Phenoscape use cases]]. The following tools which are under various stages of development, will serve to realize this objective.
 
 ==Phenoscape software components==
 
