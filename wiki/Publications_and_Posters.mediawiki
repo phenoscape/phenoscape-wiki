@@ -20,6 +20,6 @@ Peter Midford (2008) [http://www.tdwg.org/fileadmin/2008conference/slides/Midfor
 
 Paula Mabee, Jim Balhoff, Wasila Dahdul, Hilmar Lapp, John Lundberg, Peter Midford, Todd Vision, Monte Westerfield (2008). [[Media:Evolution2008-phenoscape.ppt|Linking evolutionary morphology to genomics using ontologies]]. Poster at the Evolution 2008 Conference, Minneapolis, MN, July 2008.
 
-P, Mabee, J.P. Balhoff, W. Dahdul, H. Lapp, J. Lundberg, P. Midford, T.J. Vision, M. Westerfield (2007) [[Media:Biocurator2007-phenoscape.ppt|Linking Evolution to Genomics Using Phenotype Ontologies]]. Poster at the [http://tesuque.stanford.edu/biocurator.org/Mtg2007/ 2nd Int. BioCurator Meeting], San Jose, California, Oct 2007.
+Paula Mabee, J.P. Balhoff, W. Dahdul, H. Lapp, J. Lundberg, P. Midford, T.J. Vision, M. Westerfield (2007) [[Media:Biocurator2007-phenoscape.ppt|Linking Evolution to Genomics Using Phenotype Ontologies]]. Poster at the [http://tesuque.stanford.edu/biocurator.org/Mtg2007/ 2nd Int. BioCurator Meeting], San Jose, California, Oct 2007.
 
 [[Category:Community]]
