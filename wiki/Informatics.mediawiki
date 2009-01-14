@@ -35,9 +35,9 @@ The software source code is in part being contributed back directly to a variety
 * Web application:
 ** [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/PhenoscapeWeb/  Browse source]
 ** svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeWeb
-* Ontology conversion and management:
-** [http://obo.svn.sourceforge.net/viewvc/obo/OBDAPI/trunk/ Browse source]
-** svn co https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk
+* Ontology conversion and management (e.g., TTOUpdate):
+** [http://obo.svn.sourceforge.net/viewvc/phenoscape/trunk/tools/TTOUpdate Browse source]
+** svn co https://obo.svn.sourceforge.net/svnroot/phenoscape/trunk/tools/TTOUpdate
 * Other scripts and small tools:
 
 ==Affiliated projects==
