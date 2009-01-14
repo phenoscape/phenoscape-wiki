@@ -10,6 +10,12 @@ title: Publications and Posters
 
 ==Posters & Presentations==
 
+Paula Mabee (2008) “Phenoscape: Bridging systematics and genetics with ontologies”.  Panel presentation at “Establishing Fish Collections and Other Biodiversity Research Resources in Africa Countries” as part of “International Workshop Enhancing Freshwater Fish Biodiversity Research in Africa”, Grahamstown, South Africa, Nov. 18, 2008.  
+
+Paula Mabee, Jim Balhoff, Wasila Dahdul, Cartik Kothari, Hilmar Lapp, John Lundberg, Peter Midford, Todd Vision, Monte Westerfield (2008) “Phenoscape: Morphology linked to genes using ontologies” Poster presentation at: [http://www.museum.tulane.edu/ctolafrica/ International Workshop Enhancing Freshwater Fish Biodiversity Research in Africa] Grahamstown, South Africa, Nov. 17, 2008.  
+
+Paula Mabee (2008). "Introduction to Phenoscape, annotation and ontologies". Presentation at AmphibAnat workshop, St. Louis, MO, Nov. 7, 2008
+
 Peter Midford (2008) [http://www.tdwg.org/fileadmin/2008conference/slides/Midford_06_02_TaxonomicOntologies.ppt Taxonomic ontologies: Bridging phylogenetic and taxonomic history.] Presentation at the 2008 TDWG Conference, Fremantle, Western Australia, October 2008.
 
 Paula Mabee, Jim Balhoff, Wasila Dahdul, Hilmar Lapp, John Lundberg, Peter Midford, Todd Vision, Monte Westerfield (2008). [[Media:Evolution2008-phenoscape.ppt|Linking evolutionary morphology to genomics using ontologies]]. Poster at the Evolution 2008 Conference, Minneapolis, MN, July 2008.
