@@ -24,7 +24,7 @@ The [[Phenoscape web UI|Phenoscape web application]] will allow scientists to br
 
 The software source code is in part being contributed back directly to a variety of existing projects we build upon, and in part deposited on our [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/ SourceForge.net svn repository].
 * Phenex:
-** [http://obo.svn.sourceforge.net/viewvc/obo/phenex/trunk/ Browse]
+** [http://obo.svn.sourceforge.net/viewvc/obo/phenex/trunk/ Browse source]
 ** svn co https://obo.svn.sourceforge.net/svnroot/obo/phenex/trunk
 * Data loader:
 * Data services and middleware:
