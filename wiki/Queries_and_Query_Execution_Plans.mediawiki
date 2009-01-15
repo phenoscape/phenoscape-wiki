@@ -110,8 +110,7 @@ inheres_link.object_id = anatomy_node.node_id;
 
 ====Execution Details====
 * Rows returned:
-* Time for first run: 349 seconds
-* Time for subsequent run: 21 seconds
+* Time:
 
 ===Using LIKE Wildcard operator and a restriction on Slims returned===
 This query will return all the PHENOTYPES that inhere in a ANATOMICAL ENTITY and the subclasses of the ANATOMICAL ENTITY. In addition, all the QUALITIES that are related to each PHENOTYPE are returned. Only those QUALITIES which are either ATTRIBUTE_SLIMS or VALUE_SLIMS are returned. Finally, all the TAXA that exhibit the PHENOTYPES are returned.
