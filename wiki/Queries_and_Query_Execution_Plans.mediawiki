@@ -8,7 +8,7 @@ This section describes the queries that have been (or are to be) implemented for
 * Database name: obdphenoscape
 * Database server: Darwin
 * Last updated: Jan 02, 2009
-* Size: Approx. 600 MB
+* Size: ~ 600 MB
 
 ==Anatomical Entity Services==
 
