@@ -6,6 +6,12 @@ This section describes the queries that have been (or are to be) implemented for
 
 ==Queries for Phenoscape Data Services==
 
+===Database details===
+* Database name: obdphenoscape
+* Database server: Darwin
+* Last updated: Jan 02, 2009
+* Size: Approx. 600 MB
+
 ===Anatomical Entity Services===
 This query will return all the PHENOTYPES that inhere in a ANATOMICAL ENTITY* and the subclasses of the ANATOMICAL ENTITY*. In addition, all the QUALITIES that are related to each PHENOTYPE are returned. The SUBSET SLIMS of each QUALITY are returned. Finally, all the TAXA that exhibit the PHENOTYPES are returned.
 
@@ -53,7 +59,6 @@ inheres_link.object_id = anatomy_node.node_id;
 ====Query Execution Plan====
 
 <javascript>
-
 "Unique  (cost=30576.32..30576.35 rows=1 width=243) (actual time=746.269..754.034 rows=2495 loops=1)"
 "  ->  Sort  (cost=30576.32..30576.33 rows=1 width=243) (actual time=746.265..747.451 rows=4730 loops=1)"
 "        Sort Key: taxon_node.uid, exhibits_pred_node.uid, phenotype_node.uid, inheres_pred_node.uid, anatomy_node.uid, is_a_pred_node.uid, quality_node.uid, subset_pred_node.uid, slim_node.uid"
@@ -101,10 +106,116 @@ inheres_link.object_id = anatomy_node.node_id;
 "              ->  Index Scan using node_pkey on node exhibits_pred_node  (cost=0.00..3.04 rows=1 width=31) (actual time=0.005..0.005 rows=1 loops=5084)"
 "                    Index Cond: ("outer".predicate_id = exhibits_pred_node.node_id)"
 "                    Filter: ((uid)::text ~~ '%exhibits%'::text)"
-"Total runtime: 755.548 ms"
-
 </javascript>
 
 ====Execution Time====
 * First run: 349 seconds
 * Subsequent run: 21 seconds
+
+===Anatomical Entity Services (with a restriction on Slims returned)===
+This query will return all the PHENOTYPES that inhere in a ANATOMICAL ENTITY and the subclasses of the ANATOMICAL ENTITY. In addition, all the QUALITIES that are related to each PHENOTYPE are returned. Only those QUALITIES which are either ATTRIBUTE_SLIMS or VALUE_SLIMS are returned. Finally, all the TAXA that exhibit the PHENOTYPES are returned.
+
+====Query====
+<javascript>
+select distinct
+taxon_node.uid as taxon, 
+exhibits_pred_node.uid as exhibits,
+phenotype_node.uid as phenotype, 
+inheres_pred_node.uid as inheres, 
+anatomy_node.uid as anatomy,
+is_a_pred_node.uid as isA, 
+quality_node.uid as quality, 
+subset_pred_node.uid as subset, 
+slim_node.uid as slim 
+from 
+link as inheres_link, link as is_a_link, link as subset_link, 
+link as exhibits_link,
+node as phenotype_node, node as anatomy_node, node as inheres_pred_node, 
+node as is_a_pred_node, node as quality_node,
+node as slim_node, node as subset_pred_node,
+node as taxon_node, node as exhibits_pred_node
+where
+exhibits_pred_node.uid like '%exhibits%' and
+subset_pred_node.uid like '%inSubset%' and
+is_a_pred_node.uid like '%is_a%' and
+inheres_pred_node.uid like '%inheres_in' and
+anatomy_node.uid like '%TAO:0000108%' and
+slim_node.uid in ('attribute_slim', 'value_slim') and
+exhibits_link.node_id = taxon_node.node_id and
+exhibits_link.predicate_id = exhibits_pred_node.node_id and
+exhibits_link.object_id = phenotype_node.node_id and
+subset_link.node_id = quality_node.node_id and
+subset_link.predicate_id = subset_pred_node.node_id and
+subset_link.object_id = slim_node.node_id and
+is_a_link.node_id = phenotype_node.node_id and
+is_a_link.predicate_id = is_a_pred_node.node_id and
+is_a_link.object_id = quality_node.node_id and
+inheres_link.node_id = phenotype_node.node_id and
+inheres_link.predicate_id = inheres_pred_node.node_id and
+inheres_link.object_id = anatomy_node.node_id;
+</javascript>
+
+====Query Execution Plan====
+<javascript>
+"Unique  (cost=27033.30..27033.32 rows=1 width=243) (actual time=95708.710..95715.120 rows=2070 loops=1)"
+"  ->  Sort  (cost=27033.30..27033.30 rows=1 width=243) (actual time=95708.707..95709.717 rows=3887 loops=1)"
+"        Sort Key: taxon_node.uid, exhibits_pred_node.uid, phenotype_node.uid, inheres_pred_node.uid, anatomy_node.uid, is_a_pred_node.uid, quality_node.uid, subset_pred_node.uid, slim_node.uid"
+"        ->  Nested Loop  (cost=9416.69..27033.29 rows=1 width=243) (actual time=70172.832..95404.139 rows=3887 loops=1)"
+"              ->  Nested Loop  (cost=9416.69..27030.24 rows=1 width=220) (actual time=227.929..79578.381 rows=2919406 loops=1)"
+"                    ->  Nested Loop  (cost=9416.69..27027.19 rows=1 width=197) (actual time=227.919..62509.808 rows=2919406 loops=1)"
+"                          ->  Nested Loop  (cost=9416.69..27024.14 rows=1 width=174) (actual time=227.903..38352.678 rows=4115922 loops=1)"
+"                                ->  Nested Loop  (cost=9416.69..27021.09 rows=1 width=151) (actual time=227.885..12271.892 rows=4115922 loops=1)"
+"                                      ->  Hash Join  (cost=9414.52..26907.04 rows=1 width=163) (actual time=227.752..2896.269 rows=114658 loops=1)"
+"                                            Hash Cond: ("outer".object_id = "inner".node_id)"
+"                                            ->  Nested Loop  (cost=4261.24..21750.61 rows=630 width=109) (actual time=86.733..2633.493 rows=252348 loops=1)"
+"                                                  ->  Nested Loop  (cost=4261.24..19830.87 rows=630 width=78) (actual time=86.711..1176.546 rows=252348 loops=1)"
+"                                                        ->  Nested Loop  (cost=234.53..15791.56 rows=315 width=47) (actual time=58.083..587.038 rows=252348 loops=1)"
+"                                                              ->  Nested Loop  (cost=234.53..15056.36 rows=7 width=35) (actual time=58.071..136.526 rows=6904 loops=1)"
+"                                                                    ->  Seq Scan on node inheres_pred_node  (cost=0.00..4026.71 rows=1 width=31) (actual time=56.524..124.720 rows=1 loops=1)"
+"                                                                          Filter: ((uid)::text ~~ '%inheres_in'::text)"
+"                                                                    ->  Bitmap Heap Scan on link inheres_link  (cost=234.53..10563.47 rows=37294 width=12) (actual time=1.531..6.138 rows=6904 loops=1)"
+"                                                                          Recheck Cond: (inheres_link.predicate_id = "outer".node_id)"
+"                                                                          ->  Bitmap Index Scan on link_predicate_object_indx  (cost=0.00..234.53 rows=37294 width=0) (actual time=1.379..1.379 rows=6904 loops=1)"
+"                                                                                Index Cond: (inheres_link.predicate_id = "outer".node_id)"
+"                                                              ->  Index Scan using link_node_indx on link is_a_link  (cost=0.00..104.68 rows=28 width=12) (actual time=0.005..0.037 rows=37 loops=6904)"
+"                                                                    Index Cond: ("outer".node_id = is_a_link.node_id)"
+"                                                        ->  Materialize  (cost=4026.71..4026.73 rows=2 width=31) (actual time=0.000..0.001 rows=1 loops=252348)"
+"                                                              ->  Seq Scan on node exhibits_pred_node  (cost=0.00..4026.71 rows=2 width=31) (actual time=28.608..132.502 rows=1 loops=1)"
+"                                                                    Filter: ((uid)::text ~~ '%exhibits%'::text)"
+"                                                  ->  Index Scan using node_pkey on node phenotype_node  (cost=0.00..3.03 rows=1 width=31) (actual time=0.004..0.004 rows=1 loops=252348)"
+"                                                        Index Cond: ("outer".node_id = phenotype_node.node_id)"
+"                                            ->  Hash  (cost=5153.24..5153.24 rows=14 width=66) (actual time=37.026..37.026 rows=4413 loops=1)"
+"                                                  ->  Nested Loop  (cost=4.01..5153.24 rows=14 width=66) (actual time=0.067..32.679 rows=4413 loops=1)"
+"                                                        ->  Nested Loop  (cost=4.01..5110.58 rows=14 width=35) (actual time=0.058..6.879 rows=4413 loops=1)"
+"                                                              ->  Bitmap Heap Scan on node slim_node  (cost=4.01..12.03 rows=2 width=31) (actual time=0.044..0.046 rows=2 loops=1)"
+"                                                                    Recheck Cond: (((uid)::text = 'attribute_slim'::text) OR ((uid)::text = 'value_slim'::text))"
+"                                                                    ->  BitmapOr  (cost=4.01..4.01 rows=2 width=0) (actual time=0.040..0.040 rows=0 loops=1)"
+"                                                                          ->  Bitmap Index Scan on node_uid_key  (cost=0.00..2.00 rows=1 width=0) (actual time=0.026..0.026 rows=1 loops=1)"
+"                                                                                Index Cond: ((uid)::text = 'attribute_slim'::text)"
+"                                                                          ->  Bitmap Index Scan on node_uid_key  (cost=0.00..2.00 rows=1 width=0) (actual time=0.013..0.013 rows=1 loops=1)"
+"                                                                                Index Cond: ((uid)::text = 'value_slim'::text)"
+"                                                              ->  Index Scan using link_object_indx on link subset_link  (cost=0.00..2537.96 rows=905 width=12) (actual time=0.013..1.901 rows=2206 loops=2)"
+"                                                                    Index Cond: (subset_link.object_id = "outer".node_id)"
+"                                                        ->  Index Scan using node_pkey on node quality_node  (cost=0.00..3.03 rows=1 width=31) (actual time=0.004..0.004 rows=1 loops=4413)"
+"                                                              Index Cond: ("outer".node_id = quality_node.node_id)"
+"                                      ->  Bitmap Heap Scan on link exhibits_link  (cost=2.18..113.61 rows=29 width=12) (actual time=0.021..0.052 rows=36 loops=114658)"
+"                                            Recheck Cond: ((exhibits_link.predicate_id = "outer".node_id) AND (exhibits_link.object_id = "outer".node_id))"
+"                                            ->  Bitmap Index Scan on link_predicate_object_indx  (cost=0.00..2.18 rows=29 width=0) (actual time=0.016..0.016 rows=36 loops=114658)"
+"                                                  Index Cond: ((exhibits_link.predicate_id = "outer".node_id) AND (exhibits_link.object_id = "outer".node_id))"
+"                                ->  Index Scan using node_pkey on node subset_pred_node  (cost=0.00..3.04 rows=1 width=31) (actual time=0.005..0.005 rows=1 loops=4115922)"
+"                                      Index Cond: ("outer".predicate_id = subset_pred_node.node_id)"
+"                                      Filter: ((uid)::text ~~ '%inSubset%'::text)"
+"                          ->  Index Scan using node_pkey on node is_a_pred_node  (cost=0.00..3.04 rows=1 width=31) (actual time=0.004..0.005 rows=1 loops=4115922)"
+"                                Index Cond: ("outer".predicate_id = is_a_pred_node.node_id)"
+"                                Filter: ((uid)::text ~~ '%is_a%'::text)"
+"                    ->  Index Scan using node_pkey on node taxon_node  (cost=0.00..3.03 rows=1 width=31) (actual time=0.004..0.004 rows=1 loops=2919406)"
+"                          Index Cond: ("outer".node_id = taxon_node.node_id)"
+"              ->  Index Scan using node_pkey on node anatomy_node  (cost=0.00..3.04 rows=1 width=31) (actual time=0.005..0.005 rows=0 loops=2919406)"
+"                    Index Cond: ("outer".object_id = anatomy_node.node_id)"
+"                    Filter: ((uid)::text ~~ '%TAO:0000108%'::text)"
+</javascript>
+
+====Execution Details====
+* Rows returned: 2070
+* First run: 116 seconds
+* Sunsequent run: 1.13 seconds
