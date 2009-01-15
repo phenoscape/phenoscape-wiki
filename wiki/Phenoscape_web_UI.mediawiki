@@ -12,6 +12,9 @@ title: Phenoscape web UI
 ** Mockup "live" interface - request group feedback
 ** Design data service to be implemented
 ** Implement using live data service
+* Interface demo and feedback session - DECAP meeting, Feb. 27, 2009
+** Present screenshots and mockups
+** Possible live demo depending on data service performance progress
 
 ===March 2009===
 * Incorporate publication links into annotation results displays
