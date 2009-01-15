@@ -35,7 +35,6 @@ subset_pred_node.uid LIKE '%inSubset%' AND
 is_a_pred_node.uid LIKE '%is_a%' AND
 inheres_pred_node.uid LIKE '%inheres_in' AND
 anatomy_node.uid LIKE '%TAO:0000108%' AND
---slim_node.uid IN ('attribute_slim', 'value_slim') AND
 exhibits_link.node_id = taxon_node.node_id AND
 exhibits_link.predicate_id = exhibits_pred_node.node_id AND
 exhibits_link.object_id = phenotype_node.node_id AND
