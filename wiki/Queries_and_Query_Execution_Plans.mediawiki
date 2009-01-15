@@ -316,8 +316,8 @@ inheres_link.object_id = anatomy_node.node_id;
 </javascript>
 
 ====Execution details====
-Rows returned: 2495
-Time for first run: 22 seconds
-Time for subsequent runs: 5 ~ 15 seconds
+* Rows returned: 2495
+* Time for first run: 22 seconds
+* Time for subsequent runs: 5 ~ 15 seconds
 
 ===With EQUALS (=) operator and restriction on SLIMS===
