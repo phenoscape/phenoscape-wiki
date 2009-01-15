@@ -9,7 +9,7 @@ This section describes the queries that have been (or are to be) implemented for
 ===Query for Anatomical Entity Services===
 This query will return all the PHENOTYPES that inhere in a ANATOMICAL ENTITY* and the subclasses of the ANATOMICAL ENTITY*. In addition, all the QUALITIES that are related to each PHENOTYPE are returned. The SUBSET SLIMS of each QUALITY are returned. Finally, all the TAXA that exhibit the PHENOTYPES are returned.
 
-*Search Term
+*Search Term (The search term in this example is TAO:0000108, which is, you guessed it, a fin!)
 
 <javascript>
 SELECT DISTINCT
