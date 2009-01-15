@@ -2,7 +2,7 @@
 title: Queries and Query Execution Plans
 ---
 
-This section describes the queries that have been (or are to be) implemented for the Phenoscape data services, in addition to the execution details of each queries on the PostgreSQL database on Darwin. 
+This section describes the queries that have been (or are to be) implemented for the Phenoscape data services, in addition to the execution details of each queries on the PostgreSQL database on Darwin.
 
 ==Queries for Phenoscape Data Services==
 
@@ -105,6 +105,6 @@ inheres_link.object_id = anatomy_node.node_id;
 
 </javascript>
 
-==Execution Time==
+====Execution Time====
 * First run: 349 seconds
 * Subsequent run: 21 seconds
