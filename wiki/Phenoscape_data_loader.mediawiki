@@ -24,5 +24,8 @@ The data loader does not load incomplete annotations from the NeXML files into t
 For code specific details
 Specific details of OBD related classes and interfaces as documented by Cartik Kothari. These will be updated very often and are meant to be used as an addendum to the [http://oboedit.org/?page=javadocs The OBOEdit Javadoc]
 
+==[[Queries and Query Execution Plans]]==
+The details of the queries that retrieve data for the Phenoscape data services are detailed here.
+
 [[Category:Informatics]]
 [[Category:Database]]
