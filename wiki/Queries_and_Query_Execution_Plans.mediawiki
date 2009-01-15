@@ -4,15 +4,15 @@ title: Queries and Query Execution Plans
 
 This section describes the queries that have been (or are to be) implemented for the Phenoscape data services, in addition to the execution details of each queries on the PostgreSQL database on Darwin.
 
-==Queries for Phenoscape Data Services==
-
-===Database details===
+==Database details==
 * Database name: obdphenoscape
 * Database server: Darwin
 * Last updated: Jan 02, 2009
 * Size: Approx. 600 MB
 
-===Anatomical Entity Services===
+==Anatomical Entity Services==
+
+===Using LIKE Wildcard Operator
 This query will return all the PHENOTYPES that inhere in a ANATOMICAL ENTITY* and the subclasses of the ANATOMICAL ENTITY*. In addition, all the QUALITIES that are related to each PHENOTYPE are returned. The SUBSET SLIMS of each QUALITY are returned. Finally, all the TAXA that exhibit the PHENOTYPES are returned.
 
 *Search Term (The search term in this example is TAO:0000108, which is, you guessed it, a fin!)
@@ -108,11 +108,12 @@ inheres_link.object_id = anatomy_node.node_id;
 "                    Filter: ((uid)::text ~~ '%exhibits%'::text)"
 </javascript>
 
-====Execution Time====
-* First run: 349 seconds
-* Subsequent run: 21 seconds
+====Execution Details====
+* Rows returned: 
+* Time for first run: 349 seconds
+* Time for subsequent run: 21 seconds
 
-===Anatomical Entity Services (with a restriction on Slims returned)===
+===Using LIKE Wildcard operator and a restriction on Slims returned===
 This query will return all the PHENOTYPES that inhere in a ANATOMICAL ENTITY and the subclasses of the ANATOMICAL ENTITY. In addition, all the QUALITIES that are related to each PHENOTYPE are returned. Only those QUALITIES which are either ATTRIBUTE_SLIMS or VALUE_SLIMS are returned. Finally, all the TAXA that exhibit the PHENOTYPES are returned.
 
 ====Query====
@@ -217,5 +218,106 @@ inheres_link.object_id = anatomy_node.node_id;
 
 ====Execution Details====
 * Rows returned: 2070
-* First run: 116 seconds
-* Sunsequent run: 1.13 seconds
+* Time for first run: 116 seconds
+* Time for subsequent run: 1.13 seconds
+
+===Using EQUALS (=) Operator===
+The result of this query is the same as for the previous two queries except the wildcard search is replaced by exact match requirements on the search parameters viz. relation and concept names (IDs, to be specific). This enables leverage of the indexes set up for the ''Link'' and ''Node'' tables in the ''OBDPhenoscape'' database
+
+====Query====
+<javascript>
+SELECT DISTINCT
+taxon_node.uid AS taxon, 
+exhibits_pred_node.uid AS exhibits,
+phenotype_node.uid AS phenotype, 
+inheres_pred_node.uid AS inheres, 
+anatomy_node.uid AS anatomy,
+is_a_pred_node.uid AS isA, 
+quality_node.uid AS quality, 
+subset_pred_node.uid AS subset, 
+slim_node.uid AS slim 
+FROM 
+link AS inheres_link, link AS is_a_link, link AS subset_link, 
+link AS exhibits_link,
+node AS phenotype_node, node AS anatomy_node, node AS inheres_pred_node, 
+node AS is_a_pred_node, node AS quality_node,
+node AS slim_node, node AS subset_pred_node,
+node AS taxon_node, node AS exhibits_pred_node
+WHERE
+exhibits_pred_node.uid = 'PHENOSCAPE:exhibits' AND
+subset_pred_node.uid = 'oboInOwl:inSubset' AND
+is_a_pred_node.uid = 'OBO_REL:is_a' AND
+inheres_pred_node.uid = 'OBO_REL:inheres_in' AND
+anatomy_node.uid = 'TAO:0000108' AND
+exhibits_link.node_id = taxon_node.node_id AND
+exhibits_link.predicate_id = exhibits_pred_node.node_id AND
+exhibits_link.object_id = phenotype_node.node_id AND
+subset_link.node_id = quality_node.node_id AND
+subset_link.predicate_id = subset_pred_node.node_id AND
+subset_link.object_id = slim_node.node_id AND
+is_a_link.node_id = phenotype_node.node_id AND
+is_a_link.predicate_id = is_a_pred_node.node_id AND
+is_a_link.object_id = quality_node.node_id AND
+inheres_link.node_id = phenotype_node.node_id AND
+inheres_link.predicate_id = inheres_pred_node.node_id AND
+inheres_link.object_id = anatomy_node.node_id;
+</javascript>
+
+====Query Execution Plan====
+<javascript>
+"Unique  (cost=14937.55..14937.58 rows=1 width=243) (actual time=128953.998..128961.769 rows=2495 loops=1)"
+"  ->  Sort  (cost=14937.55..14937.55 rows=1 width=243) (actual time=128953.994..128955.175 rows=4730 loops=1)"
+"        Sort Key: taxon_node.uid, exhibits_pred_node.uid, phenotype_node.uid, inheres_pred_node.uid, anatomy_node.uid, is_a_pred_node.uid, quality_node.uid, subset_pred_node.uid, slim_node.uid"
+"        ->  Nested Loop  (cost=234.53..14937.54 rows=1 width=243) (actual time=71555.798..128542.683 rows=4730 loops=1)"
+"              ->  Nested Loop  (cost=234.53..14934.49 rows=1 width=220) (actual time=71555.785..128444.355 rows=17935 loops=1)"
+"                    ->  Nested Loop  (cost=234.53..14931.44 rows=1 width=197) (actual time=127.978..128127.758 rows=61019 loops=1)"
+"                          ->  Nested Loop  (cost=234.53..14928.39 rows=1 width=182) (actual time=127.967..127766.052 rows=61019 loops=1)"
+"                                ->  Nested Loop  (cost=234.53..14925.35 rows=1 width=159) (actual time=127.958..127409.550 rows=61019 loops=1)"
+"                                      ->  Nested Loop  (cost=234.53..14922.30 rows=1 width=136) (actual time=127.951..127049.206 rows=61019 loops=1)"
+"                                            Join Filter: ("inner".object_id = "outer".node_id)"
+"                                            ->  Index Scan using node_uid_key on node anatomy_node  (cost=0.00..4.64 rows=1 width=31) (actual time=0.040..0.042 rows=1 loops=1)"
+"                                                  Index Cond: ((uid)::text = 'TAO:0000108'::text)"
+"                                            ->  Nested Loop  (cost=234.53..14907.75 rows=793 width=113) (actual time=113.185..107822.482 rows=58674691 loops=1)"
+"                                                  ->  Nested Loop  (cost=234.53..11966.94 rows=28 width=101) (actual time=113.178..15223.264 rows=1567627 loops=1)"
+"                                                        ->  Nested Loop  (cost=234.53..11881.62 rows=28 width=82) (actual time=113.163..6085.954 rows=1567627 loops=1)"
+"                                                              ->  Nested Loop  (cost=234.53..11776.59 rows=1 width=70) (actual time=113.150..2590.279 rows=171514 loops=1)"
+"                                                                    Join Filter: ("inner".predicate_id = "outer".node_id)"
+"                                                                    ->  Index Scan using node_uid_key on node is_a_pred_node  (cost=0.00..4.64 rows=1 width=31) (actual time=0.017..0.018 rows=1 loops=1)"
+"                                                                          Index Cond: ((uid)::text = 'OBO_REL:is_a'::text)"
+"                                                                    ->  Nested Loop  (cost=234.53..11769.48 rows=198 width=47) (actual time=113.117..2106.357 rows=1216866 loops=1)"
+"                                                                          ->  Nested Loop  (cost=234.53..11034.28 rows=7 width=35) (actual time=10.717..85.954 rows=52145 loops=1)"
+"                                                                                ->  Index Scan using node_uid_key on node exhibits_pred_node  (cost=0.00..4.64 rows=1 width=31) (actual time=0.020..0.021 rows=1 loops=1)"
+"                                                                                      Index Cond: ((uid)::text = 'PHENOSCAPE:exhibits'::text)"
+"                                                                                ->  Bitmap Heap Scan on link exhibits_link  (cost=234.53..10563.47 rows=37294 width=12) (actual time=10.688..45.307 rows=52145 loops=1)"
+"                                                                                      Recheck Cond: (exhibits_link.predicate_id = "outer".node_id)"
+"                                                                                      ->  Bitmap Index Scan on link_predicate_object_indx  (cost=0.00..234.53 rows=37294 width=0) (actual time=10.112..10.112 rows=52145 loops=1)"
+"                                                                                            Index Cond: (exhibits_link.predicate_id = "outer".node_id)"
+"                                                                          ->  Index Scan using link_node_indx on link is_a_link  (cost=0.00..104.68 rows=28 width=12) (actual time=0.004..0.022 rows=23 loops=52145)"
+"                                                                                Index Cond: (is_a_link.node_id = "outer".object_id)"
+"                                                              ->  Index Scan using link_node_indx on link subset_link  (cost=0.00..104.68 rows=28 width=12) (actual time=0.004..0.012 rows=9 loops=171514)"
+"                                                                    Index Cond: ("outer".object_id = subset_link.node_id)"
+"                                                        ->  Index Scan using node_pkey on node quality_node  (cost=0.00..3.03 rows=1 width=31) (actual time=0.004..0.004 rows=1 loops=1567627)"
+"                                                              Index Cond: ("outer".node_id = quality_node.node_id)"
+"                                                  ->  Index Scan using link_node_indx on link inheres_link  (cost=0.00..104.68 rows=28 width=12) (actual time=0.004..0.031 rows=37 loops=1567627)"
+"                                                        Index Cond: (inheres_link.node_id = "outer".node_id)"
+"                                      ->  Index Scan using node_pkey on node slim_node  (cost=0.00..3.03 rows=1 width=31) (actual time=0.004..0.004 rows=1 loops=61019)"
+"                                            Index Cond: ("outer".object_id = slim_node.node_id)"
+"                                ->  Index Scan using node_pkey on node taxon_node  (cost=0.00..3.03 rows=1 width=31) (actual time=0.004..0.004 rows=1 loops=61019)"
+"                                      Index Cond: ("outer".node_id = taxon_node.node_id)"
+"                          ->  Index Scan using node_pkey on node phenotype_node  (cost=0.00..3.03 rows=1 width=31) (actual time=0.004..0.004 rows=1 loops=61019)"
+"                                Index Cond: ("outer".object_id = phenotype_node.node_id)"
+"                    ->  Index Scan using node_pkey on node inheres_pred_node  (cost=0.00..3.04 rows=1 width=31) (actual time=0.004..0.004 rows=0 loops=61019)"
+"                          Index Cond: ("outer".predicate_id = inheres_pred_node.node_id)"
+"                          Filter: ((uid)::text = 'OBO_REL:inheres_in'::text)"
+"              ->  Index Scan using node_pkey on node subset_pred_node  (cost=0.00..3.04 rows=1 width=31) (actual time=0.004..0.004 rows=0 loops=17935)"
+"                    Index Cond: ("outer".predicate_id = subset_pred_node.node_id)"
+"                    Filter: ((uid)::text = 'oboInOwl:inSubset'::text)"
+
+</javascript>
+
+====Execution details====
+Rows returned: 2495
+Time for first run: 22 seconds
+Time for subsequent runs: 5 ~ 15 seconds
+
+===With EQUALS (=) operator and restriction on SLIMS===
