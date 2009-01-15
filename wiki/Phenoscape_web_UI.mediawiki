@@ -4,7 +4,8 @@ title: Phenoscape web UI
 
 ==Development Roadmap==
 ===February 2009===
-* Incorporate team feedback on existing interface components
+* Incorporate 1/5/09 team feedback on existing interface components
+** Gene search results - reorganize according to [[Gene_search_page_mockup.jpg|sketch]]
 * Taxon search interface
 ===March 2009===
 * Incorporate publication links into annotation results displays
