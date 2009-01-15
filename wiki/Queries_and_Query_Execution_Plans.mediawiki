@@ -105,5 +105,5 @@ inheres_link.object_id = anatomy_node.node_id;
 </javascript>
 
 ==Execution Time==
-* First run: 
-* Subsequent run:
+* First run: 349 seconds
+* Subsequent run: 21 seconds
