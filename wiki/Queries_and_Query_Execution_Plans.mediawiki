@@ -218,8 +218,7 @@ inheres_link.object_id = anatomy_node.node_id;
 
 ====Execution Details====
 * Rows returned: 2070
-* Time for first run: 116 seconds
-* Time for subsequent run: 1.13 seconds
+* Time:
 
 ===Using EQUALS (=) Operator===
 The result of this query is the same as for the previous two queries except the wildcard search is replaced by exact match requirements on the search parameters viz. relation and concept names (IDs, to be specific). This enables leverage of the indexes set up for the ''Link'' and ''Node'' tables in the ''OBDPhenoscape'' database
