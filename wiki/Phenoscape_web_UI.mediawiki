@@ -28,4 +28,4 @@ title: Phenoscape web UI
 * Taxonomy-based tree-mapped data perspective
 ===Release candidate - June 2009===
 
-===Public release: ASIH meeting, Portland, Oregon - July 22, 2009===
+===Public launch: ASIH meeting, Portland, Oregon - July 22, 2009===
