@@ -9,6 +9,9 @@ title: Phenoscape web UI
 ** Gene search results - reorganize according to [[:Image:Gene_search_page_mockup.jpg|sketch]]
 ** Taxonomic phenotype results page - add Order column for taxonomic grouping
 * Taxon search interface
+** Mockup "live" interface - request group feedback
+** Design data service to be implemented
+** Implement using live data service
 
 ===March 2009===
 * Incorporate publication links into annotation results displays
