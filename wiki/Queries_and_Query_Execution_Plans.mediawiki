@@ -367,5 +367,5 @@ inheres_link.object_id = anatomy_node.node_id;
 </javascript>
 
 ====Execution Details====
-Rows returned:
-Time:
+* Rows returned:
+* Time:
