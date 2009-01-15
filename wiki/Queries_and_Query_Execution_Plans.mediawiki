@@ -103,3 +103,7 @@ inheres_link.object_id = anatomy_node.node_id;
 "Total runtime: 755.548 ms"
 
 </javascript>
+
+==Execution Time==
+* First run: 
+* Subsequent run:
