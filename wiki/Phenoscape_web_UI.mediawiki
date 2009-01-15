@@ -7,6 +7,7 @@ title: Phenoscape web UI
 * Incorporate 1/5/09 team feedback on existing interface components
 ** Anatomy term search results - reorganize according to [[:Image:Phenotype_search_page_mockup.jpg|sketch]]
 ** Gene search results - reorganize according to [[:Image:Gene_search_page_mockup.jpg|sketch]]
+** Taxonomic phenotype results page - add Order column for taxonomic grouping
 * Taxon search interface
 
 ===March 2009===
