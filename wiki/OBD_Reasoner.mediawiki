@@ -8,7 +8,7 @@ The OBD reasoner uses definitions of transitive relations, relation hierarchies,
 
 When describing rules below, we use the following notations:
 
-* A, B, C: classes (as subjects or objects)
+* A, B, C: classes (as subjects or objects). Note that relationship concepts can also appear as subject or object in an assertion. 
 * a, b, c: individuals (as subjects or objects)
 * ''R'': relationship (predicate)
 * ''R''(A, B): A ''R'' B, for example ''is_a''(A, B) is equivalent to A ''is_a'' B. This is the functional form of assertions.
