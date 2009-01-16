@@ -2,7 +2,7 @@
 title: Synchronization Tool
 ---
 
-The Synchronization Tool is a plug-in for [http://oboedit.org/ OBO-Edit].
+The Synchronization Tool is a plug-in for [http://oboedit.org/ OBO-Edit] which aids in keeping the Teleost Anatomy Ontology and the Zebrafish Anatomy Ontology consistent with each other.
 
 [[Category:Informatics]]
 [[Category:Ontology]]
