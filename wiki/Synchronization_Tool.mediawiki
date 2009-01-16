@@ -24,3 +24,4 @@ Report any bugs and make feature requests using the [http://sourceforge.net/trac
 
 [[Category:Informatics]]
 [[Category:Ontology]]
+[[Category:Curation]]
