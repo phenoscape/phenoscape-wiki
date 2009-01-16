@@ -11,7 +11,8 @@ When describing rules below, we use the following notations:
 * A, B, C: classes (as subjects or objects)
 * a, b, c: individuals (as subjects or objects)
 * ''R'': relationship (predicate)
-* ''R''(A, B): A ''R'' B, for example A ''is_a'' B. This is the functional form.
+* ''R''(A, B): A ''R'' B, for example ''is_a''(A, B) is equivalent to A ''is_a'' B. This is the functional form of assertions.
+* Reification: assertions about assertion. I.e., A, B, ... may also be assertions. For example, the yellow that ''inheres_in'' a particular dorsal fin ''is_a'' yellow, which can we write formally as: ''is_a''(''inheres_in''(yellow, dorsal_fin), yellow).
 
 ==Implemented Relation Properties==
 
