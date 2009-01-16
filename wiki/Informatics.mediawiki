@@ -33,8 +33,12 @@ The software source code is in part being contributed back directly to a variety
 ** [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/PhenoscapeDataLoader/ Browse source]
 ** svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeDataLoader
 * Data services and middleware:
-** [http://obo.svn.sourceforge.net/viewvc/obo/OBD-WS/trunk/ Browse source]
-** svn co https://obo.svn.sourceforge.net/svnroot/obo/OBD-WS/trunk
+** OBD-WS
+*** [http://obo.svn.sourceforge.net/viewvc/obo/OBD-WS/trunk/ Browse source]
+*** svn co https://obo.svn.sourceforge.net/svnroot/obo/OBD-WS/trunk
+** QueryOBD
+*** [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/QueryOBD/ Browse source]
+*** svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/QueryOBD
 * Web application:
 ** [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/PhenoscapeWeb/  Browse source]
 ** svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeWeb
