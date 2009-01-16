@@ -64,7 +64,7 @@ Relation (role) compositions are of the form A R1 B, B R2 C => A (R1|R2) C. For 
 
 ===''is_a'' Relation Reflexivity===
 
-'''Rule:'''<math>\Forall</math>A: A ''is_a'' A
+'''Rule:'''<math>\forall</math>A: A ''is_a'' A
 
 Reflexive relations relate their arguments to themselves. A good example: "A rose ''is_a'' rose." The ''is_a'' relation is reflexive. In the database, every class, instance, or relation (having a corresponding identifier in the ''Node'' table of the database) is inferred by the reasoner to be related to itself through the ''is_a'' relation. Given a class called Siluriformes (with identifier TTO:302), the reasoner adds the TTO:302 ''is_a'' TTO:302 to the database. This is the only reflexive relation that is handled by the reasoner. Other reflexive relations abound in the real world, ''subset_of'' is a good mathematical example from the domain of set theory. Every set is a subset of itself. Such relations are NOT dealt with by the reasoner.
 
