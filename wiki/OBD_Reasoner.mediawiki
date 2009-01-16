@@ -71,9 +71,9 @@ Reflexive relations relate their arguments to themselves. A good example: "A ros
 
 ===Relation Hierarchies===
 
-'''Rule: ''' <math>\forall</math>A, B, ''R1'', ''R2'': ''R1''(A, B) <math>\and</math> ''is_a''(''R1'', ''R2'') <math>\Rightarrow</math> ''R2''(A, B)
+'''Rule: ''' <math>\forall</math>A, B, ''R<sub>1</sub>'', ''R<sub>2</sub>'': ''R<sub>1</sub>''(A, B) <math>\and</math> ''is_a''(''R<sub>1</sub>'', ''R<sub>2</sub>'') <math>\Rightarrow</math> ''R<sub>2</sub>''(A, B)
 
-An example: If A father_of B and father_of is_a parent_of, then A parent_of B
+An example: If A ''father_of'' B and father_of ''is_a'' parent_of, then A ''parent_of'' B
 
 ===Relation Chains===
 
