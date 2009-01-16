@@ -1,0 +1,9 @@
+---
+title: OBD Java API
+---
+
+This page contains documentation of the different query modules of the OBD API, and supplements the [[http://www.berkeleybop.org/obd/docs/index.html OBD JavaDoc]]. Shards and QueryTerms are detailed first. More sections will be added as necessary. The purpose of this section is to primarily serve as a breadcrumb trail for its author (Cartik)
+
+==Shards==
+
+==QueryTerms==
