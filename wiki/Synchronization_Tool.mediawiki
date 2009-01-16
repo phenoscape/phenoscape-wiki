@@ -8,6 +8,9 @@ The Synchronization Tool is a plug-in for [http://oboedit.org/ OBO-Edit] which a
 ==Download & Installation==
 The latest version of the Synchronization Tool plug-in can be obtained from the [http://sourceforge.net/projects/phenoscape/ Phenoscape Sourceforge project site].  The plug-in is packaged as a single "jar" file which works on all systems running OBO-Edit.
 * [http://sourceforge.net/project/showfiles.php?group_id=224046&package_id=306516 Synchronization Tool downloads]
+===Installation===
+If you have not yet installed OBO-Edit, do so.  Move the downloaded Synchronization Tool jar file into the "extensions" folder within your OBO-Edit folder, then relaunch OBO-Edit.  You should now see "Synchronization Tool" within the "Tools" menu.
+===Obtaining Synchronization Tool source code (for developers)===
 
 [[Category:Informatics]]
 [[Category:Ontology]]
