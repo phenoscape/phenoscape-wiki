@@ -78,7 +78,7 @@ An example: If A father_of B and father_of is_a parent_of, then A parent_of B
 
 '''Rule:''' <math>\forall</math>A, B, C: ''inheres_in''(A, B) <math>\and</math> ''part_of''(B, C) <math>\Rightarrow</math> ''inheres_in_part_of''(A, C)
 
-Relation chains are a special case of relation composition. Component relations are accumulated into an assembly relation. Specifically, instances of the relation ''inheres_in_part_of'' are accumulated from instances of the relations of ''inheres_in'' and ''part_of''. IF A inheres_in B and B part_of C, THEN A inheres_in_part_of C. This relation chain is specified by a ''holds_over_chain'' property in the  ''inheres_in_part_of'' stanza of the [http://www.berkeleybop.org/ontologies/obo-all/ro_proposed/ro_proposed.obo Relation Ontology]
+Relation chains are a special case of relation composition. Component relations are accumulated into an assembly relation. Specifically, instances of the relation ''inheres_in_part_of'' are accumulated from instances of the relations of ''inheres_in'' and ''part_of''. IF A inheres_in B and B part_of C, THEN A inheres_in_part_of C. This relation chain is specified by a ''holds_over_chain'' property in the  ''inheres_in_part_of'' stanza of the [http://www.berkeleybop.org/ontologies/obo-all/ro_proposed/ro_proposed.obo Relation Ontology]. However, the actual rule is hard coded into the OBD reasoner and not derived from the ontology.
 
 ===Relation Intersections===
 
