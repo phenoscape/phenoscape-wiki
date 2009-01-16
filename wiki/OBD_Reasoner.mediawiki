@@ -109,6 +109,10 @@ An example of relation inversions can be found in the ''posterior_to'' and ''ant
 
 ===Other relation chains===
 
+'''Rule:'''<math>\forall</math>F1, F2, S: ''absent_in''(F1, S) <math>\and</math> ''develops_from''(F2, F1) <math>\Rightarrow</math> ''absent_in''(F2, S)
+
+This relation chain corresponds to the observation GIVEN THAT Basihyal_Cartilage ''absent_in'' Siluriformes AND Basihyal_Bone ''develops_from'' Basihyal_cartilage, THEN Basihyal_Bone ''absent_in'' Siluriformes. This and other similar relation chains (as per identified requirements) are to be implemented in the reasoner in future.
+
 ==Sweeps==
 A reasoner functions over several sweeps. In each sweep, new implicit inferences are derived from the explicit annotations (as described in the previous sections) and added to the database. In the following sweep, inferences added from the previous sweep are used to extract further inferences. This process continues until no additional inferences are added in a sweep. This is when the ''deductive closure of the inference procedure'' is reached. No further inferences are possible and the reasoner exits.
 
