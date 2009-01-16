@@ -82,7 +82,8 @@ Relation chains are a special case of relation composition. Component relations 
 
 ===Relation Intersections===
 
-'''Rule:''' <math>\forall</math>Q, E: ''inheres_in''(Q, E) <math>\Rightarrow</math> ''inheres_in''(''inheres_in''(Q, E), E) 
+'''Rule:''' <math>\forall</math>Q, E: ''inheres_in''(Q, E) <math>\Rightarrow</math> ''inheres_in''(''inheres_in''(Q, E), E)
+
 '''Rule:''' <math>\forall</math>Q, E: ''inheres_in''(Q, E) <math>\Rightarrow</math> ''is_a''(''inheres_in''(Q, E), Q)
 
 Phenotype annotations are typically "post-composed", where an entity and quality are combined into a Compositional Description. For example, an annotation about the quality ''decreased size (PATO:0000587)'' of the entity ''Dorsal Fin (TAO:0001173)'' may be post-composed into a Compositional Description that looks like ''PATO:0000587^OBO_REL:inheres_in(TAO:0001173)''. Instances of ''is_a'' and ''inheres_in'' relations are extracted from post compositions like this. In the above example, the reasoner extracts:
