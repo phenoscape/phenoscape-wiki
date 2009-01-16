@@ -107,6 +107,8 @@ An example of a symmetric relation is the ''neighbor'' relation. IF Jim neighbor
 
 An example of relation inversions can be found in the ''posterior_to'' and ''anterior_to'' relations. IF anterior_nuchal_plate anterior_to middle_nuchal_plate AND anterior_to inverse_of posterior_to, THEN middle_nuchal_plate posterior_to anterior_nuchal_plate
 
+===Other relation chains===
+
 ==Sweeps==
 A reasoner functions over several sweeps. In each sweep, new implicit inferences are derived from the explicit annotations (as described in the previous sections) and added to the database. In the following sweep, inferences added from the previous sweep are used to extract further inferences. This process continues until no additional inferences are added in a sweep. This is when the ''deductive closure of the inference procedure'' is reached. No further inferences are possible and the reasoner exits.
 
