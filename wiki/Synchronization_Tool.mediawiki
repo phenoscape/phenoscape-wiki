@@ -12,6 +12,9 @@ The latest version of the Synchronization Tool plug-in can be obtained from the 
 ===Installation===
 If you have not yet installed OBO-Edit, do so.  Move the downloaded Synchronization Tool jar file into the "extensions" folder within your OBO-Edit folder, then relaunch OBO-Edit.  You should now see "Synchronization Tool" within the "Tools" menu.
 ===Obtaining Synchronization Tool source code (for developers)===
+To make contributions to the project or test the latest in-development code, you should check out a working copy from the Subversion repository:
+* https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/SynchronizationTool (use that URL with an SVN client, not a web browser)
+The Synchronization Tool source includes both an Eclipse project (used for most active development) and an Ant build file (used for making releases). You can browse Synchronization Tool SVN revisions on the web at http://obo.svn.sourceforge.net/viewvc/phenoscape/trunk/src/SynchronizationTool/
 
 [[Category:Informatics]]
 [[Category:Ontology]]
