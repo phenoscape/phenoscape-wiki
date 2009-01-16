@@ -105,7 +105,7 @@ An example of a symmetric relation is the ''neighbor'' relation. IF Jim neighbor
 
 '''Rule:''' <math>\forall</math>A, B, ''R1'', ''R2'': ''R1''(A, B) <math>\and</math> ''inverse_of''(''R1'', ''R2'') <math>\Rightarrow</math> ''R2''(B, A)
 
-An example of relation inversions can be found in the ''posterior_to'' and ''anterior_to'' relations. IF anterior_nuchal_plate anterior_to middle_nuchal_plate AND anterior_to inverse_of posterior_to, THEN middle_nuchal_plate posterior_to anterior_nuchal_plate
+An example of relation inversions can be found in the ''posterior_to'' and ''anterior_to'' relations. IF anterior_nuchal_plate ''anterior_to'' middle_nuchal_plate AND ''anterior_to'' ''inverse_of'' ''posterior_to'', THEN middle_nuchal_plate ''posterior_to'' anterior_nuchal_plate
 
 ===Other relation chains===
 
