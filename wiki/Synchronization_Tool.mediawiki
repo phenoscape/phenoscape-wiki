@@ -2,7 +2,7 @@
 title: Synchronization Tool
 ---
 
-The Synchronization Tool is a plug-in for OBO-Edit.
+The Synchronization Tool is a plug-in for [http://oboedit.org/ OBO-Edit].
 
 [[Category:Informatics]]
 [[Category:Ontology]]
