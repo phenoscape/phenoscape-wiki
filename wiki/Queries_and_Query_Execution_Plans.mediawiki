@@ -7,7 +7,7 @@ This section describes the queries that have been (or are to be) implemented for
 ==Executive Summary==
 The first iteration of the Web Services module for the Phenoscape project (the '''SICB prototype''') was demonstrated at the SICB meeting in Boston, MA in January 2009. This module allowed database searches for Anatomical Entities (Anatomical Entity Services) and Genes (Gene Services). Searches for Taxa (Taxon Services) are to be implemented in the next iteration which will be a part of the next Phenoscape version to be demonstrated at the ASIH meeting in Portland, OR (the '''ASIH prototype''') in July, 2009.
 
-Testing by the Phenoscape project stakeholders (Paula, Todd, and Monte) at the SICB meeting revealed that Anatomy and Gene Services were functional, but their execution was very slow in terms of time. As a result, the data retrieval strategy used in the SICB prototype are being examined for bottlenecks and these details are presented here. New data retrieval strategies are being tested for use in the ASIH prototype. The details of these strategies are documented here as well.
+Testing by the Phenoscape project stakeholders (Paula, Todd, and Monte) at the SICB meeting revealed that Anatomy and Gene Services were functional, but their execution was very slow in terms of time. As a result, the data retrieval strategy used in the SICB prototype is being examined for bottlenecks and these details are presented here. New data retrieval strategies are being tested for use in the ASIH prototype. The details of these strategies are documented here as well.
 
 ==Database details==
 * Database name: obdphenoscape
