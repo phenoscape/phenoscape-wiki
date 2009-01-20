@@ -14,7 +14,6 @@ In addition, the OBD database also contains information relating post composed p
 
 <javascript>
 ''inheres_in''(Quality, Entity)     ''is_a''                     Quality                                                           -- (2)
-
 ''inheres_in''(Quality, Entity)     ''inheres_in''               Entity                                                            -- (3)
 </javascript>
 Quality can be either a Value or an Attribute (beside other slims) and is related to these by the ''in_subset_of'' relation as shown in (4)
