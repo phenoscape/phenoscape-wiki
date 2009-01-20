@@ -40,3 +40,36 @@ The queries implemented for this iteration of the Phenoscape UI use the followin
 In summary, the relations (2) and (3) are not leveraged in this strategy. The transitive relations between the Attribute and Value Qualities in the PATO hierarchy and the Anatomical Features in the TAO hierarchy (which are inferred by the OBD reasoner) are also not utilized. An assortment of queries are executed over the database backend and their results are fed into the JAVA methods implemented on the client side, which is a very expensive process in terms of time. Some data structures like lookup tables for Attributes and Values have been implemented to minimize database connections and query executions, however the whole retrieval process is still very time consuming
 
 ==Query details==
+
+These queries correspond to the queries Q1~Q4 detailed in the Summary section of this page. The anatomical feature being searched for is TAO:0001510 (Basihyal Cartilage)
+
+===Query 1 (Q1)===
+====SQL====
+<javascript>
+SELECT 	* FROM
+node_link_node_with_pred_and_source
+WHERE
+pred_uid LIKE '%PHENOSCAPE:exhibits%' AND
+object_uid LIKE '%TAO:0001510%';
+</javascript>
+====Query Execution Plan====
+<javascript>
+"Nested Loop Left Join  (cost=0.00..6603.43 rows=1 width=298) (actual time=70.623..129.517 rows=25 loops=1)"
+"  ->  Nested Loop  (cost=0.00..6600.38 rows=1 width=242) (actual time=70.615..129.374 rows=25 loops=1)"
+"        ->  Nested Loop  (cost=0.00..6597.33 rows=1 width=176) (actual time=70.604..129.192 rows=25 loops=1)"
+"              ->  Nested Loop  (cost=0.00..6575.99 rows=7 width=111) (actual time=5.989..128.935 rows=36 loops=1)"
+"                    ->  Seq Scan on node obj  (cost=0.00..4026.71 rows=1 width=70) (actual time=5.963..128.774 rows=3 loops=1)"
+"                          Filter: ((uid)::text ~~ '%TAO:0001510%'::text)"
+"                    ->  Index Scan using link_object_indx on link  (cost=0.00..2537.96 rows=905 width=45) (actual time=0.015..0.035 rows=12 loops=3)"
+"                          Index Cond: (link.object_id = "outer".node_id)"
+"              ->  Index Scan using node_pkey on node pred  (cost=0.00..3.04 rows=1 width=69) (actual time=0.005..0.006 rows=1 loops=36)"
+"                    Index Cond: ("outer".predicate_id = pred.node_id)"
+"                    Filter: ((uid)::text ~~ '%PHENOSCAPE:exhibits%'::text)"
+"        ->  Index Scan using node_pkey on node  (cost=0.00..3.03 rows=1 width=70) (actual time=0.005..0.005 rows=1 loops=25)"
+"              Index Cond: ("outer".node_id = node.node_id)"
+"  ->  Index Scan using node_pkey on node source  (cost=0.00..3.03 rows=1 width=60) (actual time=0.003..0.004 rows=1 loops=25)"
+"        Index Cond: ("outer".source_id = source.node_id)"
+</javascript>
+====Execution====
+Time : 145 Milliseconds
+Rows Returned: 25
