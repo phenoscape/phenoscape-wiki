@@ -2,7 +2,7 @@
 title: Current queries
 ---
 
-This page documents the queries implemented to retrieve data for the Anatomy Web Services module of the Phenoscape project, which was demonstrated at the SICB Workshop in Boston, MA in Jan 2009. 
+This page documents the queries implemented to retrieve data for the Anatomy Web Services module of the Phenoscape project, which was demonstrated at the SICB Workshop in Boston, MA in Jan 2009.
 
 ==Summary==
 
