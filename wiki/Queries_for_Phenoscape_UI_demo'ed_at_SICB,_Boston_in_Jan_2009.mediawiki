@@ -91,7 +91,7 @@ pred_uid LIKE '%OBO_REL:is_a%';
 * The attribute is determined by this query because the reasoner adds all the transitive ''is_a'' relationships between the search term and its super attributes and all these inferred rows are retrieved by Q3
 * Q2 and Q3 are executed several times. An attribute-value lookup table is populated from the results of the earlier executions. If the value being searched for is found to be mapped to a specific attribute in the lookup table, then the database queries Q2 and Q3 are avoided.
 
-===Query 4 (Q4)====
+===Query 4 (Q4)===
 The sub anatomical features for the given anatomical feature are retrieved in this query. Here, we search for the sub anatomical features of TAO:0001510 (basihyal cartilage). This query, if started with a TAO feature, will often retrieve a corresponding ZFA feature (if the DbXref link has been asserted). For every feature retrieved by the query, the process described above starts off again.
 
 ====SQL====
