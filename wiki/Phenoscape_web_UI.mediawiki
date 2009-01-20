@@ -29,9 +29,10 @@ title: Phenoscape web UI
 ** Publication detail page(s)
 *** Full citation information
 *** Display curator credits
-*** Display or link to original matrix including free-text data
+*** Display or link to original matrix including free-text data and specimen listing
 *** Display or link to all phenotype annotations resulting from publication
 ** Requires publication data implementation in OBD by Cartik
+** Requires specimen data implementation in OBD by Cartik
 
 ===April 2009===
 * "Splashy" search entry page
