@@ -12,6 +12,10 @@ This section describes the queries that have been (or are to be) implemented for
 
 ==Anatomical Entity Services==
 
+===[[Currently executing queries]]===
+
+===[[Queries to be implemented in the future]]===
+
 ===Using LIKE Wildcard Operator===
 This query will return all the PHENOTYPES that inhere in a ANATOMICAL ENTITY* and the subclasses of the ANATOMICAL ENTITY*. In addition, all the QUALITIES that are related to each PHENOTYPE are returned. The SUBSET SLIMS of each QUALITY are returned. Finally, all the TAXA that exhibit the PHENOTYPES are returned.
 
@@ -318,24 +322,24 @@ inheres_link.object_id = anatomy_node.node_id;
 * Time: 12 ~ 122 seconds
 
 ===With EQUALS (=) operator and restriction on SLIMS===
-This query retrieves results which are similar to the previous query except the results are pruned to include only ATTRIBUTE and VALUE slim subsets of the QUALITIES 
+This query retrieves results which are similar to the previous query except the results are pruned to include only ATTRIBUTE and VALUE slim subsets of the QUALITIES
 
 ====Query====
 <javascript>
 SELECT DISTINCT
-taxon_node.uid AS taxon, 
+taxon_node.uid AS taxon,
 exhibits_pred_node.uid AS exhibits,
-phenotype_node.uid AS phenotype, 
-inheres_pred_node.uid AS inheres, 
+phenotype_node.uid AS phenotype,
+inheres_pred_node.uid AS inheres,
 anatomy_node.uid AS anatomy,
-is_a_pred_node.uid AS isA, 
-quality_node.uid AS quality, 
-subset_pred_node.uid AS subset, 
-slim_node.uid AS slim 
-FROM 
-link AS inheres_link, link AS is_a_link, link AS subset_link, 
+is_a_pred_node.uid AS isA,
+quality_node.uid AS quality,
+subset_pred_node.uid AS subset,
+slim_node.uid AS slim
+FROM
+link AS inheres_link, link AS is_a_link, link AS subset_link,
 link AS exhibits_link,
-node AS phenotype_node, node AS anatomy_node, node AS inheres_pred_node, 
+node AS phenotype_node, node AS anatomy_node, node AS inheres_pred_node,
 node AS is_a_pred_node, node AS quality_node,
 node AS slim_node, node AS subset_pred_node,
 node AS taxon_node, node AS exhibits_pred_node
