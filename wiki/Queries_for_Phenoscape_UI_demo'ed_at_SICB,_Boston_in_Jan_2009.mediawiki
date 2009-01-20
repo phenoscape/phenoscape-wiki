@@ -44,6 +44,7 @@ In summary, the relations (2) and (3) are not leveraged in this strategy. The tr
 These queries correspond to the queries Q1~Q4 detailed in the Summary section of this page. The anatomical feature being searched for is TAO:0001510 (Basihyal Cartilage)
 
 ===Query 1 (Q1)===
+This query retrieves the phenotypes from the database that are composed from the anatomical feature as one of their components. These retrieved phenotypes are parsed to retrieve the qualities associated with the anatomical feature being searched for. These retrieved qualities are input to query Q2
 ====SQL====
 <javascript>
 SELECT 	* FROM
