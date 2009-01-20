@@ -87,6 +87,6 @@ pred_uid LIKE '%OBO_REL:is_a%';
 * Time: 199 milliseconds
 * Rows returned: 685
 ====Notes on Queries Q2 and Q3====
-* Queries Q2 and Q3 return many more rows than anticipated because they use wildcard matches. Therefore rows containing only the search term (PATO:0000467) and also phenotypes containing the search term (PATO:0000467^inheres_in:...) are returned
+* Queries Q2 and Q3 return many more rows than anticipated because they use wildcard matches. Therefore rows containing only the search term (PATO:0000467) and also the rows containing phenotypes containing the search term (PATO:0000467^inheres_in:...) are returned
 * The attribute is determined by this query because the reasoner adds all the transitive ''is_a'' relationships between the search term and its super attributes and all these inferred rows are retrieved by Q3
 * Q2 and Q3 are executed several times. An attribute-value lookup table is populated from the results of the earlier executions. If the value being searched for is found to be mapped to a specific attribute in the lookup table, then the database queries Q2 and Q3 are avoided.
