@@ -11,9 +11,10 @@ title: Phenoscape web UI
 ** Present various phenotypic results grouped by custom "character slim"
 *** Requires slim development by team members (Wasila, Paula) and service implementation by Cartik
 * Taxon search interface
-** Mockup "live" interface - request group feedback
+** Mockup interface using dummy data within Rails application - request group feedback
+*** Front page search interface and results table - may include intermediate results summary page
 ** Design data service to be implemented
-** Implement using live data service
+** Implement using live data service after development by Cartik
 * Interface demo and feedback session - DECAP meeting, Feb. 27, 2009
 ** Present screenshots and mockups
 ** Possible live demo depending on data service performance progress
