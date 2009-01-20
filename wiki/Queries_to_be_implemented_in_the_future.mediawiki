@@ -6,9 +6,9 @@ These queries are being tested out to improve the database performance following
 ==Summary==
 
 Post compositions of Entities and Qualities are used to relate taxa and phenotypes through the ''exhibits'' relation as shown in (1).
-
+<javascript>
 Taxon                              ''exhibits''                 ''inheres_in''(Quality, Entity)                                   -- (1)
-
+</javascript>
 In addition, the OBD database also contains information relating post composed phenotypes to both the Quality and the Entity by different relations as shown in (2) and (3) respectively
 
 <javascript>
@@ -20,20 +20,8 @@ Quality can be either a Value_Slim or an Attribute_Slim (beside other slims) and
 <javascript>
 Quality                             ''in_subset_of''             Slim                                                              -- (4)
 </javascript>
-The queries described in this page traverse these relationships to find all the taxa and qualities that are related to an anatomical entity that is being searched for, using a combination of [http://en.wikipedia.org/wiki/Join_(SQL) TABLE JOINS]. This approach contrasts with the earlier query mechanism where:
+The queries described in this page traverse these relationships to find all the taxa and qualities that are related to an anatomical entity that is being searched for, using a combination of [http://en.wikipedia.org/wiki/Join_(SQL) TABLE JOINS]. This methodology makes optimal use of transitive relations derived by the OBD reasoner between Attributes and Values in the PATO hierarchy and between Anatomical Entities in the TAO hierarchy, in contrast to the earlier approach.
 
-# Phenotypes containing the anatomical feature and the taxa exhibiting these phenotypes were extracted from the database using regular expression keyword matches. This was done with one query (Q1) that uses the relation in (1)
-# Results from Q1 are parsed to extract the Anatomical Feature and the Quality that went into each Phenotype (again using regular expressions)
-# The Quality extracted in the previous step is analyzed by running a query (Q2) on relation (4), to see if it is an attribute or value. If the Quality is a value, then a second query (Q3) is used to determine the attribute it is a value of. This query runs on the ''is_a'' relation in (5) below, and is invoked in sequence until an attribute higher in the quality branch is found
-<javascript>
-Value                                ''is_a''                    Attribute                                                         -- (5)
-</javascript>
-# The results from the previous step are used to group the qualities that an entity can take under specific attributes. Value qualities such as Distorted, Regular etc may be grouped under an attribute quality such as Shape
-# In another direction, the taxa retrieved in Q1 are also collected
-# Now, the anatomical features that are sub features of the search feature are collected. For example, if the search was for dorsal fins, now we retrieve all the sub features of dorsal fin such as dorsal fin lepidotrichium etc by querying (Q4) over the relation shown in (6) below
-<javascript>
-Sub Anatomical Feature               ''is_a''                    Anatomical Feature                                                -- (6)
-</javascript>
 ==Query details==
 
 ===Using LIKE Wildcard Operator===
