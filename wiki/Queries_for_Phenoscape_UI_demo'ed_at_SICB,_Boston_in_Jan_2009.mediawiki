@@ -60,11 +60,13 @@ object_uid LIKE '%TAO:0001510%';
 For each Quality that is retrieved by Q1, this query Q2 is executed to determine if it is an attribute or a value. A lookup table is populated to avoid redundant queries. This example is using PATO:0000467 (present in normal numbers in the organism)
 
 ====SQL====
+<javascript>
 SELECT 	* FROM
 node_link_node_with_pred_and_source
 WHERE
 pred_uid LIKE '%oboInOwl:inSubset%' AND
 node_uid LIKE '%PATO:0000467%';
+</javascript>
 
 ====Execution====
 * Time: 286 milliseconds
