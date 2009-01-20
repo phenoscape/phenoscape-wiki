@@ -98,7 +98,7 @@ The following relation properties may be implemented on the reasoner in future i
 
 ===Relation Symmetry===
 
-'''Rule:''' <math>\forall</math>A, B, ''R'' and ''R'' reflexive: ''R''(A, B) <math>\Rightarrow</math> ''R''(B, A)
+'''Rule:''' <math>\forall</math>A, B, ''R'' and ''R'' symmetric: ''R''(A, B) <math>\Rightarrow</math> ''R''(B, A)
 
 An example of a symmetric relation is the ''neighbor'' relation. IF Jim neighbor_of Ryan THEN Ryan neighbor_of Jim. A more biologically relevant example is the ''in_contact_with'' relation. IF middle_nuchal_plate ''in_contact_with'' spinelet, THEN spinelet ''in_contact_with'' middle_nuchal_plate
 
