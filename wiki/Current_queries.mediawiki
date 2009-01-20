@@ -6,6 +6,24 @@ This page documents the queries implemented to retrieve data for the Anatomy Web
 
 ==Summary==
 
+Post compositions of Entities and Qualities are used to relate taxa and phenotypes through the ''exhibits'' relation as shown in (1).
+<javascript>
+Taxon                              ''exhibits''                 ''inheres_in''(Quality, Entity)                                   -- (1)
+</javascript>
+In addition, the OBD database also contains information relating post composed phenotypes to both the Quality and the Entity by different relations as shown in (2) and (3) respectively
+
+<javascript>
+''inheres_in''(Quality, Entity)     ''is_a''                     Quality                                                           -- (2)
+
+''inheres_in''(Quality, Entity)     ''inheres_in''               Entity                                                            -- (3)
+</javascript>
+Quality can be either a Value_Slim or an Attribute_Slim (beside other slims) and is related to these by the ''in_subset_of'' relation as shown in (4)
+<javascript>
+Quality                             ''in_subset_of''             Slim                                                              -- (4)
+</javascript>
+
+The queries implemented for this iteration of the Phenoscape UI use the following strategy
+
 # Phenotypes containing the anatomical feature and the taxa exhibiting these phenotypes were extracted from the database using regular expression keyword matches. This was done with one query (Q1) that uses the relation in (1)
 # Results from Q1 are parsed to extract the Anatomical Feature and the Quality that went into each Phenotype (again using regular expressions)
 # The Quality extracted in the previous step is analyzed by running a query (Q2) on relation (4), to see if it is an attribute or value. If the Quality is a value, then a second query (Q3) is used to determine the attribute it is a value of. This query runs on the ''is_a'' relation in (5) below, and is invoked in sequence until an attribute higher in the quality branch is found
@@ -18,5 +36,9 @@ Value                                ''is_a''                    Attribute      
 <javascript>
 Sub Anatomical Feature               ''is_a''                    Anatomical Feature                                                -- (6)
 </javascript>
+
+# For every sub anatomical feature retrieved by Q4, we repeat the previous steps
+
+In summary, the relations (2) and (3) are not leveraged in this strategy. The transitive relations between the Attribute and Value Qualities in the PATO hierarchy and the Anatomical Features in the TAO hierarchy (which are inferred by the OBD reasoner) are also not utilized. An assortment of queries are executed over the database backend and their results are fed into the JAVA methods implemented on the client side, which is a very expensive process in terms of time. Some data structures like lookup tables for Attributes and Values have been implemented to minimize database connections and query executions, however the whole retrieval process is still very time consuming
 
 ==Query details==
