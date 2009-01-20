@@ -71,5 +71,5 @@ object_uid LIKE '%TAO:0001510%';
 "        Index Cond: ("outer".source_id = source.node_id)"
 </javascript>
 ====Execution====
-Time : 145 Milliseconds
-Rows Returned: 25
+* Time : 145 Milliseconds
+* Rows Returned: 25
