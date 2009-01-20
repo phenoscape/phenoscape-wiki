@@ -45,6 +45,10 @@ title: Phenoscape web UI
 
 ===May 2009===
 * Taxonomy-based tree-mapped data perspective
+** View taxonomic phenotype annotation results organized by a phylogenetic tree
+** Group phenotypes as simplistic union of descendant nodes, rather than ancestral reconstruction
+** Use taxonomy as basis for phylogenetic tree
+
 ===Release candidate - June 2009===
 
 ===Public launch: ASIH meeting, Portland, Oregon - July 22, 2009===
