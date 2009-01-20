@@ -21,11 +21,13 @@ title: Phenoscape web UI
 *** Evaluate feasibility 2 weeks before meeting
 
 ===March 2009===
-* Incorporate publication links into annotation results displays
-** Columns referencing numbers of taxonomic phenotype or mutant phenotype match results will be accompanied by a column including number of publications referencing the search item
-** Link from publication count to a publication listing
-* Publication listing includes brief citation each of which links to a publication detail page
-* Publication detail page(s)
+* Incorporate publication data into user interface
+** Incorporate publication links into annotation results displays
+*** Columns referencing numbers of taxonomic phenotype or mutant phenotype match results will be accompanied by a column including number of publications referencing the search item
+*** Link from publication count to a publication listing
+** Publication listing includes brief citation each of which links to a publication detail page
+** Publication detail page(s)
+** Requires publication data implementation in OBD by Cartik
 
 ===April 2009===
 * "Splashy" search entry page
