@@ -27,6 +27,10 @@ title: Phenoscape web UI
 *** Link from publication count to a publication listing
 ** Publication listing includes brief citation each of which links to a publication detail page
 ** Publication detail page(s)
+*** Full citation information
+*** Display curator credits
+*** Display or link to original matrix including free-text data
+*** Display or link to all phenotype annotations resulting from publication
 ** Requires publication data implementation in OBD by Cartik
 
 ===April 2009===
