@@ -22,21 +22,20 @@ Quality can be either a Value_Slim or an Attribute_Slim (beside other slims) and
 Quality                             ''in_subset_of''             Slim                                                              -- (4)
 </javascript>
 
+Qualities and Anatomical entities are subclassed in the PATO and TAO hierarchies respectively as shown in (5) and (6)
+<javascript>
+Value                                ''is_a''                    Attribute                                                         -- (5)
+Sub Anatomical Feature               ''is_a''                    Anatomical Feature                                                -- (6)
+</javascript>
+
 The queries implemented for this iteration of the Phenoscape UI use the following strategy
 
 # Phenotypes containing the anatomical feature and the taxa exhibiting these phenotypes were extracted from the database using regular expression keyword matches. This was done with one query (Q1) that uses the relation in (1)
 # Results from Q1 are parsed to extract the Anatomical Feature and the Quality that went into each Phenotype (again using regular expressions)
-# The Quality extracted in the previous step is analyzed by running a query (Q2) on relation (4), to see if it is an attribute or value. If the Quality is a value, then a second query (Q3) is used to determine the attribute it is a value of. This query runs on the ''is_a'' relation in (5) below, and is invoked in sequence until an attribute higher in the quality branch is found
-<javascript>
-Value                                ''is_a''                    Attribute                                                         -- (5)
-</javascript>
+# The Quality extracted in the previous step is analyzed by running a query (Q2) on relation (4), to see if it is an attribute or value. If the Quality is a value, then a second query (Q3) is used to determine the attribute it is a value of. This query runs on the ''is_a'' relation in (5), and is invoked in sequence until an attribute higher in the quality branch is found
 # The results from the previous step are used to group the qualities that an entity can take under specific attributes. Value qualities such as Distorted, Regular etc may be grouped under an attribute quality such as Shape
 # In another direction, the taxa retrieved in Q1 are also collected
 # Now, the anatomical features that are sub features of the search feature are collected. For example, if the search was for dorsal fins, now we retrieve all the sub features of dorsal fin such as dorsal fin lepidotrichium etc by querying (Q4) over the relation shown in (6) below
-<javascript>
-Sub Anatomical Feature               ''is_a''                    Anatomical Feature                                                -- (6)
-</javascript>
-
 # For every sub anatomical feature retrieved by Q4, we repeat the previous steps
 
 In summary, the relations (2) and (3) are not leveraged in this strategy. The transitive relations between the Attribute and Value Qualities in the PATO hierarchy and the Anatomical Features in the TAO hierarchy (which are inferred by the OBD reasoner) are also not utilized. An assortment of queries are executed over the database backend and their results are fed into the JAVA methods implemented on the client side, which is a very expensive process in terms of time. Some data structures like lookup tables for Attributes and Values have been implemented to minimize database connections and query executions, however the whole retrieval process is still very time consuming
