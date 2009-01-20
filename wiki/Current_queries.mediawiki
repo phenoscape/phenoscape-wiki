@@ -17,7 +17,7 @@ In addition, the OBD database also contains information relating post composed p
 
 ''inheres_in''(Quality, Entity)     ''inheres_in''               Entity                                                            -- (3)
 </javascript>
-Quality can be either a Value_Slim or an Attribute_Slim (beside other slims) and is related to these by the ''in_subset_of'' relation as shown in (4)
+Quality can be either a Value or an Attribute (beside other slims) and is related to these by the ''in_subset_of'' relation as shown in (4)
 <javascript>
 Quality                             ''in_subset_of''             Slim                                                              -- (4)
 </javascript>
@@ -28,7 +28,7 @@ Value                                ''is_a''                    Attribute      
 Sub Anatomical Feature               ''is_a''                    Anatomical Feature                                                -- (6)
 </javascript>
 
-The queries implemented for this iteration of the Phenoscape UI use the following strategy
+The queries implemented for this iteration of the Phenoscape UI use the following strategy to retrieve taxa and qualities associated with an Anatomical Entity.
 
 # Phenotypes containing the anatomical feature and the taxa exhibiting these phenotypes were extracted from the database using regular expression keyword matches. This was done with one query (Q1) that uses the relation in (1)
 # Results from Q1 are parsed to extract the Anatomical Feature and the Quality that went into each Phenotype (again using regular expressions)
