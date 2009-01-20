@@ -1,0 +1,22 @@
+---
+title: Current queries
+---
+
+This page documents the queries implemented to retrieve data for the Anatomy Web Services module of the Phenoscape project, which was demonstrated at the SICB Workshop in Boston, MA in Jan 2009. 
+
+==Summary==
+
+# Phenotypes containing the anatomical feature and the taxa exhibiting these phenotypes were extracted from the database using regular expression keyword matches. This was done with one query (Q1) that uses the relation in (1)
+# Results from Q1 are parsed to extract the Anatomical Feature and the Quality that went into each Phenotype (again using regular expressions)
+# The Quality extracted in the previous step is analyzed by running a query (Q2) on relation (4), to see if it is an attribute or value. If the Quality is a value, then a second query (Q3) is used to determine the attribute it is a value of. This query runs on the ''is_a'' relation in (5) below, and is invoked in sequence until an attribute higher in the quality branch is found
+<javascript>
+Value                                ''is_a''                    Attribute                                                         -- (5)
+</javascript>
+# The results from the previous step are used to group the qualities that an entity can take under specific attributes. Value qualities such as Distorted, Regular etc may be grouped under an attribute quality such as Shape
+# In another direction, the taxa retrieved in Q1 are also collected
+# Now, the anatomical features that are sub features of the search feature are collected. For example, if the search was for dorsal fins, now we retrieve all the sub features of dorsal fin such as dorsal fin lepidotrichium etc by querying (Q4) over the relation shown in (6) below
+<javascript>
+Sub Anatomical Feature               ''is_a''                    Anatomical Feature                                                -- (6)
+</javascript>
+
+==Query details==
