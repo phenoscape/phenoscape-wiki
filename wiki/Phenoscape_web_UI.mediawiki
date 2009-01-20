@@ -18,6 +18,7 @@ title: Phenoscape web UI
 * Interface demo and feedback session - DECAP meeting, Feb. 27, 2009
 ** Present screenshots and mockups
 ** Possible live demo depending on data service performance progress
+*** Evaluate feasibility 2 weeks before meeting
 
 ===March 2009===
 * Incorporate publication links into annotation results displays
