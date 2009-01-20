@@ -35,7 +35,14 @@ title: Phenoscape web UI
 ** Requires specimen data implementation in OBD by Cartik
 
 ===April 2009===
-* "Splashy" search entry page
+* "Splashy" search entry page - we should have a more graphically capturing entry gateway for exploring the data content
+** One of the following:
+***Hierarchical term explorer
+***Visual explorer, using schematic drawings ("the prototypical fish")
+***Visual explorer using 3D scans of catfish (and eventually zebrafish when done).
+**Should explore various prototypes of these ideas and get feedback from project team
+**Implement preferred interface
+
 ===May 2009===
 * Taxonomy-based tree-mapped data perspective
 ===Release candidate - June 2009===
