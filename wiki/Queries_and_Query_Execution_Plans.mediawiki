@@ -12,6 +12,6 @@ This section describes the queries that have been (or are to be) implemented for
 
 ==Anatomical Entity Services==
 
-===[[Current queries]]===
+===[[Queries for Phenoscape UI demo'ed at SICB, Boston in Jan 2009]]===
 
 ===[[Queries to be implemented in the future]]===
