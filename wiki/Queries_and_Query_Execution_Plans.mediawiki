@@ -12,9 +12,9 @@ Testing by the Phenoscape project stakeholders (Paula, Todd, and Monte) at the S
 # What are the possible bottlenecks responsible for the poor execution times of the queries that process the web service inputs?
 #* The query modules on the client-side interface with the database in the backend to execute the queries. The data retrieved by these query executions are then processed at the client-side. There are two possible bottlenecks in this scheme: one at the client-side and the other more likely, at the backend. The backend bottleneck is more likely because of connection times, data transfer times, query execution times, and other related lag times that occur when the client-side invokes the database backend. Therefore, minimizing the backend interface requirements will reduce the execution time substantially.
 # What has been found so far?
-* The query execution strategy implemented for the SICB prototype spawns a multitude of queries, and the execution of each of these takes up time to connect, retrieve the results, and transfer them back to the client side. Therefore, a new strategy that tries to obtain all the required data in one query (or a very limited number of queries) is being tested as of now. Details of both these strategies can be found in the linked pages
+#* The query execution strategy implemented for the SICB prototype spawns a multitude of queries, and the execution of each of these takes up time to connect, retrieve the results, and transfer them back to the client side. Therefore, a new strategy that tries to obtain all the required data in one query (or a very limited number of queries) is being tested as of now. Details of both these strategies can be found in the linked pages
 # Is there a timeline available for this work?
-* A rudimentary timeline has been put up on another location on this Wiki. This is expected to take at least one more week from now (Jan 20)
+#* A rudimentary timeline has been put up on another location on this Wiki. This is expected to take at least one more week from now (Jan 20)
 
 ==Database details==
 * Database name: obdphenoscape
