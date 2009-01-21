@@ -110,6 +110,13 @@ NOTE: There is no direct relationship between ''relation symmetry'' and ''relati
 
 An example of relation inversions can be found in the ''posterior_to'' and ''anterior_to'' relations. IF anterior_nuchal_plate ''anterior_to'' middle_nuchal_plate AND ''anterior_to'' ''inverse_of'' ''posterior_to'', THEN middle_nuchal_plate ''posterior_to'' anterior_nuchal_plate
 
+===The Balhoff rule===
+
+'''Rule:''' <math>\forall</math>A, B, ''R'': ''R''(A, B) <math>\and</math> ''is_a''(A, C) <math>\Rightarrow</math> ''R''(C, B)
+
+This rule was proposed by Jim Balhoff to reason upwards in a hierarchy using the ''exhibits'' property. A relevant example: GIVEN THAT Danio Rerio exhibits a round fin AND Danio Rerio is a Danio THEN Danio exhibits round fin. This is the exact opposite of the ''genus differentia'' rule which postulates reasoning only downwards in a hierarchy. The relevance of this rule to the Phenoscape project is to be discussed shortly
+
+
 ==The problem with absence of features==
 
 Descriptions of phenotypes as used in the Phenoscape project (and a plethora of phenomena in the real world) are replete with exceptions, or aberrations from what is considered to be "normal." While canonical ontologies like the [http://sig.biostr.washington.edu/projects/fm/ FMA] and the [http://www.berkeleybop.org/ontologies/obo-all/teleost_anatomy/teleost_anatomy.obo TAO] contain ontological definitions of ideal specimens, observations in the life sciences are full of aberrations to these general rules.
