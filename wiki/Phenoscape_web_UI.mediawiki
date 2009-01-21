@@ -53,6 +53,8 @@ title: Phenoscape web UI
 ** Use taxonomy as basis for phylogenetic tree
 **Develop HTML mockups in web application
 ** Implement based on project team feedback
+*Implement appropriate scalable deployment of web application
+**Multiple application instances and load balancing
 
 ===Release candidate - June 2009===
 *Project team testing
