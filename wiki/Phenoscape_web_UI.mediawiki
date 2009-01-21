@@ -50,5 +50,8 @@ title: Phenoscape web UI
 ** Use taxonomy as basis for phylogenetic tree
 
 ===Release candidate - June 2009===
+*Project team testing
+*Bug fixes
+*Performance evaluation
 
 ===Public launch: ASIH meeting, Portland, Oregon - July 22, 2009===
