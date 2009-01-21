@@ -17,8 +17,6 @@ The backend bottleneck is the more likely of the two. This is because the query 
 To test the efficiency of the new queries, more methods need to be added to the OBD Shard libraries, the projects have to be compiled and linked prior to testing. This is to be done over the next two weeks from now (Jan 20, 09). The details of these strategies can also be found here.
 
 ==Database details==
-* Database name: obdphenoscape
-* Database server: Darwin
 * Last updated: Jan 02, 2009
 * Size: ~ 600 MB
 
