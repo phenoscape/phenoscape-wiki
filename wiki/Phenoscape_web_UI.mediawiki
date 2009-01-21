@@ -13,8 +13,8 @@ title: Phenoscape web UI
 * Taxon search interface
 ** Mockup interface using dummy data within web application - request group feedback
 *** Front page search interface and results table - may include intermediate results summary page
-** Design data service to be implemented
-** Implement using live data service after development by Cartik
+** Design data service schema to be implemented by Cartik
+** Implement using live data service once developed by Cartik
 * Interface demo and feedback session - DECAP meeting, Feb. 27, 2009
 ** Present screenshots and mockups
 ** Possible live demo depending on data service performance progress
