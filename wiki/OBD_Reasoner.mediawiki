@@ -110,11 +110,23 @@ NOTE: There is no direct relationship between ''relation symmetry'' and ''relati
 
 An example of relation inversions can be found in the ''posterior_to'' and ''anterior_to'' relations. IF anterior_nuchal_plate ''anterior_to'' middle_nuchal_plate AND ''anterior_to'' ''inverse_of'' ''posterior_to'', THEN middle_nuchal_plate ''posterior_to'' anterior_nuchal_plate
 
-===Relation chains to infer absence of features===
+===The problem with absence of features===
+
+Descriptions of phenotypes as used in the Phenoscape project (and a plethora of phenomena in the real world) are replete with exceptions, or aberrations from what is considered to be "normal." While canonical ontologies like the [http://sig.biostr.washington.edu/projects/fm/ FMA] and the [TAO] contain ontological definitions of ideal specimens, observations in the life sciences are full of aberrations to these general rules. 
+
+Phenoscape has some typical issues dealing with absence of anatomical features in certain species of Ostariophysian fishes. For example, the basihyal cartilage is found in all species of Ostariophysian fishes, except the Siluriformes. At present, this information is captured in Phenoscape using the combination of the PATO term for "absent or present in fewer numbers in the organism" (PATO:0000587), the "inheres_in" relation from the OBO Relations Ontology, the TAO term for "basihyal cartilage" (TAO:0001510), the "exhibits" relation from the PHENOSCAPE ontology, and the TTO term for Siluriformes (TTO:302). This is shown below.
+
+<javascript>
+TTO:302              PHENOSCAPE:exhibits                  PATO:0000587^OBO_REL:inheres_in(TAO:0001510)
+</javascript>
+
+In plain English, this translates to "Siluriformes exhibit the absence or presence in fewer number in organism which inheres in basihyal cartilage." The semantics of this sentence are vague to say the least. It is impossible to say basihyal cartilage is absent in Siluriformes without referring to ''some'' instance of basihyal cartilage, by this method. Combining a quality ''absent'' with a ''feature'' through the ''inheres_in''  property is very misleading in itself (ex: absence inheres in cartilage), contorting the intrinsic semantics of the ''inheres_in'' relation. These problems have been discussed in [http://www.ncbi.nlm.nih.gov/pubmed/17369081 Ceusters et al] and [http://www.biomedcentral.com/1471-2105/8/377 Hoehndorf et al]. Both these publications propose solutions to integrate these aberrant observations with canonical definitions, without causing inconsistencies in reasoning procedures. 
+
+Another issue specific to the Phenoscape project were raised by Paula at the SICB workshop. Given that basihyal cartilage is absent in Siluriformes, basihyal bone should be absent in Siluriformes as well. This is because basihyal bone develops from basihyal cartilage. This may be extracted from the OBD reasoner by adding a new relation chaining rule shown below
 
 '''Rule:'''<math>\forall</math>F1, F2, S: ''absent_in''(F1, S) <math>\and</math> ''develops_from''(F2, F1) <math>\Rightarrow</math> ''absent_in''(F2, S)
 
-This relation chain corresponds to the observation GIVEN THAT Basihyal_Cartilage ''absent_in'' Siluriformes AND Basihyal_Bone ''develops_from'' Basihyal_cartilage, THEN Basihyal_Bone ''absent_in'' Siluriformes. This and other similar relation chains (as per identified requirements) are to be implemented in the reasoner in future.
+This relation chain corresponds to the observation GIVEN THAT Basihyal_Cartilage ''absent_in'' Siluriformes AND Basihyal_Bone ''develops_from'' Basihyal_cartilage, THEN Basihyal_Bone ''absent_in'' Siluriformes. This and other similar relation chains (as per identified requirements) are to be implemented for the Phenoscape project in the future. Strategies to deal with absent features in general are also to be implemented in the near future.
 
 ==Sweeps==
 A reasoner functions over several sweeps. In each sweep, new implicit inferences are derived from the explicit annotations (as described in the previous sections) and added to the database. In the following sweep, inferences added from the previous sweep are used to extract further inferences. This process continues until no additional inferences are added in a sweep. This is when the ''deductive closure of the inference procedure'' is reached. No further inferences are possible and the reasoner exits.
