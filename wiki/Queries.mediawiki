@@ -22,8 +22,8 @@ To test the efficiency of the new queries, more methods need to be added to the 
 
 ==Anatomical Entity Services==
 
-===[[Queries for Phenoscape UI demo'ed at SICB, Boston in Jan 2009]]===
-The details of the querying strategy implemented in the SICB prototype are discussed [[Queries for Phenoscape UI demo'ed at SICB, Boston in Jan 2009] here]
+
+* The details of the querying strategy implemented in the SICB prototype are discussed on this page [[Queries for Phenoscape UI demo'ed at SICB, Boston in Jan 2009]]
 
 ===[[Queries to be implemented in the future]]===
 
