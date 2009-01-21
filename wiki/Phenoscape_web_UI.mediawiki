@@ -42,7 +42,7 @@ title: Phenoscape web UI
 ***Hierarchical term explorer
 ***Visual explorer, using schematic drawings ("the prototypical fish")
 ***Visual explorer using 3D scans of catfish (and eventually zebrafish when done).
-**Should explore various prototypes of these ideas and get feedback from project team
+**Should explore various prototypes of these ideas using HTML mockups and get feedback from project team
 **Implement preferred interface
 
 ===May 2009===
