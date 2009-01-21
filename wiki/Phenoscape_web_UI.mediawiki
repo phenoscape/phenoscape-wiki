@@ -22,6 +22,7 @@ title: Phenoscape web UI
 *** Evaluate feasibility 2 weeks before meeting
 
 ===March 2009===
+* Mockup publication data interface within web application ''-- should these mockups be available for DECAP meeting in February?''
 * Incorporate publication data into user interface
 ** Incorporate publication links into annotation results displays
 *** Columns referencing numbers of taxonomic phenotype or mutant phenotype match results will be accompanied by a column including number of publications referencing the search item
