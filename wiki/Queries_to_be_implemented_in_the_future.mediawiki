@@ -24,9 +24,9 @@ The queries described in this page traverse these relationships to find all the 
 ==Query details==
 
 ===Using LIKE Wildcard Operator===
-This query will return all the PHENOTYPES that inhere in a ANATOMICAL ENTITY* and the subclasses of the ANATOMICAL ENTITY*. In addition, all the QUALITIES that are related to each PHENOTYPE are returned. The SUBSET SLIMS of each QUALITY are returned. Finally, all the TAXA that exhibit the PHENOTYPES are returned.
+This query will return all the PHENOTYPES that inhere in a ANATOMICAL ENTITY<sup>*</sup> and the subclasses of the ANATOMICAL ENTITY<sup>*</sup>. In addition, all the QUALITIES that are related to each PHENOTYPE are returned. The SUBSET SLIMS of each QUALITY are returned. Finally, all the TAXA that exhibit the PHENOTYPES are returned.
 
-*Search Term (The search term in this example is TAO:0000108, which is, you guessed it, a fin!)
+<sup>*</sup>Search Term (The search term in this example is TAO:0000108, which is, you guessed it, a fin!)
 
 ====Query====
 <javascript>
