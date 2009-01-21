@@ -8,7 +8,7 @@ Phenoscape is using multiple ontologies to describe variation in phenotypes acro
 
 Phenoscape has developed ontologies that are required for the annotation of evolutionary phenotypes in fishes.  These ontologies are publicly available and being used by the community.
 
-These ontologies will keep changing to accommodate our community needs, and they have been admitted into the OBO CVS-based version-control system, from where the NCBO's BioPortal loads and updates ontologies on a regular basis.  Both [http://bioportal.bioontology.org/visualize/38362 TAO] and [http://bioportal.bioontology.org/visualize/38363 TTO] can be browsed, searched, and visualized at the NCBO BioPortal.
+These ontologies will keep changing to accommodate our community needs, and they have been admitted into the OBO CVS-based version-control system, from where the NCBO's BioPortal loads and updates ontologies on a regular basis.  Both [http://bioportal.bioontology.org/visualize/38362 TAO] and [http://bioportal.bioontology.org/visualize/38363 TTO] can be browsed, searched, and visualized at the NCBO BioPortal. Ontologies are also available for download as .obo files from the BioPortal or OBO Foundry, and browsed on your desktop using [http://oboedit.org/ OBO-Edit].
 
 === Teleost Taxonomy Ontology ===
 
@@ -23,7 +23,7 @@ Additional documentation:
 
 === Teleost Anatomy Ontology ===
 
-The [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (TAO)] is a multi-species ontology that was initialized with the terms in the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology. Details about the development of the TAO can be found [[Teleost Anatomy Ontology | here]]. 
+The [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (TAO)] is a multi-species ontology that was initialized with the terms in the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology. Details about the development of the TAO can be found [[Teleost Anatomy Ontology | here]].
 
 ===== Download and Browse TAO =====
 
