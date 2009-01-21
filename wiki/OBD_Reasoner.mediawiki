@@ -56,8 +56,8 @@ Transitive relationships are the simplest inferences to be extracted and compris
 * exhibits (Phenoscape Ontology)
 Transitive relations are extracted from the database by the reasoner and transitive relationships are computed by the reasoner for each relation. For example, given that ''is_a'' is a transitive relation, and if the database holds A ''is_a'' B and B ''is_a'' C, then the reasoner computes A ''is_a'' C and adds this new record to the database. Similarly, new inferred records are added to the database for every transitive relation.
 
-====NOTE==== 
-Transitive relations are the only relation properties whose definitions are (indirectly) extracted by the reasoner from the ontologies in order to compute inferences. Although definitions of many of the other relation properties (discussed in the following sections) which form the basis of other inferences can be found in the ontologies, these other inference mechanisms are hard coded into the reasoner as it is now and not extracted from the ontologies.
+====NOTE====
+Relation transitivity is the only relation property whose definition is (indirectly) extracted by the reasoner from the loaded ontologies in order to compute inferences. Although definitions of many of the other relation properties (such as relation reflexivity and composition) can be found in the ontologies as well, inference mechanisms associated with these relation properties are hard coded into the reasoner.
 
 ===Relation (role) compositions===
 
