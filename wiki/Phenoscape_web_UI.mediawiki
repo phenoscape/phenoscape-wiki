@@ -50,6 +50,8 @@ title: Phenoscape web UI
 ** View taxonomic phenotype annotation results organized by a phylogenetic tree
 ** Group phenotypes as simplistic union of descendant nodes, rather than ancestral reconstruction
 ** Use taxonomy as basis for phylogenetic tree
+**Develop HTML mockups in web application
+** Implement based on project team feedback
 
 ===Release candidate - June 2009===
 *Project team testing
