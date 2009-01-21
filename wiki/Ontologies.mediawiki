@@ -22,7 +22,7 @@ Additional documentation:
 * [[Hypodigm|Ambiguous specimen information: annotating phenotypes for specimens or species]] (also called the Hypodigm problem)
 
 * Browse [http://bioportal.bioontology.org/ontologies/38703 TTO at BioPortal]
-* Download TAO from [http://bioportal.bioontology.org/visualize/38703 Bioportal] or [http://www.obofoundry.org/ OBO Foundry] (use [http://oboedit.org/ OBO Edit] desktop software to open and view .obo file).
+* Download TTO from [http://bioportal.bioontology.org/visualize/38703 Bioportal] or [http://www.obofoundry.org/ OBO Foundry] (use [http://oboedit.org/ OBO Edit] desktop software to open and view .obo file).
 
 === Teleost Anatomy Ontology ===
 
