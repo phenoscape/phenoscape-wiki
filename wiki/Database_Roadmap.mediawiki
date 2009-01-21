@@ -16,8 +16,8 @@ This is a development roadmap for the second production iteration of the Phenosc
 * Work on Unit test modules for database queries*
 
 ===Jan. 26-30===
-* Begin documenting performance metrics of database queries from Unit test cases* ''[In Progress]''
-* Begin documenting query optimization patterns for database queries* ''[In Progress]''
+* Begin documenting performance metrics of database queries from Unit test cases* '''[In Progress]'''
+* Begin documenting query optimization patterns for database queries* '''[In Progress]'''
 
 ===Feb. 2-6===
 * Complete documentation of query execution methods*
