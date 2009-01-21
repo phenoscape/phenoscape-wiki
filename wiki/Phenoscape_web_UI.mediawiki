@@ -59,6 +59,6 @@ title: Phenoscape web UI
 ===Release candidate - June 2009===
 *Project team testing
 *Bug fixes
-*Performance evaluation
+*Overall performance evaluation
 
 ===Public launch: ASIH meeting, Portland, Oregon - July 22, 2009===
