@@ -8,7 +8,7 @@ The OBD reasoner uses definitions of transitive relations, relation hierarchies,
 
 When describing rules below, we use the following notations:
 
-* A, B, C: classes (as subjects or objects). Note that relationship concepts can also appear as subject or object in an assertion. 
+* A, B, C: classes (as subjects or objects). Note that relationship concepts can also appear as subject or object in an assertion.
 * a, b, c: individuals (as subjects or objects)
 * ''R'': relationship (predicate)
 * ''R''(A, B): A ''R'' B, for example ''is_a''(A, B) is equivalent to A ''is_a'' B. This is the functional form of assertions.
@@ -110,7 +110,7 @@ NOTE: There is no direct relationship between ''relation symmetry'' and ''relati
 
 An example of relation inversions can be found in the ''posterior_to'' and ''anterior_to'' relations. IF anterior_nuchal_plate ''anterior_to'' middle_nuchal_plate AND ''anterior_to'' ''inverse_of'' ''posterior_to'', THEN middle_nuchal_plate ''posterior_to'' anterior_nuchal_plate
 
-===The problem with absence of features===
+==The problem with absence of features==
 
 Descriptions of phenotypes as used in the Phenoscape project (and a plethora of phenomena in the real world) are replete with exceptions, or aberrations from what is considered to be "normal." While canonical ontologies like the [http://sig.biostr.washington.edu/projects/fm/ FMA] and the [http://www.berkeleybop.org/ontologies/obo-all/teleost_anatomy/teleost_anatomy.obo TAO] contain ontological definitions of ideal specimens, observations in the life sciences are full of aberrations to these general rules.
 
