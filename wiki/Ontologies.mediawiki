@@ -23,7 +23,13 @@ Additional documentation:
 
 === Teleost Anatomy Ontology ===
 
-The [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (TAO)] is a multi-species ontology that was initialized with the terms in the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology. Details about the development of the TAO can be found [[Teleost Anatomy Ontology | here]].
+The [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (TAO)] is a multi-species ontology that was initialized with the terms in the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology. Details about the development of the TAO can be found [[Teleost Anatomy Ontology | here]]. 
+
+===== Download and Browse TAO =====
+
+The latest version of TAO can be downloaded as an .obo file from the [http://bioportal.bioontology.org/ontologies/39222 Bioportal] or [http://www.obofoundry.org/ OBO Foundry]. You can browse TAO on your desktop using [http://oboedit.org/ OBO-Edit].
+
+TAO can also be browsed online using the [http://bioportal.bioontology.org/ontologies/39222 Bioportal].
 
 === Fish Collection Codes Ontology ===
 
