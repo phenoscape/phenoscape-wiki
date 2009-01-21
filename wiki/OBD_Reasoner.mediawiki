@@ -62,7 +62,7 @@ Transitive relations are extracted from the database by the reasoner and transit
 
 '''Rule:''' <math>\forall</math>A, B, C, ''R'': ''is_a''(A, B) <math>\and</math> ''R''(B, C) <math>\Rightarrow</math> ''R''(A, C)
 
-Relation (role) compositions are of the form A ''R''<sub>1</sub> B, B ''R''<sub>2</sub> C => A (''R''<sub>1</sub>|''R''<sub>2</sub>) C. For example, given A ''is_a'' B and B ''part_of'' C then A ''part_of'' C. The reasoner extracts such inferences and adds them to the database.
+Relation (role) compositions are of the form A ''R''<sub>1</sub> B, B ''R''<sub>2</sub> C => A (''R''<sub>1</sub>|''R''<sub>2</sub>) C. For example, given A ''is_a'' B and B ''part_of'' C then A ''part_of'' C. The reasoner computes such inferences and adds them to the database.
 
 ===''is_a'' Relation Reflexivity===
 
