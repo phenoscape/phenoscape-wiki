@@ -6,57 +6,30 @@ This is a development roadmap for the second production iteration of the Phenosc
 
 ==Cartik==
 
-===Jan. 12-16===
+===January 2009===
+<sup>*</sup> indicates task dependency
 * Work on moving database connection parameters from code to properties file that does not go into SVN. '''[Done]'''
 * Document inherited database query module in OBD API* '''[In Progress]'''
 * Finish documentation of the OBD reasoner on the Wiki '''[First iteration done]'''
+* Investigate implementation of Unit test modules for database queries* [Partially done]
+* Work on Unit test modules for database queries* [Partially done]
+* Document performance metrics of database queries from Unit test cases* '''[In Progress]'''
+* Document query optimization patterns for database queries* '''[In Progress]'''
 
-===Jan. 19-23===
-* Investigate implementation of Unit test modules for database queries*
-* Work on Unit test modules for database queries*
-
-===Jan. 26-30===
-* Begin documenting performance metrics of database queries from Unit test cases* '''[In Progress]'''
-* Begin documenting query optimization patterns for database queries* '''[In Progress]'''
-
-===Feb. 2-6===
+===February===
 * Complete documentation of query execution methods*
-* Begin implementing improved query methods to speed up execution of anatomy and gene data services
+* Implement improved query methods to speed up execution of anatomy and gene data services
 ** NOTE: contingent upon completion of previous related tasks marked with *
-
-===Feb. 9-13===
-* Complete implementation of improved query methods for anatomy and gene data services
 * Investigate possible additions to OBD reasoner (with input from Hilmar and Jim) to infer presence/absence of anatomical features
-* Begin implementing augmentations to reasoner to infer presence/absence of anatomical features
+* Implement augmentations to reasoner to infer presence/absence of anatomical features
+* Add extinct/extant species information to the database
 
-===Feb. 16-20===
-* Complete augmentations to reasoner
-* Commence work on adding extinct/extant species information to the database 
-
-===Feb. 23-27===
-* Finish work on adding extinct/extant species information
-* Commence work on adding collection information to the database
-
-===Mar.1-5===
-* Continue work on adding collection information to the database
-* Commence work on adding publication information to database
+===March===
+* Add collection information to the database
+* Add publication information to database
 ** NOTE: Dependant upon SICI and Endnote work
-
-===Mar.8-12===
-* Finish work on adding collection information
-* Continue work on adding publication information
-* Commence work on adding Taxon query service to Phenoscape
-
-===Mar.15-19===
-* Continue work on Taxon query service
-* Complete work on publications
-
-===Mar.22-26===
-* Complete work on Taxon query service
+* Add Taxon query service to Phenoscape
 * Bug fixes
-
-===Mar.29-Apr.2===
-* More bug fixes
 * Status check
 
 ==Jim==
