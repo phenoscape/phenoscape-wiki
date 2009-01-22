@@ -20,11 +20,21 @@ In first order logic (FOL), it is common to assert statements about all possible
 
 '''<math>\forall</math> A: ''instance_of''(Puppy, A) <math>\Rightarrow</math> ''instance_of''(Dog, A)'''                  -- (1)
 
-The inverted A (<math>\forall</math>) is called the ''universal quantifier'' and can be translated to "for every" or " for all" in plain English. Similarly, the colon (:) in the FOL statement above can be read as "such that." The double arrow (<math>\Rightarrow</math>) is also called ''directional implication''. It can be translated into English to mean "implies" or "follows." Therefore, the sentence above translated into English reads:
+The inverted A (<math>\forall</math>) is called the ''universal quantifier'' and can be translated to "for every" or " for all" in plain English. Similarly, the colon (:) in the FOL statement above can be read as "such that." The double arrow (<math>\Rightarrow</math>) is also called ''directional implication''. It can be translated into English to mean "it implies" or "it follows." Therefore, the sentence above translated into English reads:
 
 "''For all As such that A is a Puppy, implies that A is a Dog''"
 
-or even simpler as we shall readily comprehend, "''All puppies are dogs''." Note this is a simple assertion of the semantics of the ''is_a'' predicate that is so common to Phenoscape. Everyone will understand ''is_a''(Puppy, Dog). The ''is_a'' relation is an upward abstraction from the quantified instances we have used in (1). These are just two of many constructs from first order logic which find common use in the Phenoscape project. For a full fledged introduction to the joys of FOL, click [http://en.wikipedia.org/wiki/First-order_logic here].
+or even simpler as we shall readily comprehend, "''All puppies are dogs''." Note this is a simple assertion of the semantics of the ''is_a'' predicate that is so common to Phenoscape. Everyone will understand ''is_a''(Puppy, Dog). The ''is_a'' relation is an upward abstraction from the quantified instances we have used in (1). 
+
+The "cap" (<math>and</math>) is the FOL construct to specify 'conjunction' and can be translated to "and" in plain English. The FOL statement below states the transitive property of the ''is_a'' relation
+
+'''<math>\forall</math> A, B, C: ''is_a''(A, B) <math>\and</math> ''is_a''(B, C) <math>\Rightarrow</math> ''is_a'(A, C)'''  -- (2)
+
+The statement (2) above can be translated to read: 
+
+''For all A, B, and C, such that A is a B, and B is a C, it follows that A is a C''
+
+These are just three of the many constructs from first order logic which find common use in the Phenoscape project. For a full fledged introduction to the joys of FOL, click [http://en.wikipedia.org/wiki/First-order_logic here].
 
 ==Implemented Relation Properties==
 
