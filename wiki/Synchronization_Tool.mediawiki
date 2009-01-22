@@ -22,8 +22,9 @@ Report any bugs and make feature requests using the [http://sourceforge.net/trac
 ==Usage==
 The Synchronization Tool typically requires two ontology files to be loaded simultaneously in OBO-Edit.  The sets of terms to be synchronized are actually selected by namespace, but each namespace will often come from a different ontology file.
 ===Loading ontologies===
-If both namespaces to be synchronized are in one ontology file, it can be opened in the usual fashion.  Otherwise the ontology files need to be opened simultaneously be typing the file path to each in the Open panel, separated by a space.  For example:
+If both namespaces to be synchronized are in one ontology file, it can be opened in the usual fashion.  Otherwise the ontology files need to be opened simultaneously by typing the file path to each in the Open panel, separated by a space.  For example:
 [[Image:Open_two_ontologies.png]]
+
 ===Configuration===
 
 ===Tabs===
