@@ -84,7 +84,7 @@ Using the menu item "File > Merge NEXUS Matrix...", you can merge matrix values 
 * Support alt_id term references in NeXML files
 * Copy text from tables
 ===February 2009===
-* Panel for matrix cell-specific information, e.g. evidence codes, image references
+* Panel for matrix cell-specific information, e.g. evidence codes, image references [Not needed before DECAP --[[User:Tjvision|Tjvision]] 14:15, 22 January 2009 (EST)]
 
 ===March 2009===
 * Improved autocomplete interface
