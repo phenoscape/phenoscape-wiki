@@ -14,7 +14,7 @@ When describing rules below, we use the following notations:
 * ''R''(A, B): A ''R'' B, for example ''is_a''(A, B) is equivalent to A ''is_a'' B. This is the functional form of assertions.
 * Reification: assertions about assertions. I.e., A, B, ... may also be assertions. For example, the yellow that ''inheres_in'' a particular dorsal fin ''is_a'' yellow, which we can write formally as: ''is_a''(''inheres_in''(yellow, dorsal_fin), yellow).
 
-=== Upside down A's (<math>\forall</math>), wrong sided E's (<math>\atleast</math>), and double arrows (<math>\Rightarrow</math>) translated ===
+=== Upside down A's (<math>\forall</math>), wrong sided E's (<math>\some</math>), and double arrows (<math>\Rightarrow</math>) translated ===
 
 In first order logic (FOL), it is common to assert statements about all possible instances of a concept in the real world. Let us start with all puppies are dogs. This can be done as shown below in (1)
 
@@ -26,9 +26,9 @@ The inverted A (<math>\forall</math>) is called the ''universal quantifier'' and
 
 "''For all As such that A is a Puppy, implies that A is a Dog''"
 
-or even simpler as we shall readily comprehend, "''All puppies are dogs''." Note this is a simple assertion of the semantics of the ''is_a'' predicate that is so common to Phenoscape. Everyone will understand ''is_a''(Puppy, Dog). The ''is_a'' relation is an upward abstraction from the quantified instances we have used in (1). 
+or even simpler as we shall readily comprehend, "''All puppies are dogs''." Note this is a simple assertion of the semantics of the ''is_a'' predicate that is so common to Phenoscape. Everyone will understand ''is_a''(Puppy, Dog). The ''is_a'' relation is an upward abstraction from the quantified instances we have used in (1).
 
-Similarly, we may wish to assert statements that do not hold for every possible instance, as in ''Some puppies are lazy''. This is where the wrong sided E (or the ''existential quantifier'' as logicians will call them) come into use. The sentence, "Some puppies are lazy" can be stated in FOL as 
+Similarly, we may wish to assert statements that do not hold for every possible instance, as in ''Some puppies are lazy''. This is where the wrong sided E (or the ''existential quantifier'' as logicians will call them) come into use. The sentence, "Some puppies are lazy" can be stated in FOL as
 
 ==Implemented Relation Properties==
 
