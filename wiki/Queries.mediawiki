@@ -39,7 +39,3 @@ Genotype                              exhibits                 inheres_in(Qualit
 
 ==Taxon Services==
 These will be implemented for the first time in the ASIH prototype
-
-==How is a query constructed and executed?==
-Before a query is dispatched to the database for execution, it is assembled over several stages, using a host of Java methods spread across two projects. Click on the link below to find the gory details of query construction and execution
-* [[Querying done the OBD way]]
