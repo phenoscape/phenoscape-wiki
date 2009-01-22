@@ -23,7 +23,7 @@ To test the efficiency of the new queries, more methods need to be added to the 
 ==Anatomical Entity Services==
 
 
-* Click on the link below to find the details of the querying strategy implemented in the SICB prototype 
+* Click on the link below to find the details of the querying strategy implemented in the SICB prototype
 ** [[Queries for Phenoscape UI demo'ed at SICB, Boston in Jan 2009]]
 
 * Click on the link below to find the details of the querying strategies being tested now for the ASIH prototype
@@ -39,3 +39,7 @@ Genotype                              exhibits                 inheres_in(Qualit
 
 ==Taxon Services==
 These will be implemented for the first time in the ASIH prototype
+
+==How is a query constructed and executed?==
+Before a query is dispatched to the database for execution, it is assembled over several stages, using a host of Java methods spread across two projects. Click on the link below to find the gory details of query construction and execution
+* [[Querying done the OBD way]]
