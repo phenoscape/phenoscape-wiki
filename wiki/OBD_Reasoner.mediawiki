@@ -18,9 +18,7 @@ When describing rules below, we use the following notations:
 
 In first order logic (FOL), it is common to assert statements about all possible instances of a concept in the real world. Let us start with all puppies are dogs. This can be done as shown below in (1)
 
-<javascript>
-<math>\forall</math> A: ''instance_of''(Puppy, A) <math>\Rightarrow</math> ''instance_of''(Dog, A)                  -- (1)
-</javascript>
+'''<math>\forall</math> A: ''instance_of''(Puppy, A) <math>\Rightarrow</math> ''instance_of''(Dog, A)'''                  -- (1)
 
 The inverted A (<math>\forall</math>) is called the ''universal quantifier'' and can be translated to "for every" or " for all" in plain English. Similarly, the colon (:) in the FOL statement above can be read as "such that." The double arrow (<math>\Rightarrow</math>) is also called ''directional implication''. It can be translated into English to mean "implies" or "follows." Therefore, the sentence above translated into English reads:
 
