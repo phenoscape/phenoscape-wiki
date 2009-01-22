@@ -6,15 +6,22 @@ This is a development roadmap for the second production iteration of the Phenosc
 
 ==Cartik==
 
+This offers a outline of my tasks for the coming months.
+
 ===January 2009===
 <sup>*</sup> indicates task dependency
-* Work on moving database connection parameters from code to properties file that does not go into SVN. '''[Done]'''
-* Document inherited database query module in OBD API* '''[In Progress]'''
-* Finish documentation of the OBD reasoner on the Wiki '''[First iteration done]'''
-* Investigate implementation of Unit test modules for database queries* [Partially done]
-* Work on Unit test modules for database queries* [Partially done]
-* Document performance metrics of database queries from Unit test cases* '''[In Progress]'''
-* Document query optimization patterns for database queries* '''[In Progress]'''
+* Work on moving database connection parameters from code to properties file that does not go into SVN. 
+** STATUS: Complete
+* Document inherited database query module in OBD API* 
+** STATUS: In progress
+* Finish documentation of the OBD reasoner on the Wiki
+** STATUS: In progress
+* Work on Unit test modules for database queries* 
+** STATUS: In progress
+* Document performance metrics of database queries from Unit test cases* 
+** STATUS: In progress
+* Document query optimization patterns for database queries* 
+** STATUS: In progress
 
 ===February===
 * Complete documentation of query execution methods*
