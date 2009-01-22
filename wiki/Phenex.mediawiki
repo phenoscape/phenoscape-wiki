@@ -86,9 +86,8 @@ Using the menu item "File > Merge NEXUS Matrix...", you can merge matrix values 
 ===February 2009===
 * Panel for matrix cell-specific information, e.g. evidence codes
 ===March 2009===
-===April 2009===
+===April 2009 - Phenex 1.0===
 * Ontology configuration interface
-====Phenex 1.0====
 
 [[Category:Curation]]
 [[Category:Informatics]]
