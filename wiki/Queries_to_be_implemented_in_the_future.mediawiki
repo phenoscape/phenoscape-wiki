@@ -229,3 +229,5 @@ inheres_link.object_id = anatomy_node.node_id;
 ====Execution Details====
 * Rows returned: 2070
 * Time: 0.6 ~ 17 s
+
+[[Category:Database]]
