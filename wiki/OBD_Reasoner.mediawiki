@@ -26,7 +26,7 @@ The inverted A (<math>\forall</math>) is called the ''universal quantifier'' and
 
 or even simpler as we shall readily comprehend, "''All puppies are dogs''." Note this is a simple assertion of the semantics of the ''is_a'' predicate that is so common to Phenoscape. Everyone will understand ''is_a''(Puppy, Dog). The ''is_a'' relation is an upward abstraction from the quantified instances we have used in (1).
 
-The "cap" or "A minus the stripe" (<math>\and</math>) is the FOL construct to specify 'conjunction' and can be translated to "and" in plain English. The FOL statement below states the transitive property of the ''is_a'' relation
+The "cap" or "A minus the stripe" (<math>\and</math>) is the FOL construct to specify ''conjunction'' and can be translated to "and" in plain English. The FOL statement below states the transitive property of the ''is_a'' relation
 
 '''<math>\forall</math> A, B, C: ''is_a''(A, B) <math>\and</math> ''is_a''(B, C) <math>\Rightarrow</math> ''is_a''(A, C)'''  -- (2)
 
