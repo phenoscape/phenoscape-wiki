@@ -107,3 +107,5 @@ pred_uid LIKE '%OBO_REL:is_a%';
 ====Execution====
 * Time: 162 ms
 * Rows returned: 2
+
+[[Category:Database]]
