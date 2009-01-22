@@ -14,6 +14,22 @@ When describing rules below, we use the following notations:
 * ''R''(A, B): A ''R'' B, for example ''is_a''(A, B) is equivalent to A ''is_a'' B. This is the functional form of assertions.
 * Reification: assertions about assertions. I.e., A, B, ... may also be assertions. For example, the yellow that ''inheres_in'' a particular dorsal fin ''is_a'' yellow, which we can write formally as: ''is_a''(''inheres_in''(yellow, dorsal_fin), yellow).
 
+=== Upside down A's (<math>\forall</math>), wrong sided E's (<math>\atleast</math>), and double arrows (<math>\Rightarrow</math>) translated ===
+
+In first order logic (FOL), it is common to assert statements about all possible instances of a concept in the real world. Let us start with all puppies are dogs. This can be done as shown below in (1)
+
+<javascript>
+<math>\forall</math> A: ''instance_of''(Puppy, A) <math>\Rightarrow</math> ''instance_of''(Dog, A)                  -- (1)
+</javascript>
+
+The inverted A (<math>\forall</math>) is called the ''universal quantifier'' and can be translated to "for every" or " for all" in plain English. Similarly, the colon (:) in the FOL statement above can be read as "such that." The double arrow (<math>\Rightarrow</math>) is also called ''directional implication''. It can be translated into English to mean "implies" or "follows." Therefore, the sentence above translated into English reads:
+
+"''For all As such that A is a Puppy, implies that A is a Dog''"
+
+or even simpler as we shall readily comprehend, "''All puppies are dogs''." Note this is a simple assertion of the semantics of the ''is_a'' predicate that is so common to Phenoscape. Everyone will understand ''is_a''(Puppy, Dog). The ''is_a'' relation is an upward abstraction from the quantified instances we have used in (1). 
+
+Similarly, we may wish to assert statements that do not hold for every possible instance, as in ''Some puppies are lazy''. This is where the wrong sided E (or the ''existential quantifier'' as logicians will call them) come into use. The sentence, "Some puppies are lazy" can be stated in FOL as 
+
 ==Implemented Relation Properties==
 
 === Relation Transitivity===
@@ -71,7 +87,7 @@ Relation (role) compositions are of the form A ''R''<sub>1</sub> B, B ''R''<sub>
 
 '''Rule:'''<math>\forall</math>A, 'R' and 'R' reflexive  <math>\Rightarrow</math> A ''R'' A
 
-Reflexive relations relate their arguments to themselves. A good example: "A rose ''is_a'' rose." The ''is_a'' relation is reflexive. In the database, every class, instance, or relation (having a corresponding identifier in the ''Node'' table of the database) is inferred by the reasoner to be related to itself through the ''is_a'' relation. Given a class called Siluriformes (with identifier TTO:302), the reasoner adds the TTO:302 ''is_a'' TTO:302 to the database. 
+Reflexive relations relate their arguments to themselves. A good example: "A rose ''is_a'' rose." The ''is_a'' relation is reflexive. In the database, every class, instance, or relation (having a corresponding identifier in the ''Node'' table of the database) is inferred by the reasoner to be related to itself through the ''is_a'' relation. Given a class called Siluriformes (with identifier TTO:302), the reasoner adds the TTO:302 ''is_a'' TTO:302 to the database.
 
 The subsumption (''is_a'') relation is the only reflexive relation that is handled by the reasoner. Other reflexive relations abound in the real world, ''subset_of'' is a good mathematical example from the domain of set theory. Every set is a subset of itself. Such relations are NOT dealt with by the reasoner.
 
@@ -120,7 +136,7 @@ An example of relation inversions can be found in the ''posterior_to'' and ''ant
 
 '''Rule:''' <math>\forall</math>A, B, X, ''R'': ''R''(A, X) <math>\and</math> ''is_a''(A, B) <math>\Rightarrow</math> ''R''(B, X)
 
-This rule was proposed by Jim Balhoff to reason upwards in a (typically taxonomic) hierarchy using the ''exhibits'' relation. A relevant example: GIVEN THAT ''Danio rerio'' exhibits a round fin AND ''Danio rerio'' is a Danio THEN Danio exhibits round fin. Note that ''exhibits'' has someOf semantics - so the inference is that ''some of'' Danio exhibit the phenotype. 
+This rule was proposed by Jim Balhoff to reason upwards in a (typically taxonomic) hierarchy using the ''exhibits'' relation. A relevant example: GIVEN THAT ''Danio rerio'' exhibits a round fin AND ''Danio rerio'' is a Danio THEN Danio exhibits round fin. Note that ''exhibits'' has someOf semantics - so the inference is that ''some of'' Danio exhibit the phenotype.
 
 This is the exact opposite of the ''genus differentia'' rule which postulates reasoning only downwards in a hierarchy. The relevance of this rule to the Phenoscape project needs to be discussed.
 * In our use-case, A and B are terms from a species taxonomy, and ''R'' is the ''exhibits'' relation.
