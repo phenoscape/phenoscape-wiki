@@ -14,7 +14,7 @@ When describing rules below, we use the following notations:
 * ''R''(A, B): A ''R'' B, for example ''is_a''(A, B) is equivalent to A ''is_a'' B. This is the functional form of assertions.
 * Reification: assertions about assertions. I.e., A, B, ... may also be assertions. For example, the yellow that ''inheres_in'' a particular dorsal fin ''is_a'' yellow, which we can write formally as: ''is_a''(''inheres_in''(yellow, dorsal_fin), yellow).
 
-=== Upside down A's (<math>\forall</math>), wrong sided E's (<math>\some</math>), and double arrows (<math>\Rightarrow</math>) translated ===
+=== Upside down A's (<math>\forall</math>), wrong sided E's (<math>\forsome</math>), and double arrows (<math>\Rightarrow</math>) translated ===
 
 In first order logic (FOL), it is common to assert statements about all possible instances of a concept in the real world. Let us start with all puppies are dogs. This can be done as shown below in (1)
 
