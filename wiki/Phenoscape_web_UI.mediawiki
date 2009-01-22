@@ -62,3 +62,7 @@ title: Phenoscape web UI
 *Overall performance evaluation
 
 ===Public launch: ASIH meeting, Portland, Oregon - July 22, 2009===
+
+[[Category:Roadmaps]]
+[[Category:User Interface]]
+[[Category:Informatics]]
