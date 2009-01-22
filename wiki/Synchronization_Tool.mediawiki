@@ -33,6 +33,8 @@ If both namespaces to be synchronized are in one ontology file, it can be opened
 ====Missing Terms====
 ====Structural Differences====
 
+===Saving changes===
+
 [[Category:Informatics]]
 [[Category:Ontology]]
 [[Category:Curation]]
