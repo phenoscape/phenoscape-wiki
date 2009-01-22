@@ -33,6 +33,8 @@ To test the efficiency of the new queries, more methods need to be added to the 
 The querying strategy for the Gene Services module of SICB prototype is identical to the strategy for the Anatomy Services module. This strategy also involves the spawning of multiple queries, which add to the backend bottleneck. The only difference in this case is this strategy leverages the relationships between genes and genotypes and then, the genotypes and phenotypes (as shown in (1) and (2) below to retrieve the desired information.
 
 <javascript>
+Gene                                  has_allele               Genotype                                                          -- (1)
+Genotype                              exhibits                 inheres_in(Quality, Entity)                                       -- (2)
 </javascript>
 
 ==Taxon Services==
