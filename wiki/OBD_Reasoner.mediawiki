@@ -24,13 +24,13 @@ The inverted A (<math>\forall</math>) is called the ''universal quantifier'' and
 
 "''For all As such that A is a Puppy, implies that A is a Dog''"
 
-or even simpler as we shall readily comprehend, "''All puppies are dogs''." Note this is a simple assertion of the semantics of the ''is_a'' predicate that is so common to Phenoscape. Everyone will understand ''is_a''(Puppy, Dog). The ''is_a'' relation is an upward abstraction from the quantified instances we have used in (1). 
+or even simpler as we shall readily comprehend, "''All puppies are dogs''." Note this is a simple assertion of the semantics of the ''is_a'' predicate that is so common to Phenoscape. Everyone will understand ''is_a''(Puppy, Dog). The ''is_a'' relation is an upward abstraction from the quantified instances we have used in (1).
 
 The "cap" (<math>and</math>) is the FOL construct to specify 'conjunction' and can be translated to "and" in plain English. The FOL statement below states the transitive property of the ''is_a'' relation
 
-'''<math>\forall</math> A, B, C: ''is_a''(A, B) <math>\and</math> ''is_a''(B, C) <math>\Rightarrow</math> ''is_a'(A, C)'''  -- (2)
+'''<math>\forall</math> A, B, C: ''is_a''(A, B) <math>\and</math> ''is_a''(B, C) <math>\Rightarrow</math> ''is_a''(A, C)'''  -- (2)
 
-The statement (2) above can be translated to read: 
+The statement (2) above can be translated to read:
 
 ''For all A, B, and C, such that A is a B, and B is a C, it follows that A is a C''
 
