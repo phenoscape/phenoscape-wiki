@@ -116,12 +116,18 @@ NOTE: There is no direct relationship between ''relation symmetry'' and ''relati
 
 An example of relation inversions can be found in the ''posterior_to'' and ''anterior_to'' relations. IF anterior_nuchal_plate ''anterior_to'' middle_nuchal_plate AND ''anterior_to'' ''inverse_of'' ''posterior_to'', THEN middle_nuchal_plate ''posterior_to'' anterior_nuchal_plate
 
-===The Balhoff rule===
+=== The Balhoff rule ===
 
-'''Rule:''' <math>\forall</math>A, B, ''R'': ''R''(A, B) <math>\and</math> ''is_a''(A, C) <math>\Rightarrow</math> ''R''(C, B)
+'''Rule:''' <math>\forall</math>A, B, X, ''R'': ''R''(A, X) <math>\and</math> ''is_a''(A, B) <math>\Rightarrow</math> ''R''(B, X)
 
-This rule was proposed by Jim Balhoff to reason upwards in a hierarchy using the ''exhibits'' property. A relevant example: GIVEN THAT Danio Rerio exhibits a round fin AND Danio Rerio is a Danio THEN Danio exhibits round fin. This is the exact opposite of the ''genus differentia'' rule which postulates reasoning only downwards in a hierarchy. The relevance of this rule to the Phenoscape project is to be discussed shortly
+This rule was proposed by Jim Balhoff to reason upwards in a (typically taxonomic) hierarchy using the ''exhibits'' relation. A relevant example: GIVEN THAT ''Danio rerio'' exhibits a round fin AND ''Danio rerio'' is a Danio THEN Danio exhibits round fin. Note that ''exhibits'' has someOf semantics - so the inference is that ''some of'' Danio exhibit the phenotype. 
 
+This is the exact opposite of the ''genus differentia'' rule which postulates reasoning only downwards in a hierarchy. The relevance of this rule to the Phenoscape project needs to be discussed.
+* In our use-case, A and B are terms from a species taxonomy, and ''R'' is the ''exhibits'' relation.
+** Should the above rule be narrowed to only hold for ''exhibits'', rather than for any relation ''R''?
+** Should the rule be narrowed to require that A and B be from a species taxonomy (if so, how would one codify that in first-order logic?), or would that be implied if ''R'' is narrowed to ''exhibits''? For example, would the rule still hold is A and B are genotypes?
+* As we reason upwards the taxonomy using this rule, we would accumulate ultimately the union of all annotated phenotypes for the root species node. Is this useful?
+* Once we change the species taxonomy to use the ''member_of'' relation in place of the ''is_a'' relation, would the above rule still apply? In fact, would it apply then in a cleaner way, in the sense of being more compatible with the semantics of ''member_of'' compared to ''is_a''?
 
 ==The problem with absence of features==
 
