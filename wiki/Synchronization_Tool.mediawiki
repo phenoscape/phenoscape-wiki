@@ -20,7 +20,11 @@ The Synchronization Tool source includes both an Eclipse project (used for most 
 Report any bugs and make feature requests using the [http://sourceforge.net/tracker/?group_id=224046&atid=1126441 Synchronization Tool issue tracker]. You will need to log in with a Sourceforge account to submit an issue (just create an account if you don't already have one). Be sure to choose a group for your new issue, either Bug Report or Feature Request.
 
 ==Usage==
-''Forthcoming.''
+===Tabs===
+====Missing Dbxrefs====
+====Conflicting Data====
+====Missing Terms====
+====Structural Differences====
 
 [[Category:Informatics]]
 [[Category:Ontology]]
