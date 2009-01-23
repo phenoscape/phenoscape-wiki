@@ -29,8 +29,11 @@ If both namespaces to be synchronized are in one ontology file, it can be opened
 
 ===Tabs===
 ====Missing Dbxrefs====
+These terms have the same name, but there is no Dbxref in the term from the referring namespace to the term in the master namespace.
 ====Conflicting Data====
+These terms have an Dbxref from a term in the referring namespace to a term in the master namespace; however they differ in either their name or definition.
 ====Missing Terms====
+These are terms in the referring namespace that have no Dbxref to a term in the master namespace, or terms in the master namespace that are not Dbxref'd from any term in the referring namespace.  A subset of these may also be listed under the "Missing Dbxrefs" tab.
 ====Structural Differences====
 
 ===Saving changes===
