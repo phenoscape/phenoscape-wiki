@@ -35,6 +35,7 @@ These terms have an Dbxref from a term in the referring namespace to a term in t
 ====Missing Terms====
 These are terms in the referring namespace that have no Dbxref to a term in the master namespace, or terms in the master namespace that are not Dbxref'd from any term in the referring namespace.  A subset of these may also be listed under the "Missing Dbxrefs" tab.
 ====Structural Differences====
+Not yet implemented.
 
 ===Saving changes===
 
