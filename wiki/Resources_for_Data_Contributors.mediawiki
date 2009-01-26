@@ -36,6 +36,7 @@ The primary activity of a curator is to annotate the free-text characters from s
 ==5. Update Taxon Lists==
 
 Most project files require a taxonomic expert to review the taxonomy used in a publication and update to reflect current taxonomy. Please see instructions for [[Update Taxon Lists| updating taxon lists]].
+[[Creating Tree Files| updating taxon lists]].
 
 ==6. Request New Terms for Ontologies==
 
