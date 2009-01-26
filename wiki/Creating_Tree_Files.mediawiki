@@ -1,0 +1,11 @@
+---
+title: Creating Tree Files
+---
+
+Creating trees using Mesquite
+
+#Starting with a nexus file containing matrix for publication
+
+#Starting from list of matrix taxon names
+
+[[Category:Curation]]
