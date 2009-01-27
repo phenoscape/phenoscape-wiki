@@ -534,15 +534,15 @@ Citation is:
 Mayden, R.L. 1989. Phylogenetic studies of North American Minnows, with
 emphasis on the Genus Cyprinella (Teleostei: Cypriniformes). ''Univ. Kansas Misc. Publ.'' No. 80. 189p.
 
-''Hybopsis'' cf. ''labrosa'' (Mayden 1989) added as species
-''Notropis'' cf. ''spectrunculus'' (Mayden 1989) added as species
-''Erimystax monacha'' added as synonym of ''Erimonax monachus''
-''Extrarius aestivalis'' added as synonym of ''Macrhybopsis aestivalis''
-''Gila copei'' added as synonym of ''Snyderichthys copei''
-''Hybopsis alborus'' added as synonym of ''Notropis alborus''
-''Hybopis boucardi'' added as synonym of ''Notropis boucardi''
-''Hybopsis calientis'' added as synonym of ''Notropis calientis''
-''Hybopsis labrosa'' added as synonym of ''Cyprinella labrosa''
+* ''Hybopsis'' cf. ''labrosa'' (Mayden 1989) added as species
+* ''Notropis'' cf. ''spectrunculus'' (Mayden 1989) added as species
+* ''Erimystax monacha'' added as synonym of ''Erimonax monachus''
+* ''Extrarius aestivalis'' added as synonym of ''Macrhybopsis aestivalis''
+* ''Gila copei'' added as synonym of ''Snyderichthys copei''
+* ''Hybopsis alborus'' added as synonym of ''Notropis alborus''
+* ''Hybopis boucardi'' added as synonym of ''Notropis boucardi''
+* ''Hybopsis calientis'' added as synonym of ''Notropis calientis''
+* ''Hybopsis labrosa'' added as synonym of ''Cyprinella labrosa''
 
 =Update from August 2008 Catalog of Fishes=
 TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.
