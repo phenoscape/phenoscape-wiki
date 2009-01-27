@@ -556,6 +556,17 @@ East Africa. ''Journal of Fish Biology'' 65:1412-1430.
 * ''Brycinus schoutedini'' added as synonym of ''Alestes schoutedeni''
 * ''Brycinus tholloni'' added as synonym of ''Alestes tholloni''
 
+=Changes resulting from publication Hoffmann and Britz (2006)=
+Citation is:
+M. Hoffmann and R. Britz. 2006. Ontogeny and homology of the neural complex
+of otophysan Ostariophysi. ''Zool. J. Linn. Soc.'' 147:301-330.
+
+* ''Kneria'' sp. (Hoffmann and Britz 2006)
+* ''Puntius'' sp. (Hoffmann and Britz 2006)
+* ''Devario'' cf. ''aequipinnatus'' (Hoffmann and Britz 2006)
+* ''Ancistrus'' sp. (Hoffmann and Britz 2006)
+
+
 
 =Update from August 2008 Catalog of Fishes=
 TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.
