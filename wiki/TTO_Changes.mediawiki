@@ -543,6 +543,9 @@ emphasis on the Genus Cyprinella (Teleostei: Cypriniformes). ''Univ. Kansas Misc
 * ''Hybopis boucardi'' added as synonym of ''Notropis boucardi''
 * ''Hybopsis calientis'' added as synonym of ''Notropis calientis''
 * ''Hybopsis labrosa'' added as synonym of ''Cyprinella labrosa''
+* ''Hybopsis longirostris'' added as synonym of ''Notropis longirostris''
+* ''Hybopsis sabinae'' added as synonym of ''Notropis sabinae''
+* ''Extrarius aestivalis''added as synonym of ''Macrhybopsis aestivalis''
 
 =Update from August 2008 Catalog of Fishes=
 TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.
