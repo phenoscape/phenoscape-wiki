@@ -71,7 +71,7 @@ Fink, SV. and Fink, WL. 1981. Interrelations of the ostariophysan fishes (Teleos
 =Changes resulting from a project decision to add and reorganize higher level taxa to follow Nelson(2006) and the ToLWeb website=
 * Chordata added as phylum
 * Myxinomorphi added without rank
-* Hyperotreti added as synonym of 'Myxinomorphi'
+* Hyperotreti added as synonym of Myxinomorphi
 * Myxini removed (not obsoleted)
 * Vertebrata added without rank
 * Petromyzontomorphi added without rank
