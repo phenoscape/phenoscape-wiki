@@ -505,6 +505,35 @@ Roberts, T. R. 1969. Osteology and relationships of characoid fishes, particular
 * ''Mylossoma sp. (Roberts 1969)'' added as species
 * ''Serrasalmus sp. (Roberts 1969)'' added as species
 
+=Changes resulting from publication Sawada (1982)=
+Citation is:
+Sawada, Yukio. 1982. Phylogeny and zoogeography of the superfamily
+Cobitoidea (Cyprinoidei, Cypriniformes). ''Mem. Fac. Fish. Hokkaido Univ.''
+28:65-223.
+
+* ''Acanthopsoides graciroides'' added as species
+* ''Botia hymenophysa'' added as synonym of ''Syncrossus hymenophysa''
+* ''Somileptes gongata'' added as synonym of ''Canthophrys gongata''
+* ''Cobitis paludicola'' added as synonym of ''Cobitis taenia''
+* ''Acanthophthalmus anguillaris'' added as synonym of ''Pangio anguillaris''
+* ''Noemacheilus barbatulus'' added as synonym of ''Barbatula barbatula''
+* ''Noemacheilus postventralis'' added as synonym of ''Barbatula toni''
+* ''Noemacheilus botia'' added as synonym of ''Acanthocobitis botia''
+* ''Noemachilus masyae'' added as synonym of ''Nemacheilus masyae''
+* ''Nemacheilus panthera'' added as synonym of ''Orthrias panthera''
+* ''Nemacheilus fasciolata'' added as synonym of ''Schistura fasciolata''
+* ''Noemacheilus potanini'' added as synonym of ''Paracobitis potanini''
+* ''Hemimyzon formosanum'' added as synonym of ''Hemimyzon formosanus''
+* ''Squalidus biwae'' added as synonym of ''Squalidus chankaensis''
+* ''Acheilognathus lanceolata'' added as synonym of ''Tanakia lanceolata''
+* ''Acheilognathus rhombea'' added as synonym of ''Acheilognathus rhombeus''
+* ''Garra rufus'' added as synonym of ''Garra rufa''
+
+
+
+
+
+
 =Update from August 2008 Catalog of Fishes=
 TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.
 
