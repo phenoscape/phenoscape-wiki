@@ -547,6 +547,16 @@ emphasis on the Genus Cyprinella (Teleostei: Cypriniformes). ''Univ. Kansas Misc
 * ''Hybopsis sabinae'' added as synonym of ''Notropis sabinae''
 * ''Extrarius aestivalis''added as synonym of ''Macrhybopsis aestivalis''
 
+=Changes resulting from publication Murray (2004)=
+Citation is:
+Murray, A. M. 2004. Osteology and morphology of the characiform fish
+Alestes stuhlmannii Pfeffer, 1896 (Alestidae) from the Rufiji River basin,
+East Africa. ''Journal of Fish Biology'' 65:1412-1430.
+
+* ''Brycinus schoutedini'' added as synonym of ''Alestes schoutedeni''
+* ''Brycinus tholloni'' added as synonym of ''Alestes tholloni''
+
+
 =Update from August 2008 Catalog of Fishes=
 TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.
 
