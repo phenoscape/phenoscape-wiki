@@ -529,6 +529,12 @@ Cobitoidea (Cyprinoidei, Cypriniformes). ''Mem. Fac. Fish. Hokkaido Univ.''
 * ''Acheilognathus rhombea'' added as synonym of ''Acheilognathus rhombeus''
 * ''Garra rufus'' added as synonym of ''Garra rufa''
 
+=Changes resulting from publication Mayden (1989)=
+Citation is: 
+Mayden, R.L. 1989. Phylogenetic studies of North American Minnows, with
+emphasis on the Genus Cyprinella (Teleostei: Cypriniformes). ''Univ. Kansas
+Misc. Publ.'' No. 80. 189p.
+
 
 
 
