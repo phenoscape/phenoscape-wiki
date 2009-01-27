@@ -594,9 +594,8 @@ Cyprinidae and their phylogenetic relationships. ''Acta Zootaxonomica Sinica''
 
 =Changes resulting from publication Coburn and Cavender (1992)=
 Citation is:
-Coburn, Miles M., and Ted M. Cavender. 1992. Interrelationships of North
-American cyprinid fishes. Pp. 323-378 In: ''Systematics, Historical Ecology,
-and North American Freshwater Fishes''. R.L. Mayden (Ed.). Stanford
+Coburn, Miles M., and Ted M. Cavender. 1992. Interrelationships of North American cyprinid fishes. Pp. 323-378 
+In: ''Systematics, Historical Ecology, and North American Freshwater Fishes''. R.L. Mayden (Ed.). Stanford
 University Press. Stanford, California. 969 p.
 
 * ''Hybognathus'' sp. (Coburn & Cavender 1992) added as species
