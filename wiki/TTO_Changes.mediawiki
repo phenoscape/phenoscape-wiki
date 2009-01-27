@@ -566,6 +566,37 @@ of otophysan Ostariophysi. ''Zool. J. Linn. Soc.'' 147:301-330.
 * ''Devario'' cf. ''aequipinnatus'' (Hoffmann and Britz 2006)
 * ''Ancistrus'' sp. (Hoffmann and Britz 2006)
 
+=Changes resulting from publication Chen et al. (1984)=
+Citation is:
+Chen X-L., Yue P-Q, and Lin R-D. 1984. Major groups within the family
+Cyprinidae and their phylogenetic relationships. 'Acta Zootaxonomica Sinica'
+9:424-440.
+
+* ''Alburnus'' sp. (Chen et al 1984) added as species
+* ''Barilius microcephalum'' added as synonym of ''Opsaridium microcephalum''
+* ''Rutilus rutilus lacustris'' added as synonym of ''Rutilus rutilus''
+* ''Erythroculter dabryi'' added as synonym of ''Chanodichthys dabryi''
+* ''Erythroculter ilishaeformis'' added as synonym of ''Chanodichthys erythropterus''
+* ''Aristichthys nobilis'' added as synonym of ''Hypophthalmichthys nobilis''
+* ''Gnathopogon argentatus'' added as synonym of ''Squalidus argentatus''
+* ''Gnathopogon wolterstorffi'' added as synonym of ''Squalidus wolterstorffi''
+* ''Gobio gobio cynocephalus'' added as synonym of ''Gobio cynocephalus''
+* ''Pseudogobio vaillanti vaillanti'' added as synonym of ''Pseudogobio vaillanti''
+* ''Barbodes daliensis'' added as synonym of ''Poropuntius daliensis''
+* ''Percocypris pingi regani'' added as synonym of ''Percocypris regain''
+* ''Spinibarbus caldwelli'' added as synonym of ''Spinibarbus hollandi''
+* ''Varicorhinus lepturus'' added as synonym of ''Onychostoma lepturus''
+* ''Carassioides cantonensis'' added as synonym of''Carassioides acuminatus''
+* ''Garra pingi'' added as synonym of ''Garra imberba''
+* ''Lobocheilus melanotaenia'' added as synonym of ''Lobocheilos melanotaenia''
+* ''Osteochilus vittatus'' added as synonym of ''Osteochilus salsburyi''
+
+
+
+
+
+
+
 
 
 =Update from August 2008 Catalog of Fishes=
