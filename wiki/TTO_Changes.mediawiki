@@ -71,6 +71,7 @@ Fink, SV. and Fink, WL. 1981. Interrelations of the ostariophysan fishes (Teleos
 =Changes resulting from a project decision to add and reorganize higher level taxa=
 Changes were made based on Nelson (2006) and the ToLWeb website.
 Citation for former source is:
+
 Nelson, J. S. 2006. ''Fishes of the World'', 4th ed. John Wiley & Sons, Hoboken,
 New Jersey.
 
@@ -591,8 +592,23 @@ Cyprinidae and their phylogenetic relationships. 'Acta Zootaxonomica Sinica'
 * ''Lobocheilus melanotaenia'' added as synonym of ''Lobocheilos melanotaenia''
 * ''Osteochilus vittatus'' added as synonym of ''Osteochilus salsburyi''
 
+=Changes resulting from publication Coburn and Cavender (1992)=
+Citation is:
+Coburn, Miles M., and Ted M. Cavender. 1992. Interrelationships of North
+American cyprinid fishes. Pp. 323-378 In: 'Systematics, Historical Ecology,
+and North American Freshwater Fishes'. R.L. Mayden (Ed.). Stanford
+University Press. Stanford, California. 969 p.
 
-
+* ''Hybognathus'' sp. (Coburn & Cavender 1992) added as species
+* ''Notropis'' sp. "sawfin shiner" (Coburn & Cavender 1992) added as species
+* ''Garra'' sp. 'Discognathichthys' (Coburn & Cavender 1992) added as species
+* ''Garra'' sp. (Coburn & Cavender 1992) added as species
+* ''Lobocheilos'' sp. (Coburn & Cavender 1992) added as species
+* ''Rasbora'' sp. (Coburn & Cavender 1992) added as species
+* ''Salmophasia'' sp. (Coburn & Cavender 1992) added as species
+* ''Rohtee cotio'' added as synonym of ''Osteobrama cotio''
+* ''Notropis callistius'' added as synonym of ''Cyprinella callistia''
+ 
 
 
 
