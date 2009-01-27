@@ -71,7 +71,7 @@ Fink, SV. and Fink, WL. 1981. Interrelations of the ostariophysan fishes (Teleos
 =Changes resulting from a project decision to add and reorganize higher level taxa=
 Changes were made based on Nelson (2006) and the ToLWeb website.
 Citation for former source is:
-Nelson, J. S. 2006. Fishes of the World, 4th ed. John Wiley & Sons, Hoboken,
+Nelson, J. S. 2006. ''Fishes of the World'', 4th ed. John Wiley & Sons, Hoboken,
 New Jersey.
 
 * Chordata added as phylum
