@@ -69,7 +69,8 @@ Fink, SV. and Fink, WL. 1981. Interrelations of the ostariophysan fishes (Teleos
 * ''Danio devario'' added as synonym of ''Devario devario''
 
 =Changes resulting from a project decision to add and reorganize higher level taxa=
-citation for latter source is:
+Changes were made based on Nelson (2006) and the ToLWeb website.
+Citation for former source is:
 
 
 * Chordata added as phylum
