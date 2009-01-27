@@ -69,6 +69,10 @@ Fink, SV. and Fink, WL. 1981. Interrelations of the ostariophysan fishes (Teleos
 * ''Danio devario'' added as synonym of ''Devario devario''
 
 =Changes resulting from a project decision to add and reorganize higher level taxa to follow Nelson(2006) and the ToLWeb website=
+Sources are the ToLWeb website and Nelson(2006)
+citation for latter source is:
+
+
 * Chordata added as phylum
 * Myxinomorphi added without rank
 * Hyperotreti added as synonym of Myxinomorphi
