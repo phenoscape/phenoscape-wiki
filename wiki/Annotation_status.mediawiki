@@ -20,8 +20,8 @@ title: Annotation status
 *Total annotations: 1067
 
 
-*Completed characters = all states have at least one annotation
-**In-progress characters = some state has an annotation
-***Empty characters = no state has an annotation
+ *Completed characters = all states have at least one annotation
+ **In-progress characters = some state has an annotation
+ ***Empty characters = no state has an annotation
 
 [[Category:Curation]]
