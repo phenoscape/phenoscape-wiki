@@ -90,7 +90,7 @@ Fink, SV. and Fink, WL. 1981. Interrelations of the ostariophysan fishes (Teleos
 * Hiodontiformes added as as order
 * Elopomorpha added without rank
 * Ostarioclupeomorphia added without rank
-* Otocephala added as synonym 'Ostarioclupeomorphia'
+* Otocephala added as synonym Ostarioclupeomorphia
 * Clupeomorphia added without rank
 * Ostariophysi added without rank
 * Anotophysi added without rank
@@ -101,6 +101,16 @@ Fink, SV. and Fink, WL. 1981. Interrelations of the ostariophysan fishes (Teleos
 * Neoteleostei added without rank
 * Stenopterygii added without rank
 * Ateleopodomorpha added without rank
+* Cyclosquamata added without rank
+* Scopelomorpha added without rank
+* Acantomorpha added without rank
+* Lampridiformes added without rank
+* Acanthopterygii added without rank
+* Smegmamorpha added without rank
+* Elassomatiformes added as order
+* Mugiliformes added as order
+* Dactylopteriformes added as order
+* Coelocanthiformes added as order
 
 =Changes resulting from publication Britz and Hoffman (2006)=
 
