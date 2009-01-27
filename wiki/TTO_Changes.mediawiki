@@ -594,7 +594,7 @@ Cyprinidae and their phylogenetic relationships. ''Acta Zootaxonomica Sinica''
 
 =Changes resulting from publication Coburn and Cavender (1992)=
 Citation is:
-Coburn, Miles M., and Ted M. Cavender. 1992. Interrelationships of North American cyprinid fishes. Pp. 323-378 
+Coburn, Miles M., and Ted M. Cavender. 1992. Interrelationships of North American cyprinid fishes. Pp. 323-378
 In: ''Systematics, Historical Ecology, and North American Freshwater Fishes''. R.L. Mayden (Ed.). Stanford
 University Press. Stanford, California. 969 p.
 
@@ -607,6 +607,17 @@ University Press. Stanford, California. 969 p.
 * ''Salmophasia'' sp. (Coburn & Cavender 1992) added as species
 * ''Rohtee cotio'' added as synonym of ''Osteobrama cotio''
 * ''Notropis callistius'' added as synonym of ''Cyprinella callistia''
+
+=Changes resulting from publication Buckup (1998)=
+Citation is:
+Buckup, P. A. 1998. Relationships of the Characidiinae and phylogeny of
+characiform fishes (Teleostei: Ostariophysi). Pp. 123-144 in L. R.
+Malabarba, R. E. Reis, R. P. Vari, Z. M. S. Lucena, and C. A. S. Lucena,
+eds. ''Phylogeny and Classification of Neotropical Fishes''. EDIPUCRS, Porto
+Alegre, Brazil.
+
+* ''Characidium'' cf. ''zebra'' (Buckup 1998) added as species
+* ''Charax'' sp. (Buckup 1998) added as species
 
 =Update from August 2008 Catalog of Fishes=
 TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.
