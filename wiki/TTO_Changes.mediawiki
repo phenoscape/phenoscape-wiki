@@ -595,8 +595,8 @@ Cyprinidae and their phylogenetic relationships. ''Acta Zootaxonomica Sinica''
 =Changes resulting from publication Coburn and Cavender (1992)=
 Citation is:
 Coburn, Miles M., and Ted M. Cavender. 1992. Interrelationships of North
-American cyprinid fishes. Pp. 323-378 In: 'Systematics, Historical Ecology,
-and North American Freshwater Fishes'. R.L. Mayden (Ed.). Stanford
+American cyprinid fishes. Pp. 323-378 In: ''Systematics, Historical Ecology,
+and North American Freshwater Fishes''. R.L. Mayden (Ed.). Stanford
 University Press. Stanford, California. 969 p.
 
 * ''Hybognathus'' sp. (Coburn & Cavender 1992) added as species
@@ -608,12 +608,6 @@ University Press. Stanford, California. 969 p.
 * ''Salmophasia'' sp. (Coburn & Cavender 1992) added as species
 * ''Rohtee cotio'' added as synonym of ''Osteobrama cotio''
 * ''Notropis callistius'' added as synonym of ''Cyprinella callistia''
- 
-
-
-
-
-
 
 =Update from August 2008 Catalog of Fishes=
 TTO was updated from the Catalog of Fishes release of August 29, 2008 with the TTOupdate tool.  In addition to CoF changes, the TTOupdate tool captures intermediate synonyms from the CoF status text for each species name.
