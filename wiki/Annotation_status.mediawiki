@@ -5,9 +5,9 @@ title: Annotation status
 ===2009-01-26===
 *Publication count: 78
 *Total characters: 5840
-*Completed characters: 838
-*In-progress characters: 208
-*Empty characters: 4794
+*Completed characters*: 838
+*In-progress characters**: 208
+*Empty characters***: 4794
 *Total annotations: 2345
 
 
@@ -18,5 +18,10 @@ title: Annotation status
 *In-progress characters: 47
 *Empty characters: 4654
 *Total annotations: 1067
+
+
+*Completed characters = all states have at least one annotation
+**In-progress characters = some state has an annotation
+***Empty characters = no state has an annotation
 
 [[Category:Curation]]
