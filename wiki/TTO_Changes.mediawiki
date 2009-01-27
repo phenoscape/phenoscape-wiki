@@ -76,6 +76,28 @@ Fink, SV. and Fink, WL. 1981. Interrelations of the ostariophysan fishes (Teleos
 * 'Vertebrata' added without rank
 * 'Petromyzontomorphi' added without rank
 * 'Cephalaspidomorphi' removed
+* 'Gnathostomata' added without rank
+* 'Chondrichthyes' added without rank
+* 'Chimaeriformes' added as order
+* 'Osteichthyes' added without rank
+* 'Cladistia' added without rank
+* 'Polypteriformes' added as order
+* 'Chondrostei' added without rank
+* 'Neopterygii' added without rank
+* 'Halecostomi' added without rank
+* 'Teleostei' added without rank
+* 'Osteoglossomorpha' added without rank
+* 'Hiodontiformes' added as as order
+* 'Elopomorpha' added without rank
+* 'Ostarioclupeomorphia' added without rank
+* 'Otocephala' added as synonym 'Ostarioclupeomorphia'
+* 'Clupeomorphia' added without rank
+* 'Ostariophysi' added without rank
+* 'Anotophysi' added without rank
+* 'Otophysi' added without rank
+* 'Euteleostei' added without rank
+* 'Protacanthopterygii' added without rank
+* 'Osmeriformes' removed (not obsoleted)
 
 =Changes resulting from publication Britz and Hoffman (2006)=
 
