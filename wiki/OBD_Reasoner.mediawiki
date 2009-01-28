@@ -42,8 +42,6 @@ This can be translated to plain English to:
 
 "''There exists an A such that A is a Bird and A is a Flightless Bird''"
 
-Implications cannot be used with existential quantification. In the above example, we cannot say ALL birds are flightless, only AT LEAST ONE bird is flightless. By extension, AT LEAST ONE bird can fly too. If we had to state that ALL birds are flightless, then we could write an implication statement stating that IF A is a bird THEN A is flightless. 
-
 These are just some of the many constructs from first order logic which find common use in the Phenoscape project. For a full fledged introduction to the joys of FOL, click [http://en.wikipedia.org/wiki/First-order_logic here].
 
 ==Implemented Relation Properties==
