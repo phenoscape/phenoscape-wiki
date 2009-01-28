@@ -12,13 +12,9 @@ The result of this query is the same as for the previous two queries except the 
 <javascript>
 SELECT DISTINCT
 taxon_node.uid AS taxon,
-exhibits_pred_node.uid AS exhibits,
 phenotype_node.uid AS phenotype,
-inheres_pred_node.uid AS inheres,
 anatomy_node.uid AS anatomy,
-is_a_pred_node.uid AS isA,
 quality_node.uid AS quality,
-subset_pred_node.uid AS subset,
 slim_node.uid AS slim
 FROM
 link AS inheres_link, link AS is_a_link, link AS subset_link,
