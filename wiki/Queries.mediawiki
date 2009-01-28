@@ -22,12 +22,36 @@ To test the efficiency of the new queries, more methods need to be added to the 
 
 ==Anatomical Entity Services==
 
+Queries on anatomical entities retrieve information on the qualities that inhere in them, the taxa that exhibit these entity-quality (or more correctly, character-state) combinations. Querying strategies to retrieve this information from the OBD database leverage a number of relation instances which are stored in the OBD database. These are detailed below
 
-* Click on the link below to find the details of the querying strategy implemented in the SICB prototype
-** [[Queries for Phenoscape UI demo'ed at SICB, Boston in Jan 2009]]
+===Relations of interest===
 
-* Click on the link below to find the details of the querying strategies being tested now for the ASIH prototype
-** [[Queries to be implemented in the future]]
+Post compositions of Entities and Qualities are used to relate taxa and phenotypes through the ''exhibits'' relation as shown in (1).
+<javascript>
+Taxon                              exhibits                 inheres_in(Quality, Entity)                                       -- (1)
+</javascript>
+In addition, the OBD database also contains information relating post composed phenotypes to both the Quality and the Entity by different relations as shown in (2) and (3) respectively
+
+<javascript>
+inheres_in(Quality, Entity)        is_a                     Quality                                                           -- (2)
+inheres_in(Quality, Entity)        inheres_in               Entity                                                            -- (3)
+</javascript>
+Quality can be either a Value or an Attribute (beside other slims) and is related to these by the ''in_subset_of'' relation as shown in (4)
+<javascript>
+Quality                            in_subset_of             Slim                                                              -- (4)
+</javascript>
+
+Qualities and Anatomical entities are subclassed in the PATO and TAO hierarchies respectively as shown in (5) and (6)
+<javascript>
+Value                              is_a                    Attribute                                                          -- (5)
+Sub Anatomical Feature             is_a                    Anatomical Feature                                                 -- (6)
+</javascript>
+
+
+
+* The details of these queries can be found [[Queries for Phenoscape UI demo'ed at SICB, Boston in Jan 2009|here]]
+
+* The details of these queries can be found [[Queries to be implemented in the future|here]]
 
 ==Gene Services==
 The querying strategy for the Gene Services module of SICB prototype is identical to the strategy for the Anatomy Services module. This strategy also involves the spawning of multiple queries, which add to the backend bottleneck. The only difference in this case is this strategy leverages the relationships between genes and genotypes and then, the genotypes and phenotypes (as shown in (1) and (2) below to retrieve the desired information.
