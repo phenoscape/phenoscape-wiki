@@ -44,6 +44,8 @@ This can be translated to plain English to:
 
 These are just some of the many constructs from first order logic which find common use in the Phenoscape project. For a full fledged introduction to the joys of FOL, click [http://en.wikipedia.org/wiki/First-order_logic here].
 
+====A brief discussion on existential and universal quantification====
+
 ==Implemented Relation Properties==
 
 === Relation Transitivity===
