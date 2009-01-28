@@ -44,14 +44,6 @@ This can be translated to plain English to:
 
 These are just some of the many constructs from first order logic which find common use in the Phenoscape project. For a full fledged introduction to the joys of FOL, click [http://en.wikipedia.org/wiki/First-order_logic here].
 
-====Existential and universal quantification in the life sciences====
-
-Universal quantification is a very rigid constraint, especially in the context of the life sciences. Consider the fact that all taxa descended from Ostariophysi possess basihyal cartilage, EXCEPT Siluriformes. This can be stated (we'll defer from using proper mathematical logic for now) with Existential Quantification as
-
-''Some Ostariophysi have Basihyal Cartilage''  (Assertion 1)
-
-If the assertions ''Siluriformes are Ostariophysi'' and ''Siluriformes do not have Basihyal Cartilage'' were to be added to the assertion above, it is straightforward to see a contradiction will be avoided in the data. If Assertion 1 was changed to ''All Ostariophysi have Basihyal Cartilage'', then a contradiction (or an inconsistency would be entailed)
-
 ==Implemented Relation Properties==
 
 === Relation Transitivity===
