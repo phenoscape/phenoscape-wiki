@@ -67,14 +67,14 @@ As it is now believed that the multiple query spawning strategy was primarily re
 
 === Performance documentation plans ===
 
-The data retrieval process can be broken down into 4 stages.
+The data retrieval process can be broken down into 3 stages.
 
 * '''Query formulation'''
 ** This happens on the client-side, which is the layer that lies between the Phenoscape UI and the OBD database backend. On the client-side the RESTlet resource opens a connection to the database and calls the Shard which assembles the query and forwards the query to the database for execution through the opened connection
 * '''Query execution'''
-** This happens on the OBD database side. Th
-* '''Database side result processing''' After the results are retrieved, they need to be assembled in a format compatible with the
-* '''Result processing''' On the client side, the retrieved results need t
+** This happens on the OBD database side. The database formulates a query execution plan to find the most optimal way in terms of time and memory to execute the query. Then the database executes the query and returns the results to the Shard on the client side
+* '''Result processing''' 
+** On the client side, the retrieved results need to be processed in two stages. First, the retrieved rows of data need to be assembled into nodes by the Shard. All the columns for each of the retrieved rows are transformed into a combination of outward directed edges (relative to a central node) and target nodes. All these nodes are then sent back to the RESTlet resource, which then processes these nodes into the format specified by the Phenoscape UI. As of now, the format used by the Phenoscape UI is JSON.
 
 ==Gene Services==
 The querying strategy for the Gene Services module of SICB prototype is identical to the strategy for the Anatomy Services module. This strategy also involves the spawning of multiple queries, which add to the backend bottleneck. The only difference in this case is this strategy leverages the relationships between genes and genotypes and then, the genotypes and phenotypes (as shown in (1) and (2) below to retrieve the desired information.
