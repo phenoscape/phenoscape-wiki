@@ -59,9 +59,7 @@ The queries implemented for this iteration of the Phenoscape UI use the followin
 # Now, the anatomical features that are sub features of the search feature are collected. For example, if the search was for dorsal fins, now we retrieve all the sub features of dorsal fin such as dorsal fin lepidotrichium etc by querying (Q4) over the relation shown in (6) below
 # For every sub anatomical feature retrieved by Q4, we repeat the previous steps
 
-In summary, the relations (2) and (3) are not leveraged in this strategy. The transitive relations between the Attribute and Value Qualities in the PATO hierarchy and the Anatomical Features in the TAO hierarchy (which are inferred by the OBD reasoner) are also not utilized. An assortment of queries are executed over the database backend and their results are fed into the JAVA methods implemented on the client side, which is a very expensive process in terms of time. Some data structures like lookup tables for Attributes and Values have been implemented to minimize database connections and query executions, however the whole retrieval process is still very time consuming
-
-The details of these queries can be found [[Queries for Phenoscape UI demo'ed at SICB, Boston in Jan 2009|here]]
+In summary, the relations (2) and (3) are not leveraged in this strategy. The transitive relations between the Attribute and Value Qualities in the PATO hierarchy and the Anatomical Features in the TAO hierarchy (which are inferred by the OBD reasoner) are also not utilized. An assortment of queries are executed over the database backend and their results are fed into the JAVA methods implemented on the client side, which is a very expensive process in terms of time. Some data structures like lookup tables for Attributes and Values have been implemented to minimize database connections and query executions, however the whole retrieval process is still very time consuming. The details of these queries can be found [[Queries for Phenoscape UI demo'ed at SICB, Boston in Jan 2009|here]]
 
 === Proposed querying strategy for the ASIH prototype===
 
