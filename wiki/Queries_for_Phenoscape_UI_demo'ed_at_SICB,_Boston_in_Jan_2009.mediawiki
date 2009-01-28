@@ -6,7 +6,7 @@ This page documents the queries implemented to retrieve data for the Anatomy Web
 
 ==Query details==
 
-These queries correspond to the queries Q1~Q4 detailed in the [[Queries#Querying_strategy_for_the_SICB_prototypes|Queries]] page. The anatomical feature being searched for is TAO:0001510 (Basihyal Cartilage)
+These queries correspond to the queries Q1~Q4 detailed in the [[Queries#Querying_strategy_for_the_SICB_prototype|Queries]] page. The anatomical feature being searched for is TAO:0001510 (Basihyal Cartilage)
 
 ==Query 1 (Q1)==
 This query retrieves the phenotypes from the database that are composed from the anatomical feature as one of their components. These retrieved phenotypes are parsed to retrieve the qualities associated with the anatomical feature being searched for. These retrieved qualities are input to query Q2
