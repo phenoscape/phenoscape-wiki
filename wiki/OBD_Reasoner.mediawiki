@@ -158,7 +158,7 @@ This rule was proposed by Jim Balhoff to reason upwards in a (typically taxonomi
 
 This is the exact opposite of the ''genus differentia'' rule which postulates reasoning only downwards in a hierarchy. The relevance of this rule to the Phenoscape project and the possible ways to restrict it can be found [[The Balhoff rule|here]]
 
-=== The Mabee rule or the problem with absence of features===
+=== The problem with absence of features===
 
 Descriptions of phenotypes as used in the Phenoscape project (and a plethora of phenomena in the real world) are replete with exceptions, or aberrations from what is considered to be "normal." While canonical ontologies like the [http://sig.biostr.washington.edu/projects/fm/ FMA] and the [http://www.berkeleybop.org/ontologies/obo-all/teleost_anatomy/teleost_anatomy.obo TAO] contain ontological definitions of ideal specimens, observations in the life sciences are full of aberrations to these general rules.
 
