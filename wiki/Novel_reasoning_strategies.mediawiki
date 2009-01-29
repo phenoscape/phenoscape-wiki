@@ -24,6 +24,4 @@ The inclusion of the Balhoff rule would lead to the extraction of inferences suc
 
 The OBD reasoner, upon invocation, creates inferences by manipulating existing records in the Phenoscape database and adding new inferences to the database itself. The implementation the Balhoff rule can be done trivially by adding a new rule to the OBD reasoner, which will add new inferred records to the Phenoscape database with a SQL INSERT command.
 
-== The Mabee rule ==
-
-The Mabee rule can be summarized as follows. IF a
+== The absence of features problem ==
