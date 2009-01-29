@@ -1,0 +1,17 @@
+---
+title: Novel reasoning strategies
+---
+
+Potential strategies to implement novel inference procedures introduced in the [[OBD_Reasoner#Novel_inference_procedures_for_Phenoscape|OBD Reasoner]]  page. These comprise: the Balhoff rule and the Mabee rule for inferring the absence of features in taxa. 
+
+==The Balhoff rule==
+
+The Balhoff rule can be summarized as follows. "IF SOME instances of a species A exhibits a phenotype P, AND ALL instances of species A are also instances of species B, THEN SOME instances of species B exhibit phenotype P." Using FOL constructs, this can be represented as shown below.
+
+'''Rule:''' <math>\forall</math>A, B<math>\exists </math>X: ''is_a''(A, B)  <math>\and </math>''R''(A, X)  <math>\Rightarrow</math> ''R''(B, X)
+
+In our use-case, A and B are terms from a species taxonomy, and ''R'' is the ''exhibits'' relation. Note that this rule is applicable to all relations that R represents. In the real world, if we know that some combustion engines have four cylinders (while some other have six), we can correctly deduce that some engines (which include both 4 cylinder and 6 cylinder engines) have four cylinders. The only constraint on this rule is that some kind of subsumption relationship hold between A and B. The ''is_a'' name of the relation can be conceivably replaced by ''kind-of'' for example; as long as the semantics of the relation implied subsumption or inclusion, the Balhoff rule would hold.
+
+The inclusion of the Balhoff rule would lead to the extraction of inferences such as "SOME Ostariophysians ''exhibit'' increased thickness of hyoid bones and SOME Ostariophysians ''exhibit'' decreased thickness of hyoid bones." All these inferences are extracted from phenotype assertions about different species like Gonorhynchiformes and Cypriniformes that are subsumed by Ostariophysians. 
+
+On a formal note, it should be understood that subsumption semantics (as inherent in the ''is_a'' relation) hold between sets of real-world instances. For example, the set of all left-handed people above the age 35 is subsumed by the set of all the people above the age 35 who may be left- or right-handed or ambidextrous. The subsumption semantics of the ''is_a'' relation are defined in the OBO relations ontology as follows: "...C is_a C' if and only if: given any c that instantiates C at a time t, c instantiates C' at t..." In plain English, this means: the set of all left-handed people above the age 35 '''is subsumed by (or included by)''' the set of people above 35 if and only if, a person who belongs to the group of left handed people above the age of 35 also belongs to the set of people above the age of 35. This is trivially valid in the real world. The relation ''is_a'' is therefore a '''class relation'''. On the other hand, ''exhibits'' is what can be called an '''instance relation''', because it relates real-world instances of taxa to actual phenotypes.
