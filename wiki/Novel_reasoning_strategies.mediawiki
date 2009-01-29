@@ -29,6 +29,7 @@ The OBD reasoner, upon invocation, creates inferences by manipulating existing r
 Canonical ontologies define properties of typical or ideal classes in the domain of knowledge. In the domain of fishes, it is typical for "wild" fish specimens belonging to the Ostariophysian clade to exhibit basihyal cartilage. However, fishes belonging to the Siluriformes clade, which is subsumed by the Ostariphysian clade are characterized by the absence of basihyal cartilage. The Mabee rule is a proposal to resolve the conflicting assertions formally stated as "ALL instances of a clade C1 ''typically'' exhibit a feature F1 AND ALL instances of a clade C2 which is a subclass of C1 do not exhibit F1." This creates what is termed a ''logical inconsistency''. These are shown in (1) and (20 below.
 
 <math>\forall</math>A, B: ''is_a''(A, B)  <math>\and </math>''exhibits''(A, F)  <math>\Rightarrow</math> ''exhibits''(B, F) -- (1)
+
 '''NOT''' ''exhibits''(B, F)                                                                                                -- (2)
 
 The Mabee rule involves inferences propagated to the lower levels of a taxonomy from assertions (or definitions) in the higher levels. Given that ALL instances of fishes belonging to the Ostariophysian clade are defined to possess basihyal cartilage, it can be inferred that instances of fishes belonging to the Siluriformes clade (which is subsumed by the Ostariophysian clade) would possess basihyal cartilage as well. An assertion to the contrary creates the contradiction or inconsistency.
