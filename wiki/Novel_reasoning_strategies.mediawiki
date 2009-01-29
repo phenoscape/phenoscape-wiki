@@ -26,4 +26,4 @@ The OBD reasoner, upon invocation, creates inferences by manipulating existing r
 
 == The Mabee rule ==
 
-The Mabee rule can be summarized as follows. "If
+The Mabee rule can be summarized as follows. IF a
