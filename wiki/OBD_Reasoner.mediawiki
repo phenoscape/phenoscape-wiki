@@ -152,12 +152,7 @@ An example of relation inversions can be found in the ''posterior_to'' and ''ant
 
 This rule was proposed by Jim Balhoff to reason upwards in a (typically taxonomic) hierarchy using the ''exhibits'' relation. A relevant example: GIVEN THAT ''Danio rerio'' exhibits a round fin AND ''Danio rerio'' is a Danio THEN Danio exhibits round fin. Note that ''exhibits'' has someOf semantics - so the inference is that ''some of'' Danio exhibit the phenotype.
 
-This is the exact opposite of the ''genus differentia'' rule which postulates reasoning only downwards in a hierarchy. The relevance of this rule to the Phenoscape project needs to be discussed.
-* In our use-case, A and B are terms from a species taxonomy, and ''R'' is the ''exhibits'' relation.
-** Should the above rule be narrowed to only hold for ''exhibits'', rather than for any relation ''R''?
-** Should the rule be narrowed to require that A and B be from a species taxonomy (if so, how would one codify that in first-order logic?), or would that be implied if ''R'' is narrowed to ''exhibits''? For example, would the rule still hold is A and B are genotypes?
-* As we reason upwards the taxonomy using this rule, we would accumulate ultimately the union of all annotated phenotypes for the root species node. Is this useful?
-* Once we change the species taxonomy to use the ''member_of'' relation in place of the ''is_a'' relation, would the above rule still apply? In fact, would it apply then in a cleaner way, in the sense of being more compatible with the semantics of ''member_of'' compared to ''is_a''?
+This is the exact opposite of the ''genus differentia'' rule which postulates reasoning only downwards in a hierarchy. The relevance of this rule to the Phenoscape project and the possible ways to restrict it can be found [[The Balhoff rule|here]]
 
 ==The problem with absence of features==
 
