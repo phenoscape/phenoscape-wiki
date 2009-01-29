@@ -19,3 +19,7 @@ The Balhoff rule can be summarized as follows. "IF SOME instances of a species A
 In our use-case, A and B are terms from a species taxonomy, and ''R'' is the ''exhibits'' relation. Note that this rule is applicable to all relations that R represents. In the real world, if we know that some combustion engines have four cylinders (while some other have six), we can correctly deduce that some engines (which include both 4 cylinder and 6 cylinder engines) have four cylinders. The only constraint on this rule is that some kind of subsumption relationship hold between A and B. The ''is_a'' name of the relation can be conceivably replaced by ''kind-of'' for example; as long as the semantics of the relation implied subsumption or inclusion, the Balhoff rule would hold.
 
 The inclusion of the Balhoff rule would lead to the extraction of inferences such as "SOME Ostariophysians ''exhibit'' increased thickness of hyoid bones and SOME Ostariophysians ''exhibit'' decreased thickness of hyoid bones." All these inferences are extracted from phenotype assertions about different species like Gonorhynchiformes and Cypriniformes that are subsumed by Ostariophysians.
+
+=== Implementation Strategy ===
+
+The OBD reasoner, upon invocation, creates inferences by manipulating existing records in the Phenoscape database and adding new inferences to the database itself. The implementation the Balhoff rule can be done trivially by adding a new rule to the OBD reasoner, which will add new inferred records to the Phenoscape database with a SQL INSERT command.
