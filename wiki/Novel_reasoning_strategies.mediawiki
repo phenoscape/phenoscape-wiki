@@ -52,4 +52,4 @@ This strategy is based on the proposals by Hoehndorf et al and Ceusters et al. P
 
 <math>\forall</math>c <math>\exists</math>n : ''instance_of''(c, Cell) <math>\and</math> ''instance_of''(n, Nucleus) <math>\and</math> ''contains''(c. n) -- (1)
 
-<math>\forall</math>rbc<math>\negative</math> <math>\exists</math>n : ''instance-of''(rbc, Cell)<math>\and</math> ''instance_of''(n, Nucleus) <math>\and</math> ''contains''(c. n)--(2)
+<math>\forall</math>rbc<math>\doesnot</math> <math>\exists</math>n : ''instance-of''(rbc, Cell)<math>\and</math> ''instance_of''(n, Nucleus) <math>\and</math> ''contains''(c. n)--(2)
