@@ -70,3 +70,5 @@ In this case, combining (5) and (2) would derive (6) which does not contradict w
 '''Inference from (5) and (2):'''
 
 <math>\forall</math>c <math>\exists</math>n : ''instance_of''(c, Red_Blood_Cell) <math>\and</math> ''instance_of''(n, Nucleus) <math>\and</math> ''contains_by_default''(c. n) -- (6)
+
+This strategy can be implemented by marking up relations used in concept definitions within ontologies as ''default relations'' and treating relations used in assertions as separate entities from default relations. This can be done by slightly changing the module which loads ontological definitions of relations and concepts into the OBD database
