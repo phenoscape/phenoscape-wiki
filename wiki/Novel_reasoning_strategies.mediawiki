@@ -48,8 +48,23 @@ If instead of constraining every instance of A to exhibit the feature F, the con
 This strategy will require careful curation of the top level classes in the taxonomy. Definitions of higher level classes and their properties will have to be constructed carefully to specify existential (SOME) and universal (ALL) constraints, so that inconsistencies are not entailed.
 
 ==== The default property ====
-This strategy is based on the proposals by Hoehndorf et al and Ceusters et al. Property values as specified by definitions in canonical ontologies can be transformed into default values. For example, a canonical ontology would define all animal cells to contain at least one nucleus in them. However, red blood corpuscles lack nuclei, the exception to this rule. This situation is represented in FOL as shown below
+This strategy is based on the proposals by Hoehndorf et al and Ceusters et al. Property values as specified by definitions in canonical ontologies can be transformed into default values. For example, a canonical ontology would define all animal cells to contain at least one nucleus in them. However, red blood corpuscles lack nuclei, the exception to this rule. This situation is represented in FOL as shown below. The <math>\not</math> in (3) is the NOT operator, to specify for all instances of red blood cell, there does not exist even one instance of a nucleus that is contained in any of them. 
 
 <math>\forall</math>c <math>\exists</math>n : ''instance_of''(c, Cell) <math>\and</math> ''instance_of''(n, Nucleus) <math>\and</math> ''contains''(c. n) -- (1)
 
-<math>\forall</math>rbc<math>\not</math> <math>\exists</math>n : ''instance-of''(rbc, Cell)<math>\and</math> ''instance_of''(n, Nucleus) <math>\and</math> ''contains''(c. n)--(2)
+<math>\forall</math>c: ''instance_of''(c, Red_Blood_Cell) <math>\Rightarrow</math> ''instance_of''(c, Cell) -- (2)
+
+
+<math>\forall</math>rbc<math>\not</math> <math>\exists</math>n : ''instance-of''(rbc, Red_Blood_Cell)<math>\and</math> ''instance_of''(n, Nucleus) <math>\and</math> ''contains''(c. n)--(3)
+
+'''INFERENCE FROM (1) and (2)''' 
+<math>\forall</math>c <math>\exists</math>n : ''instance_of''(c, Red_Blood_Cell) <math>\and</math> ''instance_of''(n, Nucleus) <math>\and</math> ''contains''(c. n) -- (4)
+
+An inference (4) derived from combining (1) and (2) would directly contradict (3). If the ''contains'' relation in (1) were to be transformed into a default relation as shown in (5) below, this conflict would be avoided
+
+<math>\forall</math>c <math>\exists</math>n : ''instance_of''(c, Cell) <math>\and</math> ''instance_of''(n, Nucleus) <math>\and</math> ''contains_by_default''(c. n) -- (5)
+
+In this case, combining (5) and (2) would derive (6) which does not contradict with (3) because ''contains_by_default'' relation is different from ''contains''.
+
+'''INFERENCE FROM (5) and (2)''' 
+<math>\forall</math>c <math>\exists</math>n : ''instance_of''(c, Red_Blood_Cell) <math>\and</math> ''instance_of''(n, Nucleus) <math>\and</math> ''contains_by_default''(c. n) -- (6)
