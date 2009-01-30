@@ -13,7 +13,7 @@ The last category has been discussed at some length in the [[Queries]] page. Thi
 
 ==Hardware==
 
-The Phenoscape database is stored on a server running Mac OS Leopard
+The Phenoscape database is hosted on a development server running Centos 5.2 x86_64. The Phenoscape application is hosted on a development web server running Mac OS X 10.4, running JBoss (Version 4.0.5).
 
 ==Software==
 
