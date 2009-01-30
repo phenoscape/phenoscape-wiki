@@ -35,7 +35,7 @@ Canonical ontologies define properties of typical or ideal classes in the domain
 The Mabee rule involves inferences propagated to the lower levels of a taxonomy from assertions (or definitions) in the higher levels. Given that ALL instances of fishes belonging to the Ostariophysian clade are defined to possess basihyal cartilage, it can be inferred that instances of fishes belonging to the Siluriformes clade (which is subsumed by the Ostariophysian clade) would possess basihyal cartilage as well. An assertion to the contrary creates the contradiction or inconsistency.
 
 * NOTE
-** The NOT operator in equation (2) is the negation operator from first order logic. In (2), it is used to state the entity B ''does not'' exhibit the feature F. The semantics of the negation operator and its pertinence to the Phenoscape project will be discussed in another section. For now, it is enough to understand that the inference derived in (1) (''exhibits''(B, F)) and the assertion in (2) directly contradict one another. 
+** The NOT operator in equation (2) is the negation operator from first order logic. In (2), it is used to state the entity B ''does not'' exhibit the feature F. The semantics of the negation operator and its pertinence to the Phenoscape project will be discussed in another section. For now, it is enough to understand that the inference derived in (1) (''exhibits''(B, F)) and the assertion in (2) directly contradict one another.
 
 === Implementation Strategies ===
 
