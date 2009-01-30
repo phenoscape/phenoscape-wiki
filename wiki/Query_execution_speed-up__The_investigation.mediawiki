@@ -1,0 +1,12 @@
+---
+title: Query execution speed-up: The investigation
+---
+
+A number of potential factors affect the performance of the queries that are executed on the Phenoscape database. These can be classified under a few major categories:
+
+* Hardware: This has to do mainly with the database server configuration
+* RDBMS
+* Database schema
+* Querying strategy
+
+The last category has been discussed at some length in the [[Queries|Queries]] page. This page mainly presents the findings in the other categories and proposes possible steps to improve these
