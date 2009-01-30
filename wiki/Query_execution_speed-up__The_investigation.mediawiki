@@ -17,7 +17,7 @@ The Phenoscape database is hosted on a development server running Centos 5.2 x86
 
 ==Software==
 
-The querying module for the Phenoscape API has been implemented primarily in Java (version 1.5). Much of the code has been inherited from the [BBOP]http://www.berkeleybop.org/. An extensible Shard interface has been developed by the BBOP team to encapsulate a variety of data repositories ranging from conventional relational databases to RDF triple stores. The Shard interface and the classes that implement it such as the AbstractShard and the OBDSQLShard contain method definitions that can retrieve data from the repositories by executing SQL or more XML based query formats. For the RDBMS-based implementation of the Shard interface, stored procedures have also been developed to both populate the database and query it.
+The querying module for the Phenoscape API has been implemented primarily in Java (version 1.5). Much of the code has been inherited from the [http://www.berkeleybop.org/ ] BBOP group. An extensible Shard interface has been developed by the BBOP team to encapsulate a variety of data repositories ranging from conventional relational databases to RDF triple stores. The Shard interface and the classes that implement it such as the AbstractShard and the OBDSQLShard contain method definitions that can retrieve data from the repositories by executing SQL or more XML based query formats. For the RDBMS-based implementation of the Shard interface, stored procedures have also been developed to both populate the database and query it.
 
 ==RDBMS==
 
