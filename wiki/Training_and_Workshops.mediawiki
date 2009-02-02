@@ -2,6 +2,9 @@
 title: Training and Workshops
 ---
 
+==Summer Training Opportunities==
+Opportunities in summer 2009 are available to graduate students and postdocs for training in data curation and software development at NESCent and the University of South Dakota.  [[SummerTraining2009|More information]].
+
 == Evolutionary Biology and Ontologies Workshop: January 5, 2009 ==
 
 This workshop will be held in conjunction with the [http://www.sicb.org/meetings/2009/ 2009 SICB Annual Meeting] in Boston, MA, in the morning of January 5, 2009. It is cosponsored by the [http://www.nescent.org National Evolutionary Synthesis Center] (NESCent) and the [http://bioontology.org National Center for Biomedical Ontologies] (NCBO).
