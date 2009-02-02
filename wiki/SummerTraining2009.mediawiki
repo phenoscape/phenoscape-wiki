@@ -1,0 +1,35 @@
+---
+title: SummerTraining2009
+---
+
+==Summer Training Opportunities for Graduate Students and Postdocs==
+
+Phenoscape provides summer traineeships for graduate students and postdocs
+interested in gaining expertise in informatics and the application of
+ontologies to evolutionary, anatomical, developmental, and genetic data.
+Opportunities are available to work as part of the Phenoscape team on data
+curation or open source software/database development.  Participants would
+be located at the National Evolutionary Synthesis Center, http://nescent.org
+or the University of South Dakota.  Stipends of $5,000 will be given to
+participants to cover travel, room and board for 10-12 weeks.
+
+To apply, please provide the following:
+*# A cover letter of no more than 2 pages with
+*## your name 
+*## your current status (grad or postdoc)
+*## your institutional affiliation and research supervisor
+*## the dates of the proposed exchange, and your preferred location (Durham, North Carolina or Vermillion, South Dakota)
+*## your current research goals, and an indication of where you are in your research timeline
+*## the relevance of the internship opportunity to your research and/or career goals. 
+*## the extent of your background training in, e.g., morphology, paleontology, molecular/developmental biology, programming, computer or information science.
+*# A curriculum vitae (max. 2 pages) listing educational history (including relevant coursework), work experience, publications, and presentations.
+*# A letter of recommendation from your advisor/supervisor, and the names and contact information for two other references.
+
+Applications should be sent via email (in Word or PDF format) to Dr. Paula Mabee (pmabee@usd.edu) before March 15, 2009.  Funding decisions will be made by April 1, 2009.  Further inquiries about the position may be directed to Dr. Mabee by email, or by phone at (605) 677-6171.
+
+Reporting Requirement: Recipients will be expected to submit a 1-page report describing the accomplishments and value of the training within one month after the end of the internship.
+
+NESCent and the University of South Dakota are equal opportunity employers. Applications from women and underrepresented minorities are specifically encouraged.  Phenoscape is funded by NSF grant BDI-0641025 from the National Science Foundation.
+
+[[Category:Training]]
+[[Category: Community]]
