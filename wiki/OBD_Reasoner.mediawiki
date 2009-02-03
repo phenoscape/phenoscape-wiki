@@ -34,7 +34,7 @@ The statement (2) above can be translated to read:
 
 ''For all A, B, and C, such that A is a B, and B is a C, it follows that A is a C''
 
-Lastly, we discuss the <math>\exists</math> (inverted E) operator, officially known as the ''existential quantifier'', which can be translated to "there exists" or "at least" in plain English. Now consider the statement, "Some birds are flightless" This can be stated as shown below
+Lastly, we discuss the <math>\exists</math> (wrong-sided E) operator, officially known as the ''existential quantifier'', which can be translated to "there exists" or "at least" in plain English. Now consider the statement, "Some birds are flightless" This can be stated as shown below
 
 '''<math>\exists</math> A: ''instance_of''(Bird, A) <math>\and</math> ''instance_of''(Flightless_Bird, A)'''                -- (3)
 
