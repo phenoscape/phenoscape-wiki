@@ -35,7 +35,7 @@ Determining the most optimal query execution strategy therefore can take up a lo
 
 ===Factor 3: Query execution===
 
-Following the query execution strategy, the actual query is executed. This step is affected by the hardware configuration such as RAM size, disk types, disk configuration, and the number of CPUs in use. Query execution can be tuned by modifying parameters to control the number of back end connections, shared buffer space, effective cache size, available memory size.
+Following the query execution strategy, the actual query is executed. This step is affected by the hardware configuration such as RAM size, disk types, disk configuration, and the number of CPUs in use. Query execution can be tuned by modifying parameters to control the number of back end connections, shared buffer space, effective cache size, available memory size. [http://www.revsys.com/writings/postgresql-performance.html Wiles] offers more information.
 
 ==Proposed querying strategies for the ASIH prototype==
 === Strategy #1: Table joins ===
