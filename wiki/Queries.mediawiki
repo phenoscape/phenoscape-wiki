@@ -37,6 +37,10 @@ Determining the most optimal query execution strategy therefore can take up a lo
 
 Following the query execution strategy, the actual query is executed. This step is affected by the hardware configuration such as RAM size, disk types, disk configuration, and the number of CPUs in use. Query execution can be tuned by modifying parameters to control the number of back end connections, shared buffer space, effective cache size, available memory size. [http://www.revsys.com/writings/postgresql-performance.html Wiles] offers more information.
 
+===Factor 4: Processing the retrieved data===
+
+Following the query execution, the retrieved data is transferred to the client side where it is processed and assembled into a JSON Object, which in turn is transferred to the Phenoscape UI and rendered there. This step is performed entirely in a Java-based REST resource, and the JSON Object is the response from a RESTful Web Service interface.
+
 ==Proposed querying strategies for the ASIH prototype==
 === Strategy #1: Table joins ===
 
