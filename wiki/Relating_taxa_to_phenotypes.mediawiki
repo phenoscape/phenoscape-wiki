@@ -8,6 +8,7 @@ In Phenoscape, we are annotating the phenotypes of species, as described in syst
 ===Proposed definition===
 A taxon X ''exhibits'' phenotype Y if phenotype Y has been observed in some organism which is a member of taxon X.
 ===Discussion===
+In an ideal world, all phenotype annotations would be directly to some organism specimen where the phenotype was observed.  However, for various reasons direct specimen annotation is not feasible in practice.
 
 [[Category:Reasoning]]
 [[Category:Ontology]]
