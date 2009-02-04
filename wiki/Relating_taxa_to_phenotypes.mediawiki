@@ -8,7 +8,10 @@ In Phenoscape, we are annotating the phenotypes of species, as described in syst
 ===Proposed definition===
 A taxon X ''exhibits'' phenotype Y if phenotype Y has been observed in some organism which is a member of taxon X.
 ===Discussion===
-In an ideal world, all phenotype annotations would be directly to some organism specimen where the phenotype was observed.  However, for various reasons direct specimen annotation is not feasible in practice.  So, we create phenotype annotations for "leaf" taxa, species.
+In an ideal world, all phenotype annotations would be directly to some organism specimen where the phenotype was observed.  However, for various reasons direct specimen annotation is not feasible in practice.  So, we create phenotype annotations for "leaf" taxa, species.  As the given definition suggests, ''exhibits'' statements do not preclude polymorphism within the taxon.  Some member organsims of that taxon may have one phenotype while others may have another.  For example:
+* Species X ''exhibits'' "round dorsal fin"
+is not in conflict with another annotation:
+* Species X ''exhibits'' "pointed dorsal fin"
 
 [[Category:Reasoning]]
 [[Category:Ontology]]
