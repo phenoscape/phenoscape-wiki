@@ -80,7 +80,7 @@ Value                              is_a                    Attribute            
 Sub Anatomical Feature             is_a                    Anatomical Feature                                                 -- (6)
 </javascript>
 
-===Querying strategy for the SICB prototype===
+===Querying strategy in the SICB prototype===
 
 The queries implemented for this iteration of the Phenoscape UI use the following strategy to retrieve taxa and qualities associated with an Anatomical Entity.
 
