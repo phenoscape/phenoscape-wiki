@@ -12,6 +12,9 @@ In an ideal world, all phenotype annotations would be directly to some organism 
 * Species X ''exhibits'' "round dorsal fin"
 is not in conflict with another annotation:
 * Species X ''exhibits'' "pointed dorsal fin"
+Both have been observed within members of this species.  Furthermore, phenotypic qualities within PATO cannot really be considered to be alternatives to one another.  For example:
+* Species X ''exhibits'' "yellow dorsal fin"
+would not be supposed an alternative to either of the previous two phenotypes.  The situation is no different between "round" and "pointed" themselves.
 
 [[Category:Reasoning]]
 [[Category:Ontology]]
