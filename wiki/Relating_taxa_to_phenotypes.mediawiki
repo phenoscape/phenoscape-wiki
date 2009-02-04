@@ -2,7 +2,7 @@
 title: Relating taxa to phenotypes
 ---
 
-In Phenoscape, we are annotating the phenotypes of species, as described in systematic literature.  Because we are working within an ontological framework, we require a well-defined relation to link a taxon to a phenotype.  This page describes the properties of and issues related to our proposed relation, ''exhbits''.
+In Phenoscape, we are annotating the phenotypes of species, as described in systematic literature.  Because we are working within an ontological framework, we require a well-defined relation to link a taxon to a phenotype.  This page describes the properties of, and issues related to, our proposed relation, ''exhibits''.
 
 [[Category:Reasoning]]
 [[Category:Ontology]]
