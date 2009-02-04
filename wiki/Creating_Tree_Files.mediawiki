@@ -2,7 +2,7 @@
 title: Creating Tree Files
 ---
 
-= The following are instructions for creating and saving trees using [http://mesquiteproject.org/mesquite/mesquite.html Mesquite].  You should have a [http://sourceforge.net/ SorceForge] account and access to the [[Data_Repository_Access_Instructions|Phenoscape Data Repository]] before beginning.
+The following are instructions for creating and saving trees using [http://mesquiteproject.org/mesquite/mesquite.html Mesquite].  You should have a [http://sourceforge.net/ SourceForge] account and access to the [[Data_Repository_Access_Instructions|Phenoscape Data Repository]] before beginning.
 
 #Starting with a nexus file containing matrix for publication
 
