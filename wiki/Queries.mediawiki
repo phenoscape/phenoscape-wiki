@@ -62,7 +62,17 @@ In summary, the relations (2) and (3) are not leveraged in this strategy. The tr
 
 === Proposed querying strategies for the ASIH prototype===
 
-As it is now believed that the multiple query spawning strategy was primarily responsible for the slow execution performance in the SICB prototype, initial attempts at improving this are focused upon retrieving all the required data in one query. The simplest new proposed querying strategy traverses all the relations ((1) ~ (6)) described in the previous sections to find all the information pertinent to an anatomical entity that is being searched for, using a combination of [http://en.wikipedia.org/wiki/Join_(SQL) TABLE JOINS]. This methodology makes optimal use of transitive relations derived by the OBD reasoner between Attributes and Values in the PATO hierarchy and between Anatomical Entities in the TAO hierarchy, in contrast to the strategy used in the SICB prototype. The details of these queries can be found [[Queries to be implemented in the future|here]]
+Before discussing the proposed strategies to be implemented in the ASIH prototype, the various factors that are potential reasons for the slow performance of the SICB prototype are discussed in detail below. 
+
+* '''Factor 1: Network traversal time for the query'''  
+** Each query has to be transferred from the client side to the backend DBMS over the network. This is a substantial bottleneck and is influenced by a host of extraneous factors such as network traffic and bandwidth limitations, which are not directly controllable from the context of the Phenoscape application. However, given that the SICB prototype spawns multiple queries to retrieve information, packaging all these queries into one complex query that only needs to traverse the network once may be a viable option to ameliorate the impact of this factor. A further improvement may be achieved by the use of back end stored procedures which can be invoked directly from the client side. 
+
+* '''Factor 2: Query parsing and execution planning'''
+** Query parsing determines if the query is syntactically valid and then identifies the key components of the query. In most contemporary DBMS's, this happens very quickly and is not a contributing factor to slow query execution. Execution planning determines the strategy for query execution, and can be very time consuming especially if the number of tables to be [http://en.wikipedia.org/wiki/Join_(SQL) joined] to one another exceeds 10. In the simplest possible case where only two tables A and B need to be joined, the order of joins is trivial. If a third table C is added, then A and B can be joined first, followed by C, or B and C can be joined first followed by A, or as the third option, A and C can be joined first, followed by B. The DBMS has to  decide which of these three joins strategies will result in the least execution time and memory usage. 
+
+==== Strategy #1: Table joins ====
+
+The simplest new proposed querying strategy traverses all the relations ((1) ~ (6)) described in the previous sections to find all the information pertinent to an anatomical entity that is being searched for, using a combination of [http://en.wikipedia.org/wiki/Join_(SQL) TABLE JOINS]. This methodology makes optimal use of transitive relations derived by the OBD reasoner between Attributes and Values in the PATO hierarchy and between Anatomical Entities in the TAO hierarchy, in contrast to the strategy used in the SICB prototype. The details of these queries can be found [[Queries to be implemented in the future|here]]
 
 === Performance documentation plans ===
 
