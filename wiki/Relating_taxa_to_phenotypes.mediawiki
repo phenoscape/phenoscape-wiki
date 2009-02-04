@@ -18,6 +18,8 @@ would not be supposed an alternative to either of the previous two phenotypes.  
 ===Implications===
 If a taxon X ''exhibits'' a phenotype, this should hold implications for related taxa.  Specifically, the parent taxon of X should be inferred to also exhibit that phenotype.  This is more easily understood when it is recognized that member taxa do not stand in a subtype or subclass relation to their parent taxa.  It is instead purely a genealogical relation.  So when one asks, "What phenotypes does the genus ''Danio'' exhibit?", the answer is "All the phenotypes exhibited by its member species".
 
+''To be incorporated: logical inferences from ontological reasoning vs. evolutionary inferences from phylogenetic analysis''
+
 [[Category:Reasoning]]
 [[Category:Ontology]]
 [[Category:EQ Annotation]]
