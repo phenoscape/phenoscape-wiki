@@ -2,7 +2,7 @@
 title: Creating Tree Files
 ---
 
-Creating trees using [http://mesquiteproject.org/mesquite/mesquite.html Mesquite]
+==== Creating trees using [http://mesquiteproject.org/mesquite/mesquite.html Mesquite] ====
 
 #Starting with a nexus file containing matrix for publication
 
