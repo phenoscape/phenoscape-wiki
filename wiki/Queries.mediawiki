@@ -15,9 +15,43 @@ In the Phenoscape application, queries are assembled in a Java program and dispa
 
 Query execution in PostgreSQL occurs in four sequential steps. In the first step, the query is transferred from the client side over the network to the database. In the second step, the query is parsed and an execution plan is drawn up by the PostgreSQL DBMS to retrieve the data as efficiently as possible in terms of time and memory utilization. In the third step, the DBMS executes the query as per the drawn up execution strategy and retrieves the results. In the last step, the retrieved results  are sent back over the connection to the client side. All this takes time, which eventually adds up. As a case in point, the query execution strategy implemented for the SICB prototype spawns a multitude of queries. The execution of each of these queries takes up time to be transferred over the network, executed, retrieve the results, and transfer them back to the client side. Therefore, new strategies to optimize the database performance are being tested.
 
-==Database details==
+==Database summary==
 * Last updated: Jan 28, 2009
 * Size: ~ 700 MB
+
+== Factors for slow query performance ==
+
+Before discussing the proposed strategies to be implemented in the ASIH prototype, the various factors that are potential reasons for the slow performance of the SICB prototype are discussed in detail below.
+
+===Factor 1: Network traversal time for the query ===
+Each query has to be transferred from the client side to the backend DBMS over the network. This is a substantial bottleneck and is influenced by a host of extraneous factors such as network traffic and bandwidth limitations, which are not directly controllable from the context of the Phenoscape application. However, given that the SICB prototype spawns multiple queries to retrieve information, packaging all these queries into one complex query that only needs to traverse the network once may be a viable option to ameliorate the impact of this factor. A further improvement may be achieved by the use of back end stored procedures which can be invoked directly from the client side, and do not need to be transferred over the network
+
+===Factor 2: Query parsing and execution planning===
+Query parsing determines if the query is syntactically valid and then identifies the key components of the query. In most contemporary DBMS's, this happens very quickly and is not a contributing factor to slow query execution. Execution planning determines the strategy for query execution, the most significant aspect of execution planning is determining the order of [http://en.wikipedia.org/wiki/Join_(SQL) table joins]. This can be very time consuming especially if the number of tables to be joined to one another exceeds 10.
+
+In the simplest possible case where only two tables A and B need to be joined, determining the order of joins is trivial. If a third table C is added, then A and B can be joined first, followed by C [(AB)C], or B and C can be joined first followed by A [(BC)A], or A and C can be joined first, followed by B [(AC)B]. The DBMS has to  decide which of these three joins strategies will result in the least execution time and memory usage. If a fourth table D is added to the mix, the possible join options are ((AB)C)D, ((AB)D)C, ((AC)B)D, ((AC)D)B, ((AD)B)C, ((AD)C)B, ((BC)A)D, ((BC)D)A, ((BD)A)C, ((BD)C)A, ((CD)A)B, and ((CD)B)A; 12 options to be evaluated in all. As more tables are added, the number of join options to be evaluated increases exponentially. To decide upon which join strategy to adopt, the DBMS takes into consideration the size of the tables, the indexes specified upon the columns of the tables (specifically, the columns to be joined) among other factors. When the number of tables > 10, PostgreSQL typically uses methodologies borrowed from evolutionary computation (opportunistic trial and error methods) to determine the order of table joins, to try and limit the amount of time used up.
+
+Determining the most optimal query execution strategy therefore can take up a lot of time, simply because of the number of query options to be evaluated.   Further, if query execution strategies are not cached, the DBMS may keep evaluating query execution strategies for the same query several times over! Strategies to counter this factor can include specifying the order of table joins in the query itself, a [feature] which is available in PostgreSQL, or the use of stored procedures that may be directly invoked from the client-side. In stored procedures, query execution strategies may be cached for the execution of queries with many (> 10) table joins, or one large complex query may be broken up into smaller ones and all of these executed as part of a stored procedure.
+
+===Factor 3: Query execution===
+
+==Proposed querying strategies for the ASIH prototype==
+=== Strategy #1: Table joins ===
+
+The simplest new proposed querying strategy traverses all the relations ((1) ~ (6)) described in the previous sections to find all the information pertinent to an anatomical entity that is being searched for, using a combination of [http://en.wikipedia.org/wiki/Join_(SQL) TABLE JOINS]. This methodology makes optimal use of transitive relations derived by the OBD reasoner between Attributes and Values in the PATO hierarchy and between Anatomical Entities in the TAO hierarchy, in contrast to the strategy used in the SICB prototype. The details of these queries can be found [[Queries to be implemented in the future|here]]
+
+== Performance documentation plans ==
+
+Unit test cases are being developed at present to document the time taken for each stage of the data retrieval process to execute. The data retrieval process can be broken down into 3 stages.
+
+* '''Query formulation'''
+** This happens on the client-side, which for this discussion, is the layer that lies between the Phenoscape UI and the OBD database backend. On the client-side the RESTlet resource opens a connection to the database and calls the Shard which assembles the query and forwards the query to the database for execution through the opened connection
+* '''Query execution'''
+** This happens on the OBD database side. The database formulates a query execution plan to find the most optimal way in terms of time and memory to execute the query. Then the database executes the query and returns the results to the Shard on the client side
+* '''Result processing'''
+** On the client side, the retrieved results need to be processed in two stages. First, the retrieved rows of data need to be assembled into nodes by the Shard. All the columns for each of the retrieved rows are transformed into a combination of outward directed edges (relative to a central node) and target nodes. All these nodes are then sent back to the RESTlet resource, which then processes these nodes into the format specified by the Phenoscape UI. As of now, the format used by the Phenoscape UI is JSON.
+
+The execution time matrix created in this manner over different test runs will help quantitatively identify and rank the biggest bottlenecks of the querying strategies being tested out (and also of those that were implemented in the past viz. in the SICB prototype). This will also reveal other gainful insights into speeding up the querying strategies for Phenoscape data and identify scalability issues which are likely to come up in the future. This is a major part of the efforts to speed up the querying process. We also hope to identify other parts of the query execution process that can be tuned up for this purpose. These details can be found [[Query execution speed-up: The investigation|here]]
 
 ==Anatomical Entity Services==
 
@@ -59,41 +93,6 @@ The queries implemented for this iteration of the Phenoscape UI use the followin
 # For every sub anatomical feature retrieved by Q4, we repeat the previous steps
 
 In summary, the relations (2) and (3) are not leveraged in this strategy. The transitive relations between the Attribute and Value Qualities in the PATO hierarchy and the Anatomical Features in the TAO hierarchy (which are inferred by the OBD reasoner) are also not utilized. An assortment of queries are executed over the database backend and their results are fed into the JAVA methods implemented on the client side, which is a very expensive process in terms of time. Some data structures like lookup tables for Attributes and Values have been implemented to minimize database connections and query executions, however the whole retrieval process is still very time consuming. The details of these queries can be found [[Queries for Phenoscape UI demo'ed at SICB, Boston in Jan 2009|here]]
-
-=== Factors for slow query performance ===
-
-Before discussing the proposed strategies to be implemented in the ASIH prototype, the various factors that are potential reasons for the slow performance of the SICB prototype are discussed in detail below.
-
-====Factor 1: Network traversal time for the query ====
-Each query has to be transferred from the client side to the backend DBMS over the network. This is a substantial bottleneck and is influenced by a host of extraneous factors such as network traffic and bandwidth limitations, which are not directly controllable from the context of the Phenoscape application. However, given that the SICB prototype spawns multiple queries to retrieve information, packaging all these queries into one complex query that only needs to traverse the network once may be a viable option to ameliorate the impact of this factor. A further improvement may be achieved by the use of back end stored procedures which can be invoked directly from the client side, and do not need to be transferred over the network
-
-====Factor 2: Query parsing and execution planning====
-Query parsing determines if the query is syntactically valid and then identifies the key components of the query. In most contemporary DBMS's, this happens very quickly and is not a contributing factor to slow query execution. Execution planning determines the strategy for query execution, the most significant aspect of execution planning is determining the order of [http://en.wikipedia.org/wiki/Join_(SQL) table joins]. This can be very time consuming especially if the number of tables to be joined to one another exceeds 10. 
-
-In the simplest possible case where only two tables A and B need to be joined, determining the order of joins is trivial. If a third table C is added, then A and B can be joined first, followed by C [(AB)C], or B and C can be joined first followed by A [(BC)A], or A and C can be joined first, followed by B [(AC)B]. The DBMS has to  decide which of these three joins strategies will result in the least execution time and memory usage. If a fourth table D is added to the mix, the possible join options are ((AB)C)D, ((AB)D)C, ((AC)B)D, ((AC)D)B, ((AD)B)C, ((AD)C)B, ((BC)A)D, ((BC)D)A, ((BD)A)C, ((BD)C)A, ((CD)A)B, and ((CD)B)A; 12 options to be evaluated in all. As more tables are added, the number of join options to be evaluated increases exponentially. To decide upon which join strategy to adopt, the DBMS takes into consideration the size of the tables, the indexes specified upon the columns of the tables (specifically, the columns to be joined) among other factors. When the number of tables > 10, PostgreSQL typically uses methodologies borrowed from evolutionary computation (opportunistic trial and error methods) to determine the order of table joins, to try and limit the amount of time used up. 
-
-Determining the most optimal query execution strategy therefore can take up a lot of time, simply because of the number of query options to be evaluated.   Further, if query execution strategies are not cached, the DBMS may keep evaluating query execution strategies for the same query several times over! Strategies to counter this factor can include specifying the order of table joins in the query itself, a [feature] which is available in PostgreSQL, or the use of stored procedures that may be directly invoked from the client-side. In stored procedures, query execution strategies may be cached for the execution of queries with many (> 10) table joins, or one large complex query may be broken up into smaller ones and all of these executed as part of a stored procedure. 
- 
-====Factor 3: Query execution====
-
-===Proposed querying strategies for the ASIH prototype===
-
-==== Strategy #1: Table joins ====
-
-The simplest new proposed querying strategy traverses all the relations ((1) ~ (6)) described in the previous sections to find all the information pertinent to an anatomical entity that is being searched for, using a combination of [http://en.wikipedia.org/wiki/Join_(SQL) TABLE JOINS]. This methodology makes optimal use of transitive relations derived by the OBD reasoner between Attributes and Values in the PATO hierarchy and between Anatomical Entities in the TAO hierarchy, in contrast to the strategy used in the SICB prototype. The details of these queries can be found [[Queries to be implemented in the future|here]]
-
-=== Performance documentation plans ===
-
-Unit test cases are being developed at present to document the time taken for each stage of the data retrieval process to execute. The data retrieval process can be broken down into 3 stages. 
-
-* '''Query formulation'''
-** This happens on the client-side, which for this discussion, is the layer that lies between the Phenoscape UI and the OBD database backend. On the client-side the RESTlet resource opens a connection to the database and calls the Shard which assembles the query and forwards the query to the database for execution through the opened connection
-* '''Query execution'''
-** This happens on the OBD database side. The database formulates a query execution plan to find the most optimal way in terms of time and memory to execute the query. Then the database executes the query and returns the results to the Shard on the client side
-* '''Result processing'''
-** On the client side, the retrieved results need to be processed in two stages. First, the retrieved rows of data need to be assembled into nodes by the Shard. All the columns for each of the retrieved rows are transformed into a combination of outward directed edges (relative to a central node) and target nodes. All these nodes are then sent back to the RESTlet resource, which then processes these nodes into the format specified by the Phenoscape UI. As of now, the format used by the Phenoscape UI is JSON.
-
-The execution time matrix created in this manner over different test runs will help quantitatively identify and rank the biggest bottlenecks of the querying strategies being tested out (and also of those that were implemented in the past viz. in the SICB prototype). This will also reveal other gainful insights into speeding up the querying strategies for Phenoscape data and identify scalability issues which are likely to come up in the future. This is a major part of the efforts to speed up the querying process. We also hope to identify other parts of the query execution process that can be tuned up for this purpose. These details can be found [[Query execution speed-up: The investigation|here]]
 
 ==Gene Services==
 The querying strategy for the Gene Services module of SICB prototype is identical to the strategy for the Anatomy Services module. This strategy also involves the spawning of multiple queries, which add to the backend bottleneck. The only difference in this case is this strategy leverages the relationships between genes and genotypes and then, the genotypes and phenotypes (as shown in (1) and (2) below to retrieve the desired information.
