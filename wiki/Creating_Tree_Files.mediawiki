@@ -7,5 +7,6 @@ The following are instructions for creating and saving trees using [http://mesqu
 #Starting with a nexus file containing matrix for publication
 
 #Starting from list of matrix taxon names
+[[Student Instructions]]
 
 [[Category:Curation]]
