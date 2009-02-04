@@ -35,6 +35,8 @@ Determining the most optimal query execution strategy therefore can take up a lo
 
 ===Factor 3: Query execution===
 
+Following the query execution strategy, the actual query is executed. In this step, the DBMS uses the data indexes to speed up scans of the tables.
+
 ==Proposed querying strategies for the ASIH prototype==
 === Strategy #1: Table joins ===
 
