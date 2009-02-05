@@ -2,7 +2,7 @@
 title: Queries
 ---
 
-This section describes the queries that have been (or are to be) implemented for the Phenoscape data services, in addition to the execution details of each queries on the PostgreSQL database on Darwin.
+This section describes the queries that have been (or are to be) implemented for the Phenoscape data services, in addition to the execution details of each queries on the PostgreSQL database.
 
 ==Status (Jan 20, 09)==
 The first iteration of the Web Services module for the Phenoscape project (the '''SICB prototype''') was demonstrated at the SICB meeting in Boston, MA in January 2009. This module allowed database searches for Anatomical Entities (Anatomical Entity Services) and Genes (Gene Services). Searches for Taxa (Taxon Services) are to be implemented in the next iteration which will be a part of the next Phenoscape version to be demonstrated at the ASIH meeting in Portland, OR (the '''ASIH prototype''') in July, 2009.
