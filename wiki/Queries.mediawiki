@@ -89,11 +89,15 @@ In summary, the relations (2) and (3) are not leveraged in this strategy. The tr
 
 The simplest new proposed querying strategy traverses all the relations ((1) ~ (6)) described in the previous sections to find all the information pertinent to an anatomical entity that is being searched for, using a combination of [http://en.wikipedia.org/wiki/Join_(SQL) TABLE JOINS]. This methodology makes optimal use of transitive relations derived by the OBD reasoner between Attributes and Values in the PATO hierarchy and between Anatomical Entities in the TAO hierarchy, in contrast to the strategy used in the SICB prototype. The details of these queries can be found [[Queries to be implemented in the future|here]]
 
-==Anatomical Entity Services==
+== Web services modules ==
+
+These are the various module that are (or will be) a part of the ASIH prototype.
+
+===Anatomical Entity Services===
 
 Queries on anatomical entities retrieve information on the qualities that inhere in them, the taxa that exhibit these entity-quality (or more correctly, character-state) combinations. Querying strategies to retrieve this information from the OBD database leverage a number of relation instances which are stored in the OBD database. These are detailed below
 
-==Gene Services==
+===Gene Services===
 The querying strategy for the Gene Services module of SICB prototype is identical to the strategy for the Anatomy Services module. This strategy also involves the spawning of multiple queries, which add to the backend bottleneck. The only difference in this case is this strategy leverages the relationships between genes and genotypes and then, the genotypes and phenotypes (as shown in (1) and (2) below to retrieve the desired information.
 
 <javascript>
@@ -101,7 +105,7 @@ Gene                                  has_allele               Genotype         
 Genotype                              exhibits                 inheres_in(Quality, Entity)                                       -- (2)
 </javascript>
 
-==Taxon Services==
+===Taxon Services===
 These will be implemented for the first time in the ASIH prototype
 
 [[Category:Informatics]]
