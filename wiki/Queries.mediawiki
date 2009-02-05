@@ -43,7 +43,7 @@ Following the query execution, the retrieved data is transferred to the client s
 
 ==Relations of interest==
 
-The relations described in this section are of use in finding information about specific anatomical features, and are therefore leveraged in the implementation of [[Queries#Anatomical_entity_services|Anatomical Entity Services]] module of the Phenoscape application.
+The relations described in this section are of use in finding information about specific anatomical features, and are therefore leveraged in the implementation of [[Queries#Anatomical_Entity_Services|Anatomical Entity Services]] module of the Phenoscape application.
 
 Post compositions of Entities and Qualities are used to relate taxa and phenotypes through the ''exhibits'' relation as shown in (1).
 <javascript>
