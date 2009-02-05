@@ -39,7 +39,7 @@ Following the query execution strategy, the actual query is executed. This step 
 
 ===Factor 4: Processing the retrieved data===
 
-Following the query execution, the retrieved data is transferred to the client side where it is processed and assembled into a JSON Object, which in turn is transferred to the Phenoscape UI and rendered there. This step is performed entirely in a Java-based REST resource, and the JSON Object is the response from a RESTful Web Service interface.
+Following the query execution, the retrieved data is transferred to the client side where it is processed and assembled into a JSON Object, which in turn is transferred to the Phenoscape UI and rendered there. This step is performed entirely in a Java-based REST resource.
 
 ==Proposed querying strategies for the ASIH prototype==
 === Strategy #1: Table joins ===
