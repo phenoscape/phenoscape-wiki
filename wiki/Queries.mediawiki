@@ -46,18 +46,7 @@ Following the query execution, the retrieved data is transferred to the client s
 
 The simplest new proposed querying strategy traverses all the relations ((1) ~ (6)) described in the previous sections to find all the information pertinent to an anatomical entity that is being searched for, using a combination of [http://en.wikipedia.org/wiki/Join_(SQL) TABLE JOINS]. This methodology makes optimal use of transitive relations derived by the OBD reasoner between Attributes and Values in the PATO hierarchy and between Anatomical Entities in the TAO hierarchy, in contrast to the strategy used in the SICB prototype. The details of these queries can be found [[Queries to be implemented in the future|here]]
 
-== Performance documentation plans ==
 
-Unit test cases are being developed at present to document the time taken for each stage of the data retrieval process to execute. The data retrieval process can be broken down into 3 stages.
-
-* '''Query formulation'''
-** This happens on the client-side, which for this discussion, is the layer that lies between the Phenoscape UI and the OBD database backend. On the client-side the RESTlet resource opens a connection to the database and calls the Shard which assembles the query and forwards the query to the database for execution through the opened connection
-* '''Query execution'''
-** This happens on the OBD database side. The database formulates a query execution plan to find the most optimal way in terms of time and memory to execute the query. Then the database executes the query and returns the results to the Shard on the client side
-* '''Result processing'''
-** On the client side, the retrieved results need to be processed in two stages. First, the retrieved rows of data need to be assembled into nodes by the Shard. All the columns for each of the retrieved rows are transformed into a combination of outward directed edges (relative to a central node) and target nodes. All these nodes are then sent back to the RESTlet resource, which then processes these nodes into the format specified by the Phenoscape UI. As of now, the format used by the Phenoscape UI is JSON.
-
-The execution time matrix created in this manner over different test runs will help quantitatively identify and rank the biggest bottlenecks of the querying strategies being tested out (and also of those that were implemented in the past viz. in the SICB prototype). This will also reveal other gainful insights into speeding up the querying strategies for Phenoscape data and identify scalability issues which are likely to come up in the future. This is a major part of the efforts to speed up the querying process. We also hope to identify other parts of the query execution process that can be tuned up for this purpose. These details can be found [[Query execution speed-up: The investigation|here]]
 
 ==Anatomical Entity Services==
 
