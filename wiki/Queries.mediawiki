@@ -68,7 +68,7 @@ Sub Anatomical Feature             is_a                    Anatomical Feature   
 
 ==Querying strategies==
 
-In the following sections, various querying strategies are discussed with respect to their use of the relations described above and the [[Queries#Factors_for_slow_query_performance four factors]] contributing to poor query performance.
+In the following sections, various querying strategies are discussed with respect to their use of the relations described above and the [[Queries#Factors_for_slow_query_performance| four factors]] contributing to poor query performance.
 
 ===Querying strategy in the SICB prototype===
 
