@@ -26,6 +26,7 @@ These semantics are consistent whether we create annotations on leaf taxa (speci
 does not tell us whether its member taxon ''Danio rerio'' has a "notched caudal fin".  It might.
 
 ''To be incorporated: logical inferences from ontological reasoning vs. evolutionary inferences from phylogenetic analysis''
+==Shortcomings==
 
 [[Category:Reasoning]]
 [[Category:Ontology]]
