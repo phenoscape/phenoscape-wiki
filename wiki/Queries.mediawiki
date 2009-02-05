@@ -70,7 +70,6 @@ Sub Anatomical Feature             is_a                    Anatomical Feature   
 
 In the following sections, various querying strategies are discussed with respect to their use of the relations described above and the [[Queries#Factors_for_slow_query_performance four factors]] contributing to poor query performance.
 
-
 ===Querying strategy in the SICB prototype===
 
 The queries implemented for this iteration of the Phenoscape UI use the following strategy to retrieve taxa and qualities associated with an Anatomical Entity.
@@ -85,10 +84,8 @@ The queries implemented for this iteration of the Phenoscape UI use the followin
 
 In summary, the relations (2) and (3) are not leveraged in this strategy. The transitive relations between the Attribute and Value Qualities in the PATO hierarchy and the Anatomical Features in the TAO hierarchy (which are inferred by the OBD reasoner) are also not utilized. An assortment of queries are executed over the database backend and their results are fed into the JAVA methods implemented on the client side, which is a very expensive process in terms of time. Some data structures like lookup tables for Attributes and Values have been implemented to minimize database connections and query executions, however the whole retrieval process is still very time consuming. The details of these queries can be found [[Queries for Phenoscape UI demo'ed at SICB, Boston in Jan 2009|here]]
 
-
-
-==Proposed querying strategies for the ASIH prototype==
-=== Strategy #1: Table joins ===
+===Proposed querying strategies for the ASIH prototype===
+==== Strategy #1: Table joins ====
 
 The simplest new proposed querying strategy traverses all the relations ((1) ~ (6)) described in the previous sections to find all the information pertinent to an anatomical entity that is being searched for, using a combination of [http://en.wikipedia.org/wiki/Join_(SQL) TABLE JOINS]. This methodology makes optimal use of transitive relations derived by the OBD reasoner between Attributes and Values in the PATO hierarchy and between Anatomical Entities in the TAO hierarchy, in contrast to the strategy used in the SICB prototype. The details of these queries can be found [[Queries to be implemented in the future|here]]
 
