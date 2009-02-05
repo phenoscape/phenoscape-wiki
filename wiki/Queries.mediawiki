@@ -21,7 +21,7 @@ Query execution in PostgreSQL occurs in four sequential steps. In the first step
 
 == Factors for slow query performance ==
 
-The various factors that are potential reasons for the slow performance of the SICB prototype are discussed in detail below.
+The various factors that are potential reasons for the slow performance of the SICB prototype are discussed in detail below. More details about the actual investigation can be found [[Query execution speed-up: The investigation|here]]
 
 ===Factor 1: Network traversal time for the query ===
 Each query has to be transferred from the client side to the backend DBMS over the network. This is a substantial bottleneck and is influenced by a host of extraneous factors such as network traffic and bandwidth limitations, which are not directly controllable from the context of the Phenoscape application. However, given that the SICB prototype spawns multiple queries to retrieve information, packaging all these queries into one complex query that only needs to traverse the network once may be a viable option to ameliorate the impact of this factor. A further improvement may be achieved by the use of back end stored procedures which can be invoked directly from the client side, and do not need to be transferred over the network
