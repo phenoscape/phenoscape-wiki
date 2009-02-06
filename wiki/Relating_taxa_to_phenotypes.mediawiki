@@ -35,7 +35,7 @@ There are ways in which we can address these two situations.
 ''To be incorporated: logical inferences from ontological reasoning vs. evolutionary inferences from phylogenetic analysis''
 ==Shortcomings==
 * What are the criteria for which phenotypes are possessed by an organism?  I.e. a missing fin could have been severed by a biologist.  Can phenotypes which are the product of an organism's "developmental system" be distinguished from less interesting phenotypes such as severed fins?
-* We don't know which phenotypes co-occur (or don't) within one organism.
+* Considering only taxonomic ''exhibits'' statements, we don't know which phenotypes co-occur (or don't) within one organism.
 
 [[Category:Reasoning]]
 [[Category:Ontology]]
