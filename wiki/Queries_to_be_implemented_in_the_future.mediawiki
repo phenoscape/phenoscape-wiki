@@ -15,7 +15,6 @@ taxon_node.uid AS taxon,
 phenotype_node.uid AS phenotype,
 anatomy_node.uid AS anatomy,
 quality_node.uid AS quality,
-getAttributeForQuality(quality_node.node_id) AS attribute,
 slim_node.uid AS slim
 FROM
 link AS inheres_link, link AS is_a_link, link AS subset_link,
