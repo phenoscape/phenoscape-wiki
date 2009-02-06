@@ -32,7 +32,7 @@ It might be expected that one could annotate a phenotype for an order (or any ta
 #Furthermore, we do not know whether this phenotype was the ancestral condition for members of that order, or evolved in only one specialized member lineage.
 There are ways in which we can address these two situations.  If we are entering a phenotype which applies to every member of some higher taxon (like an order), we should generate annotations at the level of specificity which we desire.  Concretely, if we "know" that every species in some order has phenotype X, we should create ''exhibits'' annotations for every species in the taxonomy belonging to that order for phenotype X, attaching the appropriate evidence code (e.g. "evidence based on everybody says so").  In this way we explicitly capture the facts we want to rely on, with the weight of evidence (perhaps weak) we want to provide.  This does not preclude a convenient interface for "expanding" a single taxonomic annotation to generate annotations for all its member taxa when this is desired.
 
-''To be incorporated: logical inferences from ontological reasoning vs. evolutionary inferences from phylogenetic analysis''
+We cannot rely on logical inferences from ontological reasoning to know the phenotype of the most recent common ancestor for a particular clade.  This requires evolutionary inferences from phylogenetic analysis.
 
 ==Shortcomings==
 * What are the criteria for which phenotypes are possessed by an organism?  I.e. a missing fin could have been severed by a biologist.  Can phenotypes which are the product of an organism's "developmental system" be distinguished from less interesting phenotypes such as severed fins?
