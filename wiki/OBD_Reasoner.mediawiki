@@ -176,7 +176,7 @@ Another issue specific to the Phenoscape project was raised by Paula at the SICB
 
 This relation chain corresponds to the observation GIVEN THAT Basihyal_Cartilage ''absent_in'' Siluriformes AND Basihyal_Bone ''develops_from'' Basihyal_cartilage, THEN Basihyal_Bone ''absent_in'' Siluriformes. This and other similar relation chains (as per identified requirements) are to be implemented for the Phenoscape project in the future. Strategies to deal with absent features in general are also to be implemented in the near future.
 
-Potential strategies to implement the Balhoff rule and the absence of features problem are discussed [[Novel reasoning strategies|here]]. The semantics of the ''exhibits'' relation as (misleadingly) pertains to the absence of features problem are discussed [[The exhibits relation conundrum|here]].
+Differences between the [[The exhibits relation conundrum|existing semantics]] and [[Relating taxa to phenotypes|desired semantics]] of the ''exhibits'' relation need to be resolved to address this issue. Potential strategies to implement the Balhoff rule and the absence of features problem are discussed [[Novel reasoning strategies|here]].
 
 ==Sweeps==
 A reasoner functions over several sweeps. In each sweep, new implicit inferences are derived from the explicit annotations (as described in the previous sections) and added to the database. In the following sweep, inferences added from the previous sweep are used to extract further inferences. This process continues until no additional inferences are added in a sweep. This is when the ''deductive closure of the inference procedure'' is reached. No further inferences are possible and the reasoner exits.
