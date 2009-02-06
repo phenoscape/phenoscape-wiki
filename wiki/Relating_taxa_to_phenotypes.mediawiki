@@ -34,7 +34,7 @@ There are ways in which we can address these two situations.  If we are entering
 
 We cannot rely on logical inferences from ontological reasoning to know the phenotype of the most recent common ancestor for a particular clade.  This requires evolutionary inferences from phylogenetic analysis.  However, we may want to add inferred annotations from such analyses to our datastore.  One possibility is to use a different annotation.  Instead of ''exhibits'', one could also create statements such as "Taxon X ''ancestrally_exhibits'' Phenotype Y".  Such annotations could have evidence codes related to the type of evolutionary analysis supporting them.  Like exhibits annotations, ''ancestrally_exhibits'' annotations would unfortunately not provide information about current phenotypic states of descendant taxa.
 
-==Shortcomings==
+==Shortcomings and questions==
 * What are the criteria for which phenotypes are possessed by an organism?  I.e. a missing fin could have been severed by a biologist.  Can phenotypes which are the product of an organism's "developmental system" be distinguished from less interesting phenotypes such as severed fins?
 * Considering only taxonomic ''exhibits'' statements, we don't know which phenotypes co-occur (or don't) within one individual organism.
 * What are use-cases for the ''ancestrally_exhibits'' annotations?
