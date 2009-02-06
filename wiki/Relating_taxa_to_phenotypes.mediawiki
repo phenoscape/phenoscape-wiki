@@ -26,9 +26,13 @@ The ''exhibits'' relation has "some of" semantics.  As described above, an ''exh
 These semantics are consistent whether we create annotations on leaf taxa (species) or on higher taxa.  Annotations to higher taxa are exactly the same as those that might be inferred by a reasoner from annotations to its member taxa.  An annotation to a higher taxon tells us only that some member of that taxon possesses the phenotype, but does not provide knowledge that any particular member taxon possesses the phenotype.  For example, an annotation entered such as:
 * Cyprinidae ''exhibits'' "notched caudal fin"
 does not tell us whether its member taxon ''Danio rerio'' has a "notched caudal fin".  It might.
+==Annotating ancestral or default conditions==
+It might be expected that one could annotate a phenotype for an order (or any taxon), and thus "apply" that phenotype to all species within that order.  However, as explained above:
+#Such an annotation does not generate any more knowledge than we put in.  We know that some member(s) of the order exhibit the phenotype, but not which species or which families (member taxa of the order).
+#Furthermore, we do not know whether this phenotype was the ancestral condition for members of that order, or evolved in only one specialized member lineage.
+There are ways in which we can address these two situations.
 
 ''To be incorporated: logical inferences from ontological reasoning vs. evolutionary inferences from phylogenetic analysis''
-
 ==Shortcomings==
 * What are the criteria for which phenotypes are possessed by an organism?  I.e. a missing fin could have been severed by a biologist.  Can phenotypes which are the product of an organism's "developmental system" be distinguished from less interesting phenotypes such as severed fins?
 * We don't know which phenotypes co-occur (or don't) within one organism.
