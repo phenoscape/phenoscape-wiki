@@ -27,7 +27,7 @@ WHERE
 exhibits_pred_node.uid = 'PHENOSCAPE:exhibits' AND
 subset_pred_node.uid = 'oboInOwl:inSubset' AND
 is_a_pred_node.uid = 'OBO_REL:is_a' AND
-is_a_pred_node.is_inferred = 'f' AND
+is_a_link.is_inferred = 'f' AND
 inheres_pred_node.uid = 'OBO_REL:inheres_in' AND
 anatomy_node.uid = 'TAO:0000108' AND
 slim_node.uid IN ('attribute_slim', 'value_slim') AND
