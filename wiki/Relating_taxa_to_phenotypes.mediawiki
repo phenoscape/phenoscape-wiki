@@ -31,6 +31,7 @@ does not tell us whether its member taxon ''Danio rerio'' has a "notched caudal 
 
 ==Shortcomings==
 * What are the criteria for which phenotypes are possessed by an organism?  I.e. a missing fin could have been severed by a biologist.  Can phenotypes which are the product of an organism's "developmental system" be distinguished from less interesting phenotypes such as severed fins?
+* We don't know which phenotypes co-occur (or don't) within one organism.
 
 [[Category:Reasoning]]
 [[Category:Ontology]]
