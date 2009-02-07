@@ -101,7 +101,7 @@ Given that the use of table joins in a query assembled on the client side is imp
 
 ==== Strategy #4: Materialized views ====
 
-[http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/PhenoscapeDataLoader/sql/util/realize-relations-as-views.plpgsql?view=log|Stored procedures] in the OBD API can be used to transcribe relations and classes into explicit views, which can then be queried to retrieve information of interest.
+[http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/PhenoscapeDataLoader/sql/util/realize-relations-as-views.plpgsql?view=log Stored procedures] in the OBD API can be used to transcribe relations and classes into explicit views, which can then be queried to retrieve information of interest.
 
 == Web services modules ==
 
