@@ -99,6 +99,10 @@ This strategy aims to improve upon the execution planning bottleneck of the prev
 
 Given that the use of table joins in a query assembled on the client side is impacted by the execution planning stage ([[Queries#Factor_2:_Query_parsing_and_execution_planning|Factor #2]]), this can be reduced significantly by the use of back-end stored procedures. The SQL query with > 10 table joins can be implemented as part of a stored procedure, which can be directly invoked by the client-side. Caching the query execution plan (derived at the first execution of the query), will ensure this strategy can be used for all subsequent invocations of the query resulting in very speedy performance. While the execution planning time can be minimized in this manner, note that the network transfer time is also eliminated. However, the data retrieved by this query will be in the same form as that implemented in the previous strategies, Strategies #1 and #2, requiring some nifty data set parsing on the client side before it can be transferred to the UI.
 
+==== Strategy #4: Materialized views ====
+
+[http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/PhenoscapeDataLoader/sql/util/realize-relations-as-views.plpgsql?view=log|Stored procedures] in the OBD API can be used to transcribe relations and classes into explicit views, which can then be queried to retrieve information of interest.
+
 == Web services modules ==
 
 These are the various module that are (or will be) a part of the ASIH prototype.
