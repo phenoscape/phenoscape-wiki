@@ -22,7 +22,7 @@ Paula Mabee, Jim Balhoff, Wasila Dahdul, Cartik Kothari, Hilmar Lapp, John Lundb
 
 Paula Mabee (2008). "Introduction to Phenoscape, annotation and ontologies". Presentation at [http://174.133.140.86/ AmphibAnat workshop] St. Louis, MO, Nov. 7, 2008
 
-Paula Mabee, Jim Balhoff, Wasila Dahdul, Hilmar Lapp, John Lundberg, Peter Midford, Todd Vision, Monte Westerfield (2008). Linking evolutionary morphology to genomics using ontologies. Poster at the [http://www.vertpaleo.org/meetings/past.cfm Society of Vertebrate Paleontology Annual Meeting], Cincinnati, OH, October 2008
+Paula Mabee, Jim Balhoff, Wasila Dahdul, Hilmar Lapp, John Lundberg, Peter Midford, Todd Vision, Monte Westerfield (2008). Linking evolutionary morphology to genomics using ontologies. Poster (presented by Wasila Dahdul) at the [http://www.vertpaleo.org/meetings/past.cfm Society of Vertebrate Paleontology Annual Meeting], Cincinnati, OH, October 2008
 
 Peter Midford (2008) [http://www.tdwg.org/fileadmin/2008conference/slides/Midford_06_02_TaxonomicOntologies.ppt Taxonomic ontologies: Bridging phylogenetic and taxonomic history.] Presentation at the 2008 TDWG Conference, Fremantle, Western Australia, October 2008.
 
