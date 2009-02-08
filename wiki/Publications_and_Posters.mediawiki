@@ -28,7 +28,7 @@ Peter Midford (2008) [http://www.tdwg.org/fileadmin/2008conference/slides/Midfor
 
 Paula Mabee, Jim Balhoff, Wasila Dahdul, Hilmar Lapp, John Lundberg, Peter Midford, Todd Vision, Monte Westerfield (2008). [[Media:Evolution2008-phenoscape.ppt|Linking evolutionary morphology to genomics using ontologies]]. Poster at the Evolution 2008 Conference, Minneapolis, MN, July 2008.
 
-Todd Vision, Jim Balhoff, Wasila Dahdul, Hilmar Lapp, John Lundberg, Paula Mabee, Peter Midford, Monte Westerfield (2008) [[Media:atol.march08.pdf|How to enable ocmputable phenotypes?]] Assembling the Tree of Life Principal Investigators Meeting, Hilton St. Charles, New Orleans, LA, March 2008. 
+Todd Vision, Jim Balhoff, Wasila Dahdul, Hilmar Lapp, John Lundberg, Paula Mabee, Peter Midford, Monte Westerfield (2008) [[Media:atol.march08.pdf|How to enable computable phenotypes?]] Assembling the Tree of Life Principal Investigators Meeting, Hilton St. Charles, New Orleans, LA, March 2008.
 
 Paula Mabee. Keynote presentation at the NSF conference "Where to Next with the Tree of Life?" http://www.biology.uiowa.edu/ATOL/index.htm “Development of an Informatics System to bridge AToL and Evo-Devo”.  April 4, 2008
 
