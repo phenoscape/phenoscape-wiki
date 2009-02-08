@@ -18,7 +18,7 @@ Paula Mabee (2009) "Phenoscape: Extending model organism ontologies for devo-evo
 
 Paula Mabee (2008) “Phenoscape: Bridging systematics and genetics with ontologies”.  Panel presentation at “Establishing Fish Collections and Other Biodiversity Research Resources in Africa Countries” as part of [http://www.museum.tulane.edu/ctolafrica/ International Workshop Enhancing Freshwater Fish Biodiversity Research in Africa] Grahamstown, South Africa, Nov. 18, 2008.
 
-Paula Mabee, Jim Balhoff, Wasila Dahdul, Cartik Kothari, Hilmar Lapp, John Lundberg, Peter Midford, Todd Vision, Monte Westerfield (2008) “Phenoscape: Morphology linked to genes using ontologies” Poster presentation at: [http://www.museum.tulane.edu/ctolafrica/ International Workshop Enhancing Freshwater Fish Biodiversity Research in Africa] Grahamstown, South Africa, Nov. 17, 2008.
+Paula Mabee, Jim Balhoff, Wasila Dahdul, Cartik Kothari, Hilmar Lapp, John Lundberg, Peter Midford, Todd Vision, Monte Westerfield (2008) “Phenoscape: Morphology linked to genes using ontologies” Poster presentation (by P. Mabee) at: [http://www.museum.tulane.edu/ctolafrica/ International Workshop Enhancing Freshwater Fish Biodiversity Research in Africa] Grahamstown, South Africa, Nov. 17, 2008.
 
 Paula Mabee (2008). "Introduction to Phenoscape, annotation and ontologies". Presentation at [http://174.133.140.86/ AmphibAnat workshop] St. Louis, MO, Nov. 7, 2008
 
