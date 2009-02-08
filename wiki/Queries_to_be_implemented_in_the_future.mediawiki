@@ -9,7 +9,7 @@ These are some queries being tested out to improve the database performance foll
 The result of this query is the same as for the previous two queries except the wildcard search is replaced by exact match requirements on the search parameters viz. relation and concept names (IDs, to be specific). This enables leverage of the indexes set up for the ''Link'' and ''Node'' tables in the OBD database
 
 ===Query===
-<javascript>
+<sql>
 SELECT DISTINCT
 taxon_node.uid AS taxon,
 phenotype_node.uid AS phenotype,
@@ -43,7 +43,7 @@ is_a_link.object_id = quality_node.node_id AND
 inheres_link.node_id = phenotype_node.node_id AND
 inheres_link.predicate_id = inheres_pred_node.node_id AND
 inheres_link.object_id = anatomy_node.node_id;
-</javascript>
+</sql>
 
 ===Query Execution Plan===
 <javascript>
