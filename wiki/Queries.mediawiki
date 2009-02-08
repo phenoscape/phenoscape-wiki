@@ -117,7 +117,7 @@ In summary, this strategy retrieves all the desired information without the comp
 
 == Testing strategy ==
 
-The testing strategy aims to record performance times for each of the querying strategies proposed above. All performance tests are to be performed on the development server at NESCent from the command line on Cartik's laptop running Ubuntu Hardy Heron. 
+The testing strategy aims to record performance times for each of the querying strategies proposed above. All performance tests are to be performed on the development server at NESCent from the command line on Cartik's laptop running Ubuntu Hardy Heron. The results will be documented [[Query_execution_speed-up:_The_investigation|separately]]
 
 == Web services modules ==
 
