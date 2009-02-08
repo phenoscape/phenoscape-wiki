@@ -113,7 +113,7 @@ This strategy aims to eliminate the need for query execution planning in the dat
 ##  A third procedure (P12) finds the quality (Q) in the phenotype. This procedure P12 also invokes a subsidiary procedure (P121) to identify the attribute of the identified quality Q. If the quality Q is in the 'value slim' subset, the invoked stored procedure P121 retrieves the first super-quality of Q that belongs to the 'attribute slim' subset of PATO. If the  quality Q is in the 'attribute slim' subset, Q is returned. Therefore, the P12 and P121 procedure combination retrieves both the quality Q of the phenotype and the attribute A it is classified under in one step.
 ## A fourth procedure (P13) identifies all the unique taxa that exhibit the phenotype. The retrieved taxa maybe species from the Teleost hierarchy or genotypes from the ZFIN database. For the latter, P13 identifies all the unique genes that code for this genotype.
 
-In summary, this strategy retrieves all the desired information without the complexity involved with table joins, and the network transfer time component. Further, the retrieved data does not need to be extensively parsed in the client-side. In fact, it is retrieved a format similar to JSON.
+In summary, this strategy retrieves all the desired information without the complexity involved with table joins, and the network transfer time component. Further, the retrieved data does not need to be extensively parsed in the client-side. In fact, it is retrieved in a format similar to JSON.
 
 == Testing strategy ==
 
