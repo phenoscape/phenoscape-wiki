@@ -5,7 +5,7 @@ title: Training and Workshops
 ==Summer Training Opportunities==
 Opportunities in summer 2009 are available to graduate students and postdocs for training in data curation and software development at NESCent and the University of South Dakota.  [[SummerTraining2009|More information]].
 
-== Evolutionary Biology and Ontologies Workshop: January 5, 2009 ==
+== Evolutionary Biology and Ontologies Workshop II: January 5, 2009 ==
 
 This workshop will be held in conjunction with the [http://www.sicb.org/meetings/2009/ 2009 SICB Annual Meeting] in Boston, MA, in the morning of January 5, 2009. It is cosponsored by the [http://www.nescent.org National Evolutionary Synthesis Center] (NESCent) and the [http://bioontology.org National Center for Biomedical Ontologies] (NCBO).
 
@@ -35,7 +35,7 @@ The second Morphology Data Jamboree, later renamed to <span class="plainlinks">[
 * [[Data Jamboree 2|Data Jamboree overview]] with links to agenda and related material
 * [[Media:Phenoscape_Data_Roundup.pdf|Final report]] from the event
 
-== Evolutionary Biology and Ontologies Workshop: June 20, 2008 ==
+== Evolutionary Biology and Ontologies Workshop I: June 20, 2008 ==
 
 [[Image:Evolution2008-OntologyWorkshop.png|right]]
 This workshop will be held in conjunction with the [http://www.cce.umn.edu/conferences/evolution/ Evolution 2008] meeting in Minneapolis, MN, 20 June 2008. It is organized under the auspices of the [http://ncbo.us National Center for Biomedical Ontologies] (NCBO) in collaboration with the [http://www.nescent.org/ National Evolutionary Synthesis Center] (NESCent).
