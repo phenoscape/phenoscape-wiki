@@ -35,6 +35,9 @@ title: Phenoscape web UI
 * Taxon search interface
 ** Design data service schema to be implemented by Cartik
 ** Implement interface using live data service once developed by Cartik
+
+===April 2009===
+* Implement "splashy" search entry page as defined by mockup work
 * Incorporate publication data into user interface
 ** Incorporate publication links into annotation results displays
 *** Columns referencing numbers of taxonomic phenotype or mutant phenotype match results will be accompanied by a column including number of publications referencing the search item
@@ -47,9 +50,6 @@ title: Phenoscape web UI
 *** Display or link to all phenotype annotations resulting from publication
 ** Requires publication data implementation in OBD by Cartik
 ** Requires specimen data implementation in OBD by Cartik
-
-===April 2009===
-* Implement "splashy" search entry page as defined by mockup work
 * Possible user testing session in conjunction with RCN meeting at NESCent
 
 ===May 2009===
