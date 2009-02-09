@@ -2,6 +2,14 @@
 title: Annotation status
 ---
 
+===2009-02-09===
+*Publication count: 80
+*Total characters: 6347
+*Completed characters*: 894
+*In-progress characters**: 211
+*Empty characters***: 5242
+*Total annotations: 2476
+
 ===2009-02-02===
 *Publication count: 79
 *Total characters: 5940
