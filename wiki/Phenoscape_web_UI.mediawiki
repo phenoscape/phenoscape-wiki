@@ -13,7 +13,18 @@ title: Phenoscape web UI
 ** Possible live demo depending on data service performance progress
 *** Services should return in no more than 2 seconds
 *** Evaluate feasibility 2 weeks before meeting
-
+* Mockup publication data interface within web application
+* Mockup "splashy" search entry page - we should have a more graphically capturing entry gateway for exploring the data content
+** One of the following:
+***Hierarchical term explorer
+***Visual explorer, using schematic drawings ("the prototypical fish")
+***Visual explorer using 3D scans of catfish (and eventually zebrafish when done).
+**Should explore various prototypes of these ideas using HTML mockups and get feedback from project team
+* Mockup taxonomy-based tree-mapped data perspective
+** View taxonomic phenotype annotation results organized by a phylogenetic tree
+** Group phenotypes as simplistic union of descendant nodes, rather than ancestral reconstruction
+** Use taxonomy as basis for phylogenetic tree
+**Develop HTML mockups in web application
 ===March 2009===
 * Incorporate 1/5/09 team feedback on existing interface components
 ** Anatomy term search results - reorganize according to [[:Image:Phenotype_search_page_mockup.jpg|sketch]]
@@ -24,7 +35,6 @@ title: Phenoscape web UI
 * Taxon search interface
 ** Design data service schema to be implemented by Cartik
 ** Implement interface using live data service once developed by Cartik
-* Mockup publication data interface within web application ''-- should these mockups be available for DECAP meeting in February?''
 * Incorporate publication data into user interface
 ** Incorporate publication links into annotation results displays
 *** Columns referencing numbers of taxonomic phenotype or mutant phenotype match results will be accompanied by a column including number of publications referencing the search item
@@ -39,22 +49,11 @@ title: Phenoscape web UI
 ** Requires specimen data implementation in OBD by Cartik
 
 ===April 2009===
-* "Splashy" search entry page - we should have a more graphically capturing entry gateway for exploring the data content
-** One of the following:
-***Hierarchical term explorer
-***Visual explorer, using schematic drawings ("the prototypical fish")
-***Visual explorer using 3D scans of catfish (and eventually zebrafish when done).
-**Should explore various prototypes of these ideas using HTML mockups and get feedback from project team
-**Implement preferred interface
+* Implement "splashy" search entry page as defined by mockup work
 * Possible user testing session in conjunction with RCN meeting at NESCent
 
 ===May 2009===
-* Taxonomy-based tree-mapped data perspective
-** View taxonomic phenotype annotation results organized by a phylogenetic tree
-** Group phenotypes as simplistic union of descendant nodes, rather than ancestral reconstruction
-** Use taxonomy as basis for phylogenetic tree
-**Develop HTML mockups in web application
-** Implement based on project team feedback
+* Implement taxonomy-based tree-mapped data perspective
 *Implement appropriate scalable deployment of web application
 **Multiple application instances and load balancing
 
