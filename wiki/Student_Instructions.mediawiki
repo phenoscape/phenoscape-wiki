@@ -27,7 +27,7 @@ Once you have obtained the software and files, you can begin work.
 ##	type in a comment that describes your work on each file (e.g., “added free text character descriptions for 1-100”, “proofread matrix and taxon list”…)
 
 ===3. Download PDFs from the Phenoscape Fileshare ===
-You can download publication PDFs and powerpoint posters of the TAO and PATO ontologies by connecting to the Phenoscape file share.
+You can download publication PDFs by connecting to the Phenoscape file share.
 
 Connecting in MAC OS X
 # In finder > Go > Connect to Server
