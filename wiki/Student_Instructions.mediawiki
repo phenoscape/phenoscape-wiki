@@ -7,7 +7,7 @@ title: Student Instructions
 Phenex is used by Phenoscape for curation of evolutionary phenotypes.  You can find instructions for downloading and installing Phenex at the [[Phenex|Phenex homepage]].
 
 
-===1. Using ZigVersion to work with project files ===
+===2. Using ZigVersion to work with project files ===
 
 Phenoscape project files  are housed in a subversion-controlled data repository, and we use [http://sourceforge.net/svn/?group_id=224046/ Subversion] to manage local and repository copies of the files.
 
@@ -25,5 +25,24 @@ Once you have obtained the software and files, you can begin working.
 #	After completing work and saving your file, go back to ZigVersion and Check In your modified file(s) to the repository.
 ##	select the file and click “Check In”; you can also check in a batch of modified files by selecting the top level folder
 ##	type in a comment that describes your work on each file (e.g., “added free text character descriptions for 1-100”, “proofread matrix and taxon list”…)
+
+====3. Download PDFs from the Phenoscape Fileshare ====
+You can download publication PDFs and powerpoint posters of the TAO and PATO ontologies by connecting to the Phenoscape file share.
+
+Connecting in MAC OS X
+# In finder > Go > Connect to Server
+# Type in https://ftp.nescent.org/[sharename] .   For example, https://ftp.nescent.org/phenoscape-data
+# Accept security warning about certificate
+# enter username and password (ask a Phenoscaper)
+
+Connecting in Windows XP
+# Go to "My Network Places"
+# Add a Network Place (pulls up wizard)
+# Click Next twice
+# In internet or Network address box, type in  https://ftp.nescent.org/phenoscape-data/
+**Note:  (there is a bug in MS implementation of webdav client. In fact, Internet explorer and this method use two different means of connecting to webdav. go figure. Therefore, you must suffix the URL with the pound sign as a workaround to the bug.
+# Accept certificate warning, if given.
+# Give the share a meaningful name. Default is usually fine.
+# Finish
 
 [[Category:Curation]]
