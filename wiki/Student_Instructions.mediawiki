@@ -2,4 +2,23 @@
 title: Student Instructions
 ---
 
-[[Creating_Tree_Files|Creating trees using Mesquite ]]
+===1. Using ZigVersion to work with project files ===
+
+Phenoscape project files  are housed in a subversion-controlled data repository, and we use [http://sourceforge.net/svn/?group_id=224046/ Subversion] to manage local and repository copies of the files. 
+
+# Download and install [http://zigversion.com/ ZigVersion]. This application is for Macs only. Remember to drag the icon from the installation dialog box to your Applications folder.  Also download the free, non-commercial [http://zigversion.com/ license]. This requires that you provide your name and email address, and the license file is immediately emailed to you.  Don't open this license file, just drag to the License dialog box that appears when you first run ZigVersion.
+# Follow [[Data Repository Access Instructions| this tutorial to learn how to use ZigVersion.]]
+
+Once you have obtained the software and files, you can begin working.  
+
+===== ''Always follow these steps to begin and end your work session:'' =====
+
+#	Start up ZigVersion and connect to repository
+#	Select the top-level folder named with a forward slash (/)
+#	Click "update" to download recent versions of files to your local, working folder
+#	Within Phenex, open the local copy of your file and proceed with your curation work.
+#	After completing work and saving your file, go back to ZigVersion and Check In your modified file(s) to the repository. 
+##	select the file and click “Check In”; you can also check in a batch of modified files by selecting the top level folder
+##	type in a comment that describes your work on each file (e.g., “added free text character descriptions for 1-100”, “proofread matrix and taxon list”…)
+
+[[Category:Curation]]
