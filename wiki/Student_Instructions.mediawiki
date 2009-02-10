@@ -35,15 +35,7 @@ Connecting in MAC OS X
 # Accept security warning about certificate
 # enter username and password (ask a Phenoscaper)
 
-Connecting in Windows XP
-# Go to "My Network Places"
-# Add a Network Place (pulls up wizard)
-# Click Next twice
-# In internet or Network address box, type in  https://ftp.nescent.org/phenoscape-data/
-**Note:  (there is a bug in MS implementation of webdav client. In fact, Internet explorer and this method use two different means of connecting to webdav. go figure. Therefore, you must suffix the URL with the pound sign as a workaround to the bug.
-# Accept certificate warning, if given.
-# Give the share a meaningful name. Default is usually fine.
-# Finish
+For Windows XP users, see instructions [[Resources_for_curators|here]]
 
 ===4. Create Tree Files ===
 
