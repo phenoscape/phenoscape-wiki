@@ -20,10 +20,14 @@ The following are instructions for creating and saving trees using [http://mesqu
 ## Name the tree after the new figure number
 #Use ZigVersion to check in your modified tree file.  If "hidden files" appear in the Tree Files folder, delete them within the ZigVersion program (you may need to restart ZigVersion to confirm that the files were deleted).
 
-==== Tree tools you may need to modify a tree:====
-Prune clade button: delete taxon or branch from tree
-Collapse branch button: create polytomy
-Interchange branches button: rotate branches
-Add taxa button: this creates an extra row in the data matrix for the new taxon
+==== Tree tools commonly used ====
+Tree Window buttons
+
+*Prune clade button: delete taxon or branch from tree
+*Collapse branch button: create polytomy
+*Interchange branches button: rotate branches
+
+Character Matrix buttons:
+*Add taxa button: this creates an extra row in the character matrix for the new taxon. Double-click on the Taxon cell to rename the taxon.
 
 [[Category:Curation]]
