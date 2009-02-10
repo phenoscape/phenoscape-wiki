@@ -2,8 +2,9 @@
 title: Creating Tree Files
 ---
 
-The following are instructions for creating and saving trees using [http://mesquiteproject.org/mesquite/mesquite.html Mesquite].  You might begin with an existing nexus file containing the data matrix for the publication, or create a new nexus file containing a list of matrix taxa copied from the Matrix Taxon column in Phenex.
+The following are instructions for creating and saving trees using [http://mesquiteproject.org/mesquite/mesquite.html Mesquite].  You might begin with an existing nexus file containing the data matrix for the publication, or create a new nexus file containing a list of matrix taxa copied from the Matrix Taxon column in Phenex. Make sure that tree names match Matrix Taxon names.
 
+====General Instructions====
 # Open the nexus file in Mesquite. You should see the data matrix with the taxon list in the left-hand column.
 # Create a Tree Block (which will contain one or more trees for the publication) by selecting Taxa&Trees > New Empty Block of Trees.  Click OK if Mesquite asks for Name of trees block.
 # Click on the “View Trees” icon below “Trees” on the left hand side of the Mesquite window.  You may need to click on the arrow to display the tree icons.
@@ -17,8 +18,12 @@ The following are instructions for creating and saving trees using [http://mesqu
 ## Name the tree after the figure number (e.g., Figure 6.).
 # To add additional trees to the file, modify the stored tree (e.g., Figure 6) as needed, then go to Tree > Store Tree As
 ## Name the tree after the new figure number
-#Use ZigVersion to check in your modified tree file.  If "hidden files" appear in the Tree Files folder, delete them within the ZigVersion program (you may need to restart ZigVersion to confirm that the files were deleted).  
+#Use ZigVersion to check in your modified tree file.  If "hidden files" appear in the Tree Files folder, delete them within the ZigVersion program (you may need to restart ZigVersion to confirm that the files were deleted).
 
-Tree tools you may need to modify a tree:
+==== Tree tools you may need to modify a tree:====
+Prune clade button: delete taxon or branch from tree
+Collapse branch button: create polytomy
+Interchange branches button: rotate branches
+Add taxa button: this creates an extra row in the data matrix for the new taxon
 
 [[Category:Curation]]
