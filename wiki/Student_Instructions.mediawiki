@@ -6,8 +6,10 @@ title: Student Instructions
 
 Phenex is used by Phenoscape for curation of evolutionary phenotypes.  You can find instructions for downloading and installing Phenex at the [[Phenex|Phenex homepage]].
 
+===2. Create a SourceForge account===
+We use [http://sourceforge.net/ SourceForge] to maintain our data files and you'll need a username and password to work with these files.
 
-===2. Use ZigVersion to work with project files ===
+===3. Use ZigVersion to work with project files ===
 
 Phenoscape project files  are housed in a subversion-controlled data repository, and we use [http://sourceforge.net/svn/?group_id=224046/ Subversion] to manage local and repository copies of the files.
 
@@ -26,7 +28,7 @@ Once you have obtained the software and files, you can begin work.
 ##	select the file and click “Check In”; you can also check in a batch of modified files by selecting the top level folder
 ##	type in a comment that describes your work on each file (e.g., “added free text character descriptions for 1-100”, “proofread matrix and taxon list”…)
 
-===3. Download PDFs from the Phenoscape Fileshare ===
+===4. Download PDFs from the Phenoscape Fileshare ===
 You can download publication PDFs by connecting to the Phenoscape file share.
 
 Connecting in MAC OS X
@@ -37,7 +39,7 @@ Connecting in MAC OS X
 
 For Windows XP users, see instructions [[Resources_for_curators|here]]
 
-===4. Create Tree Files ===
+===5. Create Tree Files ===
 
 We use [http://mesquiteproject.org/mesquite/mesquite.html Mesquite] to create nexus files containing trees replicated from fish publications.  See this page for [[Creating_Tree_Files|instructions on creating tree files using Mesquite.]]
 
