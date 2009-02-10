@@ -2,23 +2,23 @@
 title: Creating Tree Files
 ---
 
-The following are instructions for creating and saving trees using [http://mesquiteproject.org/mesquite/mesquite.html Mesquite].  You should have a [http://sourceforge.net/ SourceForge] account and access to the [[Data_Repository_Access_Instructions|Phenoscape Data Repository]] before beginning.
+The following are instructions for creating and saving trees using [http://mesquiteproject.org/mesquite/mesquite.html Mesquite].  You might begin with an existing nexus file containing the data matrix for the publication, or create a new nexus file containing a list of matrix taxa copied from the Matrix Taxon column in Phenex.
 
-You might begin with an existing nexus file containing the data matrix for the publication, or create a new nexus file containing a list of matrix taxa copied from the Matrix Taxon column in Phenex. 
-
-
-# Open nexus file in Mesquite. You should see the data matrix wth list of taxa in the left-hand column.
-# Next, create a Tree Block (which will contain one or more trees for the publication) by selecting Taxa&Trees > New Empty Block of Trees.  Click OK if Mesquite asks for Name of trees block.
-# Click on the “View Trees” icon below “Trees” on the left hand side of the Mesquite window.  You may need to click on the arrow to display the tree icons. 
-## A ”default bush” tree will appear.  
-# Optional: format the tree display to make it easier to read names manipulate the tree
+# Open the nexus file in Mesquite. You should see the data matrix with the taxon list in the left-hand column.
+# Create a Tree Block (which will contain one or more trees for the publication) by selecting Taxa&Trees > New Empty Block of Trees.  Click OK if Mesquite asks for Name of trees block.
+# Click on the “View Trees” icon below “Trees” on the left hand side of the Mesquite window.  You may need to click on the arrow to display the tree icons.
+## A ”default bush” tree will appear.
+# Optional: format the tree display to make it easier to read the taxon names and to manipulate the tree
 ## go to Drawing > Tree Form > Square Tree
 ## go to Drawing > Orientation > Right
 ## go to Drawing > Set Current Orientation as Default
-# Modify the tree as needed to replicate the publication tree
+# Modify the tree as needed to replicate the publication tree.  You may need the tree icons listed below.
 # Store the tree by going to Tree>Store Tree As
-## Name the tree after the figure number (e.g., Figure 6.). 
-# To add additional trees to the file, modify the current tree (e.g., Figure 6) as needed, then go to Tree > Store Tree As
+## Name the tree after the figure number (e.g., Figure 6.).
+# To add additional trees to the file, modify the stored tree (e.g., Figure 6) as needed, then go to Tree > Store Tree As
 ## Name the tree after the new figure number
+#Use ZigVersion to check in your modified tree file.  If "hidden files" appear in the Tree Files folder, delete them within the ZigVersion program (you may need to restart ZigVersion to confirm that the files were deleted).  
+
+Tree tools you may need to modify a tree:
 
 [[Category:Curation]]
