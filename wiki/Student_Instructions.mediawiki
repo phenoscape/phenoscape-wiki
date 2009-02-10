@@ -2,7 +2,12 @@
 title: Student Instructions
 ---
 
-====1. Using ZigVersion to work with project files ====
+===1. Download Most Recent Version of Phenex===
+
+Phenex is used by Phenoscape for curation of evolutionary phenotypes.  You can find instructions for downloading and installing Phenex at the [[Phenex|Phenex homepage]].
+
+
+===1. Using ZigVersion to work with project files ===
 
 Phenoscape project files  are housed in a subversion-controlled data repository, and we use [http://sourceforge.net/svn/?group_id=224046/ Subversion] to manage local and repository copies of the files.
 
