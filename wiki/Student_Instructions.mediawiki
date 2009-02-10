@@ -26,7 +26,7 @@ Once you have obtained the software and files, you can begin working.
 ##	select the file and click “Check In”; you can also check in a batch of modified files by selecting the top level folder
 ##	type in a comment that describes your work on each file (e.g., “added free text character descriptions for 1-100”, “proofread matrix and taxon list”…)
 
-====3. Download PDFs from the Phenoscape Fileshare ====
+===3. Download PDFs from the Phenoscape Fileshare ===
 You can download publication PDFs and powerpoint posters of the TAO and PATO ontologies by connecting to the Phenoscape file share.
 
 Connecting in MAC OS X
@@ -44,5 +44,7 @@ Connecting in Windows XP
 # Accept certificate warning, if given.
 # Give the share a meaningful name. Default is usually fine.
 # Finish
+
+===4. Create Tree Files ===
 
 [[Category:Curation]]
