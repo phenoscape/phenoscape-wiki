@@ -39,6 +39,6 @@ For Windows XP users, see instructions [[Resources_for_curators|here]]
 
 ===4. Create Tree Files ===
 
-We use [http://mesquiteproject.org/mesquite/mesquite.html Mesquite] to create nexus files containing trees replicated from fish publications.  You should have a [http://sourceforge.net/ SourceForge] account and access to the [[Data_Repository_Access_Instructions|Phenoscape Data Repository]] before beginning.
+We use [http://mesquiteproject.org/mesquite/mesquite.html Mesquite] to create nexus files containing trees replicated from fish publications.  See this page for [[Creating_Tree_Files|instructions on creating tree files using Mesquite.]]
 
 [[Category:Curation]]
