@@ -13,7 +13,7 @@ The last category has been discussed at some length in the [[Queries]] page. Thi
 
 ==Hardware==
 
-The Phenoscape database is hosted on a development server running Centos 5.2 x86_64. The Phenoscape application is hosted on a development web server running Mac OS X 10.4, running JBoss (Version 4.0.5). At present (Jan 30, 2009), the size of the database is approximately 687 MB.
+The Phenoscape database is hosted on a [https://www.nescent.org/intranet/SysAdmin:Servers:Darwin development server]. At present (Fen 11, 2009), the size of the database is approximately 750 MB.
 
 ==Software==
 
