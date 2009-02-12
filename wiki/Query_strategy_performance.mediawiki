@@ -2,7 +2,7 @@
 title: Query strategy performance
 ---
 
-This page discusses the requirements of the various data access modules of the Phenoscape application to be demonstrated at the ASIH workshop, and documents the performance of the various [[Queries#Proposed_querying_strategies_for_the_ASIH_prototype|querying strategies]] being tested for these modules.
+This page discusses the requirements of the various data access modules of the Phenoscape application to be demonstrated at the ASIH workshop, and documents the performance of the various [[Queries#Proposed_querying_strategies_for_the_ASIH_prototype|querying strategies]] being tested for these modules. Familiary with SQL and PostgreSQL stored procedures may be necessary to fully comprehend these contents. 
 
 = Anatomy data services =
 
