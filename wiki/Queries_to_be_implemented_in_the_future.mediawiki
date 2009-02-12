@@ -73,6 +73,26 @@ exhibits_link.object_id = phenotype_node.node_id;
 
 ===Discussion===
 
+This query (referred to as QfS1, short for "Query for Strategy 1") returns each phenotype associated with the 'TAO:0000108' and also the specific entities and qualities associated with each phenotype. In addition, the taxa that exhibit the phenotype and the genotypes are also returned. If several taxa {T} or genotypes (GT} exhibit the same phenotype P, which is of the form, inheres_in(Q, E), the results are returned in rows in the format shown below.
+
+<javascript>
+P1                   E1                Q1                   T1
+P1                   E1                Q1                   T2
+.
+.
+P1                   E1                Q1                   Tn
+P2                   E2                Q2                   GT1
+.
+.
+P2                   E2                Q2                   GTn
+</javascript>
+
+Note that for each quality Q in the result above, the character that subsumes it needs to be determined. This cannot be done directly from the query because a recursive traversal of the PATO hierarchy may be required in many cases. Recursive traversals are best implemented by stored procedures. This will definitely add to the execution times documented for this query. Further, note that only the genotypes associated with each phenotype are returned. To find the genes that encode these genotypes, another query needs to be executed. It is not possible to unilaterally join this gene query with QfS1 because both taxa as well as genotypes are returned by QfS1. What is required is a procedural attachment that invokes the gene query, if the returned result is a phenotype. Again, this procedural attachment can only be implemented as a stored procedure. 
+
+Finally, the performance of the query QfS1 varied widely from half a second (very good) to 108 seconds (intolerable) in a random set of executions issued from the command line. The query [[Queries#Factor_2:_Query_parsing_and_execution_planning|execution planning process]] is responsible for this. If instead of searching for 'TAO:0000108' (fin), a more general term (like TAO:0100000, the parent term for all term definitions in TAO) were to be searched for, the performance of this query would be much more unpredictable and much slower too.
+
+Let us examine the performance of the very same query where specific stored procedures for identifying the characters subsuming the qualities and genes encoding the genotypes are invoked as part of QfS1.
+
 ==Strategy #2==
 
 ==Strategy #3==
