@@ -93,7 +93,7 @@ In all, this strategy involves joining 13 different tables to obtain all of the 
 
 ==== Strategy #2: Specifying the order of table joins in the original query ====
 
-This strategy aims to improve upon the [[Queries#Factor_2:_Query_parsing_and_execution_planning|execution planning bottleneck]] of the previous strategy ([[Queries #Strategy_#1:_Simple_table_joins|Strategy #1]]). By explicitly specifying the [http://www.postgresql.org/docs/8.3/interactive/explicit-joins.html order of the table joins] in the query itself and setting a [http://www.postgresql.org/docs/8.3/interactive/runtime-config-query.html#GUC-JOIN-COLLAPSE-LIMIT|back-end database parameter], the DBMS is stopped from evaluating every possible join order for the specified tables. However, the retrieved data will have to be parsed on the client side before it is assembled into the JSON object, just as in the previous strategy.
+This strategy aims to improve upon the [[Queries#Factor_2:_Query_parsing_and_execution_planning|execution planning bottleneck]] of the previous strategy ([[Queries #Strategy_#1:_Simple_table_joins|Strategy #1]]). By explicitly specifying the [http://www.postgresql.org/docs/8.3/interactive/explicit-joins.html order of the table joins] in the query itself and setting a [http://www.postgresql.org/docs/8.3/interactive/runtime-config-query.html#GUC-JOIN-COLLAPSE-LIMIT|back-end database parameter], the DBMS is stopped from evaluating every possible join order for the specified tables.
 
 ==== Strategy #3: Stored procedures that use simple table joins ====
 
