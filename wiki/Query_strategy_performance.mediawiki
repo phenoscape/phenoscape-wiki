@@ -204,7 +204,9 @@ exhibits_link.object_id = phenotype_node.node_id;
 
 ===Discussion===
 
-The results obtained by this query are consistent with the requirements of the anatomy data service. The query performance is also very stable (approx. 9.8 seconds) over repeated executions. In the next section, the stored procedures used in this query viz. ''getTaxaForPhenotype(INT)'' and ''getAttributeForQuality(INT)'' will be discussed in detail. In addition, a comprehensive stored procedure called ''getAnatomyInfoWithTableJoins(VARCHAR)'' is introduced. This new stored procedure can be invoked from the client side and in its turn, invokes the other stored procedures to return all the data related to the searched anatomical entity in one execution.
+The results obtained by this query are consistent with the requirements of the anatomy data service. The query performance is also very stable (approx. 9.8 seconds) over repeated executions. This time was recorded for querying over fins. Querying for the root entity of TAO will expectedly result in much longer execution times.
+
+In the next section, the stored procedures used in this query viz. ''getTaxaForPhenotype(INT)'' and ''getAttributeForQuality(INT)'' will be discussed in detail. In addition, a comprehensive stored procedure called ''getAnatomyInfoWithTableJoins(VARCHAR)'' is introduced. This new stored procedure can be invoked from the client side and in its turn, invokes the other stored procedures to return all the data related to the searched anatomical entity in one execution.
 
 ==Strategy #3==
 
