@@ -25,7 +25,7 @@ The result should be a list in the format shown below
 
 ==Strategy #1==
 
-This strategy is the [[Strategy_#1:_Simple_table_joins|simplest way]] to try and get all the necessary information related to the anatomical entity being searched for. Below is the actual query which attempts to do this. This query returns the unique phenotypes associated with the anatomical entity, and the qualities and specific anatomical entities associated with the phenotype, as well as the list of taxa that exhibit each of these phenotypes in one fell table join (uh, swoop). 
+This strategy is the [[Queries#Strategy_#1:_Simple_table_joins|simplest way]] to try and get all the necessary information related to the anatomical entity being searched for. Below is the actual query which attempts to do this. This query returns the unique phenotypes associated with the anatomical entity, and the qualities and specific anatomical entities associated with the phenotype, as well as the list of taxa that exhibit each of these phenotypes in one fell table join (uh, swoop).
 
 ===Query===
 <sql>
