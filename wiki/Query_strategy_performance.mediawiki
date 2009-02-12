@@ -307,10 +307,12 @@ $$ LANGUAGE 'sql';
 
 ===Stored procedure #4: getEntityFromPhenotype(INT) ===
 
+This procedure finds the anatomical entity directly associated with the given phenotype
+
 <sql>
 CREATE OR REPLACE FUNCTION getEntityFromPhenotype(INT) RETURNS VARCHAR AS
 $$
-DECLARE 
+DECLARE
 entity_id VARCHAR;
 BEGIN
 SELECT node_uid(object_id) || ' ' || node_label(object_id) INTO entity_id FROM link WHERE
