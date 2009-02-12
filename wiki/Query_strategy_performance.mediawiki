@@ -210,6 +210,53 @@ In the next section, the stored procedures used in this query viz. ''getTaxaForP
 
 ==Strategy #3==
 
+This strategy uses [[Queries#Strategy_#3:_Stored_procedures_that_use_simple_table_joins|back-end stored procedures]] to minimize execution planning times. 
+
+=== Stored procedure 1: getAttributeForQuality(INT) ===
+
+This procedure navigates the PATO hierarchy recursively if needed to identify the character that is associated with a given quality.  
+
+<sql>
+CREATE OR REPLACE FUNCTION getAttributeForQuality(INT) RETURNS VARCHAR
+AS
+$$
+DECLARE
+res 		VARCHAR;
+attr_id 	INT;
+slim    	VARCHAR;
+slim_id 	INT;
+temp_id 	INT;
+super_id 	INT;
+BEGIN
+SELECT DISTINCT object_id, node_uid(object_id) INTO slim_id, slim FROM link
+WHERE node_id = $1 AND predicate_id = (SELECT node_id FROM node WHERE uid = 'oboInOwl:inSubset')
+AND object_id IN (SELECT node_id FROM node WHERE uid IN ('value_slim', 'attribute_slim'));
+IF (slim IS NULL) THEN
+	SELECT object_id FROM link INTO super_id WHERE node_id = $1 AND predicate_id = (SELECT node_id FROM node WHERE uid = 'OBO_REL:is_a') AND is_inferred = 'f';
+	IF (super_id IS NULL) THEN
+		SELECT DISTINCT node_id FROM link INTO temp_id WHERE object_id = $1 AND predicate_id = (SELECT node_id FROM node WHERE uid = 'oboInOwl:hasDbXref');
+		IF temp_id IS NULL THEN
+			RETURN 'Attribute Undefined'; 
+		ELSE
+			RETURN getAttributeForQuality(temp_id);
+		END IF;
+	ELSE
+		RETURN getAttributeForQuality(super_id);
+	END IF;	
+ELSIF (slim = 'attribute_slim') THEN
+res := node_uid($1) || '(' || node_label($1) || ')';
+RETURN res; 
+ELSE
+SELECT object_id INTO attr_id FROM link
+WHERE node_id = $1 AND 
+predicate_id = (SELECT node_id FROM node WHERE uid = 'OBO_REL:is_a') AND
+is_inferred = 'f';
+RETURN getAttributeForQuality(attr_id);
+END IF;
+END
+$$ LANGUAGE 'plpgsql';
+</sql>
+
 ==Strategy #4==
 
 ==Strategy #5==
