@@ -147,6 +147,8 @@ This query returns all the required information for an input anatomical entity. 
 
 ==Strategy #2==
 
+This strategy tries to save on query execution planning times by specifying the order of table joins in the query itself.
+
 ==Strategy #3==
 
 ==Strategy #4==
