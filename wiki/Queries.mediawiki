@@ -101,8 +101,8 @@ Given that the use of table joins in a query assembled on the client side is imp
 
 # A master procedure (''getAnatomyInfo'') finds all the phenotypes that include the searched anatomical feature and its subtypes. For each distinct phenotype retrieved:
 ## A second procedure (''getAnatomyFromPhenotype'') finds the anatomical entity involved in the phenotype. For example, if the searched anatomical entity is cartilage, then for each retrieved phenotype, the stored procedure P11 identifies if the involved anatomical entity is cartilage or basihyal cartilage or synovial cartilage or some other subtype of cartilage.
-## A third procedure (''getQualityFromPhenotype'') finds the quality (Q) in the phenotype. 
-## A subsidiary procedure (''getAttributeForQuality'') is invoked to identify the attribute of the identified quality Q. If the quality Q is in the 'value slim' subset, the invoked getAttributeForQuality retrieves the first super-quality of Q that belongs to the 'attribute slim' subset of PATO. If the  quality Q is in the 'attribute slim' subset, Q is returned. 
+## A third procedure (''getQualityFromPhenotype'') finds the quality (Q) in the phenotype.
+## A subsidiary procedure (''getAttributeForQuality'') is invoked to identify the attribute of the identified quality Q. If the quality Q is in the 'value slim' subset, the invoked getAttributeForQuality retrieves the first super-quality of Q that belongs to the 'attribute slim' subset of PATO. If the  quality Q is in the 'attribute slim' subset, Q is returned.
 ## A fourth procedure (''getTaxaForPhenotype'') identifies all the unique taxa that exhibit the phenotype. The retrieved taxa maybe species from the Teleost hierarchy or genotypes from the ZFIN database. For the latter, getTaxaForPhenotype identifies all the unique genes that code for this genotype.
 
 ==== Strategy #4: Materialized views ====
@@ -110,8 +110,6 @@ Given that the use of table joins in a query assembled on the client side is imp
 [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/PhenoscapeDataLoader/sql/util/realize-relations-as-views.plpgsql?view=log Stored procedures] in the OBD API can be used to convert relations and classes into explicit views, which can then be queried to retrieve information of interest. For example, all the non-inferred triples in the LINK table which have ''PHENOSCAPE:exhibits'' as the predicate can be assembled into a ''materialized view'', where all the triples have ''PHENOSCAPE:exhibits'' as the predicate. The records in these views can be easily queried from another stored procedure to retrieve data of interest. Given that a query for anatomy information leverages a [[Queries#Relations-of_interest|specific set of relations]], each of these relations can be materialized into a view. The required information about an anatomical entity can be identified from these views.
 
 There will be a fewer number of joins involved in the query used upon these views. However, the materialized views only include non-inferred information, i.e. they will be useful to find only those phenotypes that include the anatomical entity searched for. Phenotypes that include the subtypes of the searched anatomical entity will need to be retrieved and processed separately. This strategy will not be affected by network transfer times, and the exexcution planning bottleneck. However, the need to query the materialized views for the searched anatomical feature and its subtypes in separate iterations may be a concern.
-
-
 
 == Testing strategy ==
 
