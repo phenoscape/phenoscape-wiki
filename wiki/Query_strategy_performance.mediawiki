@@ -137,7 +137,7 @@ exhibits_link.object_id = phenotype_node.node_id;
 </sql>
 
 
-===Execution===
+====Execution Details====
 Rows returned: 69
 Execution time: 7 - 30 seconds
 
