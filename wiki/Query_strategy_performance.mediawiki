@@ -29,7 +29,7 @@ This strategy is the [[Queries#Strategy_#1:_Simple_table_joins|simplest way]] to
 
 ===Query 1 (keep it simple, no stored procedure invocations) ===
 <sql>
-SELECT
+SELECT DISTINCT
 phenotype_node.uid AS phenotype,
 taxon_node.uid AS taxon,
 quality_node.uid AS quality,
@@ -48,6 +48,7 @@ inheres_in_pred_node.uid = 'OBO_REL:inheres_in' AND
 search_pred_node.uid = 'OBO_REL:inheres_in' AND
 search_node.uid = 'TAO:0000108' AND
 inheres_in_link.is_inferred = 'f' AND
+is_a_link.is_inferred = 'f' AND
 exhibits_link.node_id IS NOT NULL AND
 search_link.node_id = phenotype_node.node_id AND
 search_link.predicate_id = search_pred_node.node_id AND
@@ -67,9 +68,9 @@ exhibits_link.object_id = phenotype_node.node_id;
 
 
 ====Execution Details====
-* Rows returned: 4797
+* Rows returned: 968
 * Phenoscape data revision: 449
-* Time: 0.4 ~ 108 s
+* Time: 0.25 ~ 9 s
 
 ====Discussion====
 
@@ -89,7 +90,7 @@ P2                   E2                Q2                   GTn
 
 Note that for each quality Q in the result above, the character that subsumes it needs to be determined. This cannot be done directly from the query because a recursive traversal of the PATO hierarchy may be required in many cases. Recursive traversals are best implemented by stored procedures. This will definitely add to the execution times documented for this query. Further, note that only the genotypes associated with each phenotype are returned. To find the genes that encode these genotypes, another query needs to be executed. It is not possible to unilaterally join this gene query with QfS1 because both taxa as well as genotypes are returned by QfS1. What is required is a procedural attachment that invokes the gene query if the returned result is a genotype. Again, this procedural attachment can only be implemented as a stored procedure.
 
-Finally, the performance of the query QfS1 varied widely from half a second (very good) to 108 seconds (intolerable) in a random set of executions issued from the command line. The query [[Queries#Factor_2:_Query_parsing_and_execution_planning|execution planning process]] is responsible for this. If instead of searching for 'TAO:0000108' (fin), a more general term (like TAO:0100000, the parent term for all term definitions in TAO) were to be searched for, the performance of this query would be much more unpredictable and much slower too.
+Finally, the performance of the query QfS1 varied widely from 0.25 (very good) to 9 seconds (mildly acceptable) in a random set of executions issued from the command line. The query [[Queries#Factor_2:_Query_parsing_and_execution_planning|execution planning process]] is responsible for this. If instead of searching for 'TAO:0000108' (fin), a more general term (like TAO:0100000, the parent term for all term definitions in TAO) were to be searched for, the performance of this query would be much more unpredictable and much slower too.
 
 ===Query 2 (Bring on the some stored procedures, some of them to start)===
 
