@@ -210,7 +210,9 @@ The results obtained by this query are consistent with the requirements of the a
 
 This strategy uses [[Queries#Strategy_#3:_Stored_procedures_that_use_simple_table_joins|back-end stored procedures]] to minimize execution planning times. All the stored procedures are introduced here.
 
-=== Stored procedure #1: getAttributeForQuality ===
+===Stored procedures===
+
+==== Stored procedure #1: getAttributeForQuality ====
 
 This procedure navigates the PATO hierarchy recursively if needed to identify the character that is associated with a given quality. Facets have been provided in this procedure to handle qualities which do not belong to attribute slim or value slim subsets, and to handle qualities that are specified as aliases for other qualities. Note the PATO think tank is about to replace attribute slims with character slim subset specifications. The functionality of this procedure will however remain the same.
 
@@ -255,7 +257,7 @@ END
 $$ LANGUAGE 'plpgsql';
 </sql>
 
-=== Stored procedure #2: getTaxaForPhenotype ===
+==== Stored procedure #2: getTaxaForPhenotype ====
 
 This procedure retrieves all the taxa and genes that are associated with a given phenotype. Given that genes are indirectly associated with phenotypes (genotypes being the intermediary), this procedure navigates the link from genotypes to genes to find the association.
 
@@ -292,7 +294,7 @@ END
 $$ LANGUAGE 'plpgsql';
 </sql>
 
-===Stored procedure #3: getQualityFromPhenotype ===
+====Stored procedure #3: getQualityFromPhenotype ====
 
 This procedure finds the quality associated with the given phenotype
 
@@ -305,7 +307,7 @@ AND node_id = $1 AND is_inferred = 'f';
 $$ LANGUAGE 'sql';
 </sql>
 
-===Stored procedure #4: getEntityFromPhenotype ===
+====Stored procedure #4: getEntityFromPhenotype ====
 
 This procedure finds the anatomical entity directly associated with the given phenotype
 
@@ -323,7 +325,7 @@ END;
 $$ LANGUAGE 'plpgsql';
 </sql>
 
-===Stored procedure #5: getAnatomyInfo===
+====Stored procedure #5: getAnatomyInfo====
 
 This is the master stored procedure which can be invoked directly from the client side. It invokes the other stored procedures in turn to retrieve all the information associated with the searched anatomical entity in one go.
 
@@ -378,6 +380,21 @@ END LOOP;
 END
 $$ LANGUAGE 'plpgsql';
 </sql>
+
+===Execution details ===
+
+The master stored procedure ''getAnatomyInfo()'' can be invoked from the client side using a command similar to the one below
+
+<sql>
+SELECT * FROM getAnatomyInfo('TAO:0000108');
+</sql>
+
+* Rows returne: 69
+* Execution time: ~ 0.25 seconds
+
+===Discussion ===
+
+This strategy resulted in the fastest execution times. All the required information is obtained. Moreover, when querying for TAO:0100000, this strategy returned approximately 2500 unique phenotypes with their associated sets of taxa and genes, qualities, entities, and atttributes in approximately 8 seconds. That is presumptively every annotation in the database!
 
 ==Strategy #4==
 
