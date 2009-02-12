@@ -398,7 +398,7 @@ This strategy resulted in the fastest execution times. All the required informat
 
 ==Strategy #4==
 
-
+This strategy was not implemented because it requires the repeated invocation of the same set of queries over the same materialized views for every subtype of the searched anatomical feature, as documented [[Queries#Strategy_#4:_Materialized_views|here]]
 
 = Gene data services =
 
