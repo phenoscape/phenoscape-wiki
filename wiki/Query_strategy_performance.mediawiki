@@ -394,7 +394,7 @@ SELECT * FROM getAnatomyInfo('TAO:0000108');
 
 ===Discussion ===
 
-This strategy resulted in the fastest execution times. All the required information is obtained. Moreover, when querying for TAO:0100000, this strategy returned approximately 2500 unique phenotypes with their associated sets of taxa and genes, qualities, entities, and atttributes in approximately 8 seconds. That is presumptively every annotation in the database!
+This strategy resulted in the fastest execution times. All the required information is obtained. Moreover, when querying for TAO:0100000, the root PATO term, this strategy returned approximately 2500 unique phenotypes with their associated sets of taxa and genes, qualities, entities, and atttributes in approximately 8 seconds. That is presumptively every annotation in the database!
 
 ==Strategy #4==
 
