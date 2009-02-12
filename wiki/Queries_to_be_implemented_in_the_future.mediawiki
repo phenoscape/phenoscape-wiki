@@ -10,10 +10,10 @@ Given a specific anatomical entity A, the requirements of the anatomy data servi
 
 # Identify ALL unique phenotypes {P} that are composed of the entity A or any of its subtypes.
 # For each identified phenotype P which is of the form inheres_in(Q, E)
-## Identify the quality Q. 
+## Identify the quality Q.
 ### In addition, identify the character C which subsumes Q. This requires navigating the PATO hierarchy recursively in some cases
 ## Identify the entity E. E may be the same as A, or any valid subtype of A.
-## Identify the set of taxa {T} or genotypes {GT} that exhibit the phenotype P. 
+## Identify the set of taxa {T} or genotypes {GT} that exhibit the phenotype P.
 ### For a genotype GT, identify the gene G that encodes it.
 
 The result should be a list in the format shown below
@@ -30,16 +30,16 @@ This strategy is the [[Queries#Strategy_#1:_Simple_table_joins|simplest way]] to
 ===Query===
 <sql>
 SELECT
-phenotype_node.uid AS phenotype, 
-taxon_node.uid AS taxon, 
+phenotype_node.uid AS phenotype,
+taxon_node.uid AS taxon,
 quality_node.uid AS quality,
 anatomy_node.uid AS entity
-FROM 
-link AS inheres_in_link, link AS search_link, link AS is_a_link,   
+FROM
+link AS inheres_in_link, link AS search_link, link AS is_a_link,
 link AS exhibits_link,
-node AS taxon_node, node AS exhibits_pred_node, node AS phenotype_node, 
-node AS search_pred_node, node AS search_node, 
-node AS inheres_in_pred_node, node AS anatomy_node, 
+node AS taxon_node, node AS exhibits_pred_node, node AS phenotype_node,
+node AS search_pred_node, node AS search_node,
+node AS inheres_in_pred_node, node AS anatomy_node,
 node AS is_a_pred_node, node AS quality_node
 WHERE
 exhibits_pred_node.uid = 'PHENOSCAPE:exhibits' AND
@@ -48,7 +48,7 @@ inheres_in_pred_node.uid = 'OBO_REL:inheres_in' AND
 search_pred_node.uid = 'OBO_REL:inheres_in' AND
 search_node.uid = 'TAO:0000108' AND
 inheres_in_link.is_inferred = 'f' AND
-exhibits_link.node_id IS NOT NULL AND 
+exhibits_link.node_id IS NOT NULL AND
 search_link.node_id = phenotype_node.node_id AND
 search_link.predicate_id = search_pred_node.node_id AND
 search_link.object_id = search_node.node_id AND
@@ -80,5 +80,9 @@ exhibits_link.object_id = phenotype_node.node_id;
 ==Strategy #4==
 
 ==Strategy #5==
+
+= Gene data services =
+
+= Taxon data services =
 
 [[Category:Database]]
