@@ -204,6 +204,8 @@ exhibits_link.object_id = phenotype_node.node_id;
 
 ===Discussion===
 
+The results obtained by this query are consistent with the requirements of the anatomy data service. The query performance is also very stable (approx. 9.8 seconds) over repeated executions.
+
 ==Strategy #3==
 
 ==Strategy #4==
