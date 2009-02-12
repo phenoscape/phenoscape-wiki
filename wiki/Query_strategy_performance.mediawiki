@@ -294,10 +294,12 @@ $$ LANGUAGE 'plpgsql';
 
 ===Stored procedure #3: getQualityFromPhenotype(INT) ===
 
+This procedure finds the quality associated with the given phenotype
+
 <sql>
 CREATE or REPLACE FUNCTION getQualityFromPhenotype(INT) RETURNS RECORD AS
 $$
-SELECT object_id AS quality_id, node_uid(object_id) || ' (' || node_label(object_id) || ')' AS quality FROM link 
+SELECT object_id AS quality_id, node_uid(object_id) || ' (' || node_label(object_id) || ')' AS quality FROM link
 WHERE predicate_id = (SELECT node_id FROM node WHERE uid = 'OBO_REL:is_a')
 AND node_id = $1 AND is_inferred = 'f';
 $$ LANGUAGE 'sql';
