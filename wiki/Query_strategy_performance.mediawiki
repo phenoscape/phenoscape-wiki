@@ -147,7 +147,7 @@ This query returns all the required information for an input anatomical entity. 
 
 ==Strategy #2==
 
-This strategy tries to save on query execution planning times by specifying the [[Strategy_#2:_Specifying_the_order_of_table_joins_in_the_original_query |order of table joins in the query itself]]. 
+This strategy tries to save on query execution planning times by specifying the [[Strategy_#2:_Specifying_the_order_of_table_joins_in_the_original_query|order of table joins in the query itself]].
 
 ===Query===
 <sql>
@@ -155,24 +155,24 @@ SELECT DISTINCT
 phenotype_node.uid AS phenotype,
 quality_node.uid AS quality_id,
 quality_node.label AS quality,
-getAttributeForQuality(quality_node.node_id) AS attribute, 
+getAttributeForQuality(quality_node.node_id) AS attribute,
 anatomy_node.uid AS entity_id,
 anatomy_node.label AS entity,
 getTaxaForPhenotype(phenotype_node.node_id) AS taxonOrGene
-FROM 
-link AS inheres_in_link, link AS is_a_link,   
-node AS taxon_node 
-INNER JOIN link AS exhibits_link 
-INNER JOIN node AS phenotype_node 
+FROM
+link AS inheres_in_link, link AS is_a_link,
+node AS taxon_node
+INNER JOIN link AS exhibits_link
+INNER JOIN node AS phenotype_node
 INNER JOIN link AS search_link
-INNER JOIN node AS search_node 
-ON (search_link.object_id = search_node.node_id) 
-ON (phenotype_node.node_id = search_link.node_id) 
+INNER JOIN node AS search_node
+ON (search_link.object_id = search_node.node_id)
+ON (phenotype_node.node_id = search_link.node_id)
 ON (exhibits_link.object_id = phenotype_node.node_id)
-ON (taxon_node.node_id = exhibits_link.node_id), 
-node AS exhibits_pred_node, 
-node AS search_pred_node,  
-node AS inheres_in_pred_node, node AS anatomy_node, 
+ON (taxon_node.node_id = exhibits_link.node_id),
+node AS exhibits_pred_node,
+node AS search_pred_node,
+node AS inheres_in_pred_node, node AS anatomy_node,
 node AS is_a_pred_node, node AS quality_node
 WHERE
 exhibits_pred_node.uid = 'PHENOSCAPE:exhibits' AND
@@ -182,7 +182,7 @@ search_pred_node.uid = 'OBO_REL:inheres_in' AND
 search_node.uid = 'TAO:0000108' AND
 inheres_in_link.is_inferred = 'f' AND
 is_a_link.is_inferred = 'f' AND
-exhibits_link.node_id IS NOT NULL AND 
+exhibits_link.node_id IS NOT NULL AND
 search_link.node_id = phenotype_node.node_id AND
 search_link.predicate_id = search_pred_node.node_id AND
 search_link.object_id = search_node.node_id AND
@@ -198,6 +198,9 @@ exhibits_link.object_id = phenotype_node.node_id;
 </sql>
 
 ===Execution details===
+
+* Rows returned: 69
+* Execution time: 9.8 seconds
 
 ===Discussion===
 
