@@ -85,6 +85,6 @@ exhibits_link.object_id = phenotype_node.node_id;
 
 = Taxon data services =
 
-= Publication data services
+= Publication data services =
 
 [[Category:Database]]
