@@ -21,11 +21,11 @@ The querying module for the Phenoscape API has been implemented primarily in Jav
 
 ==RDBMS==
 
-The Phenoscape data is stored in a database that is managed through the PostgreSQL RDBMS (Version 8.3.3). 
+The Phenoscape data is stored in a database that is managed through the PostgreSQL RDBMS (Version 8.3.3).
 
 ==Database Schema==
 
 The database schema includes the tables, views and functions that go into the Phenoscape database. There are 18 tables in the public schema of the database of which, the NODE and the LINK tables are the most important and most frequently accessed. Other important tables such as ALIAS and DESCRIPTION are also accessed when the Auto Completion service of the Phenoscape application is invoked. There are over 200 views stored into the database, many of which are used to retrieve data directly for query implementations on the OBDSQLShard.
 
-* Indexes on the NODE table have been created on 'label' and 'source.' To this, an index on 'uid' has been added. 
+* Indexes on the NODE table have been created on 'label' and 'source.' To this, an index on 'uid' has been added.
 * Indexes on the LINK table have been created on 'node', 'predicate', and 'object,' apart from combinations of 'node' and 'predicate,' 'predicate' and 'object,' 'node' and 'object,' and finally 'node,' 'predicate,' and 'object' triples.
