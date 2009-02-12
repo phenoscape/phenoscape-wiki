@@ -389,8 +389,8 @@ The master stored procedure ''getAnatomyInfo()'' can be invoked from the client 
 SELECT * FROM getAnatomyInfo('TAO:0000108');
 </sql>
 
-* Rows returne: 69
-* Execution time: ~ 0.25 seconds
+* Rows returned: 69
+* Execution time: Approx. 0.25 seconds
 
 ===Discussion ===
 
@@ -399,6 +399,10 @@ This strategy resulted in the fastest execution times. All the required informat
 ==Strategy #4==
 
 This strategy was not implemented because it requires the repeated invocation of the same set of queries over the same materialized views for every subtype of the searched anatomical feature, as documented [[Queries#Strategy_#4:_Materialized_views|here]]
+
+==Conclusion and potential areas for improvement==
+
+From the above discussion, it can be seen the performance of queries from the SICB prototype can be significantly improved and scaled. At present, (Feb 11, 2009), the database contains approximately 122500 phenotype assertions from the Phenoscape project and roughly 23000 assertions from ZFIN. While significant additions to the ZFIN assertions are not expected, the number of assertions in the Phenoscape project are expected to go up to 7.5 million. However, assuming a logarithmic increase in performance metrics with a linear increase in data (as is standard in most industrial strength DBMSs), the scalability of the querying strategies does not appear to be a major concern at this time.
 
 = Gene data services =
 
