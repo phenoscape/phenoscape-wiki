@@ -91,7 +91,7 @@ Note that for each quality Q in the result above, the character that subsumes it
 
 Finally, the performance of the query QfS1 varied widely from half a second (very good) to 108 seconds (intolerable) in a random set of executions issued from the command line. The query [[Queries#Factor_2:_Query_parsing_and_execution_planning|execution planning process]] is responsible for this. If instead of searching for 'TAO:0000108' (fin), a more general term (like TAO:0100000, the parent term for all term definitions in TAO) were to be searched for, the performance of this query would be much more unpredictable and much slower too.
 
-===Query 2 (Bring on the some stored procedures, some of them)===
+===Query 2 (Bring on the some stored procedures, some of them to start)===
 
 Let us examine the performance of the very same query where specific stored procedures for identifying the characters subsuming the qualities and genes encoding the genotypes are invoked as part of QfS1.
 
@@ -100,18 +100,18 @@ SELECT DISTINCT
 phenotype_node.uid AS phenotype,
 quality_node.uid AS quality_id,
 quality_node.label AS quality,
-getAttributeForQuality(quality_node.node_id) AS attribute, 
+getAttributeForQuality(quality_node.node_id) AS attribute,
 anatomy_node.uid AS entity_id,
 anatomy_node.label AS entity,
 getTaxaForPhenotype(phenotype_node.node_id) AS taxonOrGene
-FROM 
-link AS inheres_in_link, link AS search_link, link AS is_a_link,   
+FROM
+link AS inheres_in_link, link AS search_link, link AS is_a_link,
 link AS exhibits_link,
-node AS taxon_node, 
-node AS exhibits_pred_node, 
-node AS phenotype_node, 
-node AS search_pred_node, node AS search_node, 
-node AS inheres_in_pred_node, node AS anatomy_node, 
+node AS taxon_node,
+node AS exhibits_pred_node,
+node AS phenotype_node,
+node AS search_pred_node, node AS search_node,
+node AS inheres_in_pred_node, node AS anatomy_node,
 node AS is_a_pred_node, node AS quality_node
 WHERE
 exhibits_pred_node.uid = 'PHENOSCAPE:exhibits' AND
@@ -121,7 +121,7 @@ search_pred_node.uid = 'OBO_REL:inheres_in' AND
 search_node.uid = 'TAO:0000108' AND
 inheres_in_link.is_inferred = 'f' AND
 is_a_link.is_inferred = 'f' AND
-exhibits_link.node_id IS NOT NULL AND 
+exhibits_link.node_id IS NOT NULL AND
 search_link.node_id = phenotype_node.node_id AND
 search_link.predicate_id = search_pred_node.node_id AND
 search_link.object_id = search_node.node_id AND
@@ -135,6 +135,11 @@ exhibits_link.node_id = taxon_node.node_id AND
 exhibits_link.predicate_id = exhibits_pred_node.node_id AND
 exhibits_link.object_id = phenotype_node.node_id;
 </sql>
+
+
+===Execution===
+Rows returned: 69
+Execution time: 7 - 30 seconds
 
 ==Strategy #2==
 
