@@ -67,8 +67,9 @@ exhibits_link.object_id = phenotype_node.node_id;
 
 
 ===Execution Details===
-* Rows returned: 2070
-* Time: 0.6 ~ 17 s
+* Rows returned: 4797
+* Phenoscape data revision: 449
+* Time: 0.4 ~ 108 s
 
 ===Discussion===
 
