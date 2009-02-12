@@ -111,12 +111,7 @@ Given that the use of table joins in a query assembled on the client side is imp
 
 There will be a fewer number of joins involved in the query used upon these views. However, the materialized views only include non-inferred information, i.e. they will be useful to find only those phenotypes that include the anatomical entity searched for. Phenotypes that include the subtypes of the searched anatomical entity will need to be retrieved and processed separately. This strategy will not be affected by network transfer times, and the exexcution planning bottleneck. However, the need to query the materialized views for the searched anatomical feature and its subtypes in separate iterations may be a concern.
 
-==== Strategy #5: Stored procedures without (or with minimal) table joins ====
 
-This strategy aims to eliminate the need for query execution planning in the database end. A set of separate stored procedures can be written to retrieve the information pertinent to a searched anatomical entity in the following steps
-
-
-In summary, this strategy retrieves all the desired information without the complexity involved with table joins, and the network transfer time component. Further, the retrieved data does not need to be extensively parsed in the client-side. In fact, it is retrieved in a format similar to JSON.
 
 == Testing strategy ==
 
