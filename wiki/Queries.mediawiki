@@ -115,6 +115,10 @@ This strategy aims to eliminate the need for query execution planning in the dat
 
 In summary, this strategy retrieves all the desired information without the complexity involved with table joins, and the network transfer time component. Further, the retrieved data does not need to be extensively parsed in the client-side. In fact, it is retrieved in a format similar to JSON.
 
+==== The debate for stored procedures ====
+
+The different strategies discussed so far can be broadly categorized into stored procedures and conventional queries assembled at the client side.
+
 == Testing strategy ==
 
 The testing strategy aims to record performance times for each of the querying strategies proposed above. All performance tests are to be performed on the development server at NESCent from the command line on Cartik's laptop running Ubuntu Hardy Heron. The results will be documented [[Query_execution_speed-up:_The_investigation|separately]]
