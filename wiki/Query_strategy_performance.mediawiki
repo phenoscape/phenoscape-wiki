@@ -210,7 +210,7 @@ The results obtained by this query are consistent with the requirements of the a
 
 This strategy uses [[Queries#Strategy_#3:_Stored_procedures_that_use_simple_table_joins|back-end stored procedures]] to minimize execution planning times. All the stored procedures are introduced here.
 
-=== Stored procedure 1: getAttributeForQuality ===
+=== Stored procedure #1: getAttributeForQuality ===
 
 This procedure navigates the PATO hierarchy recursively if needed to identify the character that is associated with a given quality. Facets have been provided in this procedure to handle qualities which do not belong to attribute slim or value slim subsets, and to handle qualities that are specified as aliases for other qualities. Note the PATO think tank is about to replace attribute slims with character slim subset specifications. The functionality of this procedure will however remain the same.
 
