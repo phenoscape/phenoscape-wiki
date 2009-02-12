@@ -143,7 +143,7 @@ exhibits_link.object_id = phenotype_node.node_id;
 
 ====Discussion====
 
-This query returns all the required information for an input anatomical entity. Note the taxa or genes exhibiting or responsible for a specific phenotype are all grouped together in one row with the said phenotype. Also the character which subsumes the quality of the phenotype is retrieved as well. But since 13 tables are joined together, query execution planning may still be a significant cause to the unpredictable and relatively slow performance of this query. Moreover, note these results are being obtained for a query for fin. If the query was for TAO:0100000, the root term of TAO, the performance would be much slower and unpredictable.
+This query returns all the required information for an input anatomical entity. Note the taxa or genes exhibiting or responsible for a specific phenotype are all grouped together in one row with the said phenotype. The character which subsumes the quality of a phenotype is retrieved as well. But since 13 tables are joined together, query execution planning may still be a significant cause to the unpredictable and relatively slow performance of this query. Moreover, note these results are being obtained for a query for fin. If the query was for TAO:0100000, the root term of TAO, the performance would be much slower and unpredictable.
 
 ==Strategy #2==
 
