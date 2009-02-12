@@ -2,7 +2,24 @@
 title: Queries to be implemented in the future
 ---
 
-This page discusses the requirements of the various data access modules of the Phenoscape application, and documents the performance of the various [[Queries#Querying_strategies_for_the_ASIH_prototype|querying strategies]] being tested for these. 
+This page discusses the requirements of the various data access modules of the Phenoscape application to be demonstrated at the ASIH workshop, and documents the performance of the various [[Queries#Proposed_querying_strategies_for_the_ASIH_prototype|querying strategies]] being tested for these modules.
+
+= Anatomy data services =
+
+Given a specific anatomical entity A, the requirements of the anatomy data service module are as follows:
+
+# Identify ALL unique phenotypes {P} that are composed of the entity A or any of its subtypes. 
+# For each identified phenotype P which is of the form inheres_in(Q, E)
+## Identify the quality Q. In addition, identify the character C which subsumes Q. 
+## Identify the entity E. E may be the same as A, or any valid subtype of A. 
+## Identify the set of taxa {T} or genotypes {GT} that exhibit the phenotype P. For a genotype GT, identify the gene G that encodes it. 
+
+The result should be a list in the format shown below
+
+<javascript>
+<Search-Anatomical-Entity>         <Phenotype>             <Entity>         <Quality>    <Character>      <List of taxa>OR<List of genes>
+</javascript>
+
 
 ==Query details==
 
