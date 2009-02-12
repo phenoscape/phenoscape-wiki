@@ -208,7 +208,7 @@ The results obtained by this query are consistent with the requirements of the a
 
 ==Strategy #3==
 
-This strategy uses [[Queries#Strategy_#3:_Stored_procedures_that_use_simple_table_joins|back-end stored procedures]] to minimize execution planning times.
+This strategy uses [[Queries#Strategy_#3:_Stored_procedures_that_use_simple_table_joins|back-end stored procedures]] to minimize execution planning times. 
 
 === Stored procedure 1: getAttributeForQuality(INT) ===
 
@@ -287,7 +287,63 @@ taxa[ct] := gene.gId || '(' || gene.gLabel || ')';
 END LOOP;
 END IF;
 END LOOP;
-RETURN taxa;	
+RETURN taxa;
+END
+$$ LANGUAGE 'plpgsql';
+</sql>
+
+===Stored procedure #3: getAnatomyInfo(VARCHAR)===
+
+This is the master stored procedure which can be invoked directly from the client side. It invokes the other stored procedures in turn to retrieve all the information associated with the searched anatomical entity in one go. 
+
+<sql>
+CREATE TABLE anatomyrow (search_id VARCHAR, phenotype_id INT, phenotype_label VARCHAR, entity_info VARCHAR, quality_info VARCHAR, 
+attribute_info VARCHAR, taxa_info VARCHAR);
+
+CREATE OR REPLACE FUNCTION getAnatomyInfo(VARCHAR) RETURNS SETOF anatomyrow AS 
+$$
+DECLARE 
+	result anatomyrow%rowtype;
+	qualityRecord RECORD;
+	phenotype INT;
+	quality VARCHAR;
+	entity VARCHAR;
+	taxa VARCHAR;
+	gene VARCHAR;
+	attribute VARCHAR;
+	qualityAndAttribute VARCHAR[2];
+BEGIN	
+FOR result IN 
+SELECT DISTINCT 
+$1 AS search_id, phenotype_node.node_id as phenotype_id, phenotype_node.uid AS phenotype_uid, 'entity' AS entity_info, 'quality' AS quality_info, 
+'attribute' AS attribute_info, 'taxa' AS taxa_info
+FROM 
+node AS taxon_node INNER JOIN link AS exhibits_link INNER JOIN
+node AS phenotype_node INNER JOIN link AS inheres_in_link INNER JOIN node AS search_node ON (inheres_in_link.object_id = search_node.node_id)
+ON (phenotype_node.node_id = inheres_in_link.node_id) ON (exhibits_link.object_id = phenotype_node.node_id) ON (taxon_node.node_id = exhibits_link.node_id), 
+node AS inheres_in_pred_node, node AS exhibits_pred_node
+WHERE
+search_node.uid = $1 AND
+exhibits_pred_node.uid = 'PHENOSCAPE:exhibits' AND
+inheres_in_pred_node.uid = 'OBO_REL:inheres_in' AND
+exhibits_link.node_id IS NOT NULL AND
+exhibits_link.predicate_id = exhibits_pred_node.node_id AND
+inheres_in_link.predicate_id = inheres_in_pred_node.node_id 
+LOOP
+	phenotype := result.phenotype_id;
+	qualityRecord := getQualityFromPhenotype(phenotype);
+	attribute := getAttributeForQuality(qualityRecord.quality_id);
+	quality := qualityRecord.quality;
+	taxa := getTaxaForPhenotype(phenotype);
+	entity := getEntityFromPhenotype(phenotype);
+	result.search_id := $1;	
+	result.entity_info := entity;
+	result.quality_info := quality;
+	result.attribute_info := attribute;
+	result.taxa_info := taxa;
+	RETURN NEXT result;
+END LOOP;
+--RAISE NOTICE '% unique phenotypes found', count;
 END
 $$ LANGUAGE 'plpgsql';
 </sql>
