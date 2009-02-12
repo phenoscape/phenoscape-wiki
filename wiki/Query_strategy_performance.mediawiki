@@ -200,7 +200,7 @@ exhibits_link.object_id = phenotype_node.node_id;
 ===Execution details===
 
 * Rows returned: 69
-* Execution time: 9.8 seconds
+* Execution time: Approx. 9.8 seconds
 
 ===Discussion===
 
