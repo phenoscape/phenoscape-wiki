@@ -2,6 +2,8 @@
 title: Queries to be implemented in the future
 ---
 
+This page discusses the requirements of the various data access modules of the Phenoscape application, and documents the performance of the various [[Queries#Querying_strategies_for_the_ASIH_prototype|querying strategies]] being tested for these. 
+
 ==Query details==
 
 These are some queries being tested out to improve the database performance following the SICB meeting in Boston in Jan 2009. The execution methodology of these queries is to retrieve the information of interest, in this case, all the taxon and quality details associated with an anatomical being searched for, in one run
