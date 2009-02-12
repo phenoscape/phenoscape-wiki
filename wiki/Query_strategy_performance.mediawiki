@@ -210,11 +210,11 @@ In the next section, the stored procedures used in this query viz. ''getTaxaForP
 
 ==Strategy #3==
 
-This strategy uses [[Queries#Strategy_#3:_Stored_procedures_that_use_simple_table_joins|back-end stored procedures]] to minimize execution planning times. 
+This strategy uses [[Queries#Strategy_#3:_Stored_procedures_that_use_simple_table_joins|back-end stored procedures]] to minimize execution planning times.
 
 === Stored procedure 1: getAttributeForQuality(INT) ===
 
-This procedure navigates the PATO hierarchy recursively if needed to identify the character that is associated with a given quality.  
+This procedure navigates the PATO hierarchy recursively if needed to identify the character that is associated with a given quality. Facets have been provided in this procedure to handle qualities which do not belong to attribute slim or value slim subsets, and to handle qualities that are specified as aliases for other qualities. Note the PATO think tank is about to replace attribute slims with character slim subset specifications. The functionality of this procedure will however remain the same.
 
 <sql>
 CREATE OR REPLACE FUNCTION getAttributeForQuality(INT) RETURNS VARCHAR
@@ -236,23 +236,60 @@ IF (slim IS NULL) THEN
 	IF (super_id IS NULL) THEN
 		SELECT DISTINCT node_id FROM link INTO temp_id WHERE object_id = $1 AND predicate_id = (SELECT node_id FROM node WHERE uid = 'oboInOwl:hasDbXref');
 		IF temp_id IS NULL THEN
-			RETURN 'Attribute Undefined'; 
+			RETURN 'Attribute Undefined';
 		ELSE
 			RETURN getAttributeForQuality(temp_id);
 		END IF;
 	ELSE
 		RETURN getAttributeForQuality(super_id);
-	END IF;	
+	END IF;
 ELSIF (slim = 'attribute_slim') THEN
 res := node_uid($1) || '(' || node_label($1) || ')';
-RETURN res; 
+RETURN res;
 ELSE
 SELECT object_id INTO attr_id FROM link
-WHERE node_id = $1 AND 
+WHERE node_id = $1 AND
 predicate_id = (SELECT node_id FROM node WHERE uid = 'OBO_REL:is_a') AND
 is_inferred = 'f';
 RETURN getAttributeForQuality(attr_id);
 END IF;
+END
+$$ LANGUAGE 'plpgsql';
+</sql>
+
+=== Stored procedure #2: getTaxaForPhenotype(INT) ===
+
+This procedure retrieves all the taxa and genes that are associated with a given phenotype. Given that genes are indirectly associated with phenotypes (genotypes being the intermediary), this procedure navigates the link from genotypes to genes to find the association.
+
+<sql>
+CREATE OR REPLACE FUNCTION getTaxaForPhenotype(INT) RETURNS VARCHAR[]
+AS
+$$
+DECLARE
+rec RECORD;
+gene RECORD;
+taxa VARCHAR[20];
+ct int := 0;
+BEGIN
+FOR rec IN
+SELECT node_id, node_uid(node_id) AS uid, node_label(node_id) AS label FROM link WHERE
+predicate_id = (SELECT node_id FROM node WHERE uid = 'PHENOSCAPE:exhibits')
+AND object_id = $1
+LOOP
+ct := ct + 1;
+IF (rec.uid LIKE '%TTO%') THEN
+taxa[ct] := rec.uid || '(' || rec.label || ')';
+ELSE
+FOR gene IN
+SELECT node_uid(node_id) AS gId, node_label(node_id) AS gLabel FROM link WHERE
+predicate_id = (SELECT node_id FROM node WHERE uid = 'PHENOSCAPE:has_allele')
+AND object_id = rec.node_id
+LOOP
+taxa[ct] := gene.gId || '(' || gene.gLabel || ')';
+END LOOP;
+END IF;
+END LOOP;
+RETURN taxa;	
 END
 $$ LANGUAGE 'plpgsql';
 </sql>
