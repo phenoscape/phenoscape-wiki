@@ -92,7 +92,7 @@ Note that for each quality Q in the result above, the character that subsumes it
 
 Finally, the performance of the query QfS1 varied widely from 0.25 (very good) to 9 seconds (mildly acceptable) in a random set of executions issued from the command line. The query [[Queries#Factor_2:_Query_parsing_and_execution_planning|execution planning process]] is responsible for this. If instead of searching for 'TAO:0000108' (fin), a more general term (like TAO:0100000, the parent term for all term definitions in TAO) were to be searched for, the performance of this query would be much more unpredictable and much slower too.
 
-===Query 2 (Bring on the some stored procedures, some of them to start)===
+===Query 2 (Bring on the stored procedures, some of them to start)===
 
 Let us examine the performance of the very same query where specific stored procedures for identifying the characters subsuming the qualities and genes encoding the genotypes are invoked as part of QfS1.
 
