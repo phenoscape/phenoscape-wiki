@@ -29,39 +29,38 @@ This strategy is the [[Queries#Strategy_#1:_Simple_table_joins|simplest way]] to
 
 ===Query===
 <sql>
-SELECT DISTINCT
-taxon_node.uid AS taxon,
-phenotype_node.uid AS phenotype,
-anatomy_node.uid AS anatomy,
+SELECT
+phenotype_node.uid AS phenotype, 
+taxon_node.uid AS taxon, 
 quality_node.uid AS quality,
-slim_node.uid AS slim
-FROM
-link AS inheres_link, link AS is_a_link, link AS subset_link,
+anatomy_node.uid AS entity
+FROM 
+link AS inheres_in_link, link AS search_link, link AS is_a_link,   
 link AS exhibits_link,
-node AS phenotype_node, node AS anatomy_node, node AS inheres_pred_node,
-node AS is_a_pred_node, node AS quality_node,
-node AS slim_node, node AS subset_pred_node,
-node AS taxon_node, node AS exhibits_pred_node
+node AS taxon_node, node AS exhibits_pred_node, node AS phenotype_node, 
+node AS search_pred_node, node AS search_node, 
+node AS inheres_in_pred_node, node AS anatomy_node, 
+node AS is_a_pred_node, node AS quality_node
 WHERE
 exhibits_pred_node.uid = 'PHENOSCAPE:exhibits' AND
-subset_pred_node.uid = 'oboInOwl:inSubset' AND
 is_a_pred_node.uid = 'OBO_REL:is_a' AND
-is_a_link.is_inferred = 'f' AND
-inheres_pred_node.uid = 'OBO_REL:inheres_in' AND
-anatomy_node.uid = 'TAO:0000108' AND
-slim_node.uid IN ('attribute_slim', 'value_slim') AND
-exhibits_link.node_id = taxon_node.node_id AND
-exhibits_link.predicate_id = exhibits_pred_node.node_id AND
-exhibits_link.object_id = phenotype_node.node_id AND
-subset_link.node_id = quality_node.node_id AND
-subset_link.predicate_id = subset_pred_node.node_id AND
-subset_link.object_id = slim_node.node_id AND
+inheres_in_pred_node.uid = 'OBO_REL:inheres_in' AND
+search_pred_node.uid = 'OBO_REL:inheres_in' AND
+search_node.uid = 'TAO:0000108' AND
+inheres_in_link.is_inferred = 'f' AND
+exhibits_link.node_id IS NOT NULL AND 
+search_link.node_id = phenotype_node.node_id AND
+search_link.predicate_id = search_pred_node.node_id AND
+search_link.object_id = search_node.node_id AND
+inheres_in_link.node_id = phenotype_node.node_id AND
+inheres_in_link.predicate_id = inheres_in_pred_node.node_id AND
+inheres_in_link.object_id = anatomy_node.node_id AND
 is_a_link.node_id = phenotype_node.node_id AND
 is_a_link.predicate_id = is_a_pred_node.node_id AND
 is_a_link.object_id = quality_node.node_id AND
-inheres_link.node_id = phenotype_node.node_id AND
-inheres_link.predicate_id = inheres_pred_node.node_id AND
-inheres_link.object_id = anatomy_node.node_id;
+exhibits_link.node_id = taxon_node.node_id AND
+exhibits_link.predicate_id = exhibits_pred_node.node_id AND
+exhibits_link.object_id = phenotype_node.node_id;
 </sql>
 
 ===Query Execution Plan===
