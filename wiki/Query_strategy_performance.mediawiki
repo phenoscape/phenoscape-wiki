@@ -381,7 +381,7 @@ $$ LANGUAGE 'plpgsql';
 
 ==Strategy #4==
 
-==Strategy #5==
+
 
 = Gene data services =
 
