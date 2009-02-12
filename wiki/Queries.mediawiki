@@ -16,8 +16,8 @@ In the Phenoscape application, queries are assembled in a Java program and dispa
 Query execution in PostgreSQL occurs in four sequential steps. In the first step, the query is transferred from the client side over the network to the database. In the second step, the query is parsed and an execution plan is drawn up by the PostgreSQL DBMS to retrieve the data as efficiently as possible in terms of time and memory utilization. In the third step, the DBMS executes the query as per the drawn up execution strategy and retrieves the results. In the last step, the retrieved results  are sent back over the connection to the client side. All this takes time, which eventually adds up. As a case in point, the query execution strategy implemented for the SICB prototype spawns a multitude of queries. The execution of each of these queries takes up time to be transferred over the network, executed, retrieve the results, and transfer them back to the client side. Therefore, new strategies to optimize the database performance are being tested.
 
 ==Database summary==
-* Last updated: Jan 28, 2009
-* Size: ~ 700 MB
+* Last updated: Feb 09, 2009
+* Size: ~ 745 MB
 
 == Factors for slow query performance ==
 
