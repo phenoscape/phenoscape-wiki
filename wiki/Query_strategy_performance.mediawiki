@@ -404,6 +404,24 @@ This strategy was not implemented because it requires the repeated invocation of
 
 From the above discussion, it can be seen the performance of queries from the SICB prototype can be significantly improved and scaled. At present, (Feb 11, 2009), the database contains approximately 122500 phenotype assertions from the Phenoscape project and roughly 23000 assertions from ZFIN. While significant additions to the ZFIN assertions are not expected, the number of assertions in the Phenoscape project are expected to go up to 7.5 million. However, assuming a logarithmic increase in performance metrics with a linear increase in data (as is standard in most industrial strength DBMSs), the scalability of the querying strategies does not appear to be a major concern at this time.
 
+===Materializing views for Attribute-Quality (or Character-State) combinations===
+
+Given that stored procedures display the [[Query_strategy_performance#Strategy_#3|fastest execution times]], the invocation of a procedure that recursively executes SQL queries to traverse the PATO hierarchy in order to identify characters that subsume qualities is a bottleneck of its own. This can be overcome by the creation of a [[Queries#Strategy_#4:_Materialized_views| materialized view]], which contains the mapping information from several qualities to a common attribute, as shown below.
+
+<javascript>
+
+Quality           Attribute
+-------           ---------   
+Blue              Color
+Red               Color
+Round             Shape
+Bifurcated        Shape
+.
+.
+</javascript> 
+
+The attribute identification for a quality can be done by simply reading from this view, which should lead to more savings in query execution time.
+
 = Gene data services =
 
 = Taxon data services =
