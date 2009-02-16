@@ -98,7 +98,7 @@ Document metadata is stored within the root "nexml" element in a dict using the 
 </xml>
 
 ====Taxon and specimen data====
-An OBO ontology identifier for a taxon is stored within the taxon's "otu" element in a dict using the key "OBO_ID".  The value is a string representing the OBO identifier.  Specimens for this taxon are also stored within the taxon's "otu" element, within a dict using the key "OBO_specimens"  The value for this dict is an "any" element containing custom "specimen' XML elements.  The OBO identifier for the museum collection is stored in a "collection" attribute while the specimen accession number is in an "accession" attribute.
+An OBO ontology identifier for a taxon is stored within the taxon's "otu" element in a dict using the key "OBO_ID".  The value is a string representing the OBO identifier.  Specimens for this taxon are also stored within the taxon's "otu" element, within a dict using the key "OBO_specimens".  The value for this dict is an "any" element containing custom "specimen' XML elements.  The OBO identifier for the museum collection is stored in a "collection" attribute while the specimen accession number is in an "accession" attribute.
 <xml>
 <otu id="4341922c-a479-4088-b02e-42a0e248a825" label="Acestrorhynchus lacustris">
       <dict>
@@ -116,6 +116,29 @@ An OBO ontology identifier for a taxon is stored within the taxon's "otu" elemen
         </any>
       </dict>
 </otu>
+</xml>
+
+====Phenotype annotations====
+Phenotype annotations are stored within the "state" element to which they correspond, within a dict using the key "OBO_phenotype".  The value for this dict is an "any" element containing a "phenotype" element.  The "phenotype" element and its children are taken from the [http://www.fruitfly.org/~cjm/obd/formats.html PhenoXML schema].
+<xml>
+<state id="889131fa-7e4d-45f0-b918-14d3ba806c65" label="present" symbol="1">
+          <dict>
+            <key>OBO_phenotype</key>
+            <any>
+              <phen:phenotype>
+                <phen:phenotype_character>
+                  <phen:description/>
+                  <phen:bearer>
+                    <phen:typeref about="TAO:0000203"/>
+                  </phen:bearer>
+                  <phen:quality>
+                    <phen:typeref about="PATO:0000467"/>
+                  </phen:quality>
+                </phen:phenotype_character>
+              </phen:phenotype>
+            </any>
+          </dict>
+</state>
 </xml>
 
 ==Development Roadmap==
