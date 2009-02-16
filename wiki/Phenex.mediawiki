@@ -82,6 +82,8 @@ Using the menu item "File > Merge NEXUS Matrix...", you can merge matrix values 
 ===NeXML file format extensions===
 The [http://www.nexml.org/nexml/html/doc/schema-1/ NeXML schema] provides an XML format for saving evolutionary character data.  It provides for customization by allowing most elements to be annotated by including a "dict" element containing key-value data.  Keys are text while the values can be textual, numeric, or arbitrary XML.  Phenex stores ontological annotations and application-specific data in a number of proprietary dict elements.  While these dict elements are specific to Phenex, all standard data in the file can still be read and used by other applications that support NeXML.
 
+While these data are currently stored within unique Phenex dicts, eventually common needs for such data across applications should be identified and public standards should be established and implemented.  While reading and writing files, Phenex attempts to preserve and "round-trip" any unsupported NeXML data or unknown annotation elements.
+
 ==Development Roadmap==
 ===January 2009===
 * Support alt_id term references in NeXML files '''[Done]'''
