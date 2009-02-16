@@ -84,7 +84,8 @@ The [http://www.nexml.org/nexml/html/doc/schema-1/ NeXML schema] provides an XML
 
 While these data are currently stored within proprietary Phenex dicts, eventually common needs for such data across applications should be identified and public standards should be established and implemented.  While reading and writing files, Phenex attempts to preserve and "round-trip" any unsupported NeXML data or unknown annotation elements.
 
-====Document metadata==== Stored within the root "nexml" element in a dict using the key "phenex-metadata".  An "any" element contains custom XML with the elements listed below.
+====Document metadata====
+Document metadata is stored within the root "nexml" element in a dict using the key "phenex-metadata".  An "any" element contains custom XML with the elements listed below.
 <xml>
 <dict>
     <key>phenex-metadata</key>
@@ -95,7 +96,9 @@ While these data are currently stored within proprietary Phenex dicts, eventuall
     </any>
 </dict>
 </xml>
-* Taxon and specimen data - an OBO ontology identifier for a taxon is stored within the taxon's "otu" element in a dict using the key "OBO_ID".  The value is a string representing the OBO identifier.  Specimens for this taxon are also stored within the taxon's "otu" element, within a dict using the key "OBO_specimens"  The value for this dict is an "any" element containing custom "specimen' XML elements.  The OBO identifier for the museum collection is stored in a "collection" attribute while the specimen accession number is in an "accession" attribute.
+
+====Taxon and specimen data====
+An OBO ontology identifier for a taxon is stored within the taxon's "otu" element in a dict using the key "OBO_ID".  The value is a string representing the OBO identifier.  Specimens for this taxon are also stored within the taxon's "otu" element, within a dict using the key "OBO_specimens"  The value for this dict is an "any" element containing custom "specimen' XML elements.  The OBO identifier for the museum collection is stored in a "collection" attribute while the specimen accession number is in an "accession" attribute.
 <xml>
 <otu id="4341922c-a479-4088-b02e-42a0e248a825" label="Acestrorhynchus lacustris">
       <dict>
