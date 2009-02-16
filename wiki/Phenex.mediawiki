@@ -79,6 +79,8 @@ Using the menu item "File > Merge Tab-delimited Characters...", you can merge EQ
 ====Merging matrix data (taxon by character state associations) from a NEXUS file====
 Using the menu item "File > Merge NEXUS Matrix...", you can merge matrix values into an existing data set.  Characters are matched via their index. Extra characters are appended to the existing data. Values are matched by comparing the symbol - if a state with that symbol is not available for the character in the existing data set, a new state with that symbol is added to the character. Taxa are matched via their Publication Name.  Matrix values for unmatched taxa are unaltered.
 
+===NeXML file format extensions===
+
 ==Development Roadmap==
 ===January 2009===
 * Support alt_id term references in NeXML files '''[Done]'''
