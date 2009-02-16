@@ -80,6 +80,7 @@ Using the menu item "File > Merge Tab-delimited Characters...", you can merge EQ
 Using the menu item "File > Merge NEXUS Matrix...", you can merge matrix values into an existing data set.  Characters are matched via their index. Extra characters are appended to the existing data. Values are matched by comparing the symbol - if a state with that symbol is not available for the character in the existing data set, a new state with that symbol is added to the character. Taxa are matched via their Publication Name.  Matrix values for unmatched taxa are unaltered.
 
 ===NeXML file format extensions===
+The [http://www.nexml.org/nexml/html/doc/schema-1/ NeXML schema] provides an XML format for saving evolutionary character data.  It provides for customization by allowing most elements to be annotated by including a "dict" element containing key-value data.  Keys are text while the values can be textual, numeric, or arbitrary XML.  Phenex stores ontological annotations and application-specific data in a number of proprietary dict elements.  While these dict elements are specific to Phenex, all standard data in the file can still be read and used by other applications that support NeXML.
 
 ==Development Roadmap==
 ===January 2009===
