@@ -83,13 +83,14 @@ Using the menu item "File > Merge NEXUS Matrix...", you can merge matrix values 
 ===January 2009===
 * Support alt_id term references in NeXML files '''[Done]'''
 * Copy text from tables '''[Taxon table done]'''
-===February 2009===
-* Panel for matrix cell-specific information, e.g. evidence codes, image references [Not needed before DECAP --[[User:Tjvision|Tjvision]] 14:15, 22 January 2009 (EST)]
 
 ===March 2009===
+* Panel for matrix cell-specific information, e.g. evidence codes, image references
+
+===April 2009===
 * Improved autocomplete interface
 
-===April 2009 - Phenex 1.0===
+===May 2009 - Phenex 1.0===
 * Ontology configuration interface
 
 [[Category:Curation]]
