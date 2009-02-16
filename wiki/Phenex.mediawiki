@@ -84,6 +84,18 @@ The [http://www.nexml.org/nexml/html/doc/schema-1/ NeXML schema] provides an XML
 
 While these data are currently stored within proprietary Phenex dicts, eventually common needs for such data across applications should be identified and public standards should be established and implemented.  While reading and writing files, Phenex attempts to preserve and "round-trip" any unsupported NeXML data or unknown annotation elements.
 
+*Document metadata
+<xml>
+<dict>
+    <key>phenex-metadata</key>
+    <any>
+      <curators>W. Dahdul</curators>
+      <publication>Buckup, 1998</publication>
+      <publicationNotes>Evidence codes for matrix is IVS</publicationNotes>
+    </any>
+</dict>
+</xml>
+
 ==Development Roadmap==
 ===January 2009===
 * Support alt_id term references in NeXML files '''[Done]'''
