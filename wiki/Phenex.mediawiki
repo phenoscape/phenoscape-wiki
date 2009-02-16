@@ -84,7 +84,7 @@ The [http://www.nexml.org/nexml/html/doc/schema-1/ NeXML schema] provides an XML
 
 While these data are currently stored within proprietary Phenex dicts, eventually common needs for such data across applications should be identified and public standards should be established and implemented.  While reading and writing files, Phenex attempts to preserve and "round-trip" any unsupported NeXML data or unknown annotation elements.
 
-*Document metadata
+*Document metadata - stored within the root "nexml" element in a dict using the key "phenex-metadata".  An "any" element contains custom xml with the elements listed below.
 <xml>
 <dict>
     <key>phenex-metadata</key>
@@ -95,6 +95,7 @@ While these data are currently stored within proprietary Phenex dicts, eventuall
     </any>
 </dict>
 </xml>
+* Taxon and specimen data
 
 ==Development Roadmap==
 ===January 2009===
