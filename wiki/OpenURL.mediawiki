@@ -11,7 +11,7 @@ OpenURL is a container format for describing requests for access to a publicatio
 * the system that should process the request
 * system where the request originates (the system that provided the publication or ontology that linked to the publication of interest, e.g., a publisher or an ontology repository).
 
-
+OpenURL exists in two versions - the Framework Standard specified in NISO-Z39.88, and the earlier OpenURL0.1, which existed as a de facto standard prior to the development of the Z39.88 specification.
 
 =References=
 [http://www.niso.org/kst/reports/standards?step=2&gid=&project_key=d5320409c5160be4697dc046613f71b9a773cd9e ANSI/NISO Z39.88 - The OpenURL Framework for Context-Sensitive Services]
