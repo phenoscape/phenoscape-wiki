@@ -10,6 +10,7 @@ It would be simplest to store references to articles as an ID number which can b
 # SICI numbers, if the publisher uses it for a stable URL
 # Biodiversity Heritage Library URL of the article
 # constructed SICI ID (***)
+# constructed [[OpenURL]]
 
 (*) I doubt that there are articles with both a DOI *and* a handle, but if you encounter one, use the DOI. There is a text query interface to look up DOI at CrossRef: http://www.crossref.org/SimpleTextQuery/
 
