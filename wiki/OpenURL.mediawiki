@@ -4,7 +4,13 @@ title: OpenURL
 
 =Overview=
 
-OpenURL is a container format for describing requests for access to a publication.  As such, it contains metadata about publications.
+OpenURL is a container format for describing requests for access to a publication.  As such, it contains metadata about publications, however to describe access requests, it contains data for:
+* the resource that contains a link to the publication (e.g., the URL of a second publication (or ontology) that links to the publication of interest)
+* the person making the request
+* access requested (full text, abstract only, etc.)
+* the system that should process the request
+* system where the request originates (the system that provided the publication or ontology that linked to the publication of interest, e.g., a publisher or an ontology repository).
+
 
 
 =References=
