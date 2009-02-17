@@ -2,4 +2,10 @@
 title: OpenURL
 ---
 
+=Overview=
+
 OpenURL is a container format for describing requests for access to a publication.  As such, it contains metadata about publications.
+
+
+=References=
+[http://www.niso.org/kst/reports/standards?step=2&gid=&project_key=d5320409c5160be4697dc046613f71b9a773cd9e ANSI/NISO Z39.88 - The OpenURL Framework for Context-Sensitive Services]
