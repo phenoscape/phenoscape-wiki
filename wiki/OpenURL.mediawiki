@@ -1,0 +1,5 @@
+---
+title: OpenURL
+---
+
+OpenURL is a container format for describing requests for access to a publication.  As such, it contains metadata about publications.
