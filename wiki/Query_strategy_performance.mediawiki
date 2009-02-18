@@ -397,7 +397,75 @@ This strategy resulted in the fastest execution times. All the required informat
 
 ==Strategy #4==
 
-This [[Queries#Strategy_#4:_Materialized_views|strategy]] will be tested in the week of Feb 16 - 20.
+This [[Queries#Strategy_#4:_Materialized_views|strategy]] involves materializing views for the following relations:
+
+* ''OBO_REL:inheres_in''
+* ''OBO_REL:is_a''
+* ''PHENOSCAPE:exhibits''
+* ''PHENOSCAPE:has_allele''
+
+A stored procedure can be invoked to query from these materialized views and retrieve the information of interest.
+
+===getAnatomyInfoFromMatViews===
+
+====Stored procedure detail====
+<sql>
+CREATE OR REPLACE FUNCTION getAnatomyInfoFromMatViews(VARCHAR) RETURNS SETOF anatomyrow
+AS
+$$
+DECLARE
+result     	   anatomyrow%rowtype;
+search_id  	   INT;
+phenotype_id   INT;
+taxa		   VARCHAR[2];	
+taxaRec		   RECORD;
+phenRec  	   RECORD;
+count		   INT;	 
+gene	   	   VARCHAR;  
+qId			   INT;
+BEGIN
+SELECT node_id INTO search_id FROM node WHERE uid = $1; 
+PERFORM realize_relation('OBO_REL:inheres_in');
+PERFORM realize_relation('PHENOSCAPE:exhibits');
+PERFORM realize_relation('OBO_REL:is_a');
+PERFORM realize_relation('PHENOSCAPE:has_allele');
+FOR phenRec IN
+SELECT * FROM OBO_REL.inheres_in WHERE object_id = search_id
+LOOP
+count := 0;
+taxa := NULL;
+result.search_id := $1; 
+result.phenotype_id := phenRec.node_id;
+result.phenotype_label := node_uid(phenRec.node_id); 
+SELECT node_uid(object_id) || '(' || node_label(object_id) || ')' INTO result.entity_info FROM asserted_OBO_REL.inheres_in WHERE node_id = phenRec.node_id;
+SELECT node_uid(object_id) || '(' || node_label(object_id) || ')', object_id INTO result.quality_info, qId FROM asserted_OBO_REL.is_a WHERE node_id = phenRec.node_id;
+result.attribute_info := readCharacterForState(qId);
+FOR taxaRec IN
+SELECT node_id AS TorGid, node_uid(node_id) AS TorG FROM asserted_PHENOSCAPE.exhibits WHERE object_id = phenRec.node_id
+LOOP
+count := count + 1;
+IF (taxaRec.TorG LIKE '%TTO%') THEN
+	taxa[count] := taxaRec.TorG;
+ELSE
+	SELECT node_uid(node_id) INTO gene FROM asserted_PHENOSCAPE.has_allele WHERE object_id = taxaRec.TorGid;
+	taxa[count] := gene; 
+END IF;
+END LOOP;
+result.taxa_info := taxa;
+RETURN NEXT result;
+END LOOP;
+END
+$$
+LANGUAGE 'plpgsql';
+</sql>
+
+====Execution Details====
+
+* Time: 0.1 seconds 
+
+====Discussion====
+
+This strategy offers the fastest performance yet when the fin (TAO:0000108) is searched for. When the root TAO entity (TAO:0100000) is queried, execution times vary between 4 and 9 seconds.
 
 ==Conclusion and potential areas for improvement==
 
