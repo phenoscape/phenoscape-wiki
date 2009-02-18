@@ -474,9 +474,9 @@ This strategy offers the fastest performance yet when the fin (TAO:0000108) is s
 
 ==Conclusion and potential areas for improvement==
 
-From the above discussion, it can be seen the performance of queries from the SICB prototype can be significantly improved. At present, (Feb 11, 2009), the database contains approximately 122500 phenotype assertions from the Phenoscape project and roughly 23000 assertions from ZFIN. While significant additions to the ZFIN assertions are not expected, the number of assertions in the Phenoscape project are expected to go up to 7.5 million. Scalability of these querying strategies can be different from one another. Querying strategies that entirely depend upon table joins and other relational operations such as [[Queries#Strategy_#2:_Specifying_the_order_of_table_joins_in_the_original_query|Strategies 1 and 2]] scale logarithmically; while those that use procedural logic may scale linearly or worse.
+From the above discussion, it can be seen the performance of queries from the SICB prototype can be significantly improved. At present, (Feb 11, 2009), the database contains approximately 122500 phenotype assertions from the Phenoscape project and roughly 23000 assertions from ZFIN. While significant additions to the ZFIN assertions are not expected, the number of assertions in the Phenoscape project are expected to go up to 7.5 million. Scalability of these querying strategies can be different from one another. Querying strategies that entirely depend upon table joins and other relational operations ([[Queries#Strategy_#2:_Specifying_the_order_of_table_joins_in_the_original_query|Strategies 1 and 2]]) scale logarithmically; while those that use procedural logic (Strategies 3 and 4) may scale worse than logarithmically (linearly or worse).
 
-On the other hand, the results of the queries executed in 1 and 2 will have to be parsed on the client side (because of their strict tabular format shown below) to isolate the taxa or genotypes/genes that are associated with a specific phenotype. In the example below, client side parsing of the tabular format will isolate {T1, T2, ...Tn} as the taxa that exhibit the phenotype P1. 
+On the other hand, the results of the queries executed in 1 and 2 will have to be parsed on the client side (because of their strict tabular format shown below) to isolate the taxa or genotypes/genes that are associated with a specific phenotype. In the example below, client side parsing of the tabular format will isolate {T1, T2, ...Tn} as the taxa that exhibit the phenotype P1.
 
 <javascript>
 P1                   E1                Q1                   T1
@@ -490,7 +490,7 @@ P2                   E2                Q2                   GT1
 P2                   E2                Q2                   GTn
 </javascript>
 
-Strategies 3 and 4 however, accumulate these taxa in advance and associated them with each unique phenotype in a single row. This requires minimal parsing on the client side, specifically if this is to be packaged into a JSON object to be delivered to the Phenoscape UI. 
+Strategies 3 and 4 however, accumulate these taxa in advance and associated them with each unique phenotype in a single row. This requires minimal parsing on the client side, specifically if this is to be packaged into a JSON object to be delivered to the Phenoscape UI.
 
 ===Materializing views for Attribute-Quality (or Character-State) combinations===
 
