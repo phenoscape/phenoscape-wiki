@@ -406,19 +406,19 @@ From the above discussion, it can be seen the performance of queries from the SI
 
 ===Materializing views for Attribute-Quality (or Character-State) combinations===
 
-Given that stored procedures display the [[Query_strategy_performance#Strategy_#3|fastest execution times]], the invocation of a procedure that recursively executes SQL queries to traverse the PATO hierarchy in order to identify characters that subsume qualities is a bottleneck of its own. This can be overcome by the creation of a [[Queries#Strategy_#4:_Materialized_views| materialized view]], which contains the mapping information from several qualities to a common attribute, as shown below.
+Given that stored procedures display the [[Query_strategy_performance#Strategy_#3|fastest execution times]], the invocation of a procedure that recursively executes SQL queries to traverse the PATO hierarchy in order to identify characters that subsume qualities is a bottleneck of its own. This can be overcome by the creation of a [[Queries#Strategy_#4:_Materialized_views| materialized view]], which contains the mapping information from several qualities to a common attribute (or from several states to a common character), as shown below.
 
 <javascript>
 
 Quality           Attribute
--------           ---------   
+-------           ---------
 Blue              Color
 Red               Color
 Round             Shape
 Bifurcated        Shape
 .
 .
-</javascript> 
+</javascript>
 
 The attribute identification for a quality can be done by simply reading from this view, which should lead to more savings in query execution time.
 
