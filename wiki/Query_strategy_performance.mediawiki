@@ -332,9 +332,9 @@ This is the master stored procedure which can be invoked directly from the clien
 CREATE TABLE anatomyrow (search_id VARCHAR, phenotype_id INT, phenotype_label VARCHAR, entity_info VARCHAR, quality_info VARCHAR,
 attribute_info VARCHAR, taxa_info VARCHAR);
 
-CREATE OR REPLACE FUNCTION getAnatomyInfo(VARCHAR) RETURNS SETOF anatomyrow AS
+CREATE OR REPLACE FUNCTION getAnatomyInfo(VARCHAR) RETURNS SETOF anatomyrow AS 
 $$
-DECLARE
+DECLARE 
 	result anatomyrow%rowtype;
 	qualityRecord RECORD;
 	phenotype INT;
@@ -344,31 +344,30 @@ DECLARE
 	gene VARCHAR;
 	attribute VARCHAR;
 	qualityAndAttribute VARCHAR[2];
-BEGIN
-FOR result IN
-SELECT DISTINCT
-$1 AS search_id, phenotype_node.node_id as phenotype_id, phenotype_node.uid AS phenotype_uid, 'entity' AS entity_info, 'quality' AS quality_info,
+BEGIN	
+FOR result IN 
+SELECT DISTINCT 
+'TAO:0000108' AS search_id, phenotype_node.node_id as phenotype_id, phenotype_node.uid AS phenotype_label, 'entity' AS entity_info, 'quality' AS quality_info, 
 'attribute' AS attribute_info, 'taxa' AS taxa_info
-FROM
+FROM 
 node AS taxon_node INNER JOIN link AS exhibits_link INNER JOIN
 node AS phenotype_node INNER JOIN link AS inheres_in_link INNER JOIN node AS search_node ON (inheres_in_link.object_id = search_node.node_id)
-ON (phenotype_node.node_id = inheres_in_link.node_id) ON (exhibits_link.object_id = phenotype_node.node_id) ON (taxon_node.node_id = exhibits_link.node_id),
+ON (phenotype_node.node_id = inheres_in_link.node_id) ON (exhibits_link.object_id = phenotype_node.node_id) ON (taxon_node.node_id = exhibits_link.node_id), 
 node AS inheres_in_pred_node, node AS exhibits_pred_node
 WHERE
-search_node.uid = $1 AND
+search_node.uid = 'TAO:0000108' AND
 exhibits_pred_node.uid = 'PHENOSCAPE:exhibits' AND
 inheres_in_pred_node.uid = 'OBO_REL:inheres_in' AND
-exhibits_link.node_id IS NOT NULL AND
 exhibits_link.predicate_id = exhibits_pred_node.node_id AND
-inheres_in_link.predicate_id = inheres_in_pred_node.node_id
+inheres_in_link.predicate_id = inheres_in_pred_node.node_id 
 LOOP
 	phenotype := result.phenotype_id;
 	qualityRecord := getQualityFromPhenotype(phenotype);
-	attribute := getAttributeForQuality(qualityRecord.quality_id);
+	attribute := readCharacterForState(qualityRecord.quality_id);
 	quality := qualityRecord.quality;
 	taxa := getTaxaForPhenotype(phenotype);
 	entity := getEntityFromPhenotype(phenotype);
-	result.search_id := $1;
+	result.search_id := $1;	
 	result.entity_info := entity;
 	result.quality_info := quality;
 	result.attribute_info := attribute;
@@ -376,8 +375,7 @@ LOOP
 	RETURN NEXT result;
 END LOOP;
 END
-$$ LANGUAGE 'plpgsql';
-</sql>
+$$ LANGUAGE 'plpgsql';</sql>
 
 ===Execution details ===
 
