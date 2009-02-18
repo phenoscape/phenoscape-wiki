@@ -376,7 +376,6 @@ LOOP
 	result.taxa_info := taxa;
 	RETURN NEXT result;
 END LOOP;
---RAISE NOTICE '% unique phenotypes found', count;
 END
 $$ LANGUAGE 'plpgsql';
 </sql>
