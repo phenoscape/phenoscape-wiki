@@ -508,6 +508,10 @@ Bifurcated        Shape
 
 The attribute identification for a quality can be done by simply reading from this view, which should lead to more savings in query execution time.
 
+===Comparison parameters===
+
+Note that in almost all the queries discussed so far, the query looks up the node ID for relations such as ''PHENOSCAPE;exhibits'' and so forth. If these can be statically read in to the client side application during data load time, hundreds of thousands of lookup operations will be saved over tens of thousands of queries as a result. A feature to update the node ID values on the client side at every data refreshing/reload of the Phenoscape database will be implemented in the future for this purpose
+
 = Gene data services =
 
 = Taxon data services =
