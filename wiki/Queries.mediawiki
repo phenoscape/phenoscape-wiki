@@ -107,7 +107,16 @@ Given that the use of table joins in a query assembled on the client side is imp
 
 ==== Strategy #4: Materialized views ====
 
-[http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/PhenoscapeDataLoader/sql/util/realize-relations-as-views.plpgsql?view=log Stored procedures] in the OBD API can be used to convert relations and classes into explicit views, which can then be queried to retrieve information of interest. For example, all the non-inferred triples in the LINK table which have ''PHENOSCAPE:exhibits'' as the predicate can be assembled into a ''materialized view'', where all the triples have ''PHENOSCAPE:exhibits'' as the predicate. The records in these views can be easily queried from another stored procedure to retrieve data of interest. Given that a query for anatomy information leverages a [[Queries#Relations-of_interest|specific set of relations]], each of these relations can be materialized into a view. The required information about an anatomical entity can be identified from these views. There will be a fewer number of joins involved in the query used upon these views. This strategy is to be tested out this week (Feb 16 - 20).
+[http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/PhenoscapeDataLoader/sql/util/realize-relations-as-views.plpgsql?view=log Stored procedures] in the OBD API can be used to convert relations and classes into explicit views, which can then be queried to retrieve information of interest. For example, all the non-inferred triples in the LINK table which have ''PHENOSCAPE:exhibits'' as the predicate can be assembled into a ''materialized view'', where all the triples have ''PHENOSCAPE:exhibits'' as the predicate. The records in these views can be easily queried from another stored procedure to retrieve data of interest. Given that a query for anatomy information leverages a [[Queries#Relations-of_interest|specific set of relations]], each of these relations can be materialized into a view. The required information about an anatomical entity can be identified from these views. There will be a fewer number of joins involved in the query used upon these views.
+
+The following relations will be 'materialized':
+
+* ''OBO_REL:inheres_in''
+* ''OBO_REL:is_a''
+* ''PHENOSCAPE:exhibits''
+* ''PHENOSCAPE:has_allele''
+
+A stored procedure ([[Query_strategy_performance#getAnatomyInfoFromMatViews|getAnatomyInfoFromMatViews]]) then queries these materialized views to retrieve the information of interest.
 
 == Testing strategy ==
 
