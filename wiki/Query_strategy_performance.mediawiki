@@ -277,9 +277,8 @@ predicate_id = (SELECT node_id FROM node WHERE uid = 'PHENOSCAPE:exhibits')
 AND object_id = $1
 LOOP
 ct := ct + 1;
-IF (rec.uid LIKE '%TTO%') THEN
 taxa[ct] := rec.uid || '(' || rec.label || ')';
-ELSE
+IF (rec.uid NOT LIKE '%TTO%') THEN
 FOR gene IN
 SELECT node_uid(node_id) AS gId, node_label(node_id) AS gLabel FROM link WHERE
 predicate_id = (SELECT node_id FROM node WHERE uid = 'PHENOSCAPE:has_allele')
@@ -289,7 +288,7 @@ taxa[ct] := gene.gId || '(' || gene.gLabel || ')';
 END LOOP;
 END IF;
 END LOOP;
-RETURN taxa;
+RETURN taxa;	
 END
 $$ LANGUAGE 'plpgsql';
 </sql>
