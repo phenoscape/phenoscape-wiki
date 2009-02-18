@@ -74,7 +74,7 @@ exhibits_link.object_id = phenotype_node.node_id;
 
 ====Discussion====
 
-This query (referred to as QfS1, short for "Query for Strategy 1") returns each phenotype associated with the 'TAO:0000108' and also the specific entities and qualities associated with each phenotype. In addition, the taxa that exhibit the phenotype and the genotypes are also returned. If several taxa {T} or genotypes (GT} exhibit the same phenotype P, which is of the form, inheres_in(Q, E), the results are returned in rows in the format shown below.
+This query (referred to as QfS1, short for "Query for Strategy 1") returns each phenotype associated with the 'TAO:0000108' and also the specific entities and qualities associated with each phenotype. In addition, the taxa that exhibit the phenotype and the genotypes are also returned. If several taxa {T} or genotypes {GT} exhibit the same phenotype P, which is of the form, inheres_in(Q, E), the results are returned in rows in the format shown below.
 
 <javascript>
 P1                   E1                Q1                   T1
