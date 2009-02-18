@@ -474,7 +474,11 @@ This strategy offers the fastest performance yet when the fin (TAO:0000108) is s
 
 ==Conclusion and potential areas for improvement==
 
-From the above discussion, it can be seen the performance of queries from the SICB prototype can be significantly improved and scaled. At present, (Feb 11, 2009), the database contains approximately 122500 phenotype assertions from the Phenoscape project and roughly 23000 assertions from ZFIN. While significant additions to the ZFIN assertions are not expected, the number of assertions in the Phenoscape project are expected to go up to 7.5 million. However, assuming a logarithmic increase in performance metrics with a linear increase in data (as is standard in most industrial strength DBMSs), the scalability of the querying strategies does not appear to be a major concern at this time.
+From the above discussion, it can be seen the performance of queries from the SICB prototype can be significantly improved. At present, (Feb 11, 2009), the database contains approximately 122500 phenotype assertions from the Phenoscape project and roughly 23000 assertions from ZFIN. While significant additions to the ZFIN assertions are not expected, the number of assertions in the Phenoscape project are expected to go up to 7.5 million. Scalability of these querying strategies can be different from one another. Querying strategies that entirely depend upon table joins and other relational operations such as [[Strategies 1 and 2]] scale logarithmically; while those that use procedural logic may scale linearly or worse.
+
+On the other hand, strategies  
+
+
 
 ===Materializing views for Attribute-Quality (or Character-State) combinations===
 
