@@ -461,8 +461,14 @@ LANGUAGE 'plpgsql';
 
 ====Execution Details====
 
+This stored procedure can be invoked by the query
+
+<javascript>
+SELECT * FROM getAnatomyInfoFromMatViews('TAO:0000108')
+</javascript>
+
 * Time: Approx 0.19 seconds
-* Rows returned: 69
+* Rows returned: 75
 
 ====Discussion====
 
