@@ -13,6 +13,25 @@ OpenURL is a container format for describing requests for access to a publicatio
 
 OpenURL exists in two versions - the Framework Standard specified in NISO-Z39.88, and the earlier OpenURL0.1, which existed as a de facto standard prior to the development of the Z39.88 specification.
 
+Here's an example of an OpenURL0.1 description:
+
+<nowiki>
+http://www.example.com/resolver?genre=article&atitle=Phylogenetic relationships of the suckermouth armoured catfishes (Loricariidae) with emphasis on the Hypostominae and the Ancistrinae&title=Zoological Journal of the Linnean Society&aulast=Armbruster&auinit=JW&date=2004&volume=141&spage=1&epage=80
+</nowiki>
+
+However, it can also serve as a container for doi's:
+ 
+<nowiki>http://www.example.com/resolver?id=doi:10.1111/j.1096-3642.2004.00109.x</nowiki>
+
+For comparison, here's the first description as a ContextObject, rendered according to the SAP1 Framework Application:
+
+<nowiki>
+http://www.example.com/resolver?url_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx
+&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=Phylogenetic relationships of the suckermouth armoured catfishes (Loricariidae) with emphasis on the Hypostominae and the Ancistrinae&rft.jtitle=Zoological Journal of the Linnean Society&rft.aulast=Armbruster&rft.auinit=JW&rft.date=2004&rft.volume=141&rft.spage=1&rft.epage=80
+</nowiki>
+
+The base portion of the URL points to a resolving service, which mediates access to the resource specified in the OpenURL.  SFX, which is fairly popular with university libraries, is a example.  Since Phenoscape's purpose is not serve articles, the server could do little or possibly nothing at all when queried.
+
 =References=
 [http://www.niso.org/kst/reports/standards?step=2&gid=&project_key=d5320409c5160be4697dc046613f71b9a773cd9e ANSI/NISO Z39.88 - The OpenURL Framework for Context-Sensitive Services]
 
