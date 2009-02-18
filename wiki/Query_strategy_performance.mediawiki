@@ -2,7 +2,11 @@
 title: Query strategy performance
 ---
 
-This page discusses the requirements of the various data access modules of the Phenoscape application to be demonstrated at the ASIH workshop, and documents the performance of the various [[Queries#Proposed_querying_strategies_for_the_ASIH_prototype|querying strategies]] being tested for these modules. Familiary with SQL and PostgreSQL stored procedures may be necessary to fully comprehend these contents. 
+= Abstract =
+
+The Phenoscape prototype demonstrated at the SICB workshop (the SICB prototype) in January 2009 suffered from very poor query execution times. Following this, various querying strategies have been tested to improve the execution times. This page discusses the requirements of the various data access modules of the Phenoscape application to be demonstrated at the ASIH workshop, and documents the performance of the various [[Queries#Proposed_querying_strategies_for_the_ASIH_prototype|querying strategies]] being tested for these modules. Testing on these querying strategies have revealed significant speedup of execution times, as compared to the performance of the SICB prototype. As an example, a query for information related to the 'fin' anatomical entity (TAO:0000108) took around 15 minutes to retrieve all the information from the database in the SICB prototype. Some of the querying strategies discussed on this page manage to do the same in about 300 milliseconds, an improvement by several orders of magnitude. 
+
+* NOTE: Familiary with SQL and PostgreSQL stored procedures may be necessary to fully comprehend these contents.
 
 = Anatomy data services =
 
@@ -288,7 +292,7 @@ taxa[ct] := gene.gId || '(' || gene.gLabel || ')';
 END LOOP;
 END IF;
 END LOOP;
-RETURN taxa;	
+RETURN taxa;
 END
 $$ LANGUAGE 'plpgsql';
 </sql>
@@ -332,9 +336,9 @@ This is the master stored procedure which can be invoked directly from the clien
 CREATE TABLE anatomyrow (search_id VARCHAR, phenotype_id INT, phenotype_label VARCHAR, entity_info VARCHAR, quality_info VARCHAR,
 attribute_info VARCHAR, taxa_info VARCHAR);
 
-CREATE OR REPLACE FUNCTION getAnatomyInfo(VARCHAR) RETURNS SETOF anatomyrow AS 
+CREATE OR REPLACE FUNCTION getAnatomyInfo(VARCHAR) RETURNS SETOF anatomyrow AS
 $$
-DECLARE 
+DECLARE
 	result anatomyrow%rowtype;
 	qualityRecord RECORD;
 	phenotype INT;
@@ -344,22 +348,22 @@ DECLARE
 	gene VARCHAR;
 	attribute VARCHAR;
 	qualityAndAttribute VARCHAR[2];
-BEGIN	
-FOR result IN 
-SELECT DISTINCT 
-'TAO:0000108' AS search_id, phenotype_node.node_id as phenotype_id, phenotype_node.uid AS phenotype_label, 'entity' AS entity_info, 'quality' AS quality_info, 
+BEGIN
+FOR result IN
+SELECT DISTINCT
+'TAO:0000108' AS search_id, phenotype_node.node_id as phenotype_id, phenotype_node.uid AS phenotype_label, 'entity' AS entity_info, 'quality' AS quality_info,
 'attribute' AS attribute_info, 'taxa' AS taxa_info
-FROM 
+FROM
 node AS taxon_node INNER JOIN link AS exhibits_link INNER JOIN
 node AS phenotype_node INNER JOIN link AS inheres_in_link INNER JOIN node AS search_node ON (inheres_in_link.object_id = search_node.node_id)
-ON (phenotype_node.node_id = inheres_in_link.node_id) ON (exhibits_link.object_id = phenotype_node.node_id) ON (taxon_node.node_id = exhibits_link.node_id), 
+ON (phenotype_node.node_id = inheres_in_link.node_id) ON (exhibits_link.object_id = phenotype_node.node_id) ON (taxon_node.node_id = exhibits_link.node_id),
 node AS inheres_in_pred_node, node AS exhibits_pred_node
 WHERE
 search_node.uid = 'TAO:0000108' AND
 exhibits_pred_node.uid = 'PHENOSCAPE:exhibits' AND
 inheres_in_pred_node.uid = 'OBO_REL:inheres_in' AND
 exhibits_link.predicate_id = exhibits_pred_node.node_id AND
-inheres_in_link.predicate_id = inheres_in_pred_node.node_id 
+inheres_in_link.predicate_id = inheres_in_pred_node.node_id
 LOOP
 	phenotype := result.phenotype_id;
 	qualityRecord := getQualityFromPhenotype(phenotype);
@@ -367,7 +371,7 @@ LOOP
 	quality := qualityRecord.quality;
 	taxa := getTaxaForPhenotype(phenotype);
 	entity := getEntityFromPhenotype(phenotype);
-	result.search_id := $1;	
+	result.search_id := $1;
 	result.entity_info := entity;
 	result.quality_info := quality;
 	result.attribute_info := attribute;
