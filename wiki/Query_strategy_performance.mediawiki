@@ -408,7 +408,6 @@ A stored procedure can be invoked to query from these materialized views and ret
 
 ===getAnatomyInfoFromMatViews===
 
-====Stored procedure detail====
 <sql>
 CREATE OR REPLACE FUNCTION getAnatomyInfoFromMatViews(VARCHAR) RETURNS SETOF anatomyrow
 AS
@@ -417,14 +416,14 @@ DECLARE
 result     	   anatomyrow%rowtype;
 search_id  	   INT;
 phenotype_id   INT;
-taxa		   VARCHAR[2];	
+taxa		   VARCHAR[2];
 taxaRec		   RECORD;
 phenRec  	   RECORD;
-count		   INT;	 
-gene	   	   VARCHAR;  
+count		   INT;
+gene	   	   VARCHAR;
 qId			   INT;
 BEGIN
-SELECT node_id INTO search_id FROM node WHERE uid = $1; 
+SELECT node_id INTO search_id FROM node WHERE uid = $1;
 PERFORM realize_relation('OBO_REL:inheres_in');
 PERFORM realize_relation('PHENOSCAPE:exhibits');
 PERFORM realize_relation('OBO_REL:is_a');
@@ -434,9 +433,9 @@ SELECT * FROM OBO_REL.inheres_in WHERE object_id = search_id
 LOOP
 count := 0;
 taxa := NULL;
-result.search_id := $1; 
+result.search_id := $1;
 result.phenotype_id := phenRec.node_id;
-result.phenotype_label := node_uid(phenRec.node_id); 
+result.phenotype_label := node_uid(phenRec.node_id);
 SELECT node_uid(object_id) || '(' || node_label(object_id) || ')' INTO result.entity_info FROM asserted_OBO_REL.inheres_in WHERE node_id = phenRec.node_id;
 SELECT node_uid(object_id) || '(' || node_label(object_id) || ')', object_id INTO result.quality_info, qId FROM asserted_OBO_REL.is_a WHERE node_id = phenRec.node_id;
 result.attribute_info := readCharacterForState(qId);
@@ -448,7 +447,7 @@ IF (taxaRec.TorG LIKE '%TTO%') THEN
 	taxa[count] := taxaRec.TorG;
 ELSE
 	SELECT node_uid(node_id) INTO gene FROM asserted_PHENOSCAPE.has_allele WHERE object_id = taxaRec.TorGid;
-	taxa[count] := gene; 
+	taxa[count] := gene;
 END IF;
 END LOOP;
 result.taxa_info := taxa;
@@ -459,7 +458,7 @@ $$
 LANGUAGE 'plpgsql';
 </sql>
 
-====Execution Details====
+===Execution Details===
 
 This stored procedure can be invoked by the query
 
@@ -470,7 +469,7 @@ SELECT * FROM getAnatomyInfoFromMatViews('TAO:0000108')
 * Time: Approx 0.19 seconds
 * Rows returned: 75
 
-====Discussion====
+===Discussion===
 
 This strategy offers the fastest performance yet when the fin (TAO:0000108) is searched for. When the root TAO entity (TAO:0100000) is queried, execution times vary between 4 and 9 seconds.
 
