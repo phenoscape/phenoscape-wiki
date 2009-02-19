@@ -5,7 +5,8 @@ title: Neglected items
 This is a list of various items that have come up at meetings and other discussions, which don't seem to have made it onto any development plan or roadmap.
 
 ===Measurement value literals in OBD (including ranges)===
-Phenotypes that include a measurement are not stored without the measurement in OBD, for example "count" or "length" phenotypes.  These values need to be imported and provided to the web interface.
+Phenotypes that include a measurement are not stored without the measurement in OBD, for example "count" or "length" phenotypes.  These values need to be imported and provided to the web interface. ''I'm not sure what you mean here. Can you rephrase as to what is currently happening and what you suggest ought to be happening? --[[User:Hlapp|Hilmar]] 18:35, 19 February 2009 (EST)''
+
 ===Measurement input interface supporting ranges for Phenex===
 Phenex supports input of a single number for measurements.  Many publications provide ranges, which may or may not be bounded on both sides ("5-10", "more than 7").
 
