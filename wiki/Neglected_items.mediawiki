@@ -21,5 +21,6 @@ Currently the web interface and data service provide results using the is_a subs
 We need to determine and explicitly document how homology annotations will impact reasoning related to phenotype annotation searches.
 
 ==="Systematic character" PATO subset===
+At the SICB 2009 meeting we discussed choosing a set of terms from PATO that would represent the "character attributes" we will standardly use to group phenotypes in a character matrix (in the web interface, for example).  This subset should "bisect" the PATO ontology: any term should either be a descendant of, an ancestor of, or be, one and only one term in the systematic character slim.  ''I believe Wasila and Paula have this on their agenda. --[[User:Jpb15|jim]] 16:15, 19 February 2009 (EST)''
 
 [[Category:Informatics]]
