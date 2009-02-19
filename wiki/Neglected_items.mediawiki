@@ -2,6 +2,8 @@
 title: Neglected items
 ---
 
+This is list of various items that have come up at meetings and other discussions, which don't seem to have made it onto any development plan or roadmap.
+
 ===Measurement value literals in OBD (including ranges)===
 ===Measurement input interface for Phenex supporting ranges===
 ===Fully automated dataloader script===
