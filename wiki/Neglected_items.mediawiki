@@ -2,7 +2,7 @@
 title: Neglected items
 ---
 
-This is list of various items that have come up at meetings and other discussions, which don't seem to have made it onto any development plan or roadmap.
+This is a list of various items that have come up at meetings and other discussions, which don't seem to have made it onto any development plan or roadmap.
 
 ===Measurement value literals in OBD (including ranges)===
 Phenotypes that include a measurement are not stored without the measurement in OBD, for example "count" or "length" phenotypes.  These values need to be imported and provided to the web interface.
