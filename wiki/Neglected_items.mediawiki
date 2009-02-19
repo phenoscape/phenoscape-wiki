@@ -12,6 +12,8 @@ Phenex supports input of a single number for measurements.  Many publications pr
 ===Fully automated dataloader script===
 The dataloader should run in an automated way on a server.  It should be easy to install and run from any computer. ''I know Cartik is working on this but I'm not sure it's on a roadmap. --[[User:Jpb15|jim]] 15:53, 19 February 2009 (EST)''
 ===Polymorphic matrix states in Phenex===
+Data matrices sometimes use the NEXUS format for specifying polymorphic states.  NeXML supports polymorphic state assignments, but Phenex doesn't provide any facilities for working with polymorphic states.
+
 ===Search for phenotypes in web interface via anatomy part_of===
 ===Employing homology statements in data queries (via reasoning?)===
 ==="Systematic character" PATO subset===
