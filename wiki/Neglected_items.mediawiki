@@ -18,6 +18,8 @@ Data matrices sometimes use the NEXUS format for specifying polymorphic states. 
 Currently the web interface and data service provide results using the is_a subsumption relation - searching for "bone" will return annotations to any particular bone.  However we have not added a way to search for annotations to parts of some anatomical entity.  This should already be supported by OBD - needs to be added to our query services and web interface.
 
 ===Employing homology statements in data queries (via reasoning?)===
+We need to determine and explicitly document how homology annotations will impact reasoning related to phenotype annotation searches.
+
 ==="Systematic character" PATO subset===
 
 [[Category:Informatics]]
