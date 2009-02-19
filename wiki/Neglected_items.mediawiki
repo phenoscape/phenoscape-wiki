@@ -1,0 +1,11 @@
+---
+title: Neglected items
+---
+
+===Measurement value literals in OBD (including ranges)===
+===Measurement input interface for Phenex supporting ranges===
+===Fully automated dataloader script===
+===Polymorphic matrix states in Phenex===
+===Search for phenotypes in web interface via anatomy part_of===
+===Employing homology statements in data queries (via reasoning?)===
+==="Systematic character" PATO subset===
