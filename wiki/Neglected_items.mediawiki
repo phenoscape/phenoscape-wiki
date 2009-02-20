@@ -5,7 +5,7 @@ title: Neglected items
 This is a list of various items that have come up at meetings and other discussions, which don't seem to have made it onto any development plan or roadmap.
 
 ===Measurement value literals in OBD (including ranges)===
-Phenotypes that include a measurement are now stored without the measurement in OBD, for example "count" or "length" phenotypes.  In Phenex, the user can choose a quality such as "length" for a phenotype, as in "basihyal bone" "length".  The use can also input a literal numeric length in the measurement field (such as "11.5"), and also choose a unit from the unit ontology (such as "millimeters").  These values are not imported into OBD by the data loader.
+Phenotypes that include a measurement are now stored without the measurement in OBD, for example "count" or "length" phenotypes.  In Phenex, the user can choose a quality such as "length" for a phenotype, as in "basihyal bone" "length".  The user can also input a literal numeric length in the measurement field (such as "11.5"), and also choose a unit from the unit ontology (such as "millimeters").  These values are not imported into OBD by the data loader.
 
 ===Measurement input interface supporting ranges for Phenex===
 Phenex supports input of a single number for measurements.  Many publications provide ranges, which may or may not be bounded on both sides ("5-10", "more than 7").
