@@ -25,11 +25,15 @@ This is an outline of my tasks in the coming months.
 
 ===February===
 * Complete documentation of query execution methods*
+** STATUS: Complete
 * Implement improved query methods to speed up execution of anatomy and gene data services
 ** NOTE: contingent upon completion of previous related tasks marked with *
+** STATUS: In progress
 * Investigate possible additions to OBD reasoner (with input from Hilmar and Jim) to infer presence/absence of anatomical features
 * Implement augmentations to reasoner to infer presence/absence of anatomical features
 * Add extinct/extant species information to the database
+* Automate data loader module
+** STATUS: In progress
 
 ===March===
 * Add collection information to the database
