@@ -37,11 +37,23 @@ This is an outline of my tasks in the coming months.
 
 ===March===
 * Add collection information to the database
+* Add Taxon query service to Phenoscape
+* Status check
+
+===April===
 * Add publication information to database
 ** NOTE: Dependant upon SICI and Endnote work
-* Add Taxon query service to Phenoscape
-* Bug fixes
-* Status check
+* Investigate load sharing and connection pooling strategies for Phenoscape prototype
+
+===May===
+* Refine web services specifications as per Jim's requirements
+* Performance tuning
+
+===June===
+* Testing and bug fixes
+
+===July===
+* Public release at ASIH
 
 [[Category:Roadmaps]]
 [[Category:Database]]
