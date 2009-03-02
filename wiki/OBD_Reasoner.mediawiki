@@ -128,6 +128,34 @@ Phenotype annotations are typically "post-composed", where an entity and quality
 # PATO:0000587^OBO_REL:inheres_in(TAO:0001173)              OBO_REL:inheres_in               TAO:0001173, and
 # PATO:0000587^OBO_REL:inheres_in(TAO:0001173)              OBO_REL:is_a                     PATO:0000587
 
+==Features added by Cartik==
+
+This section describes the features added to the OBD reasoner by Cartik.
+
+=== PATO Character State relations ===
+
+The Phenotypes and Traits Ontology (PATO) contains definitions of qualities, many of which are used in phenotype descriptions. These qualities are partitioned into various subsets (or slims) such as attribute slims, absent slims, and value slims. Attribute and value slims are mutually exclusive subsets. Attribute slims include qualities that correspond to Characters of anatomical entities, Color or Shape for example. Value slims include qualities, which correspond to States that a Character may take, for example Red and Blue for the Color character and Curved and Round for the Shape character. These relationships are not explicitly defined in the PATO ontology but can be inferred using the relations shown below
+
+# PATO:0000587                oboInOwl:inSubset                  value_slim
+# PATO:0000587                OBO_REL:is_a                       PATO:0000117
+# PATO:0000117                oboInOwl:inSubset                  attribute_slim
+
+From these definitions, the relationship
+
+# PATO:0000587                PHENOSCAPE:value_for              PATO:0000117
+
+can be inferred by the reasoner. Ideally, the inference rule for this can be represented as 
+
+'''Rule:''' <math>\forall</math>V, A: ''in_Subset''(V, value_slim) <math>\and</math>  ''is_a''(V, A) <math>\and</math> ''in_subset''(A, attribute_slim) <math>\Rightarrow</math> ''value_for''(V, A)
+
+However, not all qualities are partitioned into one of the attribute or value slim subsets. In such cases, the super quality of these qualities is discovered by the reasoner and checked to find out if it is in the attribute or value slim subsets. This process continues until a quality belonging to the attribute slim subset is found. This can be represented as
+
+'''Rule:''' <math>\forall</math>V, A: ''NOT in_subset''(V, value_slim) <math>\and</math> ''is_a''(V, A) <math>\and</math> ''in_subset''(A, attribute_slim) <math>\Rightarrow</math> ''value_for''(V, A)
+
+Lastly, there are orphan qualities in PATO which are not related to any other qualities by subsumption and which do not belong to the attribute or value slim subsets. These are grouped under an unknown or undefined attribute. 
+
+'''Rule:''' <math>\forall</math>V, A: ''NOT in_Subset''(V, value_slim) <math>\and</math>  ''NOT is_a''(V, A) <math>\and</math> ''in_subset''(A, attribute_slim) <math>\Rightarrow</math> ''value_for''(V, unknown attribute)
+
 ==Relation Properties to be implemented ==
 
 The following relation properties may be implemented on the reasoner in future if necessary.
