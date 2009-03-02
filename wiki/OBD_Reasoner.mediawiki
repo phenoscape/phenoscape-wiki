@@ -144,7 +144,7 @@ From these definitions, the relationship
 
 # PATO:0000587                PHENOSCAPE:value_for              PATO:0000117
 
-can be inferred by the reasoner. Ideally, the inference rule for this can be represented as 
+can be inferred by the reasoner. Ideally, the inference rule for this can be represented as
 
 '''Rule:''' <math>\forall</math>V, A: ''in_Subset''(V, value_slim) <math>\and</math>  ''is_a''(V, A) <math>\and</math> ''in_subset''(A, attribute_slim) <math>\Rightarrow</math> ''value_for''(V, A)
 
@@ -152,9 +152,9 @@ However, not all qualities are partitioned into one of the attribute or value sl
 
 '''Rule:''' <math>\forall</math>V, A: ''NOT in_subset''(V, value_slim) <math>\and</math> ''is_a''(V, A) <math>\and</math> ''in_subset''(A, attribute_slim) <math>\Rightarrow</math> ''value_for''(V, A)
 
-Lastly, there are orphan qualities in PATO which are not related to any other qualities by subsumption and which do not belong to the attribute or value slim subsets. These are grouped under an unknown or undefined attribute. 
+Lastly, there are orphan qualities in PATO which are not related to any other qualities by subsumption and which do not belong to the attribute or value slim subsets. These are grouped under an unknown or undefined attribute.
 
-'''Rule:''' <math>\forall</math>V, A: ''NOT in_Subset''(V, value_slim) <math>\and</math>  ''NOT is_a''(V, A) <math>\and</math> ''in_subset''(A, attribute_slim) <math>\Rightarrow</math> ''value_for''(V, unknown attribute)
+'''Rule:''' <math>\forall</math>V, A: ''NOT in_Subset''(V, value_slim) <math>\and</math>  ''NOT is_a''(V, A) <math>\Rightarrow</math> ''value_for''(V, unknown attribute)
 
 ==Relation Properties to be implemented ==
 
