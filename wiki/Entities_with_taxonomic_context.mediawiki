@@ -6,7 +6,7 @@ Our phenotype annotations currently employ linking a phenotype composition to a 
 
 ==Phenotype annotations==
 Our current phenotype annotation model has the form "a taxon has some phenotype":
- '''Danio rerio''' '''''exhibits''''' '''sigmoid^''inheres_in''(vertebra 1)'''
+ Danio rerio exhibits sigmoid^inheres_in(vertebra 1)
 
 ==Taxonomically variable ontology relationships==
 
