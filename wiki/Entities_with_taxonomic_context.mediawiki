@@ -7,6 +7,9 @@ Our phenotype annotations currently employ linking a phenotype composition to a 
 ==Phenotype annotations==
 Our current phenotype annotation model has the form "a particular taxon has some phenotype, consisting of some quality inhering in some anatomical entity":
  Danio rerio ''exhibits'' sigmoid^''inheres_in''(vertebra 1)
+The phenotype is a post-composition with the following properties:
+ sigmoid^''inheres_in''(vertebra 1) ''is_a'' sigmoid
+ sigmoid^''inheres_in''(vertebra 1) ''inheres_in'' vertebra 1
 This can be stated differently as "some anatomical entity, in a particular taxon, has some quality":
  vertebra 1^''in_taxon''(Danio rerio) ''has_quality'' sigmoid
 
