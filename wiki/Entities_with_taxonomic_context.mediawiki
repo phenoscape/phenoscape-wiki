@@ -2,7 +2,7 @@
 title: Entities with taxonomic context
 ---
 
-Our phenotype annotations currently employ linking a phenotype composition to a taxon via an ''exhibits'' relation.  However this model has not provided an obvious way to employ taxon-specific homology annotations to the anatomical entities being annotated.  This page describes an alternative representation of phenotype annotations which may provide a solution for employing homology annotations as well as anatomical relations which are taxon-specific.
+Our phenotype annotations currently involve linking a phenotype composition to a taxon via an ''exhibits'' relation.  However this model has not provided an obvious way to employ taxon-specific homology annotations to the anatomical entities being annotated.  This page describes an alternative representation of phenotype annotations which may provide a solution for employing homology annotations as well as anatomical relations which are taxon-specific.
 
 ==Phenotype annotations==
 ===Old form===
