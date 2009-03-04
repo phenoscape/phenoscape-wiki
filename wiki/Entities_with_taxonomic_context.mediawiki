@@ -15,6 +15,11 @@ This annotation can be stated differently as "some anatomical entity, in a parti
 The entity is a post-composition with the following properties:
  vertebra 1^''in_taxon''(Danio rerio) ''is_a'' vertebra 1
  vertebra 1^''in_taxon''(Danio rerio) ''in_taxon'' Danio rerio
+Taking into account the contents of the TAO and TTO ontologies, we can infer useful statements such as:
+ vertebra 1^''in_taxon''(Danio rerio) ''is_a'' vertebra 1^''in_taxon''(Cyprinidae)
+ vertebra 1^''in_taxon''(Danio rerio) ''is_a'' bone
+ vertebra^in_taxon(Cyprinidae) has_quality sigmoid
+ bone^in_taxon(Cyprinidae) has_quality shape
 
 ==Taxonomically variable ontology relationships==
 
