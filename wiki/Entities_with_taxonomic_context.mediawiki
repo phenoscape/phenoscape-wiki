@@ -33,3 +33,8 @@ Searching for phenotype annotations in which the subject entity is vertebra 1 wo
 ==Homology annotations==
 Entity post-compositions provide a method to formulate and employ homology statements:
  intercalarium^in_taxon(Otophysi) homologous_to neural arch 2^in_taxon(Teleostei)
+Given the following two phenotype annotations:
+ intercalarium^in_taxon(Danio rerio) has_quality sigmoid
+ neural arch 2^in_taxon(Chanos chanos) has_quality serrated
+We know that the subjects of these annotations are homologous because this statement is implied by the homology annotation:
+ intercalarium^in_taxon(Danio rerio) homologous_to neural arch 2^in_taxon(Chanos chanos)
