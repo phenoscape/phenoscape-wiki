@@ -22,5 +22,8 @@ Taking into account the contents of the TAO and TTO ontologies, we can infer use
 ==Taxonomically variable ontology relationships==
 Using these entity post-compositions, we can assert taxon-specific anatomical relationships such as:
  vertebra 1^''in_taxon''(Cyprinidae) ''part_of'' Weberian apparatus
-
+Now if we search for phenotype annotations in which the subject entity is part_of the Weberian apparatus, we will find the one about vertebra 1 of Danio rerio:
+ vertebra 1^''in_taxon''(Danio rerio) ''has_quality'' sigmoid
+However, we would correctly not find an annotation about vertebra 1 in Chanos chanos, which is not in Cyprinidae:
+ vertebra 1^''in_taxon''(Chanos chanos) ''has_quality'' serrated
 ==Homology annotations==
