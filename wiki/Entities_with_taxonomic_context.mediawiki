@@ -31,3 +31,5 @@ However, we would correctly not find an annotation about vertebra 1 in Chanos ch
 Searching for phenotype annotations in which the subject entity is vertebra 1 would return both statements.
 
 ==Homology annotations==
+Entity post-compositions provide a method to formulate and employ homology statements:
+ intercalarium^in_taxon(Otophysi) homologous_to neural arch 2^in_taxon(Teleostei)
