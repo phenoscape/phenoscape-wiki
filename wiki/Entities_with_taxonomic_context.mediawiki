@@ -37,5 +37,5 @@ Given the following two phenotype annotations:
  intercalarium^''in_taxon''(Danio rerio) ''has_quality'' sigmoid
  neural arch 2^''in_taxon''(Chanos chanos) ''has_quality'' serrated
 We know that the subjects of these annotations are homologous because these statements are implied:
- intercalarium^in_taxon(Danio rerio) is_a intercalarium^in_taxon(Otophysi)
- neural arch 2^in_taxon(Chanos chanos) is_a neural arch 2^''in_taxon''(Teleostei)
+ intercalarium^''in_taxon''(Danio rerio) ''is_a'' intercalarium^in_taxon(Otophysi)
+ neural arch 2^''in_taxon''(Chanos chanos) ''is_a'' neural arch 2^''in_taxon''(Teleostei)
