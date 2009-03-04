@@ -20,5 +20,7 @@ Taking into account the contents of the TAO and TTO ontologies, we can infer use
  vertebra 1^''in_taxon''(Danio rerio) ''is_a'' bone
 
 ==Taxonomically variable ontology relationships==
+Using these entity post-compositions, we can assert taxon-specific anatomical relationships such as:
+ vertebra 1^''in_taxon''(Cyprinidae) ''part_of'' Weberian apparatus
 
 ==Homology annotations==
