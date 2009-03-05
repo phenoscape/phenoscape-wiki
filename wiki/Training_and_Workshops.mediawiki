@@ -23,7 +23,7 @@ Further information can be found at the [http://www.bioontology.org/wiki/index.p
 *[[Media:EvoBioOnt SICB09 Westerfield.ppt|Monte Westerfield]] - Linking animal models and human diseases
 *[[Media:EvoBioOnt SICB09 Mabee.pdf|Paula Mabee]] - Phenoscape: extending model organism ontologies for devo-studies of evolutionary phenotypes
 *[[Media:EvoBioOnt SICB09 Dahdul.pdf|Wasila Dahdul]] - Challenges of developing multi-species anatomy ontologies
-*[[Media:EvoBioOnt SICB09 Vision.pdf|Todd Vision]] - Software and database resources for curation and management of evolutionary phenotypes
+*[[Media:EvoBioOnt SICB09 Vision_sicb.pdf|Todd Vision]] - Software and database resources for curation and management of evolutionary phenotypes
 *[[Media:EvoBioOnt SICB09 Deans.pdf|Andy Deans]] - Developing a Hymenopteran ontology
 *[[Media:EvoBioOnt SICB09 Midford.ppt|Peter Midford]] - Comparative Analysis of behavior using ontologies
 *[[Media:EvoBioOnt SICB09 Maglia.ppt|Anne Maglia]] - Developing an amphibian ontology
