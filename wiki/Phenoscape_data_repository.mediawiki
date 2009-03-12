@@ -2,7 +2,7 @@
 title: Phenoscape data repository
 ---
 
-The Phenoscape data repository is a relational database, which holds phenotypic data from the model organism ''Danio Rerio'' (Zebrafish) and the evolutionary organisms belong to the clade of [http://tolweb.org/Ostariophysi/15077 Ostariophysi]. This page describes the schema of this data repository and outlines some data transformation techniques used to integrate data captured in different formats at different locations in this repository. 
+The Phenoscape data repository is a relational database, which holds phenotypic data from the model organism ''Danio Rerio'' (Zebrafish) and the evolutionary organisms belong to the clade of [http://tolweb.org/Ostariophysi/15077 Ostariophysi]. This page describes the schema of this data repository and outlines the methods to load and query this data repository.
 
 == Data Repository ==
 
@@ -86,3 +86,15 @@ The Phenoscape data repository also generates several views from the tables. The
 === Procedures ===
 
 Stored procedures are used in populating the database with defined terms from the ontologies, and with phenotypical descriptions obtained from curators. In addition, they are also used in generating inferences from the asserted data. In the future, stored procedures may be used as necessary for speedier data retrieval.
+
+== Loading the data ==
+
+The repository will be periodically refreshed to include the latest ontology definitions and curated data. At present, curated data is obtained from two different source which are: 
+# The ZFIN data repository (model organism database) containing descriptions of mutant phenotypes and the related genes and genotypes of zebrafish. This data exists primarily as tab delimited simple text files
+# Annotations from a set of selected publications, which describe in rich-text unstructured format, the observed phenotypes of about 25000 different species of fish belonging to the clade of Ostariophysi. These annotations are entered by curators using the [[Phenex]] annotation tool and are saved in the [[http://www.nexml.org/ NeXML]] data format. 
+
+The [[Phenoscape data loader]] is in its final stages of deployment on the application development server at NESCent. Following deployment, it can be invoked by the primary stakeholders of Phenoscape and the Phenoscape staff with suitable access privileges. 
+
+== Querying the data ==
+
+A rich library of methods has been inherited from the OBD project to execute various generic queries on the database. This is being [[Queries|extended]] currently to conform to the very specific requirements of the Phenoscape project.
