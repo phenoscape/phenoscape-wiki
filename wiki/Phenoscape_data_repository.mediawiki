@@ -78,3 +78,7 @@ Similar=ly, The third row in the display shows that Gymnotiformes is an Otophysi
 * The ALIAS table keeps track of the various aliases (alternate labels) of the concepts and relations, which are sourced from the ontologies
 * The DESCRIPTION table stores rich text descriptions of the concepts and relations, which are extracted from the ontologies
 * The OBD_SCHEMA_METADATA stores metadata about OBD such as the version of the OBD format in use, and also the last refresh date and time for the database
+
+=== Views ===
+
+In addition to tables, the Phenoscape data repository also generates several views from the tables. These views are used in querying the database, some of which are part of the [[OBD API Documentation | OBDAPI]]
