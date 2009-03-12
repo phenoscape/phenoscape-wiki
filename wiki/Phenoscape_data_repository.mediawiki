@@ -24,9 +24,9 @@ The NODE table contains information about every concept such as its unique ident
 
 <javascript>
 
- node_id |   uid    |     label     | metatype | source_id 
+ node_id |   uid    |     label     | metatype | source_id
 ---------+----------+---------------+----------+-----------
-   46050 | TTO:1390 | Gymnotiformes | C        |      9630 
+   46050 | TTO:1390 | Gymnotiformes | C        |      9630
 
 </javascript>
 
@@ -42,12 +42,12 @@ The LINK table contains rows which represent Statements which link the Nodes to 
 
 <javascript>
 
-link_id |  node_id | predicate_id | object_id  
+link_id |  node_id | predicate_id | object_id
 ---------+---------+--------------+-----------
-   23854 |    9637 |          102 |     46050 
-   59897 |   45723 |          102 |     46050 
-   60223 |   46050 |          102 |     46160 
-  501448 |    9932 |          102 |     46050 
+   23854 |    9637 |          102 |     46050
+   59897 |   45723 |          102 |     46050
+   60223 |   46050 |          102 |     46160
+  501448 |    9932 |          102 |     46050
 
 </javascript>
 
@@ -84,12 +84,17 @@ Stored procedures are used in populating the database with defined terms from th
 
 == Loading the data ==
 
-The repository will be periodically refreshed to include the latest ontology definitions and curated data. At present, curated data is obtained from two different source which are: 
+The repository will be periodically refreshed to include the latest ontology definitions and curated data. At present, curated data is obtained from two different source which are:
 # The ZFIN data repository (model organism database) containing descriptions of mutant phenotypes and the related genes and genotypes of zebrafish. This data exists primarily as tab delimited simple text files
-# Annotations from a set of selected publications, which describe in rich-text unstructured format, the observed phenotypes of about 25000 different species of fish belonging to the clade of Ostariophysi. These annotations are entered by curators using the [[Phenex]] annotation tool and are saved in the [[http://www.nexml.org/ NeXML]] data format. 
+# Annotations from a set of selected publications, which describe in rich-text unstructured format, the observed phenotypes of about 25000 different species of fish belonging to the clade of Ostariophysi. These annotations are entered by curators using the [[Phenex]] annotation tool and are saved in the [[http://www.nexml.org/ NeXML]] data format.
 
-The [[Phenoscape data loader]] is in its final stages of deployment on the application development server at NESCent. Following deployment, it can be invoked by the primary stakeholders of Phenoscape and the Phenoscape staff with suitable access privileges. 
+The [[Phenoscape data loader]] is in its final stages of deployment on the application development server at NESCent. Following deployment, it can be invoked by the primary stakeholders of Phenoscape and the Phenoscape staff with suitable access privileges.
 
 == Querying the data ==
 
 A rich library of methods has been inherited from the OBD project to execute various generic queries on the database. This is being [[Queries|extended]] currently to conform to the very specific requirements of the Phenoscape project.
+
+[[Category:OBD]]
+[[Category:Database]]
+[[Category:Informatics]]
+[[Category:Data]]
