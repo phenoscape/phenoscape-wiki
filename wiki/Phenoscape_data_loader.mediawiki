@@ -14,11 +14,17 @@ Ichthyologists curate scientific publications using the [[Phenex]] character mat
 ===Loads the requisite ontologies into the database===
 The annotations of character matrices use terms that are defined in life science ontologies. These ontologies include the [http://bioportal.bioontology.org/ontologies/38703 Teleost Taxonomy Ontology (TTO)], the [http://www.obofoundry.org/ro/ Relations Ontology],  the [[Teleost_Anatomy_Ontology|Teleost Anatomy Ontology (TAO)]], and the [http://bioontology.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)]. The data loader loads all these definitions into the relational database
 
+===Loads the data from ZFIN model organism database ===
+[http://zfin.org ZFIN] hosts data relating mutant phenotypes of the ''Danio Rerio'' (Zebrafish) organism to specific genes and genotypes. The data loader transcribes this data into OBD format and loads it into the database
+
 ===Loads the data from the curated NeXML files into the database===
 The data loader transforms the curated data from NeXML syntax to a set of relational tuples (records), which are then sequentially inserted into the database
 
 ===Logs incomplete annotations into a log file===
 The data loader does not load incomplete annotations from the NeXML files into the database. Incomplete annotations contain null values for taxa or phenotype or both. Instead, it logs these incomplete annotations on a file-specific basis in this [[Problem Log Format]]. Curators can then work on finishing these annotations which will be subsequently loaded into the database in the next execution of the data loader.
+
+===Reasons with the data ===
+Lastly, the data loader invokes the [[OBD Reasoner]] to infer implicit knowledge from the assertions, in the form of new assertions. These inferred assertions are also added to the database.
 
 ==[[OBD API Documentation]]==
 For code specific details
