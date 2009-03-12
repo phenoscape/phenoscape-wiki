@@ -20,13 +20,13 @@ Two relational tables are central to the schema of the Phenoscape data repositor
 
 ==== The NODE table ====
 
-The NODE table contains information about every concept such as its unique identifier, label, and source ontology. The NODE table contains this information about concepts extracted from the source [[Ontologies]]. In addition, it also holds information about scientific publications (in a rudimentary format which will be improved upon soon), the ontologies themselves, and the representation of phenotypes from the ZFIN and NeXML databases. It will be augmented in the future to hold information about collection specimens. The NODE table adds a unique identifier (generated from a sequence) of its own to every row. A row from the NODE table for the ''Gymnotiformes'' term is shown below
+The NODE table contains information about every concept such as its unique identifier, label, and source ontology. The NODE table contains this information about concepts extracted from the source [[Ontologies]]. In addition, it also holds information about scientific publications (in a rudimentary format which will be improved upon soon), the ontologies themselves, and the representation of phenotypes from the ZFIN and NeXML databases. It will be augmented in the future to hold information about collection specimens. The NODE table adds a unique identifier (generated from a sequence) of its own to every row. An excerpt of the row from the NODE table for the ''Gymnotiformes'' term is shown below
 
 <javascript>
 
- node_id |   uid    |     label     | uri | metatype | is_anonymous | is_transitive | is_obsolete | is_reiflink | is_metadata | source_id | loaded_from
----------+----------+---------------+-----+----------+--------------+---------------+-------------+-------------+-------------+-----------+----------------
-   46050 | TTO:1390 | Gymnotiformes |     | C        | f            | f             | f           | f           | f           |      9630 |
+ node_id |   uid    |     label     | metatype | source_id 
+---------+----------+---------------+----------+-----------
+   46050 | TTO:1390 | Gymnotiformes | C        |      9630 
 
 </javascript>
 
@@ -34,11 +34,6 @@ The NODE table contains information about every concept such as its unique ident
 * The UID column holds the identifier of this term that is obtained from the Teleost Taxonomy Ontology (TTO). The 'TTO' is the namespace prefix
 * The LABEL column displays the label for this term
 * The METATYPE column shows term is a Class (C). Other metatypes are Relation (R) and Instance (I).
-* The IS_ANONYMOUS column shows this term is not anonymous, that it has a unique identifier of its own (from the source ontology in this example)
-* The IS_TRANSITIVE column is used to capture the transitive nature of binary relations. It is not applicable here for this term
-* The IS_OBSOLETE column tracks obsolete and archaic terms as the ontologies evolve. Here, it says this term is not obsolete
-* The IS_REIFLINK columns is used to identify Statements that capture metadata. In this case, it shows this term is not a reification link
-* The IS_METADATA column is used to identify terms that do not have an intrinsic identity of their own, but are dependent upon other terms
 * The SOURCE_ID column holds the NODE_ID of the ontology from which the term was extracted. In this case, the source ontology is the TTO
 
 ==== The LINK table ====
