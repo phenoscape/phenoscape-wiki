@@ -1,0 +1,15 @@
+---
+title: Phenoscape data repository
+---
+
+The Phenoscape data repository is a relational database, which holds phenotypic data from the model organism ''Danio Rerio'' (Zebrafish) and the evolutionary organisms belong to the clade of [http://tolweb.org/Ostariophysi/15077 Ostariophysi]. This page describes the schema of this data repository and outlines some data transformation techniques used to integrate data captured in different formats at different locations in this repository. 
+
+== Data Repository ==
+
+The Phenoscape data repository has been implemented as a [http://www.postgresql.org/ PostgreSQL] relational database, and at present housed on the development database server at NESCent.
+
+== Schema ==
+
+The schema of the Phenoscape data repository is based on the Open Biomedical Database (OBD) data format developed at the [http://www.berkeleybop.org/ Berkeley Bioinformatics Open-source Projects (BBOP)]. OBD is based upon the [http://www.w3.org/RDF Resource Description Framework (RDF)] format for capturing metadata about Web (and Semantic Web) resources such as Web pages and Web services. 
+
+The philosophy of OBD is to represent every conceptual entity, be it a type or a token (synonymously a class or an object, or a concept or an instance) as a Node. Binary relations between these nodes are represented as Statements, specifically Link Statements. OBD also allows for reification, which is vital to the life sciences with their emphasis on evidence codes and attributions. For this purpose, OBD provides Literal Statements to capture metadata about Nodes and Link Statements, such as the source publication, evidence codes, specimens used, and so forth.
