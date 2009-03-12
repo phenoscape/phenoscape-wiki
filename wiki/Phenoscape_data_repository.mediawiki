@@ -67,7 +67,7 @@ In simple terms, a sub species of Gymnotiformes is displayed by this Statement a
       Eigenmanniidae                                is_a                        Gymnotiformes
 </javascript>
 
-Similar=ly, The third row in the display shows that Gymnotiformes is an Otophysian as shown below
+Similarly, The third row in the display shows that Gymnotiformes is an Otophysian as shown below
 
 <javascript>
       Gymnotiformes                                is_a                        Otophysi
