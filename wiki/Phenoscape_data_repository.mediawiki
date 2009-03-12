@@ -16,4 +16,8 @@ The philosophy of OBD is to represent every conceptual entity, be it a type or a
 
 Two relational tables are central to the schema of the Phenoscape data repository. These are: LINK and NODE. The SQL commands for the creation of these tables (and the others) can be found at this [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/Database/sql/obd/obd-core-schema.sql?view=markup Phenoscape Sourceforge] page.
 
+=== The NODE table ===
+
 The NODE table contains information about every concept such as its unique identifier, label, and source ontology. The NODE table contains this information about concepts extracted from the source [[Ontologies]]. In addition, it also holds information about scientific publications (in a rudimentary format which will be improved soon), representation of phenotypes from the ZFIN and NeXML databases, and will be augmented in the future to hold information about collection specimens.
+
+=== The LINK table ===
