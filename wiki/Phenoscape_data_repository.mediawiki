@@ -80,7 +80,7 @@ The Phenoscape data repository also generates several views from the tables. The
 
 === Procedures ===
 
-Stored procedures are used in populating the database with defined terms from the ontologies, and with phenotypical descriptions obtained from curators. In addition, they are also used in generating inferences from the asserted data. In the future, stored procedures may be used as necessary for speedier data retrieval.
+Stored procedures are used in populating the database with defined terms from the ontologies, and with phenotypic descriptions obtained from curators. In addition, they are also used in generating inferences from the asserted data. In the future, stored procedures may be used as necessary for speedier data retrieval.
 
 == Loading the data ==
 
