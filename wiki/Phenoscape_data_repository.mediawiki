@@ -14,9 +14,11 @@ The schema of the Phenoscape data repository is based on the Open Biomedical Dat
 
 The philosophy of OBD is to represent every conceptual entity, be it a type or a token (synonymously a class or an object, or a concept or an instance) as a Node. Binary relations between these nodes are represented as Statements, specifically Link Statements. OBD also allows for reification, which is vital to the life sciences with their emphasis on evidence codes and attributions. For this purpose, OBD provides Literal Statements to capture metadata about Nodes and Link Statements, such as the source publication, evidence codes, specimens used, and so forth.
 
+=== Tables ===
+
 Two relational tables are central to the schema of the Phenoscape data repository. These are: LINK and NODE. The SQL commands for the creation of these tables (and the others) can be found at this [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/Database/sql/obd/obd-core-schema.sql?view=markup Phenoscape Sourceforge] page.
 
-=== The NODE table ===
+==== The NODE table ====
 
 The NODE table contains information about every concept such as its unique identifier, label, and source ontology. The NODE table contains this information about concepts extracted from the source [[Ontologies]]. In addition, it also holds information about scientific publications (in a rudimentary format which will be improved soon), the ontologies themselves, representation of phenotypes from the ZFIN and NeXML databases, and will be augmented in the future to hold information about collection specimens. The NODE table adds a unique identifier (generated from a sequence) of its own to every row. A row from the NODE table for the ''Gymnotiformes'' term is as shown below
 
@@ -24,7 +26,7 @@ The NODE table contains information about every concept such as its unique ident
 
  node_id |   uid    |     label     | uri | metatype | is_anonymous | is_transitive | is_obsolete | is_reiflink | is_metadata | source_id | loaded_from
 ---------+----------+---------------+-----+----------+--------------+---------------+-------------+-------------+-------------+-----------+----------------
-   46050 | TTO:1390 | Gymnotiformes |     | C        | f            | f             | f           | f           | f           |      9630 |     
+   46050 | TTO:1390 | Gymnotiformes |     | C        | f            | f             | f           | f           | f           |      9630 |
 
 </javascript>
 
@@ -39,7 +41,7 @@ The NODE table contains information about every concept such as its unique ident
 * The IS_METADATA column is used to identify terms that do not have an intrinsic identity of their own, but are dependent upon other terms
 * The SOURCE_ID column holds the NODE_ID of the ontology from which the term was extracted. In this case, the source ontology is the TTO
 
-=== The LINK table ===
+==== The LINK table ====
 
 The LINK table contains rows which represent Statements which link the Nodes to one another, and also the metadata about these Nodes. The excerpt below shows some of the rows in the LINK table about the Gymnotiformes term
 
@@ -70,3 +72,9 @@ Similar=ly, The third row in the display shows that Gymnotiformes is an Otophysi
 <javascript>
       Gymnotiformes                                is_a                        Otophysi
 </javascript>
+
+==== Other important tables ====
+
+* The ALIAS table keeps track of the various aliases (alternate labels) of the concepts and relations, which are sourced from the ontologies
+* The DESCRIPTION table stores rich text descriptions of the concepts and relations, which are extracted from the ontologies
+* The OBD_SCHEMA_METADATA stores metadata about OBD such as the version of the OBD format in use, and also the last refresh date and time for the database
