@@ -6,7 +6,7 @@ The Phenoscape data repository is a relational database, which holds phenotypic 
 
 == Data Repository ==
 
-The Phenoscape data repository has been implemented as a [http://www.postgresql.org/ PostgreSQL] relational database, and at present housed on the development database server at NESCent.
+The Phenoscape data repository has been implemented as a [http://www.postgresql.org/ PostgreSQL] relational database, and at present is housed on the development database server at NESCent.
 
 == Schema ==
 
