@@ -2,7 +2,7 @@
 title: Phenoscape data loader
 ---
 
-The Phenoscape Data Loader is being developed as a Perl module. This section offers an overview of the functioning of the Phenoscape Data Loader.
+The Phenoscape Data Loader is being developed as a Perl module. This section offers an overview of the functioning of the Phenoscape Data Loader. The data loader has been installed on the dev application server at NESCent and can be found at /usr/local/projects/phenoscape-data-loader
 
 ==Functioning of the Phenoscape Data Loader==
 
