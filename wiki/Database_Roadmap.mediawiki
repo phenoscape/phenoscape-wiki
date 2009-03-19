@@ -17,7 +17,7 @@ This is an outline of my tasks in the coming months.
 * Finish documentation of the OBD reasoner on the Wiki
 ** STATUS: Complete
 * Work on Unit test modules for database queries*
-** STATUS: In progress
+** STATUS: Complete
 * Document performance metrics of database queries from Unit test cases*
 ** STATUS: Complete
 * Document query optimization patterns for database queries*
