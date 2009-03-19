@@ -36,9 +36,12 @@ This is an outline of my tasks in the coming months.
 ** STATUS: 99%
 
 ===March===
+* Add Gene data service to Phenoscape 
+** STATUS: 50% complete
 * Add collection information to the database
+** STATUS: In progress
 * Add Taxon query service to Phenoscape
-* Status check
+** STATUS: In progress
 
 ===April===
 * Add publication information to database
