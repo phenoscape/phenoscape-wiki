@@ -1,0 +1,7 @@
+---
+title: Amphibanat Phenex downloads
+---
+
+[[Media:Phenex-1.0-beta16-amphibanat-win.zip|Phenex for Windows]]
+
+[[Media:Phenex-1.0-beta16-amphibanat-mac.zip|Phenex for Macintosh]]
