@@ -31,7 +31,7 @@ title: Phenoscape web UI
 ** Gene search results - reorganize according to [[:Image:Gene_search_page_mockup.jpg|sketch]]
 ** Taxonomic phenotype results page - add Order column for taxonomic grouping
 ** Present various phenotypic results grouped by custom "character slim" done
-*** Requires slim development by team members (Wasila, Paula) --[[User:Pmabee@usd.edu|Pmabee@usd.edu]] 12:20, 20 March 2009 (EDT)done and service implementation by Cartik
+*** Requires slim development by team members (Wasila, Paula) Done--[[User:Pmabee@usd.edu|Pmabee@usd.edu]] 12:20, 20 March 2009 (EDT)done and service implementation by Cartik
 * Taxon search interface
 ** Design data service schema to be implemented by Cartik
 ** Implement interface using live data service once developed by Cartik
