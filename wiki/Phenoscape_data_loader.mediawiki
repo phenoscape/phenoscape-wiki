@@ -40,7 +40,7 @@ We are working towards turning the database load into a nightly cron job. Howeve
 
 ==[[OBD API Documentation]]==
 For code specific details
-Specific details of OBD related classes and interfaces as documented by Cartik Kothari. These will be updated very often and are meant to be used as an addendum to the [http://oboedit.org/?page=javadocs The OBOEdit Javadoc]
+Specific details of OBD related classes and interfaces as documented by CK. These will be updated very often and are meant to be used as an addendum to the [http://oboedit.org/?page=javadocs The OBOEdit Javadoc]
 
 [[Category:Informatics]]
 [[Category:Database]]
