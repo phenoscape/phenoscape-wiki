@@ -28,7 +28,7 @@ Lastly, the data loader invokes the [[OBD Reasoner]] to infer implicit knowledge
 
 ==Invoking the Phenoscape Data Loader==
 
-The Phenoscape data loader has been installed on the dev application server at NESCent and can be found at /usr/local/projects/phenoscape-data-loader. The data loader can be manually invoked by those with access rights through public or private key to the application dev server at NESCent. These would be JB, HL, JA, CK (but of course), TJV, XL, VG, RS, and DC (?). To invoke the data loader, navigate to the ''scripts'' subdirectory where the application is housed and run the command shown below. This has been tested with JA's access privileges and found to work fine.
+The Phenoscape data loader has been installed on the dev application server at NESCent and can be found at /usr/local/projects/phenoscape-data-loader. The data loader can be manually invoked by those with access rights through public or private key to the application dev server at NESCent. These would be JB, HL, JA, CK (but of course), TJV (?), XL, VG, RS, and DC. To invoke the data loader, navigate to the ''scripts'' subdirectory where the application is housed and run the command shown below. This has been tested with JA's access privileges and found to work fine.
 
 <javascript>
 sh refreshPhenoscapeDB
