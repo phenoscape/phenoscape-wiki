@@ -147,10 +147,10 @@ Phenotype annotations are stored within the "state" element to which they corres
 * Copy text from tables '''[Taxon table done]'''
 
 ===March 2009===
-* Panel for matrix cell-specific information, e.g. evidence codes, image references
+* Improved autocomplete interface
 
 ===April 2009===
-* Improved autocomplete interface
+* Panel for matrix cell-specific information, e.g. evidence codes, image references
 
 ===May 2009 - Phenex 1.0===
 * Ontology configuration interface
