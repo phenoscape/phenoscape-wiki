@@ -28,20 +28,15 @@ Lastly, the data loader invokes the [[OBD Reasoner]] to infer implicit knowledge
 
 ==Invoking the Phenoscape Data Loader==
 
-The Phenoscape data loader has been installed on the dev application server at NESCent and can be found at /usr/local/projects/phenoscape-data-loader. The data loader can be manually invoked by those with access rights through public or private key to the application dev server at NESCent. These would be JB, HL, JA, CK (but of course), and TJV (?). To invoke the data loader, navigate to the ''scripts'' subdirectory where the application is housed and run the command shown below. This has been tested with JA. 
+The Phenoscape data loader has been installed on the dev application server at NESCent and can be found at /usr/local/projects/phenoscape-data-loader. The data loader can be manually invoked by those with access rights through public or private key to the application dev server at NESCent. These would be JB, HL, JA, CK (but of course), and TJV (?). To invoke the data loader, navigate to the ''scripts'' subdirectory where the application is housed and run the command shown below. This has been tested with JA.
 
 <javascript>
-
 sh refreshPhenoscapeDB
-
 </javascript>
 
-===Concerns===
+===Future plans and concerns===
 
-It is unclear if the 
-
-
-
+We are working towards turning the database load into a nightly cron job. However the entire process takes about 70 minutes to complete. It would be inadvisable to have the main database down for this duration, which can be expected to increase as more and more curations are loaded. Therefore, a copy database is updated by the data loader. As of now, the database administrator needs to copy this to the main database in a step that takes a few seconds to complete. It would be desirable to automate this process as well, but it precipitates access privilege concerns for the cron process. We are currently investigating feasible means to accomplish this.
 
 ==[[OBD API Documentation]]==
 For code specific details
