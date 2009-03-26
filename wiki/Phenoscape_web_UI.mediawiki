@@ -27,7 +27,7 @@ title: Phenoscape web UI
 **Develop HTML mockups in web application
 
 ===March 2009===
-* Incorporate 1/5/09 team feedback on existing interface components
+* Incorporate 1/5/09 team feedback on existing interface components '''In progress'''
 ** Anatomy term search results - reorganize according to [[:Image:Phenotype_search_page_mockup.jpg|sketch]]
 ** Gene search results - reorganize according to [[:Image:Gene_search_page_mockup.jpg|sketch]]
 ** Taxonomic phenotype results page - add Order column for taxonomic grouping
