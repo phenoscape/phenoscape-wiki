@@ -5,15 +5,15 @@ title: Phenoscape web UI
 ==Development Roadmap==
 ===February 2009===
 *Mockup changes to existing interfaces required to incorporate 1/5/09 team feedback on existing interface components
-* Taxon search interface
+* Taxon search interface '''Done'''
 ** Mockup interface using dummy data within web application - request group feedback
 *** Front page search interface and results table - may include intermediate results summary page
-* Interface demo and feedback session - DECAP meeting, Feb. 27, 2009
+* Interface demo and feedback session - DECAP meeting, Feb. 27, 2009 '''Done'''
 ** Present screenshots and mockups
 ** Possible live demo depending on data service performance progress
 *** Services should return in no more than 2 seconds
 *** Evaluate feasibility 2 weeks before meeting
-* Mockup publication data interface within web application
+* Mockup publication data interface within web application ''Done''
 * Mockup "splashy" search entry page - we should have a more graphically capturing entry gateway for exploring the data content
 ** One of the following:
 ***Hierarchical term explorer
