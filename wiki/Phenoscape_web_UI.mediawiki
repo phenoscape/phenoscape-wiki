@@ -13,7 +13,7 @@ title: Phenoscape web UI
 ** Possible live demo depending on data service performance progress
 *** Services should return in no more than 2 seconds
 *** Evaluate feasibility 2 weeks before meeting
-* Mockup publication data interface within web application ''Done''
+* Mockup publication data interface within web application '''Done'''
 * Mockup "splashy" search entry page - we should have a more graphically capturing entry gateway for exploring the data content
 ** One of the following:
 ***Hierarchical term explorer
@@ -25,6 +25,7 @@ title: Phenoscape web UI
 ** Group phenotypes as simplistic union of descendant nodes, rather than ancestral reconstruction
 ** Use taxonomy as basis for phylogenetic tree
 **Develop HTML mockups in web application
+
 ===March 2009===
 * Incorporate 1/5/09 team feedback on existing interface components
 ** Anatomy term search results - reorganize according to [[:Image:Phenotype_search_page_mockup.jpg|sketch]]
