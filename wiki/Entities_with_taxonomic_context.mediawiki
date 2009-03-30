@@ -40,6 +40,10 @@ We know that the subjects of these annotations are homologous because these stat
  intercalarium^''in_taxon''(Danio rerio) ''is_a'' intercalarium^''in_taxon''(Otophysi)
  neural arch 2^''in_taxon''(Chanos chanos) ''is_a'' neural arch 2^''in_taxon''(Teleostei)
 
+==Impact on curation==
+Modeling the data in this way shouldn't have an effect on data curators - the interface would be the same in Phenex.  The data would be modeled in this way on its way into OBD.  So, there would be no need for curators to create post-compositions of anatomy terms with taxa; they would just choose the plain anatomy term to use in the phenotype.  These post-compositions are created behind the scenes.  This scenario does open up the possibility of using more relations than just inheres_in/has_phenotype, however.  We could, in the future, make the relationship selectable, allowing curators to input relations between anatomy terms in a more direct manner than using relational qualities.  For example, if there were a relation "fused_with" (not the relational quality), the curator could just make the taxon-specific annotation:
+ bone_x ''fused_with'' bone_y
+
 [[Category:Ontology]]
 [[Category:Informatics]]
 [[Category:Curation]]
