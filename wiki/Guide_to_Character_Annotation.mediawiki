@@ -21,12 +21,14 @@ Post-composed terms (described below) are terms created on-the-fly at the time o
 The following are examples of character types commonly enountered in the systematic literature and how we annotate them using the EQ model in Phenex.  Abbreviations: E, entity; Q, quality, RE, related entity, C, count.
 
 ===Presence/absence characters===
- E: pectoral fin, Q: present
- E: pectoral fin, Q: absent
 
-If a character describes the presence or absence of a structure on another entity, for example, teeth on a bone, first check to see whether the structure exists as a term in the TAO before post-composing.  So, for the character "teeth absent on basihyal bone"
 
- E: basihyal tooth, Q: absent
+ E: pectoral fin, Q: present in organism
+ E: pectoral fin, Q: absent in organsim
+
+If a character describes the presence or absence of a structure located on another entity, for example, teeth on a bone, first check to see whether the structure exists as a term in the TAO before post-composing.  For example, "teeth absent on basihyal bone" is annotated as:
+
+ E: basihyal tooth, Q: absent in organism
 
 ===Characters involving well developed vs. small or absent entities===
 For example, a character involving the auditory foramen is coded with two states: 0, absent or small; 1, well developed.  
