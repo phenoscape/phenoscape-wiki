@@ -2,19 +2,6 @@
 title: Guide to Character Annotation
 ---
 
-==How to write definitions for ontology terms==
-
-===Genus-differentia definitions===
-
-Term definitions in the teleost anatomy ontology (TAO) take the form of genus-differentia definitions:  B is an A that has X.  The term B is defined by its membership in higher category A and distinguished from its sibling terms by characteristic X. The following are examples of genus-differentia definitions in the TAO:
-
-Antorbital: Dermal bone that is located on the anterior margin of the infraorbital series, dorsal to the first infraorbital and lateral to the nasal bone.
-
-Dentary: Dermal bone that forms the anterolateral part of the lower jaw.
-
-In example 1, the definition mentions the parent dermal bone of the term antorbital, followed by the characteristics that differentiate antorbital from all other dermal bones.
-
-Post-composed terms (described below) are terms created on-the-fly at the time of annotation, and take the form of genus-differentia definitions.
 
 ==Character types==
 
@@ -31,7 +18,7 @@ If a character describes the presence or absence of a structure located on anoth
  E: basihyal tooth, Q: absent in organism
 
 ===Characters involving well developed vs. small or absent entities===
-For example, a character involving the auditory foramen is coded with two states: 0, absent or small; 1, well developed.  
+For example, a character involving the auditory foramen is coded with two states: 0, absent or small; 1, well developed.
 
 State 0 is recorded as polymorphic in Phenex:
 
@@ -157,5 +144,19 @@ The TAS evidence code covers author statements that are attributed to a cited so
 
 ===Nontraceable Author Statement (NAS)===
 The NAS evidence code should be used in all cases where the author makes a statement that a curator wants to capture but for which there are neither results presented nor a specific reference cited in the source used to make the annotation. The source of the information may be peer reviewed papers, textbooks, database records or vouchered specimens.
+
+==How to write definitions for ontology terms==
+
+===Genus-differentia definitions===
+
+Term definitions in the teleost anatomy ontology (TAO) take the form of genus-differentia definitions:  B is an A that has X.  The term B is defined by its membership in higher category A and distinguished from its sibling terms by characteristic X. The following are examples of genus-differentia definitions in the TAO:
+
+Antorbital: Dermal bone that is located on the anterior margin of the infraorbital series, dorsal to the first infraorbital and lateral to the nasal bone.
+
+Dentary: Dermal bone that forms the anterolateral part of the lower jaw.
+
+In example 1, the definition mentions the parent dermal bone of the term antorbital, followed by the characteristics that differentiate antorbital from all other dermal bones.
+
+Post-composed terms (described below) are terms created on-the-fly at the time of annotation, and take the form of genus-differentia definitions.
 
 [[Category:Curation]]
