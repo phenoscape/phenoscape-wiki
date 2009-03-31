@@ -30,7 +30,7 @@ title: Guide to Character Annotation
 |-
 || color || ||
 |-
-|| relational shape quality || protruding into||
+|| relational shape quality || || protruding into
 |-
 || relational spatial quality || || anterior to, lateral to
 |-
@@ -42,8 +42,6 @@ title: Guide to Character Annotation
 |-
 || count in organism || count ||
 |-
-||  || ||
-
 
 |}
 
