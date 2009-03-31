@@ -18,7 +18,7 @@ title: Guide to Character Annotation
 |-
 || size || || thin, large, decreased height
 |-
-|| structure || porous, non-porous ||
+|| structure ||  || porous, non-porous
 |-
 || composition || || ligamentous
 |-
@@ -32,15 +32,15 @@ title: Guide to Character Annotation
 |-
 || relational shape quality || protruding into||
 |-
-||  || ||
+|| relational spatial quality || || anterior to, lateral to
 |-
-||  || ||
+|| relational structural quality || || fused with, overlap with, separated from
 |-
-||  || ||
+|| present in organism || present ||
 |-
-||  || ||
+|| absent from organism || absent ||
 |-
-||  || ||
+|| count in organism || count ||
 |-
 ||  || ||
 
