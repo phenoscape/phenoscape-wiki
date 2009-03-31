@@ -4,7 +4,6 @@ title: Guide to Character Annotation
 
 ==PATO terms used for annotation==
 
-===Evolution of Development===
 
 {| border="1" cellspacing="0" cellpadding="3"
 ! PATO term
@@ -16,6 +15,26 @@ title: Guide to Character Annotation
 
 |-
 || placement || position, location || horizontal, vertical
+|-
+|| size || || thin, large, decreased height
+|-
+||  || || 
+|-
+||  || || 
+|-
+||  || || 
+|-
+||  || || 
+|-
+||  || || 
+|-
+||  || || 
+|-
+||  || || 
+|-
+||  || || 
+
+
 
 |}
 
