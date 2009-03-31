@@ -18,22 +18,31 @@ title: Guide to Character Annotation
 |-
 || size || || thin, large, decreased height
 |-
-||  || || 
+|| structure || porous, non-porous ||
 |-
-||  || || 
+|| composition || || ligamentous
 |-
-||  || || 
+|| ossified || ||
 |-
-||  || || 
+|| cartilaginous || ||
 |-
-||  || || 
+|| texture || || smooth, wrinkled
 |-
-||  || || 
+|| color || ||
 |-
-||  || || 
+|| relational shape quality || protruding into||
 |-
-||  || || 
-
+||  || ||
+|-
+||  || ||
+|-
+||  || ||
+|-
+||  || ||
+|-
+||  || ||
+|-
+||  || ||
 
 
 |}
