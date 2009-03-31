@@ -4,8 +4,20 @@ title: Guide to Character Annotation
 
 ==PATO terms used for annotation==
 
+===Evolution of Development===
 
+{| border="1" cellspacing="0" cellpadding="3"
+! PATO term
+! Synonyms
+! Character description examples
 
+|-
+|| shape || || triangular, lobed, concave, interdigitated
+
+|-
+|| placement || position, location || horizontal, vertical
+
+|}
 
 ==Character types==
 
