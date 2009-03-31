@@ -2,6 +2,10 @@
 title: Guide to Character Annotation
 ---
 
+==PATO terms used for annotation==
+
+
+
 
 ==Character types==
 
