@@ -106,9 +106,16 @@ If there are no terms matching the given input, a document should still be retur
 ==Annotations summary==
 '''URI'''
 
- <BASE URI>/phenotypes/summary?subject=XXXX&entity=XXXX&quality=XXXX&pub=XXXX&examples=####
+ <BASE URI>/phenotypes/summary?subject={subject_id}&entity={entity_id}&quality={quality_id}&pub={publication_id]&examples={examples_count}
 
-''Returns'''
+This service returns a summary of the phenotype annotations involving the given terms.  All parameters are optional.  If no parameters are specified, the service should return a summary of all the phenotype annotations in the database.  Otherwise, any term ID given for the various parameters restricts the annotations to only those concerning those terms (where "concerning" is defined for each type of parameter).
+* subject
+* entity
+* quality
+* pub
+* examples
+
+''Returns''
 
 JSON:
 <javascript>
