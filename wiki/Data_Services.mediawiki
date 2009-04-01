@@ -177,39 +177,6 @@ JSON:
 }
 </javascript>
 
-==Anatomy search summary==
-'''URI'''
-
- <BASE URI>/phenotypes/summary/anatomy/{term_id}
-
-<code>term_id</code> is an anatomy search term.  This service returns a summary of all the phenotype annotations involving that anatomy term (or its descendants, via reasoning).  The summary is grouped by quality attribute term - all annotations with qualities descending from the same closest attribute should be grouped into the same count.
-
-'''Returns'''
-
-JSON:
-<javascript>
-{
-    "term" : { "id" : "TAO:xxxxx", "name" : "some anatomical part"},
-    "qualities" : [
-        {
-            "id" : "PATO:000xxxxx",
-            "name" : "shape",
-            "taxon_annotations" : {
-                "annotation_count": 5,
-                "taxon_count" : 3
-            },
-            "genotype_annotations" : {
-                "annotation_count" : 3,
-                "genotype_count" : 2
-            }
-        },
-        {
-            // another quality attribute
-        } // etc.
-    ]
-}
-</javascript>
-
 ==Anatomy taxon annotations results==
 '''URI'''
 
@@ -277,44 +244,6 @@ JSON:
             "genotype" : { "id" : "ZFIN:34242", "name" : "some genotype" },
             "entity" : { "id" : "TAO:34242", "name" : "some anatomical part" },
             "quality" : { "id" : "PATO:34242", "name" : "some quality" }
-        }
-    ]
-}
-</javascript>
-
-==Gene search summary==
-'''URI'''
-
- <BASE URI>/phenotypes/summary/gene/{term_id}
-
-<code>term_id</code> is an gene symbol search id.  This service returns all the phenotype annotations involving that gene.  Identical annotations from different genotypes are lumped together.  Each annotation has a list of all the genotypes which exhibited it.  Each annotation includes the term from TAO matching the ZFA term in "teleost_entity".
-
-'''Returns'''
-
-JSON:
-<javascript>
-{
-    "gene" : { "id" : "ZFIN:xxxxx", "name" : "some gene name"},
-    "annotations" : [
-        {
-            "entity" : { "id" : "ZFA:34242", "name" : "some anatomical part" },
-            "quality" : { "id" : "PATO:34242", "name" : "some quality" },
-            "teleost_entity" : { "id" : "TAO:34242", "name" : "some anatomical part" }
-            "genotypes" : [
-                { "id" : "ZFIN:xxxxx", "name" : "some genotype" },
-                { "id" : "ZFIN:xxxxx", "name" : "some genotype" },
-                { "id" : "ZFIN:xxxxx", "name" : "some genotype" }
-            ]
-        },
-        {
-            "entity" : { "id" : "ZFA:34242", "name" : "some anatomical part" },
-            "quality" : { "id" : "PATO:34242", "name" : "some quality" },
-            "teleost_entity" : { "id" : "TAO:34242", "name" : "some anatomical part" }
-            "genotypes" : [
-                { "id" : "ZFIN:xxxxx", "name" : "some genotype" },
-                { "id" : "ZFIN:xxxxx", "name" : "some genotype" },
-                { "id" : "ZFIN:xxxxx", "name" : "some genotype" }
-            ]
         }
     ]
 }
