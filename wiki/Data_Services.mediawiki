@@ -115,7 +115,7 @@ All parameters are optional.  If no parameters are specified, the service should
 * '''entity''' - an ID for an anatomical term - the returned annotations are only those whose phenotype ''inheres_in'' this entity (note - maybe we should add another parameter to include phenotypes which ''inhere_in_part_of'' the entity)
 * '''quality''' - an ID for a quality term - the returned annotations are only those whose phenotype ''is_a'' type of this term
 * '''pub''' - an ID for a publication - the returned annotations are only those contributed by the given publication
-* '''examples'''
+* '''examples''' - the number of example terms to include in the output - default is zero
 
 ''Returns''
 
