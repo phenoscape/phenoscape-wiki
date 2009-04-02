@@ -2,6 +2,9 @@
 title: Links
 ---
 
+===Curation===
+
+* [[Guide_to_Character_Annotation | Phenoscape Guide to Character Annotation]]
 ===Ontologies===
 
 '''[http://www.bioontology.org National Center for Biomedical Ontology]'''
