@@ -14,7 +14,7 @@ Curators are currently annotating systematic characters at a coarse level using 
 || shape || || triangular, lobed, concave, interdigitated
 
 |-
-|| placement || position, location || horizontal, vertical
+|| position || placement, location || horizontal, vertical
 |-
 || size || || thin, large, decreased height
 |-
