@@ -44,7 +44,7 @@ Curators are currently annotating systematic characters at a coarse level using 
 |-
 
 |}
-* Relational qualities describe phenotypes between two entities
+(*) Relational qualities describe phenotypes between two entities
 
 ==Character Annotation Examples==
 
@@ -56,7 +56,7 @@ The following are examples of character types commonly encountered in the system
  E: pectoral fin, Q: present in organism
  E: pectoral fin, Q: absent in organsim
 
-If a character describes the presence or absence of a structure located on another entity, (for example, presence of teeth on a particular bone), first check to see whether the structure exists as a term in the TAO before creating a post-composition.  
+If a character describes the presence or absence of a structure located on another entity, (for example, presence of teeth on a particular bone), first check to see whether the structure exists as a term in the TAO before creating a post-composition.
 
 The statement "Teeth absent on basihyal bone" is annotated as:
 
