@@ -201,7 +201,8 @@ Dentary: Dermal bone that forms the anterolateral part of the lower jaw.
 In example 1, the definition mentions the parent dermal bone of the term antorbital, followed by the characteristics that differentiate antorbital from all other dermal bones.
 
 Post-composed terms (described below) are terms created on-the-fly at the time of annotation, and take the form of genus-differentia definitions.
-
+<!--
 test line for commenting out
+-->
 
 [[Category:Curation]]
