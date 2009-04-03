@@ -99,8 +99,8 @@ Epibranchial 1: (2) absent
  E: Epibranchial 1 cartilage*, Q: absent
  E: Epibranchial 1 bone*, Q: absent
 
-===Meristic data===
-Characters involving counts of entities are annotated using the “count in organism**” quality.  Values for counts are entered in the “count” field*.  Note that ranges and lower or upper bounds can be recorded:
+===Counts===
+Characters involving counts of entities are annotated using the “count in organism” quality.  Values for counts are entered in the “count” field*.  Note that ranges and lower or upper bounds are recorded as follows:
 
  E: vertebra, Q: count in organism, Count: 33
  E: vertebra, Q: count in organism, Comments: 34-38
@@ -108,7 +108,6 @@ Characters involving counts of entities are annotated using the “count in orga
  E: vertebra, Q: count in organism, Comments: =/>48
 
 *Note: The Count field in Phenex is currently configured to only accept integer values.  Record ranges or min/max values in the Comments field.
-**The term "count in organism" is currently (as of 12/10/08) unavailable in Phenex due to a bug - please leave the Quality field blank and record a note in the Comment field of the Characters panel that the corresponding annotation must be updated once the term becomes available.
 
 == Refining terms  by post-composition ==
 
