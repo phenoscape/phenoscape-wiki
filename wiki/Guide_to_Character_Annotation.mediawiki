@@ -45,9 +45,9 @@ Curators are currently annotating systematic characters at a coarse level using 
 
 |}
 
-==Character types==
+==Character Annotation Examples==
 
-The following are examples of character types commonly enountered in the systematic literature and how we annotate them using the EQ model in Phenex.  Abbreviations: E, entity; Q, quality, RE, related entity, C, count.
+The following are examples of character types commonly encountered in the systematic literature and how we annotate them using the EQ model in Phenex.  Abbreviations: E, entity; Q, quality, RE, related entity, C, count.
 
 ===Presence/absence characters===
 
