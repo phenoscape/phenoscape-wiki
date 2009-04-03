@@ -50,7 +50,7 @@ Curators are currently annotating systematic characters at a coarse level using 
 
 The following are examples of character types commonly encountered in the systematic literature and how we annotate them using the EQ model in Phenex.  Abbreviations: E, entity; Q, quality, RE, related entity, C, count.
 
-===Presence/absence===
+===1. Presence/absence===
 
 
  E: pectoral fin, Q: present in organism
@@ -62,7 +62,7 @@ The statement "Teeth absent on basihyal bone" is annotated as:
 
  E: basihyal tooth, Q: absent in organism
 
-===Well developed vs. small or absent entities===
+===2. Well developed vs. small or absent entities===
 For example, a character involving the auditory foramen is coded with two states: 0, absent or small; 1, well developed.
 
 State 0 is recorded as polymorphic in Phenex:
@@ -74,19 +74,18 @@ State 1 is recorded as:
 
  E: auditory foramen, Q: increased size
 
-===Use of monadic qualities===
+===3. Use of monadic qualities===
 Monadic qualities are those that exist in a single entity, such as shape, and do not require another entity.  For example, annotation of “sigmoid-shaped supraorbital bone” is entered as:
 
  E: supraorbital, Q: shape
 
-===Use of relational qualities===
+===4. Use of relational qualities===
 Relational qualities are those that exist in an entity but require an additional entity in order to exist.  For example, annotation of “parietal fused with supraoccipital” is entered as:
 
  E: parietal, Q: relational structural quality, RE: supraoccipital
 
-=== Annotation involving bone and cartilage terms ===
+===5. Annotation involving bone and cartilage terms ===
 Curators should read the character description and examine associated text and figures in the publication to clarify whether the structure referred to is bone or cartilage. In general, the “element” terms should be used sparingly, and only when an author does not indicate whether a structure (e.g. “epibranchial”) is composed of cartilage or bone. The convention for a term like “epibranchial 2” or “basibranchial” is that it is composed of bone and when composed of cartilage an author will say “epibranchial 2 cartilage” or “basibranchial cartilage”,  However,  this is not universally followed and a curator must read to ascertain this.
-
 
 
 Epibranchial 1: (0) present and ossified
@@ -99,15 +98,15 @@ Epibranchial 1: (2) absent
  E: Epibranchial 1 cartilage*, Q: absent
  E: Epibranchial 1 bone*, Q: absent
 
-===Counts===
-Characters involving counts of entities are annotated using the “count in organism” quality.  Values for counts are entered in the “count” field*.  Note that ranges and lower or upper bounds are recorded as follows:
+===6. Counts===
+Characters involving counts of entities are annotated using the “count in organism” quality.  Values for counts are entered in the “count” field(*).  Note that ranges and lower or upper bounds are recorded as follows:
 
- E: vertebra, Q: count in organism, Count: 33
- E: vertebra, Q: count in organism, Comments: 34-38
- E: vertebra, Q: count in organism, Comments: >38
- E: vertebra, Q: count in organism, Comments: =/>48
+ E: vertebra, Q: count in organism, Count*: 33
+ E: vertebra, Q: count in organism, Comments*: 34-38
+ E: vertebra, Q: count in organism, Comments*: >38
+ E: vertebra, Q: count in organism, Comments*: =/>48
 
-*Note: The Count field in Phenex is currently configured to only accept integer values.  Record ranges or min/max values in the Comments field.
+ *Note: The Count field in Phenex is currently configured to only accept integer values.  Record ranges or min/max values in the Comments field.
 
 == Refining terms  by post-composition ==
 
@@ -173,9 +172,6 @@ Length of infraorbital 2: (0) over twice as long as infraorbital 1; (1) less tha
  E1: Infraorbital 2, Q: decreased length, relative_to: infraorbital 1, Measurement: <2, Unit: ratio
 
 The qualities are post-composed.
-
-== Serial homologues ==
-Individual entities in a meristic series (e.g. vertebra 4 in a zebrafish vs. vertebra 4 in an eel), are not necessarily homologous across taxa. These can be handled in several ways, and we will discuss them here.
 
 ==Evidence Codes==
 
