@@ -30,11 +30,11 @@ Curators are currently annotating systematic characters at a coarse level using 
 |-
 || color || ||
 |-
-|| relational shape quality || || protruding into
+|| relational shape quality* || || protruding into
 |-
-|| relational spatial quality || || anterior to, lateral to
+|| relational spatial quality* || || anterior to, lateral to
 |-
-|| relational structural quality || || fused with, overlap with, separated from
+|| relational structural quality* || || fused with, overlap with, separated from
 |-
 || present in organism || present ||
 |-
@@ -44,6 +44,7 @@ Curators are currently annotating systematic characters at a coarse level using 
 |-
 
 |}
+* Relational qualities describe phenotypes between two entities
 
 ==Character Annotation Examples==
 
