@@ -95,13 +95,12 @@ Characters involving counts of entities are annotated using the “count in orga
  *Note: The Count field in Phenex is currently configured to only accept integer values.  Record ranges or min/max values in the Comments field.
 
 ===6. Annotation involving bone and cartilage terms ===
-Authors sometimes refer to endochondral structures without specifying whether the structure is “bone” or “cartilage.” For example, the convention for a term like “epibranchial 2” or “basibranchial” is that it is composed of bone and when composed of cartilage an author will say “epibranchial 2 cartilage” or “basibranchial cartilage”.  However,  this is not universally followed and a curator must read the character description and examine associated text and figures to ascertain this.  
-If after reviewing the publication it is still not clear, then the curator can use the “element” term for the structure.  In general, the “element” terms should be used sparingly, and only when an author does not indicate whether a structure (e.g. “epibranchial”) is composed of cartilage or bone. 
+Authors sometimes refer to endochondral structures without specifying whether the structure is “bone” or “cartilage.” For example, the convention for a term like “epibranchial 2” or “basibranchial” is that it is composed of bone and when composed of cartilage an author will say “epibranchial 2 cartilage” or “basibranchial cartilage”.  However,  this is not universally followed and a curator must read the character description and examine associated text and figures to ascertain this.
+If after reviewing the publication it is still not clear, then the curator can use the “element” term for the structure.  In general, the “element” terms should be used sparingly, and only when an author does not indicate whether a structure (e.g. “epibranchial”) is composed of cartilage or bone.
 
-The following are a series of examples demonstrating the use of bone, cartilage, and element terms. 
+The following are a series of examples demonstrating the use of bone, cartilage, and element terms.
+
 ==== ''Example 1''====
-
-
 Epibranchial 1: (0) present and ossified
  E: Epibranchial 1 bone, Q: present
 
@@ -109,8 +108,31 @@ Epibranchial 1: (1) present and cartilaginous
  E: Epibranchial 1 cartilage, Q: present
 
 Epibranchial 1: (2) absent
- E: Epibranchial 1 cartilage*, Q: absent
- E: Epibranchial 1 bone*, Q: absent
+ E: Epibranchial 1 cartilage, Q: absent
+ E: Epibranchial 1 bone, Q: absent
+
+==== ''Example 2''====
+Epibranchial 1 (0) present, (0) absent
+ E: epibranchial 1 element(*), Q: present or Q: absent
+
+==== ''Example 3''====
+Epibranchial 1 bone: (0) present; (1) absent
+ E: epibranchial 1 bone; Q: present or Q: absent
+
+==== ''Example 4''====
+*Epibranchial 1: (0) triangular
+ E: epibranchial 1 element(*), Q: shape
+
+==== ''Example 5''====
+Epibranchial number: (0) 3; (1) 4
+ E: epibranchial element(*); Q: count; C: 3 or C: 4
+
+==== ''Example 6''====
+Epibranchial bone number: (0) 3; (1) 4
+ E: epibranchial bone; Q: count; C: 3 or C: 4
+Q: count
+
+(*) After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term
 
 == Refining terms  by post-composition ==
 
