@@ -49,7 +49,7 @@ Curators are currently annotating systematic characters at a coarse level using 
 
 The following are examples of character types commonly encountered in the systematic literature and how we annotate them using the EQ model in Phenex.  Abbreviations: E, entity; Q, quality, RE, related entity, C, count.
 
-===Presence/absence characters===
+===Presence/absence===
 
 
  E: pectoral fin, Q: present in organism
@@ -59,7 +59,7 @@ If a character describes the presence or absence of a structure located on anoth
 
  E: basihyal tooth, Q: absent in organism
 
-===Characters involving well developed vs. small or absent entities===
+===Well developed vs. small or absent entities===
 For example, a character involving the auditory foramen is coded with two states: 0, absent or small; 1, well developed.
 
 State 0 is recorded as polymorphic in Phenex:
@@ -74,24 +74,29 @@ State 1 is recorded as:
 ===Characters using monadic qualities===
 Monadic qualities are those that exist in a single entity, such as shape, and do not require another entity.  For example, annotation of “sigmoid-shaped supraorbital bone” is entered as:
 
- E: supraorbital, Q: sigmoid
+ E: supraorbital, Q: shape
 
 ===Characters using relational qualities===
 Relational qualities are those that exist in an entity but require an additional entity in order to exist.  For example, annotation of “parietal fused with supraoccipital” is entered as:
 
- E: parietal, Q: fused with, RE: supraoccipital
- E: parietal, Q: separated from, RE: supraoccipital
+ E: parietal, Q: relational structural quality, RE: supraoccipital
+
 
 === Characters involving presence/absence of developmentally dependent entities ===
 An example is  bone develops_from cartilage.
 
 Interhyal: (0) present and ossified; (1) present and cartilaginous; (2) absent
 
+ State 0:
  E: Interhyal bone, Q: present
+ 
+ State 1:
  E: Interhyal cartilage, Q: present
- E: Interhyal cartilage, Q: absent(*)
 
-(*)Note that because interhyal bone develops_from interhyal cartilage, we can simply state that interhyal cartilage is absent, and it is implied that interhyal bone is also absent.
+ State 2:
+ E: Interhyal cartilage*, Q: absent
+ E: Interhyal bone*, Q: absent
+(*)
 
 ===Meristic data===
 Characters involving counts of entities are annotated using the “count in organism**” quality.  Values for counts are entered in the “count” field*.  Note that ranges and lower or upper bounds can be recorded:
