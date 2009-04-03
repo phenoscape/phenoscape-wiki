@@ -95,7 +95,11 @@ Characters involving counts of entities are annotated using the “count in orga
  *Note: The Count field in Phenex is currently configured to only accept integer values.  Record ranges or min/max values in the Comments field.
 
 ===6. Annotation involving bone and cartilage terms ===
-Curators should read the character description and examine associated text and figures in the publication to clarify whether the structure referred to is bone or cartilage. In general, the “element” terms should be used sparingly, and only when an author does not indicate whether a structure (e.g. “epibranchial”) is composed of cartilage or bone. The convention for a term like “epibranchial 2” or “basibranchial” is that it is composed of bone and when composed of cartilage an author will say “epibranchial 2 cartilage” or “basibranchial cartilage”,  However,  this is not universally followed and a curator must read to ascertain this.
+Authors sometimes refer to endochondral structures without specifying whether the structure is “bone” or “cartilage.” For example, the convention for a term like “epibranchial 2” or “basibranchial” is that it is composed of bone and when composed of cartilage an author will say “epibranchial 2 cartilage” or “basibranchial cartilage”.  However,  this is not universally followed and a curator must read the character description and examine associated text and figures to ascertain this.  
+If after reviewing the publication it is still not clear, then the curator can use the “element” term for the structure.  In general, the “element” terms should be used sparingly, and only when an author does not indicate whether a structure (e.g. “epibranchial”) is composed of cartilage or bone. 
+
+The following are a series of examples demonstrating the use of bone, cartilage, and element terms. 
+==== ''Example 1''====
 
 
 Epibranchial 1: (0) present and ossified
@@ -107,7 +111,6 @@ Epibranchial 1: (1) present and cartilaginous
 Epibranchial 1: (2) absent
  E: Epibranchial 1 cartilage*, Q: absent
  E: Epibranchial 1 bone*, Q: absent
-
 
 == Refining terms  by post-composition ==
 
