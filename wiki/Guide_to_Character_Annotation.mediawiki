@@ -152,6 +152,7 @@ Use the spatial term "contralateral" to post-compose entities for the right and 
  Q: in contact with
  RE: contralateral^part_of(posterior process of basipterygium)
 
+<!--DO NOT DELETE THE FOLLOWING SECTIONS, COMMENTED OUT BY WD BECAUSE WE ARE NOT CURRENTLY ANNOTATING TO THIS FINE LEVEL BUT MIGHT DO SO IN THE FUTURE
 == Complex size and shape qualities ==
 
 We are currently annotating complex size and shape characters only to the level of "size" or "shape" for quality.  For some characters, entity post-composition can be used to refine size qualities to record details of size differences between states of a character:
@@ -172,6 +173,7 @@ Length of infraorbital 2: (0) over twice as long as infraorbital 1; (1) less tha
  E1: Infraorbital 2, Q: decreased length, relative_to: infraorbital 1, Measurement: <2, Unit: ratio
 
 The qualities are post-composed.
+-->
 
 ==Evidence Codes==
 
