@@ -82,18 +82,18 @@ Relational qualities are those that exist in an entity but require an additional
  E: parietal, Q: relational structural quality, RE: supraoccipital
 
 
-=== Characters involving presence/absence of developmentally dependent entities ===
-An example is  bone develops_from cartilage.
+=== Annotation involving bone and cartilage terms ===
+Curators should read the character description and examine associated text and figures in the publication to clarify whether the structure referred to is bone or cartilage. In general, the “element” terms should be used sparingly, and only when an author does not indicate whether a structure (e.g. “epibranchial”) is composed of cartilage or bone. The convention for a term like “epibranchial 2” or “basibranchial” is that it is composed of bone and when composed of cartilage an author will say “epibranchial 2 cartilage” or “basibranchial cartilage”,  However,  this is not universally followed and a curator must read to ascertain this.  
 
-Interhyal: (0) present and ossified; (1) present and cartilaginous; (2) absent
 
- State 0:
+
+Epibranchial 1: (0) present and ossified
  E: Interhyal bone, Q: present
- 
- State 1:
+
+Epibranchial 1: (1) present and cartilaginous
  E: Interhyal cartilage, Q: present
 
- State 2:
+Epibranchial 1: (2) absent
  E: Interhyal cartilage*, Q: absent
  E: Interhyal bone*, Q: absent
 (*)
