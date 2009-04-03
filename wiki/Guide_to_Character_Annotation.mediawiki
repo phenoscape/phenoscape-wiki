@@ -111,28 +111,28 @@ Epibranchial 1: (2) absent
  E: Epibranchial 1 cartilage, Q: absent
  E: Epibranchial 1 bone, Q: absent
 
+The curator should use both the cartilage and bone terms to annotate state 2 because the author clearly differentiates between the two.
+
 ==== ''Example 2''====
-Epibranchial 1 (0) present, (0) absent
- E: epibranchial 1 element(*), Q: present or Q: absent
+Epibranchial 1 (0) present, (0) absent.  After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term
+ E: epibranchial 1 element, Q: present or Q: absent
 
 ==== ''Example 3''====
 Epibranchial 1 bone: (0) present; (1) absent
  E: epibranchial 1 bone; Q: present or Q: absent
 
 ==== ''Example 4''====
-*Epibranchial 1: (0) triangular
- E: epibranchial 1 element(*), Q: shape
+Epibranchial 1: (0) triangular.  After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term
+ E: epibranchial 1 element, Q: shape
 
 ==== ''Example 5''====
-Epibranchial number: (0) 3; (1) 4
- E: epibranchial element(*); Q: count; C: 3 or C: 4
+Epibranchial number: (0) 3; (1) 4.  After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term:
+ E: epibranchial element; Q: count; C: 3 or C: 4
 
 ==== ''Example 6''====
 Epibranchial bone number: (0) 3; (1) 4
  E: epibranchial bone; Q: count; C: 3 or C: 4
 Q: count
-
-(*) After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term
 
 == Refining terms  by post-composition ==
 
