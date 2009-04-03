@@ -73,7 +73,7 @@ State 1 is recorded as:
 
  E: auditory foramen, Q: increased size
 
-===Characters using monadic qualities===
+===Use of monadic qualities===
 Monadic qualities are those that exist in a single entity, such as shape, and do not require another entity.  For example, annotation of “sigmoid-shaped supraorbital bone” is entered as:
 
  E: supraorbital, Q: shape
