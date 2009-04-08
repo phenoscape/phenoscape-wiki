@@ -2,7 +2,7 @@
 title: Guide to Character Annotation
 ---
 
-==Curation Goal June 15 ==
+==Current Curation Goal for June 15, 2009==
 
 The current goal for curation is to annotate characters to a course level...
 post-compositions
