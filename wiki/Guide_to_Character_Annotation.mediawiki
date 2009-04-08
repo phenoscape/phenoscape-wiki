@@ -164,6 +164,7 @@ The post-composed term appears in the Entity field as:
 
  bony projection^part_of(supraorbital bone)
 
+<!-- **DO NOT DELETE -- THIS SECTION COMMENTED OUT BECAUSE INFORMATION IS TOO DETAILED FOR CURRENT CURATION GOAL, BUT COULD BE DISPLAYED LATER**
 === Refining qualities using spatial terms ===
 Often we will want to include spatial information in a post-composed term.  The Spatial Ontology is used to post-compose terms related to bone margins, surfaces, or regions.  For example, the entity “bony projection on the anterior margin of supraorbital bone” is post-composed as follows:
 
@@ -175,6 +176,7 @@ The post-composed term for projection on the anterior margin of frontal appears 
  bony projection^part_of(anterior margin^part_of(supraorbital bone))
 
 As for semantics, identifiability, and rules for post-composing, the same applies as above for entity terms applies to spatial terms. In creating the nested term "anterior  margin of supraorbital bone", start with the more general term (for example, the "anterior margin") as the genus, then refine it using a relationship and a differentia term (for example, anterior margin that is part-of the "supraorbital bone").
+-->
 
 === Specifying the contralateral half of a bilaterally paired structure ===
 
