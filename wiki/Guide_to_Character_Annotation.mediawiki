@@ -213,6 +213,8 @@ The qualities are post-composed.
 
 ==Evidence Codes==
 
+'''**Note: Does not apply to current curation goal'''
+
 We record phenotype descriptions as properties of species, and annotations are assigned one of three evidence codes based on the level of evidence given by an author for phenotype observations. These specimen evidence codes are in an Evidence Codes Ontology that was developed by the broader biological community (see http://obofoundry.org/cgi-bin/detail.cgi?id=evidence_code). We have added evidence codes to this ontology, and we use the following in order below from strong to weak evidence.
 
 ===Inferred from Voucher Specimen (IVS)===
