@@ -24,7 +24,8 @@ You can sort the data by clicking on any column header.  Sort the "Taxon Comment
 
 ====Making updates to taxon entries====
 
-If an author has made an error in the generic assignment of a species, which does not represent a difference in taxonomic opinion or concepts, then the current valid name of that species should be chosen, and the curator should add a comment in the Taxon Comments about the change.  If you make any updates on a file or submit term requests for an entry, be sure to write a dated note in the Taxon Comments column detailing your actions (and preserve any previous notes left by a student).
+The names listed in the Publication Taxon column are those used in the publication, and therefore should not require editing by curators (though edit if there is an obvious mismatch with the publication, usually because of a mistaken entry by a student).  Valid Taxon names will usually need to be updated. If you make any updates on a file or submit term requests for an entry, be sure to write a dated note in the Taxon Comments column detailing your actions (and preserve any previous notes left by a student).
+ If an author has made an error in the generic assignment of a species, which does not represent a difference in taxonomic opinion or concepts, then the current valid name of that species should be chosen, and the curator should add a comment in the Taxon Comments about the change.
 
 ====Taxonomy ontology change requests====
 #Taxon name misspelled: Misspellings are requested as synonyms of the correctly spelled taxon name in the TTO.  Choose the appropriate name from the Valid Taxon field, and add note in Taxon Comments field (e.g., Requested addition of synonym to TTO, Your Name, 7/28/2008)
