@@ -178,6 +178,7 @@ The post-composed term for projection on the anterior margin of frontal appears 
 As for semantics, identifiability, and rules for post-composing, the same applies as above for entity terms applies to spatial terms. In creating the nested term "anterior  margin of supraorbital bone", start with the more general term (for example, the "anterior margin") as the genus, then refine it using a relationship and a differentia term (for example, anterior margin that is part-of the "supraorbital bone").
 -->
 
+<!-- DO NOT DELETE THE FOLLOWING SECTIONS, COMMENTED OUT BY WD BECAUSE WE ARE NOT CURRENTLY ANNOTATING TO THIS FINE LEVEL BUT MIGHT DO SO IN THE FUTURE
 === Specifying the contralateral half of a bilaterally paired structure ===
 
 Use the spatial term "contralateral" to post-compose entities for the right and left members of a paired structure. For example, a character may describe the  posterior processes of the pelvic bone in contact with each other.  This would be annotated as:
@@ -185,6 +186,7 @@ Use the spatial term "contralateral" to post-compose entities for the right and 
  E: posterior process of basipterygium
  Q: in contact with
  RE: contralateral^part_of(posterior process of basipterygium)
+-->
 
 <!--DO NOT DELETE THE FOLLOWING SECTIONS, COMMENTED OUT BY WD BECAUSE WE ARE NOT CURRENTLY ANNOTATING TO THIS FINE LEVEL BUT MIGHT DO SO IN THE FUTURE
 == Complex size and shape qualities ==
