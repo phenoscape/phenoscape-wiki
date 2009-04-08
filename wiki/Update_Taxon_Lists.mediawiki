@@ -12,7 +12,7 @@ The following are instructions on how to update a taxon list for taxonomy and su
 
 Make sure that you have an internet connection before starting Phenex as the software will need to download updated ontology files if available.
 
-Start up Phenex and open the xml file using File>Open.
+As always, make sure to Update your project files using ZigVersion, then start up Phenex and open the relevant xml file using File>Open.
 
 Choose the Taxon perspective by going to Window>Taxon. This will display only the Taxon panels (Taxa, Specimens, Term Info) in Phenex.
 
