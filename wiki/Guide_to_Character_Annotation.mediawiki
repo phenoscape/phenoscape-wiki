@@ -139,6 +139,9 @@ Epibranchial bone number: (0) 3; (1) 4
 
 == Refining terms  by post-composition ==
 
+**Note: for the current curation goal, we are creating very simple post-compositions for the presence or absence of processes/shelves/ridges/etc... on bones. For example, (process^part_of(entity)) is composed without reference to spatial orientation.
+
+
 Oftentimes the need arises to use a more granular term than is already present in the ontology, whether it is the anatomical entity or the quality. For example,  to prevent ontology "bloat", regions, margins, and projections of a bone are not in the anatomy ontology, but the bone itself is, and the concepts of margin, relative location of the margin (anterior, posterior, ventral, dorsal, etc), or bony projection are too, or are in other ontologies (spatial aspect, for example). Similarly, the directionality of a phenotype (such as a rotation, or curvature) isn't necessarily present in PATO, but the component terms necessary to express it are. The act of combining terms on-the-fly into cross-product terms is called post-composition, as opposed to pre-composed terms that are already in the ontology.
 
 Post-composed terms can be created in Phenex following the genus-differentia principle of defining terms, where one term serves as the genus, which is then differentiated using a relationship and a differentia term. Unlike pre-composed terms, post-composed terms do not have an ID, and hence are "anonymous." Therefore if the same post-composition is used multiple times, it has the same semantics, but not the same identity. For example, if one wants to assign multiple annotations to the same bony projection of the lateral ethmoid in the same specimen, using post-composed terms does not allow the identity of the anatomical structure between the annotations to be inferred.
