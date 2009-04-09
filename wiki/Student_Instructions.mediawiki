@@ -29,15 +29,22 @@ Once you have obtained the software and files, you can begin work.
 ##	type in a comment that describes your work on each file (e.g., “added free text character descriptions for 1-100”, “proofread matrix and taxon list”…)
 
 ===4. Download PDFs from the Phenoscape Fileshare ===
-You can download publication PDFs by connecting to the Phenoscape file share.
+Download publication PDFs by connecting to the Phenoscape file share.  Please ask a Phenoscaper for the username and password.
 
-Connecting in MAC OS X
+====Mac OS X====
 # In finder > Go > Connect to Server
-# Type in https://ftp.nescent.org/[sharename] .   For example, https://ftp.nescent.org/phenoscape-data
+# Type in <nowiki>https://webdav.nescent.org/phenoscape-data</nowiki>
 # Accept security warning about certificate
-# enter username and password (ask a Phenoscaper)
+# enter username and password
 
-For Windows XP users, see instructions [[Resources_for_curators|here]]
+====Windows XP====
+# Go to "My Network Places"
+# Add a Network Place (pulls up wizard)
+# Click Next twice
+# In internet or Network address box, type in <nowiki>https://webdav.nescent.org/phenoscape-data</nowiki>
+# Accept certificate warning, if given.
+# Give the share a meaningful name. Default is usually fine.
+# Finish
 
 ===5. Create Tree Files ===
 
