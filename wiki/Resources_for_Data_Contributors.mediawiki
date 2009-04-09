@@ -13,11 +13,13 @@ Phenoscape project files are XML files (more specifically, they are in [http://n
 ==3. Download PDFs and Ontology Posters as Needed on Phenoscape Fileshare ==
 You can download publication PDFs and powerpoint posters of the TAO and PATO ontologies by connecting to the Phenoscape file share. Please ask a Phenoscaper for the username and password.
 
-===Connecting to NESCent WebDAV server===
+The general URL is:
+ <nowiki>https://webdav.nescent.org/[sharename]</nowiki>
 
 ====MAC OS X====
 # In finder > Go > Connect to Server
-# Type in <nowiki>https://webdav.nescent.org/phenoscape-data<nowiki>
+# Type in <nowiki>https://webdav.nescent.org/[sharename]</nowiki>
+#* For example, <nowiki>https://webdav.nescent.org/driade</nowiki>
 # Accept security warning about certificate
 # enter username and password
 
@@ -25,7 +27,8 @@ You can download publication PDFs and powerpoint posters of the TAO and PATO ont
 # Go to "My Network Places"
 # Add a Network Place (pulls up wizard)
 # Click Next twice
-# In internet or Network address box, type in <nowiki>https://webdav.nescent.org/phenoscape-data</nowiki>
+# In internet or Network address box, type in <nowiki>https://webdav.nescent.org/[sharename]</nowiki>
+#* For example, <nowiki>https://webdav.nescent.org/driade</nowiki>
 # Accept certificate warning, if given.
 # Give the share a meaningful name. Default is usually fine.
 # Finish
