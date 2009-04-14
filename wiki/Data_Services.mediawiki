@@ -183,9 +183,9 @@ JSON:
 
  <BASE URI>/phenotypes?subject={subject_id}&entity={entity_id}&quality={quality_id}&pub={publication_id]
 
-This service returns a summary of the phenotype annotations involving the given terms.  The annotations are grouped by "character", which a unique combination of an entity and the "character quality" to which the quality in the annotation corresponds.
+This service returns the phenotype annotations involving the given terms.
 
-All parameters are optional.  If no parameters are specified, the service should return a summary of all the phenotype annotations in the database.  Otherwise, any term ID given for the various parameters restricts the annotations to only those concerning those terms (where "concerning" is defined for each type of parameter).
+All parameters are optional.  If no parameters are specified, the service should return all the phenotype annotations in the database.  Otherwise, any term ID given for the various parameters restricts the annotations to only those concerning those terms (where "concerning" is defined for each type of parameter).
 * '''subject''' - an ID for a taxon or gene - the returned annotations are only those which this term ''exhibits''
 * '''entity''' - an ID for an anatomical term - the returned annotations are only those whose phenotype ''inheres_in'' this entity (note - maybe we should add another parameter to include phenotypes which ''inhere_in_part_of'' the entity)
 * '''quality''' - an ID for a quality term - the returned annotations are only those whose phenotype ''is_a'' type of this term
@@ -213,7 +213,7 @@ JSON:
             "quality" : { "id" : "PATO:34242", "name" : "some quality" }
         }
     ]
-    
+
 }
 </javascript>
 
