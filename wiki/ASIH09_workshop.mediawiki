@@ -1,0 +1,113 @@
+---
+title: ASIH09 workshop
+---
+
+==Abstracts==
+
+''A Gentle Introduction to Ontologies for Biology''
+
+Hilmar Lapp (1), Todd J. Vision (1,2)
+
+1 US National Evolutionary Synthesis Center, Durham, North Carolina, USA
+2 University of North Carolina at Chapel Hill, Chapel Hill, North Carolina,
+USA
+
+As biology has become increasingly data-rich, the reliance on databases and
+computation to integrate and mine the vast body of knowledge traditionally
+reported in the literature has grown dramatically. This has inspired the
+development of computational technologies to allow the exploration and
+linking of diverse types of data across biological databases at
+unprecedented scales. One of the most important technologies is an
+“ontology”, a hierarchically structured, controlled vocabulary of
+well-defined terms and the logical relationships that hold between them.
+Ontologies have been applied with tremendous success to transform scientific
+results traditionally reported as free text into a digital representation
+that is unambiguous, uniform across disciplines, and readily computable. For
+example, ontologies of biochemical functions and biological processes are
+used to unambiguously record what is known about a gene's function. Anatomy
+ontologies are now being used to unequivocally describe the morphological
+characteristics visible in a specimen image. Efforts (including two in
+ichthyology and herpetology) are underway to develop ontologies that will
+ultimately span the breadth of biological knowledge, which will have a
+profound impact on the way that biologists interact with data collections in
+the future. In order to be useful community resources, ontologies must
+accurately capture the state of biological knowledge, which requires that
+the biological community through their experts play an active role in their
+development.  Here, I will provide a beginner’s guide to the world of
+ontologies and offer a roadmap for how biologists can best take advantage
+of, and contribute to, the growing suite of bio-ontology resources.
+
+
+''Phenoscape: Using Ontologies to Link Comparative Morphology to Genes''
+
+Paula Mabee
+
+University of South Dakota 
+
+[final version?] Decades of comparative anatomical studies in ichthyology and
+herpetology have resulted in a rich body of ‘free-text’ data.  As these data
+grow, they are increasingly hard to align and synthesize across taxonomic
+groups, and synthetic questions concerning the developmental and genetic
+basis of evolutionary changes in morphology cannot be easily or efficiently
+addressed.  In order for this volume of comparative anatomical data to be
+analyzed in a developmental genetic context, it must first be rendered
+computable.  One way to achieve this is to use ontologies. Using
+ostariophysan fishes as a prototype, the Phenoscape project has developed a
+system that includes ontologies representing expert knowledge of anatomy and
+taxonomy (the Teleost Anatomy Ontology and the Teleost Taxonomy Ontology),
+software for data curation (Phenex), and a knowledgebase that supports
+ontology-based reasoning about evolutionary phenotype data (PhenoscapeKB,
+http://phenoscape.org/kb).  To date, over 5,000 characters from the
+phylogenetic literature have been annotated for 8,300 species, resulting in
+over eight million annotated phenotypes.  PhenoscapeKB combines these
+evolutionary phenotypes with information about genetically characterized
+phenotype from ZFIN, the zebrafish community database. Through
+ontology-based reasoning over expert knowledge in taxonomy, comparative
+anatomy and developmental genetics, PhenoscapeKB can be used to address a
+host of questions spanning the domains of genetics, development and
+evolutionary biology, such as the nature of the genetic changes underlying
+phenotypic variation among taxa in nature.
+
+*******
+
+Anne Maglia     (1)     Presenting
+Jennifer     Leopold     (1)
+Susan     Gauch     (2)
+Analia     Pugener     (1)
+(1)  Missouri University of Science and Technology, Rolla, MO, United States
+(2)  University of Arkansas, Fayetteville, AR, United States
+
+Development of an Anatomical Ontology for Amphibians
+
+Herein, we describe our ongoing efforts to develop a robust ontology for
+amphibian anatomy (www.amphibanat.org) that accommodates the diversity of
+anatomical structures present in the group. We discuss the design and
+implementation of the project, current resolutions to issues we have
+encountered, and future enhancements to the ontology. We also comment on
+efforts to integrate other data sets with the amphibian anatomical ontology.
+   
+***** 
+
+Marc Robinson-Rechavi
+Bgee: Integrating ontology and homology for the study of gene
+expression evolution
+
+Abstract     
+
+The study of the evolution of developmental processes (evo-devo) has
+shown that the primary source of change in the evolution of
+phenotypes is changes in gene expression. Comparing gene expression
+patterns between animals thus is a major step to understand their
+evolution. This approach requires dedicated bioinformatics tools to
+perform high throughput analyses. Thus we have developed Bgee, a
+database designed to compare expression patterns between animals, by
+implementing ontologies describing anatomies and developmental stages
+of species, and then designing homology relationships between
+anatomies and comparison criteria between developmental stages. To
+define homology relationships between anatomical features we have
+developed the software Homolonto, which uses a modified ontology
+alignment approach to propose homology relationships between
+ontologies. Bgee then uses these aligned ontologies, onto which
+heterogeneous expression data types are mapped. These include
+microarrays, in situ hybridization, and ESTs, from human, mouse,
+xenopus and zebrafish. Bgee is available at http://bgee.unil.ch/
