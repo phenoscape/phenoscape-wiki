@@ -55,8 +55,8 @@ title: Phenoscape web UI
 
 ===May 2009===
 * Implement taxonomy-based tree-mapped data perspective
-*Implement appropriate scalable deployment of web application
-**Multiple application instances and load balancing
+*Implement appropriate scalable deployment of web application '''Done'''
+**Multiple application instances and load balancing '''Done'''
 
 ===Release candidate - June 2009===
 *Project team testing
