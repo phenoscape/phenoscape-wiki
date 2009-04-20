@@ -8,7 +8,7 @@ Held in conjunction with the 2009 ASIH meetings, Portland Oregon, July 2009
 
 ==Abstracts==
 
-''A Gentle Introduction to Ontologies for Biology''
+===''A Gentle Introduction to Ontologies for Biology''===
 
 Hilmar Lapp (1), Todd J. Vision (1,2)
 
