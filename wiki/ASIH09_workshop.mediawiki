@@ -2,15 +2,18 @@
 title: ASIH09 workshop
 ---
 
+==Workshop on "Ontologies for Ichtyology and Herpetology"==
+
+Held in conjunction with the 2009 ASIH meetings, Portland Oregon, July 2009 
+
 ==Abstracts==
 
 ''A Gentle Introduction to Ontologies for Biology''
 
 Hilmar Lapp (1), Todd J. Vision (1,2)
 
-1 US National Evolutionary Synthesis Center, Durham, North Carolina, USA
-2 University of North Carolina at Chapel Hill, Chapel Hill, North Carolina,
-USA
+# US National Evolutionary Synthesis Center
+# University of North Carolina at Chapel Hill
 
 As biology has become increasingly data-rich, the reliance on databases and
 computation to integrate and mine the vast body of knowledge traditionally
@@ -37,12 +40,17 @@ development.  Here, I will provide a beginner’s guide to the world of
 ontologies and offer a roadmap for how biologists can best take advantage
 of, and contribute to, the growing suite of bio-ontology resources.
 
+== Title TBA ===
+Monte Westerfield
 
-''Phenoscape: Using Ontologies to Link Comparative Morphology to Genes''
+Director, Zebrafish Information Network and Institute of Neuroscience, University of Oregon
+
+
+===''Phenoscape: Using Ontologies to Link Comparative Morphology to Genes''===
 
 Paula Mabee
 
-University of South Dakota 
+University of South Dakota
 
 [final version?] Decades of comparative anatomical studies in ichthyology and
 herpetology have resulted in a rich body of ‘free-text’ data.  As these data
@@ -68,16 +76,12 @@ host of questions spanning the domains of genetics, development and
 evolutionary biology, such as the nature of the genetic changes underlying
 phenotypic variation among taxa in nature.
 
-*******
+===''Development of an Anatomical Ontology for Amphibians''===
 
-Anne Maglia     (1)     Presenting
-Jennifer     Leopold     (1)
-Susan     Gauch     (2)
-Analia     Pugener     (1)
-(1)  Missouri University of Science and Technology, Rolla, MO, United States
-(2)  University of Arkansas, Fayetteville, AR, United States
+Anne Maglia (1), Jennifer Leopold (1), Susan Gauch (2), Analia Pugener (1)
 
-Development of an Anatomical Ontology for Amphibians
+#  Missouri University of Science and Technology, Rolla, MO, United States
+#  University of Arkansas, Fayetteville, AR, United States
 
 Herein, we describe our ongoing efforts to develop a robust ontology for
 amphibian anatomy (www.amphibanat.org) that accommodates the diversity of
@@ -85,14 +89,12 @@ anatomical structures present in the group. We discuss the design and
 implementation of the project, current resolutions to issues we have
 encountered, and future enhancements to the ontology. We also comment on
 efforts to integrate other data sets with the amphibian anatomical ontology.
-   
-***** 
+
+''Bgee: Integrating ontology and homology for the study of gene expression evolution''
 
 Marc Robinson-Rechavi
-Bgee: Integrating ontology and homology for the study of gene
-expression evolution
 
-Abstract     
+Department of Ecology and Evolution, Biophore, Lausanne University and Swiss Institute of Bioinformatics
 
 The study of the evolution of developmental processes (evo-devo) has
 shown that the primary source of change in the evolution of
@@ -111,3 +113,8 @@ ontologies. Bgee then uses these aligned ontologies, onto which
 heterogeneous expression data types are mapped. These include
 microarrays, in situ hybridization, and ESTs, from human, mouse,
 xenopus and zebrafish. Bgee is available at http://bgee.unil.ch/
+
+==Title TBA==
+Peter Vize
+
+University of Calgary
