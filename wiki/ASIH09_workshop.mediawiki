@@ -91,30 +91,30 @@ implementation of the project, current resolutions to issues we have
 encountered, and future enhancements to the ontology. We also comment on
 efforts to integrate other data sets with the amphibian anatomical ontology.
 
-==''Illustrating Ontologies with Morphbank and Phenoscape''==
- 
-Greg Riccardi (1) and Austin Mast (2) 
- 
-# College of Information, Florida State University
-# Department of Biological Science, Florida State University, amast@bio.fsu.edu  
+===''Illustrating Ontologies with Morphbank and Phenoscape''===
 
-This talk will discuss some ways that image management and annotation, ontology development, and 
-studies of physical features of organisms are integrated to facilitate research in evolution and 
-development. The management of metadata and annotations of images is a primary capability of the 
-Morphbank system, an on-line image repository system that has over 250,000 images of a variety of 
-organisms. The metadata in Morphbank for an image includes information about the content of the 
-image—that is, characteristics of the objects shown in the image. This includes information about the 
-specimen with Darwin Core fields and information about the anatomy and views that are presented.  
-Morphbank and Phenoscape have combined to integrate anatomical and phenotype annotations on 
-images. An image of a portion of a fish skeleton in Morphbank includes references to the Teleost  
-ontology terms that describe that bone (c. f., http://www.morphbank.net?id=459110). 1500 skeletal 
-images from CToL are currently in Morphbank.  A Search of Morphbank for the term will produce a 
-collection of relevant images. 
-An annotation of an image in Morphbank attaches one or more ontology terms to a specific part of the 
-image. The integration of Morphbank with the Morphster ontology browser [ref] provides an illustration 
-of ontology terms. A user may select a term in Morphster and see annotated Morphbank images that 
-are relevant to that term. The inference capabilities of Morphster allow a user to find all images of 
-“bone” or just those of “ceratobranchial” or those that exhibit a specific phenotype. 
+Greg Riccardi (1) and Austin Mast (2)
+
+# College of Information, Florida State University
+# Department of Biological Science, Florida State University, amast@bio.fsu.edu
+
+This talk will discuss some ways that image management and annotation, ontology development, and
+studies of physical features of organisms are integrated to facilitate research in evolution and
+development. The management of metadata and annotations of images is a primary capability of the
+Morphbank system, an on-line image repository system that has over 250,000 images of a variety of
+organisms. The metadata in Morphbank for an image includes information about the content of the
+image—that is, characteristics of the objects shown in the image. This includes information about the
+specimen with Darwin Core fields and information about the anatomy and views that are presented.
+Morphbank and Phenoscape have combined to integrate anatomical and phenotype annotations on
+images. An image of a portion of a fish skeleton in Morphbank includes references to the Teleost
+ontology terms that describe that bone (c. f., http://www.morphbank.net?id=459110). 1500 skeletal
+images from CToL are currently in Morphbank.  A Search of Morphbank for the term will produce a
+collection of relevant images.
+An annotation of an image in Morphbank attaches one or more ontology terms to a specific part of the
+image. The integration of Morphbank with the Morphster ontology browser [ref] provides an illustration
+of ontology terms. A user may select a term in Morphster and see annotated Morphbank images that
+are relevant to that term. The inference capabilities of Morphster allow a user to find all images of
+“bone” or just those of “ceratobranchial” or those that exhibit a specific phenotype.
 
 
 ===''Bgee: Integrating ontology and homology for the study of gene expression evolution''===
