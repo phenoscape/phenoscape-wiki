@@ -115,7 +115,7 @@ heterogeneous expression data types are mapped. These include
 microarrays, in situ hybridization, and ESTs, from human, mouse,
 xenopus and zebrafish. Bgee is available at http://bgee.unil.ch/
 
-===Vize Ttitle TBA===
+===Vize title TBA===
 
 Peter Vize
 
