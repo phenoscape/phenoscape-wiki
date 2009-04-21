@@ -10,6 +10,10 @@ title: Publications and Posters
 
 ==Posters & Presentations==
 
+Paula Mabee, Wasila Dahdul, John Lundberg, Peter Midford, Todd Vision,  Hilmar Lapp, Jim Balhoff, Cartik Kothari, Monte Westerfield (2009) "[[Media:Mabee et al. Biocurator 09.pdf|PHENOSCAPE: Curation of evolutionary phenotypes using the MOD model]]". Poster at the 2009 Biocurator Conference in Berlin, Germany.
+
+Wasila Dahdul, Paula Mabee,  John Lundberg, Peter Midford, Todd Vision,  Hilmar Lapp, Jim Balhoff, Cartik Kothari, Melissa Haendel, Monte Westerfield (2009) "[[Media:Dahdul et al. Biocurator 09.pdf|Developing a Multi-species Anatomy Ontology for Teleost Fishes]]". Poster at the 2009 Biocurator Conference in Berlin, Germany.
+
 Jim Balhoff, Cartik Kothari, Hilmar Lapp, Todd Vision (2009) "[[Media:EvoBioOnt_SICB09_Vision.pdf|Software and database resources for curation and management of evolutionary phenotypes]]". Presentation (by T. Vision) at the [http://www.bioontology.org/wiki/index.php/Evolutionary_Biology_and_Ontologies_2009 2nd Evolutionary Biology and Ontologies workshop] in conjunction with the [http://www.sicb.org/meetings/2009/index.php3 Annual Meeting of the Society for Integrative and Comparative Biology (SICB)]. Boston, MA,  January 5, 2009.
 
 Wasila Dahdul (2009) "[[Media:EvoBioOnt_SICB09_Dahdul.pdf|Challenges of developing multi-species anatomy ontologies]]". Presentation at the [http://www.bioontology.org/wiki/index.php/Evolutionary_Biology_and_Ontologies_2009 2nd Evolutionary Biology and Ontologies workshop] in conjunction with the [http://www.sicb.org/meetings/2009/index.php3 Annual Meeting of the Society for Integrative and Comparative Biology (SICB)]. Boston, MA,  January 5, 2009.
