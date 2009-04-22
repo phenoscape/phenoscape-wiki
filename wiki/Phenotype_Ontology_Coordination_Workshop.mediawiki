@@ -2,8 +2,10 @@
 title: Phenotype Ontology Coordination Workshop
 ---
 
-<center><big>'''Phenotype Ontology Coordination Workshop'''</big><br/><br/>A workshop hosted by the National Evolutionary Synthesis Center (NESCent).</center>
+<center><big>'''Phenotype Ontology Coordination Workshop'''</big><br/><br/>A workshop hosted by the National Evolutionary Synthesis Center (NESCent)</center>
 
+__NOTOC__
+<div style="float: right;">__TOC__</div>
 == Location and Date ==
 
 '''Venue:''' National Evolutionary Synthesis Center (NESCent) (<span class="plainlinks">[http://www.nescent.org/about/directions.php directions]</span>, also see <span class="plainlinks">[http://www.nescent.org/about/information.php information for visitors]</span>)
@@ -14,7 +16,7 @@ title: Phenotype Ontology Coordination Workshop
 
 == Introduction ==
 
-The goal of this workshop is to discuss plans for an [http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11691 RCN (Research Coordination Network)] or [http://www.nsf.gov/pubs/2007/nsf07565/nsf07565.htm INTEROP (Community-based Data Interoperability Networks)] application to NSF that we hope to submit later this year.  The grant would provide funds for 5 years worth of meetings and workshops (and in the case of the INTEROP program, implementation to a limited extent) to identify problems and develop methods and plans to describe phenotypes in a much broader range of species. 
+The goal of this workshop is to discuss plans for an [http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11691 RCN (Research Coordination Network)] or [http://www.nsf.gov/pubs/2007/nsf07565/nsf07565.htm INTEROP (Community-based Data Interoperability Networks)] application to NSF that we hope to submit later this year.  The grant would provide funds for 5 years worth of meetings and workshops (and in the case of the INTEROP program, implementation to a limited extent) to identify problems and develop methods and plans to describe phenotypes in a much broader range of species.
 
 Specific goals are to be determined by the workshop participants. An initial list includes establishing and maintaining communication among evolutionary biologists and model organism communities developing ontologies, coordinating efforts among the broader ontology community so that these ontologies are interoperable, and methods to align and reason across multi-species ontologies for phenotype and taxonomy.  The workshop includes interested members from both the model organism and evolutionary biology communities.
 
@@ -50,3 +52,7 @@ Members of the project team are in '''bold font'''.
 {{EventParticipant|Vision|Todd|tjv%40bio%2eunc%2eedu|NESCent, and Department of Biology, University of North Carolina at Chapel Hill|'''}}
 {{EventParticipant|Westerfield|Monte|monte%40uoneuro%2euoregon%2eedu|Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon|'''}}
 |}
+
+[[Category:Community]]
+[[Category:Events]]
+[[Category:Ontology]]
