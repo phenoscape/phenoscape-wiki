@@ -22,7 +22,7 @@ Specific goals are to be determined by the workshop participants. An initial lis
 
 == Agenda ==
 
-''Note that this agenda is still in draft stage and may change considerably until the meeting.''
+''Note that this agenda is still in draft stage and may change before the meeting.''
 
 === Monday, Apr. 27, 2009 ===
 
@@ -31,15 +31,17 @@ Specific goals are to be determined by the workshop participants. An initial lis
 '''Morning:''' What new ontologies are required? How do existing common ontologies need to be extended?
 
 * 8:00 SHUTTLE FROM HOTEL
-* 8:15 Coffee & Continental breakfast
-* 8:30 Welcomes from NESCent (Todd Vision) and participant introductions
-* 9:00 Paula Mabee: Introduction: current phenotype ontology communities (MOD, Evo), where we stand in terms of ontologies and related databases, possibilities for where we go in the next 3-5 years, description of Interop vs. RCN, workshop goals 
-* 9:30 Breakout groups and topics (need note-taker in each group):
+* 8:15 Coffee & pastries
+* 8:30 Welcomes from NESCent (Todd Vision) and participant introductions (2-3 minute lightening talks)
+* 9:00 Paula Mabee: Introduction: current phenotype ontology communities (MOD, Evo), where we stand in terms of ontologies and related databases, possibilities for where we go in the next 3-5 years, description of Interop vs. RCN, workshop goals
+* 9:30-10:15 Breakout groups and topics (need note-taker in each group):
 *# Taxonomy group: Do we need taxonomy ontologies for individual groups or a single reference ontology?  How to ensure interoperability with NCBI taxonomy ontology and associated molecular data (given EvoD need to represent extinct species) – with EoL/GBIF/etc and associated geospatial data?  What specific steps should be taken to support the development of taxonomy ontologies and these integrative activities within the context of a phenotype consortium grant?
 *# Morphology group: How do existing common ontologies (AOs, PATO, CARO, Spatial, institutional collections codes, evidence code) need to be extended? How should multispecies anatomy ontologies be developed in relation to MOD anatomy ontologies, and how should synchrony be maintained?
 *# Ontologies with common time representation problem (developmental time, evolutionary time, paleontology, behavior): Is this a separate ‘core’?  Is it useful to generalize this problem and find common solutions?  Will it enhance interoperability?
+* 10:15-10:45 Group reports
 * 10:45 COFFEE
-* 11:00: Reports from break-out groups and discussion. Are these the ‘core’ groups for the grant or is there a better way to break them out?
+* 11:00-11:45 Taxonomy, Morphology, and Ontologies/time break out groups (different participants in each)
+* 11:45-12:15 Reports from break-out groups
 * 12:15 LUNCH
 
 '''Afternoon:''' Annotation and Interoperability
@@ -53,7 +55,7 @@ Specific goals are to be determined by the workshop participants. An initial lis
 * 3:30: Reports from break out groups and discussion
 * 5:00-6:00: Poster session and drinks
 * 6:30: Van back to hotel
-* 7:30 Van from hotel to dinner (whole group) 
+* 7:30 Van from hotel to dinner (whole group)
 
 === Tuesday, Apr. 27, 2009 ===
 
