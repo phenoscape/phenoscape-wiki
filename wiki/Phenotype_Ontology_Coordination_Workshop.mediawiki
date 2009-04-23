@@ -104,13 +104,17 @@ Members of the project team are in '''bold font'''.
 {{EventParticipant|Dumont|Betsy|bdumont@bio.umass.edu|Department of Biology, Univerity of Massachusetts, Amherst|'''}}
 {{EventParticipant|Huala|Eva|huala@acoma.stanford.edu|The Arabidopsis Information Resource|'''}}
 {{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
-{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
-{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
-{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
-{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
+{{EventParticipant|Lewis|Suzi|suzi@berkeleybop.org|Berkeley Bioinformatics and Ontology Project |'''}}
+{{EventParticipant|Maglia|Anne|magliaa@mst.edu|Missouri University of Science and Technology|'''}}
 {{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|University of South Dakota|'''}}
 {{EventParticipant|Midford|Peter|petermidford%40yahoo%2ecom|Dept. of Ecology and Evolutionary Biology, University of Kansas|'''}}
+{{EventParticipant|Parr|Cyndy|csparr@gmail.com |Smithsonian Institution and Encyclopedia of Life|'''}}
+{{EventParticipant|Riccardi|Grey|riccardi@ci.fsu.edu|"College of Information, 
+Florida State University"|'''}}
+{{EventParticipant|Sereno|Paul|dinosaur@uchicago.edu|University of Chicago|'''}}
+{{EventParticipant|Stoltzfus|Arlin|Stoltzfus|Center for Advanced Research in Biotechnology|'''}}
 {{EventParticipant|Vision|Todd|tjv%40bio%2eunc%2eedu|NESCent, and Department of Biology, University of North Carolina at Chapel Hill|'''}}
+{{EventParticipant|Vize|Peter|pvize@ucalgary.ca|Department of Biology, University of Calgary|'''}}
 {{EventParticipant|Westerfield|Monte|monte%40uoneuro%2euoregon%2eedu|Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon|'''}}
 |}
 
