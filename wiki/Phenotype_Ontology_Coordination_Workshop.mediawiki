@@ -109,8 +109,8 @@ Members of the project team are in '''bold font'''.
 {{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|University of South Dakota|'''}}
 {{EventParticipant|Midford|Peter|petermidford%40yahoo%2ecom|Dept. of Ecology and Evolutionary Biology, University of Kansas|'''}}
 {{EventParticipant|Parr|Cyndy|csparr@gmail.com |Smithsonian Institution and Encyclopedia of Life|'''}}
-{{EventParticipant|Riccardi|Grey|riccardi@ci.fsu.edu|"College of Information, 
-Florida State University"|'''}}
+{{EventParticipant|Riccardi|Grey|riccardi@ci.fsu.edu|College of Information,
+Florida State University|'''}}
 {{EventParticipant|Sereno|Paul|dinosaur@uchicago.edu|University of Chicago|'''}}
 {{EventParticipant|Stoltzfus|Arlin|Stoltzfus|Center for Advanced Research in Biotechnology|'''}}
 {{EventParticipant|Vision|Todd|tjv%40bio%2eunc%2eedu|NESCent, and Department of Biology, University of North Carolina at Chapel Hill|'''}}
