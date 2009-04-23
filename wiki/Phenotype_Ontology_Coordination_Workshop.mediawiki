@@ -99,10 +99,10 @@ Members of the project team are in '''bold font'''.
 ! Name !! Institution
 {{EventParticipant|Blake|Judy|Judith.Blake@jax.org|The Jackson Lab|'''}}
 {{EventParticipant|Coddington|Jonathan|CODDINGTON@si.edu|Department of Entomology, Smithsonian Institution|'''}}
-{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
-{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
-{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
-{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
+{{EventParticipant|Cowell|Lindsey|lgcowell@duke.edu|Duke University Medical Center|'''}}
+{{EventParticipant|Deans|Andy|andy_deans@ncsu.edu|NESCent|'''}}
+{{EventParticipant|Dumont|Betsy|bdumont@bio.umass.edu|Department of Biology, Univerity of Massachusetts, Amherst|'''}}
+{{EventParticipant|Huala|Eva|huala@acoma.stanford.edu|The Arabidopsis Information Resource|'''}}
 {{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
 {{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
 {{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
