@@ -141,5 +141,7 @@ Genotype                              exhibits                 inheres_in(Qualit
 ===Taxon Services===
 These will be implemented for the first time in the ASIH prototype
 
+===Publication Services===
+
 [[Category:Informatics]]
 [[Category:Database]]
