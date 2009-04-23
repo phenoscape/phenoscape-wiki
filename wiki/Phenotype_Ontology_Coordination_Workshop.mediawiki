@@ -46,16 +46,18 @@ Specific goals are to be determined by the workshop participants. An initial lis
 
 '''Afternoon:''' Annotation and Interoperability
 
-* 1:30 – 2:00: Begin with a talk on interoperability (e.g. on OBD cross-species data mining by Monte or Suzi?)
-* 2:00 – 3:15: Breakout groups:
+* 1:30 – 2:00: Case study and analysis; interoperability (Monte Westerfield)
+* 2:00 – 2:45: Breakout groups:
 *# Annotation group: What phenotype curation/annotation needs are there that are not adequately met?  E.g. software, standards, best-practices, education, syntax, etc.
 *# Interoperability group 1 (MOD-EvoD): Develop a plan for interoperability between MODs and EvoDs through ontology synchronization and alignment
 *# Interoperability group 2 (MOD-EvoD): Develop a plan for interoperability among EvoDs, and with other community resources through alignment, considering the types of driving research questions (similarity searches on function, homology, etc.).  What are the most important databases and tools to integrate into this effort?
+* 2:45-3:15 Group reports
 * 3:15 Coffee break
-* 3:30: Reports from break out groups and discussion
-* 5:00-6:00: Poster session and drinks
-* 6:30: Van back to hotel
-* 7:30 Van from hotel to dinner (whole group)
+* 3:30-4:15: Annotation, Interoperability I and II break out groups (different participants)
+* 4:15-5:00: Reports from break outs and discussion
+* 5:00: Van back to hotel
+* 5:30-6:30: Drinks at hotel
+* 6:30 Van from hotel to dinner (whole group)
 
 === Tuesday, Apr. 27, 2009 ===
 
