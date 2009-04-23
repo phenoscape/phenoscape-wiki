@@ -97,9 +97,7 @@ Members of the project team are in '''bold font'''.
 {| border="1" cellpadding="3" cellspacing="0"
 |-
 ! Name !! Institution
-{{EventParticipant|Dahdul|Wasila|dahdul%40acnatsci%2eorg|Department of Ichthyology, Academy of Natural Sciences|'''}}
 {{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
-{{EventParticipant|Lundberg|John|lundberg%40acnatsci%2eorg |Department of Ichthyology, Academy of Natural Sciences|'''}}
 {{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|University of South Dakota|'''}}
 {{EventParticipant|Midford|Peter|petermidford%40yahoo%2ecom|Dept. of Ecology and Evolutionary Biology, University of Kansas|'''}}
 {{EventParticipant|Vision|Todd|tjv%40bio%2eunc%2eedu|NESCent, and Department of Biology, University of North Carolina at Chapel Hill|'''}}
