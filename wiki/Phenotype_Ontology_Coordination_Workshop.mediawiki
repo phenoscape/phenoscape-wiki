@@ -64,13 +64,16 @@ Specific goals are to be determined by the workshop participants. An initial lis
 '''Morning:''' Databases and Trees;
 
 * 8:00 SHUTTLE FROM HOTEL
-* 8:15 Coffee & Continental breakfast
-* 8:45 – 10:00 Break out groups
+* 8:15 Coffee & pastries
+* 8:45 – 9:30 Break out groups
 *# Database group: Do we have database needs for annotations from this grant activity?  Common database, i.e. a vision to create a community resource for comparative phenotype data?
 *# Tree group: How does phylogenetic tree inference vs. mapping intersect with the needs of a phenotype consortium?
 *# Outreach group: What are the priority outreach elements from this grant?  How to make these ontologies and annotations (?) available to the broader community? Training (e.g. summer course at Biosynthesis Center, CSH, NESCent, NCESC? Other?); Develop online tutorials? Infrastructure for basics: mailing list, meeting announcements, etc.
+* 9:30-10:00 Reports from break out groups
 * 10:00-10:15 Coffee
-* 10:15-12:00: Coordination of grant activities and responsibilities
+* 10:15-10:30: Decisions on who will write up break out group ideas
+* 10:30-11:30: Writing
+* 11:30-12:00: Action items, plans, preliminary coordination of grant proposal
 * 12:00 Lunch, participants leave
 
 == Logistics ==
