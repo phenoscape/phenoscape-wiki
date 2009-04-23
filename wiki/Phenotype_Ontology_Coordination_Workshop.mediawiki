@@ -97,24 +97,24 @@ Members of Phenoscape are in '''bold font'''.
 {| border="1" cellpadding="3" cellspacing="0"
 |-
 ! Name !! Institution
-{{EventParticipant|Blake|Judy|Judith.Blake@jax.org|The Jackson Lab|}}
-{{EventParticipant|Coddington|Jonathan|CODDINGTON@si.edu|Department of Entomology, Smithsonian Institution|}}
-{{EventParticipant|Cowell|Lindsey|lgcowell@duke.edu|Duke University Medical Center|}}
-{{EventParticipant|Deans|Andy|andy_deans@ncsu.edu|Department of Entomology, North Carolina State University|}}
+{{EventParticipant|Blake|Judy|Judith.Blake@jax.org|Mouse Genome Database, The Jackson Lab|}}
+{{EventParticipant|Coddington|Jonathan|CODDINGTON@si.edu|Spider Tree of Life and Department of Entomology, Smithsonian Institution|}}
+{{EventParticipant|Cowell|Lindsey|lgcowell@duke.edu|Department of Biostatistics and Bioinformatics, Duke University Medical Center|}}
+{{EventParticipant|Deans|Andy|andy_deans@ncsu.edu|Hymenoptera Tree of Life and Department of Entomology, North Carolina State University|}}
 {{EventParticipant|Dumont|Betsy|bdumont@bio.umass.edu|Department of Biology, University of Massachusetts, Amherst|}}
 {{EventParticipant|Huala|Eva|huala@acoma.stanford.edu|The Arabidopsis Information Resource|}}
-{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
+{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|Phenoscape and NESCent|'''}}
 {{EventParticipant|Lewis|Suzi|suzi@berkeleybop.org|Berkeley Bioinformatics and Ontology Project |}}
-{{EventParticipant|Maglia|Anne|magliaa@mst.edu|Missouri University of Science and Technology|}}
-{{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|Department of Biology, University of South Dakota|'''}}
+{{EventParticipant|Maglia|Anne|magliaa@mst.edu|AmphibAnat and Missouri University of Science and Technology|}}
+{{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|Phenoscape and Department of Biology, University of South Dakota|'''}}
 {{EventParticipant|Midford|Peter|petermidford%40yahoo%2ecom|Department of Ecology and Evolutionary Biology, University of Kansas|'''}}
 {{EventParticipant|Parr|Cyndy|csparr@gmail.com |Smithsonian Institution and Encyclopedia of Life|}}
-{{EventParticipant|Riccardi|Grey|riccardi@ci.fsu.edu|College of Information, Florida State University|}}
+{{EventParticipant|Riccardi|Grey|riccardi@ci.fsu.edu|Morphobank and College of Information, Florida State University|}}
 {{EventParticipant|Sereno|Paul|dinosaur@uchicago.edu|Department of Organismal Biology and Anatomy, University of Chicago|}}
 {{EventParticipant|Stoltzfus|Arlin|Stoltzfus|Center for Advanced Research in Biotechnology|}}
-{{EventParticipant|Vision|Todd|tjv%40bio%2eunc%2eedu|NESCent and Department of Biology, University of North Carolina at Chapel Hill|'''}}
+{{EventParticipant|Vision|Todd|tjv%40bio%2eunc%2eedu|Phenoscape, NESCent and Department of Biology, University of North Carolina at Chapel Hill|'''}}
 {{EventParticipant|Vize|Peter|pvize@ucalgary.ca|Department of Biology, University of Calgary|'''}}
-{{EventParticipant|Westerfield|Monte|monte%40uoneuro%2euoregon%2eedu|Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon|'''}}
+{{EventParticipant|Westerfield|Monte|monte%40uoneuro%2euoregon%2eedu|Zebrafish Information Network (ZFIN), Phenoscape and Institute of Neuroscience, University of Oregon|'''}}
 |}
 
 [[Category:Community]]
