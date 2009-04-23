@@ -97,6 +97,16 @@ Members of the project team are in '''bold font'''.
 {| border="1" cellpadding="3" cellspacing="0"
 |-
 ! Name !! Institution
+{{EventParticipant|Blake|Judy|Judith.Blake@jax.org|The Jackson Lab|'''}}
+{{EventParticipant|Coddington|Jonathan|CODDINGTON@si.edu|Department of Entomology, Smithsonian Institution|'''}}
+{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
+{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
+{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
+{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
+{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
+{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
+{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
+{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
 {{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
 {{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|University of South Dakota|'''}}
 {{EventParticipant|Midford|Peter|petermidford%40yahoo%2ecom|Dept. of Ecology and Evolutionary Biology, University of Kansas|'''}}
