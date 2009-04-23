@@ -106,7 +106,7 @@ Members of the project team are in '''bold font'''.
 {{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
 {{EventParticipant|Lewis|Suzi|suzi@berkeleybop.org|Berkeley Bioinformatics and Ontology Project |}}
 {{EventParticipant|Maglia|Anne|magliaa@mst.edu|Missouri University of Science and Technology|}}
-{{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|University of South Dakota|}}
+{{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|University of South Dakota|'''}}
 {{EventParticipant|Midford|Peter|petermidford%40yahoo%2ecom|Dept. of Ecology and Evolutionary Biology, University of Kansas|'''}}
 {{EventParticipant|Parr|Cyndy|csparr@gmail.com |Smithsonian Institution and Encyclopedia of Life|}}
 {{EventParticipant|Riccardi|Grey|riccardi@ci.fsu.edu|College of Information, Florida State University|}}
