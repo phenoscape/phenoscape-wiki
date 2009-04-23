@@ -100,8 +100,8 @@ Members of Phenoscape are in '''bold font'''.
 {{EventParticipant|Blake|Judy|Judith.Blake@jax.org|The Jackson Lab|}}
 {{EventParticipant|Coddington|Jonathan|CODDINGTON@si.edu|Department of Entomology, Smithsonian Institution|}}
 {{EventParticipant|Cowell|Lindsey|lgcowell@duke.edu|Duke University Medical Center|}}
-{{EventParticipant|Deans|Andy|andy_deans@ncsu.edu|Department of Entomology, NC State University|}}
-{{EventParticipant|Dumont|Betsy|bdumont@bio.umass.edu|Department of Biology, Univerity of Massachusetts, Amherst|}}
+{{EventParticipant|Deans|Andy|andy_deans@ncsu.edu|Department of Entomology, North Carolina State University|}}
+{{EventParticipant|Dumont|Betsy|bdumont@bio.umass.edu|Department of Biology, University of Massachusetts, Amherst|}}
 {{EventParticipant|Huala|Eva|huala@acoma.stanford.edu|The Arabidopsis Information Resource|}}
 {{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|NESCent|'''}}
 {{EventParticipant|Lewis|Suzi|suzi@berkeleybop.org|Berkeley Bioinformatics and Ontology Project |}}
