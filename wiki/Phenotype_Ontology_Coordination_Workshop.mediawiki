@@ -92,7 +92,7 @@ Specific goals are to be determined by the workshop participants. An initial lis
 
 == Participants ==
 
-Members of the project team are in '''bold font'''.
+Members of Phenoscape are in '''bold font'''.
 
 {| border="1" cellpadding="3" cellspacing="0"
 |-
