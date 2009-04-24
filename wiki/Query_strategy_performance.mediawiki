@@ -540,7 +540,7 @@ publication_link.object_id = (SELECT node_id FROM node WHERE uid LIKE '%North Am
 
 ===Discussion===
 
-This query is very slow in terms of execution. When the taxon results are excluded, the query is much faster returning 49 rows (unique phenotypes documented in this publication) in about 3 seconds.
+This query is very slow in terms of execution. When the taxon results are excluded, the query is much faster returning 49 rows (unique phenotypes documented in this publication) in about 3 seconds. This may be improved by creating a separate table listing publications, the phenotypes they describe and the taxa exhibiting these phenotypes that are recorded in each publication
 
 ==Conclusion and potential areas for improvement==
 
