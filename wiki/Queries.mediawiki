@@ -158,7 +158,7 @@ This service retrieves the summaries of all the phenotype data in the database. 
 This service retrieves the details of all the phenotype data in the database. Retrieved data may be filtered by taxon, gene, character, anatomical entity, and publication. 
 
 
-===
+
 
 [[Category:Informatics]]
 [[Category:Database]]
