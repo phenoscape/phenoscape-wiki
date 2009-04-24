@@ -540,7 +540,7 @@ publication_link.object_id = (SELECT node_id FROM node WHERE uid LIKE '%North Am
 
 ===Discussion===
 
-The results obtained by this query
+This query is very slow in terms of execution. When the taxon results are excluded, the query is much faster
 
 ==Conclusion and potential areas for improvement==
 
