@@ -111,7 +111,7 @@ Members of Phenoscape are in '''bold font'''.
 {{EventParticipant|Riccardi|Greg|riccardi%40ci%2efsu%2eedu|College of Information, Florida State University|}}
 {{EventParticipant|Sereno|Paul|dinosaur%40uchicago%2eedu|University of Chicago|}}
 {{EventParticipant|Stoltzfus|Arlin|arlin%2estoltzfus%40nist%2egov|Center for Advanced Research in Biotechnology, University of Maryland|}}
-{{EventParticipant|Vision|Todd|tjv%40bio%2eunc%2eedu| Phenoscape and Department of Biology, University of North Carolian and NESCent|'''}}
+{{EventParticipant|Vision|Todd|tjv%40bio%2eunc%2eedu|Phenoscape, NESCent, and Department of Biology, University of North Carolina at Chapel Hill|'''}}
 {{EventParticipant|Vize|Peter|pvize%40ucalgary%2eca|Department of Biology, University of Calgary|}}
 {{EventParticipant|Westerfield|Monte|monte%40uoneuro%2euoregon%2eedu| Phenoscape, Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon |'''}}
 |}
