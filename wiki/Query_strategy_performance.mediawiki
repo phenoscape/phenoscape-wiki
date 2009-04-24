@@ -476,7 +476,7 @@ This strategy offers the fastest performance yet when the fin (TAO:0000108) is s
 
 ==Publications==
 
-Retrieved phenotype data summaries and details needs to be filtered by publications they originate from. This adds a new dimension to the query execution. 
+Retrieved phenotype data summaries and details needs to be filtered by publications they originate from. This adds a new dimension to the query execution.
 
 ==Conclusion and potential areas for improvement==
 
@@ -519,3 +519,6 @@ The attribute identification for a quality can be done by simply reading from th
 ===Comparison parameters===
 
 Note that in almost all the queries discussed so far, the query looks up the node ID for relations such as "''PHENOSCAPE:exhibits''" and so forth. If these can be statically read in to the client side application during data load time, hundreds of thousands of lookup operations will be saved over tens of thousands of queries as a result. The materialized views option can be used at database refresh/reload time to generate tables for these relationships so that relation lookups such as these can be optimized. Alternatively, a feature to update the node ID values on the client side at every data refresh/reload of the Phenoscape database may be implemented in the future for this purpose
+
+[[Category:Queries]]
+[[Category: Query Execution]]
