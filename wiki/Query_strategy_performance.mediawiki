@@ -540,7 +540,7 @@ publication_link.object_id = (SELECT node_id FROM node WHERE uid LIKE '%North Am
 
 ===Discussion===
 
-The results obtained by this query are consistent with the requirements of the anatomy data service. The query performance is also very stable (approx. 9.8 seconds) over repeated executions. This time was recorded for querying over fins. Querying for the root entity of TAO will expectedly result in much longer execution times.
+The results obtained by this query
 
 ==Conclusion and potential areas for improvement==
 
