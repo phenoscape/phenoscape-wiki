@@ -522,3 +522,5 @@ Note that in almost all the queries discussed so far, the query looks up the nod
 
 [[Category:Queries]]
 [[Category: Query Execution]]
+[[Category:Informatics]]
+[[Category:Database]]
