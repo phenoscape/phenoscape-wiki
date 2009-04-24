@@ -476,7 +476,7 @@ This strategy offers the fastest performance yet when the fin (TAO:0000108) is s
 
 ==Publications==
 
-Retrieved phenotype data summaries and details needs to be filtered by publications they originate from. This adds a new dimension to the query execution.
+Retrieved phenotype data summaries and details needs to be filtered by publications they originate from. This adds a new dimension to the query execution. Retrieved data must be displayed in the format shown below
 
 ==Conclusion and potential areas for improvement==
 
