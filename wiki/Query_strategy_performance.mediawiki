@@ -482,6 +482,65 @@ Phenotype           Taxon            Quality            Character            Ent
 </javascript>
 
 ===Retrieving publication data by specifying order of TABLE JOINs===
+This strategy specifies the [[Queries#Strategy_#2:_Specifying_the_order_of_table_joins_in_the_original_query|order of table joins in the query itself]] for efficiency. The relations among phenotypes, characterstatedata, datasets and publications are leveraged. Given below is a query to retrieve all the phenotypes, associated taxa, entities, and characters that are taken from one of the larger publications in the collection in terms of number of curations viz.. 
+
+===Query===
+<sql>
+SELECT DISTINCT
+phenotype_node.uid AS phenotype,
+taxon_node.uid AS taxon_id,
+taxon_node.label AS taxon_label,
+entity_node.uid AS entity_id,
+entity_node.label AS entity_label,
+quality_node.uid AS quality_id,
+quality_node.label AS quality_label,
+character_node.uid AS character_id,
+character_node.label AS character_label,
+publication_node.uid AS publication_id
+FROM
+link AS publication_link
+JOIN node AS publication_node ON (publication_link.object_id = publication_node.node_id)
+JOIN node AS ds_node ON (publication_link.node_id = ds_node.node_id)
+JOIN link AS posited_link ON (posited_link.object_id = ds_node.node_id)
+JOIN node AS annotation_node ON (posited_link.node_id = annotation_node.node_id)
+JOIN link AS state_link1 ON (state_link1.node_id = annotation_node.node_id)
+JOIN node AS csdatum_node ON (state_link1.object_id = csdatum_node.node_id)
+JOIN link AS state_link2 ON (state_link2.node_id = csdatum_node.node_id)
+JOIN node AS csdomain_node ON (state_link2.object_id = csdomain_node.node_id)
+JOIN link AS phenotype_link ON (phenotype_link.node_id = csdomain_node.node_id)
+JOIN node AS phenotype_node ON (phenotype_link.object_id = phenotype_node.node_id)
+JOIN link AS inheres_in_link ON (inheres_in_link.node_id = phenotype_node.node_id)
+JOIN node AS entity_node ON (inheres_in_link.object_id = entity_node.node_id)
+JOIN link AS is_a_link ON (is_a_link.node_id = phenotype_node.node_id)
+JOIN node AS quality_node ON (is_a_link.object_id = quality_node.node_id)
+JOIN link AS value_for_link ON (value_for_link.node_id = quality_node.node_id)
+JOIN node AS character_node ON (value_for_link.object_id = character_node.node_id)
+JOIN link AS exhibits_link ON (exhibits_link.object_id = phenotype_node.node_id)
+JOIN node AS taxon_node ON (exhibits_link.node_id = taxon_node.node_id)
+WHERE
+exhibits_link.is_inferred = 'f' AND
+is_a_link.is_inferred = 'f' AND
+inheres_in_link.is_inferred = 'f' AND
+exhibits_link.predicate_id = (SELECT node_id FROM node WHERE uid = 'PHENOSCAPE:exhibits') AND
+is_a_link.predicate_id = (SELECT node_id FROM node WHERE uid = 'OBO_REL:is_a') AND
+inheres_in_link.predicate_id = (SELECT node_id FROM node WHERE uid = 'OBO_REL:inheres_in') AND
+value_for_link.predicate_id = (SELECT node_id FROM node WHERE uid = 'PHENOSCAPE:value_for') AND
+state_link1.predicate_id = (SELECT node_id FROM node WHERE uid = 'cdao:has_State') AND
+state_link2.predicate_id = (SELECT node_id FROM node WHERE uid = 'cdao:has_State') AND
+phenotype_link.predicate_id = (SELECT node_id FROM node WHERE uid = 'cdao:has_Phenotype') AND
+posited_link.predicate_id = (SELECT node_id FROM node WHERE uid = 'posited_by') AND
+publication_link.predicate_id = (SELECT node_id FROM node WHERE uid = 'PHENOSCAPE:has_publication') AND
+publication_link.object_id = (SELECT node_id FROM node WHERE uid LIKE '%North American Cyprinidae%');
+</sql>
+
+===Execution details===
+
+* Rows returned: 
+* Execution time: Approx. 9.8 seconds
+
+===Discussion===
+
+The results obtained by this query are consistent with the requirements of the anatomy data service. The query performance is also very stable (approx. 9.8 seconds) over repeated executions. This time was recorded for querying over fins. Querying for the root entity of TAO will expectedly result in much longer execution times.
 
 ==Conclusion and potential areas for improvement==
 
