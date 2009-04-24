@@ -535,7 +535,7 @@ publication_link.object_id = (SELECT node_id FROM node WHERE uid LIKE '%North Am
 
 ===Execution details===
 
-* Rows returned:
+* Rows returned: 5706
 * Execution time: Approx.
 
 ===Discussion===
