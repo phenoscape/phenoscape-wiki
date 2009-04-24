@@ -43,7 +43,7 @@ Following the query execution, the retrieved data is transferred to the client s
 
 ==Relations of interest==
 
-The relations described in this section are of use in finding information about specific anatomical features, and are therefore leveraged in the implementation of [[Queries#Anatomical_Entity_Services|Anatomical Entity Services]] module of the Phenoscape application.
+The relations described in this section are of use in finding information about phenotypes, and are therefore leveraged in the implementation of the phenotype summary and details modules of the Phenoscape application.
 
 Post compositions of Entities and Qualities are used to relate taxa and phenotypes through the ''exhibits'' relation as shown in (1).
 <javascript>
@@ -64,6 +64,21 @@ Qualities and Anatomical entities are subclassed in the PATO and TAO hierarchies
 <javascript>
 Value                              is_a                    Attribute                                                          -- (5)
 Sub Anatomical Feature             is_a                    Anatomical Feature                                                 -- (6)
+</javascript>
+
+Phenotypes can also be traced back to the publications and datasets they are extracted from as explained below. Phenotype data summaries and details retrieved by the services modules of Phenoscape are filtered by publications as well.
+
+Every dataset is associated with a publication as shown in (7). The list of link statements posited by a dataset can be retrieved by traversing the relation shown in (8)
+<javascript>
+DataSet                            has_publication         Publication                                                        -- (7)
+LinkStatement                      posited_by              Dataset                                                            -- (8)
+</javascript>
+
+Each of these link statements can be traced to a specific phenotypes as shown by the links in (9) ~ (11)
+<javascript>
+LinkStatement                      has_state               CharacterStateDatum                                                -- (9)
+CharacterStateDatum                has_state               CharacterStateDomain                                               -- (10)
+CharacterStateDomain               has_phenotype           Phenotype                                                          -- (11) 
 </javascript>
 
 ==Querying strategies==
