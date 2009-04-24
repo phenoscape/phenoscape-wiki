@@ -66,19 +66,26 @@ Value                              is_a                    Attribute            
 Sub Anatomical Feature             is_a                    Anatomical Feature                                                 -- (6)
 </javascript>
 
-Phenotypes can also be traced back to the publications and datasets they are extracted from as explained below. Phenotype data summaries and details retrieved by the services modules of Phenoscape are filtered by publications as well.
+The relationships between genes and genotypes and the phenotypes are shown in (7) and (8). These are used to retrieve gene related data
 
-Every dataset is associated with a publication as shown in (7). The list of link statements posited by a dataset can be retrieved by traversing the relation shown in (8)
 <javascript>
-DataSet                            has_publication         Publication                                                        -- (7)
-LinkStatement                      posited_by              Dataset                                                            -- (8)
+Gene                               has_allele               Genotype                                                          -- (7)
+Genotype                           exhibits                 inheres_in(Quality, Entity)                                       -- (8)
 </javascript>
 
-Each of these link statements can be traced to a specific phenotypes as shown by the links in (9) ~ (11)
+Phenotypes can also be traced back to the publications and datasets they are extracted from as explained below. Phenotype data summaries and details retrieved by the services modules of Phenoscape are filtered by publications as well.
+
+Every dataset is associated with a publication as shown in (9). The list of link statements posited by a dataset can be retrieved by traversing the relation shown in (10)
 <javascript>
-LinkStatement                      has_state               CharacterStateDatum                                                -- (9)
-CharacterStateDatum                has_state               CharacterStateDomain                                               -- (10)
-CharacterStateDomain               has_phenotype           Phenotype                                                          -- (11) 
+DataSet                            has_publication         Publication                                                        -- (9)
+LinkStatement                      posited_by              Dataset                                                            -- (10)
+</javascript>
+
+Each of these link statements can be traced to a specific phenotypes as shown by the links in (11) ~ (13)
+<javascript>
+LinkStatement                      has_state               CharacterStateDatum                                                -- (11)
+CharacterStateDatum                has_state               CharacterStateDomain                                               -- (12)
+CharacterStateDomain               has_phenotype           Phenotype                                                          -- (13)
 </javascript>
 
 ==Querying strategies==
