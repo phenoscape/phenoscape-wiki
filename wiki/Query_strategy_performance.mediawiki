@@ -482,7 +482,7 @@ Phenotype           Taxon            Quality            Character            Ent
 </javascript>
 
 ===Retrieving publication data by specifying order of TABLE JOINs===
-This strategy specifies the [[Queries#Strategy_#2:_Specifying_the_order_of_table_joins_in_the_original_query|order of table joins in the query itself]] for efficiency. The relations among phenotypes, characterstatedata, datasets and publications are leveraged. Given below is a query to retrieve all the phenotypes, associated taxa, entities, and characters that are taken from one of the larger publications in the collection in terms of number of curations viz.. 
+This strategy specifies the [[Queries#Strategy_#2:_Specifying_the_order_of_table_joins_in_the_original_query|order of table joins in the query itself]] for efficiency. The [[Queries#Relations_of_interest|relations among phenotypes, characterstatedata, datasets and publications]] are leveraged. Given below is a query to retrieve all the phenotypes, associated taxa, entities, and characters that are taken from one of the larger publications in the collection in terms of number of curations viz..
 
 ===Query===
 <sql>
