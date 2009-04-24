@@ -107,7 +107,6 @@ Members of Phenoscape are in '''bold font'''.
 {{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|Phenoscape and Department of Biology, University of South Dakota|'''}}
 {{EventParticipant|Maglia|Anne|magliaa%40mst%2eedu|Missouri University of Science and Technology|}}
 {{EventParticipant|Midford|Peter|peter%2emidford%40gmail%2ecom| Phenoscape and Dept. of Ecology and Evolutionary Biology, University of Kansas|'''}}
-{{EventParticipant|Miranker|Daniel|miranker%40cs%2eutexas%2eedu|Department of Computer Sciences, University of Texas, Austin|}}
 {{EventParticipant|Parr|Cyndy|csparr%40gmail%2ecom |Smithsonian Institution and Encyclopedia of Life|}}
 {{EventParticipant|Riccardi|Greg|riccardi%40ci%2efsu%2eedu|College of Information, Florida State University|}}
 {{EventParticipant|Sereno|Paul|dinosaur%40uchicago%2eedu|University of Chicago|}}
