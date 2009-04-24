@@ -518,6 +518,6 @@ Note that in almost all the queries discussed so far, the query looks up the nod
 
 
 
-= Taxon data services =
+
 
 = Publication data services =
