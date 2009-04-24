@@ -8,7 +8,7 @@ The Phenoscape prototype demonstrated at the SICB workshop (the SICB prototype) 
 
 * NOTE: Familiary with SQL and PostgreSQL stored procedures may be necessary to fully comprehend these contents.
 
-= Anatomy data services =
+= Phenotype data summaries and details services =
 
 Given a specific anatomical entity A, the requirements of the anatomy data service module are as follows:
 
