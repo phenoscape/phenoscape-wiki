@@ -152,7 +152,7 @@ These are some of the modules that will be a part of the ASIH prototype.
 This service find matches for terms entered by the user in a search field. Retrieved matches are used as prompts to auto complete the field. Matches for the entered term can be retrieved by the labels on the term ('bon' can match a term with label 'bony' or 'bone' for example), synonyms, and definitions optionally.
 
 ===Term Info Service===
-This service finds all the information relevant to a given term, viz. label, synonyms if any, definitions if any, and lists of parent and child terms that are related to this term. 
+This service finds all the information relevant to a given term, viz. label, synonyms if any, definitions if any, and lists of parent and child terms that are related to this term.
 
 ===Phenotype Data Summary Service===
 This service retrieves the summaries of all the phenotype data in the database. Retrieved data may be filtered by taxon, gene, character, anatomical entity, and publication.
@@ -162,3 +162,4 @@ This service retrieves the details of all the phenotype data in the database. Re
 
 [[Category:Informatics]]
 [[Category:Database]]
+[[Category:Queries]]
