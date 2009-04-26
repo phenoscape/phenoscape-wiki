@@ -50,7 +50,7 @@ Specific goals are to be determined by the workshop participants. An initial lis
 * 2:00 – 2:45: Breakout groups:
 *# Annotation group: What phenotype curation/annotation needs are there that are not adequately met?  E.g. software, standards, best-practices, education, syntax, etc.
 *# Interoperability group 1 (MOD-EvoD): Develop a plan for interoperability between MODs and EvoDs through ontology synchronization and alignment
-*# Interoperability group 2 (MOD-EvoD): Develop a plan for interoperability among EvoDs, and with other community resources through alignment, considering the types of driving research questions (similarity searches on function, homology, etc.).  What are the most important databases and tools to integrate into this effort?
+*# Interoperability group 2 (EvoD-EvoD): Develop a plan for interoperability among EvoDs, and with other community resources through alignment, considering the types of driving research questions (similarity searches on function, homology, etc.).  What are the most important databases and tools to integrate into this effort?
 * 2:45-3:15 Group reports
 * 3:15 Coffee break
 * 3:30-4:15: Annotation, Interoperability I and II break out groups (different participants)
