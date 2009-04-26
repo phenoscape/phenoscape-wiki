@@ -106,6 +106,7 @@ Members of Phenoscape are in '''bold font'''.
 {{EventParticipant|Lewis|Suzi|suzi%40berkeleybop%2eorg|Berkeley Bioinformatics and Ontology Project |}}
 {{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|Phenoscape and Department of Biology, University of South Dakota|'''}}
 {{EventParticipant|Maglia|Anne|magliaa%40mst%2eedu|Missouri University of Science and Technology|}}
+{{EventParticipant|Mast|Austin|amast%40bio%2efsu%2eedu|Florida State University|}}
 {{EventParticipant|Midford|Peter|peter%2emidford%40gmail%2ecom| Phenoscape and Dept. of Ecology and Evolutionary Biology, University of Kansas|'''}}
 {{EventParticipant|Parr|Cyndy|csparr%40gmail%2ecom |Smithsonian Institution and Encyclopedia of Life|}}
 {{EventParticipant|Riccardi|Greg|riccardi%40ci%2efsu%2eedu|College of Information, Florida State University|}}
