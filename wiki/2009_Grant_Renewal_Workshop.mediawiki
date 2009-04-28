@@ -1,0 +1,81 @@
+---
+title: 2009 Grant Renewal Workshop
+---
+
+<center><big>'''Phenotype Grant Renewal Workshop'''</big><br/><br/>A workshop hosted by the National Evolutionary Synthesis Center (NESCent)</center>
+
+__NOTOC__
+<div style="float: right;">__TOC__</div>
+== Location and Date ==
+
+'''Venue:''' National Evolutionary Synthesis Center (NESCent) (<span class="plainlinks">[http://www.nescent.org/about/directions.php directions]</span>, also see <span class="plainlinks">[http://www.nescent.org/about/information.php information for visitors]</span>)
+
+'''Date:''' April 28-29, 2009
+
+'''Organizers:''' Paula Mabee, Monte Westerfield, Todd Vision
+
+== Introduction ==
+
+The goal of this workshop is to discuss plans for an [http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11691 RCN (Research Coordination Network)] or [http://www.nsf.gov/pubs/2007/nsf07565/nsf07565.htm INTEROP (Community-based Data Interoperability Networks)] application to NSF that we would submit in July or August 2009.  The grant would provide funds for 3-5 years of meetings and workshops (and in the case of the INTEROP program, implementation to a limited extent) to identify problems and develop methods and plans to describe phenotypes in a much broader range of species.
+
+Specific goals are to be determined by the workshop participants. An initial list includes establishing and maintaining communication among evolutionary biologists and model organism communities developing ontologies, coordinating efforts among the broader ontology community so that these ontologies are interoperable, and methods to align and reason across multi-species ontologies for phenotype and taxonomy.  The workshop includes interested members from both the model organism and evolutionary biology communities.
+
+== Agenda ==
+
+''Note that this agenda is still in draft stage and may change before the meeting.''
+
+=== Tuesday, Apr. 27, 2009 ===
+
+'''Afternoon:'''
+
+* 1:30: 
+* 3:15 Coffee break
+* 5:00: Van back to hotel
+* 6:30 Van from hotel to dinner (whole group)
+
+=== Wednesday, Apr. 28, 2009 ===
+
+'''Morning:''' 
+
+* 8:00 SHUTTLE FROM HOTEL
+* 8:15 Coffee & pastries
+* 10:45 COFFEE
+* 12:15 LUNCH
+
+'''Afternoon:'''
+
+* 1:30: 
+* 3:15 Coffee break
+* 5:00: Van back to hotel
+* 6:30 Van from hotel to dinner (whole group)
+
+== Logistics ==
+
+* For long-distance participants, the hotel is the [http://www.millenniumhotels.com/MCIL.nsf/LU_HOTELDOC/113$$HotelDescription?OpenDocument Millennium Hotel] (2800 Campus Walk Ave, Durham, NC  27705; tel. (919) 383-8575)
+* For dining & entertainment, NESCent is right across from [http://www.ninthst.com/ Ninth Street]
+* For the venue, NESCent is in the historic [http://www.owdna.org/mill.htm Erwin Mills] building (<span class="plainlinks">[http://www.nescent.org/about/directions.php directions]</span>)
+
+== Reading ==
+
+* Within the Phenoscape project, we have been tagging interesting references about phenotype and taxonomy ontologies by using the tag "<span class="plainlinks">[http://www.connotea.org/tag/phenoscape phenoscape]</span>" on Connotea. Everyone is welcome to suggest references by using this tag.
+
+== Participants ==
+
+Members of Phenoscape are in '''bold font'''.
+
+{| border="1" cellpadding="3" cellspacing="0"
+|-
+! Name !! Institution
+{{EventParticipant|Blake|Judy|Judith%2eBlake%40jax%2eorg|The Jackson Laboratory |}}
+{{EventParticipant|Dahdul|Wasila|Wasila%2eDahdul%40usd%2eedu|Phenoscape, and Department of Biology, University of South Dakota|'''}}
+{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|Phenoscape, and NESCent|'''}}
+{{EventParticipant|Lewis|Suzi|suzi%40berkeleybop%2eorg|Berkeley Bioinformatics and Ontology Project |}}
+{{EventParticipant|Lundberg|John|johnlundb%40gmail%2ecom|Phenoscape, and Department of Ichthyology, Academy of Natural Sciences|'''}}
+{{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|Phenoscape, and Department of Biology, University of South Dakota|'''}}
+{{EventParticipant|Maglia|Anne|magliaa%40mst%2eedu|Missouri University of Science and Technology|}}
+{{EventParticipant|Midford|Peter|peter%2emidford%40gmail%2ecom|Dept. of Ecology and Evolutionary Biology, University of Kansas|'''}}
+{{EventParticipant|Sereno|Paul|dinosaur%40uchicago%2eedu|University of Chicago|}}
+{{EventParticipant|Vision|Todd|tjv%40bio%2eunc%2eedu|Phenoscape, NESCent, and Department of Biology, University of North Carolina at Chapel Hill|'''}}
+{{EventParticipant|Vize|Peter|pvize%40ucalgary%2eca|Department of Biology, University of Calgary|}}
+{{EventParticipant|Westerfield|Monte|monte%40uoneuro%2euoregon%2eedu|Phenoscape, Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon |'''}}
+|}
