@@ -77,3 +77,5 @@ Members of Phenoscape are in '''bold font'''.
 {{EventParticipant|Vize|Peter|pvize%40ucalgary%2eca|Department of Biology, University of Calgary|}}
 {{EventParticipant|Westerfield|Monte|monte%40uoneuro%2euoregon%2eedu|Phenoscape, Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon |'''}}
 |}
+
+[[Category:Events]]
