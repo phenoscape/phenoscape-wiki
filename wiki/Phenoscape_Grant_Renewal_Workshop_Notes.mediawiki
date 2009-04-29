@@ -2,7 +2,7 @@
 title: Phenoscape Grant Renewal Workshop/Notes
 ---
 
-== Wednesday afternooon ==
+== Tuesday afternooon ==
 
 * Will be extending the taxonomic scope to extant and extinct vertebrates
 ** Create an annotation database spanning the taxonomic scope and their anatomy ontologies
@@ -50,6 +50,8 @@ title: Phenoscape Grant Renewal Workshop/Notes
 ** Formalizing and generating grammar of character coding and character state definition
 ** Analyzing character usage (shared, not shared, rejected) between trees that share taxa
 ** Conflicting phylogenies for the same set of taxa often turn out to be based on character codings that are not consistent or not compatible
+
+[[Category:Events]]
 
 == Idea bin ==
 
