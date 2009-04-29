@@ -53,6 +53,27 @@ title: Phenoscape Grant Renewal Workshop/Notes
 
 [[Category:Events]]
 
+== Wednesday morning ==
+
+* Nomenclatural history of terms in ontologies
+** Current exchange format standards don't support this really beyond obsoletion
+** ZFIN tracks within the database the complete nomenclatural history of gene names
+** RDBOM tracks literature and author attribution for anatomy terms but not yet nomenclatural history
+* Character quality profiles for data matrices
+** Addresses the question of "Where in the skeleton are the changes occurring that drive the phylogeny"
+** Distribution of characters across the skeletal anatomy, at different levels of the hierarchy
+** Distribution of missing data across the anatomy, at different hierarchy levels
+** How many taxa have how much missing data, distributed on which anatomical parts
+* Use case: Character redundancy
+** Deriving a character profile across the anatomy could help visualize the redundancy between annotations
+* Use case: Mapping the evolutionary characters that lead (and distinguish) to a model organism. Subsequently, see whether these evolutionary changes and the order in which they appear to the ontogeny of the organism.
+** Will need to deal with character gaps and with character redundancy for this.
+
+'''Specific goals:'''
+# Expand taxonomic coverage of Phenoscape to Vertebrata
+#* Mouse is done but needs to be rearranged (MP decomposition)
+#* Amniotes need to be done from the ground up
+
 == Idea bin ==
 
 * Intermine connection (multiple model organisms, AJAX-based widget for displaying protein family tree)
