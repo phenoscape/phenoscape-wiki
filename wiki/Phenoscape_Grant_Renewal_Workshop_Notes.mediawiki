@@ -1,0 +1,56 @@
+---
+title: Phenoscape Grant Renewal Workshop/Notes
+---
+
+== Wednesday afternooon ==
+
+* Will be extending the taxonomic scope to extant and extinct vertebrates
+** Create an annotation database spanning the taxonomic scope and their anatomy ontologies
+** Three multi-species anatomy ontologies are being developed: teleosts, amphibians, mammalian anatomy
+** Tree mapping: show when an evolutionary phenotype first appeared
+* EQ support in all involved model organism databases
+** Structure of MP is not consistent with anatomy, or with PATO
+** Mapping from MP to EQ syntax is being worked on
+** MGI isn't in a position to use EQ internally, but for example Phenoscape could provide an EQ-view on mouse phenotypes, using the decomposition of MP into anatomy (or entity) and quality term cross-product
+** Full EQ annotation for OMIM is being planned but not yet funded
+** MGI, Xenbase, and ZFIN all have links from their phenotype data to OMIM
+* Development of anatomy
+** Different approaches between MGI and ZFIN:
+*** MGI uses complete anatomy at different developmental stages
+*** ZFIN uses one anatomy ontology and adds start and end dates to indicate the developmental period during which it appears (adult structures don't have an end date)
+*** Xenbase uses the ZFIN approach
+** Candidate genes for evolutionary change could be derived from anatomy-annotated gene expression studies during development
+*** genes responsible for or associated with morphological changes during individual development could be candidates for evolutionary change
+*** evolutionary phenotype changes could be used to query morphological changes during development
+** Can we enable queries to generate hyptheses based on ontogeny reflecting evolutionary history?
+*** Evolutionary developmental data could come from medaka, stickleback
+* Sequence of steps:
+*# Ontology building
+*#* Adult phenotype annotations for mutants in Xenbase
+*#* Presently only 3 species for amphibians: Xenopus, Dermophis, Salamandria
+*#* Development decoupling from anatomy ontology in mouse
+*#* Expanding mammalian anatomy to include extinct species
+*#* Anatomy for amniotes (the clade including mouse and dinosaurs), including extinct taxa (such as dinosaurs)
+*#** Scope of this could be overwhelming
+*#** Should be strongly driven (or staged) according to the character matrices to be annotated
+*#** Chicken anatomy could provide a starting point?
+*#** There is work on bird anatomy that uses a latin naming scheme
+*#** Work on any smaller-scope anatomy (or multi-species anatomy) ontology will contribute terms that apply more broadly
+*#** There may not be very many neomorphs between birds and mammals, though there are a few areas such as the digits in birds where the exact homology relationships aren't as clearly agreed upon.
+*# Mammalian phenotype decomposition
+*#* Need support for QC'ing the results of automated decomposition
+*#* Alignment of MP with mouse anatomy
+*# Annotation
+*#* Which published character matrices are there for dinosaurs?
+* Ontology mapping and alignment
+** Need to align teleost and amphibian anatomy to mouse.
+** Mouse and chicken need to be mapped to amniote anatomy. Mouse is a better start because there are genetic data.
+* Reconciling character-derived trees and character definition and use between different matrices and trees that share taxa (Paul)
+** [http://taxonsearch.org TaxonSearch]
+** Formalizing and generating grammar of character coding and character state definition
+** Analyzing character usage (shared, not shared, rejected) between trees that share taxa
+** Conflicting phylogenies for the same set of taxa often turn out to be based on character codings that are not consistent or not compatible
+
+== Idea bin ==
+
+* Intermine connection (multiple model organisms, AJAX-based widget for displaying protein family tree)
