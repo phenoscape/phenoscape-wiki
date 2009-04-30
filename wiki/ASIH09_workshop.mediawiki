@@ -2,7 +2,7 @@
 title: ASIH09 workshop
 ---
 
-==Workshop on "Ontologies for Ichtyology and Herpetology"==
+==Workshop on "Ontologies for Ichthyology and Herpetology"==
 
 Held in conjunction with the 2009 ASIH meetings, Portland Oregon, July 2009
 
