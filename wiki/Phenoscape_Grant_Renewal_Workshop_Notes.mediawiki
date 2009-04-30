@@ -74,6 +74,38 @@ title: Phenoscape Grant Renewal Workshop/Notes
 #* Mouse is done but needs to be rearranged (MP decomposition)
 #* Amniotes need to be done from the ground up
 
+== Wednesday afternoon ==
+
+* Problem of lossy transformation of legacy character data
+** EQ annotation is often at a lesser granularity (or level of detail) than the original free text description
+** This isn't due to any technological obstacles but rather due to the limited resources available for annotation.
+** Annotation effort is best focused to a granularity level where it suffices to solve a use-case of interest.
+** Annotating at very granular levels is entirely possible but can take a lot of time because many of the ontology terms needed are likely not to be present yet in the ontology.
+** How does this impact phylogeny and data matrix reconciliation, or phylogenetic reconstruction on the basis of the EQ annotations?
+* Use-case for development
+** Heterochrony would be interesting if one can pull it out of the database
+** Developmental ordering relationships currently used are confined to develops_from and transforms-into.
+*** This is missing yet for mouse.
+*** Wouldn't really allow inferring heterochrony.
+*** Would allow though to place and compare the placement of phenotypes into a developmental chain of transformations.
+* Demonstration of Phenoscape KB
+** Some of the features we are developing (the 3 principle queries) would be very useful to MOD users
+* Informatics goals for Phenoscape 2: 
+** Supporting units for measurements
+** Allowing others to compare their phenotype data to the knowledge base
+** Generic ontological queries, such as a SPARQL endpoint
+** Private data overlay
+** Linked Data and semweb integration
+** Tree visualization
+** Triple store technology evaluation
+** Species ID
+** Phylogenetically informative distance metric based on EQ assertions
+** NLP-based text processing, Mass curation
+
 == Idea bin ==
 
-* Intermine connection (multiple model organisms, AJAX-based widget for displaying protein family tree)
+# Intermine connection (multiple model organisms, AJAX-based widget for displaying protein family tree)
+# Some phenotypes imply developmental abnormalities, differences, or variation.
+#* For example, a "poorly ossified cranium" in an adult amphibian implies that the developmental process was delayed or did not complete.
+# How does logical inference of homology propagate over develops-from relationships.
+#* E.g., if A and B are asserted homologous, and C develops from A and D develops from B, are then C and D inferred as homologous, and are C and B inferred as homologous.
