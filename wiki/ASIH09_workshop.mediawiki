@@ -40,7 +40,7 @@ development.  Here, I will provide a beginner’s guide to the world of
 ontologies and offer a roadmap for how biologists can best take advantage
 of, and contribute to, the growing suite of bio-ontology resources.
 
-=== Westerfield title TBA ===
+=== Westerfield title 'Linking animal models and human diseases' ===
 
 Monte Westerfield
 
