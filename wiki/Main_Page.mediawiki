@@ -3,7 +3,7 @@ title: Main Page
 ---
 
 {{EventBox1|
-* [[Phenotype Ontology Coordination Workshop|Phenotype Ontology Coordination Workshop]] is being held at NESCent next week (April 27-28).
+* [[A Phenotype Ontology Coordination Workshop|Phenotype Ontology Coordination Workshop]] was held at NESCent on April 27-28.
 * [[SummerTraining2009|Summer training opportunities]] are available for graduate students and postdocs in data curation and software development at NESCent and the University of South Dakota.  (Application deadline: March 15).
 * We held our 2nd [http://www.bioontology.org/wiki/index.php/Evolutionary_Biology_and_Ontologies_2009 Evolutionary Biology and Ontologies workshop] in conjunction with the Annual Meeting of the Society for Integrative and Comparative Biology (SICB) in Boston, MA on Monday, January 5, 2009. It was cosponsored by NESCent and the National Center for Biomedical Ontologies (NCBO).
 *We hosted the [[Data_Jamboree_2 | Second Data Jamboree]] on September 27 - October 1, 2008 in Rapid City, SD.
