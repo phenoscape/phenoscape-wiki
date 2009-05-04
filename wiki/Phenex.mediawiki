@@ -141,9 +141,9 @@ Phenotype annotations are stored within the "state" element to which they corres
 </state>
 </xml>
 
-===Troubleshooting Problems===
+==Troubleshooting Problems==
 
-====Removing Corrupted Ontology Files====
+===Removing Corrupted Ontology Files===
 
 Local copies of ontology files can become corrupted, causing Phenex to display a warning about "dangling" terms on start-up. Note that the warning about danglers can also indicate a valid ontology change related to merging of terms from a recent ontology update.
 
