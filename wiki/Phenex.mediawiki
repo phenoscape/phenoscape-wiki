@@ -141,6 +141,17 @@ Phenotype annotations are stored within the "state" element to which they corres
 </state>
 </xml>
 
+===Troubleshooting Problems===
+
+====Removing Corrupted Ontology Files====
+
+Local copies of ontology files can become corrupted, causing Phenex to display a warning about "dangling" terms on start-up. Note that the warning about danglers can also indicate a valid ontology change related to merging of terms from a recent ontology update.
+
+To remove local copies of ontologies from your Phenex directory, delete all files within the “Ontology Cache” folder on your computer:
+User’s Home/Library/Application Support/Phenex/Ontology Cache/
+
+Phenex will then download new copies of the ontology files on startup.
+
 ==Development Roadmap==
 ===January 2009===
 * Support alt_id term references in NeXML files '''[Done]'''
