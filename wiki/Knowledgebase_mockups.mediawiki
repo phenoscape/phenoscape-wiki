@@ -5,3 +5,6 @@ title: Knowledgebase mockups
 ==Grouping data by using an ontology tree view==
 ===Phenotype results===
 [[Image:phenotype ontology tree.png]]
+
+[[Category:Informatics]]
+[[Category:User Interface]]
