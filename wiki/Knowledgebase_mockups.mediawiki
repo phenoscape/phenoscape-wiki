@@ -4,6 +4,10 @@ title: Knowledgebase mockups
 
 ==Grouping data by using an ontology tree view==
 ===Phenotype results===
+This would be an enhancement to the results currently displayed on a page like http://kb.phenoscape.org/phenotype/evo/TTO:10930/TAO:0000326/PATO:0000070/
+
+The nearest common ancestor term of the annotated taxon terms is used as the root of the tree display.  The only leaf terms displayed are those with annotations.  Internal nodes show the union of the annotations to their descendant nodes.
+
 [[Image:phenotype ontology tree.png]]
 
 [[Category:Informatics]]
