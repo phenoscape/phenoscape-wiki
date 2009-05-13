@@ -10,5 +10,20 @@ The nearest common ancestor term of the annotated taxon terms is used as the roo
 
 [[Image:phenotype ontology tree.png|800px]]
 
+===Search summary results===
+This would be an enhancement to the results currently displayed on a page like http://kb.phenoscape.org/search/anatomy/TAO:0000376
+
+The nearest common ancestor of the represented annotated anatomy terms is used as the root of the tree display.  Each anatomy term has a flat list of the qualities annotated for it.  ''Don't pay too much attention to the dummy numbers given in these results.''
+
+Root anatomy term "infraorbital" collapsed:
+
+Root anatomy term "infraorbital" expanded:
+
+Possible further enhancement to page capabilities - redisplay data on a quality tree.  The included results would be somewhat different.
+
+Nearest quality ancestor collapsed:
+
+Quality ancestor expanded:
+
 [[Category:Informatics]]
 [[Category:User Interface]]
