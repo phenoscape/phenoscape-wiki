@@ -8,7 +8,7 @@ This would be an enhancement to the results currently displayed on a page like h
 
 The nearest common ancestor term of the annotated taxon terms is used as the root of the tree display.  The only leaf terms displayed are those with annotations.  Internal nodes show the union of the annotations to their descendant nodes.
 
-[[Image:phenotype ontology tree.png|800px]]
+[[Image:phenotype ontology tree.png|700px]]
 
 ===Search summary results===
 This would be an enhancement to the results currently displayed on a page like http://kb.phenoscape.org/search/anatomy/TAO:0000376
@@ -17,21 +17,21 @@ The leftmost column is intended to represent a disclosable tree display.  The ne
 
 Root anatomy term "infraorbital" collapsed:
 
-[[Image:infraorbital closed ontology tree.png|800px]]
+[[Image:infraorbital closed ontology tree.png|600px]]
 
 Root anatomy term "infraorbital" expanded:
 
-[[Image:infraorbital open ontology tree.png|800px]]
+[[Image:infraorbital open ontology tree.png|600px]]
 
 Possible further enhancement to page capabilities - redisplay data on a quality tree.  The included results would be somewhat different.
 
 Nearest quality ancestor collapsed:
 
-[[Image:quality closed ontology tree.png|800px]]
+[[Image:quality closed ontology tree.png|600px]]
 
 Quality ancestor expanded:
 
-[[Image:quality open ontology tree.png|800px]]
+[[Image:quality open ontology tree.png|600px]]
 
 [[Category:Informatics]]
 [[Category:User Interface]]
