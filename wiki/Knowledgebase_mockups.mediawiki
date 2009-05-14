@@ -35,7 +35,7 @@ Quality ancestor expanded:
 
 
 ==Display of citation and free-text basis for annotations==
-Here is a list of specific phenotype annotations resulting from a search.  There is an added "Source(s)" link next to each one.
+Here is a list of specific phenotype annotations resulting from a search.  There is an added "Source(s)" link next to each one. ''The yellow bubble is not part of the page.''
 
 [[Image:phenotypes and sources.png|600px]]
 
