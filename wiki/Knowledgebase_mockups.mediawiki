@@ -33,5 +33,19 @@ Quality ancestor expanded:
 
 [[Image:quality open ontology tree.png|600px]]
 
+
+==Display of citation and free-text basis for annotations==
+Here is a list of specific phenotype annotations resulting from a search.  There is an added "Source(s)" link next to each one.
+
+[[Image:phenotypes and sources.png|600px]]
+
+If the user clicks a "Source(s)" link, the citation information for a particular taxon-phenotype annotation is retrieved and displayed in a page overlay.
+
+[[Image:phenotypes and sources open.png|600px]]
+
+A particular taxon-phenotype annotation may have been asserted from more than one publication:
+
+[[Image:phenotypes and 2 sources open.png|600px]]
+
 [[Category:Informatics]]
 [[Category:User Interface]]
