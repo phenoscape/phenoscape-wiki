@@ -48,7 +48,7 @@ A particular taxon-phenotype annotation may have been asserted from more than on
 [[Image:phenotypes and 2 sources open.png|600px]]
 
 ==Simple display of homology information==
-Anatomy pages can make use of homology information from the database to list possible homologous terms.  The user can click one of these term links to go to the anatomy page about that term.
+Anatomy pages can make use of homology information from the database to list possible homologous terms.  This mockup adds a list of homologous terms to the term info panel.  The user can click one of these term links to go to the anatomy page about that term.
 
 [[Image:homology list.png]]
 
