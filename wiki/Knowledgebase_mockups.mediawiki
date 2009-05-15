@@ -12,7 +12,7 @@ The nearest common ancestor term of the annotated taxon terms is used as the roo
 
 ====Comments====
 *From Paula: start off with taxon tree semi-collapsed (at genus level).
-*Put the number of taxa for which there are annotations in parens behind, e.g., the genus name.
+*From Paula: Put the number of taxa for which there are annotations in parens behind, e.g., the genus name.
 
 ===Search summary results===
 This would be an enhancement to the Phenotypes results currently displayed on a page like http://kb.phenoscape.org/search/anatomy/TAO:0000376
