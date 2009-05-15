@@ -21,9 +21,6 @@ The goal of this workshop is to discuss plans for an [http://www.nsf.gov/funding
 Specific goals are to be determined by the workshop participants. An initial list includes establishing and maintaining communication among evolutionary biologists and model organism communities developing ontologies, coordinating efforts among the broader ontology community so that these ontologies are interoperable, and methods to align and reason across multi-species ontologies for phenotype and taxonomy.  The workshop includes interested members from both the model organism and evolutionary biology communities.
 
 == Agenda ==
-
-''Note that this agenda is still in draft stage and may change before the meeting.''
-
 === Monday, Apr. 27, 2009 ===
 
 ''Taking stock: Where do we stand? What resources and needs do we have in common? Identify broader community needs for a [Comparative Evolutionary] Phenotype Consortium that are not currently served by individual grants.''
@@ -37,13 +34,13 @@ Specific goals are to be determined by the workshop participants. An initial lis
 * 9:45 Breakout groups (4 groups, all 4 questions each):
 * Breakout questions: Tools (software), standards, and ontologies
 * 1.	What are the key gaps in tools to develop your work?
-* 2.	What are key obstacles to data exchange and data integration?  
-* 3.	What do you perceive as the key ontologies that are lacking? 
-* 4.	What are the gaps in expertise in understanding, developing and applying ontologies in the community?  
+* 2.	What are key obstacles to data exchange and data integration?
+* 3.	What do you perceive as the key ontologies that are lacking?
+* 4.	What are the gaps in expertise in understanding, developing and applying ontologies in the community?
 * 10:45 Coffee
 * 11:00-11:45 Second breakout (2 groups, 2 questions each)
 * 11:45-12:15 Reports from break-out groups
-* 12:15 LUNCH 
+* 12:15 LUNCH
 
 '''Afternoon:''' Annotation and Interoperability
 
