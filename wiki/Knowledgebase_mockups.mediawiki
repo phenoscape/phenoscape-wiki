@@ -10,7 +10,7 @@ The nearest common ancestor term of the annotated taxon terms is used as the roo
 
 [[Image:phenotype ontology tree.png|700px]]
 
-====Comments===
+====Comments====
 *From Paula: start off with taxon tree semi-collapsed (at genus level).
 *Put the number of taxa for which there are annotations in parens behind, e.g., the genus name.
 
