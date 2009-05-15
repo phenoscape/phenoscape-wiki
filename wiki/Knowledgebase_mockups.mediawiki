@@ -37,6 +37,10 @@ Quality ancestor expanded:
 
 [[Image:quality open ontology tree.png|600px]]
 
+====Comments====
+*From Paula: Rename 'Entity' 'Anatomy' as per other mockups for consistency http://kb.phenoscape.org/search/anatomy/TAO:0000376
+*From Paula: swap column headings Entity-Quality on Quality tree table (below ' Nearest quality ancestor collapsed" text)
+
 ==Display of citation and free-text basis for annotations==
 Here is a list of specific phenotype annotations resulting from a search.  There is an added "Source(s)" link next to each one. ''The yellow bubble is not part of the page.''
 
