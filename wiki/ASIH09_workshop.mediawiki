@@ -22,18 +22,18 @@ TIME: Saturday, July 25, 2009
 PLACE: TBA
 
 MORNING:
-* 8.00-8.30 '''Hilmar Lapp''', National Evolutionary Synthesis Center: An Introduction to Ontology for Organismal Biologists ([[#A Gentle Introduction to Ontologies for Biology|Abstract]])
-* 8:30-9:00 '''Monte Westerfield''', Director, Zebrafish Information Network and Institute of Neuroscience, Eugene, OR: Cross ontology data mining ([[#Linking animal models and human diseases|Abstract]])
-* 9:00-9:30 '''Paula Mabee''', University of South Dakota: Phenoscape: Using Ontologies to Link Comparative Anatomy to Genes ([[#Phenoscape: Using Ontologies to Link Comparative Morphology to Genes|Abstract]])
-* 9:30—10:00 '''Greg Riccardi''', Florida State University: Why ontologies are important for understanding morphological images ([[#Illustrating Ontologies with Morphbank and Phenoscape |Abstract]])
+* 8.00-8.30 '''Hilmar Lapp''', National Evolutionary Synthesis Center: A gentle introduction to ontologies for biology ([[#A Gentle Introduction to ontologies for biology|Abstract]])
+* 8:30-9:00 '''Monte Westerfield''', Director, Zebrafish Information Network and Institute of Neuroscience, Eugene, OR: Linking animal models and human diseases ([[#Linking animal models and human diseases|Abstract]])
+* 9:00-9:30 '''Paula Mabee''', University of South Dakota: Phenoscape: Using ontologies to link comparative morphology to genes ([[#Phenoscape: Using ontologies to link comparative morphology to genes|Abstract]])
+* 9:30—10:00 '''Greg Riccardi''', Florida State University: Why ontologies are important for understanding morphological images ([[#Why ontologies are important for understanding morphological images |Abstract]])
 * 10:00-10:30 ''Coffee''
-* 10:30-11:00 '''Peter Vize''', University of Calgary: Xenopus Ontology and Database ([[#Vize title TBA|Abstract]])
-* 11:00-11:30 '''Anne Maglia''', Missouri University of Science and Technology: Developing an Amphibian Anatomical Ontology ([[#Development of an Anatomical Ontology for Amphibians|Abstract]])
-* 11:30—12:00 '''Marc Robinson-Rechavi''', Universite de Lausanne, France: Comparing gene expression using ontologies and homology ([[#Bgee: Integrating ontology and homology for the study of gene expression evolution|Abstract]])
+* 10:30-11:00 '''Peter Vize''', University of Calgary: The Xenopus ontology and database ([[#Vize The Xenopus ontology and database|Abstract]])
+* 11:00-11:30 '''Anne Maglia''', Missouri University of Science and Technology: Development of an anatomical ontology for amphibians ([[#Development of an anatomical ontology for amphibians|Abstract]])
+* 11:30—12:00 '''Marc Robinson-Rechavi''', Universite de Lausanne, France: Integrating ontology and homology for the study of gene expression evolution ([[#Bgee: Integrating ontology and homology for the study of gene expression evolution|Abstract]])
 
 
 AFTERNOON:
-* 1:30-4:30 Ontology development and hands-on demonstrations of Phenoscape and AmphibAnat
+* 1:30-4:30 Ontology development workshop and hands-on demonstrations of Phenoscape and AmphibAnat
 
 ==Abstracts==
 
