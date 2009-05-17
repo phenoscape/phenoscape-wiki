@@ -7,11 +7,12 @@ Opportunities in summer 2009 are available to graduate students and postdocs for
 
 == [[ASIH09_workshop|Ontologies for Ichthyology and Herpetology]] ==
 
-[[Image:asih2009ontologyworkshop.png|ASIH ontology workshop banner]]
+[[Image:asih2009ontologyworkshop.png|alt=ASIH ontology workshop banner|link=ASIH09_workshop]]
+
 
 Held in conjunction with [http://www.dce.k-state.edu/conf/jointmeeting/ ASIH] in Portland Oregon, 25 July 2009.
 
-The aim of this workshop to promote the integration of ichtyological and herpetological data with genetic, genomic, and developmental data for the purposes of understanding the genetic basis for phenotypic variation and diversification.  The focus will be on major anatomical ontology efforts already underway in these organisms, and their use within new and existing morphological databases.  
+The aim of this workshop to promote the integration of ichtyological and herpetological data with genetic, genomic, and developmental data for the purposes of understanding the genetic basis for phenotypic variation and diversification.  The focus will be on major anatomical ontology efforts already underway in these organisms, and their use within new and existing morphological databases.
 
 While knowledge from model organism biology can inform our understanding of natural phenotypic variation and evolution, differing vocabularies and scientific cultures make it difficult for individuals to find the latent connections between these two fields. Ontologies, controlled vocabularies with well-defined relations among terms, are a key tool in scientific data integration; by using ontologies, scientists from different disciplines can know when they are referring to the same entity by different names, and new discoveries are enabled by computer software being able to reason across disciplines and over large datasets.  Already widely used in genomics, ontologies are of growing importance in systematics, ecology, behavior, genetics, morphology and physiology.  This workshop aims to explore the utility of ontologies for ichthyology and herpetology, using the Teleost Anatomy Ontology and the Amphibian Anatomy Ontology as case studies of community resources that are being actively developed and used by members of ASIH.  Participants will present examples  of how these ontologies are being used to address novel research questions in the evolutionary of phenotype using model organism data, and to provide new ways of exploring data within morphological databases.
 
