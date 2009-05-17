@@ -22,12 +22,12 @@ TIME: Saturday, July 25, 2009
 PLACE: TBA
 
 MORNING:
-* 8.00-8.30 '''Hilmar Lapp''', National Evolutionary Synthesis Center: A gentle introduction to ontologies for biology ([[#A Gentle Introduction to ontologies for biology|Abstract]])
+* 8.00-8.30 '''Hilmar Lapp''', National Evolutionary Synthesis Center: A gentle introduction to ontologies for biology ([[#A gentle introduction to ontologies for biology|Abstract]])
 * 8:30-9:00 '''Monte Westerfield''', Director, Zebrafish Information Network and Institute of Neuroscience, Eugene, OR: Linking animal models and human diseases ([[#Linking animal models and human diseases|Abstract]])
 * 9:00-9:30 '''Paula Mabee''', University of South Dakota: Phenoscape: Using ontologies to link comparative morphology to genes ([[#Phenoscape: Using ontologies to link comparative morphology to genes|Abstract]])
 * 9:30—10:00 '''Greg Riccardi''', Florida State University: Why ontologies are important for understanding morphological images ([[#Why ontologies are important for understanding morphological images |Abstract]])
 * 10:00-10:30 ''Coffee''
-* 10:30-11:00 '''Peter Vize''', University of Calgary: The Xenopus ontology and database ([[#Vize The Xenopus ontology and database|Abstract]])
+* 10:30-11:00 '''Peter Vize''', University of Calgary: The Xenopus ontology and database ([[#The Xenopus ontology and database|Abstract]])
 * 11:00-11:30 '''Anne Maglia''', Missouri University of Science and Technology: Development of an anatomical ontology for amphibians ([[#Development of an anatomical ontology for amphibians|Abstract]])
 * 11:30—12:00 '''Marc Robinson-Rechavi''', Universite de Lausanne, France: Integrating ontology and homology for the study of gene expression evolution ([[#Bgee: Integrating ontology and homology for the study of gene expression evolution|Abstract]])
 
@@ -121,7 +121,7 @@ implementation of the project, current resolutions to issues we have
 encountered, and future enhancements to the ontology. We also comment on
 efforts to integrate other data sets with the amphibian anatomical ontology.
 
-===Illustrating ontologies with Morphbank and Phenoscape===
+===Why ontologies are important for understanding morphological images===
 
 Greg Riccardi (1) and Austin Mast (2)
 
@@ -167,7 +167,7 @@ heterogeneous expression data types are mapped. These include
 microarrays, in situ hybridization, and ESTs, from human, mouse,
 xenopus and zebrafish. Bgee is available at http://bgee.unil.ch/
 
-===TBA===
+===The Xenopus ontology and database===
 
 Peter Vize
 
