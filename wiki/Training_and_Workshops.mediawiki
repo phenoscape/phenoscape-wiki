@@ -7,7 +7,11 @@ Opportunities in summer 2009 are available to graduate students and postdocs for
 
 == [[ASIH09_workshop|Ontologies for Ichthyology and Herpetology]] ==
 
-[[Image:asih2009ontologyworkshop.png|600px|link=ASIH09_workshop|alt=ASIH ontology workshop banner]]
+<imagemap>
+Image:asih2009ontologyworkshop.png|600px|alt==ASIH ontology workshop banner
+default [[ASIH09_workshop|ASIH 2009 workshop]]
+desc none
+</imagemap>
 
 
 Held in conjunction with [http://www.dce.k-state.edu/conf/jointmeeting/ ASIH] in Portland Oregon, 25 July 2009.
