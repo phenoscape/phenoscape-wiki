@@ -7,17 +7,15 @@ Opportunities in summer 2009 are available to graduate students and postdocs for
 
 == [[ASIH09_workshop|Ontologies for Ichthyology and Herpetology]] ==
 
-To be held in conjunction with [http://www.dce.k-state.edu/conf/jointmeeting/ ASIH], in Portland Oregon, 25 July 2009
+[[Image:asih2009ontologyworkshop.png|ASIH ontology workshop banner]]
 
-Organizers:
-* Paula Mabee, Professor, Dept. of Biology, University of South Dakota
-* Anne Maglia, Professor, Missouri University of Science and Technology
-* Todd Vision, Assistant Director, National Evolutionary Synthesis Center (NESCent) and Associate Professor, Dept. of Biology, University of North Carolina
-* Monte Westerfield, Director, Zebrafish Information Network and Professor, Institute of Neuroscience, University of Oregon
+Held in conjunction with [http://www.dce.k-state.edu/conf/jointmeeting/ ASIH] in Portland Oregon, 25 July 2009.
 
-This is a joint outreach and educational workshop to promote the integration of ichtyological and herpetological data with genetic, genomic, and developmental data for the purposes of understanding the genetic basis for phenotypic variation and diversification.  The focus will be on major anatomical ontology efforts already underway in these organisms, and their use within new and existing morphological databases.  The workshop is sponsored by the National Evolutionary Synthesis Center (NESCent) with financial support from the Phenoscape NSF-DBI grant to Paula Mabee (PI), Todd Vision (co-PI), and Monte Westerfield (co-PI), and the AmphibAnat NSF-DBI grant to Anne Maglia.
+The aim of this workshop to promote the integration of ichtyological and herpetological data with genetic, genomic, and developmental data for the purposes of understanding the genetic basis for phenotypic variation and diversification.  The focus will be on major anatomical ontology efforts already underway in these organisms, and their use within new and existing morphological databases.  
 
 While knowledge from model organism biology can inform our understanding of natural phenotypic variation and evolution, differing vocabularies and scientific cultures make it difficult for individuals to find the latent connections between these two fields. Ontologies, controlled vocabularies with well-defined relations among terms, are a key tool in scientific data integration; by using ontologies, scientists from different disciplines can know when they are referring to the same entity by different names, and new discoveries are enabled by computer software being able to reason across disciplines and over large datasets.  Already widely used in genomics, ontologies are of growing importance in systematics, ecology, behavior, genetics, morphology and physiology.  This workshop aims to explore the utility of ontologies for ichthyology and herpetology, using the Teleost Anatomy Ontology and the Amphibian Anatomy Ontology as case studies of community resources that are being actively developed and used by members of ASIH.  Participants will present examples  of how these ontologies are being used to address novel research questions in the evolutionary of phenotype using model organism data, and to provide new ways of exploring data within morphological databases.
+
+This workshop is jointly sponsored by the Phenoscape and AmphibAnat projects.
 
 More information [[ASIH09_workshop|here]].
 
