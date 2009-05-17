@@ -5,9 +5,9 @@ title: Training and Workshops
 ==Summer Training Opportunities==
 Opportunities in summer 2009 are available to graduate students and postdocs for training in data curation and software development at NESCent and the University of South Dakota.  [[SummerTraining2009|More information]].
 
-== [[ASIH09_workshop|Ontologies for Ichthyology and Herpetology]], July 2009 ==
+== [[ASIH09_workshop|Ontologies for Ichthyology and Herpetology]]
 
-To be held in conjunction with [http://www.dce.k-state.edu/conf/jointmeeting/ ASIH], in Portland Oregon, July 2009 (exact date TBD)
+To be held in conjunction with [http://www.dce.k-state.edu/conf/jointmeeting/ ASIH], in Portland Oregon, 25 July 2009
 
 Organizers:
 * Paula Mabee, Professor, Dept. of Biology, University of South Dakota
