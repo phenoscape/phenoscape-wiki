@@ -2,10 +2,7 @@
 title: ASIH09 workshop
 ---
 
-'''Workshop on Ontologies for Ichthyology and Herpetology'''
-
-July 25, 2009
-Portland OR
+[[Image:asih2009ontologyworkshop.png|ASIH 2009 Ontology Workshop Banner]]
 
 ==Introduction==
 The goal of this workshop is to promote the integration of ichtyological and herpetological data with genetic, genomic, and developmental data for the purposes of understanding the genetic basis for phenotypic variation and diversification.  The focus will be on major anatomical ontology efforts already underway in these organisms, and their use within new and existing morphological databases.
