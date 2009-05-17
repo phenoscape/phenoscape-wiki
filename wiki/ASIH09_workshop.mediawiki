@@ -19,7 +19,7 @@ The workshop is jointly sponsored by the Phenoscape and AmphibAnat projects, and
 
 TIME: Saturday, July 25, 2009
 
-PLACE: TBA
+PLACE: Hilton Portland & Executive Tower
 
 MORNING:
 * 8.00-8.30 '''Hilmar Lapp''', National Evolutionary Synthesis Center: A gentle introduction to ontologies for biology ([[#A gentle introduction to ontologies for biology|Abstract]])
