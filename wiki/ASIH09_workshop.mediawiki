@@ -37,7 +37,7 @@ AFTERNOON:
 
 ==Abstracts==
 
-===A Gentle Introduction to Ontologies for Biology===
+===A gentle introduction to ontologies for biology===
 
 Hilmar Lapp (1), Todd J. Vision (1,2)
 
@@ -77,7 +77,7 @@ Director, Zebrafish Information Network and Institute of Neuroscience, Universit
 
 Phenotypes are the result of interactions of the whole genome with the environment.  Studies that correlate genotype with phenotype are crucial for unraveling biological pathways and gene product interactions and, hence, are required for reaching the long-term goal of understanding how genes regulate developmental and physiological processes.  Together with the NCBO and FlyBase we developed a bipartite “EQ” (Entity + Quality) syntax to describe phenotypes.  The Entity is the part of the phenotype being described, the Quality describes how the entity is affected.  The entities may be terms from anatomical ontologies or the Gene Ontology (GO; for biological processes, cellular components, and molecular functions).  The Quality terms come from the Phenotype and Trait Ontology (PATO) that provides a hierarchy of qualitative or quantitative qualities that may be applied to an observable structure or process.  We used EQ syntax and ontologies to annotate human disease genes (OMIM), and their Drosophila and Zebrafish homologs.  We show that these data can be comparatively queried by phenotype alone, using an information content-based similarity search algorithm.  To test whether usage of EQ syntax and the PATO ontology is sufficiently reproducible for annotating phenotypes, three curators independently annotated the same records.  Differences in the annotations recorded by the three curators may arise from deficiencies in PATO, the anatomy or Gene ontologies, or the syntax itself.  A comparison of these annotations allows testing and development of curatorial standards for phenotype annotation.
 
-===Phenoscape: Using Ontologies to Link Comparative Morphology to Genes===
+===Phenoscape: Using ontologies to link comparative morphology to genes===
 
 Paula Mabee
 
@@ -107,7 +107,7 @@ host of questions spanning the domains of genetics, development and
 evolutionary biology, such as the nature of the genetic changes underlying
 phenotypic variation among taxa in nature.
 
-===Development of an Anatomical Ontology for Amphibians===
+===Development of an anatomical ontology for amphibians===
 
 Anne Maglia (1), Jennifer Leopold (1), Susan Gauch (2), Analia Pugener (1)
 
@@ -121,7 +121,7 @@ implementation of the project, current resolutions to issues we have
 encountered, and future enhancements to the ontology. We also comment on
 efforts to integrate other data sets with the amphibian anatomical ontology.
 
-===Illustrating Ontologies with Morphbank and Phenoscape===
+===Illustrating ontologies with Morphbank and Phenoscape===
 
 Greg Riccardi (1) and Austin Mast (2)
 
