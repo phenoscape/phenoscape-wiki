@@ -219,5 +219,16 @@ JSON:
 }
 </javascript>
 
+==Homology info==
+'''URI'''
+
+ <BASE URI>/term/{term_id}/homology
+
+'''Returns'''
+
+JSON:
+<javascript>
+</javascript>
+
 [[Category:Informatics]]
 [[Category:API]]
