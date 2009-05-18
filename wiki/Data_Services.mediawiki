@@ -228,6 +228,33 @@ JSON:
 
 JSON:
 <javascript>
+{"homologies" : [
+    {
+        "subject" : {
+            "entity" : {"id" : "TAO:xxxx", "name" : "some anatomical thing"},
+            "taxon" : {"id" : "TTO:xxxx", "name" : "some taxon"}
+        },
+        "target" : {
+            "entity" : {"id" : "TAO:xxxx", "name" : "some anatomical thing"},
+            "taxon" : {"id" : "TTO:xxxx", "name" : "some taxon"}
+        },
+        "evidence" : {"id" : "ECO:xxxx", "name" : "some evidence code"},
+        "source" : "citation text"
+    },
+    {
+        "subject" : {
+            "entity" : {"id" : "TAO:xxxx", "name" : "some anatomical thing"},
+            "taxon" : {"id" : "TTO:xxxx", "name" : "some taxon"}
+        },
+        "target" : {
+            "entity" : {"id" : "TAO:xxxx", "name" : "some anatomical thing"},
+            "taxon" : {"id" : "TTO:xxxx", "name" : "some taxon"}
+        },
+        "evidence" : {"id" : "ECO:xxxx", "name" : "some evidence code"},
+        "source" : "citation text"
+    }
+]
+}
 </javascript>
 
 [[Category:Informatics]]
