@@ -71,5 +71,8 @@ Anatomy pages can make use of homology information from the database to list pos
 
 [[Image:homology list.png]]
 
+====Comments====
+* From Todd: include evidence string
+
 [[Category:Informatics]]
 [[Category:User Interface]]
