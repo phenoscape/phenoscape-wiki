@@ -220,6 +220,7 @@ JSON:
 </javascript>
 
 ==Homology info==
+Return any homology statements which the given term participates in.  Regardless of the direction of the homologous link in the database, the queried term should be returned as the "subject" in the returned data - the homologous term would be the "target".
 '''URI'''
 
  <BASE URI>/term/{term_id}/homology
