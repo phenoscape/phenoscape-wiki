@@ -14,6 +14,9 @@ The nearest common ancestor term of the annotated taxon terms is used as the roo
 *From Paula: start off with taxon tree semi-collapsed (at genus level).
 *From Paula: Put the number of taxa for which there are annotations in parens behind, e.g., the genus name.
 *From Todd: can we avoid repetition of the entity (ie "caudal vertebra") if all the phenotypes concern that one entity, or are you listing it to allow for the possibility of subsumed entities as well?
+*From Todd: show numbers of taxa with annotations in parens for collapsed entities
+*From Todd (cosmetic): italicize species names
+*From Todd: will the names be links to other pages?
 
 ===Search summary results===
 This would be an enhancement to the Phenotypes results currently displayed on a page like http://kb.phenoscape.org/search/anatomy/TAO:0000376
@@ -41,6 +44,9 @@ Quality ancestor expanded:
 ====Comments====
 *From Paula: Rename 'Entity' 'Anatomy' as per other mockups for consistency http://kb.phenoscape.org/search/anatomy/TAO:0000376
 *From Paula: swap column headings Entity-Quality on Quality tree table (below ' Nearest quality ancestor collapsed" text)
+*From Todd (cosmetic): I'm not sure the alternating colors will be clear when there are multiple rows - those are most useful as an aid to follow horizontally across many columns within a row
+*From Todd: would it be possible to collapse the quality column too (ie to "4 qualities" for a given entity? or "4 anatomical terms" for a given quality)?
+*From Todd: Personally I think having the anatomical entity in the 1st column is a lot more useful than having the quality tree there.
 
 ==Display of citation and free-text basis for annotations==
 Here is a list of specific phenotype annotations resulting from a search.  There is an added "Source(s)" link next to each one. ''The yellow bubble is not part of the page.''
@@ -54,6 +60,11 @@ If the user clicks a "Source(s)" link, the citation information for a particular
 A particular taxon-phenotype annotation may have been asserted from more than one publication:
 
 [[Image:phenotypes and 2 sources open.png|600px]]
+
+====Comments====
+*From Todd (cosmetic): Add more buffer to table cells, with more subtle boundaries between them - you don't want the cells to visually overwhelm the data text.
+*From Todd (big issue): Showing the phenotypes makes me think we really need to list the reference point for them, since "increased size" is explicitly relative.  One option would be to list the group to which the data matrix is being applied, so that "increased size" would be interpreted as relative to all catfish, or characiforms, or whatever the inclusive taxon was for that study.
+*From Todd: Shouldn't the reference be specific to each annotation, rather than to each taxon?  I would suggest making a little icon to represent source/publication, and displaying it immediately after the phenotype annotation in the same cell, kind of like a superscript footnote.  And I wouldn't have guessed that I would see the original character state description from the name "Source" - before I clicked it, I assumed it was just going to show me the citation.
 
 ==Simple display of homology information==
 Anatomy pages can make use of homology information from the database to list possible homologous terms.  This mockup adds a list of homologous terms to the term info panel.  The user can click one of these term links to go to the anatomy page about that term.
