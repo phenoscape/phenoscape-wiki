@@ -42,8 +42,8 @@ Curation drives ontology development and many new terms and relationships need t
 
 ==7. Subscribe to Curator Mailing Lists ==
 * Phenoscape Curators mailing list (for discussion and communication of data curation issues, solutions, and progress):  http://lists.sourceforge.net/lists/listinfo/phenoscape-curators
-* Teleost Anatomy ontology term discussion: [mailto:obo-teleost-discuss%40lists%2e.sourceforge%2enet obo-teleost-discuss&#64;lists&#46;sourceforge&#46;net] - ''[https://lists.sourceforge.net/lists/listinfo/obo-teleost-discuss List subscription and archives]''
-* Discussion of EQ formalism, phenotype description, PATO terms: [mailto:obo-phenotype%40lists%2e.sourceforge%2enet obo-phenotype@lists&#46;sourceforge&#46;net] - ''[https://lists.sourceforge.net/mailman/listinfo/obo-phenotype List subscription and archives]''
+* Teleost Anatomy ontology term discussion: ''[https://lists.sourceforge.net/lists/listinfo/obo-teleost-discuss List subscription and archives]'' | [mailto:obo-teleost-discuss%40lists%2e.sourceforge%2enet email: obo-teleost-discuss&#64;lists&#46;sourceforge&#46;net]
+* Discussion of EQ formalism, phenotype description, PATO terms:  ''[https://lists.sourceforge.net/mailman/listinfo/obo-phenotype List subscription and archives]'' | [mailto:obo-phenotype%40lists%2e.sourceforge%2enet email: obo-phenotype@lists&#46;sourceforge&#46;net]
 
 [[Category:Curation]]
 [[Category:Help]]
