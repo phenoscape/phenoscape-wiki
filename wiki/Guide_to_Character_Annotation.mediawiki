@@ -40,9 +40,9 @@ Curators are currently annotating systematic characters at a coarse level using 
 |-
 || relational structural quality* || || fused with, overlap with, separated from
 |-
-|| present in organism || present ||
+|| present in organism || present, presence ||
 |-
-|| absent from organism || absent ||
+|| absent from organism || absent, absence ||
 |-
 || count in organism || count ||
 |-
