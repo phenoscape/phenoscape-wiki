@@ -84,7 +84,7 @@ Monadic qualities are those that exist in a single entity, such as shape, and do
  E: supraorbital, Q: shape
 
 ===4. Use of relational qualities===
-Relational qualities are those that exist in an entity but require an additional entity in order to exist.  For example, annotation of “parietal fused with supraoccipital” is entered as:
+Relational qualities are those that exist in an entity but require an additional entity in order to exist. No qualities that are children of monadic entities (e.g., size, shape) are relevant here. For example, annotation of “parietal fused with supraoccipital” is entered as:
 
  E: parietal, Q: relational structural quality, RE: supraoccipital
 
