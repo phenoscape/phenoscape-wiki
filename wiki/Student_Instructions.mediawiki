@@ -46,7 +46,10 @@ Download publication PDFs by connecting to the Phenoscape file share.  Please as
 # Give the share a meaningful name. Default is usually fine.
 # Finish
 
-===5. Create Tree Files ===
+===5. Subscribe to Curator Mailing List ===
+* Phenoscape Curators mailing list (for discussion and communication of data curation issues, solutions, and progress):  http://lists.sourceforge.net/lists/listinfo/phenoscape-curators
+
+===6. Create Tree Files ===
 
 We use [http://mesquiteproject.org/mesquite/mesquite.html Mesquite] to create nexus files containing trees replicated from fish publications.  See this page for [[Creating_Tree_Files|instructions on creating tree files using Mesquite.]]
 
