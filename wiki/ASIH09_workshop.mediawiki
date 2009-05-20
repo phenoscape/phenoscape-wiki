@@ -176,7 +176,6 @@ Jeff Bowes (1)
 
 Affiliations (1) University of Calgary, Calgary, Alberta, Canada
 
-Abstract
 The frogs Xenopus laevis and Xenopus (Silurana) tropicalis are model systems that
 have produced a wealth of genetic, genomic, and developmental information.
 Xenbase is a model organism database that provides centralized access to this
