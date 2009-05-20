@@ -168,7 +168,25 @@ microarrays, in situ hybridization, and ESTs, from human, mouse,
 xenopus and zebrafish. Bgee is available at http://bgee.unil.ch/
 
 ===The Xenopus ontology and database===
+An ontology for Xenopus anatomy and development
 
-Peter Vize
+Peter Vize (1) Presenting
+Erik Segerdell (1)
+Jeff Bowes (1)
 
-University of Calgary
+Affiliations (1) University of Calgary, Calgary, Alberta, Canada
+
+Abstract
+The frogs Xenopus laevis and Xenopus (Silurana) tropicalis are model systems that
+have produced a wealth of genetic, genomic, and developmental information.
+Xenbase is a model organism database that provides centralized access to this
+information, including gene function data from high-throughput screens and the
+scientific literature. A controlled, structured vocabulary for Xenopus anatomy and
+development is essential for organizing these data. We have constructed a Xenopus
+anatomical ontology that represents the lineage of tissues and the timing of their
+development. We have classified many anatomical features in a common framework
+that has been adopted by several model organism database communities.
+The ontology is available for download at the Open Biomedical Ontologies Foundry
+http://obofoundry.org.  The Xenopus Anatomical Ontology will be used to annotate Xenopus gene
+expression patterns and mutant and morphant phenotypes. Its robust developmental
+map will enable powerful database searches and data analyses.
