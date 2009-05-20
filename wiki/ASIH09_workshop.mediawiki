@@ -170,7 +170,7 @@ xenopus and zebrafish. Bgee is available at http://bgee.unil.ch/
 ===An ontology for Xenopus anatomy and development
 ===An ontology for Xenopus anatomy and development===
 
-Peter Vize (1) Presenting
+Peter Vize (1)
 Erik Segerdell (1)
 Jeff Bowes (1)
 
