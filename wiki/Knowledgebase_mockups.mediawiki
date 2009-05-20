@@ -74,6 +74,7 @@ Anatomy pages can make use of homology information from the database to list pos
 
 ====Comments====
 * From Todd: include evidence string
+* From Paula: I agree with Hilmar, that under 'Possible homologs' it should say 'accessory neural arch in TAXON'   Then maybe a "evidence" button that links to the pub?
 
 [[Category:Informatics]]
 [[Category:User Interface]]
