@@ -173,7 +173,7 @@ Peter Vize, Erik Segerdell and Jeff Bowes
 
 University of Calgary, Calgary, Alberta, Canada
 
-The frogs Xenopus laevis and Xenopus (Silurana) tropicalis are model systems that
+The frogs ''Italic textXenopus laevis'' and ''Xenopus (Silurana) tropicalis'' are model systems that
 have produced a wealth of genetic, genomic, and developmental information.
 Xenbase is a model organism database that provides centralized access to this
 information, including gene function data from high-throughput screens and the
@@ -182,7 +182,7 @@ development is essential for organizing these data. We have constructed a Xenopu
 anatomical ontology that represents the lineage of tissues and the timing of their
 development. We have classified many anatomical features in a common framework
 that has been adopted by several model organism database communities.
-The ontology is available for download at the Open Biomedical Ontologies Foundry
-http://obofoundry.org.  The Xenopus Anatomical Ontology will be used to annotate Xenopus gene
+The ontology is available for download at the [http://obofoundry.org Open Biomedical Ontologies Foundry].  
+The Xenopus Anatomical Ontology will be used to annotate Xenopus gene
 expression patterns and mutant and morphant phenotypes. Its robust developmental
 map will enable powerful database searches and data analyses.
