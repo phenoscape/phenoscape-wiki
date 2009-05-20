@@ -167,14 +167,11 @@ heterogeneous expression data types are mapped. These include
 microarrays, in situ hybridization, and ESTs, from human, mouse,
 xenopus and zebrafish. Bgee is available at http://bgee.unil.ch/
 
-===An ontology for Xenopus anatomy and development
 ===An ontology for Xenopus anatomy and development===
 
-Peter Vize (1)
-Erik Segerdell (1)
-Jeff Bowes (1)
+Peter Vize, Erik Segerdell and Jeff Bowes
 
-Affiliations (1) University of Calgary, Calgary, Alberta, Canada
+University of Calgary, Calgary, Alberta, Canada
 
 The frogs Xenopus laevis and Xenopus (Silurana) tropicalis are model systems that
 have produced a wealth of genetic, genomic, and developmental information.
