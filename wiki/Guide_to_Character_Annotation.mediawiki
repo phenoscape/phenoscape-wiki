@@ -152,18 +152,15 @@ Note that semantically, the post-composed term is equivalent to a pre-composed t
 
 === Refining entity terms on-the-fly ===
 
-Open the Post-composition Editor box by right-clicking on an empty Entity cell within the "Phenotypes" panel:
+Open the Post-composition Editor box by right-clicking on an empty Entity cell within the "Phenotypes" panel:[[Image:Right-click.png|center]]
 
-[[Image:Right-click.png]]
 
-Click on “Edit Post-composed Term.”  The Editor box should now appear (see below).  To post-compose the entity “supraorbital projection”, type “process” in the Genus field, click the “+” button to add a row in the table, type “part_of” in the relationship field, and type “supraorbital” in the differentia field.  Click OK.
 
-[[Image:Post-comp-box.jpg]]
+Click on “Edit Post-composed Term.”  The Editor box should now appear (see below).  To post-compose the entity “supraorbital projection”, type “process” in the Genus field, click the “+” button to add a row in the table, type “part_of” in the relationship field, and type “supraorbital” in the differentia field.  Click OK. [[Image:Post-comp-box.jpg|center]]
 
 The post-composed term appears in the Entity field as:
 
  process^part_of(supraorbital bone)
-
 
 === Refining entities on the fly using spatial terms ===
 Often we will want to include spatial information in a post-composed term.  The Spatial Ontology is used to post-compose terms related to bone margins, surfaces, or regions.  For example, the entity “anterior process of the maxilla" is post-composed as follows:
