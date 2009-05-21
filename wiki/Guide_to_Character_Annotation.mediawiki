@@ -172,7 +172,7 @@ Within the Entity field, type “process” and right-click the field to open th
 Within Phenex, the post-composed term for process on the anterior margin of the maxilla appears as:
  process^part_of(anterior region^part_of(maxilla))
 
-As for semantics, identifiability, and rules for post-composing, the same applies as above for entity terms applies to spatial terms. In creating the nested term "anterior  region of maxilla", start with the more general term (for example, the "anterior margin") as the genus, then refine it using a relationship and a differentia term (for example, anterior margin that is part-of the "supraorbital bone").
+As for semantics, identifiability, and rules for post-composing, the same applies as above for entity terms applies to spatial terms. In creating the nested term "anterior  region of maxilla", start with the more general term (for example, the "anterior region") as the genus, then refine it using a relationship and a differentia term (for example, anterior region that is part_of the "supraorbital bone").
 
 <!-- DO NOT DELETE THE FOLLOWING SECTIONS, COMMENTED OUT BY WD BECAUSE WE ARE NOT CURRENTLY ANNOTATING TO THIS FINE LEVEL BUT MIGHT DO SO IN THE FUTURE
 === Specifying the contralateral half of a bilaterally paired structure ===
