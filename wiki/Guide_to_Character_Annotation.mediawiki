@@ -165,11 +165,11 @@ The post-composed term appears in the Entity field as:
 === Refining entities on the fly using spatial terms ===
 Often we will want to include spatial information in a post-composed term.  The Spatial Ontology is used to post-compose terms related to bone margins, surfaces, or regions.  For example, the entity “anterior process of the maxilla" is post-composed as follows:
 
-Within the Post-composition Editor box, type “process” in the genus field and click the + button to add relationship = "part_of" and differentia = "anterior region".  Right click on the differentia field to create a second post-composed term for "anterior margin of maxilla" (see below).  Click the OK button after you have filled out the genus and differentia for this nested composition.
+Within the Entity field, type “process” and right-click the field to open the Post-Composition Editor box. Within this box, Click the + button to add relationship = "part_of" and differentia = "anterior region".  Right click on the differentia field to open another Post-Composition Editor box to add second post-composed term for "anterior margin of maxilla" (see below).  Click the OK button after you have filled out the genus and differentia for this nested composition.
 
 [[Image:Nested-boxes.png]]
 
-The post-composed term for projection on the anterior margin of frontal appears as:
+Within Phenex, the post-composed term for process on the anterior margin of the maxilla appears as:
  process^part_of(anterior region^part_of(maxilla))
 
 As for semantics, identifiability, and rules for post-composing, the same applies as above for entity terms applies to spatial terms. In creating the nested term "anterior  region of maxilla", start with the more general term (for example, the "anterior margin") as the genus, then refine it using a relationship and a differentia term (for example, anterior margin that is part-of the "supraorbital bone").
