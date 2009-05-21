@@ -152,7 +152,7 @@ Note that semantically, the post-composed term is equivalent to a pre-composed t
 
 === Refining entity terms on-the-fly ===
 
-Open the Post-composition Editor box by right-clicking on an empty Entity cell within the "Phenotypes" panel:[[Image:Right-click.png|center]]
+To post-compose a term (for example, "maxillary process") using Phenex, first type in the genus term in the Entity field within the "Phenotypes" panel.  Then open the Post-composition Editor box by right-clicking on the Entity cell (make sure that the entity cell is blue in color) :[[Image:Right-click.png|center]]
 
 
 
