@@ -18,7 +18,7 @@ Curators are currently annotating systematic characters at a coarse level using 
 || shape || || triangular, lobed, concave, interdigitated
 
 |-
-|| position || placement, location || horizontal, vertical
+[[Image:Pato-slim.jpg|right]] || position || placement, location || horizontal, vertical
 |-
 || size || || thin, large, decreased height
 |-
