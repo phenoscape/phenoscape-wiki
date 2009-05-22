@@ -11,8 +11,10 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 ** Tree mapping: show when an evolutionary phenotype first appeared
 * EQ support in all involved model organism databases
 ** Structure of MP is not consistent with anatomy, or with PATO
-** Mapping from MP to EQ syntax is being worked on
-** MGI isn't in a position to use EQ internally, but for example Phenoscape could provide an EQ-view on mouse phenotypes, using the decomposition of MP into anatomy (or entity) and quality term cross-product
+** Mapping from MP to EQ syntax is being worked on (George Gkoutos)
+*** How is this supported in MGI?
+**** Could spit back EQ, but could not allow users to search
+** MGI isn't in a position to use EQ internally, but for example Phenoscape II could provide an EQ-view on mouse phenotypes, using the decomposition of MP into anatomy (or entity) and quality term cross-product
 ** Full EQ annotation for OMIM is being planned but not yet funded
 ** MGI, Xenbase, and ZFIN all have links from their phenotype data to OMIM
 * Development of anatomy
@@ -20,10 +22,14 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 *** MGI uses complete anatomy at different developmental stages
 *** ZFIN uses one anatomy ontology and adds start and end dates to indicate the developmental period during which it appears (adult structures don't have an end date)
 *** Xenbase uses the ZFIN approach
-** Candidate genes for evolutionary change could be derived from anatomy-annotated gene expression studies during development
+** Candidate genes for evolutionary change could be derived from anatomy-annotated gene expression studies during development; Where do mouse and Xenopus share gene sets in early development?
 *** genes responsible for or associated with morphological changes during individual development could be candidates for evolutionary change
 *** evolutionary phenotype changes could be used to query morphological changes during development
-** Can we enable queries to generate hyptheses based on ontogeny reflecting evolutionary history?
+** Can we enable queries to generate hypotheses based on ontogeny reflecting evolutionary history?
+** Powerful tool in interpreting microarray data downstream from node; know candidate genes without mutants using this approach
+** See phenotypic differences between 2 taxa – where do you see similar changes?
+** Cell types and associate with time and space – can reason from, neural crest, etc.
+
 *** Evolutionary developmental data could come from medaka, stickleback
 * Sequence of steps:
 *# Ontology building
@@ -51,8 +57,6 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 ** Formalizing and generating grammar of character coding and character state definition
 ** Analyzing character usage (shared, not shared, rejected) between trees that share taxa
 ** Conflicting phylogenies for the same set of taxa often turn out to be based on character codings that are not consistent or not compatible
-
-
 
 == Wednesday morning ==
 
