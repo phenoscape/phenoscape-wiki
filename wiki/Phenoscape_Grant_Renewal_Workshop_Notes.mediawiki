@@ -98,6 +98,42 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 ** Can we retrieve the characters that are discordant?
 * What question motivates character matrix?
 == Developmental time & use case discussion ==
+* Development of mouse and Xenopus:
+** Notochord in adult example
+* Phenoscape II: create developmental time ontology for vertebrates.
+* Compare heterochronies:
+** relative ordering of entities and associated gene expression
+** Anne’s example of heterochronic frogs…
+
+** Notochord-hedgehog at particular times & wnts
+* For a given evolutionary change, what are genes expressed in a time at a place?
+** pick ~ 12 terms and make table and map for multiples species
+
+* Phenoscape and vertebrate development ontology (?)
+** would facilitate finding genes responsible
+** without start and stop times, would have develops_from only
+** enables placement of a phenotypic information into a developmental framework; develops_from
+** what are the sets of characters that evolve at derived condition; see how phenotypic characters cluster at particular branch points; even do math, counting nodes; can do stats at branch points. 
+** creating diff definitions of homology; try to experimentally differentiate species
+* Evolutionary time: use cases; compare sister groups
+** Rates
+** Dating clades – minimum age
+
+* Database discussion – Todd/Jim
+
+* OBD – Suzi – Need to work on ability to pull things back on basis of similarity; on basis of phenotype – what else is there that affects a bone?
+* Suzi & co. would adopt single searches by gene or body parts
+
+** Cartik: Support units and measures
+** Jim: User see OBD structure – enter a term and visualize EQ annotations in relation to it;
+** See Ensemble – Phenoscape Mammals; Phenoscape Amphibs; Phenoscape Fishes – Allow user to move between taxonomic stashes without mapping
+
+** Sparkle: Chris: issue generic queries – return data in generic format
+
+** 
+** Suzi: Allow people to add term if they are making query and not finding anything
+*** could repurpose protein tree/ GO
+*** relative ordering of entities and associated gene expression
 
 == Wednesday morning ==
 
