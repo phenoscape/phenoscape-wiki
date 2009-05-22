@@ -34,9 +34,15 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 * Sequence of steps:
 *# Ontology building
 *#* Adult phenotype annotations for mutants in Xenbase
-*#* Presently only 3 species for amphibians: Xenopus, Dermophis, Salamandria
-*#* Development decoupling from anatomy ontology in mouse
+*#* Presently only 3 species for amphibians: Xenopus, Dermophis, Salamandria (integration beginning in July; phenotypes/mutants, adulta; L. Zimmerman (GB))
+*#* Development decoupling from anatomy ontology in mouse (as per above)
+*#** Requirements:
+*#*** QC required – 1 person to find orphans and generate reports (80% complete); make decisions
+*#*** 1st: alignment of MP and mouse anatomy, then QC of MP-EQ; use Mouse anatomy to initalize Paul’s ontology
+*#*** 2nd: Mouse staging-> ZFIN + Xenbase style
+*#*** Phenoscape II: Time required for above (1st and 2nd) is 1 person over 3 years
 *#* Expanding mammalian anatomy to include extinct species
+*#*** Judy mentioned Fiona McCarthy (chick ontology? Judy will ask)
 *#* Anatomy for amniotes (the clade including mouse and dinosaurs), including extinct taxa (such as dinosaurs)
 *#** Scope of this could be overwhelming
 *#** Should be strongly driven (or staged) according to the character matrices to be annotated
@@ -44,6 +50,8 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 *#** There is work on bird anatomy that uses a latin naming scheme
 *#** Work on any smaller-scope anatomy (or multi-species anatomy) ontology will contribute terms that apply more broadly
 *#** There may not be very many neomorphs between birds and mammals, though there are a few areas such as the digits in birds where the exact homology relationships aren't as clearly agreed upon.
+*#** set up ontology and extend to fossils that Paul knows best; 
+*#** also need taxonomy onotlogy (from suprageneric filemaker database?)
 *# Mammalian phenotype decomposition
 *#* Need support for QC'ing the results of automated decomposition
 *#* Alignment of MP with mouse anatomy
