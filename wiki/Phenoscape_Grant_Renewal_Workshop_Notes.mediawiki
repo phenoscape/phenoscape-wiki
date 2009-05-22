@@ -179,13 +179,6 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 #* Mouse is done but needs to be rearranged (MP decomposition)
 #* Amniotes need to be done from the ground up
 == ==
-* Use case for development?
-** Ordering of developmental landmarks using develops_from
-** See also transforms_into and ?
-** Use case to compare sequence of ossification in ontogeny of an individual vs. among species variation in degree of ossification of a structure; idea is to visualize where these structures are on the developmental sequence of a MOD
-** Homology and develops_from:
-** Juvenile wing primordiium homologous to adult limb?
-** John: should add the phrase to any homology statement: “two things are homologous as _______”
 
 *Evolutionary time:
 ** TimeTree www.timetree.com; pairwise comparisons to get ages
@@ -205,7 +198,7 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 *** Optimizing EQs involves deciding which EQ is alternative to another
 *** Todd: Easier for user to download data and create matrix on their own
 
-* Phenex stuff: 
+* Phenex stuff:
 ** Add skeletal parts in association with museum voucher for paleo data; for extant dry skeletal vs. cl/st. Could help discern WHY, e.g., cartilage is not variable in data matrix.
 
 == Wednesday afternoon ==
