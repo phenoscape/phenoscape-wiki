@@ -178,28 +178,7 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 # Expand taxonomic coverage of Phenoscape to Vertebrata
 #* Mouse is done but needs to be rearranged (MP decomposition)
 #* Amniotes need to be done from the ground up
-== ==
 
-*Evolutionary time:
-** TimeTree www.timetree.com; pairwise comparisons to get ages
-** Questions that can be asked regarding geologic time:
-*** How far back in time do you need to go to find a particular change in phenotype?
-*** Does this type of character change occur during a particular time period?
-**** Requires trees
-* Informatics: what do you want to see?
-** Cartik: measurements displayed in web interface (it’s supported in Phenex and OBD currently)
-** Jim: user upload; group annotations and click through neigborhoods…see Hilmar notes
-
-* Tree visualization
-** Nodes don’t have ancestral state reconstruction, they are the union of phenotypes in the database; displays all the phenotypes that are recorded in a clade, not mapping of characters.
-** PhyloWidget developed in 2007 summer of code
-*** Annotate parts of the tree with images, phenotypes, etc.. to a tree topology
-** Character optimization for Phenoscape II
-*** Optimizing EQs involves deciding which EQ is alternative to another
-*** Todd: Easier for user to download data and create matrix on their own
-
-* Phenex stuff:
-** Add skeletal parts in association with museum voucher for paleo data; for extant dry skeletal vs. cl/st. Could help discern WHY, e.g., cartilage is not variable in data matrix.
 
 == Wednesday afternoon ==
 
