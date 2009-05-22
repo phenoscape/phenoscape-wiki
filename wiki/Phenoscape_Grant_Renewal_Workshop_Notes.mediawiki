@@ -183,7 +183,7 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 ** Ordering of developmental landmarks using develops_from
 ** See also transforms_into and ?
 ** Use case to compare sequence of ossification in ontogeny of an individual vs. among species variation in degree of ossification of a structure; idea is to visualize where these structures are on the developmental sequence of a MOD
-** Homology and develops_from: 
+** Homology and develops_from:
 ** Juvenile wing primordiium homologous to adult limb?
 ** John: should add the phrase to any homology statement: “two things are homologous as _______”
 
@@ -193,6 +193,20 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 *** How far back in time do you need to go to find a particular change in phenotype?
 *** Does this type of character change occur during a particular time period?
 **** Requires trees
+* Informatics: what do you want to see?
+** Cartik: measurements displayed in web interface (it’s supported in Phenex and OBD currently)
+** Jim: user upload; group annotations and click through neigborhoods…see Hilmar notes
+
+* Tree visualization
+** Nodes don’t have ancestral state reconstruction, they are the union of phenotypes in the database; displays all the phenotypes that are recorded in a clade, not mapping of characters.
+** PhyloWidget developed in 2007 summer of code
+*** Annotate parts of the tree with images, phenotypes, etc.. to a tree topology
+** Character optimization for Phenoscape II
+*** Optimizing EQs involves deciding which EQ is alternative to another
+*** Todd: Easier for user to download data and create matrix on their own
+
+* Phenex stuff: 
+** Add skeletal parts in association with museum voucher for paleo data; for extant dry skeletal vs. cl/st. Could help discern WHY, e.g., cartilage is not variable in data matrix.
 
 == Wednesday afternoon ==
 
