@@ -97,8 +97,7 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 ** vast phylogenetic branches – does character annotation at gross level conceal or reveal phylogenetic information?
 ** Can we retrieve the characters that are discordant?
 * What question motivates character matrix?
-== Developmental time and use case discussion
- ==
+== Developmental time & use case discussion ==
 
 == Wednesday morning ==
 
