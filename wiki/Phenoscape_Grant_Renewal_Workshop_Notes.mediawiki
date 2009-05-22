@@ -221,6 +221,17 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 ** Juvenile wing primordiium homologous to adult limb?
 ** John: should add the phrase to any homology statement: “two things are homologous as _______”
 
+
+*Evolutionary time:
+** TimeTree www.timetree.com; pairwise comparisons to get ages
+** Questions that can be asked regarding geologic time:
+*** How far back in time do you need to go to find a particular change in phenotype?
+*** Does this type of character change occur during a particular time period?
+**** Requires trees
+* Informatics: what do you want to see?
+** Cartik: measurements displayed in web interface (it’s supported in Phenex and OBD currently)
+** Jim: user upload; group annotations and click through neigborhoods…see Hilmar notes
+
 * Demonstration of Phenoscape KB
 ** Some of the features we are developing (the 3 principle queries) would be very useful to MOD users
 * Informatics goals for Phenoscape 2:
