@@ -17,7 +17,7 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 ** MGI isn't in a position to use EQ internally, but for example Phenoscape II could provide an EQ-view on mouse phenotypes, using the decomposition of MP into anatomy (or entity) and quality term cross-product
 ** Full EQ annotation for OMIM is being planned but not yet funded
 ** MGI, Xenbase, and ZFIN all have links from their phenotype data to OMIM
-* Development of anatomy
+* Phenoscape II: Development of anatomy - new queries supported; would generate testable hypotheses; how exactly do those queries rely on developmental data?
 ** Different approaches between MGI and ZFIN:
 *** MGI uses complete anatomy at different developmental stages
 *** ZFIN uses one anatomy ontology and adds start and end dates to indicate the developmental period during which it appears (adult structures don't have an end date)
