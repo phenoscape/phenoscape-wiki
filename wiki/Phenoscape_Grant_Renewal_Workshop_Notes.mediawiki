@@ -50,7 +50,7 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 *#** There is work on bird anatomy that uses a latin naming scheme
 *#** Work on any smaller-scope anatomy (or multi-species anatomy) ontology will contribute terms that apply more broadly
 *#** There may not be very many neomorphs between birds and mammals, though there are a few areas such as the digits in birds where the exact homology relationships aren't as clearly agreed upon.
-*#** set up ontology and extend to fossils that Paul knows best; 
+*#** set up ontology and extend to fossils that Paul knows best;
 *#** also need taxonomy onotlogy (from suprageneric filemaker database?)
 *# Mammalian phenotype decomposition
 *#* Need support for QC'ing the results of automated decomposition
@@ -60,11 +60,16 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 * Ontology mapping and alignment
 ** Need to align teleost and amphibian anatomy to mouse.
 ** Mouse and chicken need to be mapped to amniote anatomy. Mouse is a better start because there are genetic data.
-* Reconciling character-derived trees and character definition and use between different matrices and trees that share taxa (Paul)
+* Paul Sereno gave short presentation on reconciling character-derived trees and character definition and use between different matrices and trees that share taxa
 ** [http://taxonsearch.org TaxonSearch]
 ** Formalizing and generating grammar of character coding and character state definition
+*** Phenoscape II grant activity could be to produce EQ primer
+** presented summaries of annotations, by region, by authors, by structure, by quality
+** Paul’s question: Why are 2 trees different? A: Particular characters and types of coding; If you are trying to develop a consensus tree – can see how authors’ differ
 ** Analyzing character usage (shared, not shared, rejected) between trees that share taxa
 ** Conflicting phylogenies for the same set of taxa often turn out to be based on character codings that are not consistent or not compatible
+** need to not only curate legacy data but be proactive in terms of syntax etc. of future data; use cases looking forward; morphology in crisis, wallowing in a sea of data
+* Re: direct submission --Monte: ZFIN has 6,000 users, but 4-5 labs do direct submission of a lot of data; he suggested Phenex modified as a web tool to put in data; also ontology modification/use of Mesquite
 
 == Wednesday morning ==
 
