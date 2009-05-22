@@ -71,7 +71,7 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 ** need to not only curate legacy data but be proactive in terms of syntax etc. of future data; use cases looking forward; morphology in crisis, wallowing in a sea of data
 * Re: direct submission --Monte: ZFIN has 6,000 users, but 4-5 labs do direct submission of a lot of data; he suggested Phenex modified as a web tool to put in data; also ontology modification/use of Mesquite
 == ==
-* Miscellaneous discussion following above (Tuesday am)
+* Miscellaneous discussion following above (Tuesday pm)
 * Open to communities
 ** Phenoscape has public data, but can upload private data and use visualization tool
 ** working environment enabling exploration of data for analysis
@@ -97,6 +97,7 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 ** vast phylogenetic branches – does character annotation at gross level conceal or reveal phylogenetic information?
 ** Can we retrieve the characters that are discordant?
 * What question motivates character matrix?
+
 == Developmental time & misc discussion ==
 * Development of mouse and Xenopus:
 ** Notochord in adult example
