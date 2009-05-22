@@ -136,12 +136,24 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 *** could repurpose protein tree/ GO
 *** relative ordering of entities and associated gene expression
 
-== Wednesday morning ==
+== Wednesday morning, April 29, 2009 ==
 
-* Nomenclatural history of terms in ontologies
+* Expanding taxonomic coverage to Vertebrata
+** Phenoscape has about 15,000 species of teleosts untouched (half that number is sampled in a typical study) and approx 200 matrices to target
+** Amphibanat estimates 3,000 amphib species and approx 36 matrices
+** Plan to maintain skeletal focus for anatomy development
+* How best to keep nomenclature history?
+** Nomenclatural history of terms in ontologies
+** mechanism to keep track of in OBO-edit? No
+** keep track of this information on the database side
 ** Current exchange format standards don't support this really beyond obsoletion
-** ZFIN tracks within the database the complete nomenclatural history of gene names
+** ZFIN tracks within the database the complete nomenclatural history of gene names; (ZFIN records the reason, comments etc…in database comments)
 ** RDBOM tracks literature and author attribution for anatomy terms but not yet nomenclatural history
+*** Amphibanat handles comments with fields:
+**** Is_defined_by:
+**** Is_discussed_by:
+**** Literature citations are an ontology linked to other concepts
+
 * Character quality profiles for data matrices
 ** Addresses the question of "Where in the skeleton are the changes occurring that drive the phylogeny"
 ** Distribution of characters across the skeletal anatomy, at different levels of the hierarchy
