@@ -222,6 +222,14 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 *** This is missing yet for mouse.
 *** Wouldn't really allow inferring heterochrony.
 *** Would allow though to place and compare the placement of phenotypes into a developmental chain of transformations.
+* Use case for development?
+** Ordering of developmental landmarks using develops_from
+** See also transforms_into and ?
+** Use case to compare sequence of ossification in ontogeny of an individual vs. among species variation in degree of ossification of a structure; idea is to visualize where these structures are on the developmental sequence of a MOD
+** Homology and develops_from:
+** Juvenile wing primordiium homologous to adult limb?
+** John: should add the phrase to any homology statement: “two things are homologous as _______”
+
 * Demonstration of Phenoscape KB
 ** Some of the features we are developing (the 3 principle queries) would be very useful to MOD users
 * Informatics goals for Phenoscape 2:
