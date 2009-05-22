@@ -152,11 +152,11 @@ Note that semantically, the post-composed term is equivalent to a pre-composed t
 
 === Refining entity terms on-the-fly ===
 
-To post-compose a term (for example, "maxillary process") using Phenex, first type in the genus term in the Entity field within the "Phenotypes" panel.  Then open the Post-composition Editor box by right-clicking on the Entity cell (make sure that the entity cell is blue in color) :[[Image:Right-click.png|center]]
+To post-compose a term (for example, "maxillary process") using Phenex, first type in the genus term 'process' in the Entity field within the "Phenotypes" panel.  Then open the Post-composition Editor box by right-clicking on the Entity cell (make sure that the entity cell is blue in color) :[[Image:Right-click.png|center]]
 
 
 
-Click on “Edit Post-composed Term.”  The Editor box should now appear (see below).  To post-compose the entity “maxillary process”, type “process” in the Genus field, click the “+” button to add a row in the table, type “part_of” in the relationship field, and type “maxillary” in the differentia field.  Click OK. [[Image:Post-comp-box.jpg|center]]
+Now click on “Edit Post-composed Term.”  The Editor box should now appear (see below).  To post-compose the entity “maxillary process”, type “process” in the Genus field, click the “+” button to add a row in the table, type “part_of” in the relationship field, and type “maxillary” in the differentia field.  Click OK. [[Image:Post-comp-box.jpg|center]]
 
 The post-composed term appears in the Entity field as:
 
