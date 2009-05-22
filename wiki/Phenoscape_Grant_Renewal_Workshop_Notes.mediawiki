@@ -97,7 +97,7 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 ** vast phylogenetic branches – does character annotation at gross level conceal or reveal phylogenetic information?
 ** Can we retrieve the characters that are discordant?
 * What question motivates character matrix?
-== Developmental time & use case discussion ==
+== Developmental time & misc discussion ==
 * Development of mouse and Xenopus:
 ** Notochord in adult example
 * Phenoscape II: create developmental time ontology for vertebrates.
@@ -113,7 +113,7 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 ** would facilitate finding genes responsible
 ** without start and stop times, would have develops_from only
 ** enables placement of a phenotypic information into a developmental framework; develops_from
-** what are the sets of characters that evolve at derived condition; see how phenotypic characters cluster at particular branch points; even do math, counting nodes; can do stats at branch points. 
+** what are the sets of characters that evolve at derived condition; see how phenotypic characters cluster at particular branch points; even do math, counting nodes; can do stats at branch points.
 ** creating diff definitions of homology; try to experimentally differentiate species
 * Evolutionary time: use cases; compare sister groups
 ** Rates
@@ -130,7 +130,7 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 
 ** Sparkle: Chris: issue generic queries – return data in generic format
 
-** 
+**
 ** Suzi: Allow people to add term if they are making query and not finding anything
 *** could repurpose protein tree/ GO
 *** relative ordering of entities and associated gene expression
