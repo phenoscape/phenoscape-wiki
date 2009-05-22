@@ -70,6 +70,18 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 ** Conflicting phylogenies for the same set of taxa often turn out to be based on character codings that are not consistent or not compatible
 ** need to not only curate legacy data but be proactive in terms of syntax etc. of future data; use cases looking forward; morphology in crisis, wallowing in a sea of data
 * Re: direct submission --Monte: ZFIN has 6,000 users, but 4-5 labs do direct submission of a lot of data; he suggested Phenex modified as a web tool to put in data; also ontology modification/use of Mesquite
+== ==
+* Open to communities 
+** Phenoscape has public data, but can upload private data and use visualization tool
+** working environment enabling exploration of data for analysis
+** would allow people temporarily to overlay on whole data store
+
+* NCBI blast similarity – phenoblast
+** Will need term tracker
+** Monte: Issue of best practice for global size/shape
+** Todd: (here is forest of EQs that match)
+*** can move up and down ontology
+*** shape and syntax; best practice
 
 == Wednesday morning ==
 
