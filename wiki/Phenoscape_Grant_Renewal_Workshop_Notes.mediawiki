@@ -165,7 +165,7 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 *** What is not changing – not in matrix –
 *** Because extinct not in fossil record (no a??)
 *** Or constrained (just no variation)
-*** To get at redundancy, have to factor in taxonomic sampling and character sampling.  
+*** To get at redundancy, have to factor in taxonomic sampling and character sampling.
 ** Q: Who much is good data? How much is redundant?
 *** What is redundancy? Identical EQs?  Action: curate to fine grain in order to match; develop tool to be able to see other EQ annotations
 ** Q: How does the order of development correspond to the order to evolution?
@@ -178,6 +178,21 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 # Expand taxonomic coverage of Phenoscape to Vertebrata
 #* Mouse is done but needs to be rearranged (MP decomposition)
 #* Amniotes need to be done from the ground up
+== ==
+* Use case for development?
+** Ordering of developmental landmarks using develops_from
+** See also transforms_into and ?
+** Use case to compare sequence of ossification in ontogeny of an individual vs. among species variation in degree of ossification of a structure; idea is to visualize where these structures are on the developmental sequence of a MOD
+** Homology and develops_from: 
+** Juvenile wing primordiium homologous to adult limb?
+** John: should add the phrase to any homology statement: “two things are homologous as _______”
+
+*Evolutionary time:
+** TimeTree www.timetree.com; pairwise comparisons to get ages
+** Questions that can be asked regarding geologic time:
+*** How far back in time do you need to go to find a particular change in phenotype?
+*** Does this type of character change occur during a particular time period?
+**** Requires trees
 
 == Wednesday afternoon ==
 
