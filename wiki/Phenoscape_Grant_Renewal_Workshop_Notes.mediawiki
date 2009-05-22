@@ -153,12 +153,22 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 **** Is_defined_by:
 **** Is_discussed_by:
 **** Literature citations are an ontology linked to other concepts
-
 * Character quality profiles for data matrices
 ** Addresses the question of "Where in the skeleton are the changes occurring that drive the phylogeny"
 ** Distribution of characters across the skeletal anatomy, at different levels of the hierarchy
 ** Distribution of missing data across the anatomy, at different hierarchy levels
 ** How many taxa have how much missing data, distributed on which anatomical parts
+* DRIVING QUESTIONS:
+** What parts are of phenotype are variable a) in particular taxonomic groups; b) in particular author’s studies?
+*** Where are the gaps in character variation?  In taxon sampling?
+*** Why are there gaps in phenotype variation? Missing data, fossils
+*** What is not changing – not in matrix –
+*** Because extinct not in fossil record (no a??)
+*** Or constrained (just no variation)
+*** To get at redundancy, have to factor in taxonomic sampling and character sampling.  
+** Q: Who much is good data? How much is redundant?
+*** What is redundancy? Identical EQs?  Action: curate to fine grain in order to match; develop tool to be able to see other EQ annotations
+** Q: How does the order of development correspond to the order to evolution?
 * Use case: Character redundancy
 ** Deriving a character profile across the anatomy could help visualize the redundancy between annotations
 * Use case: Mapping the evolutionary characters that lead (and distinguish) to a model organism. Subsequently, see whether these evolutionary changes and the order in which they appear to the ontogeny of the organism.
