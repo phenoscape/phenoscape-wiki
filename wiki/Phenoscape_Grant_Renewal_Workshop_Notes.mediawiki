@@ -216,15 +216,13 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 ** Annotation effort is best focused to a granularity level where it suffices to solve a use-case of interest.
 ** Annotating at very granular levels is entirely possible but can take a lot of time because many of the ontology terms needed are likely not to be present yet in the ontology.
 ** How does this impact phylogeny and data matrix reconciliation, or phylogenetic reconstruction on the basis of the EQ annotations?
+
 * Use-case for development
 ** Heterochrony would be interesting if one can pull it out of the database
-** Developmental ordering relationships currently used are confined to develops_from and transforms-into.
+** Ordering of developmental landmarks uses develops_from; Developmental ordering relationships currently used are confined to develops_from and transforms-into.
 *** This is missing yet for mouse.
 *** Wouldn't really allow inferring heterochrony.
 *** Would allow though to place and compare the placement of phenotypes into a developmental chain of transformations.
-* Use case for development?
-** Ordering of developmental landmarks using develops_from
-** See also transforms_into and ?
 ** Use case to compare sequence of ossification in ontogeny of an individual vs. among species variation in degree of ossification of a structure; idea is to visualize where these structures are on the developmental sequence of a MOD
 ** Homology and develops_from:
 ** Juvenile wing primordiium homologous to adult limb?
