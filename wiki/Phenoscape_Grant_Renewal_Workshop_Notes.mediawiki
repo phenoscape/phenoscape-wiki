@@ -2,7 +2,8 @@
 title: Phenoscape Grant Renewal Workshop/Notes
 ---
 
-== Tuesday afternooon ==
+== Phenoscape II: Tuesday, April 28, 1:00-5:30 ==
+Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar Lapp, Wasila Dahdul, Jim Balhoff, Cartik Kothari, Peter Midford, John Lundberg; Suzanna Lewis, Judy Blake, Peter Vize, Anne Maglia
 
 * Will be extending the taxonomic scope to extant and extinct vertebrates
 ** Create an annotation database spanning the taxonomic scope and their anatomy ontologies
@@ -51,7 +52,7 @@ title: Phenoscape Grant Renewal Workshop/Notes
 ** Analyzing character usage (shared, not shared, rejected) between trees that share taxa
 ** Conflicting phylogenies for the same set of taxa often turn out to be based on character codings that are not consistent or not compatible
 
-[[Category:Events]]
+
 
 == Wednesday morning ==
 
@@ -90,7 +91,7 @@ title: Phenoscape Grant Renewal Workshop/Notes
 *** Would allow though to place and compare the placement of phenotypes into a developmental chain of transformations.
 * Demonstration of Phenoscape KB
 ** Some of the features we are developing (the 3 principle queries) would be very useful to MOD users
-* Informatics goals for Phenoscape 2: 
+* Informatics goals for Phenoscape 2:
 ** Supporting units for measurements
 ** Allowing others to compare their phenotype data to the knowledge base
 ** Generic ontological queries, such as a SPARQL endpoint
@@ -109,3 +110,5 @@ title: Phenoscape Grant Renewal Workshop/Notes
 #* For example, a "poorly ossified cranium" in an adult amphibian implies that the developmental process was delayed or did not complete.
 # How does logical inference of homology propagate over develops-from relationships.
 #* E.g., if A and B are asserted homologous, and C develops from A and D develops from B, are then C and D inferred as homologous, and are C and B inferred as homologous.
+
+[[Category:Events]]
