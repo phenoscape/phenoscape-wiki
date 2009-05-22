@@ -71,7 +71,8 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 ** need to not only curate legacy data but be proactive in terms of syntax etc. of future data; use cases looking forward; morphology in crisis, wallowing in a sea of data
 * Re: direct submission --Monte: ZFIN has 6,000 users, but 4-5 labs do direct submission of a lot of data; he suggested Phenex modified as a web tool to put in data; also ontology modification/use of Mesquite
 == ==
-* Open to communities 
+* Miscellaneous discussion following above (Tuesday am)
+* Open to communities
 ** Phenoscape has public data, but can upload private data and use visualization tool
 ** working environment enabling exploration of data for analysis
 ** would allow people temporarily to overlay on whole data store
@@ -82,6 +83,22 @@ Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield, Hilmar L
 ** Todd: (here is forest of EQs that match)
 *** can move up and down ontology
 *** shape and syntax; best practice
+
+* Discussion of images (linked to AO, PATO) – definitional, put in ontology; browsing, finding right AO term
+** could call for images in particular sets of species
+
+* Are ontologies useful for phylogenetics?  ATOL data and relationships are a challenge (Paul)
+** Can a matrix be reconstructed and can data be related in an effective way?
+** Do ontologies serve this community well?
+** Limiting from community?
+** Explore whether useful for phylogenetics?
+** Capability of characters for phylogenetic studies?
+* Viability of PhenoscapeII depends on morphologists using it!
+** vast phylogenetic branches – does character annotation at gross level conceal or reveal phylogenetic information?
+** Can we retrieve the characters that are discordant?
+* What question motivates character matrix?
+== Developmental time and use case discussion
+ ==
 
 == Wednesday morning ==
 
