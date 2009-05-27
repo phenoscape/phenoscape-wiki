@@ -240,8 +240,10 @@ JSON:
             "entity" : {"id" : "TAO:xxxx", "name" : "some anatomical thing"},
             "taxon" : {"id" : "TTO:xxxx", "name" : "some taxon"}
         },
-        "evidence" : {"id" : "ECO:xxxx", "name" : "some evidence code"},
-        "source" : "citation text"
+        "source" : {
+			"publication" : "citation text",
+			"evidence" : {"id" : "ECO:xxxx", "name" : "some evidence code"}
+			}
     },
     {
         "subject" : {
@@ -252,8 +254,10 @@ JSON:
             "entity" : {"id" : "TAO:xxxx", "name" : "some anatomical thing"},
             "taxon" : {"id" : "TTO:xxxx", "name" : "some taxon"}
         },
-        "evidence" : {"id" : "ECO:xxxx", "name" : "some evidence code"},
-        "source" : "citation text"
+        "source" : {
+			"publication" : "citation text",
+			"evidence" : {"id" : "ECO:xxxx", "name" : "some evidence code"}
+			}
     }
 ]
 }
