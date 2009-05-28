@@ -4,6 +4,8 @@ title: ASIH09 workshop
 
 [[Image:asih2009ontologyworkshop.png|ASIH 2009 Ontology Workshop Banner]]
 
+To be held in conjunction with the [http://www.dce.k-state.edu/conf/jointmeeting/ Joint Meeting of Ichthyologists and Herpetologists]
+
 ==Workshop goals==
 Ontologies, controlled vocabularies with well-defined relations among terms, are a key tool in scientific data integration. By using ontologies, scientists from different disciplines can know when they are referring to the same entity by different names, and new discoveries are enabled by computer software being able to reason across disciplines and over large datasets. Already widely used in genomics, ontologies are of growing importance in systematics, ecology, behavior, development, morphology and physiology. This workshop aims to explore the utility of ontologies for ichthyology and herpetology, using the Teleost Anatomy Ontology and the Amphibian Anatomy Ontology as case studies of community resources that are being actively developed and used by members of ASIH. Participants will present examples of how these ontologies are being used to provide new ways of exploring data within morphological and phenotypic databases. Talks in the morning will be followed in the afternoon with ontology development workshops and hands-on demonstrations of Phenoscape and AmphibAnat tools.
 
