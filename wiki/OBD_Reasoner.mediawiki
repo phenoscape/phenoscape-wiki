@@ -128,9 +128,9 @@ Phenotype annotations are typically "post-composed", where an entity and quality
 # PATO:0000587^OBO_REL:inheres_in(TAO:0001173)              OBO_REL:inheres_in               TAO:0001173, and
 # PATO:0000587^OBO_REL:inheres_in(TAO:0001173)              OBO_REL:is_a                     PATO:0000587
 
-==Features added by Cartik==
+== Phenoscape-specific rules ==
 
-This section describes the features added to the OBD reasoner by Cartik.
+This section describes the Phenoscape-specific rules added to the OBD reasoner.
 
 === PATO Character State relations ===
 
