@@ -89,7 +89,7 @@ Relational qualities are those that exist in an entity but require an additional
  E: parietal, Q: relational structural quality, RE: supraoccipital
 
 ===5. Counts===
-Characters involving counts of entities are annotated using the “count in organism” quality.  Values for counts are entered in the “count” field(*).  Note that ranges and lower or upper bounds are recorded as follows:
+Characters involving counts of entities are annotated using the “count” quality.  Values for counts are entered in the “count” field(*).  Note that ranges and lower or upper bounds are recorded as follows:
 
  E: vertebra, Q: count in organism, Count*: 33
  E: vertebra, Q: count in organism, Comments*: 34-38
