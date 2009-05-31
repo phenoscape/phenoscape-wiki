@@ -8,7 +8,7 @@ The current goal for curation is to annotate all characters to a coarse level of
 
 ==PATO terms used for annotation==
 Curators are currently annotating systematic characters at a coarse level using  a small set of quality terms from PATO. These terms represent higher-level concepts to describe phenotypic variation, and the Quality field in Phenex is currently limited to these terms.
-[[Image:Pato-slim.jpg|right]]
+[[Image:Pato-slim.jpg|Pato-slim.jpg]]
 {| border="1" cellspacing="0" cellpadding="3"
 ! PATO term
 ! Synonyms
