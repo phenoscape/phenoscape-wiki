@@ -34,17 +34,17 @@ Curators are currently annotating systematic characters at a coarse level using 
 |-
 || color || ||
 |-
-|| relational shape quality* || || protruding into
-|-
-|| relational spatial quality* || || anterior to, lateral to
-|-
-|| relational structural quality* || || fused with, overlap with, separated from
-|-
 || present || present in organism, presence ||
 |-
 || absent || absent from organism, absence ||
 |-
 || count || count in organism  ||
+|-
+|| relational shape quality* || || protruding into
+|-
+|| relational spatial quality* || || anterior to, lateral to
+|-
+|| relational structural quality* || || fused with, overlap with, separated from, in contact with
 |-
 
 |}
