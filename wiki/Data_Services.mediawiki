@@ -266,5 +266,22 @@ JSON:
 }
 </javascript>
 
+==Annotation source information==
+'''URI'''
+
+ <BASE URI>/phenotypes/{annotation_id}/source
+
+'''Returns'''
+
+JSON:
+<javascript>
+{
+	"publication" : "citation text",
+	"character_text" : "blah",
+	"character_comment" : "blah",
+	"state_text" : "blah",
+	"curated_by" : "blah"
+}
+
 [[Category:Informatics]]
 [[Category:API]]
