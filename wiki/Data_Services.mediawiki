@@ -275,12 +275,15 @@ JSON:
 
 JSON:
 <javascript>
-{
-	"publication" : "citation text",
-	"character_text" : "blah",
-	"character_comment" : "blah",
-	"state_text" : "blah",
-	"curated_by" : "blah"
+{ "sources" : [
+    {
+        "publication" : "citation text",
+        "character_text" : "blah",
+        "character_comment" : "blah",
+        "state_text" : "blah",
+        "curated_by" : "blah"
+    }
+]
 }
 </javascript>
 
