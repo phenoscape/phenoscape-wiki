@@ -8,7 +8,7 @@ Phenex was developed by Phenoscape for annotation of evolutionary phenotypes.  Y
 
 ==2. Access Project Files==
 
-Phenoscape project files are XML files (more specifically, they are in [http://nexml.org NeXML] format) created using Phenex and housed in a subversion-controlled data repository.  Please read the [[Data Repository Access Instructions|Instructions for accessing the data repository]] if you are interested in perusing or adding to them.
+Phenoscape project files are XML files (more specifically, they are in [http://nexml.org NeXML] format) created using Phenex and housed in a subversion-controlled data repository.  Please read the [[Data Repository Access Instructions|'''Instructions for accessing the data repository''']] if you are interested in perusing or adding to them.
 
 ==3. Download PDFs and Ontology Posters as Needed on Phenoscape Fileshare ==
 You can download publication PDFs and powerpoint posters of the TAO and PATO ontologies by connecting to the Phenoscape file share. Please ask a Phenoscaper for the username and password.
