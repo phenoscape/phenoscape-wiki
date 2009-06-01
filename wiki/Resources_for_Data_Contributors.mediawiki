@@ -38,7 +38,7 @@ Most project files require a taxonomic expert to review the taxonomy used in a p
 
 ==6. Request New Terms for Ontologies==
 
-Curation drives ontology development and many new terms and relationships need to be added. For instructions on how to make these changes, please and see the [[Term_Requests | Term Request Instructions]].
+Curation drives ontology development and many new terms and relationships need to be added. For instructions on how to make these changes, please and see the [[Term_Requests | '''Term Request Instructions''']].
 
 ==7. Subscribe to Curator Mailing Lists ==
 * Phenoscape Curators mailing list (for discussion and communication of data curation issues, solutions, and progress):  http://lists.sourceforge.net/lists/listinfo/phenoscape-curators
