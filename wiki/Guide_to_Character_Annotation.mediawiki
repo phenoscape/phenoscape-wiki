@@ -42,7 +42,7 @@ Curators are currently annotating systematic characters at a coarse level using 
 |-
 || relational shape quality* || || protruding into
 |-
-|| relational spatial quality* || || anterior to, lateral to
+|| relational spatial quality* || || orientation, anterior to, lateral to
 |-
 || relational structural quality* || || fused with, overlap with, separated from, in contact with
 |-
