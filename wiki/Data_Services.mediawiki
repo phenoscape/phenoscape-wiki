@@ -282,6 +282,7 @@ JSON:
 	"state_text" : "blah",
 	"curated_by" : "blah"
 }
+</javascript>
 
 [[Category:Informatics]]
 [[Category:API]]
