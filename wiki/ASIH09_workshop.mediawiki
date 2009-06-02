@@ -23,7 +23,7 @@ MORNING:
 * 10:00-10:30 ''Coffee''
 * 10:30-11:00 '''Peter Vize''', University of Calgary: The Xenopus ontology and database ([[#The Xenopus ontology and database|Abstract]])
 * 11:00-11:30 '''Anne Maglia''', Missouri University of Science and Technology: Development of an anatomical ontology for amphibians ([[#Development of an anatomical ontology for amphibians|Abstract]])
-* 11:30—12:00 '''Marc Robinson-Rechavi''', Universite de Lausanne, France: Integrating ontology and homology for the study of gene expression evolution ([[#Bgee: Integrating ontology and homology for the study of gene expression evolution|Abstract]])
+* 11:30—12:00 '''Marc Robinson-Rechavi''', Universite de Lausanne, Switzerland: Integrating ontology and homology for the study of gene expression evolution ([[#Bgee: Integrating ontology and homology for the study of gene expression evolution|Abstract]])
 
 
 AFTERNOON:
