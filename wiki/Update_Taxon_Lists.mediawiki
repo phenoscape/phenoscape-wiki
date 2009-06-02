@@ -48,7 +48,7 @@ We use the Fish Collection Codes spreadsheet on Google Docs, along with the taxo
 
 ====Check In modified file to the data repository====
 
-After making your taxon update, save the file and return to ZigVersion.  Select the top-level folder ("/") and click "Check In." Type a short commentexplining the changes made to the file, then click on the Check In button, and click "ok" within the Check In box that appears.
+After making your taxon update, save the file and return to ZigVersion.  Select the top-level folder ("/") and click "Check In." Type a short comment explaining the changes made to the file, then click on the Check In button, and click "ok" within the Check In box that appears.
 
 ====Update entry for publication on Google Docs====
 
