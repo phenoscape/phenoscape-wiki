@@ -26,7 +26,7 @@ You can sort the data by clicking on any column header.  Sort the "Taxon Comment
 
 The names listed in the '''Publication Taxon''' column are those used in the publication, and should not require editing by curators (though edit if there is an obvious mismatch with the publication, usually because of a mistaken entry by a student).  '''Valid Taxon''' names will usually need to be updated.
 
-Not all publication taxa need to be updated with valid taxon names: only update those that were used in the matrix. To find taxa associated with matrix data, look at the '''Matrix Taxon''' column and/or the Publication Taxon column within the '''Matrix Panel''' (View > Annotation > Matrix).
+Not all publication taxa need to be updated with valid taxon names: only update those that were used in the matrix. To find taxa associated with matrix data, look at: 1) the '''Matrix Taxon''' column in the Taxa Panel, which will contain higher level taxon names if used by an author as a placeholder for multiple taxa; 2) the Publication Taxon column within the '''Matrix Panel''' (View > Annotation > Matrix).
 
 If you make any updates on a file or submit term requests for an entry, be sure to write a note in the Taxon Comments column detailing your actions.
 
