@@ -28,7 +28,6 @@ The names listed in the '''Publication Taxon''' column are those used in the pub
 
 Not all publication taxa need to be updated with valid taxon names: only update those that were used in the matrix. To find taxa associated with matrix data, look at the '''Matrix Taxon''' column and/or the Publication Taxon column within the '''Matrix Panel''' (View > Annotation > Matrix).
 
-
 If you make any updates on a file or submit term requests for an entry, be sure to write a note in the Taxon Comments column detailing your actions.
 
 ====Taxonomy ontology change requests====
