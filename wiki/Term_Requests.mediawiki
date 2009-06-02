@@ -27,6 +27,9 @@ There are several types of taxonomic requests typically submitted after reviewin
 *Danio sp. (Smith 2008)
 *Danio aff. dangila (Smith 2008)
 
+=====Warning about unavailable names=====
+When constructing taxon requests for material that is either unpublished or in the publication process, it is important not to expose unpublished names as that may prevent them from being published or recognized by taxonomic authorities.  To avoid this, it is important to construct temporary names such as 'Genus1 species1 (Smith 2008).'  In this case it is especially important to include author and year (as best known) to distinguish the name from other temporary names as well as simplifying the process of making the temporary obsolete if the material is published.  
+
 ====Collection Code requests====
 
 The Collection Code ontology is maintained as a shared spreadsheet on Google Docs (ask a PhenoScaper for access to the spreadsheet). Requests for codes are submitted to the taxonomy (TTO) tracker and added to the shared spreadsheet at the same time; it is important to remember to edit the spreadsheet if comments relevant to your request are made on teleost-discuss.
