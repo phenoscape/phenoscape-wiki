@@ -46,9 +46,9 @@ You need only submit one request per publication.  See [https://www.nescent.org/
 
 We use the Fish Collection Codes spreadsheet on Google Docs, along with the taxonomy term tracker, to request the addition of missing codes, or request addition of synonyms of an existing code.  See instructions [https://www.nescent.org/phenoscape/Term_Requests#Collection_Code_requests here]
 
-====Copy updated file to fileshare====
+====Check In modified file to the data repository====
 
-Copy the updated taxon list to the folder named "old lists now updated by TTO requests" on Phenoscape fileshare.
+After making your taxon update, save the file and return to ZigVersion.  Select the top-level folder ("/") and click "Check In." Type a short commentexplining the changes made to the file, then click on the Check In button, and click "ok" within the Check In box that appears.
 
 ====Update entry for publication on Google Docs====
 
