@@ -267,15 +267,18 @@ JSON:
 </javascript>
 
 ==Annotation source information==
+
+NOTE: URI spec has been changed because of Resolution problems on the Eryops server: Cartik
+
 '''URI'''
 
- <BASE URI>/phenotypes/{annotation_id}
+ <BASE URI>/phenotypes/source/{annotation_id}
 
 '''Returns'''
 
 JSON:
 <javascript>
-{ 
+{
 "phenotype" :  {
             "subject" : { "id" : "TTO:34242", "name" : "some taxon" },
             "entity" : { "id" : "TAO:34242", "name" : "some entity" },
