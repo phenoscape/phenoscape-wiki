@@ -57,8 +57,8 @@ The following are examples of character types commonly encountered in the system
 ===1. Presence/absence===
 
 
- E: pectoral fin, Q: present in organism
- E: pectoral fin, Q: absent in organsim
+ E: pectoral fin, Q: present
+ E: pectoral fin, Q: absent
 
 If a character describes the presence or absence of a structure located on another entity, (for example, presence of teeth on a particular bone), first check to see whether the structure exists as a term in the TAO before creating a post-composition.
 
