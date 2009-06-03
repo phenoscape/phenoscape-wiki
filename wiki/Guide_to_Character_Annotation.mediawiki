@@ -46,6 +46,7 @@ Curators are currently annotating systematic characters at a coarse level using 
 |-
 || relational structural quality* || || fused with, overlap with, separated from, in contact with
 |-
+|| relational size quality* || || THIS IS A PATO REQUESTED TERM AND UNDER DISCUSSION.  USE Q=SIZE FOR TWO ENTITIES RELATED BY SIZE
 
 |}
 (*) Relational qualities describe phenotypes between two entities
