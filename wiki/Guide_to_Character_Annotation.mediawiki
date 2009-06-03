@@ -91,10 +91,10 @@ Relational qualities are those that require an multiple entities in order to exi
 ===5. Counts===
 Characters involving counts of entities are annotated using the “count” quality.  Values for counts are entered in the “count” field(*).  Note that ranges and lower or upper bounds are recorded as follows:
 
- E: vertebra, Q: count in organism, Count*: 33
- E: vertebra, Q: count in organism, Comments*: 34-38
- E: vertebra, Q: count in organism, Comments*: >38
- E: vertebra, Q: count in organism, Comments*: =/>48
+ E: vertebra, Q: count, Count*: 33
+ E: vertebra, Q: count, Comments*: 34-38
+ E: vertebra, Q: count, Comments*: >38
+ E: vertebra, Q: count, Comments*: =/>48
 
  *Note: The Count field in Phenex is currently configured to only accept integer values.  Record ranges or min/max values in the Comments field.
 
