@@ -65,7 +65,7 @@ If a character describes the presence or absence of a structure located on anoth
 
 The statement "Teeth absent on basihyal bone" is annotated as:
 
- E: basihyal tooth, Q: absent in organism
+ E: basihyal tooth, Q: absent
 
 ===2. Well developed vs. small or absent entities===
 For example, a character involving the auditory foramen is coded with two states: 0, absent or small; 1, well developed.
