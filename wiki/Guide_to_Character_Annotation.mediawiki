@@ -177,6 +177,23 @@ As for semantics, identifiability, and rules for post-composing, the same applie
 
 === Creating joint terms on-the-fly ===
 
+Joints are defined in TAO according to the bones that participate in the joint.  Because only regions of these bones are part_of the joint rather than the entire bone, we use the ''overlaps'' relation to define joints. For example, the - joint has the following relationships:
+
+Definition:
+Joint that articulates the frontal and pterotic. Frontal-pterotic joint is paired.
+
+relationships: 
+is_a joint
+
+frontal ''overlaps'' frontal-pterotic joint
+pterotic ''overlaps'' frontal-pterotic joint
+
+If it is unlikely that a joint term will be used repeatedly for annotation, then a term for the joint can be post-composed using Phenex. To post-compose metapterygoid-hyomandibular joint, for example, open the post-composition editor box by right-clicking on the Entity field, and enter the following terms in the window:
+
+The post-composed term for metapterygoid-hyomandibular joint will appear as:
+
+ joint^overlaps(metapterygoid)^overlaps(hyomandibula) 
+
 
 <!-- DO NOT DELETE THE FOLLOWING SECTIONS, COMMENTED OUT BY WD BECAUSE WE ARE NOT CURRENTLY ANNOTATING TO THIS FINE LEVEL BUT MIGHT DO SO IN THE FUTURE
 === Specifying the contralateral half of a bilaterally paired structure ===
