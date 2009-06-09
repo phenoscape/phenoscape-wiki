@@ -182,13 +182,15 @@ Joints are defined in TAO according to the bones that participate in the joint. 
  Definition:
  Joint that articulates the frontal and pterotic. Frontal-pterotic joint is paired.
 
- relationships: 
+ relationships:
  ''is_a'' joint
 
  frontal ''overlaps'' frontal-pterotic joint
  pterotic ''overlaps'' frontal-pterotic joint
 
 If it is unlikely that a joint term will be used repeatedly for annotation, then a term for the joint can be post-composed using Phenex. To post-compose metapterygoid-hyomandibular joint, for example, open the post-composition editor box by right-clicking on the Entity field, and enter the following terms in the window:
+
+[[Image:joint.png|center]]
 
 The post-composed term for metapterygoid-hyomandibular joint will appear as:
 
