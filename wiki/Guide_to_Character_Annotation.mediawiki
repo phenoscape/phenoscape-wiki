@@ -151,7 +151,7 @@ The order in which the terms are composed is important if the composition relati
 
 Note that semantically, the post-composed term is equivalent to a pre-composed term, provided the pre-composed term has both the inheritance relationship and the cross-product relationship properly recorded. For example,  "process of lateral ethmoid" is-a "process", and  "process of lateral ethmoid" part-of "lateral ethmoid".
 
-=== Refining entity terms on-the-fly ===
+=== Creating entity terms on-the-fly ===
 
 To post-compose a term (for example, "maxillary process") using Phenex, first type in the genus term 'process' in the Entity field within the "Phenotypes" panel.  Then open the Post-composition Editor box by right-clicking on the Entity cell (make sure that the entity cell is blue in color) :[[Image:Right-click.png|center]]
 
