@@ -6,38 +6,201 @@ The following individuals have contributed to Phenoscape ontology development, d
 
 === Teleost Anatomy Ontology Contributors ===
 
-Gloria	Arratia, The University of Kansas		
+Gloria	Arratia, The University of Kansas
 
-Miles	Coburn, John Carroll University 		
+Miles	Coburn, John Carroll University
 
-Kevin	Conway, St. Louis University 		
+Kevin	Conway, St. Louis University
 
-Wasila Dahdul, University of South Dakota		
+Wasila Dahdul, University of South Dakota
 
-Mário de Pinna, Universidade de São Paulo 		
+Mário de Pinna, Universidade de São Paulo
 
-Jeff Engemen, University of South Dakota 		
+Jeff Engemen, University of South Dakota
 
-Terry	Grande, Loyola University, Chicago 		
+Terry	Grande, Loyola University, Chicago
 
-Melissa Haendel, Zebrafish Information Network		
+Melissa Haendel, Zebrafish Information Network
 
-Brian Hall, Dalhousie University		
+Brian Hall, Dalhousie University
 
-Eric Hilton, Virginia Institute of Marine Science 		
+Eric Hilton, Virginia Institute of Marine Science
 
-John Lundberg, The Academy of Natural Sciences, Philadelphia		
+John Lundberg, The Academy of Natural Sciences, Philadelphia
 
-Paula 	Mabee, University of South Dakota		
+Paula 	Mabee, University of South Dakota
 
-Richard Mayden, St. Louis University 		
+Richard Mayden, St. Louis University
 
-Mark Sabaj Pérez, The Academy of Natural Sciences, Philadelphia		
+Mark Sabaj Pérez, The Academy of Natural Sciences, Philadelphia
 
-Brian Sidlauskas, National Evolutionary Synthesis Center		
+Brian Sidlauskas, National Evolutionary Synthesis Center
 
 Richard Vari, National Museum of Natural History, Smithsonian Institution
 
 Jacqueline Webb, University of Rhode Island
 
 Edward Wiley, The University of Kansas
+
+=== Teleost Taxonomy Ontology Contributors	===		
+
+Stan Blum, California Academy of Sciences
+
+Miles	Coburn, John Carroll University 
+
+Kevin 	Conway, St. Louis University 
+
+Wasila 	Dahdul, University of South Dakota
+
+Bill	Eschmeyer,		California Academy of Sciences
+
+Terry	Grande, 		Loyola University, Chicago 
+
+Eric	Hilton,		Virginia Institute of Marine Science 
+
+John	Lundberg,		The Academy of Natural Sciences, Philadelphia
+
+Richard	Mayden,		St. Louis University 
+
+=== Curators (Data Annotation) ===										
+
+Miles	Coburn,		John Carroll University							
+
+Sonia	Crichigno,		Centro Regional Universitario Bariloche, (Univ. Nac. del Comahue), Argentina							
+
+Jeff	Engemen,		University of South Dakota 							
+
+Terry	Grande,		Loyola University, Chicago							
+
+Eric	Hilton,		Virginia Institute of Marine Science							
+
+John	Lundberg,		The Academy of Natural Sciences, Philadelphia							
+
+Paula 	Mabee,		University of South Dakota 							
+
+Richard	Mayden,		St. Louis University							
+
+Mark	Sabaj Pérez,		The Academy of Natural Sciences, Philadelphia							
+
+=== Phenoscape Workshop Participants & Contributors	===									
+
+Arhat	Abzhanov,		Harvard University							
+
+Gloria	Arratia,		The University of Kansas							
+
+Michael	Ashburner,		University of Cambridge							
+
+Jim	Balhoff,		National Evolutionary Synthesis Center							
+
+Judith	Blake, 		The Jackson Laboratory						
+
+Stan	Blum,		California Academy of Sciences						
+
+Miles	Coburn,		John Carroll University						
+
+Kevin	Conway,		St. Louis University						
+
+Quentin	Cronk,		The University of British Columbia						
+
+Wasila	Dahdul,		University of South Dakota						
+
+Mário	de Pinna,		Universidade de São Paulo 						
+
+Andy	Deans,		North Carolina State University						
+
+Jeff	Engemen,		University of South Dakota 						
+
+George	Gkoutos,		University of Cambridge						
+
+Terry	Grande,		Loyola University, Chicago 						
+
+Melissa	Haendel,		Zebrafish Information Network						
+
+Eric	Hilton,		Virginia Institute of Marine Science 						
+
+Hopi	Hoekstra,		Harvard University						
+
+Hans	Hofmann,		University of Texas at Austin						
+
+Elizabeth	Jockusch,		Univesity of Connecticut						
+
+Elizabeth	Kellogg,		University of Missouri, St. Louis						
+
+Chuck	Kimmel,		University of Oregon						
+
+Cartik	Kothari,		National Evolutionary Synthesis Center						
+
+Hilmar	Lapp,		National Evolutionary Synthesis Center						
+
+Suzanna	Lewis,		Berkeley Bioinformatics and Ontology Project 						
+
+John	Lundberg,		The Academy of Natural Sciences, Philadelphia						
+
+Paula	Mabee,		University of South Dakota						
+
+Anne	Maglia,		Missouri University of Science and Technology						
+
+Austin	Mast,		Florida State University						
+
+Richard	Mayden,		St. Louis University 						
+
+Peter	Midford,		University of Kansas						
+
+Chris	Mungall,		Berkeley Bioinformatics and Ontology Project 						
+
+Martin	Ramirez,		Museo Argentino de Ciencias Naturales "Bernardino Rivadavia," Argentina						
+
+Sue	Rhee,		Carnegie Institution						
+
+Martin	Ringwald,		The Jackson Laboratory 						
+
+Nelson	Rios,		Tulane University						
+
+Mark	Sabaj Pérez,		The Academy of Natural Sciences, Philadelphia						
+
+Eric	Segerdell,		University of Calgary						
+
+Brian	Sidlauskas,		National Evolutionary Synthesis Center						
+
+Barry	Smith,		University at Buffalo						
+
+David	Stern,		Princeton University						
+
+Todd	Vision,		National Evolutionary Synthesis Center and University of North Carolina at Chapel Hill						
+Peter	Vize,		University of Calgary						
+
+Gunter	Wagner,		Yale University						
+
+Michael	Wallinga,		University of South Dakota 						
+
+Nicole	Washington,		Lawrence Berkeley National Lab 						
+
+Monte	Westerfield,		Zebrafish Information Network and University of Oregon						
+
+Edward	Wiley,		The University of Kansas						
+
+=== Students ===									
+
+Alex	Ahearn,		Duke University						
+
+Alyssa	Block,		University of South Dakota 						
+
+Sonia	Crichigno,		Centro Regional Universitario Bariloche, (Univ. Nac. del Comahue), Argentina
+
+Jeff 	Engeman,		University of South Dakota 
+
+Ericka	Grey,		University of South Dakota 
+
+Jonathan 	Lee,		Duke University
+
+Leah	Mabee,		University of South Dakota 
+
+Carla	Perez,		Duke University
+
+Carin	Rambow,		University of South Dakota 
+
+Du	Rui,		University of South Dakota 
+
+Brad	Schanche,		University of South Dakota 
+
+Michael	Wallinga,		University of South Dakota
