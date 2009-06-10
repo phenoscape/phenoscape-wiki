@@ -62,7 +62,6 @@ John	Lundberg,		The Academy of Natural Sciences, Philadelphia
 
 Richard	Mayden,		St. Louis University
 
-
 === Curators (Data Annotation) ===
 
 Miles	Coburn,		John Carroll University
