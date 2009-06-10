@@ -83,7 +83,6 @@ Richard	Mayden,		St. Louis University
 
 Mark	Sabaj Pérez,		The Academy of Natural Sciences, Philadelphia
 
-
 === Phenoscape Workshop Participants & Contributors	===
 
 Arhat	Abzhanov,		Harvard University
@@ -181,7 +180,6 @@ Nicole	Washington,		Lawrence Berkeley National Lab
 Monte	Westerfield,		Zebrafish Information Network and University of Oregon
 
 Edward	Wiley,		The University of Kansas
-
 
 === Students ===
 
