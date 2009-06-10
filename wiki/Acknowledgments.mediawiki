@@ -3,3 +3,41 @@ title: Acknowledgments
 ---
 
 The following individuals have contributed to Phenoscape ontology development, data curation, workshops, and data entry:
+
+=== Teleost Anatomy Ontology Contributors ===
+
+Gloria	Arratia, The University of Kansas		
+
+Miles	Coburn, John Carroll University 		
+
+Kevin	Conway, St. Louis University 		
+
+Wasila Dahdul, University of South Dakota		
+
+Mário de Pinna, Universidade de São Paulo 		
+
+Jeff Engemen, University of South Dakota 		
+
+Terry	Grande, Loyola University, Chicago 		
+
+Melissa Haendel, Zebrafish Information Network		
+
+Brian Hall, Dalhousie University		
+
+Eric Hilton, Virginia Institute of Marine Science 		
+
+John Lundberg, The Academy of Natural Sciences, Philadelphia		
+
+Paula 	Mabee, University of South Dakota		
+
+Richard Mayden, St. Louis University 		
+
+Mark Sabaj Pérez, The Academy of Natural Sciences, Philadelphia		
+
+Brian Sidlauskas, National Evolutionary Synthesis Center		
+
+Richard Vari, National Museum of Natural History, Smithsonian Institution
+
+Jacqueline Webb, University of Rhode Island
+
+Edward Wiley, The University of Kansas
