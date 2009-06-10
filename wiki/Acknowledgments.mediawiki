@@ -42,7 +42,6 @@ Jacqueline Webb, University of Rhode Island
 
 Edward Wiley, The University of Kansas
 
-
 === Teleost Taxonomy Ontology Contributors	===
 
 Stan Blum, California Academy of Sciences
@@ -209,3 +208,6 @@ Du	Rui,		University of South Dakota
 Brad	Schanche,		University of South Dakota
 
 Michael	Wallinga,		University of South Dakota
+
+[[Category:Curation]]
+[[Category:Community]]
