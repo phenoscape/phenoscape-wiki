@@ -6,7 +6,7 @@ This page provides background information for authors whose publication(s) has b
 
 == Annotation of evolutionary phenotypes using Entity-Quality syntax ==
 
-The morphological variation reported in systematic character data is documented in phenotype statements recorded in Entity-Quality syntax.  Entities are terms taken from the anatomy ontology to represent anatomical structures and qualities are terms taken from the quality ontology to describe the variable aspect of the structure. For example, an author may describe a “rectangularly shaped supraorbital bone.” This is represented as:
+The morphological variation reported in systematic character data is documented in phenotype statements recorded in Entity-Quality syntax.  '''Entities''' are terms taken from the anatomy ontology to represent anatomical structures and '''qualities''' are terms taken from the quality ontology to describe the variable aspect of the structure. For example, an author may describe a “rectangularly shaped supraorbital bone.” This is represented as:
 
  E: supraorbital, Q: shape
 
