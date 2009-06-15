@@ -4,6 +4,16 @@ title: Author Guide
 
 This page provides background information for authors whose publication(s) has been curated for the Phenoscape Knowledgebase.  The goal of the Phenoscape Project is to link evolutionary data to genomics using ontologies and Phenoscape is developing a curated knowledgebase of morphological characters and prototyping the approach with ostariophysan fishes, beginning with the papers that have published data matrices. Learn more about the project and the ontologies used by Phenoscape here.
 
+== How to provide feedback ==
+
+Review the Excel spreadsheet for:
+
+* Errors in character and state descriptions, taxon list, and matrix
+* Comments or questions from the curator (please see Comments columns)
+
+Please return your comments by email or in a Word or text file referencing the particular character or taxon for each comment.
+
+
 == Annotation of evolutionary phenotypes using Entity-Quality syntax ==
 
 The morphological variation reported in systematic character data is documented in phenotype statements recorded in Entity-Quality syntax.  '''Entities''' are terms taken from the anatomy ontology to represent anatomical structures and '''qualities''' are terms taken from the quality ontology to describe the variable aspect of the structure. For example, an author may describe a “rectangularly shaped supraorbital bone.” This is represented as:
@@ -71,8 +81,6 @@ The spreadsheet sent to you contains data curated by students and at least one d
 |-
 |Comment || Notes or questions made by a curator regarding a phenotype statement
 |}
-
-
 
 [[Category:Curation]]
 [[Category: Training]]
