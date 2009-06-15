@@ -19,7 +19,7 @@ Complex characters may also require more than one phenotype statement. For examp
  E: antorbital, Q: size
  E: antoribtal, Q: shape
 
-Additional information about EQ syntax is available here [[EQ_for_character_matrices | here]].
+Additional information about EQ syntax is available [[EQ_for_character_matrices | here]].
 
 == Data spreadsheet ==
 
