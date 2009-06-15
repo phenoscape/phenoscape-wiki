@@ -27,9 +27,9 @@ The spreadsheet sent to you contains data curated by students and at least one d
 |-
 |Matrix Taxon ||  Taxon used in the publication's matrix
 |-
-|Taxon Comment || notes or questions made by a curator
+|Taxon Comment || Notes or questions made by a curator regarding a particular taxon
 |-
-|Specimens || voucher specimens from the materials list
+|Specimens || Voucher specimen(s) from the materials list
 |}
 
 
@@ -40,25 +40,25 @@ The spreadsheet sent to you contains data curated by students and at least one d
 |-
 |Character Number || 
 |-
-|Character Description || free-text description of the character from the publication
+|Character Description || Free-text description of the character from the publication
 |-
-|Character Comment:
+|Character Comment || Notes or questions made by a curator regarding a particular character
 |-
-|State Number:
+|State Number || 
 |-
-|State Description || free-text description of the character state from the publication
+|State Description || Free-text description of the character state from the publication
 |-
-|State Comment ||
+|State Comment || Notes or questions made by a curator regarding a particular state
 |-
-|Entity || term from the Teleost Anatomy Ontology (sometimes combined with term from the Spatial Ontology)
+|Entity || Term from the Teleost Anatomy Ontology (sometimes combined with term from the Spatial Ontology)
 |-
-|Quality || term from the Phenotype and Trait Ontology (sometimes combined with term from the Spatial Ontology)
+|Quality || Term from the Phenotype and Trait Ontology (sometimes combined with term from the Spatial Ontology)
 |-
-|Related Entity || term from the Teleost Anatomy Ontology (sometimes combined with term from the Spatial Ontology)
+|Related Entity || Term from the Teleost Anatomy Ontology (sometimes combined with term from the Spatial Ontology)
 |-
-|Count
+|Count || 
 |-
-|Comment
+|Comment || Notes or questions made by a curator regarding a phenotype statement
 |}
 
 [[Category:Curation]]
