@@ -77,9 +77,10 @@ The spreadsheet sent to you contains data curated by students and at least one d
 Review the Excel spreadsheet for:
 
 * Errors in character and state descriptions, taxon list, and matrix
-* Correct entity term chosen.  The fields for Entity, Quality, and Related Entity contain terms from the anatomy or quality ontologies. You can browse these ontologies on the BioPortal's website: browse [http://bioportal.bioontology.org/visualize/38362  anatomy ontology] or [http://bioportal.bioontology.org/visualize/38339 quality ontology] at the BioPortal.
-* Correct quality or qualities chosen
+* Correct entity or quality term chosen.  The fields for Entity, Quality, and Related Entity contain terms from the anatomy or quality ontologies. You can browse these ontologies on the BioPortal's website: browse [http://bioportal.bioontology.org/visualize/38362  anatomy ontology] or [http://bioportal.bioontology.org/visualize/38339 quality ontology] at the BioPortal.
 * Comments or questions from the curator
+
+Please return your comments in a Word or text file referencing the particular character or taxon for each comment.
 
 [[Category:Curation]]
 [[Category: Training]]
