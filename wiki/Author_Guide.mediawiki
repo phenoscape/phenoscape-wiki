@@ -21,6 +21,8 @@ Complex characters may also require more than one phenotype statement. For examp
 
 Additional information about EQ syntax is available [[EQ_for_character_matrices | here]].
 
+Phenoscape is currently annotating characters to a coarse level of entity and quality. We are using a small set of quality terms to categorize phenotype variation into broad categories which will guide future annotation and ontology development efforts. See the [[Guide_to_Character_Annotation | '''Guide to Character Annotation''']] for the list of quality terms, and for further examples of how characters are annotated in Phenoscape.
+
 == Data spreadsheet ==
 
 The spreadsheet sent to you contains data curated by students and at least one data curator (a taxonomic expert). The various columns contained in the spreadsheet are summarized below:
