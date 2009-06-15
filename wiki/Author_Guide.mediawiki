@@ -2,7 +2,64 @@
 title: Author Guide
 ---
 
+This page provides background information for authors whose publication(s) has been curated for the Phenoscape Knowledgebase.  The goal of the Phenoscape Project is to link evolutionary data to genomics using ontologies and Phenoscape is developing a curated knowledgebase of morphological characters and prototyping the approach with ostariophysan fishes, beginning with the papers that have published data matrices. Learn more about the project and the ontologies used by Phenoscape here.
 
+== Annotation of evolutionary phenotypes using Entity-Quality syntax == 
+
+The morphological variation reported in systematic character data is documented in phenotype statements recorded in Entity-Quality syntax.  Entities are terms taken from the anatomy ontology to represent anatomical structures and qualities are terms taken from the quality ontology to describe the variable aspect of the structure. For example, an author may describe a “rectangularly shaped supraorbital bone.” This is represented as:
+
+ E: supraorbital, Q: rectangular
+
+Additional information about EQ sytax is available here [EQ_for_character_matrices] and here.
+
+== Data spreadsheet ==
+
+The spreadsheet sent to you contains data curated by students and at least one data curator (a taxonomic expert). The various columns contained in the spreadsheet are summarized below:
+
+'''Taxa and Matrix fields:'''
+{| border="1" cellspacing="0" cellpadding="3"
+! Field
+! Description
+|-
+| Publication Taxon || Taxon name used in the publication
+|-
+| TTO Taxon || Valid taxon name from the Teleost Taxonomy Ontology (based on Catalog of Fishes)
+|-
+|Matrix Taxon ||  Taxon used in the publication's matrix
+|-
+|Taxon Comment || notes or questions made by a curator
+|-
+|Specimens || voucher specimens from the materials list
+|}
+
+
+'''Characters and EQ fields:'''
+{| border="1" cellspacing="0" cellpadding="3"
+! Field
+! Description
+|-
+|Character Number || 
+|-
+|Character Description || free-text description of the character from the publication
+|-
+|Character Comment:
+|-
+|State Number:
+|-
+|State Description || free-text description of the character state from the publication
+|-
+|State Comment ||
+|-
+|Entity || term from the Teleost Anatomy Ontology (sometimes combined with term from the Spatial Ontology)
+|-
+|Quality || term from the Phenotype and Trait Ontology (sometimes combined with term from the Spatial Ontology)
+|-
+|Related Entity || term from the Teleost Anatomy Ontology (sometimes combined with term from the Spatial Ontology)
+|-
+|Count
+|-
+|Comment
+|}
 
 [[Category:Curation]]
 [[Category: Training]]
