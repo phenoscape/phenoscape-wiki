@@ -10,14 +10,14 @@ The morphological variation reported in systematic character data is documented 
 
  E: supraorbital, Q: shape
 
-Phenotype annotations for characters involving more than one entity include a 'related entity':
+Phenotype annotations for characters involving more than one entity require a 'related entity' (RE) in annotation:
 
   E: supraorbital, Q: relational structural quality, RE: antorbital
 
 Complex characters may also require more than one phenotype statement. For example, a character state might describe: "antorbital large and sigmoid shaped." Two EQ statements are recorded:
 
  E: antorbital, Q: size
- E: antoribtal, Q: shape
+ E: antorbital, Q: shape
 
 Additional information about EQ syntax is available [[EQ_for_character_matrices | here]].
 
