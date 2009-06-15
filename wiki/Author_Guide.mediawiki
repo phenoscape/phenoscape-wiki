@@ -23,7 +23,7 @@ The spreadsheet sent to you contains data curated by students and at least one d
 |-
 | Publication Taxon || Free text field for the taxon name used in the publication
 |-
-| TTO Taxon || Valid taxon name from the Teleost Taxonomy Ontology (based on Catalog of Fishes)
+| TTO Taxon || Term from the Teleost Taxonomy Ontology for the valid taxon name (based on Catalog of Fishes)
 |-
 |Matrix Taxon ||  Free text field for the taxon name used in the publication's matrix
 |-
@@ -38,13 +38,13 @@ The spreadsheet sent to you contains data curated by students and at least one d
 ! Field
 ! Description
 |-
-|Character Number || 
+|Character Number ||
 |-
 |Character Description || Free-text description of the character from the publication
 |-
 |Character Comment || Notes or questions made by a curator regarding a particular character
 |-
-|State Number || 
+|State Number ||
 |-
 |State Description || Free-text description of the character state from the publication
 |-
