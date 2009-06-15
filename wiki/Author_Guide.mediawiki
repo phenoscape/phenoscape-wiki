@@ -8,9 +8,18 @@ This page provides background information for authors whose publication(s) has b
 
 The morphological variation reported in systematic character data is documented in phenotype statements recorded in Entity-Quality syntax.  Entities are terms taken from the anatomy ontology to represent anatomical structures and qualities are terms taken from the quality ontology to describe the variable aspect of the structure. For example, an author may describe a “rectangularly shaped supraorbital bone.” This is represented as:
 
- E: supraorbital, Q: rectangular
+ E: supraorbital, Q: shape
 
-Additional information about EQ sytax is available here [EQ_for_character_matrices] and here.
+Phenotype annotations for characters involving more than one entity include a 'related entity':
+
+  E: supraorbital, Q: relational structural quality, RE: antorbital
+
+Complex characters may also require more than one phenotype statement. For example, a character state might describe: "antorbital large and sigmoid shaped." Two EQ statements are recorded:
+
+ E: antorbital, Q: size
+ E: antoribtal, Q: shape
+
+Additional information about EQ syntax is available here [[EQ_for_character_matrices | here]].
 
 == Data spreadsheet ==
 
