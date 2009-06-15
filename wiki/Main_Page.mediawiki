@@ -43,7 +43,7 @@ Together with taxonomic experts, we have developed a taxonomic ontology (based o
 
 ====Fish Morphology====
 
-Although the comparative anatomy of fishes has been documented in the literature for several hundred years, it is not available in a computable format.  With the help of taxon experts for ostariophysan fishes, we have prioritized 76 papers for immediate curation.  They are ranked as “A” papers on our publicly available [http://spreadsheets.google.com/pub?key=pTeXfTnVPxC-P1URVHbI4Qg Google spreadsheet]. Our goal is to [[Morphology|input approximately 4,000 morphological features]] in an “EQ” format ([[Media:TREE Mabee.pdf|Mabee et al. 2007a]]<!--; Mabee et al. 2007 in process-->) using a combination of ontologies.
+Although the comparative anatomy of fishes has been documented in the literature for several hundred years, it is not available in a computable format.  With the help of taxon experts for ostariophysan fishes, we have prioritized 76 papers for immediate curation.  They are ranked as “A” papers on our publicly available [http://spreadsheets.google.com/ccc?key=pTeXfTnVPxC-P1URVHbI4Qg Google spreadsheet]. Our goal is to [[Morphology|input approximately 4,000 morphological features]] in an “EQ” format ([[Media:TREE Mabee.pdf|Mabee et al. 2007a]]<!--; Mabee et al. 2007 in process-->) using a combination of ontologies.
 
 ===Contact===
 
