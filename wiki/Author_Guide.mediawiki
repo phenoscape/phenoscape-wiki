@@ -50,16 +50,17 @@ The spreadsheet sent to you contains data curated by students and at least one d
 |-
 |State Comment || Notes or questions made by a curator regarding a particular state
 |-
-|Entity || Term from the Teleost Anatomy Ontology (sometimes combined with term from the Spatial Ontology)
+|Entity || Term from the Teleost Anatomy Ontology (sometimes combined with a Spatial Ontology term)
 |-
-|Quality || Term from the Phenotype and Trait Ontology (sometimes combined with term from the Spatial Ontology)
+|Quality || Term from the Phenotype and Trait Ontology (sometimes combined with a Spatial Ontology term)
 |-
-|Related Entity || Term from the Teleost Anatomy Ontology (sometimes combined with term from the Spatial Ontology)
+|Related Entity || Term from the Teleost Anatomy Ontology (sometimes combined with a Spatial Ontology term)
 |-
-|Count ||
+|Count || Numerical value or range 
 |-
 |Comment || Notes or questions made by a curator regarding a phenotype statement
 |}
 
 [[Category:Curation]]
 [[Category: Training]]
+[[Category: Help]]
