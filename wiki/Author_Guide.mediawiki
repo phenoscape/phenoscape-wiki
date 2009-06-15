@@ -21,11 +21,11 @@ The spreadsheet sent to you contains data curated by students and at least one d
 ! Field
 ! Description
 |-
-| Publication Taxon || Taxon name used in the publication
+| Publication Taxon || Free text field for the taxon name used in the publication
 |-
 | TTO Taxon || Valid taxon name from the Teleost Taxonomy Ontology (based on Catalog of Fishes)
 |-
-|Matrix Taxon ||  Taxon used in the publication's matrix
+|Matrix Taxon ||  Free text field for the taxon name used in the publication's matrix
 |-
 |Taxon Comment || Notes or questions made by a curator regarding a particular taxon
 |-
@@ -56,7 +56,7 @@ The spreadsheet sent to you contains data curated by students and at least one d
 |-
 |Related Entity || Term from the Teleost Anatomy Ontology (sometimes combined with term from the Spatial Ontology)
 |-
-|Count || 
+|Count ||
 |-
 |Comment || Notes or questions made by a curator regarding a phenotype statement
 |}
