@@ -182,7 +182,7 @@ JSON:
 ==Annotations results==
 '''URI'''
 
- <BASE URI>/phenotypes?subject={subject_id}&entity={entity_id}&quality={quality_id}&pub={publication_id]&type=[evo|devo]
+ <BASE URI>/phenotypes?subject={subject_id}&entity={entity_id}&quality={quality_id}&pub={publication_id]&type=[evo|devo]&group=[root|{taxon_id}]
 
 This service returns the phenotype annotations involving the given terms.
 
@@ -192,33 +192,75 @@ All parameters are optional.  If no parameters are specified, the service should
 * '''quality''' - an ID for a quality term - the returned annotations are only those whose phenotype ''is_a'' type of this term
 * '''pub''' - an ID for a publication - the returned annotations are only those contributed by the given publication
 * '''type''' - either "evo" or "devo" - return either evolutionary data (evo) or model organism data (devo) or both if not specified
+* '''group''' - if "root", return, as the subject, only the most recent common ancestor taxon for all taxa found in the query, along with the set of phenotypes found in the results.  If a taxon id, return the results grouped into immediate children of that taxon (only those that have results).  Only include the annotation ID if that phenotype-to-taxon link was actually asserted.
 
 ''Returns''
 
 JSON:
 <javascript>
 {
-    "phenotypes" : [
-        {
-            "id" : "internal annotation ID",
-            "subject" : { "id" : "TTO:34242", "name" : "some taxon" },
-            "entity" : { "id" : "TAO:34242", "name" : "some entity" },
-            "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+    "taxa" : [
+    {   "id" : "TTO:34242",
+        "name" : "some taxon",
+        "phenotypes" :  [
+            {
+                "id" : "internal annotation ID",
+                "entity" : { "id" : "TAO:34242", "name" : "some entity" },
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            },
+            {
+                "id" : "internal annotation ID",
+                "entity" : { "id" : "TAO:34242", "name" : "some entity" },
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            },
+            {
+                "id" : "internal annotation ID",
+                "entity" : { "id" : "TAO:34242", "name" : "some entity" },
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            }
+        ]
         },
-        {
-            "id" : "internal annotation ID",
-            "subject" : { "id" : "TTO:34242", "name" : "some taxon" },
-            "entity" : { "id" : "TAO:34242", "name" : "some entity" },
-            "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+        {   "id" : "TTO:34242",
+        "name" : "some taxon",
+        "phenotypes" :  [
+            {
+                "id" : "internal annotation ID",
+                "entity" : { "id" : "TAO:34242", "name" : "some entity" },
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            },
+            {
+                "id" : "internal annotation ID",
+                "entity" : { "id" : "TAO:34242", "name" : "some entity" },
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            },
+            {
+                "id" : "internal annotation ID",
+                "entity" : { "id" : "TAO:34242", "name" : "some entity" },
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            }
+        ]
         },
-        {
-            "id" : "internal annotation ID",
-            "subject" : { "id" : "TTO:34242", "name" : "some taxon" },
-            "entity" : { "id" : "TAO:34242", "name" : "some entity" },
-            "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+        {   "id" : "TTO:34242",
+        "name" : "some taxon",
+        "phenotypes" :  [
+            {
+                "id" : "internal annotation ID",
+                "entity" : { "id" : "TAO:34242", "name" : "some entity" },
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            },
+            {
+                "id" : "internal annotation ID",
+                "entity" : { "id" : "TAO:34242", "name" : "some entity" },
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            },
+            {
+                "id" : "internal annotation ID",
+                "entity" : { "id" : "TAO:34242", "name" : "some entity" },
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+            }
+        ]
         }
     ]
-
 }
 </javascript>
 
