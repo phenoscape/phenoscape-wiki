@@ -220,7 +220,7 @@ JSON:
             }
         ]
         },
-        {   "id" : "TTO:34242",
+        {   "id" : "TTO:34243",
         "name" : "some taxon",
         "phenotypes" :  [
             {
@@ -240,7 +240,7 @@ JSON:
             }
         ]
         },
-        {   "id" : "TTO:34242",
+        {   "id" : "TTO:34244",
         "name" : "some taxon",
         "phenotypes" :  [
             {
