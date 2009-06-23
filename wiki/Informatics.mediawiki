@@ -25,23 +25,17 @@ The [[Synchronization Tool]] is a plug-in for [http://oboedit.org/ OBO-Edit] whi
 
 == Source code ==
 
-The software source code is in part being contributed back directly to a variety of existing projects we build upon, and in part deposited on our [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/ SourceForge.net svn repository].
+The software source code is in part being contributed back directly to a variety of existing projects we build upon, and mostly deposited in the [http://obo.svn.sourceforge.net/viewvc/obo/trunk/ SourceForge.net svn repository].
 * Phenex:
 ** [http://obo.svn.sourceforge.net/viewvc/obo/phenex/trunk/ Browse source]
 ** svn co https://obo.svn.sourceforge.net/svnroot/obo/phenex/trunk
-* Data loader:
-** [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/PhenoscapeDataLoader/ Browse source]
+* Data loader and the OBDAPI:
+** [https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk/ Browse source]
 ** svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeDataLoader
 * Data services and middleware:
 ** OBD-WS
 *** [http://obo.svn.sourceforge.net/viewvc/obo/OBD-WS/trunk/ Browse source]
 *** svn co https://obo.svn.sourceforge.net/svnroot/obo/OBD-WS/trunk
-** QueryOBD
-*** [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/QueryOBD/ Browse source]
-*** svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/QueryOBD
-* Web application:
-** [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/PhenoscapeWeb/  Browse source]
-** svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeWeb
 * Ontology conversion and management:
 ** TTOUpdate
 *** [http://obo.svn.sourceforge.net/viewvc/phenoscape/trunk/tools/TTOUpdate Browse source]
