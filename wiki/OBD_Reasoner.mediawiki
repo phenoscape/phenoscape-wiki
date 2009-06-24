@@ -156,6 +156,15 @@ Lastly, there are orphan qualities in PATO which are not related to any other qu
 
 '''Rule:''' <math>\forall</math>V, A: ''NOT in_Subset''(V, value_slim) <math>\and</math>  ''NOT is_a''(V, A) <math>\Rightarrow</math> ''value_for''(V, unknown attribute)
 
+=== The Balhoff rule ===
+
+'''Rule:''' <math>\forall</math>A, B<math>\exists </math>X: ''is_a''(A, B)  <math>\and </math>''R''(A, X)  <math>\Rightarrow</math> ''R''(B, X)
+
+This rule was proposed by Jim Balhoff to reason upwards in a (typically taxonomic) hierarchy using the ''exhibits'' relation. A relevant example: GIVEN THAT ''Danio rerio'' exhibits a round fin AND ''Danio rerio'' is a Danio THEN Danio exhibits round fin. Note that ''exhibits'' has someOf semantics - so the inference is that ''some of'' Danio exhibit the phenotype.
+
+This is the exact opposite of the ''genus differentia'' rule which postulates reasoning only downwards in a hierarchy.
+
+
 ==Relation Properties to be implemented ==
 
 The following relation properties may be implemented on the reasoner in future if necessary.
@@ -178,14 +187,6 @@ An example of relation inversions can be found in the ''posterior_to'' and ''ant
 
 The semantics and relevance to the Phenoscape project of these rules are being discussed as of now. Here is a brief introduction.
 
-=== The Balhoff rule ===
-
-'''Rule:''' <math>\forall</math>A, B<math>\exists </math>X: ''is_a''(A, B)  <math>\and </math>''R''(A, X)  <math>\Rightarrow</math> ''R''(B, X)
-
-This rule was proposed by Jim Balhoff to reason upwards in a (typically taxonomic) hierarchy using the ''exhibits'' relation. A relevant example: GIVEN THAT ''Danio rerio'' exhibits a round fin AND ''Danio rerio'' is a Danio THEN Danio exhibits round fin. Note that ''exhibits'' has someOf semantics - so the inference is that ''some of'' Danio exhibit the phenotype.
-
-This is the exact opposite of the ''genus differentia'' rule which postulates reasoning only downwards in a hierarchy.
-
 === The problem with absence of features===
 
 Descriptions of phenotypes as used in the Phenoscape project (and a plethora of phenomena in the real world) are replete with exceptions, or aberrations from what is considered to be "normal." While canonical ontologies like the [http://sig.biostr.washington.edu/projects/fm/ FMA] and the [http://www.berkeleybop.org/ontologies/obo-all/teleost_anatomy/teleost_anatomy.obo TAO] contain ontological definitions of ideal specimens, observations in the life sciences are full of aberrations to these general rules.
@@ -204,7 +205,7 @@ Another issue specific to the Phenoscape project was raised by Paula at the SICB
 
 This relation chain corresponds to the observation GIVEN THAT Basihyal_Cartilage ''absent_in'' Siluriformes AND Basihyal_Bone ''develops_from'' Basihyal_cartilage, THEN Basihyal_Bone ''absent_in'' Siluriformes. This and other similar relation chains (as per identified requirements) are to be implemented for the Phenoscape project in the future. Strategies to deal with absent features in general are also to be implemented in the near future.
 
-Differences between the [[The exhibits relation conundrum|existing semantics]] and [[Relating taxa to phenotypes|desired semantics]] of the ''exhibits'' relation need to be resolved to address this issue. Potential strategies to implement the Balhoff rule and the absence of features problem are discussed [[Novel reasoning strategies|here]].
+Differences between the [[The exhibits relation conundrum|existing semantics]] and [[Relating taxa to phenotypes|desired semantics]] of the ''exhibits'' relation need to be resolved to address this issue. Potential strategies to implement the absence of features problem are discussed [[Novel reasoning strategies|here]].
 
 ==Sweeps==
 A reasoner functions over several sweeps. In each sweep, new implicit inferences are derived from the explicit annotations (as described in the previous sections) and added to the database. In the following sweep, inferences added from the previous sweep are used to extract further inferences. This process continues until no additional inferences are added in a sweep. This is when the ''deductive closure of the inference procedure'' is reached. No further inferences are possible and the reasoner exits.
