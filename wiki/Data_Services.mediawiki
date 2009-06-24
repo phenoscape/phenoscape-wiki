@@ -206,17 +206,20 @@ JSON:
             {
                 "id" : "internal annotation ID",
                 "entity" : { "id" : "TAO:34242", "name" : "some entity" },
-                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" },
+                 "count" : 22
             },
             {
                 "id" : "internal annotation ID",
                 "entity" : { "id" : "TAO:34242", "name" : "some entity" },
-                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" },
+                 "count" : ""
             },
             {
                 "id" : "internal annotation ID",
                 "entity" : { "id" : "TAO:34242", "name" : "some entity" },
-                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" },
+                 "count" : ""
             }
         ]
         },
@@ -226,17 +229,20 @@ JSON:
             {
                 "id" : "internal annotation ID",
                 "entity" : { "id" : "TAO:34242", "name" : "some entity" },
-                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" },
+                 "count" : ""
             },
             {
                 "id" : "internal annotation ID",
                 "entity" : { "id" : "TAO:34242", "name" : "some entity" },
-                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" },
+                 "count" : ""
             },
             {
                 "id" : "internal annotation ID",
                 "entity" : { "id" : "TAO:34242", "name" : "some entity" },
-                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" },
+                 "count" : ""
             }
         ]
         },
@@ -246,17 +252,20 @@ JSON:
             {
                 "id" : "internal annotation ID",
                 "entity" : { "id" : "TAO:34242", "name" : "some entity" },
-                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" },
+                 "count" : ""
             },
             {
                 "id" : "internal annotation ID",
                 "entity" : { "id" : "TAO:34242", "name" : "some entity" },
-                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" },
+                 "count" : ""
             },
             {
                 "id" : "internal annotation ID",
                 "entity" : { "id" : "TAO:34242", "name" : "some entity" },
-                "quality" : { "id" : "PATO:34242", "name" : "some quality" }
+                "quality" : { "id" : "PATO:34242", "name" : "some quality" },
+                 "count" : ""
             }
         ]
         }
