@@ -29,11 +29,17 @@ The software source code is in part being contributed back directly to a variety
 * Phenex:
 ** [http://obo.svn.sourceforge.net/viewvc/obo/phenex/trunk/ Browse source]
 ** svn co https://obo.svn.sourceforge.net/svnroot/obo/phenex/trunk
-* Data loader and the OBDAPI:
-** [https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk/ Browse source]
-** svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeDataLoader
+* Database and database loading:
+** [https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk/scripts Browse source]
+** URL for check out: svn co https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk/scripts
+** Some unit tests are in the process of being migrated from the old location:
+*** svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeDataLoader/test
+*** or [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeDataLoader/test/org/phenoscape/db/test browse]
 * Data services and middleware:
-** OBD-WS
+** Data model and database access API (OBD-API):
+*** [https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk Browse source]
+*** URL for check out: svn co https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk
+** Web-services (OBD-WS):
 *** [http://obo.svn.sourceforge.net/viewvc/obo/OBD-WS/trunk/ Browse source]
 *** svn co https://obo.svn.sourceforge.net/svnroot/obo/OBD-WS/trunk
 * Ontology conversion and management:
