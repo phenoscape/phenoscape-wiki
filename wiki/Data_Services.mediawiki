@@ -17,6 +17,7 @@ JSON:
     "id" : "TAO:0001700",
     "name" : "caudal-fin stay",
     "definition" : "Bone that is located anterior to the caudal procurrent rays. Caudal fin stays are unpaired bone.",
+    "comment" : "Some comment text that may be in there."
     "parents" :
     [
         {
