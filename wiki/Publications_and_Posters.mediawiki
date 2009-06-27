@@ -10,6 +10,8 @@ title: Publications and Posters
 
 ==Posters & Presentations==
 
+<u>Hilmar Lapp</u>,  Jim Balhoff, Cartik Kothari, Todd Vision,  Wasila Dahdul, Paula Mabee, John Lundberg, Peter Midford, Monte Westerfield (2009) "[[Media:Lapp et al ISMB2009.pdf|Informatics obstacles for integrating evolutionary phenotype diversity with model organism data]]". Poster at the 2009 ISMB conference in Stockholm, Sweden.
+
 Todd Vision, Jim Balhoff, Cartik Kothari, <u>Hilmar Lapp</u>, Wasila Dahdul, Paula Mabee, John Lundberg, Peter Midford, Monte Westerfield (2009) "[[Media:Vision et al eBiosphere09.pdf|Phenoscape: Linking phenotypic biodiversity to model organism genetics using ontologies]]". Poster at the e-Biosphere09 conference in London, UK.
 
 Paula Mabee, Wasila Dahdul, John Lundberg, Peter Midford, Todd Vision,  Hilmar Lapp, Jim Balhoff, Cartik Kothari, Monte Westerfield (2009) "[[Media:Mabee et al. Biocurator 09.pdf|PHENOSCAPE: Curation of evolutionary phenotypes using the MOD model]]". Poster at the 2009 Biocurator Conference in Berlin, Germany.
