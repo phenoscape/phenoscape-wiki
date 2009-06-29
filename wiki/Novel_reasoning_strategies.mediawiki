@@ -23,6 +23,26 @@ The Mabee rule involves inferences propagated to the lower levels of a taxonomy 
 * NOTE
 ** The NOT operator in equation (2) is the negation operator from first order logic. In (2), it is used to state the entity B ''does not'' exhibit the feature F. The semantics of the negation operator and its pertinence to the Phenoscape project will be discussed in another section. For now, it is enough to understand that the inference derived in (1) (''exhibits''(B, F)) and the assertion in (2) directly contradict one another.
 
+<REMARK>
+''[It looks like there is a typo in (1) above.  It should read ''is_a''(B, A) -- both to correspond to the example, and to enable the contradiction.   Also, for the sake of clarity, (2) could better be written as 
+
+'''NOT''' ''exhibits''(Siluriformes, basihyal_cartilage) 
+
+Finally, to make it more clear that the contradiction is derivable, one might want to mention that 
+
+''exhibits''(Ostariophysian, basihyal_cartilage) 
+
+and 
+
+''is_a'' (Siluriformes, Ostariophysian) 
+
+are in the database.
+
+The bottom line: The rule (1), ''as stated above'', is a perfectly sound rule that does not lead to any contradiction.
+The rule (1), ''as corrected above'', is unsound (leads to a contradiction) -- it cannot be used for any consistent reasoning.  
+[[User:Vg34|Vg34]] 13:56, 29 June 2009 (EDT)]''
+</REMARK>
+
 === Implementation Strategies ===
 
 A few potential strategies to address this situation are presented here.
