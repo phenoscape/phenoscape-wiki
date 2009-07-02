@@ -200,9 +200,10 @@ All parameters are optional.  If no parameters are specified, the service should
 JSON:
 <javascript>
 {
-    "taxa" : [
+    "subjects" : [
     {   "id" : "TTO:34242",
         "name" : "some taxon",
+        "leaf" : false, //whether it is useful to query for more specific sub-taxa
         "phenotypes" :  [
             {
                 "id" : "internal annotation ID",
