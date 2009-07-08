@@ -25,7 +25,7 @@ What are the developmental and genetic bases of evolutionary differences in morp
 [[Image:Ncbo logo.gif|right]]
 ====Background====
 
-Ontologies are constrained, structured vocabularies with well defined relationships among terms. Ontologies represent the knowledge-base of a particular discipline, and provide not only a mechanism for consistent annotation of data, but also greater interoperability among people and machines. The most widely used biological ontology is the [http://www.geneontology.org Gene Ontology], which is utilized to annotate molecular function, biological processes and subcellular localization to gene products from different organisms.
+Ontologies are constrained, structured vocabularies with well defined relationships among terms. Ontologies represent the knowledge of a particular discipline and provide not only a mechanism for consistent annotation of data, but also greater interoperability among people and machines. The most widely used biological ontology is the [http://www.geneontology.org Gene Ontology], which is utilized to annotate molecular function, biological processes and subcellular localization to gene products from different organisms.
 
 ====Phenotype ontologies====
 
