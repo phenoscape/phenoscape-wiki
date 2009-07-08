@@ -29,7 +29,7 @@ Ontologies are constrained, structured vocabularies with well defined relationsh
 
 ====Phenotype ontologies====
 
-[[Image:EAV4_layers_flat2.png|right|320px]] For model organisms : Approximately 500 mutant zebrafish lines (alleles) with over 660 annotated phenotypic characters from the jaw or gill arches (n=250), fins (n=210), axial skeleton (n=190) and other features (n=10) of the skeleton have been described. Researchers in the [http://www.zfin.org Zebrafish Information Network] (ZFIN) are annotating mutant phenotypes using the [http://obofoundry.org/cgi-bin/detail.cgi?id=zebrafish_anatomy&title=Zebrafish%20anatomy%20and%20development zebrafish anatomy ontology] and the [http://www.bioontology.org/wiki/index.php/PATO:Main_Page Phenotype And Trait Ontology] (PATO). PATO is a “universal” ontology of terms describing qualities (e.g. shape, color, size) that may be applied to any organism.
+[[Image:EAV4_layers_flat2.png|right|320px]] Approximately 500 mutant zebrafish lines (alleles) with over 660 annotated phenotypic characters from the jaw or gill arches (n=250), fins (n=210), axial skeleton (n=190) and other features (n=10) of the skeleton have been described. Curators in the [http://www.zfin.org Zebrafish Information Network] (ZFIN) are annotating mutant phenotypes using the [http://obofoundry.org/cgi-bin/detail.cgi?id=zebrafish_anatomy&title=Zebrafish%20anatomy%20and%20development zebrafish anatomy ontology] and the [http://www.bioontology.org/wiki/index.php/PATO:Main_Page Phenotype And Trait Ontology] (PATO). PATO is a “universal” ontology of terms describing qualities (e.g. shape, color, size) that may be applied to any organism.
 
 ====Anatomical ontologies====
 
