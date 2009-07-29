@@ -45,16 +45,7 @@ Data services have been implemented as part of the Phenoscape application to ret
 
 * Plain text over HTTP:
 ** OBO format
-** YAML
 ** JSON
-
-* XML over HTTP:
-** OBO-XML format
-** OBD-XML format
-
-* RDF over HTTP:
-** RDF/XML
-** RDF/N-triples
 
 ==Other ontology service definitions==
 
