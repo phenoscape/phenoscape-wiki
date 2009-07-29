@@ -39,9 +39,7 @@ Data services have been implemented as part of the Phenoscape application to ret
 #* Output: matching EQ statements in pheno-xml or pheno-syntax format
 #* Notes: do we need parameter of list of entities to obtain EQs for?
 
-===Query languages===
 
-* SPARQL
 
 ===Data exchange formats===
 
