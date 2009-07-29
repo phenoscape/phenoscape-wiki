@@ -25,21 +25,14 @@ Data services have been implemented as part of the Phenoscape application to ret
 
 ===Phenotype Data Service===
 
-# Login
-#* Function: Given a username and secret, obtain an authentication token
-#* Input:
-#* Output:
-# Save EQ statements
-#* Function: Save an array of EQ statements to the data store
-#* Input: a list of EQ statements on OBD-xml or pheno-xml format
-#* Output: success/failure indicator
-# Load EQ statements
-#* Function: Load an array of EQ statements from the data store
-#* Input: author, or list of taxa,
-#* Output: matching EQ statements in pheno-xml or pheno-syntax format
-#* Notes: do we need parameter of list of entities to obtain EQs for?
-
-
+# Phenotype summary service
+#* Function: For a given anatomical entity, taxon, or gene, retrieve a summary of all annotated phenotypes involving the search term
+#* Input: A UID for an anatomical entity, taxon, or gene
+#* Output: A summary of all the phenotypes the given anatomical entity, taxon, or gene is involved in. Phenotypes are categorized by anatomical entity-character (EC) combinations. For each EC combination, the numbers of taxa and genes associated with it are returned
+# Phenotype details service
+#* Function: For a given anatomical entity, gene, or taxon, retrieve the details of all the phenotypes it is involved in
+#* Input: A UID for an anatomical entity, taxon, or gene
+#* Output: A listing of all the Entities and Qualities (EQ) the search term in involved in. The output can be either a listing of genes, or a listing of taxa, or both. For taxa lists, the service creates a taxonomical hierarchy rooted at the Most Recent Common Ancestor (MRCA) of all the taxa, with corresponding listings of EQ combinations at each level and node of the tree. At the leaf level, where the EQ combinations are directly asserted, the service also provides citation information such as the paper from which the assertion was derived, along with character comments, text, and state comments and text
 
 ===Data exchange formats===
 
