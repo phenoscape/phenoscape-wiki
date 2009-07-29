@@ -2,15 +2,15 @@
 title: Ontology Data Service API
 ---
 
-==Goal and motivation==
+==Overview==
 
-A common API implemented by ontology data services enables clients such as EQ editors that heavily rely on such a service to plug into different data providers, local or remote, at their choice.
+Data services have been implemented as part of the Phenoscape application to retrieve data about evolutionary and model organism phenotypes. Ancillary services function in the auto completion of partially entered search terms by retrieving matching terms from the database, query relevant summary information on search terms, and retrieve any stored homology information about the search terms. This page details the functioning of each of these services, which make up the very first implementation of the Phenoscape application. 
 
 ==Service definitions==
 
-===Ontology Data Service===
+===Auto completion Service===
 
-# Ontology listing lookup
+# Auto completion for term being typed in search field
 #* Function: lookup the ontologies being served by the data service
 #* Input: none, or a particular name, and/or the name of the ontology category
 #* Output: a record of name, version, identifier, meta-data (e.g., retired? in production? purpose?) for each ontology being served
