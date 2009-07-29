@@ -4,7 +4,7 @@ title: Ontology Data Service API
 
 ==Overview==
 
-Data services have been implemented as part of the Phenoscape application to retrieve data about evolutionary and model organism phenotypes. Ancillary services function in the auto completion of partially entered search terms by retrieving matching terms from the database, query relevant summary information on search terms, and retrieve any stored homology information about the search terms. This page details the functioning of each of these services, which make up the very first implementation of the Phenoscape application. 
+Data services have been implemented as part of the Phenoscape application to retrieve data about evolutionary and model organism phenotypes. Ancillary services function in the auto completion of partially entered search terms by retrieving matching terms from the database, query relevant summary information on search terms, and retrieve any stored homology information about the search terms. This page details the functioning of each of these services, which make up the Phenoscape application
 
 ==Service definitions==
 
