@@ -8,9 +8,9 @@ Data services have been implemented as part of the Phenoscape application to ret
 
 ==Service definitions==
 
-===Data Services===
+===Basic Data Services===
 
-# Auto completion service 
+# Auto completion service
 #* Function: Obtain matching term names for a partial term name string
 #* Input: partial term name string, a list of ontology IDs, search parameters (search names only or synonyms only or both)
 #* Output: matches as records of term name or synonym that was hit, and how the term was hit (name or synonym)
@@ -18,6 +18,10 @@ Data services have been implemented as part of the Phenoscape application to ret
 #* Function: Obtain the full term information for a given term
 #* Input: a term ID
 #* Output: the definition and synonyms for the term. In addition, all the parent and child terms of this term are returned. For terms from the Teleost Taxonomy Ontology, their rank and extant/extinct information are returned as well.
+#Homology information service
+#* Function: Obtain homology information for the given anatomical entity. This is applicable only for anatomical entities
+#* Input: term ID for the anatomical entity
+#* Output: homology information for the given entity, with references and evidence codes
 
 ===Phenotype Data Service===
 
