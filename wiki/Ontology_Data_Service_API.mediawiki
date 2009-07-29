@@ -37,7 +37,6 @@ Data services have been implemented as part of the Phenoscape application to ret
 ===Data exchange formats===
 
 * Plain text over HTTP:
-** OBO format
 ** JSON
 
 ==Other ontology service definitions==
