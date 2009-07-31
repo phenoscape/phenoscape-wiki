@@ -5,4 +5,4 @@ title: OBD Java API
 This page contains documentation of the data services module of the Phenoscape project, and supplements the [[http://www.berkeleybop.org/obd/docs/index.html OBD JavaDoc]]. More sections will be added later.
 
 ==Documentation for the Web services API==
-[http://www.nescent.org/obd/docs/index.html OBD JavaDoc]
+[docs | OBD-WS JavaDoc]
