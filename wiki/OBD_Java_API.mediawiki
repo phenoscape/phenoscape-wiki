@@ -2,8 +2,6 @@
 title: OBD Java API
 ---
 
-This page contains documentation of the different query modules of the OBD API, and supplements the [[http://www.berkeleybop.org/obd/docs/index.html OBD JavaDoc]]. Shards and QueryTerms are detailed first. More sections will be added as necessary. The purpose of this section is to primarily serve as a breadcrumb trail for its author (Cartik)
+This page contains documentation of the data services module of the Phenoscape project, and supplements the [[http://www.berkeleybop.org/obd/docs/index.html OBD JavaDoc]]. More sections will be added later. 
 
-==Shards==
-
-==QueryTerms==
+==Documentation for the Web services API==
