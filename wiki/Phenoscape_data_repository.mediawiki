@@ -94,7 +94,7 @@ The [[Phenoscape data loader]] is in its final stages of deployment on the appli
 
 A rich library of methods has been inherited from the OBD project to execute various generic queries on the database. This is being [[Queries|extended]] currently to conform to the very specific requirements of the Phenoscape project.
 
-===Speeding up the queries: Data warehouse===
+===Speeding up the queries: The data warehouse===
 
 Queries used in the Phenoscape data services module were found to be intolerably slow in returning, esp. when asked to retrieve and [https://www.nescent.org/phenoscape/Data_Services#Annotations_summary summarize annotation data] for genes and teleost species. The slow times in query execution were primarily due to the large numbers of JOINs in them, and the extensive volume of data, which needed to be processed in various facets of the query execution plan.
 
