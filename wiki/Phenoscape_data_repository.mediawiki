@@ -98,7 +98,7 @@ A rich library of methods has been inherited from the OBD project to execute var
 
 Queries used in the Phenoscape data services module were found to be intolerably slow in returning, esp. when asked to retrieve and [https://www.nescent.org/phenoscape/Data_Services#Annotations_summary summarize annotation data] for genes and teleost species. The slow times in query execution were primarily due to the large numbers of JOINs in them, and the extensive volume of data, which needed to be processed in various facets of the query execution plan.
 
-To address this issue, it was decided to create summaries of the annotations in the database in simple data warehouse tables. New queries which were tested on these summary tables executed much faster, having dispensed with the numerous JOINs between the [https://www.nescent.org/phenoscape/Phenoscape_data_repository#The_NODE_table NODE] and [https://www.nescent.org/phenoscape/Phenoscape_data_repository#The_LINK_table LINK] tables, aliased several times over.
+To address this issue, it was decided to create summaries of the annotations in the database in [conceptual_schema | simple data warehouse tables]. New queries which were tested on these summary tables executed much faster, having dispensed with the numerous JOINs between the [https://www.nescent.org/phenoscape/Phenoscape_data_repository#The_NODE_table NODE] and [https://www.nescent.org/phenoscape/Phenoscape_data_repository#The_LINK_table LINK] tables, aliased several times over.
 
 [[Category:OBD]]
 [[Category:Database]]
