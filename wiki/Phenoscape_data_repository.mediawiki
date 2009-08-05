@@ -88,7 +88,7 @@ The repository will be periodically refreshed to include the latest ontology def
 # The ZFIN data repository (model organism database) containing descriptions of mutant phenotypes and the related genes and genotypes of zebrafish. This data exists primarily as tab delimited simple text files
 # Annotations from a set of selected publications, which describe in rich-text unstructured format, the observed phenotypes of about 25000 different species of fish belonging to the clade of Ostariophysi. These annotations are entered by curators using the [[Phenex]] annotation tool and are saved in the [[http://www.nexml.org/ NeXML]] data format.
 
-The [[Phenoscape data loader]] can be accessed through the 'Phenoscape' folder of the [https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk | OBDAPI project]. A complete database refresh can be started off by running the "refresh-database" target in the Ant build file.
+The [[Phenoscape data loader]] can be accessed through the 'Phenoscape' folder of the [https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk OBDAPI project]. A complete database refresh can be started off by running the "refresh-database" target in the Ant build file.
 
 == Querying the data ==
 
