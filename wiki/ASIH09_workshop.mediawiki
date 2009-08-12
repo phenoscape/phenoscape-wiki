@@ -22,7 +22,7 @@ MORNING:
 * 9:30—10:00 '''Greg Riccardi''', Florida State University: Why ontologies are important for understanding morphological images ([[#Why ontologies are important for understanding morphological images |Abstract]] | [[Media:GregRiccardi-JMIH09.pdf|Presentation]])
 * 10:00-10:30 ''Coffee''
 * 10:30-11:00 '''Peter Vize''', University of Calgary: The Xenopus ontology and database ([[#The Xenopus ontology and database|Abstract]])
-* 11:00-11:30 '''Anne Maglia''', Missouri University of Science and Technology: Development of an anatomical ontology for amphibians ([[#Development of an anatomical ontology for amphibians|Abstract]])
+* 11:00-11:30 '''Anne Maglia''', Missouri University of Science and Technology: Development of an anatomical ontology for amphibians ([[#Development of an anatomical ontology for amphibians|Abstract]] | [[Media:AnneMaglia-JMIH09.pdf|Presentation]])
 * 11:30—12:00 '''Marc Robinson-Rechavi''', Universite de Lausanne, Switzerland: Integrating ontology and homology for the study of gene expression evolution ([[#Bgee: Integrating ontology and homology for the study of gene expression evolution|Abstract]])
 
 
