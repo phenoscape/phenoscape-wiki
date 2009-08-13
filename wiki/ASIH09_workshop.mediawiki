@@ -18,10 +18,10 @@ PLACE: Hilton Portland & Executive Tower
 MORNING:
 * 8.00-8.30 '''Hilmar Lapp''', National Evolutionary Synthesis Center: A gentle introduction to ontologies for biology ([[#A gentle introduction to ontologies for biology|Abstract]] | [[Media:HilmarLapp-JMIH09.pdf‎|Presentation]])
 * 8:30-9:00 '''Monte Westerfield''', Director, Zebrafish Information Network and Institute of Neuroscience, Eugene, OR: Linking animal models and human diseases ([[#Linking animal models and human diseases|Abstract]] | [[Media:MonteWesterfield-JMIH09.pdf‎|Presentation]])
-* 9:00-9:30 '''Paula Mabee''', University of South Dakota: Phenoscape: Using ontologies to link comparative morphology to genes ([[#Phenoscape: Using ontologies to link comparative morphology to genes|Abstract]] | [[Media:PaulaMabee-JMIH09.pdf|Presentation]]) 
+* 9:00-9:30 '''Paula Mabee''', University of South Dakota: Phenoscape: Using ontologies to link comparative morphology to genes ([[#Phenoscape: Using ontologies to link comparative morphology to genes|Abstract]] | [[Media:PaulaMabee-JMIH09.pdf|Presentation]])
 * 9:30—10:00 '''Greg Riccardi''', Florida State University: Why ontologies are important for understanding morphological images ([[#Why ontologies are important for understanding morphological images |Abstract]] | [[Media:GregRiccardi-JMIH09.pdf|Presentation]])
 * 10:00-10:30 ''Coffee''
-* 10:30-11:00 '''Peter Vize''', University of Calgary: The Xenopus ontology and database ([[#The Xenopus ontology and database|Abstract]] | [[Media:PeterVize-JMIH09.pdf‎ |Presentation]])
+* 10:30-11:00 '''Peter Vize''', University of Calgary: The Xenopus ontology and database ([[#An ontology for Xenopus anatomy and development|Abstract]] | [[Media:PeterVize-JMIH09.pdf‎ |Presentation]])
 * 11:00-11:30 '''Anne Maglia''', Missouri University of Science and Technology: Development of an anatomical ontology for amphibians ([[#Development of an anatomical ontology for amphibians|Abstract]] | [[Media:AnneMaglia-JMIH09.pdf|Presentation]])
 * 11:30—12:00 '''Marc Robinson-Rechavi''', Universite de Lausanne, Switzerland: Integrating ontology and homology for the study of gene expression evolution ([[#Bgee: Integrating ontology and homology for the study of gene expression evolution|Abstract]] | [[Media:MarcRobinson-Rechavi-JMIH09.pdf|Presentation]])
 
