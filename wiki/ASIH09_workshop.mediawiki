@@ -84,7 +84,7 @@ Paula Mabee
 
 University of South Dakota
 
-[final version?] Decades of comparative anatomical studies in ichthyology and
+Decades of comparative anatomical studies in ichthyology and
 herpetology have resulted in a rich body of ‘free-text’ data.  As these data
 grow, they are increasingly hard to align and synthesize across taxonomic
 groups, and synthetic questions concerning the developmental and genetic
