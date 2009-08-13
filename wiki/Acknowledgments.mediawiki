@@ -16,7 +16,7 @@ Wasila Dahdul, University of South Dakota
 
 Mário de Pinna, Universidade de São Paulo
 
-Jeff Engemen, University of South Dakota
+Jeff Engeman, University of South Dakota
 
 Terry	Grande, Loyola University, Chicago
 
@@ -68,7 +68,7 @@ Miles	Coburn,		John Carroll University
 
 Sonia	Crichigno,		Centro Regional Universitario Bariloche, (Univ. Nac. del Comahue), Argentina
 
-Jeff	Engemen,		University of South Dakota
+Jeff	Engeman,		University of South Dakota
 
 Terry	Grande,		Loyola University, Chicago
 
@@ -108,7 +108,7 @@ Mário	de Pinna,		Universidade de São Paulo
 
 Andy	Deans,		North Carolina State University
 
-Jeff	Engemen,		University of South Dakota
+Jeff	Engeman,		University of South Dakota
 
 George	Gkoutos,		University of Cambridge
 
