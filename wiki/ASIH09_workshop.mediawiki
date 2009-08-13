@@ -108,20 +108,6 @@ host of questions spanning the domains of genetics, development and
 evolutionary biology, such as the nature of the genetic changes underlying
 phenotypic variation among taxa in nature.
 
-===Development of an anatomical ontology for amphibians===
-
-Anne Maglia (1), Jennifer Leopold (1), Susan Gauch (2), Analia Pugener (1)
-
-#  Missouri University of Science and Technology, Rolla, MO, United States
-#  University of Arkansas, Fayetteville, AR, United States
-
-Herein, we describe our ongoing efforts to develop a robust ontology for
-amphibian anatomy (www.amphibanat.org) that accommodates the diversity of
-anatomical structures present in the group. We discuss the design and
-implementation of the project, current resolutions to issues we have
-encountered, and future enhancements to the ontology. We also comment on
-efforts to integrate other data sets with the amphibian anatomical ontology.
-
 ===Why ontologies are important for understanding morphological images===
 
 Greg Riccardi (1) and Austin Mast (2)
@@ -142,6 +128,42 @@ ontology terms that describe that bone (c. f., http://www.morphbank.net?id=45911
 images from CToL are currently in Morphbank.  A Search of Morphbank for the term will produce a
 collection of relevant images. An annotation of an image in Morphbank attaches one or more ontology terms to a specific part of the image. The integration of Morphbank with the Morphster ontology browser [ref] provides an illustration of ontology terms. A user may select a term in Morphster and see annotated Morphbank images that are relevant to that term. The inference capabilities of Morphster allow a user to find all images of
 “bone” or just those of “ceratobranchial” or those that exhibit a specific phenotype.
+
+===An ontology for Xenopus anatomy and development===
+
+Peter Vize, Erik Segerdell and Jeff Bowes
+
+University of Calgary, Calgary, Alberta, Canada
+
+The frogs ''Xenopus laevis'' and ''Xenopus (Silurana) tropicalis'' are model systems that
+have produced a wealth of genetic, genomic, and developmental information.
+Xenbase is a model organism database that provides centralized access to this
+information, including gene function data from high-throughput screens and the
+scientific literature. A controlled, structured vocabulary for Xenopus anatomy and
+development is essential for organizing these data. We have constructed a Xenopus
+anatomical ontology that represents the lineage of tissues and the timing of their
+development. We have classified many anatomical features in a common framework
+that has been adopted by several model organism database communities.
+The ontology is available for download at the [http://obofoundry.org Open Biomedical Ontologies Foundry].
+The Xenopus Anatomical Ontology will be used to annotate Xenopus gene
+expression patterns and mutant and morphant phenotypes. Its robust developmental
+map will enable powerful database searches and data analyses.
+
+
+===Development of an anatomical ontology for amphibians===
+
+Anne Maglia (1), Jennifer Leopold (1), Susan Gauch (2), Analia Pugener (1)
+
+#  Missouri University of Science and Technology, Rolla, MO, United States
+#  University of Arkansas, Fayetteville, AR, United States
+
+Herein, we describe our ongoing efforts to develop a robust ontology for
+amphibian anatomy (www.amphibanat.org) that accommodates the diversity of
+anatomical structures present in the group. We discuss the design and
+implementation of the project, current resolutions to issues we have
+encountered, and future enhancements to the ontology. We also comment on
+efforts to integrate other data sets with the amphibian anatomical ontology.
+
 
 
 ===Bgee: Integrating ontology and homology for the study of gene expression evolution===
@@ -167,23 +189,3 @@ ontologies. Bgee then uses these aligned ontologies, onto which
 heterogeneous expression data types are mapped. These include
 microarrays, in situ hybridization, and ESTs, from human, mouse,
 xenopus and zebrafish. Bgee is available at http://bgee.unil.ch/
-
-===An ontology for Xenopus anatomy and development===
-
-Peter Vize, Erik Segerdell and Jeff Bowes
-
-University of Calgary, Calgary, Alberta, Canada
-
-The frogs ''Xenopus laevis'' and ''Xenopus (Silurana) tropicalis'' are model systems that
-have produced a wealth of genetic, genomic, and developmental information.
-Xenbase is a model organism database that provides centralized access to this
-information, including gene function data from high-throughput screens and the
-scientific literature. A controlled, structured vocabulary for Xenopus anatomy and
-development is essential for organizing these data. We have constructed a Xenopus
-anatomical ontology that represents the lineage of tissues and the timing of their
-development. We have classified many anatomical features in a common framework
-that has been adopted by several model organism database communities.
-The ontology is available for download at the [http://obofoundry.org Open Biomedical Ontologies Foundry].
-The Xenopus Anatomical Ontology will be used to annotate Xenopus gene
-expression patterns and mutant and morphant phenotypes. Its robust developmental
-map will enable powerful database searches and data analyses.
