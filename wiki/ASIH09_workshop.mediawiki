@@ -149,7 +149,6 @@ The Xenopus Anatomical Ontology will be used to annotate Xenopus gene
 expression patterns and mutant and morphant phenotypes. Its robust developmental
 map will enable powerful database searches and data analyses.
 
-
 ===Development of an anatomical ontology for amphibians===
 
 Anne Maglia (1), Jennifer Leopold (1), Susan Gauch (2), Analia Pugener (1)
@@ -163,8 +162,6 @@ anatomical structures present in the group. We discuss the design and
 implementation of the project, current resolutions to issues we have
 encountered, and future enhancements to the ontology. We also comment on
 efforts to integrate other data sets with the amphibian anatomical ontology.
-
-
 
 ===Bgee: Integrating ontology and homology for the study of gene expression evolution===
 
