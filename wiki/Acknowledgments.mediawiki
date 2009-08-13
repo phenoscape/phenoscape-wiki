@@ -34,7 +34,7 @@ Richard Mayden, St. Louis University
 
 Mark Sabaj Pérez, The Academy of Natural Sciences, Philadelphia
 
-Brian Sidlauskas, National Evolutionary Synthesis Center
+Brian Sidlauskas, Oregon State University
 
 Richard Vari, National Museum of Natural History, Smithsonian Institution
 
@@ -158,9 +158,9 @@ Nelson	Rios,		Tulane University
 
 Mark	Sabaj Pérez,		The Academy of Natural Sciences, Philadelphia
 
-Eric	Segerdell,		University of Calgary
+Erik	Segerdell,		University of Calgary
 
-Brian	Sidlauskas,		National Evolutionary Synthesis Center
+Brian	Sidlauskas,		Oregon State University
 
 Barry	Smith,		University at Buffalo
 
