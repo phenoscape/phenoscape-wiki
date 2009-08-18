@@ -2,10 +2,6 @@
 title: Guide to Character Annotation
 ---
 
-==Curation Goal for June 15, 2009==
-
-The current goal for curation is to annotate all characters to a coarse level of entity and quality.  For entity, we are picking entities (or short post-comps for processes, see below) and for quality we are using a small set of PATO terms (see table below).  By curating all A-level papers to this level, we will focus on adding new entities to TAO, and categorize phenotype variation into broad categories which will guide future annotation development efforts.
-
 ==PATO terms used for annotation==
 Curators are currently annotating systematic characters at a coarse level using  a small set of quality terms from PATO. These terms represent higher-level concepts to describe phenotypic variation, and the Quality field in Phenex is currently limited to these terms.
 [[Image:Pato-slim.jpg|Pato-slim.jpg]]
