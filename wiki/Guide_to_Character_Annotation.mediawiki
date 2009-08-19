@@ -3,8 +3,8 @@ title: Guide to Character Annotation
 ---
 
 ==PATO terms used for annotation==
-Curators are currently annotating systematic characters at a coarse level using  a small set of quality terms from PATO. These terms represent higher-level concepts to describe phenotypic variation, and the Quality field in Phenex is currently limited to these terms.
-[[Image:Pato-slim.jpg|Pato-slim.jpg]]
+Curators are currently annotating systematic characters at a coarse level using  a small set of quality terms from PATO (terms with blue font in figure below). These terms represent higher-level concepts to describe phenotypic variation, and the Quality field in Phenex is currently limited to these terms.
+[[Image:pato-diagram.jpg]]
 {| border="1" cellspacing="0" cellpadding="3"
 ! PATO term
 ! Synonyms
