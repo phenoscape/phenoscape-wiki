@@ -1,0 +1,5 @@
+---
+title: Conceptual schema
+---
+
+#REDIRECT [[Conceptual schema of the Phenoscape data warehouse]]
