@@ -2,143 +2,42 @@
 title: Queries
 ---
 
-This section describes the queries that have been (or are to be) implemented for the Phenoscape data services, in addition to the execution details of each queries on the PostgreSQL database.
-
-==Status (Jan 20, 09)==
-The first iteration of the Web Services module for the Phenoscape project (the '''SICB prototype''') was demonstrated at the SICB meeting in Boston, MA in January 2009. This module allowed database searches for Anatomical Entities (Anatomical Entity Services) and Genes (Gene Services). Searches for Taxa (Taxon Services) are to be implemented in the next iteration which will be a part of the next Phenoscape version to be demonstrated at the ASIH meeting in Portland, OR (the '''ASIH prototype''') in July, 2009.
-
-Testing by the Phenoscape project stakeholders (Paula, Todd, and Monte) at the SICB meeting revealed that Anatomy and Gene Services were functional, but their execution was very slow in terms of time. As a result, the data retrieval strategy used in the SICB prototype is being examined for bottlenecks and these details are presented here.
+This section describes the queries that have been implemented for the Phenoscape data services, in addition to the execution details of each queries on the PostgreSQL database.
 
 ===Summary===
 
 In the Phenoscape application, queries are assembled in a Java program and dispatched through a connection to the database, and executed at the database end. For brevity's sake, the Java program is called the client side and the database side is called the backend henceforth. The database has been implemented using the [http://www.postgresql.org/ PostgreSQL] Relational Database Management System (DBMS).
 
-Query execution in PostgreSQL occurs in four sequential steps. In the first step, the query is transferred from the client side over the network to the database. In the second step, the query is parsed and an execution plan is drawn up by the PostgreSQL DBMS to retrieve the data as efficiently as possible in terms of time and memory utilization. In the third step, the DBMS executes the query as per the drawn up execution strategy and retrieves the results. In the last step, the retrieved results  are sent back over the connection to the client side. All this takes time, which eventually adds up. As a case in point, the query execution strategy implemented for the SICB prototype spawns a multitude of queries. The execution of each of these queries takes up time to be transferred over the network, executed, retrieve the results, and transfer them back to the client side. Therefore, new strategies to optimize the database performance are being tested.
-
-==Database summary==
-* Last updated: Feb 09, 2009
-* Size: ~ 745 MB
-
-== Factors for slow query performance ==
-
-The various factors that are potential reasons for the slow performance of the SICB prototype are discussed in detail below. More details about the actual investigation can be found [[Query execution speed-up: The investigation|here]]
-
-===Factor 1: Network traversal time for the query ===
-Each query has to be transferred from the client side to the backend DBMS over the network. This can be a substantial bottleneck when a lot of queries and results are exchanged between client and database. It is influenced by a host of extraneous factors such as network traffic and bandwidth limitations, which are not directly controllable from the context of the Phenoscape application. Given that the SICB prototype spawns multiple queries to retrieve information, packaging all these queries into one complex query that only needs to traverse the network once may be a viable option to ameliorate the impact of this factor. A further improvement may be achieved by the use of back end stored procedures which can be invoked directly from the client side, and do not need to be transferred over the network
-
-===Factor 2: Query parsing and execution planning===
-Query parsing determines if the query is syntactically valid and then identifies the key components of the query. In most contemporary DBMS', this happens very quickly and is not a contributing factor to slow query execution. Execution planning determines the strategy for query execution, the most significant aspect of execution planning is determining the order of [http://en.wikipedia.org/wiki/Join_(SQL) table joins]. This can be very time consuming especially if the number of tables to be joined to one another exceeds 10.
-
-In the simplest possible case where only two tables A and B need to be joined, determining the order of joins is trivial. If a third table C is added, then A and B can be joined first, followed by C [(AB)C], or B and C can be joined first followed by A [(BC)A], or A and C can be joined first, followed by B [(AC)B]. The DBMS has to  decide which of these three joins strategies will result in the least execution time and memory usage. If a fourth table D is added to the mix, the possible join options are ((AB)C)D, ((AB)D)C, ((AC)B)D, ((AC)D)B, ((AD)B)C, ((AD)C)B, ((BC)A)D, ((BC)D)A, ((BD)A)C, ((BD)C)A, ((CD)A)B, and ((CD)B)A; 12 options to be evaluated in all. As more tables are added, the number of join options to be evaluated increases exponentially. To decide upon which join strategy to adopt, the DBMS takes into consideration the size of the tables, the indexes specified upon the columns of the tables (specifically, the columns to be joined) among other factors. When the number of tables > 10, PostgreSQL typically uses opportunistic trial and error methods (genetic probabilistic methods) to determine the order of table joins, to try and limit the amount of time used up.
-
-Determining the most optimal query execution strategy therefore can take up a lot of time, simply because of the number of query options to be evaluated.   Further, if query execution strategies are not cached, the DBMS may keep evaluating query execution strategies for the same query at every invocation! Strategies to counter this factor can include specifying the order of table joins in the query itself, a [http://www.postgresql.org/docs/8.3/static/explicit-joins.html feature] which is available in PostgreSQL, or the use of stored procedures that may be directly invoked from the client-side. In stored procedures, query execution strategies may be cached for the execution of queries with many (> 10) table joins, or one large complex query may be broken up into smaller ones and all of these executed as part of a stored procedure.
-
-===Factor 3: Query execution===
-
-Following the query execution strategy, the actual query is executed. This step is affected by the hardware configuration such as RAM size, disk types, disk configuration, and the number of CPUs in use. Query execution can be tuned by modifying parameters to control the number of back end connections, shared buffer space, effective cache size, available memory size. [http://www.revsys.com/writings/postgresql-performance.html Wiles] offers more information.
-
-===Factor 4: Processing the retrieved data===
-
-Following the query execution, the retrieved data is transferred to the client side where it is processed and assembled into a JSON Object, which in turn is transferred to the Phenoscape UI and rendered there. This step is performed entirely in a Java-based REST resource.
+Query execution in PostgreSQL occurs in four sequential steps. In the first step, the query is transferred from the client side over the network to the database. In the second step, the query is parsed and an execution plan is drawn up by the PostgreSQL DBMS to retrieve the data as efficiently as possible in terms of time and memory utilization. In the third step, the DBMS executes the query as per the drawn up execution strategy and retrieves the results. In the last step, the retrieved results  are sent back over the connection to the client side. 
 
 ==Relations of interest==
 
 The relations described in this section are of use in finding information about phenotypes, and are therefore leveraged in the implementation of the phenotype summary and details modules of the Phenoscape application.
 
-Post compositions of Entities and Qualities are used to relate taxa and phenotypes through the ''exhibits'' relation as shown in (1).
+Post compositions of Entities and Qualities are used to relate taxa (and genes) and phenotypes through the ''exhibits'' relation as shown in (1) and (2).
 <javascript>
 Taxon                              exhibits                 inheres_in(Quality, Entity)                                       -- (1)
+Gene                               exhibits                 inheres_in(Quality, Entity)                                       -- (2)
 </javascript>
-In addition, the OBD database also contains information relating post composed phenotypes to both the Quality and the Entity by different relations as shown in (2) and (3) respectively
-
+In addition, the OBD database also contains information relating post composed phenotypes to both the Quality and the Entity by different relations as shown in (3) and (4) respectively
 <javascript>
-inheres_in(Quality, Entity)        is_a                     Quality                                                           -- (2)
-inheres_in(Quality, Entity)        inheres_in               Entity                                                            -- (3)
+inheres_in(Quality, Entity)        is_a                     Quality                                                           -- (3)
+inheres_in(Quality, Entity)        inheres_in               Entity                                                            -- (4)
 </javascript>
-Quality can be either a Value or an Attribute (beside other slims) and is related to these by the ''in_subset_of'' relation as shown in (4)
+Quality is related to Character by the ''value_for'' relation as shown in (5)
 <javascript>
-Quality                            in_subset_of             Slim                                                              -- (4)
-</javascript>
-
-Qualities and Anatomical entities are subclassed in the PATO and TAO hierarchies respectively as shown in (5) and (6)
-<javascript>
-Value                              is_a                    Attribute                                                          -- (5)
-Sub Anatomical Feature             is_a                    Anatomical Feature                                                 -- (6)
-</javascript>
-
-The relationships between genes and genotypes and the phenotypes are shown in (7) and (8). These are used to retrieve gene related data
-
-<javascript>
-Gene                               has_allele               Genotype                                                          -- (7)
-Genotype                           exhibits                 inheres_in(Quality, Entity)                                       -- (8)
+Quality                            value_for                Character                                                         -- (5)
 </javascript>
 
 Phenotypes can also be traced back to the publications and datasets they are extracted from as explained below. Phenotype data summaries and details retrieved by the services modules of Phenoscape are filtered by publications as well.
 
-Every dataset is associated with a publication as shown in (9). The list of link statements posited by a dataset can be retrieved by traversing the relation shown in (10)
+Every dataset is associated with a publication as shown in (6). The list of link statements posited by a dataset can be retrieved by traversing the relation shown in (7)
 <javascript>
-DataSet                            has_publication         Publication                                                        -- (9)
-LinkStatement                      posited_by              Dataset                                                            -- (10)
+DataSet                            has_publication         Publication                                                        -- (6)
+LinkStatement                      posited_by              Dataset                                                            -- (7)
 </javascript>
 
-Each of these link statements can be traced to a specific phenotypes as shown by the links in (11) ~ (13)
-<javascript>
-LinkStatement                      has_state               CharacterStateDatum                                                -- (11)
-CharacterStateDatum                has_state               CharacterStateDomain                                               -- (12)
-CharacterStateDomain               has_phenotype           Phenotype                                                          -- (13)
-</javascript>
-
-==Querying strategies==
-
-In the following sections, various querying strategies are discussed with respect to their use of the relations described above and the [[Queries#Factors_for_slow_query_performance| four factors]] contributing to poor query performance.
-
-===Querying strategy in the SICB prototype===
-
-The queries implemented for this iteration of the Phenoscape UI use the following strategy to retrieve taxa and qualities associated with an Anatomical Entity.
-
-# Phenotypes containing the anatomical feature and the taxa exhibiting these phenotypes were extracted from the database using regular expression keyword matches. This was done with one query (Q1) that uses the relation in (1)
-# Results from Q1 are parsed to extract the Anatomical Feature and the Quality that went into each Phenotype (again using regular expressions)
-# The Quality extracted in the previous step is analyzed by running a query (Q2) on relation (4), to see if it is an attribute or value. If the Quality is a value, then a second query (Q3) is used to determine the attribute it is a value of. This query runs on the ''is_a'' relation in (5), and is invoked in sequence until an attribute higher in the quality branch is found
-# The results from the previous step are used to group the qualities that an entity can take under specific attributes. Value qualities such as Distorted, Regular etc may be grouped under an attribute quality such as Shape
-# In another direction, the taxa retrieved in Q1 are also collected
-# Now, the anatomical features that are sub features of the search feature are collected. For example, if the search was for dorsal fins, now we retrieve all the sub features of dorsal fin such as dorsal fin lepidotrichium etc by querying (Q4) over the relation shown in (6) below
-# For every sub anatomical feature retrieved by Q4, we repeat the previous steps
-
-In summary, the relations (2) and (3) are not leveraged in this strategy. The transitive relations between the Attribute and Value Qualities in the PATO hierarchy and the Anatomical Features in the TAO hierarchy (which are inferred by the OBD reasoner) are also not utilized. An assortment of queries are executed over the database backend and their results are fed into the JAVA methods implemented on the client side, which is a very expensive process in terms of time. Some data structures like lookup tables for Attributes and Values have been implemented to minimize database connections and query executions, however the whole retrieval process is still very time consuming. The details of these queries can be found [[Queries for Phenoscape UI demo'ed at SICB, Boston in Jan 2009|here]]
-
-===Proposed querying strategies for the ASIH prototype===
-==== Strategy #1: Simple table joins ====
-
-The simplest new proposed querying strategy traverses all the relations ((1) ~ (6)) described in the previous sections to find all the information pertinent to an anatomical entity that is being searched for, using a combination of [http://en.wikipedia.org/wiki/Join_(SQL) TABLE JOINS]. This methodology makes optimal use of transitive relations derived by the OBD reasoner between Attributes and Values in the PATO hierarchy and between Anatomical Entities in the TAO hierarchy, in contrast to the strategy used in the SICB prototype. The details of these queries can be found [[Query_strategy_performance#Strategy_#1|here]].
-
-In all, this strategy involves joining 13 different tables to obtain all of the information about the searched anatomical entity in one go. This strategy therefore dispenses with the need for multiple data transfers between the database and the client side ([[Queries#Factor_1:_Network_traversal_time_for_the_query|Factor #1]]), a big reason for the slow performance of the SICB prototype. While this provides significant speed up over the query strategy implemented in the SICB prototype, the execution planning on the database side ([[Queries#Factor_2:_Query_parsing_and_execution_planning|Factor #2]]), is a major roadblock, sometimes taking a few minutes to complete. In addition, this strategy returns records of target phenotypes, that are joined with the specific entities, qualities, and taxa that they are related to, and the subset slims as well.
-
-==== Strategy #2: Specifying the order of table joins in the original query ====
-
-This strategy aims to improve upon the [[Queries#Factor_2:_Query_parsing_and_execution_planning|execution planning bottleneck]] of the previous strategy ([[Queries #Strategy_#1:_Simple_table_joins|Strategy #1]]). By explicitly specifying the [http://www.postgresql.org/docs/8.3/interactive/explicit-joins.html order of the table joins] in the query itself and setting a [http://www.postgresql.org/docs/8.3/interactive/runtime-config-query.html#GUC-JOIN-COLLAPSE-LIMIT|back-end database parameter], the DBMS is stopped from evaluating every possible join order for the specified tables. Examples of these queries can be found [[Query_strategy_performance#Strategy_#2|here]].
-
-==== Strategy #3: Stored procedures ====
-
-Given that the use of table joins in a query assembled on the client side is impacted by the execution planning stage ([[Queries#Factor_2:_Query_parsing_and_execution_planning|Factor #2]]), this can be reduced significantly by the use of back-end stored procedures. While the execution planning time can be minimized in this manner, note that the network transfer time is also eliminated. The steps of this procedure are as follows
-
-# A master procedure ([[Query_strategy_performance#Stored_procedure_#5:_getAnatomyInfo|''getAnatomyInfo'']]) finds all the phenotypes that include the searched anatomical feature and its subtypes. For each distinct phenotype retrieved:
-## A second procedure ([[Query_strategy_performance#Stored_procedure_#4:_getEntityFromPhenotype|''getEntityFromPhenotype'']]) finds the anatomical entity involved in the phenotype. For example, if the searched anatomical entity is cartilage, then for each retrieved phenotype, the stored procedure P11 identifies if the involved anatomical entity is cartilage or basihyal cartilage or synovial cartilage or some other subtype of cartilage.
-## A third procedure ([[Query_strategy_performance#Stored_procedure_#3:_getQualityFromPhenotype|''getQualityFromPhenotype'']]) finds the quality (Q) in the phenotype.
-## A subsidiary procedure ([[Query_strategy_performance#Stored_procedure_#1:_getAttributeForQuality|''getAttributeForQuality'']]) is invoked to identify the attribute of the identified quality Q. If the quality Q is in the 'value slim' subset, the invoked getAttributeForQuality retrieves the first super-quality of Q that belongs to the 'attribute slim' subset of PATO. If the  quality Q is in the 'attribute slim' subset, Q is returned.
-## A fourth procedure ([[Query_strategy_performance#Stored_procedure_#2:_getTaxaForPhenotype|''getTaxaForPhenotype'']]) identifies all the unique taxa that exhibit the phenotype. The retrieved taxa maybe species from the Teleost hierarchy or genotypes from the ZFIN database. For the latter, getTaxaForPhenotype identifies all the unique genes that code for this genotype.
-
-==== Strategy #4: Materialized views ====
-
-[http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/PhenoscapeDataLoader/sql/util/realize-relations-as-views.plpgsql?view=log Stored procedures] in the OBD API can be used to convert relations and classes into explicit views, which can then be queried to retrieve information of interest. For example, all the non-inferred triples in the LINK table which have ''PHENOSCAPE:exhibits'' as the predicate can be assembled into a ''materialized view'', where all the triples have ''PHENOSCAPE:exhibits'' as the predicate. The records in these views can be easily queried from another stored procedure to retrieve data of interest. Given that a query for anatomy information leverages a [[Queries#Relations-of_interest|specific set of relations]], each of these relations can be materialized into a view. The required information about an anatomical entity can be identified from these views. There will be a fewer number of joins involved in the query used upon these views.
-
-The following relations will be 'materialized':
-
-* ''OBO_REL:inheres_in''
-* ''OBO_REL:is_a''
-* ''PHENOSCAPE:exhibits''
-* ''PHENOSCAPE:has_allele''
-
-A stored procedure ([[Query_strategy_performance#getAnatomyInfoFromMatViews|getAnatomyInfoFromMatViews]]) then queries these materialized views to retrieve the information of interest.
+==Querying strategy==
 
 == Testing strategy ==
 
@@ -146,7 +45,7 @@ The testing strategy aims to record performance times for each of the querying s
 
 == Web services modules ==
 
-These are some of the modules that will be a part of the ASIH prototype.
+These modules are part of the ASIH prototype.
 
 ===Auto-Completion Service===
 This service find matches for terms entered by the user in a search field. Retrieved matches are used as prompts to auto complete the field. Matches for the entered term can be retrieved by the labels on the term ('bon' can match a term with label 'bony' or 'bone' for example), synonyms, and definitions optionally.
