@@ -108,7 +108,7 @@ To effectively execute this query, the phenotype centric model of the data wareh
 
 For queries for provenance data about taxon to phenotype assertions, we need to find the publication the assertion is extracted from, the specific text from the publication about character and state, as well as the curators' comments about the assertion.
 
-To effectively execute these 'metadata' queries, the provenance data is modeled as an association attribute. For every instance of the association between a SUBJECT and a PHENOYPE, we capture CHARACTER TEXT, STATE TEXT, CHARACTER COMMENT, STATE COMMENT, and PUBLICATION.
+To effectively execute these 'metadata' queries, the provenance data is modeled as an association attribute. For every instance of the association between a SUBJECT and a PHENOYPE, we capture CHARACTER. STATE, CURATORS, and PUBLICATION.
 
 [[Category:OBD]]
 [[Category:Database]]
