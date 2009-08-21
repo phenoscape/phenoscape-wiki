@@ -13,7 +13,7 @@ The last category has been discussed at some length in the [[Queries]] page. Thi
 
 ==Hardware==
 
-The Phenoscape database is currently hosted on a [https://www.nescent.org/intranet/SysAdmin:Servers:Darwin development server]. It should me moved to the [https://www.nescent.org/intranet/SysAdmin:Servers:Wallace  production server] before the open release date of the Phenoscape project. At present (Fen 11, 2009), the size of the database is approximately 750 MB.
+The Phenoscape database is currently hosted on a production server. The size of the database (as on August 21, 2009) is approximately 3.6 GB.
 
 ==Software==
 
