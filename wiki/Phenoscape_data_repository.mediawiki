@@ -100,7 +100,7 @@ Queries used in the Phenoscape data services module were found to be intolerably
 
 To address this issue, it was decided to create summaries of the annotations in the database in simple data warehouse tables. New queries which were tested on these summary tables executed much faster, having dispensed with the numerous JOINs between the [[#The_NODE_table | NODE]] and [[#The_LINK_table | LINK]] tables, aliased several times over.
 
-====The data warehouse schema ====
+====[[conceptual_schema | The data warehouse schema ]]====
 
 The data warehouse has been designed with the intent of maximizing the efficiency of [[Queries | queries]] executed on the Phenoscape knowledge base. For phenotype queries, we need to know the phenotype in question, the taxa or genes which are associated with that phenotype, as well as the entity and quality associated with that phenotype. We also need to find the character, which the quality is associated with. For example if the quality is ''reduced number of'', the character in question would be ''count''.
 
@@ -108,7 +108,7 @@ To effectively execute this query, the phenotype centric model of the data wareh
 
 For queries for provenance data about taxon to phenotype assertions, we need to find the publication the assertion is extracted from, the specific text from the publication about character and state, as well as the curators' comments about the assertion.
 
-To effectively execute these 'metadata' queries, the provenance data is modeled as an association attribute (each attribute is in bold in addition to concepts). For every instance of the association between a SUBJECT and a PHENOYPE, we capture CHARACTER TEXT, STATE TEXT, CHARACTER COMMENT, STATE COMMENT, and PUBLICATION. We came up with the following [[conceptual_schema | schema]]
+To effectively execute these 'metadata' queries, the provenance data is modeled as an association attribute (each attribute is in bold in addition to concepts). For every instance of the association between a SUBJECT and a PHENOYPE, we capture CHARACTER TEXT, STATE TEXT, CHARACTER COMMENT, STATE COMMENT, and PUBLICATION.
 
 [[Category:OBD]]
 [[Category:Database]]
