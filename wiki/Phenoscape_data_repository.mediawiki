@@ -92,7 +92,7 @@ A complete database refresh using the  [[Phenoscape data loader]] can be started
 
 == Querying the data ==
 
-Queries have been implemented to retrieve data for the various [[Data_services || Phenoscape data services]]. This section contains the details about these queries.
+Queries have been implemented to retrieve data for the various [[Data Services | Phenoscape data services]]. This section contains the details about these queries.
 
 ===Speeding up the queries: The data warehouse===
 
