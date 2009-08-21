@@ -37,24 +37,7 @@ DataSet                            has_publication         Publication          
 LinkStatement                      posited_by              Dataset                                                            -- (7)
 </javascript>
 
-==Data Services==
 
-This section describes the different data service modules, which are part of the ASIH release and the queries that retrieve the data for these services. 
-
-===Auto-Completion Service===
-This service find matches for terms entered by the user in a search field. Retrieved matches are used as prompts to auto complete the field. Matches for the entered term can be retrieved by the labels on the term ('bon' can match a term with label 'bony' or 'bone' for example), synonyms, and definitions optionally.
-
-===Term Info Service===
-This service finds all the information relevant to a given term, viz. label, synonyms if any, definitions if any, and lists of parent and child terms that are related to this term.
-
-===Phenotype Data Summary Service===
-This service retrieves the summaries of all the phenotype data in the database. Retrieved data may be filtered by taxon, gene, character, anatomical entity, and publication.
-
-===Phenotype Data Service===
-This service retrieves the details of all the phenotype data in the database. Retrieved data may be filtered by taxon, gene, character, anatomical entity, and publication. The details of the phenotype data include the exhibiting taxon or gene, the quality and entity associated with the phenotype and the character, of which the quality is a value. 
-
-===Annotation Data Service===
-This service retrieves all the metadata, which is associated with a specific taxon-phenotype assertion. Given the reification identifier of an assertion, the service retrieves the publication, the specific excerpts of the texts the assertions were based upon, and comments (if any) entered by the curators themselves.
 
 [[Category:Informatics]]
 [[Category:Database]]
