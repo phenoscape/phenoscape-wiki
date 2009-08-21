@@ -100,6 +100,10 @@ Queries used in the Phenoscape data services module were found to be intolerably
 
 To address this issue, it was decided to create summaries of the annotations in the database in [[conceptual_schema | simple data warehouse tables]]. New queries which were tested on these summary tables executed much faster, having dispensed with the numerous JOINs between the [[#The_NODE_table | NODE]] and [[#The_LINK_table | LINK]] tables, aliased several times over.
 
+====The data warehouse schema explained====
+
+The data warehouse has been designed with the intent of maximizing the efficiency of [[Queries | queries]] executed on the Phenoscape knowledge base.
+
 [[Category:OBD]]
 [[Category:Database]]
 [[Category:Informatics]]
