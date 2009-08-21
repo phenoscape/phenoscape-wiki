@@ -8,7 +8,7 @@ This section describes the queries that have been implemented for the Phenoscape
 
 In the Phenoscape application, queries are assembled in a Java program and dispatched through a connection to the database, and executed at the database end. For brevity's sake, the Java program is called the client side and the database side is called the backend henceforth. The database has been implemented using the [http://www.postgresql.org/ PostgreSQL] Relational Database Management System (DBMS).
 
-Query execution in PostgreSQL occurs in four sequential steps. In the first step, the query is transferred from the client side over the network to the database. In the second step, the query is parsed and an execution plan is drawn up by the PostgreSQL DBMS to retrieve the data as efficiently as possible in terms of time and memory utilization. In the third step, the DBMS executes the query as per the drawn up execution strategy and retrieves the results. In the last step, the retrieved results  are sent back over the connection to the client side. 
+Query execution in PostgreSQL occurs in four sequential steps. In the first step, the query is transferred from the client side over the network to the database. In the second step, the query is parsed and an execution plan is drawn up by the PostgreSQL DBMS to retrieve the data as efficiently as possible in terms of time and memory utilization. In the third step, the DBMS executes the query as per the drawn up execution strategy and retrieves the results. In the last step, the retrieved results  are sent back over the connection to the client side.
 
 ==Relations of interest==
 
@@ -37,15 +37,9 @@ DataSet                            has_publication         Publication          
 LinkStatement                      posited_by              Dataset                                                            -- (7)
 </javascript>
 
-==Querying strategy==
+==Data Services==
 
-== Testing strategy ==
-
-The testing strategy aims to record performance times for each of the querying strategies proposed above. All performance tests are to be performed on the development server at NESCent from the command line on Cartik's laptop running Ubuntu Hardy Heron. The results will be documented [[Query_strategy_performance|separately]]. Other details about hardware configurations and such can be found [[Query_execution_speed-up:_The_investigation|here]]
-
-== Web services modules ==
-
-These modules are part of the ASIH prototype.
+This section describes the different data service modules, which are part of the ASIH release and the queries that retrieve the data for these services. 
 
 ===Auto-Completion Service===
 This service find matches for terms entered by the user in a search field. Retrieved matches are used as prompts to auto complete the field. Matches for the entered term can be retrieved by the labels on the term ('bon' can match a term with label 'bony' or 'bone' for example), synonyms, and definitions optionally.
@@ -57,7 +51,10 @@ This service finds all the information relevant to a given term, viz. label, syn
 This service retrieves the summaries of all the phenotype data in the database. Retrieved data may be filtered by taxon, gene, character, anatomical entity, and publication.
 
 ===Phenotype Data Service===
-This service retrieves the details of all the phenotype data in the database. Retrieved data may be filtered by taxon, gene, character, anatomical entity, and publication.
+This service retrieves the details of all the phenotype data in the database. Retrieved data may be filtered by taxon, gene, character, anatomical entity, and publication. The details of the phenotype data include the exhibiting taxon or gene, the quality and entity associated with the phenotype and the character, of which the quality is a value. 
+
+===Annotation Data Service===
+This service retrieves all the metadata, which is associated with a specific taxon-phenotype assertion. Given the reification identifier of an assertion, the service retrieves the publication, the specific excerpts of the texts the assertions were based upon, and comments (if any) entered by the curators themselves.
 
 [[Category:Informatics]]
 [[Category:Database]]
