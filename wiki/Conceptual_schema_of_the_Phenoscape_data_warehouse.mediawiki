@@ -3,3 +3,9 @@ title: Conceptual schema of the Phenoscape data warehouse
 ---
 
 #REDIRECT [[Conceptual Model of Data Warehouse]]
+
+'''Description of the data warehouse conceptual schema '''
+
+NOTE: This is a phenotype-centric model of the data warehouse. 
+
+A SUBJECT may exhibit one or more PHENOTYPE(s). A PHENOTYPE may be exhibited by one or more SUBJECT(s). A SUBJECT may be a specialized type of zero or more SUBJECT(s). For every instance of an association between a SUBJECT and PHENOTYPE, descriptive attributes such as PUBLICATION, CHARACTER TEXT, STATE TEXT, CHARACTER COMMENT, and STATE COMMENT need to be captured.
