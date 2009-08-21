@@ -32,9 +32,9 @@ This is an outline of my tasks in the coming months.
 * Investigate possible additions to OBD reasoner (with input from Hilmar and Jim)
 ** STATUS: Added facet to add direct relationships between characters and all of the states they may take. Complete
 * Add extinct/extant species information to the database
-** STATUS: Deferred
+** STATUS: Complete
 * Automate data loader module
-** STATUS: 99%
+** STATUS: Complete
 
 ===March===
 * Add Gene data service to Phenoscape 
