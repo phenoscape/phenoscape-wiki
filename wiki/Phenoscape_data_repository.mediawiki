@@ -92,7 +92,49 @@ A complete database refresh using the  [[Phenoscape data loader]] can be started
 
 == Querying the data ==
 
-Queries have been implemented to retrieve data for the various [[Data Services | Phenoscape data services]]. This section contains the details about these queries.
+Queries have been implemented for retrieving phenotype information (summaries and details), homology information, summaries of search terms, metadata about phenotype assertions, and auto complete suggestions for search terms as they are being entered. Data retrieved by these queries are accessed by the various [[Data Services | Phenoscape data services]]. The details about these queries are presented here. 
+
+===Relations of interest===
+
+This section discusses the various entities and binary directed links between these entities, which are leveraged by the database queries. Assertions about the model organism (from ZFIN) and the evolutionary species are converted into the ''exhibits'' link specified in (1) below. Note the right hand side of the ''exhibits'' link. It is a post composition of an Entity and a Quality, which makes up a description of a phenotype. 
+
+<javascript>
+Taxon                               exhibits                              inheres_in(Quality, Entity)               --(1)
+</javascript>
+
+The post composed phenotype is related to its components by the ''is_a'' and the ''inheres_in'' relation as shown in (2) and (3) below
+
+<javascript>
+inheres_in(Quality, Entity)         inheres_in                            Entity                                    --(2)
+inheres_in(Quality, Entity)         is_a                                  Quality                                   --(3)
+</javascript>
+
+The Quality is related to a Character by an inferred ''value_for'' relation as shown in (4)
+
+<javascript>
+Quality                             value_for                             Character                                 --(4)
+</javascript>
+
+An example should make this clearer. Consider the statement, "In Siluriformes, the shape of the dorsal surface of the basihyal bone is flat or convex" from [Albert, 2001]. This statement can be represented as in (1ex) below. Note the similar form to (1). Siluriformes is the taxon, flat is the quality, and basihyal bone is the entity. 
+
+<javascript>
+Siluriformes                        exhibits                              inheres_in(flat, basihyal bone)           --(1ex)
+</javascript>
+
+Now the post composed phenotype is related to its entity and quality components as in (2ex) and (3ex). Note the similarity to (2) and (3)
+
+<javascript>
+inheres_in(flat, basihyal bone)     inheres_in                            basihyal bone                             --(2ex)
+inheres_in(flat, basihyal bone)     is_a                                  flat                                      --(3ex)
+</javascript>
+
+Finally, the quality 'flat' is related to the character 'shape' by (4ex). Note that 'flat' is just one of the values for 'shape'. Other values my be 'rounded', 'curved', etc.  
+
+<javascript>
+flat                                value_for                             shape                                     --(4ex)
+</javascript>
+
+
 
 ===Speeding up the queries: The data warehouse===
 
@@ -102,7 +144,7 @@ To address this issue, it was decided to create summaries of the annotations in 
 
 ====[[conceptual_schema | The data warehouse schema ]]====
 
-The data warehouse has been designed with the intent of maximizing the efficiency of [[Queries | queries]] executed on the Phenoscape knowledge base. For phenotype queries, we need to know the phenotype in question, the taxa or genes which are associated with that phenotype, as well as the entity and quality associated with that phenotype. We also need to find the character, which the quality is associated with. For example if the quality is ''reduced number of'', the character in question would be ''count''.
+The data warehouse has been designed with the intent of maximizing the efficiency of queries executed on the Phenoscape knowledge base. For phenotype queries, we need to know the phenotype in question, the taxa or genes which are associated with that phenotype, as well as the entity and quality associated with that phenotype. We also need to find the character, which the quality is associated with. For example if the quality is ''reduced number of'', the character in question would be ''count''.
 
 To effectively execute this query, the phenotype centric model of the data warehouse is designed as follows (concepts and attributes are in bold). A taxon or gene may be associated with one or more PHENOTYPE(s) and a PHENOTYPE may be associated with one or more gene or taxon. A PHENOTYPE is associated with exactly one ENTITY and one QUALITY. A QUALITY may be associated with one or more PHENOTYPE(s). Further, a QUALITY is associated with exactly one CHARACTER. A CHARACTER may be associated with one or more QUALITYs. The taxon or gene concepts have been merged into a SUBJECT concept.
 
