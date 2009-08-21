@@ -1,0 +1,5 @@
+---
+title: Conceptual schema of the Phenoscape data warehouse
+---
+
+#REDIRECT [[Conceptual Model of Data Warehouse]]
