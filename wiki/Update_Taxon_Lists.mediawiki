@@ -33,7 +33,7 @@ If you make any updates on a file or submit term requests for an entry, be sure 
 ====Taxonomy ontology change requests====
 #Taxon name misspelled: Misspellings are requested as synonyms of the correctly spelled taxon name in the TTO.  Choose the appropriate name from the Valid Taxon field, and add note in Taxon Comments field (e.g., Requested addition of synonym to TTO, Your Name, 7/28/2008)
 #If an author has made an error in the generic assignment of a species, which does not represent a difference in taxonomic opinion or concepts, then the current valid name of that species should be chosen, and the erroneous name should be added to TTO as a synonym of the valid name.  The curator should add a comment in the Taxon Comments about the request.
-#Taxon name not found: If the missing taxon name is a synonym of a valid name, then the synonym will need to be added to the taxonomy ontology.  Add a note in Taxon Comments field (e.g., taxon XY is synonym of XZ: submitted TTO request on 7/28/2008 by Your Name).  Leave the Valid Taxon field blank.
+#Taxon name not found: If the missing taxon name is a synonym of a valid name, then the synonym will need to be added to the taxonomy ontology.  Add a note in Taxon Comments field (e.g., taxon XY is synonym of XZ: submitted TTO request on 7/28/2008 by Your Name).
 #Unnamed or unknown species:  Examples of unnamed or unknown species in a Materials list might include: Danio sp., Cyprinus sp. 1, Cyprinus sp. 2, Danio aff. dangila, Danio cf. dangila, etc... These names should be added to the taxonomy ontology with reference to the publication. In this example, for a publication by Smith 2008, the request for new species names would be:
 
 *Danio sp. (Smith 2008)
