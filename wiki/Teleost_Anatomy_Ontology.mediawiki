@@ -44,3 +44,4 @@ We have developed a method for homology designation by recording homology statem
 
 [[Category:Ontology]]
 [[Category:Curation]]
+[[Category:Anatomy]]
