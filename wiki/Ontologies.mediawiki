@@ -31,6 +31,8 @@ The [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (
 * Browse [http://bioportal.bioontology.org/visualize/38362 TAO at BioPortal]
 * Download TAO from [http://bioportal.bioontology.org/ontologies/39222 Bioportal] or [http://www.obofoundry.org/ OBO Foundry] (use [http://oboedit.org/ OBO Edit] desktop software to open and view .obo file).
 
+[[Category:Anatomy]]
+
 === Fish Collection Codes Ontology ===
 
 There is a vocabulary of fish collections, based on [http://research.calacademy.org/research/ichthyology/catalog/abtabr.html a list used in Catalog of Fishes], though with a few additions listed on the [[Fish Collection Updates]] page.
