@@ -31,7 +31,7 @@ The [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (
 * Browse [http://bioportal.bioontology.org/visualize/38362 TAO at BioPortal]
 * Download TAO from [http://bioportal.bioontology.org/ontologies/39222 Bioportal] or [http://www.obofoundry.org/ OBO Foundry] (use [http://oboedit.org/ OBO Edit] desktop software to open and view .obo file).
 
-[[Category:Anatomy]]
+
 
 === Fish Collection Codes Ontology ===
 
