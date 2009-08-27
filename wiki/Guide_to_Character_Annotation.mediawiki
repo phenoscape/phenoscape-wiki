@@ -128,7 +128,7 @@ Epibranchial 1: (0) triangular.  After careful reading of associated text in the
 
 ==== ''Example 5''====
 Epibranchial number: (0) 3; (1) 4.  After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term:
- E: epibranchial element; Q: count; C: 3 or C: 4
+ E: epibranchial element; Q: count; Comment: 3 or Comment: 4
 
 ==== ''Example 6''====
 Epibranchial bone number: (0) 3; (1) 4
