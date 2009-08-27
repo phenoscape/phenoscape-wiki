@@ -93,7 +93,7 @@ Characters involving counts of entities are annotated using the “count” qual
  E: vertebra, Q: count, Comment: >38
  E: vertebra, Q: count, Comment: ≥48
 
-*The "Count" field in Phenex is not currently used because it does not accept ranges or symbols; therefore, please record all numerical values in the Comments field.
+(*)The "Count" field in Phenex is not currently used because it does not accept ranges or symbols; therefore, please record all numerical values in the Comments field.
 
 ===6. Annotation involving bone and cartilage terms ===
 Authors sometimes refer to endochondral structures without specifying whether the structure is “bone” or “cartilage.” For example, the convention for a term like “epibranchial 2” or “basibranchial” is that it is composed of bone and when composed of cartilage an author will say “epibranchial 2 cartilage” or “basibranchial cartilage”.  However,  this is not universally followed and a curator must read the character description and examine associated text and figures to ascertain this.
