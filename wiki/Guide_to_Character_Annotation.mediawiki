@@ -80,8 +80,8 @@ Qualities of single physical entities are those that exist in a single entity. T
 
  E: supraorbital, Q: shape
 
-===4. Use of relational qualities===
-Relational qualities are those that require an multiple entities in order to exist. No qualities that are children of monadic entities (e.g., size, shape) are relevant here. For example, annotation of “parietal fused with supraoccipital” is entered as:
+===4. Qualities of related physical entities ===
+Relational qualities are those that exist between multiple entities. For example, annotation of “parietal fused with supraoccipital” is entered as:
 
  E: parietal, Q: relational structural quality, RE: supraoccipital
 
