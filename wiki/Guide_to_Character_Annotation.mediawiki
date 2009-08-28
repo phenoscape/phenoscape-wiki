@@ -37,7 +37,7 @@ Curators are currently annotating systematic characters using a subset of qualit
 |-
 || count || count in organism  ||
 |-
-|| relational shape quality* || || protruding into
+|| relational shape quality* (and children) || || protruding into
 |-
 || relational spatial quality* (and children)|| || orientation, anterior to, lateral to
 |-
