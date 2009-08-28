@@ -9,7 +9,7 @@ Curators are currently annotating systematic characters using a subset of qualit
 {| border="1" cellspacing="0" cellpadding="3"
 ! PATO term
 ! Synonyms
-! Character description examples
+! Examples of child terms
 
 |-
 || shape || || triangular, lobed, concave, interdigitated
