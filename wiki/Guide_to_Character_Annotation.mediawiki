@@ -3,7 +3,7 @@ title: Guide to Character Annotation
 ---
 
 ==PATO terms used for annotation==
-Curators are currently annotating systematic characters using a subset of quality terms from PATO (terms with blue font in figure below). These terms represent higher-level concepts to describe phenotypic variation.
+Curators are currently annotating systematic characters using a subset of quality terms from PATO (see terms with blue font in the figure below). These terms represent higher-level concepts to describe phenotypic variation. The children of some of these terms are also used in annotation (see terms in the table tagged with "(and children)").
 
 [[Image:pato-diagram.jpg]]
 {| border="1" cellspacing="0" cellpadding="3"
