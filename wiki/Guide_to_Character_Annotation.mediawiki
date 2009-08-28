@@ -27,7 +27,7 @@ Curators are currently annotating systematic characters using a subset of qualit
 |-
 || cartilaginous || ||
 |-
-|| texture || || smooth, wrinkled
+|| texture (and children) || || smooth, wrinkled
 |-
 || color || ||
 |-
