@@ -15,9 +15,9 @@ Curators are currently annotating systematic characters using a subset of qualit
 || shape || || triangular, lobed, concave, interdigitated
 
 |-
-|| position || placement, location || horizontal, vertical
+|| position (and children) || placement, location || horizontal, vertical
 |-
-|| size || || thin, large, decreased height
+|| size (and children) || || thin, large, decreased height
 |-
 || structure ||  || porous, non-porous
 |-
@@ -39,9 +39,9 @@ Curators are currently annotating systematic characters using a subset of qualit
 |-
 || relational shape quality* || || protruding into
 |-
-|| relational spatial quality* || || orientation, anterior to, lateral to
+|| relational spatial quality* (and children)|| || orientation, anterior to, lateral to
 |-
-|| relational structural quality* || || fused with, overlap with, separated from, in contact with
+|| relational structural quality* (and children) || || fused with, overlap with, separated from, in contact with
 |-
 || relational size quality* || || THIS IS A PATO REQUESTED TERM AND UNDER DISCUSSION.  USE Q=SIZE FOR TWO ENTITIES RELATED BY SIZE
 
