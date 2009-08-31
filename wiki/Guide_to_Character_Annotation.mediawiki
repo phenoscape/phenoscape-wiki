@@ -77,7 +77,7 @@ State 1 is recorded as:
  E: auditory foramen, Q: increased size
 
 ===3. Qualities of single physical entities===
-Qualities of single physical entities are those that exist in a single entity. These qualities include 'shape,' 'size', and 'structure.'  For example, annotation of “sigmoid-shaped supraorbital bone” is entered as:
+Qualities of single physical entities are those that exist in a single entity. These qualities include 'shape,' 'size', and 'structure.'  For example, “sigmoid-shaped supraorbital bone” is annotated as:
 
  E: supraorbital, Q: shape
 
