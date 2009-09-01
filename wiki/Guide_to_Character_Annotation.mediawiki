@@ -67,7 +67,7 @@ The statement "Teeth absent on basihyal bone" is annotated as:
 ===2. Multiple phenotypes for a single character state ===
 For example, a character involving the auditory foramen is coded with two states: 0, absent or small; 1, well developed.
 
-State 0 is recorded as polymorphic in Phenex:
+State 0 is recorded as two phenotypes in Phenex:
 
  E: auditory foramen, Q: decreased size
  E: auditory foramen, Q: absent
