@@ -1,0 +1,156 @@
+---
+title: Modeling Absence of Phenotypes
+---
+
+[[Media:PhenotypesInPhenoscape.ppt]]
+
+'''Hilmar Lapp'''
+Cartik, don't you think that there is a problem with the lacks_part("process of basihyal bone") class? What is the genus here?
+
+When using inheres_in for the phenotype composition, such as inheres_in("flat", "basihyal bone"), there is a genus ("flat"), a relationship (inheres_in), and a differentia ("basihyal bone") term.
+
+So if you used, for example, lacks_part("body", "process of basihyal bone"), then by inference:
+
+lacks_part("body", "process of basihyal bone") is_a "body"
+lacks_part("body", "process of basihyal bone") lacks_part "process of basihyal bone"
+lacks_part("body", "process of basihyal bone") lacks_part_of "basihyal bone"
+
+I don't follow how you infer from lacks_part("process of basihyal bone") that
+
+lacks_part("process of basihyal bone") is_a "absent"
+
+Even if I add a genus term such as in
+
+lacks_part("body", "process of basihyal bone") is_a "absent"
+
+I'm not following how you arrive at that. But do we even need to infer any of that?
+
+'''Chris Mungall'''
+
+Cartik's analysis is largely correct and is why we recommend use of  
+relational qualities to indicate an increase, decrease of number of  
+parts (including the limit case, decrease to zero).
+
+	http://www.bioontology.org/wiki/index.php/PATO:Revised_2008#Absence_and_counting
+
+Additional comments below
+
+On Aug 6, 2009, at 6:41 PM, Hilmar Lapp wrote:
+
+> > Cartik, don't you think that there is a problem with the
+> > lacks_part("process of basihyal bone") class? What is the genus here?
+
+I think we need to be more consistent with notation
+
+R(X,Y) typically indicates a single proposition (aka statement,  
+sentence) involving a binary relation
+
+In Cartik's slides he uses:
+	inheres_in(Q,E)
+
+not to denote a proposition, but to denote a class expression: [Q and  
+inheres_in E]
+
+lacks_part is a (binary) relation in ro_proposed. It also exists in  
+PATO as a relational quality or reified relation such that we can talk  
+directly of the lack.
+
+I will choose to interpret lacks_part(X) as the class expression:
+
+	PATO:lacks_all_parts_of_type and towards X and inheres_in organism
+
+Or equivalently
+
+E=organism
+Q=lacks_all_parts_of_type
+E2=X
+
+> > When using inheres_in for the phenotype composition, such as
+> > inheres_in("flat", "basihyal bone"), there is a genus ("flat"), a
+> > relationship (inheres_in), and a differentia ("basihyal bone") term.
+
+Yes
+
+(minor point: the differentia is the relation-relatum pair <inheres_in  
+basihyal_bone>)
+
+> > So if you used, for example, lacks_part("body", "process of basihyal
+> > bone"),
+
+OK, here is where the notation becomes confusing. This is a  
+proposition stating 'all bodies lack a process of basihyal bone',  
+which is untrue
+
+I will treat this as
+
+	PATO:lacks_all_parts_of_type and towards process-of-basihyal-bone and  
+inheres_in body
+
+> > then by inference:
+> >
+> > lacks_part("body", "process of basihyal bone") is_a "body"
+
+inheres_in body
+
+> > lacks_part("body", "process of basihyal bone") lacks_part "process of
+> > basihyal bone"
+
+towards basihyal-bone
+
+> > lacks_part("body", "process of basihyal bone") lacks_part_of "basihyal
+> > bone"
+
+towards (anatomical_entity and part_of basihyal_bone)
+
+> > I don't follow how you infer from lacks_part("process of basihyal
+> > bone") that
+> >
+> > lacks_part("process of basihyal bone") is_a "absent"
+> >
+> > Even if I add a genus term such as in
+> >
+> > lacks_part("body", "process of basihyal bone") is_a "absent"
+> >
+> > I'm not following how you arrive at that. But do we even need to infer
+> > any of that?
+
+My reading of the situation is as follows
+
+ From the proposition
+
+[1] L-cornutus exhibits absence of (all) proc-of-basihyal-bone
+
+we would like to infer
+
+[2] L-cornutus exhibits absence of SOME process
+[3] L-cornutus exhibits absence of SOME part of the basihyal-bone
+[4] L-cornutus exhibits decreased number of processes
+[5] L-cornutus exhibits decreased number of parts of the basihyal bone
+
+but not
+
+[2x] L-cornutus exhibits absence of (all) processes
+[3x] L-cornutus exhibits absence of (all) parts of the basihyal-bone
+[4x] L-cornutus exhibits absence of (all) basihyal-bone
+[5x] L-cornutus exhibits decreased number of basihyal-bone
+
+2-5 are all correct, 2x-5x are all wrong.
+
+I use 'absence of' in the above propositions for readability, but  
+these would be translated to relational quality form.
+
+Logically, absence is a non-quality cannot inhere in anything, and if  
+you attempt to treat like a quality that stands in an all-some  
+inheres_in relationship you will end up with false inferences such as  
+[2x].
+
+To get the correct inferences, it's necessary to
+- convert <absent inheres_in X> to the unambiguous relational  
+qualities (preferably as far upstream as possible); you can use the  
+reciprocal_of relation in PATO to help
+- not treat 'towards' as an all-some relation
+- add extra horn rules as sql views for these
+
+For the phenotype analysis of OMIM we took a simplified approach and  
+just treated towards as an all-some relation, which made the  
+propositions weaker which we deemed to be ok for statistical matching
