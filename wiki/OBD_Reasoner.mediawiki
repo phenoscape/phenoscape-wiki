@@ -199,6 +199,8 @@ TTO:1380              PHENOSCAPE:exhibits                  PATO:0000462^OBO_REL:
 
 In plain English, this translates to "Siluriformes exhibit absence in organism which inheres in basihyal cartilage." The semantics of this sentence are vague to say the least. Going by this methodology, it is impossible to state that basihyal cartilage is absent in Siluriformes without referring to ''at least one'' instance of basihyal cartilage. Combining a quality ''absent'' with a ''feature'' through the ''inheres_in''  property is very misleading in itself (ex: absence inheres in cartilage), contorting the intrinsic semantics of the ''inheres_in'' relation. These problems have been discussed in [http://www.ncbi.nlm.nih.gov/pubmed/17369081 Ceusters et al] and [http://www.biomedcentral.com/1471-2105/8/377 Hoehndorf et al]. Both these publications propose solutions to integrate these aberrant observations with canonical definitions, without causing inconsistencies in reasoning procedures.
 
+[[Media:PhenotypesInPhenoscape.ppt]]
+
 Another issue specific to the Phenoscape project was raised by Paula at the SICB workshop. Given that basihyal cartilage is absent in Siluriformes, basihyal bone should be absent in Siluriformes as well. This is because basihyal bone develops from basihyal cartilage. This may be inferred by adding a new relation chaining rule shown below to the OBD reasoner
 
 '''Rule:'''<math>\forall</math>F1, F2, S: ''absent_in''(F1, S) <math>\and</math> ''develops_from''(F2, F1) <math>\Rightarrow</math> ''absent_in''(F2, S)
