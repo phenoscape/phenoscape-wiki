@@ -201,6 +201,8 @@ In plain English, this translates to "Siluriformes exhibit absence in organism w
 
 [[Media:PhenotypesInPhenoscape.ppt]]
 
+[[Discussion about the Absence of Phenotypes issue]]
+
 Another issue specific to the Phenoscape project was raised by Paula at the SICB workshop. Given that basihyal cartilage is absent in Siluriformes, basihyal bone should be absent in Siluriformes as well. This is because basihyal bone develops from basihyal cartilage. This may be inferred by adding a new relation chaining rule shown below to the OBD reasoner
 
 '''Rule:'''<math>\forall</math>F1, F2, S: ''absent_in''(F1, S) <math>\and</math> ''develops_from''(F2, F1) <math>\Rightarrow</math> ''absent_in''(F2, S)
