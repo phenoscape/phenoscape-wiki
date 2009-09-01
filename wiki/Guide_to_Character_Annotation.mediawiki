@@ -84,7 +84,7 @@ Qualities of single physical entities are those that exist in a single entity. T
 ===4. Qualities of related physical entities ===
 Relational qualities are those that exist between multiple entities. For example, annotation of “parietal fused with supraoccipital” is entered as:
 
- E: parietal, Q: relational structural quality, RE: supraoccipital
+ E: parietal, Q: fused with, RE: supraoccipital
 
 ===5. Counts===
 Characters involving counts of entities are annotated using the “count” quality.  Values for counts are entered in the “Comment” field(*).  Note that ranges and lower or upper bounds are recorded as follows:
