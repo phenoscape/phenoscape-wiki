@@ -158,12 +158,11 @@ Lastly, there are orphan qualities in PATO which are not related to any other qu
 
 === The Balhoff rule ===
 
-'''Rule:''' <math>\forall</math>A, B<math>\exists </math>X: ''is_a''(A, B)  <math>\and </math>''R''(A, X)  <math>\Rightarrow</math> ''R''(B, X)
+'''Rule:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''exhibits''(A, x)  <math>\Rightarrow</math> ''exhibits''(B, X)
 
 This rule was proposed by Jim Balhoff to reason upwards in a (typically taxonomic) hierarchy using the ''exhibits'' relation. A relevant example: GIVEN THAT ''Danio rerio'' exhibits a round fin AND ''Danio rerio'' is a Danio THEN Danio exhibits round fin. Note that ''exhibits'' has someOf semantics - so the inference is that ''some of'' Danio exhibit the phenotype.
 
 This is the exact opposite of the ''genus differentia'' rule which postulates reasoning only downwards in a hierarchy.
-
 
 ==Relation Properties to be implemented ==
 
