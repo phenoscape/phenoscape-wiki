@@ -18,7 +18,7 @@ When describing rules below, we use the following notations:
 
 In first order logic (FOL), it is common to assert statements about all possible instances of a concept in the real world. Let us start with the assertion, "All puppies are dogs." This can be stated as shown below in (1)
 
-'''<math>\forall</math> A: ''instance_of''(Puppy, A) <math>\Rightarrow</math> ''instance_of''(Dog, A)'''                  -- (1)
+'''<math>\forall</math> A: ''instance_of''(A, Puppy) <math>\Rightarrow</math> ''instance_of''(A, Dog)'''                  -- (1)
 
 The inverted A (<math>\forall</math>) is called the ''universal quantifier'' and can be translated to "for every" or " for all" in plain English. Similarly, the colon (:) in the FOL statement above can be read as "such that." The double arrow (<math>\Rightarrow</math>) is also called ''directional implication''. It can be translated into English to mean "it implies" or "it follows." Therefore, the sentence above translated into English reads:
 
@@ -36,13 +36,15 @@ The statement (2) above can be translated to read:
 
 Lastly, we discuss the <math>\exists</math> (wrong-sided E) operator, officially known as the ''existential quantifier'', which can be translated to "there exists" or "at least" in plain English. Now consider the statement, "Some birds are flightless" This can be stated as shown below
 
-'''<math>\exists</math> A: ''instance_of''(Bird, A) <math>\and</math> ''instance_of''(Flightless_Bird, A)'''                -- (3)
+'''<math>\exists</math> A: ''instance_of''(A, Bird) <math>\and</math> ''instance_of''(A, Flightless_Bird)'''                -- (3)
 
 This can be translated to plain English to:
 
 "''There exists an A such that A is a Bird and A is a Flightless Bird''"
 
 These are just some of the many constructs from first order logic which find common use in the Phenoscape project. For a full fledged introduction to the joys of FOL, click [http://en.wikipedia.org/wiki/First-order_logic here].
+
+[[Category:Corrected usage in the examples with instance_of]]
 
 ==Implemented Relation Properties==
 
