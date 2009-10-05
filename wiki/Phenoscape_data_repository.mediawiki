@@ -162,6 +162,57 @@ For queries for provenance data about taxon to phenotype assertions, we need to 
 
 To effectively execute these 'metadata' queries, the provenance data is modeled as an association attribute. For every instance of the association between a SUBJECT and a PHENOYPE, we capture CHARACTER. STATE, CURATORS, and PUBLICATION.
 
+This data warehouse can be reduced to the logical schema shown below
+
+<table width=500 align=left border=1>
+ <tr><td align=left colspan=4><b>Subject</b></td></tr>
+ <tr>
+  <td align=center>Subject_node_id {PK} </td>
+  <td align=center>Subject_Uid</td>
+  <td align=center>Subject_Label</td>
+  <td align=center>TaxonOrGene</td>
+ <tr>
+</table>
+<br><br><br><br>
+<table width=500 align=left border=1>
+ <tr><td align=left colspan=3><b>Exhibits</b></td></tr>
+ <tr>
+  <td align=center>Subject_node_id {FK}</td>
+  <td align=center>Phenotype_node_id {FK}</td>
+  <td align=center>ReifId {FK} </td>
+ <tr>
+</table>
+<br><br><br><br>
+<table width=700 align=left border=1>
+ <tr><td align=left colspan=5><b>Phenotype</b></td></tr>
+ <tr>
+  <td align=center>Phenotype_node_id {PK}</td>
+  <td align=center>Entity</td>
+  <td align=center>Quality</td>
+  <td align=center>Character</td>
+  <td align=center>Count</td>
+ <tr>
+</table>
+<br><br><br><br>
+<table width=700 align=left border=1>
+ <tr><td align=left colspan=5><b>Metadata</b></td></tr>
+ <tr>
+  <td align=center>ReifId {PK}</td>
+  <td align=center>Publication</td>
+  <td align=center>Curators</td>
+  <td align=center>Character</td>
+  <td align=center>State</td>
+ <tr>
+</table>
+<br><br><br><br>
+<table width=300 align=left border=1>
+ <tr><td align=left colspan=2><b>Inheres_in_part_of</b></td></tr>
+ <tr>
+  <td align=center>Phenotype_node_id {FK}</td>
+  <td align=center>Entity</td>
+ <tr>
+</table>
+
 [[Category:OBD]]
 [[Category:Database]]
 [[Category:Informatics]]
