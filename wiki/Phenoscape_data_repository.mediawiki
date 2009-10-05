@@ -142,7 +142,7 @@ The database provides a handle to access this metadata from the assertion itself
 (1ex)                               posited_by                            Albert, 2001                             --(5ex)
 </javascript>
 
-The schema of these relations are described in [[Image:PhenoscapeInTriples.jpg]]
+The schema of the relations is shown below [[Image:PhenoscapeInTriples.jpg]]
 
 ===Speeding up the queries: The data warehouse===
 
