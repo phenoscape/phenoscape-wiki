@@ -134,13 +134,15 @@ Finally, the quality 'flat' is related to the character 'shape' by (4ex). Note t
 flat                                value_for                             shape                                     --(4ex)
 </javascript>
 
-Moving on, the database also stores provenance information (metadata) about the assertion that Siluriformes exhibits flat basihyal bones. AT the very minimum, we need to know the publication from which the assertion was extracted. If the curators have specifically cited the text from the publication which forms the basis of their assertion, we need to know that as well. 
+Moving on, the database also stores provenance information (metadata) about the assertion that Siluriformes exhibits flat basihyal bones. AT the very minimum, we need to know the publication from which the assertion was extracted. If the curators have specifically cited the text from the publication which forms the basis of their assertion, we need to know that as well.
 
-The database provides a handle to access this metadata from the assertion itself. The LINK table includes a reiflink_node_id attribute, from which publication, curator names, character and state text, and all other relevant metadata can be accessed. Without going into more database specific details, conceptually the statement (1ex) is linked to a reification identifer, which is linked to the actual metadata. Transparently, the statement (1ex) can be linked with a publication as shown in (5ex) below. The linkage to the other facets of the metadata is done similarly. 
+The database provides a handle to access this metadata from the assertion itself. The LINK table includes a reiflink_node_id attribute, from which publication, curator names, character and state text, and all other relevant metadata can be accessed. Without going into more database specific details, conceptually the statement (1ex) is linked to a reification identifer, which is linked to the actual metadata. Transparently, the statement (1ex) can be linked with a publication as shown in (5ex) below. The linkage to the other facets of the metadata is done similarly.
 
 <javascript>
 (1ex)                               posited_by                            Albert, 2001                             --(5ex)
 </javascript>
+
+The schema of these relations are described in [[Image:PhenoscapeInTriples.jpg]]
 
 ===Speeding up the queries: The data warehouse===
 
