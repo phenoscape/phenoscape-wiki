@@ -2,7 +2,7 @@
 title: ORB term request prototype
 ---
 
-'''Background'''
+===Background===
 The need for applications that will expedite the annotation of Phenotypic characters using accurate ontologies and also promote community participation in the engineering ontological terms is crucial.There is need for applications that will; efficiently handle new ontology term requests, capture and provide term's community discussions, archive terms provenance and facilitate ea process for making easy accurate decisions during ontological annotations.
 Ontology Request Broker(ORB) application is founded on the premise of these challenges. It aims to provide; efficient mechanism for handling new term requests and term look up during ontology annotation, capture and avail ontology terms community discussions and provenance in a more robust manner.
 Here is ORB prototype which will mainly handle the new term request service.
