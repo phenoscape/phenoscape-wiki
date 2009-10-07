@@ -7,15 +7,15 @@ The need for applications that will expedite the annotation of Phenotypic charac
 Ontology Request Broker(ORB) application is founded on the premise of these challenges. It aims to provide; efficient mechanism for handling new term requests and term look up during ontology annotation, capture and avail ontology terms community discussions and provenance in a more robust manner.
 Here is ORB prototype which will mainly handle the new term request service.
 
-==Vision==
+===Vision===
 To develop an application that will allow data curators to launch the process of community review for a new ontology term without creating a workflow bottleneck for themselves.
 
-==Scope==
+===Scope===
 ORB will be a server-side application with an API for custom integration into data curation software
 
-==Requirements==
+===Requirements===
 
-==Contacts==
+===Contacts===
 
 Name: Mtakai Ngara
 
