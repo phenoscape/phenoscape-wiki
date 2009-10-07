@@ -13,4 +13,11 @@ To develop an application that will allow data curators to launch the process of
 ORB will be a server-side application with an API for custom integration into data curation software
 ==Requirements==
 
+
+==Contacts==
+
+Name: Mtakai Ngara
+
+E-mail: mtakai@nescent.org
+
 [[Category:Informatics]]
