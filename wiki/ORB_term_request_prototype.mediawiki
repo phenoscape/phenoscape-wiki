@@ -9,10 +9,11 @@ Here is ORB prototype which will mainly handle the new term request service.
 
 ==Vision==
 To develop an application that will allow data curators to launch the process of community review for a new ontology term without creating a workflow bottleneck for themselves.
+
 ==Scope==
 ORB will be a server-side application with an API for custom integration into data curation software
 
-Requirements
+==Requirements==
 
 ==Contacts==
 
