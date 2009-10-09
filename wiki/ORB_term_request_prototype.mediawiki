@@ -7,19 +7,19 @@ The need for applications that will expedite the annotation of Phenotypic charac
 Ontology Request Broker(ORB) application is founded on the premise of these challenges. It aims to provide; efficient mechanism for handling new term requests and term look up during ontology annotation, capture and avail ontology terms community discussions and provenance in a more robust manner.
 Here is ORB prototype which will mainly handle the new term request service.
 
-===Vision===
+==Vision==
 To develop an application that will allow data curators to launch the process of community review for a new ontology term without creating a workflow bottleneck for themselves.
 
-===Scope===
+==Scope==
 ORB will be a server-side application with an API for custom integration into data curation software
 
-==Requirements==
+===Requirements===
 Ontology Request Broker(ORB) will be a platform independent, server sided application with an API to allow for integration in other ontology annotation suites. In the in-house model, via ORB client application (which will be a component of  Phenex's user interface),users will provide the name, Parent relationship and definition of the new term requested. Additional, but optional information about a given term such as references, databases,synonyms, etc will also be provided.
-After successful term submission, ORB's server application will assign the term a temporary ID which will be sent to the requester. The temporary IDs will be usable until the request is verified.ORB will instantaneously send notification to the ontology gate keepers about the new term requested and inform the community via mailing lists at Sourceforge.net. 
+After successful term submission, ORB's server application will assign the term a temporary ID which will be sent to the requester. The temporary IDs will be usable until the request is verified.ORB will instantaneously send notification to the ontology gate keepers about the new term requested and inform the community via mailing lists at Sourceforge.net.
 Once a term is resolved, ontology gate keeper(s) will provide information about the new term via ORB server then temporary ID will be replaced by the valid ID and the requester plus the community informed about the resolution.
-==Implementation==   
+==Implementation==
 
-    
+
 ===Contacts===
 
 Name: Mtakai Ngara
