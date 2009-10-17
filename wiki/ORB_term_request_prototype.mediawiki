@@ -78,6 +78,7 @@ The application will support GET, POST and PUT requests and the data will be sto
 ----
 
 <nowiki>To gather all the ORB requirements and set up a working IDE with all the required libraries.
+
 -Design and document a work plan
 -Carry out interviews,consultation and document ORB requirements
 -Write up the ORB specification document
