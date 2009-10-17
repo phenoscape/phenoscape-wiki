@@ -73,9 +73,8 @@ The application will support GET, POST and PUT requests and the data will be sto
 
 ==Work plan==
 '''Week 1'''
+'''Preparation'''
 
-'''''Preparation'''''
-----
 
 To gather all the ORB requirements and set up a working IDE with all the required libraries.
 
