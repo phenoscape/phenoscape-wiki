@@ -101,6 +101,12 @@ Design and establish a server database for storing term requests.
 * Create application subclasses that store data submitted into the database
 * Create application subclasses that retrieve and display data in the database
 
+'''Week 4'''
+'''New term definition and creation'''
+To define and create more suitable ontology terms and generate informative responses on term submission.
+*Create an application function that will take up the user provided required fields plus the different combinations of the optional fields and create terms and add to the database
+*Create a function to validate if the user provided the required fields and if not generate an informative response to the user
+*Create an application function to assign status on term submission
 
 ===Contacts===
 Name: Mtakai Ngara
