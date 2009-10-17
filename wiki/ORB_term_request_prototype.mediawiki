@@ -19,6 +19,27 @@ ORB will be a server-side application with an API for custom integration into da
 
 
 
+===ORB Specification===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ===Contacts===
 
 Name: Mtakai Ngara
