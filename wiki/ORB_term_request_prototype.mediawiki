@@ -67,7 +67,7 @@ The application will support GET, POST and PUT requests and the data will be sto
 
 
 ==Diagram==
-
+[[System_diagram.jpg|Center]] 
 ===Contacts===
 
 Name: Mtakai Ngara
