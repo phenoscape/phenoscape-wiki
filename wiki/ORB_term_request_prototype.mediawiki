@@ -73,7 +73,6 @@ The application will support GET, POST and PUT requests and the data will be sto
 
 ==Work plan==
 '''Week 1'''
-
 '''Preparation'''
 
 To gather all the ORB requirements and set up a working IDE with all the required libraries.
@@ -85,7 +84,6 @@ To gather all the ORB requirements and set up a working IDE with all the require
 
 
 '''Week 2'''
-
 ''' Term request server and skeleton web services'''
 
 A working skeleton term request server, which responds to new term request and status queries, but with dummy data.
