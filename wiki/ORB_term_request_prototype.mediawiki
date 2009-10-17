@@ -17,14 +17,6 @@ ORB will be a server-side application with an API for custom integration into da
 
 
 
-===Term resolution===
-If a term is resolved (i.e. a reviewer(s) either accepts a term requested or provides a more accurate term as an alternative), the ontology gatekeeper will provide the new term plus all the information provided by the expert via ORB’s web service. The application will subsequently update the status of the new term to “Resolved” , assign the term a permanent ID and generate a notification mail to the user and community.
-In instances where the expert and community reject a term (i.e. the requested term is not acceptable and no alternative exists for the request), the gatekeepers will submit this feedback plus any explanations, comments etc. that may have been availed by the expert(s). ORB will then set the term status to “Rejected” and send notification e-mail to the user and community.
-From the web-service, users will be able to request for all the terms; names, status, temporary IDs, status, relationship, plus any of the information provided during submission and resolution.
-With an ORB ID, a user can obtain the name, status, temporary ID plus any other information provided by the requester or gatekeeper.
-In this prototype, the functionality of ORB and the cycle will be exemplified by working with the Teleost Anatomy and Development Ontology gatekeeper (http://www.berkeleybop.org/ontologies/owl/TAO).
-
-
 
 
 ===Contacts===
