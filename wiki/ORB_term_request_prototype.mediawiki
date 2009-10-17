@@ -12,7 +12,8 @@ To develop an application that will allow data curators to launch the process of
 
 ==Scope==
 ORB will be a server-side application with an API for custom integration into data curation software
-===ORB SPECIFICATION===
+===ORB REQUIREMENTS SPECIFICATION===
+
 ==Introduction==
 This is a documentation of all the requirements specification for the ORB prototype. ORB will provide a wide range of services that will facilitate efficient large-scale ontology annotation and decision making process by curators intuitive.  In the prototype, only the term request web-services will be implemented hence this document is a description of only this aspect.  The non-functional features of the application are not comprehensively addressed in this version but should be available in the subsequent additions.
 
