@@ -24,7 +24,7 @@ From the web-service, users will be able to request for all the terms; names, st
 With an ORB ID, a user can obtain the name, status, temporary ID plus any other information provided by the requester or gatekeeper.
 In this prototype, the functionality of ORB and the cycle will be exemplified by working with the Teleost Anatomy and Development Ontology gatekeeper (http://www.berkeleybop.org/ontologies/owl/TAO).
 
-==Implementation==
+
 
 
 ===Contacts===
