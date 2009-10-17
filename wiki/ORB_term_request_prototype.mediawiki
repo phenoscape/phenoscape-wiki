@@ -96,7 +96,8 @@ A working skeleton term request server, which responds to new term request and s
 
 '''Week 3'''
 '''Relational database for persisting term requests'''
-Design and establish a server database for storing term requests *Create ORB database schema
+Design and establish a server database for storing term requests.
+ *Create ORB database schema
 * Create application subclasses that store data submitted into the database
 *Create application subclasses that retrieve and display data in the database
 
