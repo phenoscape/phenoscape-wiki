@@ -13,60 +13,60 @@ To develop an application that will allow data curators to launch the process of
 ==Scope==
 ORB will be a server-side application with an API for custom integration into data curation software
 ===ORB SPECIFICATION===
-Introduction
-This is a documentation of all the requirements specification for the ORB prototype. ORB will provide a wide range of services that will facilitate efficient large-scale ontology annotation and decision making process by curators intuitive.  In the prototype, only the term request web-services will be implemented hence this document is a description of only this aspect.  The non-functional features of the application are not comprehensively addressed in this version but should be available in the subsequent additions.  
+==Introduction==
+This is a documentation of all the requirements specification for the ORB prototype. ORB will provide a wide range of services that will facilitate efficient large-scale ontology annotation and decision making process by curators intuitive.  In the prototype, only the term request web-services will be implemented hence this document is a description of only this aspect.  The non-functional features of the application are not comprehensively addressed in this version but should be available in the subsequent additions.
 
-System behavior
+==System behavior==
 ORB will allow users to submit and view new ontology terms. In the prototype, term submission and accession will be effected via a widget in Phenex (https://www.nescent.org/phenoscape/Phenex) and also via the web interface. The integration in Phenex will be a demonstration of the ORB’s “integratability” with other related applications via the API.
-Term submission
+==Term submission==
 Via the web interface or the ORB widget in Phenex a user will have to submit a term’s:-
 name,
 definition,
 and parent relationship.
- 
+
 The optional fields will be:-
 database references,
 citations,
-other relationships, 
+other relationships,
 synonym(s),
-and comments. 
+and comments.
 
 A user will be required to submit their e-mail addresses and their names (optional).
 
-Term processing 
+==Term processing==
 On term submission, ORB will;
 -Validate if the required fields are provided, send the user an invalid term request message and return to the submission interface.
 If the user’s submission is successful, the application will;
 -Notify the user of successful submission
 -Set the status of the term to “Pending”
--Assign a temporary ID (ORB:xxxxxx) and store in a database. The xes in the temporary ID represent the name provided to allow the user to continually annotate entities using the requested terms without having to halt their work. 
+-Assign a temporary ID (ORB:xxxxxx) and store in a database. The xes in the temporary ID represent the name provided to allow the user to continually annotate entities using the requested terms without having to halt their work.
 -Send the temporary ID assigned to the user
--Automatically send notification messages to the ontology gate keeper(s) 
+-Automatically send notification messages to the ontology gate keeper(s)
 -Send the term request to the community through the relevant mailing lists at source forge (http://sourceforge.net/projects/obo/support).
 
 
-Term resolution
+==Term resolution==
 If a term is resolved (i.e. a reviewer(s) either accepts a term requested or provides a more accurate term as an alternative) the ontology gatekeeper will provide the new term plus all the information provided by the expert via ORB’s web service.
 The application will subsequently;
 -Update the status of the new term to “Resolved”
-- Assign the term a permanent ID 
+- Assign the term a permanent ID
 -Generate a notification mail to the user and community and the resolution.
 If a term is rejected (i.e. the expert(s) and community concur that the requested term is not acceptable and no alternative exists for the request), the gatekeepers will submit this feedback plus any explanations, comments etc. that may have been availed by the expert(s). In this case ORB will:
 -Set the term status to “Rejected”,
 -Send notification e-mail to the user and community.
 
 
-Term accession
+==Term accession==
 From ORB web-service interface (or Phenex widget) and using the term ID or name, users will be able to access information provided during submission and resolution.
 
 In this prototype, the functionality of ORB term request services and the cycle will be exemplified by working with the Teleost Anatomy and Development Ontology (TAO) gatekeeper (http://www.berkeleybop.org/ontologies/owl/TAO) and TAO mailing list at source forge.
- 
-Design consideration
+
+==Design consideration==
 ORB will be a platform-independent web service with an exposed API for its integration into pre-existing ontology suites such as Phenex, OBO-edit, Phenote etc. Java will be the main language of development and application will be designed in a RESTful way using Restelet, a lightweight REST framework for Java applications.
 The application will support GET, POST and PUT requests and the data will be stored in PostgreSQL, an object relational database management system. Hibernate library will be utilized to map the data models to the database.
 
 
-Diagram
+==Diagram==
 
 ===Contacts===
 
