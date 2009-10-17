@@ -87,7 +87,7 @@ The application will support GET, POST and PUT requests and the data will be sto
 
 '''Week 2'''
 
-''' term request server and skeleton web services'''
+''' Term request server and skeleton web services'''
 
 A working skeleton term request server, which responds to new term request and status queries, but with dummy data.
 * Create Restlet server project.
