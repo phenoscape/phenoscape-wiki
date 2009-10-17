@@ -15,10 +15,8 @@ ORB will be a server-side application with an API for custom integration into da
 
 
 
-===Term submission===
-ORB will be a web application for users to submit, view and update new ontology terms. In the prototype, term submission will be effected via a widget in Phenex and each term will be required to have; name; definition, a parent relationship and users e-mail address. Synonyms, comments and any relevant databases references will be provided as optional fields for the requests. 
-On submission, the application will notify the user of successful submission, set the status of the term to “Pending”, assign a temporary ID (ORB:xxxxxx) and store in a database. The x’es in the temporary ID represent the name provided to allow the user to continually annotate entities using the requested terms without having to halt their work. 
-ORB will automatically send notification messages to the ontology gate keeper(s) and the community through the relevant mailing lists at source forge (http://sourceforge.net/projects/obo/support).
+
+
 ===Term resolution===
 If a term is resolved (i.e. a reviewer(s) either accepts a term requested or provides a more accurate term as an alternative), the ontology gatekeeper will provide the new term plus all the information provided by the expert via ORB’s web service. The application will subsequently update the status of the new term to “Resolved” , assign the term a permanent ID and generate a notification mail to the user and community.
 In instances where the expert and community reject a term (i.e. the requested term is not acceptable and no alternative exists for the request), the gatekeepers will submit this feedback plus any explanations, comments etc. that may have been availed by the expert(s). ORB will then set the term status to “Rejected” and send notification e-mail to the user and community.
