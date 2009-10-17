@@ -35,7 +35,7 @@ title: Links
 
 * [[Phenex]]
 * [http://oboedit.org/ OBO-Edit]
-*[[Ontology Request Broker Prototype]]
+*[[Ontology term request broker prototype]]
 
 ===NCBO BioPortal support requests===
 
