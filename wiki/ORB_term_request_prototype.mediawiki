@@ -74,15 +74,15 @@ The application will support GET, POST and PUT requests and the data will be sto
 ==Work plan==
 '''Week 1'''
 
-'''''Preparation'''''[[Link title]]
+'''''Preparation'''''
 ----
 
-To gather all the ORB requirements and set up a working IDE with all the required libraries.
+<nowiki>To gather all the ORB requirements and set up a working IDE with all the required libraries.
 -Design and document a work plan
 -Carry out interviews,consultation and document ORB requirements
 -Write up the ORB specification document
 - Set up java IDE,Apache—tomcat server and import the required libraries(restlet,json)
-
+</nowiki>
 ===Contacts===
 Name: Mtakai Ngara
 
