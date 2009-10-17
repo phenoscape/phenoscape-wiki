@@ -96,6 +96,8 @@ A working skeleton term request server, which responds to new term request and s
 
 '''Week 3'''
 '''Relational database for persisting term requests'''
+
+
 Design and establish a server database for storing term requests.
 * Create ORB database schema
 * Create application subclasses that store data submitted into the database
@@ -103,12 +105,16 @@ Design and establish a server database for storing term requests.
 
 '''Week 4'''
 '''New term definition and creation'''
+
+
 To define and create more suitable ontology terms and generate informative responses on term submission.
 *Create an application function that will take up the user provided required fields plus the different combinations of the optional fields and create terms and add to the database
 *Create a function to validate if the user provided the required fields and if not generate an informative response to the user
 *Create an application function to assign status on term submission
 '''Week 5'''
 '''Term Resolution and generation informative of responses'''
+
+
 To build application functions that will enable term updates and generate informative responses
 *Create an application function to facilitate updating a term requested in the database and change the term’s status appropriately
 *Create a function to generate auto messages to the term requester
