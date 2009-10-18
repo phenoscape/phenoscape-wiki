@@ -127,6 +127,11 @@ To establish ORB web-interface for searching, viewing and updating the requested
 *Design and implement the web-interface of ORB new term services
 *Create functions to collate the user provided information from the interface and load into the ORB server database
 
+'''Week 8 Displaying and downloading search results'''
+
+To create function to display term search results and enable downloading .
+*Build an application function to display the term search results and provide informative response in case the term being search is not found
+*Create a function to enable downloading the searched term in different  formats  
 
 ===Contacts===
 Name: Mtakai Ngara
