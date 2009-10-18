@@ -3,15 +3,14 @@ title: ORB term request prototype
 ---
 
 ===Background===
-The need for applications that will expedite the annotation of Phenotypic characters using accurate ontologies and also promote community participation in the engineering ontological terms is crucial.There is need for applications that will; efficiently handle new ontology term requests, capture and provide term's community discussions, archive terms provenance and facilitate ea process for making easy accurate decisions during ontological annotations.
-Ontology Request Broker(ORB) application is founded on the premise of these challenges. It aims to provide; efficient mechanism for handling new term requests and term look up during ontology annotation, capture and avail ontology terms community discussions and provenance in a more robust manner.
-Here is ORB prototype which will mainly handle the new term request service.
+There is a need for applications that will expedite the annotation of phenotypic characters using ontologies and also promote community participation in the expansion and refinement of ontologies.  One particular need that has arisen within Phenoscape and other projects is for an Ontology Request Broker (ORB), an application that can launch new ontology term requests within existing data curation workflows, record term provenance and community discussion, enable temporary terms to be used in data annotation, and update temporary terms once a request has been resolved.  
 
 ==Vision==
 To develop an application that will allow data curators to launch the process of community review for a new ontology term without creating a workflow bottleneck for themselves.
 
 ==Scope==
 ORB will be a server-side application with an API for custom integration into data curation software
+
 ===ORB requirements specification===
 
 ==Introduction==
