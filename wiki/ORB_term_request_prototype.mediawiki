@@ -120,6 +120,12 @@ To build application functions that will enable term updates and generate inform
 To build a function in ORB to facilitate the auto-generation of messages to the community mailing list at source forge and ontology gate keepers
 *Build an application function that will generate auto messages to the ontology gate-keepers when a term is submitted
 *Create a function to send automated messages to the community mailing list both on term request and resolution
+'''Week 7'''
+'''Web-interface'''
+To establish ORB web-interface for searching, viewing and updating the requested terms
+*Design and implement the web-interface of ORB new term services
+*Create functions to collate the user provided information from the interface and load into the ORB server database 
+
 
 ===Contacts===
 Name: Mtakai Ngara
