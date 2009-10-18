@@ -9,15 +9,15 @@ To develop an application that will allow data curators to use new ontology term
 There is a need for applications that will expedite the annotation of phenotypic characters using ontologies and also promote community participation in the expansion and refinement of ontologies.  One particular need that has arisen within Phenoscape and other projects is for an Ontology Request Broker (ORB), an application that can launch new ontology term requests within existing data curation workflows, record term provenance and community discussion, enable temporary terms to be used in data annotation, and update temporary terms once a request has been resolved.
 
 ==Scope==
-ORB will be a server-side application with an API for custom integration into data curation software. [I'm not sure this sufficiently defines the scope - it's more of a statement about implementation --[[User:Tjvision|Tjvision]] 16:20, 18 October 2009 (EDT)]
+This document describes the design of a prototype ORB application involving only a term request web-service. 
 
 ===ORB requirements specification===
 
 ==Introduction==
-This is a documentation of all the requirements specification for the ORB prototype. ORB will provide a wide range of services that will facilitate efficient large-scale ontology annotation and decision making process by curators intuitive.  In the prototype, only the term request web-services will be implemented hence this document is a description of only this aspect.  The non-functional features of the application are not comprehensively addressed in this version but should be available in the subsequent additions.
+ORB is envisioned as a server-side application with a web-services API for custom integration into multiple data curation software applications.
 
 ==System behavior==
-ORB will allow users to submit and view new ontology terms. In the prototype, term submission and accession will be effected via a widget in Phenex (https://www.nescent.org/phenoscape/Phenex) and also via the web interface. The integration in Phenex will be a demonstration of the ORB’s “integratability” with other related applications via the API.
+ORB will allow users to submit (and view?) requests for new ontology terms.  In the prototype, communication between the client and server will be effected via RESTful web-services. Functionality will be demonstrated via a custom web interface and widget in [[Phenex]]. The integration in Phenex will be a demonstration of the ORB’s “integratability” with other related applications via the API.
 ==Term submission==
 Via the web interface or the ORB widget in Phenex a user will have to submit a term’s:-
 name,
