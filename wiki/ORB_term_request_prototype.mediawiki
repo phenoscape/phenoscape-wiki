@@ -2,14 +2,14 @@
 title: ORB term request prototype
 ---
 
-===Background===
-There is a need for applications that will expedite the annotation of phenotypic characters using ontologies and also promote community participation in the expansion and refinement of ontologies.  One particular need that has arisen within Phenoscape and other projects is for an Ontology Request Broker (ORB), an application that can launch new ontology term requests within existing data curation workflows, record term provenance and community discussion, enable temporary terms to be used in data annotation, and update temporary terms once a request has been resolved.  
-
 ==Vision==
-To develop an application that will allow data curators to launch the process of community review for a new ontology term without creating a workflow bottleneck for themselves.
+To develop an application that will allow data curators to use new ontology terms without creating a workflow bottleneck.
+
+===Background===
+There is a need for applications that will expedite the annotation of phenotypic characters using ontologies and also promote community participation in the expansion and refinement of ontologies.  One particular need that has arisen within Phenoscape and other projects is for an Ontology Request Broker (ORB), an application that can launch new ontology term requests within existing data curation workflows, record term provenance and community discussion, enable temporary terms to be used in data annotation, and update temporary terms once a request has been resolved.
 
 ==Scope==
-ORB will be a server-side application with an API for custom integration into data curation software
+ORB will be a server-side application with an API for custom integration into data curation software. [I'm not sure this sufficiently defines the scope - it's more of a statement about implementation --[[User:Tjvision|Tjvision]] 16:20, 18 October 2009 (EDT)]
 
 ===ORB requirements specification===
 
@@ -148,3 +148,5 @@ Name: Mtakai Ngara
 E-mail: mtakai@nescent.org
 
 [[Category:Informatics]]
+[[Category:Ontology]]
+[[Category:Curation]]
