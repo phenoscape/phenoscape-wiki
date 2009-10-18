@@ -116,6 +116,7 @@ To build application functions that will enable term updates and generate inform
 
 '''Week 6'''
 '''ORB community outreach and ontology gate-keepers notification'''
+
 To build a function in ORB to facilitate the auto-generation of messages to the community mailing list at source forge and ontology gate keepers
 *Build an application function that will generate auto messages to the ontology gate-keepers when a term is submitted
 *Create a function to send automated messages to the community mailing list both on term request and resolution
