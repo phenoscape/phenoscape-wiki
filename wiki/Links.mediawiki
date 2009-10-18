@@ -35,7 +35,7 @@ title: Links
 
 * [[Phenex]]
 * [http://oboedit.org/ OBO-Edit]
-*[[ORB_TERM_REQUEST_PROTOTYPE ORB term request prototype]]
+*[[ORB term request prototype]]
 
 ===NCBO BioPortal support requests===
 
