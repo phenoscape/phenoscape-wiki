@@ -138,6 +138,9 @@ To create function to display term search results and enable downloading .
 To make the web-service compartible with different technologies
 *Test and edit the programs to enable smooth and uniform functionality in different Oses
 *Test and edit the programs to enable smooth and uniform functionality in different browsers
+''' Week 9 and 10 Deployment'''
+To deploy the ORB new term web-service to the NESCent server
+ 
 
 
 ===Contacts===
