@@ -124,7 +124,7 @@ To build a function in ORB to facilitate the auto-generation of messages to the 
 '''Web-interface'''
 To establish ORB web-interface for searching, viewing and updating the requested terms
 *Design and implement the web-interface of ORB new term services
-*Create functions to collate the user provided information from the interface and load into the ORB server database 
+*Create functions to collate the user provided information from the interface and load into the ORB server database
 
 
 ===Contacts===
