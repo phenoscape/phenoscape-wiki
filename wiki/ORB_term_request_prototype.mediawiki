@@ -14,7 +14,7 @@ This document describes the design of a prototype ORB application involving only
 ===ORB requirements specification===
 
 ==Introduction==
-ORB is envisioned to be a server-side application with a web-services API for custom integration into multiple data curation software applications.
+ORB is envisioned to be a  web-service with an API for custom integration into multiple data curation software applications.
 
 ==System behavior==
 ORB will allow users to submit (and view?) requests for new ontology terms.  In the prototype, communication between the client and server will be effected via RESTful web-services. Functionality will be demonstrated via a custom web interface and widget in [[Phenex]]. The integration in Phenex will be a demonstration of the ORB’s “integratability” with other related applications via the API.
