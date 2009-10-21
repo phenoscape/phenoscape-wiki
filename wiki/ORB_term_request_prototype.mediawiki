@@ -46,14 +46,13 @@ If the user’s submission is successful, the application will:
 
 ==Term resolution==
 If a term is resolved (i.e. a reviewer(s) either accepts a term requested or provides a more accurate term as an alternative) the ontology gatekeeper will provide the new term plus all the information provided by the expert via ORB’s web service.
-The application will subsequently;
--Update the status of the new term to “Resolved”
-- Assign the term a permanent ID
--Generate a notification mail to the user and community and the resolution.
+The application will subsequently:
+* Update the status of the new term to “Resolved”
+* Assign the term a permanent ID
+* Generate a notification mail to the user and community and the resolution.
 If a term is rejected (i.e. the expert(s) and community concur that the requested term is not acceptable and no alternative exists for the request), the gatekeepers will submit this feedback plus any explanations, comments etc. that may have been availed by the expert(s). In this case ORB will:
--Set the term status to “Rejected”,
--Send notification e-mail to the user and community.
-
+* Set the term status to “Rejected”,
+* Send notification e-mail to the user and community.
 
 ==Term accession==
 From ORB web-service interface (or Phenex widget) and using the term ID or name, users will be able to access information provided during submission and resolution.
