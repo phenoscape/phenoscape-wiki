@@ -34,16 +34,15 @@ and comments.
 A user will be required to submit their e-mail addresses and their names (optional).
 
 ==Term processing==
-On term submission, ORB will;
--Validate if the required fields are provided, send the user an invalid term request message and return to the submission interface.
-If the user’s submission is successful, the application will;
--Notify the user of successful submission
--Set the status of the term to “Pending”
--Assign a temporary ID (ORB:xxxxxx) and store in a database. The xes in the temporary ID represent the name provided to allow the user to continually annotate entities using the requested terms without having to halt their work.
--Send the temporary ID assigned to the user
--Automatically send notification messages to the ontology gate keeper(s)
--Send the term request to the community through the relevant mailing lists at source forge (http://sourceforge.net/projects/obo/support).
-
+On term submission, ORB will:
+* Validate if the required fields are provided, send the user an invalid term request message and return to the submission interface.
+If the user’s submission is successful, the application will:
+*Notify the user of successful submission
+*Set the status of the term to “Pending”
+*Assign a temporary ID (ORB:xxxxxx) and store in a database. The xes in the temporary ID represent the name provided to allow the user to continually annotate entities using the requested terms without having to halt their work.
+*Send the temporary ID assigned to the user
+*Automatically send notification messages to the ontology gate keeper(s)
+*Send the term request to the community through the relevant mailing lists at source forge (http://sourceforge.net/projects/obo/support).
 
 ==Term resolution==
 If a term is resolved (i.e. a reviewer(s) either accepts a term requested or provides a more accurate term as an alternative) the ontology gatekeeper will provide the new term plus all the information provided by the expert via ORB’s web service.
