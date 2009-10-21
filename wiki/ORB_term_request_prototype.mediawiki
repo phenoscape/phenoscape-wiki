@@ -19,12 +19,12 @@ ORB is envisioned to be a  web-service with an API for custom integration into m
 ==System behavior==
 ORB will allow users to submit (and view?) requests for new ontology terms.  In the prototype, communication between the client and server will be effected via RESTful web-services. Functionality will be demonstrated via a custom web interface and widget in [[Phenex]]. The integration in Phenex will be a demonstration of the ORB’s “integratability” with other related applications via the API.
 ==Term submission==
-Via the web interface or the ORB widget in Phenex a user will have to submit a term’s:-
+Via the web interface or the ORB widget in Phenex a user will have to submit a term’s:
 name,
 definition,
 and parent relationship.
 
-The optional fields will be:-
+The optional fields will be:
 database references,
 citations,
 other relationships,
