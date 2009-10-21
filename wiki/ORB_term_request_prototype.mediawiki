@@ -58,7 +58,7 @@ If a term is rejected (i.e. the expert(s) and community concur that the requeste
 ''[Rename to "Term lookup" or "Request lookup"?  The word "accession" has specific meaning in bioinformatics, something about assigning accession numbers or accepting submissions into a database. [[User:Vg34|Vg34]] 09:56, 21 October 2009 (EDT)]''
 From ORB web-service interface (or Phenex widget) and using the term ID or name, users will be able to access information provided during submission and resolution.
 
-In this prototype, the functionality of ORB term request services and the cycle will be exemplified by working with the Teleost Anatomy and Development Ontology (TAO) gatekeeper (http://www.berkeleybop.org/ontologies/owl/TAO) and TAO mailing list at source forge. ''[This sentence does not belong to this section... [[User:Vg34|Vg34]] 09:56, 21 October 2009 (EDT)]''
+In this prototype, the functionality of ORB term request services and the cycle will be exemplified by working with the Teleost Anatomy and Development Ontology (TAO) gatekeeper (http://www.berkeleybop.org/ontologies/owl/TAO) and TAO mailing list at source forge. ''[This sentence does not belong to this section...  "Implementation details"? [[User:Vg34|Vg34]] 09:56, 21 October 2009 (EDT)]''
 
 ==Design consideration==
 ORB will be a platform-independent web service with an exposed API for its integration into pre-existing ontology suites such as Phenex, OBO-edit, Phenote etc. Java will be the main language of development and application will be designed in a RESTful way using Restlet, a lightweight REST framework for Java applications.
