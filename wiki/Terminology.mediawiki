@@ -1,0 +1,28 @@
+---
+title: Terminology
+---
+
+Character:
+
+Character state: variant of a Character, assigned a code in a phylogenetic analysis
+
+Phenotype: An EQ version of a part or whole character state (i.e. a character state may have multiple phenotypes).  Semantically, a phenotype is_a PATO:quality AND inheres_in some entity.
+
+Distinct Phenotype: Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parens)
+
+Phenotyped character: Character with one or more states assigned to a phenotype
+
+Phenotype assertion [phenotype statement]: Phenotype that is assigned to a taxon
+
+Distinct phenotype assertions: phenotypes assigned to taxa that are unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype (EQ) for alternative character states (when annotating at high level of PATO granularity, e.g.).  Thus the number of distinct phenotype assertions is lower than the number of phenotype assertions. 
+
+Attribute: Higher level PATO quality term used to group "value qualities"
+
+Value qualities: Nodes at a lower level than 'Attribute' in the PATO hierarchy
+
+Phenotype Group: combination of an attribute with some entity, such as basihyal bone shape, tooth count, etc.
+
+[[Category:Curation]]
+[[Category:Database]]
+[[Category:Use Cases]]
+[[Category:Data]]
