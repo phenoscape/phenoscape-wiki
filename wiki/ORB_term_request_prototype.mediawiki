@@ -59,10 +59,7 @@ If a term is rejected (i.e. the expert(s) and community concur that the requeste
 * ''The description of this resolution process (and the diagram below) suggests that ORB, in addition to the well-described term request interface, will need another interface for request management, presumably to be used by gatekeepers only.  This doc should probably explicitly describe this interface and its functionality.  For one thing, I do not see how its UI can be naturally accommodated inside Phenex.''
 ]
 
-==Term lookup==
-From ORB web-service interface (or Phenex widget) and using the term ID or name, users will be able to access information provided during submission and resolution.
 
-In this prototype, the functionality of ORB term request services and the cycle will be exemplified by working with the Teleost Anatomy and Development Ontology (TAO) gatekeeper (http://www.berkeleybop.org/ontologies/owl/TAO) and TAO mailing list at source forge. ''[This sentence does not belong to this section...  "Implementation details"? [[User:Vg34|Vg34]] 09:56, 21 October 2009 (EDT)]''
 
 ==Implementation details==
 
