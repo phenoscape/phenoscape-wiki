@@ -29,7 +29,7 @@ Total Publication Names:  Count of the total number of taxa used in the publicat
 
 Distinct Valid Taxon Names: Count of unique Valid Taxon names appearing in publications. The same valid taxon name used in different publications is counted only once.  This includes 'publication-specific' names, meaning those referring to Author and Year in parentheses.
 
-Total Mismatches: Count of the total number of mismatches between publication and valid taxon names.  Each mismatch, including the same mismatch in different publications, is counted for the total. Also, do not count any 'publication-specific' names, meaning those refering to Author and Year in parentheses.
+Total Mismatches: Count of the total number of mismatches between Total Publication Names and Valid Taxon names.  Each mismatch, including the same mismatch in different publications, is counted for the total. Also, do not count any 'publication-specific' names, meaning those refering to Author and Year in parentheses.
 
 Distinct Mismatches: Count of the unique mismatches between publication names and valid taxon names.  The same publication name used in different publications is counted only once.  Also, do not count any 'publication-specific' names, meaning those referring to Author and Year in parentheses.
 
