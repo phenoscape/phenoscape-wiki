@@ -48,7 +48,7 @@ If the user’s submission is successful, the application will:
 If a term is resolved (i.e. a reviewer(s) either accepts a term requested or provides a more accurate term as an alternative) the ontology gatekeeper will provide the new term plus all the information provided by the expert via ORB’s web service.
 The application will subsequently:
 * Update the status of the new term to “Resolved”
-* Assign the term a permanent ID ''[As far as I know, each ontology has its own procedure for generating and assigning IDs. If ORB will insist on taking over this responsibility, it might preclude its adoption in some communities.  Would it make more sense to just associate a permanent ID provided by the gatekeeper with the temporary ID?  --[[User:Vg34|Vg34]] 10:26, 21 October 2009 (EDT)]''
+* Assign the term a permanent ID as provided by the ontology gatekeeper
 * Generate a notification mail to the user and community and the resolution.
 If a term is rejected (i.e. the expert(s) and community concur that the requested term is not acceptable and no alternative exists for the request), the gatekeepers will submit this feedback plus any explanations, comments etc. that may have been availed by the expert(s). In this case ORB will:
 * Set the term status to “Rejected”,
