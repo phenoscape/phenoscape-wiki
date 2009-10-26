@@ -54,13 +54,6 @@ If a term is rejected (i.e. the expert(s) and community concur that the requeste
 * Set the term status to “Rejected”,
 * Send notification e-mail to the user and community.
 
-[ ''[[User:Vg34|Vg34]] 10:16, 21 October 2009 (EDT):''
-* ''Consider splitting the "Resolved" case into two: "Accepted" and "Replaced" - it seems they have distinct enough functionality, so that lumping them together may stand on the way of implementing them correctly (e.g., "Accepted" requires creation of a new permanent ID and "Replaced" does not).  (As an aside, "Rejected" is a kind of "Resolved", so the current use of the latter term is a little off anyway.)''
-* ''The description of this resolution process (and the diagram below) suggests that ORB, in addition to the well-described term request interface, will need another interface for request management, presumably to be used by gatekeepers only.  This doc should probably explicitly describe this interface and its functionality.  For one thing, I do not see how its UI can be naturally accommodated inside Phenex.''
-]
-
-
-
 ==Implementation details==
 
 
