@@ -27,6 +27,9 @@ Phenotype Group: combination of an attribute with some entity, such as basihyal 
 Total Publication Names:  Count of the total number of taxa used in the publications that have annotations.  Includes repeated uses of the same publication name in different publications.
 [*side note not for report: should be around 3,332 for 47 publications]
 
+Distinct Publication Names: Count of the unique number of publication taxa used in the publications that have annotations.  The same publication name used in different publications is counted only once.
+
+
 Distinct Valid Taxon Names: Count of unique Valid Taxon names appearing in publications. The same valid taxon name used in different publications is counted only once.  This includes 'publication-specific' names, meaning those referring to Author and Year in parentheses.
 
 Total Mismatches: Count of the total number of mismatches between Total Publication Names and Valid Taxon names.  Each mismatch, including the same mismatch in different publications, is counted for the total. Also, do not count any 'publication-specific' names, meaning those refering to Author and Year in parentheses.
