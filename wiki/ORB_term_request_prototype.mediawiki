@@ -49,6 +49,19 @@ If the user’s submission is successful, the application will:
 *Automatically send notification messages to the ontology gate keeper(s)
 *Send the term request to the community through the relevant mailing lists at source forge (http://sourceforge.net/projects/obo/support).
 
+==== Input from the BBOP group ====
+* There isn't really a reason that "temporary terms" can't be added to the ontology directly, with some kind of status that prevents them from showing in editors etc.
+* Term status values:
+** User trial
+** Requested but unreviewed
+** Reviewed and accepted
+** Obsolete
+* Request types:
+** New term
+** Definition revision
+** Graph placement change
+** Obsoletion
+
 === Term resolution ===
 If a term is resolved (i.e. a reviewer(s) either accepts a term requested or provides a more accurate term as an alternative) the ontology gatekeeper will provide the new term plus all the information provided by the expert via ORB’s web service.
 
