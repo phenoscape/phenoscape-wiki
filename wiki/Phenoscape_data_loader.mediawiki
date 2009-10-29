@@ -4,12 +4,12 @@ title: Phenoscape data loader
 
 The Phenoscape Data Loader is being developed as a Perl module. This section offers an overview of the functioning of the Phenoscape Data Loader. The data loader has been installed on the dev application server at NESCent and can be found at /usr/local/projects/phenoscape-data-loader
 
-==Functioning of the Phenoscape Data Loader==
+==The Phenoscape data loader - A step by step review==
 
-The Phenoscape Data Loader performs the following steps in sequence
+The Phenoscape data loader performs the following steps in sequence
 
 ===Downloads curated NeXML files from the Phenoscape SVN repositories===
-Ichthyologists curate scientific publications using the [[Phenex]] character matrix annotator and these curations are stored in an SVN repository. The data loader downloads these data files on a daily basis for subsequent uploading into the relational database
+Ichthyologists curate scientific publications using the [[Phenex]] character matrix annotator and these curations are stored in an SVN repository. The data loader downloads these data files for subsequent uploading into the relational database
 
 ===Loads the requisite ontologies into the database===
 The annotations of character matrices use terms that are defined in life science ontologies. These ontologies include the [http://bioportal.bioontology.org/ontologies/38703 Teleost Taxonomy Ontology (TTO)], the [http://www.obofoundry.org/ro/ Relations Ontology],  the [[Teleost_Anatomy_Ontology|Teleost Anatomy Ontology (TAO)]], and the [http://bioontology.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)]. The data loader loads all these definitions into the relational database
@@ -20,11 +20,14 @@ The annotations of character matrices use terms that are defined in life science
 ===Loads the data from the curated NeXML files into the database===
 The data loader transforms the curated data from NeXML syntax to a set of relational tuples (records), which are then sequentially inserted into the database
 
-===Logs incomplete annotations into a log file===
-The data loader does not load incomplete annotations from the NeXML files into the database. Incomplete annotations contain null values for taxa or phenotype or both. Instead, it logs these incomplete annotations on a file-specific basis in this [[Problem Log Format]]. Curators can then work on finishing these annotations which will be subsequently loaded into the database in the next execution of the data loader.
-
 ===Reasons with the data ===
-Lastly, the data loader invokes the [[OBD Reasoner]] to infer implicit knowledge from the assertions, in the form of new assertions. These inferred assertions are also added to the database.
+The data loader invokes the [[OBD Reasoner]] to infer implicit knowledge from the assertions, in the form of new assertions. These inferred assertions are also added to the database.
+
+===Populates the data warehouse===
+The data warehouse is necessary for speedy execution of queries invoked from the user interface. The data warehouse is populated by running stored procedures on the data, after the reasoning process has completed. As an additional step, the loader invokes a labelmaker procedure, which generates readable labels for "post composed" terms
+
+===Loads the homology data===
+Homology data from the Phenoscape SVN files are loaded into the database. This includes assertions about homologies, the publications from which these are sourced, and the evidence codes used for these assertions.
 
 ==Refreshing the data with the Phenoscape data loader==
 
