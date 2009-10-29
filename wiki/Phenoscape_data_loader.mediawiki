@@ -26,13 +26,9 @@ The data loader does not load incomplete annotations from the NeXML files into t
 ===Reasons with the data ===
 Lastly, the data loader invokes the [[OBD Reasoner]] to infer implicit knowledge from the assertions, in the form of new assertions. These inferred assertions are also added to the database.
 
-==Invoking the Phenoscape Data Loader==
+==Refreshing the data with the Phenoscape data loader==
 
-The Phenoscape data loader has been installed on the dev application server at NESCent and can be found at /usr/local/projects/phenoscape-data-loader. The data loader can be manually invoked by those with access rights through public or private key to the application dev server at NESCent. These would be JB, HL, JA, CK (but of course), XL, VG, RS, and DC. To invoke the data loader, a simple one line command needs to be executed from the ''scripts'' subdirectory where the application is housed. This has been tested with JA's access privileges and found to work fine.
-
-===Future plans and concerns===
-
-We are working towards turning the database load into a nightly cron job. However the entire process takes about 70 minutes to complete. It would be inadvisable to have the main database down for this duration, which can be expected to increase as more and more curations are loaded. Therefore, a copy database is updated by the data loader. As of now, the database administrator needs to copy this to the main database in a step that takes a few seconds to complete. It would be desirable to automate this process as well, but it precipitates access privilege concerns for the cron process. We are currently investigating feasible means to accomplish this.
+The Phenoscape data loader runs as a cron job on the kb-dev server every Friday at 6 PM EST. Given that the application WAR points to one of two copies of the Phenoscape knowledgebase, the data loader refreshes the other copy of the knowledgebase, so the application is never "offline". After the data refresh is completed, the application WAR is redeployed so that it points to the newer version of the data.
 
 ==[[OBD API Documentation]]==
 For code specific details
