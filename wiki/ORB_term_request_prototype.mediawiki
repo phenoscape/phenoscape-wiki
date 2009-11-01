@@ -90,40 +90,40 @@ In this prototype, the functionality of ORB term request services and the cycle 
 
 To gather all the ORB requirements and set up a working IDE with all the required libraries.
 
-*Design and document a work plan
-*Carry out interviews,consultation and document ORB requirements
-*Write up the ORB specification document
-*Set up java IDE,Apache—tomcat server and import the required libraries(restlet,json)
+*Design and document a work plan √
+*Carry out interviews,consultation and document ORB requirements √
+*Write up the ORB specification document √
+*Set up java IDE,Apache—tomcat server and import the required libraries(restlet,json)√
 
 '''Week 2: 28 to 2 October'''
 ''' Term request server and skeleton web services'''
 
 A working skeleton term request server, which responds to new term request and status queries, but with dummy data.
-* Create Restlet server project.
-* Create a Restlet Application subclass which maps URLs to service resources.
-* Create ServerResource subclasses which respond to HTTP requests for each web service.
+* Create Restlet server project. √
+* Create a Restlet Application subclass which maps URLs to service resources.√
+* Create ServerResource subclasses which respond to HTTP requests for each web service. √
 
 '''Week 3: 5 to 10 October'''
 '''Relational database for persisting term requests'''
 
 Design and establish a server database for storing term requests.
-* Create ORB database schema
-* Create application subclasses that store data submitted into the database
-* Create application subclasses that retrieve and display data in the database
+* Create ORB database schema √
+* Create application subclasses that store data submitted into the database √
+* Create application subclasses that retrieve and display data in the database √
 
 '''Week 4: 12 to 17 October'''
 '''New term definition and creation'''
 
 To define and create more suitable ontology terms and generate informative responses on term submission.
-*Create an application function that will take up the user provided required fields plus the different combinations of the optional fields and create terms and add to the database
-*Create a function to validate if the user provided the required fields and if not generate an informative response to the user
-*Create an application function to assign status on term submission
+*Create an application function that will take up the user provided required fields plus the different combinations of the optional fields and create terms and add to the database √
+*Create a function to validate if the user provided the required fields and if not generate an informative response to the user√
+*Create an application function to assign status on term submission√
 
 '''Week 5: 19 to 23 October'''
 '''Term Resolution and generation informative of responses'''
 
 To build application functions that will enable term updates and generate informative responses
-*Create an application function to facilitate updating a term requested in the database and change the term’s status appropriately
+*Create an application function to facilitate updating a term requested in the database and change the term’s status appropriately √
 *Create a function to generate auto messages to the term requester
 
 '''Week 6: 26 to 31 October'''
@@ -138,7 +138,7 @@ To build a function in ORB to facilitate the auto-generation of messages to the 
 
 To establish ORB web-interface for searching, viewing and updating the requested terms
 *Design and implement the web-interface of ORB new term services
-*Create functions to collate the user provided information from the interface and load into the ORB server database
+*Create functions to collate the user provided information from the interface and load into the ORB server database √
 
 '''Week 8: 9 to 14 November Displaying and downloading search results'''
 
