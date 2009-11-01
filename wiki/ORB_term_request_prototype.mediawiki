@@ -17,6 +17,9 @@ This document describes the design of a prototype ORB application involving only
 '''Term submission use case'''
 [[Image:ORB Term Request.jpg]]
 
+
+
+'''Term Resolution Use Case'''
 [[Image:System_diagram.jpg|Center]]
 
 == ORB requirements specification ==
