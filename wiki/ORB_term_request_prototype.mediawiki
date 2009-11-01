@@ -83,7 +83,7 @@ From ORB web-service interface (or Phenex widget) and using the term ID or name,
 In this prototype, the functionality of ORB term request services and the cycle will be exemplified by working with the Teleost Anatomy and Development Ontology (TAO) gatekeeper (http://www.berkeleybop.org/ontologies/owl/TAO) and TAO mailing list at source forge.
 
 == Project plan ==
-''[Indicate calendar dates for these weeks.]''
+'An agile approach is used in ORB development. The sign √ indictaes accomplished tasks while * indicates tasks yet to be implemented'
 
 '''Week 1:  21 to 26 September'''
 '''Preparation'''
