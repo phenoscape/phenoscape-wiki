@@ -20,6 +20,8 @@ This document describes the design of a prototype ORB application involving only
 
 
 '''Term Resolution Use Case'''
+[[Image:Use Case Diagram1.jpg|Center]]
+
 [[Image:System_diagram.jpg|Center]]
 
 == ORB requirements specification ==
