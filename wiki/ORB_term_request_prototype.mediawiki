@@ -17,6 +17,7 @@ This document describes the design of a prototype ORB application involving only
 
 [[Image:System_diagram.jpg|Center]]
 
+[[Image:Term submission.jpg]]
 
 == ORB requirements specification ==
 
