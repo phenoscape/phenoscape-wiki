@@ -44,8 +44,7 @@ On term submission, ORB will:
 If the user’s submission is successful, the application will:
 *Notify the user of successful submission
 *Set the status of the term to “Pending”
-*Assign a temporary ID (ORB:xxxxxx) and store in a database. The xes in the temporary ID represent the name provided to allow the user to continually annotate entities using the requested terms without having to halt their work.
-*Send the temporary ID assigned to the user
+*Assign a temporary ID (ORB:xxxxxx) and store in a database. The xes in the temporary ID represent an auto-generated unique number 
 *Automatically send notification messages to the ontology gate keeper(s)
 *Send the term request to the community through the relevant mailing lists at source forge (http://sourceforge.net/projects/obo/support).
 
