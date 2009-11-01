@@ -15,7 +15,7 @@ This document describes the design of a prototype ORB application involving only
 
 === Diagrams ===
 '''Term submission use case'''
-[[Image:Term submission.jpg]]
+[[Image:ORB Term Request.jpg]]
 
 [[Image:System_diagram.jpg|Center]]
 
