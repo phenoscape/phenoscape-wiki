@@ -30,9 +30,13 @@ This document describes the design of a prototype ORB application involving only
 ORB will allow users to submit (and view?) requests for new ontology terms.  In the prototype, communication between the client and server will be effected via RESTful web-services. Functionality will be demonstrated via a custom web interface and widget in [[Phenex]]. The integration in Phenex will be a demonstration of the ORB’s “integratability” with other related applications via the API.
 
 === Term submission ===
+
+''Term submission use case'''
+[[Image:ORB Term Request.jpg]]
+
 Via the web interface or the ORB widget in Phenex a user will have to submit a term’s
-* name, 
-* definition, and 
+* name,
+* definition, and
 * parent relationship.
 
 The optional fields will be:
