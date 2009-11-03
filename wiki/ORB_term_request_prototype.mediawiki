@@ -14,8 +14,7 @@ There is a need for applications that will expedite the annotation of phenotypic
 This document describes the design of a prototype ORB application involving only a term request web-service. ORB is envisioned to be a  web-service with an API for custom integration into multiple data curation software applications.
 
 === Diagrams ===
-'''Term submission use case'''
-[[Image:ORB Term Request.jpg]]
+
 
 
 
