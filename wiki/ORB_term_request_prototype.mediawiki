@@ -71,6 +71,7 @@ If the user’s submission is successful, the application will:
 === Term processing ===
 '''Term Resolution Use Case'''
 [[Image:Use Case Diagram1.jpg|Center]]
+
 If a term is resolved (i.e. a reviewer(s) either accepts a term requested or provides a more accurate term as an alternative) the ontology gatekeeper will provide the new term plus all the information provided by the expert via ORB’s web service.
 
 The application will subsequently:
