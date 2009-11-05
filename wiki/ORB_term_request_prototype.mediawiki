@@ -46,9 +46,6 @@ The optional fields will be:
 
 A user will be required to submit their e-mail addresses and their names (optional).
 
-=== Term processing ===
-'''Term Resolution Use Case'''
-[[Image:Use Case Diagram1.jpg|Center]]
 On term submission, ORB will:
 * Validate if the required fields are provided, send the user an invalid term request message and return to the submission interface.
 If the user’s submission is successful, the application will:
