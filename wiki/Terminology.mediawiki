@@ -10,9 +10,11 @@ Phenotype: An EQ version of a part or whole character state (i.e. a character st
 
 Distinct Phenotype: Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parens)
 
+Composite character: character state with more than one phenotype.
+
 Phenotyped character: Character with one or more states assigned to a phenotype
 
-Phenotype assertion [phenotype statement]: Phenotype that is assigned to a taxon
+Phenotype assertion: Phenotype that is assigned to a taxon
 
 Distinct phenotype assertions: phenotypes assigned to taxa that are unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype (EQ) for alternative character states (when annotating at high level of PATO granularity, e.g.).  Thus the number of distinct phenotype assertions is lower than the number of phenotype assertions.
 
