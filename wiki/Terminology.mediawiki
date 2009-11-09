@@ -14,9 +14,9 @@ Composite character: character state with more than one phenotype.
 
 Phenotyped character: Character with one or more states assigned to a phenotype
 
-Phenotype assertion: Phenotype that is assigned to a taxon
+Phenotype-taxon assertion: Phenotype that is assigned to a taxon
 
-Distinct phenotype assertions: phenotypes assigned to taxa that are unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype (EQ) for alternative character states (when annotating at high level of PATO granularity, e.g.).  Thus the number of distinct phenotype assertions is lower than the number of phenotype assertions.
+Distinct phenotype-taxon assertions: phenotypes assigned to taxa that are unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype (EQ) for alternative character states (when annotating at high level of PATO granularity, e.g.).  Thus the number of distinct phenotype assertions is lower than the number of phenotype assertions.
 
 Attribute: Higher level PATO quality term used to group "value qualities"
 
