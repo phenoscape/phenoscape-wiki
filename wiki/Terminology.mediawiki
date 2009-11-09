@@ -6,7 +6,7 @@ title: Terminology
 
 Character state: variant of a Character, assigned a code in a phylogenetic analysis
 
-Phenotype: An EQ version of a part or whole character state (i.e. a character state may have multiple phenotypes).  Semantically, a phenotype is_a PATO:quality AND inheres_in some entity.
+Phenotype: An EQ statement. A phenotype, i.e. EQ statement, corresponds to a part or whole character state (i.e. a character state may have multiple phenotypes).  Semantically, a phenotype is_a PATO:quality AND inheres_in some entity.
 
 Distinct Phenotype: Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parens)
 
