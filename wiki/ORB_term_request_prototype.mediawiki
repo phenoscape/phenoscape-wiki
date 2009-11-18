@@ -146,7 +146,7 @@ To build a function in ORB to facilitate the auto-generation of messages to the 
 '''Web-interface'''
 
 To establish ORB web-interface for searching, viewing and updating the requested terms
-*Design and implement the web-interface of ORB new term services *
+*Design and implement the web-interface of ORB new term services 
 *Create functions to collate the user provided information from the interface and load into the ORB server database √
 
 '''Week 8: 9 to 14 November Displaying and downloading search results'''
@@ -164,6 +164,8 @@ To make the web-service compartible with different technologies
 ''' Week 10 and 11 : 23 November to December 5 Deployment'''
 
 To deploy the ORB new term web-service to the NESCent server *
+
+'''List of remaining tasks in the last stretch of project'''
 
 == Links & Resources ==
 
