@@ -4,15 +4,21 @@ title: Knowledgebase mockups (Nov 2009)
 
 ==Publications==
 [[Image:pubs1.png|700px]]
+
 [[Image:pubs2.png|700px]]
+
 [[Image:pubs3.png|700px]]
 
 ==Tree mapping==
 [[Image:trees1.png|700px]]
+
 [[Image:trees2.png|700px]]
+
 [[Image:trees3.png|700px]]
 
 ==Phenotype queries==
 [[Image:queries1.png|700px]]
+
 [[Image:queries2.png|700px]]
+
 [[Image:queries3.png|700px]]
