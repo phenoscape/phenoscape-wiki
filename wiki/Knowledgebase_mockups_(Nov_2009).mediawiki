@@ -49,8 +49,23 @@ Integration of publication data across site.
 ===Comments===
 
 ==Phenotype queries==
+===Entry of phenotype specification===
+* user enters a phenotype specification, presses Done
+
 [[Image:queries1.png|700px]]
+
+===Additional phenotype specification===
+* bottom of page shows taxa which exhibit first phenotype
+* user pressed "+" under first phenotype and can enter another
 
 [[Image:queries2.png|700px]]
 
+===Results===
+* taxa exhibiting both phenotypes are shown
+
 [[Image:queries3.png|700px]]
+
+===Comments===
+What should happen upon clicking taxon names? --[[User:Jpb15|jim]] 11:38, 18 November 2009 (EST)
+* go to taxon's page?
+* go to phenotype listing for that taxon and given phenotypes?
