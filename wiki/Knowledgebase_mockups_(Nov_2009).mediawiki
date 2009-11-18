@@ -26,9 +26,23 @@ Integration of publication data across site.
 ====Comments====
 
 ==Tree mapping==
+===Map 2 phenotypes on tree===
+* user can enter phenotype specification for each "state"
+* see on tree which branches exhibit one or both of the phenotypes
+* Do user's want the tree "pruned"?  Or show branches without annotations also?  could be a lot of taxa
+
 [[Image:trees1.png|700px]]
 
+===Same interface===
+* shows that the 2 phenotypes don't have to be obvious alternatives
+
 [[Image:trees2.png|700px]]
+
+===Map phenotypes of a given entity on tree===
+* user enters any entity term
+* each of the standard upper-level PATO qualities has some icon
+* each node of tree is annotated with icons for which kinds of phenotypes are exhibited by that node
+* so if you just put in "bone", you could get a "shape" icon at a node for any bone shape phenotype (basihyal bone round, vertebra 1 flat, etc.)
 
 [[Image:trees3.png|700px]]
 
