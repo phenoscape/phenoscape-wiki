@@ -46,6 +46,8 @@ Integration of publication data across site.
 
 [[Image:trees3.png|700px]]
 
+===Comments===
+
 ==Phenotype queries==
 [[Image:queries1.png|700px]]
 
