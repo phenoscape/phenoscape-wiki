@@ -66,6 +66,12 @@ TTO:1052801           PHENOSCAPE:exhibits          PATO:0000462^OBO_REL:inheres_
 
 Recall that the reasoner works in sweeps. It extracts one set of inferences (Inf-1) from the assertions (A) in its first sweep. In the next sweep, the reasoner pulls out a different set of inferences (Inf-2) from the assertions A '''AS WELL AS''' the inferences Inf-1 from the previous sweep. The reasoner repeats these sweeps until no new inferences are added. This is why the reasoner will likely infer all taxa exhibit all phenotypes if it is used to reason both up and down the taxonomy without checking for universal and existential semantics.
 
+===Different relations for different purposes===
+
+In classical first-order logic (FOL), all relations and properties asserted upon concepts (or taxa in the case of Phenoscape) are inherited by the subsumed concepts. This is because by default, all assertions about the concepts are universally quantified, i.e. hold true for ALL instances of the concept. If all cars have four wheels, and if all SUVs are cars, then all SUVs have four wheels. This is the way of top-down, classical FOL inferencing. 
+
+In Phenoscape, we have adopted the OBD schema of modeling concepts, wherein all assertions to the concepts are existentially quantified.
+
 [[Category:EQ Annotation]]
 [[Category:Informatics]]
 [[Category:Ontology]]
