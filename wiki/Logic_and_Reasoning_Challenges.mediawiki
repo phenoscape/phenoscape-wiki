@@ -70,13 +70,13 @@ Recall that the reasoner works in sweeps. It extracts one set of inferences (Inf
 
 In this section, we discuss possible approaches to resolving this issue with reasoning both up and down the taxonomy. 
 
-====Different relations for different purposes===
+====Different relations for different purposes====
 
 In classical first-order logic (FOL), all relations and properties asserted upon concepts (or taxa in the case of Phenoscape) are inherited by the subsumed concepts. This is because by default, all assertions about the concepts are universally quantified, i.e. hold true for ALL instances of the concept. If all cars have four wheels, and if all SUVs are cars, then all SUVs have four wheels. This is the way of top-down, classical FOL inferencing.
 
 In Phenoscape, we have adopted the OBD schema of modeling concepts, wherein all assertions to the concepts are existentially quantified, i.e. the assertion is true with at least one instance of the concept. This is very convenient for the life sciences, where exceptions are so prevalent. As a ready example, consider how the duck-billed platypus easily overrules the "all mammals are viviparous" rule. Further, existential quantification allows us to reason up the taxonomy. If some Teleostei exhibit round fins, and all Teleostei are Ostariophysi, then some Ostariophysi exhibit round fins.
 
-By default, we use the ''PHENOSCAPE:exhibits'' relation to link taxa to phenotypes using existential semantics. Using the same relation to model universally quantified relationships between taxa and phenotypes, would cause incorrect inferencing and loss of data integrity. The easiest way to address this issue is to use different relations; one for universally quantified relations and the other for existentially quantified relations. Let us call these relations ''PHENOSCAPE:all_exhibit'' and ''PHENOSCAPE:some_exhibit'' respectively. 
+By default, we use the ''PHENOSCAPE:exhibits'' relation to link taxa to phenotypes using existential semantics. Using the same relation to model universally quantified relationships between taxa and phenotypes, would cause incorrect inferencing and loss of data integrity. The easiest way to address this issue is to use different relations; one for universally quantified relations and the other for existentially quantified relations. Let us call these relations ''PHENOSCAPE:all_exhibit'' and ''PHENOSCAPE:some_exhibit'' respectively.
 
 Now the OBD reasoner uses the following rule to extract inferences up the taxonomy using the ''PHENOSCAPE:exhibits'' relation.
 
