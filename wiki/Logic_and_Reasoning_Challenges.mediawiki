@@ -125,6 +125,8 @@ Again, cyclical inferences are ruled out because there are no inference rules to
 
 To implement this strategy, two new relations can be defined in the Phenoscape Vocab ontology, where the current definition of the ''PHENOSCAPE:exhibits'' relation is found. At the curation level, curators have to qualify their assertions as being either existentially or universally quantified. Specifically, the Phenex UI could tap the curator's shoulder and ask, "Ahem, does this annotation hold true for all specimens belonging to this taxa or just some specimens?" This needs some changes (no less!) to the Phenex interface and also to the character matrix format in which the data is exported. The data loader module of Phenoscape has to know this information so that the appropriate relation is used in creating the taxon-phenotype statement to be loaded into the knowledgebase. The query module will have to be modified to retrieve both inferred and asserted taxon-phenotype statements using the two different relations. The JSON format in which the data is exported needs to be modified to accommodate the two different kinds of relation statements, and lastly the UI will have to explicitly distinguish between the two.
 
+====Probabilistic assertions====
+
 [[Category:EQ Annotation]]
 [[Category:Informatics]]
 [[Category:Ontology]]
