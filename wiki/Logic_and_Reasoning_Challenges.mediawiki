@@ -1,0 +1,63 @@
+---
+title: Logic and Reasoning Challenges
+---
+
+This page discusses issues to be resolved in the near future. These issues pertain to relation semantics as well as inference procedures. 
+
+== The problem with absence of features==
+
+Descriptions of phenotypes as used in the Phenoscape project (and a plethora of phenomena in the real world) are replete with exceptions, or aberrations from what is considered to be "normal." While canonical ontologies like the [http://sig.biostr.washington.edu/projects/fm/ FMA] and the [http://www.berkeleybop.org/ontologies/obo-all/teleost_anatomy/teleost_anatomy.obo TAO] contain ontological definitions of ideal specimens, observations in the life sciences are full of aberrations to these general rules.
+
+Phenoscape has some typical issues dealing with absence of anatomical features in certain species of Ostariophysian fishes. For example, the basihyal cartilage is found in all species of Ostariophysian fishes, except the Siluriformes. At present, this information is captured in Phenoscape using the combination of the PATO term for "absent in organism" (PATO:0000462), the "inheres_in" relation from the OBO Relations Ontology, the TAO term for "basihyal cartilage" (TAO:0001510), the "exhibits" relation from the PHENOSCAPE ontology, and the TTO term for Siluriformes (TTO:1380). This is shown below.
+
+<javascript>
+TTO:1380              PHENOSCAPE:exhibits                  PATO:0000462^OBO_REL:inheres_in(TAO:0001510)
+</javascript>
+
+In plain English, this translates to "Siluriformes exhibit absence in organism which inheres in basihyal cartilage." The semantics of this sentence are vague to say the least. Going by this methodology, it is impossible to state that basihyal cartilage is absent in Siluriformes without referring to ''at least one'' instance of basihyal cartilage. Combining a quality ''absent'' with a ''feature'' through the ''inheres_in''  property is very misleading in itself (ex: absence inheres in cartilage), contorting the intrinsic semantics of the ''inheres_in'' relation. These problems have been discussed in [http://www.ncbi.nlm.nih.gov/pubmed/17369081 Ceusters et al] and [http://www.biomedcentral.com/1471-2105/8/377 Hoehndorf et al]. Both these publications propose solutions to integrate these aberrant observations with canonical definitions, without causing inconsistencies in reasoning procedures.
+
+[[Media:PhenotypesInPhenoscape.ppt]]
+
+[[Discussion about the Absence of Phenotypes issue]]
+
+Another issue specific to the Phenoscape project was raised by Paula at the SICB workshop. Given that basihyal cartilage is absent in Siluriformes, basihyal bone should be absent in Siluriformes as well. This is because basihyal bone develops from basihyal cartilage. This may be inferred by adding a new relation chaining rule shown below to the OBD reasoner
+
+'''Rule:'''<math>\forall</math>F1, F2, S: ''absent_in''(F1, S) <math>\and</math> ''develops_from''(F2, F1) <math>\Rightarrow</math> ''absent_in''(F2, S)
+
+This relation chain corresponds to the observation GIVEN THAT Basihyal_Cartilage ''absent_in'' Siluriformes AND Basihyal_Bone ''develops_from'' Basihyal_cartilage, THEN Basihyal_Bone ''absent_in'' Siluriformes. This and other similar relation chains (as per identified requirements) are to be implemented for the Phenoscape project in the future. Strategies to deal with absent features in general are also to be implemented in the near future.
+
+Differences between the [[The exhibits relation conundrum|existing semantics]] and [[Relating taxa to phenotypes|desired semantics]] of the ''exhibits'' relation need to be resolved to address this issue. Potential strategies to implement the absence of features problem are discussed [[Novel reasoning strategies|here]].
+
+==Inferring down the taxonomy==
+
+The OBD reasoner can reason from annotations at the lower levels of the taxonomy to the higher levels ([[#Balhoff rule|Balhoff rule]]). Given that ''Danio rerio'' exhibits a phenotype P, the OBD reasoner infers that ''Danio'' exhibits the same phenotype P. This is reasoning up the taxonomy, using the subsumption relationship between ''Danio rerio'' and ''Danio''. This is possible because the annotations to each taxon are (implicitly) existentially quantified. The annotation ''Danio rerio'' exhibits uroneural is shown in (1). The semantics are in (2).
+
+<javascript>
+TTO:1001979            PHENOSCAPE:exhibits          PATO:0000467^OBO_REL:inheres_in(TAO:0000602)                             -- (1)
+</javascript>
+<math>\exists</math> X : ''instance_of''(X, TTO:1001979) <math>\and</math> ''PHENOSCAPE:exhibits''(X, PATO:0000467^OBO_REL:inheres_in(TAO:0000602)) -- (2)
+
+Given that ''Danio rerio'' (TTO:1001979) is subsumed by the genus ''Danio'' (TTO:101040) in the Teleost Taxonomy as shown in (3), it is possible to infer that ''Danio'' exhibits uroneural (4).
+
+<javascript>
+TTO:1001979           OBO_REL:is_a                 TTO:101040                                                                -- (3)
+<TTO:101040           PHENOSCAPE:exhibits          PATO:0000467^OBO_REL:inheres_in(TAO:0000602)                              -- (4)
+</javascript>
+
+Inferring down the taxonomy, that is using assertions at higher levels to extract inferences at lower levels, requires universal quantification. For example, the assertion that all Siluriformes do not exhibit basihyal cartilage can be captured using OBD semantics as shown in (5). The universal semantics of this assertion is shown in (6). Siluriformes directly subsumes Ictaluridae as shown in (7). From (5) and (7), it is straightforward to infer that Ictaluridae lack basihyal cartilage as shown in (8).
+
+<javascript>
+TTO:1380            PHENOSCAPE:exhibits          PATO:0000462^OBO_REL:inheres_in(TAO:0001518)                                -- (5)
+</javascript>
+<math>\forall</math> X : ''instance_of''(X, TTO:1380) <math>\and</math> ''PHENOSCAPE:exhibits''(X, PATO:0000462^OBO_REL:inheres_in(TAO:0001510))    -- (6)
+<javascript>
+TTO:10930           OBO_REL:is_a                 TTO:1380                                                                    -- (7)
+TTO:10930           PHENOSCAPE:exhibits          PATO:0000462^OBO_REL:inheres_in(TAO:0001518)                                -- (8)
+</javascript>
+
+The problem with using top-down inferences using universally quantified statements is that currently there is no way to distinguish these from existentially quantified statements. Without making this explicit in the way taxon - phenotype assertions are made, it is possible to extract incorrect inferences given the current configuration. Consider the subsumption relationship between ''Danio'' and ''Danio choprai'' shown in (9). If there is no distinction between existentially and universally quantified statements, it is possible to infer from (9) and (4) the erroneous conclusion that ''Danio choprai'' exhibits uroneural (10). At present, there are no annotations to ''Danio choprai''.
+
+<javascript>
+TTO:1052801           OBO_REL:is_a                 TTO:101040                                                                -- (9)
+TTO:1052801           PHENOSCAPE:exhibits          PATO:0000462^OBO_REL:inheres_in(TAO:0000602)                              -- (10)
+</javascript>
