@@ -167,11 +167,15 @@ This is the exact opposite of the ''genus differentia'' rule which postulates re
 ==Sweeps==
 A reasoner functions over several sweeps. In each sweep, new implicit inferences are derived from the explicit annotations (as described in the previous sections) and added to the database. In the following sweep, inferences added from the previous sweep are used to extract further inferences. This process continues until no additional inferences are added in a sweep. This is when the ''deductive closure of the inference procedure'' is reached. No further inferences are possible and the reasoner exits.
 
-==Relation Properties to be implemented ==
+==Future directions==
+
+Possible future directions for the extension of the reasoner include adding more relation properties as well as some [[Technical_issues_to_be_resolved|outstanding technical issues]]. 
+
+===Relation Properties to be implemented ===
 
 The following relation properties may be implemented on the reasoner in future if necessary.
 
-===Relation Symmetry===
+====Relation Symmetry====
 
 '''Rule:''' <math>\forall</math>A, B, ''R'' and ''R'' symmetric: ''R''(A, B) <math>\Rightarrow</math> ''R''(B, A)
 
@@ -179,13 +183,11 @@ An example of a symmetric relation is the ''neighbor'' relation. IF Jim neighbor
 
 NOTE: There is no direct relationship between ''relation symmetry'' and ''relation reflexivity''
 
-===Relation Inversion===
+====Relation Inversion====
 
 '''Rule:''' <math>\forall</math>A, B, ''R<sub>1</sub>'', ''R<sub>2</sub>'': ''R<sub>1</sub>''(A, B) <math>\and</math> ''inverse_of''(''R<sub>1</sub>'', ''R<sub>2</sub>'') <math>\Rightarrow</math> ''R<sub>2</sub>''(B, A)
 
 An example of relation inversions can be found in the ''posterior_to'' and ''anterior_to'' relations. IF anterior_nuchal_plate ''anterior_to'' middle_nuchal_plate AND ''anterior_to'' ''inverse_of'' ''posterior_to'', THEN middle_nuchal_plate ''posterior_to'' anterior_nuchal_plate
-
-
 
 [[Category:Corrected usage in the examples with instance of]]
 [[Category:Informatics]]
