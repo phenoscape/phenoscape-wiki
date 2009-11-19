@@ -28,7 +28,9 @@ This relation chain corresponds to the observation GIVEN THAT Basihyal_Cartilage
 
 Differences between the [[The exhibits relation conundrum|existing semantics]] and [[Relating taxa to phenotypes|desired semantics]] of the ''exhibits'' relation need to be resolved to address this issue. Potential strategies to implement the absence of features problem are discussed [[Novel reasoning strategies|here]].
 
-==Inferring down the taxonomy==
+==Inferring in both directions on the taxonomy==
+
+It is desired that annotations to higher taxa in the taxonomy be propagated to the lower taxa that are subsumed by the higher taxon; i.e. classical top down inferences. Given that the reasoner already reasons bottom upward, associating phenotype annotations from the lower level taxa to the higher level taxa, adding top-down inferencing may cause a clash and widespread inconsistencies in the data. 
 
 The OBD reasoner can reason from annotations at the lower levels of the taxonomy to the higher levels. Given that ''Danio rerio'' exhibits a phenotype P, the OBD reasoner infers that ''Danio'' exhibits the same phenotype P. This is reasoning up the taxonomy, using the subsumption relationship between ''Danio rerio'' and ''Danio''. This is possible because the annotations to each taxon are (implicitly) existentially quantified. The annotation ''Danio rerio'' exhibits uroneural is shown in (1). The semantics are in (2).
 
@@ -62,4 +64,4 @@ TTO:1052801           OBO_REL:is_a                 TTO:101040                   
 TTO:1052801           PHENOSCAPE:exhibits          PATO:0000462^OBO_REL:inheres_in(TAO:0000602)                              -- (10)
 </javascript>
 
-Recall that the reasoner works in sweeps. It extracts one set of inferences (Inf-1) from the assertions (A) in its first sweep. In the next sweep, the reasoner pulls out a different set of inferences (Inf-2) from the assertions A '''AS WELL AS''' the inferences Inf-1 from the previous sweep. The reasoner repeats these sweeps until no new inferences are added. This is why the reasoner will likely infer all taxa exhibit all phenotypes if it is used to reason both up and down the taxonomy.
+Recall that the reasoner works in sweeps. It extracts one set of inferences (Inf-1) from the assertions (A) in its first sweep. In the next sweep, the reasoner pulls out a different set of inferences (Inf-2) from the assertions A '''AS WELL AS''' the inferences Inf-1 from the previous sweep. The reasoner repeats these sweeps until no new inferences are added. This is why the reasoner will likely infer all taxa exhibit all phenotypes if it is used to reason both up and down the taxonomy without checking for universal and existential semantics.
