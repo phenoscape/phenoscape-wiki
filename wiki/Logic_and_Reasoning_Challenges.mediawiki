@@ -38,6 +38,7 @@ The OBD reasoner can reason from annotations at the lower levels of the taxonomy
 TTO:1001979            PHENOSCAPE:exhibits         PATO:0000573^OBO_REL:inheres_in(TAO:0001938)^OBO_REL:towards(TAO:0001967)             -- (1)
 </javascript>
 
+
 <math>\exists</math> X : ''instance_of''(X, TTO:1001979) <math>\and</math> ''PHENOSCAPE:exhibits''(X, PATO:0000573^OBO_REL:inheres_in(TAO:0001938)^OBO_REL:towards(TAO:0001967))                                                               -- (2)
 
 
@@ -54,7 +55,9 @@ Inferring down the taxonomy, that is using assertions at higher levels to extrac
 TTO:1380            PHENOSCAPE:exhibits          PATO:0000599^OBO_REL:inheres_in(TAO:0000323)                                            -- (5)
 </javascript>
 
+
 <math>\forall</math> X : ''instance_of''(X, TTO:1380) <math>\and</math> ''PHENOSCAPE:exhibits''(X, PATO:0000599^OBO_REL:inheres_in(TAO:0000323))    -- (6)
+
 
 <javascript>
 TTO:10930           OBO_REL:is_a                 TTO:1380                                                                    -- (7)
