@@ -80,6 +80,16 @@ By default, we use the ''PHENOSCAPE:exhibits'' relation to link taxa to phenotyp
 
 Now the OBD reasoner uses the following rule to extract inferences up the taxonomy using the ''PHENOSCAPE:exhibits'' relation.
 
+'''Rule:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''exhibits''(A, x)  <math>\Rightarrow</math> ''exhibits''(B, x)
+
+This can be replaced with the following two rules, which use the two new relations, ''PHENOSCAPE:all_exhibit'' and ''PHENOSCAPE:some_exhibit''. (Please suggest better names for these if you can think of them). 
+
+'''Rule:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''some_exhibit''(A, x)  <math>\Rightarrow</math> ''some_exhibit''(B, x)
+
+'''Rule:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''all_exhibit''(B, x)  <math>\Rightarrow</math> ''all_exhibit''(A, x)
+
+This will keep the inferences from getting mixed up. Let us consider the scenario where species S1 and S2 (from genus G1) are asserted to exhibit phenotype P. These assertions are shown in
+
 [[Category:EQ Annotation]]
 [[Category:Informatics]]
 [[Category:Ontology]]
