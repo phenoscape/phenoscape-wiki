@@ -134,7 +134,7 @@ To implement this strategy, two new relations can be defined in the Phenoscape V
 
 ====Probabilistic assertions====
 
-Uncertainties are everywhere in the life sciences. The taxon-phenotype assertions can be augmented with uncertainty factors to address this issue. Inferences could use uncertainty calculi such as the [http://en.wikipedia.org/wiki/Dempster%E2%80%93Shafer_theory| Dempster-Schafer method] or Bayes rule to derive uncertainty factors of the inferences given the uncertainty factors of the assertions.
+Uncertainties are everywhere in the life sciences. The taxon-phenotype assertions can be augmented with uncertainty factors to address this issue. Inferences could use uncertainty calculi such as the [http://en.wikipedia.org/wiki/Dempster%E2%80%93Shafer_theory| Dempster-Schafer method] or Bayes conditional probability rule to derive uncertainty factors of the inferences given the uncertainty factors of the assertions.
 
 [[Category:EQ Annotation]]
 [[Category:Informatics]]
