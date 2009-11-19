@@ -44,7 +44,7 @@ This can be translated to plain English to:
 
 These are just some of the many constructs from first order logic which find common use in the Phenoscape project. For a full fledged introduction to the joys of FOL, click [http://en.wikipedia.org/wiki/First-order_logic here].
 
-[[Category:Corrected usage in the examples with instance_of]]
+
 
 ==Implemented Relation Properties==
 
@@ -212,10 +212,16 @@ This relation chain corresponds to the observation GIVEN THAT Basihyal_Cartilage
 
 Differences between the [[The exhibits relation conundrum|existing semantics]] and [[Relating taxa to phenotypes|desired semantics]] of the ''exhibits'' relation need to be resolved to address this issue. Potential strategies to implement the absence of features problem are discussed [[Novel reasoning strategies|here]].
 
+===Inferring down the taxonomy===
+
+The OBD reasoner can reason from annotations at the lower levels of the taxonomy to the higher levels [[Balhoff rule]]. Given that ''Danio rerio'' exhibits a phenotype P, the OBD reasoner infers that ''Danio'' exhibits the same phenotype P. This is reasoning up the taxonomy, using the subsumption relationship between ''Danio rerio'' and ''Danio''. This is possible because the annotations to each taxon are (implicitly) existentially quantified. The annotation ''Danio rerio'' exhibits round fin (just an example)  
+
 ==Sweeps==
 A reasoner functions over several sweeps. In each sweep, new implicit inferences are derived from the explicit annotations (as described in the previous sections) and added to the database. In the following sweep, inferences added from the previous sweep are used to extract further inferences. This process continues until no additional inferences are added in a sweep. This is when the ''deductive closure of the inference procedure'' is reached. No further inferences are possible and the reasoner exits.
 
+[[Category:Corrected usage in the examples with instance of]]
 [[Category:Informatics]]
 [[Category:Database]]
 [[Category:Ontology]]
 [[Category:Reasoning]]
+[[Category:API]]
