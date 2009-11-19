@@ -32,32 +32,32 @@ Differences between the [[The exhibits relation conundrum|existing semantics]] a
 
 It is desired that annotations to higher taxa in the taxonomy be propagated to the lower taxa that are subsumed by the higher taxon; i.e. classical top down inferences. Given that the reasoner already reasons bottom upward, associating phenotype annotations from the lower level taxa to the higher level taxa, adding top-down inferencing may cause widespread inconsistencies in the data.
 
-The OBD reasoner can reason from annotations at the lower levels of the taxonomy to the higher levels. Given that ''Danio rerio'' exhibits a phenotype P, the OBD reasoner infers that ''Danio'' exhibits the same phenotype P. This is reasoning up the taxonomy, using the subsumption relationship between ''Danio rerio'' and ''Danio''. This is possible because the annotations to each taxon are (implicitly) existentially quantified. The annotation ''Danio rerio'' exhibits uroneural is shown in (1). The semantics are in (2).
+The OBD reasoner can reason from annotations at the lower levels of the taxonomy to the higher levels. Given that ''Danio rerio'' exhibits a phenotype P, the OBD reasoner infers that ''Danio'' exhibits the same phenotype P. This is reasoning up the taxonomy, using the subsumption relationship between ''Danio rerio'' and ''Danio''. This is possible because the annotations to each taxon are (implicitly) existentially quantified. The annotation "''Danio rerio'' exhibits increased length of maxillary barbel towards hypural 5" is shown in (1). The semantics are in (2).
 
 <javascript>
-TTO:1001979            PHENOSCAPE:exhibits          PATO:0000467^OBO_REL:inheres_in(TAO:0000602)                             -- (1)
+TTO:1001979            PHENOSCAPE:exhibits         PATO:0000573^OBO_REL:inheres_in(TAO:0001938)^OBO_REL:towards(TAO:0001967)             -- (1)
 </javascript>
-<math>\exists</math> X : ''instance_of''(X, TTO:1001979) <math>\and</math> ''PHENOSCAPE:exhibits''(X, PATO:0000467^OBO_REL:inheres_in(TAO:0000602)) -- (2)
+<math>\exists</math> X : ''instance_of''(X, TTO:1001979) <math>\and</math> ''PHENOSCAPE:exhibits''(X, PATO:0000573^OBO_REL:inheres_in(TAO:0001938)^OBO_REL:towards(TAO:0001967))                                                               -- (2)
 
-Given that ''Danio rerio'' (TTO:1001979) is subsumed by the genus ''Danio'' (TTO:101040) in the Teleost Taxonomy as shown in (3), it is possible to infer that ''Danio'' exhibits uroneural (4).
+Given that ''Danio rerio'' (TTO:1001979) is subsumed by the genus ''Danio'' (TTO:101040) in the Teleost Taxonomy as shown in (3), it is possible to infer that "''Danio'' exhibits increased length of maxillary barbel towards hypural 5" (4).
 
 <javascript>
-TTO:1001979           OBO_REL:is_a                 TTO:101040                                                                -- (3)
-<TTO:101040           PHENOSCAPE:exhibits          PATO:0000467^OBO_REL:inheres_in(TAO:0000602)                              -- (4)
+TTO:1001979           OBO_REL:is_a                 TTO:101040                                                                            -- (3)
+<TTO:101040           PHENOSCAPE:exhibits          PATO:0000573^OBO_REL:inheres_in(TAO:0001938)^OBO_REL:towards(TAO:0001967)             -- (4)
 </javascript>
 
-Inferring down the taxonomy, that is using assertions at higher levels to extract inferences at lower levels, requires universal quantification. For example, the assertion that all Siluriformes do not exhibit basihyal cartilage can be captured using OBD semantics as shown in (5). The universal semantics of this assertion is shown in (6). Siluriformes directly subsumes Ictaluridae as shown in (7). From (5) and (7), it is straightforward to infer that Ictaluridae lack basihyal cartilage as shown in (8).
+Inferring down the taxonomy, that is using assertions at higher levels to extract inferences at lower levels, requires universal quantification. For example, the assertion that all "Siluriformes exhibit decreased length of mesethmoid bone" can be captured using OBD semantics as shown in (5). The universal semantics of this assertion is shown in (6). Siluriformes directly subsumes Ictaluridae as shown in (7). From (5) and (7), it is straightforward to infer that Ictaluridae lack basihyal cartilage as shown in (8).
 
 <javascript>
-TTO:1380            PHENOSCAPE:exhibits          PATO:0000462^OBO_REL:inheres_in(TAO:0001518)                                -- (5)
+TTO:1380            PHENOSCAPE:exhibits          PATO:0000599^OBO_REL:inheres_in(TAO:0000323)                                            -- (5)
 </javascript>
-<math>\forall</math> X : ''instance_of''(X, TTO:1380) <math>\and</math> ''PHENOSCAPE:exhibits''(X, PATO:0000462^OBO_REL:inheres_in(TAO:0001510))    -- (6)
+<math>\forall</math> X : ''instance_of''(X, TTO:1380) <math>\and</math> ''PHENOSCAPE:exhibits''(X, PATO:0000599^OBO_REL:inheres_in(TAO:0000323))    -- (6)
 <javascript>
 TTO:10930           OBO_REL:is_a                 TTO:1380                                                                    -- (7)
-TTO:10930           PHENOSCAPE:exhibits          PATO:0000462^OBO_REL:inheres_in(TAO:0001518)                                -- (8)
+TTO:10930           PHENOSCAPE:exhibits          PATO:0000599^OBO_REL:inheres_in(TAO:0000323)                                -- (8)
 </javascript>
 
-The problem with using top-down inferences using universally quantified statements is that currently there is no way to distinguish these from existentially quantified statements. We use the ''PHENOSCAPE:exhibits'' relation for existentially quantified statements. Using the same relation for universally quantified statements would make it possible to extract incorrect inferences given the current configuration. Consider the subsumption relationship between ''Danio'' and ''Danio choprai'' shown in (9). If there is no distinction between existentially and universally quantified statements, it is possible to infer from (9) and (4) the erroneous conclusion that ''Danio choprai'' exhibits uroneural (10). At present, there are no annotations to ''Danio choprai''.
+The problem with using top-down inferences using universally quantified statements is that currently there is no way to distinguish these from existentially quantified statements. We use the ''PHENOSCAPE:exhibits'' relation for existentially quantified statements. Using the same relation for universally quantified statements would make it possible to extract incorrect inferences given the current configuration. Consider the subsumption relationship between ''Danio'' and ''Danio choprai'' shown in (9). If there is no distinction between existentially and universally quantified statements, it is possible to infer from (9) and (4) the erroneous conclusion that "''Danio choprai'' exhibits increased length of maxillary barbel towards hypural 5" (10). At present, there are no annotations to ''Danio choprai''.
 
 <javascript>
 TTO:1052801           OBO_REL:is_a                 TTO:101040                                                                -- (9)
