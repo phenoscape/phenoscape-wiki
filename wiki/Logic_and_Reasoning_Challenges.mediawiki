@@ -30,7 +30,7 @@ Differences between the [[The exhibits relation conundrum|existing semantics]] a
 
 ==Inferring in both directions on the taxonomy==
 
-It is desired that annotations to higher taxa in the taxonomy be propagated to the lower taxa that are subsumed by the higher taxon; i.e. classical top down inferences. Given that the reasoner already reasons bottom upward, associating phenotype annotations from the lower level taxa to the higher level taxa, adding top-down inferencing may cause widespread inconsistencies in the data.
+It is desired that annotations to higher taxa in the taxonomy be propagated to the lower taxa that are subsumed by the higher taxon; i.e. classical top down inferences. Given that the reasoner already reasons bottom upward, associating phenotype annotations from the lower level taxa to the higher level taxa, adding top-down inferencing may cause widespread inconsistencies in the data if unchecked.
 
 The OBD reasoner can reason from annotations at the lower levels of the taxonomy to the higher levels. Given that ''Danio rerio'' exhibits a phenotype P, the OBD reasoner infers that ''Danio'' exhibits the same phenotype P. This is reasoning up the taxonomy, using the subsumption relationship between ''Danio rerio'' and ''Danio''. This is possible because the annotations to each taxon are (implicitly) existentially quantified. The annotation "''Danio rerio'' exhibits increased length of maxillary barbel towards hypural 5" is shown in (1). The semantics are in (2).
 
