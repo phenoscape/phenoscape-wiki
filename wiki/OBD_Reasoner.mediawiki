@@ -215,7 +215,7 @@ Differences between the [[The exhibits relation conundrum|existing semantics]] a
 
 ===Inferring down the taxonomy===
 
-The OBD reasoner can reason from annotations at the lower levels of the taxonomy to the higher levels [[#Balhoff rule]]. Given that ''Danio rerio'' exhibits a phenotype P, the OBD reasoner infers that ''Danio'' exhibits the same phenotype P. This is reasoning up the taxonomy, using the subsumption relationship between ''Danio rerio'' and ''Danio''. This is possible because the annotations to each taxon are (implicitly) existentially quantified. The annotation ''Danio rerio'' exhibits uroneural is shown in (1). The semantics are in (2).
+The OBD reasoner can reason from annotations at the lower levels of the taxonomy to the higher levels [[#Balhoff rule|Balhoff rule]]. Given that ''Danio rerio'' exhibits a phenotype P, the OBD reasoner infers that ''Danio'' exhibits the same phenotype P. This is reasoning up the taxonomy, using the subsumption relationship between ''Danio rerio'' and ''Danio''. This is possible because the annotations to each taxon are (implicitly) existentially quantified. The annotation ''Danio rerio'' exhibits uroneural is shown in (1). The semantics are in (2).
 
 <javascript>
 <TTO:1001979>            <PHENOSCAPE:exhibits>          <PATO:0000467^OBO_REL:inheres_in(TAO:0000602)>                             -- (1)
