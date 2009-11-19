@@ -30,7 +30,7 @@ Differences between the [[The exhibits relation conundrum|existing semantics]] a
 
 ==Inferring down the taxonomy==
 
-The OBD reasoner can reason from annotations at the lower levels of the taxonomy to the higher levels ([[#Balhoff rule|Balhoff rule]]). Given that ''Danio rerio'' exhibits a phenotype P, the OBD reasoner infers that ''Danio'' exhibits the same phenotype P. This is reasoning up the taxonomy, using the subsumption relationship between ''Danio rerio'' and ''Danio''. This is possible because the annotations to each taxon are (implicitly) existentially quantified. The annotation ''Danio rerio'' exhibits uroneural is shown in (1). The semantics are in (2).
+The OBD reasoner can reason from annotations at the lower levels of the taxonomy to the higher levels. Given that ''Danio rerio'' exhibits a phenotype P, the OBD reasoner infers that ''Danio'' exhibits the same phenotype P. This is reasoning up the taxonomy, using the subsumption relationship between ''Danio rerio'' and ''Danio''. This is possible because the annotations to each taxon are (implicitly) existentially quantified. The annotation ''Danio rerio'' exhibits uroneural is shown in (1). The semantics are in (2).
 
 <javascript>
 TTO:1001979            PHENOSCAPE:exhibits          PATO:0000467^OBO_REL:inheres_in(TAO:0000602)                             -- (1)
@@ -55,9 +55,11 @@ TTO:10930           OBO_REL:is_a                 TTO:1380                       
 TTO:10930           PHENOSCAPE:exhibits          PATO:0000462^OBO_REL:inheres_in(TAO:0001518)                                -- (8)
 </javascript>
 
-The problem with using top-down inferences using universally quantified statements is that currently there is no way to distinguish these from existentially quantified statements. Without making this explicit in the way taxon - phenotype assertions are made, it is possible to extract incorrect inferences given the current configuration. Consider the subsumption relationship between ''Danio'' and ''Danio choprai'' shown in (9). If there is no distinction between existentially and universally quantified statements, it is possible to infer from (9) and (4) the erroneous conclusion that ''Danio choprai'' exhibits uroneural (10). At present, there are no annotations to ''Danio choprai''.
+The problem with using top-down inferences using universally quantified statements is that currently there is no way to distinguish these from existentially quantified statements. We use the ''PHENOSCAPE:exhibits'' relation for existentially quantified statements. Using the same relation for universally quantified statements would make it possible to extract incorrect inferences given the current configuration. Consider the subsumption relationship between ''Danio'' and ''Danio choprai'' shown in (9). If there is no distinction between existentially and universally quantified statements, it is possible to infer from (9) and (4) the erroneous conclusion that ''Danio choprai'' exhibits uroneural (10). At present, there are no annotations to ''Danio choprai''.
 
 <javascript>
 TTO:1052801           OBO_REL:is_a                 TTO:101040                                                                -- (9)
 TTO:1052801           PHENOSCAPE:exhibits          PATO:0000462^OBO_REL:inheres_in(TAO:0000602)                              -- (10)
 </javascript>
+
+Recall that the reasoner works in sweeps. It extracts one set of inferences (Inf-1) from the assertions (A) in its first sweep. In the next sweep, the reasoner pulls out a different set of inferences (Inf-2) from the assertions A 'AS WELL AS' the inferences Inf-1 from the previous sweep. The reasoner repeats these sweeps until no new inferences are added. This is why the reasoner will likely infer all taxa exhibit all phenotypes if it is used to reason both up and down the taxonomy.
