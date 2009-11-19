@@ -68,7 +68,7 @@ Recall that the reasoner works in sweeps. It extracts one set of inferences (Inf
 
 ===Possible solutions===
 
-In this section, we discuss possible approaches to resolving this issue with reasoning both up and down the taxonomy. 
+In this section, we discuss possible approaches to resolving this issue with reasoning both up and down the taxonomy.
 
 ====Different relations for different purposes====
 
@@ -78,17 +78,48 @@ In Phenoscape, we have adopted the OBD schema of modeling concepts, wherein all 
 
 By default, we use the ''PHENOSCAPE:exhibits'' relation to link taxa to phenotypes using existential semantics. Using the same relation to model universally quantified relationships between taxa and phenotypes, would cause incorrect inferencing and loss of data integrity. The easiest way to address this issue is to use different relations; one for universally quantified relations and the other for existentially quantified relations. Let us call these relations ''PHENOSCAPE:all_exhibit'' and ''PHENOSCAPE:some_exhibit'' respectively.
 
-Now the OBD reasoner uses the following rule to extract inferences up the taxonomy using the ''PHENOSCAPE:exhibits'' relation.
+Now the OBD reasoner uses the following rule to extract inferences up the taxonomy using the ''PHENOSCAPE:exhibits'' relation (1).
 
-'''Rule:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''exhibits''(A, x)  <math>\Rightarrow</math> ''exhibits''(B, x)
+'''Rule:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''exhibits''(A, x)  <math>\Rightarrow</math> ''exhibits''(B, x)  --(1)
 
-This can be replaced with the following two rules, which use the two new relations, ''PHENOSCAPE:all_exhibit'' and ''PHENOSCAPE:some_exhibit''. (Please suggest better names for these if you can think of them). 
+This can be replaced with the following two rules, which use the two new relations, ''PHENOSCAPE:all_exhibit'' and ''PHENOSCAPE:some_exhibit''. (Please suggest better names for these if you can think of them).
 
-'''Rule:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''some_exhibit''(A, x)  <math>\Rightarrow</math> ''some_exhibit''(B, x)
+'''Rule:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''some_exhibit''(A, x)  <math>\Rightarrow</math> ''some_exhibit''(B, x) --(2)
 
-'''Rule:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''all_exhibit''(B, x)  <math>\Rightarrow</math> ''all_exhibit''(A, x)
+'''Rule:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''all_exhibit''(B, x)  <math>\Rightarrow</math> ''all_exhibit''(A, x)  --(3)
 
-This will keep the inferences from getting mixed up. Let us consider the scenario where species S1 and S2 (from genus G1) are asserted to exhibit phenotype P. These assertions are shown in
+This will keep the inferences from getting mixed up. Let us consider the scenario where species Sp1 and Sp2 (from genus Ge1) are asserted to exhibit phenotype Phen1. These assertions are shown in (A-1) and (A-2). The subsumption relations are shown in (A-3) and (A-4)
+
+<javascript>
+Sp1           PHENOSCAPE:some_exhibit          Phen1                              -- (A-1)
+Sp2           PHENOSCAPE:some_exhibit          Phen1                              -- (A-2)
+Sp1           OBO_REL:is_a                     Ge1                                -- (A-3)
+Sp2           OBO_REL:is_a                     Ge1                                -- (A-4)  
+</javascript>
+
+The reasoner makes the inference (I-1) from the assertions (A-1) ~ (A-4) and the inference rule (2). 
+
+<javascript>
+Ge1           PHENOSCAPE:some_exhibit          Phen1                              -- (I-1)
+</javascript>
+
+Now. given this new inference (I-1), the reasoner cannot infer that all the species Sp1, Sp2, and let us say 10 other species Sp3 ~ Sp12 also exhibit Phen1, because the inference rule for some_exhibit cannot be used to infer down the taxonomy. Again, consider the assertion that ALL instances of genus Ge1 exhibit a phenotype Phen2 as shown in (A-5)
+
+<javascript>
+Ge1           PHENOSCAPE:all_exhibit          Phen2                              -- (A-5)
+</javascript>
+
+Given (A-5) and all the subsumption relations between Ge1 and the hypothetical twelve species under Ge1, the reasoner uses inference rule (3) to infer (I-2) ~ (I-14)
+
+<javascript>
+Sp1           PHENOSCAPE:all_exhibit          Phen2                              -- (I-2)
+Sp2           PHENOSCAPE:all_exhibit          Phen2                              -- (I-3)
+..
+..
+Sp12          PHENOSCAPE:all_exhibit          Phen2                              -- (I-14)
+</javascript>
+
+Again, cyclical inferences are ruled out because there are no inference rules to infer up the taxonomy using the ''all-exhibit'' relation.
 
 [[Category:EQ Annotation]]
 [[Category:Informatics]]
