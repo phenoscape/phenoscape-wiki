@@ -187,7 +187,7 @@ An example of relation inversions can be found in the ''posterior_to'' and ''ant
 
 == Issues to resolve in Phenoscape ==
 
-These are outstanding issues that need to be resolved.
+These are outstanding issues that need to be resolved. [[Details_of_outstanding_issues_with_Phenoscape | Details ]]
 
 === The problem with absence of features===
 
