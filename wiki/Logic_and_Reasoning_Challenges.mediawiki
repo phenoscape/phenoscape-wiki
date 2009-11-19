@@ -4,30 +4,6 @@ title: Logic and Reasoning Challenges
 
 This page discusses issues to be resolved in the near future. These issues pertain to relation semantics as well as inference procedures.
 
-== The problem with absence of features==
-
-Descriptions of phenotypes as used in the Phenoscape project (and a plethora of phenomena in the real world) are replete with exceptions, or aberrations from what is considered to be "normal." While canonical ontologies like the [http://sig.biostr.washington.edu/projects/fm/ FMA] and the [http://www.berkeleybop.org/ontologies/obo-all/teleost_anatomy/teleost_anatomy.obo TAO] contain ontological definitions of ideal specimens, observations in the life sciences are full of aberrations to these general rules.
-
-Phenoscape has some typical issues dealing with absence of anatomical features in certain species of Ostariophysian fishes. For example, the basihyal cartilage is found in all species of Ostariophysian fishes, except the Siluriformes. At present, this information is captured in Phenoscape using the combination of the PATO term for "absent in organism" (PATO:0000462), the "inheres_in" relation from the OBO Relations Ontology, the TAO term for "basihyal cartilage" (TAO:0001510), the "exhibits" relation from the PHENOSCAPE ontology, and the TTO term for Siluriformes (TTO:1380). This is shown below.
-
-<javascript>
-TTO:1380              PHENOSCAPE:exhibits                  PATO:0000462^OBO_REL:inheres_in(TAO:0001510)
-</javascript>
-
-In plain English, this translates to "Siluriformes exhibit absence in organism which inheres in basihyal cartilage." The semantics of this sentence are vague to say the least. Going by this methodology, it is impossible to state that basihyal cartilage is absent in Siluriformes without referring to ''at least one'' instance of basihyal cartilage. Combining a quality ''absent'' with a ''feature'' through the ''inheres_in''  property is very misleading in itself (ex: absence inheres in cartilage), contorting the intrinsic semantics of the ''inheres_in'' relation. These problems have been discussed in [http://www.ncbi.nlm.nih.gov/pubmed/17369081 Ceusters et al] and [http://www.biomedcentral.com/1471-2105/8/377 Hoehndorf et al]. Both these publications propose solutions to integrate these aberrant observations with canonical definitions, without causing inconsistencies in reasoning procedures.
-
-[[Media:PhenotypesInPhenoscape.ppt]]
-
-[[Discussion about the Absence of Phenotypes issue]]
-
-Another issue specific to the Phenoscape project was raised by Paula at the SICB workshop. Given that basihyal cartilage is absent in Siluriformes, basihyal bone should be absent in Siluriformes as well. This is because basihyal bone develops from basihyal cartilage. This may be inferred by adding a new relation chaining rule shown below to the OBD reasoner
-
-'''Rule:'''<math>\forall</math>F1, F2, S: ''absent_in''(F1, S) <math>\and</math> ''develops_from''(F2, F1) <math>\Rightarrow</math> ''absent_in''(F2, S)
-
-This relation chain corresponds to the observation GIVEN THAT Basihyal_Cartilage ''absent_in'' Siluriformes AND Basihyal_Bone ''develops_from'' Basihyal_cartilage, THEN Basihyal_Bone ''absent_in'' Siluriformes. This and other similar relation chains (as per identified requirements) are to be implemented for the Phenoscape project in the future. Strategies to deal with absent features in general are also to be implemented in the near future.
-
-Differences between the [[The exhibits relation conundrum|existing semantics]] and [[Relating taxa to phenotypes|desired semantics]] of the ''exhibits'' relation need to be resolved to address this issue. Potential strategies to implement the absence of features problem are discussed [[Novel reasoning strategies|here]].
-
 ==Inferring in both directions on the taxonomy==
 
 It is desired that annotations to higher taxa in the taxonomy be propagated to the lower taxa that are subsumed by the higher taxon; i.e. classical top down inferences. Given that the reasoner already reasons bottom upward, associating phenotype annotations from the lower level taxa to the higher level taxa, adding top-down inferencing may cause widespread inconsistencies in the data if unchecked.
@@ -141,6 +117,30 @@ The advantage of this strategy will be that we can continue to use the ''PHENOSC
 =====What needs to change?=====
 
 Curators will have to manually enter uncertainty factors (UFs) of the assertions in the Phenex UI, which needs modification to handle these. The character matrix format needs to be modified to accommodate UFs. The data loader module needs to use reified statements around assertions to store UFs. The OBD reasoner will have to be augmented with an implementation of uncertainty calculus. The query module needs to retrieve the UF associated with every assertion, and export this in a modified JSON format. Lastly, the UI will have to add a provision to display uncertainty factors.
+
+== The problem with absence of features==
+
+Descriptions of phenotypes as used in the Phenoscape project (and a plethora of phenomena in the real world) are replete with exceptions, or aberrations from what is considered to be "normal." While canonical ontologies like the [http://sig.biostr.washington.edu/projects/fm/ FMA] and the [http://www.berkeleybop.org/ontologies/obo-all/teleost_anatomy/teleost_anatomy.obo TAO] contain ontological definitions of ideal specimens, observations in the life sciences are full of aberrations to these general rules.
+
+Phenoscape has some typical issues dealing with absence of anatomical features in certain species of Ostariophysian fishes. For example, the basihyal cartilage is found in all species of Ostariophysian fishes, except the Siluriformes. At present, this information is captured in Phenoscape using the combination of the PATO term for "absent in organism" (PATO:0000462), the "inheres_in" relation from the OBO Relations Ontology, the TAO term for "basihyal cartilage" (TAO:0001510), the "exhibits" relation from the PHENOSCAPE ontology, and the TTO term for Siluriformes (TTO:1380). This is shown below.
+
+<javascript>
+TTO:1380              PHENOSCAPE:exhibits                  PATO:0000462^OBO_REL:inheres_in(TAO:0001510)
+</javascript>
+
+In plain English, this translates to "Siluriformes exhibit absence in organism which inheres in basihyal cartilage." The semantics of this sentence are vague to say the least. Going by this methodology, it is impossible to state that basihyal cartilage is absent in Siluriformes without referring to ''at least one'' instance of basihyal cartilage. Combining a quality ''absent'' with a ''feature'' through the ''inheres_in''  property is very misleading in itself (ex: absence inheres in cartilage), contorting the intrinsic semantics of the ''inheres_in'' relation. These problems have been discussed in [http://www.ncbi.nlm.nih.gov/pubmed/17369081 Ceusters et al] and [http://www.biomedcentral.com/1471-2105/8/377 Hoehndorf et al]. Both these publications propose solutions to integrate these aberrant observations with canonical definitions, without causing inconsistencies in reasoning procedures.
+
+[[Media:PhenotypesInPhenoscape.ppt]]
+
+[[Discussion about the Absence of Phenotypes issue]]
+
+Another issue specific to the Phenoscape project was raised by Paula at the SICB workshop. Given that basihyal cartilage is absent in Siluriformes, basihyal bone should be absent in Siluriformes as well. This is because basihyal bone develops from basihyal cartilage. This may be inferred by adding a new relation chaining rule shown below to the OBD reasoner
+
+'''Rule:'''<math>\forall</math>F1, F2, S: ''absent_in''(F1, S) <math>\and</math> ''develops_from''(F2, F1) <math>\Rightarrow</math> ''absent_in''(F2, S)
+
+This relation chain corresponds to the observation GIVEN THAT Basihyal_Cartilage ''absent_in'' Siluriformes AND Basihyal_Bone ''develops_from'' Basihyal_cartilage, THEN Basihyal_Bone ''absent_in'' Siluriformes. This and other similar relation chains (as per identified requirements) are to be implemented for the Phenoscape project in the future. Strategies to deal with absent features in general are also to be implemented in the near future.
+
+Differences between the [[The exhibits relation conundrum|existing semantics]] and [[Relating taxa to phenotypes|desired semantics]] of the ''exhibits'' relation need to be resolved to address this issue. Potential strategies to implement the absence of features problem are discussed [[Novel reasoning strategies|here]].
 
 [[Category:EQ Annotation]]
 [[Category:Informatics]]
