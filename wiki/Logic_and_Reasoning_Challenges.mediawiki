@@ -88,28 +88,28 @@ This can be replaced with the following two rules, which use the two new relatio
 
 '''Rule:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''all_exhibit''(B, x)  <math>\Rightarrow</math> ''all_exhibit''(A, x)  --(3)
 
-This will keep the inferences from getting mixed up. Let us consider the scenario where species Sp1 and Sp2 (from genus Ge1) are asserted to exhibit phenotype Phen1. These assertions are shown in (A-1) and (A-2). The subsumption relations are shown in (A-3) and (A-4)
+This will keep the inferences from getting mixed up. Let us consider the scenario where species Sp1 and Sp2 (from genus Gen1) are asserted to exhibit phenotype Phen1. These assertions are shown in (A-1) and (A-2). The subsumption relations are shown in (A-3) and (A-4)
 
 <javascript>
-Sp1           PHENOSCAPE:some_exhibit          Phen1                              -- (A-1)
-Sp2           PHENOSCAPE:some_exhibit          Phen1                              -- (A-2)
-Sp1           OBO_REL:is_a                     Ge1                                -- (A-3)
-Sp2           OBO_REL:is_a                     Ge1                                -- (A-4)  
+Sp1           PHENOSCAPE:some_exhibit          Phen1                               -- (A-1)
+Sp2           PHENOSCAPE:some_exhibit          Phen1                               -- (A-2)
+Sp1           OBO_REL:is_a                     Gen1                                -- (A-3)
+Sp2           OBO_REL:is_a                     Gen1                                -- (A-4)
 </javascript>
 
-The reasoner makes the inference (I-1) from the assertions (A-1) ~ (A-4) and the inference rule (2). 
+The reasoner makes the inference (I-1) from the assertions (A-1) ~ (A-4) and the inference rule (2).
 
 <javascript>
-Ge1           PHENOSCAPE:some_exhibit          Phen1                              -- (I-1)
+Gen1           PHENOSCAPE:some_exhibit          Phen1                              -- (I-1)
 </javascript>
 
-Now. given this new inference (I-1), the reasoner cannot infer that all the species Sp1, Sp2, and let us say 10 other species Sp3 ~ Sp12 also exhibit Phen1, because the inference rule for some_exhibit cannot be used to infer down the taxonomy. Again, consider the assertion that ALL instances of genus Ge1 exhibit a phenotype Phen2 as shown in (A-5)
+Now. given this new inference (I-1), the reasoner cannot infer that all the species Sp1, Sp2, and let us say 10 other species Sp3 ~ Sp12 also exhibit Phen1, because the inference rule for some_exhibit cannot be used to infer down the taxonomy. Again, consider the assertion that ALL instances of genus Gen1 exhibit a phenotype Phen2 as shown in (A-5)
 
 <javascript>
-Ge1           PHENOSCAPE:all_exhibit          Phen2                              -- (A-5)
+Gen1           PHENOSCAPE:all_exhibit          Phen2                              -- (A-5)
 </javascript>
 
-Given (A-5) and all the subsumption relations between Ge1 and the hypothetical twelve species under Ge1, the reasoner uses inference rule (3) to infer (I-2) ~ (I-14)
+Given (A-5) and all the subsumption relations between Gen1 and the hypothetical twelve species under Gen1 (including A-3 and A-4), the reasoner uses inference rule (3) to infer (I-2) ~ (I-14)
 
 <javascript>
 Sp1           PHENOSCAPE:all_exhibit          Phen2                              -- (I-2)
@@ -120,6 +120,10 @@ Sp12          PHENOSCAPE:all_exhibit          Phen2                             
 </javascript>
 
 Again, cyclical inferences are ruled out because there are no inference rules to infer up the taxonomy using the ''all-exhibit'' relation.
+
+=====What has to change?=====
+
+To implement this strategy, two new relations can be defined in the Phenoscape Vocab ontology, where the current definition of the ''PHENOSCAPE:exhibits'' relation is found. At the curation level, curators have to qualify their assertions as being existentially or universally quantified. Specifically, the Phenex UI could tap the curator's shoulder and ask, "Ahem, does this annotation hold true for all specimens belonging to this taxa or just some specimens?" This needs some changes (no less!) to the Phenex interface and also to the character matrix format in which the data is exported. The data loader module of Phenoscape has to know this information so that the appropriate relation is used in creating the taxon-phenotype statement to be loaded into the knowledgebase. The query module will have to be modified to retrieve both inferred and asserted taxon-phenotype statements using the two different relations. The JSON format in which the data is exported needs to be modified to accommodate the two different kinds of relation statements, and lastly the UI will have to explicitly distinguish between the two.
 
 [[Category:EQ Annotation]]
 [[Category:Informatics]]
