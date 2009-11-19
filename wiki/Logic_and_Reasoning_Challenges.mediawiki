@@ -32,14 +32,14 @@ Differences between the [[The exhibits relation conundrum|existing semantics]] a
 
 It is desired that annotations to higher taxa in the taxonomy be propagated to the lower taxa that are subsumed by the higher taxon; i.e. classical top down inferences. Given that the reasoner already reasons bottom upward, associating phenotype annotations from the lower level taxa to the higher level taxa, adding top-down inferencing may cause widespread inconsistencies in the data if unchecked.
 
-The OBD reasoner can reason from annotations at the lower levels of the taxonomy to the higher levels. Given that ''Danio rerio'' exhibits a phenotype P, the OBD reasoner infers that ''Danio'' exhibits the same phenotype P. This is reasoning up the taxonomy, using the subsumption relationship between ''Danio rerio'' and ''Danio''. This is possible because the annotations to each taxon are (implicitly) existentially quantified. The annotation "''Danio rerio'' exhibits increased length of maxillary barbel towards hypural 5" is shown in (1). The semantics are in (2).
+The OBD reasoner can reason from annotations at the lower levels of the taxonomy to the higher levels. Given that ''Danio rerio'' exhibits a phenotype P, the OBD reasoner infers that ''Danio'' exhibits the same phenotype P. This is reasoning up the taxonomy, using the subsumption relationship between ''Danio rerio'' and ''Danio''. This is possible because the annotations to each taxon are (implicitly) existentially quantified. The annotation "''Danio rerio'' exhibits increased length of maxillary barbel towards orbit" is shown in (1). The semantics are in (2).
 
 <javascript>
 TTO:1001979            PHENOSCAPE:exhibits         PATO:0000573^OBO_REL:inheres_in(TAO:0001938)^OBO_REL:towards(TAO:0001967)             -- (1)
 </javascript>
 <math>\exists</math> X : ''instance_of''(X, TTO:1001979) <math>\and</math> ''PHENOSCAPE:exhibits''(X, PATO:0000573^OBO_REL:inheres_in(TAO:0001938)^OBO_REL:towards(TAO:0001967))                                                               -- (2)
 
-Given that ''Danio rerio'' (TTO:1001979) is subsumed by the genus ''Danio'' (TTO:101040) in the Teleost Taxonomy as shown in (3), it is possible to infer that "''Danio'' exhibits increased length of maxillary barbel towards hypural 5" (4).
+Given that ''Danio rerio'' (TTO:1001979) is subsumed by the genus ''Danio'' (TTO:101040) in the Teleost Taxonomy as shown in (3), it is possible to infer that "''Danio'' exhibits increased length of maxillary barbel towards orbit" (4).
 
 <javascript>
 TTO:1001979           OBO_REL:is_a                 TTO:101040                                                                            -- (3)
