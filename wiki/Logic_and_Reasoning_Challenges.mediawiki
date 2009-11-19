@@ -136,11 +136,11 @@ To implement this strategy, two new relations can be defined in the Phenoscape V
 
 Uncertainties are everywhere in the life sciences. The taxon-phenotype assertions can be augmented with uncertainty factors to address this issue. Inferences could use uncertainty calculi such as the [http://en.wikipedia.org/wiki/Dempster%E2%80%93Shafer_theory| Dempster-Schafer method] or Bayes conditional probability rule to derive uncertainty factors of the inferences given the uncertainty factors of the assertions.
 
-The advantage of this strategy will be that we can continue to use the ''PHENOSCAPE:exhibits'' relation for taxon-phenotype statements, and at the same time display the uncertainty values associated with every assertion displayed at the UI; far more intuitive that displaying "Taxon T exhibits increased size of E AND decreased size of E."  
+The advantage of this strategy will be that we can continue to use the ''PHENOSCAPE:exhibits'' relation for taxon-phenotype statements, and at the same time display the uncertainty values associated with every assertion displayed at the UI; far more intuitive than "Taxon T exhibits increased size of E AND decreased size of E."
 
 =====What needs to change?=====
 
-Curators will have to manually enter uncertainty factors (UFs) of the assertions in the Phenex UI, which needs modification to handle these. The character matrix format needs to be modified to accommodate UFs. The data loader module needs to use reified statements around assertions to handle UFs. The OBD reasoner will have to be augmented with a method to use uncertainty calculi. The query module needs to retrieve UF associated with every assertion, and export this in a modified JSON format. Lastly, the UI will have to add a provision to display uncertainty factors.
+Curators will have to manually enter uncertainty factors (UFs) of the assertions in the Phenex UI, which needs modification to handle these. The character matrix format needs to be modified to accommodate UFs. The data loader module needs to use reified statements around assertions to store UFs. The OBD reasoner will have to be augmented with an implementation of uncertainty calculus. The query module needs to retrieve the UF associated with every assertion, and export this in a modified JSON format. Lastly, the UI will have to add a provision to display uncertainty factors.
 
 [[Category:EQ Annotation]]
 [[Category:Informatics]]
