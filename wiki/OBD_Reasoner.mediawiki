@@ -217,7 +217,7 @@ The OBD reasoner can reason from annotations at the lower levels of the taxonomy
 <javascript>
 <TTO:1001979>            <PHENOSCAPE:exhibits>          <PATO:0000467^OBO_REL:inheres_in(TAO:0000602)>                             -- (1)
 </javascript>
-<math>\exists</math> X : ''instance_of''(X, TTO:1001979)^''PHENOSCAPE:exhibits''(X, PATO:0000467^OBO_REL:inheres_in(TAO:0000602))  -- (2)
+<math>\exists</math> X : ''instance_of''(X, TTO:1001979) ^ ''PHENOSCAPE:exhibits''(X, PATO:0000467^OBO_REL:inheres_in(TAO:0000602))  -- (2)
 
 Given that ''Danio rerio'' is subsumed by the genus ''Danio'' in the Teleost Taxonomy as shown in (3), it is possible to infer that ''Danio'' exhibits uroneural (4).
 
