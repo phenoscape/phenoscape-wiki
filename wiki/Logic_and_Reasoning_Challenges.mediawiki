@@ -80,13 +80,13 @@ By default, we use the ''PHENOSCAPE:exhibits'' relation to link taxa to phenotyp
 
 Now the OBD reasoner uses the following rule to extract inferences up the taxonomy using the ''PHENOSCAPE:exhibits'' relation (1).
 
-'''Rule:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''exhibits''(A, x)  <math>\Rightarrow</math> ''exhibits''(B, x)  --(1)
+'''Rule-1:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''exhibits''(A, x)  <math>\Rightarrow</math> ''exhibits''(B, x)  
 
 This can be replaced with the following two rules, which use the two new relations, ''PHENOSCAPE:all_exhibit'' and ''PHENOSCAPE:some_exhibit''. (Please suggest better names for these if you can think of them).
 
-'''Rule:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''some_exhibit''(A, x)  <math>\Rightarrow</math> ''some_exhibit''(B, x) --(2)
+'''Rule-2:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''some_exhibit''(A, x)  <math>\Rightarrow</math> ''some_exhibit''(B, x) 
 
-'''Rule:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''all_exhibit''(B, x)  <math>\Rightarrow</math> ''all_exhibit''(A, x)  --(3)
+'''Rule-3:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''all_exhibit''(B, x)  <math>\Rightarrow</math> ''all_exhibit''(A, x) 
 
 This will keep the inferences from getting mixed up. Let us consider the scenario where species Sp1 and Sp2 (from genus Gen1) are asserted to exhibit phenotype Phen1. These assertions are shown in (A-1) and (A-2). The subsumption relations are shown in (A-3) and (A-4)
 
@@ -97,7 +97,7 @@ Sp1           OBO_REL:is_a                     Gen1                             
 Sp2           OBO_REL:is_a                     Gen1                                -- (A-4)
 </javascript>
 
-The reasoner makes the inference (I-1) from the assertions (A-1) ~ (A-4) and the inference rule (2).
+The reasoner makes the inference (I-1) from the assertions (A-1) ~ (A-4) and the inference rule Rule-2.
 
 <javascript>
 Gen1           PHENOSCAPE:some_exhibit          Phen1                              -- (I-1)
@@ -109,7 +109,7 @@ Now. given this new inference (I-1), the reasoner cannot infer that all the spec
 Gen1           PHENOSCAPE:all_exhibit          Phen2                              -- (A-5)
 </javascript>
 
-Given (A-5) and all the subsumption relations between Gen1 and the hypothetical twelve species under Gen1 (including A-3 and A-4), the reasoner uses inference rule (3) to infer (I-2) ~ (I-13)
+Given (A-5) and all the subsumption relations between Gen1 and the hypothetical twelve species under Gen1 (including A-3 and A-4), the reasoner uses inference rule Rule-3 to infer (I-2) ~ (I-13)
 
 <javascript>
 Sp1           PHENOSCAPE:all_exhibit          Phen2                              -- (I-2)
