@@ -169,7 +169,7 @@ A reasoner functions over several sweeps. In each sweep, new implicit inferences
 
 ==Future directions==
 
-Possible future directions for the extension of the reasoner include adding more relation properties as well as some [[Technical_issues_to_be_resolved|outstanding technical issues]]. 
+Possible future directions for the extension of the reasoner include adding more relation properties as well as some [[Technical_issues_to_be_resolved_in_the_reasoner_and_relation_semantics|outstanding technical issues]].
 
 ===Relation Properties to be implemented ===
 
