@@ -109,14 +109,14 @@ Now. given this new inference (I-1), the reasoner cannot infer that all the spec
 Gen1           PHENOSCAPE:all_exhibit          Phen2                              -- (A-5)
 </javascript>
 
-Given (A-5) and all the subsumption relations between Gen1 and the hypothetical twelve species under Gen1 (including A-3 and A-4), the reasoner uses inference rule (3) to infer (I-2) ~ (I-14)
+Given (A-5) and all the subsumption relations between Gen1 and the hypothetical twelve species under Gen1 (including A-3 and A-4), the reasoner uses inference rule (3) to infer (I-2) ~ (I-13)
 
 <javascript>
 Sp1           PHENOSCAPE:all_exhibit          Phen2                              -- (I-2)
 Sp2           PHENOSCAPE:all_exhibit          Phen2                              -- (I-3)
 ..
 ..
-Sp12          PHENOSCAPE:all_exhibit          Phen2                              -- (I-14)
+Sp12          PHENOSCAPE:all_exhibit          Phen2                              -- (I-13)
 </javascript>
 
 Again, cyclical inferences are ruled out because there are no inference rules to infer up the taxonomy using the ''all-exhibit'' relation.
