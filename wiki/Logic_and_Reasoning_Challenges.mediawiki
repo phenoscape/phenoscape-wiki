@@ -43,7 +43,7 @@ Given that ''Danio rerio'' (TTO:1001979) is subsumed by the genus ''Danio'' (TTO
 
 <javascript>
 TTO:1001979           OBO_REL:is_a                 TTO:101040                                                                            -- (3)
-<TTO:101040           PHENOSCAPE:exhibits          PATO:0000573^OBO_REL:inheres_in(TAO:0001938)^OBO_REL:towards(TAO:0001967)             -- (4)
+TTO:101040           PHENOSCAPE:exhibits          PATO:0000573^OBO_REL:inheres_in(TAO:0001938)^OBO_REL:towards(TAO:0001967)              -- (4)
 </javascript>
 
 Inferring down the taxonomy, that is using assertions at higher levels to extract inferences at lower levels, requires universal quantification. For example, the assertion that all "Siluriformes exhibit decreased length of mesethmoid bone" can be captured using OBD semantics as shown in (5). The universal semantics of this assertion is shown in (6). Siluriformes directly subsumes Ictaluridae as shown in (7). From (5) and (7), it is straightforward to infer that Ictaluridae lack basihyal cartilage as shown in (8).
