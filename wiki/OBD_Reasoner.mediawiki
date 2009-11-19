@@ -182,9 +182,9 @@ NOTE: There is no direct relationship between ''relation symmetry'' and ''relati
 
 An example of relation inversions can be found in the ''posterior_to'' and ''anterior_to'' relations. IF anterior_nuchal_plate ''anterior_to'' middle_nuchal_plate AND ''anterior_to'' ''inverse_of'' ''posterior_to'', THEN middle_nuchal_plate ''posterior_to'' anterior_nuchal_plate
 
-== Novel inference procedures for Phenoscape ==
+== Issues to resolve in Phenoscape ==
 
-The semantics and relevance to the Phenoscape project of these rules are being discussed as of now. Here is a brief introduction.
+These are outstanding issues that need to be resolved. 
 
 === The problem with absence of features===
 
