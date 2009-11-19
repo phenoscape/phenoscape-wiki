@@ -164,6 +164,9 @@ This rule was proposed by Jim Balhoff to reason upwards in a (typically taxonomi
 
 This is the exact opposite of the ''genus differentia'' rule which postulates reasoning only downwards in a hierarchy.
 
+==Sweeps==
+A reasoner functions over several sweeps. In each sweep, new implicit inferences are derived from the explicit annotations (as described in the previous sections) and added to the database. In the following sweep, inferences added from the previous sweep are used to extract further inferences. This process continues until no additional inferences are added in a sweep. This is when the ''deductive closure of the inference procedure'' is reached. No further inferences are possible and the reasoner exits.
+
 ==Relation Properties to be implemented ==
 
 The following relation properties may be implemented on the reasoner in future if necessary.
@@ -184,7 +187,7 @@ An example of relation inversions can be found in the ''posterior_to'' and ''ant
 
 == Issues to resolve in Phenoscape ==
 
-These are outstanding issues that need to be resolved. 
+These are outstanding issues that need to be resolved.
 
 === The problem with absence of features===
 
@@ -243,8 +246,6 @@ The problem with using top-down inferences using universally quantified statemen
 <TTO:1052801>           <OBO_REL:is_a>                 <TTO:101040>                                                                -- (9)
 <TTO:1052801>           <PHENOSCAPE:exhibits>          <PATO:0000462^OBO_REL:inheres_in(TAO:0000602)>                              -- (10)
 </javascript>
-
-
 
 [[Category:Corrected usage in the examples with instance of]]
 [[Category:Informatics]]
