@@ -9,7 +9,7 @@ Phenex is an application for annotating character matrix files with ontology ter
 Phenex runs on any system with Java 5 or newer (Java 5 is also called version 1.5).  Java 5 comes pre-installed on Mac OS X 10.4 and later.  Phenex can't be used on older releases of Mac OS X (check your version of Mac OS X by selecting "About This Mac" under the Apple menu).  For Windows, you can check your version of Java, and install if necessary, at http://www.java.com/.  Phenex runs on Linux - just make sure you have Java 5 installed.
 
 ==Download & Installation==
-The latest version of Phenex can be obtained from [http://sourceforge.net/projects/obo/ OBO's Sourceforge project site].  Until the release of Phenex 1.0, only in-development "beta" downloads are available.  Download the file appropriate for your system ("mac", "win", or "unix").  The "src" download contains the sourcecode for the current release of Phenex.
+The latest version of Phenex can be obtained from [http://sourceforge.net/projects/obo/ OBO's Sourceforge project site].  At the Sourceforge site, you will find both "release" versions and "beta" versions.  Unless you are testing new features, please use the official releases.  Download the file appropriate for your system ("mac", "win", or "unix").  The "src" download contains the sourcecode for the current release of Phenex.
 * [http://sourceforge.net/project/showfiles.php?group_id=76834&package_id=295042 Phenex beta downloads]
 ===Installation on Mac OS X===
 Double-click the downloaded file to unzip it.  Copy Phenex.app anywhere you would like to install it.  Double-click Phenex.app to launch the application.
