@@ -29,7 +29,7 @@ Integration of publication data across site.
 ===Map 2 phenotypes on tree===
 * user can enter phenotype specification for each "state"
 * see on tree which branches exhibit one or both of the phenotypes
-* Do user's want the tree "pruned"?  Or show branches without annotations also?  could be a lot of taxa
+* Do users want the tree "pruned"?  Or show branches without annotations also?  could be a lot of taxa
 
 [[Image:trees1.png|700px]]
 
