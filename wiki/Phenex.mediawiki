@@ -11,6 +11,7 @@ Phenex runs on any system with Java 5 or newer (Java 5 is also called version 1.
 ==Download & Installation==
 The latest version of Phenex can be obtained from [http://sourceforge.net/projects/obo/ OBO's Sourceforge project site].  At the Sourceforge site, you will find both "release" versions and "beta" versions.  Unless you are testing new features, please use the official releases.  Download the file appropriate for your system ("mac", "win", or "unix").  The "src" download contains the sourcecode for the current release of Phenex.
 ===Direct downloads for Phenex 1.0===
+Choose download appropriate for your platform:
 * [http://sourceforge.net/projects/obo/files/Phenex%20-%20releases/1.0/phenex-1.0-mac.zip/download Mac OS X]
 * Windows
 * Unix (Linux, Solaris, etc.)
