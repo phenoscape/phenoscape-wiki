@@ -49,6 +49,7 @@ Prioritizing tracker issues is essential for guiding Phenex development. Dependi
 * 1 - Nice idea to keep in mind; wishlist. Not scheduled for implementation.
 
 ==Documentation==
+===Ontology  configuration===
 
 ===Menu choices for opening files===
 * File > Open...
