@@ -60,18 +60,23 @@ Open the Search Panel from View > Ontology > Search Panel.  Configure the search
 =====Configuring entry fields=====
 To configure a particular entry field, place a filter file with the appropriate name in the Filters folder within the Phenex settings folder.  The following types of entry fields are available:
 * Taxa
-** Used in the Taxa panel, Valid Taxon column
 ** ''<Phenex settings folder>''/Filters/taxa.xml
+** Used in the Taxa panel: Valid Taxon column
 * Museum collections
 ** ''<Phenex settings folder>''/Filters/museums.xml
+** Used in the Specimens panel: Collection column
 * Entities
 ** ''<Phenex settings folder>''/Filters/entities.xml
+** Used in the Phenotypes panel: Entity column, Related Entity column
 * Qualities
 ** ''<Phenex settings folder>''/Filters/qualities.xml
+** Used in the Phenotypes panel: Quality column
 * Units
 ** ''<Phenex settings folder>''/Filters/units.xml
+** Used in the Phenotypes panel: Unit column
 * Relations
 ** ''<Phenex settings folder>''/Filters/relations.xml
+** Specifies the relations available when creating post-compositions
 
 ===Menu choices for opening files===
 * File > Open...
