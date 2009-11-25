@@ -51,6 +51,9 @@ Prioritizing tracker issues is essential for guiding Phenex development. Dependi
 ==Documentation==
 ===Ontology  configuration===
 By default, Phenex comes pre-configured with the ontologies used for the Phenoscape project, but it can be configured to load terms from any OBO ontology from the web or a local file.  Configuration of ontologies in Phenex has two components: (1) adding term sources - URLs representing OBO files; and (2) specifying the set of terms which should be available within each kind of entry field - an entry field can allow terms from a subset of a given ontology, or from more than one ontology.
+====Term sources====
+To edit the list of terms sources, open the Ontology Sources panel by selecting View > Config > Ontology Sources from the menu.  Add a new source by pressing the '+' button.  Enter an HTTP or local file URL in the URL column, and an optional label of your choice in the Label column.  Press "Apply" to save your list of ontology sources.  You will need to relaunch Phenex in order for it to download the given files and load all the terms into its ontology session.
+====Entry field filters====
 
 ===Menu choices for opening files===
 * File > Open...
