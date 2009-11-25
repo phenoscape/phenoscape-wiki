@@ -54,6 +54,24 @@ By default, Phenex comes pre-configured with the ontologies used for the Phenosc
 ====Term sources====
 To edit the list of terms sources, open the Ontology Sources panel by selecting View > Config > Ontology Sources from the menu.  Add a new source by pressing the '+' button.  Enter an HTTP or local file URL in the URL column, and an optional label of your choice in the Label column.  Press "Apply" to save your list of ontology sources.  You will need to relaunch Phenex in order for it to download the given files and load all the terms into its ontology session.
 ====Entry field filters====
+The set of terms available in a given entry field are determined by term filters.  Term filters are just saved search specifications which can be created using the Search Panel.  To apply a term filter to a particular type of entry field, save it in one of the standard locations (below).
+=====Creating a term filter=====
+Open the Search Panel from View > Ontology > Search Panel.  Configure the search to specify the needed terms - you can test the result by performing the search with the Search button.  Save the filter by pressing the disk icon.
+=====Configuring entry fields=====
+To configure a particular entry field, place a filter file with the appropriate name in the Filters folder within the Phenex settings folder.  The following types of entry fields are available:
+* Taxa
+** Used in the Taxa panel, Valid Taxon column
+** <Phenex settings folder>/Filters/taxa.xml
+* Museum collections
+** <Phenex settings folder>/Filters/museums.xml
+* Entities
+** <Phenex settings folder>/Filters/entities.xml
+* Qualities
+** <Phenex settings folder>/Filters/qualities.xml
+* Units
+** <Phenex settings folder>/Filters/units.xml
+* Relations
+** <Phenex settings folder>/Filters/relations.xml
 
 ===Menu choices for opening files===
 * File > Open...
