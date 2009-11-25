@@ -158,19 +158,5 @@ User’s Home/Library/Application Support/Phenex/Ontology Cache/
 
 Phenex will then download new copies of the ontology files on startup.
 
-==Development Roadmap==
-===January 2009===
-* Support alt_id term references in NeXML files '''[Done]'''
-* Copy text from tables '''[Taxon table done]'''
-
-===March 2009===
-* Improved autocomplete interface '''[Done] - April 9'''
-
-===April 2009===
-* Panel for matrix cell-specific information, e.g. evidence codes, image references
-
-===May 2009 - Phenex 1.0===
-* Ontology configuration interface
-
 [[Category:Curation]]
 [[Category:Informatics]]
