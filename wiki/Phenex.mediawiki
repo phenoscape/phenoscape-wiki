@@ -58,7 +58,7 @@ The set of terms available in a given entry field are determined by term filters
 =====Creating a term filter=====
 Open the Search Panel from View > Ontology > Search Panel.  Configure the search to specify the needed terms - you can test the result by performing the search with the Search button.  Save the filter by pressing the disk icon.
 =====Configuring entry fields=====
-To configure a particular entry field, place a filter file with the appropriate name in the Filters folder within the Phenex settings folder.  The following types of entry fields are available:
+To configure a particular entry field, place a filter file with the appropriate name in the Filters folder within the [[#Locating_the_Phenex_settings_folder|Phenex settings folder]].  The following types of entry fields are available:
 * Taxa
 ** ''<Phenex settings folder>''/Filters/taxa.xml
 ** Used in the Taxa panel: Valid Taxon column
