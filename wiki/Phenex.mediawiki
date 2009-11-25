@@ -81,7 +81,7 @@ To configure a particular entry field, place a filter file with the appropriate 
 ===Locating the Phenex settings folder===
 The Phenex settings folder contains cached copies of downloaded ontology files, entry field filter files, and other settings files.  Its location is dependent on the platform on which you're running Phenex.
 * '''Mac OS X:'''  ''<user's home>''/Library/Application Support/Phenex
-* '''Windows:''' C:\Documents and Settings\''<user's name>''/Phenex
+* '''Windows:''' C:\Documents and Settings\''<user's name>''\Phenex
 * '''Unix:'''  ''<user's home>''/.phenex
 
 ===Menu choices for opening files===
