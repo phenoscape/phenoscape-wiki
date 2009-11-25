@@ -78,6 +78,10 @@ To configure a particular entry field, place a filter file with the appropriate 
 ** ''<Phenex settings folder>''/Filters/relations.xml
 ** Specifies the relations available when creating post-compositions
 
+===Locating the Phenex settings folder===
+The Phenex settings folder contains cached copies of downloaded ontology files, entry field filter files, and other settings files.  Its location is dependent on the platform on which you're running Phenex.
+* Mac OS X
+
 ===Menu choices for opening files===
 * File > Open...
 ** Open an existing NeXML file (native Phenex format), replacing all existing data.
