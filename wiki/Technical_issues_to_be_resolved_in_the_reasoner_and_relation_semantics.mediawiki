@@ -1,0 +1,5 @@
+---
+title: Technical issues to be resolved in the reasoner and relation semantics
+---
+
+#REDIRECT [[Logic and Reasoning Challenges]]
