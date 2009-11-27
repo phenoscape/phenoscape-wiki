@@ -155,3 +155,7 @@ reciprocal_of relation in PATO to help
 For the phenotype analysis of OMIM we took a simplified approach and
 just treated towards as an all-some relation, which made the
 propositions weaker which we deemed to be ok for statistical matching
+
+[[Category:Ontology]]
+[[Category:Reasoning]]
+[[Category:Database]]
