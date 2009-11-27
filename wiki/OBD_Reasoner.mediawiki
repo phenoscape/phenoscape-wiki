@@ -189,8 +189,6 @@ NOTE: There is no direct relationship between ''relation symmetry'' and ''relati
 
 An example of relation inversions can be found in the ''posterior_to'' and ''anterior_to'' relations. IF anterior_nuchal_plate ''anterior_to'' middle_nuchal_plate AND ''anterior_to'' ''inverse_of'' ''posterior_to'', THEN middle_nuchal_plate ''posterior_to'' anterior_nuchal_plate
 
-[[Category:Corrected usage in the examples with instance of]]
-[[Category:Informatics]]
 [[Category:Database]]
 [[Category:Ontology]]
 [[Category:Reasoning]]
