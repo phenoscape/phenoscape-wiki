@@ -1,0 +1,5 @@
+---
+title: The exhibits relation conundrum
+---
+
+#REDIRECT [[Exhibits Relation]]
