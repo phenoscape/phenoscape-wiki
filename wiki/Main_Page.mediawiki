@@ -3,7 +3,7 @@ title: Main Page
 ---
 
 {{EventBox1|
-* Public release of [Phenex 1.0 http://blog.phenoscape.org/2009/11/25/phenex-1-0/]!
+* We announce the public release of [http://blog.phenoscape.org/2009/11/25/phenex-1-0/ Phenex 1.0]!
 * Together with the AmphibAnat project, we held an [[ASIH09_workshop|Ontologies for Ichthyology and Herpetology workshop]] on July 25th at ASIH in Portland OR.
 * [[Phenotype Ontology Coordination Workshop|A Phenotype Ontology Coordination Workshop]] was held at NESCent on April 27-28.
 * Check out the [http://blog.phenoscape.org/ Phenoscape blog]!
