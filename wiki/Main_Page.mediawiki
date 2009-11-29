@@ -3,7 +3,7 @@ title: Main Page
 ---
 
 {{EventBox1|
-* [http://blog.phenoscape.org/2009/11/25/phenex-1-0/ Phenex 1.0] is publicly released (November 20)!  Use it with your own ontologies to annotate the morphological features of any taxonomic group.
+* [http://blog.phenoscape.org/2009/11/25/phenex-1-0/ Phenex 1.0] is publicly released (Nov. 20)!   Use it with your own ontologies to annotate the morphological features of any taxonomic group.
 * Together with the AmphibAnat project, we held an [[ASIH09_workshop|Ontologies for Ichthyology and Herpetology workshop]] on July 25th at ASIH in Portland OR.
 * [[Phenotype Ontology Coordination Workshop|A Phenotype Ontology Coordination Workshop]] was held at NESCent on April 27-28.
 * Check out the [http://blog.phenoscape.org/ Phenoscape blog]!
