@@ -6,12 +6,15 @@ title: Knowledgebase mockups (Nov 2009)
 
 === ''Revision 1''  ===
 ====Publication results on term search pages revision 1====
+[[Image:pubs1-rev1.png|700px]]
 
 ====List of publications revision 1====
+[[Image:pubs2-rev1.png|700px]]
 
 ====Publication detail page revision 1 ====
+[[Image:pubs3-rev1.png|700px]]
 
-=== Original publication mockups ===
+=== ''Original mockups'' ===
 Integration of publication data across site.
 
 ====Publication results on term search pages====
