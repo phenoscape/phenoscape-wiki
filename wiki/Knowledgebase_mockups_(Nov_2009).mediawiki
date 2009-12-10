@@ -5,6 +5,9 @@ title: Knowledgebase mockups (Nov 2009)
 ==Publications==
 
 === ''Revision 1''  ===
+
+(Powerpoint file containing revisions is on the webdav).
+
 ====Publication results on term search pages revision 1====
 [[Image:pubs1-rev1.png|700px]]
 
