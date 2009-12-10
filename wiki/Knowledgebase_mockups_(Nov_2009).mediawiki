@@ -3,21 +3,32 @@ title: Knowledgebase mockups (Nov 2009)
 ---
 
 ==Publications==
+
+=== Revision 1 ===
+====Publication results on term search pages revision 1====
+
+====List of publications revision 1====
+
+====Publication detail page revision 1 ====
+
+
+
+=== Original publication mockups ===
 Integration of publication data across site.
 
-===Publication results on term search pages===
+====Publication results on term search pages====
 * this shows an entity page (entopterygoid) - could have similar layout on taxon and gene searches
 * for each row (phenotype class) - see how many publication are linked to any EQs of that type
 * click one of the count links to go to a page listing those publications
 
 [[Image:pubs1.png|700px]]
 
-===List of publications===
+====List of publications====
 * click one of the links to go to that publication's detail page
 
 [[Image:pubs2.png|700px]]
 
-===Publication detail page===
+====Publication detail page====
 * matrix will usually be much bigger - will be scrollable
 * click column header or cell links to go to a phenotype details page showing all related EQs grouped by taxon (as on existing phenotype pages)
 
