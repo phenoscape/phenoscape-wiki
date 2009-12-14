@@ -156,60 +156,159 @@ To address this issue, it was decided to create summaries of the annotations in 
 
 The data warehouse has been designed with the intent of maximizing the efficiency of queries executed on the Phenoscape knowledge base. For phenotype queries, we need to know the phenotype in question, the taxa or genes which are associated with that phenotype, as well as the entity and quality associated with that phenotype. We also need to find the character, which the quality is associated with. For example if the quality is ''reduced number of'', the character in question would be ''count''.
 
-To effectively execute this query, the phenotype centric model of the data warehouse is designed as follows (concepts and attributes are capitalized). A taxon or gene may be associated with one or more PHENOTYPE(s) and a PHENOTYPE may be associated with one or more genes or taxa. A PHENOTYPE is associated with exactly one ENTITY and one QUALITY. A QUALITY may be associated with one or more PHENOTYPE(s). Further, a QUALITY is associated with exactly one CHARACTER. A CHARACTER may be associated with one or more QUALITYs. The taxon or gene concepts have been merged into a SUBJECT concept.
+To effectively execute this query, the phenotype centric model of the data warehouse is designed as follows (concepts and attributes are capitalized). A taxon or gene may be associated with one or more PHENOTYPE(s) and a PHENOTYPE may be associated with one or more genes or taxa. A PHENOTYPE is associated with exactly one ENTITY and one QUALITY. A QUALITY may be associated with one or more PHENOTYPE(s). Further, a QUALITY is associated with exactly one CHARACTER, which is a QUALITY as well. 
 
 For queries for provenance data about taxon to phenotype assertions, we need to find the publication the assertion is extracted from, the specific text from the publication about character and state, as well as the curators' comments about the assertion.
 
-To effectively execute these 'metadata' queries, the provenance data is modeled as an association attribute. For every instance of the association between a SUBJECT and a PHENOYPE, we capture CHARACTER. STATE, CURATORS, and PUBLICATION.
+To effectively execute these 'metadata' queries, the provenance data is modeled as an association attribute. For every instance of the association between a TAXON and a PHENOYPE, we capture CHARACTER. STATE, CURATORS, and PUBLICATION. The PUBLICATION entity with all its attributes is linked to the REIF entity, which is the link to the metadata of the TAXON and PHENOTYPE. 
 
 This data warehouse can be reduced to the logical schema shown below
 
 <table width=500 align=left border=1>
- <tr><td align=left colspan=4><b>Subject</b></td></tr>
+ <tr><td align=left colspan=3><b>Gene</b></td></tr>
  <tr>
-  <td align=center>Subject_node_id {PK} </td>
-  <td align=center>Subject_Uid</td>
-  <td align=center>Subject_Label</td>
-  <td align=center>TaxonOrGene</td>
+  <td align=center>Gene_id {PK} </td>
+  <td align=center>Gene_Uid</td>
+  <td align=center>Gene_Label</td>
  <tr>
 </table>
 <br><br><br><br>
 <table width=500 align=left border=1>
- <tr><td align=left colspan=3><b>Exhibits</b></td></tr>
+ <tr><td align=left colspan=2><b>Gene_Alias</b></td></tr>
  <tr>
-  <td align=center>Subject_node_id {FK}</td>
-  <td align=center>Phenotype_node_id {FK}</td>
-  <td align=center>ReifId {FK} </td>
+  <td align=center>Gene_id{FK}</td>
+  <td align=center>Alias</td>
+ <tr>
+</table>
+<br><br><br><br>
+<table width=500 align=left border=1>
+ <tr><td align=left colspan=3><b>Genotype</b></td></tr>
+ <tr>
+  <td align=center>Genotype_id{PK}</td>
+  <td align=center>Genotype_Uid</td>
+  <td align=center>Genotype_Label</td>
  <tr>
 </table>
 <br><br><br><br>
 <table width=700 align=left border=1>
- <tr><td align=left colspan=5><b>Phenotype</b></td></tr>
+ <tr><td align=left colspan=3><b>Taxon</b></td></tr>
  <tr>
-  <td align=center>Phenotype_node_id {PK}</td>
-  <td align=center>Entity</td>
-  <td align=center>Quality</td>
-  <td align=center>Character</td>
-  <td align=center>Count</td>
+  <td align=center>Taxon_id {PK}</td>
+  <td align=center>Taxon_Uid</td>
+  <td align=center>Taxon_Label</td>
  <tr>
 </table>
 <br><br><br><br>
 <table width=700 align=left border=1>
- <tr><td align=left colspan=5><b>Metadata</b></td></tr>
+ <tr><td align=left colspan=2><b>Taxon_Alias</b></td></tr>
  <tr>
-  <td align=center>ReifId {PK}</td>
-  <td align=center>Publication</td>
-  <td align=center>Curators</td>
-  <td align=center>Character</td>
-  <td align=center>State</td>
+  <td align=center>Taxon_id {FK}</td>
+  <td align=center>Alias</td>
+ <tr>
+</table>
+<br><br><br><br>
+<table width=700 align=left border=1>
+ <tr><td align=left colspan=2><b>Taxon_Is_A_Taxon</b></td></tr>
+ <tr>
+  <td align=center>Taxon_id{FK}</td>
+  <td align=center>Taxon_id{FK}</td>
+ <tr>
+</table>
+<br><br><br><br>
+<table width=700 align=left border=1>
+ <tr><td align=left colspan=3><b>Entity</b></td></tr>
+ <tr>
+  <td align=center>Entity_Id {PK}</td>
+  <td align=center>Entity_Uid</td>
+  <td align=center>Entity_Label</td>
+ <tr>
+</table>
+<br><br><br><br>
+<table width=700 align=left border=1>
+ <tr><td align=left colspan=2><b>Entity_Is_A_Entity</b></td></tr>
+ <tr>
+  <td align=center>Entity_Id {FK}</td>
+  <td align=center>Entity_Id {FK}</td>
+ <tr>
+</table>
+<br><br><br><br>
+<table width=700 align=left border=1>
+ <tr><td align=left colspan=2><b>Entity_Part_Of_Entity</b></td></tr>
+ <tr>
+  <td align=center>Entity_Id {FK}</td>
+  <td align=center>Entity_Id {FK}</td>
+ <tr>
+</table>
+<br><br><br><br>
+<table width=700 align=left border=1>
+ <tr><td align=left colspan=3><b>Quality</b></td></tr>
+ <tr>
+  <td align=center>Quality_Id {PK}</td>
+  <td align=center>Quality_Uid </td>
+  <td align=center>Quality_Label </td>
+ <tr>
+</table>
+<br><br><br><br>
+<table width=700 align=left border=1>
+ <tr><td align=left colspan=7><b>Phenotype</b></td></tr>
+ <tr>
+  <td align=center>Phenotype_Id {PK}</td>
+  <td align=center>Phenotype_Uid</td>
+  <td align=center>Inheres_In_Entity_id {FK}</td>
+  <td align=center>Towards_Entity_id {FK}</td>
+  <td align=center>Is_A_Quality_id {FK}</td>
+  <td align=center>Is_A_Character_id {FK}</td>
+  <td align=center>Has_count</td>
  <tr>
 </table>
 <br><br><br><br>
 <table width=300 align=left border=1>
- <tr><td align=left colspan=2><b>Inheres_in_part_of</b></td></tr>
+ <tr><td align=left colspan=3><b>Gene_Genotype_Phenotype</b></td></tr>
  <tr>
-  <td align=center>Phenotype_node_id {FK}</td>
-  <td align=center>Entity</td>
+  <td align=center>Gene_Id {FK}</td>
+  <td align=center>Genotype_Id {FK}</td>
+  <td align=center>Phenotype_Id {FK}</td>
+ <tr>
+<br><br><br><br>
+<table width=300 align=left border=1>
+ <tr><td align=left colspan=3><b>Taxon_Phenotype</b></td></tr>
+ <tr>
+  <td align=center>Taxon_Id {FK}</td>
+  <td align=center>Phenotype_Id {FK}</td>
+  <td align=center>Reif_Id {FK}</td>
+ <tr>
+</table>
+<br><br><br><br>
+<table width=300 align=left border=1>
+ <tr><td align=left colspan=5><b>Taxon_Phenotype_Metadata</b></td></tr>
+ <tr>
+  <td align=center>Reif_Id {PK}</td>
+  <td align=center>Character_Text</td>
+  <td align=center>State_Text </td>
+  <td align=center>Curators </td>
+  <td align=center>Curator_Comments </td>
+ <tr>
+</table>
+<br><br><br><br>
+<table width=300 align=left border=1>
+ <tr><td align=left colspan=7><b>Publication</b></td></tr>
+ <tr>
+  <td align=center>Publication {PK}</td>
+  <td align=center>Primary_Title</td>
+  <td align=center>Secondary_Title </td>
+  <td align=center>Pages </td>
+  <td align=center>Volume </td>
+  <td align=center>Abstract </td>
+  <td align=center>Year </td>
+ <tr>
+</table>
+
+<br><br><br><br>
+<table width=300 align=left border=1>
+ <tr><td align=left colspan=2><b>Publication_Reif_id</b></td></tr>
+ <tr>
+  <td align=center>Publication {FK}</td>
+  <td align=center>Reif_Id {FK}</td>
  <tr>
 </table>
 
