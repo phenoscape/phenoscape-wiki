@@ -261,7 +261,7 @@ This data warehouse can be reduced to the logical schema shown below
   <td align=center>Has_count</td>
  <tr>
 </table>
-<br>
+<br><br><br><br>
 <table width=300 align=left border=1>
  <tr><td align=left colspan=3><b>Gene_Genotype_Phenotype</b></td></tr>
  <tr>
