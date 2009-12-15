@@ -6,7 +6,7 @@ title: Knowledgebase mockups (Nov 2009)
 
 === ''Revision 1''  ===
 
-(Powerpoint file containing revisions is on the webdav).
+Revision 1 posted on 12/15/09 by Wasila based on amphibanat feedback, Phenoscape conference call (11/20/09), and discussion with Paula (12/14/09). The Powerpoint file containing the revisions is on the webdav.
 
 ====Publication results on anatomy term search pages revision 1====
 [[Image:Pubs1-rev1.png|700px]]
