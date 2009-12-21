@@ -18,8 +18,17 @@ Revision 1 posted on 12/16/09 by Wasila based on amphibanat feedback, Phenoscape
 [[Image:pubs3-rev1.png|700px]]
 
 ====Publication detail page: viewing matrix and character of interest ====
+from conference call 12/18/09
+"how to show character of interest? should entopterygoid be first column (even if author lists as #4 or #79)? or should there be a slider or 'next' arrow that allows users to view additional characters?"
+
+Mockups added on 12/21/09 by Wasila.
+
+
 =====collapse/expand all button=====
+1. 
 [[Image:matrix1.png|700px]]
+
+2. 
 
 [[Image:matrix2.png|700px]]
 
