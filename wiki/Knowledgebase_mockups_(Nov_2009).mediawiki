@@ -25,11 +25,10 @@ Mockups added on 12/21/09 by Wasila.
 
 
 =====collapse/expand all button=====
-1. 
+1.
 [[Image:matrix1.png|700px]]
 
-2. 
-
+2.
 [[Image:matrix2.png|700px]]
 
 =====advance to next character arrow=====
