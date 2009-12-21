@@ -17,15 +17,14 @@ Revision 1 posted on 12/16/09 by Wasila based on amphibanat feedback, Phenoscape
 ====Publication detail page, revision 1 ====
 [[Image:pubs3-rev1.png|700px]]
 
-=====Publication detail page: viewing matrix and character of interest ====
-
+====Publication detail page: viewing matrix and character of interest ====
+=====collapse/expand all button=====
 [[Image:matrix1.png|700px]]
 
 [[Image:matrix2.png|700px]]
 
+=====advance to next character arrow=====
 [[Image:matrix3.png|700px]]
-
-
 
 === ''Original mockups'' ===
 Integration of publication data across site.
