@@ -4,6 +4,21 @@ title: Data Services
 
 This section details of the data services that query the OBD Phenoscape database and transfer the retrieved results to the Phenoscape UI. Each service may support multiple media types.  The desired media type can be specified by appending <code>?media=json</code> or similar to the request URL.  URI specifications are defined (loosely) using [http://bitworking.org/projects/URI-Templates/draft-gregorio-uritemplate-00.html URI Templates].
 
+==Timestamp==
+'''URI'''
+
+ <BASE URI>/term/{term_id}
+
+'''Returns'''
+
+JSON:
+<javascript>
+{
+"timestamp":"2010-01-09"
+}
+
+</javascript>
+
 ==Term info==
 '''URI'''
 
