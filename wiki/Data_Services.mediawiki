@@ -7,7 +7,7 @@ This section details of the data services that query the OBD Phenoscape database
 ==Timestamp==
 '''URI'''
 
- <BASE URI>/term/{term_id}
+ <BASE URI>/timestamp
 
 '''Returns'''
 
