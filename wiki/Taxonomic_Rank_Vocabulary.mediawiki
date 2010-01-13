@@ -127,3 +127,6 @@ This is a vocabulary of taxonomic ranks intended to replace the sets of rank ter
 |-
 |supragenerictaxon || TDWG
 |}
+
+[[Category:Taxonomy]]
+[[Category: Ontology]]
