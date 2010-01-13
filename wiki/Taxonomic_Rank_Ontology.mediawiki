@@ -2,6 +2,8 @@
 title: Taxonomic Rank Ontology
 ---
 
+Note: This page describes some design alternatives for taxonomic ontologies that refer to or include terms for ranks.  If you are looking documentation for the Vocabulary of Ranks developed by Phenoscape, you will find it [[Taxon Rank Vocabulary | here]].
+
 A taxonomic rank ontology allows particular taxa to be treated as historical individuals instead of as universal types.
 
 [[Image:TaxonomicRankDiagram.png|750px|thumb|Taxonomic rank ontology and sample instance data.  The ontology terms are surrounded by a grey background.  The "Continuant" term would reside in an upper ontology such as [http://www.ifomis.org/bfo BFO].  The instance data constitute a particular taxonomy.]]
