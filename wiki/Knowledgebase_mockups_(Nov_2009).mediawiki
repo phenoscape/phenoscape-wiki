@@ -37,6 +37,12 @@ Mockups added on 12/21/09 by Wasila.
 =====advance to next character arrow=====
 [[Image:matrix3.png|700px]]
 
+====Data downloads: phenotypes for single entity across studies ====
+From 12/18/09 conference call:
+*John’s new use case: obtain data for a single entity across multiple studies.  If want to do broad phylogenetic analysis of catfishes, need to look in detail in each pub of how entopterygoid is treated. Want to get just the entopterygoid by taxon data matrix.
+
+**go back to anatomical term page. Need to get all data for entopterygoid (size, shape, etc.). Will the tree have 'entopterygoid' with 'ento, shape', 'ento, size' etc. beneath it? Will there be a sum/number of the total number of phenotypes for just entopterygoid? if, e.g. '800', click on it, and you would see a matrix with columns, size, shape, etc. with EQ in cells, but mouse-over to see free text. Can DOWNLOAD THIS SELECTION OF DATA ALONE in excel. In the excel file, you would have the free text, publication, and EQ? ...same thing as in genbank data with incomplete stuff, put in alignment program.
+
 === ''Original mockups'' ===
 Integration of publication data across site.
 
