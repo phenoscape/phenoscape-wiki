@@ -3,3 +3,123 @@ title: Taxonomic Rank Vocabulary
 ---
 
 We have developed a vocabulary of taxonomic ranks for use in conjunction with the [[Taxonomy ontology | Teleost Taxonomy Ontology]] and similar OBO taxonomy ontologies.  It consists of a set of 59 terms drawn from two primary sources: the rank terms that appear in the NCBI taxonomy database, and the rank terms from the [[http://rs.tdwg.org/ontology/voc/TaxonRank TDWG rank vocabulary]].
+{|border="1"
+!Name
+!Cross Ref
+!Synonyms
+!Notes
+|-
+|phylum || NCBI, TDWG || division
+|-
+|class || NCBI, TDWG
+|-
+|order || NCBI, TDWG
+|-
+|family || NCBI, TDWG
+|-
+|genus || NCBI, TDWG
+|-
+|species || NCBI, TDWG 
+|-
+|subclass || NCBI, TDWG
+|-
+|subphylum || NCBI, TDWG
+|-
+|subgenus || NCBI, TDWG
+|-
+|species_group || NCBI
+|-
+|species_subgroup || NCBI
+|-
+|species_complex || || || Used in OBO fly taxonomy
+|-
+|infraorder || NCBI, TDWG
+|-
+|suborder || NCBI, TDWG
+|-
+|superclass || NCBI, TDWG
+|-
+|varietas || NCBI || variety (TDWG)
+|-
+|kingdom || NCBI, TDWG
+|-
+|superfamily || NCBI, TDWG
+|-
+|infraclass || NCBI, TDWG
+|-
+|parvorder || NCBI
+|-
+|superkingdom || NCBI, TDWG
+|-
+|subspecies || NCBI, TDWG
+|-
+|subfamily || NCBI, TDWG
+|-
+|tribe || NCBI, TDWG
+|-
+|forma || NCBI || form (TDWG)
+|-
+|superphylum || NCBI, TDWG
+|-
+|subtribe || NCBI, TDWG
+|-
+|subkingdom || NCBI, TDWG
+|-
+|section || TDWG
+|-
+|series || TDWG
+|-
+|bio-variety || TDWG
+|-
+|candidate || TDWG
+|-
+|cultivar || TDWG
+|-
+|cultivar-group || TDWG
+|-
+|denominationclass || TDWG
+|-
+|domain || TDWG
+|-
+|graft-chimaera || TDWG
+|-
+|grex || TDWG
+|-
+|infraphylum || TDWG
+|-
+|infrafamily || TDWG
+|-
+|infragenerictaxon || TDWG
+|-
+|infragenus || TDWG
+|-
+|infrakingdom || TDWG
+|-
+|infraspecies || TDWG
+|-
+|infraspecificTaxon || TDWG
+|-
+|infratribe || TDWG
+|-
+|patho-variety || TDWG
+|-
+|specialform || TDWG
+|-
+|speciesaggregate || TDWG
+|-
+|subvariety || TDWG
+|-
+|subsubvariety || TDWG
+|-
+|subsection || TDWG
+|-
+|subseries || TDWG
+|-
+|subspecificaggregate || TDWG
+|-
+|subsubform || TDWG
+|-
+|supertribe || TDWG
+|-
+|supragenerictaxon || TDWG
+|}
