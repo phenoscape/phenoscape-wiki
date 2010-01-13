@@ -2,4 +2,4 @@
 title: Taxonomic Rank Vocabulary
 ---
 
-We have developed a vocabulary of taxonomic ranks for use in conjunction with the [[Taxonomy ontology | Teleost Taxonomy Ontology]] and similar OBO taxonomy ontologies.  It consists of a set of 59 terms drawn from two primary sources: the rank terms that appear in the NCBI taxonomy database, and the rank terms from the TDWG Ontology effort.
+We have developed a vocabulary of taxonomic ranks for use in conjunction with the [[Taxonomy ontology | Teleost Taxonomy Ontology]] and similar OBO taxonomy ontologies.  It consists of a set of 59 terms drawn from two primary sources: the rank terms that appear in the NCBI taxonomy database, and the rank terms from the [[http://rs.tdwg.org/ontology/voc/TaxonRank TDWG rank vocabulary]].
