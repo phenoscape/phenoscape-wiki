@@ -34,7 +34,8 @@ Based on conference call 12/18/09; mockups added on 12/21/09 by Wasila.
 =====advance to next character arrow=====
 [[Image:matrix3.png|700px]]
 
-====Data downloads: phenotypes for single entity across studies ====
+====Comments: ====
+=====Data downloads: phenotypes for single entity across studies=====
 From 12/18/09 conference call:
 *John’s new use case: obtain data for a single entity across multiple studies.  If want to do broad phylogenetic analysis of catfishes, need to look in detail in each pub of how entopterygoid is treated. Want to get just the entopterygoid by taxon data matrix.
 
