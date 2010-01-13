@@ -2,7 +2,7 @@
 title: Taxonomic Rank Ontology
 ---
 
-Note: This page describes some design alternatives for taxonomic ontologies that refer to or include terms for ranks.  If you are looking documentation for the Vocabulary of Ranks developed by Phenoscape, you will find it [[Taxon Rank Vocabulary | here]].
+Note: This page describes some design alternatives for taxonomic ontologies that refer to or include terms for ranks.  If you are looking documentation for the Vocabulary of Ranks developed by Phenoscape, you will find it [[Taxonomic Rank Vocabulary | here]].
 
 A taxonomic rank ontology allows particular taxa to be treated as historical individuals instead of as universal types.
 
