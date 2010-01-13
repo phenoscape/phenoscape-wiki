@@ -9,7 +9,7 @@ title: Knowledgebase mockups (Nov 2009)
 Revision 1 posted on 12/16/09 by Wasila based on amphibanat feedback, Phenoscape conference call (11/20/09), discussion with Paula (12/14/09), and conference call with John Lundberg (12/18/09). The Powerpoint file containing the revisions is on the webdav.
 
 ====Publication results on anatomy term search pages, revision 1====
-Additional feedback not on mockup:
+=====Comments:=====
 * John likes separate column for publications (as in previous revision), maybe add 'KB Publications' vs. book icon in taxon column.
 
 [[Image:Pubs1-rev1.png|700px]]
