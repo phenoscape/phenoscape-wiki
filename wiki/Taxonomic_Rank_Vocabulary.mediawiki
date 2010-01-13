@@ -3,9 +3,7 @@ title: Taxonomic Rank Vocabulary
 ---
 
 ==Summary==
-This is a vocabulary of taxonomic ranks for use in conjunction with the [[Taxonomy ontology | Teleost Taxonomy Ontology]] and similar OBO taxonomy ontologies.  It currently consists of a set of 59 terms drawn from two primary sources: the rank terms that appear in the [http://www.ncbi.nlm.nih.gov/Taxonomy/ NCBI taxonomy database], and the rank terms from the [http://rs.tdwg.org/ontology/voc/TaxonRank TDWG rank vocabulary].  Each term contains cross reference links to the resources that use the terms.  
-
-Consistent with its intended use as a vocabulary, there is no relation specifying an ordering of the rank terms.  Likewise, all terms are directly descended from the term 'taxonomic rank' (TAXRANK:0000000).
+This is a vocabulary of taxonomic ranks intended to replace the sets of rank terms found in the [[Taxonomy ontology | Teleost Taxonomy Ontology]], the OBO translation of the NCBI taxonomy and similar OBO taxonomy ontologies.  It provides terms for taxonomic ranks drawn from both the [http://www.ncbi.nlm.nih.gov/Taxonomy/ NCBI taxonomy database] and from a [http://rs.tdwg.org/ontology/voc/TaxonRank rank vocabulary]rank developed for the TDWG biodiversity information standards group.   Each term contains cross reference links to the resources that use the terms.  Consistent with its intended use as a vocabulary, there is no relation specifying an ordering of the rank terms.  Likewise, all terms are directly descended from the term 'taxonomic rank' (TAXRANK:0000000).
 
 ==List of Terms==
 
