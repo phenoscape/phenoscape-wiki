@@ -85,6 +85,24 @@ Integration of publication data across site.
 [[Image:trees2.png|700px]]
 
 ===Map phenotypes of a given entity on tree===
+
+
+==Display qualities using a grid of colored tiles==
+
+* Qualities are displayed with consistent location and color in the grid
+* Desaturated colors are used for qualities of phenotypes that are inferred, rather than annotated
+* The 16 tile designs are intended to support expansion of the list of qualities used in curation - as has already happened. 
+[[Image:ColorGridOption.png]]
+
+==Display qualities using colored icons strung along branches==
+* Qualities are displayed with consistent icon, color and relative position along branches
+* As above, desaturated colors are used for inferred qualities
+* Additional icons may be added
+
+[[Image:IconsOnBranchOption.png]]
+
+==Display qualities using text icons adjacent to taxon names==
+
 * user enters any entity term
 * each of the standard upper-level PATO qualities has some icon
 * each node of tree is annotated with icons for which kinds of phenotypes are exhibited by that node
