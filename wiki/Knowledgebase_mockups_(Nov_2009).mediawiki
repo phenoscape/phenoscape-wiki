@@ -115,6 +115,11 @@ Integration of publication data across site.
 
 ==Phenotype queries==
 ===Entry of phenotype specification===
+
+==== Biomart style interface ====
+
+
+==== November 2009 Version ====
 * user enters a phenotype specification, presses Done
 
 [[Image:queries1.png|700px]]
