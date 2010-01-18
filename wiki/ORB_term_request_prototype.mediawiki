@@ -16,65 +16,20 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 === ORB architecture overview ===
 [[Image:ORB_arch.jpg]]
 
-== ORB requirements specification ==
+=== Requirements ===
 
-=== System behavior ===
-ORB will allow users to submit (and view?) requests for new ontology terms.  In the prototype, communication between the client and server will be effected via RESTful web-services. Functionality will be demonstrated via a custom web interface and widget in [[Phenex]]. The integration in Phenex will be a demonstration of the ORB’s “integratability” with other related applications via the API.
 
-=== Term submission ===
+===Use cases===
 
-''Term submission use case'''
-[[Image:ORB Term Request.jpg]]
 
-Via the web interface or the ORB widget in Phenex a user will have to submit a term’s
-* name,
-* definition, and
-* parent relationship.
 
-The optional fields will be:
-* database references,
-* citations,
-* other relationships,
-* synonym(s), and
-* comments.
+===Specification===
 
-A user will be required to submit their e-mail addresses and their names (optional).
 
-On term submission, ORB will:
-* Validate if the required fields are provided, send the user an invalid term request message and return to the submission interface.
-If the user’s submission is successful, the application will:
-*Notify the user of successful submission
-*Set the status of the term to “Pending”
-*Assign a temporary ID (ORB:xxxxxx) and store in a database. The xes in the temporary ID represent an auto-generated unique number
-*Automatically send notification messages to the ontology gate keeper(s)
-*Send the term request to the community through the relevant mailing lists at source forge (http://sourceforge.net/projects/obo/support).
+===Activity===
 
-==== Input from the BBOP group ====
-* There isn't really a reason that "temporary terms" can't be added to the ontology directly, with some kind of status that prevents them from showing in editors etc.
-* Term status values:
-** User trial
-** Requested but unreviewed
-** Reviewed and accepted
-** Obsolete
-* Request types:
-** New term
-** Definition revision
-** Graph placement change
-** Obsoletion
 
-=== Term processing ===
-'''Term Resolution Use Case'''
-[[Image:Use Case Diagram1.jpg|Center]]
-
-If a term is resolved (i.e. a reviewer(s) either accepts a term requested or provides a more accurate term as an alternative) the ontology gatekeeper will provide the new term plus all the information provided by the expert via ORB’s web service.
-
-The application will subsequently:
-* Update the status of the new term to “Resolved”
-* Assign the term a permanent ID as provided by the ontology gatekeeper
-* Generate a notification mail to the user and community and the resolution.
-If a term is rejected (i.e. the expert(s) and community concur that the requested term is not acceptable and no alternative exists for the request), the gatekeepers will submit this feedback plus any explanations, comments etc. that may have been availed by the expert(s). In this case ORB will:
-* Set the term status to “Rejected”,
-* Send notification e-mail to the user and community.
+===Database schema===
 
 == Implementation details ==
 
