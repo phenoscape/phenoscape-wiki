@@ -13,14 +13,7 @@ There is a need for applications that will expedite the annotation of phenotypic
 
 Here is a documentation of ORB term request service. ORB will be accessible via an online interface and programmatically through RESTful web-services.
 
-=== Diagrams ===
-
-
-
-
-
-
-[[Image:System_diagram.jpg|Center]]
+=== ORB architecture overview ===
 
 == ORB requirements specification ==
 
