@@ -130,6 +130,9 @@ Begin deployment
 
 * Early and incomplete [http://geneontology.cvs.sourceforge.net/viewvc/geneontology/go-dev/amigo/amigo/cgi-bin/experimental/orb?revision=1.1&view=markup ORB implementation in Perl] by Seth Carbon. This interfaces directly with the SourceForge tracker.
 
+
+*Ontology lookup services [http://www.ebi.ac.uk/ontology-lookup/]
+
 == Contacts ==
 Name: Mtakai Ngara
 
