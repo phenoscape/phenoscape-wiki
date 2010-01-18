@@ -31,7 +31,7 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 
 ===Database schema===
 
-===RESTful services===
+==REST services==
 
 == Project plan ==
 ''An agile approach is used in ORB development. The sign √ indicates accomplished tasks while * indicates tasks yet to be implemented''
