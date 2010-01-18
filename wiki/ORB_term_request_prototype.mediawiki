@@ -24,7 +24,7 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 
 ==Activity==
 
-===Database schema===
+==Database schema==
 
 ==REST services==
 
