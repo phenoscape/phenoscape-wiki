@@ -88,88 +88,12 @@ In this prototype, the functionality of ORB term request services and the cycle 
 == Project plan ==
 ''An agile approach is used in ORB development. The sign √ indicates accomplished tasks while * indicates tasks yet to be implemented''
 
-'''Week 1:  21 to 26 September'''
-'''Preparation'''
-
-To gather all the ORB requirements and set up a working IDE with all the required libraries.
-
-*Design and document a work plan √
-*Carry out interviews,consultation and document ORB requirements √
-*Write up the ORB specification document √
-*Set up java IDE,Apache—tomcat server and import the required libraries(restlet,json)√
-
-'''Week 2: 28 to 2 October'''
-''' Term request server and skeleton web services'''
-
-A working skeleton term request server, which responds to new term request and status queries, but with dummy data.
-* Create Restlet server project. √
-* Create a Restlet Application subclass which maps URLs to service resources.√
-* Create ServerResource subclasses which respond to HTTP requests for each web service. √
-
-'''Week 3: 5 to 10 October'''
-'''Relational database for persisting term requests'''
-
-Design and establish a server database for storing term requests.
-* Create ORB database schema √
-* Create application subclasses that store data submitted into the database √
-* Create application subclasses that retrieve and display data in the database √
-
-'''Week 4: 12 to 17 October'''
-'''New term definition and creation'''
-
-To define and create more suitable ontology terms and generate informative responses on term submission.
-*Create an application function that will take up the user provided required fields plus the different combinations of the optional fields and create terms and add to the database √
-*Create a function to validate if the user provided the required fields and if not generate an informative response to the user√
-*Create an application function to assign status on term submission√
-
-'''Week 5: 19 to 23 October'''
-'''Term Resolution and generation informative of responses'''
-
-To build application functions that will enable term updates and generate informative responses
-*Create an application function to facilitate updating a term requested in the database and change the term’s status appropriately √
-*Create a function to generate auto messages to the term requester *
-
-'''Week 6: 26 to 31 October'''
-'''ORB community outreach and ontology gate-keepers notification'''
-
-To build a function in ORB to facilitate the auto-generation of messages to the community mailing list at source forge and ontology gate keepers
-*Build an application function that will generate auto messages to the ontology gate-keepers when a term is submitted *
-*Create a function to send automated messages to the community mailing list both on term request and resolution *
-
-'''Week 7 : 2 to 6 November'''
-'''Web-interface'''
-
-To establish ORB web-interface for searching, viewing and updating the requested terms
-*Design and implement the web-interface of ORB new term services
-*Create functions to collate the user provided information from the interface and load into the ORB server database √
-
-'''Week 8: 9 to 14 November Displaying and downloading search results'''
-
-To create function to display term search results and enable downloading .
-*Build an application function to display the term search results and provide informative response in case the term being search is not found *
-*Create a function to enable downloading the searched term in different  formats *
-
-'''Week 9: 16 to 21 November Testing'''
-
-To make the web-service compartible with different technologies
-*Test and edit the programs to enable smooth and uniform functionality in different Oses *
-*Test and edit the programs to enable smooth and uniform functionality in different browsers *
-
-''' Week 10 and 11 : 23 November to December 5 Deployment'''
-
-To deploy the ORB new term web-service to the NESCent server *
-
-'''List of remaining tasks in the last stretch of project'''
-*Sending an email to the term requester and the community mailing list  on term submission by ORB
-*Sending an E-mail to an ontology gatekeeper by an ORB administrator
-*Enable an automated e-mail generation to the requester and community whenever term status changes
-*Build an administrator protected interface for editing terms
-*Enable multiple addition of comments on a given term
-*Enable auto-complete service using the OBO relations at the term submission page the term relations  
-*Allow for user, status,name and ontology filtered queries 
-*Develop the ORB client API for interaction with other applications
-*Allow the output of terms in XML format
-*Enable the submission of more than one relation per term request
+Week 1: 4 to 9 January, 2010 Review ORB and discuss changes 
+To review the ORB project, suggest any changes in light of existing technologies from literature review and input from the team and document the (including the changes). 
+*Revise the ORB project plan and milestones 
+*Identify a suitable citation management tool and learn how to utilize it 
+*Perform a comprehensive literature search and read the relevant papers and add to the ORB literature review 
+*Come up with an outline for the MSc. dissertation
 
 == Links & Resources ==
 
