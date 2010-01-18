@@ -31,14 +31,7 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 
 ===Database schema===
 
-== Implementation details ==
-
-ORB will be a platform-independent web service with an exposed API for its integration into pre-existing ontology suites such as Phenex, OBO-edit, Phenote etc. Java will be the main language of development and application will be designed in a RESTful way using Restlet, a lightweight REST framework for Java applications.
-
-The application will support GET, POST and PUT requests and the data will be stored in PostgreSQL, an object relational database management system. Hibernate library will be utilized to map the java persistent classes to the relational database.
-From ORB web-service interface (or Phenex widget) and using the term ID or name, users will be able to access information provided during submission and resolution.
-
-In this prototype, the functionality of ORB term request services and the cycle will be exemplified by working with the Teleost Anatomy and Development Ontology (TAO) gatekeeper (http://www.berkeleybop.org/ontologies/owl/TAO) and TAO mailing list at source forge.
+===RESTful services===
 
 == Project plan ==
 ''An agile approach is used in ORB development. The sign √ indicates accomplished tasks while * indicates tasks yet to be implemented''
