@@ -123,8 +123,10 @@ Refinement and fix bugs
 Begin deployment
 *Deploy ORB to a publicly accessible server
 *Document ORB server
+
 '''Week 20: 16th to 22nd May, 2010'''
  *To be added
+
 '''Week 21: 23rd to 29th May, 2010'''
   *To be added
 '''Week 22: 30th to 31st May, 2010'''
