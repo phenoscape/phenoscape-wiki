@@ -16,8 +16,7 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 === ORB architecture overview ===
 [[Image:ORB_arch.jpg]]
 
-=== Requirements ===
-
+== Requirements ==
 
 ===Use cases===
 
