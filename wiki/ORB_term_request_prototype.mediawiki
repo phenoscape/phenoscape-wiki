@@ -89,98 +89,98 @@ In this prototype, the functionality of ORB term request services and the cycle 
 ''An agile approach is used in ORB development. The sign √ indicates accomplished tasks while * indicates tasks yet to be implemented''
 
 '''Week 1: 4 to 9 January, 2010'''
-'''To review the ORB project, suggest any changes in light of existing technologies from literature review and input from the team and document the (including the changes).'''
+To review the ORB project, suggest any changes in light of existing technologies from literature review and input from the team and document the (including the changes).
 *Revise the ORB project plan and milestones
 *Identify a suitable citation management tool and learn how to utilize it
 *Perform a comprehensive literature search and read the relevant papers and add to the ORB literature review
 
 
-Week 2: 10 to 16 January, 2010
+'''Week 2: 10 to 16 January, 2010'''
 Complete literature review, document and discuss with project team
 *Perform further literature search, read and complete literature review
 *Document the project requirements (technologies to be used, architecture, behavior) in the project wiki
 *Hold an online meeting with NESCent team about progress and ORB implementation based on literature review and existing technologies
 
 
-Week 3: 17 to 23 January, 2010
+'''Week 3: 17 to 23 January, 2010'''
 Document ORB requirements and specification based on input from literature, discussion and research
 *Revise the ORB requirements, specification and document it to the wiki
 
 
-Week 4: 24 to 30 January, 2010
+'''Week 4: 24 to 30 January, 2010'''
 Revise, design and implement ORB data layer based on existing technologies, input from project team and implement the database.
 *Design and implement the ORB database
 *Document the ORB database schema
 
 
-Week 5: 31st January to 6th February 2010
+'''Week 5: 31st January to 6th February 2010'''
 Design and implement ORB Application layer
 *Identify and document the role of each server application
 *Start implementing/coding the application layer
 
 
-Week 6: 7 to 13 February, 2010
+'''Week 6: 7 to 13 February, 2010'''
 Continue implementing the application layer plus the unit test
 *Continue implementing the application layer and unit tests
 
 
-Week 7: 14 to 20 February, 2010
+'''Week 7: 14 to 20 February, 2010'''
 Continue implementing the application layer plus the unit test
 *Continue implementing the application layer and unit tests
 
 
-Week 8: 21 to 27 February, 2010
+'''Week 8: 21 to 27 February, 2010'''
 Continue implementing the application layer plus the unit test
 *Continue implementing the application layer and unit tests
 
 
-Week 9:  28th February to 6th March 2010
+'''Week 9:  28th February to 6th March 2010'''
 Continue implementing the application layer plus the unit test
 *Continue implementing the application layer and unit tests
 
-Week 10: 7th to 13th March 2010
+'''Week 10: 7th to 13th March 2010'''
 Start working on the ORB user/client interface
 *Identify and describe the user/client interface
 *Begin implementing the user/client interface
 
-Week 12: 21st to 27th March 2010
+'''Week 12: 21st to 27th March 2010'''
 *Continue working on the user/client interface
 
-Week 13: 28th March to 3rd April 2010
-*Continue working on the user/client interface
-
-
-Week 14: 4th to 10th April 2010
+'''Week 13: 28th March to 3rd April 2010'''
 *Continue working on the user/client interface
 
 
-Week 15: 11th to 17th April, 2010
+'''Week 14: 4th to 10th April 2010'''
 *Continue working on the user/client interface
 
 
-Week 16: 18th to 24th April, 2010
+'''Week 15: 11th to 17th April, 2010'''
 *Continue working on the user/client interface
 
 
-Week 17: 25th April to 1st May 2010
+'''Week 16: 18th to 24th April, 2010'''
+*Continue working on the user/client interface
+
+
+'''Week 17: 25th April to 1st May 2010'''
 Complete the ORB application
 *Assemble all the ORB components and have a complete software
 *Refine the code implementation and fix any bugs
 
-Week 18: 2nd to 8th May 2010
+'''Week 18: 2nd to 8th May 2010'''
 Refinement and fix bugs
 *Continue fixing bugs
 
-Week 19: 9th to 15th May, 2010
+'''Week 19: 9th to 15th May, 2010'''
 Begin deployment
 *Deploy ORB to a publicly accessible server
 *Document ORB server
-Week 20: 16th to 22nd May, 2010
+'''Week 20: 16th to 22nd May, 2010'''
+ * To be added
+'''Week 21: 23rd to 29th May, 2010'''
   To be added
-Week 21: 23rd to 29th May, 2010
-  To be added
-Week 22: 30th to 31st May, 2010
-Submit the dissertation to the University
+'''Week 22: 30th to 31st May, 2010'''
+*Submit the dissertation to the University
 
 == Links & Resources ==
 
