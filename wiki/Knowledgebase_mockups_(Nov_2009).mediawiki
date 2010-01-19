@@ -150,3 +150,4 @@ What should happen upon clicking taxon names? --[[User:Jpb15|jim]] 11:38, 18 Nov
 * go to phenotype listing for that taxon and given phenotypes?
 
 [[Category:User Interface]]
+[[Category: Mockups]]
