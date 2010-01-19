@@ -118,6 +118,13 @@ Integration of publication data across site.
 
 ==== Single Pane Set Algebra interface ====
 
+[[Image:ComplexQuery1.png]]
+
+[[Image:ComplexQuery2.png]]
+
+[[Image:ComplextQueryAlgebraBox.png]]
+
+
 ==== Phenotype on Tree Mapping Specification ====
 
 
