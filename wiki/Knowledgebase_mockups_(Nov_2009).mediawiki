@@ -154,7 +154,7 @@ Integration of publication data across site.
 What should happen upon clicking taxon names? --[[User:Jpb15|jim]] 11:38, 18 November 2009 (EST)
 * go to taxon's page?
 * go to phenotype listing for that taxon and given phenotypes?
-* I have created pages with multiple versions for [[Complex Query Specification]], [[Map Multiple Phenotypes on Tree]] and [[Map Annotations on Tree]] -- [[User:peteremidford@yahoo.com | peter]] 17:39, 19 January 2010
+* I have created pages with multiple versions for [[Complex Query Specification]], [[Map Multiple Phenotypes on Tree]] and [[Map Qualities on Tree]] -- [[User:peteremidford@yahoo.com | peter]] 17:39, 19 January 2010
 
 [[Category:User Interface]]
 [[Category: Mockups]]
