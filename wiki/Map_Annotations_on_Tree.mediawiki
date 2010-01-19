@@ -2,9 +2,10 @@
 title: Map Annotations on Tree
 ---
 
-== Map Annotations on Tree ==
+== Map Qualities on Tree ==
 
 === Version 1 ===
+
 ==Display qualities using a grid of colored tiles==
 
 * Qualities are displayed with consistent location and color in the grid
