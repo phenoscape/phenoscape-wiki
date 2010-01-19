@@ -5,6 +5,7 @@ title: Map Multiple Phenotypes on Tree
 == Map Multiple Phenotypes on Tree ==
 
 === Version 1 ===
+[[Image:MultiplePhenotypesOnTree.png]]
 
 === Version 0 ===
 
