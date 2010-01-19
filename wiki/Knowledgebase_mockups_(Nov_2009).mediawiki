@@ -93,7 +93,7 @@ Integration of publication data across site.
 * Desaturated colors are used for qualities of phenotypes that are inferred, rather than annotated
 ** Note annotation to Ictaluridae in this and next candidate example
 * The 16 tile designs are intended to support expansion of the list of qualities used in curation - as has already happened.
-[[Image:ColorGridOption.png]]
+[[Image:ColorGridOption1.png]]
 
 ==Display qualities using colored icons strung along branches==
 * Qualities are displayed with consistent icon, color and relative position along branches
