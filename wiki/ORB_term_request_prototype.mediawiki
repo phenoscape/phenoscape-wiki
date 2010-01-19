@@ -33,16 +33,16 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 
 '''Week 1: 4 to 9 January, 2010'''
 To review the ORB project, suggest any changes in light of existing technologies from literature review and input from the team and document the (including the changes).
-*Revise the ORB project plan and milestones
-*Identify a suitable citation management tool and learn how to utilize it
-*Perform a comprehensive literature search and read the relevant papers and add to the ORB literature review
+*Revise the ORB project plan and milestones√
+*Identify a suitable citation management tool and learn how to utilize it√
+*Perform a comprehensive literature search and read the relevant papers and add to the ORB literature review√
 
 
 '''Week 2: 10 to 16 January, 2010'''
 Complete literature review, document and discuss with project team
-*Perform further literature search, read and complete literature review
-*Document the project requirements (technologies to be used, architecture, behavior) in the project wiki
-*Hold an online meeting with NESCent team about progress and ORB implementation based on literature review and existing technologies
+*Perform further literature search, read and complete literature review*
+*Document the project requirements (technologies to be used, architecture, behavior) in the project wiki*
+*Hold an online meeting with NESCent team about progress and ORB implementation based on literature review and existing technologies*
 
 
 '''Week 3: 17 to 23 January, 2010'''
