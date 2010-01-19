@@ -1,0 +1,12 @@
+---
+title: Map Multiple Phenotypes on Tree
+---
+
+== Map Multiple Phenotypes on Tree ==
+
+=== Version 1 ===
+
+=== Version 0 ===
+
+[[Category:User Interface]]
+[[Category: Mockups]]
