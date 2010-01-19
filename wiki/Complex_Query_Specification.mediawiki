@@ -4,7 +4,26 @@ title: Complex Query Specification
 
 == Complex Query Specification ==
 
-=== Version 1 === 
+=== Version 1 ===
+===Entry of phenotype specification===
+
+==== Single Pane Set Algebra interface ====
+
+[[Image:ComplexQuery1.png]]
+
+[[Image:ComplexQuery2.png]]
+
+[[Image:ComplexQueryAlgebraBox.png]]
+
+
+==== Phenotype on Tree Mapping Specification ====
+[[Image:TreeDisplayQuery.png]]
+
+==== Biomart style interface ====
+
+[[Image:BioMart1.png]]
+
+[[Image:BioMart2.png]]
 
 === Version 0 ===
 
