@@ -122,12 +122,6 @@ Integration of publication data across site.
 
 [[Image:BioMart2.png]]
 
-[[Image:BioMart3.png]]
-
-[[Image:BioMart4.png]]
-
-[[Image:Biomart5.png]]
-
 ==== November 2009 Version ====
 * user enters a phenotype specification, presses Done
 
