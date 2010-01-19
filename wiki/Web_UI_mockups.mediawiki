@@ -74,3 +74,4 @@ Mockup drawings created at the Phenoscape Data Roundup in September 2008.  These
 [[Category:Informatics]]
 [[Category:Data Jamboree 2]]
 [[Category:User Interface]]
+[[Category:Mockups]]
