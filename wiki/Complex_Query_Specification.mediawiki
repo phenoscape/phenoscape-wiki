@@ -26,6 +26,9 @@ title: Complex Query Specification
 [[Image:BioMart2.png]]
 
 === Version 0 ===
+* user enters a phenotype specification, presses Done
+
+[[Image:queries1.png|700px]]
 
 [[Category:User Interface]]
 [[Category: Mockups]]
