@@ -116,6 +116,11 @@ Integration of publication data across site.
 ==Phenotype queries==
 ===Entry of phenotype specification===
 
+==== Single Pane Set Algebra interface ====
+
+==== Phenotype on Tree Mapping Specification ====
+
+
 ==== Biomart style interface ====
 
 [[Image:BioMart1.png]]
