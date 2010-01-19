@@ -122,11 +122,11 @@ Integration of publication data across site.
 
 [[Image:ComplexQuery2.png]]
 
-[[Image:ComplextQueryAlgebraBox.png]]
+[[Image:ComplexQueryAlgebraBox.png]]
 
 
 ==== Phenotype on Tree Mapping Specification ====
-
+[[Image:TreeDisplayQuery.png]]
 
 ==== Biomart style interface ====
 
