@@ -14,6 +14,12 @@ title: Map Annotations on Tree
 [[Image:ColorGridOption1.png]]
 
 === Version 0 ===
+==Display qualities using colored icons strung along branches==
+* Qualities are displayed with consistent icon, color and relative position along branches
+* As above, desaturated colors are used for inferred qualities
+* Additional icons may be added
+
+[[Image:IconsOnBranchOption.png]]
 
 [[Category:User Interface]]
 [[Category:  Mockups]]
