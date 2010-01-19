@@ -13,7 +13,7 @@ The nearest common ancestor term of the annotated taxon terms is used as the roo
 ====Comments====
 *From Paula: start off with taxon tree semi-collapsed (at genus level). ''Starts semi-collapsed, but not yet at genus level''
 *From Paula: Put the number of taxa for which there are annotations in parens behind, e.g., the genus name. ''Tracked in FogBugz now''
-*From Todd: can we avoid repetition of the entity (ie "caudal vertebra") if all the phenotypes concern that one entity, or are you listing it to allow for the possibility of subsumed entities as well? ''yes indeed, to allow for subsumed entities'' 
+*From Todd: can we avoid repetition of the entity (ie "caudal vertebra") if all the phenotypes concern that one entity, or are you listing it to allow for the possibility of subsumed entities as well? ''yes indeed, to allow for subsumed entities''
 *From Todd: show numbers of taxa with annotations in parens for collapsed entities ''is this not the same as Paula's comment above?''
 *From Todd (cosmetic): italicize species names ''tracked in FogBugz''
 *From Todd: will the names be links to other pages? ''They are now.''
@@ -78,3 +78,4 @@ Anatomy pages can make use of homology information from the database to list pos
 
 [[Category:Informatics]]
 [[Category:User Interface]]
+[[Category:Mockups]]
