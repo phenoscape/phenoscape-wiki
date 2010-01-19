@@ -21,6 +21,14 @@ title: Map Qualities on Tree
 [[Image:IconsOnBranchOption.png]]
 
 === Version 0 ===
+==== Display qualities using text icons adjacent to taxon names====
+
+* user enters any entity term
+* each of the standard upper-level PATO qualities has some icon
+* each node of tree is annotated with icons for which kinds of phenotypes are exhibited by that node
+* so if you just put in "bone", you could get a "shape" icon at a node for any bone shape phenotype (basihyal bone round, vertebra 1 flat, etc.)
+
+[[Image:trees3.png|700px]]
 
 [[Category:User Interface]]
 [[Category: Mockups]]
