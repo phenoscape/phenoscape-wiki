@@ -128,20 +128,34 @@ Begin deployment
 
 ==Meetings==
 
-Date: Jan 19, 2010
+Jan 19, 2010
 
-Present
+'''Present'''
 Paula Mubee
 Hilmar Lapp
 Wasila Dahdul
 Jim Bahloff
 Peter Midford
 
-Agenda
-ORB requirements
-Working modalities
+'''Agenda'''
+**ORB requirements
+**Working modalities
 
 Minutes
+-ORB will be accessible via browsers and programmatically as REST web services
+-Term requester and Ontology gatekeepers must create an account at the site
+-A function to allow for submission of a term to multiple ontologies would useful
+-Apart from term submission, definition revision, term obsoletion and graph placement  should be implemented
+-A casual user need not register at the site
+-Function for uploading a file and downloading terms to be implemented
+-Have a section within ORB site for updates on latest acivities
+-Integrate ORB into phenex
+-Host the ORB project at sourceforge on it's page
+-Have a mechanism of checking if a term already exists in an ontology
+
+Action items
+-Contact the Berkley group(BBPO) on ORB trial
+-Have screen shots of ORB uploaded in the wiki to demonstrate functionality
 
 == Links & Resources ==
 
