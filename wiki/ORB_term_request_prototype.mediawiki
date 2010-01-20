@@ -46,8 +46,8 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 **Submit feature requests
 **Participate in term focused discussions
 
-* ORB
-'''Required functions in the prototype'''
+'''ORB prototype functions'''
+'''Required'''
 **New term request:
 **Verifies if the requester is registered. If not, generates the registration form else, the login page for requester to login
 **On successful registration(first time users) or login(for registered users), generates the term submission form
