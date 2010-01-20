@@ -81,6 +81,9 @@ Note: The roles of casual users also apply to developers, requester and ontology
 *Sends a notification message  to the term requester's e-mail account
 *Generates an update about the edited term at the latest activity section
 
+**Discussion board
+*ORB will have a term focused discussion board for all users to submit comments
+
 '''Useful functions that maybe implemented in the prototype'''
 **Validation of the submitted term's text definition
 **Validation of the term's relations if matching those specified in the ontology
