@@ -24,7 +24,17 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 
 '''Actors and roles'''
 
-''Requester''
+*(i) Requester
+
+*(ii) Ontology gatekeeper
+
+*(iii) Developers
+
+*(iv) Casual user
+
+*(v) Community
+
+*(vi) ORB
 
 ==Use cases==
 
