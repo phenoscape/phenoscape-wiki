@@ -56,6 +56,7 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 ** Sends the term's temporary ID plus the details to the requester's e-mail account
 **Persists the requested term to the ORB database
 **Generates an update at the latest activity section of the site
+*if the request is invalid because of missing fields or inauthentic e-mail address, ORB rejects the request and sends a message to the requester about the failed submission and the reason
 
 
 Note: The roles of casual users also apply to developers, requester and ontology gatekeepers
