@@ -41,15 +41,24 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 **May or may not have an account at the site
 **Can browse , search, download and  comment on terms
 
-Note:The roles of casual users also apply to developers, requester and ontology gatekeepers
-
 * Community
 **Report bugs
 **Submit feature requests
 **Participate in term focused discussions
 
 * ORB
-**
+**On term request submission:
+**Validates if all the required term fields are provided
+**Validates if the e-mail provided is valid
+**Validates if the requested term already exists in the ontology to which it's to be added
+*If the request is valid:
+** Assign's a temporary ID, status and date of submission to the term
+** Sends the term's temporary ID plus the details to the requester's e-mail account
+**Persists the requested term to the ORB database
+**Generates an update at the latest activity section of the site
+
+
+Note: The roles of casual users also apply to developers, requester and ontology gatekeepers
 
 ==Use cases==
 
