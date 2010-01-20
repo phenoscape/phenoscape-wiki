@@ -11,7 +11,9 @@ title: Map Multiple Phenotypes on Tree
 
 === Multiple Phenotype Selection Panel ===
 
-[[Image:TreeDisplayQuery.png]]
+[[Image:MapMultiplePhenotypes1.png]]
+[[Image:MapMultiplePhenotypes2.png]]
+[[Image:MapMultiplePhenotypes3.png]]
 
 
 === Tree Display ===
