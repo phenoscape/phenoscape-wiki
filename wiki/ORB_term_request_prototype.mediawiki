@@ -20,7 +20,7 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 
 '''Accessibility'''
 *ORB will have a web interface for easy access via browsers
-*It will also have REST-style web service for programmatic access
+*It will also have REST-style web service for programmatic access. The prototype will be integrated into [https://www.phenoscape.org/wiki/Phenex Phenex] as a demonstration
 
 '''Actors and roles'''
 
@@ -47,6 +47,7 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 **Participate in term focused discussions
 
 * ORB
+'''Required functions in the prototype'''
 **New term request:
 **Verifies if the requester is registered. If not, generates the registration form else, the login page for requester to login
 **On successful registration(first time users) or login(for registered users), generates the term submission form
@@ -72,10 +73,19 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 **Term's status change
 *Verifies if the user is the authentic ontology gatekeeper for the specific ontology
 *If the valid gatekeeper, generates term's page with the editable feature
-*if status is set to 'resolved', a pop up field is generated for inserting the term's permanent ID  
-*Saves the terms edited information to the database 
+*if status is set to 'resolved', a pop up field is generated for inserting the term's permanent ID
+*Saves the terms edited information to the database
 *Sends a notification message  to the term requester's e-mail account
 *Generates an update about the edited term at the latest activity section
+
+'''Optional but useful functions''' 
+**Validation of the submitted term's text definition
+**Validation of the term's relations if matching those specified in the ontology
+**Auto-completion services for relations,ontology name,parent and synonyms during term request and also in the term searching fields
+**Enable a term request submission to multiple ontologies
+
+
+
 
 
 
