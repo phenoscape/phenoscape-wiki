@@ -128,14 +128,14 @@ Begin deployment
 
 ==Meetings==
 
-Jan 19, 2010
+'''Jan 19, 2010'''
 
 '''Present'''
-Paula Mubee
-Hilmar Lapp
-Wasila Dahdul
-Jim Bahloff
-Peter Midford
+**Paula Mubee
+**Hilmar Lapp
+**Wasila Dahdul
+**Jim Bahloff
+**Peter Midford
 
 '''Agenda'''
 *
