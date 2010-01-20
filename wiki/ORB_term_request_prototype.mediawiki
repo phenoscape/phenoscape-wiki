@@ -30,6 +30,9 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 **Can edit their own (specific) requested terms; name, definition, parent, relations, references, cross-references, synonyms and add comments.
 
 * Ontology gatekeeper
+**Has an account or registers if it’s the first time visiting ORB
+**Can edit all the requested term’s fields
+**The only one with privileges to change a term’s status
 
 * Developers
 
