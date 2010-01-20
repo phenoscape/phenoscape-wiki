@@ -32,7 +32,7 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 
 * Ontology gatekeeper
 **Has an account or registers if it’s the first time visiting the site
-**Can edit all the requested term’s fields in the respective ontology(-ies) 
+**Can edit all the requested term’s fields in the respective ontology(-ies)
 **The only one with privileges to change a term’s status
 
 * Developers
@@ -100,6 +100,10 @@ Note: The roles of casual users also apply to developers, requester, ontology ga
 **A comprehensive documentation on ORB's functions(how to..),implementation and help pages
 **Registration and extensive documentation at [http://sourceforge.net/ sourceforge], [http://www.biocatalogue.org/ Biocatalogue] and [https://www.phenoscape.org/wiki/Main_Page Phenoscape wiki]
 **Have a bug tracking and feature request mechanism
+
+== 
+== Headline text ==
+ ==
 
 ==Use cases==
 
