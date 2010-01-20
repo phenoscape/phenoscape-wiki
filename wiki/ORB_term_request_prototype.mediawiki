@@ -52,11 +52,14 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 **Validates if the e-mail provided is valid
 **Validates if the requested term already exists in the ontology to which it's to be added
 *If the request is valid:
-** Assign's a temporary ID, status and date of submission to the term
+** Assign's a temporary ID, status and generates date of submission to the term
+**Informs the requester of successful submission
 ** Sends the term's temporary ID plus the details to the requester's e-mail account
 **Persists the requested term to the ORB database
 **Generates an update at the latest activity section of the site
-*if the request is invalid because of missing fields or inauthentic e-mail address, ORB rejects the request and sends a message to the requester about the failed submission and the reason
+*If the request is invalid because of missing fields or inauthentic e-mail address, ORB rejects the request and sends a message to the requester about the failed submission and the reason
+*If the request is invalid because the term already exists in the ontology, ORB informs the requester about the failed submission and returns the matching term from the ontology with the permanent ID assigned to it.
+* 
 
 
 Note: The roles of casual users also apply to developers, requester and ontology gatekeepers
