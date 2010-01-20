@@ -45,7 +45,8 @@ Note:The roles of casual users also apply to developers, requester and ontology 
 
 * Community
 **Report bugs
-**Submit any feature requests
+**Submit feature requests
+**Participate in term focused discussions
 
 * ORB
 **
