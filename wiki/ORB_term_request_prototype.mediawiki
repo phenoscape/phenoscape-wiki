@@ -129,7 +129,7 @@ Begin deployment
 ==Meetings==
 
 '''Jan 19, 2010'''
-
+''notes by Mtakai''
 '''Present'''
 **Paula Mubee
 **Hilmar Lapp
@@ -156,7 +156,7 @@ Begin deployment
 **Host the ORB project at sourceforge on it's page
 **Have a mechanism of checking if a term already exists in an ontology
 **Communication via e-mail
-**ORB meetings after each use case implementation 
+**ORB meetings after each use case implementation
 **Code will be shared via subversion repository for team review
 
 *Action items
