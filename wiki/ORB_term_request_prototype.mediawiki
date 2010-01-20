@@ -49,6 +49,7 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 * ORB
 **New term request:
 **Verifies if the requester is registered. If not, generates the registration form else, the login page for requester to login
+**On successful registration(first time users) or login(for registered users), generates the term submission form
 **Validates if all the required term fields are provided
 **Validates if the e-mail provided is valid
 **Validates if the requested term already exists in the ontology to which it's to be added
@@ -69,8 +70,13 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 *Generates an update about the action at the site's latest activity section
 
 **Term's status change
+*Verifies if the user is the authentic ontology gatekeeper for the specific ontology
+*If the valid gatekeeper, generates term's page with the editable feature
+*if status is set to 'resolved', a pop up field is generated for inserting the term's permanent ID  
+*Saves the terms edited information to the database 
+*Sends a notification message  to the term requester's e-mail account
+*Generates an update about the edited term at the latest activity section
 
- 
 
 
 
