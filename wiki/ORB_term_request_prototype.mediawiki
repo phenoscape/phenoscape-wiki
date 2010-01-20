@@ -128,6 +128,21 @@ Begin deployment
 
 ==Meetings==
 
+Date: Jan 19, 2010
+
+Present
+Paula Mubee
+Hilmar Lapp
+Wasila Dahdul
+Jim Bahloff
+Peter Midford
+
+Agenda
+ORB requirements
+Working modalities
+
+Minutes
+
 == Links & Resources ==
 
 * Early and incomplete [http://geneontology.cvs.sourceforge.net/viewvc/geneontology/go-dev/amigo/amigo/cgi-bin/experimental/orb?revision=1.1&view=markup ORB implementation in Perl] by Seth Carbon. This interfaces directly with the SourceForge tracker.
