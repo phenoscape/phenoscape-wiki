@@ -18,6 +18,10 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 
 == Requirements ==
 
+'''Accessibility'''
+*ORB will have a web interface for easy access via browsers
+*Will also have REST-style web service for programmatic access
+
 ==Use cases==
 
 ==Specification==
