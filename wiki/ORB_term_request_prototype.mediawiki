@@ -41,12 +41,14 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 **May or may not have an account at the site
 **Can browse , search, download and  comment on terms
 
-Note:The roles of casual users also apply to developers, requester and ontology gatekeepers 
-
+Note:The roles of casual users also apply to developers, requester and ontology gatekeepers
 
 * Community
+**Report bugs
+**Submit any feature requests
 
 * ORB
+**
 
 ==Use cases==
 
