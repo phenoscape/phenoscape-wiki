@@ -20,7 +20,8 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 
 '''Accessibility'''
 *ORB will have a web interface for easy access via browsers
-*It will also have REST-style web service for programmatic access. The prototype will be integrated into [https://www.phenoscape.org/wiki/Phenex Phenex] as a demonstration
+*It will also have REST-style web service for programmatic access
+*The prototype will be integrated into [https://www.phenoscape.org/wiki/Phenex Phenex] as a demonstration of an interfaceable API.
 
 '''Actors and roles'''
 
