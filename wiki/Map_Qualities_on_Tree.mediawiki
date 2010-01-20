@@ -7,7 +7,9 @@ title: Map Qualities on Tree
 === Version 2 ===
 ==== Access from Entity Page via tree button ====
 
-[[Image:EntityPanelButtons.png]]
+[[Image:MapQualities1.png]]
+
+[[Image:MapQualities2.png]]
 
 ==== Taxonomic Scope ====
 
