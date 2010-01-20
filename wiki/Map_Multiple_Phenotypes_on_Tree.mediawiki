@@ -18,7 +18,7 @@ title: Map Multiple Phenotypes on Tree
 
 === Tree Display ===
 
-[[Image:MultiplePhenotypes5.png]]
+[[Image:MapMultiplePhenotypes5.png]]
 
 == Version 1 ==
 [[Image:MultiplePhenotypesOnTree.png]]
