@@ -94,8 +94,8 @@ Note: The roles of casual users also apply to developers, requester and ontology
 '''Support'''
 
 **A comprehensive documentation on ORB's functions(how to..),implementation and help pages
-**Registration, accurate and extensive documentation at [http://sourceforge.net/ sourceforge], [http://www.biocatalogue.org/ Biocatalogue] and [https://www.phenoscape.org/wiki/Main_Page Phenoscape wiki]
-**Bug tracking and feature request mechanism
+**Registration and extensive documentation at [http://sourceforge.net/ sourceforge], [http://www.biocatalogue.org/ Biocatalogue] and [https://www.phenoscape.org/wiki/Main_Page Phenoscape wiki]
+**Have a bug tracking and feature request mechanism
 
 ==Use cases==
 
