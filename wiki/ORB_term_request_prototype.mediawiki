@@ -27,7 +27,7 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 *(i) Requester
 **Has an account or  registers at the site
 **Submits a term request
-**
+**Can edit their own (specific) requested terms; name, definition, parent, relations, references, cross-references, synonyms and add comments.
 
 *(ii) Ontology gatekeeper
 
