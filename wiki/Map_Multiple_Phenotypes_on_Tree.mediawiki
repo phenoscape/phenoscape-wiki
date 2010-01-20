@@ -7,7 +7,7 @@ title: Map Multiple Phenotypes on Tree
 == Version 2 ==
 
 === Access from Tree Buttons in Quality Column===
-[[Image:EntityPanelButtons1.png]]
+[[Image:MapMultiplePhenotypes1.png]]
 
 === Multiple Phenotype Selection Panel ===
 
