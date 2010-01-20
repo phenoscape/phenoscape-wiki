@@ -216,7 +216,7 @@ Begin deployment
 (notes by Mtakai)
 
 '''Present'''
-**Paula Mubee
+**Paula Mabee
 **Hilmar Lapp
 **Wasila Dahdul
 **Jim Bahloff
@@ -230,11 +230,11 @@ Begin deployment
 *
 
 '''Minutes'''
-**ORB will be accessible via browsers and programmatically as REST web services
-**Term requester and Ontology gatekeepers must create an account at the site
-**A function to allow for submission of a term to multiple ontologies would useful
-**Apart from term submission, definition revision, term obsoletion and graph placement  should be implemented
-**A casual user need not register at the site
+**ORB will be accessible via browsers and programmatically as REST web services.
+**Term requester and Ontology gatekeepers must create an account at the site.
+**A function to allow for submission of a term to multiple ontologies would useful.
+**Apart from term submission, definition revision, term obsoletion and graph placement should be implemented.
+**A casual user need not register at the site. [What other users are there besides term requestors and gatekeepers?  Those who comment on terms? --[[User:Tjvision|Tjvision]] 08:02, 20 January 2010 (EST)]
 **Function for uploading a file and downloading terms to be implemented
 **Have a section within ORB site for updates on latest acivities
 **Integrate ORB into phenex
@@ -245,7 +245,7 @@ Begin deployment
 **Code will be shared via subversion repository for team review
 
 *Action items
-**Contact the Berkley group(BBPO) on ORB trial
+**Contact the Berkley group (BBPO) on ORB trial
 **Have screen shots of ORB uploaded in the wiki to demonstrate functionality
 
 == Links & Resources ==
