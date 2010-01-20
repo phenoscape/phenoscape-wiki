@@ -29,7 +29,7 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 ==REST services==
 
 == Project plan ==
-''An agile approach will be used in ORB development. The sign √ indicates accomplished tasks while * indicates tasks yet to be implemented''
+''An agile approach will be used in ORB development. The sign √ indicates accomplished tasks while * indicates tasks which ought to have been implemented but haven't been''
 
 '''Week 1: 4 to 9 January, 2010'''
 To review the ORB project, suggest any changes in light of existing technologies from literature review and input from the team and document the (including the changes).
