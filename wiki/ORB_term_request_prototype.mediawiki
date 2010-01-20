@@ -47,6 +47,7 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 **Participate in term focused discussions
 
 '''ORB prototype functions'''
+
 '''Required'''
 **New term request:
 **Verifies if the requester is registered. If not, generates the registration form else, the login page for requester to login
@@ -78,11 +79,19 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 *Sends a notification message  to the term requester's e-mail account
 *Generates an update about the edited term at the latest activity section
 
-'''Functions that may be implemented in the prototype'''
+'''May be implemented in the prototype'''
 **Validation of the submitted term's text definition
 **Validation of the term's relations if matching those specified in the ontology
 **Auto-completion services for relations,ontology name,parent and synonyms during term request and also in the term searching fields
 **Enable a term request submission to multiple ontologies
+
+
+'''Support'''
+
+**A comprehensive documentation on ORB's functions(how to..),implementation and help pages
+**Registration, accurate and extensive documentation at [http://sourceforge.net/ sourceforge], [http://www.biocatalogue.org/ Biocatalogue] and [https://www.phenoscape.org/wiki/Main_Page Phenoscape wiki]
+**Bug tracking and feature request mechanism
+
 
 
 
