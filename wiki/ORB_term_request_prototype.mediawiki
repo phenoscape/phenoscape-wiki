@@ -138,8 +138,10 @@ Jim Bahloff
 Peter Midford
 
 '''Agenda'''
+*
 **ORB requirements
 **Working modalities
+*
 
 Minutes
 -ORB will be accessible via browsers and programmatically as REST web services
