@@ -26,17 +26,17 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 '''Actors and roles'''
 
 * Requester
-**Has an account or  registers at the site
+**Has an account or registers if it's the first time at the site
 **Submits a term request
-**Can edit their own (specific) requested terms; name, definition, parent, relations, references, cross-references, synonyms and add comments.
+**Can edit their specific requested term's; name, definition, parent, relations, references, cross-references, synonyms and add comments.
 
 * Ontology gatekeeper
-**Has an account or registers if it’s the first time visiting ORB
-**Can edit all the requested term’s fields
+**Has an account or registers if it’s the first time visiting the site
+**Can edit all the requested term’s fields in the respective ontology(-ies) 
 **The only one with privileges to change a term’s status
 
 * Developers
-**Have access to the source code and an exposed API for integrating and developing ORB
+**Have access to the source code and an exposed API for integrating and developing ORB further
 
 * Casual user
 **May or may not have an account at the site
@@ -47,31 +47,34 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 **Submit feature requests
 **Participate in term focused discussions
 
-Note: The roles of casual users also apply to developers, requester and ontology gatekeepers
+Note: The roles of casual users also apply to developers, requester, ontology gatekeepers and the community at large.
 
 '''ORB prototype functions'''
 
 '''Required'''
 **New term request:
-**Verifies if the requester is registered. If not, generates the registration form else, the login page for requester to login
-**On successful registration(first time users) or login(for registered users), generates the term submission form
+**Verifies if the requester is registered. If not, generates the registration form else, the login page for requesters
+**On successful registration(for first time users) or login(for registered users), generates the term submission form
 **Validates if all the required term fields are provided
 **Validates if the e-mail provided is valid
 **Validates if the requested term already exists in the ontology to which it's to be added
+
 *If the request is valid:
 ** Assign's a temporary ID, status and generates date of submission to the term
 **Informs the requester of successful submission
 ** Sends the term's temporary ID plus the details to the requester's e-mail account
 **Persists the requested term to the ORB database
 **Generates an update at the latest activity section of the site
-*If the request is invalid because of missing fields or inauthentic e-mail address, ORB rejects the request and sends a message to the requester about the failed submission and the reason
-*If the request is invalid because the term already exists in the ontology, ORB informs the requester about the failed submission and returns the matching term from the ontology with the permanent ID assigned to it.
+
+*If the request is invalid because of missing required fields or inauthentic e-mail address, ORB rejects the request and sends a message to the requester about the failed submission and the reason
+
+*If the request is invalid because the term already exists in the designated ontology, ORB informs the requester about the failed submission and returns the matching term from the ontology with it's permanent ID.
 
 **Term editing
-*Validates if the user is a registered ontology gatekeeper for the specific ontology or the requester of the specific term
+*Validates if user is a registered ontology gatekeeper for the specific ontology or the requester of the specific term
 *Generates a term's editable fields
 *Saves the terms altered or added information
-*Sends a notification to the term's requester and ontology gatekeeper
+*Sends a notification to the term's requester and ontology gatekeeper(if one exists)
 *Generates an update about the action at the site's latest activity section
 
 **Term's status change
