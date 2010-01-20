@@ -42,7 +42,7 @@ To review the ORB project, suggest any changes in light of existing technologies
 Complete literature review, document and discuss with project team
 *Perform further literature search, read and complete literature review*
 *Document the project requirements (technologies to be used, architecture, behavior) in the project wiki*
-*Hold an online meeting with NESCent team about progress and ORB implementation based on literature review and existing technologies*
+*Hold an online meeting with NESCent team about progress and ORB implementation based on literature review and existing technologies√
 
 
 '''Week 3: 17 to 23 January, 2010'''
