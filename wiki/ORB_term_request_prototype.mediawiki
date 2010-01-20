@@ -78,7 +78,7 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 *Sends a notification message  to the term requester's e-mail account
 *Generates an update about the edited term at the latest activity section
 
-'''Optional but useful functions''' 
+'''Functions that may be implemented in the prototype'''
 **Validation of the submitted term's text definition
 **Validation of the term's relations if matching those specified in the ontology
 **Auto-completion services for relations,ontology name,parent and synonyms during term request and also in the term searching fields
