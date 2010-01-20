@@ -129,7 +129,7 @@ Begin deployment
 ==Meetings==
 
 '''Jan 19, 2010'''
-(''notes by Mtakai'')
+(notes by Mtakai)
 '''Present'''
 **Paula Mubee
 **Hilmar Lapp
