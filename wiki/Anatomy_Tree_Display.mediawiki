@@ -13,6 +13,12 @@ title: Anatomy Tree Display
 
 [[Image:anatomy-tree1.png|700px]]
 
+== Comments: ==
+
+* Alternatively, this could be a two-panel display with tree in the left panel and results table in right panel, similar to BioPortal's layout. 
+
+* How to clearly indicate relationships on branches? For example, "type of" and "part of" with arrow pointing to parent?
+
 === Summary results, page 2 ===
 
 [[Image:anatomy-tree2.png|700px]]
