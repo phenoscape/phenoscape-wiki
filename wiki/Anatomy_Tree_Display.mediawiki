@@ -8,6 +8,10 @@ title: Anatomy Tree Display
 === Access anatomy tree summary results from front search page: ===
 [[Image:anatomy-search.png|700px]]
 
+[[Image:anatomy-tree1.png|700px]]
+
+[[Image:anatomy-tree2.png|700px]]
+
 == Version 0 ==
 
 ===Search summary results===
