@@ -19,6 +19,8 @@ Revision 1 posted on 12/16/09 by Wasila based on amphibanat feedback, Phenoscape
 
 ====List of publications, revision 1====
 [[Image:pubs2-rev1.png|700px]]
+=====Comments:=====
+* Per conference call 12/15/2009: include indented smaller source character text under each publication to indicate which data caused association of that publication with ontological term on previous page.  This text is not clickable, only the publication citation is.
 
 ====Publication detail page, revision 1 ====
 [[Image:pubs3-rev1.png|700px]]
