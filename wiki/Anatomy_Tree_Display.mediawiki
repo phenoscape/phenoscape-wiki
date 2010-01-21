@@ -5,7 +5,7 @@ title: Anatomy Tree Display
 == Version 1 ==
 
 
-Access anatomy tree summary results from front search page:
+=== Access anatomy tree summary results from front search page: ===
 [[Image:anatomy-search.png|700px]]
 
 == Version 0 ==
