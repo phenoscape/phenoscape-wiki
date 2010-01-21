@@ -15,6 +15,7 @@ Revision 1 posted on 12/16/09 by Wasila based on amphibanat feedback, Phenoscape
 =====Comments:=====
 * John likes separate column for publications (as in previous revision), maybe add 'KB Publications' vs. book icon in taxon column.
 * Tree page, source data box: will need link to Pub page 3, below (case # 1337)
+* Per conference call 12/15/2009: we will use book icon with hover popup text which tells what book means and how many publications user will see.
 
 ====List of publications, revision 1====
 [[Image:pubs2-rev1.png|700px]]
