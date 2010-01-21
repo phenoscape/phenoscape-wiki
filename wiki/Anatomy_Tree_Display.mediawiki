@@ -8,6 +8,8 @@ title: Anatomy Tree Display
 == Version 0 ==
 
 ===Search summary results===
+Copied from this page: [[Knowledgebase_mockups]]
+
 This would be an enhancement to the Phenotypes results currently displayed on a page like http://kb.phenoscape.org/search/anatomy/TAO:0000376
 
 The leftmost column is intended to represent a disclosable tree display.  The nearest common ancestor of the represented annotated anatomy terms is used as the root of the tree display.  Each anatomy term has a flat list of the qualities annotated for it.  ''Don't pay too much attention to the dummy numbers given in these results.''
