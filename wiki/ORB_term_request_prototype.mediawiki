@@ -234,7 +234,7 @@ Begin deployment
 **Term requester and Ontology gatekeepers must create an account at the site.
 **A function to allow for submission of a term to multiple ontologies would useful.
 **Apart from term submission, definition revision, term obsoletion and graph placement should be implemented.
-**A casual user need not register at the site. [What other users are there besides term requestors and gatekeepers?  Those who comment on terms? --[[User:Tjvision|Tjvision]] 08:02, 20 January 2010 (EST)]
+**The users are categorized as:requester, ontology gatekeeper,developers, casual user and the community at large. A casual user need not register at the site.Visit [https://www.phenoscape.org/wiki/ORB_term_request_prototype#Requirements requirements] section for details on each of the users' role(s).
 **Function for uploading a file and downloading terms to be implemented
 **Have a section within ORB site for updates on latest acivities
 **Integrate ORB into phenex
