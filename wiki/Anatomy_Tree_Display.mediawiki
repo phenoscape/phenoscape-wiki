@@ -2,4 +2,40 @@
 title: Anatomy Tree Display
 ---
 
-Version 0
+== Version 1 ==
+
+
+== Version 0 ==
+
+===Search summary results===
+This would be an enhancement to the Phenotypes results currently displayed on a page like http://kb.phenoscape.org/search/anatomy/TAO:0000376
+
+The leftmost column is intended to represent a disclosable tree display.  The nearest common ancestor of the represented annotated anatomy terms is used as the root of the tree display.  Each anatomy term has a flat list of the qualities annotated for it.  ''Don't pay too much attention to the dummy numbers given in these results.''
+
+Root anatomy term "infraorbital" collapsed:
+
+[[Image:infraorbital closed ontology tree.png|600px]]
+
+Root anatomy term "infraorbital" expanded:
+
+[[Image:infraorbital open ontology tree.png|600px]]
+
+Possible further enhancement to page capabilities - redisplay data on a quality tree.  The included results would be somewhat different.
+
+Nearest quality ancestor collapsed:
+
+[[Image:quality closed ontology tree.png|600px]]
+
+Quality ancestor expanded:
+
+[[Image:quality open ontology tree.png|600px]]
+
+====Comments====
+*From Paula: Rename 'Entity' 'Anatomy' as per other mockups for consistency http://kb.phenoscape.org/search/anatomy/TAO:0000376
+*From Paula: swap column headings Entity-Quality on Quality tree table (below ' Nearest quality ancestor collapsed" text)
+*From Todd (cosmetic): I'm not sure the alternating colors will be clear when there are multiple rows - those are most useful as an aid to follow horizontally across many columns within a row
+*From Todd: would it be possible to collapse the quality column too (ie to "4 qualities" for a given entity? or "4 anatomical terms" for a given quality)?
+*From Todd: Personally I think having the anatomical entity in the 1st column is a lot more useful than having the quality tree there.
+
+[[Category:Mockups]]
+[[Category:User Interface]]
