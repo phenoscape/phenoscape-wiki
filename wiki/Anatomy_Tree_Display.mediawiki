@@ -6,7 +6,7 @@ title: Anatomy Tree Display
 
 
 Access anatomy tree summary results from front search page:
-[[Image:anatomy-search-pg1.png]]
+[[Image:anatomy-search.png]]
 
 == Version 0 ==
 
