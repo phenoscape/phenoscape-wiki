@@ -6,7 +6,7 @@ title: Map Multiple Phenotypes on Tree
 
 == Version 3 ==
 
-== Access from Tree Buttons in Quality Column===
+=== Access from Tree Buttons in Quality Column ===
 
 
 == Version 2 ==
