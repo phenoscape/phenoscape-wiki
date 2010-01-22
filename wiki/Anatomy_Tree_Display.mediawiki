@@ -4,6 +4,7 @@ title: Anatomy Tree Display
 
 == Version 1 ==
 
+From conference call on 1/21/2010"
 
 === Access anatomy tree summary results from front search page: ===
 [[Image:anatomy-search.png|700px]]
@@ -13,8 +14,10 @@ title: Anatomy Tree Display
 [[Image:anatomy-tree1.png|700px]]
 ==== Comments: ====
 * Alternatively, this could be a two-panel display with tree in the left panel and results table in right panel, similar to BioPortal's layout.
+** make mockup for next conf call
 
 * How to clearly indicate relationships on branches? For example, "type of" and "part of" with arrow pointing to parent?
+** Don't need to display relationships on branches if tree has "subtype results" and "subpart results" labeled.
 
 === Summary results, page 2 ===
 
