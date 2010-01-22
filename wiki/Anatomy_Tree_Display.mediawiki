@@ -19,6 +19,8 @@ From conference call on 1/21/2010"
 * How to clearly indicate relationships on branches? For example, "type of" and "part of" with arrow pointing to parent?
 ** Don't need to display relationships on branches if tree has "subtype results" and "subpart results" labeled.
 
+* tree is confusing. Would be clearer to indent child terms, similar to OBO-edit's ontology tree viewer.
+
 === Summary results, page 2 ===
 
 [[Image:anatomy-tree2.png|700px]]
