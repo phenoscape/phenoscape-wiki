@@ -8,6 +8,11 @@ title: Map Multiple Phenotypes on Tree
 
 === Access from Tree Buttons in Quality Column ===
 
+[[Image:MapMultiplePhenotypes1.png]]
+
+=== Tree Display and Query Refinement ===
+
+
 
 == Version 2 ==
 
