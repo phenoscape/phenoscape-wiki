@@ -2,6 +2,23 @@
 title: Anatomy Tree Display
 ---
 
+== Version 2 ==
+
+For conference call on 1/22/2010
+
+=== Access anatomy tree summary results from front search page: ===
+[[Image:anatomy-search.png|700px]]
+
+
+=== Summary results, page 1 ===
+[[Image:anatomy-tree1-rev1.png|700px]]
+
+=== Summary results, page 2 ===
+[[Image:anatomy-tree2-rev1.png|700px]]
+
+=== Two panel display of summary results ===
+[[Image:anatomy-tree-2panels.png|700px]]
+
 == Version 1 ==
 
 From conference call on 1/21/2010"
