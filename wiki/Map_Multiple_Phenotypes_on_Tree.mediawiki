@@ -13,12 +13,12 @@ title: Map Multiple Phenotypes on Tree
 
 [[Image:MapMultiplePhenotypes2.png]]
 [[Image:MapMultiplePhenotypes3.png]]
-[[Image:MapMultiplePhenotypes4.png]]
+[[Image:MapMultiplePhenotypes6.png]]
 
 
 === Tree Display ===
 
-[[Image:MapMultiplePhenotypes5.png]]
+[[Image:MapMultiplePhenotypes7.png]]
 
 == Version 1 ==
 [[Image:MultiplePhenotypesOnTree.png]]
