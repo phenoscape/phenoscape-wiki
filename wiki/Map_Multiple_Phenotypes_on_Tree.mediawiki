@@ -11,8 +11,7 @@ title: Map Multiple Phenotypes on Tree
 [[Image:MapMultiplePhenotypes1.png]]
 
 === Tree Display and Query Refinement ===
-
-
+[[Image:MapMultiplePhenotypes2a.png]]
 
 == Version 2 ==
 
