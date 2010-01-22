@@ -6,7 +6,9 @@ title: Map Qualities on Tree
 
 == Version 3 ==
 === Access from Entity Page via tree button ===
+[[Image:MapQualities1.png]]
 === Display Qualities One at a time using a Scroll ===
+[[Image:MapQualities3a.png]]
 
 == Version 2 ==
 === Access from Entity Page via tree button ===
