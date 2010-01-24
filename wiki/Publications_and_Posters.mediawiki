@@ -3,7 +3,7 @@ title: Publications and Posters
 ---
 
 ==Publications==
-* Dahdul, W. M., J. P. Balhoff, J. Engeman, T. Grande, E. J. Hilton, C. R. Kothari, H. Lapp, J. G. Lundberg, P. E. Midford, T. J. Vision, M. Westerfield, and P. M. Mabee. 2010. Evolutionary characters, phenotypes and ontologies: curating data from the systematic biology literature. Public Library of Science (PLoS). In review.  
+* Dahdul, W. M., J. P. Balhoff, J. Engeman, T. Grande, E. J. Hilton, C. R. Kothari, H. Lapp, J. G. Lundberg, P. E. Midford, T. J. Vision, M. Westerfield, and P. M. Mabee. 2010. Evolutionary characters, phenotypes and ontologies: curating data from the systematic biology literature. Public Library of Science (PLoS). In review.
 * Balhoff, J. P., W. M. Dahdul, C. R. Kothari, H. Lapp, J. G. Lundberg, P. M. Mabee, P. E. Midford, M. Westerfield, and T. J. Vision. 2010. Phenex: Ontological annotation of phenotypic diversity. Public Library of Science (PLoS). Accepted pending revision (24 January 2010)
 * Washington, N.L., C.J. Mungall, M.Gibson, J.P. Balhoff, J. Day-Richter, and S. Lewis.  Phenote: A biological data annotation editor using ontologies. ''Submitted''
 * Dahdul, W.M., Lundberg, J.G., Midford, P.E., Balhoff, J.P., Lapp, H., Vision, T.J., Haendel, M.A., Westerfield, M., Mabee, P.M. (in press).    The Teleost Anatomy Ontology: Anatomical Representation for the Genomics Age. Systematic Biology.
@@ -12,7 +12,7 @@ title: Publications and Posters
 * Mabee PM, Arratia G, Coburn M, Haendel M, Hilton EJ, Lundberg JG, Mayden RL, Rios N, and Westerfield M. Connecting evolutionary morphology to genomics using ontologies: a case study from Cypriniformes including zebrafish. J Exp Zoolog B Mol Dev Evol 2007 Jun 28. [http://dx.doi.org/10.1002/jez.b.21181 doi:10.1002/jez.b.21181]
 
 ==Posters & Presentations==
-==2009==
+===2009===
 <u>Todd Vision</u> (2009) [[Media:iplant_ontologies_2009_11_22.pdf|Ontologies in Phenoscape: Morphology, Taxa and Evolution]], Presentation at the iPlant Tree of Life Data Assembly Meeting, Phoenix, AZ, Nov 22, 2009.
 
 <u>Paula Mabee</u> (2009) Phenoscape: Using ontologies to link comparative morphology to genes.  Presentation at the AmphibAnat Meeting, Kansas City, KS Nov. 6, 2009.
