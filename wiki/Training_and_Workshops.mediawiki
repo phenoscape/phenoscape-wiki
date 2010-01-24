@@ -5,7 +5,7 @@ title: Training and Workshops
 ==Summer Training Opportunities==
 Opportunities in summer 2009 are available to graduate students and postdocs for training in data curation and software development at NESCent and the University of South Dakota.  [[SummerTraining2009|More information]].
 
-== [[ASIH09_workshop|Ontologies for Ichthyology and Herpetology]] ==
+== [[ASIH09_workshop|Ontologies for Ichthyology and Herpetology: July 25, 2009]] ==
 
 [[Image:asih2009ontologyworkshop.png]]
 
