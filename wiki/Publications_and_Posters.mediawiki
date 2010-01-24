@@ -14,6 +14,8 @@ title: Publications and Posters
 ==Posters & Presentations==
 <u>Todd Vision</u> (2009) [[Media:iplant_ontologies_2009_11_22.pdf|Ontologies in Phenoscape: Morphology, Taxa and Evolution]], Presentation at the iPlant Tree of Life Data Assembly Meeting, Phoenix, AZ, Nov 22, 2009.
 
+<u>Paula Mabee</u> (2009) Phenoscape: Using ontologies to link comparative morphology to genes.  Presentation at the AmphibAnat Meeting, Kansas City, KS Nov. 6, 2009.  
+
 <u>Peter Midford</u>, Paula Mabee, Todd Vision, Hilmar Lapp, Jim Balhoff, Wasila Dahdul, Cartik Kothari, John Lundberg, Monte Westerfield (2009) [http://precedings.nature.com/documents/3594/version/1|Phenoscape: Ontologies for large multi-species phenotype datasets.]  Poster at the [http://icbo.buffalo.edu/| 2009 International Conference on Biomedical Ontology] in Buffalo, NY, July 25, 2009.
 
 <u>Hilmar Lapp</u>,  Jim Balhoff, Cartik Kothari, Todd Vision,  Wasila Dahdul, Paula Mabee, John Lundberg, Peter Midford, Monte Westerfield (2009) "[[Media:Lapp et al ISMB2009.pdf|Informatics obstacles for integrating evolutionary phenotype diversity with model organism data]]". Poster at the 2009 ISMB conference in Stockholm, Sweden.
