@@ -21,6 +21,9 @@ While knowledge from model organism biology can inform our understanding of natu
 
 More information [[ASIH09_workshop|here]].
 
+== Phenotype Ontology Coordination Workshop: April 27-28, 2009==
+https://www.phenoscape.org/wiki/Phenotype_Ontology_Coordination_Workshop
+
 == Evolutionary Biology and Ontologies Workshop II: January 5, 2009 ==
 
 This workshop will be held in conjunction with the [http://www.sicb.org/meetings/2009/ 2009 SICB Annual Meeting] in Boston, MA, in the morning of January 5, 2009. It is cosponsored by the [http://www.nescent.org National Evolutionary Synthesis Center] (NESCent) and the [http://bioontology.org National Center for Biomedical Ontologies] (NCBO).
