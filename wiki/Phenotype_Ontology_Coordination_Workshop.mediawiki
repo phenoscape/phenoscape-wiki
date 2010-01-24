@@ -2,7 +2,7 @@
 title: Phenotype Ontology Coordination Workshop
 ---
 
-<center><big>'''Phenotype Ontology Coordination Workshop'''</big><br/><br/>A workshop hosted by the National Evolutionary Synthesis Center (NESCent)</center>
+<center><big>'''Phenotype Ontology Coordination Workshop: April 27-28, 2009'''</big><br/><br/>A workshop hosted by the National Evolutionary Synthesis Center (NESCent)</center>
 
 __NOTOC__
 <div style="float: right;">__TOC__</div>
