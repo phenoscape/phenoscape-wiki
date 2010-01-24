@@ -3,6 +3,8 @@ title: Publications and Posters
 ---
 
 ==Publications==
+* Dahdul, W. M., J. P. Balhoff, J. Engeman, T. Grande, E. J. Hilton, C. R. Kothari, H. Lapp, J. G. Lundberg, P. E. Midford, T. J. Vision, M. Westerfield, and P. M. Mabee. 2010. Evolutionary characters, phenotypes and ontologies: curating data from the systematic biology literature. Public Library of Science (PLoS). In review.  
+* Balhoff, J. P., W. M. Dahdul, C. R. Kothari, H. Lapp, J. G. Lundberg, P. M. Mabee, P. E. Midford, M. Westerfield, and T. J. Vision. 2010. Phenex: Ontological annotation of phenotypic diversity. Public Library of Science (PLoS). Accepted pending revision (24 January 2010)
 * Washington, N.L., C.J. Mungall, M.Gibson, J.P. Balhoff, J. Day-Richter, and S. Lewis.  Phenote: A biological data annotation editor using ontologies. ''Submitted''
 * Dahdul, W.M., Lundberg, J.G., Midford, P.E., Balhoff, J.P., Lapp, H., Vision, T.J., Haendel, M.A., Westerfield, M., Mabee, P.M. (in press).    The Teleost Anatomy Ontology: Anatomical Representation for the Genomics Age. Systematic Biology.
 * Haendel, M.A., Neuhaus, F., Osumi-Sutherland, D.S., Mabee, P.M., Mejino J.L.V., Mungall, C.J., and Smith, B. (2008) [[Media:Caroreprint.pdf|CARO - The Common Anatomy Reference Ontology]]. ''In:'' Albert Burger, Duncan Davidson and Richard Baldock (Editors): ''Anatomy Ontologies for Bioinformatics: Principles and Practice''. ISBN 978-1-84628-884-5.
