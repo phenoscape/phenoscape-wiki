@@ -29,6 +29,8 @@ title: Publications and Posters
 
 <u>Paula Mabee</u>, Jim Balhoff, Wasila Dahdul, Cartik Kothari, Hilmar Lapp, John Lundberg, Peter Midford, Todd Vision, Monte Westerfield (2009). 2009. Phenoscape: Using ontologies to link comparative morphology to genes.  'Ontologies for Ichthyology and Herpetology' symposium. Joint Meeting of Ichthyologists and Herpetologists, Portland, OR. July 25, 2009.
 
+<u>Wasila Dahdul</u>.  2009. The Teleost Anatomy Ontology: computable evolutionary morphology for teleost fishes.  California State University, Fullerton, CA. May 13, 2009.
+
 <u>Paula Mabee</u>, Wasila Dahdul, John Lundberg, Peter Midford, Todd Vision,  Hilmar Lapp, Jim Balhoff, Cartik Kothari, Monte Westerfield (2009) "[[Media:Mabee et al. Biocurator 09.pdf|PHENOSCAPE: Curation of evolutionary phenotypes using the MOD model]]". Poster at the 2009 Biocurator Conference in Berlin, Germany. April 18, 2009.
 
 <u>Wasila Dahdul</u>, Paula Mabee,  John Lundberg, Peter Midford, Todd Vision,  Hilmar Lapp, Jim Balhoff, Cartik Kothari, Melissa Haendel, Monte Westerfield (2009) "[[Media:Dahdul et al. Biocurator 09.pdf|Developing a Multi-species Anatomy Ontology for Teleost Fishes]]". Poster at the 2009 Biocurator Conference in Berlin, Germany. April 18, 2009
