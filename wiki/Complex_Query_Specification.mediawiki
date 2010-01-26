@@ -2,7 +2,13 @@
 title: Complex Query Specification
 ---
 
-== Complex Query Specification ==
+= Complex Query Specification =
+
+== Version 2 ==
+=== Entry from Taxon Page ===
+
+[[Image:BioMart126_1.png]]
+
 
 === Version 1 ===
 ===Entry of phenotype specification===
