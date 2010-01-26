@@ -7,8 +7,39 @@ title: Complex Query Specification
 == Version 2 ==
 === Entry from Taxon Page ===
 
-[[Image:BioMart126_1.png]]
+[[Image:Biomart126_1.png]]
 
+[[Image:BioMart126_2.png]]
+
+[[Image:BioMart126_3.png]]
+
+[[Image:BioMart126_4.png]]
+
+[[Image:BioMart126_5.png]]
+
+[[Image:BioMart126_6.png]]
+
+[[Image:BioMart126_7.png]]
+
+[[Image:BioMart126_8.png]]
+
+[[Image:BioMart126_9.png]]
+
+[[Image:BioMart126_10.png]]
+
+[[Image:BioMart126_11.png]]
+
+[[Image:BioMart126_12.png]]
+
+=== Entry from Phenotype Page ===
+
+[[Image:BioMart126_14.png]]
+
+=== Entry from Gene Page ===
+[[Image:BioMart126_16.png]]
+
+=== Entry from Publication Page ===
+[[Image:BioMart126_18.png]
 
 === Version 1 ===
 ===Entry of phenotype specification===
