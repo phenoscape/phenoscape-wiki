@@ -23,6 +23,8 @@ title: Publications and Posters
 
 <u>Todd Vision</u>, Jim Balhoff, Cartik Kothari, <u>Hilmar Lapp</u>, Wasila Dahdul, Paula Mabee, John Lundberg, Peter Midford, Monte Westerfield (2009) "[[Media:Vision et al eBiosphere09.pdf|Phenoscape: Linking phenotypic biodiversity to model organism genetics using ontologies]]". Poster at the e-Biosphere09 conference in London, UK.
 
+Mabee, P., J.P. Balhoff, W. Dahdul, C. Kothari, H. Lapp, J. Lundberg, P. Midford, T. Vision, M. Westerfield. Phenoscape: evolutionary morphology linked to genes using informatics. Poster at Joint Meeting of Ichthyologists and Herpetologists, Portland, OR, 2009.
+
 <u>Hilmar Lapp</u>, Todd J. Vision. 2009. A gentle introduction to ontologies for biology. 'Ontologies for Ichthyology and Herpetology' symposium. Joint Meeting of Ichthyologists and Herpetologists, Portland, OR. July 25, 2009.
 
 <u>Monte Westerfield</u>.  2009. Linking animal models and human diseases. 'Ontologies for Ichthyology and Herpetology' symposium. Joint Meeting of Ichthyologists and Herpetologists, Portland, OR. July 25, 2009.
