@@ -36,9 +36,11 @@ title: Complex Query Specification
 [[Image:BioMart126_14.png]]
 
 === Entry from Gene Page ===
+
 [[Image:BioMart126_16.png]]
 
 === Entry from Publication Page ===
+
 [[Image:BioMart126_18.png]
 
 === Version 1 ===
