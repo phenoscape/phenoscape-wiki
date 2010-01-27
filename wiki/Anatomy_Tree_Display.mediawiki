@@ -2,8 +2,9 @@
 title: Anatomy Tree Display
 ---
 
-== Version 3 == 
+== Version 3 ==
 For conference call on 1/26/10
+Notes and features on screenshots based on 1/22/10 conference call.
 
 === Two panel display of summary results ===
 
@@ -13,7 +14,6 @@ For conference call on 1/26/10
 ==== page 2 ====
 
 [[Image:anatomy-tree-2panels-p2-rev1.png|700px]]
-
 
 == Version 2 ==
 
