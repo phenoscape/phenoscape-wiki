@@ -102,7 +102,7 @@ Note: The roles of casual users also apply to developers, requester, ontology ga
 **Have a bug tracking and feature request mechanism
 
 ==Use cases==
-[[Image:ORB use cases.png]]
+[[Image:ORB use cases.jpg]]
 
 ==Specification==
 
