@@ -194,17 +194,20 @@ This case is initiated when the TermRequester/OntologyGateKeeper selects the "ed
 Alternative paths:
 
 User not registered
-*1. Steps 1 to 3 as described in the ideal path apply 
+*1. Steps 1 to 3 as described in the ideal path apply
 *2. ORB terminates the process
-*3. ORB informs the user that they are not registered or need to try again in case of misspelled login details 
+*3. ORB informs the user that they are not registered or need to try again in case of misspelled login details
 *4. ORB presents the ORB registration page
 
 
-User neither the requester of the term nor gatekeeper for the target ontology 
+User neither the requester of the term nor gatekeeper for the target ontology
 *1. Steps 1 to 3 as described in the ideal path apply
 *2. ORB terminates the process
 *3. ORB informs the user that they need to be the term's requester or ontology gatekeeper to edit the term
 *4. ORB returns to the term page
+
+----
+
 
 
 
