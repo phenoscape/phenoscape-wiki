@@ -247,7 +247,7 @@ Actor: CasualUser
 
 Brief:This is a case for user who is navigating the ORB site
 
-Pre-Condition: 
+Pre-Condition:
 *The user is online at the ORB site
 
 Ideal path
@@ -258,12 +258,12 @@ Ideal path
 
 Alternative paths:
 
-Case: DownloadTerms
+'''Case: DownloadTerms'''
 
 Brief: Use case for downloading terms
 
 *1. Steps 1 to 4 as described in the ideal path apply
-*2. User selects the terms to be downloaded 
+*2. User selects the terms to be downloaded
 *3. User selects the download tab
 *4. ORB generates a text file containing the terms in OBO format
 *5. ORB returns to the page displaying downloaded terms
@@ -277,10 +277,46 @@ Download a term: Applicable when user wants to download a single term
 *5. ORB generates a file containing the term in OBO format
 *6. ORB returns to the term's page
 
+'''Case: SearchTerm'''
+Brief: A case for user to search for a term
 
+Ideal path:
 
+*1. User selects the search term link
+*2. ORB displays the term search page
+*3. User provides the term name or id or parent
+*4. User selects the submit button
+*5. ORB returns a term with the name,synonyms or id matching the information provided in step 3
 
-  
+Alternative path:
+
+No term matching the search
+*1. Steps 1 to 3 as described in the ideal path apply
+*2. ORB returns a term not found message
+
+'''Case: Comment'''
+
+Pre-condition:
+User is at the specific term's page
+
+Ideal path
+*1. User selects the "comment on term" link
+*2. ORB provides a page for submitting a comment
+*3. User provides comment in the term comment field
+*4. User provides name and e-mail
+*5. ORB validates the user e-mail
+*5. User submits the comment
+*6. ORB generates a comment submission success message
+*7. ORB returns to the term page
+
+Alternative path
+
+User e-mail invalid
+
+*1. Steps 1 to 5 as described in the ideal path apply
+*2. ORB terminates the comment submission process
+*3. ORB informs user about the invalid e-mail address
+*4. ORB returns to the term comment submission page 
 
 ----
 
