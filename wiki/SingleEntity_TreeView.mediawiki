@@ -60,3 +60,6 @@ title: SingleEntity TreeView
 * so if you just put in "bone", you could get a "shape" icon at a node for any bone shape phenotype (basihyal bone round, vertebra 1 flat, etc.)
 
 [[Image:trees3.png|700px]]
+
+[[Category:User Interface]]
+[[Category: Mockups]]
