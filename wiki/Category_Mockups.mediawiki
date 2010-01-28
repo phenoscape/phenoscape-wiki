@@ -9,8 +9,9 @@ title: Category:Mockups
 
 * [[Complex Query Specification]]
 ** Version 3
-** Version 2
-** Version 1
+** [[https://www.phenoscape.org/wiki/Complex_Query_Specification#Version_2  Version 2]]
+** [[https://www.phenoscape.org/wiki/Complex_Query_Specification#Version_1  Version 1]]
+** [[https://www.phenoscape.org/wiki/Complex_Query_Specification#Version_0  Version 0]]
 
 *[[MultiEntity TreeView]]
 This was previously titled 'Map Multiple Phenotypes on Tree'
