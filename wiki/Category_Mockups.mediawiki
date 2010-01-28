@@ -27,6 +27,7 @@ This was previously titled 'Map Multiple Phenotypes on Tree'
 
 * [https://www.phenoscape.org/wiki/Knowledgebase_mockups_%28Nov_2009%29#Publications Publications]
 **[https://www.phenoscape.org/wiki/Knowledgebase_mockups_%28Nov_2009%29#Revision_1 Revision 1]
+**[https://www.phenoscape.org/wiki/Knowledgebase_mockups_%28Nov_2009%29#Original_mockups Original Mockups (Revision 0)]
 
 *[[SingleEntity TreeView]]
 ** Version 3
