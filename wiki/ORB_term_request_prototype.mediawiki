@@ -271,6 +271,20 @@ Alternative path:
 
 ----
 
+==Non-functional requirements ==
+
+'''Accessibility'''
+*ORB will have a web interface for easy access via browsers
+*It will also have REST-style web service for programmatic access
+*The prototype will be integrated into [https://www.phenoscape.org/wiki/Phenex Phenex] as a demonstration of an interfaceable API.
+
+
+'''Support'''
+
+**A comprehensive documentation on ORB's functions(how to..),implementation and help pages
+**Registration and extensive documentation at [http://sourceforge.net/ sourceforge], [http://www.biocatalogue.org/ Biocatalogue] and [https://www.phenoscape.org/wiki/Main_Page Phenoscape wiki]
+**Have a bug tracking and feature request mechanism
+
 ==Specification==
 
 ==Activity==
