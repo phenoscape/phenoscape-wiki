@@ -104,6 +104,8 @@ Note: The roles of casual users also apply to developers, requester, ontology ga
 ==Use cases==
 [[Image:ORB use cases.jpg]]
 
+----
+
 
 '''Case:SubmitTerm'''
 
