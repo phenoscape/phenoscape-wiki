@@ -105,15 +105,44 @@ Note: The roles of casual users also apply to developers, requester, ontology ga
 [[Image:ORB use cases.jpg]]
 
 ----
+'''Case:Register'''
+Brief: This is a use case for creating an account in ORB
+
+Actor:ORB user
+
+Pre-condition: The user is at the ORB site
+
+Ideal path
+The process is initiated when the user selects the registration link
+*1. ORB presents the registration page
+*2. User provides required fields(e-mail,name, password and country)
+*3. User submits his/her information
+*4. ORB verifies the request
+*5. ORB informs the user of successful registration and provides an activation link
+*6. ORB sends the registration information to the user's e-mail account
 
 
+Alternative path
+Invalid request: This occurs when a user submits a request with missing required information
+*1. The steps 1 to 4 in the ideal path apply
+*2. ORB terminates the registration
+*3. ORB returns to the registration page with the missing field highlighted
+
+Invalid e-mail address: This occurs when a user provides an invalid e-mail address
+*1. The steps 1 to 4 in the ideal path apply
+*2. ORB terminates the registration
+*3. ORB informs user the e-mail address is invalid
+*4. ORB returns the registration page
+
+
+----
 '''Case:SubmitTerm'''
 
 Brief: This is a use case  for submitting new ontology term requests.
 
 Actor: TermRequester
 
-Precondition: The requester must be at the ORB website and has an account
+Pre-conditions: The requester must be at the ORB website and has an account
 
 Ideal path:
 *1. This use case is initiated when the requester clicks on the term submission tab
@@ -128,17 +157,43 @@ Ideal path:
 
 Alternative paths:
 
-Invalid request
-This occurs if the user submits a request without the required fields
+Invalid request: This occurs if the user submits a request without the required fields
 *1. Steps 1 to 6 as described in the ideal path will apply
 *2. ORB will the terminate the request
 *3. ORB will return to the term submission page with the missing required field highlighted
 
-Matching term found
-This occurs when the requested term already exists in the targetted ontology
+Matching term found: This occurs when the requested term already exists in the targetted ontology
 *1. Steps 1 to 6 as described in the ideal path will apply
 *2.ORB returns a message informing the requester that the term exists
 *3. ORB returns the matching term's id, name and parent to the requester
+
+----
+Case: EditTerm
+
+Brief: This is a use case for editing requested term
+
+Actor: TermRequester and OntologyGateKeeper
+
+Pre-conditions
+*The term exists in ORB database
+*The term has not been resolved
+*The term editor is at the specific term's page
+
+Ideal path:
+This case is initiated when the TermRequester/OntologyGateKeeper selects the "edit term" link
+*1. ORB presents the term with the editable fields
+*2. User makes any changes and submits 
+*3. ORB verifies the changes made
+*4. ORB updates changes
+*5. ORB informs user of successful update
+*6. ORB displays the term plus the new changes
+
+Alternative path:
+
+
+   
+
+----
 
 ==Specification==
 
