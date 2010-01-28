@@ -2,64 +2,7 @@
 title: Map Qualities on Tree
 ---
 
-= Map Qualities on Tree =
-
-== Version 3 ==
-=== Access from Entity Page via tree button ===
-[[Image:MapQualities1.png]]
-=== Display Qualities One at a time using a Scroll ===
-[[Image:MapQualities3a.png]]
-
-== Version 2 ==
-=== Access from Entity Page via tree button ===
-
-[[Image:MapQualities1.png]]
-
-[[Image:MapQualities2.png]]
-
-=== Taxonomic Scope ===
-
-=== Display qualities using a grid of colored tiles===
-
-* Qualities are displayed with consistent location and color in the grid
-* Desaturated colors are used for qualities of phenotypes that are inferred, rather than annotated
-** Note annotation to Ictaluridae in this and next candidate example
-* The 16 tile designs are intended to support expansion of the list of qualities used in curation - as has already happened.
-[[Image:ColorGridOption1.png]]
-
-===Display qualities using icons strung along branches===
-* Qualities are displayed with consistent icon, color and relative position along branches
-* As above, desaturated colors are used for inferred qualities
-* Additional icons may be added
-
-[[Image:IconsOnBranchOption.png]]
-
-
-== Version 1 ==
-=== Display qualities using a grid of colored tiles ===
-
-* Qualities are displayed with consistent location and color in the grid
-* Desaturated colors are used for qualities of phenotypes that are inferred, rather than annotated
-** Note annotation to Ictaluridae in this and next candidate example
-* The 16 tile designs are intended to support expansion of the list of qualities used in curation - as has already happened.
-[[Image:ColorGridOption1.png]]
-
-=== Display qualities using colored icons strung along branches ===
-* Qualities are displayed with consistent icon, color and relative position along branches
-* As above, desaturated colors are used for inferred qualities
-* Additional icons may be added
-
-[[Image:IconsOnBranchOption.png]]
-
-== Version 0 ==
-=== Display qualities using text icons adjacent to taxon names ===
-
-* user enters any entity term
-* each of the standard upper-level PATO qualities has some icon
-* each node of tree is annotated with icons for which kinds of phenotypes are exhibited by that node
-* so if you just put in "bone", you could get a "shape" icon at a node for any bone shape phenotype (basihyal bone round, vertebra 1 flat, etc.)
-
-[[Image:trees3.png|700px]]
+#REDIRECT [[SingleEntity TreeView]]
 
 [[Category:User Interface]]
 [[Category: Mockups]]
