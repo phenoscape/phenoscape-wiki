@@ -207,8 +207,25 @@ User neither the requester of the term nor gatekeeper for the target ontology
 *4. ORB returns to the term page
 
 ----
+'''Case:ChangeTermStatus'''
 
+Brief: This is a use case for changing the status a term submitted
 
+Actor: OntologyGateKeeper
+
+Pre-condition: 
+The user is at the specific term page
+
+Ideal path
+This case is initiated when the user,selects the "change term status" link 
+*1. ORB presents the user login page
+*2. User provides their name and password
+*3. ORB verifies the user
+*4. ORB presents the term with the editable status fields
+*5. User selects the new status and submits
+*7. ORB updates changes
+*8. ORB informs user of successful update
+*9. ORB displays the term plus the updated status
 
 
 
