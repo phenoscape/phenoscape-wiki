@@ -239,7 +239,7 @@ User e-mail invalid
 ----
 
 
-Case: DevelopOrb
+'''Case: DevelopOrb'''
 
 Actor: Developer
 
@@ -256,7 +256,7 @@ Alternative paths:
 ----
 
 
-Case:IntegrateOrb
+'''Case:IntegrateOrb'''
 
 Actor : Developer
 
