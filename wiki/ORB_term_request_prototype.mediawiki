@@ -113,32 +113,32 @@ Brief: This is a use case  for submitting new ontology term requests.
 
 Actor: TermRequester
 
-Precondition: The requester must be at the ORB website and has an account  
+Precondition: The requester must be at the ORB website and has an account
 
 Ideal path:
-1. This use case is initiated when the requester clicks on the term submission tab
-2. ORB presents the user login page for the requester to fill in the name and password
-3. ORB verifies the requester
-4. ORB displays the term submission page
-5. Requester provides the required fields(i.e term's name, parent, textual definition,target ontology) plus any additional information related to the term (i.e other relations, references, database cross references, comments etc) and submits
-6. ORB verifies the submission 
-7. ORB assigns a temporary ID to the term and presents it the requester
-8. ORB sends the requested term's temporary ID and other details to requester's e-mail account
-9. ORB returns to the term submission page
+*1. This use case is initiated when the requester clicks on the term submission tab
+*2. ORB presents the user login page for the requester to fill in the name and password
+*3. ORB verifies the requester
+*4. ORB displays the term submission page
+*5. Requester provides the required fields(i.e term's name, parent, textual definition,target ontology) plus any additional information related to the term (i.e other relations, references, database cross references, comments etc) and submits
+*6. ORB verifies the submission
+*7. ORB assigns a temporary ID to the term and presents it the requester
+*8. ORB sends the requested term's temporary ID and other details to requester's e-mail account
+*9. ORB returns to the term submission page
 
 Alternative paths:
 
 Invalid request
 This occurs if the user submits a request without the required fields
-1. Steps 1 to 6 as described in the ideal path will apply 
-2. ORB will the terminate the request
-3. ORB will return to the term submission page with the missing required field highlighted
+*1. Steps 1 to 6 as described in the ideal path will apply
+*2. ORB will the terminate the request
+*3. ORB will return to the term submission page with the missing required field highlighted
 
 Matching term found
 This occurs when the requested term already exists in the targetted ontology
-1. Steps 1 to 6 as described in the ideal path will apply
-2.ORB returns a message informing the requester that the term exists
-2. ORB returns the matching term's id, name and parent to the requester
+*1. Steps 1 to 6 as described in the ideal path will apply
+*2.ORB returns a message informing the requester that the term exists
+*3. ORB returns the matching term's id, name and parent to the requester
 
 ==Specification==
 
