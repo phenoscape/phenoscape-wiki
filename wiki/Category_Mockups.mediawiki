@@ -19,7 +19,12 @@ title: Category:Mockups
 
 *[[MultiEntity TreeView]]
 This was previously titled 'Map Multiple Phenotypes on Tree'
-**
+**[[https://www.phenoscape.org/wiki/MultiEntity_TreeView#Version_3 Version 3]]
+**[[https://www.phenoscape.org/wiki/MultiEntity_TreeView#Version_2 Version 2]]
+**[[https://www.phenoscape.org/wiki/MultiEntity_TreeView#Version_1 Version 1]]
+**[[https://www.phenoscape.org/wiki/MultiEntity_TreeView#Version_0 Version 0]]
+
+
 
 
 *[[SingleEntity TreeView]]
