@@ -12,8 +12,8 @@ title: Category:Mockups
 ** Version 2
 ** Version 1
 
-*[[MultiEntity Tree View]]
+*[[MultiEntity TreeView]]
 This was previously titled 'Map Multiple Phenotypes on Tree'
 
-*[[SingleEntity Tree View]]
+*[[SingleEntity TreeView]]
 This was previously titled 'Map Qualities on Tree'
