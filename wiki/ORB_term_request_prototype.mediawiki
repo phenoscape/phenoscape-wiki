@@ -102,6 +102,7 @@ Note: The roles of casual users also apply to developers, requester, ontology ga
 **Have a bug tracking and feature request mechanism
 
 ==Use cases==
+'''UML diagram'''
 [[Image:ORB use cases.jpg]]
 
 ----
@@ -316,7 +317,7 @@ User e-mail invalid
 *1. Steps 1 to 5 as described in the ideal path apply
 *2. ORB terminates the comment submission process
 *3. ORB informs user about the invalid e-mail address
-*4. ORB returns to the term comment submission page 
+*4. ORB returns to the term comment submission page
 
 ----
 
