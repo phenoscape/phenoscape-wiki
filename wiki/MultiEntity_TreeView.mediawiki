@@ -43,3 +43,6 @@ title: MultiEntity TreeView
 [[Image:trees2.png|700px]]
 
 ===Map phenotypes of a given entity on tree===
+
+[[Category:User Interface]]
+[[Category:Mockups]]
