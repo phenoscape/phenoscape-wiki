@@ -105,11 +105,13 @@ Note: The roles of casual users also apply to developers, requester, ontology ga
 [[Image:ORB use cases.jpg]]
 
 
-Case:SubmitTerm
+'''Case:SubmitTerm'''
 
 Brief: This is a use case  for submitting new ontology term requests.
 
 Actor: TermRequester
+
+[[Basic path]]
 
 ==Specification==
 
