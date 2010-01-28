@@ -213,11 +213,11 @@ Brief: This is a use case for changing the status a term submitted
 
 Actor: OntologyGateKeeper
 
-Pre-condition: 
+Pre-condition:
 The user is at the specific term page
 
 Ideal path
-This case is initiated when the user,selects the "change term status" link 
+This case is initiated when the user,selects the "change term status" link
 *1. ORB presents the user login page
 *2. User provides their name and password
 *3. ORB verifies the user
@@ -227,10 +227,55 @@ This case is initiated when the user,selects the "change term status" link
 *8. ORB informs user of successful update
 *9. ORB displays the term plus the updated status
 
+Alternative paths
+
+Invalid OntologyGateKeeper
+*1. Steps 1 to 3 as described in the ideal path will apply
+*2. ORB terminates the request 
+*3. ORB informs the user that they aren't the ontology gatekeeper or they may try again in case of misspelled login information
+*4. ORB returns to term page
+
+Resolved term status: This applies when a term has already been resolved and assigned a permanent ID
+*1. Steps 1 to 3 as described in the ideal path will apply
+*2. ORB terminates the request 
+*3. ORB informs the user that the term has been resolved
+*4. ORB returns to the term page
+----
 
 
 
+----
 
+
+Case: DevelopOrb
+
+Actor: Developer
+
+Brief: This is a case for users who have skills in application development and are interested in developing ORB further 
+
+Pre-conditions:
+
+
+Ideal path:
+
+Alternative paths:
+
+
+----
+
+
+Case:IntegrateOrb
+
+Actor : Developer
+
+
+Brief: This is a case for users who have skills in application development and are interested in integrating ORB into existing application e.g to form a workflow.
+
+Pre-conditions:
+
+Ideal path:
+
+Alternative path:
 
 ----
 
