@@ -3,6 +3,3 @@ title: Map Multiple Phenotypes on Tree
 ---
 
 #REDIRECT [[MultiEntity TreeView]]
-
-[[Category:User Interface]]
-[[Category: Mockups]]
