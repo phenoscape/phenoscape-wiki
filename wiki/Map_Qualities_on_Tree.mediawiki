@@ -3,6 +3,3 @@ title: Map Qualities on Tree
 ---
 
 #REDIRECT [[SingleEntity TreeView]]
-
-[[Category:User Interface]]
-[[Category: Mockups]]
