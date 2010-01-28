@@ -168,7 +168,7 @@ Matching term found: This occurs when the requested term already exists in the t
 *3. ORB returns the matching term's id, name and parent to the requester
 
 ----
-Case: EditTerm
+'''Case: EditTerm'''
 
 Brief: This is a use case for editing requested term
 
@@ -182,7 +182,7 @@ Pre-conditions
 Ideal path:
 This case is initiated when the TermRequester/OntologyGateKeeper selects the "edit term" link
 *1. ORB presents the term with the editable fields
-*2. User makes any changes and submits 
+*2. User makes any changes and submits
 *3. ORB verifies the changes made
 *4. ORB updates changes
 *5. ORB informs user of successful update
@@ -191,7 +191,7 @@ This case is initiated when the TermRequester/OntologyGateKeeper selects the "ed
 Alternative path:
 
 
-   
+
 
 ----
 
