@@ -2,49 +2,7 @@
 title: Map Multiple Phenotypes on Tree
 ---
 
-= Map Multiple Phenotypes on Tree =
-
-== Version 3 ==
-
-=== Access from Tree Buttons in Quality Column ===
-
-[[Image:MapMultiplePhenotypes1.png]]
-
-=== Tree Display and Query Refinement ===
-[[Image:MapMultiplePhenotypes2a.png]]
-
-== Version 2 ==
-
-=== Access from Tree Buttons in Quality Column===
-[[Image:MapMultiplePhenotypes1.png]]
-
-=== Multiple Phenotype Selection Panel ===
-
-[[Image:MapMultiplePhenotypes2.png]]
-[[Image:MapMultiplePhenotypes3.png]]
-[[Image:MapMultiplePhenotypes6.png]]
-
-
-=== Tree Display ===
-
-[[Image:MapMultiplePhenotypes7.png]]
-
-== Version 1 ==
-[[Image:MultiplePhenotypesOnTree.png]]
-
-== Version 0 ==
-* user can enter phenotype specification for each "state"
-* see on tree which branches exhibit one or both of the phenotypes
-* Do users want the tree "pruned"?  Or show branches without annotations also?  could be a lot of taxa
-
-[[Image:trees1.png|700px]]
-
-===Same interface===
-* shows that the 2 phenotypes don't have to be obvious alternatives
-
-[[Image:trees2.png|700px]]
-
-===Map phenotypes of a given entity on tree===
+#REDIRECT [[MultiEntity TreeView]]
 
 [[Category:User Interface]]
 [[Category: Mockups]]
