@@ -231,18 +231,56 @@ Alternative paths
 
 Invalid OntologyGateKeeper
 *1. Steps 1 to 3 as described in the ideal path will apply
-*2. ORB terminates the request 
+*2. ORB terminates the request
 *3. ORB informs the user that they aren't the ontology gatekeeper or they may try again in case of misspelled login information
 *4. ORB returns to term page
 
 Resolved term status: This applies when a term has already been resolved and assigned a permanent ID
 *1. Steps 1 to 3 as described in the ideal path will apply
-*2. ORB terminates the request 
+*2. ORB terminates the request
 *3. ORB informs the user that the term has been resolved
 *4. ORB returns to the term page
 ----
+'''Case:BrowseTerms'''
+
+Actor: CasualUser
+
+Brief:This is a case for user who is navigating the ORB site
+
+Pre-Condition: 
+*The user is online at the ORB site
+
+Ideal path
+*1. The user selects the "browse terms" link
+*2. ORB displays the ORB browse term page
+*3. User selects whether to view all terms or based on status
+*4. ORB displays the terms name , ID , target ontology, status and a link to the terms page
+
+Alternative paths:
+
+Case: DownloadTerms
+
+Brief: Use case for downloading terms
+
+*1. Steps 1 to 4 as described in the ideal path apply
+*2. User selects the terms to be downloaded 
+*3. User selects the download tab
+*4. ORB generates a text file containing the terms in OBO format
+*5. ORB returns to the page displaying downloaded terms
 
 
+Download a term: Applicable when user wants to download a single term
+*1. The steps 1 to 4 as described in the ideal path apply.
+*2. User selects the term page link
+*3. ORB displays the term page with all the term's information
+*4. User selects the term download tab
+*5. ORB generates a file containing the term in OBO format
+*6. ORB returns to the term's page
+
+
+
+
+  
 
 ----
 
@@ -251,7 +289,7 @@ Case: DevelopOrb
 
 Actor: Developer
 
-Brief: This is a case for users who have skills in application development and are interested in developing ORB further 
+Brief: This is a case for users who have skills in application development and are interested in developing ORB further
 
 Pre-conditions:
 
