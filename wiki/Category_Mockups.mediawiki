@@ -25,7 +25,7 @@ title: Category:Mockups
 
 This was previously titled 'Map Multiple Phenotypes on Tree'
 
-* [ Publications]
+* [https://www.phenoscape.org/wiki/Knowledgebase_mockups_%28Nov_2009%29#Publications Publications]
 **[https://www.phenoscape.org/wiki/Knowledgebase_mockups_%28Nov_2009%29#Revision_1 Revision 1]
 
 *[[SingleEntity TreeView]]
