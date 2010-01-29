@@ -310,7 +310,7 @@ Complete literature review, document and discuss with project team
 
 '''Week 3: 17 to 23 January, 2010'''
 Document ORB requirements and specification based on input from literature, discussion and research
-*Revise the ORB requirements, specification and document it to the wiki
+*Revise the ORB requirements, specification and document it to the wiki√
 
 
 '''Week 4: 24 to 30 January, 2010'''
