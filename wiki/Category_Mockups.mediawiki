@@ -5,7 +5,7 @@ title: Category:Mockups
 = Current Mockups with versions =
 
 * [[Anatomy Tree Display]]
-** [[Anatomy_Tree_Display#Version_3 Version 3]]
+** [[Anatomy_Tree_Display#Version_3]]
 ** [https://www.phenoscape.org/wiki/Anatomy_Tree_Display#Version_2 Version 2]
 ** [https://www.phenoscape.org/wiki/Anatomy_Tree_Display#Version_1 Version 1]
 
