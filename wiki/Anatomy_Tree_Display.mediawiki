@@ -20,6 +20,7 @@ This revision puts the ontology tree on the left as the primary browsing tool.  
 ===page 4===
 [[Image:singlewindow4.png|700px]]
 ====Comments====
+* Since the search produces a list of mixed types of terms, should be an indicator of what the term is - entity, quality, gene, taxon, etc.
 
 == Version 3 ==
 For conference call on 1/26/10.  Notes and features on screenshots based on 1/22/10 conference call.
