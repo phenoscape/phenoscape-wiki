@@ -2,6 +2,21 @@
 title: Anatomy Tree Display
 ---
 
+==Version 4==
+This revision puts the ontology tree on the left as the primary browsing tool.  Data for the selected term appears in the tabbed panels to the right.
+====page 1====
+[[Image:singlewindow1.png|700px]]
+
+====page 2====
+[[Image:singlewindow2.png|700px]]
+
+====page 3====
+[[Image:singlewindow3.png|700px]]
+
+====page 4====
+[[Image:singlewindow4.png|700px]]
+
+
 == Version 3 ==
 For conference call on 1/26/10.  Notes and features on screenshots based on 1/22/10 conference call.
 
