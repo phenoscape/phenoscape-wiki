@@ -7,6 +7,7 @@ This revision puts the ontology tree on the left as the primary browsing tool.  
 ===page 1===
 [[Image:singlewindow1.png|700px]]
 ====Comments====
+* We should display all relationship types in the tree view, not just ''is_a''.
 
 ===page 2===
 [[Image:singlewindow2.png|700px]]
