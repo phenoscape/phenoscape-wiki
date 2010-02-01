@@ -5,30 +5,30 @@ title: Category:Mockups
 = Current Mockups with versions =
 
 * [[Anatomy Tree Display]]
-** [[Anatomy_Tree_Display#Version_3]]
-** [https://www.phenoscape.org/wiki/Anatomy_Tree_Display#Version_2 Version 2]
-** [https://www.phenoscape.org/wiki/Anatomy_Tree_Display#Version_1 Version 1]
+** [[Anatomy_Tree_Display#Version_3|Version 3]]
+** [[Anatomy_Tree_Display#Version_2|Version 2]]
+** [[Anatomy_Tree_Display#Version_1|Version 1]]
 
 
 * [[Complex Query Specification]]
 ** Version 3
-** [https://www.phenoscape.org/wiki/Complex_Query_Specification#Version_2  Version 2]
-** [https://www.phenoscape.org/wiki/Complex_Query_Specification#Version_1  Version 1]
-** [https://www.phenoscape.org/wiki/Complex_Query_Specification#Version_0  Version 0]
+** [[Complex_Query_Specification#Version_2|Version 2]]
+** [[Complex_Query_Specification#Version_1|Version 1]]
+** [[Complex_Query_Specification#Version_0|Version 0]]
 
 
 *[[MultiEntity TreeView]]
-**[https://www.phenoscape.org/wiki/MultiEntity_TreeView#Version_3 Version 3]
-**[https://www.phenoscape.org/wiki/MultiEntity_TreeView#Version_2 Version 2]
-**[https://www.phenoscape.org/wiki/MultiEntity_TreeView#Version_1 Version 1]
-**[https://www.phenoscape.org/wiki/MultiEntity_TreeView#Version_0 Version 0]
+**[[MultiEntity_TreeView#Version_3|Version 3]]
+**[[MultiEntity_TreeView#Version_2|Version 2]]
+**[[MultiEntity_TreeView#Version_1|Version 1]]
+**[[MultiEntity_TreeView#Version_0|Version 0]]
 
 This was previously titled 'Map Multiple Phenotypes on Tree'
 
 
-* [https://www.phenoscape.org/wiki/Knowledgebase_mockups_%28Nov_2009%29#Publications Publications]
-**[https://www.phenoscape.org/wiki/Knowledgebase_mockups_%28Nov_2009%29#Revision_1 Revision 1]
-**[https://www.phenoscape.org/wiki/Knowledgebase_mockups_%28Nov_2009%29#Original_mockups Original Mockups (Revision 0)]
+* [[Knowledgebase_mockups_%28Nov_2009%29#Publications|Publications]]
+**[[Knowledgebase_mockups_%28Nov_2009%29#Revision_1|Revision 1]]
+**[[Knowledgebase_mockups_%28Nov_2009%29#Original_mockups|Original Mockups (Revision 0)]]
 
 
 *[[SingleEntity TreeView]]
