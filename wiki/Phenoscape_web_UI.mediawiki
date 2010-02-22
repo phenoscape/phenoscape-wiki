@@ -91,6 +91,7 @@ Phenoscape web UI development plan.
 * Publication pages with data matrix (table view and downloadable)
 * Publication pages with specimens
 * Link to taxonomy cladogram interfaces via data on other pages
+* Official release of Phenoscape Knowledgebase 2.0-beta
 
 ===June 2010===
 
