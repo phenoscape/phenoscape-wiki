@@ -110,7 +110,7 @@ To implement this strategy, two new relations can be defined in the Phenoscape V
 
 ======A possible simpler solution (Update: Feb 22, 2010)======
 
-It is possible to check the rank of the taxon to which the phenotype assertion is made. If the rank of the taxon is not "species", then the new relation can be used in the top-down reasoning as shown in (15) below
+It is possible to check the rank of the taxon to which the phenotype assertion is made. If the rank of the taxon is not "species", then the new relation can be used in the top-down reasoning as shown below. Assertion (A-6) is a phenotype assertion to a taxon of a higher rank, let us say a Genus G1. Now, G1 has 6 species S1 ~ S6. Inferences to S1 ~ S6 from the assertion (A-6) may use the new relation ''all_exhibit'' as shown.
 
 ====Probabilistic assertions====
 
