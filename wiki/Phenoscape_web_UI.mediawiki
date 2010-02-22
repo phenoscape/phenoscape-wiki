@@ -94,6 +94,11 @@ Phenoscape web UI development plan.
 * Official release of Phenoscape Knowledgebase 2.0-beta
 
 ===June 2010===
+* User testing sessions of Knowledgebase 2.0-beta
+* Bug and feedback revisions
+
+===July 2010===
+* Official release of Phenoscape Knowledgebase 2.0
 
 [[Category:Roadmaps]]
 [[Category:User Interface]]
