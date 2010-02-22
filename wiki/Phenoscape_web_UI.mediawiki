@@ -79,6 +79,7 @@ Phenoscape web UI development plan.
 ===Phenoscape meeting at Field Museum, Chicago - March 2010===
 * Annotation search results pages with editable data filters
 * Working taxonomy cladogram data interfaces
+* Conduct user feedback sessions with mockups of forthcoming interfaces, and live testing of implemented pages
 
 ===April 2010===
 * Term search results pages incorporating ontology tree browser
