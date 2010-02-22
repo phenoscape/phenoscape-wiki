@@ -114,7 +114,7 @@ It is possible to check the rank of the taxon to which the phenotype assertion i
 
 The new rules are shown in (Rule-4) and (Rule-5)
 
-'''Rule-4:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''exhibit''(B, x) <math>\and </math> <math>\neg</math> ''rank''(B, "species") <math>\Rightarrow</math> ''all_exhibit''(A, x)
+'''Rule-4:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''exhibit''(B, x) <math>\and </math> <math>\NOT</math> ''rank''(B, "species") <math>\Rightarrow</math> ''all_exhibit''(A, x)
 
 ====Probabilistic assertions====
 
