@@ -84,7 +84,7 @@ Phenoscape web UI development plan.
 
 ===April 2010===
 * Term search results pages incorporating ontology tree browser
-* Publication pages with citation and abstract
+* Publication pages with citation and abstract, links to publications from other data types
 * Advanced query interface, data download implementation
 
 ===May 2010===
