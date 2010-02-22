@@ -70,10 +70,10 @@ Phenoscape web UI development plan.
 ==2010==
 ===February 2010===
 * Develop overall site revision plan based on feedback from Knowledgebase Beta 1 interface
-* Beta 2 site revision mockup testing
+* Knowledgebase 2.0 site revision mockup testing
 ** Present mockups to naive users in Eugene, Oregon, February 16-17
 * Revise mockups using testing session user feedback
-* Develop Beta 2 implementation plans with feedback from Phenoscape stakeholders
+* Develop 2.0-beta implementation plans with feedback from Phenoscape stakeholders
 
 ===March 2010===
 * Annotation search results pages with editable data filters
