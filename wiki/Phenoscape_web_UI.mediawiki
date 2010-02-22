@@ -79,6 +79,7 @@ Phenoscape web UI development plan.
 ===Phenoscape meeting at Field Museum, Chicago - March 2010===
 * Annotation search results pages with editable data filters
 * Working taxonomy cladogram data interfaces
+* Complete mockups of advanced query interfaces
 * Conduct user feedback sessions with mockups of forthcoming interfaces, and live testing of implemented pages
 
 ===April 2010===
@@ -89,6 +90,9 @@ Phenoscape web UI development plan.
 * Publication pages with data matrix (table view and downloadable)
 * Publication pages with specimens
 * Link to taxonomy cladogram interfaces via data on other pages
+
+===June 2010===
+* Advanced query interface, data download implementation
 
 [[Category:Roadmaps]]
 [[Category:User Interface]]
