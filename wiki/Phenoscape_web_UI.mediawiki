@@ -68,6 +68,17 @@ Phenoscape web UI development plan.
 ===Public launch: ASIH meeting, Portland, Oregon - July 22, 2009===
 
 ==2010==
+===Beta 2 site revision mockup testing - February 2010===
+* Develop overall site revision plan based on feedback from Knowledgebase Beta 1 interface
+* Present mockups to naive users in Eugene, Oregon, February 16-17
+
+===Beta 2 mockup revision - February 2010===
+* Revise mockups using testing session user feedback
+* Develop Beta 2 implementation plans with feedback from Phenoscape stakeholders
+
+===Annotation search results pages with editable data filters - March 2010===
+
+===Term search results pages incorporating ontology tree browser - April 2010===
 
 [[Category:Roadmaps]]
 [[Category:User Interface]]
