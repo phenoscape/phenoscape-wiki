@@ -110,15 +110,38 @@ To implement this strategy, two new relations can be defined in the Phenoscape V
 
 ======A possible simpler solution (Update: Feb 22, 2010)======
 
-It is possible to check the rank of the taxon to which the phenotype assertion is made. If the rank of the taxon is not "species", then the new relation can be used in the top-down reasoning as shown below. The new rule is shown in (Rule-4)
+It is possible to check the rank of the taxon to which the phenotype assertion is made. If the rank of the taxon is not "species", then the new relation ''all_exhibit'' can be used in the top-down reasoning as shown below. The new rule is shown in (Rule-4)
 
 '''Rule-4:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''exhibit''(B, x) <math>\and</math> ¬''rank''(B, "species") <math>\Rightarrow</math> ''all_exhibit''(A, x)
 
-Assertion (A-6) is a phenotype assertion to a taxon of a higher rank, let us say a Genus G1. Now, G1 has 6 species S1 ~ S6. Inferences to S1 ~ S6 from the assertion (A-6) may use the new relation ''all_exhibit'' as shown.
+Assertion (A-6) is a phenotype assertion to a taxon of a higher rank, let us say a Genus Gen1. Now, let's assume Gen1 has 2 species Sp1 and Sp2. Inferences to Sp1 and Sp2 from the assertion (A-6) may use the new relation ''all_exhibit'' as shown in (I-14) and (I-15).
 
 <javascript>
+Gen1          PHENOSCAPE:exhibit          Phen1                                    -- (A-6)
+Sp1           OBO_REL:is_a                     Gen1                                -- (A-7)
+Sp2           OBO_REL:is_a                     Gen1                                -- (A-8)
 
+Sp1          PHENOSCAPE:all_exhibit       Phen1                                    -- (I-14)
+Sp2          PHENOSCAPE:all_exhibit       Phen1                                    -- (I-15)
 </javascript>
+
+The inferences with the ''all_exhibit'' relation cannot be associated with the higher taxa.  
+
+Similarly, for any taxon to which a phenotype assertion has been made, the phenotype can be inferred on the higher taxa using the ''some_exhibit'' relation as shown in (Rule-5)
+
+'''Rule-5:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''exhibit''(A, x) <math>\Rightarrow</math> ''some_exhibit''(B, x)
+
+
+Given assertion (A-6) to a genus and assuming it belongs to a family Fam1, the inference (I-16) can be made about the family Fam1. 
+<javascript>
+Gen1          PHENOSCAPE:exhibit          Phen1                                    -- (A-6)
+Gen1          OBO_REL:is_a                Fam1                                     -- (A-9)
+
+Fam1         PHENOSCAPE:some_exhibit       Phen1                                   -- (I-16)
+</javascript>
+
+
+The relation ''some_exhibit'' cannot be used to infer down the taxonomy. Therefore, we can see that this new methodology can use the existing assertions that use the ''exhibits'' relation, but can distinguish the inferences that are made in both top-down and bottom-up reasoning. The relations ''all-exhibit'' and ''some-exhibit'' are only inferred, never asserted. Moreover, they can never be used to create new inferences. This distinction averts the extraction of incorrect inferences.
 
 ====Probabilistic assertions====
 
