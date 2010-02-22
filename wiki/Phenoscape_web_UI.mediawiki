@@ -87,6 +87,7 @@ Phenoscape web UI development plan.
 ===May 2010===
 * Publication pages with data matrix (table view and downloadable)
 * Publication pages with specimens
+* Link to taxonomy cladogram interfaces via data on other pages
 
 [[Category:Roadmaps]]
 [[Category:User Interface]]
