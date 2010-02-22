@@ -76,7 +76,9 @@ Phenoscape web UI development plan.
 * Revise mockups using testing session user feedback
 * Develop Beta 2 implementation plans with feedback from Phenoscape stakeholders
 
-===Annotation search results pages with editable data filters - March 2010===
+===Phenoscape meeting at Field Museum, Chicago - March 2010===
+* Annotation search results pages with editable data filters
+* Working taxonomy cladogram data interfaces
 
 ===Term search results pages incorporating ontology tree browser - April 2010===
 
