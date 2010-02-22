@@ -112,6 +112,10 @@ To implement this strategy, two new relations can be defined in the Phenoscape V
 
 It is possible to check the rank of the taxon to which the phenotype assertion is made. If the rank of the taxon is not "species", then the new relation can be used in the top-down reasoning as shown below. Assertion (A-6) is a phenotype assertion to a taxon of a higher rank, let us say a Genus G1. Now, G1 has 6 species S1 ~ S6. Inferences to S1 ~ S6 from the assertion (A-6) may use the new relation ''all_exhibit'' as shown.
 
+The rule is shown in (Rule -4)
+
+'''Rule-4:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''exhibit''(B, x) <math>\and </math> <math>\not</math> ''rank''(B, "species") <math>\Rightarrow</math> ''all_exhibit''(A, x)
+
 ====Probabilistic assertions====
 
 Uncertainties are everywhere in the life sciences. The taxon-phenotype assertions can be augmented with uncertainty factors to address this issue. Inferences could use uncertainty calculi such as the [http://en.wikipedia.org/wiki/Dempster%E2%80%93Shafer_theory Dempster-Schafer method] or Bayes conditional probability rule to derive uncertainty factors of the inferences given the uncertainty factors of the assertions.
