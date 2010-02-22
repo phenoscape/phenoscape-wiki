@@ -68,23 +68,24 @@ Phenoscape web UI development plan.
 ===Public launch: ASIH meeting, Portland, Oregon - July 22, 2009===
 
 ==2010==
-===Beta 2 site revision mockup testing - February 2010===
+===February 2010===
 * Develop overall site revision plan based on feedback from Knowledgebase Beta 1 interface
-* Present mockups to naive users in Eugene, Oregon, February 16-17
-
-===Beta 2 mockup revision - February 2010===
+* Beta 2 site revision mockup testing
+** Present mockups to naive users in Eugene, Oregon, February 16-17
 * Revise mockups using testing session user feedback
 * Develop Beta 2 implementation plans with feedback from Phenoscape stakeholders
 
-===Phenoscape meeting at Field Museum, Chicago - March 2010===
+===March 2010===
 * Annotation search results pages with editable data filters
 * Working taxonomy cladogram data interfaces
 * Complete mockups of advanced query interfaces
-* Conduct user feedback sessions with mockups of forthcoming interfaces, and live testing of implemented pages
+* Phenoscape meeting at Field Museum, Chicago
+** Conduct user feedback sessions with mockups of forthcoming interfaces, and live testing of implemented pages
 
 ===April 2010===
 * Term search results pages incorporating ontology tree browser
 * Publication pages with citation and abstract
+* Advanced query interface, data download implementation
 
 ===May 2010===
 * Publication pages with data matrix (table view and downloadable)
@@ -92,7 +93,6 @@ Phenoscape web UI development plan.
 * Link to taxonomy cladogram interfaces via data on other pages
 
 ===June 2010===
-* Advanced query interface, data download implementation
 
 [[Category:Roadmaps]]
 [[Category:User Interface]]
