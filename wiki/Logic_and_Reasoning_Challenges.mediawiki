@@ -125,14 +125,14 @@ Sp1          PHENOSCAPE:all_exhibit       Phen1                                 
 Sp2          PHENOSCAPE:all_exhibit       Phen1                                    -- (I-15)
 </javascript>
 
-The inferences with the ''all_exhibit'' relation cannot be associated with the higher taxa.  
+The inferences with the ''all_exhibit'' relation cannot be associated with the higher taxa.
 
 Similarly, for any taxon to which a phenotype assertion has been made, the phenotype can be inferred on the higher taxa using the ''some_exhibit'' relation as shown in (Rule-5)
 
 '''Rule-5:''' <math>\forall</math>A, B, x: ''is_a''(A, B)  <math>\and </math>''exhibit''(A, x) <math>\Rightarrow</math> ''some_exhibit''(B, x)
 
 
-Given assertion (A-6) to a genus and assuming it belongs to a family Fam1, the inference (I-16) can be made about the family Fam1. 
+Given assertion (A-6) to a genus and assuming it belongs to a family Fam1, the inference (I-16) can be made about the family Fam1.
 <javascript>
 Gen1          PHENOSCAPE:exhibit          Phen1                                    -- (A-6)
 Gen1          OBO_REL:is_a                Fam1                                     -- (A-9)
@@ -142,6 +142,8 @@ Fam1         PHENOSCAPE:some_exhibit       Phen1                                
 
 
 The relation ''some_exhibit'' cannot be used to infer down the taxonomy. Therefore, we can see that this new methodology can use the existing assertions that use the ''exhibits'' relation, but can distinguish the inferences that are made in both top-down and bottom-up reasoning. The relations ''all-exhibit'' and ''some-exhibit'' are only inferred, never asserted. Moreover, they can never be used to create new inferences. This distinction averts the extraction of incorrect inferences.
+
+In this solution, no changes are necessary to the NeXML format or to Phenex. The changes need to be made to the OBD reasoner to use these two new relations and the data query module needs to be changed to deal with the two new relations as well. The REST services would not need to be modified for this purpose.
 
 ====Probabilistic assertions====
 
