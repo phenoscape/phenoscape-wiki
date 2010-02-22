@@ -2,7 +2,9 @@
 title: Phenoscape web UI
 ---
 
-==Development Roadmap==
+Phenoscape web UI development plan.
+
+==2009==
 ===February 2009===
 *Mockup changes to existing interfaces required to incorporate 1/5/09 team feedback on existing interface components
 * Taxon search interface '''Done'''
@@ -64,6 +66,8 @@ title: Phenoscape web UI
 *Overall performance evaluation
 
 ===Public launch: ASIH meeting, Portland, Oregon - July 22, 2009===
+
+==2010==
 
 [[Category:Roadmaps]]
 [[Category:User Interface]]
