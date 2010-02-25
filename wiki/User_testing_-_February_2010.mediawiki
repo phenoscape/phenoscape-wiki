@@ -1,0 +1,8 @@
+---
+title: User testing - February 2010
+---
+
+This page will summarize feedback obtained from users during testing of mockups at ZFIN.  The notes are being reviewed and will be posted here soon. --[[User:Jpb15|jim]] 10:20, 25 February 2010 (EST)
+
+[[Category:Mockups]]
+[[Category:User Interface]]
