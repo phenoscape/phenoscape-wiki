@@ -81,6 +81,13 @@ Phenoscape web UI development plan.
 * Complete mockups of advanced query interfaces
 * Phenoscape meeting at Field Museum, Chicago
 ** Conduct user feedback sessions with mockups of forthcoming interfaces, and live testing of implemented pages
+* Generate permanent unique ID for each publication ['''Done''']
+* Enter unique IDs for publications into Endnote ['''Done''']
+* Data imported into knowledgebsae via Endnote XML files 
+*** NOTE: This part was done quite a while ago. However, a slight modification needs to be made to use the new unique IDs for publications
+** citation information as individual semantic pieces (individual authors, title, journal, etc.)
+** abstract
+** DOI if available
 
 ===April 2010===
 * Term search results pages incorporating ontology tree browser
