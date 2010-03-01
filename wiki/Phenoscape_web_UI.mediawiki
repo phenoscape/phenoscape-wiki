@@ -96,6 +96,9 @@ Phenoscape web UI development plan.
 * Term search results pages incorporating ontology tree browser
 * Publication pages with citation and abstract, links to publications from other data types
 * Advanced query interface, data download implementation
+* type of mutation/defect producing phenotype result (requires feasibility investigation)
+* ZFIN publication ID for each phenotype annotation
+* import common names for taxa
 
 ===May 2010===
 * Publication pages with data matrix (table view and downloadable)
