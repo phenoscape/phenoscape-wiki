@@ -9,8 +9,8 @@ title: Complex Query Specification
 A number of approaches to a complex query have been suggested.  Since Jim has added a simple query to many of the summary pages, the focus of a complex query is on covering the types of queries that can't be expressed in the standard query.  An appropriate visualization of a query ought to be very explicit and could, secondarily let users check the semantics of a simple query (e.g., make the implicit disjunctions within categories and conjunctions between categories explicit).  To this latter end, and as a way for users to discover how complex queries work, a button or link to a complex query page should be available at the bottom of every simple query panel.  When selected, the contents of the simple query will be copied into the complex query page, establishing both a starting point for the user to build on and a correspondence back to the simple query.
 
 === List of suggested query models ===
-* Biomart
-*  
+* [[http://www.biomart.org Biomart]]
+*
 
 == Version 2 ==
 === Entry from Taxon Page ===
