@@ -11,7 +11,7 @@ A number of approaches to a complex query have been suggested.  Since Jim has ad
 === List of suggested query models ===
 * [[http://www.biomart.org Biomart]]
 * [[http://www.gusdb.org/wdk Strategies Web Development Kit]] examples at [[http://plasmodb.org/plasmo PlasmoDB]].
-* 
+*
 *
 
 == Version 2 ==
