@@ -30,14 +30,14 @@ The software source code is in part being contributed back directly to a variety
 ** [http://obo.svn.sourceforge.net/viewvc/obo/phenex/trunk/ Browse source]
 ** Code checkout: <code>svn co https://obo.svn.sourceforge.net/svnroot/obo/phenex/trunk</code>
 * Database and database loading:
-** [https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk/scripts Browse source]
+** [http://obo.svn.sourceforge.net/viewvc/obo/OBDAPI/trunk/scripts Browse source]
 ** Code check out: <code>svn co https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk/scripts</code>
 ** Some unit tests are in the process of being migrated from the old location:
 *** Code checkout: <code>svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeDataLoader/test</code>
 *** [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeDataLoader/test/org/phenoscape/db/test Browse source]
 * Data services and middleware:
 ** Data model and database access API (OBD-API):
-*** [https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk Browse source]
+*** [http://obo.svn.sourceforge.net/viewvc/obo/OBDAPI/trunk Browse source]
 *** Code check out: <code>svn co https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk</code>
 ** Web-services (OBD-WS):
 *** [http://obo.svn.sourceforge.net/viewvc/obo/OBD-WS/trunk/ Browse source]
