@@ -25,7 +25,7 @@ The [[Synchronization Tool]] is a plug-in for [http://oboedit.org/ OBO-Edit] whi
 
 == Source code ==
 
-The software source code is in part being contributed back directly to a variety of existing projects we build upon, and mostly deposited in the [http://obo.svn.sourceforge.net/viewvc/obo/trunk/ SourceForge.net svn repository].
+The software source code is in part being contributed back directly to a variety of existing projects we build upon, and deposited in the [http://obo.svn.sourceforge.net/viewvc/obo/ OBO] and [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape Phenoscape] Subversion repositories on SourceForge.
 * Phenex:
 ** [http://obo.svn.sourceforge.net/viewvc/obo/phenex/trunk/ Browse source]
 ** Code checkout: <code>svn co https://obo.svn.sourceforge.net/svnroot/obo/phenex/trunk</code>
@@ -44,7 +44,7 @@ The software source code is in part being contributed back directly to a variety
 *** Code checkout: <code>svn co https://obo.svn.sourceforge.net/svnroot/obo/OBD-WS/trunk</code>
 * Web-based user interface ([http://kb.phenoscape.org Knowledge Base]):
 ** [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/PhenoscapeWeb/ Browse source]
-** Code checkout: svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeWeb
+** Code checkout: <code>svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeWeb</code>
 * Ontology conversion and management:
 ** TTOUpdate
 *** [http://obo.svn.sourceforge.net/viewvc/phenoscape/trunk/tools/TTOUpdate Browse source]
