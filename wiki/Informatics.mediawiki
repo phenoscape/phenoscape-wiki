@@ -32,9 +32,9 @@ The software source code is in part being contributed back directly to a variety
 * Database and database loading:
 ** [http://obo.svn.sourceforge.net/viewvc/obo/OBDAPI/trunk/scripts Browse source]
 ** Code check out: <code>svn co https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk/scripts</code>
-** Some unit tests are in the process of being migrated from the old location:
-*** [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/PhenoscapeDataLoader/test/org/phenoscape/db/test Browse source]
-*** Code checkout: <code>svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeDataLoader/test</code>
+** Unit tests
+*** [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/PhenoscapeDbTests/test/org/phenoscape/db/test Browse source]
+*** Code checkout: <code>svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeDbTests/test</code>
 * Data services and middleware:
 ** Data model and database access API (OBD-API):
 *** [http://obo.svn.sourceforge.net/viewvc/obo/OBDAPI/trunk Browse source]
