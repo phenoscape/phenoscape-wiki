@@ -28,27 +28,30 @@ The [[Synchronization Tool]] is a plug-in for [http://oboedit.org/ OBO-Edit] whi
 The software source code is in part being contributed back directly to a variety of existing projects we build upon, and mostly deposited in the [http://obo.svn.sourceforge.net/viewvc/obo/trunk/ SourceForge.net svn repository].
 * Phenex:
 ** [http://obo.svn.sourceforge.net/viewvc/obo/phenex/trunk/ Browse source]
-** svn co https://obo.svn.sourceforge.net/svnroot/obo/phenex/trunk
+** Code checkout: <code>svn co https://obo.svn.sourceforge.net/svnroot/obo/phenex/trunk</code>
 * Database and database loading:
 ** [https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk/scripts Browse source]
-** URL for check out: svn co https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk/scripts
+** Code check out: <code>svn co https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk/scripts</code>
 ** Some unit tests are in the process of being migrated from the old location:
-*** svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeDataLoader/test
-*** or [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeDataLoader/test/org/phenoscape/db/test browse]
+*** Code checkout: <code>svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeDataLoader/test</code>
+*** [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeDataLoader/test/org/phenoscape/db/test Browse source]
 * Data services and middleware:
 ** Data model and database access API (OBD-API):
 *** [https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk Browse source]
-*** URL for check out: svn co https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk
+*** Code check out: <code>svn co https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk</code>
 ** Web-services (OBD-WS):
 *** [http://obo.svn.sourceforge.net/viewvc/obo/OBD-WS/trunk/ Browse source]
-*** svn co https://obo.svn.sourceforge.net/svnroot/obo/OBD-WS/trunk
+*** Code checkout: <code>svn co https://obo.svn.sourceforge.net/svnroot/obo/OBD-WS/trunk</code>
+* Web-based user interface ([http://kb.phenoscape.org Knowledge Base]):
+** [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/PhenoscapeWeb/ Browse source]
+** Code checkout: svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeWeb
 * Ontology conversion and management:
 ** TTOUpdate
 *** [http://obo.svn.sourceforge.net/viewvc/phenoscape/trunk/tools/TTOUpdate Browse source]
-*** svn co https://obo.svn.sourceforge.net/svnroot/phenoscape/trunk/tools/TTOUpdate
+*** Code checkout: <code>svn co https://obo.svn.sourceforge.net/svnroot/phenoscape/trunk/tools/TTOUpdate</code>
 ** Synchronization Tool
 *** [http://obo.svn.sourceforge.net/viewvc/phenoscape/trunk/src/SynchronizationTool/ Browse source]
-*** svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/SynchronizationTool
+*** Code checkout: <code>svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/SynchronizationTool</code>
 * Other scripts and small tools:
 
 ==Affiliated projects==
