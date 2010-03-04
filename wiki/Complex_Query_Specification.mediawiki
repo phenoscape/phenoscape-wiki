@@ -10,8 +10,10 @@ A number of approaches to a complex query have been suggested.  Since Jim has ad
 
 === List of suggested query models ===
 * [[http://www.biomart.org Biomart]]
-* [[http://www.gusdb.org/wdk Strategies Web Development Kit]] examples at [[http://plasmodb.org/plasmo PlasmoDB]].
+* [[http://www.gusdb.org/wdk Strategies Web Development Kit]] 
+** examples at [[http://plasmodb.org/plasmo PlasmoDB]].
 * [[http://compbio.charite.de/Phenomizer/Phenomizer.html Phenomizer]]
+* [[http://www.arb-silva.de/search/ontogrator/ Ontogrator]]
 * Other 'list oriented' queries (e.g., fogbugz, mail.app, etc.)
 
 == Version 2 ==
