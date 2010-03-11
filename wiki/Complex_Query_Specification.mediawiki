@@ -21,6 +21,8 @@ title: Complex Query Specification
 === Add a new subquery ===
 [[Image:NewAdvancedQuery.005.png]]
 
+=== Fill in subquery ===
+* Need a go button - maybe drop on tool bar?
 [[Image:NewAdvancedQuery.006.png]]
 
 [[Image:NewAdvancedQuery.007.png]]
