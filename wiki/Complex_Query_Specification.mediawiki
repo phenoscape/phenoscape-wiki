@@ -31,8 +31,10 @@ title: Complex Query Specification
 === Results ===
 [[Image:NewAdvancedQuery.008.png]]
 
+=== Alternative Start from mesethmoid query ===
 [[Image:NewAdvancedQuery.009.png]]
 
+=== Add saved basihyal query ===
 [[Image:NewAdvancedQuery.010.png]]
 
 [[Image:NewAdvancedQuery.011.png]]
