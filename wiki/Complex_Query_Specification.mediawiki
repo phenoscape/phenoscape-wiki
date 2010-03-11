@@ -6,10 +6,13 @@ title: Complex Query Specification
 
 == Version 4 ==
 
+=== Buttons for advanced query ===
 [[Image:NewAdvancedQuery.001.png]]
 
+=== Save a query ===
 [[Image:NewAdvancedQuery.002.png]]
 
+=== Enter advanced query page ===
 [[Image:NewAdvancedQuery.003.png]]
 
 [[Image:NewAdvancedQuery.004.png]]
