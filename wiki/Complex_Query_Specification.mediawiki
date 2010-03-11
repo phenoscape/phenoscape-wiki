@@ -8,7 +8,33 @@ title: Complex Query Specification
 
 [[Image:NewAdvancedQuery.001.png]]
 
+[[Image:NewAdvancedQuery.002.png]]
 
+[[Image:NewAdvancedQuery.003.png]]
+
+[[Image:NewAdvancedQuery.004.png]]
+
+[[Image:NewAdvancedQuery.005.png]]
+
+[[Image:NewAdvancedQuery.006.png]]
+
+[[Image:NewAdvancedQuery.007.png]]
+
+[[Image:NewAdvancedQuery.008.png]]
+
+[[Image:NewAdvancedQuery.009.png]]
+
+[[Image:NewAdvancedQuery.010.png]]
+
+[[Image:NewAdvancedQuery.011.png]]
+
+[[Image:NewAdvancedQuery.012.png]]
+
+[[Image:NewAdvancedQuery.013.png]]
+
+[[Image:NewAdvancedQuery.014.png]]
+
+[[Image:NewAdvancedQuery.015.png]]
 
 == Notes for a Version 3 ==
 
