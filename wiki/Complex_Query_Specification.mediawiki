@@ -6,6 +6,7 @@ title: Complex Query Specification
 
 == Version 4 ==
 
+[[Image:NewAdvancedQuery.001.png]]
 
 
 
