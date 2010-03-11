@@ -37,14 +37,19 @@ title: Complex Query Specification
 === Add saved basihyal query ===
 [[Image:NewAdvancedQuery.010.png]]
 
+=== And specify the connective ===
 [[Image:NewAdvancedQuery.011.png]]
 
+=== Should fill in the same as if specified by hand ===
 [[Image:NewAdvancedQuery.012.png]]
 
+=== Should give same results ===
 [[Image:NewAdvancedQuery.013.png]]
 
+=== Advanced query also available from gene search ===
 [[Image:NewAdvancedQuery.014.png]]
 
+=== Advanced query page for gene focussed query ===
 [[Image:NewAdvancedQuery.015.png]]
 
 == Notes for a Version 3 ==
