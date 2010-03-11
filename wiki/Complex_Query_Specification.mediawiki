@@ -15,8 +15,10 @@ title: Complex Query Specification
 === Enter advanced query page ===
 [[Image:NewAdvancedQuery.003.png]]
 
+=== Additional Fields (suggestions?) ===
 [[Image:NewAdvancedQuery.004.png]]
 
+=== Add a new subquery ===
 [[Image:NewAdvancedQuery.005.png]]
 
 [[Image:NewAdvancedQuery.006.png]]
