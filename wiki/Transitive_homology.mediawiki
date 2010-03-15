@@ -12,7 +12,7 @@ I propose the following expansion to OWL-DL instance-level quantified axioms:
   Class: B
   SubClassOf: descendedFrom some (hasDescendant some A)
 
-
+If we make the simplifying assumption that directlyDescendsFrom is functional then it follows that class-level homology is transitive. What are the consequences of making this strong assumption? We can explore this with existing phenoscape data:
 
 == Otophysi intercalarium ==
 
