@@ -2,7 +2,7 @@
 title: Transitive homology
 ---
 
-Image:TAO-0000698-TTO-352.png
+[[Image:TAO-0000698-TTO-352.png]]
 
 [[Category:Informatics]]
 [[Category:Reasoning]]
