@@ -1,0 +1,10 @@
+---
+title: Transitive homology
+---
+
+
+
+[[Category:Informatics]]
+[[Category:Reasoning]]
+[[Category:Ontology]]
+[[Category:Taxonomy]]
