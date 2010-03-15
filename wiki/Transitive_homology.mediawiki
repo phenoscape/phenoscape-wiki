@@ -2,6 +2,8 @@
 title: Transitive homology
 ---
 
+This page explores the transitive closure of the homologous_to relation. Currently in OBD this is a class-level relation that holds between two taxon-specific anatomical entities.
+
 [[Image:TAO-0000525-TTO-352.png]]
 
 [[Image:TAO-0000698-TTO-352.png]]
