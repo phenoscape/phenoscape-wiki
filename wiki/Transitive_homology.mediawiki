@@ -2,7 +2,17 @@
 title: Transitive homology
 ---
 
-This page explores the transitive closure of the homologous_to relation. Currently in OBD this is a class-level relation that holds between two taxon-specific anatomical entities.
+This page explores the transitive closure of the homologous_to relation. Currently in OBD this is a binary class-level relation that holds between two taxon-specific anatomical entities.
+
+I propose the following expansion to OWL-DL instance-level quantified axioms:
+
+  homologous_to(A,B) ==>
+  Class: A
+  SubClassOf: descendedFrom some (hasDescendant some B)
+  Class: B
+  SubClassOf: descendedFrom some (hasDescendant some A)
+
+
 
 == Otophysi intercalarium ==
 
