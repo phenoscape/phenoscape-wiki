@@ -35,26 +35,25 @@ title: Complex Query Specification
 * Can change the logical operation in a drop-down
 [[Image:NewAdvancedQuery.009.png]]
 
-=== Add saved basihyal query ===
 [[Image:NewAdvancedQuery.010.png]]
 
-=== And specify the connective ===
+=== Change to disjunction returns more results ===
 [[Image:NewAdvancedQuery.011.png]]
 
-=== Should fill in the same as if specified by hand ===
 [[Image:NewAdvancedQuery.012.png]]
 
-=== Should give same results ===
+=== Add saved basihyal query ===
 [[Image:NewAdvancedQuery.013.png]]
 
-=== Advanced query also available from gene search ===
+=== And specify the connective ===
 [[Image:NewAdvancedQuery.014.png]]
 
 [[Image:NewAdvancedQuery.015.png]]
 
+=== Should give same results ===
 [[Image:NewAdvancedQuery.016.png]]
 
-=== Advanced query page for gene focussed query ===
+=== Advanced query also available from gene search ===
 [[Image:NewAdvancedQuery.017.png]]
 
 === Gene query details ===
