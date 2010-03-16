@@ -32,6 +32,7 @@ title: Complex Query Specification
 [[Image:NewAdvancedQuery.008.png]]
 
 === Alternative Start from mesethmoid query ===
+* Can change the logical operation in a drop-down
 [[Image:NewAdvancedQuery.009.png]]
 
 === Add saved basihyal query ===
