@@ -50,16 +50,14 @@ title: Complex Query Specification
 === Advanced query also available from gene search ===
 [[Image:NewAdvancedQuery.014.png]]
 
-=== Advanced query page for gene focussed query ===
 [[Image:NewAdvancedQuery.015.png]]
 
-=== More genes ===
 [[Image:NewAdvancedQuery.016.png]]
 
-=== ??? ===
+=== Advanced query page for gene focussed query ===
 [[Image:NewAdvancedQuery.017.png]]
 
-=== ??? ===
+=== Gene query details ===
 [[Image:NewAdvancedQuery.018.png]]
 
 == Notes for a Version 3 ==
