@@ -16,7 +16,9 @@ If we make the simplifying assumption that directlyDescendsFrom is functional th
 
 == TAO classes with homology statements ==
 
-from latest KB:{|class="wikitable" style="text-align:center" border="1"
+from latest KB:
+
+{|class="wikitable" style="text-align:center" border="1"
 |-
 ! ID
 ! name
