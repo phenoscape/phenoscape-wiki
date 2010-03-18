@@ -16,8 +16,11 @@ If we make the simplifying assumption that directlyDescendsFrom is functional th
 
 == TAO classes with homology statements ==
 
-from latest KB:
-{|class="wikitable" style="text-align:center" border="1"
+from latest KB:{|class="wikitable" style="text-align:center" border="1"
+|-
+! ID
+! name
+! Def
 |-
 ! TAO:0000429
 ! scaphium
@@ -39,12 +42,46 @@ from latest KB:
 | os suspensorium
 | Endochondral bone and Weberian ossicle that is an element of the fourth vertebra that curves ventrally around the anterior head of the swim bladder.
 |-
+| TAO:0001253
+| neural arch 2
+| Neural arch that is the second after the neurocranium.
+|-
+| TAO:0001335
+| supradorsal
+| Supradorsals are small paired nodules of cartilage positioned at the distal ends of neural arches and the proximal end of neural spines (Arratia et al., 2001).
+|-
+| TAO:0001396
+| parapophysis + rib of vertebra 4
+| The parapophysis + rib, fused to the centrum, extends laterally then angles anteroventrally. A thin plate, the os suspensorium fuses to its median surface.
+|-
 | TAO:0001592
 | claustrum bone
 | Endochondral bone, membrane bone, and Weberian ossicle that is located dorsal to the scaphium. The claustrum bone is bilaterally paired.
+|-
+| TAO:0001877
+| neural arch 1
+| Neural arch that is the anteriormost neural arch.
+|-
+| TAO:0001878
+| rib of vertebra 2
+| Rib that articulates with the parapophysis of the second centrum.
+|-
+| TAO:0001884
+| accessory neural arch
+| Neural arch that is located posterior to the neurocranium and anterior to neural arch 1.  The accessory neural arch is not associated with a vertebral centrum.
+|-
+| TAO:0001885
+| neural spine 1
+| Neural spine that is associated with the first vertebra.
+|-
+| TAO:0001888
+| supraneural 1 bone
+| Supraneural bone located dorsal to vertebra 1.
+|-
+| TAO:0001889
+| supraneural 1 cartilage
+| Postcranial axial cartilage located dorsal to vertebra 1.
 |}
-
-
 == High Level Overview ==
 
 This is a high level part_of view of all homology relationships, projected onto TAO:
