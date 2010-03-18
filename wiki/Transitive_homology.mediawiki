@@ -20,6 +20,12 @@ this is annotated to be homologous to the neural arch 2 and vertebra 2 in Teleos
 
 [[Image:TAO-0000525-TTO-352.png]]
 
+Note that for compactness reasons this diagram doesn't show the part_of relations.
+
+* intercalarium part_of v2
+
+presumably there should be some kind of relationship between "rib of v2" and "v2"
+
 == Otophysi tripus ==
 
 this is annotated to be homologous to (i) the fusion of parapophysis + rib of v3 and (ii) the fusion of parapophysis + rib of v3 + rib of v4 in Teleosti. What can be said from this of the relation between (i) and (ii)
