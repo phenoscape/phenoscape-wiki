@@ -17,13 +17,32 @@ If we make the simplifying assumption that directlyDescendsFrom is functional th
 == TAO classes with homology statements ==
 
 from latest KB:
-
-*       TAO:0000429-scaphium    Neural arch and Weberian ossicle that is reduced in size relative to other neural arches.  Scaphium has a process which articulates with the first centrum.
-*       TAO:0000525-intercalarium       Neural arch and Weberian ossicle that has been modified in shape relative to other neural arches. Intercalarium includes three parts: an anterolateral process (the manubrium) which is embedded in the interossicular ligament and the ascending and articulating processes.
-*       TAO:0000637-claustrum cartilage Postcranial axial cartilage and Weberian ossicle that is located dorsal to the scaphium. The claustrum cartilage is bilaterally paired.
-*       TAO:0000698-tripus      Endochondral bone, membrane bone, and Weberian ossicle that is an element of third vertebra. Anteriorly it attaches to the interosseus ligament and posteriorly it extends as a transformator process embedded in the tunica externa of the swimbladder.
-*       TAO:0001171-os suspensorium     Endochondral bone and Weberian ossicle that is an element of the fourth vertebra that curves ventrally around the anterior head of the swim bladder.
-*       TAO:0001592-claustrum bone      Endochondral bone, membrane bone, and Weberian ossicle that is located dorsal to the scaphium. The claustrum bone is bilaterally paired.
+{|class="wikitable" style="text-align:center" border="1"
+|-
+! TAO:0000429
+! scaphium
+! Neural arch and Weberian ossicle that is reduced in size relative to other neural arches.  Scaphium has a process which articulates with the first centrum.
+|-
+| TAO:0000525
+| intercalarium
+| Neural arch and Weberian ossicle that has been modified in shape relative to other neural arches. Intercalarium includes three parts: an anterolateral process (the manubrium) which is embedded in the interossicular ligament and the ascending and articulating processes.
+|-
+| TAO:0000637
+| claustrum cartilage
+| Postcranial axial cartilage and Weberian ossicle that is located dorsal to the scaphium. The claustrum cartilage is bilaterally paired.
+|-
+| TAO:0000698
+| tripus
+| Endochondral bone, membrane bone, and Weberian ossicle that is an element of third vertebra. Anteriorly it attaches to the interosseus ligament and posteriorly it extends as a transformator process embedded in the tunica externa of the swimbladder.
+|-
+| TAO:0001171
+| os suspensorium
+| Endochondral bone and Weberian ossicle that is an element of the fourth vertebra that curves ventrally around the anterior head of the swim bladder.
+|-
+| TAO:0001592
+| claustrum bone
+| Endochondral bone, membrane bone, and Weberian ossicle that is located dorsal to the scaphium. The claustrum bone is bilaterally paired.
+|}
 
 
 == High Level Overview ==
