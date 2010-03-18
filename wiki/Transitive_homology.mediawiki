@@ -24,9 +24,9 @@ from latest KB:
 ! name
 ! Def
 |-
-! TAO:0000429
-! scaphium
-! Neural arch and Weberian ossicle that is reduced in size relative to other neural arches.  Scaphium has a process which articulates with the first centrum.
+| TAO:0000429
+| scaphium
+| Neural arch and Weberian ossicle that is reduced in size relative to other neural arches.  Scaphium has a process which articulates with the first centrum.
 |-
 | TAO:0000525
 | intercalarium
