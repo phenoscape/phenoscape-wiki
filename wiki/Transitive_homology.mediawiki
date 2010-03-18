@@ -16,7 +16,16 @@ If we make the simplifying assumption that directlyDescendsFrom is functional th
 
 == High Level Overview ==
 
+This is a high level part_of view of all homology relationships, projected onto TAO:
+
 [[Image:TAO-all-p.png]]
+
+* homology statements are generalized to the TAO, taxa not shown
+* clusters of homology relationships are shown in 4 distinct boxes
+* vertebra clustered into a box
+* only relations shown are homology and part_of
+
+Here we can see there are 4 distinct clusters, according to the vertebra number affected
 
 == Otophysi intercalarium ==
 
