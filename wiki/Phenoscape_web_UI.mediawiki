@@ -80,16 +80,17 @@ Phenoscape web UI development plan.
 * Working taxonomy cladogram data interfaces
 * Complete mockups of advanced query interfaces
 * Phenoscape meeting at Field Museum, Chicago
-** Conduct user feedback sessions with mockups of forthcoming interfaces, and live testing of implemented pages
+** Conduct user feedback sessions with mockups of forthcoming interfaces, and live testing of implemented pages ['''Done''']
+** Write-up results of feedback and proposed changes
 * Generate permanent unique ID for each publication ['''Done''']
 * Enter unique IDs for publications into Endnote ['''Done''']
-* Data imported into knowledgebsae via Endnote XML files
+* Data imported KB via Endnote XML files
 *** NOTE: This part was done quite a while ago. However, a slight modification needs to be made to use the new unique IDs for publications
 ** citation information as individual semantic pieces (individual authors, title, journal, etc.)
 ** abstract
 ** DOI if available
 * Investigate importing previous names of ZFIN genes
-* Gene symbol as primary name 
+* Gene symbol as primary name
 ** NOTE: This was the old status quo before we decided to the display the complete name of the gene, can easily revert to this
 
 ===April 2010===
