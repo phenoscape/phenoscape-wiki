@@ -89,8 +89,7 @@ Phenoscape web UI development plan.
 ** abstract
 ** DOI if available
 * Investigate importing previous names of ZFIN genes
-* Gene symbol as primary name
-** NOTE: This was the old status quo before we decided to the display the complete name of the gene, can easily revert to this
+* Gene symbol as primary name - [NOTE: This was the old status quo before we decided to the display the complete name of the gene, can easily revert to this.]
 
 ===April 2010===
 * Term search results pages incorporating ontology tree browser
