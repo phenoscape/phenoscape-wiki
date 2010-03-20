@@ -85,7 +85,7 @@ Phenoscape web UI development plan.
 * Generate permanent unique ID for each publication ['''Done''']
 * Enter unique IDs for publications into Endnote ['''Done''']
 * Data imported KB via Endnote XML files [NOTE: This part was done quite a while ago. However, a slight modification needs to be made to use the new unique IDs for publications]
-** citation information as individual semantic pieces (individual authors, title, journal, etc.) - ['''deprioritized''']
+** citation information as individual semantic pieces (individual authors, title, journal, etc.) - ['''Deprioritized''']
 ** abstract
 ** DOI if available
 * Investigate importing previous names of ZFIN genes
