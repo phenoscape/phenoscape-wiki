@@ -1,0 +1,16 @@
+---
+title: Correlation and Disjoint Qualities
+---
+
+= Problem Statement =
+
+Displays of correlation among phenotypes was one of the most requested topics in the initial needs analysis workshop.  In traditional approaches where characters are mapped onto observed taxa, variation in the observed states of a particular character implies changes in the state of that character somewhere in the history represented by the tree. An important component of being able to assert this is states of a character actually represent alternative phenotypes.  
+
+Consider the following tree:
+
+
+
+== Problem with non-disjoint qualities ==
+
+
+= An incremental approach =
