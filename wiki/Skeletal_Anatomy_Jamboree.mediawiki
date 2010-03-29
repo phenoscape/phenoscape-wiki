@@ -97,7 +97,7 @@ Members of Phenoscape are in '''bold font'''.
 {{EventParticipant|Hall|Brian|Brian.Hall@Dal.Ca|Department of Biology, Dalhousie University|}}
 {{EventParticipant|Lundberg|John|lundberg@ansp.org|Phenoscape and Department of Ichthyology, Academy of Natural Sciences, Philadelphia|'''}}
 {{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|Phenoscape and Department of Biology, University of South Dakota|'''}}
-{{EventParticipant|Midford|Peter|peter%2emidford%40gmail%2ecom| Phenoscape and NESCENT|'''}}
+{{EventParticipant|Midford|Peter|peter%2emidford%40gmail%2ecom| Phenoscape and NESCent|'''}}
 {{EventParticipant|Ringwald|Martin|ringwald@informatics.jax.org|Mouse Genome Informatics (MGI)|}}
 {{EventParticipant|Segerdell|Erik|segerdel@ohsu.edu|Oregon Health Sciences University|}}
 {{EventParticipant|Van Slyke|Ceri|van_slyke@zfin.org|Zebrafish Information Network (ZFIN)|}}
