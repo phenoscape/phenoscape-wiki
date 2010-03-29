@@ -16,3 +16,59 @@ __NOTOC__
 
 == Introduction ==
 The main focus of this meeting will be to re-evaluate the high-level skeletal system ontology hierarchy for fishes, particularly in relation to anatomy ontologies of other vertebrates.  We will re-examine existing terms and definitions (cells, tissues, development, anatomical structures) for their applicability across vertebrates and redefine terms as necessary so that we leave with complete definitions. We will discuss how to represent of bone development within the structurally-defined hierarchy of the anatomy ontology.  In addition, ontological issues such as multiple inheritance and cross-product definitions will be discussed although their solutions depend on the definitions we develop for the relevant terms.
+
+== Agenda ==
+
+Friday, April 9, 2010
+    Morning
+
+* 8:30 SHUTTLE FROM HOTEL
+* 8:45 Coffee & pastries
+* 8:45-9:15 Welcomes and participant introductions
+* 9:15-9:45 Paula Mabee: Introduction to workshop
+* 9:45-10:15 Wasila Dahdul: Intro to ontologies and issues
+* 10:15-10:30 Brian Hall: Intro to bone classification
+* 10:30  Coffee break
+* 10:45-11:45  Group discussion on use cases
+* 11:45-12:15 
+* 12:15 LUNCH 
+
+Afternoon -- breakout groups TBD
+
+* 1:30 – 2:00:
+* 2:00
+* 3:15 Coffee break
+* 3:30-4:15:
+* 4:15-5:00: 
+* 5:00: Van back to hotel
+* 5:30-6:30: Drinks at hotel
+* 6:30 Van from hotel to dinner (whole group) 
+
+
+Saturday, April 10, 2010
+Morning
+
+* 8:00 SHUTTLE FROM HOTEL
+* 8:15 Coffee & pastries
+* 8:30-9:30
+* 9:30-9:45
+* 9:45
+* 10:45 Coffee
+* 11:00-11:45     Usability testing concurrent with breakout groups
+* 11:45-12:15 
+* 12:15 LUNCH 
+
+Afternoon
+
+* 1:30 – 2:00:
+* 2:00
+* 3:15 Coffee break
+* 3:30-4:15:
+* 4:15-5:00: 
+* 5:00: Van back to hotel
+* 5:30-6:30: Drinks at hotel
+* 6:30 Van from hotel to dinner (whole group) 
+
+
+Sunday, April 11, 2010
+* Participants leave
