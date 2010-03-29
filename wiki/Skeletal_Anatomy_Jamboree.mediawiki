@@ -15,3 +15,4 @@ __NOTOC__
 '''Organizers:''' Paula Mabee, Wasila Dahdul
 
 == Introduction ==
+The main focus of this meeting will be to re-evaluate the high-level skeletal system ontology hierarchy for fishes, particularly in relation to anatomy ontologies of other vertebrates.  We will re-examine existing terms and definitions (cells, tissues, development, anatomical structures) for their applicability across vertebrates and redefine terms as necessary so that we leave with complete definitions. We will discuss how to represent of bone development within the structurally-defined hierarchy of the anatomy ontology.  In addition, ontological issues such as multiple inheritance and cross-product definitions will be discussed although their solutions depend on the definitions we develop for the relevant terms.
