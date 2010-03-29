@@ -78,3 +78,11 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 * For long-distance participants, the hotel is the [http://www.millenniumhotels.com/MCIL.nsf/LU_HOTELDOC/113$$HotelDescription?OpenDocument Millennium Hotel] (2800 Campus Walk Ave, Durham, NC  27705; tel. (919) 383-8575)
 * For dining & entertainment, NESCent is right across from [http://www.ninthst.com/ Ninth Street]
 * For the venue, NESCent is in the historic [http://www.owdna.org/mill.htm Erwin Mills] building (<span class="plainlinks">[http://www.nescent.org/about/directions.php directions]</span>)
+
+== Reading ==
+
+# Hall, B. K., and Witten, P. E. (2007). The Origin and Plasticity of Skeletal Tissues in Vertebrate Evolution and Development. In: Major Transitions in Vertebrate Evolution (Jason S. Anderson and Hans-Dieter Sues, eds). Festschrift for Dr. Robert L. Carroll. pp. 13-57. Indiana University Press, Bloomington, IN.
+# Dahdul, W. M., J. G. Lundberg, P. E. Midford, J. P. Balhoff, H. Lapp, T. J. Vision, M. A. Haendel, M. Westerfield, and P. M. Mabee. 2010. The Teleost Anatomy Ontology: Anatomical representation for the genomics age. Systematic Biology, in press.
+# Mabee P, Ashburner M, Cronk Q, Gkoutos G, Haendel M, et al. (2007) Phenotype ontologies: the bridge between genomics and evolution. Trends in Ecology & Evolution 22: 345-350.
+# Haendel MA, Neuhaus F, Osumi-Sutherland DS, Mabee PM, Mejino JLV, et al. (2008) CARO–the common anatomy reference ontology. In: Burger A, Davidson D, Baldock R, editors. Anatomy Ontologies for Bioinformatics: Principles and Practice. London: Springer. pp. 327-349.
+# Hall, B. 2005. Bones and Cartilage: Developmental Skeletal Biology. Academic Press. 792 p.
