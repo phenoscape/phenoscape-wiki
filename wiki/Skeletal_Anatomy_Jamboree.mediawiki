@@ -81,3 +81,31 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 # Mabee P, Ashburner M, Cronk Q, Gkoutos G, Haendel M, et al. (2007) Phenotype ontologies: the bridge between genomics and evolution. Trends in Ecology & Evolution 22: 345-350.
 # Haendel MA, Neuhaus F, Osumi-Sutherland DS, Mabee PM, Mejino JLV, et al. (2008) CARO–the common anatomy reference ontology. In: Burger A, Davidson D, Baldock R, editors. Anatomy Ontologies for Bioinformatics: Principles and Practice. London: Springer. pp. 327-349.
 # Hall, B. 2005. Bones and Cartilage: Developmental Skeletal Biology. Academic Press. 792 p.
+
+== Participants ==
+
+Members of Phenoscape are in '''bold font'''.
+
+{| border="1" cellpadding="3" cellspacing="0"
+|-
+! Name !! Institution
+{{EventParticipant|Balhoff|Jim|balhoff@nescent.org|Phenoscape, NESCent|'''}}
+{{EventParticipant|Blackburn|David|david.c.blackburn@gmail.com|Amphibian Anatomy Ontology and University of Kansas|}}
+{{EventParticipant|Dahdul|Wasila|wasila.dahdul@usd.edu|Phenoscape, NESCent and Univesity of South Dakota|'''}}
+{{EventParticipant|Deans|Andy|andy_deans%40ncsu%2eedu|Hymenoptera Tree of Life and Department of Entomology, North Carolina State University|}}
+{{EventParticipant|Dumont|Betsy|bdumont%40bio%2eumass%2eedu|Department of Biology, Univerity of Massachusetts, Amherst|}}
+{{EventParticipant|Huala|Eva|huala%40acoma%2estanford%2eedu|The Arabidopsis Information Resource|}}
+{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|Phenoscape and NESCent|'''}}
+{{EventParticipant|Lewis|Suzi|suzi%40berkeleybop%2eorg|Berkeley Bioinformatics and Ontology Project |}}
+{{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|Phenoscape and Department of Biology, University of South Dakota|'''}}
+{{EventParticipant|Maglia|Anne|magliaa%40mst%2eedu|Missouri University of Science and Technology|}}
+{{EventParticipant|Mast|Austin|amast%40bio%2efsu%2eedu|Florida State University|}}
+{{EventParticipant|Midford|Peter|peter%2emidford%40gmail%2ecom| Phenoscape and Dept. of Ecology and Evolutionary Biology, University of Kansas|'''}}
+{{EventParticipant|Parr|Cyndy|csparr%40gmail%2ecom |Smithsonian Institution and Encyclopedia of Life|}}
+{{EventParticipant|Riccardi|Greg|riccardi%40ci%2efsu%2eedu|College of Information, Florida State University|}}
+{{EventParticipant|Sereno|Paul|dinosaur%40uchicago%2eedu|University of Chicago|}}
+{{EventParticipant|Stoltzfus|Arlin|stoltzfu%40umbi%2eumd%2eedu|Center for Advanced Research in Biotechnology, University of Maryland|}}
+{{EventParticipant|Vision|Todd|tjv%40bio%2eunc%2eedu|Phenoscape, NESCent, and Department of Biology, University of North Carolina at Chapel Hill|'''}}
+{{EventParticipant|Vize|Peter|pvize%40ucalgary%2eca|Department of Biology, University of Calgary|}}
+{{EventParticipant|Westerfield|Monte|monte%40uoneuro%2euoregon%2eedu| Phenoscape, Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon |'''}}
+|}
