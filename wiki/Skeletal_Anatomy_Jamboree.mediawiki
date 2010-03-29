@@ -20,8 +20,7 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 == Agenda ==
 
 === Friday, April 9, 2010 ===
-'''Morning
-'''
+'''Morning'''
 * 8:30 SHUTTLE FROM HOTEL
 * 8:45 Coffee & pastries
 * 8:45-9:15 Welcomes and participant introductions
@@ -34,7 +33,6 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 * 12:15 LUNCH
 
 '''Afternoon''' -- breakout groups TBD
-
 * 1:30 – 2:00:
 * 2:00
 * 3:15 Coffee break
@@ -44,22 +42,20 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 * 5:30-6:30: Drinks at hotel
 * 6:30 Van from hotel to dinner (whole group)
 
-
 === Saturday, April 10, 2010 ===
-'''Morning'''
 
+'''Morning'''
 * 8:00 SHUTTLE FROM HOTEL
 * 8:15 Coffee & pastries
 * 8:30-9:30
 * 9:30-9:45
 * 9:45
 * 10:45 Coffee
-* 11:00-11:45     Usability testing concurrent with breakout groups
+* 11:00-11:45     Phenoscape Knowledgebase usability testing concurrent with breakout groups
 * 11:45-12:15
 * 12:15 LUNCH
 
 '''Afternoon'''
-
 * 1:30 – 2:00:
 * 2:00
 * 3:15 Coffee break
@@ -68,7 +64,6 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 * 5:00: Van back to hotel
 * 5:30-6:30: Drinks at hotel
 * 6:30 Van from hotel to dinner (whole group)
-
 
 === Sunday, April 11, 2010 ===
 * Participants leave
