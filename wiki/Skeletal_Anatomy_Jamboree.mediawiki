@@ -19,9 +19,9 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 
 == Agenda ==
 
-Friday, April 9, 2010
-    Morning
-
+=== Friday, April 9, 2010 ===
+'''Morning
+'''
 * 8:30 SHUTTLE FROM HOTEL
 * 8:45 Coffee & pastries
 * 8:45-9:15 Welcomes and participant introductions
@@ -30,23 +30,23 @@ Friday, April 9, 2010
 * 10:15-10:30 Brian Hall: Intro to bone classification
 * 10:30  Coffee break
 * 10:45-11:45  Group discussion on use cases
-* 11:45-12:15 
-* 12:15 LUNCH 
+* 11:45-12:15
+* 12:15 LUNCH
 
-Afternoon -- breakout groups TBD
+'''Afternoon''' -- breakout groups TBD
 
 * 1:30 – 2:00:
 * 2:00
 * 3:15 Coffee break
 * 3:30-4:15:
-* 4:15-5:00: 
+* 4:15-5:00:
 * 5:00: Van back to hotel
 * 5:30-6:30: Drinks at hotel
-* 6:30 Van from hotel to dinner (whole group) 
+* 6:30 Van from hotel to dinner (whole group)
 
 
-Saturday, April 10, 2010
-Morning
+=== Saturday, April 10, 2010 ===
+'''Morning'''
 
 * 8:00 SHUTTLE FROM HOTEL
 * 8:15 Coffee & pastries
@@ -55,20 +55,20 @@ Morning
 * 9:45
 * 10:45 Coffee
 * 11:00-11:45     Usability testing concurrent with breakout groups
-* 11:45-12:15 
-* 12:15 LUNCH 
+* 11:45-12:15
+* 12:15 LUNCH
 
-Afternoon
+'''Afternoon'''
 
 * 1:30 – 2:00:
 * 2:00
 * 3:15 Coffee break
 * 3:30-4:15:
-* 4:15-5:00: 
+* 4:15-5:00:
 * 5:00: Van back to hotel
 * 5:30-6:30: Drinks at hotel
-* 6:30 Van from hotel to dinner (whole group) 
+* 6:30 Van from hotel to dinner (whole group)
 
 
-Sunday, April 11, 2010
+=== Sunday, April 11, 2010 ===
 * Participants leave
