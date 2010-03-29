@@ -92,10 +92,10 @@ Members of Phenoscape are in '''bold font'''.
 {{EventParticipant|Balhoff|Jim|balhoff@nescent.org|Phenoscape, NESCent|'''}}
 {{EventParticipant|Blackburn|David|david.c.blackburn@gmail.com|Amphibian Anatomy Ontology and University of Kansas|}}
 {{EventParticipant|Dahdul|Wasila|wasila.dahdul@usd.edu|Phenoscape, NESCent and Univesity of South Dakota|'''}}
-{{EventParticipant|Deans|Andy|andy_deans%40ncsu%2eedu|Hymenoptera Tree of Life and Department of Entomology, North Carolina State University|}}
-{{EventParticipant|Dumont|Betsy|bdumont%40bio%2eumass%2eedu|Department of Biology, Univerity of Massachusetts, Amherst|}}
-{{EventParticipant|Huala|Eva|huala%40acoma%2estanford%2eedu|The Arabidopsis Information Resource|}}
-{{EventParticipant|Lapp|Hilmar|hlapp%40nescent%2eorg|Phenoscape and NESCent|'''}}
+{{EventParticipant|Diehl|Alexander|adiehl@informatics.jax.org|Mouse Genome Informatics (MGI)|}}
+{{EventParticipant|Haendel|Melissa|haendel@ohsu.edu|Oregon Health Sciences University|}}
+{{EventParticipant|Hall|Brian|Brian.Hall@Dal.Ca|Department of Biology, Dalhousie University|}}
+{{EventParticipant|Lundberg|John|lundberg@ansp.org|Phenoscape,Department of Ichthyology, Academy of Natural Sciences, Philadelphia|'''}}
 {{EventParticipant|Lewis|Suzi|suzi%40berkeleybop%2eorg|Berkeley Bioinformatics and Ontology Project |}}
 {{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|Phenoscape and Department of Biology, University of South Dakota|'''}}
 {{EventParticipant|Maglia|Anne|magliaa%40mst%2eedu|Missouri University of Science and Technology|}}
