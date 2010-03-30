@@ -47,12 +47,12 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 '''Morning'''
 * 8:30 SHUTTLE FROM HOTEL
 * 8:45 Coffee & pastries
-* 8:45-10:30 continue break out groups
+* 9:00-10:30 continue break out groups
 * 10:30 Coffee
 * 11:00-12:15 Reports from break out groups; ontology editing
 * 12:15 LUNCH
 
-'''Afternoon''' Phenoscape Knowledgebase usability testing concurrent with breakout groups
+'''Afternoon''' 
 * 1:30-3:15 continue break out groups
 * 3:15 Coffee break
 * 3:45-5:00 Reports from break out groups; ontology editing
