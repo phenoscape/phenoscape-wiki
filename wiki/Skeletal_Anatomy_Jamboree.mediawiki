@@ -26,10 +26,11 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 * 8:45-9:30 Welcomes and participant introductions (2-3 minute lightening talks)
 * 9:30-10:00 Paula Mabee: Introduction to workshop
 * 10:00-10:15 Wasila Dahdul: Introduction to ontologies and skeletal anatomy issues
-* 10:15-10:30 Alex Diehl: Introduction to Cell Ontology and cross-products
+* 10:15-10:30 Brian Hall: Intro to bone classification
 * 10:30  Coffee break
-* 10:30-10:45 Brian Hall: Intro to bone classification
-* 10:45-11:45  Group discussion on use cases
+* 10:30-10:40 Alex Diehl: Introduction to Cell Ontology and cross-products
+* 10:40-10:50 Melissa Haendel: Common Anatomy Reference Ontology and bone classification 
+* 10:50-11:45  Group discussion on use cases
 * 11:45-12:15 Wrap up and devise breakout groups for afternoon
 * 12:15 LUNCH
 
