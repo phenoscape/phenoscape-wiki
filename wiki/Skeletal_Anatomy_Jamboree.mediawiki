@@ -23,7 +23,7 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 '''Morning'''
 * 8:30 SHUTTLE FROM HOTEL
 * 8:45 Coffee & pastries
-* 8:45-9:30 Welcomes and participant introductions (2-3 minute lightening talks)
+* 8:45-9:30 Welcomes and participant introductions (2-3 minute lightning talks)
 * 9:30-9:45 Paula Mabee: Introduction to workshop
 * 9:45-10:00 Wasila Dahdul: Introduction to ontologies and skeletal anatomy issues
 * 10:00-10:15 Brian Hall: Introduction to bone classification
@@ -38,9 +38,9 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 * 1:30 – 3:00 Break out groups
 * 3:00 Coffee break
 * 3:30-4:30 Break out groups
-* 4:30-5:30 Wrap up and group discussion
+* 4:30-5:30 Reports from break out groups and group discussion
 * 5:30: Van back to hotel
-* 5:30-6:30: Drinks at hotel
+* 5:30-6:30 Drinks at hotel
 * 6:30 Van from hotel to dinner (whole group)
 
 === Saturday, April 10, 2010 ===
