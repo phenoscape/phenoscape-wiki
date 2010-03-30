@@ -4,42 +4,57 @@ title: Change And Correlation
 
 == Version 1==
 
-
+=== Intro page ===
 [[Image:ChangeAndCorrelation.001.png]]
 
-
+=== January Tree Display ===
 [[Image:ChangeAndCorrelation.002.png]]
 
-
+=== Current Tree Co-occurance Display ===
 [[Image:ChangeAndCorrelation.003.png]]
 
-
+=== A Phenotype by Taxon matrix we could have had ===
 [[Image:ChangeAndCorrelation.004.png]]
 
+
+=== A tree with negative data and a detected change ===
 [[Image:ChangeAndCorrelation.005.png]]
 
+=== A Phenotype by Taxon matrix with negative annotations ===
 [[Image:ChangeAndCorrelation.006.png]]
 
+
+=== Change and Correlation diagrams and overview ===
 [[Image:ChangeAndCorrelation.007.png]]
 
+=== Change Detection using incompatible qualities ===
 [[Image:ChangeAndCorrelation.008.png]]
 
+=== Change Detection between individuals, using gene-tree species-tree ===
 [[Image:ChangeAndCorrelation.009.png]]
 
+=== Disjoint_with and incompatible qualities ===
 [[Image:ChangeAndCorrelation.010.png]]
 
+=== Changing PATO ===
 [[Image:ChangeAndCorrelation.011.png]]
 
+=== Patching Process Flow ---
 [[Image:ChangeAndCorrelation.012.png]]
 
+=== PATO breakdown by attribute ===
 [[Image:ChangeAndCorrelation.013.png]]
 
+=== Incompatibility and Relational Qualities ===
 [[Image:ChangeAndCorrelation.014.png]]
 
+=== Transition to Correlation ===
 [[Image:ChangeAndCorrelation.015.png]]
 
+=== Correlation and Contingency Tables ===
 [[Image:ChangeAndCorrelation.016.png]]
 
+=== Reasoning only takes us so far ===
 [[Image:ChangeAndCorrelation.017.png]]
 
 [[Category:User Interface]]
