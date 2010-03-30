@@ -78,9 +78,9 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 == Reading ==
 
 # Hall, B. K., and Witten, P. E. (2007). The Origin and Plasticity of Skeletal Tissues in Vertebrate Evolution and Development. In: Major Transitions in Vertebrate Evolution (Jason S. Anderson and Hans-Dieter Sues, eds). Festschrift for Dr. Robert L. Carroll. pp. 13-57. Indiana University Press, Bloomington, IN.
-# Dahdul, W. M., J. G. Lundberg, P. E. Midford, J. P. Balhoff, H. Lapp, T. J. Vision, M. A. Haendel, M. Westerfield, and P. M. Mabee. 2010. The Teleost Anatomy Ontology: Anatomical representation for the genomics age. Systematic Biology, in press.
+* Dahdul, W.M., Lundberg, J.G., Midford, P.E., Balhoff, J.P., Lapp, H., Vision, T.J., Haendel, M.A., Westerfield, M., Mabee, P.M. (2010) The Teleost Anatomy Ontology: Anatomical Representation for the Genomics Age. Systematic Biology. [http://dx.doi.org/10.1093/sysbio/syq013 doi:10.1093/sysbio/syq013]
 # Mabee P, Ashburner M, Cronk Q, Gkoutos G, Haendel M, et al. (2007) Phenotype ontologies: the bridge between genomics and evolution. Trends in Ecology & Evolution 22: 345-350.
-# Haendel MA, Neuhaus F, Osumi-Sutherland DS, Mabee PM, Mejino JLV, et al. (2008) CARO–the common anatomy reference ontology. In: Burger A, Davidson D, Baldock R, editors. Anatomy Ontologies for Bioinformatics: Principles and Practice. London: Springer. pp. 327-349.
+* Haendel, M.A., Neuhaus, F., Osumi-Sutherland, D.S., Mabee, P.M., Mejino J.L.V., Mungall, C.J., and Smith, B. (2008) [[Media:Caroreprint.pdf|CARO - The Common Anatomy Reference Ontology]]. ''In:'' Albert Burger, Duncan Davidson and Richard Baldock (Editors): ''Anatomy Ontologies for Bioinformatics: Principles and Practice''. ISBN 978-1-84628-884-5.
 # Hall, B. 2005. Bones and Cartilage: Developmental Skeletal Biology. Academic Press. 792 p.
 
 == Participants ==
