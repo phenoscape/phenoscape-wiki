@@ -63,6 +63,8 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 === Sunday, April 11, 2010 ===
 * Participants leave
 
+* 9-12 Phenoscape project meeting
+
 == Logistics ==
 
 * For long-distance participants, the hotel is the [http://www.millenniumhotels.com/MCIL.nsf/LU_HOTELDOC/113$$HotelDescription?OpenDocument Millennium Hotel] (2800 Campus Walk Ave, Durham, NC  27705; tel. (919) 383-8575)
