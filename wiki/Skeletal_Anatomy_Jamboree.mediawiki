@@ -46,17 +46,15 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 === Saturday, April 10, 2010 ===
 
 '''Morning'''
-* 8:00 SHUTTLE FROM HOTEL
-* 8:15 Coffee & pastries
-* 8:30-9:30
-* 9:30-9:45
-* 9:45
-* 10:45 Coffee
-* 11:00-11:45     Phenoscape Knowledgebase usability testing concurrent with breakout groups
+* 8:30 SHUTTLE FROM HOTEL
+* 8:45 Coffee & pastries
+* 8:45-10:30 continue break out groups
+* 10:30 Coffee
+* 11:00-11:45     
 * 11:45-12:15
 * 12:15 LUNCH
 
-'''Afternoon'''
+'''Afternoon''' Phenoscape Knowledgebase usability testing concurrent with breakout groups
 * 1:30 – 2:00:
 * 2:00
 * 3:15 Coffee break
