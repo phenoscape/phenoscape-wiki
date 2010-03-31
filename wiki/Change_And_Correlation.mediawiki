@@ -39,7 +39,7 @@ title: Change And Correlation
 === Slide 11: Changing PATO ===
 [[Image:ChangeAndCorrelation.011.png]]
 
-=== Slide 12: Patching Process Flow ---
+=== Slide 12: Patching Process Flow ===
 [[Image:ChangeAndCorrelation.012.png]]
 
 === Slide 13: PATO breakdown by attribute ===
