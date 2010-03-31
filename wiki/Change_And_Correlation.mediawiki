@@ -63,6 +63,8 @@ Peter presented the preceding slides.  There was some discussion of the definiti
 
 TJV questioned the need for optimization for the use case of placing a phenotype change on a tree, citing the example of identifying where on a tree a change corresponding to a phenotype of a zebrafish gene mutation.  Peter did not have an immediate answer for this.
 
+There was discussion of the difference between annotation of phenotype differences between taxa, which might explicitly reference other taxa, and zebrafish gene phenotypes which implicitly refer to the wild type.
+
 TJV mentioned liking the current Phenotype Profile interface (taxon tree on slide 3) and seemed to indicate that he thought showing contrasts in co-occurrence counts between sister taxa was good enough.  HL observed that although the use cases did mention correlation, the usage was loose and that co-occurrence was closer to the intended meaning.
 
 Overall the sense was that optimization was not required for the use cases we are planning to deliver by the end of the initial grant.  Also that the issue of incompatible qualities is messy and it wasn't absolutely clear that we needed to address it at this point.  PM asked Peter to send her some use cases to review.
