@@ -71,4 +71,6 @@ Overall the sense was that optimization was not required for the use cases we ar
 
 JPB doubted whether adding disjoint_from relations between PATO qualities was sufficient and pointed out that almost any quality annotation to an entity is incompatible with an absent annotation.  JPB thinks that handling this by adding a collection of disjoint_from relations would probably not work.  HL brought up the issue of count ranges (e.g., 0-5, which is implicitly a polymorphism including absence as a possible 'state').  Count values will need special treatment in any approach to incompatibility as current curation practice is to put them in comment strings.
 
+There were numerous audio problems with Adobe connect and we eventually switched to phones for the audio.
+
 [[Category:User Interface]]
