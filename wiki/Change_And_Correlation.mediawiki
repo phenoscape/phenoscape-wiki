@@ -59,13 +59,14 @@ title: Change And Correlation
 
 == Notes from March 30, 2010 meeting ==
 
-Peter presented the preceding slides.  There was some discussion of the definition of disjoint, as mentioned on slide 5.  OBO's definition refers to classes with no common members (as does OWL's).  Paula pointed out that entities related by develops_from may exhibit incompatible qualities.  This might be a general problem related to temporal reasoning (entities changing qualities over time).
+Peter presented the preceding slides.  There was some discussion of the definition of disjoint, as mentioned on slide 5.  OBO's definition refers to classes with no common members (as does OWL's).  PM pointed out that entities related by develops_from may exhibit incompatible qualities.  This might be a general problem related to temporal reasoning (entities changing qualities over time).
 
-Todd questioned the need for optimization for the use case of placing a phenotype change on a tree, citing the example of identifying where on a tree a change corresponding to a phenotype of a zebrafish gene mutation.  Peter did not have an immediate answer for this.
+TJV questioned the need for optimization for the use case of placing a phenotype change on a tree, citing the example of identifying where on a tree a change corresponding to a phenotype of a zebrafish gene mutation.  Peter did not have an immediate answer for this.
 
-Todd mentioned liking the current Phenotype Profile interface (taxon tree on slide 3).
-Todd asked how these related to the
+TJV mentioned liking the current Phenotype Profile interface (taxon tree on slide 3) and seemed to indicate that he thought showing contrasts in co-occurrence counts between sister taxa was good enough.  HL observed that although the use cases did mention correlation, the usage was loose and that co-occurrence was closer to the intended meaning.
 
+Overall the sense was that optimization was not required for the use cases we are planning to deliver by the end of the initial grant.  Also that the issue of incompatible qualities is messy and it wasn't absolutely clear that we needed to address it at this point.  PM asked Peter to send her some use cases to review.
 
+JPB doubted whether adding disjoint_from relations between PATO qualities was sufficient and pointed out that almost any quality annotation to an entity is incompatible with an absent annotation.  Jim thinks that handling this by adding a collection of disjoint_from relations would probably not work.  HL brought up the issue of count ranges (e.g., 0-5, which is implicitly a polymorphism including absence as a possible 'state').  Count values will need special treatment in any approach to incompatibility as current curation practice is to put them in comment strings.
 
 [[Category:User Interface]]
