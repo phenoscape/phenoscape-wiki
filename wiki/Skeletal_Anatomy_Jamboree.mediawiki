@@ -87,7 +87,7 @@ Members of Phenoscape are in '''bold font'''.
 |-
 ! Name !! Institution
 {{EventParticipant|Balhoff|Jim|balhoff@nescent.org|Phenoscape and NESCent|'''}}
-{{EventParticipant|Blackburn|David|david.c.blackburn@gmail.com|Amphibian Anatomy Ontology and University of Kansas|}}
+{{EventParticipant|Blackburn|David|david.c.blackburn@gmail.com|Amphibian Anatomy Ontology (AmphibAnat) and University of Kansas|}}
 {{EventParticipant|Dahdul|Wasila|wasila.dahdul@usd.edu|Phenoscape, NESCent and University of South Dakota|'''}}
 {{EventParticipant|Diehl|Alexander|adiehl@informatics.jax.org|Mouse Genome Informatics (MGI)|}}
 {{EventParticipant|Haendel|Melissa|haendel@ohsu.edu|Oregon Health Sciences University|}}
@@ -96,7 +96,7 @@ Members of Phenoscape are in '''bold font'''.
 {{EventParticipant|Mabee|Paula|pmabee%40usd%2eedu|Phenoscape and Department of Biology, University of South Dakota|'''}}
 {{EventParticipant|Midford|Peter|peter%2emidford%40gmail%2ecom| Phenoscape and NESCent|'''}}
 {{EventParticipant|Ringwald|Martin|ringwald@informatics.jax.org|Mouse Genome Informatics (MGI)|}}
-{{EventParticipant|Segerdell|Erik|segerdel@ohsu.edu|Oregon Health Sciences University|}}
+{{EventParticipant|Segerdell|Erik|segerdel@ohsu.edu|Oregon Health Sciences University (representing Xenbase)|}}
 {{EventParticipant|Van Slyke|Ceri|van_slyke@zfin.org|Zebrafish Information Network (ZFIN)|}}
 {{EventParticipant|Vickaryous|Matt|mvickary@uoguelph.ca|Ontario Veterinary College, University of Guelph|}}
 {{EventParticipant|Westerfield|Monte|monte%40uoneuro%2euoregon%2eedu| Phenoscape, Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon |'''}}
