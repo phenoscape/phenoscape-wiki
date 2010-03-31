@@ -4,58 +4,67 @@ title: Change And Correlation
 
 == Version 1==
 
-=== Intro page ===
+=== Slide 1: Intro page ===
 [[Image:ChangeAndCorrelation.001.png]]
 
-=== January Tree Display ===
+=== Slide 2: January Tree Display ===
 [[Image:ChangeAndCorrelation.002.png]]
 
-=== Current Tree Co-occurance Display ===
+=== Slide 3: Current Tree Co-occurance Display ===
 [[Image:ChangeAndCorrelation.003.png]]
 
-=== A Phenotype by Taxon matrix we could have had ===
+=== Slide 4: A Phenotype by Taxon matrix we could have had ===
 [[Image:ChangeAndCorrelation.004.png]]
 
 
-=== A tree with negative data and a detected change ===
+=== Slide 5: A tree with negative data and a detected change ===
 [[Image:ChangeAndCorrelation.005.png]]
 
-=== A Phenotype by Taxon matrix with negative annotations ===
+=== Slide 6: A Phenotype by Taxon matrix with negative annotations ===
 [[Image:ChangeAndCorrelation.006.png]]
 
 
-=== Change and Correlation diagrams and overview ===
+=== Slide 7: Change and Correlation diagrams and overview ===
 [[Image:ChangeAndCorrelation.007.png]]
 
-=== Change Detection using incompatible qualities ===
+=== Slide 8: Change Detection using incompatible qualities ===
 [[Image:ChangeAndCorrelation.008.png]]
 
-=== Change Detection between individuals, using gene-tree species-tree ===
+=== Slide 9: Change Detection between individuals, using gene-tree species-tree ===
 [[Image:ChangeAndCorrelation.009.png]]
 
-=== Disjoint_with and incompatible qualities ===
+=== Slide 10: Disjoint_with and incompatible qualities ===
 [[Image:ChangeAndCorrelation.010.png]]
 
-=== Changing PATO ===
+=== Slide 11: Changing PATO ===
 [[Image:ChangeAndCorrelation.011.png]]
 
-=== Patching Process Flow ---
+=== Slide 12: Patching Process Flow ---
 [[Image:ChangeAndCorrelation.012.png]]
 
-=== PATO breakdown by attribute ===
+=== Slide 13: PATO breakdown by attribute ===
 [[Image:ChangeAndCorrelation.013.png]]
 
-=== Incompatibility and Relational Qualities ===
+=== Slide 14: Incompatibility and Relational Qualities ===
 [[Image:ChangeAndCorrelation.014.png]]
 
-=== Transition to Correlation ===
+=== Slide 15:  Transition to Correlation ===
 [[Image:ChangeAndCorrelation.015.png]]
 
-=== Correlation and Contingency Tables ===
+=== Slide 16: Correlation and Contingency Tables ===
 [[Image:ChangeAndCorrelation.016.png]]
 
-=== Reasoning only takes us so far ===
+=== Slide 17: Reasoning only takes us so far ===
 [[Image:ChangeAndCorrelation.017.png]]
+
+== Notes from March 30, 2010 meeting ==
+
+Peter presented the preceding slides.  There was some discussion of the definition of disjoint, as mentioned on slide 5.  OBO's definition refers to classes with no common members (as does OWL's).  Paula pointed out that entities related by develops_from may exhibit incompatible qualities.  This might be a general problem related to temporal reasoning (entities changing qualities over time).
+
+Todd questioned the need for optimization for the use case of placing a phenotype change on a tree, citing the example of identifying where on a tree a change corresponding to a phenotype of a zebrafish gene mutation.  Peter did not have an immediate answer for this.
+
+Todd mentioned liking the current Phenotype Profile interface (taxon tree on slide 3).
+Todd asked how these related to the
 
 == Notes From Meeting of 30 March ==
 
