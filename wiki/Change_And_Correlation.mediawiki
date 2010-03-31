@@ -59,6 +59,8 @@ title: Change And Correlation
 
 == Notes from March 30, 2010 meeting ==
 
+Attending: Jim Balhoff, Wasila Dahdul, Cartik Kothari, Todd Vision, Paula Mabee, Hilmar Lapp, Monte Westerfield, Peter Midford.
+
 Peter presented the preceding slides.  There was some discussion of the definition of disjoint, as mentioned on slide 5.  OBO's definition refers to classes with no common members (as does OWL's).  PM pointed out that entities related by develops_from may exhibit incompatible qualities.  This might be a general problem related to temporal reasoning (entities changing qualities over time).
 
 TJV questioned the need for optimization for the use case of placing a phenotype change on a tree, citing the example of identifying where on a tree a change corresponding to a phenotype of a zebrafish gene mutation.  Peter did not have an immediate answer for this.
