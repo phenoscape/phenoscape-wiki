@@ -2,7 +2,7 @@
 title: Skeletal Anatomy Jamboree
 ---
 
-<center><big>'''Phenoscape Skeletal Anatomy Jamboree: April 9-10, 2010'''</big><br/><br/>A workshop hosted by the National Evolutionary Synthesis Center (NESCent)</center>
+<center><big>'''Phenoscape Skeletal Anatomy Jamboree: April 9-10, 2010'''</big><br/><br/>A Phenoscape workshop (NSF grant BDI-0641025) hosted by the National Evolutionary Synthesis Center (NESCent)</center>
 
 __NOTOC__
 <div style="float: right;">__TOC__</div>
@@ -52,7 +52,7 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 * 11:00-12:15 Reports from break out groups; ontology editing
 * 12:15 LUNCH
 
-'''Afternoon''' 
+'''Afternoon'''
 * 1:30-3:15 continue break out groups
 * 3:15 Coffee break
 * 3:45-5:00 Reports from break out groups; ontology editing
