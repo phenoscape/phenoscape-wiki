@@ -8,7 +8,7 @@ __NOTOC__
 <div style="float: right;">__TOC__</div>
 == Location and Date ==
 
-'''Venue:''' National Evolutionary Synthesis Center (NESCent) (<span class="plainlinks">[http://www.nescent.org/about/directions.php directions]</span>, also see <span class="plainlinks">[http://www.nescent.org/about/information.php information for visitors]</span>)
+'''Venue:''' National Evolutionary Synthesis Center (NESCent), Durham, NC (<span class="plainlinks">[http://www.nescent.org/about/directions.php directions]</span>, also see <span class="plainlinks">[http://www.nescent.org/about/information.php information for visitors]</span>)
 
 '''Date:''' April 9-10, 2010
 
