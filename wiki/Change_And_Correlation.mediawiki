@@ -66,8 +66,6 @@ Todd questioned the need for optimization for the use case of placing a phenotyp
 Todd mentioned liking the current Phenotype Profile interface (taxon tree on slide 3).
 Todd asked how these related to the
 
-== Notes From Meeting of 30 March ==
 
-TJV
 
 [[Category:User Interface]]
