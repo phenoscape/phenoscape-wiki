@@ -68,7 +68,7 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 == Logistics ==
 
 * For long-distance participants, the hotel is the [http://www.millenniumhotels.com/MCIL.nsf/LU_HOTELDOC/113$$HotelDescription?OpenDocument Millennium Hotel] (2800 Campus Walk Ave, Durham, NC  27705; tel. (919) 383-8575)
-* For dining & entertainment, NESCent is right across from [http://www.ninthst.com/ Ninth Street]
+* For dining & entertainment, NESCent is right across from [http://maps.google.com/maps?f=l&hl=en&q=restaurants&near=9th+st+and+w+main+durham&ie=UTF8&om=1&ll=36.008093,-78.921983&spn=0.00723,0.012145&z=17 Ninth Street]
 * For the venue, NESCent is in the historic [http://www.owdna.org/mill.htm Erwin Mills] building (<span class="plainlinks">[http://www.nescent.org/about/directions.php directions]</span>)
 
 == Reading ==
