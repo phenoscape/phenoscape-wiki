@@ -21,8 +21,9 @@ While knowledge from model organism biology can inform our understanding of natu
 
 More information [[ASIH09_workshop|here]].
 
-== Phenotype Ontology Coordination Workshop: April 27-28, 2009==
-https://www.phenoscape.org/wiki/Phenotype_Ontology_Coordination_Workshop
+== [[Phenotype Ontology Coordination Workshop|Phenotype Ontology Coordination Workshop]]: April 27-28, 2009==
+
+The goal of this workshop was to discuss plans for an [http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11691 RCN (Research Coordination Network)] or [http://www.nsf.gov/pubs/2007/nsf07565/nsf07565.htm INTEROP (Community-based Data Interoperability Networks)] application to NSF that we would submit in July or August 2009.
 
 == Evolutionary Biology and Ontologies Workshop II: January 5, 2009 ==
 
