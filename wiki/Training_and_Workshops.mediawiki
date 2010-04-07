@@ -5,6 +5,10 @@ title: Training and Workshops
 ==Summer Training Opportunities==
 Opportunities in summer 2009 are available to graduate students and postdocs for training in data curation and software development at NESCent and the University of South Dakota.  [[SummerTraining2009|More information]].
 
+== [[FMNH 2010 Workshop|Workshop @ The Field]]: March 19, 2010 ==
+
+The purpose of this meeting was outreach and training to local morphologists at the Field Museum and University of Chicago, informal usability testing of Phenoscape Knowledgebase interface, and to conduct a Phenoscape project meeting.
+
 == [[ASIH09_workshop|Ontologies for Ichthyology and Herpetology: July 25, 2009]] ==
 
 [[Image:asih2009ontologyworkshop.png]]
