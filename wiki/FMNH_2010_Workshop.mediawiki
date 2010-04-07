@@ -1,0 +1,28 @@
+---
+title: FMNH 2010 Workshop
+---
+
+The Phenoscape group is developing informatics and tools for integrating morphological data across studies and with genetic and developmental data.  The user interface and tools are being designed to address the general needs of the systematics and ‘evo-devo’ community, and we need your input.  Come to learn about new methods that are applicable to any group and to work hands-on with the knowledgebase.
+
+== Friday, March 19, 2010 ==
+
+Agenda
+* 8:30: ''Coffee''
+* 9:00: Introductions (Paula)
+* 9:15-9:45: Paula Mabee: Vision and rationale for Phenoscape (focusing on use cases and what such a system enables) 
+* 9:45-10:00 Q&A
+* 10:00-10:15: Monte Westerfield: Comparative model organism perspective, how to reason to genes and pathways from phenotype alone, current comparative breadth of molecular genetic efforts
+* 10:15-10:30: Todd Vision: Demonstration of the Phenoscape Knowledgebase and presentation of new interfaces
+* 10:30-11:00 ''Coffee''
+* 11:00-12:30: Group user testing with Phenoscape personnel.  Brainstorming visualizing phenotype profile on a tree for comparative questions.
+* 12:30-2:00 ''Lunch (and museum tour)''
+* 2:00-3:30 Tools and approaches—10 minute talk
+** 2:00-2:15 John Lundberg, TAO basics
+** 2:15-2:30 Chris Mungall, homology
+** 2:30-2:45 Peter Midford, TTO basics
+** 2:45-3:00 Mark Westneat, Tree visualization + EoL and Phenoscape
+** 3:00-3:15 Matt Yoder, Hymenoptera ontology
+** 3:15-3:30 Questions & discussion
+* 3:30-4:00 ''Coffee break''
+* 4:00-5:30: Discussion: What questions do you want to ask that you cannot currently ask that are not addressed by our system (new use cases, etc.)
+* 6:00 ''Dinner - all attending are welcome to us at the'' Chicago Curry House
