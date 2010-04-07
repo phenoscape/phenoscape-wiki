@@ -4,6 +4,20 @@ title: Change And Correlation
 
 == Version 2==
 
+=== Slide 1: Modifying Distribution of Taxonomic Tistribution page ===
+[[Image:ChangesOnTrees.001.png]]
+
+=== Slide 2: Taxonomic Distribution of Distinct Phenotypes ===
+[[Image:ChangesOnTrees.002.png]]
+
+=== Slide 3: Summary of change counting ===
+[[Image:ChangesOnTrees.003.png]]
+
+=== Slide 4: Taxonomic Distribution Phenotype Changes ===
+[[Image:ChangesOnTrees.004.png]]
+
+=== Slide 5: Multiple Matches of Phenotype per Taxon ===
+[[Image:ChangesOnTrees.005.png]]
 
 == Version 1==
 
