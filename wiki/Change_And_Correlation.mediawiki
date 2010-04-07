@@ -4,7 +4,7 @@ title: Change And Correlation
 
 == Version 2==
 
-=== Slide 1: Modifying Distribution of Taxonomic Tistribution page ===
+=== Slide 1: Modifying Distribution of Taxonomic Distribution page ===
 [[Image:ChangesOnTrees.001.png]]
 
 === Slide 2: Taxonomic Distribution of Distinct Phenotypes ===
