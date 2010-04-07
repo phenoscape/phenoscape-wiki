@@ -28,6 +28,8 @@ TJV suggested adding a toggle to suppress display of taxa without phenotypes in 
 
 TJV also suggested that the displays on slides 2&4 should be merged - use a different form of highlighting to indicate nodes where change occurred (union of annotations of daughters not equal the intersection of annotations).  There was some discussion of the current highlighting with a thickened border to indicate the focal node in the display (apparently this came out of discussion in Chicago).  TJV suggested maybe changing the gray level in taxon boxes where change was detected.  It was also suggested that colors on branches could be used to identify annotation sets of daughters (not individual annotations).  This would allow seeing which daughters had the same sets of phenotypes and a legend could be added to specify the phenotype sets associated with each color.  This would supplement, but wouldn't necessary supersede the pop-up on slide 2 (also intended for slide 4).
 
+We did not discuss slide 5 as the use case it addressed (multiple matches of a phenotype in a single taxon) was considered too low a priority to devote effort to at this point.
+
 == Version 1==
 
 === Slide 1: Intro page ===
