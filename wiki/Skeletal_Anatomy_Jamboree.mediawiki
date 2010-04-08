@@ -57,6 +57,7 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 * 12:15 LUNCH
 
 '''Afternoon'''
+''User interface testing concurrent with breakout groups (Peter Midford and Jim Balhoff)''
 * 1:30-3:15 continue break out groups
 * 3:15 Coffee break
 * 3:45-5:00 Reports from break out groups; ontology editing
