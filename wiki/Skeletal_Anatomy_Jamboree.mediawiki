@@ -32,7 +32,7 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 * 11:00-11:15 Wasila Dahdul: Introduction to ontologies and skeletal anatomy issues
 * 11:15-11:45  Group discussion on use cases
 * 11:45-12:00 Wrap up and devise breakout groups for afternoon
-* 12:00-12:15 Introduction to Phenoscape Knowledgebase interfaces and mockups (Jim Balhoff)
+* 12:00-12:15 Jim Balhoff: Introduction to Phenoscape Knowledgebase interfaces and mockups
 * 12:15 LUNCH
 
 '''Afternoon'''
