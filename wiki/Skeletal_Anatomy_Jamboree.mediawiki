@@ -39,7 +39,7 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 ''User interface testing concurrent with breakout groups (Peter Midford and Jim Balhoff)''
 * 1:30 – 3:00 Break out groups
 * 3:00 Coffee break
-* 3:30-4:30 Reports from break out groups and ontology editing
+* 3:15-4:30 Reports from break out groups and ontology editing
 * 4:30 NESCent reception
 * 5:30 Shuttle back to hotel
 * 6:30 Shuttle from hotel to [http://2ndfridayartwalk.com/ Carrboro Art Walk]
