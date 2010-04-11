@@ -14,6 +14,10 @@ Phenex runs on any system with Java 5 or newer (Java 5 is also called version 1.
 ==Licensing==
 Phenex is open source software, released under the [http://www.opensource.org/licenses/mit-license.php MIT license].
 
+==Mailing List==
+Please join the Phenex users mailing list for software support and discussion of Phenex features:
+* https://lists.sourceforge.net/lists/listinfo/phenex-users
+
 ==Download & Installation==
 The latest version of Phenex can be obtained from the [http://sourceforge.net/projects/phenex/ Sourceforge project site].  At the Sourceforge site, you will find both "release" versions and "beta" versions.  Unless you are testing new features, please use the official releases.  Download the file appropriate for your system ("mac", "win", or "unix").  The "src" download contains the source code for the current release of Phenex.
 ===Direct downloads for Phenex 1.0.3===
