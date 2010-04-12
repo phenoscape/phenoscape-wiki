@@ -3,7 +3,7 @@ title: Main Page
 ---
 
 {{EventBox1|
-* We just finished a [[Skeletal_Anatomy_Jamboree|Skeletal Anatomy Jamboree]] on April 9-10, 2010 at NESCent, where we re-evaluated the high-level skeletal system ontology hierarchy for fishes, and initiated a skeletal anatomy ontology for vertebrates.  
+* We recently held a [[Skeletal_Anatomy_Jamboree|Skeletal Anatomy Jamboree]] on April 9-10, 2010 at NESCent, where we re-evaluated the high-level skeletal system ontology hierarchy for fishes, and initiated a skeletal anatomy ontology for vertebrates.
 * Our paper describing the development of the Teleost Anatomy Ontology was just published in [http://sysbio.oxfordjournals.org/cgi/content/abstract/syq013 Systematic Biology]
 * Check out the Beta version of the [http://kb.phenoscape.org Phenoscape Knowledgebase]!
 * [http://blog.phenoscape.org/2009/11/25/phenex-1-0/ Phenex 1.0], our free and open-source software for ontology-based curation of phenotypic character matrices, was publicly released in November 2009.
