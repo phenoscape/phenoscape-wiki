@@ -26,10 +26,10 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 * 9:00-9:30 Welcomes and participant introductions (2-3 minute lightning talks)
 * 9:30-9:45 [[Media:Mabee-Skeletal.pdf|Paula Mabee]]: Introduction to workshop
 * 9:45-10:00 Brian Hall: Introduction to bone classification
-* 10:00-10:15 Melissa Haendel: Common Anatomy Reference Ontology and bone classification
+* 10:00-10:15 [[Media:Haendel-CARO-skeletal.pdf|Melissa Haendel]]: Common Anatomy Reference Ontology and bone classification
 * 10:15  Coffee break
-* 10:45-11:00 Alex Diehl: Introduction to Cell Ontology and cross-products
-* 11:00-11:15 Wasila Dahdul: Introduction to ontologies and skeletal anatomy issues
+* 10:45-11:00 [[Media:|Alex Diehl]]: Introduction to Cell Ontology and cross-products
+* 11:00-11:15 [[Media:|Wasila Dahdul]]: Introduction to ontologies and skeletal anatomy issues
 * 11:15-11:45  Group discussion on use cases
 * 11:45-12:00 Wrap up and devise breakout groups for afternoon
 * 12:00-12:15 Jim Balhoff: Introduction to Phenoscape Knowledgebase interfaces and mockups
