@@ -25,7 +25,7 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 * 8:45 Coffee & pastries
 * 9:00-9:30 Welcomes and participant introductions (2-3 minute lightning talks)
 * 9:30-9:45 [[Media:Mabee-Skeletal.pdf|Paula Mabee]]: Introduction to workshop
-* 9:45-10:00 Brian Hall: Introduction to bone classification
+* 9:45-10:00 [[Media:Hall-Skeletal.pdf|Brian Hall]]: Introduction to bone classification
 * 10:00-10:15 [[Media:Haendel-CARO-skeletal.pdf|Melissa Haendel]]: Common Anatomy Reference Ontology and bone classification
 * 10:15  Coffee break
 * 10:45-11:00 [[Media:Diehl-CL-skeletal.pdf|Alex Diehl]]: Introduction to Cell Ontology and cross-products
