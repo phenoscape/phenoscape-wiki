@@ -7,6 +7,9 @@ This is a vocabulary of taxonomic ranks intended to replace the sets of rank ter
 
 The current release may be found [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/taxonomic_rank.obo here].
 
+==License==
+
+
 ==List of Terms==
 
 {|border="1" cellpadding="3" cellspacing="3"
