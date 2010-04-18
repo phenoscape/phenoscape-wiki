@@ -18,9 +18,9 @@ Agenda
 * 12:30-2:00 ''Lunch (and museum tour)''
 * 2:00-3:30 Tools and approaches—10 minute talk
 ** 2:00-2:15 [[Media:Lundberg_2010_TAOatFMNHppt_presented.ppt|John Lundberg]]: TAO basics
-** 2:15-2:30 [[Media:Mungall_homology.pptx|Chris Mungall]]: homology
-** 2:30-2:45 [[TTO_Midford.ppt|Peter Midford]]: TTO basics
-** 2:45-3:00 [[Mark Westneat]]: Tree visualization + EoL and Phenoscape
+** 2:15-2:30 [[Media:Mungall_homology.ppt|Chris Mungall]]: homology
+** 2:30-2:45 [[Media:TTO_Midford.ppt|Peter Midford]]: TTO basics
+** 2:45-3:00 [[Media:Westneat_phenoscape.ppt|Mark Westneat]]: Tree visualization + EoL and Phenoscape
 ** 3:00-3:15 [[Matt Yoder]]: Hymenoptera ontology
 ** 3:15-3:30 Questions & discussion
 * 3:30-4:00 ''Coffee break''
