@@ -21,7 +21,7 @@ Agenda
 ** 2:15-2:30 [[Media:Mungall_homology.ppt|Chris Mungall]]: homology
 ** 2:30-2:45 [[Media:TTO_Midford.ppt|Peter Midford]]: TTO basics
 ** 2:45-3:00 [[Media:Westneat_phenoscape.ppt|Mark Westneat]]: Tree visualization + EoL and Phenoscape
-** 3:00-3:15 [[Matt Yoder]]: Hymenoptera ontology
+** 3:00-3:15 [[Media:Yoder_phenoscape_chicago_2010.ppt|Matt Yoder]]: Hymenoptera ontology
 ** 3:15-3:30 Questions & discussion
 * 3:30-4:00 ''Coffee break''
 * 4:00-5:30: Discussion: What questions do you want to ask that you cannot currently ask that are not addressed by our system (new use cases, etc.)
