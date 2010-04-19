@@ -35,7 +35,7 @@ Select taxonomic distribution of phenotypes (this page may be out of sequence if
 === Slide 10: Switching from counts of phenotype annotations to display of variability ===
 [[Image:ChangesOnTrees.010-001.png]]
 
-=== Slide 11 ===
+=== Slide 11: Phenotype variation display ===
 [[Image:ChangesOnTrees.011-001.png]]
 
 === Slide 12 ===
