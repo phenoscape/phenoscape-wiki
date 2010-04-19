@@ -26,7 +26,7 @@ Select taxonomic distribution of phenotypes (this page may be out of sequence if
 === Slide 7: Taxonomic Distribution of Phenotype Annotations===
 [[Image:ChangesOnTrees.007-001.png]]
 
-=== Slide 8 ===
+=== Slide 8: Specifying the phenotype to attribute ===
 [[Image:ChangesOnTrees.008-001.png]]
 
 === Slide 9 ===
