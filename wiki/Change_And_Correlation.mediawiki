@@ -59,6 +59,9 @@ Select taxonomic distribution of phenotypes (this page may be out of sequence if
 === Slide 18 ===
 [[Image:ChangesOnTrees.018-001.png]]
 
+=== Slide 19 ===
+[[Image:ChangesOnTrees.020-001.png]]
+
 == Version 2==
 
 === Slide 1: Modifying Distribution of Taxonomic Distribution page ===
