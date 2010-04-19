@@ -5,7 +5,7 @@ title: Change And Correlation
 == Version 3 (19 April 2010) ==
 
 === Slide 1: Intro ===
-[Image:ChangesOnTrees.001-001.png]
+[[Image:ChangesOnTrees.001-001.png]]
 
 === Slide 2: Intro ===
 
