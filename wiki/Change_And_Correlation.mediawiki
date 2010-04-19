@@ -29,7 +29,7 @@ Select taxonomic distribution of phenotypes (this page may be out of sequence if
 === Slide 8: Specifying the phenotype to attribute ===
 [[Image:ChangesOnTrees.008-001.png]]
 
-=== Slide 9 ===
+=== Slide 9: Selecting shape attribute ===
 [[Image:ChangesOnTrees.009-001.png]]
 
 === Slide 10 ===
