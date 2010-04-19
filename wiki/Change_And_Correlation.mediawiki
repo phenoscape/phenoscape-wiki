@@ -41,7 +41,7 @@ Select taxonomic distribution of phenotypes (this page may be out of sequence if
 === Slide 12: Selecting from a list of taxa where variability was detected ===
 [[Image:ChangesOnTrees.012-001.png]]
 
-=== Slide 13 ===
+=== Slide 13: Phenotype variation display for Characidae ===
 [[Image:ChangesOnTrees.013-001.png]]
 
 === Slide 14 ===
