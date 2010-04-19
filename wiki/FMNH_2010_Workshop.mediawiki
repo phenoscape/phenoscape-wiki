@@ -11,7 +11,7 @@ Agenda
 * 9:00: Introductions (Paula)
 * 9:15-9:45: [[Media:Chicago_Mabee.ppt|Paula Mabee]]: Vision and rationale for Phenoscape (focusing on use cases and what such a system enables)
 * 9:45-10:00 Q&A
-* 10:00-10:15: [[Monte Westerfield]]: Comparative model organism perspective, how to reason to genes and pathways from phenotype alone, current comparative breadth of molecular genetic efforts
+* 10:00-10:15: [[Media:Westerfield-Chic-2010.ppt|Monte Westerfield]]: Comparative model organism perspective, how to reason to genes and pathways from phenotype alone, current comparative breadth of molecular genetic efforts
 * 10:15-10:30: [[Todd Vision]]: Demonstration of the Phenoscape Knowledgebase and presentation of new interfaces
 * 10:30-11:00 ''Coffee''
 * 11:00-12:30: Group user testing with Phenoscape personnel.  Brainstorming visualizing phenotype profile on a tree for comparative questions.
