@@ -32,7 +32,7 @@ Select taxonomic distribution of phenotypes (this page may be out of sequence if
 === Slide 9: Selecting shape attribute ===
 [[Image:ChangesOnTrees.009-001.png]]
 
-=== Slide 10 ===
+=== Slide 10: Switching from counts of phenotype annotations to display of variability ===
 [[Image:ChangesOnTrees.010-001.png]]
 
 === Slide 11 ===
