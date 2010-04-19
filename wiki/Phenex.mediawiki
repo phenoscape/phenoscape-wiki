@@ -40,7 +40,7 @@ Unzip the downloaded archive using a command such as <code>tar zxvf phenex-1.0-u
 
 ===Obtaining Phenex source code (for developers)===
 The Phenex source for a particular release can be found in the "src" archive at the download site.  To make contributions to the project or test the latest in-development code, you should check out a working copy from the Git repository:
-* git clone git://phenex.git.sourceforge.net/gitroot/phenex/phenex (read-only)
+* git clone git://phenex.git.sourceforge.net/gitroot/phenex/phenex
 The Phenex source includes both an Eclipse project (used for most active development) and an Ant build file (used for making releases).  You can browse Phenex Git revisions [http://phenex.git.sourceforge.net/git/gitweb.cgi?p=phenex/phenex;a=tree;h=refs/heads/master;hb=master on the web].
 
 ==Running Phenex==
