@@ -20,6 +20,7 @@ title: Change And Correlation
 [[Image:ChangesOnTrees.005-001.png]]
 
 === Slide 6: opercle summary ===
+Select taxonomic distribution of phenotypes (this page may be out of sequence if there is another page between the one on slide 5 and this one).
 [[Image:ChangesOnTrees.006-001.png]]
 
 === Slide 7 ===
