@@ -38,7 +38,7 @@ Select taxonomic distribution of phenotypes (this page may be out of sequence if
 === Slide 11: Phenotype variation display ===
 [[Image:ChangesOnTrees.011-001.png]]
 
-=== Slide 12 ===
+=== Slide 12: Selecting from a list of taxa where variability was detected ===
 [[Image:ChangesOnTrees.012-001.png]]
 
 === Slide 13 ===
