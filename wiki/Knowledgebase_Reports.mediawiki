@@ -17,7 +17,7 @@ title: Knowledgebase Reports
 ==Reports on kb-expt==
 This database includes Sandrine's data files.
 
-''These may only be available within the Duke network.''
+''These may only be available within the NESCent network.''
 * [http://kb-dev.phenoscape.org:8080/obd-expt/statistics/consistencyreports/relationalqualitieswithoutrelatedentities Relational qualities without related entities]
 * [http://kb-dev.phenoscape.org:8080/obd-expt/statistics/consistencyreports/nonrelationalqualitieswithrelatedentities Monadic qualities with related entities]
 * [http://kb-dev.phenoscape.org:8080/obd-expt/statistics/consistencyreports/characterswithonlyoneannotatedstate Characters with only one annotated state]
