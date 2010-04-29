@@ -63,6 +63,7 @@ Select taxonomic distribution of phenotypes (this page may be out of sequence if
 [[Image:ChangesOnTrees.020-001.png]]
 
 === Captioned Alternative (compare slide 13)
+[[Image:CaptionedVersion.013-001.png]]
 
 == Version 2==
 
