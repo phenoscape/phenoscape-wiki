@@ -15,7 +15,7 @@ title: Knowledgebase Reports
 * [http://kb-dev.phenoscape.org/OBD-WS/statistics/consistencyreports/characterswithonlyoneannotatedstate Characters with only one annotated state]
 * [http://kb-dev.phenoscape.org/OBD-WS/statistics/consistencyreports/characterswithonlyoneoftwopossibleannotations Presence/absence characters without both states]
 ==Reports on kb-expt==
-This database includes Sandrine's data files.
+This database includes Sandrine's data files and all incomplete files.
 * [http://kb-dev.phenoscape.org:8080/obd-expt/statistics/consistencyreports/relationalqualitieswithoutrelatedentities Relational qualities without related entities]
 * [http://kb-dev.phenoscape.org:8080/obd-expt/statistics/consistencyreports/nonrelationalqualitieswithrelatedentities Monadic qualities with related entities]
 * [http://kb-dev.phenoscape.org:8080/obd-expt/statistics/consistencyreports/characterswithonlyoneannotatedstate Characters with only one annotated state]
