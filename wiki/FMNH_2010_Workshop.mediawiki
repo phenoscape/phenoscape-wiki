@@ -2,11 +2,13 @@
 title: FMNH 2010 Workshop
 ---
 
-The Phenoscape group is developing informatics and tools for integrating morphological data across studies and with genetic and developmental data.  The user interface and tools are being designed to address the general needs of the systematics and ‘evo-devo’ community, and we need your input.  Come to learn about new methods that are applicable to any group and to work hands-on with the knowledgebase (kb.phenoscape.org).
+In mid March Phenoscape met at the Biodiversity Synthesis Center (BioSynC) at the Field Museum of Natural History (Chicago) to host an education and outreach workshop, gather feedback on new user interface mockups, and hold a project meeting.  We sent the announcement below out to the Chicago morphologists, systematists, and developmental biologists.  About 20 people attended our day-long meeting on Friday, and they gave us very useful input that we have translated into new mockups that are being developed for the Phenoscape KB. 
+
+'The Phenoscape group is developing informatics and tools for integrating morphological data across studies and with genetic and developmental data.  The user interface and tools are being designed to address the general needs of the systematics and ‘evo-devo’ community, and we need your input.  Come to learn about new methods that are applicable to any group and to work hands-on with the knowledgebase (kb.phenoscape.org).' We thank Mark Westneat and staff at the BioSynC for their help in organizing this workshop as well as Lance Grande for the superb behind-the-scenes tour.  
 
 == Friday, March 19, 2010 ==
 
-Agenda
+Agenda for education and outreach workshop:
 * 8:30: ''Coffee''
 * 9:00: Introductions (Paula)
 * 9:15-9:45: [[Media:Chicago_Mabee.ppt|Paula Mabee]]: Vision and rationale for Phenoscape (focusing on use cases and what such a system enables)
