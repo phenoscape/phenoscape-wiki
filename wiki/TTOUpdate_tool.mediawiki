@@ -1,0 +1,6 @@
+---
+title: TTOUpdate tool
+---
+
+= TTOUpdate =
+TTOUpdate is a tool used for merging updated exports from the [http://researcharchive.calacademy.org/research/Ichthyology/catalog/fishcatmain.asp Catalog of Fishes].  TTOUpdate is currently being extended to provide several other utility functions, including export of all or selected taxa as TWDG Taxon Concept Schema compliant XML files and generation of ontology summary statistics (e.g., numbers of species, genera, synonyms etc.)
