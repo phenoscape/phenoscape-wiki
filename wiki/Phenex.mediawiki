@@ -6,7 +6,7 @@ title: Phenex
 Phenex is an application for annotating character matrix files with ontology terms.  Character states can be annotated using the Entity-Quality syntax for ontologically describing phenotypes.  In addition, taxon entries can be annotated with identifiers from a taxonomy ontology.  Phenex saves ontology annotations alongside traditional character matrix data using the new [http://www.nexml.org NeXML] format standard for evolutionary data.  Phenex builds on [http://www.phenote.org/ Phenote] and [http://oboedit.org/ OBO-Edit] from the [http://www.obofoundry.org/ OBO project]. Jim Balhoff is the lead developer of Phenex.
 
 ==Citation==
-Balhoff JP, Dahdul WM, Kothari CR, Lapp H, Lundberg JG, Mabee P, Midford PE, Westerfield ME, Vision TJ. Phenex: Ontological Annotation of Phenotypic Diversity. PLoS ONE 5(5): e10500. [http://dx.doi.org/10.1371/journal.pone.0010500]
+Balhoff JP, Dahdul WM, Kothari CR, Lapp H, Lundberg JG, Mabee P, Midford PE, Westerfield ME, Vision TJ. ''Phenex: Ontological Annotation of Phenotypic Diversity''. PLoS ONE 5(5): e10500. [http://dx.doi.org/10.1371/journal.pone.0010500 DOI]
 
 ==System Requirements==
 Phenex runs on any system with Java 5 or newer (Java 5 is also called version 1.5).  Java 5 comes pre-installed on Mac OS X 10.4 and later.  Phenex can't be used on older releases of Mac OS X (check your version of Mac OS X by selecting "About This Mac" under the Apple menu).  For Windows, you can check your version of Java, and install if necessary, at http://www.java.com/.  Phenex runs on Linux - just make sure you have Java 5 installed.
