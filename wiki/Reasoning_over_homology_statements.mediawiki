@@ -2,10 +2,11 @@
 title: Reasoning over homology statements
 ---
 
-
 This document provides a collection of inference rules for homology
 relations. The emphasis is on implementation in OBD, although the
 rules can be used in other inference systems.
+
+The core iso_homologous_to relation is introduced together with its relation characteristics. This relation is defined in terms of the descended_from relation and its inverse.
 
 == Introduction ==
 
@@ -304,7 +305,7 @@ optional)
 
 === Cardinality ===
 
-1:1 homology relations are only 1:1 within taxa. 
+1:1 homology relations are only 1:1 within taxa.
 
 We can express this as:
 
@@ -487,8 +488,8 @@ This relation has the following characteristics:
 
 This relation obeys the "straight-line" rule:
 
-  a descended_from b, a descended_from c 
-  ==> b=c or a descended_from c or c descended_from a    
+  a descended_from b, a descended_from c
+  ==> b=c or a descended_from c or c descended_from a
 
 This can be encoded in OBD as a constraint.
 
@@ -627,7 +628,7 @@ specifying a more generic A is allowed. i.e.
   A is_a B
   ==>
   X iso_homologous_to Y as B
-  
+
 This means we can translate:
 
   X iso_homologous_to Y
@@ -717,7 +718,7 @@ For example:
   mammalian_forelimb_avian_wing_homology homologous_as forelimb
 
 This translates to the direct n-ary form as:
-  
+
   H instance_of HomologyGrouping
   H has_member TE1
   H has_member TE2
@@ -964,7 +965,7 @@ From this we would infer the 2 axioms above
 
 === Fusions ===
 
-Assume that v1 and 
+Assume that v1 and
 
 === Examples ===
 
