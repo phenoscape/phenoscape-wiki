@@ -8,6 +8,8 @@ rules can be used in other inference systems.
 
 The core iso_homologous_to relation is introduced together with its relation characteristics. This relation is defined in terms of the descended_from relation and its inverse.
 
+__TOC__
+
 == Introduction ==
 
 === Problem ===
