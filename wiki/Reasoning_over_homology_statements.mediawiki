@@ -21,7 +21,12 @@ to allow for reasoning.
 
 Use cases:
 
-* TODO
+1.	Searching for phenotypes or genes by anatomy term also retrieves qualities inhering in anatomical structures homologous (or serially homologous) to the query term, or homologous to any subclass of the query term. 
+2.	Searching for phenotypes or genes by an anatomy term that, by direct assertion or inference, is a part of an anatomical structure that is asserted or inferred to be homologous to another anatomical structure, also retrieves qualities inhering in the homologous structure or any subclasses or parts of it.*
+As an example, a user is looking for candidate genes associated with the radials (the anatomical query term) of the pectoral fins of fishes.  Radials are part_of the pectoral fins of fishes, which are homologous as forelimbs to the anterior limbs of amphibians and arms of humans – for which there are known genes.  In this case the parts are not homologous (i.e. the bones inside the pectoral fin of Danio are not considered homologues of the bones inside the forelimb of amphibians or humans), but the limbs unquestionably are homologous – as forelimbs.
+3.	Searching for phenotypes or genes by an anatomy term in one taxon that is asserted (or inferred) not to be homologous to the same term in another taxon will not retrieve taxa that descend from a taxon in which the anatomical query structure is non-homologous. An anatomy term can be inferred as non-homologous if it is a part or a subclass of a term asserted (or inferred) as non-homologous.
+4.	Searching for phenotypes or genes by anatomical superstructure (or anatomical complex, such as Weberian apparatus) retrieves qualities inhering in subclasses or parts of the anatomical query structure only for those taxa for which these subclass and parthood relations hold.*
+5.	Searching for taxa annotated with qualities inhering in an anatomical superstructure (or anatomical complex) retrieves only those taxa for which the annotated anatomical structure is indeed a subclass or part of the query structure. 
 
 === Outline ===
 
