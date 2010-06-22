@@ -10,11 +10,6 @@ The core iso_homologous_to relation is introduced together with its relation cha
 
 Document status: '''in progress'''
 
-
-__TOC__
-
-
-
 == Introduction ==
 
 === Problem ===
