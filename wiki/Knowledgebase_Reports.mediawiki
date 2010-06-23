@@ -3,6 +3,8 @@ title: Knowledgebase Reports
 ---
 
 ==Reports on production Phenoscape KB==
+This contains consistency-checked and author-checked files (from 'phenex-files').  It is updated irregularly (every 1-3 months). 
+
 * [http://kb.phenoscape.org/OBD-WS/statistics/consistencyreports/relationalqualitieswithoutrelatedentities Relational qualities without related entities]
 * [http://kb.phenoscape.org/OBD-WS/statistics/consistencyreports/nonrelationalqualitieswithrelatedentities Monadic qualities with related entities]
 * [http://kb.phenoscape.org/OBD-WS/statistics/consistencyreports/characterswithonlyoneannotatedstate Characters with only one annotated state]
