@@ -11,7 +11,7 @@ This contains consistency-checked and author-checked files (from 'phenex-files')
 * [http://kb.phenoscape.org/OBD-WS/statistics/consistencyreports/characterswithonlyoneoftwopossibleannotations Presence/absence characters without both states]
 
 ==Reports on kb-staging==
-This contains files that are going into production database (from 'phenex-files'); some are updated daily by curators.
+This contains files that are going into production database (from 'phenex-files'); some are updated daily by curators. It is updated nightly.
 * [http://kb-staging.phenoscape.org/OBD-WS/statistics/consistencyreports/relationalqualitieswithoutrelatedentities Relational qualities without related entities]
 * [http://kb-staging.phenoscape.org/OBD-WS/statistics/consistencyreports/nonrelationalqualitieswithrelatedentities Monadic qualities with related entities]
 * [http://kb-staging.phenoscape.org/OBD-WS/statistics/consistencyreports/characterswithonlyoneannotatedstate Characters with only one annotated state]
