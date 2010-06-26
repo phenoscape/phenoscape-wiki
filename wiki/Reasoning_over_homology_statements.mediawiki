@@ -782,6 +782,8 @@ information entities, but as anatomical entity classes:
   avian_wing is_a mammalian_forelimb_avian_wing_homology
   mammalian_forelimb_avian_wing_homology homologous_as forelimb
 
+(note: change naming convention for grouping class)
+
 Note the explicit subsumption relationship.
 
 We can still add provenance information:
