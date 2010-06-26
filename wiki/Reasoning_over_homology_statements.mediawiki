@@ -87,7 +87,7 @@ For example:
 
   cyprinidae vertebra 1 <--> TAO:nnnn^in_taxon(TTO:nnnn)
 
-=== Mereological Sums ==
+=== Mereological Sums ===
 
 The distinction between generic classes such as "vertebra" and
 collection classes such as "vertebral column" is crucial.
