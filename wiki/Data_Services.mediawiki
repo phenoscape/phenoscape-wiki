@@ -7,6 +7,22 @@ This page details the data services that query the Phenoscape OBD database and t
 =Current services (under development)=
 These are currently only available at http://kb-dev.phenoscape.org/OBD-WS/
 
+==Timestamp==
+'''URI'''
+
+ <BASE URI>/timestamp
+
+'''Returns'''
+
+JSON:
+<javascript>
+{
+"refresh_date":"2010-01-09"
+}
+
+</javascript>
+
+
 
 =Old services (v1)=
 These are in general deprecated.
