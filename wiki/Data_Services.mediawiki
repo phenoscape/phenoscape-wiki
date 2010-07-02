@@ -9,7 +9,7 @@ These are currently only available at http://kb-dev.phenoscape.org/OBD-WS/
 
 
 =Old services (v1)=
-
+These are in general deprecated.
 ==Timestamp==
 '''URI'''
 
