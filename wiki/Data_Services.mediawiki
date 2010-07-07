@@ -34,35 +34,95 @@ JSON:
 JSON:
 <javascript>
 {
-    "id" : "TAO:0001700",
-    "name" : "caudal-fin stay",
-    "definition" : "Bone that is located anterior to the caudal procurrent rays. Caudal fin stays are unpaired bone.",
-    "comment" : "Some comment text that may be in there."
-    "parents" :
-    [
-        {
-            "relation" : {
-                "id" : "OBO_REL:is_a",
-                "name" : "is_a"
-            },
-            "target" : {
-                "id" : "TAO:0001514",
-                "name" : "bone"
-            }
-
+    "id": "TAO:0000620",
+    "definition": "Endochondral bone that is part of the antero-lateral region of the palate. Commonly, it articulates with the maxilla anterolaterally and with the ethmoidal region medially. It may also articulate with the dermopalatine ventro-laterally and with the entopterygoid posteriorly. The autopalatine is paired.",
+    "name": "autopalatine",
+    "synonyms": [
+    {
+        "name": "palatine bone"
+    }],
+    "parents": [
+    {
+        "relation": {
+            "id": "OBO_REL:part_of",
+            "name": "part_of"
         },
-        {
-            "relation" : {
-                "id" : "OBO_REL:part_of",
-                "name" : "part_of"
-            },
-            "target" : {
-                "id" : "TAO:0000862",
-                "name" : "caudal fin skeleton"
-            }
+        "target": {
+            "id": "TAO:0001272",
+            "name": "palatoquadrate arch"
         }
-    ],
-    "children" : [] // if there are children, this content should be in the same format as the parents list
+    },
+    {
+        "relation": {
+            "id": "develops_from",
+            "name": "develops from"
+        },
+        "target": {
+            "id": "TAO:0001399",
+            "name": "palatoquadrate cartilage"
+        }
+    },
+    {
+        "relation": {
+            "id": "OBO_REL:is_a",
+            "name": "is_a"
+        },
+        "target": {
+            "id": "TAO:0001591",
+            "name": "endochondral bone"
+        }
+    },
+    {
+        "relation": {
+            "id": "overlaps",
+            "name": "overlaps"
+        },
+        "target": {
+            "id": "TAO:0001942",
+            "name": "autopalatine-maxillary joint"
+        }
+    },
+    {
+        "relation": {
+            "id": "overlaps",
+            "name": "overlaps"
+        },
+        "target": {
+            "id": "TAO:0001784",
+            "name": "autopalatine-vomer joint"
+        }
+    },
+    {
+        "relation": {
+            "id": "overlaps",
+            "name": "overlaps"
+        },
+        "target": {
+            "id": "TAO:0001608",
+            "name": "autopalatine-lateral ethmoid joint"
+        }
+    }],
+    "children": [
+    {
+        "relation": {
+            "id": "develops_from",
+            "name": "develops from"
+        },
+        "target": {
+            "id": "TAO:0002158",
+            "name": "palatine"
+        }
+    },
+    {
+        "relation": {
+            "id": "OBO_REL:part_of",
+            "name": "part_of"
+        },
+        "target": {
+            "id": "TAO:0001578",
+            "name": "anterior dorsomedial process of autopalatine"
+        }
+    }]
 }
 </javascript>
 
