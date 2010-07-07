@@ -317,8 +317,8 @@ JSON:
         {   // overall format
             "id" : "TAO:0001514",
             "name" : "bone",
-            "match_type" : "name" | "syn" | "def",
-            "match_text" : "this is the term name, synonym name, or definition that matched"
+            "match_type" : "name" | "syn",
+            "match_text" : "this is the term name or synonym name that matched"
         },
         {   // a name example
             "id" : "TAO:0001514",
@@ -330,7 +330,7 @@ JSON:
             "id" : "TAO:0001795",
             "name" : "ceratohyal foramen",
             "match_type" : "syn",
-            "match_text" : "bericiform foramen"
+            "match_text" : "ceratoyhal bone"
         }
     ],
     "search_term" : "bone"
