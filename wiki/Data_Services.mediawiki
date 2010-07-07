@@ -35,7 +35,9 @@ JSON:
 <javascript>
 {
     "id": "TAO:0000620",
-    "definition": "Endochondral bone that is part of the antero-lateral region of the palate. Commonly, it articulates with the maxilla anterolaterally and with the ethmoidal region medially. It may also articulate with the dermopalatine ventro-laterally and with the entopterygoid posteriorly. The autopalatine is paired.",
+    "definition": "Endochondral bone that is part of the antero-lateral region of the palate.
+Commonly, it articulates with the maxilla anterolaterally and with the ethmoidal region medially.
+It may also articulate with the dermopalatine ventro-laterally and with the entopterygoid posteriorly. The autopalatine is paired.",
     "name": "autopalatine",
     "synonyms": [
     {
