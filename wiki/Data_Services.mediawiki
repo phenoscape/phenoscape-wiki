@@ -12,6 +12,8 @@ These are currently only available at http://kb-dev.phenoscape.org/OBD-WS/
 
  <BASE URI>/timestamp
 
+This service returns the date on which the Knowledgebase content was refreshed.
+
 '''Returns'''
 
 JSON:
@@ -21,8 +23,6 @@ JSON:
 }
 
 </javascript>
-
-
 
 =Old services (v1)=
 These are in general deprecated.
