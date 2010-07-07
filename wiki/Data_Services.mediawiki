@@ -340,8 +340,7 @@ JSON:
  with the hypobranchials and laterally and dorsally with the epibranchials.  Ceratobranchials 1-5 ossify in the ceratobranchial cartilages."
         }
     ],
-    "search_term" : "bone",
-    "total" : 1859
+    "search_term" : "bone"
 }
 </javascript>
 
