@@ -313,27 +313,25 @@ All URI parameters are optional except for <code>text</code>.  Default values ar
 JSON:
 <javascript>
 {
-    "matches" : [
-        {   // overall format
-            "id" : "TAO:0001514",
-            "name" : "bone",
-            "match_type" : "name" | "syn",
-            "match_text" : "this is the term name or synonym name that matched"
-        },
-        {   // a name example
-            "id" : "TAO:0001514",
-            "name" : "bone",
-            "match_type" : "name",
-            "match_text" : "bone"
-        },
-        {   // a synonym example
-            "id" : "TAO:0001795",
-            "name" : "ceratohyal foramen",
-            "match_type" : "syn",
-            "match_text" : "ceratoyhal bone"
-        }
-    ],
-    "search_term" : "bone"
+    "matches": [{
+        "match_text": "Brachydanio rerio",
+        "id": "TTO:1001979",
+        "match_type": "syn",
+        "name": "Danio rerio"
+    },
+    {
+        "match_text": "Cyprinus rerio",
+        "id": "TTO:1001979",
+        "match_type": "syn",
+        "name": "Danio rerio"
+    },
+    {
+        "match_text": "Danio rerio",
+        "id": "TTO:1001979",
+        "match_type": "name",
+        "name": "Danio rerio"
+    }],
+    "search_term": "rerio"
 }
 </javascript>
 
