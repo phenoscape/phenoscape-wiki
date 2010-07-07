@@ -29,6 +29,8 @@ JSON:
 
  <BASE URI>/term/{term_id}
 
+This is a generic term info service returning basic properties and relationships of a term, given its ID. The returned relationships are those included in the source ontology for the term, not all links to the term in the Knowledgebase.
+
 '''Returns'''
 
 JSON:
