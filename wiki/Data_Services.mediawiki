@@ -134,6 +134,173 @@ It may also articulate with the dermopalatine ventro-laterally and with the ento
 
 If there is no term with the given ID, the service should return "404 Not Found".
 
+==Taxon Term info==
+'''URI'''
+
+ <BASE URI>/term/{term_id}
+
+This is a specialized term info service returning data in a format customized for taxa.
+
+'''Returns'''
+
+JSON:
+<javascript>
+{
+    "id": "TTO:101020",
+    "extinct": false,
+    "rank": {
+        "id": "TAXRANK:0000005",
+        "name": "genus"
+    },
+    "name": "Ictalurus",
+    "synonyms": [{
+        "name": "Villarius"
+    },
+    {
+        "name": "Haustor"
+    },
+    {
+        "name": "Elliops"
+    },
+    {
+        "name": "Istlarius"
+    },
+    {
+        "name": "Synechoglanis"
+    }],
+    "parent": {
+        "id": "TTO:10930",
+        "extinct": false,
+        "rank": {
+            "id": "TAXRANK:0000004",
+            "name": "family"
+        },
+        "name": "Ictaluridae"
+    },
+    "children": [{
+        "id": "TTO:10000452",
+        "extinct": false,
+        "rank": {
+            "id": "TAXRANK:0000006",
+            "name": "species"
+        },
+        "name": "Ictalurus sp. (Vigliotta 2008)"
+    },
+    {
+        "id": "TTO:1004548",
+        "extinct": false,
+        "rank": {
+            "id": "TAXRANK:0000006",
+            "name": "species"
+        },
+        "name": "Ictalurus lupus"
+    },
+    {
+        "id": "TTO:1049346",
+        "extinct": false,
+        "rank": {
+            "id": "TAXRANK:0000006",
+            "name": "species"
+        },
+        "name": "Ictalurus mexicanus"
+    },
+    {
+        "id": "TTO:1004550",
+        "extinct": false,
+        "rank": {
+            "id": "TAXRANK:0000006",
+            "name": "species"
+        },
+        "name": "Ictalurus meridionalis"
+    },
+    {
+        "id": "TTO:1005781",
+        "extinct": false,
+        "rank": {
+            "id": "TAXRANK:0000006",
+            "name": "species"
+        },
+        "name": "Ictalurus balsanus"
+    },
+    {
+        "id": "TTO:1045587",
+        "extinct": false,
+        "rank": {
+            "id": "TAXRANK:0000006",
+            "name": "species"
+        },
+        "name": "Ictalurus australis"
+    },
+    {
+        "id": "TTO:1005768",
+        "extinct": false,
+        "rank": {
+            "id": "TAXRANK:0000006",
+            "name": "species"
+        },
+        "name": "Ictalurus pricei"
+    },
+    {
+        "id": "TTO:1039419",
+        "extinct": false,
+        "rank": {
+            "id": "TAXRANK:0000006",
+            "name": "species"
+        },
+        "name": "Ictalurus ochoterenai"
+    },
+    {
+        "id": "TTO:1004547",
+        "extinct": false,
+        "rank": {
+            "id": "TAXRANK:0000006",
+            "name": "species"
+        },
+        "name": "Ictalurus furcatus"
+    },
+    {
+        "id": "TTO:1054206",
+        "extinct": false,
+        "rank": {
+            "id": "TAXRANK:0000006",
+            "name": "species"
+        },
+        "name": "Ictalurus punctatus"
+    },
+    {
+        "id": "TTO:10000228",
+        "extinct": false,
+        "rank": {
+            "id": "TAXRANK:0000006",
+            "name": "species"
+        },
+        "name": "Ictalurus sp. (Mo 1991)"
+    },
+    {
+        "id": "TTO:10000044",
+        "extinct": false,
+        "rank": {
+            "id": "TAXRANK:0000006",
+            "name": "species"
+        },
+        "name": "Ictalurus sp. (Fink and Fink 1981)"
+    },
+    {
+        "id": "TTO:1046960",
+        "extinct": false,
+        "rank": {
+            "id": "TAXRANK:0000006",
+            "name": "species"
+        },
+        "name": "Ictalurus dugesii"
+    }]
+}
+</javascript>
+
+'''Error'''
+
+If there is no term with the given ID, the service should return "404 Not Found".
+
 =Old services (v1)=
 These are in general deprecated.
 ==Timestamp==
