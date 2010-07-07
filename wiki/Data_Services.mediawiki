@@ -134,7 +134,7 @@ It may also articulate with the dermopalatine ventro-laterally and with the ento
 
 If there is no term with the given ID, the service should return "404 Not Found".
 
-==Taxon Term info==
+==Taxon term info==
 '''URI'''
 
  <BASE URI>/term/{term_id}
