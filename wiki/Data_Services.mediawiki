@@ -129,7 +129,8 @@ JSON:
             "id" : "TAO:0000488",
             "name" : "ceratobranchial bone",
             "match_type" : "def",
-            "match_text" : "Ceratobranchials are bilaterally paired cartilage bones that form part of the ventral branchial arches. They articulate medially with the hypobranchials and laterally and dorsally with the epibranchials.  Ceratobranchials 1-5 ossify in the ceratobranchial cartilages."
+            "match_text" : "Ceratobranchials are bilaterally paired cartilage bones that form part of the ventral branchial arches. They articulate medially
+ with the hypobranchials and laterally and dorsally with the epibranchials.  Ceratobranchials 1-5 ossify in the ceratobranchial cartilages."
         }
     ],
     "search_term" : "bone",
