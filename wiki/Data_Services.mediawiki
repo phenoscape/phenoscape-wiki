@@ -24,6 +24,52 @@ JSON:
 
 </javascript>
 
+==Term info==
+'''URI'''
+
+ <BASE URI>/term/{term_id}
+
+'''Returns'''
+
+JSON:
+<javascript>
+{
+    "id" : "TAO:0001700",
+    "name" : "caudal-fin stay",
+    "definition" : "Bone that is located anterior to the caudal procurrent rays. Caudal fin stays are unpaired bone.",
+    "comment" : "Some comment text that may be in there."
+    "parents" :
+    [
+        {
+            "relation" : {
+                "id" : "OBO_REL:is_a",
+                "name" : "is_a"
+            },
+            "target" : {
+                "id" : "TAO:0001514",
+                "name" : "bone"
+            }
+
+        },
+        {
+            "relation" : {
+                "id" : "OBO_REL:part_of",
+                "name" : "part_of"
+            },
+            "target" : {
+                "id" : "TAO:0000862",
+                "name" : "caudal fin skeleton"
+            }
+        }
+    ],
+    "children" : [] // if there are children, this content should be in the same format as the parents list
+}
+</javascript>
+
+'''Error'''
+
+If there is no term with the given ID, the service should return "404 Not Found".
+
 =Old services (v1)=
 These are in general deprecated.
 ==Timestamp==
