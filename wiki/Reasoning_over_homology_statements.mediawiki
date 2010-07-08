@@ -169,7 +169,7 @@ independent) axes:
 * characters and character states: anatomical entities, proteins, DNA
 * deep vs "superficial"
 
-Some might include historical homology vs analagy as an additional
+Some might include historical homology vs analogy as an additional
 axis, but here we take the term "homology" to strictly imply common
 descent.
 
