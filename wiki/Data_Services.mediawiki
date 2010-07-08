@@ -348,6 +348,14 @@ If there are no terms matching the given input, a document should still be retur
 
 All URI parameters are optional. If no JSON-formatted query specification is provided, all gene annotations will be returned. The <code>limit</code> parameter limits the number of results to the given integer count. This must be a positive integer. The <code>index</code> parameter can be used for pagination under a given sorting and limit regime. It should be greater than or equal to zero (the default). <code>desc</code> can be used to return the results in descending order (it is false by default). If a value is not provided for <code>sortby</code>, the sort order, limit, and start index are not very useful.
 
+'''Phenotype query specification'''
+
+The value of <code>query</code> parameter should be a phenotype query represented as JSON, following this structure:
+
+<javascript>
+{}
+</javascript>
+
 '''Returns'''
 
 JSON:
