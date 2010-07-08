@@ -233,7 +233,7 @@ Is always quantified. The options are:
 # all X R only Y
 # some X R some Y
 
-This quantification is always explicit in OBD (although in th past
+This quantification is always explicit in OBD (although in the past
 this has not been used).
 
 === Homology Relation Hierarchy ===
