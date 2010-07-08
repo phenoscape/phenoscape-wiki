@@ -306,7 +306,7 @@ If there is no term with the given ID, the service should return "404 Not Found"
 
  <BASE URI>/term/search?text=[input]&name=[true|false]&syn=[true|false]&ontology=[ont1,ont2,...]&type=[type1,type2,...]&limit=[count]
 
-All URI parameters are optional except for <code>text</code>.  Default values are name=true, syn=false.  The "ontology" parameter should be a comma-separated list of ontology prefixes to search within (any of tao, go, pato, tto, zfin, pspub). The "type" parameter should be any of: entity, quality, taxon, gene, pub.  If no ontology or type is given, the default is to search all ontologies.  The "limit" parameter limits the number of results to the given integer count.
+All URI parameters are optional except for <code>text</code>.  Default values are <code>name=true</code>, <code>syn=false</code>.  The <code>ontology</code> parameter should be a comma-separated list of ontology prefixes to search within (any of <code>tao, go, pato, tto, zfin, pspub</code>). The <code>type</code> parameter should be any of: <code>entity, quality, taxon, gene, pub</code>.  If no ontology or type is given, the default is to search all ontologies.  The <code>limit</code> parameter limits the number of results to the given integer count.
 
 '''Returns'''
 
