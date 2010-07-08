@@ -384,7 +384,44 @@ It should be URL-encoded to include in the request.
 
 JSON:
 <javascript>
-{}
+{
+    "annotations": [
+    {
+        "gene": {
+            "id": "TAO0001514",
+            "name": "brph1"
+        },
+        "entity": {
+            "id": "TAO0001516",
+            "name": "basihyal bone"
+        },
+        "quality": {
+            "id": "TAO0001517",
+            "name": "fused with"
+        },
+        "related_entity": {
+            "id": "TAO0001518",
+            "name": "posterior ceratohyal"
+        }
+    },
+    {
+        "gene": {
+            "id": "TAO0001522",
+            "name": "brph2"
+        },
+        "entity": {
+            "id": "TAO0001524",
+            "name": "fossa of basihyal bone"
+        },
+        "quality": {
+            "id": "TAO0001525",
+            "name": "decreased width"
+        },
+        "related_entity": null //or just leave out key
+    }
+    ]
+}
+
 </javascript>
 
 =Old services (v1)=
