@@ -353,7 +353,30 @@ All URI parameters are optional. If no JSON-formatted query specification is pro
 The value of the <code>query</code> parameter should be an annotation query represented as JSON, following this structure:
 
 <javascript>
-{}
+{
+    "gene": [
+    {
+        "id": "ZFIN:XXXX"
+    },
+    {
+        "id": "ZFIN:YYYY"
+    }
+    ],
+    "phenotype": [
+    {
+        "entity": {
+            "id": "TAO:XXXX",
+            "including_parts": false
+        },
+        "quality": {
+            "id": "PATO:XXXX"
+        },
+        "related_entity": {
+            "id": "TAO:YYYYY"
+        }
+    }
+    ]
+}
 </javascript>
 
 '''Returns'''
