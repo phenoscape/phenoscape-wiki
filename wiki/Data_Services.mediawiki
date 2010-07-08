@@ -350,7 +350,7 @@ All URI parameters are optional. If no JSON-formatted query specification is pro
 
 '''Phenotype query specification'''
 
-The value of the <code>query</code> parameter should be an annotation query represented as JSON, following this structure:
+The value of the <code>query</code> parameter should be an annotation query represented as JSON, following this structure (in practice it should be collapsed as far as possible to shorten the URL):
 
 <javascript>
 {
