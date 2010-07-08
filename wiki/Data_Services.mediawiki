@@ -385,6 +385,7 @@ It should be URL-encoded to include in the request.
 JSON:
 <javascript>
 {
+    "total": 5478,
     "annotations": [
     {
         "gene": {
@@ -417,11 +418,10 @@ JSON:
             "id": "TAO0001525",
             "name": "decreased width"
         },
-        "related_entity": null //or just leave out key
+        "related_entity": null
     }
     ]
 }
-
 </javascript>
 
 =Old services (v1)=
