@@ -378,6 +378,7 @@ The value of the <code>query</code> parameter should be an annotation query repr
     ]
 }
 </javascript>
+It should be URL-encoded to include in the request.
 
 '''Returns'''
 
