@@ -139,7 +139,7 @@ If there is no term with the given ID, the service should return "404 Not Found"
 
  <BASE URI>/term/{term_id}
 
-This is a specialized term info service returning data in a format customized for taxa.
+This is a specialized term info service which returns data in a format customized for taxa.
 
 '''Returns'''
 
