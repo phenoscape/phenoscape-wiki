@@ -340,8 +340,6 @@ JSON:
 If there are no terms matching the given input, a document should still be returned, containing an empty results list.
 
 ==Gene annotations==
-''This specification is in progress and the service is not yet available.''
-
 '''URI'''
 
  <BASE URI>/annotation/gene?query=[url-encoded-json]&sortby=[gene|entity|quality|relatedentity]&limit=[count]&index=[start_index]&desc=[true|false]
