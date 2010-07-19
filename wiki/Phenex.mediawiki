@@ -20,12 +20,12 @@ Please join the Phenex users mailing list for software support and discussion of
 
 ==Download & Installation==
 The latest version of Phenex can be obtained from the [http://sourceforge.net/projects/phenex/ Sourceforge project site].  At the Sourceforge site, you will find both "release" versions and "beta" versions.  Unless you are testing new features, please use the official releases.  Download the file appropriate for your system ("mac", "win", or "unix").  The "src" download contains the source code for the current release of Phenex.
-===Direct downloads for Phenex 1.0.4===
+===Direct downloads for Phenex 1.0.5===
 Choose download appropriate for your platform:
-* [http://sourceforge.net/projects/phenex/files/Releases/1.0.4/phenex-1.0.4-mac.zip/download Mac OS X]
-* [http://sourceforge.net/projects/phenex/files/Releases/1.0.4/phenex-1.0.4-win.zip/download Windows]
-* [http://sourceforge.net/projects/phenex/files/Releases/1.0.4/phenex-1.0.4-unix.tgz/download Unix (Linux, Solaris, etc.)]
-* [http://sourceforge.net/projects/phenex/files/Releases/1.0.4/phenex-1.0.4-src.tgz/download Source code]
+* [http://sourceforge.net/projects/phenex/files/Releases/1.0.5/phenex-1.0.5-mac.zip/download Mac OS X]
+* [http://sourceforge.net/projects/phenex/files/Releases/1.0.5/phenex-1.0.5-win.zip/download Windows]
+* [http://sourceforge.net/projects/phenex/files/Releases/1.0.5/phenex-1.0.5-unix.tgz/download Unix (Linux, Solaris, etc.)]
+* [http://sourceforge.net/projects/phenex/files/Releases/1.0.5/phenex-1.0.5-src.tgz/download Source code]
 
 ===Installation on Mac OS X===
 Double-click the downloaded file to unzip it.  Copy Phenex.app anywhere you would like to install it.  Double-click Phenex.app to launch the application.
