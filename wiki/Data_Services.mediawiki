@@ -423,6 +423,90 @@ JSON:
 }
 </javascript>
 
+==Taxon annotations==
+'''URI'''
+
+ <BASE URI>/annotation/taxon?query=[url-encoded-json]&sortby=[taxon|entity|quality|relatedentity]&limit=[count]&index=[start_index]&desc=[true|false]
+
+All URI parameters are optional. If no JSON-formatted query specification is provided, all taxon annotations will be returned. The <code>limit</code> parameter limits the number of results to the given integer count. This must be a positive integer. The <code>index</code> parameter can be used for pagination under a given sorting and limit regime. It should be greater than or equal to zero (the default). <code>desc</code> can be used to return the results in descending order (it is false by default). If a value is not provided for <code>sortby</code>, the sort order, limit, and start index are not very useful.
+
+'''Phenotype query specification'''
+
+The value of the <code>query</code> parameter should be an annotation query represented as JSON, following this structure (in practice it should be collapsed as far as possible to shorten the URL):
+
+<javascript>
+{
+    "gene": [
+    {
+        "id": "ZFIN:XXXX"
+    },
+    {
+        "id": "ZFIN:YYYY"
+    }
+    ],
+    "phenotype": [
+    {
+        "entity": {
+            "id": "TAO:XXXX",
+            "including_parts": false
+        },
+        "quality": {
+            "id": "PATO:XXXX"
+        },
+        "related_entity": {
+            "id": "TAO:YYYYY"
+        }
+    }
+    ],
+    "include_inferred": false
+}
+</javascript>
+It should be URL-encoded to include in the request.
+
+'''Returns'''
+
+JSON:
+<javascript>
+{
+    "total": 5478,
+    "annotations": [
+    {
+        "gene": {
+            "id": "TAO0001514",
+            "name": "brph1"
+        },
+        "entity": {
+            "id": "TAO0001516",
+            "name": "basihyal bone"
+        },
+        "quality": {
+            "id": "TAO0001517",
+            "name": "fused with"
+        },
+        "related_entity": {
+            "id": "TAO0001518",
+            "name": "posterior ceratohyal"
+        }
+    },
+    {
+        "gene": {
+            "id": "TAO0001522",
+            "name": "brph2"
+        },
+        "entity": {
+            "id": "TAO0001524",
+            "name": "fossa of basihyal bone"
+        },
+        "quality": {
+            "id": "TAO0001525",
+            "name": "decreased width"
+        },
+        "related_entity": null
+    }
+    ]
+}
+</javascript>
+
 =Old services (v1)=
 These are in general deprecated.
 ==Timestamp==
