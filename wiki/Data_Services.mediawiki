@@ -436,12 +436,12 @@ The value of the <code>query</code> parameter should be an annotation query repr
 
 <javascript>
 {
-    "gene": [
+    "taxon": [
     {
-        "id": "ZFIN:XXXX"
+        "id": "TTO:XXXX"
     },
     {
-        "id": "ZFIN:YYYY"
+        "id": "TTO:YYYY"
     }
     ],
     "phenotype": [
@@ -457,6 +457,11 @@ The value of the <code>query</code> parameter should be an annotation query repr
             "id": "TAO:YYYYY"
         }
     }
+    ],
+    "publication": [
+     {
+       "id": "PSPUB:1243"
+     }
     ],
     "include_inferred": false
 }
