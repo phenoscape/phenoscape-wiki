@@ -424,6 +424,8 @@ JSON:
 </javascript>
 
 ==Taxon annotations==
+''This service is still under development!''
+
 '''URI'''
 
  <BASE URI>/annotation/taxon?query=[url-encoded-json]&sortby=[taxon|entity|quality|relatedentity]&limit=[count]&index=[start_index]&desc=[true|false]
