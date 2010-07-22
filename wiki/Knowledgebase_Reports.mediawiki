@@ -49,7 +49,7 @@ This database is used for active development and may often be broken. It should 
 * Count of curated phenotype assertions (taxon-phenotype annotations)
 ** pelvic fin and parts only
 ** pectoral fin and parts only
-* Count of distinct phenotype assertions
+* Count of distinct phenotype assertions (taxon-phenotype annotations)
 ** pelvic fin and parts only
 ** pectoral fin and parts only
 
