@@ -985,3 +985,7 @@ Assume that v1 and
 == Appendix ==
 
 === Representation of mereological sums in anatomy ontologies ===
+
+[[Category:Homology]]
+[[Category:Reasoning]]
+[[Category:Ontology]]
