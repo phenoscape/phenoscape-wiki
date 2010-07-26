@@ -478,9 +478,14 @@ JSON '''(this needs to be updated for taxon data instead genes!)''':
     "total": 5478,
     "annotations": [
     {
-        "gene": {
+        "taxon": {
             "id": "TAO0001514",
-            "name": "brph1"
+            "name": "Ictalurus punctatus",
+            "rank": {
+                 "id":TAXRANK:00000,
+                 "name": "species"
+            },
+            "extinct": false
         },
         "entity": {
             "id": "TAO0001516",
@@ -496,9 +501,14 @@ JSON '''(this needs to be updated for taxon data instead genes!)''':
         }
     },
     {
-        "gene": {
+        "taxon": {
             "id": "TAO0001522",
-            "name": "brph2"
+            "name": "Danio rerio",
+            "rank": {
+                 "id":TAXRANK:00000,
+                 "name": "species"
+            },
+            "extinct": false
         },
         "entity": {
             "id": "TAO0001524",
