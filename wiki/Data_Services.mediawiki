@@ -472,7 +472,7 @@ It should be URL-encoded to include in the request.
 
 '''Returns'''
 
-JSON '''(this needs to be updated for taxon data instead genes!)''':
+JSON
 <javascript>
 {
     "total": 5478,
