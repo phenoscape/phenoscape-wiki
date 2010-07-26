@@ -424,7 +424,6 @@ JSON:
 </javascript>
 
 ==Taxon annotations==
-''This service is still under development!''
 
 '''URI'''
 
