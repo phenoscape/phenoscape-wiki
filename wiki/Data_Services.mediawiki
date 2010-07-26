@@ -482,7 +482,7 @@ JSON '''(this needs to be updated for taxon data instead genes!)''':
             "id": "TAO0001514",
             "name": "Ictalurus punctatus",
             "rank": {
-                 "id":TAXRANK:00000,
+                 "id": "TAXRANK:00000",
                  "name": "species"
             },
             "extinct": false
@@ -505,7 +505,7 @@ JSON '''(this needs to be updated for taxon data instead genes!)''':
             "id": "TAO0001522",
             "name": "Danio rerio",
             "rank": {
-                 "id":TAXRANK:00000,
+                 "id": "TAXRANK:00000",
                  "name": "species"
             },
             "extinct": false
