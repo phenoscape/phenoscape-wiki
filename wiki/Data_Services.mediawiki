@@ -427,7 +427,7 @@ JSON:
 
 '''URI'''
 
- <BASE URI>/annotation/taxon?query=[url-encoded-json]&sortby=[taxon|entity|quality|relatedentity]&limit=[count]&index=[start_index]&desc=[true|false]
+ <BASE URI>/annotation/taxon/distinct?query=[url-encoded-json]&sortby=[taxon|entity|quality|relatedentity]&limit=[count]&index=[start_index]&desc=[true|false]
 
 All URI parameters are optional. If no JSON-formatted query specification is provided, all taxon annotations will be returned. The <code>limit</code> parameter limits the number of results to the given integer count. This must be a positive integer. The <code>index</code> parameter can be used for pagination under a given sorting and limit regime. It should be greater than or equal to zero (the default). <code>desc</code> can be used to return the results in descending order (it is false by default). If a value is not provided for <code>sortby</code>, the sort order, limit, and start index are not very useful.
 
