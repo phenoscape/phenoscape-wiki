@@ -137,7 +137,7 @@ If there is no term with the given ID, the service should return "404 Not Found"
 ==Taxon term info==
 '''URI'''
 
- <BASE URI>/term/{term_id}
+ <BASE URI>/term/taxon/{term_id}
 
 This is a specialized term info service which returns data in a format customized for taxa.
 
