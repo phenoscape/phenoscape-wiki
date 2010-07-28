@@ -6,7 +6,7 @@ This document provides a collection of inference rules for homology
 relations. The emphasis is on implementation in OBD, although the
 rules can be used in other inference systems.
 
-The core iso_homologous_to relation is introduced together with its relation characteristics. This relation is defined in terms of the descended_from relation and its inverse.
+The core iso_homologous_to relation is introduced together with its relation characteristics. This relation is defined in terms of the derived_by_descent_from relation and its inverse.
 
 Document status: '''in progress'''
 
@@ -45,7 +45,7 @@ is on the syntax and semantics of OBD, although other ontology
 information systems or reasoners may be used.
 
 The next section of the document explores ternary (3-argument)
-relations, and their formalization in terms of a descended_from
+relations, and their formalization in terms of a derived_by_descent_from
 relation.  I explore ways of representing 3-ary relations in OBD on
 ontology formalisms, including modeling as instances or classes.
 Modeling in this way is shown to have strong correspondences with both
@@ -355,7 +355,7 @@ is required as to if and when this relation would be asserted.
 
 There are a number of support relations that are used for inference
 and querying. The key relation here is the evolutionary relation
-descended_from. Even though we may never explicitly assert information
+derived_by_descent_from. Even though we may never explicitly assert information
 about ancestors, this relation turns out to be key for formalization
 and reasoning.
 
@@ -476,37 +476,37 @@ TODO
 Thus far we have been treating homology relations as binary. Many
 treatments of homology include a 3rd "homologous-as" argument.
 
-In order to formalize this we need to introduce a descended_from
+In order to formalize this we need to introduce a derived_by_descent_from
 relation. Later on in this document we attempt to fully define this
 relation, in terms of genetic specification. However, it is unlikely
 this definition will need to be used in the short term, so for now I
 present a high-level treatment, and state the characteristics of this
 relation.
 
-=== Descended from ===
+=== Derived by descent from ===
 
 This relation has the following characteristics:
 
 * instance-level
 * transitive
-* inverse_of: has_descendant
+* inverse_of: has_derived_by_descendant
 * reflexive
 * anti-symmetric
 
 This relation obeys the "straight-line" rule:
 
-  a descended_from b, a descended_from c
-  ==> b=c or a descended_from c or c descended_from b
+  a derived_by_descent_from b, a derived_by_descent_from c
+  ==> b=c or a derived_by_descent_from c or c derived_by_descent_from b
 
 This can be encoded in OBD as a constraint.
 
 This relation holds between anatomical entity instances (for example,
 my left hand and my grandfather's left hand). Usually we would not
 make statements about instances, but instead would generalize to the
-class level (e.g. all human hand descended_from some ancestral primate
+class level (e.g. all human hand derived_by_descent_from some ancestral primate
 hand).
 
-A is descended from B if A is encoded in a genome GA that is inherited
+A is derived_by_descent_from B if A is encoded in a genome GA that is inherited
 from a genome GB, and B is encoded by GB. This formalization is
 explored in more detail later on.
 
@@ -516,31 +516,31 @@ We can provide a definition of the binary homology relation:
 
   A iso_homologous_to B
   <==>
-  all A descended_from some (has_descendant some B)
-  all B descended_from some (has_descendant some A)
+  all A derived_by_descent_from some (has_derived_by_descendant some B)
+  all B derived_by_descent_from some (has_derived_by_descendant some A)
 
 With OBD we can actually make a stronger rule:
 
   A iso_homologous_to B
   <==>
-  all A descended_from some anc(A,B)
+  all A derived_by_descent_from some anc(A,B)
 
 Here anc(A,B) is just shorthand for the ID expression
 
-  entity^has_descendant(A)^has_descendant(B)
+  entity^has_derived_by_descendant(A)^has_derived_by_descendant(B)
 
 We use anc(A,B) for convenience in this document, but in OBD it would
 be stored as the ID expression, which would automatically entail:
 
-  all anc(A,B) has_descendant some B
-  all anc(A,B) has_descendant some A
+  all anc(A,B) has_derived_by_descendant some B
+  all anc(A,B) has_derived_by_descendant some A
 
 (Note this feature of the OBD reasoner is inexpressible in many rule
 systems)
 
-=== descended_from_ancestor_of ===
+=== derived_by_descent_from_ancestor_of ===
 
-We define a new relation descended_from_ancestor_of
+We define a new relation derived_by_descent_from_ancestor_of
 
 * instance-level
 * transitive
@@ -548,31 +548,31 @@ We define a new relation descended_from_ancestor_of
 
 simple relation chain:
 
-  descended_from o has_descendant -> descended_from_ancestor_of
+  derived_by_descent_from o has_derived_by_descendant -> derived_by_descent_from_ancestor_of
 
 i.e.
 
-  all X descended_from some (has_descendant some Y)
+  all X derived_by_descent_from some (has_derived_by_descendant some Y)
   ==>
-  all X descended_from_ancestor_of some Y
+  all X derived_by_descent_from_ancestor_of some Y
 
 Note we can see that this is entailed by iso_homologous_to
 
   X iso_homologous_to Y
   ==>
-  all X descended_from some anc(X,Y)
-  all anc(X,Y) has_descendant some Y
+  all X derived_by_descent_from some anc(X,Y)
+  all anc(X,Y) has_derived_by_descendant some Y
   ==>
-  all X descended_from_ancestor_of some Y
+  all X derived_by_descent_from_ancestor_of some Y
 
 Note that this is *not* equivalent to homologous_to. It is an
 instance-level relation, and does not have the symmetry property.
 
-Note also that because of restrictions on the descended_from relation,
+Note also that because of restrictions on the derived_by_descent_from relation,
 this is not a trivial relation that holds between all entities across
 species.
 
-descended_from_ancestor_of is a little long winded. Polling needed to
+derived_by_descent_from_ancestor_of is a little long winded. Polling needed to
 decide new name. Possibilities include:
 
 * nonsymmetric_homologous_to
@@ -583,15 +583,15 @@ classes it should be read "all X R some Y"
 
 ==== Query chains ====
 
-* descended_from_ancestor_of_part_of <- descended_from_ancestor_of o part_of
-* descended_from_ancestor_of_develops_from <- descended_from_ancestor_of o develops_from
+* derived_by_descent_from_ancestor_of_part_of <- derived_by_descent_from_ancestor_of o part_of
+* derived_by_descent_from_ancestor_of_develops_from <- derived_by_descent_from_ancestor_of o develops_from
 
 == Modeling homologous-as and ancestry information ==
 
 Assuming we wish to represent pairwise homology with the addition of a
 homologous-as relation, we need some kind of ternary relation, with a
 3rd homologous_to argument. We can give this semantics using the
-descended_from relation.
+derived_by_descent_from relation.
 
 We have 2 modeling options here:
 
@@ -663,15 +663,15 @@ Finally, we can suuply a definitional rule:
 
   X iso_homologous_to Y as A
   <==>
-  all X descended_from some (A and has_descendant some Y)
-  all Y descended_from some (A and has_descendant some X)
+  all X derived_by_descent_from some (A and has_derived_by_descendant some Y)
+  all Y derived_by_descent_from some (A and has_derived_by_descendant some X)
 
 We can also use a skolem ID to name the descendant class:
 
   X iso_homologous_to Y as A
   ==>
-  all X descended_from some anc(X,Y)
-  anc(X,Y) has_descendant some X
+  all X derived_by_descent_from some anc(X,Y)
+  anc(X,Y) has_derived_by_descendant some X
   anc(X,Y) is_a A
 
 Unfortunately 3-ary predicates cannot be directly implemented easily
@@ -752,7 +752,7 @@ pair of axioms:
   H has_member Y
   H homologous_as A
   ==>
-  all X descended_from some (A and has_descendant some Y)
+  all X derived_by_descent_from some (A and has_derived_by_descendant some Y)
 
 Note we do not need to add a second head clause for the symmetric
 case, because there is no ordering of the members in the has_member
@@ -770,8 +770,8 @@ more efficient axiom:
   H has_member Xn
   H homologous_as A
   ==>
-  all X1 descended_from some anc(X1..Xn)
-  all anc(X1..Xn) has_descendant some X1
+  all X1 derived_by_descent_from some anc(X1..Xn)
+  all anc(X1..Xn) has_derived_by_descendant some X1
 
 === Homology grouping classes ===
 
@@ -796,8 +796,8 @@ Macro rule:
   Y is_a H
   H homologous_as A
   ==>
-  all X descended_from some (A and has_descendant some Y)
-  all Y descended_from some (A and has_descendant some X)
+  all X derived_by_descent_from some (A and has_derived_by_descendant some Y)
+  all Y derived_by_descent_from some (A and has_derived_by_descendant some X)
 
 Again, we can make this accept arbitrary numbers of members in the grouping, not just pairs:
 
@@ -805,8 +805,8 @@ Again, we can make this accept arbitrary numbers of members in the grouping, not
   H homologous_as A
   ==>
   H is_a A
-  all X descended_from some anc(H)
-  all anc(H) has_descendant some X
+  all X derived_by_descent_from some anc(H)
+  all anc(H) has_derived_by_descendant some X
 
 Note that this can be treated as a formalization of the HOG
 ontology. Although HOG leaves out the "homologous_as" argument, this
@@ -820,24 +820,24 @@ approach. The difference is that rather than represent a class that
 subsumes all homologs, we make a class that subsumes all ancestors of
 that class:
 
-  ALL mammalian_forelimb descended_from SOME mammalian_forelimb_avian_wing_ancestor
-  ALL avian_wing descended_from SOME mammalian_forelimb_avian_wing_ancestor
+  ALL mammalian_forelimb derived_by_descent_from SOME mammalian_forelimb_avian_wing_ancestor
+  ALL avian_wing derived_by_descent_from SOME mammalian_forelimb_avian_wing_ancestor
   mammalian_forelimb_avian_wing_ancestor is_a forelimb
 
 The general template for pairwise homology assertions is:
 
-  all TE1 descended_from some AE
-  all TE2 descended_from some AE
+  all TE1 derived_by_descent_from some AE
+  all TE2 derived_by_descent_from some AE
   AE is_a GE
 
 The macro rule becomes much simpler - simply adding class-level symmetry
 
-  all X descended_from some A
+  all X derived_by_descent_from some A
   ==>
-  all A has_descendant some X
+  all A has_derived_by_descendant some X
 
 Note that additional biological information can be added to the
-descended_from statements. For example, if a temporal range is known,
+derived_by_descent_from statements. For example, if a temporal range is known,
 this can be added. Or if the ancestral class has a temporal range,
 this too can be added.
 
@@ -861,7 +861,7 @@ The (MR)CA approach was initially criticized on the grounds that
 homology information should not be stored in an ontology. But as far
 as OBD and every RDF or OWL system is concerned, everything is an
 ontology. We can trivially add the all-important provenance axioms to
-either the ancestor class or to the descended_from statements.
+either the ancestor class or to the derived_by_descent_from statements.
 
 From an ontology management perspective, the CA axioms can be managed
 separately from the homology-neutral ontology. This is perhaps where
@@ -911,8 +911,8 @@ descendant relations. For example:
 
   forelimb_digit_1[mouse] iso_homologous_to forelimb_digit_1[human]
   ==>
-  all forelimb_digit_1[mouse] descended_from some forelimb_digit_1[mouse+human]
-  all forelimb_digit_1[mouse+human] has_descendant some forelimb_digit_1[mouse]
+  all forelimb_digit_1[mouse] derived_by_descent_from some forelimb_digit_1[mouse+human]
+  all forelimb_digit_1[mouse+human] has_derived_by_descendant some forelimb_digit_1[mouse]
 
 (we don't need to write a symmetric rule, as we already have the
 class-level symmetry rule for iso_homologous_to).
@@ -920,22 +920,22 @@ class-level symmetry rule for iso_homologous_to).
 The expanded axioms are all-some statements and thus have the expected
 propagation over and under is_a.
 
-We can also name the composition of descended_from and
-has_descendant. This will give us inferences such as:
+We can also name the composition of derived_by_descent_from and
+has_derived_by_descendant. This will give us inferences such as:
 
-  all forelimb_digit_1[mouse] descended_from some forelimb_digit_1[mouse+human]
-  all forelimb_digit_1[mouse+human] has_descendant some forelimb_digit_1[mouse]
+  all forelimb_digit_1[mouse] derived_by_descent_from some forelimb_digit_1[mouse+human]
+  all forelimb_digit_1[mouse+human] has_derived_by_descendant some forelimb_digit_1[mouse]
   ==>
-  all forelimb_digit_1[mouse] descended_from_ancestor_of some forelimb_digit_1[human]
+  all forelimb_digit_1[mouse] derived_by_descent_from_ancestor_of some forelimb_digit_1[human]
 
 Because of the all some rule we infer further statements such as:
 
-  all left_forelimb_digit_1[mouse] descended_from_ancestor_of some forelimb_digit_1[human]
-  all forelimb_digit_1[mouse] descended_from_ancestor_of some forelimb_digit[human]
-  all forelimb_digit_1[mouse] descended_from_ancestor_of some digit[human]
-  all forelimb_digit_1[mouse] descended_from_ancestor_of some anatomical_entity[human]
-  all forelimb_digit_1[mouse] descended_from_ancestor_of some digit[vertebrate]
-  all left_forelimb_digit_1[mouse] descended_from_ancestor_of some digit[vertebrate]
+  all left_forelimb_digit_1[mouse] derived_by_descent_from_ancestor_of some forelimb_digit_1[human]
+  all forelimb_digit_1[mouse] derived_by_descent_from_ancestor_of some forelimb_digit[human]
+  all forelimb_digit_1[mouse] derived_by_descent_from_ancestor_of some digit[human]
+  all forelimb_digit_1[mouse] derived_by_descent_from_ancestor_of some anatomical_entity[human]
+  all forelimb_digit_1[mouse] derived_by_descent_from_ancestor_of some digit[vertebrate]
+  all left_forelimb_digit_1[mouse] derived_by_descent_from_ancestor_of some digit[vertebrate]
 
 As can be seen, this could potentially lead to a large number of
 inferred statements. The pattern here is one of "up-along-up" - we
