@@ -573,56 +573,16 @@ It should be URL-encoded to include in the request.
 
 '''Returns'''
 
+''This needs to be updated to the correct return format which includes family and order.''
+
 JSON
 <javascript>
-{
-    "total": 5478,
-    "annotations": [
-    {
-        "taxon": {
-            "id": "TAO0001514",
-            "name": "Ictalurus punctatus",
-            "rank": {
-                 "id": "TAXRANK:00000",
-                 "name": "species"
-            },
-            "extinct": false
-        },
-        "entity": {
-            "id": "TAO0001516",
-            "name": "basihyal bone"
-        },
-        "quality": {
-            "id": "TAO0001517",
-            "name": "fused with"
-        },
-        "related_entity": {
-            "id": "TAO0001518",
-            "name": "posterior ceratohyal"
-        }
-    },
-    {
-        "taxon": {
-            "id": "TAO0001522",
-            "name": "Danio rerio",
-            "rank": {
-                 "id": "TAXRANK:00000",
-                 "name": "species"
-            },
-            "extinct": false
-        },
-        "entity": {
-            "id": "TAO0001524",
-            "name": "fossa of basihyal bone"
-        },
-        "quality": {
-            "id": "TAO0001525",
-            "name": "decreased width"
-        },
-        "related_entity": null
-    }
-    ]
-}
+{"total":2661, 
+"taxa":[
+{"id":"TTO:1068687","extinct":false,"rank":{"id":"TAXRANK:0000006","name":"species"},"name":"Abbottina binhi"},
+{"id":"TTO:1003030","extinct":false,"rank":{"id":"TAXRANK:0000006","name":"species"},"name":"Abramis brama"},
+{"id":"TTO:1004289","extinct":false,"rank":{"id":"TAXRANK:0000006","name":"species"},"name":"Abramites hypselonotus"}
+]
 </javascript>
 
 =Old services (v1)=
