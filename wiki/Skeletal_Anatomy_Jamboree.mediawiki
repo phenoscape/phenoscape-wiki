@@ -106,3 +106,7 @@ Members of Phenoscape are in '''bold font'''.
 {{EventParticipant|Vickaryous|Matt|mvickary@uoguelph.ca|Ontario Veterinary College, University of Guelph|}}
 {{EventParticipant|Westerfield|Monte|monte%40uoneuro%2euoregon%2eedu| Phenoscape, Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon |'''}}
 |}
+
+[[Category:Events]]
+[[Category:Anatomy]]
+[[Category:Ontology]]
