@@ -5,6 +5,10 @@ title: Training and Workshops
 ==Summer Training Opportunities==
 Opportunities in summer 2009 are available to graduate students and postdocs for training in data curation and software development at NESCent and the University of South Dakota.  [[SummerTraining2009|More information]].
 
+== [[Skeletal Anatomy Jamboree]]: April 9-10, 2010 ==
+
+The meeting focused on re-evaluating the high-level skeletal system ontology hierarchy for fishes, particularly in relation to anatomy ontologies of other vertebrates. Participants re-examined existing terms and definitions (cells, tissues, development, anatomical structures) for their applicability across vertebrates, and discussed how to represent of bone development within the structurally-defined hierarchy.
+
 == [[FMNH 2010 Workshop|Workshop @ The Field]]: March 19, 2010 ==
 
 The purpose of this meeting was outreach and training to local morphologists at the Field Museum and University of Chicago, informal usability testing of Phenoscape Knowledgebase interface, and to conduct a Phenoscape project meeting.
