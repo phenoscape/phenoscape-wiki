@@ -573,8 +573,6 @@ It should be URL-encoded to include in the request.
 
 '''Returns'''
 
-''This needs to be updated to the correct return format which includes family and order.''
-
 JSON
 <javascript>
 {"total":2312, "taxa":[
