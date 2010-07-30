@@ -577,12 +577,12 @@ It should be URL-encoded to include in the request.
 
 JSON
 <javascript>
-{"total":2661,
-"taxa":[
-{"id":"TTO:1068687","extinct":false,"rank":{"id":"TAXRANK:0000006","name":"species"},"name":"Abbottina binhi"},
-{"id":"TTO:1003030","extinct":false,"rank":{"id":"TAXRANK:0000006","name":"species"},"name":"Abramis brama"},
-{"id":"TTO:1004289","extinct":false,"rank":{"id":"TAXRANK:0000006","name":"species"},"name":"Abramites hypselonotus"}
+{"total":2312, "taxa":[
+{"id":"TTO:1068687","extinct":false,"rank":{"id":"TAXRANK:0000006","name":"species"},"order":{"id":"TTO:1360","extinct":false,"name":"Cypriniformes"},"name":"Abbottina binhi","class":{"id":"TTO:10760","extinct":false,"name":"Cyprinidae"}},
+{"id":"TTO:1004289","extinct":false,"rank":{"id":"TAXRANK:0000006","name":"species"},"order":{"id":"TTO:1370","extinct":false,"name":"Characiformes"},"name":"Abramites hypselonotus","class":{"id":"TTO:10856","extinct":false,"name":"Anostomidae"}},
+{"id":"TTO:10000027","extinct":false,"rank":{"id":"TAXRANK:0000006","name":"species"},"order":{"id":"TTO:1370","extinct":false,"name":"Characiformes"},"name":"Abramites sp. (Fink and Fink 1981)","class":{"id":"TTO:10856","extinct":false,"name":"Anostomidae"}}
 ]
+}
 </javascript>
 
 =Old services (v1)=
