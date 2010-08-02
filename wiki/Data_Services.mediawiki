@@ -301,6 +301,33 @@ JSON:
 
 If there is no term with the given ID, the service should return "404 Not Found".
 
+==Bulk term name mapper==
+'''URI'''
+
+ <BASE URI>/term/names
+
+This service accepts a list of term IDs returns a JSON mapping of IDs to names. Rank and extinct status are included in the output for taxon terms.
+
+'''Accepts via POST'''
+
+JSON:
+<javascript>
+{
+"ids":["TAO:0000620", "TTO:1380", "TTO:11021", "ZFIN:ZDB-GENE-061116-1"]
+}
+</javascript>
+
+'''Returns'''
+
+JSON:
+<javascript>
+{"terms":[
+{"id":"TAO:0000620","name":"autopalatine"},
+{"id":"TTO:1380","extinct":false,"rank":{"id":"TAXRANK:0000003","name":"order"},"name":"Siluriformes"},
+{"id":"TTO:11021","extinct":false,"rank":{"id":"TAXRANK:0000004","name":"family"},"name":"Erethistidae"},
+{"id":"ZFIN:ZDB-GENE-061116-1","name":"foxe1"}]}
+</javascript>
+
 ==Autocomplete==
 '''URI'''
 
