@@ -357,7 +357,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <b>Protocol : </b> HTTP GET
 
 <b>URI :</b><BASE>terms/ontology/{ontology_identifier}/?media=xml
-:Note: The ontology_identifier can either be a name or prefix of an ontology 
+:Note: The ontology_identifier can either be a name or prefix of an ontology
 
 <b>Output :</b>All requested terms with the provided ontology as their target in xml format
 
@@ -396,116 +396,110 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 ----
 === Get all terms in xml format using publication_identifier(publication's DOI or title)===
-<b>Type :</b>
+<b>Type :</b> xml
 
-<b>Protocol : </b>
+<b>Protocol : </b> HTTP GET
 
-<b>URI :</b>
+<b>URI :</b> <BASE>terms/publication/{publication_identifier}/?media=xml
 
-<b>Output :</b>
-<BASE>terms/publication/{publication_identifier}/?media=xml
+<b>Output :</b>All requested terms with the provided publication as their reference in html format
+
 ----
 ===Get all terms in html format requested by {requester_identifier}===
-<b>Type :</b>
+<b>Type :</b> html
 
-<b>Protocol : </b>
+<b>Protocol : </b> HTTP GET
 
-<b>URI :</b>
+<b>URI :</b> <BASE>terms/requester/{requester_identifier}/?media=htm
+:Note : The requester_identifier is a text which could be the requester's name or e-mail
 
-<b>Output :</b>
-The requester_identifier is a text which could be the requester's name or e-mail
-<BASE>terms/requester/{requester_identifier}/?media=htm
+<b>Output :</b> A list of terms matching the requester identifier provided in html
+
 ----
-===Get all terms in xml format requested by {requester_identifier}. The requester_identifier is a text which could be the requester's name or e-mail===
-<b>Type :</b>
+===Get all terms in xml format requested by {requester_identifier}===
+<b>Type :</b> xml
 
-<b>Protocol : </b>
+<b>Protocol : </b>HTTP GET
 
-<b>URI :</b>
+<b>URI :</b><BASE>terms/requester/{requester_identifier}/?media=xml
+:Note: The requester_identifier is a text which could be the requester's name or e-mail
 
-<b>Output :</b>
-<BASE>terms/requester/{requester_identifier}/?media=xml
+<b>Output :</b>A list of terms matching the requester identifier provided in xml
+
 ----
 ===Get all resolved terms in html format===
-<b>Type :</b>
+<b>Type :</b> html
 
-<b>Protocol : </b>
+<b>Protocol : </b> HTTP GET
 
-<b>URI :</b>
+<b>URI :</b><BASE>terms/resolved/?media=htm
 
-<b>Output :</b>
-<BASE>terms/resolved/?media=htm
+<b>Output :</b> A list of all resolved terms in html format
+
 ----
 === Get all resolved terms in xml format===
-<b>Type :</b>
+<b>Type :</b> xml
 
-<b>Protocol : </b>
+<b>Protocol : </b> HTTP GET
 
-<b>URI :</b>
+<b>URI :</b><BASE>terms/resolved/?media=xml
 
-<b>Output :</b>
-<BASE>terms/resolved/?media=xml
+<b>Output :</b> A list of all resolved terms in xml format
+
 ----
 === Get most commented terms in html format===
-<b>Type :</b>
+<b>Type :</b> html
 
-<b>Protocol : </b>
+<b>Protocol : </b>HTTP GET
 
-<b>URI :</b>
+<b>URI :</b><BASE>terms/top/?media=htm
 
-<b>Output :</b>
-<BASE>terms/top/?media=htm
+<b>Output :</b> A list of 10 (or less) terms with the highest number of comments in html format 
+
 ----
 === Get most commented terms in xml format===
-<b>Type :</b>
+<b>Type :</b> xml
 
-<b>Protocol : </b>
+<b>Protocol : </b>HTTP GET 
 
-<b>URI :</b>
+<b>URI :</b><BASE>terms/top/?media=xml
 
-<b>Output :</b>
-<BASE>terms/top/?media=xml
+<b>Output :</b>A list of 10 (or less) terms with the highest number of comments in xml format 
+
 ----
 === Get all trial terms in html format===
-<b>Type :</b>
+<b>Type :</b> html
 
-<b>Protocol : </b>
+<b>Protocol : </b> HTTP GET
 
-<b>URI :</b>
+<b>URI :</b><BASE>terms/trial/?media=htm
 
-<b>Output :</b>
-<BASE>terms/trial/?media=htm
+<b>Output :</b> A list of all trial terms in html format
+
 ----
 === Get all trial terms in xml format===
-<b>Type :</b>
+<b>Type :</b> xml
 
-<b>Protocol : </b>
+<b>Protocol : </b>HTTP GET 
 
-<b>URI :</b>
+<b>URI :</b> <BASE>terms/trial/?media=xml
 
-<b>Output :</b>
-<BASE>terms/trial/?media=xml
+<b>Output :</b>  A list of all trial terms in html format
+
 ----
-=== Search term using orbid in XML format and return in xml format. {orbit} is variable===
-<b>Type :</b>
+=== Search term using orbid in XML format and return in xml format===
+<b>Type :</b> xml
 
-<b>Protocol : </b>
+<b>Protocol : </b> HTTP POST
 
-<b>URI :</b>
+<b>URI :</b><BASE>terms/search/?media=xml
+<b>Input :</b><br />
+:<search>
+::<term_identifier>orbid</term_identifier>
+::<term_identifier_value>{orbid}</term_identifier_value>
+:</search>
 
-<b>Output :</b>
-
-'''HTTP method'''
-POST
-
-'''Content'''
-<search>
-<term_identifier>orbid</term_identifier>
-<term_identifier_value>{orbid}</term_identifier_value>
-</search>
-
-'''URI'''
-<BASE>terms/search/?media=xml
+<b>Output :</b> A term matching the orbid provided in the variable {orbid}
 
 == Project plan ==
 ''An agile approach will be used in ORB development. The sign √ indicates accomplished tasks while * indicates tasks which ought to have been implemented but haven't been''
