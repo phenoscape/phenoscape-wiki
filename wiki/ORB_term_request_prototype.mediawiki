@@ -23,7 +23,7 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 [[Image:ORB use cases.jpg]]
 
 ----
-Case:Request term via Phenex interface
+'''Case:Request term via Phenex interface'''
 Brief: This is a use case for an ontology curator/user who's working within [https://www.phenoscape.org/wiki/Phenex Phenex] interface
 
 Actor: ontology curator
@@ -36,12 +36,12 @@ The process is initiated when the user clicks on the ORB submit term request wid
 # User completes the term submission fields
 #User clicks on the submit button
 # ORB validates the request
-# ORB informs the user of successful term submission and provides a temporary ID assigned to the term 
+# ORB informs the user of successful term submission and provides a temporary ID assigned to the term
 # Adds the new request to the database
 
 Invalid path : This occurs when the user submits an invalid request
-#ORB alerts the user that the request is invalid 
-#ORB return the term submission GUI with the invalid field(s) highlighted 
+#ORB alerts the user that the request is invalid
+#ORB return the term submission GUI with the invalid field(s) highlighted
 
 ----
 '''Case:Register'''
