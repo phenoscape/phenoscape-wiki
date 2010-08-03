@@ -42,15 +42,15 @@ The process is initiated when the user selects the registration link
 
 Alternative path
 Invalid request: This occurs when a user submits a request with missing required information
-*1. The steps 1 to 4 in the ideal path apply
-*2. ORB terminates the registration
-*3. ORB returns to the registration page with the missing field highlighted
+#The steps 1 to 4 in the ideal path apply
+# ORB terminates the registration
+# ORB returns to the registration page with the missing field highlighted
 
 Invalid e-mail address: This occurs when a user provides an invalid e-mail address
-*1. The steps 1 to 4 in the ideal path apply
-*2. ORB terminates the registration
-*3. ORB informs user the e-mail address is invalid
-*4. ORB returns the registration page
+# The steps 1 to 4 in the ideal path apply
+# ORB terminates the registration
+# ORB informs user the e-mail address is invalid
+# ORB returns the registration page
 
 
 ----
@@ -63,27 +63,27 @@ Actor: TermRequester
 Pre-conditions: The requester must be at the ORB website and has an account
 
 Ideal path:
-*1. This use case is initiated when the requester clicks on the term submission tab
-*2. ORB presents the user login page for the requester to fill in the name and password
-*3. ORB verifies the requester
-*4. ORB displays the term submission page
-*5. Requester provides the required fields(i.e term's name, parent, textual definition,target ontology) plus any additional information related to the term (i.e other relations, references, database cross references, comments etc) and submits
-*6. ORB verifies the submission
-*7. ORB assigns a temporary ID to the term and presents it the requester
-*8. ORB sends the requested term's temporary ID and other details to requester's e-mail account
-*9. ORB returns to the term submission page
+# This use case is initiated when the requester clicks on the term submission tab
+# ORB presents the user login page for the requester to fill in the name and password
+# ORB verifies the requester
+# ORB displays the term submission page
+# Requester provides the required fields(i.e term's name, parent, textual definition,target ontology) plus any additional information related to the term (i.e other relations, references, database cross references, comments etc) and submits
+# ORB verifies the submission
+# ORB assigns a temporary ID to the term and presents it the requester
+# ORB sends the requested term's temporary ID and other details to requester's e-mail account
+# ORB returns to the term submission page
 
 Alternative paths:
 
 Invalid request: This occurs if the user submits a request without the required fields
-*1. Steps 1 to 6 as described in the ideal path will apply
-*2. ORB will the terminate the request
-*3. ORB will return to the term submission page with the missing required field highlighted
+# Steps 1 to 6 as described in the ideal path will apply
+# ORB will the terminate the request
+# ORB will return to the term submission page with the missing required field highlighted
 
 Matching term found: This occurs when the requested term already exists in the targetted ontology
-*1. Steps 1 to 6 as described in the ideal path will apply
-*2.ORB returns a message informing the requester that the term exists
-*3. ORB returns the matching term's id, name and parent to the requester
+# Steps 1 to 6 as described in the ideal path will apply
+#ORB returns a message informing the requester that the term exists
+# ORB returns the matching term's id, name and parent to the requester
 
 ----
 '''Case: EditTerm'''
@@ -99,30 +99,30 @@ Pre-conditions
 
 Ideal path:
 This case is initiated when the TermRequester/OntologyGateKeeper selects the "edit term" link
-*1. ORB presents the user login page
-*2. User provides their name and password
-*3. ORB verifies the user
-*4. ORB presents the term with the editable fields
-*5. User makes any changes and submits
-*6. ORB verifies the changes made
-*7. ORB updates changes
-*8. ORB informs user of successful update
-*9. ORB displays the term plus the new changes
+# ORB presents the user login page
+# User provides their name and password
+# ORB verifies the user
+# ORB presents the term with the editable fields
+# User makes any changes and submits
+# ORB verifies the changes made
+# ORB updates changes
+# ORB informs user of successful update
+# ORB displays the term plus the new changes
 
 Alternative paths:
 
 User not registered
-*1. Steps 1 to 3 as described in the ideal path apply
-*2. ORB terminates the process
-*3. ORB informs the user that they are not registered or need to try again in case of misspelled login details
-*4. ORB presents the ORB registration page
+# Steps 1 to 3 as described in the ideal path apply
+# ORB terminates the process
+# ORB informs the user that they are not registered or need to try again in case of misspelled login details
+# ORB presents the ORB registration page
 
 
 User neither the requester of the term nor gatekeeper for the target ontology
-*1. Steps 1 to 3 as described in the ideal path apply
-*2. ORB terminates the process
-*3. ORB informs the user that they need to be the term's requester or ontology gatekeeper to edit the term
-*4. ORB returns to the term page
+# Steps 1 to 3 as described in the ideal path apply
+# ORB terminates the process
+# ORB informs the user that they need to be the term's requester or ontology gatekeeper to edit the term
+# ORB returns to the term page
 
 ----
 '''Case:ChangeTermStatus'''
@@ -136,28 +136,28 @@ The user is at the specific term page
 
 Ideal path
 This case is initiated when the user,selects the "change term status" link
-*1. ORB presents the user login page
-*2. User provides their name and password
-*3. ORB verifies the user
-*4. ORB presents the term with the editable status fields
-*5. User selects the new status and submits
-*7. ORB updates changes
-*8. ORB informs user of successful update
-*9. ORB displays the term plus the updated status
+# ORB presents the user login page
+# User provides their name and password
+# ORB verifies the user
+# ORB presents the term with the editable status fields
+# User selects the new status and submits
+# ORB updates changes
+# ORB informs user of successful update
+# ORB displays the term plus the updated status
 
 Alternative paths
 
 Invalid OntologyGateKeeper
-*1. Steps 1 to 3 as described in the ideal path will apply
-*2. ORB terminates the request
-*3. ORB informs the user that they aren't the ontology gatekeeper or they may try again in case of misspelled login information
-*4. ORB returns to term page
+# Steps 1 to 3 as described in the ideal path will apply
+# ORB terminates the request
+# ORB informs the user that they aren't the ontology gatekeeper or they may try again in case of misspelled login information
+# ORB returns to term page
 
 Resolved term status: This applies when a term has already been resolved and assigned a permanent ID
-*1. Steps 1 to 3 as described in the ideal path will apply
-*2. ORB terminates the request
-*3. ORB informs the user that the term has been resolved
-*4. ORB returns to the term page
+# Steps 1 to 3 as described in the ideal path will apply
+# ORB terminates the request
+# ORB informs the user that the term has been resolved
+# ORB returns to the term page
 ----
 '''Case:BrowseTerms'''
 
@@ -169,10 +169,10 @@ Pre-Condition:
 *The user is online at the ORB site
 
 Ideal path
-*1. The user selects the "browse terms" link
-*2. ORB displays the ORB browse term page
-*3. User selects whether to view all terms or based on status
-*4. ORB displays the terms name , ID , target ontology, status and a link to the terms page
+# The user selects the "browse terms" link
+# ORB displays the ORB browse term page
+# User selects whether to view all terms or based on status
+# ORB displays the terms name , ID , target ontology, status and a link to the terms page
 
 Alternative paths:
 
@@ -180,37 +180,37 @@ Alternative paths:
 
 Brief: Use case for downloading terms
 
-*1. Steps 1 to 4 as described in the ideal path apply
-*2. User selects the terms to be downloaded
-*3. User selects the download tab
-*4. ORB generates a text file containing the terms in OBO format
-*5. ORB returns to the page displaying downloaded terms
+# Steps 1 to 4 as described in the ideal path apply
+# User selects the terms to be downloaded
+# User selects the download tab
+# ORB generates a text file containing the terms in OBO format
+# ORB returns to the page displaying downloaded terms
 
 
 Download a term: Applicable when user wants to download a single term
-*1. The steps 1 to 4 as described in the ideal path apply.
-*2. User selects the term page link
-*3. ORB displays the term page with all the term's information
-*4. User selects the term download tab
-*5. ORB generates a file containing the term in OBO format
-*6. ORB returns to the term's page
+# The steps 1 to 4 as described in the ideal path apply.
+# User selects the term page link
+# ORB displays the term page with all the term's information
+# User selects the term download tab
+# ORB generates a file containing the term in OBO format
+# ORB returns to the term's page
 
 '''Case: SearchTerm'''
 Brief: A case for user to search for a term
 
 Ideal path:
 
-*1. User selects the search term link
-*2. ORB displays the term search page
-*3. User provides the term name or id or parent
-*4. User selects the submit button
-*5. ORB returns a term with the name,synonyms or id matching the information provided in step 3
+# User selects the search term link
+# ORB displays the term search page
+# User provides the term name or id or parent
+# User selects the submit button
+# ORB returns a term with the name,synonyms or id matching the information provided in step 3
 
 Alternative path:
 
 No term matching the search
-*1. Steps 1 to 3 as described in the ideal path apply
-*2. ORB returns a term not found message
+# Steps 1 to 3 as described in the ideal path apply
+# ORB returns a term not found message
 
 '''Case: Comment'''
 
@@ -218,23 +218,23 @@ Pre-condition:
 User is at the specific term's page
 
 Ideal path
-*1. User selects the "comment on term" link
-*2. ORB provides a page for submitting a comment
-*3. User provides comment in the term comment field
-*4. User provides name and e-mail
-*5. ORB validates the user e-mail
-*5. User submits the comment
-*6. ORB generates a comment submission success message
-*7. ORB returns to the term page
+# User selects the "comment on term" link
+# ORB provides a page for submitting a comment
+# User provides comment in the term comment field
+# User provides name and e-mail
+# ORB validates the user e-mail
+# User submits the comment
+# ORB generates a comment submission success message
+# ORB returns to the term page
 
 Alternative path
 
 User e-mail invalid
 
-*1. Steps 1 to 5 as described in the ideal path apply
-*2. ORB terminates the comment submission process
-*3. ORB informs user about the invalid e-mail address
-*4. ORB returns to the term comment submission page
+# Steps 1 to 5 as described in the ideal path apply
+# ORB terminates the comment submission process
+# ORB informs user about the invalid e-mail address
+# ORB returns to the term comment submission page
 
 ----
 
