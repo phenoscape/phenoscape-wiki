@@ -298,7 +298,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <BASE>terms/?media=htm
 
 ==Get all terms in xml format==
-/orbprototype/terms/?media=xml
+<BASE>terms/?media=xml
 
 ==Get all obsoleted terms in htm format==
 /orbprototype/terms/obsolete/?media=htm
