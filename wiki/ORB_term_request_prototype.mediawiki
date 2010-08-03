@@ -292,7 +292,79 @@ Alternative path:
 [[Image:ORB schema.png]]
 
 ==Services==
-Here is a list of all the web-services provided by ORB
+Here is a list of all the web-services provided by ORB. The base URI (represented as <BASE> in the services URIs) is: /orbprototype/
+
+==Get all terms in html format==
+<BASE>terms/?media=htm
+
+==Get all terms in xml format==
+/orbprototype/terms/?media=xml
+
+==Get all obsoleted terms in htm format==
+/orbprototype/terms/obsolete/?media=htm
+
+==Get all obsoleted terms in xml format==
+/orbprototype/terms/obsolete/?media=xml
+
+==Get all terms from an ontology with an ontology_identifier(name of ontology or prefix) in html format==
+/orbprototype/terms/ontology/{ontology_identifier}/?media=htm
+
+== Get all terms from an ontology with an ontology_identifier(name of ontology or prefix) in xml format==
+/orbprototype/terms/ontology/{ontology_identifier}/?media=xml
+
+==Get all pending terms in html format==
+/orbprototype/terms/pending/?media=htm
+
+==Get all pending terms in xml format==
+/orbprototype/terms/pending/?media=xml
+
+== Get all terms in html format using publication_identifier(publication's DOI or title)==
+/orbprototype/terms/publication/{publication_identifier}/?media=htm
+
+== Get all terms in xml format using publication_identifier(publication's DOI or title)==
+/orbprototype/terms/publication/{publication_identifier}/?media=xml
+
+== Get all terms in html format requested by {requester_identifier}. The requester_identifier is a text which could be the requester's name or e-mail==
+/orbprototype/terms/requester/{requester_identifier}/?media=htm
+
+==Get all terms in xml format requested by {requester_identifier}. The requester_identifier is a text which could be the requester's name or e-mail==
+/orbprototype/terms/requester/{requester_identifier}/?media=xml
+
+== Get all resolved terms in html format==
+http://localhost:8008/orbprototype/terms/resolved/?media=htm
+
+== Get all resolved terms in xml format==
+http://localhost:8008/orbprototype/terms/resolved/?media=xml
+
+== Get most commented terms in html format==
+http://localhost:8008/orbprototype/terms/top/?media=htm
+
+== Get most commented terms in xml format==
+http://localhost:8008/orbprototype/terms/top/?media=xml
+
+== Get all trial terms in html format==
+http://localhost:8008/orbprototype/terms/trial/?media=htm
+
+== Get all trial terms in xml format==
+http://localhost:8008/orbprototype/terms/trial/?media=xml
+
+== Search term using orbid in XML format and return in xml format. {orbit} is variable==
+POST /orbprototype/terms/search/?media=xml HTTP/1.1
+<search>
+<term_identifier>orbid</term_identifier>
+<term_identifier_value>{orbid}</term_identifier_value>
+</search>
+
+21. Search term using term name(i.e terminate) in XML and return in xml format. {terminate} is variable and is 
+POST /orbprototype/terms/search/?media=xml HTTP/1.1
+
+<search>
+<term_identifier>termname</term_identifier>
+<term_identifier_value>{terminame}</term_identifier_value>
+</search>
+
+22. Search term using a definition and return the matching term(s) in xml format
+POST /orbprototype/terms/search/?media=xml HTTP/1.1
 
 == Project plan ==
 ''An agile approach will be used in ORB development. The sign √ indicates accomplished tasks while * indicates tasks which ought to have been implemented but haven't been''
