@@ -313,7 +313,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <BASE>terms/ontology/{ontology_identifier}/?media=xml
 
 ==Get all pending terms in html format==
-/orbprototype/terms/pending/?media=htm
+<BASE>terms/pending/?media=htm
 
 ==Get all pending terms in xml format==
 /orbprototype/terms/pending/?media=xml
