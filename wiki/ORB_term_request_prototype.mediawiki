@@ -346,7 +346,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <BASE>terms/trial/?media=htm
 
 == Get all trial terms in xml format==
-http://localhost:8008/orbprototype/terms/trial/?media=xml
+<BASE>terms/trial/?media=xml
 
 == Search term using orbid in XML format and return in xml format. {orbit} is variable==
 POST /orbprototype/terms/search/?media=xml HTTP/1.1
