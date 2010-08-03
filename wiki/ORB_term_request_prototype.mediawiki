@@ -291,7 +291,7 @@ Alternative path:
 
 [[Image:ORB schema.png]]
 
-=Services==
+==Services==
 Here is a list of all the web-services provided by ORB
 
 == Project plan ==
