@@ -331,7 +331,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <BASE>terms/requester/{requester_identifier}/?media=xml
 
 == Get all resolved terms in html format==
-http://localhost:8008/orbprototype/terms/resolved/?media=htm
+<BASE>terms/resolved/?media=htm
 
 == Get all resolved terms in xml format==
 http://localhost:8008/orbprototype/terms/resolved/?media=xml
