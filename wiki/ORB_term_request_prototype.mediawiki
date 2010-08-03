@@ -346,50 +346,52 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <b>URI :</b><BASE>terms/ontology/{ontology_identifier}/?media=htm <br />
 :Note: The {ontology_identifier}refers to either the name or prefix of an ontology e.g Teleost Anatomy Ontology (name) or TAO (prefix)
 
-<b>Output :</b>
+<b>Output :</b> All requested terms with the provided ontology as their target in html format
 
 ----
 
 ===Get all terms from an ontology with an ontology_identifier(name of ontology or prefix) in xml format===
 
-<b>Type :</b>
+<b>Type :</b> xml
 
-<b>Protocol : </b>
+<b>Protocol : </b> HTTP GET
 
-<b>URI :</b>
+<b>URI :</b><BASE>terms/ontology/{ontology_identifier}/?media=xml
 
-<b>Output :</b>
-<BASE>terms/ontology/{ontology_identifier}/?media=xml
+<b>Output :</b>All requested terms with the provided ontology as their target in xml format
+
+
 ----
 ===Get all pending terms in html format===
-<b>Type :</b>
+<b>Type :</b> html
 
-<b>Protocol : </b>
+<b>Protocol : </b> HTTP GET
 
-<b>URI :</b>
+<b>URI :</b><BASE>terms/pending/?media=htm
 
-<b>Output :</b>
-<BASE>terms/pending/?media=htm
+<b>Output :</b>All users requested terms that are pending in html format
+
 ----
 ===Get all pending terms in xml format===
-<b>Type :</b>
+<b>Type :</b> xml
 
-<b>Protocol : </b>
+<b>Protocol : </b> HTTP GET
 
-<b>URI :</b>
+<b>URI :</b><BASE>terms/pending/?media=xml
 
-<b>Output :</b>
-<BASE>terms/pending/?media=xml
+<b>Output :</b>All users requested terms that are pending in xml format
+
 ----
-=== Get all terms in html format using publication_identifier(publication's DOI or title)===
-<b>Type :</b>
+=== Get all terms in html format using publication_identifier===
+<b>Type :</b> html
 
-<b>Protocol : </b>
+<b>Protocol : </b>HTTP GET
 
-<b>URI :</b>
+<b>URI :</b><BASE>terms/publication/{publication_identifier}/?media=htm
+:Note: The publication_identifier can be a publication's DOI or title
 
-<b>Output :</b>
-<BASE>terms/publication/{publication_identifier}/?media=htm
+<b>Output :</b>All requested terms with the provided publication as their reference in html format
+
 ----
 === Get all terms in xml format using publication_identifier(publication's DOI or title)===
 <b>Type :</b>
