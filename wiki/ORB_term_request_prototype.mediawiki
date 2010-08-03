@@ -349,11 +349,18 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <BASE>terms/trial/?media=xml
 
 == Search term using orbid in XML format and return in xml format. {orbit} is variable==
-POST <BASE>terms/search/?media=xml HTTP/1.1
+
+'''HTTP method'''
+POST
+
+'''Content'''
 <search>
 <term_identifier>orbid</term_identifier>
 <term_identifier_value>{orbid}</term_identifier_value>
 </search>
+
+'''URI'''
+<BASE>terms/search/?media=xml HTTP/1.1
 
 == Project plan ==
 ''An agile approach will be used in ORB development. The sign √ indicates accomplished tasks while * indicates tasks which ought to have been implemented but haven't been''
