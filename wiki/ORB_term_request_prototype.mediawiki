@@ -349,22 +349,11 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <BASE>terms/trial/?media=xml
 
 == Search term using orbid in XML format and return in xml format. {orbit} is variable==
-POST /orbprototype/terms/search/?media=xml HTTP/1.1
+POST <BASE>terms/search/?media=xml HTTP/1.1
 <search>
 <term_identifier>orbid</term_identifier>
 <term_identifier_value>{orbid}</term_identifier_value>
 </search>
-
-21. Search term using term name(i.e terminate) in XML and return in xml format. {terminate} is variable and is 
-POST /orbprototype/terms/search/?media=xml HTTP/1.1
-
-<search>
-<term_identifier>termname</term_identifier>
-<term_identifier_value>{terminame}</term_identifier_value>
-</search>
-
-22. Search term using a definition and return the matching term(s) in xml format
-POST /orbprototype/terms/search/?media=xml HTTP/1.1
 
 == Project plan ==
 ''An agile approach will be used in ORB development. The sign √ indicates accomplished tasks while * indicates tasks which ought to have been implemented but haven't been''
