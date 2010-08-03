@@ -492,7 +492,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>Protocol : </b> HTTP POST
 
-<b>URI :</b><BASE>terms/search/?media=xml
+<b>URI :</b><BASE>terms/search/?media=xml<br />
 <b>Input :</b><br />
 :<search>
 ::<term_identifier>orbid</term_identifier>
