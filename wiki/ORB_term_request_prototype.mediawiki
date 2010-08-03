@@ -304,7 +304,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <BASE>terms/obsolete/?media=htm
 
 ==Get all obsoleted terms in xml format==
-/orbprototype/terms/obsolete/?media=xml
+<BASE>terms/obsolete/?media=xml
 
 ==Get all terms from an ontology with an ontology_identifier(name of ontology or prefix) in html format==
 /orbprototype/terms/ontology/{ontology_identifier}/?media=htm
