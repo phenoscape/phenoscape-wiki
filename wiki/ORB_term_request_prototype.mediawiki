@@ -23,6 +23,17 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 [[Image:ORB use cases.jpg]]
 
 ----
+Case:Request term via Phenex interface
+Brief: This is a use case for an ontology curator/user who's working within[https://www.phenoscape.org/wiki/Phenex Phenex] interface
+
+Actor: ontology curator
+
+Pre-condition: User is curating an ontology using Phenex
+
+Ideal path
+
+
+----
 '''Case:Register'''
 Brief: This is a use case for creating an account in ORB
 
