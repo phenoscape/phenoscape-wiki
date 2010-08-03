@@ -303,6 +303,8 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>Output :</b>User requested terms in html format
 ----
+
+
 ===Get all terms in xml format===
 <b>Type :</b>xml
 
@@ -315,56 +317,177 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 ----
 
 ===Get all obsoleted terms in htm format===
-====URI====
-<BASE>terms/obsolete/?media=htm
+<b>Type :</b>html
+
+<b>Protocol : </b> HTTP GET
+
+<b>URI :</b><BASE>terms/obsolete/?media=htm
+
+<b>Output :</b>All users requested terms that have been obsoleted in html format
+
 ----
 ===Get all obsoleted terms in xml format===
-<BASE>terms/obsolete/?media=xml
+<b>Type :</b> xml
+
+<b>Protocol : </b> 
+
+<b>URI :</b><BASE>terms/obsolete/?media=xml
+
+<b>Output :</b>All users requested terms that have been obsoleted in xml format
+
 ----
+
+
 ===Get all terms from an ontology with an ontology_identifier(name of ontology or prefix) in html format===
+<b>Type :</b>
+
+<b>Protocol : </b> 
+
+<b>URI :</b>
+
+<b>Output :</b>
 <BASE>terms/ontology/{ontology_identifier}/?media=htm
 ----
 ===Get all terms from an ontology with an ontology_identifier(name of ontology or prefix) in xml format===
+
+<b>Type :</b>
+
+<b>Protocol : </b> 
+
+<b>URI :</b>
+
+<b>Output :</b>
 <BASE>terms/ontology/{ontology_identifier}/?media=xml
 ----
 ===Get all pending terms in html format===
+<b>Type :</b>
+
+<b>Protocol : </b> 
+
+<b>URI :</b>
+
+<b>Output :</b>
 <BASE>terms/pending/?media=htm
 ----
 ===Get all pending terms in xml format===
+<b>Type :</b>
+
+<b>Protocol : </b> 
+
+<b>URI :</b>
+
+<b>Output :</b>
 <BASE>terms/pending/?media=xml
 ----
 === Get all terms in html format using publication_identifier(publication's DOI or title)===
+<b>Type :</b>
+
+<b>Protocol : </b> 
+
+<b>URI :</b>
+
+<b>Output :</b>
 <BASE>terms/publication/{publication_identifier}/?media=htm
 ----
 === Get all terms in xml format using publication_identifier(publication's DOI or title)===
+<b>Type :</b>
+
+<b>Protocol : </b> 
+
+<b>URI :</b>
+
+<b>Output :</b>
 <BASE>terms/publication/{publication_identifier}/?media=xml
 ----
 ===Get all terms in html format requested by {requester_identifier}===
+<b>Type :</b>
+
+<b>Protocol : </b> 
+
+<b>URI :</b>
+
+<b>Output :</b>
 The requester_identifier is a text which could be the requester's name or e-mail
 <BASE>terms/requester/{requester_identifier}/?media=htm
 ----
 ===Get all terms in xml format requested by {requester_identifier}. The requester_identifier is a text which could be the requester's name or e-mail===
+<b>Type :</b>
+
+<b>Protocol : </b> 
+
+<b>URI :</b>
+
+<b>Output :</b>
 <BASE>terms/requester/{requester_identifier}/?media=xml
 ----
 ===Get all resolved terms in html format===
+<b>Type :</b>
+
+<b>Protocol : </b> 
+
+<b>URI :</b>
+
+<b>Output :</b>
 <BASE>terms/resolved/?media=htm
 ----
 === Get all resolved terms in xml format===
+<b>Type :</b>
+
+<b>Protocol : </b> 
+
+<b>URI :</b>
+
+<b>Output :</b>
 <BASE>terms/resolved/?media=xml
 ----
 === Get most commented terms in html format===
+<b>Type :</b>
+
+<b>Protocol : </b> 
+
+<b>URI :</b>
+
+<b>Output :</b>
 <BASE>terms/top/?media=htm
 ----
 === Get most commented terms in xml format===
+<b>Type :</b>
+
+<b>Protocol : </b> 
+
+<b>URI :</b>
+
+<b>Output :</b>
 <BASE>terms/top/?media=xml
 ----
 === Get all trial terms in html format===
+<b>Type :</b>
+
+<b>Protocol : </b> 
+
+<b>URI :</b>
+
+<b>Output :</b>
 <BASE>terms/trial/?media=htm
 ----
 === Get all trial terms in xml format===
+<b>Type :</b>
+
+<b>Protocol : </b> 
+
+<b>URI :</b>
+
+<b>Output :</b>
 <BASE>terms/trial/?media=xml
 ----
 === Search term using orbid in XML format and return in xml format. {orbit} is variable===
+<b>Type :</b>
+
+<b>Protocol : </b> 
+
+<b>URI :</b>
+
+<b>Output :</b>
 
 '''HTTP method'''
 POST
