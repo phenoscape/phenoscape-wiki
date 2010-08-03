@@ -302,11 +302,11 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <b>URI :</b><BASE>terms/?media=htm
 
 <b>Output :</b>User requested terms in html format
-
+----
 ===Get all terms in xml format===
 ====URI====
 <BASE>terms/?media=xml
-
+----
 ===Get all obsoleted terms in htm format===
 ====URI====
 <BASE>terms/obsolete/?media=htm
