@@ -292,7 +292,7 @@ Alternative path:
 [[Image:ORB schema.png]]
 
 ==Services==
-Here is a list of all the web-services provided by ORB. The base URI (represented as <BASE> in the services URIs) is: /orbprototype/
+Here is a list of all the web-services provided by ORB. The base URI (represented as,  <BASE> in the services URIs) is: /orbprototype/
 
 ===Get all terms in html format===
 <b>Type :</b>html
@@ -304,8 +304,14 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <b>Output :</b>User requested terms in html format
 ----
 ===Get all terms in xml format===
-====URI====
-<BASE>terms/?media=xml
+<b>Type :</b>html
+
+<b>Protocol : </b> HTTP GET
+
+<b>URI :</b><BASE>terms/?media=xml
+
+<b>Output :</b>User requested terms in xml format
+
 ----
 ===Get all obsoleted terms in htm format===
 ====URI====
