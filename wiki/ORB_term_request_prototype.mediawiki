@@ -297,7 +297,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 ===Get all terms in html format===
 <BASE>terms/?media=htm
 
-==Get all terms in xml format==
+===Get all terms in xml format===
 <BASE>terms/?media=xml
 
 ==Get all obsoleted terms in htm format==
