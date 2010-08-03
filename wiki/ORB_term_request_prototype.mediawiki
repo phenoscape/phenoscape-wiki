@@ -360,7 +360,7 @@ POST
 </search>
 
 '''URI'''
-<BASE>terms/search/?media=xml HTTP/1.1
+<BASE>terms/search/?media=xml
 
 == Project plan ==
 ''An agile approach will be used in ORB development. The sign √ indicates accomplished tasks while * indicates tasks which ought to have been implemented but haven't been''
