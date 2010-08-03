@@ -344,11 +344,12 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <b>Protocol : </b> HTTP GET
 
 <b>URI :</b><BASE>terms/ontology/{ontology_identifier}/?media=htm <br />
-The {ontology_identifier}refers to either the name or prefix of an ontology e.g Teleost Anatomy Ontology (name) or TAO (prefix)
+:The {ontology_identifier}refers to either the name or prefix of an ontology e.g Teleost Anatomy Ontology (name) or TAO (prefix)
 
 <b>Output :</b>
 
 ----
+
 ===Get all terms from an ontology with an ontology_identifier(name of ontology or prefix) in xml format===
 
 <b>Type :</b>
