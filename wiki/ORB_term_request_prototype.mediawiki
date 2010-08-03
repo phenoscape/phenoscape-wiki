@@ -304,7 +304,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <b>Output :</b>User requested terms in html format
 ----
 ===Get all terms in xml format===
-<b>Type :</b>html
+<b>Type :</b>xml
 
 <b>Protocol : </b> HTTP GET
 
@@ -313,6 +313,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <b>Output :</b>User requested terms in xml format
 
 ----
+
 ===Get all obsoleted terms in htm format===
 ====URI====
 <BASE>terms/obsolete/?media=htm
