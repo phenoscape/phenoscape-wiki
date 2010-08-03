@@ -294,7 +294,7 @@ Alternative path:
 ==Services==
 Here is a list of all the web-services provided by ORB. The base URI (represented as <BASE> in the services URIs) is: /orbprototype/
 
-==Get all terms in html format==
+===Get all terms in html format===
 <BASE>terms/?media=htm
 
 ==Get all terms in xml format==
