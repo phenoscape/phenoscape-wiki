@@ -348,7 +348,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 == Get all trial terms in xml format==
 <BASE>terms/trial/?media=xml
 
-== Search term using orbid in XML format and return in xml format. {orbit} is variable==
+=== Search term using orbid in XML format and return in xml format. {orbit} is variable===
 
 '''HTTP method'''
 POST
