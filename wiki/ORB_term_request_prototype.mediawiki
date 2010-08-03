@@ -301,7 +301,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <BASE>terms/?media=xml
 
 ==Get all obsoleted terms in htm format==
-/orbprototype/terms/obsolete/?media=htm
+<BASE>terms/obsolete/?media=htm
 
 ==Get all obsoleted terms in xml format==
 /orbprototype/terms/obsolete/?media=xml
