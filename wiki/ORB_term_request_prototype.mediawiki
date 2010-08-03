@@ -499,7 +499,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 ::<term_identifier_value>{orbid}</term_identifier_value>
 :</search>
 
-<b>Output :</b> A term matching the orbid provided in the variable {orbid}
+<b>Output :</b> A term matching the orbid provided in the variable {orbid} in xml format
 
 == Project plan ==
 ''An agile approach will be used in ORB development. The sign √ indicates accomplished tasks while * indicates tasks which ought to have been implemented but haven't been''
