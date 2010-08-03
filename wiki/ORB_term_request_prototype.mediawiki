@@ -23,7 +23,7 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 [[Image:ORB use cases.jpg]]
 
 ----
-'''Case:Request term via Phenex interface'''
+'''Case:Request term via Phenex interface''' <br />
 Brief: This is a use case for an ontology curator/user who's working within [https://www.phenoscape.org/wiki/Phenex Phenex] interface
 
 Actor: ontology curator
@@ -44,7 +44,7 @@ Invalid path : This occurs when the user submits an invalid request
 #ORB return the term submission GUI with the invalid field(s) highlighted
 
 ----
-'''Case:Register'''
+'''Case:Register''' <br />
 Brief: This is a use case for creating an account in ORB
 
 Actor:ORB user
