@@ -319,7 +319,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <BASE>terms/pending/?media=xml
 
 == Get all terms in html format using publication_identifier(publication's DOI or title)==
-/orbprototype/terms/publication/{publication_identifier}/?media=htm
+<BASE>terms/publication/{publication_identifier}/?media=htm
 
 == Get all terms in xml format using publication_identifier(publication's DOI or title)==
 /orbprototype/terms/publication/{publication_identifier}/?media=xml
