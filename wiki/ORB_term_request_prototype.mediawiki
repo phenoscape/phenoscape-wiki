@@ -291,7 +291,8 @@ Alternative path:
 
 [[Image:ORB schema.png]]
 
-==REST services==
+=Services==
+Here is a list of all the web-services provided by ORB
 
 == Project plan ==
 ''An agile approach will be used in ORB development. The sign √ indicates accomplished tasks while * indicates tasks which ought to have been implemented but haven't been''
