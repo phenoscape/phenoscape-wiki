@@ -337,7 +337,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <BASE>terms/resolved/?media=xml
 
 == Get most commented terms in html format==
-http://localhost:8008/orbprototype/terms/top/?media=htm
+<BASE>terms/top/?media=htm
 
 == Get most commented terms in xml format==
 http://localhost:8008/orbprototype/terms/top/?media=xml
