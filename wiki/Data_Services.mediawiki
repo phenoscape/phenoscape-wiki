@@ -670,7 +670,7 @@ JSON
 
  <BASE URI>/publication/annotated?query=[url-encoded-json]&sortby=[publication]&limit=[count]&index=[start_index]&desc=[true|false]
 
-All URI parameters are optional. If no JSON-formatted query specification is provided, all publications will be returned. The <code>limit</code> parameter limits the number of results to the given integer count. This must be a positive integer. The <code>index</code> parameter can be used for pagination under a given sorting and limit regime. It should be greater than or equal to zero (the default). <code>desc</code> can be used to return the results in descending order (it is false by default). If a value is not provided for <code>sortby</code>, the sort order, limit, and start index are not very useful.
+All URI parameters are optional. If no JSON-formatted query specification is provided, all annotated publications will be returned. The <code>limit</code> parameter limits the number of results to the given integer count. This must be a positive integer. The <code>index</code> parameter can be used for pagination under a given sorting and limit regime. It should be greater than or equal to zero (the default). <code>desc</code> can be used to return the results in descending order (it is false by default). If a value is not provided for <code>sortby</code>, the sort order, limit, and start index are not very useful.
 
 '''Phenotype query specification'''
 
@@ -700,14 +700,8 @@ The value of the <code>query</code> parameter should be an annotation query repr
         }
     }
     ],
-    "publication": [
-     {
-       "id": "PSPUB:1243"
-     }
-    ],
     "match_all_phenotypes": false,
-    "match_all_publications": false,
-    "include_inferred": false
+    "match_all_taxa": false
 }
 </javascript>
 It should be URL-encoded to include in the request.
