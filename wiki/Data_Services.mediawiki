@@ -710,19 +710,12 @@ It should be URL-encoded to include in the request.
 
 JSON
 <javascript>
-{"total":2312, "taxa":[
-{"id":"TTO:1068687","extinct":false,
-"rank":{"id":"TAXRANK:0000006","name":"species"},
-"order":{"id":"TTO:1360","extinct":false,"name":"Cypriniformes"},
-"family":{"id":"TTO:10760","extinct":false,"name":"Cyprinidae"},
-"name":"Abbottina binhi"},
-{"id":"TTO:1004289","extinct":false,
-"rank":{"id":"TAXRANK:0000006","name":"species"},
-"order":{"id":"TTO:1370","extinct":false,"name":"Characiformes"},
-"family":{"id":"TTO:10856","extinct":false,"name":"Anostomidae"},
-"name":"Abramites hypselonotus"}
-]
-}
+{"total":19, "publications":[
+{"id":"PSPUB:0000002","name":"Armbruster 2004"},
+{"id":"PSPUB:0000006","name":"Bockmann 1998"},
+{"id":"PSPUB:0000009","name":"Bornbusch 1995"},
+{"id":"PSPUB:0000011","name":"Britto 2003"},
+{"id":"PSPUB:0000018","name":"Chen 1994"}]}
 </javascript>
 
 [[Category:Informatics]]
