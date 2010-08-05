@@ -450,6 +450,86 @@ JSON:
 }
 </javascript>
 
+==Gene annotation sources==
+'''URI'''
+
+ <BASE URI>/annotation/gene?query=[url-encoded-json]
+
+A JSON-formatted query specification must be provided.  It must contain entries for one annotation, including gene, entity, quality, and optional related entity.
+
+'''Phenotype query specification'''
+
+The value of the <code>query</code> parameter should be an annotation query represented as JSON, following this structure (in practice it should be collapsed as far as possible to shorten the URL):
+
+<javascript>
+{
+    "gene": [
+    {
+        "id": "ZFIN:XXXX"
+    }
+    ],
+    "phenotype": [
+    {
+        "entity": {
+            "id": "TAO:XXXX",
+            "including_parts": false
+        },
+        "quality": {
+            "id": "PATO:XXXX"
+        },
+        "related_entity": {
+            "id": "TAO:YYYYY"
+        }
+    }
+    ]
+}
+</javascript>
+It should be URL-encoded to include in the request.
+
+'''Returns'''
+
+JSON:
+<javascript>
+{
+    "total": 5478,
+    "annotations": [
+    {
+        "gene": {
+            "id": "TAO0001514",
+            "name": "brph1"
+        },
+        "entity": {
+            "id": "TAO0001516",
+            "name": "basihyal bone"
+        },
+        "quality": {
+            "id": "TAO0001517",
+            "name": "fused with"
+        },
+        "related_entity": {
+            "id": "TAO0001518",
+            "name": "posterior ceratohyal"
+        }
+    },
+    {
+        "gene": {
+            "id": "TAO0001522",
+            "name": "brph2"
+        },
+        "entity": {
+            "id": "TAO0001524",
+            "name": "fossa of basihyal bone"
+        },
+        "quality": {
+            "id": "TAO0001525",
+            "name": "decreased width"
+        },
+        "related_entity": null
+    }
+    ]
+}
+</javascript>
+
 ==Genes==
 
 '''URI'''
