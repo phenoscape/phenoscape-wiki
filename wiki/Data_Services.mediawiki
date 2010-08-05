@@ -651,6 +651,60 @@ JSON
 }
 </javascript>
 
+==Taxon annotation sources==
+'''URI'''
+
+ <BASE URI>/annotation/taxon/source?query=[url-encoded-json]
+
+A JSON-formatted query specification must be provided.  It must contain entries for one annotation, including taxon, entity, quality, and optional related entity. While the taxon and phenotype entries are lists, this is just for consistency with the query format used in other services - each list should contain only one entry.
+
+'''Phenotype query specification'''
+
+The value of the <code>query</code> parameter should be an annotation query represented as JSON, following this structure (in practice it should be collapsed as far as possible to shorten the URL):
+
+<javascript>
+{
+    "taxon": [
+    {
+        "id": "TTO:XXXX"
+    }
+    ],
+    "phenotype": [
+    {
+        "entity": {
+            "id": "TAO:XXXX",
+            "including_parts": false
+        },
+        "quality": {
+            "id": "PATO:XXXX"
+        },
+        "related_entity": {
+            "id": "TAO:YYYYY"
+        }
+    }
+    ]
+}
+</javascript>
+It should be URL-encoded to include in the request.
+
+'''Returns'''
+
+JSON:
+<javascript>
+{"annotations":[
+{"taxon":{"id":"ZFIN:ZDB-GENE-040426-731","name":"brpf1"},
+"entity":{"id":"TAO:0000316","name":"basihyal bone"},
+"quality":{"id":"PATO:0000587","name":"decreased size"},
+"genotype":{"id":"ZFIN:ZDB-GENO-080925-12","name":"brpf1<sup>b943/b943<\/sup>","type":{"id":"SO:0001027","name":"genotype"}},
+"publication":{"id":"ZFIN:ZDB-PUB-080515-4","name":"Laue, K., Daujat, S., Crump, J.G., Plaster, N., Roehl, H.H.; Tübingen 2000 Screen Consortium, Kimmel, C.B., Schneider, R., and Hammerschmidt, M.. 2008. The multidomain protein Brpf1 binds histones and is required for Hox gene expression and segmental identity. Development 135(11):1935-1946."}},
+{"gene":{"id":"ZFIN:ZDB-GENE-040426-731","name":"brpf1"},
+"entity":{"id":"TAO:0000316","name":"basihyal bone"},
+"quality":{"id":"PATO:0000587","name":"decreased size"},
+"genotype":{"id":"ZFIN:ZDB-GENO-080925-13","name":"brpf1<sup>t20002/t20002<\/sup>","type":{"id":"SO:0001027","name":"genotype"}},
+"publication":{"id":"ZFIN:ZDB-PUB-080515-4","name":"Laue, K., Daujat, S., Crump, J.G., Plaster, N., Roehl, H.H.; Tübingen 2000 Screen Consortium, Kimmel, C.B., Schneider, R., and Hammerschmidt, M.. 2008. The multidomain protein Brpf1 binds histones and is required for Hox gene expression and segmental identity. Development 135(11):1935-1946."}}
+]}
+</javascript>
+
 ==Taxa==
 
 '''URI'''
