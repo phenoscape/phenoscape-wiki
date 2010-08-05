@@ -491,8 +491,16 @@ It should be URL-encoded to include in the request.
 JSON:
 <javascript>
 {"annotations":[
-{"gene":{"id":"ZFIN:ZDB-GENE-040426-731","name":"brpf1"},"entity":{"id":"TAO:0000316","name":"basihyal bone"},"quality":{"id":"PATO:0000587","name":"decreased size"},"genotype":{"id":"ZFIN:ZDB-GENO-080925-12","name":"brpf1<sup>b943/b943<\/sup>","type":{"id":"SO:0001027","name":"genotype"}},"publication":{"id":"ZFIN:ZDB-PUB-080515-4","name":"Laue, K., Daujat, S., Crump, J.G., Plaster, N., Roehl, H.H.; Tübingen 2000 Screen Consortium, Kimmel, C.B., Schneider, R., and Hammerschmidt, M.. 2008. The multidomain protein Brpf1 binds histones and is required for Hox gene expression and segmental identity. Development 135(11):1935-1946."}},
-{"gene":{"id":"ZFIN:ZDB-GENE-040426-731","name":"brpf1"},"entity":{"id":"TAO:0000316","name":"basihyal bone"},"quality":{"id":"PATO:0000587","name":"decreased size"},"genotype":{"id":"ZFIN:ZDB-GENO-080925-13","name":"brpf1<sup>t20002/t20002<\/sup>","type":{"id":"SO:0001027","name":"genotype"}},"publication":{"id":"ZFIN:ZDB-PUB-080515-4","name":"Laue, K., Daujat, S., Crump, J.G., Plaster, N., Roehl, H.H.; Tübingen 2000 Screen Consortium, Kimmel, C.B., Schneider, R., and Hammerschmidt, M.. 2008. The multidomain protein Brpf1 binds histones and is required for Hox gene expression and segmental identity. Development 135(11):1935-1946."}}
+{"gene":{"id":"ZFIN:ZDB-GENE-040426-731","name":"brpf1"},
+"entity":{"id":"TAO:0000316","name":"basihyal bone"},
+"quality":{"id":"PATO:0000587","name":"decreased size"},
+"genotype":{"id":"ZFIN:ZDB-GENO-080925-12","name":"brpf1<sup>b943/b943<\/sup>","type":{"id":"SO:0001027","name":"genotype"}},
+"publication":{"id":"ZFIN:ZDB-PUB-080515-4","name":"Laue, K., Daujat, S., Crump, J.G., Plaster, N., Roehl, H.H.; Tübingen 2000 Screen Consortium, Kimmel, C.B., Schneider, R., and Hammerschmidt, M.. 2008. The multidomain protein Brpf1 binds histones and is required for Hox gene expression and segmental identity. Development 135(11):1935-1946."}},
+{"gene":{"id":"ZFIN:ZDB-GENE-040426-731","name":"brpf1"},
+"entity":{"id":"TAO:0000316","name":"basihyal bone"},
+"quality":{"id":"PATO:0000587","name":"decreased size"},
+"genotype":{"id":"ZFIN:ZDB-GENO-080925-13","name":"brpf1<sup>t20002/t20002<\/sup>","type":{"id":"SO:0001027","name":"genotype"}},
+"publication":{"id":"ZFIN:ZDB-PUB-080515-4","name":"Laue, K., Daujat, S., Crump, J.G., Plaster, N., Roehl, H.H.; Tübingen 2000 Screen Consortium, Kimmel, C.B., Schneider, R., and Hammerschmidt, M.. 2008. The multidomain protein Brpf1 binds histones and is required for Hox gene expression and segmental identity. Development 135(11):1935-1946."}}
 </javascript>
 
 ==Genes==
