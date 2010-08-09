@@ -24,11 +24,11 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 '''Case:Place a term request within an ontology annotation application''' <br />
 
 Brief: One of the key challenges in ontological data annotation is placing a new term request.During annotation, a user normally has to switch from his/her annotation platform/application ( for example[https://www.phenoscape.org/wiki/Phenex Phenex]) to a different URL (such as sourceforge based term tracker) to place a request. This poses a bottleneck to efficient data annotation especially in large-scale projects.
-An annotator working with an annotation application integrating ORB's submit term request service, can submit a new request and receive a temporary ID to work with before the requested term is assigned an official ontology ID. 
+An annotator working with an annotation application integrating ORB's submit term request service, can submit a new request and receive a temporary ID to work with before the requested term is assigned an official ontology ID.
 
 Actor: annotator of data using ontology terms
 
-Pre-condition: 
+Pre-condition:
 -The antology annotation application being used is integrated to ORB's submit term request service
 
 Ideal path
@@ -37,12 +37,46 @@ The process is initiated when the user initiates new term request within the ann
 # User completes the term submission fields
 #User clicks on the submit button
 # ORB validates the request
-# ORB informs the user of successful term submission and provides a temporary ID assigned to the term
+# ORB informs the user of successful term submission and provides a temporary ID(referred to as ORB ID) assigned to the term
 # Adds the new request to the database
 
 Invalid path : This occurs when the user submits an invalid request
 #ORB alerts the user that the request is invalid
 #ORB return the term submission GUI with the invalid field(s) highlighted
+
+----
+
+'''Case:Get term from the ontology annotation application''' <br />
+
+Brief: After placing a term request, a ontology annotator would like to find out if the term has been resolved (i.e assigned the correct name and ontology ID).
+
+Actor: ontology annotator
+
+Pre-condition
+-The antology annotation application being used is integrated to ORB's get term via orb ID service.
+Ideal path
+The process is initiated when the user initiates get term via ORB ID within the annotation application
+# A GUI for inserting the ORB ID is generated
+# User inserts the ID
+#User clicks on the submit button
+# ORB validates the request
+# ORB informs user that the term has been resolved and returns the resolved term's name, ontology ID, definition plus other related information 
+
+Alternative paths:
+
+If the term is still pending
+#ORB informs the user that the term is still pending and  returns the term's name, ORB ID plus any other updates relating to the term
+
+If the term is obsoleted
+#ORB informs user that the term has been obsoleted and returns the suggested correct ontology term if one exists
+#ORB also returns any comments that may give a clue to the user why the term was obsoleted
+
+If a term matching the ORB ID is not found
+#ORB informs user that no match was found
+#ORB suggests to the user to verify if the ORB ID provided was correct an if he/she wants to re-submit another ORB ID
+
+
+
 
 ----
 '''Case:Register''' <br />
@@ -73,6 +107,8 @@ Invalid e-mail address: This occurs when a user provides an invalid e-mail addre
 # ORB terminates the registration
 # ORB informs user the e-mail address is invalid
 # ORB returns the registration page
+
+
 
 
 ----
