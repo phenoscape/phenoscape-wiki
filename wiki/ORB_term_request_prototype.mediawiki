@@ -19,10 +19,8 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 
 
 ==Use cases==
-'''Use cases diagram'''
-[[Image:ORB use cases.jpg]]
 
-----
+
 '''Case:Request term via Phenex interface''' <br />
 Brief: This is a use case for an ontology curator/user who's working within [https://www.phenoscape.org/wiki/Phenex Phenex] interface
 
