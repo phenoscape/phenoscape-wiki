@@ -21,15 +21,18 @@ Here is a documentation of ORB term request service. ORB will be accessible via 
 ==Use cases==
 
 
-'''Case:Request term via Phenex interface''' <br />
-Brief: This is a use case for an ontology curator/user who's working within [https://www.phenoscape.org/wiki/Phenex Phenex] interface
+'''Case:Place a term request within an ontology annotation application''' <br />
 
-Actor: ontology curator
+Brief: One of the key challenges in ontological data annotation is placing a new term request.During annotation, a user normally has to switch from his/her annotation platform/application ( for example[https://www.phenoscape.org/wiki/Phenex Phenex]) to a different URL (such as sourceforge based term tracker) to place a request. This poses a bottleneck to efficient data annotation especially in large-scale projects.
+An annotator working with an annotation application integrating ORB's submit term request service, can submit a new request and receive a temporary ID to work with before the requested term is assigned an official ontology ID. 
 
-Pre-condition: User is curating an ontology using Phenex
+Actor: annotator of data using ontology terms
+
+Pre-condition: 
+-The antology annotation application being used is integrated to ORB's submit term request service
 
 Ideal path
-The process is initiated when the user clicks on the ORB submit term request widget in Phenex
+The process is initiated when the user initiates new term request within the annotation application
 # A GUI for term submission is generated
 # User completes the term submission fields
 #User clicks on the submit button
