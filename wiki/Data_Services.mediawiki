@@ -671,8 +671,7 @@ The value of the <code>query</code> parameter should be an annotation query repr
     "phenotype": [
     {
         "entity": {
-            "id": "TAO:XXXX",
-            "including_parts": false
+            "id": "TAO:XXXX"
         },
         "quality": {
             "id": "PATO:XXXX"
