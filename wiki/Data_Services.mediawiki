@@ -655,7 +655,7 @@ JSON
 
  <BASE URI>/annotation/taxon/source?query=[url-encoded-json]
 
-A JSON-formatted query specification must be provided.  It must contain entries for one annotation, including taxon, entity, quality, and optional related entity. While the taxon and phenotype entries are lists, this is just for consistency with the query format used in other services - each list should contain only one entry.
+A JSON-formatted query specification must be provided.  It must contain entries for one annotation, including taxon, entity, quality, and optional related entity. While the taxon and phenotype entries are lists, this is just for consistency with the query format used in other services - each list should contain only one entry. The "publication" list is optional, but may contain multiple publications within which to constrain the results.
 
 '''Phenotype query specification'''
 
@@ -680,6 +680,11 @@ The value of the <code>query</code> parameter should be an annotation query repr
             "id": "TAO:YYYYY"
         }
     }
+    ],
+    "publication": [
+     {
+       "id": "PSPUB:1243"
+     }
     ]
 }
 </javascript>
