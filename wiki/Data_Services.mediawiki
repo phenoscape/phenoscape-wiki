@@ -306,14 +306,15 @@ If there is no term with the given ID, the service should return "404 Not Found"
 
  <BASE URI>/term/names
 
-This service accepts a list of term IDs returns a JSON mapping of IDs to names. Rank and extinct status are included in the output for taxon terms.
+This service accepts a list of term IDs and returns a JSON mapping of IDs to names. Rank and extinct status are included in the output for taxon terms.  The <code>render_postcompositions</code> key is optional, and can take the values "none" (the default), "structure", "semantic_label", or "simple_label".
 
 '''Accepts via POST'''
 
 JSON:
 <javascript>
 {
-"ids":["TAO:0000620", "TTO:1380", "TTO:11021", "ZFIN:ZDB-GENE-061116-1"]
+"ids":["TAO:0000620", "TTO:1380", "TTO:11021", "ZFIN:ZDB-GENE-061116-1"],
+"render_postcompositions": "none"
 }
 </javascript>
 
