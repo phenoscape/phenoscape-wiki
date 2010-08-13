@@ -135,6 +135,11 @@ Epibranchial number: (0) 3; (1) 4.  After careful reading of associated text in 
 Epibranchial bone number: (0) 3; (1) 4
  E: epibranchial bone; Q: count; Comment: 3 or Comment: 4
 
+=== Contralateral halves of bilaterally paired structures ===
+
+Terms for the contralateral halves of bilaterally paired structures are created using the in_right_side_of  and in_left_side_of relations in a post-composition, where the perspective is from the standpoint of the organism. For example:
+ E: frontal^''in_right_side_of''(body), Q: fused with, RE: frontal^''in_left_side_of''(body).
+
 == Creating or refining terms  by post-composition ==
 
 Often times the need arises to create a new term at the time of annotation ("post-composition"), rather than requesting that the new term is formally added to the ontology.  Such cases typically arise when annotating the presence of processes on bones. In some cases a more granular term is required than is already present in the ontology, whether it is the anatomical entity or the quality. For example,  to prevent ontology "bloat", regions, margins, and projections of a bone are not in the anatomy ontology, but the bone itself is, and the concepts of margin, relative location of the margin (anterior, posterior, ventral, dorsal, etc), or bony projection are too, or are in other ontologies (spatial aspect, for example). Similarly, the directionality of a phenotype (such as a rotation, or curvature) isn't necessarily present in PATO, but the component terms necessary to express it are. The act of combining terms on-the-fly into cross-product terms is called post-composition, as opposed to pre-composed terms that are already in the ontology.
