@@ -571,7 +571,7 @@ Web form containing all the term input fields
 ===Post term in XML format ===
 <b> URI : </b><BASE>/orbprototype/terms/?media=xml <br />
 <b>Input :</b><br />
-Term in XML format adhering to the [https://www.nescent.org/wg/phenoscape/images/9/9b/Term_to_submit_xml_schema.txt posted term(s) schema]
+Term in XML format adhering to the [https://www.nescent.org/wg/phenoscape/images/9/9b/Term_to_submit_xml_schema.txt term(s) to post schema]
 
 <b> Output : </b> A term post success message in html format
 ----
