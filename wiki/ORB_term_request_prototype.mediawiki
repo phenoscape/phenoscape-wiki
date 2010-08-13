@@ -563,9 +563,9 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 ===Post term via a web form===
 <b> URI : </b><BASE>/orbprototype/terms/?postterm=true'<br />
 <b>Input :</b><br />
-Web form 
+Web form containing all the term input fields
 
-<b> Output : </b> A term post succes message in html format
+<b> Output : </b> A term post success message in html format
 ----
 
 == Project plan ==
