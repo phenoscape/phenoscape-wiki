@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="terms">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="term"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="term">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="term_name" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="term_definition" minOccurs="1" maxOccurs="1" />
+                <xs:element ref="term_relationship" minOccurs="1" maxOccurs="unbounded" />
+                <xs:element ref="term_ontology" minOccurs="1" maxOccurs="1" />
+                <xs:element minOccurs="0" ref="term_status" maxOccurs="1">
+        	
+        </xs:element>
+                <xs:element ref="term_requester" minOccurs="1" maxOccurs="1" />
+                <xs:sequence minOccurs="0">
+                    <xs:element ref="term_synonym" minOccurs="0" maxOccurs="unbounded" />
+                    <xs:element ref="term_comment" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="term_publication" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:element minOccurs="0" ref="term_dbxref" maxOccurs="unbounded"/>
+        <xs:element minOccurs="0" ref="term_xref_analog" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="term_name" type="xs:string"/>
+  <xs:element name="term_status" type="xs:string"/>
+  <xs:element name="term_definition">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="definition_text" minOccurs="1" maxOccurs="1"/>
+        <xs:element minOccurs="0" ref="definition_dbxref"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="definition_text" type="xs:string"/>
+  <xs:element name="definition_dbxref" type="xs:string"/>
+  <xs:element name="term_comment" type="xs:string"/>
+  <xs:element name="term_publication">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="publication_title" minOccurs="1" maxOccurs="1"/>
+        <xs:element ref="publication_doi" minOccurs="0" maxOccurs="1"/>
+        <xs:element ref="publication_journal" minOccurs="0" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="publication_title" type="xs:string"/>
+  <xs:element name="publication_doi" type="xs:string"/>
+  <xs:element name="publication_journal" type="xs:string"/>
+  <xs:element name="term_synonym">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="synonym_text" minOccurs="1" maxOccurs="1"/>
+        <xs:element ref="synonym_scope" minOccurs="0" maxOccurs="1"/>
+        <xs:element ref="synonym_type" minOccurs="0" maxOccurs="1"/>
+        <xs:element ref="synonym_dbxref" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="synonym_text" type="xs:string"/>
+  <xs:element name="synonym_scope" type="xs:string"/>
+  <xs:element name="synonym_type" type="xs:string"/>
+  <xs:element name="synonym_dbxref">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="synonym_dbxref_name" minOccurs="1" maxOccurs="1"/>
+        <xs:element ref="synonym_dbxref_accession" minOccurs="0" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="synonym_dbxref_name" type="xs:string"/>
+  <xs:element name="synonym_dbxref_accession" type="xs:string"/>
+  <xs:element name="term_ontology">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ontology_name" minOccurs="1" maxOccurs="1"/>
+        <xs:element ref="ontology_prefix" minOccurs="1" maxOccurs="1"/>
+        <xs:sequence minOccurs="0">
+          <xs:element ref="ontology_domain" minOccurs="0" maxOccurs="1"/>
+          <xs:element maxOccurs="unbounded" ref="ontology_gatekeeper" minOccurs="0"/>
+        </xs:sequence>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ontology_name" type="xs:string"/>
+  <xs:element name="ontology_prefix" type="xs:string"/>
+  <xs:element name="ontology_domain" type="xs:string"/>
+  <xs:element name="ontology_gatekeeper">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="gatekeeper_name" minOccurs="0" maxOccurs="1"/>
+        <xs:element ref="gatekeeper_email" minOccurs="1" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="gatekeeper_name" type="xs:string"/>
+  <xs:element name="gatekeeper_email" type="xs:string"/>
+  <xs:element name="term_dbxref">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="dbxref_dbname" minOccurs="1" maxOccurs="1"/>
+        <xs:element ref="dbxref_accession" minOccurs="0" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dbxref_dbname" type="xs:string"/>
+  <xs:element name="dbxref_accession" type="xs:string"/>
+  <xs:element name="term_requester">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="requester_name" maxOccurs="1"/>
+        <xs:element ref="requester_email" minOccurs="1" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="requester_name" type="xs:string"/>
+  <xs:element name="requester_email" type="xs:string"/>
+  <xs:element name="term_relationship">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="relationship_type"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="relationship_type">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="relationship_to"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="relationship_to" type="xs:string"/>
+  <xs:element name="term_xref_analog">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="xref_analog_name" minOccurs="1" maxOccurs="1"/>
+        <xs:element ref="xref_accession" minOccurs="0" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="xref_analog_name" type="xs:string"/>
+  <xs:element name="xref_accession" type="xs:string"/>
+</xs:schema>
