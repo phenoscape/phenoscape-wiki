@@ -370,7 +370,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>URI :</b><BASE>terms/?media=xml
 
-<b>Output :</b>User requested terms in xml format adhering to [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt the terms XML schema]
+<b>Output :</b>User requested terms in xml format adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt  terms XML schema]
 
 ----
 
@@ -391,7 +391,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>URI :</b><BASE>terms/obsolete/?media=xml
 
-<b>Output :</b>All users requested terms that have been obsoleted in xml format
+<b>Output :</b>All users requested terms that have been obsoleted in xml format adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt terms XML schema]
 
 ----
 
@@ -417,7 +417,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <b>URI :</b><BASE>terms/ontology/{ontology_identifier}/?media=xml
 :Note: The ontology_identifier can either be a name or prefix of an ontology
 
-<b>Output :</b>All requested terms with the provided ontology as their target in xml format
+<b>Output :</b>All requested terms with the provided ontology as their target in xml format adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt terms XML schema]
 
 
 ----
@@ -439,7 +439,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>URI :</b><BASE>terms/pending/?media=xml
 
-<b>Output :</b>All users requested terms that are pending in xml format
+<b>Output :</b>All users requested terms that are pending in xml format adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt terms XML schema]
 
 ----
 === Get all terms in html format using publication_identifier===
@@ -460,7 +460,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>URI :</b> <BASE>terms/publication/{publication_identifier}/?media=xml
 
-<b>Output :</b>All requested terms with the provided publication as their reference in html format
+<b>Output :</b>All requested terms with the provided publication as their reference in XML  format adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt terms XML schema]
 
 ----
 ===Get all terms in html format requested by {requester_identifier}===
@@ -482,7 +482,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <b>URI :</b><BASE>terms/requester/{requester_identifier}/?media=xml
 :Note: The requester_identifier is a text which could be the requester's name or e-mail
 
-<b>Output :</b>A list of terms matching the requester identifier provided in xml
+<b>Output :</b>A list of terms matching the requester identifier provided in xml adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt  terms XML schema]
 
 ----
 ===Get all resolved terms in html format===
@@ -502,7 +502,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>URI :</b><BASE>terms/resolved/?media=xml
 
-<b>Output :</b> A list of all resolved terms in xml format
+<b>Output :</b> A list of all resolved terms in xml format adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt terms XML schema]
 
 ----
 === Get most commented terms in html format===
@@ -522,7 +522,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>URI :</b><BASE>terms/top/?media=xml
 
-<b>Output :</b>A list of 10 (or less) terms with the highest number of comments in xml format
+<b>Output :</b>A list of 10 (or less) terms with the highest number of comments in xml format adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt terms XML schema]
 
 ----
 === Get all trial terms in html format===
@@ -542,7 +542,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>URI :</b> <BASE>terms/trial/?media=xml
 
-<b>Output :</b>  A list of all trial terms in html format
+<b>Output :</b>  A list of all trial terms in XML format adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt terms XML schema]
 
 ----
 === Search term using orbid in XML format and return in xml format===
@@ -557,7 +557,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 ::<term_identifier_value>{orbid}</term_identifier_value>
 :</search>
 
-<b>Output :</b> A term matching the orbid provided in the variable {orbid} in xml format
+<b>Output :</b> A term matching the orbid provided in the variable {orbid} in xml format 
 
 ----
 ===Post term via a web form===
@@ -571,7 +571,7 @@ Web form containing all the term input fields
 ===Post term in XML format ===
 <b> URI : </b><BASE>/orbprototype/terms/?media=xml <br />
 <b>Input :</b><br />
-Term in XML format adhering to the [https://www.nescent.org/wg/phenoscape/images/9/9b/Term_to_submit_xml_schema.txt schema]
+Term in XML format adhering to the [https://www.nescent.org/wg/phenoscape/images/9/9b/Term_to_submit_xml_schema.txt posted term(s) schema]
 
 <b> Output : </b> A term post success message in html format
 ----
