@@ -370,7 +370,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>URI :</b><BASE>terms/?media=xml
 
-<b>Output :</b>User requested terms in xml format
+<b>Output :</b>User requested terms in xml format adhering to the terms XML schema
 
 ----
 
