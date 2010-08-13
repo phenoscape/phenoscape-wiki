@@ -512,17 +512,17 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>URI :</b><BASE>terms/top/?media=htm
 
-<b>Output :</b> A list of 10 (or less) terms with the highest number of comments in html format 
+<b>Output :</b> A list of 10 (or less) terms with the highest number of comments in html format
 
 ----
 === Get most commented terms in xml format===
 <b>Type :</b> xml
 
-<b>Protocol : </b>HTTP GET 
+<b>Protocol : </b>HTTP GET
 
 <b>URI :</b><BASE>terms/top/?media=xml
 
-<b>Output :</b>A list of 10 (or less) terms with the highest number of comments in xml format 
+<b>Output :</b>A list of 10 (or less) terms with the highest number of comments in xml format
 
 ----
 === Get all trial terms in html format===
@@ -538,7 +538,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 === Get all trial terms in xml format===
 <b>Type :</b> xml
 
-<b>Protocol : </b>HTTP GET 
+<b>Protocol : </b>HTTP GET
 
 <b>URI :</b> <BASE>terms/trial/?media=xml
 
@@ -558,6 +558,15 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 :</search>
 
 <b>Output :</b> A term matching the orbid provided in the variable {orbid} in xml format
+
+----
+===Post term via a web form===
+<b> URI : </b><BASE>/orbprototype/terms/?postterm=true'<br />
+<b>Input :</b><br />
+Web form 
+
+<b> Output : </b> A term post succes message in html format
+----
 
 == Project plan ==
 ''An agile approach will be used in ORB development. The sign √ indicates accomplished tasks while * indicates tasks which ought to have been implemented but haven't been''
