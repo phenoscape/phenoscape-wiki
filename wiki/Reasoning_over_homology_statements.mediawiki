@@ -98,7 +98,7 @@ collection classes such as "vertebral column" is crucial.
 
 The FMA uses the "Set of <X>" terminology, but this is confusing
 because classes can already be equated with sets. We use "collection
-of here", but we frequently substitute a more convenient
+of" here, but we frequently substitute a more convenient
 synonym. E.g. maximal collection of vertebrae = vertebral column.
 
 For convenience we sometimes use the term "msum" as a functor in a
