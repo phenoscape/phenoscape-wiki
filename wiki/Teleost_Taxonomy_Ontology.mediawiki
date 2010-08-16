@@ -5,3 +5,4 @@ title: Teleost Taxonomy Ontology
 Stub for Teleost Taxonomy Ontology homepage.
 
 [[Category:Ontology]]
+[[Category:Taxonomy]]
