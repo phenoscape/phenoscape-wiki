@@ -280,7 +280,7 @@ OBD implements the generic rule:
   X R Y
   Y R Z
   ==>
-  Y R Z
+  X R Z
 
 (class level)
 
@@ -288,7 +288,7 @@ OBD implements the generic rule:
   all X R some Y
   all Y R some Z
   ==>
-  all Y R some Z
+  all X R some Z
 
 For example:
 
