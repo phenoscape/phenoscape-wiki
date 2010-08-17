@@ -7,5 +7,9 @@ This is an ontology of taxonomic terms (names of taxonomic groups) used in the s
 
 The current release may be found [http://obo.cvs.sourceforge.net/viewvc/obo/obo/ontology/taxonomy/teleost_taxonomy.obo here].
 
+==License==
+
+==Structure of TTO terms==
+
 [[Category:Ontology]]
 [[Category:Taxonomy]]
