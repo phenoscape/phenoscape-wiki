@@ -552,12 +552,11 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>URI :</b><BASE>terms/search/?media=xml<br />
 <b>Input :</b><br />
-:<search>
-::<term_identifier>orbid</term_identifier>
-::<term_identifier_value>{orbid}</term_identifier_value>
-:</search>
+An XML file adhering to the term search schema
 
-<b>Output :</b> A term matching the orbid provided in the variable {orbid} in xml format 
+
+
+<b>Output :</b> A term matching the orbid provided in the variable {orbid} in xml format
 
 ----
 ===Post term via a web form===
