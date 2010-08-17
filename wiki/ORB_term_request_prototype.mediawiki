@@ -552,7 +552,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>URI :</b><BASE>terms/search/?media=xml<br />
 <b>Input :</b><br />
-An XML file adhering to the [https://www.nescent.org/wg/phenoscape/images/5/57/Schema_for_xml_term_search.txt term search schema]
+An XML file adhering to the [https://www.nescent.org/wg/phenoscape/images/5/57/Schema_for_xml_term_search.txt term search schema] .The term_identifier value can ONLY be: orbid, termname, termdefinition, termontology, termpublication or termrequester. 
 
 
 
