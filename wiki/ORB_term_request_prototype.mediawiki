@@ -552,13 +552,14 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>URI :</b><BASE>terms/search/?media=xml<br />
 <b>Input :</b><br />
-An XML file adhering to the term search schema
+An XML file adhering to the [https://www.nescent.org/wg/phenoscape/images/5/57/Schema_for_xml_term_search.txt term search schema]
 
 
 
 <b>Output :</b> A term matching the orbid provided in the variable {orbid} in xml format
 
 ----
+
 ===Post term via a web form===
 <b> URI : </b><BASE>/orbprototype/terms/?postterm=true <br />
 <b>Input :</b><br />
