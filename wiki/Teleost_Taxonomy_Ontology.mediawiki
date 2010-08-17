@@ -9,7 +9,22 @@ The current release may be found [http://obo.cvs.sourceforge.net/viewvc/obo/obo/
 
 ==License==
 
-==Structure of TTO terms==
+==Organization==
+
+
+
+                               Ictaluridae   -------------------->  TaxRank:Family
+                                    ^               has_rank
+                                    |
+                               is_a |
+                                    |
+                                Ictalurus    -------------------->  TaxRank:Genus
+                                    ^             has_rank
+                                    |
+                               is_a |
+                                    |
+                           Ictalurus punctatus ------------------>  TaxRank:Species
+                                                  has_rank
 
 [[Category:Ontology]]
 [[Category:Taxonomy]]
