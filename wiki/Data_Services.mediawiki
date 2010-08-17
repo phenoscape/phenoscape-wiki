@@ -345,19 +345,22 @@ JSON:
         "match_text": "Brachydanio rerio",
         "id": "TTO:1001979",
         "match_type": "syn",
-        "name": "Danio rerio"
+        "name": "Danio rerio",
+        "source": "teleost-taxonomy"
     },
     {
         "match_text": "Cyprinus rerio",
         "id": "TTO:1001979",
         "match_type": "syn",
-        "name": "Danio rerio"
+        "name": "Danio rerio",
+        "source": "teleost-taxonomy"
     },
     {
         "match_text": "Danio rerio",
         "id": "TTO:1001979",
         "match_type": "name",
-        "name": "Danio rerio"
+        "name": "Danio rerio",
+        "source": "teleost-taxonomy"
     }],
     "search_term": "rerio"
 }
