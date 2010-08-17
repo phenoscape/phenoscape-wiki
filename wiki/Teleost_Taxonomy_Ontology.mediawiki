@@ -2,7 +2,8 @@
 title: Teleost Taxonomy Ontology
 ---
 
-Stub for Teleost Taxonomy Ontology homepage.
+==Summary==
+This is an ontology of taxonomic terms (names of taxonomic groups) used in the systematics of fish, including non-teleost groups such as Chondrichtyes (sharks and rays), Sarcopterygians (lungfish and coelacanths), lampreys, and hagfish.
 
 [[Category:Ontology]]
 [[Category:Taxonomy]]
