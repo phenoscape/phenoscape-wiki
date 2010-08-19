@@ -658,7 +658,7 @@ Symmetry:
   ==>
   Y iso_homologous_to Z as A
 
-Finally, we can suuply a definitional rule:
+Finally, we can supply a definitional rule:
 
   X iso_homologous_to Y as A
   <==>
