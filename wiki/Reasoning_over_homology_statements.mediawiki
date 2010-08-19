@@ -843,7 +843,7 @@ this too can be added.
 === Comparison of approaches ===
 
 With the rules provided, all above approaches are inter-convertible,
-although going is some directions may entail some information loss. In
+although going in some directions may entail some information loss. In
 fact with a system such as OBD, all approaches can co-exist in the
 same KB (albeit with additional adminstrative burden, and potential
 loss of efficiency due to storing redundant data).
