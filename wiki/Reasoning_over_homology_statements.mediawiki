@@ -386,7 +386,7 @@ Examples:
 ! mammalian limb
 ! teleost fin
 |-
-! vertebrate frontal bone
+! tetrapod frontal bone
 ! teleost parietal bone
 |}
 
