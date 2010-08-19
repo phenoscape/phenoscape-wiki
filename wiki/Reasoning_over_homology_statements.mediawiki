@@ -496,7 +496,7 @@ This relation has the following characteristics:
 This relation obeys the "straight-line" rule:
 
   a derived_by_descent_from b, a derived_by_descent_from c
-  ==> b=c or a derived_by_descent_from c or c derived_by_descent_from b
+  ==> b=c or b derived_by_descent_from c or c derived_by_descent_from b
 
 This can be encoded in OBD as a constraint.
 
