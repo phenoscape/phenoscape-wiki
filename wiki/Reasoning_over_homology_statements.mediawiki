@@ -601,8 +601,7 @@ We have 2 modeling options here:
 ** Common Ancestor (CA) classes
 
 More information on the n-ary relations pattern can be found on the
-[n-ary relations pattern W3C note
-http://www.w3.org/TR/2006/NOTE-swbp-n-aryRelations-20060412/],
+[http://www.w3.org/TR/2006/NOTE-swbp-n-aryRelations-20060412/ n-ary relations pattern W3C note],
 
 === direct n-ary relations ===
 
