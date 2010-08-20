@@ -16,19 +16,24 @@ When describing rules below, we use the following notations:
 * ''R''(A, B): A ''R'' B, for example ''is_a''(A, B) is equivalent to A ''is_a'' B. This is the functional form of assertions.
 * Reification: assertions about assertions. I.e., A, B, ... may also be assertions. For example, the yellow that ''inheres_in'' a particular dorsal fin ''is_a'' yellow, which we can write formally as: ''is_a''(''inheres_in''(yellow, dorsal_fin), yellow).
 
-=== Quantification ===
+=== Conjunction and Implication ===
+
+* The double arrow (<math>\Rightarrow</math>) is also called ''directional implication''. It can be translated into English to mean "it implies" or "it follows." 
+* The "cap" or "A minus the stripe" (<math>\and</math>) is the FOL construct to specify ''conjunction'' and can be translated to "and" in plain English. 
+
+=== Quantification of instances ===
 
 In first order logic (FOL), it is common to assert statements about all possible instances of a concept in the real world. Let us start with the assertion, "All puppies are dogs." This can be stated as shown below in (1)
 
 '''<math>\forall</math> A: ''instance_of''(A, Puppy) <math>\Rightarrow</math> ''instance_of''(A, Dog)'''                  -- (1)
 
-The inverted A (<math>\forall</math>) is called the ''universal quantifier'' and can be translated to "for every" or " for all" in plain English. Similarly, the colon (:) in the FOL statement above can be read as "such that." The double arrow (<math>\Rightarrow</math>) is also called ''directional implication''. It can be translated into English to mean "it implies" or "it follows." Therefore, the sentence above translated into English reads:
+The inverted A (<math>\forall</math>) is called the ''universal quantifier'' and can be translated to "for every" or " for all" in plain English. Similarly, the colon (:) in the FOL statement above can be read as "such that." Therefore, the sentence above translated into English reads:
 
 "''For all A such that A is a Puppy, implies that A is a Dog''"
 
-or even simpler as we shall readily comprehend, "''All puppies are dogs''." Note this is a simple assertion of the semantics of the ''is_a'' predicate that is so common to Phenoscape. Everyone will understand ''is_a''(Puppy, Dog). The ''is_a'' relation is an upward abstraction from the quantified instances we have used in (1).
+or even simpler as we shall readily comprehend, "''All puppies are dogs''." Note this is a simple assertion of the semantics of the ''is_a'' predicate that is so common to Phenoscape. The formulation as ''is_a''(Puppy, Dog) is a class-level abstraction from the quantified instances we have used in (1).
 
-The "cap" or "A minus the stripe" (<math>\and</math>) is the FOL construct to specify ''conjunction'' and can be translated to "and" in plain English. The FOL statement below states the transitive property of the ''is_a'' relation
+The FOL statement below states the transitive property of the ''is_a'' relation
 
 '''<math>\forall</math> A, B, C: ''is_a''(A, B) <math>\and</math> ''is_a''(B, C) <math>\Rightarrow</math> ''is_a''(A, C)'''  -- (2)
 
@@ -36,7 +41,7 @@ The statement (2) above can be translated to read:
 
 ''For all A, B, and C, such that A is a B, and B is a C, it follows that A is a C''
 
-Lastly, we discuss the <math>\exists</math> (wrong-sided E) operator, officially known as the ''existential quantifier'', which can be translated to "there exists" or "at least" in plain English. Now consider the statement, "Some birds are flightless" This can be stated as shown below
+The ''existential quantifier'' (<math>\exists</math>) can be translated to "there exists" or "at least" in plain English. Now consider the statement, "Some birds are flightless" This can be stated as shown below
 
 '''<math>\exists</math> A: ''instance_of''(A, Bird) <math>\and</math> ''instance_of''(A, Flightless thing)'''                -- (3)
 
