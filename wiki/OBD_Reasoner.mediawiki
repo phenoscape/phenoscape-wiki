@@ -6,15 +6,17 @@ The OBD reasoner uses definitions of transitive relations, relation hierarchies,
 
 == Notation ==
 
+=== Classes, instances, relations ===
+
 When describing rules below, we use the following notations:
 
 * A, B, C: classes (as subjects or objects). Note that relationship concepts can also appear as subject or object in an assertion.
-* a, b, c: individuals (as subjects or objects)
+* a, b, c: instances, or individuals (as subjects or objects)
 * ''R'': relationship (predicate)
 * ''R''(A, B): A ''R'' B, for example ''is_a''(A, B) is equivalent to A ''is_a'' B. This is the functional form of assertions.
 * Reification: assertions about assertions. I.e., A, B, ... may also be assertions. For example, the yellow that ''inheres_in'' a particular dorsal fin ''is_a'' yellow, which we can write formally as: ''is_a''(''inheres_in''(yellow, dorsal_fin), yellow).
 
-=== Upside down A's (<math>\forall</math>) and double arrows (<math>\Rightarrow</math>) translated ===
+=== Quantification (<math>\forall</math> and <math>\exists</math>)  ===
 
 In first order logic (FOL), it is common to assert statements about all possible instances of a concept in the real world. Let us start with the assertion, "All puppies are dogs." This can be stated as shown below in (1)
 
@@ -36,13 +38,13 @@ The statement (2) above can be translated to read:
 
 Lastly, we discuss the <math>\exists</math> (wrong-sided E) operator, officially known as the ''existential quantifier'', which can be translated to "there exists" or "at least" in plain English. Now consider the statement, "Some birds are flightless" This can be stated as shown below
 
-'''<math>\exists</math> A: ''instance_of''(A, Bird) <math>\and</math> ''instance_of''(A, Flightless_Bird)'''                -- (3)
+'''<math>\exists</math> A: ''instance_of''(A, Bird) <math>\and</math> ''instance_of''(A, Flightless thing)'''                -- (3)
 
 This can be translated to plain English to:
 
-"''There exists an A such that A is a Bird and A is a Flightless Bird''"
+"''There exists an A such that A is a Bird and A is a Flightless thing''"
 
-These are just some of the many constructs from first order logic which find common use in the Phenoscape project. For a full fledged introduction to the joys of FOL, click [http://en.wikipedia.org/wiki/First-order_logic here].
+These are just some of the many constructs from first order logic which find common use in the Phenoscape project. There is a more  full-fledged introduction to [http://en.wikipedia.org/wiki/First-order_logic FOL on Wikipedia].
 
 ==Implemented Relation Properties==
 
