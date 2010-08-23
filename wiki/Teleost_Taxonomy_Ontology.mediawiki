@@ -23,7 +23,7 @@ The current release may be found [http://obo.cvs.sourceforge.net/viewvc/obo/obo/
                                     |
                                is_a |
                                     |
-                           Ictalurus punctatus ------------------>  TaxRank:Species
+ Channel catfish           Ictalurus punctatus ------------------>  TaxRank:Species
                                                   has_rank
 
 [[Category:Ontology]]
