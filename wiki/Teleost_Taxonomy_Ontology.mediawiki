@@ -18,13 +18,15 @@ The current release may be found [http://obo.cvs.sourceforge.net/viewvc/obo/obo/
                                     |
                                is_a |
                                     |
-                                Ictalurus    -------------------->  TaxRank:Genus
+                                ''Ictalurus''    -------------------->  TaxRank:Genus
                                     ^             has_rank
                                     |
                                is_a |
                                     |
- Channel catfish           Ictalurus punctatus ------------------>  TaxRank:Species
-                                                  has_rank
+ Channel catfish <------    ''Ictalurus punctatus'' ---------------->  TaxRank:Species
+                          |                       has_rank
+                          |
+ ''Silurus argentinus''<--+
 
 [[Category:Ontology]]
 [[Category:Taxonomy]]
