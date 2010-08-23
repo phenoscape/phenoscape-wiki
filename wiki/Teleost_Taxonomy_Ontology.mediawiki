@@ -8,6 +8,10 @@ This is an ontology of taxonomic terms (names of taxonomic groups) used in the s
 The current release may be found [http://obo.cvs.sourceforge.net/viewvc/obo/obo/ontology/taxonomy/teleost_taxonomy.obo here].
 
 ==License==
+<span class="plainlinks">[http://creativecommons.org/publicdomain/zero/1.0/ http://i.creativecommons.org/l/zero/1.0/80x15.png]</span>
+
+
+To the extent possible under law, Peter E. Midford has waived all copyright and related or neighboring rights to the '''Teleost Taxonomy Ontology''' (TTO). This work is published from  the United States.
 
 ==Organization==
 
