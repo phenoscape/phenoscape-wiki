@@ -27,10 +27,10 @@ To the extent possible under law, Peter E. Midford has waived all copyright and 
                                     |
                                is_a |
                                     |
- Channel catfish <------    ''Ictalurus punctatus'' ---------------->  TaxRank:Species
+ Channel catfish <--------+''Ictalurus punctatus'' ---------------->  TaxRank:Species
                           |                       has_rank
                           |
- ''Silurus argentinus''<--+
+ ''Silurus argentinus''<------+
 
 [[Category:Ontology]]
 [[Category:Taxonomy]]
