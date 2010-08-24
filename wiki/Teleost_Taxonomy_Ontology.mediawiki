@@ -40,9 +40,21 @@ To the extent possible under law, Peter E. Midford has waived all copyright and 
 !Relation or Synonym
 !Notes
 |-
-|property_value has_rank || metadata relation || links taxa to ranks
+|COMMONNAME || synonym type || synonymous common name
+|-
+|MISSPELLING || synonym type || synonym resulting from identifiable misspelling
+|-
+|TAXONNAMEUSAGE || synonym type || synonym that includes an (author year) citation
+|-
+|property_value: has_rank || metadata relation || links taxa to ranks
+|-
+|property_value: is_extinct || boolean metadata relation || indicates taxa only known from fossils
 |-
 |}
+
+====Notes====
+* The taxonomic rank specified by the has_rank relation is specified by its identifier.  The most common are TAXRANK:0000004 (family), TAXRANK:0000005 (genus), TAXRANK:0000006 (species).
+* At present is_extinct does not include recently extinct taxa.
 
 [[Category:Ontology]]
 [[Category:Taxonomy]]
