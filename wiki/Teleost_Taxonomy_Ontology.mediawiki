@@ -34,6 +34,15 @@ To the extent possible under law, Peter E. Midford has waived all copyright and 
                           |
  ''Silurus argentinus''<------+
 
+
+===List of term and database identifier prefixes===
+* TTO:
+* NCBITaxon:
+* CASSPC: 
+* CASGEN:
+* TAXRANK:
+
+
 ===List of Relations and Synonym Types===
 {|border="1" cellpadding="3" cellspacing="3"
 !Name
