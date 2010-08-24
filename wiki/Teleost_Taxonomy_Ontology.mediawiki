@@ -36,12 +36,12 @@ To the extent possible under law, Peter E. Midford has waived all copyright and 
 
 
 ===List of term and database identifier prefixes===
-* TTO:
-* NCBITaxon:
-* CASSPC: 
-* CASGEN:
-* TAXRANK:
-
+* '''TTO:''' Term defined in the TTO
+* '''NCBITaxon:''' ID from NCBI taxonomy database
+* '''CASSPC:''' ID from the Catalog of Fishes species table (CAS = California Academy of Sciences)
+* '''CASGEN:''' ID from the Catalog of Fishes genus table
+* '''TAXRANK:''' Term defined in the Taxonomic Rank Vocabulary
+* '''urn:''' URN from external resource, generally an [http://lsids.sourceforge.net/ lsid] from [http://gni.globalnames.org/ GNI].
 
 ===List of Relations and Synonym Types===
 {|border="1" cellpadding="3" cellspacing="3"
