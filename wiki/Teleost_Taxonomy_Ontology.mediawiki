@@ -35,6 +35,14 @@ To the extent possible under law, Peter E. Midford has waived all copyright and 
  ''Silurus argentinus''<------+
 
 ===List of Relations and Synonym Types===
+{|border="1" cellpadding="3" cellspacing="3"
+!Name
+!Relation or Synonym
+!Notes
+|-
+|property_value has_rank || metadata relation || links taxa to ranks
+|-
+|}
 
 [[Category:Ontology]]
 [[Category:Taxonomy]]
