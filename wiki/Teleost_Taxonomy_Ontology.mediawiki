@@ -3,9 +3,9 @@ title: Teleost Taxonomy Ontology
 ---
 
 ==Summary==
-This is an ontology of taxonomic terms (names of taxonomic groups) used in the systematics of fish, including non-teleost groups such as Chondrichtyes (sharks and rays), Sarcopterygia (lungfish and coelacanths), lampreys, and hagfish.  It contains (as of August 2010) over 36,000 names and over 43,000 taxonomic synonyms.  A majority of the taxonomic names and synonyms were made available from the [http://research.calacademy.org/redirect?url=http://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp Catalog of Fishes].  Additional names and synonyms are added as a result of our curation activities.
+This is an ontology of taxonomic terms (names of taxonomic groups) used in the systematics of fish, including non-teleost groups such as Chondrichtyes (sharks and rays), Sarcopterygia (lungfish and coelacanths), lampreys, and hagfish.  It contains (as of August 2010) over 38,500 names, and over 44,000 taxonomic synonyms.  A majority of the taxonomic names and synonyms were made available from the [http://research.calacademy.org/redirect?url=http://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp Catalog of Fishes].  In July 2010 we added nearly 15,000 common names provided by [http://www.fishbase.org Fishbase]Additional names and synonyms are added as a result of our curation activities.
 
-Details of changes are recorded in the [[TTO_Changes]] page, (though this is not frequently updated), and summarized in the cvs commit comments.  
+Details of changes are recorded in the [[TTO_Changes]] page, (though this is not frequently updated), and summarized in the cvs commit comments.
 
 The current release may be found [http://obo.cvs.sourceforge.net/viewvc/obo/obo/ontology/taxonomy/teleost_taxonomy.obo here].
 
