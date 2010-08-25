@@ -65,7 +65,7 @@ To the extent possible under law, Peter E. Midford has waived all copyright and 
 * The taxonomic rank specified by the has_rank relation is specified by its identifier.  The most common are TAXRANK:0000004 (family), TAXRANK:0000005 (genus), TAXRANK:0000006 (species).
 * At present is_extinct does not include recently extinct taxa.
 
-==Detailed Summary==
+==Detailed Term Counts==
 {|border="1" cellpadding="3" cellspacing="3"
 !Item
 !Count
