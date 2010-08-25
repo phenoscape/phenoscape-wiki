@@ -63,6 +63,7 @@ To the extent possible under law, Peter E. Midford has waived all copyright and 
 
 ====Notes====
 * The taxonomic rank specified by the has_rank relation is specified by its identifier.  The most common are TAXRANK:0000004 (family), TAXRANK:0000005 (genus), TAXRANK:0000006 (species).
+* In general TTO does not assign intermediate ranks (e.g., subclass).  There are a few exceptions that may be removed.
 * At present is_extinct does not include recently extinct taxa.
 
 ==Detailed Term Counts==
