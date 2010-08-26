@@ -8,6 +8,10 @@ The Teleost Anatomy Ontology (TAO) is a multi-species anatomy ontology for teleo
 
 The current release may be found [http://obo.cvs.sourceforge.net/viewvc/obo/obo/ontology/anatomy/gross_anatomy/animal_gross_anatomy/fish/teleost_anatomy.obo here].
 
+==License==
+<span class="plainlinks">[http://creativecommons.org/publicdomain/zero/1.0/ http://i.creativecommons.org/l/zero/1.0/80x15.png]</span>
+
+
 == TAO and ZFA synchronization ==
 The TAO was initialized with terms from the ZFA, and we currently maintain manual synchronization of the two ontologies.  A synchronization tool (in development) will help automate this process.
 
