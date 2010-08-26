@@ -12,7 +12,7 @@ Curators are currently annotating systematic characters using a subset of qualit
 ! Examples of child terms
 
 |-
-|| shape || || triangular, lobed, concave, interdigitated
+|| shape (and children) || || triangular, lobed, concave, interdigitated
 
 |-
 || position (and children) || placement, location || horizontal, vertical
