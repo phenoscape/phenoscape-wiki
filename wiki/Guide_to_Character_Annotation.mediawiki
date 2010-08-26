@@ -17,7 +17,7 @@ Curators are currently annotating systematic characters using a subset of qualit
 |-
 || position (and children) || placement, location || horizontal, vertical
 |-
-|| size (and children) || || thin, large, decreased height
+|| size* (and children) || || thin, large, decreased height
 |-
 || structure ||  || porous, non-porous
 |-
@@ -37,16 +37,15 @@ Curators are currently annotating systematic characters using a subset of qualit
 |-
 || count || count in organism  ||
 |-
-|| relational shape quality* (and children) || || protruding into
+|| relational shape quality** (and children) || || protruding into
 |-
-|| relational spatial quality* (and children)|| || orientation, anterior to, lateral to
+|| relational spatial quality** (and children)|| || orientation, anterior to, lateral to
 |-
-|| relational structural quality* (and children) || || fused with, overlap with, separated from, in contact with
-|-
-|| relational size quality* || || THIS IS A PATO REQUESTED TERM AND UNDER DISCUSSION.  USE Q=SIZE FOR TWO ENTITIES RELATED BY SIZE
-
+|| relational structural quality** (and children) || || fused with, overlap with, separated from, in contact with
 |}
-(*) Relational qualities describe phenotypes between two entities
+(*) "Size" is used for monadic (those requiring only a single entity) and relational characters (those requiring two entities) in Phenex.
+
+(**) Relational qualities describe phenotypes between two entities
 
 ==Character Annotation Examples==
 
