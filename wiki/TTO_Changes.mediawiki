@@ -12,7 +12,7 @@ CASSPC - California Academy of Sciencies, Catalog of Fishes (CoF), Species Datab
 
 CoF - William Eschmeyer's [http://research.calacademy.org/research/ichthyology/catalog/index.html Catalog of Fishes]
 
-TTO - [http://phenoscape.org/wiki/Taxonomy_ontology Teleost Taxonomy Ontology]
+TTO - [http://phenoscape.org/wiki/Teleost_Taxonomy_Ontology Teleost Taxonomy Ontology]
 
 === Possible actions for each change ===
 
