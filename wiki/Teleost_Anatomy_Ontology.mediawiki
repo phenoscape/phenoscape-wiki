@@ -10,7 +10,7 @@ The current release may be found [http://obo.cvs.sourceforge.net/viewvc/obo/obo/
 
 ==License==
 <span class="plainlinks">[http://creativecommons.org/publicdomain/zero/1.0/ http://i.creativecommons.org/l/zero/1.0/80x15.png]</span>
-
+To the extent possible under law, Wasila M. Dahdul has waived all copyright and related or neighboring rights to the Teleost Anatomy Ontology (TAO). This work is published from  the United States.
 
 == TAO and ZFA synchronization ==
 The TAO was initialized with terms from the ZFA, and we currently maintain manual synchronization of the two ontologies.  A synchronization tool (in development) will help automate this process.
