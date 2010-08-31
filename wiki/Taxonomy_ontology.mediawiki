@@ -519,7 +519,7 @@ is_a: TTO:taxonomic_rank ! taxonomic_rank
 </pre>
 
 =Alternative Designs=
-Note: This page describes some design alternatives for taxonomic ontologies that refer to or include terms for ranks.  If you are looking documentation for the Vocabulary of Ranks developed by Phenoscape, you will find it [[Taxonomic Rank Vocabulary | here]].
+Note: This section describes some design alternatives for taxonomic ontologies that refer to or include terms for ranks.  
 
 A taxonomic rank ontology allows particular taxa to be treated as historical individuals instead of as universal types.
 
@@ -565,7 +565,7 @@ This approach is attractive because it allows taxa to be both classes, in line w
 The main disadvantage with this approach is its complexity, both for human understanding and for reasoning.
 
 
-See also the [[Taxonomic Rank Ontology]] being under development.
+See also the [[Taxonomic Rank Vocabulary]] which was released in January 2010.
 
 == Developing an Ontology for Taxonomic Ranks ==
 
@@ -688,7 +688,6 @@ Or even:
 This approach also provides a natural bridge to the use of Phylogenetic definitions, which more or less restrict taxonomic labels to monophyletic clades.  A more detailed description of this approach can be found [[Taxonomic Rank Ontology|here]].
 
 The major difficulties with such a model are potential conflicts with the OBO ontologies focus on classes, rather than individuals.
-
 
 =Other Notes=
 ;1.	Taxonomic ranks - keep in TTO or make into separate ontology?
