@@ -2,7 +2,7 @@
 title: Taxonomic Rank Ontology
 ---
 
-This page is obsolete.  Its contents have been transferred to [[Taxonomy ontology#Other Notes]].
+This page is obsolete.  Its contents have been transferred to [[Taxonomy ontology#Alternative Designs]].
 If you are looking documentation for the Vocabulary of Ranks developed by Phenoscape, you will find it [[Taxonomic Rank Vocabulary | here]].
 
 [[Category:Ontology]]
