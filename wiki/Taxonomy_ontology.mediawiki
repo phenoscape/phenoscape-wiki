@@ -2,6 +2,8 @@
 title: Taxonomy ontology
 ---
 
+This page contains accumulated design notes for taxonomy ontologies.  They focus on the [[Teleost Taxonomy Ontology]] and the [[Taxonomic Rank Vocabulary]], but the most recent information for each will appear on their respective home pages.
+
 The Teleost Taxonomy Ontology (TTO) is based on the Catalog of Fishes and will be updated as CoF updates appear as well as from input from area experts.  The reminder of this page will discuss how the TTO is currently implemented.  See the [[Taxonomic Rank Ontology]], an alternative implementation based on phylogenetic principles.
 
 ==Organization==
