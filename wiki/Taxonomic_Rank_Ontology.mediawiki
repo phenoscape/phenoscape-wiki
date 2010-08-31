@@ -2,50 +2,8 @@
 title: Taxonomic Rank Ontology
 ---
 
-Note: This page describes some design alternatives for taxonomic ontologies that refer to or include terms for ranks.  If you are looking documentation for the Vocabulary of Ranks developed by Phenoscape, you will find it [[Taxonomic Rank Vocabulary | here]].
-
-A taxonomic rank ontology allows particular taxa to be treated as historical individuals instead of as universal types.
-
-[[Image:TaxonomicRankDiagram.png|750px|thumb|Taxonomic rank ontology and sample instance data.  The ontology terms are surrounded by a grey background.  The "Continuant" term would reside in an upper ontology such as [http://www.ifomis.org/bfo BFO].  The instance data constitute a particular taxonomy.]]
-
-Previous attempts to represent taxonomy using ontology usually include taxonomic groups as classes in the ontology.  Individual organisms are seen as instances of those universal types.  There could be an ontology term Mammal, such that Primates and Rodents are more particular types of Mammals (''is_a'' descendants).  Taxonomies are even often used as examples to help explain ontology inheritance to new users.  This scheme fails to represent reality in several ways and, as this page will demonstrate, is even misleading.
-
-==The "traditional" view==
-
-===Inference with traditional taxonomy===
-One of the attractions of a traditional taxonomy for ontology builders that it can support the most common sort of reasoning for Description Logic ontologies.  Although neither the TTO nor the NCBI taxonomy ontology attach character values to their classes, in principle such characters could be extracted from keys or from the taxonomic literature.  With the addition of such properties, individuals can be classified by starting at the root of the taxonomy and traversing down the tree until either a terminal taxon (species) is reached or a node is reached where no descendant has the combination of characters displayed by the individual.  For biologists, this operation is identical to use of an identification key.  Such an operation is generally only defined for ''is_a'' links.
-
-===Problems with the "traditional" view===
-* The only criterion for inclusion within a taxonomic group is physical descent from a member of that group (we are assuming a taxonomy consistent with phylogeny).  There are no universal properties one could ascribe to members of "Mammalia", besides things the members happen to share at this moment.  "Hair" is often used an example of a Mammalian property; but of course its commonality is the result of its presence in the common ancestor of all mammals, and many mammals lack hair almost entirely.  A mammal species that had no hair at all would nevertheless still be a mammal. Such reversals are common in phylogenies and can occur for both morphological properties (e.g., loss of legs in snakes) and molecular characters (e.g., inferred origin of pseudogenes).
-* Descendant terms do not inherit (ontologically) all of the characteristics of their parents.  For example, Rodentia has a different age and geographic range from Mammalia.
-* Properties of a taxonomic group change through time: its geographic range, genetic and morphological diversity, etc.  It can go extinct.  These properties inhere in the group, not any one individual.
-* Treating taxonomic groups as "classes" or "types" reinforces essentialist ideas of life forms, which evolutionary biology has completely overturned.  Essentialist thought is a hindrance to understanding of the evolutionary process.
-* Most contemporary treatments of the species concept (refs) treat them, and in many cases higher taxa, as individuals, possessing a history.
-
-Instead of treating taxa as types in an ontology, we can treat individual taxa as instances of the type Taxon, or more specifically as instances of some taxonomic rank (see figure above).
-
-==Taxonomic Rank Ontology + Instance Graph of Taxonomy==
-
-Species are increasingly seen to be better modelled as individuals.
-
-===Advantages===
-* Taxa are modeled as individuals.
-* Taxonomic rank terms are ordered through their ''part_of'' relationships.
-* Multiple part_of parents introduce fewer problems in inference than multiple is_a parents.  This is important as more cases of reticulate phylogeny, caused by, for example, cross species hybridization or horizontal gene transfer, are discovered.
-
-===Inference with an ontology of taxonomic ranks + instance graph of taxa===
-
-===Individuals/Instances===
-Implementing this approach will require [[Tool support for Instances]].
-
-==Taxonomic Ranks as Metaclasses==
-
-An approach that allows taxa to be viewed as both classes and individuals is to view rank terms, such as 'genus' as metaclasses.  A metaclass is a class of classes. This would mean that a particular genus, e.g., ''Danio'' is both a subclass of Cyprinidae and an instance of genus.  Metaclasses are used when assigning particular properties to a class itself, rather than its members.  The property 'extinct' might be such a class-level property, as opposed to 'dead' a property that inheres in individuals.  Extinct is a property we want to inhere in certain taxa only when all their individual constituents are dead.  However, there are classes, such as anatomical parts, or behavior patterns that would not be subject to the possiblity of extinction.
-
-This approach is attractive because it allows taxa to be both classes, in line with traditional taxonomies and reasoning with description logic classifiers, and individuals, with the greater fidelity to current biological thinking.
-
-===Disadvantages===
-The main disadvantage with this approach is its complexity, both for human understanding and for reasoning.
+This page is obsolete.  Its contents have been transferred to [[Taxonomy ontology#Other Notes]].
+If you are looking documentation for the Vocabulary of Ranks developed by Phenoscape, you will find it [[Taxonomic Rank Vocabulary | here]].
 
 [[Category:Ontology]]
 [[Category:Taxonomy]]
