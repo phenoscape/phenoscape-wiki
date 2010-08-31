@@ -2,6 +2,8 @@
 title: Taxonomy ontology: ranks, unknown/unnamed species,
 ---
 
+This page is obsolete.  It's contents have been transferred to [Taxonomy ontology].
+
 ;1.	Taxonomic ranks - keep in TTO or make into separate ontology?
 ::current ranks in TTO:
 : class
