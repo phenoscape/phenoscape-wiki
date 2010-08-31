@@ -692,7 +692,7 @@ The major difficulties with such a model are potential conflicts with the OBO on
 
 =Other Notes=
 ;1.	Taxonomic ranks - keep in TTO or make into separate ontology?
-- This issue has been resolved.
+- This issue has been resolved see [[Taxonomic Rank Vocabulary]].
 
 ;2.	Representing unknown/unnamed species in ontology
 :a.	Examples:
@@ -727,13 +727,7 @@ The major difficulties with such a model are potential conflicts with the OBO on
 
 ;4.	Incomplete tracking of synonyms from CoF to TTO
 
-:a.	Short-term solution: curator sends Peter requests for addition of intermediate synonyms
-
--	Peter will look into how to extract intermediate synonyms from ‘comments’ field in CoF file & will contact CoF folks to get file that contains this field
-
--	Need most recent CoF for Peter.  Peter will contact Stan.
-
--	Extraction will take some time to implement. (Peter)
+-       Synonym extraction has been implemented in the [[TTOUpdate Tool]].  There is still room for improvement in the extraction algorithm. 
 
 
 ;5.	Error reports to Peter – continue to send by email?  Thoughts to setting up a tracker?
