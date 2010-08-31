@@ -727,12 +727,12 @@ The major difficulties with such a model are potential conflicts with the OBO on
 
 ;4.	Incomplete tracking of synonyms from CoF to TTO
 
--       Synonym extraction has been implemented in the [[TTOUpdate Tool]].  There is still room for improvement in the extraction algorithm. 
+-       Synonym extraction has been implemented in the [[TTOUpdate tool]].  There is still room for improvement in the extraction algorithm.
 
 
 ;5.	Error reports to Peter – continue to send by email?  Thoughts to setting up a tracker?
 
--	We should use a tracker, probably a separate tracker, but piggy backing on the TAO tracker with a ‘taxomony’ group might also work – (Peter)
+-	There is a tracker for requests and error reports within the [https://sourceforge.net/tracker/?atid=1046550&group_id=76834&func=browse OBO sourceforge site].
 
 [[Category:Ontology]]
 [[Category:Taxonomy]]
