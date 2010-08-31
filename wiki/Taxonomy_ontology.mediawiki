@@ -692,27 +692,7 @@ The major difficulties with such a model are potential conflicts with the OBO on
 
 =Other Notes=
 ;1.	Taxonomic ranks - keep in TTO or make into separate ontology?
-::current ranks in TTO:
-: class
-:family
-:genus
-:order
-:phylum
-:species
-:subclass
-:subphylum
-:Unknown species
-:Unknown species group
-:Unnamed species
-
--	Currently every taxonomic name in the TTO is annotated to a particular rank above. Does not show in obo-edit because of use of has_rank, but has_value is the problem.  Peter will look into the above obo display issue
-
--	We decided to drop the ‘unknown/unamed’ ranks
-
--	Peter will contact Chris Mungall about removing ranks from obo file
-
--	Peter will email obo-discuss about setting up a ‘taxonomic ranks’ ontology, including proposed ranks from Michael Ashburner email
-
+- This issue has been resolved.
 
 ;2.	Representing unknown/unnamed species in ontology
 :a.	Examples:
