@@ -2,7 +2,7 @@
 title: Taxonomy ontology: ranks, unknown/unnamed species,
 ---
 
-This page is obsolete.  It's contents have been transferred to [[Taxonomy ontology]].
+This page is obsolete.  Its contents have been transferred to [[Taxonomy ontology]].
 
 [[Category:Ontology]]
 [[Category:Taxonomy]]
