@@ -690,7 +690,7 @@ This approach also provides a natural bridge to the use of Phylogenetic definiti
 The major difficulties with such a model are potential conflicts with the OBO ontologies focus on classes, rather than individuals.
 
 
-=Other notes=
+=Other Notes=
 ;1.	Taxonomic ranks - keep in TTO or make into separate ontology?
 ::current ranks in TTO:
 : class
