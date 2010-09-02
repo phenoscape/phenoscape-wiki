@@ -964,9 +964,9 @@ where anc(A,B) =
 
  entity^has_derived_by_descendant(A)^has_derived_by_descendant(B)
 
-The function can be implemented as a SQL function which materializes the class.
+The function can be implemented as a SQL function which materializes the class expression.
 
-* [[#derived_by_descent_from_ancestor_of]
+* [[#derived_by_descent_from_ancestor_of]]
 
 (this is the instance-level relation VBO calls homologous_to)
 
