@@ -952,6 +952,32 @@ implemented simply as SQL views that mimic statements).
 
 == OBD Implementation ==
 
+* [[#iso_homologous_to]]
+
+This expands to two all-some relations. In OBD, macro-expansion is just another kind of rule
+
+ A iso_homologous_to B
+ <==>
+ all A derived_by_descent_from some anc(A,B)
+
+where anc(A,B) =
+
+ entity^has_derived_by_descendant(A)^has_derived_by_descendant(B)
+
+The function can be implemented as a SQL function which materializes the class.
+
+* [[#derived_by_descent_from_ancestor_of]
+
+(this is the instance-level relation VBO calls homologous_to)
+
+This is simply the chain of two relations. In OWL:
+
+SubPropertyOf( PropertyChain([[#derived_by_descent_from]] [[#has_derived_by_descendant]])  [[#derived_by_descent_from_ancestor_of]])
+
+Currently the OBD reasoner lacks a general property chain rule but this is easily implemented in specific cases via horn rules.
+
+   derived_by_descent_from(X,A) and has_derived_by_descendant(A,Y) -> derived_by_descent_from_ancestor_of(X,Y)
+
 == Usage Guidelines ==
 
 === Assert homology at the appropriate level ===
