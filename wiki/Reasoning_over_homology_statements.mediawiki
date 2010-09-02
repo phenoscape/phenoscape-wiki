@@ -952,7 +952,7 @@ implemented simply as SQL views that mimic statements).
 
 == OBD Implementation ==
 
-* [[#iso_homologous_to]]
+=== [[#iso_homologous_to]] ===
 
 This expands to two all-some relations. In OBD, macro-expansion is just another kind of rule
 
@@ -966,7 +966,7 @@ where anc(A,B) =
 
 The function can be implemented as a SQL function which materializes the class expression.
 
-* [[#derived_by_descent_from_ancestor_of]]
+=== [[#derived_by_descent_from_ancestor_of]] ===
 
 (this is the instance-level relation VBO calls homologous_to)
 
@@ -977,6 +977,24 @@ SubPropertyOf( PropertyChain([[#derived_by_descent_from]] [[#has_derived_by_desc
 Currently the OBD reasoner lacks a general property chain rule but this is easily implemented in specific cases via horn rules.
 
    derived_by_descent_from(X,A) and has_derived_by_descendant(A,Y) -> derived_by_descent_from_ancestor_of(X,Y)
+
+Note that materializing this closure could result in large sets of inferred links. One option to explore is to not materialize this, i.e. leave the horn clause as a view. Some changes to the OBD API may be required.
+
+=== Composition with other relations ===
+
+* part_of and has_part
+
+Recommendation: do this at query time. This will save on materializing on large numbers of links. In addition some of the desired use cases may be difficult to formulate as logical axioms and are better implemented programmatically. E.g. finding structure-pairs that are not homologous yet a large number of the parts of each structure are homologous.
+
+* develops_from
+
+Recommendation: same as above.
+
+Open question: a strict transformation_of relation may be useful for the formalization. E.g. if A is iso_homologous to B, and A is a transformation_of A2, is A2 homologous to B?
+
+=== Treatment of class level relations in OBD ===
+
+* TODO - explicitly use the quantification flags in OBD. This will make the mapping to OWL cleaner but is not required for the above steps.
 
 == Usage Guidelines ==
 
