@@ -43,7 +43,7 @@ It may also articulate with the dermopalatine ventro-laterally and with the ento
     "name": "autopalatine",
     "synonyms": [
     {
-        "name": "palatine bone"
+        "name": "palatine bone", "scope": "EXACT", "type": {"id":"COMMONNAME"}
     }],
     "parents": [
     {
