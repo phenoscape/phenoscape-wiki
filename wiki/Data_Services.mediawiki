@@ -134,6 +134,28 @@ It may also articulate with the dermopalatine ventro-laterally and with the ento
 
 If there is no term with the given ID, the service should return "404 Not Found".
 
+==Path to root term info==
+'''URI'''
+
+ <BASE URI>/term/{term_id}/path
+
+This returns an array of term info objects from the ontology root to the given term.
+
+'''Returns'''
+
+JSON:
+<javascript>
+{
+    "path":[
+//sequence of term info objects as returned by the term info service
+     ]
+}
+</javascript>
+
+'''Error'''
+
+If there is no term with the given ID, the service should return "404 Not Found".
+
 ==Taxon term info==
 '''URI'''
 
