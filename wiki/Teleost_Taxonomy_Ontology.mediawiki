@@ -17,22 +17,8 @@ To the extent possible under law, Peter E. Midford has waived all copyright and 
 
 ==Organization==
 
+[[Image:TTO_org.png]]
 
-
-                               Ictaluridae   -------------------->  TaxRank:Family
-                                    ^               has_rank
-                                    |
-                               is_a |
-                                    |
-                                ''Ictalurus''    -------------------->  TaxRank:Genus
-                                    ^             has_rank
-                                    |
-                               is_a |
-                                    |
- Channel catfish <--------+''Ictalurus punctatus'' ---------------->  TaxRank:Species
-                          |                       has_rank
-                          |
- ''Silurus argentinus''<------+
 
 
 ===List of term and database identifier prefixes===
