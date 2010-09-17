@@ -166,6 +166,9 @@ Within Phenex, the post-composed term for process on the anterior margin of the 
 
 As for semantics, identifiability, and rules for post-composing, the same applies as above for entity terms applies to spatial terms. In creating the nested term "anterior  region of maxilla", start with the more general term (for example, the "anterior region") as the genus, then refine it using a relationship and a differentia term (for example, anterior region that is part_of the "supraorbital bone").
 
+=== Order of terms in nested post-compositions ===
+For instance, the above entity is represented as a nested post-composition: protuberance^part_of(posterior region^part_of(prosoma)).   The order of this nested post-composition is important (e.g., protuberance^part_of(prosoma)^part_of(posterior region) is incorrect).  Nested post-compositions are different from post-compositions with multiple differentia. Generally, nested post-compositions are used with transitive relations and post-compositions with multiple differentia are used with non-transitive relations.
+
 === Creating "joint" terms on-the-fly ===
 
 Joints are defined in TAO according to the bones that participate in the joint.  Because only regions of these bones are part_of the joint rather than the entire bone, we use the ''overlaps'' relation to define joints. For example, the ''frontal-pterotic joint'' has the following relationships:
@@ -186,40 +189,6 @@ If it is unlikely that a joint term will be used repeatedly for annotation, then
 The post-composed term for metapterygoid-hyomandibular joint will appear as:
 
  joint^overlaps(metapterygoid)^overlaps(hyomandibula)
-
-
-<!-- DO NOT DELETE THE FOLLOWING SECTIONS, COMMENTED OUT BY WD BECAUSE WE ARE NOT CURRENTLY ANNOTATING TO THIS FINE LEVEL BUT MIGHT DO SO IN THE FUTURE
-=== Specifying the contralateral half of a bilaterally paired structure ===
-
-Use the spatial term "contralateral" to post-compose entities for the right and left members of a paired structure. For example, a character may describe the  posterior processes of the pelvic bone in contact with each other.  This would be annotated as:
-
- E: posterior process of basipterygium
- Q: in contact with
- RE: contralateral^part_of(posterior process of basipterygium)
--->
-
-<!--DO NOT DELETE THE FOLLOWING SECTIONS, COMMENTED OUT BY WD BECAUSE WE ARE NOT CURRENTLY ANNOTATING TO THIS FINE LEVEL BUT MIGHT DO SO IN THE FUTURE
-== Complex size and shape qualities ==
-
-We are currently annotating complex size and shape characters only to the level of "size" or "shape" for quality.  For some characters, entity post-composition can be used to refine size qualities to record details of size differences between states of a character:
-
-=== Refining size qualities by making them relative ===
-Because size qualities are monadic terms, comparison of size of one bone relative to another requires post-composition of the size quality.  For example, the character “frontal length greater than parietal length” is entered as:
-
- E: frontal
- Q: increased length, relative_to partietal
-
-To post-compose the size quality, type ‘increased length’ in the quality field and click “comp” button. Select ‘relative_to’ in the relationship field and type ‘parietal’ in the differentia field., then  click OK. Note that this post-composition follows the same rule of starting with the general terms ("increased length") as the genus, and then refining it with a relationship and a differentia (the increased length that is relative_to the "parietal").
-
-===Size qualities with ratio===
-For the characters in which a proportion or ratio is given in relating the length of one bone to another, the value of ratio is recorded. For example:
-Length of infraorbital 2: (0) over twice as long as infraorbital 1; (1) less than twice as long as infraorbital 1. This would be indicated in Phenex as follows:
-
- E: infraorbital 2, Q: increased length, relative_to: infraorbital 1, Measurement: >2, Unit: ratio
- E1: Infraorbital 2, Q: decreased length, relative_to: infraorbital 1, Measurement: <2, Unit: ratio
-
-The qualities are post-composed.
--->
 
 ==Evidence Codes==
 
