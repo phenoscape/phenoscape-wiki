@@ -11,12 +11,12 @@ title: Guide to Character Annotation
 ! Examples of child terms
 
 |-
-|| shape (and children) || || triangular, lobed, concave, interdigitated
+|| shape || || triangular, lobed, concave, interdigitated
 
 |-
-|| position (and children) || placement, location || horizontal, vertical
+|| position || placement, location || horizontal, vertical
 |-
-|| size* (and children) || || thin, large, decreased height
+|| size* || || thin, large, decreased height
 |-
 || structure ||  || porous, non-porous
 |-
@@ -36,11 +36,11 @@ title: Guide to Character Annotation
 |-
 || count || count in organism  ||
 |-
-|| relational shape quality** (and children) || || protruding into
+|| relational shape quality** || || protruding into
 |-
-|| relational spatial quality** (and children)|| || orientation, anterior to, lateral to
+|| relational spatial quality** || || orientation, anterior to, lateral to
 |-
-|| relational structural quality** (and children) || || fused with, overlap with, separated from, in contact with
+|| relational structural quality**  || || fused with, overlap with, separated from, in contact with
 |}
 (*) "Size" is used for monadic (those requiring only a single entity) and relational characters (those requiring two entities) in Phenex.
 
