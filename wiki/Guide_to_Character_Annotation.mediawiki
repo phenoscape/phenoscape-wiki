@@ -73,7 +73,7 @@ Variation is often reported describing an anatomical entity that is present in s
  E: pectoral fin, Q: absent
 
 
-The use of present and absent are curatorial shortcuts that reflect common usage in language familiar to curators, and we used these terms to improve the consistent annotation of presence/absence characters.  Their use in EQ syntax, however, is illogical because, for example, absent refers to the existence of an entity that is asserted to not exist [6].  Therefore, these annotations are later changed to the logically preferable representation using the quality lacks all parts of type 
+Although use of ''present'' and ''absent'' reflects common usage in language familiar to curators, their use in EQ syntax is illogical because, for example, absent refers to the existence of an entity that is asserted to not exist [http://obofoundry.org/wiki/index.php/PATO:Absent see PATO wiki for discussion]. 
 
 If a character describes the presence or absence of a structure located on another entity (for example, teeth present on a particular bone), first check to see whether the structure exists as a term in the TAO before creating a post-composition.  For example, "teeth absent on basihyal bone" is annotated as:
 
