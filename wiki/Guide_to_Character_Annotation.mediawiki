@@ -36,15 +36,14 @@ title: Guide to Character Annotation
 |-
 || count || count in organism  ||
 |-
-|| relational shape quality** || || protruding into
+|| relational shape quality* || || protruding into
 |-
-|| relational spatial quality** || || orientation, anterior to, lateral to
+|| relational spatial quality* || || orientation, anterior to, lateral to
 |-
-|| relational structural quality**  || || fused with, overlap with, separated from, in contact with
+|| relational structural quality*  || || fused with, overlap with, separated from, in contact with
 |}
-(*) "Size" is used for monadic (those requiring only a single entity) and relational characters (those requiring two entities) in Phenex.
 
-(**) Relational qualities describe phenotypes between two entities
+(*) Relational qualities describe phenotypes between two entities
 
 ==Character Annotation Examples==
 
