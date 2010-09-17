@@ -56,7 +56,7 @@ Qualities of single physical entities are those that exist in a single entity. T
  E: supraorbital, Q: sigmoid
 
 ===2. Qualities of related physical entities ===
-Relational qualities are those that exist between multiple entities. For example, annotation of “parietal fused with supraoccipital” is entered as:
+Relational qualities are those that exist between multiple entities. For example, “parietal fused with supraoccipital” is represented as:
 
  E: parietal, Q: fused with, RE: supraoccipital
 
