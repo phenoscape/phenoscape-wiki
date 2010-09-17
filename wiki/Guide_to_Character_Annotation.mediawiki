@@ -61,7 +61,7 @@ Relational qualities are those that exist between multiple entities. For example
  E: parietal, Q: fused with, RE: supraoccipital
 
 ===3. Multiple phenotypes for a single character state ===
-For example, a character involving the auditory foramen is coded with two states: 0, absent or small; 1, well developed.
+Some characters describe multiple aspects of phenotypic variation in an entity (or entities).  These characters are represented with multiple EQ statements. For example, a character involving the auditory foramen is coded with two states: 0, absent or small; 1, well developed.
 
 State 0 is recorded as two phenotypes in Phenex:
 
@@ -71,7 +71,6 @@ State 0 is recorded as two phenotypes in Phenex:
 State 1 is recorded as:
 
  E: auditory foramen, Q: increased size
-
 
 ===4. Presence/absence===
 
