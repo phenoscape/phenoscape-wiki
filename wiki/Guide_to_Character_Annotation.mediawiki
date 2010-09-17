@@ -50,17 +50,17 @@ title: Guide to Character Annotation
 
 The following are examples of character types commonly encountered in the systematic literature and how we annotate them using the EQ model in Phenex.  Abbreviations: E, entity; Q, quality, RE, related entity, C, count.
 
-===1. Presence/absence===
+===1. Qualities of single physical entities===
+Qualities of single physical entities are those that exist in a single entity. These qualities include 'shape,' 'size', and 'structure.'  For example, “sigmoid-shaped supraorbital bone” is annotated as:
 
+ E: supraorbital, Q: sigmoid
 
- E: pectoral fin, Q: present
- E: pectoral fin, Q: absent
+===2. Qualities of related physical entities ===
+Relational qualities are those that exist between multiple entities. For example, annotation of “parietal fused with supraoccipital” is entered as:
 
-If a character describes the presence or absence of a structure located on another entity, (for example, presence of teeth on a particular bone), first check to see whether the structure exists as a term in the TAO before creating a post-composition.  For example, "teeth absent on basihyal bone" is annotated as:
+ E: parietal, Q: fused with, RE: supraoccipital
 
- E: basihyal tooth, Q: absent
-
-===2. Multiple phenotypes for a single character state ===
+===3. Multiple phenotypes for a single character state ===
 For example, a character involving the auditory foramen is coded with two states: 0, absent or small; 1, well developed.
 
 State 0 is recorded as two phenotypes in Phenex:
@@ -72,15 +72,16 @@ State 1 is recorded as:
 
  E: auditory foramen, Q: increased size
 
-===3. Qualities of single physical entities===
-Qualities of single physical entities are those that exist in a single entity. These qualities include 'shape,' 'size', and 'structure.'  For example, “sigmoid-shaped supraorbital bone” is annotated as:
 
- E: supraorbital, Q: sigmoid
+===4. Presence/absence===
 
-===4. Qualities of related physical entities ===
-Relational qualities are those that exist between multiple entities. For example, annotation of “parietal fused with supraoccipital” is entered as:
+ E: pectoral fin, Q: present
+ E: pectoral fin, Q: absent
 
- E: parietal, Q: fused with, RE: supraoccipital
+If a character describes the presence or absence of a structure located on another entity, (for example, presence of teeth on a particular bone), first check to see whether the structure exists as a term in the TAO before creating a post-composition.  For example, "teeth absent on basihyal bone" is annotated as:
+
+ E: basihyal tooth, Q: absent
+
 
 ===5. Counts===
 Characters involving counts of entities are annotated using the “count” quality.  Values for counts are entered in the “Comment” field(*).  Note that ranges and lower or upper bounds are recorded as follows:
