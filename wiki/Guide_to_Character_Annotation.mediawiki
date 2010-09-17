@@ -133,7 +133,7 @@ Epibranchial bone number: (0) 3; (1) 4
 
 === Contralateral halves of bilaterally paired structures ===
 
-Terms for the contralateral halves of bilaterally paired structures are created using the in_right_side_of  and in_left_side_of relations in a post-composition, where the perspective is from the standpoint of the organism. For example:
+Terms for the contralateral halves of bilaterally paired structures are created using the ''in_right_side_of'' and ''in_left_side_of'' relations in a post-composition, where the perspective is from the standpoint of the organism. For example:
  E: frontal^''in_right_side_of''(body), Q: fused with, RE: frontal^''in_left_side_of''(body).
 
 == Creating or refining terms  by post-composition ==
