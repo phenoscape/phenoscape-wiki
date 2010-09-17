@@ -166,8 +166,16 @@ Within Phenex, the post-composed term for process on the anterior margin of the 
 
 As for semantics, identifiability, and rules for post-composing, the same applies as above for entity terms applies to spatial terms. In creating the nested term "anterior  region of maxilla", start with the more general term (for example, the "anterior region") as the genus, then refine it using a relationship and a differentia term (for example, anterior region that is part_of the "supraorbital bone").
 
-=== Order of terms in nested post-compositions ===
-For instance, the above entity is represented as a nested post-composition: protuberance^part_of(posterior region^part_of(prosoma)).   The order of this nested post-composition is important (e.g., protuberance^part_of(prosoma)^part_of(posterior region) is incorrect).  Nested post-compositions are different from post-compositions with multiple differentia. Generally, nested post-compositions are used with transitive relations and post-compositions with multiple differentia are used with non-transitive relations.
+=== Multiple differentia terms and nested post-compositions ===
+Post-compositions can either be nested 
+ process^part_of(anterior region^part_of(maxilla))
+
+or contain multiple differentia
+ joint^overlaps(metapterygoid)^overlaps(hyomandibula)
+
+For nested post-compositions, the order of nested terms is important (e.g., maxilla^part_of(antior region^part-of(process) is incorrect), as is the nesting itself (e.g., process^part_of(anterior region)^part_of(maxilla) is incorrect).  
+
+Post-compositions with multiple differentia do not require nesting (see joint example).
 
 === Creating "joint" terms on-the-fly ===
 
