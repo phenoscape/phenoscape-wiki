@@ -6,7 +6,7 @@ title: Guide to Character Annotation
 
 [[Image:pato-diagram.jpg]]
 {| border="1" cellspacing="0" cellpadding="3"
-! PATO term
+! PATO attribute-level term
 ! Synonyms
 ! Examples of child terms
 
