@@ -179,10 +179,7 @@ Post-compositions with multiple differentia do not require nesting (see joint ex
 
 === Creating "joint" terms on-the-fly ===
 
-Joints are defined in TAO according to the bones that participate in the joint.  Because only regions of these bones are part_of the joint rather than the entire bone, we use the ''overlaps'' relation to define joints. For example, the ''frontal-pterotic joint'' has the following relationships:
-
- Definition:
- Joint that articulates the frontal and pterotic. Frontal-pterotic joint is paired.
+Joints are defined in TAO according to the bones that participate in the joint.  Because only regions of these bones are ''part_of'' the joint rather than the entire bone, we use the ''overlaps'' relation to define joints. For example, the ''frontal-pterotic joint'' has the following relationships:
 
  relationships:
  ''is_a'' joint
