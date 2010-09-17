@@ -65,15 +65,19 @@ Some characters describe multiple aspects of phenotypic variation in an entity (
  E: premaxillary tooth, Q: round
  E: premaxillary tooth, Q: multicuspidate
 
-===4. Presence/absence===
+===4. Presence/absence characters ===
+
+Variation is often reported describing an anatomical entity that is present in some taxa and lacking in others.  These characters are annotated using the terms ''present'' and ''absent'' :
 
  E: pectoral fin, Q: present
  E: pectoral fin, Q: absent
 
-If a character describes the presence or absence of a structure located on another entity, (for example, presence of teeth on a particular bone), first check to see whether the structure exists as a term in the TAO before creating a post-composition.  For example, "teeth absent on basihyal bone" is annotated as:
+
+The use of present and absent are curatorial shortcuts that reflect common usage in language familiar to curators, and we used these terms to improve the consistent annotation of presence/absence characters.  Their use in EQ syntax, however, is illogical because, for example, absent refers to the existence of an entity that is asserted to not exist [6].  Therefore, these annotations are later changed to the logically preferable representation using the quality lacks all parts of type 
+
+If a character describes the presence or absence of a structure located on another entity (for example, teeth present on a particular bone), first check to see whether the structure exists as a term in the TAO before creating a post-composition.  For example, "teeth absent on basihyal bone" is annotated as:
 
  E: basihyal tooth, Q: absent
-
 
 ===5. Counts===
 Characters involving counts of entities are annotated using the “count” quality.  Values for counts are entered in the “Comment” field(*).  Note that ranges and lower or upper bounds are recorded as follows:
