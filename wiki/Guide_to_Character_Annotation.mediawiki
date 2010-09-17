@@ -3,7 +3,7 @@ title: Guide to Character Annotation
 ---
 
 ==PATO terms used to annotate systematic characters ==
-Below is a simplified graph showing a subset of quality terms from the Phenotype and Trait Ontology (PATO) used to curate systematic characters. Terms in blue represent attribute-level qualities.  Qualities are generally divided into those that inhere in a single entity (''quality of single physical entities'', or "monadic" qualities),  and those that inhere in multiple entities (''quality of related physical entities'', or "relational qualities").
+Below is a simplified graph showing a subset of quality terms from the [http://obofoundry.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)] used to curate systematic characters. Terms in blue represent attribute-level qualities.  Qualities are generally divided into those that inhere in a single entity (''quality of single physical entities'', or "monadic" qualities),  and those that inhere in multiple entities (''quality of related physical entities'', or "relational qualities").
 
 [[Image:pato-diagram.jpg]]
 {| border="1" cellspacing="0" cellpadding="3"
