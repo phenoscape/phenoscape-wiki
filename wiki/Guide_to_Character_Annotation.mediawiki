@@ -90,6 +90,8 @@ Characters involving counts of entities are annotated using the “count” qual
 
 ===6. Size ===
 
+In the systematics literature, the size of a structure is often compared to the size of different structure, or it is compared to the same structure in another taxon.  For example, an author may compare the length of one bone relative to another (e.g., state 0: "frontal length greater than parietal length" vs. state 1: frontal length shorter than parietal length").
+
 ===7. Contralateral halves of bilaterally paired structures ===
 
 Terms for the contralateral halves of bilaterally paired structures are created using the ''in_right_side_of'' and ''in_left_side_of'' relations in a post-composition, where the perspective is from the standpoint of the organism. For example:
