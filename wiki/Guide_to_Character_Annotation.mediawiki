@@ -72,7 +72,7 @@ Variation is often reported describing an anatomical entity that is present in s
  E: pectoral fin, Q: present
  E: pectoral fin, Q: absent
 
-The use of ''present'' and ''absent'' in curation is a curatorial shortcut to the more logically sound syntax discussed on the [http://obofoundry.org/wiki/index.php/PATO:Absent PATO wiki]. These annotations are translated into the logically sound form prior to their addition in the Phenoscape KB.
+The use of ''present'' and ''absent'' in curation is a curatorial shortcut to the more logically sound syntax discussed on the [http://obofoundry.org/wiki/index.php/PATO:Absent PATO wiki]. These annotations will be translated into the logically sound form prior to their addition in the Phenoscape KB.
 
 If a character describes the presence or absence of a structure located on another entity (for example, teeth present on a particular bone), first check to see whether the structure exists as a term in the TAO before creating a post-composition.  For example, "teeth absent on basihyal bone" is annotated as:
 
