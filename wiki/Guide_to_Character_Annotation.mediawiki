@@ -105,7 +105,7 @@ State 0
 State 1:
  E: frontal, Q: decreased size
 
-Note: The use of PATO size terms in Phenoscape are curatorial shortcuts because these terms are precomposed relative to "normal" (e.g., ''increased size'' has an increased_in relationship to "normal"). These annotations will be converted to the correct form using PATO:size and the appropriate relation (increased_in_magnitude_relative_to, decreased_in_magnitude_relative_to, similar_in_magnitude_relative_to).
+Note: The use of PATO size terms in Phenoscape are curatorial shortcuts because these terms are precomposed relative to "normal" (e.g., ''increased size'' has an ''increased_in'' relationship to "normal"). These annotations will be converted to the correct form using PATO:size and the appropriate relation (''increased_in_magnitude_relative_to'', ''decreased_in_magnitude_relative_to'', ''similar_in_magnitude_relative_to'').
 
 ===7. Contralateral halves of bilaterally paired structures ===
 
