@@ -90,7 +90,20 @@ Characters involving counts of entities are annotated using the “count” qual
 
 ===6. Size ===
 
-In the systematics literature, the size of a structure is often compared to the size of different structure, or it is compared to the same structure in another taxon.  For example, an author may compare the length of one bone relative to another (e.g., state 0: "frontal length greater than parietal length" vs. state 1: frontal length shorter than parietal length").
+In the systematics literature, the size of a structure is often compared to the size of different structure, or it is compared to the same structure in another taxon.  For example, an author may compare the length of one bone relative to another (e.g., state 0: "frontal length greater than parietal length" vs. state 1: frontal length shorter than parietal length"). This is represented as: 
+
+State 0:
+ E: frontal, Q: increased length, E2: parietal
+State 1:
+ E: frontal, Q: decreased length, E2: parietal
+
+Comparison of the length of one bone across species (e.g., “state 0: frontal large” vs. “state 1: frontal small”, with taxonomic distribution recorded in the character by taxon matrix) is represented as:
+
+State 0
+ E: frontal, Q: increased size
+
+State 1: 
+ E: frontal, Q: decreased size
 
 ===7. Contralateral halves of bilaterally paired structures ===
 
