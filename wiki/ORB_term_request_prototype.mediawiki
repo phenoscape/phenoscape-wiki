@@ -448,12 +448,13 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>Protocol : </b>HTTP GET
 
-<b>URI :</b><BASE>terms/publication/{publication_identifier}/?media=htm
+<b>URI :</b><BASE>terms/publication/{publication_identifier}/?media=html
 :Note: The publication_identifier can be a publication's DOI or title
 
 <b>Output :</b>All requested terms with the provided publication as their reference in html format
 
 ----
+
 === Get all terms in xml format using publication_identifier(publication's DOI or title)===
 <b>Type :</b> xml
 
