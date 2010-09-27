@@ -581,7 +581,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 ===Post term via a web form===
 <b> URI : </b><BASE>/orbprototype/terms/?postterm=true <br />
 <b>Input :</b><br />
-Web form containing all the term input fields as found in this pdf file [https://www.nescent.org/wg/phenoscape/images/6/66/Term_submission_web_form.pdf]
+Web form containing all the term input fields as found in this <i>pdf</i> file [https://www.nescent.org/wg/phenoscape/images/6/66/Term_submission_web_form.pdf]
 
 <b> Output : </b> A term post success message in html format
 ----
