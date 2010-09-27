@@ -493,11 +493,12 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>Protocol : </b> HTTP GET
 
-<b>URI :</b><BASE>terms/resolved/?media=htm
+<b>URI :</b><BASE>terms/resolved/?media=html
 
 <b>Output :</b> A list of all resolved terms in html format
 
 ----
+
 === Get all resolved terms in xml format===
 <b>Type :</b> xml
 
