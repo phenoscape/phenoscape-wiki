@@ -427,11 +427,12 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>Protocol : </b> HTTP GET
 
-<b>URI :</b><BASE>terms/pending/?media=htm
+<b>URI :</b><BASE>terms/pending/?media=html
 
 <b>Output :</b>All users requested terms that are pending in html format
 
 ----
+
 ===Get all pending terms in xml format===
 <b>Type :</b> xml
 
