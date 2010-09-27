@@ -534,11 +534,12 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>Protocol : </b> HTTP GET
 
-<b>URI :</b><BASE>terms/trial/?media=htm
+<b>URI :</b><BASE>terms/trial/?media=html
 
 <b>Output :</b> A list of all trial terms in html format
 
 ----
+
 === Get all trial terms in xml format===
 <b>Type :</b> xml
 
