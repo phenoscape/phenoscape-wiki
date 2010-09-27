@@ -470,12 +470,13 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>Protocol : </b> HTTP GET
 
-<b>URI :</b> <BASE>terms/requester/{requester_identifier}/?media=htm
+<b>URI :</b> <BASE>terms/requester/{requester_identifier}/?media=html
 :Note : The requester_identifier is a text which could be the requester's name or e-mail
 
 <b>Output :</b> A list of terms matching the requester identifier provided in html
 
 ----
+
 ===Get all terms in xml format requested by {requester_identifier}===
 <b>Type :</b> xml
 
