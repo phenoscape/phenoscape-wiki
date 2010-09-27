@@ -550,8 +550,8 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <b>Output :</b>  A list of all trial terms in XML format adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt terms XML schema]
 
 ----
-=== Get Term in xml format===
-<b>Type :</b> xml
+=== Get Term in XML format===
+<b>Type :</b> XML
 
 <b>Protocol : </b> HTTP POST
 
@@ -560,7 +560,21 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 
 
-<b>Output :</b> A term matching the orbid provided in the variable {orbid} in xml format
+<b>Output :</b> A term matching the orbid provided in the variable {orb_id} in xml format
+
+----
+
+=== Get Term in HTML format===
+<b>Type :</b> xml
+
+<b>Protocol : </b> HTTP POST
+
+<b>URI :</b><BASE>terms/{orb_id}/?media=html<br />
+
+
+
+
+<b>Output :</b> A term matching the orbid provided in the variable {orb_id} in html format
 
 ----
 
