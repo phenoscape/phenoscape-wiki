@@ -378,11 +378,12 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>Protocol : </b> HTTP GET
 
-<b>URI :</b><BASE>terms/obsolete/?media=htm
+<b>URI :</b><BASE>terms/obsolete/?media=html
 
 <b>Output :</b>All users requested terms that have been obsoleted in html format
 
 ----
+
 ===Get all obsoleted terms in xml format===
 <b>Type :</b> xml
 
