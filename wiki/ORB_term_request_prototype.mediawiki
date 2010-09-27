@@ -401,7 +401,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 
 <b>Protocol : </b> HTTP GET
 
-<b>URI :</b><BASE>terms/ontology/{ontology_identifier}/?media=htm <br />
+<b>URI :</b><BASE>terms/ontology/{ontology_identifier}/?media=html <br />
 :Note: The {ontology_identifier}refers to either the name or prefix of an ontology e.g Teleost Anatomy Ontology (name) or TAO (prefix)
 
 <b>Output :</b> All requested terms with the provided ontology as their target in html format
