@@ -593,7 +593,7 @@ Term in XML format adhering to the [https://www.nescent.org/wg/phenoscape/images
 
 <b> Output : </b> A term post success message in XML format
 
-====Below are  samples of new term requests====
+====Samples of new term requests====
 
 =====1. New term request with required elements only=====
 
