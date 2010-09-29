@@ -635,8 +635,8 @@ POST /orbprototype/terms/?media=xml HTTP/1.1
 
 POST /OntologyTermRequestBrokerTrial/terms/?media=xml HTTP/1.1
 
- <terms><term>
-
+<terms>
+<term>
 <term_name>adult alar plate7</term_name>
 
 <term_definition>
@@ -677,7 +677,7 @@ POST /OntologyTermRequestBrokerTrial/terms/?media=xml HTTP/1.1
 <synonym_dbxref_accession>test synonym dbxref accession</synonym_dbxref_accession>
 </synonym_dbxref>
 </term_synonym>
- 
+
 <term_comment>Fig. 7-5; Fig. 7-9; in Biology of Ticks ISBN:0-19-505910-7.</term_comment>
 
 <term_publication>
