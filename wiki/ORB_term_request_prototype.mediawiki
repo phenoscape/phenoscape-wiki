@@ -60,7 +60,7 @@ The process is initiated when the user initiates get term via ORB ID within the 
 # User inserts the ID
 #User clicks on the submit button
 # ORB validates the request
-# ORB informs user that the term has been resolved and returns the resolved term's name, ontology ID, definition plus other related information 
+# ORB informs user that the term has been resolved and returns the resolved term's name, ontology ID, definition plus other related information
 
 Alternative paths:
 
@@ -375,6 +375,9 @@ GET /orbprototype/terms/?media=html HTTP/1.1
 
 <b>Output :</b>User requested terms in xml format adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt  terms XML schema]
 
+====Example====
+GET /orbprototype/terms/?media=xml HTTP/1.1
+
 ----
 
 ===Get all obsoleted terms in htm format===
@@ -384,7 +387,10 @@ GET /orbprototype/terms/?media=html HTTP/1.1
 
 <b>URI :</b><BASE>terms/obsolete/?media=html
 
-<b>Output :</b>All users requested terms that have been obsoleted in html format
+<b>Output :</b>All users requested terms that have been obsoleted in HTML format
+
+====Example====
+GET /orbprototype/terms/obsolete/?media=html HTTP/1.1
 
 ----
 
@@ -397,10 +403,13 @@ GET /orbprototype/terms/?media=html HTTP/1.1
 
 <b>Output :</b>All users requested terms that have been obsoleted in xml format adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt terms XML schema]
 
+====Example====
+GET /orbprototype/terms/obsolete/?media=xml HTTP/1.1
+
 ----
 
 
-===Get all terms from an ontology with an ontology_identifier in html format===
+===Get all terms from an ontology with an ontology_identifier in HTML format===
 <b>Type :</b> html
 
 <b>Protocol : </b> HTTP GET
@@ -409,6 +418,9 @@ GET /orbprototype/terms/?media=html HTTP/1.1
 :Note: The {ontology_identifier}refers to either the name or prefix of an ontology e.g Teleost Anatomy Ontology (name) or TAO (prefix)
 
 <b>Output :</b> All requested terms with the provided ontology as their target in html format
+
+====Example====
+GET /orbprototype/terms/ontology/TAO/?media=html HTTP/1.1
 
 ----
 
@@ -423,6 +435,9 @@ GET /orbprototype/terms/?media=html HTTP/1.1
 
 <b>Output :</b>All requested terms with the provided ontology as their target in xml format adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt terms XML schema]
 
+====Example====
+GET /orbprototype/terms/ontology/TAO/?media=xml HTTP/1.1
+
 
 ----
 
@@ -435,6 +450,10 @@ GET /orbprototype/terms/?media=html HTTP/1.1
 
 <b>Output :</b>All users requested terms that are pending in html format
 
+====Example====
+GET /orbprototype/terms/pending/?media=html HTTP/1.1
+
+
 ----
 
 ===Get all pending terms in xml format===
@@ -445,6 +464,9 @@ GET /orbprototype/terms/?media=html HTTP/1.1
 <b>URI :</b><BASE>terms/pending/?media=xml
 
 <b>Output :</b>All users requested terms that are pending in xml format adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt terms XML schema]
+
+====Example====
+GET /orbprototype/terms/pending/?media=xml HTTP/1.1
 
 ----
 === Get all terms in html format using publication_identifier===
@@ -457,6 +479,9 @@ GET /orbprototype/terms/?media=html HTTP/1.1
 
 <b>Output :</b>All requested terms with the provided publication as their reference in html format
 
+====Example====
+GET /orbprototype/terms/publication/test/?media=html HTTP/1.1
+
 ----
 
 === Get all terms in xml format using publication_identifier(publication's DOI or title)===
@@ -468,8 +493,11 @@ GET /orbprototype/terms/?media=html HTTP/1.1
 
 <b>Output :</b>All requested terms with the provided publication as their reference in XML  format adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt terms XML schema]
 
+====Example====
+GET /orbprototype/terms/publication/test/?media=xml HTTP/1.1
+
 ----
-===Get all terms in html format requested by {requester_identifier}===
+===Get all terms in HTML format requested by {requester_identifier}===
 <b>Type :</b> html
 
 <b>Protocol : </b> HTTP GET
@@ -478,6 +506,9 @@ GET /orbprototype/terms/?media=html HTTP/1.1
 :Note : The requester_identifier is a text which could be the requester's name or e-mail
 
 <b>Output :</b> A list of terms matching the requester identifier provided in html
+
+====Example====
+GET /orbprototype/terms/requester/test/?media=html HTTP/1.1
 
 ----
 
@@ -491,6 +522,8 @@ GET /orbprototype/terms/?media=html HTTP/1.1
 
 <b>Output :</b>A list of terms matching the requester identifier provided in xml adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt  terms XML schema]
 
+====Example====
+GET /orbprototype/terms/requester/test/?media=xml HTTP/1.1
 ----
 ===Get all resolved terms in html format===
 <b>Type :</b> html
@@ -500,6 +533,10 @@ GET /orbprototype/terms/?media=html HTTP/1.1
 <b>URI :</b><BASE>terms/resolved/?media=html
 
 <b>Output :</b> A list of all resolved terms in html format
+
+====Example====
+GET /orbprototype/terms/resolved/?media=html HTTP/1.1
+
 
 ----
 
@@ -512,8 +549,11 @@ GET /orbprototype/terms/?media=html HTTP/1.1
 
 <b>Output :</b> A list of all resolved terms in xml format adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt terms XML schema]
 
+====Example====
+GET /orbprototype/terms/resolved/?media=xml HTTP/1.1
+
 ----
-=== Get most commented terms in html format===
+=== Get top terms in html format===
 <b>Type :</b> html
 
 <b>Protocol : </b>HTTP GET
@@ -523,14 +563,14 @@ GET /orbprototype/terms/?media=html HTTP/1.1
 <b>Output :</b> A list of 10 (or less) terms with the highest number of comments in html format
 
 ----
-=== Get most commented terms in xml format===
+=== Get top terms in xml format===
 <b>Type :</b> xml
 
 <b>Protocol : </b>HTTP GET
 
 <b>URI :</b><BASE>terms/top/?media=xml
 
-<b>Output :</b>A list of 10 (or less) terms with the highest number of comments in xml format adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt terms XML schema]
+<b>Output :</b>A list of 10 (or less) terms with the highest number of requests in xml format adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt terms XML schema]
 
 ----
 === Get all trial terms in html format===
@@ -542,6 +582,9 @@ GET /orbprototype/terms/?media=html HTTP/1.1
 
 <b>Output :</b> A list of all trial terms in html format
 
+====Example====
+GET /orbprototype/terms/trial/?media=html HTTP/1.1
+
 ----
 
 === Get all trial terms in xml format===
@@ -552,6 +595,9 @@ GET /orbprototype/terms/?media=html HTTP/1.1
 <b>URI :</b> <BASE>terms/trial/?media=xml
 
 <b>Output :</b>  A list of all trial terms in XML format adhering to the [https://www.nescent.org/wg/phenoscape/images/f/f3/Terms_xml_schema.txt terms XML schema]
+
+====Example====
+GET /orbprototype/terms/trial/?media=xml HTTP/1.1
 
 ----
 === Get Term in XML format===
@@ -566,10 +612,13 @@ GET /orbprototype/terms/?media=html HTTP/1.1
 
 <b>Output :</b> A term matching the orbid provided in the variable {orb_id} in xml format
 
+====Example====
+GET /orbprototype/terms/ORB:5bfba0d4-de9b-47ce-adb7-9c9ebc2ae359/?media=xml HTTP/1.1
+
 ----
 
 === Get Term in HTML format===
-<b>Type :</b> xml
+<b>Type :</b> html
 
 <b>Protocol : </b> HTTP POST
 
@@ -579,6 +628,9 @@ GET /orbprototype/terms/?media=html HTTP/1.1
 
 
 <b>Output :</b> A term matching the orbid provided in the variable {orb_id} in html format
+
+====Example====
+GET /orbprototype/terms/ORB:5bfba0d4-de9b-47ce-adb7-9c9ebc2ae359/?media=html HTTP/1.1
 
 ----
 
