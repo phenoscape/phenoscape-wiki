@@ -596,11 +596,13 @@ Term in XML format adhering to the [https://www.nescent.org/wg/phenoscape/images
 Below are  samples of new term requests<br />
 
 [https://www.nescent.org/wg/phenoscape/images/a/af/Sample_new_term_request_with_required_elements_only_in_xml_format.pdf sample new term request with required elements only]
+{{{
+POST /orbprototype/terms/?media=xml HTTP/1.1
 
-POST /OntologyTermRequestBrokerTrial/terms/?media=xml HTTP/1.1
+<terms>
 
- <terms>
 <term>
+
 <term_name>adult alar plate6</term_name>
 
 <term_definition>
@@ -627,6 +629,8 @@ POST /OntologyTermRequestBrokerTrial/terms/?media=xml HTTP/1.1
 
 </term>
 </terms>
+
+}}}
 
 
 ----
