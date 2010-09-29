@@ -657,7 +657,7 @@ POST /orbprototype/terms/?media=xml HTTP/1.1
 <ontology_domain>Anatomy and Development</ontology_domain>
 <ontology_gatekeeper>
 <gatekeeper_name>test gatekeeper name</gatekeeper_name>
-<gatekeeper_email>test gatekeeper e-mail</gatekeeper_email>
+<gatekeeper_email>test gatekeeper@ymail.com</gatekeeper_email>
 </ontology_gatekeeper>
 </term_ontology>
 
@@ -665,7 +665,7 @@ POST /orbprototype/terms/?media=xml HTTP/1.1
 
 <term_requester>
 <requester_name>test requester name </requester_name>
-<requester_email>test requester email</requester_email>
+<requester_email>test requester@ymail.com</requester_email>
 </term_requester>
 
 <term_synonym>
