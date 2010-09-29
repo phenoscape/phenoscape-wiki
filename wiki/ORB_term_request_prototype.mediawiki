@@ -630,9 +630,74 @@ POST /orbprototype/terms/?media=xml HTTP/1.1
 </term>
 </terms>
 
-=====2. New term request all term elements=====
+=====2. New term request with all term elements=====
 
 
+POST /OntologyTermRequestBrokerTrial/terms/?media=xml HTTP/1.1
+
+ <terms><term>
+
+<term_name>adult alar plate7</term_name>
+
+<term_definition>
+<definition_text>Wing-shaped sclerotized plates for support of muscles controlling the action of the pharyngeal valve, Muscle bundles extendfrom the alae to the subcheliceral plate (epistome) and from the alar surfaces to the ventral side of the basis capituli. Dilator muscles of the pharynx also attach to the alar plates. Operation of the anterior pharyngeal valve is accomplished by the contractionof the dilator muscles inserted on the wing-like alae, thereby raising or lowering the v-shaped wedge. When the wedge is raised,fluid is taken up, when lowered, it projects down into the v-shaped valve, sealing it and prevents backflow.</definition_text>
+<definition_dbxref>ISBN:0-19-505910-7</definition_dbxref>
+</term_definition>
+
+<term_relationship>
+<relationship_type>
+<relationship_type_name>test relationship type name </relationship_type_name>
+<relationship_to> test relationship to property value</relationship_to>
+</relationship_type>
+</term_relationship>
+
+<term_ontology>
+<ontology_name>Teleost Anatomy and Development</ontology_name>
+<ontology_prefix>TAO</ontology_prefix>
+<ontology_domain>Anatomy and Development</ontology_domain>
+<ontology_gatekeeper>
+<gatekeeper_name>test gatekeeper name</gatekeeper_name>
+<gatekeeper_email>test gatekeeper e-mail</gatekeeper_email>
+</ontology_gatekeeper>
+</term_ontology>
+
+<term_status>Pending</term_status>
+
+<term_requester>
+<requester_name>test requester name </requester_name>
+<requester_email>test requester email</requester_email>
+</term_requester>
+
+<term_synonym>
+<synonym_text>test synonym</synonym_text>
+<synonym_scope>test synonym scope</synonym_scope>
+<synonym_type>test synonym type</synonym_type>
+<synonym_dbxref>
+<synonym_dbxref_name>test synonym dbxref name</synonym_dbxref_name>
+<synonym_dbxref_accession>test synonym dbxref accession</synonym_dbxref_accession>
+</synonym_dbxref>
+</term_synonym>
+ 
+<term_comment>Fig. 7-5; Fig. 7-9; in Biology of Ticks ISBN:0-19-505910-7.</term_comment>
+
+<term_publication>
+<publication_title>Test title</publication_title>
+<publication_doi>test doi</publication_doi>
+<publication_journal>test journal</publication_journal>
+</term_publication>
+
+<term_dbxref>
+<dbxref_dbname>test term dbxref name</dbxref_dbname>
+<dbxref_accession>test term dbxref accession</dbxref_accession>
+</term_dbxref>
+
+<term_xref_analog>
+<xref_analog_name>test xref analog name</xref_analog_name>
+<xref_accession>test xref accession</xref_accession>
+</term_xref_analog>
+
+</term>
+</terms>
 
 
 ----
