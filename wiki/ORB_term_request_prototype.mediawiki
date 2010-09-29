@@ -593,9 +593,41 @@ Term in XML format adhering to the [https://www.nescent.org/wg/phenoscape/images
 
 <b> Output : </b> A term post success message in XML format
 
-Below are  samples of new term requests<br /> 
+Below are  samples of new term requests<br />
 
 [https://www.nescent.org/wg/phenoscape/images/a/af/Sample_new_term_request_with_required_elements_only_in_xml_format.pdf sample new term request with required elements only]
+
+POST /OntologyTermRequestBrokerTrial/terms/?media=xml HTTP/1.1
+
+ <terms>
+<term>
+<term_name>adult alar plate6</term_name>
+
+<term_definition>
+<definition_text>Wing-shaped sclerotized plates for support of muscles controlling the action of the pharyngeal valve, Muscle bundles extendfrom the alae to the subcheliceral plate (epistome) and from the alar surfaces to the ventral side of the basis capituli. Dilator muscles of the pharynx also attach to the alar plates. Operation of the anterior pharyngeal valve is accomplished by the contractionof the dilator muscles inserted on the wing-like alae, thereby raising or lowering the v-shaped wedge. When the wedge is raised,fluid is taken up, when lowered, it projects down into the v-shaped valve, sealing it and prevents backflow.</definition_text>
+</term_definition>
+
+<term_relationship>
+<relationship_type>
+<relationship_type_name>test relationship type name </relationship_type_name>
+<relationship_to> test relationship to property value</relationship_to>
+</relationship_type>
+</term_relationship>
+
+
+<term_ontology>
+<ontology_name>Teleost Anatomy and Development</ontology_name>
+<ontology_prefix>TAO</ontology_prefix>
+</term_ontology>
+
+<term_requester>
+<requester_name>test requester name </requester_name>
+<requester_email>username@ymail.com</requester_email>
+</term_requester>
+
+</term>
+</terms>
+
 
 ----
 
