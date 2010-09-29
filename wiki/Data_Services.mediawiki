@@ -175,6 +175,7 @@ JSON:
         "name": "genus"
     },
     "name": "Ictalurus",
+    "species_count": 231,
     "common_names":[{"scope":"RELATED","name":"Zebra danio","type":{"id":"COMMONNAME"}}]
     "synonyms": [{
         "name": "Villarius"
