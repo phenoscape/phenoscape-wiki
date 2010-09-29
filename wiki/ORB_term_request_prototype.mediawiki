@@ -593,7 +593,7 @@ Term in XML format adhering to the [https://www.nescent.org/wg/phenoscape/images
 
 <b> Output : </b> A term post success message in XML format
 
-Here is [sample new term request with required elements only]
+Here is [https://www.nescent.org/wg/phenoscape/images/a/af/Sample_new_term_request_with_required_elements_only_in_xml_format.pdf sample new term request with required elements only]
 ----
 
 == Project plan ==
