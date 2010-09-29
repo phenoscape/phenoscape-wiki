@@ -362,7 +362,7 @@ Here is a list of all the web-services provided by ORB. The base URI (represente
 <b>Output :</b>User requested terms in html format
 
 ====Example====
-GET /orbprototype/terms/?media=xml HTTP/1.1
+GET /orbprototype/terms/?media=html HTTP/1.1
 
 ----
 
