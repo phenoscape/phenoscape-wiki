@@ -654,7 +654,7 @@ Term in XML format adhering to the [https://www.nescent.org/wg/phenoscape/images
 =====1. New term request with required elements only=====
 
 POST /orbprototype/terms/?media=xml HTTP/1.1
-
+<xml>
 <terms>
 
 <term>
@@ -685,6 +685,7 @@ POST /orbprototype/terms/?media=xml HTTP/1.1
 
 </term>
 </terms>
+</xml>
 
 =====2. New term request with all term elements=====
 
