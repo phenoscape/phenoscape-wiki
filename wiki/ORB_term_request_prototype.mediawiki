@@ -905,7 +905,7 @@ Begin deployment
 == Contacts ==
 Name: Mtakai Ngara
 
-E-mail: mtakai@nescent.org
+E-mail: ngaravald@gmail.com
 
 [[Category:Informatics]]
 [[Category:Ontology]]
