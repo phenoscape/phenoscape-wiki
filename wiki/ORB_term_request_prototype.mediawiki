@@ -591,7 +591,9 @@ Web form containing all the term input fields as found in this <i>pdf</i> file [
 <b>Input :</b><br />
 Term in XML format adhering to the [https://www.nescent.org/wg/phenoscape/images/9/9b/Term_to_submit_xml_schema.txt term(s) to post schema]
 
-<b> Output : </b> A term post success message in html format
+<b> Output : </b> A term post success message in XML format
+
+Here is [sample new term request with required elements only]
 ----
 
 == Project plan ==
