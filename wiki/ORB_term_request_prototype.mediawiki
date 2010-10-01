@@ -691,7 +691,7 @@ POST /orbprototype/terms/?media=xml HTTP/1.1
 
 
 POST /orbprototype/terms/?media=xml HTTP/1.1
-
+<xml>
 <terms>
 <term>
 <term_name>adult alar plate7</term_name>
@@ -755,6 +755,8 @@ POST /orbprototype/terms/?media=xml HTTP/1.1
 
 </term>
 </terms>
+
+</xml>
 
 
 ----
