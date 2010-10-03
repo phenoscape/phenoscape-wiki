@@ -338,13 +338,21 @@ JSON:
 <javascript>
 {
     "id": "PSPUB:0000042",
-    "name": "Lundberg 1982"
-    "abstract": "The skeletal and soft anatomy of Trogloglanis pattersoni Eigenmann are described and compared to other ictalurids. Trogloglanis is shown to possess a distinctive mosaic of relatively primitive and highly derived character states. Many of its features are paralleled in rother troglobitic catfishes, some of its features are paedomorphic. Phylogenetic analysis leads to the following hypothesis of inter-relationships. Pylodictis and Satan are sister groups, Noturus is monophyletic and is the sister group of Prietella, the subgenus Amiurus of Ictalurus is monophyletic and is the sister group of Noturus + Prietella + Pylodictis + Satan. In turn this large lineage is the sister group of Trogloglanis. The subgenus Ictalurus is monophyletic and is the sister group of all other living ictalurids. Geological and paleontological data suggest that Trogloglanis could not have evolved in situ before middle Eocene, but that its immediate repigean ancestors evolved by middle Oligocene.",
+    "name": "Lundberg 1982",
+    "abstract": "The skeletal and soft anatomy of Trogloglanis pattersoni Eigenmann are described and compared to other ictalurids. 
+Trogloglanis is shown to possess a distinctive mosaic of relatively primitive and highly derived character states. Many of its features 
+are paralleled in rother troglobitic catfishes, some of its features are paedomorphic. Phylogenetic analysis leads to the following
+ hypothesis of inter-relationships. Pylodictis and Satan are sister groups, Noturus is monophyletic and is the sister group of Prietella, 
+the subgenus Amiurus of Ictalurus is monophyletic and is the sister group of Noturus + Prietella + Pylodictis + Satan. In turn this 
+large lineage is the sister group of Trogloglanis. The subgenus Ictalurus is monophyletic and is the sister group of all other living 
+ictalurids. Geological and paleontological data suggest that Trogloglanis could not have evolved in situ before middle Eocene, but 
+that its immediate repigean ancestors evolved by middle Oligocene.",
     "citation": "Lundberg, J. G. 1982. The comparative anatomy of the toothless blindcat, Trogloglanis pattersoni Eigenmann, with a phylogenetic analysis of the ictalurid catfishes.",
     "source": {
         "id": "phenoscape_pub",
-        "name": ""
+        "name": "Phenoscape-annotated publications"
     },
+   "doi":"some doi" //may not be present
 }
 </javascript>
 
