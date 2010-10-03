@@ -345,7 +345,22 @@ Alternative path:
 
 ==Installation==
 
+===Download source code===
+-To obtain the complete and latest version of the applications source, visit the [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/orbprototype/ SVN link]
+-Download the project all files
+
+===Build===
+-Run the ant based build file to generate the <i>orbprototype.war</i> file
+
 ===Database===
+-Get the DDL scripts from the build step depending on the kind of DBMS your are using e.g. for PostgreSQL, use ddl_postgres.sql. 
+-Create a database withing your DBMS with the parameters below: 
+      database name: ontologyrequestbroker
+      password : orbprototype
+
+-Run the DDL script chosen above within the SQL interface or on command line to create all the database tables and sequences.
+
+===Establish connection to the database===
 
 ==ORB database Entity-Relation(ER) diagram==
 
