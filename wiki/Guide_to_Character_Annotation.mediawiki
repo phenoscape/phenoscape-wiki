@@ -221,11 +221,11 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
  in_right_side_of
  connected_to
  has_quality
- located_in  
- overlaps    
- towards(caudal fin)  
- vicinity_of(ceratobranchial 2 bone)
- spatial relations (e.g., anterior_to, dorsal_to, distal_to, adjacent_to)
+ located_in
+ overlaps
+ towards
+ vicinity_of
+ spatial relations (e.g., anterior_to, dorsal_to, distal_to, adjacent_to, vicinity_of)
 
 ==Evidence Codes==
 
