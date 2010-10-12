@@ -224,7 +224,6 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
  located_in
  overlaps
  towards
- vicinity_of
  spatial relations (e.g., anterior_to, dorsal_to, distal_to, adjacent_to, vicinity_of)
 
 ==Evidence Codes==
