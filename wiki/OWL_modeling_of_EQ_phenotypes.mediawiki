@@ -15,7 +15,7 @@ Relational qualities are those that exist between multiple entities. For example
 '''fused_with''' that ''inheres_in'' some '''parietal''' and ''towards'' some '''supraoccipital'''
 
 ==Comparative phenotype==
-In the systematics literature, the size of a structure is often compared to the size of different structure, or it is compared to the same structure in another taxon. 
+In the systematics literature, the size of a structure is often compared to the size of different structure, or it is compared to the same structure in another taxon.
 
 ===Compared to another structure===
 For example, an author may compare the length of one bone relative to another (e.g., state 0: "frontal length greater than parietal length" vs. state 1: frontal length shorter than parietal length"). State 0 is represented as:
@@ -23,7 +23,7 @@ For example, an author may compare the length of one bone relative to another (e
 '''length''' that ''inheres_in'' some '''frontal''' and ''increased_in_magnitude_relative_to'' some ('''length''' that ''inheres_in'' some '''parietal''')
 
 ===Compared to same structure in another taxon===
-Comparison of the length of one bone across species (e.g., “state 0: frontal large” vs. “state 1: frontal small”, with taxonomic distribution recorded in the character by taxon matrix). 
+Comparison of the length of one bone across species (e.g., “state 0: frontal large” vs. “state 1: frontal small”, with taxonomic distribution recorded in the character by taxon matrix).
 
 ====Reference to a particular taxon====
 When referencing a particular (possibly outgroup) taxon:
@@ -39,3 +39,7 @@ Class: '''length_character_1_state_1'''
 Class: '''length_character_1_state_0'''
 * SubClassOf: '''length'''
 * EquivalentTo: '''length''' and ''increased_in_magnitude_relative_to'' some '''length_character_1_state_1'''
+
+==Presence/absence phenotype==
+
+==Count phenotype==
