@@ -38,4 +38,4 @@ Class: '''length_character_1_state_1'''
 
 Class: '''length_character_1_state_0'''
 * SubClassOf: '''length'''
-* EquivalentTo: '''length''' that ''increased_in_magnitude_relative_to'' some '''length_character_1_state_1'''
+* EquivalentTo: '''length''' and ''increased_in_magnitude_relative_to'' some '''length_character_1_state_1'''
