@@ -42,3 +42,5 @@ Class: '''length_character_1_state_0'''
 ==Presence/absence phenotype==
 
 ==Count phenotype==
+
+==Measurements==
