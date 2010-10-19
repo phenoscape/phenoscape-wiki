@@ -44,3 +44,7 @@ Class: '''character_1_state_1'''
 ==Count phenotype==
 
 ==Measurements==
+
+[[Category:Ontology]]
+[[Category:EQ Annotation]]
+[[Category:Reasoning]]
