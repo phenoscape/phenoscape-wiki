@@ -37,7 +37,6 @@ Class: '''length_character_1_state_1'''
 * SubClassOf: '''length'''
 
 Class: '''length_character_1_state_0'''
-* SubClassOf: '''length'''
 * EquivalentTo: '''length''' and ''increased_in_magnitude_relative_to'' some '''length_character_1_state_1'''
 
 ==Presence/absence phenotype==
