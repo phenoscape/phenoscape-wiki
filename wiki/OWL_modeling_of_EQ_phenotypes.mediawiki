@@ -30,7 +30,7 @@ When referencing a particular (possibly outgroup) taxon:
 
 '''length''' that ''inheres_in'' some '''frontal''' and ''increased_in_magnitude_relative_to'' some ('''length''' that ''inheres_in'' some '''frontal''' and ''in_taxon'' some '''Ictaluridae''')
 
-====Local relative phenotypes without concrete taxonomic references====
+====Local relative phenotypes without explicit taxonomic references====
 "Anonymous" relative length classes must be defined for the character and then used across all phenotype annotations for that character:
 
 Class: '''length_character_1_state_1'''
