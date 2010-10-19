@@ -18,3 +18,7 @@ Relational qualities are those that exist between multiple entities. For example
 In the systematics literature, the size of a structure is often compared to the size of different structure, or it is compared to the same structure in another taxon. For example, an author may compare the length of one bone relative to another (e.g., state 0: "frontal length greater than parietal length" vs. state 1: frontal length shorter than parietal length"). State 0 is represented as:
 
 '''length''' that ''inheres_in'' some '''frontal''' and ''increased_in_magnitude_relative_to'' some ('''length''' that ''inheres_in'' some '''parietal''')
+
+Comparison of the length of one bone across species (e.g., “state 0: frontal large” vs. “state 1: frontal small”, with taxonomic distribution recorded in the character by taxon matrix) is represented either with reference to a particular (possibly outgroup) taxon or using "anonymous" relative length classes:
+
+'''length''' that ''inheres_in'' some '''frontal''' and ''increased_in_magnitude_relative_to'' some ('''length''' that ''inheres_in'' some '''frontal''' and ''in_taxon'' some '''Ictaluridae''')
