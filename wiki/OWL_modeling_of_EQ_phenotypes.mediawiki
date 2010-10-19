@@ -5,3 +5,6 @@ title: OWL modeling of EQ phenotypes
 This page documents OWL expressions for particular categories of phenotypes modeled as EQs. This is to provide explicit examples EQs representing common character types and also to help clarify a classification of phenotypes. This classification will be helpful when communicating about these phenotypes and also for directing design of curatorial user interfaces facilitating input of various types of EQs.
 
 ==Basic phenotype==
+A quality of a singe physical entity. Example: “sigmoid-shaped supraorbital bone”
+
+'''sigmoid''' that ''inheres_in'' some '''supraorbital_bone'''
