@@ -53,6 +53,10 @@ For "present":
 
 ''has_part'' some '''frontal'''
 
+If the absence is within a particular structure:
+
+''has_part'' (some '''dorsal_fin''' that ''has_part'' exactly 0 '''frontal''')
+
 ==Count phenotype==
 
 ==Measurements==
