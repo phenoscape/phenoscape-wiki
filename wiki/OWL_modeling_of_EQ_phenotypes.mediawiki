@@ -45,6 +45,9 @@ Many characters are of this form - character: "shape of opercle"; state 0: "roun
 '''shape''' that ''inheres_in'' some '''opercle''' and not '''round'''
 
 ==Presence/absence phenotype==
+The presence or absence of a structure should be expressed as a cardinality of the has_part property.  For example, "frontal bone, absent":
+
+''has_part'' exactly 0 '''frontal'''
 
 ==Count phenotype==
 
