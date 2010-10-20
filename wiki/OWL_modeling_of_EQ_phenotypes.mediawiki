@@ -49,6 +49,10 @@ The presence or absence of a structure should be expressed as a cardinality of t
 
 ''has_part'' exactly 0 '''frontal'''
 
+For "present":
+
+''has_part'' min 1 '''frontal'''
+
 ==Count phenotype==
 
 ==Measurements==
