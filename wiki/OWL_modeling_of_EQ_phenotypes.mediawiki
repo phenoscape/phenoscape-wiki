@@ -51,7 +51,7 @@ The presence or absence of a structure should be expressed as a cardinality of t
 
 For "present":
 
-''has_part'' min 1 '''frontal'''
+''has_part'' min 1 '''frontal''' ''(should this just be "has_part some frontal"? --[[User:Jpb15|jim]] 11:46, 20 October 2010 (EDT))''
 
 ==Count phenotype==
 
