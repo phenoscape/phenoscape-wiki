@@ -7,7 +7,7 @@ This page documents OWL class expressions for particular categories of phenotype
 ==Basic phenotype==
 A quality of a singe physical entity. Example: “sigmoid-shaped supraorbital bone”:
 
- '''sigmoid''' that ''inheres_in'' some '''supraorbital_bone'''
+'''sigmoid''' that ''inheres_in'' some '''supraorbital_bone'''
 
 ==Relational phenotype==
 Relational qualities are those that exist between multiple entities. For example, “parietal fused with supraoccipital” is represented as:
