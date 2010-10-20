@@ -40,9 +40,9 @@ Class: '''character_1_state_1'''
 * EquivalentTo: '''length''' and ''inheres_in'' some '''frontal''' and ''decreased_in_magnitude_relative_to'' some '''character_1_state_0'''
 
 ==Complementary phenotype==
-Many characters are of this form - character: "shape of opercle"; state 0: "round", state 1: "not round".  The author is not specifying what the shape of the opercle in state 1 is except that it is not round.  This is more usefully expressed as complementation rather than negation:
+Many characters are of this form - character: "shape of opercle"; state 0: "round", state 1: "not round".  The author is not specifying what the shape of the opercle in state 1 is except that it is not round.  This is more usefully expressed as complementation of a class ("not" in Manchester syntax) rather than negation of a statement:
 
-shape that inheres_in some opercle and complement_of round
+'''shape''' that ''inheres_in'' some '''opercle''' and not '''round'''
 
 ==Presence/absence phenotype==
 
