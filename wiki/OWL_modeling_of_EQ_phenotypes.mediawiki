@@ -55,7 +55,7 @@ For "present":
 
 If the absence is within a particular structure:
 
-''has_part'' (some '''dorsal_fin''' that ''has_part'' exactly 0 '''actinotrichium''')
+''has_part'' some ('''dorsal_fin''' that ''has_part'' exactly 0 '''actinotrichium''')
 
 ==Count phenotype==
 
