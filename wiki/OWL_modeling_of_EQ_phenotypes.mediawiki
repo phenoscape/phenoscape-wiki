@@ -9,7 +9,7 @@ A quality of a singe physical entity. Example: “sigmoid-shaped supraorbital bo
 
 '''sigmoid''' that ''inheres_in'' some '''supraorbital_bone'''
 
-==Relational phenotype==
+==Relational phenotype (Dependent phenotype?)==
 Relational qualities are those that exist between multiple entities. For example, “parietal fused with supraoccipital” is represented as:
 
 '''fused_with''' that ''inheres_in'' some '''parietal''' and ''towards'' some '''supraoccipital'''
