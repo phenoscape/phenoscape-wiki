@@ -71,7 +71,7 @@ state 1:
 ==Measurements==
 A direct measurement of the magnitude of some quality of a structure.
 
-'''length''' that ''inheres_in'' some '''femur''' and ''has_measurement'' some (''has_value'' <code>10.3f</code> and ''has_unit'' value <code>cm</code>)
+'''length''' that ''inheres_in'' some '''femur''' and ''has_measurement'' some (''has_value'' value <code>10.3f</code> and ''has_unit'' value <code>cm</code>)
 
 The properties ''has_measurement'', ''has_value'', and ''has_unit'' need to be standardized - there may be some in OBO_REL that can be used. This version assumes that <code>cm</code> is available as an individual in some units terminology.
 
