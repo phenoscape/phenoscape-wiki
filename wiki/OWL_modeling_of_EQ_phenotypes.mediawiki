@@ -58,6 +58,15 @@ If the absence is within a particular structure:
 ''has_part'' some ('''dorsal_fin''' that ''has_part'' exactly 0 '''actinotrichium''')
 
 ==Count phenotype==
+Counts can be expressed as a generalization of presence/absence.  Both exact counts and maximum or minimums can be expressed.  So, for the character "Number of scales on dorsal fin", state 0: 45, state 1: >45,
+
+state 0:
+
+''has_part'' some ('''dorsal_fin''' that ''has_part'' exactly 45 '''scale''')
+
+state 1:
+
+''has_part'' some ('''dorsal_fin''' that ''has_part'' min 46 '''scale''')
 
 ==Measurements==
 
