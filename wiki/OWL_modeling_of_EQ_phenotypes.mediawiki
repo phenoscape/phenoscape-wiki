@@ -69,6 +69,7 @@ state 1:
 ''has_part'' some ('''dorsal_fin''' that ''has_part'' min 46 '''scale''')
 
 ==Measurements==
+'''length''' that ''inheres_in'' some '''femur''' and ''has_measurement'' some (''has_value'' <code>10.3</code> and ''has_unit'' value <code>cm</code>)
 
 [[Category:Ontology]]
 [[Category:EQ Annotation]]
