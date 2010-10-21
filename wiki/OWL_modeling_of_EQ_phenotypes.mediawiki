@@ -69,9 +69,11 @@ state 1:
 ''has_part'' some ('''dorsal_fin''' that ''has_part'' min 46 '''scale''')
 
 ==Measurements==
-The properties ''has_measurement'', ''has_value'', and ''has_unit'' need to be standardized - there may be some in OBO_REL that can be used. This version assumes that <code>cm</code> is available as an individual in some units terminology.
+A direct measurement of the magnitude of some quality of a structure.
 
 '''length''' that ''inheres_in'' some '''femur''' and ''has_measurement'' some (''has_value'' <code>"10.3"^^float</code> and ''has_unit'' value <code>cm</code>)
+
+The properties ''has_measurement'', ''has_value'', and ''has_unit'' need to be standardized - there may be some in OBO_REL that can be used. This version assumes that <code>cm</code> is available as an individual in some units terminology.
 
 [[Category:Ontology]]
 [[Category:EQ Annotation]]
