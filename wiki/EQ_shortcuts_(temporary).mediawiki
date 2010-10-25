@@ -1,0 +1,8 @@
+---
+title: EQ shortcuts (temporary)
+---
+
+Here are temporary curation shortcuts for creating particular kinds of phenotypes. These can be used until better EQ entry interfaces are available in Phenex.  The KB data loader will watch for and correctly interpret each of these.
+
+[[Category:Curation]]
+[[Category:EQ Annotation]]
