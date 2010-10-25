@@ -10,7 +10,10 @@ Example: "opercle, not round". Create a postcomposition for the quality, choosin
 * Q: shape^not(round)
 
 ==Comparative phenotypes (one structure relative to another)==
-Example: supraorbital increased in size relative to frontal<br>
+Example: "supraorbital increased in size relative to frontal". Put the compared to structure in the related entity column. Choose one of the "increased X" qualities. While these qualities technically compare to "normal", the data loader will replace them with the correct quality.
+* E: supraorbital
+* Q: increased size
+* RE: frontal
 
 [[Category:Curation]]
 [[Category:EQ Annotation]]
