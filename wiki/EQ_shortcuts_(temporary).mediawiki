@@ -15,5 +15,11 @@ Example: "supraorbital increased in size relative to frontal". Put the compared 
 * Q: increased size
 * RE: frontal
 
+==Locally relative phenotypes==
+Example: "opercle size: small, medium, or large". Choose the quality being compared, and place a number in the Count column indicating the proper sort order (1 < 2 < 3). For "small":
+* E: opercle
+* Q: size
+* Count: 1
+
 [[Category:Curation]]
 [[Category:EQ Annotation]]
