@@ -360,6 +360,106 @@ that its immediate repigean ancestors evolved by middle Oligocene.",
 
 If there is no term with the given ID, the service should return "404 Not Found".
 
+==Publication data matrix==
+
+ <BASE URI>/term/publication/{term_id}/matrix
+
+Returns a data matrix containing all characters and OTUs loaded from a published dataset.
+
+'''Returns'''
+
+JSON:
+<javascript>
+{
+    "matrix": {
+        "2875e05f-9479-4456-91fb-81b8709a7b44": {
+            "6d6adec7-a220-4629-883c-b65346beba25": {
+                "label": "absent"
+            },
+            "92087cf1-a738-4315-be78-58a0bc28079d": {
+                "label": "absent"
+            },
+            "c34ce73c-fc2e-4919-886a-68200eb19704": {
+                "label": "passing through these bones"
+            },
+            "c306421f-9fcc-4dee-90b1-ea96428cf672": {
+                "label": "fused with articular"
+            }},
+"dc038812-e6e7-47ed-9656-576cd46f8da5": {
+            "6d6adec7-a220-4629-883c-b65346beba25": {
+                "label": "absent"
+            },
+            "92087cf1-a738-4315-be78-58a0bc28079d": {
+                "label": "present"
+            },
+            "c34ce73c-fc2e-4919-886a-68200eb19704": {
+                "label": "passing through these bones"
+            },
+            "8b710077-4b7c-433c-81eb-cc20ce920bfa": {
+                "label": "present"
+            },
+            "c306421f-9fcc-4dee-90b1-ea96428cf672": {
+                "label": "fused with articular"
+            }},
+"otus": [{
+        "id": "2875e05f-9479-4456-91fb-81b8709a7b44",
+        "label": "Armigatus brevissimus",
+        "taxon": {
+            "id": "TTO:10000250",
+            "extinct": true,
+            "rank": {
+                "id": "TAXRANK:0000006",
+                "label": "species"
+            },
+            "label": "Armigatus brevissimus"
+        }
+    },
+    {
+        "id": "99c913d0-f84c-4340-afac-cd0ad3ba0f0a",
+        "label": "Clupea harengus",
+        "taxon": {
+            "id": "TTO:1001154",
+            "extinct": false,
+            "rank": {
+                "id": "TAXRANK:0000006",
+                "label": "species"
+            },
+            "label": "Clupea harengus"
+        }
+    }],
+"characters": [{
+        "id": "92087cf1-a738-4315-be78-58a0bc28079d",
+        "num": "1",
+        "label": "Recessus lateralis"
+    },
+    {
+        "id": "4b6e04bd-affa-47cc-95a2-b314cc17c20d",
+        "num": "2",
+        "label": "Otophysic connection involving a diverticulum of the swimbladder that penetraates the exoccipital and extends into the prootic within the lateral wall of the braincase"
+    },
+    {
+        "id": "597b3b2b-10f2-4b4a-a8ce-07bd84b8e261",
+        "num": "3",
+        "label": "Preepiotic fossa"
+    },
+    {
+        "id": "b71d0cb7-f67c-4100-9325-6e0450ea21b3",
+        "num": "4",
+        "label": "Parietals "
+    }]
+}
+</javascript>
+
+'''Error'''
+
+If there is no publication with the given ID, the service should return "404 Not Found".
+
+==Publication data matrix==
+
+ <BASE URI>/term/publication/{term_id}/matrix
+
+Returns a data matrix containing all characters and OTUs loaded from a published dataset.
+
 ==Bulk term name mapper==
 '''URI'''
 
