@@ -11,6 +11,7 @@ This contains consistency-checked and author-checked files (from 'phenex-files')
 * [http://kb.phenoscape.org/OBD-WS/statistics/consistencyreports/characterswithonlyoneoftwopossibleannotations Presence/absence characters without both states]
 
 ==Reports on kb-old==
+This database has the old interface.
 
 ==Reports on kb-staging==
 This contains files that are going into production database (from 'phenex-files'); some are updated daily by curators. It currently contains Sandrine's files.
