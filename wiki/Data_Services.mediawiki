@@ -454,11 +454,7 @@ JSON:
 
 If there is no publication with the given ID, the service should return "404 Not Found".
 
-==Publication data matrix==
 
- <BASE URI>/term/publication/{term_id}/matrix
-
-Returns a data matrix containing all characters and OTUs loaded from a published dataset.
 
 ==Bulk term name mapper==
 '''URI'''
