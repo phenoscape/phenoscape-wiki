@@ -19,7 +19,6 @@ title: Links
 * [http://www.zfin.org Zebrafish Information Network] (ZFIN)
 * [http://www.deepfin.org/ DeepFin]
 * [http://silurus.acnatsci.org/ All Catfish Species]
-* [http://www.digitalfishlibrary.org/ Digital Fish Library]
 * [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes]
 * [http://fishbase.org/ FishBase]
 
