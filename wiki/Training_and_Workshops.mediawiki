@@ -2,8 +2,9 @@
 title: Training and Workshops
 ---
 
-==Summer Training Opportunities==
-Opportunities in summer 2009 are available to graduate students and postdocs for training in data curation and software development at NESCent and the University of South Dakota.  [[SummerTraining2009|More information]].
+
+== [[PATO workshop]]: September 25-27, 2010 ==
+Members of Phenoscape met with personnel from the Hymenoptera Anatomy Ontology (HAO) project, TAIR and the Phenotype and Trait Ontology (PATO) at the University of Oregon to discuss and find solutions to reasoning issues that have arisen as a result of PATO ontology structure, and ways to represent phenotypes using the EQ model.  
 
 == [[Skeletal Anatomy Jamboree]]: April 9-10, 2010 ==
 
@@ -108,6 +109,9 @@ The Needs Analysis Workshop brought together leading scientists from the fields 
 
 * [[Needs Analysis Workshop|Overview page of the workshop]], with links to presentations and break-out group notes
 * [[Needs Analysis Workshop/Summary|Summary report]]
+
+==Summer Training Opportunities==
+Opportunities in summer 2009 are available to graduate students and postdocs for training in data curation and software development at NESCent and the University of South Dakota.  [[SummerTraining2009|More information]].
 
 [[Category:Community]]
 [[Category:Events]]
