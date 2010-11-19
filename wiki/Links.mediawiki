@@ -7,12 +7,12 @@ title: Links
 * [[Guide_to_Character_Annotation | Phenoscape Guide to Character Annotation]]
 ===Ontologies===
 
-* [https://www.phenoscape.org/wiki/Teleost_Anatomy_Ontology Teleost Anatomy Ontology]
-* [https://www.phenoscape.org/wiki/Teleost_Taxonomy_Ontology Teleost Taxonomy Ontology]
-* [http://obofoundry.org/cgi-bin/detail.cgi?id=zebrafish_anatomy&title=Zebrafish%20anatomy%20and%20development Zebrafish Anatomy and Development]
-* [http://obofoundry.org/cgi-bin/detail.cgi?id=quality Phenotype and Trait Ontology]
+* [https://www.phenoscape.org/wiki/Teleost_Anatomy_Ontology Teleost Anatomy Ontology (TAO)]
+* [https://www.phenoscape.org/wiki/Teleost_Taxonomy_Ontology Teleost Taxonomy Ontology (TTO)]
+* [http://obofoundry.org/cgi-bin/detail.cgi?id=zebrafish_anatomy&title=Zebrafish%20anatomy%20and%20development Zebrafish Anatomy and Development (ZFA)]
+* [http://obofoundry.org/cgi-bin/detail.cgi?id=quality Phenotype and Trait Ontology (PATO)]
 * [http://obofoundry.org/cgi-bin/detail.cgi?caro Common Anatomy Reference Ontology (CARO)]
-* [http://www.bioontology.org/ncbo/faces/pages/ontology_list.xhtml Ontologies from NCBO]
+* [http://www.bioontology.org/ncbo/faces/pages/ontology_list.xhtml Ontology browsing and visualization at NCBO]
 * [http://www.bioontology.org/wiki/index.php/CL:Aligning_species-specific_anatomy_ontologies_with_CL Maintaining inter-ontology relations between species specific anatomy ontologies and CL/GO/CARO]
 * [http://www.fruitfly.org/~cjm/obd/formats.html OBD Phenotype file formats] - Includes standards and schemas for PhenoSyntax and PhenoXML
 * [http://www.berkeleybop.org/obd/ Open Biomedical Data (OBD) data model, API, and other downloads]
