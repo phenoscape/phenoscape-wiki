@@ -12,6 +12,9 @@ title: Links
 * [http://obofoundry.org/cgi-bin/detail.cgi?id=zebrafish_anatomy&title=Zebrafish%20anatomy%20and%20development Zebrafish Anatomy and Development (ZFA)]
 * [http://obofoundry.org/cgi-bin/detail.cgi?id=quality Phenotype and Trait Ontology (PATO)]
 * [http://obofoundry.org/cgi-bin/detail.cgi?caro Common Anatomy Reference Ontology (CARO)]
+
+===Ontology Resources===
+
 * [http://www.bioontology.org/ncbo/faces/pages/ontology_list.xhtml Ontology browsing and visualization at NCBO]
 * [http://www.bioontology.org/wiki/index.php/CL:Aligning_species-specific_anatomy_ontologies_with_CL Maintaining inter-ontology relations between species specific anatomy ontologies and CL/GO/CARO]
 * [http://www.fruitfly.org/~cjm/obd/formats.html OBD Phenotype file formats] - Includes standards and schemas for PhenoSyntax and PhenoXML
