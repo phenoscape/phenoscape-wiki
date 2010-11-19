@@ -12,6 +12,9 @@ title: Publications and Posters
 * Mabee PM, Arratia G, Coburn M, Haendel M, Hilton EJ, Lundberg JG, Mayden RL, Rios N, and Westerfield M. Connecting evolutionary morphology to genomics using ontologies: a case study from Cypriniformes including zebrafish. J Exp Zoolog B Mol Dev Evol 2007 Jun 28. [http://dx.doi.org/10.1002/jez.b.21181 doi:10.1002/jez.b.21181]
 
 ==Posters & Presentations==
+===2010===
+<u>Hilmar Lapp</a> (2010) [http://www.bioontology.org/phenoscape Bringing reason to phenotype diversity, character change, and common descent], Webex recording of NCBO Webinar, November 17, 2010. 
+
 ===2009===
 <u>Todd Vision</u> (2009) [[Media:iplant_ontologies_2009_11_22.pdf|Ontologies in Phenoscape: Morphology, Taxa and Evolution]], Presentation at the iPlant Tree of Life Data Assembly Meeting, Phoenix, AZ, Nov 22, 2009.
 
