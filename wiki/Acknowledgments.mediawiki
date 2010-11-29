@@ -172,7 +172,7 @@ title: Acknowledgments
 
 <h2>Data sources</h2>
 <ul>
-<li>[http://zfin.org ZFIN] - mutant and morpholina zebrafish genes and phenotypes</li>
+<li>[http://zfin.org ZFIN] - mutant and morpholino zebrafish genes and phenotypes</li>
 <li>[http://research.calacademy.org/ichthyology/catalog Catalog of Fishes] - fish taxonomy</li>
 <li>[http://www.fishbase.org/ Fishbase] - fish common names</li>
 </ul>
