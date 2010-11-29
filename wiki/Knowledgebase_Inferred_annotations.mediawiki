@@ -1,0 +1,7 @@
+---
+title: Knowledgebase:Inferred annotations
+---
+
+Help information about inferred annotations in the KB.
+
+[[Category:Knowledgebase Help]]
