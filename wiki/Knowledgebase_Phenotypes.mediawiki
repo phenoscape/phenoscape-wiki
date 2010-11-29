@@ -3,3 +3,5 @@ title: Knowledgebase:Phenotypes
 ---
 
 Explanatory information about the EQ phenotype model in the Knowledgebase.
+
+[[Category:Knowledgebase Help]]
