@@ -8,7 +8,7 @@ title: Main Page
 ** [http://sysbio.oxfordjournals.org/content/59/4/369.full "The Teleost Anatomy Ontology: Anatomical Representation for the Genomics Age"] was published in the July issue of Systematic Biology; see our ontology [http://sysbio.oxfordjournals.org/content/vol59/issue4/cover.dtl cover art] that was selected for this issue!
 ** [http://dx.plos.org/10.1371/journal.pone.0010708 “Evolutionary Characters, Phenotypes and Ontologies: Curating Data from the Systematic Biology Literature”] was published in PLoS ONE on May 20th
 ** [http://dx.plos.org/10.1371/journal.pone.0010500 “Phenex: Ontological Annotation of Phenotypic Diversity”] was published in PLoS ONE on May 5th. Download [http://blog.phenoscape.org/2009/11/25/phenex-1-0/ Phenex 1.0] here.
-* On April 9-10, 2010 we held a [[Skeletal_Anatomy_Jamboree|Skeletal Anatomy Jamboree]] at NESCent, where we re-evaluated the high-level skeletal system ontology hierarchy for fishes, and initiated a skeletal anatomy ontology for vertebrates.
+* On April 9-10, 2010 we held a [[Skeletal_Anatomy_Jamboree|Skeletal Anatomy Jamboree]] at NESCent, where we re-evaluated the high-level skeletal system ontology hierarchy for fishes, and initiated an anatomy ontology for vertebrates.
 * Try the Beta version of the [http://kb.phenoscape.org Phenoscape Knowledgebase]!
 }}
 
