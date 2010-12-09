@@ -87,6 +87,14 @@ Specific goals are to be determined by the workshop participants. An initial lis
 # Mabee PM, Arratia G, Coburn M, Haendel M, Hilton EJ, Lundberg JG, Mayden RL, Rios N, and Westerfield M. Connecting evolutionary morphology to genomics using ontologies: a case study from Cypriniformes including zebrafish. J Exp Zoolog B Mol Dev Evol 2007 Jun 28. [http://dx.doi.org/10.1002/jez.b.21181 doi:10.1002/jez.b.21181]
 # Haendel, M.A., Neuhaus, F., Osumi-Sutherland, D.S., Mabee, P.M., Mejino J.L.V., Mungall, C.J., and Smith, B. (2008) [[Media:Caroreprint.pdf|CARO - The Common Anatomy Reference Ontology]]. ''In:'' Albert Burger, Duncan Davidson and Richard Baldock (Editors): ''Anatomy Ontologies for Bioinformatics: Principles and Practice''. ISBN 978-1-84628-884-5.-->
 
+== Final report ==
+* The report from this workshop summarizes the participants views as the specific research questions to be answered and thus goals to be achieved through a community‐based grant.  Break-out groups provided perspective on the questions below.
+1. What are the key gaps in tools to develop your work?
+2. What are key obstacles to data exchange and data integration?
+3. What do you perceive as the key ontologies that are lacking?
+4. What are the gaps in expertise in understanding, developing and applying
+ontologies in the community?
+
 == Participants ==
 
 Members of Phenoscape are in '''bold font'''.
