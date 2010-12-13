@@ -109,6 +109,14 @@ State 1:
 
 Note: The use of PATO size terms in Phenoscape are curatorial shortcuts because these terms are precomposed relative to "normal" (e.g., ''increased size'' has an ''increased_in'' relationship to "normal"). These annotations will be converted to the correct form using PATO:size and the appropriate relation (''increased_in_magnitude_relative_to'', ''decreased_in_magnitude_relative_to'', ''similar_in_magnitude_relative_to'').
 
+[[EQ_shortcuts_(temporary)|Locally relative phenotypes]]
+
+Example: "opercle size: small, medium, or large". Choose the quality being compared, and place a number in the Count column indicating the proper sort order (1 < 2 < 3). For "small":
+
+    * E: opercle
+    * Q: size
+    * Count: 1
+
 ===7. Contralateral halves of bilaterally paired structures ===
 
 Terms for the contralateral halves of bilaterally paired structures are created using the ''in_right_side_of'' and ''in_left_side_of'' relations in a post-composition, where the perspective is from the standpoint of the organism. For example:
