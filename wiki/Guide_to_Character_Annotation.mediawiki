@@ -92,7 +92,7 @@ Characters involving counts of entities are annotated using the “count” qual
 
 ===6. Size ===
 
-In the systematics literature, the size of a structure is often compared to the size of different structure, or it is compared to the same structure in another taxon.  For example, an author may compare the length of one bone relative to another (e.g., state 0: "frontal length greater than parietal length" vs. state 1: frontal length shorter than parietal length"). This is represented as:
+In the systematics literature, the size of a structure is often compared to the size of another structure, or it is compared to the same structure in another taxon.  For example, an author may compare the length of one bone relative to another (e.g., state 0: "frontal length greater than parietal length" vs. state 1: frontal length shorter than parietal length"). This is represented as:
 
 State 0:
  E: frontal, Q: increased length, E2: parietal
@@ -107,7 +107,7 @@ State 0
 State 1:
  E: frontal, Q: decreased size
 
-Note: The use of PATO size terms in Phenoscape are curatorial shortcuts because these terms are precomposed relative to "normal" (e.g., ''increased size'' has an ''increased_in'' relationship to "normal"). These annotations will be converted to the correct form using PATO:size and the appropriate relation (''increased_in_magnitude_relative_to'', ''decreased_in_magnitude_relative_to'', ''similar_in_magnitude_relative_to'').
+Note: The use of PATO size terms in Phenoscape are [[EQ_shortcuts_(temporary)|curatorial shortcuts]] because these terms are precomposed relative to "normal" (e.g., ''increased size'' has an ''increased_in'' relationship to "normal"). These annotations will be converted in the KB data loader to the correct form using PATO:size and the appropriate relation (''increased_in_magnitude_relative_to'', ''decreased_in_magnitude_relative_to'', ''similar_in_magnitude_relative_to'').
 
 ====[[EQ_shortcuts_(temporary)|Locally relative phenotypes]]====
 
