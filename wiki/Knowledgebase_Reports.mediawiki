@@ -61,7 +61,7 @@ kb-staging is currently offline for maintenance.
 ==Reports on kb-dev==
 This database is used for active development and may often be broken. It should usually not be relied upon for everyday use.
 
-This contains all of the data files found [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/data/phenex-files/ here].  It contains the latest public versions of all ontologies at the time the data were loaded, with the exception of PATO (it currently contains an experimental PATO revision).
+This contains all of the data files found [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/data/phenex-files/ here].  It contains the latest public versions of all ontologies at the time the data were loaded, with the exception of PATO (it currently contains an [http://www.duke.edu/~jpb15/quality.obo experimental PATO revision]).
 
 * [http://kb-dev.phenoscape.org/OBD-WS/timestamp/ Date on which these data were loaded]
 * [http://kb-dev.phenoscape.org/OBD-WS/report/count/publications Count of annotated publications, by higher level taxon]
