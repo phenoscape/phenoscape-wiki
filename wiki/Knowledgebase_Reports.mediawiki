@@ -114,7 +114,7 @@ This contains all of the data files found [http://phenoscape.svn.sourceforge.net
 ** [http://kb-dev.phenoscape.org/OBD-WS/report/count/phenotypes/genes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D skeletal system and parts only]
 
 ==kb-old==
-This database has the old interface.
+This database has the old interface - its data are frozen as of May 2010.
 
 [[Category:Curation]]
 [[Category:Database]]
