@@ -3,7 +3,7 @@ title: Knowledgebase Reports
 ---
 
 ==Reports on production Phenoscape KB==
-This contains consistency-checked and author-checked files (from 'phenex-files').  It is updated irregularly (every 1-3 months). This contains all of the data files found [here http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/data/phenex-files/].
+This contains consistency-checked and author-checked files (from 'phenex-files').  It is updated irregularly (every 1-3 months). This contains all of the data files found [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/data/phenex-files/ here].
 
 ==Reports on kb-staging==
 This contains files that are going into production database (from 'phenex-files'); some are updated daily by curators. It currently contains Sandrine's files.
