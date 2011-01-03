@@ -3,3 +3,9 @@ title: Matching Phenotypes
 ---
 
 = Matching Phenotypes represented using EQs =
+
+== Why? ==
+
+== Selecting Phenotypes from Taxon Annotations ==
+
+== Using attributes to limit the scope of quality comparisons ==
