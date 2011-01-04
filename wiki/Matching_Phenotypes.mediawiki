@@ -13,6 +13,11 @@ The matching process involves matching ''changes'' in phenotype, not directly ma
 
 = Using attributes to limit the scope of quality comparisons =
 
+Because the interest is in change in phenotype, phenotypes 'reduced' to a change in an attribute of an anatomical entity, not a particular quality of a phenotype.  Subsuming qualities all the way to their attributes is not, in principle, necessary (for example, round and triangular are subsumed by 2-D shape), using a consistent set of subsumers simplifies the matching process.  
+
+Therefore, matching phenotypes is reduced to matching the entity component of changes that have a common attribute (so shape changes and color changes will never be matched).
+
+
 Each phenotype is linked to multiple entities via ''inheres_in_part_of'' relations.
 
 = Scoring matches of individual phenotypes =
