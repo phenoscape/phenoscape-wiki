@@ -13,19 +13,23 @@ The matching process involves matching ''changes'' in phenotype, not directly ma
 
 = Using attributes to limit the scope of quality comparisons =
 
-Because the interest is in change in phenotype, phenotypes 'reduced' to a change in an attribute of an anatomical entity, not a particular quality of a phenotype.  Subsuming qualities all the way to their attributes is not, in principle, necessary (for example, round and triangular are subsumed by 2-D shape), using a consistent set of subsumers simplifies the matching process.  
+Because the interest is in change in phenotype, phenotypes 'reduced' to a change in an attribute of an anatomical entity, not a particular quality of a phenotype.  Subsuming qualities all the way to their attributes is not, in principle, necessary (for example, round and triangular are subsumed by 2-D shape), using a consistent set of subsumers simplifies the matching process.
 
 Therefore, matching phenotypes is reduced to matching the entity component of changes that have a common attribute (so shape changes and color changes will never be matched).
 
+ZFIN does not use the same qualities from PATO as Phenoscape.
+
+= Scoring matches of individual phenotypes =
 
 Each phenotype is linked to multiple entities via ''inheres_in_part_of'' relations.
 
-= Scoring matches of individual phenotypes =
+Phenotypes with different attributes are not matches and (implicitly) are scored 0.  Two phenotypes with qualities subsumed under the same attribute
+can be matched by generating the set of entities linked by inheres_in_part_of relations from each phenotype (EQ).  Take the intersection of these sets of 'neighboring' entities and select the entity with the largest information content (this requires calculating information content for entities as well as phenotypes).  The information content of this entity is used as the match score.  Note that under this scheme, an exact match may still score poorly if the shared entity is high up in the anatomy hierarchy.  For example round ''inheres_in'' bone matched against itself will have a lower score than straight ''inheres_in'' neural spine 1 against curved inheres_in neural spine 2 because the latter two share the ''inheres_in_part_of'' neighbor neural spine.    
 
 = Scoring matches of sets of phenotypes (phenotypic profiles) associated with a gene or taxon node =
 
 
 *maxIC - the greatest IC of any pair of phenotypes in the set of pairs of phenotypes where one is drawn from the taxon set and other from the gene set.
 *ICCS - each taxon phenotype is matched against all gene phenotypes and the highest match score for each taxon phenotype is collected.  The final score is the mean of these highest matches. (Should the set of scores be accumulated both ways?)
-*simIC - 
+*simIC -
 *simJ
