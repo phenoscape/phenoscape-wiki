@@ -17,7 +17,7 @@ Because the interest is in change in phenotype, phenotypes 'reduced' to a change
 
 Therefore, matching phenotypes is reduced to matching the entity component of changes that have a common attribute (so shape changes and color changes will never be matched).
 
-ZFIN does not use the same qualities from PATO as Phenoscape.
+ZFIN and Phenoscape use different (though partially overlapping) sets of qualities (from the PATO ontology) in constructing phenotype annotations.
 
 = Scoring matches of individual phenotypes =
 
