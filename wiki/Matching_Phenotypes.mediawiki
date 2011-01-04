@@ -2,19 +2,18 @@
 title: Matching Phenotypes
 ---
 
-= Matching Phenotypes represented using EQs =
+This page discusses the method developed and implemented in late 2010 for search for, and scoring, phenotype matches between taxa (phenoscape) and zebrafish mutants (ZFIN).
+= Purpose =
 
-== Why? ==
+= Selecting Phenotypes from Taxon Annotations =
 
-== Selecting Phenotypes from Taxon Annotations ==
-
-== Using attributes to limit the scope of quality comparisons ==
+= Using attributes to limit the scope of quality comparisons =
 
 Each phenotype is linked to multiple entities via ''inheres_in_part_of'' relations.
 
-== Scoring matches of individual phenotypes ==
+= Scoring matches of individual phenotypes =
 
-== Scoring matches of sets of phenotypes (phenotypic profiles) associated with a gene or taxon node ==
+= Scoring matches of sets of phenotypes (phenotypic profiles) associated with a gene or taxon node =
 
 
 *maxIC
