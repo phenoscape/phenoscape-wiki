@@ -9,3 +9,15 @@ title: Matching Phenotypes
 == Selecting Phenotypes from Taxon Annotations ==
 
 == Using attributes to limit the scope of quality comparisons ==
+
+Each phenotype is linked to multiple entities via ''inheres_in_part_of'' relations.
+
+== Scoring matches of individual phenotypes ==
+
+== Scoring matches of sets of phenotypes (phenotypic profiles) associated with a gene or taxon node ==
+
+
+*maxIC
+*ICCS
+*simIC
+*simJ
