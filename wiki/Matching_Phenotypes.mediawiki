@@ -25,7 +25,7 @@ Each phenotype is linked to multiple entities via ''inheres_in_part_of'' relatio
 = Scoring matches of sets of phenotypes (phenotypic profiles) associated with a gene or taxon node =
 
 
-*maxIC
-*ICCS
-*simIC
+*maxIC - the greatest IC of any pair of phenotypes in the set of pairs of phenotypes where one is drawn from the taxon set and other from the gene set.
+*ICCS - each taxon phenotype is matched against all gene phenotypes and the highest match score for each taxon phenotype is collected.  The final score is the mean of these highest matches. (Should the set of scores be accumulated both ways?)
+*simIC - 
 *simJ
