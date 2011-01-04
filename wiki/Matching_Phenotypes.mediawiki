@@ -2,7 +2,7 @@
 title: Matching Phenotypes
 ---
 
-This page discusses the method developed and implemented in late 2010 for search for, and scoring, phenotype matches between taxa (phenoscape) and zebrafish mutants (ZFIN).
+This page discusses the method developed and implemented in late 2010 for search for, and scoring, phenotype matches between taxa (Phenoscape) and zebrafish mutants (ZFIN).
 = Purpose =
 
 = Selecting Phenotypes from Taxon Annotations =
