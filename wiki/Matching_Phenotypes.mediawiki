@@ -33,3 +33,8 @@ can be matched by generating the set of entities linked by inheres_in_part_of re
 *ICCS - each taxon phenotype is matched against all gene phenotypes and the highest match score for each taxon phenotype is collected.  The final score is the mean of these highest matches. (Should the set of scores be accumulated both ways?)
 *simIC -
 *simJ
+
+= Information Content as a metric of term relatedness =
+
+== Alternatives ==
+Because of its dependence on the set of annotations, there is a real concern that IC may not be the most appropriate measure of similarity between terms an ontology with associated annotations.
