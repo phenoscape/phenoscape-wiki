@@ -454,7 +454,21 @@ JSON:
 
 If there is no publication with the given ID, the service should return "404 Not Found".
 
+==Publication OTUs list==
 
+ <BASE URI>/term/publication/{term_id}/otus
+
+Returns a list of all OTUs in the data matrix for the given publication. For each OTU, the valid taxon TTO identifier and a list of specimens is provided.
+
+'''Returns'''
+
+JSON:
+<javascript>
+</javascript>
+
+'''Error'''
+
+If there is no publication with the given ID, the service should return "404 Not Found".
 
 ==Bulk term name mapper==
 '''URI'''
