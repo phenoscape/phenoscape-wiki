@@ -464,6 +464,101 @@ Returns a list of all OTUs in the data matrix for the given publication. For eac
 
 JSON:
 <javascript>
+{
+    "otus": [{
+        "label": "Glyptothorax sp.",
+        "specimens": [{
+            "catalog_number": "288474",
+            "collection": {
+                "id": "COLLECTION:0000417",
+                "name": "USNM"
+            }
+        },
+        {
+            "catalog_number": "288474",
+            "collection": {
+                "id": "COLLECTION:0000417",
+                "name": "USNM"
+            }
+        },
+        {
+            "catalog_number": "288474",
+            "collection": {
+                "id": "COLLECTION:0000417",
+                "name": "USNM"
+            }
+        }],
+        "taxon": {
+            "id": "TTO:10000098",
+            "extinct": false,
+            "rank": {
+                "id": "TAXRANK:0000006",
+                "name": "species"
+            },
+            "name": "Glyptothorax sp. (de Pinna 1996)"
+        }
+    },
+    {
+        "label": "Glyptothorax telchitta",
+        "specimens": [{
+            "catalog_number": "208876",
+            "collection": {
+                "id": "COLLECTION:0000403",
+                "name": "UMMZ"
+            }
+        },
+        {
+            "catalog_number": "208876",
+            "collection": {
+                "id": "COLLECTION:0000403",
+                "name": "UMMZ"
+            }
+        }],
+        "taxon": {
+            "id": "TTO:1051772",
+            "extinct": false,
+            "rank": {
+                "id": "TAXRANK:0000006",
+                "name": "species"
+            },
+            "name": "Glyptothorax telchitta"
+        }
+    },
+    {
+        "label": "Breitensteinia insignis",
+        "specimens": [{
+            "catalog_number": "58378",
+            "collection": {
+                "id": "COLLECTION:0000009",
+                "name": "AMNH"
+            }
+        },
+        {
+            "catalog_number": "58378",
+            "collection": {
+                "id": "COLLECTION:0000009",
+                "name": "AMNH"
+            }
+        },
+        {
+            "catalog_number": "58378",
+            "collection": {
+                "id": "COLLECTION:0000009",
+                "name": "AMNH"
+            }
+        }],
+        "taxon": {
+            "id": "TTO:1005733",
+            "extinct": false,
+            "rank": {
+                "id": "TAXRANK:0000006",
+                "name": "species"
+            },
+            "name": "Breitensteinia insignis"
+        }
+    }
+    ]
+}
 </javascript>
 
 '''Error'''
