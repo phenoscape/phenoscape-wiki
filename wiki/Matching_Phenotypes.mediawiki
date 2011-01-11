@@ -31,7 +31,7 @@ can be matched by generating the set of entities linked by inheres_in_part_of re
 
 *maxIC - the greatest IC of any pair of phenotypes in the set of pairs of phenotypes where one is drawn from the taxon set and other from the gene set.
 *ICCS - each taxon phenotype is matched against all gene phenotypes and the highest IC value among the matches for each taxon phenotype is collected.  The final score is the mean of these highest matches.
-*simIC - The sum of the IC values for each pair of matching phenotypes (e.g., phenotypes that share attributes) is divided by the sum of the IC values for each phenotype (in either taxon or gene profile) individually (currently implemented as matching the phenotype against itself).  C. Mungall ('''pers comm''') indicates that this metric is symmetric.
+*simIC - The sum of the IC values for each pair of matching phenotypes (e.g., phenotypes that share attributes) is divided by the sum of the IC values for each phenotype (in either taxon or gene profile) individually (currently implemented as matching the phenotype against itself).  C. Mungall (''pers comm'') indicates that this metric is symmetric.
 *simJ - The number of shared phenotypes is divided the sum of the number of phenotypes in each set.  Note: the numerator could be either the number of exact matches (e.g, at the level of qualities) or matches at the level of attribute (exact match entity, qualities have common attribute).
 
 = Information Content as a metric of term relatedness =
