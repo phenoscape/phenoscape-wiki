@@ -3,9 +3,9 @@ title: Guide to Character Annotation
 ---
 
 ==PATO terms used to annotate systematic characters ==
-Below is a simplified graph showing a subset of quality terms from the [http://obofoundry.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)] used to curate systematic characters. Terms in blue represent attribute-level qualities.  
+Below is a simplified graph showing a subset of quality terms from the [http://obofoundry.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)] used to curate systematic characters. Terms in blue represent attribute-level qualities.
 
-[[Image:https://www.phenoscape.org/wiki/Guide_to_Character_Annotation’]]
+[[Image:pato-diagram-2011.jpeg]]
 {| border="1" cellspacing="0" cellpadding="3"
 ! PATO attribute-level term
 ! Synonyms
