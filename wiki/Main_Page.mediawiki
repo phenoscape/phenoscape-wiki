@@ -4,7 +4,7 @@ title: Main Page
 
 {{EventBox1|
 * '''Try the Beta version of the [http://kb.phenoscape.org Phenoscape Knowledgebase].'''  Development is very much in progress, and your feedback is welcome!
-* Check out the latest project news on the [http://blog.phenoscape.org/ Phenoscape blog]!
+* Check out the latest project news on the [http://blog.phenoscape.org/ Phenoscape blog]
 * And see our recent Phenoscape pubs:
 ** [http://sysbio.oxfordjournals.org/content/59/4/369.full "The Teleost Anatomy Ontology: Anatomical Representation for the Genomics Age"] was published in the July issue of Systematic Biology; see our ontology [http://sysbio.oxfordjournals.org/content/vol59/issue4/cover.dtl cover art] that was selected for this issue!
 ** [http://dx.plos.org/10.1371/journal.pone.0010708 “Evolutionary Characters, Phenotypes and Ontologies: Curating Data from the Systematic Biology Literature”] was published in PLoS ONE on May 20th
