@@ -24,19 +24,19 @@ Below is a simplified graph showing a subset of quality terms from the [http://o
 |-
 || texture || || smooth, wrinkled
 |-
-|| optical quality || color ||
+|| optical quality || || color ||
 |-
-|| mass || increased mass  ||
+|| mass || || increased mass  ||
 |-
 || quality of a solid ||   ||
 |-
-|| mobility || mobile, immobile  ||
+|| mobility || || mobile, immobile  ||
 |-
-|| closure || open, closed  ||
+|| closure || || open, closed  ||
 |-
 || behavioral quality ||   ||
 |-
-|| count || present, absent  ||
+|| count || || present, absent  ||
 |}
 
 ==Annotation Specificity==
