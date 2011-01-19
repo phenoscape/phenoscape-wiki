@@ -12,39 +12,22 @@ Below is a simplified graph showing a subset of quality terms from the [http://o
 ! Examples of child terms
 
 |-
-|| shape || || triangular, lobed, concave, interdigitated
-
+|| shape + relational shape quality || || triangular, lobed, concave, protruding into
 |-
-|| position || placement, location || horizontal, vertical
+|| position + relational spatial quality || placement, location || horizontal, anterior to
 |-
-|| size* || || thin, large, decreased height
+|| size || || thin, large, decreased height
 |-
-|| structure ||  || porous, non-porous
+|| structure + relational structural quality ||  || porous, fused with
 |-
 || composition || || ligamentous
 |-
-|| ossified || ||
-|-
-|| cartilaginous || ||
-|-
 || texture || || smooth, wrinkled
 |-
-|| color || ||
+|| optical quality || color ||
 |-
-|| present || present in organism, presence ||
-|-
-|| absent || absent from organism, absence ||
-|-
-|| count || count in organism  ||
-|-
-|| relational shape quality* || || protruding into
-|-
-|| relational spatial quality* || || orientation, anterior to, lateral to
-|-
-|| relational structural quality*  || || fused with, overlap with, separated from, in contact with
+|| count || present, absent  ||
 |}
-
-(*) Relational qualities describe phenotypes between two entities
 
 ==Annotation Specificity==
 
