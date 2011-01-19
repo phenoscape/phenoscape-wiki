@@ -2,6 +2,10 @@
 title: Ontology Data Service API
 ---
 
+''This is a legacy high-level specification of a common programmatic API needed by EQ editors (such as [[Phenex]] and [http://phenote.org Phenote]) to interface with ontology (and phenotype) repositories. It resulted from a breakout group, consisting of C. Mungall, J. Balhoff, and H. Lapp, of the [[Fish Evolution Working Group]] at their last meeting in November 2006, and served as part of the early input to the web-service design of the Bioportal.''
+
+''This specification as such has not been implemented in the [http://kb.phenoscape.org Phenoscape Knowledgebase] (KB), though some functions proposed here are among the implemented [[Data Services]] (for example "Look up term" as [[Data Services#Term info| Term Info]] and "Completion list" as [[Data Services#Autocomplete| Autocomplete]]. Also, the Bioportal meanwhile has a [http://www.bioontology.org/wiki/index.php/NCBO_REST_services full-featured REST API] that does implement all of the ontology-specific functions enumerated below, and the Phenoscape KB [[Data Services]] implement a much richer set of phenotype annotation services than envisioned below (albeit read-only).'' 
+
 ==Goal and motivation==
 
 A common API implemented by ontology data services enables clients such as EQ editors that heavily rely on such a service to plug into different data providers, local or remote, at their choice.
