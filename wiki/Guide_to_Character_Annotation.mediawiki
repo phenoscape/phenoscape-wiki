@@ -20,17 +20,17 @@ Below is a simplified graph showing a subset of quality terms from the [http://o
 |-
 || structure + relational structural quality ||  || porous, fused with
 |-
-|| composition || || ligamentous
+|| composition || || ligamentous, cartilaginous
 |-
 || texture || || smooth, wrinkled
 |-
-|| optical quality || || color ||
+|| optical quality || || color, brightness ||
 |-
-|| mass || || increased mass  ||
+|| mass || || increased mass ||
 |-
-|| quality of a solid ||   ||
+|| quality of a solid ||   || flexible, hard
 |-
-|| mobility || || mobile, immobile  ||
+|| mobility || || mobile, immobile  || 
 |-
 || closure || || open, closed  ||
 |-
