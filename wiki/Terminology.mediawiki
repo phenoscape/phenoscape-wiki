@@ -14,7 +14,7 @@ title: Terminology
 
 '''Phenotyped character''': Character with one or more states assigned to a phenotype
 
-'''Phenotype-taxon assertion''': Phenotype that is assigned to a taxon <font color=red>''- 'phenotype assertaion' used in TAO paper''</font>
+'''Phenotype-taxon assertion''': Phenotype that is assigned to a taxon <font color=red>''- 'phenotype assertion' used in TAO paper''</font>
 
 
 '''Distinct phenotype-taxon assertions''': phenotypes assigned to taxa that are unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype (EQ) for alternative character states (when annotating at high level of PATO granularity, e.g.).  Thus the number of distinct phenotype assertions is lower than the number of phenotype assertions.
