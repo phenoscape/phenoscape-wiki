@@ -10,7 +10,7 @@ Phenotype: An EQ statement. A phenotype, i.e. EQ statement, corresponds to a par
 
 Distinct Phenotype: Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parens)
 
-Composite character: character state with more than one phenotype.
+Composite character: character state with more than one phenotype. <font color=red>''- used in Curation paper''</font>
 
 Phenotyped character: Character with one or more states assigned to a phenotype
 
