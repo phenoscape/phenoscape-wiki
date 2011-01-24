@@ -4,7 +4,7 @@ title: Terminology
 
 = Character: =
 
-'''Character state''': variant of a Character, assigned a code in a phylogenetic analysis
+'''Character state''': variant of a Character, assigned a code in a phylogenetic analysis <font color=red>''- used in Curation paper''</font>
 
 '''Phenotype''': An EQ statement. A phenotype, i.e. EQ statement, corresponds to a part or whole character state (i.e. a character state may have multiple phenotypes).  Semantically, a phenotype is_a PATO:quality AND inheres_in some entity. <font color=red>''- used in Curation paper''</font>
 
