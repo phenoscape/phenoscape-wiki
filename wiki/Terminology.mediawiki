@@ -2,14 +2,9 @@
 title: Terminology
 ---
 
-
 '''Phenotype''': An EQ statement. A phenotype, i.e. EQ statement, corresponds to a part or whole character state (i.e. a character state may have multiple phenotypes).  Semantically, a phenotype is_a PATO:quality AND inheres_in some entity. <font color=red>''- used in all papers''</font>
 
 '''Distinct phenotype''': Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parens) <font color=red>''not used''</font>
-
-'''Composite character''': character state with more than one phenotype. <font color=red>''- used in Curation paper, Phenex paper''</font>
-
-'''Phenotyped character''': Character with one or more states assigned to a phenotype <font color=red>''- not used''</font>
 
 '''Phenotype-taxon assertion (=Taxon-Phenotype annotations?)''': Phenotype that is assigned to a taxon <font color=red>''- not used in Phenex, TAO, or Curation papers, however, 'Taxon-Phenotype annotation used in Phenex paper''</font>  'From this knowledgebase, similar  <B>taxon–phenotype annotations </B> can be easily discovered by searching higher level anatomical or quality terms.'
 
@@ -55,6 +50,10 @@ From Phenex paper:'Here, we address this problem at its root by development of a
 ''' Character''':
 
 '''Character state''': variant of a Character, assigned a code in a phylogenetic analysis <font color=red>''- used''</font>
+
+'''Composite character''': character state with more than one phenotype. <font color=red>''- used in Curation paper, Phenex paper''</font>
+
+'''Phenotyped character''': Character with one or more states assigned to a phenotype <font color=red>''- not used''</font>
 
 [[Category:Curation]]
 [[Category:Database]]
