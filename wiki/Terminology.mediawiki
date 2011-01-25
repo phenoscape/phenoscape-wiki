@@ -28,7 +28,7 @@ From SB paper: 'For example, a character state might be “Antorbital, triangula
 
 From Phenex paper:'Here, we address this problem at its root by development of a configurable software tool that employs standard ontologies and syntax to create computable  <B>phenotype annotations </B>.'
 
-'Specialized software has been developed to assist human curators in  <B>annotating /<B> the phenotypes of mutant genotypes using EQ syntax...'
+'Specialized software has been developed to assist human curators in  <B>annotating </B> the phenotypes of mutant genotypes using EQ syntax...'
 
 '''Distinct phenotype-taxon assertions''': phenotypes assigned to taxa that are unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype (EQ) for alternative character states (when annotating at high level of PATO granularity, e.g.).  Thus the number of distinct phenotype assertions is lower than the number of phenotype assertions.
 
