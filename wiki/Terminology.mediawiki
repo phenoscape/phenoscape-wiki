@@ -12,7 +12,7 @@ title: Terminology
 '''Annotation''': part of title of Phenex paper, not defined; defined in TAO paper: 'One common use of ontologies is the  <B>annotation </B> or “tagging” of objects or observations, such as genetic sequences, gene expression patterns, or whole organism phenotypes, with ontology terms. The convention used by model organism databases to  <B>annotate </B> mutant phenotypes is entity-quality (EQ) syntax in which an entity from an anatomical ontology is combined with a quality or nontaxon specific modifier (Gkoutos et al. 2004; Sprague et al. 2008). The Phenoscape project has adopted and extended EQ to  <B>annotate </B> evolutionary phenotypes, specifically systematic characters for os- tariophysan fishes. '
 
 '''Phenotype annotation''': <font color=red>''- used in all papers, not defined!''</font>
-From SB paper: 'Because the active use of ontologies is relatively new to evolutionary biology in general and systematics in particular, the biological research project currently driving development of TAO is the  <B>phenotype annotation </B> of the systematic literature for teleost fishes by the Phenoscape project.'
+**From SB paper: 'Because the active use of ontologies is relatively new to evolutionary biology in general and systematics in particular, the biological research project currently driving development of TAO is the  <B>phenotype annotation </B> of the systematic literature for teleost fishes by the Phenoscape project.'
 
 **From SB paper: 'For example, a character state might be “Antorbital, triangular.” This phenotype can be expressed using the TAO term antorbital and the PATO term triangular. Such  <B>phenotype annotations </B> corresponding to systematic characters require the association of the anatomical term with a taxonomic name. Thus, TAO terms are associated with species or higher taxa through annotations to teleost scientific names from the Teleost Taxonomy On- tology (www.phenoscape.org; OBO CVS repository: http://obofoundry.org).'
 
@@ -21,6 +21,8 @@ From SB paper: 'Because the active use of ontologies is relatively new to evolut
 **'Specialized software has been developed to assist human curators in  <B>annotating </B> the phenotypes of mutant genotypes using EQ syntax...'
 
 '''Mutant phenotype''':  <font color=red>''- used in SB paper, not defined''</font>
+'''Zebrafish phenotype annotations''': - used currently in Phenoscape paper to mean 'Zebrafish phenotypes' or Zebrafish EQ statements'
+** E.g.: 'Zebrafish phenotype annotations recorded in the ZFIN database (21,476 as of 13 Jan 2011) are associated with genes (3,865) that are mutated or knocked down using morpholinos'
 
 '''Phenotype-taxon assertion (=Taxon-Phenotype annotations?)''': Phenotype that is assigned to a taxon <font color=red>''- not used in Phenex, TAO, or Curation papers, however, 'Taxon-Phenotype annotation used in Phenex paper''</font>  'From this knowledgebase, similar  <B>taxon–phenotype annotations </B> can be easily discovered by searching higher level anatomical or quality terms.'
 
