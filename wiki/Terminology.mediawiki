@@ -4,7 +4,8 @@ title: Terminology
 
 '''Phenotype''': An EQ statement. A phenotype, i.e. EQ statement, corresponds to a part or whole character state (i.e. a character state may have multiple phenotypes).  Semantically, a phenotype is_a PATO:quality AND inheres_in some entity. <font color=red>''- used in all papers''</font>
 
-'''Distinct phenotype''': Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parens) <font color=red>''not used''</font> though used currently in Phenoscape paper
+'''Distinct phenotype''': Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parens) <font color=red>''not used''</font>
+** though used currently in Phenoscape paper
 
 '''Phenotype assertion''': <font color=red>not defined, used in TAO paper only''</font>
 **'Another alternative would take advantage of phenotype annotations to infer a taxonomically variable relationship. In thiscase, a rule could be constructed that would allow a reasoner to infer from the (separately asserted) presence of Weberian apparatus in a taxon (e.g., Otophysi) that vertebra 1 is a Weberian vertebra in that taxon. Because the presence of the Weberian apparatus is a morphological character state and as such a phenotype, this strategy would use <B>phenotype assertions </B> to inject additional and taxon-specific relationships into the anatomy ontology, without the need for an ontology curator to maintain those separately.'
@@ -36,8 +37,6 @@ title: Terminology
 
 '''Distinct phenotype-taxon assertions''': phenotypes assigned to taxa that are unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype (EQ) for alternative character states (when annotating at high level of PATO granularity, e.g.).  Thus the number of distinct phenotype assertions is lower than the number of phenotype assertions. <font color=red>''- not used''</font>
 
-'''
-
 '''Attribute''': Higher level PATO quality term used to group "value qualities".  NOTE: In current Phenoscape paper we define as 'Attributes are relatively high-level nodes in the PATO quality ontology, such as shape, position, etc.'
 
 '''Value qualities''': Nodes at a lower level than 'Attribute' in the PATO hierarchy
@@ -46,6 +45,13 @@ title: Terminology
 
 '''Phenotype profile''': union of phenotypes that are asserted for a particular gene or a particular taxon.  Washington et al. define phenotypic profile as 'the sum-total of the EQ descriptions for an individual genotype' (but they also refer to gene phenotype profile.
 
+''' Character''':
+
+'''Character state''': variant of a Character, assigned a code in a phylogenetic analysis <font color=red>''- used''</font>
+
+'''Composite character''': character state with more than one phenotype. <font color=red>''- used in Curation paper, Phenex paper''</font>
+
+'''Phenotyped character''': Character with one or more states assigned to a phenotype <font color=red>''- not used''</font>
 
 = Taxa: =
 
@@ -61,15 +67,6 @@ title: Terminology
 '''Distinct Mismatches''': Count of the unique mismatches between publication names and valid taxon names.  The same publication name used in different publications is counted only once.  Also, do not count any 'publication-specific' names, meaning those referring to Author and Year in parentheses.
 
 '''Total Publication-Specific Names''': Count of the unique Valid Taxon names that refer to the Author and Year in parentheses.  For example, 'Danio sp. (Smith 1992)' is counted as a publication-specific name. <font color=red>''- used in Curation paper''</font>
-
-
-''' Character''':
-
-'''Character state''': variant of a Character, assigned a code in a phylogenetic analysis <font color=red>''- used''</font>
-
-'''Composite character''': character state with more than one phenotype. <font color=red>''- used in Curation paper, Phenex paper''</font>
-
-'''Phenotyped character''': Character with one or more states assigned to a phenotype <font color=red>''- not used''</font>
 
 [[Category:Curation]]
 [[Category:Database]]
