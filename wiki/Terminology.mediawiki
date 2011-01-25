@@ -17,9 +17,9 @@ title: Terminology
 '''Phenotype annotation''': <font color=red>''- used in all papers, not defined!''</font>
 From SB paper: 'Because the active use of ontologies is relatively new to evolutionary biology in general and systematics in particular, the biological research project currently driving development of TAO is the  <B>phenotype annotation </B> of the systematic literature for teleost fishes by the Phenoscape project.'
 
-From SB paper: 'For example, a character state might be “Antorbital, triangular.” This phenotype can be expressed using the TAO term antorbital and the PATO term triangular. Such  <B>phenotype annotations </B> corresponding to systematic characters require the association of the anatomical term with a taxonomic name. Thus, TAO terms are associated with species or higher taxa through annotations to teleost scientific names from the Teleost Taxonomy On- tology (www.phenoscape.org; OBO CVS repository: http://obofoundry.org).'
+**From SB paper: 'For example, a character state might be “Antorbital, triangular.” This phenotype can be expressed using the TAO term antorbital and the PATO term triangular. Such  <B>phenotype annotations </B> corresponding to systematic characters require the association of the anatomical term with a taxonomic name. Thus, TAO terms are associated with species or higher taxa through annotations to teleost scientific names from the Teleost Taxonomy On- tology (www.phenoscape.org; OBO CVS repository: http://obofoundry.org).'
 
-From Phenex paper:'Here, we address this problem at its root by development of a configurable software tool that employs standard ontologies and syntax to create computable  <B>phenotype annotations </B>.'
+**From Phenex paper:'Here, we address this problem at its root by development of a configurable software tool that employs standard ontologies and syntax to create computable  <B>phenotype annotations </B>.'
 
 'Specialized software has been developed to assist human curators in  <B>annotating </B> the phenotypes of mutant genotypes using EQ syntax...'
 
