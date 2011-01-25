@@ -27,12 +27,12 @@ title: Terminology
 '''Zebrafish phenotype annotations''': - used currently in Phenoscape paper to mean 'Zebrafish phenotypes' or Zebrafish EQ statements'
 ** E.g.: 'Zebrafish phenotype annotations recorded in the ZFIN database (21,476 as of 13 Jan 2011) are associated with genes (3,865) that are mutated or knocked down using morpholinos'
 
-'''Gene phenotype''': used in Phenoscape paper to describe the phenotypes associated with genes in the zebrafish database.  These are more than 'mutant phenotypes' (used in SB paper, not defined) because we are also using the morpholino data.  The Washington et al. paper uses  'zebrafish phenotypes' or 'mutant phenotypes' (but they only use the mutant data).  
+'''Gene phenotype''': used in Phenoscape paper to describe the phenotypes associated with genes in the zebrafish database.  See kb where we use 'Gene phenotype annotations'.  We also use 'Complex query for:annotated genes'.  We use 'mutant phenotypes' in the TAO paper (not defined).  The Washington et al. paper uses  'zebrafish phenotypes' or 'mutant phenotypes' (but they only use the mutant data, vs. we are using also morpholino data). 
 
 '''Phenotype-taxon assertion (=Taxon-Phenotype annotations?)''': Phenotype that is assigned to a taxon <font color=red>''- not used in Phenex, TAO, or Curation papers, however, '<B>Taxon-Phenotype annotation</B> used in Phenex paper''</font>:
 **'From this knowledgebase, similar  <B>taxon–phenotype annotations </B> can be easily discovered by searching higher level anatomical or quality terms.'
 
-'''Taxon phenotype''' (used synonymously with '''Taxon phenotype annotations''' and sometimes '''Evolutionary phenotype''' in current Phenoscape paper).  Used in the same sense as 'Taxon-phenotype annotations' above in Phenex paper.  Taxon phenotype annotations also used synonymously in Phenoscape paper at the moment.
+'''Taxon phenotype''' (used synonymously with '''Taxon phenotype annotations''' in current Phenoscape paper).  Used in the same sense as 'Taxon-phenotype annotations' above in Phenex paper.  We have discussed the use of the term '''Evolutionary phenotype'''.  See kb for our use of 'Taxonomic phenotype annotations' -- but then we also use 'taxon phenotype annotations'.  
 
 '''Distinct phenotype-taxon assertions''': phenotypes assigned to taxa that are unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype (EQ) for alternative character states (when annotating at high level of PATO granularity, e.g.).  Thus the number of distinct phenotype assertions is lower than the number of phenotype assertions. <font color=red>''- not used''</font>
 
@@ -44,7 +44,7 @@ title: Terminology
 
 '''Phenotype Group''': combination of an attribute with some entity, such as basihyal bone shape, tooth count, etc.<font color=red>''- not used -- PM recommends getting rid of this''</font>
 
-'''Phenotype profile''': union of phenotypes that are asserted for a particular gene or a particular taxon.  
+'''Phenotype profile''': union of phenotypes that are asserted for a particular gene or a particular taxon.
 
 
 = Taxa: =
