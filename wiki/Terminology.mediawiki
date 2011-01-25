@@ -16,6 +16,20 @@ title: Terminology
 
 '''Phenotype-taxon assertion''': Phenotype that is assigned to a taxon <font color=red>''- 'phenotype assertion' used in TAO paper''</font>
 
+'''Mutant phenotype''':  <font color=red>''- used in SB paper, not defined''</font>
+
+'''Annotation''': From SB paper: 'One common use of ontologies is the annotation or “tagging” of objects or observations, such as genetic sequences, gene expression patterns, or whole organism phenotypes, with ontology terms. The convention used by model organism databases to annotate mutant phenotypes is entity-quality (EQ) syntax in which an entity from an anatomical ontology is combined with a quality or nontaxon specific modifier (Gkoutos et al. 2004; Sprague et al. 2008). The Phenoscape project has adopted and extended EQ to annotate evolutionary phenotypes, specifically systematic characters for os- tariophysan fishes. '
+
+From SB paper: 'Because the active use of ontologies is relatively new to evolutionary biology in general and systematics in particular, the biological research project currently driving development of TAO is the phenotype annotation of the systematic literature for teleost fishes by the Phenoscape project.'
+
+From SB paper: 'For example, a character state might be “Antorbital, triangular.” This phenotype can be expressed using the TAO term antor- bital and the PATO term triangular. Such phenotype annotations corresponding to systematic characters require the association of the anatomical term with a taxonomic name. Thus, TAO terms are associated with species or higher taxa through annotations to teleost scientific names from the Teleost Taxonomy On- tology (www.phenoscape.org; OBO CVS repository: http://obofoundry.org).'
+
+From Phenex paper: 
+'Here, we address this problem at its root by development of a configurable software tool that employs standard ontologies and syntax to create computable phenotype annotations.'
+
+'Specialized software has been developed to assist human curators in annotating the phenotypes of mutant genotypes using EQ syntax...'
+
+From this knowledgebase, similar taxon–phenotype annotations can be easily discovered by searching higher level anatomical or quality terms. 
 
 '''Distinct phenotype-taxon assertions''': phenotypes assigned to taxa that are unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype (EQ) for alternative character states (when annotating at high level of PATO granularity, e.g.).  Thus the number of distinct phenotype assertions is lower than the number of phenotype assertions.
 
