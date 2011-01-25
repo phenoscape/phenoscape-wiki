@@ -23,7 +23,8 @@ From Phenex paper:'Here, we address this problem at its root by development of a
 
 'Specialized software has been developed to assist human curators in  <B>annotating </B> the phenotypes of mutant genotypes using EQ syntax...'
 
-'''Distinct phenotype-taxon assertions''': phenotypes assigned to taxa that are unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype (EQ) for alternative character states (when annotating at high level of PATO granularity, e.g.).  Thus the number of distinct phenotype assertions is lower than the number of phenotype assertions.
+'''Distinct phenotype-taxon assertions''': phenotypes assigned to taxa that are unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype (EQ) for alternative character states (when annotating at high level of PATO granularity, e.g.).  Thus the number of distinct phenotype assertions is lower than the number of phenotype assertions. <font color=red>''- not used''</font>
+
 
 '''Attribute''': Higher level PATO quality term used to group "value qualities".  NOTE: In current Phenoscape paper we define as 'Attributes are relatively high-level nodes in the PATO quality ontology, such as shape, position, etc.'
 
