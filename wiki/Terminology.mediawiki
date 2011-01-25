@@ -6,11 +6,8 @@ title: Terminology
 
 '''Distinct phenotype''': Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parens) <font color=red>''not used''</font>
 
-'''Phenotype-taxon assertion (=Taxon-Phenotype annotations?)''': Phenotype that is assigned to a taxon <font color=red>''- not used in Phenex, TAO, or Curation papers, however, 'Taxon-Phenotype annotation used in Phenex paper''</font>  'From this knowledgebase, similar  <B>taxon–phenotype annotations </B> can be easily discovered by searching higher level anatomical or quality terms.'
-
-<font color=red>'''Phenotype assertion' used in TAO paper (only)''</font>: 'Another alternative would take advantage of phenotype annotations to infer a taxonomically variable relationship. In thiscase, a rule could be constructed that would allow a reasoner to infer from the (separately asserted) presence of Weberian apparatus in a taxon (e.g., Otophysi) that vertebra 1 is a Weberian vertebra in that taxon. Because the presence of the Weberian apparatus is a morphological character state and as such a phenotype, this strategy would use <B>phenotype assertions </B> to inject additional and taxon-specific relationships into the anatomy ontology, without the need for an ontology curator to maintain those separately.'
-
-'''Mutant phenotype''':  <font color=red>''- used in SB paper, not defined''</font>
+<font color=red>'''Phenotype assertion' used in TAO paper (only)''</font>: 
+**'Another alternative would take advantage of phenotype annotations to infer a taxonomically variable relationship. In thiscase, a rule could be constructed that would allow a reasoner to infer from the (separately asserted) presence of Weberian apparatus in a taxon (e.g., Otophysi) that vertebra 1 is a Weberian vertebra in that taxon. Because the presence of the Weberian apparatus is a morphological character state and as such a phenotype, this strategy would use <B>phenotype assertions </B> to inject additional and taxon-specific relationships into the anatomy ontology, without the need for an ontology curator to maintain those separately.'
 
 '''Annotation''': part of title of Phenex paper, not defined; defined in TAO paper: 'One common use of ontologies is the  <B>annotation </B> or “tagging” of objects or observations, such as genetic sequences, gene expression patterns, or whole organism phenotypes, with ontology terms. The convention used by model organism databases to  <B>annotate </B> mutant phenotypes is entity-quality (EQ) syntax in which an entity from an anatomical ontology is combined with a quality or nontaxon specific modifier (Gkoutos et al. 2004; Sprague et al. 2008). The Phenoscape project has adopted and extended EQ to  <B>annotate </B> evolutionary phenotypes, specifically systematic characters for os- tariophysan fishes. '
 
@@ -21,7 +18,11 @@ From SB paper: 'Because the active use of ontologies is relatively new to evolut
 
 **From Phenex paper:'Here, we address this problem at its root by development of a configurable software tool that employs standard ontologies and syntax to create computable  <B>phenotype annotations </B>.'
 
-'Specialized software has been developed to assist human curators in  <B>annotating </B> the phenotypes of mutant genotypes using EQ syntax...'
+**'Specialized software has been developed to assist human curators in  <B>annotating </B> the phenotypes of mutant genotypes using EQ syntax...'
+
+'''Mutant phenotype''':  <font color=red>''- used in SB paper, not defined''</font>
+
+'''Phenotype-taxon assertion (=Taxon-Phenotype annotations?)''': Phenotype that is assigned to a taxon <font color=red>''- not used in Phenex, TAO, or Curation papers, however, 'Taxon-Phenotype annotation used in Phenex paper''</font>  'From this knowledgebase, similar  <B>taxon–phenotype annotations </B> can be easily discovered by searching higher level anatomical or quality terms.'
 
 '''Distinct phenotype-taxon assertions''': phenotypes assigned to taxa that are unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype (EQ) for alternative character states (when annotating at high level of PATO granularity, e.g.).  Thus the number of distinct phenotype assertions is lower than the number of phenotype assertions. <font color=red>''- not used''</font>
 
