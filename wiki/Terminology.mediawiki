@@ -4,11 +4,11 @@ title: Terminology
 
 = Character: =
 
-'''Character state''': variant of a Character, assigned a code in a phylogenetic analysis <font color=red>''- used in Curation paper''</font>
+'''Character state''': variant of a Character, assigned a code in a phylogenetic analysis <font color=red>''- used''</font>
 
-'''Phenotype''': An EQ statement. A phenotype, i.e. EQ statement, corresponds to a part or whole character state (i.e. a character state may have multiple phenotypes).  Semantically, a phenotype is_a PATO:quality AND inheres_in some entity. <font color=red>''- used in Curation paper''</font>
+'''Phenotype''': An EQ statement. A phenotype, i.e. EQ statement, corresponds to a part or whole character state (i.e. a character state may have multiple phenotypes).  Semantically, a phenotype is_a PATO:quality AND inheres_in some entity. <font color=red>''- used in all papers''</font>
 
-'''Distinct phenotype''': Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parens)
+'''Distinct phenotype''': Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parens) <font color=red>''not used''</font>
 
 '''Composite character''': character state with more than one phenotype. <font color=red>''- used in Curation paper, Phenex paper''</font>
 
