@@ -14,12 +14,9 @@ title: Terminology
 
 '''Phenotyped character''': Character with one or more states assigned to a phenotype <font color=red>''- not used''</font>
 
-'''Phenotype-taxon assertion''': Phenotype that is assigned to a taxon <font color=red>''- 'not used in Phenex, TAO, or Curation papers, however, 'Taxon-Phenotype annotation used in Phenex paper''</font>  'From this knowledgebase, similar taxon–phenotype annotations can be easily discovered by searching higher level anatomical or quality terms.'
+'''Phenotype-taxon assertion''': Phenotype that is assigned to a taxon <font color=red>''- not used in Phenex, TAO, or Curation papers, however, 'Taxon-Phenotype annotation used in Phenex paper''</font>  'From this knowledgebase, similar taxon–phenotype annotations can be easily discovered by searching higher level anatomical or quality terms.'
 
-<font color=red>''- 'phenotype assertion' used in TAO paper (only)''</font>
-
-'Another alternative would take advantage of phenotype annotations to infer a taxonomically variable relationship. In thiscase, a rule could be constructed that would allow a reasoner to infer from the (separately asserted) presence of Weberian apparatus in a taxon (e.g., Otophysi) that vertebra 1 is aWeberian vertebra in that taxon. Because the presence of the Weberian apparatus is a morphological character state and as such a phenotype, this strategy would use phenotype assertions to inject additional and taxon-specific relationships into the anatomy ontology, without the need for an ontology curator to maintain
-those separately.'
+<font color=red>''- 'phenotype assertion' used in TAO paper (only)''</font>: 'Another alternative would take advantage of phenotype annotations to infer a taxonomically variable relationship. In thiscase, a rule could be constructed that would allow a reasoner to infer from the (separately asserted) presence of Weberian apparatus in a taxon (e.g., Otophysi) that vertebra 1 is a Weberian vertebra in that taxon. Because the presence of the Weberian apparatus is a morphological character state and as such a phenotype, this strategy would use <B>phenotype assertions </B> to inject additional and taxon-specific relationships into the anatomy ontology, without the need for an ontology curator to maintain those separately.'
 
 '''Mutant phenotype''':  <font color=red>''- used in SB paper, not defined''</font>
 
