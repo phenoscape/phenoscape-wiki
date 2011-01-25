@@ -44,7 +44,7 @@ title: Terminology
 
 '''Phenotype Group''': combination of an attribute with some entity, such as basihyal bone shape, tooth count, etc.<font color=red>''- not used -- PM recommends getting rid of this''</font>
 
-'''Phenotype profile''': union of phenotypes that are asserted for a particular gene or a particular taxon.
+'''Phenotype profile''': union of phenotypes that are asserted for a particular gene or a particular taxon.  Washington et al. define phenotypic profile as 'the sum-total of the EQ descriptions for an individual genotype' (but they also refer to gene phenotype profile.
 
 
 = Taxa: =
