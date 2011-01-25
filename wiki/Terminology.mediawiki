@@ -2,8 +2,6 @@
 title: Terminology
 ---
 
-''' Character''': 
-'''Character state''': variant of a Character, assigned a code in a phylogenetic analysis <font color=red>''- used''</font>
 
 '''Phenotype''': An EQ statement. A phenotype, i.e. EQ statement, corresponds to a part or whole character state (i.e. a character state may have multiple phenotypes).  Semantically, a phenotype is_a PATO:quality AND inheres_in some entity. <font color=red>''- used in all papers''</font>
 
@@ -52,6 +50,11 @@ From Phenex paper:'Here, we address this problem at its root by development of a
 '''Distinct Mismatches''': Count of the unique mismatches between publication names and valid taxon names.  The same publication name used in different publications is counted only once.  Also, do not count any 'publication-specific' names, meaning those referring to Author and Year in parentheses.
 
 '''Total Publication-Specific Names''': Count of the unique Valid Taxon names that refer to the Author and Year in parentheses.  For example, 'Danio sp. (Smith 1992)' is counted as a publication-specific name. <font color=red>''- used in Curation paper''</font>
+
+
+''' Character''':
+
+'''Character state''': variant of a Character, assigned a code in a phylogenetic analysis <font color=red>''- used''</font>
 
 [[Category:Curation]]
 [[Category:Database]]
