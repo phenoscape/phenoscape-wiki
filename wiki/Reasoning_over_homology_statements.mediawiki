@@ -958,8 +958,13 @@ See
 and
 [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/homology/README.obd vocab/homology/README.obd]
 
+=== Relations ===
+
+OBO Format: [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/homology/homol_relations.obo homol_relations.obo]
 
 === [[#iso_homologous_to]] ===
+
+Note: this is OBO_REL:homologous_to in the above file
 
 This expands to two all-some relations. In OBD, macro-expansion is just another kind of rule
 
@@ -976,6 +981,8 @@ The function can be implemented as a SQL function which materializes the class e
 === [[#derived_by_descent_from_ancestor_of]] ===
 
 (this is the instance-level relation VBO calls homologous_to)
+
+(note: in 
 
 This is simply the chain of two relations. In OWL:
 
