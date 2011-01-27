@@ -6,7 +6,7 @@ This document provides a collection of inference rules for homology
 relations. The emphasis is on implementation in OBD, although the
 rules can be used in other inference systems.
 
-The core iso_homologous_to relation is introduced together with its relation characteristics. This relation is defined in terms of the derived_by_descent_from relation and its inverse.
+The core homologous_to relation is introduced together with its relation characteristics. This relation is defined in terms of the derived_by_descent_from relation and its inverse.
 
 Document status: '''in progress'''
 
@@ -37,7 +37,7 @@ the logical characteristics of relations follows.
 
 The main part of this document presents the core relations intended to
 be used in phenoscape curation and reasoning. The core relation is the
-pairwise iso_homologous_to, a strict binary 1:1 homology relation that
+pairwise homologous_to, a strict binary 1:1 homology relation that
 can be used to specify anatomical entities related by common descent.
 
 I then describe the characteristics of these relations. The emphasis
@@ -292,10 +292,10 @@ OBD implements the generic rule:
 
 For example:
 
-  human limb iso_homologous_to mouse limb
-  mouse limb iso_homologous_to teleost fin
+  human limb homologous_to mouse limb
+  mouse limb homologous_to teleost fin
   ==>
-  human limb iso_homologous_to teleost fin
+  human limb homologous_to teleost fin
 
 === Propagation over isa ===
 
@@ -348,7 +348,7 @@ automatically checking all specified constraints.
 == Core Asserted Homology Relations ==
 
 The core relation that a phenoscape curator will be using in homology
-assertions is the iso_homologous_to relation.
+assertions is the homologous_to relation.
 
 I also consider the serially_homologous_to relation, but more research
 is required as to if and when this relation would be asserted.
@@ -359,7 +359,7 @@ derived_by_descent_from. Even though we may never explicitly assert information
 about ancestors, this relation turns out to be key for formalization
 and reasoning.
 
-==== iso_homologous_to ====
+==== homologous_to ====
 
 Characteristics:
 
@@ -457,7 +457,7 @@ Provenance is vital for homology assertions. In OBD these would be
 created as standard annotations using the built-in OBD reification
 mechanism. We write this as:
 
-  A iso_homologous_to B [S1]
+  A homologous_to B [S1]
   S1 has_source PMID:12345
 
 This is trivially convertible to RDF, with subject, predicate and
@@ -465,7 +465,7 @@ object triples generated for S1.
 
 == Negation ==
 
-  NOT[A iso_homologous_to B]
+  NOT[A homologous_to B]
 
 === Conflict and contradiction ===
 
@@ -514,14 +514,14 @@ explored in more detail later on.
 
 We can provide a definition of the binary homology relation:
 
-  A iso_homologous_to B
+  A homologous_to B
   <==>
   all A derived_by_descent_from some (has_derived_by_descendant some B)
   all B derived_by_descent_from some (has_derived_by_descendant some A)
 
 With OBD we can actually make a stronger rule:
 
-  A iso_homologous_to B
+  A homologous_to B
   <==>
   all A derived_by_descent_from some anc(A,B)
 
@@ -538,9 +538,9 @@ be stored as the ID expression, which would automatically entail:
 (Note this feature of the OBD reasoner is inexpressible in many rule
 systems)
 
-=== derived_by_descent_from_ancestor_of ===
+=== shares_ancestor_with ===
 
-We define a new relation derived_by_descent_from_ancestor_of
+We define a new relation shares_ancestor_with
 
 * instance-level
 * transitive
@@ -548,22 +548,22 @@ We define a new relation derived_by_descent_from_ancestor_of
 
 simple relation chain:
 
-  derived_by_descent_from o has_derived_by_descendant -> derived_by_descent_from_ancestor_of
+  derived_by_descent_from o has_derived_by_descendant -> shares_ancestor_with
 
 i.e.
 
   all X derived_by_descent_from some (has_derived_by_descendant some Y)
   ==>
-  all X derived_by_descent_from_ancestor_of some Y
+  all X shares_ancestor_with some Y
 
-Note we can see that this is entailed by iso_homologous_to
+Note we can see that this is entailed by homologous_to
 
-  X iso_homologous_to Y
+  X homologous_to Y
   ==>
   all X derived_by_descent_from some anc(X,Y)
   all anc(X,Y) has_derived_by_descendant some Y
   ==>
-  all X derived_by_descent_from_ancestor_of some Y
+  all X shares_ancestor_with some Y
 
 Note that this is *not* equivalent to homologous_to. It is an
 instance-level relation, and does not have the symmetry property.
@@ -572,7 +572,7 @@ Note also that because of restrictions on the derived_by_descent_from relation,
 this is not a trivial relation that holds between all entities across
 species.
 
-derived_by_descent_from_ancestor_of is a little long winded. Polling needed to
+shares_ancestor_with is a little long winded. Polling needed to
 decide new name. Possibilities include:
 
 * nonsymmetric_homologous_to
@@ -583,8 +583,8 @@ classes it should be read "all X R some Y"
 
 ==== Query chains ====
 
-* derived_by_descent_from_ancestor_of_part_of <- derived_by_descent_from_ancestor_of o part_of
-* derived_by_descent_from_ancestor_of_develops_from <- derived_by_descent_from_ancestor_of o develops_from
+* shares_ancestor_with_part_of <- shares_ancestor_with o part_of
+* shares_ancestor_with_develops_from <- shares_ancestor_with o develops_from
 
 == Modeling homologous-as and ancestry information ==
 
@@ -612,62 +612,62 @@ Typically a statement involving a 3-argument predicated would be written in FOL 
 We introduce a syntactic sugar keyword "as" purely for documentation
 purposes, so we can write the 3-arg version as:
 
-  X iso_homologous_to Y as A
+  X homologous_to Y as A
 
 We treat the binary relation as equivalent but with an unspecified 3rd argument. Or more precisely:
 
-  X iso_homologous_to Y as A
+  X homologous_to Y as A
   ==>
-  X iso_homologous_to Y
+  X homologous_to Y
 
 and
 
-  X iso_homologous_to Y
+  X homologous_to Y
   ==>
-  exists A : X iso_homologous_to Y as A
+  exists A : X homologous_to Y as A
 
 (this can't be stated in OBD, as the head is an existential)
 
 specifying a more generic A is allowed. i.e.
 
-  X iso_homologous_to Y as A
+  X homologous_to Y as A
   A is_a B
   ==>
-  X iso_homologous_to Y as B
+  X homologous_to Y as B
 
 This means we can translate:
 
-  X iso_homologous_to Y
+  X homologous_to Y
   ==>
-  X iso_homologous_to Y as anatomical entity
+  X homologous_to Y as anatomical entity
 
 (which can be represented in OBD)
 
 We need a slightly modified version of transitivity
 
-  X iso_homologous_to Y as A
-  Y iso_homologous_to Z as B
+  X homologous_to Y as A
+  Y homologous_to Z as B
   A is_a C
   B is_a C
   ==>
-  X iso_homologous_to Z as C
+  X homologous_to Z as C
 
 Symmetry:
 
-  X iso_homologous_to Y as A
+  X homologous_to Y as A
   ==>
-  Y iso_homologous_to Z as A
+  Y homologous_to Z as A
 
 Finally, we can supply a definitional rule:
 
-  X iso_homologous_to Y as A
+  X homologous_to Y as A
   <==>
   all X derived_by_descent_from some (A and has_derived_by_descendant some Y)
   all Y derived_by_descent_from some (A and has_derived_by_descendant some X)
 
 We can also use a skolem ID to name the descendant class:
 
-  X iso_homologous_to Y as A
+  X homologous_to Y as A
   ==>
   all X derived_by_descent_from some anc(X,Y)
   anc(X,Y) has_derived_by_descendant some X
@@ -678,9 +678,9 @@ in OBD, RDF or OWL.
 
 One way is to use RDF reification:
 
-  X iso_homologous_to Y as A
+  X homologous_to Y as A
   ==>
-  X iso_homologous_to Y [S1]
+  X homologous_to Y [S1]
   S1 homologous_as A
 
 This is a little awkward.
@@ -876,7 +876,7 @@ ranges and other metadata can be assigned to the descendant triples.
 === Consequences of omitting arg3 ===
 
 The 3rd argument can be regarded as optional for
-iso_homologous_to. This is because this relation is already heavily
+homologous_to. This is because this relation is already heavily
 constrained by the 1:1 characteristic.
 
 In contrast, arg3 is more useful for non 1:1 homology. Consider serial
@@ -896,7 +896,7 @@ homology. With pairwise relations we have statements of the form
 
 Phenoscape is currently collecting a small number of pairwise binary
 homology statements. On examination, these appear to be promotable to
-stronger iso_homologous_to statements, as they all have the 1:1
+stronger homologous_to statements, as they all have the 1:1
 property.
 
 It is not clear that there is an immediate benefit to recording the
@@ -908,13 +908,13 @@ If pairwise binary statements are asserted, the OBD reasoner can be
 instructed to materialize the implicit ancestral classes, and the
 descendant relations. For example:
 
-  forelimb_digit_1[mouse] iso_homologous_to forelimb_digit_1[human]
+  forelimb_digit_1[mouse] homologous_to forelimb_digit_1[human]
   ==>
   all forelimb_digit_1[mouse] derived_by_descent_from some forelimb_digit_1[mouse+human]
   all forelimb_digit_1[mouse+human] has_derived_by_descendant some forelimb_digit_1[mouse]
 
 (we don't need to write a symmetric rule, as we already have the
-class-level symmetry rule for iso_homologous_to).
+class-level symmetry rule for homologous_to).
 
 The expanded axioms are all-some statements and thus have the expected
 propagation over and under is_a.
@@ -925,16 +925,16 @@ has_derived_by_descendant. This will give us inferences such as:
   all forelimb_digit_1[mouse] derived_by_descent_from some forelimb_digit_1[mouse+human]
   all forelimb_digit_1[mouse+human] has_derived_by_descendant some forelimb_digit_1[mouse]
   ==>
-  all forelimb_digit_1[mouse] derived_by_descent_from_ancestor_of some forelimb_digit_1[human]
+  all forelimb_digit_1[mouse] shares_ancestor_with some forelimb_digit_1[human]
 
 Because of the all some rule we infer further statements such as:
 
-  all left_forelimb_digit_1[mouse] derived_by_descent_from_ancestor_of some forelimb_digit_1[human]
-  all forelimb_digit_1[mouse] derived_by_descent_from_ancestor_of some forelimb_digit[human]
-  all forelimb_digit_1[mouse] derived_by_descent_from_ancestor_of some digit[human]
-  all forelimb_digit_1[mouse] derived_by_descent_from_ancestor_of some anatomical_entity[human]
-  all forelimb_digit_1[mouse] derived_by_descent_from_ancestor_of some digit[vertebrate]
-  all left_forelimb_digit_1[mouse] derived_by_descent_from_ancestor_of some digit[vertebrate]
+  all left_forelimb_digit_1[mouse] shares_ancestor_with some forelimb_digit_1[human]
+  all forelimb_digit_1[mouse] shares_ancestor_with some forelimb_digit[human]
+  all forelimb_digit_1[mouse] shares_ancestor_with some digit[human]
+  all forelimb_digit_1[mouse] shares_ancestor_with some anatomical_entity[human]
+  all forelimb_digit_1[mouse] shares_ancestor_with some digit[vertebrate]
+  all left_forelimb_digit_1[mouse] shares_ancestor_with some digit[vertebrate]
 
 As can be seen, this could potentially lead to a large number of
 inferred statements. The pattern here is one of "up-along-up" - we
@@ -962,13 +962,13 @@ and
 
 OBO Format: [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/homology/homol_relations.obo homol_relations.obo]
 
-=== [[#iso_homologous_to]] ===
+=== [[#homologous_to]] ===
 
 Note: this is OBO_REL:homologous_to in the above file
 
 This expands to two all-some relations. In OBD, macro-expansion is just another kind of rule
 
- A iso_homologous_to B
+ A homologous_to B
  <==>
  all A derived_by_descent_from some anc(A,B)
 
@@ -978,19 +978,19 @@ where anc(A,B) =
 
 The function can be implemented as a SQL function which materializes the class expression.
 
-=== [[#derived_by_descent_from_ancestor_of]] ===
+=== [[#shares_ancestor_with]] ===
 
 (this is the instance-level relation VBO calls homologous_to)
 
-(note: RO:0002158 shares_ancestor_with in [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/homology/homol_relations.obo homol_relations.obo])
+(ID: RO:0002158 in [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/homology/homol_relations.obo homol_relations.obo])
 
 This is simply the chain of two relations. In OWL:
 
-SubPropertyOf( PropertyChain([[#derived_by_descent_from]] [[#has_derived_by_descendant]])  [[#derived_by_descent_from_ancestor_of]])
+SubPropertyOf( PropertyChain([[#derived_by_descent_from]] [[#has_derived_by_descendant]])  [[#shares_ancestor_with]])
 
 Currently the OBD reasoner lacks a general property chain rule but this is easily implemented in specific cases via horn rules.
 
-   derived_by_descent_from(X,A) and has_derived_by_descendant(A,Y) -> derived_by_descent_from_ancestor_of(X,Y)
+   derived_by_descent_from(X,A) and has_derived_by_descendant(A,Y) -> shares_ancestor_with(X,Y)
 
 Note that materializing this closure could result in large sets of inferred links. One option to explore is to not materialize this, i.e. leave the horn clause as a view. Some changes to the OBD API may be required.
 
@@ -1018,13 +1018,13 @@ For example, if tax1 has a bone B that develops from a cartilage
 element C, and tax2 has a homologous element but is purely
 cartilaginious, then we can annotate either of the following:
 
-# tax1-B iso_homologous_to tax2-C
-# tax1-C iso_homologous_to tax2-C
+# tax1-B homologous_to tax2-C
+# tax1-C homologous_to tax2-C
 
 But a better strategy might be name a skeletal element superclass E,
 such that B and C are subclasses of E, and then declare
 
-# tax1-E iso_homologous_to tax2-E
+# tax1-E homologous_to tax2-E
 
 From this we would infer the 2 axioms above
 
