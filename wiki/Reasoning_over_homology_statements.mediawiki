@@ -980,6 +980,14 @@ where anc(A,B) =
 
 The function can be implemented as a SQL function which materializes the class expression.
 
+A constraint can be specified as:
+
+ A homologous_to B and A homologous_to C and B in_taxon T and C in_taxon T 
+ ==>
+ B == C
+
+i.e. no two distinct entity classes can be homologs of the same structure in one species
+
 === [[#shares_ancestor_with]] ===
 
 (this is the instance-level relation VBO calls homologous_to)
