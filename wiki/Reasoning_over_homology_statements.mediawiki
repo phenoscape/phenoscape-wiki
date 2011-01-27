@@ -952,6 +952,13 @@ implemented simply as SQL views that mimic statements).
 
 == OBD Implementation ==
 
+See
+[https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/homology/ vocab/homology]
+
+and
+[https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/homology/README.obd vocab/homology/README.obd]
+
+
 === [[#iso_homologous_to]] ===
 
 This expands to two all-some relations. In OBD, macro-expansion is just another kind of rule
