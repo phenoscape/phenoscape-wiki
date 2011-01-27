@@ -971,6 +971,8 @@ This expands to two all-some relations. In OBD, macro-expansion is just another 
  A homologous_to B
  <==>
  all A derived_by_descent_from some anc(A,B)
+ and
+ all B derived_by_descent_from some anc(A,B)
 
 where anc(A,B) =
 
