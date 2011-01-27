@@ -982,7 +982,7 @@ The function can be implemented as a SQL function which materializes the class e
 
 (this is the instance-level relation VBO calls homologous_to)
 
-(note: in 
+(note: RO:0002158 shares_ancestor_with in [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/homology/homol_relations.obo homol_relations.obo])
 
 This is simply the chain of two relations. In OWL:
 
