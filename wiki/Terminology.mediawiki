@@ -52,20 +52,25 @@ title: Terminology
 
 '''Phenotyped character''': Character with one or more states assigned to a phenotype <font color=red>''- not used''</font>
 
-= Taxa: =
+== Taxa: ==
 
-'''Total Publication Names''':  Count of the total number of taxa used in the publications that have annotations.  Includes repeated uses of the same publication name in different publications.
-[*side note not for report: should be around 3,400 for 47 publications]
+; Publication (Taxon) Name: The taxon name used in a publication from which we have curated data.
 
-'''Distinct Publication Names''': Count of the unique number of publication taxa used in the publications that have annotations.  The same publication name used in different publications is counted only once.
+; Incompletely Identified Taxon: A taxon that is identified in a publication less specific than genus and species. Typically, these are of the form "''Genus'' sp. (Author Year)", where (Author Year) cites the publication in which it appears.
 
-'''Distinct Valid Taxon Names''': Count of unique Valid Taxon names appearing in publications. The same valid taxon name used in different publications is counted only once.  This includes 'publication-specific' names, meaning those referring to Author and Year in parentheses.
+; Valid Taxon Name: The name of a taxon that is currently valid, according to the [[Teleost Taxonomy Ontology]] and the taxonomic authorities it is based on. This may or may not be the same as the Publication Taxon Name.
 
-'''Total Mismatches''': Count of the total number of mismatches between Total Publication Names and Valid Taxon names.  Each mismatch, including the same mismatch in different publications, is counted for the total. Also, do not count any 'publication-specific' names, meaning those refering to Author and Year in parentheses.
+; Total (Number of) Publication <font color=red>Taxon</font> Names:  Count of the total number of taxa used in the publications that have annotations.  Includes repeated uses of the same taxon name in different publications.<br/>[*''side note not for report: should be around 3,400 for 47 publications'']
 
-'''Distinct Mismatches''': Count of the unique mismatches between publication names and valid taxon names.  The same publication name used in different publications is counted only once.  Also, do not count any 'publication-specific' names, meaning those referring to Author and Year in parentheses.
+; Distinct (Number of) Publication <font color=red>Taxon</font> Names: Count of the unique number of publication taxa used in the publications that have annotations.  The same taxon name used in different publications is counted only once.
 
-'''Total Publication-Specific Names''': Count of the unique Valid Taxon names that refer to the Author and Year in parentheses.  For example, 'Danio sp. (Smith 1992)' is counted as a publication-specific name. <font color=red>''- used in Curation paper''</font>
+; Distinct (Number of) Valid Taxon Names: Count of unique Valid Taxon names appearing in publications. The same valid taxon name used in different publications is counted only once.  This includes incompletely identified taxa (which we cite to the publication in which it appears, such as ''Danio'' sp. (Smith 1992)).
+
+; Total (Number of) Mismatches: Count of the total number of mismatches between publication taxon names and their corresponding valid taxon names.  Each mismatch, including the same mismatch in different publications, is counted for the total. This count excludes incompletely identified taxa (such as ''Danio'' sp. in Smith 1992).
+
+; Distinct (Number of) Mismatches: Count of the unique mismatches between publication names and valid taxon names.  The same mismatche occurring in different publications is counted only once.  This count excludes incompletely identified taxa (such as ''Danio'' sp. in Smith 1992).
+
+; Total (Number of) Publication-Specific Names: Count of the unique valid taxon names that are incompletely identified in (and thus specific to) a publication (such as ''Danio'' sp. in Smith 1992).  <font color=red>''- used in Curation paper''</font>
 
 [[Category:Curation]]
 [[Category:Database]]
