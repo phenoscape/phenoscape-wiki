@@ -572,12 +572,6 @@ Note also that because of restrictions on the derived_by_descent_from relation,
 this is not a trivial relation that holds between all entities across
 species.
 
-shares_ancestor_with is a little long winded. Polling needed to
-decide new name. Possibilities include:
-
-* nonsymmetric_homologous_to
-* shares_ancestor_with
-
 Remember this is an instance level relation, so when applies to
 classes it should be read "all X R some Y"
 
