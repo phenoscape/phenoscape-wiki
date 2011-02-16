@@ -12,13 +12,13 @@ Below is a simplified graph showing a subset of quality terms from the [http://o
 ! Examples of child terms
 
 |-
-|| shape + relational shape quality || || triangular, lobed, concave, protruding into
+|| shape || || triangular, lobed, concave, protruding into
 |-
-|| position + relational spatial quality || placement, location || horizontal, anterior to
+|| position || placement, location || horizontal, anterior to
 |-
 || size || || thin, large, decreased height
 |-
-|| structure + relational structural quality ||  || porous, fused with
+|| structure ||  || porous, fused with
 |-
 || composition || || ligamentous, cartilaginous
 |-
