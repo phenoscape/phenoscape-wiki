@@ -29,7 +29,7 @@ See [[Data_Jamboree_2/Agenda|detailed agenda]] for the program for each day.
 ==Resources==
 
 For Participants
-* <span class="plainlinks">[https://sourceforge.net/project/showfiles.php?group_id=224046&package_id=287165&release_id=628849 Download Phenex]</span>
+* [[Phenex|Download Phenex]]
 * [[Guide to Character Annotation]]
 * Curation Exercise instructions (forthcoming)
 * [[Term_Requests | Term request instructions]]
