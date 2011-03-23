@@ -37,6 +37,8 @@ The actual matching consists of taking the sets of subsuming class expressions f
 
 Note that under this scheme, an exact match may still score poorly if the selected common subsumer refers to an entity is high up in the anatomy hierarchy.  For example round ''inheres_in'' bone matched against itself will have a lower score than straight ''inheres_in'' neural spine 1 against curved ''inheres_in'' neural spine 2 because the latter two share the subsumer straight ''inheres_in'' neural spine which will have a higher information content than round ''inheres_in'' bone.
 
+== Extending matches above the level of Entity-Attribute ==
+
 = Scoring matches of sets of phenotypes (phenotypic profiles) associated with a gene or taxon node =
 
 The Washington et al. (2009) paper used four measures to assess similarity in phenotype profiles (sets of phenotypes associated with a gene).  These are:
