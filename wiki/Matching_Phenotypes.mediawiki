@@ -39,6 +39,8 @@ Note that under this scheme, an exact match may still score poorly if the select
 
 == Extending matches above the level of Entity-Attribute ==
 
+Forming the full set of subsumers for a phenotype allows matches where the common subsumer is above the Entity-Attribute level.  For example, eye size and eye shape might match as eye morphology, since the later is a common subsumer.
+
 = Scoring matches of sets of phenotypes (phenotypic profiles) associated with a gene or taxon node =
 
 The Washington et al. (2009) paper used four measures to assess similarity in phenotype profiles (sets of phenotypes associated with a gene).  These are:
