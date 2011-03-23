@@ -29,7 +29,7 @@ Matching requires based on building a set of class expressions, subsumed by qual
 
 The actual matching consists of taking the sets of subsuming class expressions from each of the phenotypes to be matched and forming the intersection, which is the set of common subsumers.  Each of these subsuming expressions can be assigned an information content (IC).  The match is scored as the IC of the common subsumer with the highest information content.
 
-Note that under this scheme, an exact match may still score poorly if the selected common subsumer refers to an entity is high up in the anatomy hierarchy.  For example round ''inheres_in'' bone matched against itself will have a lower score than straight ''inheres_in'' neural spine 1 against curved ''inheres_in'' neural spine 2 because the latter two share the subsumer straight "inheres_in" neural spine which will have a higher information content than round "inheres_in" bone.
+Note that under this scheme, an exact match may still score poorly if the selected common subsumer refers to an entity is high up in the anatomy hierarchy.  For example round ''inheres_in'' bone matched against itself will have a lower score than straight ''inheres_in'' neural spine 1 against curved ''inheres_in'' neural spine 2 because the latter two share the subsumer straight ''inheres_in'' neural spine which will have a higher information content than round "inheres_in" bone.
 
 = Scoring matches of sets of phenotypes (phenotypic profiles) associated with a gene or taxon node =
 
