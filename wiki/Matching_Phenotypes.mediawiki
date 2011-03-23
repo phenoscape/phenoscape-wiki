@@ -2,7 +2,7 @@
 title: Matching Phenotypes
 ---
 
-This page discusses the method developed and implemented in late 2010 for search for, and scoring, phenotype matches between taxa (Phenoscape) and zebrafish mutants (ZFIN).
+This page discusses the method developed and implemented in 2010-2011 for search for, and scoring, phenotype matches between taxa (Phenoscape) and zebrafish mutants (ZFIN).
 = Purpose =
 
 An important goal for the Phenoscape project is to be able to suggest candidate genes that may have contributed to evolutionary change.  The way that we have proposed to do this is to search for changes in phenotype that appear as the result of mutations in model organisms and also appear as phenotype changes on an evolutionary tree.
