@@ -19,7 +19,12 @@ However, identifying variation also requires propagation of phenotype sets up th
 
 Changing to propagating intersection sets appears to reduce this inflationary effect, and we are currently using it as our propagation method.  There are some issues related to monotypic outgroups that we are still investigating.
 
+The figure shows alternate methods of propagating phenotype sets.
+
 [[Image:PropagationTree1.jpeg]]
+
+
+This figure illustrates the potential problem that propagating intersections has with monotypic outgroups.
 
 [[Image:PropagationTree2.jpeg]]
 
