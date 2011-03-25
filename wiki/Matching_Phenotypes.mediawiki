@@ -33,7 +33,11 @@ Figure 2 - This figure illustrates the potential problem that propagating inters
 
 = Using attributes to limit the scope of quality comparisons =
 
-Because the interest is in change in phenotype, phenotypes 'reduced' to a change in an attribute of an anatomical entity, not a particular quality of a phenotype.  Subsuming qualities all the way to their attributes is not, in principle, necessary (for example, round and triangular are subsumed by 2-D shape), using a consistent set of subsumers simplifies the matching process.
+Because the focus of this analysis is comparing changes in phenotype, we compare phenotypes at a courser level that captures the set of states associated with a changing character.  As discussed in the previous section, this is particularly important in capturing variation in taxa, but it also allows grouping gene annotated phenotypes that cause change in size of some entity (either increase or decrease) or color changes.  
+
+We use a set of asserted attributes (see above and ...) to group phenotype annotations into similar groups.
+
+interest is in change in phenotype, phenotypes 'reduced' to a change in an attribute of an anatomical entity, not a particular quality of a phenotype.  Subsuming qualities all the way to their attributes is not, in principle, necessary (for example, round and triangular are subsumed by 2-D shape), using a consistent set of subsumers simplifies the matching process.
 
 Therefore, matching phenotypes is reduced to matching the entity component of changes that have a common attribute (so shape changes and color changes will never be matched).
 
