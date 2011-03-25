@@ -17,16 +17,17 @@ This approach to detecting variation within entity-attribute groups meshes well 
 
 However, identifying variation also requires propagation of phenotype sets up the hierarchy.  Continuing with the previous example, what variation could be assigned to the family-level parent of Aspidoras, Callichthyidae.  Variation will depend on the phenotypes assigned to each genus in the family and how those are propagated to the family.  We initially propagated the union sets within each entity-attribute group to higher taxa and added any phenotypes (few if any) annotated directly to the higher taxa.  This seems reasonable as the union sets capture the full set of phenotypes found within the group.  However, we found that this tended to inflate the amount of variation reported to the point that the base of the tree showed variation in nearly every entity-attribute group that subsumed phenotypes annotated in the KB.
 
-Changing to propagating intersection sets appears to reduce this inflationary effect, and we are currently using it as our propagation method.  There are some issues related to monotypic outgroups that we are still investigating.
+Changing to propagating intersection sets appears to reduce the inflation of propagated phenotype sets, and we are currently using it as our propagation method.  There are some issues related to monotypic outgroups and propagating intersection sets (figure 2) that we are still investigating.
 
-The figure shows alternate methods of propagating phenotype sets.
+
 
 [[Image:PropagationTree1.jpeg]]
+Figure 1 - This figure shows alternate methods of propagating phenotype sets.
 
 
-This figure illustrates the potential problem that propagating intersections has with monotypic outgroups.
 
 [[Image:PropagationTree2.jpeg]]
+Figure 2 - This figure illustrates the potential problem that propagating intersections has with monotypic outgroups.
 
 = Using attributes to limit the scope of quality comparisons =
 
