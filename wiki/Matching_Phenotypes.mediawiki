@@ -22,11 +22,13 @@ Changing to propagating intersection sets appears to reduce the inflation of pro
 
 
 [[Image:PropagationTree1.jpeg]]
+
 Figure 1 - This figure shows alternate methods of propagating phenotype sets.
 
 
 
 [[Image:PropagationTree2.jpeg]]
+
 Figure 2 - This figure illustrates the potential problem that propagating intersections has with monotypic outgroups.
 
 = Using attributes to limit the scope of quality comparisons =
