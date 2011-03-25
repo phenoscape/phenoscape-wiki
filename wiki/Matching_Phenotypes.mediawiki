@@ -19,6 +19,10 @@ However, identifying variation also requires propagation of phenotype sets up th
 
 Changing to propagating intersection sets appears to reduce this inflationary effect, and we are currently using it as our propagation method.  There are some issues related to monotypic outgroups that we are still investigating.
 
+[[Image:PropagationTree1.jpeg]]
+
+[[Image:PropagationTree2.jpeg]]
+
 = Using attributes to limit the scope of quality comparisons =
 
 Because the interest is in change in phenotype, phenotypes 'reduced' to a change in an attribute of an anatomical entity, not a particular quality of a phenotype.  Subsuming qualities all the way to their attributes is not, in principle, necessary (for example, round and triangular are subsumed by 2-D shape), using a consistent set of subsumers simplifies the matching process.
