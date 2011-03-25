@@ -14,8 +14,8 @@ title: Publications and Posters
 ==Posters & Presentations==
 ===2011===
 ===2010===
-<u>Hilmar Lapp</u> (2010) [http://www.bioontology.org/phenoscape Bringing reason to phenotype diversity, character change, and common descent], Webex recording of NCBO Webinar, November 17, 2010.
-<u>Mabee, P. </u>(2010) Hymenoptera Anatomy Ontology meeting, Raleigh, NC, "Phenoscape: Integration with ontologies" October 16, 2010.
+*<u>Hilmar Lapp</u> (2010) [http://www.bioontology.org/phenoscape Bringing reason to phenotype diversity, character change, and common descent], Webex recording of NCBO Webinar, November 17, 2010.
+*<u>Mabee, P. </u>(2010) Hymenoptera Anatomy Ontology meeting, Raleigh, NC, "Phenoscape: Integration with ontologies" October 16, 2010.
 <u>Mabee, P., Dahdul, W. M. </u>(2010) Joint Meeting of Ichthyologists and Herpetologists, American Society of Ichthyology and Herpetology, Providence, RI, "New Tools for Study of Development and Evolution of the Fish Skeleton" July 11, 2010.
 <u>Mabee, P. </u>(2010), Sanford Health USD Biomedical Research Symposium, University of South Dakota, Vermillion, SD, "Linking phenotypes of species, mutants, and human diseases to genetics and evolution" May 14, 2010.
 <u>Mabee, P. </u>(2010), Collections Web Workshop II: New research opportunities emerging from integrating data across different taxonomic colletions, NSF Collections Web RCN (http://www.collectionsweb.org), New Orleans, LA, "Phenoscape integration", March 26, 2010.
