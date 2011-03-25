@@ -11,9 +11,18 @@ title: Publications and Posters
 * Mabee PM, Ashburner M, Cronk Q, Gkoutos GV, Haendel M, Segerdell E, Mungall C, and Westerfield M. Phenotype ontologies: the bridge between genomics and evolution. Trends Ecol Evol 2007 Jul; 22(7) 345-50. [http://dx.doi.org/10.1016/j.tree.2007.03.013 doi:10.1016/j.tree.2007.03.013]
 * Mabee PM, Arratia G, Coburn M, Haendel M, Hilton EJ, Lundberg JG, Mayden RL, Rios N, and Westerfield M. Connecting evolutionary morphology to genomics using ontologies: a case study from Cypriniformes including zebrafish. J Exp Zoolog B Mol Dev Evol 2007 Jun 28. [http://dx.doi.org/10.1002/jez.b.21181 doi:10.1002/jez.b.21181]
 
-==Posters & Presentations==
+==Phenoscape Posters & Presentations==
+===2011===
 ===2010===
 <u>Hilmar Lapp</u> (2010) [http://www.bioontology.org/phenoscape Bringing reason to phenotype diversity, character change, and common descent], Webex recording of NCBO Webinar, November 17, 2010.
+<u>Mabee, P. </u>(2010), Encyclopedia of Life/Hymenoptera Anatomy Ontology meeting, Field Museum of Natural History, Raleigh, NC, "Phenoscape: Integration with ontologies" October 16, 2010.
+<u>Mabee, P. </u>(2010), Dahdul, W. M. Joint Meeting of Ichthyologists and Herpetologists, American Society of Ichthyology and Herpetology, Providence, RI, "New Tools for Study of Development and Evolution of the Fish Skeleton" July 11, 2010.
+<u>Mabee, P. </u>(2010), Sanford Health USD Biomedical Research Symposium, University of South Dakota, Vermillion, SD, "Linking phenotypes of species, mutants, and human diseases to genetics and evolution", Academic, Local, peer-reviewed/refereed. (May 14, 2010).
+<u>Mabee, P. </u>(2010), Collections Web Workshop II: New research opportunities emerging from integrating data across different taxonomic colletions, NSF Collections Web RCN (http://www.collectionsweb.org), New Orleans, LA, "Phenoscape integration", Academic, International. (March 26, 2010).
+<u>Mabee, P. </u>(2010), Informatics tools for integrating morphological data, Encyclopedia of Life and Phenoscape (via NSF), Field Museum of Natural History, Chicago, IL, Academic, National. (March 19, 2010).
+<u>Mabee, P. (</u>2010), Phenotype and Trait Ontology Workshop, PATO (NIH funded), Rome, Italy, "Phenoscape and use of the PATO ontology", Academic, International. (February 27, 2010).
+<u>Mabee, P. </u>(2010), Locating Biology: The Development and Application of an Environment Ontology, Schloss Dagstuhl - Leibniz Center for Informatics, Germany, "Phenoscape: species phenotypes, genes, development...and environment", Academic, International. (February 22, 2010).
+
 
 ===2009===
 <u>Todd Vision</u> (2009) [[Media:iplant_ontologies_2009_11_22.pdf|Ontologies in Phenoscape: Morphology, Taxa and Evolution]], Presentation at the iPlant Tree of Life Data Assembly Meeting, Phoenix, AZ, Nov 22, 2009.
