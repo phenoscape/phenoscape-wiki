@@ -37,6 +37,8 @@ Because the focus of this analysis is comparing changes in phenotype, we compare
 
 We use a set of asserted attributes (see above and the [[Guide_to_Character_Annotation]]) to group phenotype annotations into similar groups.  Subsuming qualities all the way to this set attributes is not necessarily in all cases, for example, round and triangular are subsumed by 2-D shape.  However, use of a consistent set of subsuming qualities simplifies the matching process.
 
+This is currently implemented by mapping each phenotype to the corresponding phenotype consisting of the same entity and the closest subsuming attribute (e.g., opercle round will map to opercle shape).  These mapped phenotypes are what the matcher actually compares.  Although the 
+
 Therefore, matching phenotypes is reduced to matching the entity component of changes that have a common attribute (so shape changes and color changes will never be matched).
 
 ZFIN and Phenoscape use different (though partially overlapping) sets of qualities (from the PATO ontology) in constructing phenotype annotations.
