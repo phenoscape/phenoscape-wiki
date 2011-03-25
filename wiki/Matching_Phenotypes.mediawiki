@@ -67,7 +67,7 @@ The Washington et al. (2009) paper used four measures to assess similarity in ph
 
 Although these seem appropriate for scoring similarity of phenotype profiles associated with genes, it is less clear that they are appropriate for comparing phenotype profiles associated with changes between taxa (or phylogenetic change).
 
-= Information Content as a metric of term relatedness =
+= Information Content as a metric of term similarity =
 
 == Alternatives ==
 Because of its dependence on the set of annotations, there is a real concern that IC may not be the most appropriate measure of similarity between terms an ontology with associated annotations.
