@@ -13,6 +13,7 @@ title: Publications and Posters
 
 ==Posters & Presentations==
 ===2011===
+<u>James P. Balhoff</u> (2011) Conference on Semantics in Healthcare and Life Sciences, Cambridge, MA, "The Phenoscape Knowledgebase: Linking Evolutionary Diversity to Genetic Data Using Phenotype Ontologies" February 24, 2011.
 ===2010===
 <u>Hilmar Lapp</u> (2010) [http://www.bioontology.org/phenoscape Bringing reason to phenotype diversity, character change, and common descent], Webex recording of NCBO Webinar, November 17, 2010.
 
