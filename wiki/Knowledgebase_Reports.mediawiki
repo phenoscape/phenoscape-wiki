@@ -81,7 +81,7 @@ This contains consistency-checked and author-checked files (from 'phenex-files')
 ** [http://kb-staging.phenoscape.org/OBD-WS/report/count/taxa/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D pelvic fin and parts only]
 ** [http://kb-staging.phenoscape.org/OBD-WS/report/count/taxa/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D pectoral fin and parts only]
 ** [http://kb-staging.phenoscape.org/OBD-WS/report/count/taxa/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D skeletal system and parts only]
-** [http://kb-staging.phenoscape.org/OBD-WS/report/count/taxa/annotated?query=%7B%22taxon%22%3A%5B%7B%22id%22%3A%22TTO%3A253%22%7D%5D%7D Ostarioclupeomorpha only]
+** [http://kb-staging.phenoscape.org/OBD-WS/report/count/taxa/annotated?query=%7B%22taxon%22%3A%5B%7B%22id%22%3A%22TTO%3A253%22%7D%5D%7D Ostarioclupeomorpha only] THIS QUERY HAS A BUG - IT IS BEING INVESTIGATED!!!
 
 * [http://kb-staging.phenoscape.org/OBD-WS/report/count/phenotypes/curated Count of EQ statements curated (state to phenotype links)]
 * [http://kb-staging.phenoscape.org/OBD-WS/report/count/phenotypes/annotated Count of distinct phenotypes used in taxon annotations]
