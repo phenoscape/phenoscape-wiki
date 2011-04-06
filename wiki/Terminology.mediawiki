@@ -7,7 +7,11 @@ title: Terminology
 '''Distinct phenotype''': Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parens) <font color=red>''not used''</font>
 ** though used currently in Phenoscape paper
 
-'''Phenotype annotation''' (synonym phenotype assertion): Phenotype that is connected to a taxon.
+'''Phenotype annotation''' (synonym phenotype assertion): The connection of a phenotype to a taxon or a gene.
+
+taxon phenotype annotation
+
+gene phenotype annotation
 
 <font color=red>not defined, used in TAO paper only''</font>
 **'Another alternative would take advantage of phenotype annotations to infer a taxonomically variable relationship. In thiscase, a rule could be constructed that would allow a reasoner to infer from the (separately asserted) presence of Weberian apparatus in a taxon (e.g., Otophysi) that vertebra 1 is a Weberian vertebra in that taxon. Because the presence of the Weberian apparatus is a morphological character state and as such a phenotype, this strategy would use <B>phenotype assertions </B> to inject additional and taxon-specific relationships into the anatomy ontology, without the need for an ontology curator to maintain those separately.'
@@ -34,7 +38,9 @@ title: Terminology
 '''Phenotype-taxon assertion (=Taxon-Phenotype annotations?)''': Phenotype that is assigned to a taxon <font color=red>''- not used in Phenex, TAO, or Curation papers, however, '<B>Taxon-Phenotype annotation</B> used in Phenex paper''</font>:
 **'From this knowledgebase, similar  <B>taxon–phenotype annotations </B> can be easily discovered by searching higher level anatomical or quality terms.'
 
-'''Taxon phenotype''' (used synonymously with '''Taxon phenotype annotations''' in current Phenoscape paper).  Used in the same sense as 'Taxon-phenotype annotations' above in Phenex paper.  We have discussed the use of the term '''Evolutionary phenotype'''.  See kb for our use of 'Taxonomic phenotype annotations' -- but then we also use 'taxon phenotype annotations'.
+'''Taxon phenotype''' is a phenotype that has been used in a taxon phenotype annotation.
+
+(used synonymously with '''Taxon phenotype annotations''' in current Phenoscape paper).  Used in the same sense as 'Taxon-phenotype annotations' above in Phenex paper.  We have discussed the use of the term '''Evolutionary phenotype'''.  See kb for our use of 'Taxonomic phenotype annotations' -- but then we also use 'taxon phenotype annotations'.
 
 '''Distinct phenotype-taxon assertions''': phenotypes assigned to taxa that are unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype (EQ) for alternative character states (when annotating at high level of PATO granularity, e.g.).  Thus the number of distinct phenotype assertions is lower than the number of phenotype assertions. <font color=red>''- not used''</font>
 
