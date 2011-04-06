@@ -12,9 +12,9 @@ These ontologies will keep changing to accommodate our community needs, and they
 
 === Teleost Taxonomy Ontology ===
 
-Phenotypes are associated with species using a taxonomy ontology, the [[Teleost Taxonomy Ontology]] (TTO) derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes] (see also the [http://bioportal.bioontology.org/visualize/38363 representation on BioPortal], which can be navigated on-line). The TTO is updated in concert with Catalog of Fishes updates.  Changes to the TTO relative to the latest version generated from a dump from the Catalog of Fishes are documented [[TTO_Changes]]. 
+Phenotypes are associated with species using a taxonomy ontology, the [[Teleost Taxonomy Ontology]] (TTO) derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes] (see also the [http://bioportal.bioontology.org/visualize/38363 representation on BioPortal], which can be navigated on-line). The TTO is updated in concert with Catalog of Fishes updates.  Changes to the TTO relative to the latest version generated from a dump from the Catalog of Fishes are documented [[TTO_Changes]].
 
-We are in the process of developing a separate ontology of [[Taxonomic Ranks]].  These terms (e.g., family, genus, etc.) will then be removed from the TTO and links from taxonomic terms (property_value: has_rank) will be updated.
+During 2010, we released a separate [[Taxonomic Rank Vocabulary]] (TAXRANK), and removed all rank terms (e.g., family, genus, etc.) from the taxa within the TTO.  Taxa in the TTO specify their ranks as property values via the metadata relation has_rank, but the object of the has_rank links is contained in the TAXRANK vocabulary.   
 
 Additional documentation:
 * [[Documenting taxon concepts used in a publication]]
