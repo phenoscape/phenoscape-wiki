@@ -10,7 +10,6 @@ title: Terminology
 '''Phenotype annotation''' (synonym phenotype assertion): Phenotype that is connected to a taxon.
 
 <font color=red>not defined, used in TAO paper only''</font>
-
 **'Another alternative would take advantage of phenotype annotations to infer a taxonomically variable relationship. In thiscase, a rule could be constructed that would allow a reasoner to infer from the (separately asserted) presence of Weberian apparatus in a taxon (e.g., Otophysi) that vertebra 1 is a Weberian vertebra in that taxon. Because the presence of the Weberian apparatus is a morphological character state and as such a phenotype, this strategy would use <B>phenotype assertions </B> to inject additional and taxon-specific relationships into the anatomy ontology, without the need for an ontology curator to maintain those separately.'
 
 '''Annotation''': part of title of Phenex paper, not defined; defined in TAO paper: 'One common use of ontologies is the  <B>annotation </B> or “tagging” of objects or observations, such as genetic sequences, gene expression patterns, or whole organism phenotypes, with ontology terms. The convention used by model organism databases to  <B>annotate </B> mutant phenotypes is entity-quality (EQ) syntax in which an entity from an anatomical ontology is combined with a quality or nontaxon specific modifier (Gkoutos et al. 2004; Sprague et al. 2008). The Phenoscape project has adopted and extended EQ to  <B>annotate </B> evolutionary phenotypes, specifically systematic characters for ostariophysan fishes. '
