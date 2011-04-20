@@ -1105,12 +1105,7 @@ A facet name of either "entity", "quality", "related_entity", "taxon", or "gene"
 
 JSON
 <javascript>
-{"total":19, "publications":[
-{"id":"PSPUB:0000002","name":"Armbruster 2004"},
-{"id":"PSPUB:0000006","name":"Bockmann 1998"},
-{"id":"PSPUB:0000009","name":"Bornbusch 1995"},
-{"id":"PSPUB:0000011","name":"Britto 2003"},
-{"id":"PSPUB:0000018","name":"Chen 1994"}]}
+
 </javascript>
 
 =Other ontology service definitions (for comparison)=
