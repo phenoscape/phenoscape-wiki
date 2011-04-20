@@ -1096,7 +1096,7 @@ JSON
 
 '''URI'''
 
- <BASE URI>/phenotype/facet/{facet}?entity=[entity-id]&quality=[quality-id]&taxon=[taxon-id]&gene=[gene-id]
+ <BASE URI>/phenotype/facet/{facet}?entity=[entity-id]&quality=[quality-id]&related_entity=[related_entity-id]&taxon=[taxon-id]&gene=[gene-id]
 
 A facet name of either "entity", "quality", "related_entity", "taxon", or "gene" must be substituted in the URI path. All URI parameters are optional. It is an error to supply query parameter matching the facet name, i.e. for '.../phenotype/facet/entity', do not provide '?entity=xx'
 
