@@ -1105,7 +1105,95 @@ A facet name of either "entity", "quality", "related_entity", "taxon", or "gene"
 
 JSON
 <javascript>
-
+{
+    "facet": [{
+        "count": 13892,
+        "children": [{
+            "id": "TAO:0009000",
+            "count": 921
+        },
+        {
+            "id": "TAO:0001834",
+            "count": 1524
+        },
+        {
+            "id": "TAO:0001835",
+            "count": 348
+        },
+        {
+            "id": "TAO:0001094",
+            "count": 118
+        },
+        {
+            "id": "TAO:0001512",
+            "count": 532
+        },
+        {
+            "id": "TAO:0001973",
+            "count": 45
+        },
+        {
+            "id": "TAO:0001105",
+            "count": 145
+        },
+        {
+            "id": "GO:0005575",
+            "count": 711
+        },
+        {
+            "id": "TAO:0001738",
+            "count": 33
+        },
+        {
+            "id": "TAO:0000382",
+            "count": 2
+        },
+        {
+            "id": "GO:0008150",
+            "count": 1298
+        },
+        {
+            "id": "GO:0003674",
+            "count": 26
+        },
+        {
+            "id": "TAO:0002107",
+            "count": 7
+        },
+        {
+            "id": "TAO:0002105",
+            "count": 4
+        },
+        {
+            "id": "TAO:0001477",
+            "count": 3841
+        },
+        {
+            "id": "TAO:0002106",
+            "count": 5
+        },
+        {
+            "id": "TAO:0001487",
+            "count": 28
+        },
+        {
+            "id": "TAO:0000496",
+            "count": 751
+        },
+        {
+            "id": "TAO:0001308",
+            "count": 660
+        },
+        {
+            "id": "TAO:0001488",
+            "count": 710
+        },
+        {
+            "id": "TAO:0000020",
+            "count": 4
+        }]
+    }]
+}
 </javascript>
 
 =Other ontology service definitions (for comparison)=
