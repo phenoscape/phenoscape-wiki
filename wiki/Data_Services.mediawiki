@@ -1096,43 +1096,10 @@ JSON
 
 '''URI'''
 
- <BASE URI>/publication/annotated?query=[url-encoded-json]&sortby=[publication]&limit=[count]&index=[start_index]&desc=[true|false]
+ <BASE URI>/phenotype/facet/{facet}?entity=[entity-id]&quality=[quality-id]&taxon=[taxon-id]&gene=[gene-id]
 
-All URI parameters are optional. If no JSON-formatted query specification is provided, all annotated publications will be returned. The <code>limit</code> parameter limits the number of results to the given integer count. This must be a positive integer. The <code>index</code> parameter can be used for pagination under a given sorting and limit regime. It should be greater than or equal to zero (the default). <code>desc</code> can be used to return the results in descending order (it is false by default). If a value is not provided for <code>sortby</code>, the sort order, limit, and start index are not very useful.
+A facet name of either "entity", "quality", "related_entity", "taxon", or "gene" must be substituted in the URI path. All URI parameters are optional. It is an error to supply query parameter matching the facet name, i.e. for '.../phenotype/facet/entity', do not provide '?entity=xx'
 
-'''Phenotype query specification'''
-
-The value of the <code>query</code> parameter should be an annotation query represented as JSON, following this structure (in practice it should be collapsed as far as possible to shorten the URL):
-
-<javascript>
-{
-    "taxon": [
-    {
-        "id": "TTO:XXXX"
-    },
-    {
-        "id": "TTO:YYYY"
-    }
-    ],
-    "phenotype": [
-    {
-        "entity": {
-            "id": "TAO:XXXX",
-            "including_parts": false
-        },
-        "quality": {
-            "id": "PATO:XXXX"
-        },
-        "related_entity": {
-            "id": "TAO:YYYYY"
-        }
-    }
-    ],
-    "match_all_phenotypes": false,
-    "match_all_taxa": false
-}
-</javascript>
-It should be URL-encoded to include in the request.
 
 '''Returns'''
 
@@ -1145,7 +1112,6 @@ JSON
 {"id":"PSPUB:0000011","name":"Britto 2003"},
 {"id":"PSPUB:0000018","name":"Chen 1994"}]}
 </javascript>
-
 
 =Other ontology service definitions (for comparison)=
 
