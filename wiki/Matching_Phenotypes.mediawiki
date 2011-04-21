@@ -59,6 +59,11 @@ Forming the full set of subsumers for a phenotype allows matches where the commo
 
 = Scoring matches of sets of phenotypes (phenotypic profiles) associated with a gene or taxon node =
 
+We are developing a new approach to matching phenotypic profiles as we don't think the measures in Washington et al. (2009) are appropriate for comparing phenotypes associated with change in a single gene to phenotypes indicating variation within a taxon.  We are developing a simulation (permutation) framework to explore the behavior of phenotype match statistics.  This will initially focus on maxIC (the greatest IC of any pair of phenotypes between the two profiles).  
+
+
+
+
 The Washington et al. (2009) paper used four measures to assess similarity in phenotype profiles (sets of phenotypes associated with a gene).  These are:
 *maxIC - the greatest IC of any pair of phenotypes in the set of pairs of phenotypes where one is drawn from the taxon set and other from the gene set.
 *ICCS - each taxon phenotype is matched against all gene phenotypes and the highest IC value among the matches for each taxon phenotype is collected.  The final score is the mean of these highest matches.
