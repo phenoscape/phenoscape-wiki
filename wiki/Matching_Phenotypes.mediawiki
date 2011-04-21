@@ -59,7 +59,9 @@ Forming the full set of subsumers for a phenotype allows matches where the commo
 
 = Scoring matches of sets of phenotypes (phenotypic profiles) associated with a gene or taxon node =
 
-We are developing a new approach to matching phenotypic profiles as we don't think the measures in Washington et al. (2009) are appropriate for comparing phenotypes associated with change in a single gene to phenotypes indicating variation within a taxon.  We are developing a simulation (permutation) framework to explore the behavior of phenotype match statistics.  This will initially focus on maxIC (the greatest IC of any pair of phenotypes between the two profiles).  
+We are developing a new approach to matching phenotypic profiles as we don't think the measures in Washington et al. (2009) are appropriate for comparing phenotypes associated with change in a single gene to phenotypes indicating variation within a taxon.  We are developing a simulation (permutation) framework to explore the behavior of phenotype match statistics.  This will initially focus on maxIC (the greatest IC of any pair of phenotypes between the two profiles).
+
+Profiles vary in size, and it is reasonable to assume that profiles with more phenotypes will, just by chance, include phenotypes that yield higher match scores.
 
 
 
