@@ -61,7 +61,7 @@ Forming the full set of subsumers for a phenotype allows matches where the commo
 
 We are developing a new approach to matching phenotypic profiles as we don't think the measures in Washington et al. (2009) are appropriate for comparing phenotypes associated with change in a single gene to phenotypes indicating variation within a taxon.  We are developing a simulation (permutation) framework to explore the behavior of phenotype match statistics.  This will initially focus on maxIC (the greatest IC of any pair of phenotypes between the two profiles).
 
-Profiles vary in size, and it is reasonable to assume that profiles with more phenotypes will, just by chance, include phenotypes that yield higher match scores.
+Profiles vary in size, and it is reasonable to assume that profiles with more phenotypes will, by chance, include phenotypes that yield higher scores for many statistics, in particular for the maxIC statistic.  Therefore, to evaluate the significance of a phenotype match score, it should be compared against a null distribution of profile matches involving taxon and gene profiles with the same numbers of phenotypes.  We will construct this null distribution by assigning phenotypes to profiles using sampling without replacement to build a set of profiles with the same size distribution as the actual dataset in the profile match report.
 
 
 
