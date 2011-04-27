@@ -126,11 +126,19 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Matt Yoder, North Carolina State University
 
 ===Software testing===
+* Angel Amores, University of Oregon
 * Carole Baldwin, Smithsonian National Museum of Natural History
-* Julie Mounts, Smithsonian National Museum of Natural History
-* Lynne Parenti, Smithsonian National Museum of Natural History
-* Jiakun Song, Smithsonian National Museum of Natural History
+* Susan Bassham, University of Oregon
+* William Cresko, University of Oregon
+* April DeLaurier, University of Oregon
 * Daniel Lumbantobing, George Washington University
+* Julie Mounts, Smithsonian National Museum of Natural History
+* Conor O'Brien, University of Oregon
+* Lynne Parenti, Smithsonian National Museum of Natural History
+* Brian Sidlauskas, Oregon State University
+* Jiakun Song, Smithsonian National Museum of Natural History
+* Jared Talbot, University of Oregon
+* Tom Titus, University of Oregon
 
 ===Students===
 * Alex Ahearn, Duke University
