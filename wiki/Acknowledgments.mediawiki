@@ -136,10 +136,10 @@ title: Acknowledgments
 </ul>
 <h3>Software testing</h3>
 <ul>
-<li>Carole Baldwin, Smithsonian Nationaol Museum of Natural History</li>
-<li>Julie Mounts, Smithsonian Nationaol Museum of Natural History</li>
-<li>Lynne Parenti, Smithsonian Nationaol Museum of Natural History</li>
-<li>Jiakun Song, Smithsonian Nationaol Museum of Natural History</li>
+<li>Carole Baldwin, Smithsonian National Museum of Natural History</li>
+<li>Julie Mounts, Smithsonian National Museum of Natural History</li>
+<li>Lynne Parenti, Smithsonian National Museum of Natural History</li>
+<li>Jiakun Song, Smithsonian National Museum of Natural History</li>
 <li>Daniel Lumbantobing, George Washington University</li>
 </ul>
 <h3>Students</h3>
