@@ -131,14 +131,17 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Susan Bassham, University of Oregon
 * William Cresko, University of Oregon
 * April DeLaurier, University of Oregon
+* Ryan Kerney, Dalhousie University
 * Daniel Lumbantobing, George Washington University
 * Julie Mounts, Smithsonian National Museum of Natural History
 * Conor O'Brien, University of Oregon
 * Lynne Parenti, Smithsonian National Museum of Natural History
+* Rafael De Sá, University of Richmond
 * Brian Sidlauskas, Oregon State University
 * Jiakun Song, Smithsonian National Museum of Natural History
 * Jared Talbot, University of Oregon
 * Tom Titus, University of Oregon
+* Linda Trueb, University of Kansas
 
 ===Students===
 * Alex Ahearn, Duke University
