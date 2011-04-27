@@ -2,183 +2,174 @@
 title: Acknowledgments
 ---
 
-<h2>Contributors</h2>
-<p>The following individuals have contributed to Phenoscape ontology development, data curation, workshops, and data entry:</p>
-<h3>Teleost Anatomy Ontology Contributors</h3>
-<ul>
-<li>Gloria Arratia, The University of Kansas</li>
-<li>David Blackburn, University of Kansas</li>
-<li>Miles Coburn, John Carroll University</li>
-<li>Kevin Conway, St. Louis University</li>
-<li>Wasila Dahdul, University of South Dakota</li>
-<li>Mário de Pinna, Universidade de São Paulo</li>
-<li>Alexander Diehl, The Jackson Laboratory</li>
-<li>Jeff Engeman, University of South Dakota</li>
-<li>Terry Grande, Loyola University, Chicago</li>
-<li>Melissa Haendel, Zebrafish Information Network</li>
-<li>Brian Hall, Dalhousie University</li>
-<li>Eric Hilton, Virginia Institute of Marine Science</li>
-<li>John Lundberg, The Academy of Natural Sciences, Philadelphia</li>
-<li>Paula Mabee, University of South Dakota</li>
-<li>Richard Mayden, St. Louis University</li>
-<li>Martin Ringwald, The Jackson Laboratory</li>
-<li>Mark Sabaj Pérez, The Academy of Natural Sciences, Philadelphia</li>
-<li>Erik Segerdell, University of Calgary</li>
-<li>Brian Sidlauskas, Oregon State University</li>
-<li>Sandrine Tercerie, Muséum National d'Histoire Naturelle</li>
-<li>Ceri Van Slyke, Zebrafish Information Network</li>
-<li>Richard Vari, National Museum of Natural History, Smithsonian Institution</li>
-<li>Matt Vickaryous, University of Guelph</li>
-<li>Jacqueline Webb, University of Rhode Island</li>
-<li>Edward Wiley, The University of Kansas</li>
-</ul>
-<h3>Teleost Taxonomy Ontology Contributors</h3>
-<ul>
-<li>Nicolas Bailly, WorldFish Center, Philippines</li>
-<li>Stan Blum, California Academy of Sciences</li>
-<li>Miles Coburn, John Carroll University</li>
-<li>Kevin Conway, St. Louis University</li>
-<li>Wasila Dahdul, University of South Dakota</li>
-<li>Bill Eschmeyer, California Academy of Sciences</li>
-<li>Rainer Froese, Leibniz-Institute of Marine Sciences</li>
-<li>Terry Grande, Loyola University, Chicago</li>
-<li>Eric Hilton, Virginia Institute of Marine Science</li>
-<li>John Lundberg, The Academy of Natural Sciences, Philadelphia</li>
-<li>Richard Mayden, St. Louis University</li>
-</ul>
-<h3>Curators (Data Annotation)</h3>
-<ul>
-<li>Miles Coburn, John Carroll University</li>
-<li>Sonia Crichigno, Centro Regional Universitario Bariloche, (Univ. Nac. del Comahue), Argentina</li>
-<li>Jeff Engeman, University of South Dakota</li>
-<li>Terry Grande, Loyola University, Chicago</li>
-<li>Eric Hilton, Virginia Institute of Marine Science</li>
-<li>John Lundberg, The Academy of Natural Sciences, Philadelphia</li>
-<li>Paula Mabee, University of South Dakota</li>
-<li>Richard Mayden, St. Louis University</li>
-<li>Mark Sabaj Pérez, The Academy of Natural Sciences, Philadelphia</li>
-<li>Sandrine Tercerie, Muséum National d'Histoire Naturelle</li>
-</ul>
-<h3>Phenoscape Workshop Participants &amp; Contributors</h3>
-<ul>
-<li>Arhat Abzhanov, Harvard University</li>
-<li>Angel Amores, University of Oregon</li>
-<li>Gloria Arratia, The University of Kansas</li>
-<li>Michael Ashburner, University of Cambridge</li>
-<li>Jim Balhoff, National Evolutionary Synthesis Center</li>
-<li>Susan Bassham, University of Oregon</li>
-<li>Rüdiger Bieler, Field Museum, Chicago</li>
-<li>David Blackburn, University of Kansas</li>
-<li>Judith Blake, The Jackson Laboratory</li>
-<li>Stan Blum, California Academy of Sciences</li>
-<li>Miles Coburn, John Carroll University</li>
-<li>Kevin Conway, St. Louis University</li>
-<li>William Cresko, University of Oregon</li>
-<li>Quentin Cronk, The University of British Columbia</li>
-<li>Wasila Dahdul, University of South Dakota</li>
-<li>Mário de Pinna, Universidade de São Paulo</li>
-<li>Andy Deans, North Carolina State University</li>
-<li>April DeLaurier, University of Oregon</li>
-<li>Alexander Diehl, The Jackson Laboratory</li>
-<li>Torsten Dikow, Field Museum, Chicago</li>
-<li>Jeff Engeman, University of South Dakota</li>
-<li>George Gkoutos, University of Cambridge</li>
-<li>Lance Grande, Field Museum, Chicago</li>
-<li>Terry Grande, Loyola University, Chicago</li>
-<li>Melissa Haendel, Zebrafish Information Network</li>
-<li>Brian Hall, Dalhousie University</li>
-<li>Eric Hilton, Virginia Institute of Marine Science</li>
-<li>Robert Ho, University of Chicago</li>
-<li>Hopi Hoekstra, Harvard University</li>
-<li>Hans Hofmann, University of Texas at Austin</li>
-<li>Elizabeth Jockusch, Univesity of Connecticut</li>
-<li>Elizabeth Kellogg, University of Missouri, St. Louis</li>
-<li>Chuck Kimmel, University of Oregon</li>
-<li>Cartik Kothari, National Evolutionary Synthesis Center</li>
-<li>Hilmar Lapp, National Evolutionary Synthesis Center</li>
-<li>Suzanna Lewis, Berkeley Bioinformatics and Ontology Project</li>
-<li>John Lundberg, The Academy of Natural Sciences, Philadelphia</li>
-<li>Paula Mabee, University of South Dakota</li>
-<li>Anne Maglia, Missouri University of Science and Technology</li>
-<li>Joanna Mandecki, University of Chicago</li>
-<li>Austin Mast, Florida State University</li>
-<li>Richard Mayden, St. Louis University</li>
-<li>Charlene McCord, University of Chicago</li>
-<li>Peter Midford, National Evolutionary Synthesis Center</li>
-<li>Chris Mungall, Berkeley Bioinformatics and Ontology Project</li>
-<li>Conor O'Brien, University of Oregon</li>
-<li>Vicky Prince, University of Chicago</li>
-<li>Martin Ramirez, Museo Argentino de Ciencias Naturales "Bernardino Rivadavia," Argentina</li>
-<li>Sue Rhee, Carnegie Institution</li>
-<li>Martin Ringwald, The Jackson Laboratory</li>
-<li>Nelson Rios, Tulane University</li>
-<li>Callum Ross, University of Chicago</li>
-<li>Mark Sabaj Pérez, The Academy of Natural Sciences, Philadelphia</li>
-<li>Erik Segerdell, University of Calgary</li>
-<li>Paul Sereno, University of Chicago</li>
-<li>Brian Sidlauskas, Oregon State University</li>
-<li>Barry Smith, University at Buffalo</li>
-<li>David Stern, Princeton University</li>
-<li>Jared Talbot, University of Oregon</li>
-<li>Margaret Thayer, Field Museum, Chicago</li>
-<li>Tom Titus, University of Oregon</li>
-<li>Ceri Van Slyke, Zebrafish Information Network</li>
-<li>Matt Vickaryous, University of Guelph</li>
-<li>Todd Vision, National Evolutionary Synthesis Center and University of North Carolina at Chapel Hill</li>
-<li>Peter Vize, University of Calgary</li>
-<li>Gunter Wagner, Yale University</li>
-<li>Michael Wallinga, University of South Dakota</li>
-<li>Nicole Washington, Lawrence Berkeley National Lab</li>
-<li>Monte Westerfield, Zebrafish Information Network and University of Oregon</li>
-<li>Mark Westneat, Field Museum, Chicago</li>
-<li>Edward Wiley, The University of Kansas</li>
-<li>Matt Yoder, North Carolina State University</li>
-</ul>
-<h3>Software testing</h3>
-<ul>
-<li>Carole Baldwin, Smithsonian National Museum of Natural History</li>
-<li>Julie Mounts, Smithsonian National Museum of Natural History</li>
-<li>Lynne Parenti, Smithsonian National Museum of Natural History</li>
-<li>Jiakun Song, Smithsonian National Museum of Natural History</li>
-<li>Daniel Lumbantobing, George Washington University</li>
-</ul>
-<h3>Students</h3>
-<ul>
-<li>Alex Ahearn, Duke University</li>
-<li>Alyssa Block, University of South Dakota</li>
-<li>Sonia Crichigno, Centro Regional Universitario Bariloche, (Univ. Nac. del Comahue), Argentina</li>
-<li>Jeff Engeman, University of South Dakota</li>
-<li>Ericka Grey, University of South Dakota</li>
-<li>Jonathan Lee, Duke University</li>
-<li>Leah Mabee, University of South Dakota</li>
-<li>Mtakai Ngara, International Institute of Tropical Agriculture, Nairobi, Kenya</li>
-<li>Carla Perez, Duke University</li>
-<li>Carin Rambow, University of South Dakota</li>
-<li>Du Rui, University of South Dakota</li>
-<li>Brad Schanche, University of South Dakota</li>
-<li>Michael Wallinga, University of South Dakota</li>
-</ul>
+==Contributors==
+The following individuals have contributed to Phenoscape ontology development, data curation, workshops, and data entry:
 
-<h2>Project team</h2>
-<ul>
-<li>Paula Mabee, University of South Dakota</li>
-<li>Monte Westerfield, Zebrafish Information Network and University of Oregon</li>
-<li>Todd Vision, National Evolutionary Synthesis Center and University of North Carolina at Chapel Hill</li>
-<li>Hilmar Lapp, National Evolutionary Synthesis Center</li>
-<li>Jim Balhoff, National Evolutionary Synthesis Center</li>
-<li>Wasila Dahdul, University of South Dakota</li>
-<li>Peter Midford, National Evolutionary Synthesis Center</li>
-</ul>
+===Teleost Anatomy Ontology Contributors===
+* Gloria Arratia, The University of Kansas
+* David Blackburn, University of Kansas
+* Miles Coburn, John Carroll University
+* Kevin Conway, St. Louis University
+* Wasila Dahdul, University of South Dakota
+* Mário de Pinna, Universidade de São Paulo
+* Alexander Diehl, The Jackson Laboratory
+* Jeff Engeman, University of South Dakota
+* Terry Grande, Loyola University, Chicago
+* Melissa Haendel, Zebrafish Information Network
+* Brian Hall, Dalhousie University
+* Eric Hilton, Virginia Institute of Marine Science
+* John Lundberg, The Academy of Natural Sciences, Philadelphia
+* Paula Mabee, University of South Dakota
+* Richard Mayden, St. Louis University
+* Martin Ringwald, The Jackson Laboratory
+* Mark Sabaj Pérez, The Academy of Natural Sciences, Philadelphia
+* Erik Segerdell, University of Calgary
+* Brian Sidlauskas, Oregon State University
+* Sandrine Tercerie, Muséum National d'Histoire Naturelle
+* Ceri Van Slyke, Zebrafish Information Network
+* Richard Vari, National Museum of Natural History, Smithsonian Institution
+* Matt Vickaryous, University of Guelph
+* Jacqueline Webb, University of Rhode Island
+* Edward Wiley, The University of Kansas
 
-<h2>Data sources</h2>
-<ul>
-<li>[http://zfin.org ZFIN] - mutant and morpholino zebrafish genes and phenotypes</li>
-<li>[http://research.calacademy.org/ichthyology/catalog Catalog of Fishes] - fish taxonomy</li>
-<li>[http://www.fishbase.org/ Fishbase] - fish common names</li>
-</ul>
+===Teleost Taxonomy Ontology Contributors===
+* Nicolas Bailly, WorldFish Center, Philippines
+* Stan Blum, California Academy of Sciences
+* Miles Coburn, John Carroll University
+* Kevin Conway, St. Louis University
+* Wasila Dahdul, University of South Dakota
+* Bill Eschmeyer, California Academy of Sciences
+* Rainer Froese, Leibniz-Institute of Marine Sciences
+* Terry Grande, Loyola University, Chicago
+* Eric Hilton, Virginia Institute of Marine Science
+* John Lundberg, The Academy of Natural Sciences, Philadelphia
+* Richard Mayden, St. Louis University
 
-<h2>Funding</h2>
-<p>The Phenoscape project is funded by NSF grant BDI-0641025, and supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0423641.</p>
+===Curators (Data Annotation)===
+* Miles Coburn, John Carroll University
+* Sonia Crichigno, Centro Regional Universitario Bariloche, (Univ. Nac. del Comahue), Argentina
+* Wasila Dahdul, University of South Dakota
+* Jeff Engeman, University of South Dakota
+* Terry Grande, Loyola University, Chicago
+* Eric Hilton, Virginia Institute of Marine Science
+* John Lundberg, The Academy of Natural Sciences, Philadelphia
+* Paula Mabee, University of South Dakota
+* Richard Mayden, St. Louis University
+* Mark Sabaj Pérez, The Academy of Natural Sciences, Philadelphia
+* Sandrine Tercerie, Muséum National d'Histoire Naturelle
+
+===Phenoscape Workshop Participants &amp; Contributors===
+* Arhat Abzhanov, Harvard University
+* Angel Amores, University of Oregon
+* Gloria Arratia, The University of Kansas
+* Michael Ashburner, University of Cambridge
+* Jim Balhoff, National Evolutionary Synthesis Center
+* Susan Bassham, University of Oregon
+* Rüdiger Bieler, Field Museum, Chicago
+* David Blackburn, University of Kansas
+* Judith Blake, The Jackson Laboratory
+* Stan Blum, California Academy of Sciences
+* Miles Coburn, John Carroll University
+* Kevin Conway, St. Louis University
+* William Cresko, University of Oregon
+* Quentin Cronk, The University of British Columbia
+* Wasila Dahdul, University of South Dakota
+* Mário de Pinna, Universidade de São Paulo
+* Andy Deans, North Carolina State University
+* April DeLaurier, University of Oregon
+* Alexander Diehl, The Jackson Laboratory
+* Torsten Dikow, Field Museum, Chicago
+* Jeff Engeman, University of South Dakota
+* George Gkoutos, University of Cambridge
+* Lance Grande, Field Museum, Chicago
+* Terry Grande, Loyola University, Chicago
+* Melissa Haendel, Zebrafish Information Network
+* Brian Hall, Dalhousie University
+* Eric Hilton, Virginia Institute of Marine Science
+* Robert Ho, University of Chicago
+* Hopi Hoekstra, Harvard University
+* Hans Hofmann, University of Texas at Austin
+* Elizabeth Jockusch, Univesity of Connecticut
+* Elizabeth Kellogg, University of Missouri, St. Louis
+* Chuck Kimmel, University of Oregon
+* Cartik Kothari, National Evolutionary Synthesis Center
+* Hilmar Lapp, National Evolutionary Synthesis Center
+* Suzanna Lewis, Berkeley Bioinformatics and Ontology Project
+* John Lundberg, The Academy of Natural Sciences, Philadelphia
+* Paula Mabee, University of South Dakota
+* Anne Maglia, Missouri University of Science and Technology
+* Joanna Mandecki, University of Chicago
+* Austin Mast, Florida State University
+* Richard Mayden, St. Louis University
+* Charlene McCord, University of Chicago
+* Peter Midford, National Evolutionary Synthesis Center
+* Chris Mungall, Berkeley Bioinformatics and Ontology Project
+* Conor O'Brien, University of Oregon
+* Vicky Prince, University of Chicago
+* Martin Ramirez, Museo Argentino de Ciencias Naturales "Bernardino Rivadavia," Argentina
+* Sue Rhee, Carnegie Institution
+* Martin Ringwald, The Jackson Laboratory
+* Nelson Rios, Tulane University
+* Callum Ross, University of Chicago
+* Mark Sabaj Pérez, The Academy of Natural Sciences, Philadelphia
+* Erik Segerdell, University of Calgary
+* Paul Sereno, University of Chicago
+* Brian Sidlauskas, Oregon State University
+* Barry Smith, University at Buffalo
+* David Stern, Princeton University
+* Jared Talbot, University of Oregon
+* Margaret Thayer, Field Museum, Chicago
+* Tom Titus, University of Oregon
+* Ceri Van Slyke, Zebrafish Information Network
+* Matt Vickaryous, University of Guelph
+* Todd Vision, National Evolutionary Synthesis Center and University of North Carolina at Chapel Hill
+* Peter Vize, University of Calgary
+* Gunter Wagner, Yale University
+* Michael Wallinga, University of South Dakota
+* Nicole Washington, Lawrence Berkeley National Lab
+* Monte Westerfield, Zebrafish Information Network and University of Oregon
+* Mark Westneat, Field Museum, Chicago
+* Edward Wiley, The University of Kansas
+* Matt Yoder, North Carolina State University
+
+===Software testing===
+* Carole Baldwin, Smithsonian National Museum of Natural History
+* Julie Mounts, Smithsonian National Museum of Natural History
+* Lynne Parenti, Smithsonian National Museum of Natural History
+* Jiakun Song, Smithsonian National Museum of Natural History
+* Daniel Lumbantobing, George Washington University
+
+===Students===
+* Alex Ahearn, Duke University
+* Alyssa Block, University of South Dakota
+* Sonia Crichigno, Centro Regional Universitario Bariloche, (Univ. Nac. del Comahue), Argentina
+* Jeff Engeman, University of South Dakota
+* Ericka Grey, University of South Dakota
+* Jonathan Lee, Duke University
+* Leah Mabee, University of South Dakota
+* Mtakai Ngara, International Institute of Tropical Agriculture, Nairobi, Kenya
+* Carla Perez, Duke University
+* Carin Rambow, University of South Dakota
+* Du Rui, University of South Dakota
+* Brad Schanche, University of South Dakota
+* Michael Wallinga, University of South Dakota
+
+==Project team==
+* Paula Mabee, University of South Dakota
+* Monte Westerfield, Zebrafish Information Network and University of Oregon
+* Todd Vision, National Evolutionary Synthesis Center and University of North Carolina at Chapel Hill
+* Hilmar Lapp, National Evolutionary Synthesis Center
+* Jim Balhoff, National Evolutionary Synthesis Center
+* Wasila Dahdul, University of South Dakota
+* Peter Midford, National Evolutionary Synthesis Center
+
+==Data sources==
+* [http://zfin.org ZFIN] - mutant and morpholino zebrafish genes and phenotypes
+* [http://research.calacademy.org/ichthyology/catalog Catalog of Fishes] - fish taxonomy
+* [http://www.fishbase.org/ Fishbase] - fish common names
+
+==Funding==
+The Phenoscape project is funded by NSF grant BDI-0641025, and supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0423641.
 
 [[Category:Curation]]
 [[Category:Community]]
