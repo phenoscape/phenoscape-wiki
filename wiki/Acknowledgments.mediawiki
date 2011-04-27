@@ -145,6 +145,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Brian Sidlauskas, Oregon State University
 * Jiakun Song, Smithsonian National Museum of Natural History
 * Jared Talbot, University of Oregon
+* Sandrine Tercerie, Muséum National d'Histoire Naturelle
 * Tom Titus, University of Oregon
 * Linda Trueb, University of Kansas
 * Ceri Van Slyke, Zebrafish Information Network
