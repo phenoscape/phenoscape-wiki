@@ -130,18 +130,25 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Carole Baldwin, Smithsonian National Museum of Natural History
 * Susan Bassham, University of Oregon
 * Judith Blake, The Jackson Laboratory
+* Miles Coburn, John Carroll University
 * William Cresko, University of Oregon
 * April DeLaurier, University of Oregon
+* Jeff Engeman, University of South Dakota
 * Vladimir Gapeyev, National Evolutionary Synthesis Center
+* Terry Grande, Loyola University, Chicago
 * Melissa Haendel, Zebrafish Information Network
+* Eric Hilton, Virginia Institute of Marine Science
 * Ryan Kerney, Dalhousie University
 * Suzanna Lewis, Berkeley Bioinformatics and Ontology Project
 * Daniel Lumbantobing, George Washington University
+* John Lundberg, The Academy of Natural Sciences, Philadelphia
 * Anne Maglia, Missouri University of Science and Technology
+* Richard Mayden, St. Louis University
 * Julie Mounts, Smithsonian National Museum of Natural History
 * Conor O'Brien, University of Oregon
 * Lynne Parenti, Smithsonian National Museum of Natural History
 * Rafael de Sá, University of Richmond
+* Mark Sabaj Pérez, The Academy of Natural Sciences, Philadelphia
 * Brian Sidlauskas, Oregon State University
 * Jiakun Song, Smithsonian National Museum of Natural History
 * Jared Talbot, University of Oregon
