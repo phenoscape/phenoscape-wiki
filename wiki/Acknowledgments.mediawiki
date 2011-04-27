@@ -142,6 +142,8 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Jared Talbot, University of Oregon
 * Tom Titus, University of Oregon
 * Linda Trueb, University of Kansas
+* David Wake, University of California, Berkeley
+* Marvalee Wake, University of California, Berkeley
 
 ===Students===
 * Alex Ahearn, Duke University
