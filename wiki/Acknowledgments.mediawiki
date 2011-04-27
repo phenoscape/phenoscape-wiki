@@ -60,23 +60,19 @@ The following individuals have contributed to Phenoscape ontology development, d
 
 ===Phenoscape Workshop Participants &amp; Contributors===
 * Arhat Abzhanov, Harvard University
-* Angel Amores, University of Oregon
 * Gloria Arratia, The University of Kansas
 * Michael Ashburner, University of Cambridge
 * Jim Balhoff, National Evolutionary Synthesis Center
-* Susan Bassham, University of Oregon
 * Rüdiger Bieler, Field Museum, Chicago
 * David Blackburn, University of Kansas
 * Judith Blake, The Jackson Laboratory
 * Stan Blum, California Academy of Sciences
 * Miles Coburn, John Carroll University
 * Kevin Conway, St. Louis University
-* William Cresko, University of Oregon
 * Quentin Cronk, The University of British Columbia
 * Wasila Dahdul, University of South Dakota
 * Mário de Pinna, Universidade de São Paulo
 * Andy Deans, North Carolina State University
-* April DeLaurier, University of Oregon
 * Alexander Diehl, The Jackson Laboratory
 * Torsten Dikow, Field Museum, Chicago
 * Jeff Engeman, University of South Dakota
@@ -104,7 +100,6 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Charlene McCord, University of Chicago
 * Peter Midford, National Evolutionary Synthesis Center
 * Chris Mungall, Berkeley Bioinformatics and Ontology Project
-* Conor O'Brien, University of Oregon
 * Vicky Prince, University of Chicago
 * Martin Ramirez, Museo Argentino de Ciencias Naturales "Bernardino Rivadavia," Argentina
 * Sue Rhee, Carnegie Institution
@@ -117,9 +112,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Brian Sidlauskas, Oregon State University
 * Barry Smith, University at Buffalo
 * David Stern, Princeton University
-* Jared Talbot, University of Oregon
 * Margaret Thayer, Field Museum, Chicago
-* Tom Titus, University of Oregon
 * Ceri Van Slyke, Zebrafish Information Network
 * Matt Vickaryous, University of Guelph
 * Todd Vision, National Evolutionary Synthesis Center and University of North Carolina at Chapel Hill
