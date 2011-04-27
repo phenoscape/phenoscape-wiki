@@ -131,6 +131,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Susan Bassham, University of Oregon
 * William Cresko, University of Oregon
 * April DeLaurier, University of Oregon
+* Melissa Haendel, Zebrafish Information Network
 * Ryan Kerney, Dalhousie University
 * Daniel Lumbantobing, George Washington University
 * Julie Mounts, Smithsonian National Museum of Natural History
