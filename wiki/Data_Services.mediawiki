@@ -1095,7 +1095,7 @@ The value of the <code>query</code> parameter should be an annotation query repr
        "id": "PSPUB:1243"
      }
     ],
-    "match_all_phenotypes": false,
+    "match_all_taxa": false,
     "match_all_publications": false,
     "include_inferred": false
 }
