@@ -1052,6 +1052,22 @@ The value of the <code>query</code> parameter should be an annotation query repr
 
 <javascript>
 {
+    "gene": [
+    {
+        "id": "ZFIN:XXXX"
+    },
+    {
+        "id": "ZFIN:YYYY"
+    }
+    ],
+    "gene_class": [
+    {
+        "id": "GO:XXXX"
+    },
+    {
+        "id": "GO:YYYY"
+    }
+    ],
     "taxon": [
     {
         "id": "TTO:XXXX"
