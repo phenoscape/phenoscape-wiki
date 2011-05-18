@@ -32,6 +32,8 @@ Wilson and Reader (1993) is the standard, but the available electronic version o
 
 This tool uses a script to construct a taxonomic ontology by specifying a starting taxonomy, then modifying it by removing branches and splicing corresponding pieces of alternate taxonomies (e.g., start with the NCBI taxonomy and replace the teleost part of the tree with the tree from the TTO).  It also allows taxonomic synonyms to be extracted from taxonomies or name lists and attached to terms in the taxonomy.  Currently, the tool generates a taxonomy in the OBO format, though support for an individual-based OWL format is in progress.
 
+The tool source is available at [https://github.com/NESCent/Taxonomy-Ontology-Tool GitHub].
+
 == Generated Taxonomic Ontology ==
 
 This taxonomy covers vertebrates and was built by starting with the NCBI taxonomy for vertebrates and splicing in TTO (except hagfish), ATO, and the IOC taxonomy of living birds.  Synonyms from ITIS and Catalog of Life were attached if the primary name matched a name in the existing taxonomy.  Subspecies names were added to their parent species as synonyms (not subclasses).  The taxonomy is currently in the OBO format used for TTO and ATO, which includes the use of the Taxonomic Rank Vocabulary to tag taxa with specified rank.  The version generated for the NESCent-sponsored Visual Systems Working Group is at ??.
