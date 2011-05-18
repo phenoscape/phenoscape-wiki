@@ -28,8 +28,8 @@ Wilson and Reader (1993) is the standard, but the available electronic version o
 
 = Tools =
 
-= VTO construction tool =
+== VTO Construction Tool ==
 
-== Generated taxonomy ==
+== Generated Taxonomic Ontology ==
 
 This taxonomy covers vertebrates and was built by starting with the NCBI taxonomy for vertebrates and splicing in TTO (except hagfish),
