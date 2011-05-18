@@ -37,3 +37,8 @@ The tool source is available at [https://github.com/NESCent/Taxonomy-Ontology-To
 == Generated Taxonomic Ontology ==
 
 This taxonomy covers vertebrates and was built by starting with the NCBI taxonomy for vertebrates and splicing in TTO (except hagfish), ATO, and the IOC taxonomy of living birds.  Synonyms from ITIS and Catalog of Life were attached if the primary name matched a name in the existing taxonomy.  Subspecies names were added to their parent species as synonyms (not subclasses).  The taxonomy is currently in the OBO format used for TTO and ATO, which includes the use of the Taxonomic Rank Vocabulary to tag taxa with specified rank.  The version generated for the NESCent-sponsored Visual Systems Working Group is at ??.
+
+
+== TTOUpdate ==
+
+This tool is used to merge an existing TTO with a Catalog of Fishes update file, which will consist either of a single Microsoft Access database or three Excel (2003) files (one each for lineages, genera, and species).  Do not use CSV or tab-delimited text files as the free-text comments, which include extractable synonyms, contain commas, tabs and line breaks, so rendering the common text formats unusable.  TTO update includes libraries for reading the pre-2007 Excel formats which properly handle the various breaking characters.
