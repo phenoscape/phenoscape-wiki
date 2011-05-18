@@ -32,4 +32,4 @@ Wilson and Reader (1993) is the standard, but the available electronic version o
 
 == Generated Taxonomic Ontology ==
 
-This taxonomy covers vertebrates and was built by starting with the NCBI taxonomy for vertebrates and splicing in TTO (except hagfish),
+This taxonomy covers vertebrates and was built by starting with the NCBI taxonomy for vertebrates and splicing in TTO (except hagfish), ATO, and the IOC taxonomy of living birds.  Synonyms from ITIS and Catalog of Life were attached if the primary name matched a name in the existing taxonomy.  Subspecies names were added to their parent species as synonyms (not subclasses).  The taxonomy is currently in the OBO format used for TTO and ATO, which includes the use of the Taxonomic Rank Vocabulary to tag taxa with specified rank.  The version generated for the NESCent-sponsored Visual Systems Working Group is at ??.
