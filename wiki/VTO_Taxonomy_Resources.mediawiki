@@ -2,11 +2,11 @@
 title: VTO Taxonomy Resources
 ---
 
-== Resources for Constructing a Vertebrate Taxonomy Ontology ==
+=Resources for Constructing a Vertebrate Taxonomy Ontology =
 
 There are two types of resources useful for building taxonomic ontologies: taxonomic resources which provide hierarchy and nomenclature resources which provide information about names.  Both types of resources are used in taxonomic ontologies and listed here.
 
-=== Fish ===
+== Fish ==
 
 The TTO is derived from the catalog of fishes, which provides some taxonomy information and a great deal of nomenclature in the form of synonyms.  It is updated several times a year and TTO should be rebuilt by requesting the appropriate files from Stan Blum.
 
@@ -14,10 +14,22 @@ The TTO also incorporates some common names from Fishbase and cross references (
 
 Information for extinct taxa has been added as needed by curation, and the taxonomy is, as a rule, from the curated publication.
 
-=== Amphibians ===
+== Amphibians ==
 
 The ATO is derived from the AmphibiaWeb list, which provides both taxonomy and some synonyms from ITIS and ???.
 
-=== Non-avian Diapsids (aka Reptiles) ===
+== Birds ==
 
-Although ??? provides
+IOU checklist provides a current taxonomy and some common names, but no taxonomic synonyms.
+
+== Mammals ==
+
+Wilson and Reader (1993) is the standard, but the available electronic version of their taxonomy is IP encumbered. NCBI and/or ITIS may be the best starting point.
+
+= Tools =
+
+= VTO construction tool =
+
+== Generated taxonomy ==
+
+This taxonomy covers vertebrates and was built by starting with the NCBI taxonomy for vertebrates and splicing in TTO (except hagfish),
