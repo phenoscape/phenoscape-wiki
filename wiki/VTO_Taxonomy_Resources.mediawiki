@@ -29,9 +29,9 @@ Wilson and Reader (1993) is the standard, but the available electronic version o
 
 === All Vertebrates ===
 
-*[http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/ NCBI] This was used to fill in the gaps (non-avian amniotes) in the current proposed VTO. This provides taxonomy for genbank submissions (including fossil taxa), but does not claim to be an authoritative source.
+*[http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/ NCBI] This was used to fill in the gaps (non-avian amniotes) in the current proposed VTO. This provides taxonomy for GenBank submissions (including fossil taxa), but does not claim to be an authoritative source (and generally doesn't cover taxa that have not been submitted).
 
-*[http://www.itis.gov/ ITIS] 
+*[http://www.itis.gov/ ITIS] Claims to be authoritative, but coverage is not complete (nor uncontroversial).
 
 == Nomenclature Resources ==
 
