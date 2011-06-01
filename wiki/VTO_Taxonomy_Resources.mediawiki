@@ -17,7 +17,7 @@ Information for extinct taxa has been added as needed by curation, and the taxon
 
 === Amphibians ===
 
-The ATO is derived from the AmphibiaWeb list, which provides both taxonomy and some synonyms from ITIS and the ICN redlist.
+The ATO is derived from the [http://amphibiaweb.org/ AmphibiaWeb] list, which provides both taxonomy and some synonyms from ITIS and the [http://www.iucnredlist.org/initiatives/amphibians IUCN redlist].
 
 === Birds ===
 
