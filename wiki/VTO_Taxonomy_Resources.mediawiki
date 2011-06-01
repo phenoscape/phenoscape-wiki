@@ -6,6 +6,7 @@ title: VTO Taxonomy Resources
 
 There are two types of resources useful for building taxonomic ontologies: taxonomic resources which provide hierarchy and nomenclature resources which provide information about names.  Both types of resources are used in taxonomic ontologies and listed here.
 
+== Taxonomic Resources ==
 == Fish ==
 
 The TTO is derived from the catalog of fishes, which provides some taxonomy information and a great deal of nomenclature in the form of synonyms.  It is updated several times a year and TTO should be rebuilt by requesting the appropriate files from Stan Blum.
@@ -16,7 +17,7 @@ Information for extinct taxa has been added as needed by curation, and the taxon
 
 == Amphibians ==
 
-The ATO is derived from the AmphibiaWeb list, which provides both taxonomy and some synonyms from ITIS and ???.
+The ATO is derived from the AmphibiaWeb list, which provides both taxonomy and some synonyms from ITIS and the ICN redlist.
 
 == Birds ==
 
@@ -25,6 +26,19 @@ IOU checklist provides a current taxonomy and some common names, but no taxonomi
 == Mammals ==
 
 Wilson and Reader (1993) is the standard, but the available electronic version of their taxonomy is IP encumbered. NCBI and/or ITIS may be the best starting point.
+
+== All Vertebrates ==
+
+*NCBI  This was used to fill in the gaps (non-avian amniotes) in the current proposed VTO.
+
+*ITIS
+
+== Nomenclature Resources ==
+
+These can provide links to additional synonyms and resources (e.g., TTO uses fishbase to provide common names and links to their pages).
+
+* Fishbase - their taxonomy is close to TTO (both based on Catalog of Fishes), but TTO uses it strictly as a name resource.
+* GNI (global names index)
 
 = Tools =
 
