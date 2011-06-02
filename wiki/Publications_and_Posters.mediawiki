@@ -13,6 +13,9 @@ title: Publications and Posters
 
 ==Posters & Presentations==
 ===2011===
+
+<u>Hilmar Lapp</u> (2011) [[Media:UF Seminar Mar2011 HL.pdf| Reasoning over phenotype diversity, character change, and evolutionary descent]]. Invited seminar at University of Florida, March 1, 2011.
+
 <u>James P. Balhoff</u> (2011) [http://www.iscb.org/cshals2011-program/cshals2011-full-agenda Conference on Semantics in Healthcare and Life Sciences], Cambridge, MA, "The Phenoscape Knowledgebase: Linking Evolutionary Diversity to Genetic Data Using Phenotype Ontologies" February 24, 2011.
 
 ===2010===
