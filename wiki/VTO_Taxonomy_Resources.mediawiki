@@ -21,7 +21,7 @@ The ATO is derived from the [http://amphibiaweb.org/ AmphibiaWeb] list, which pr
 
 === Birds ===
 
-The [http://www.worldbirdnames.org/index.html IOU checklist] provides a current taxonomy and common names, but no taxonomic synonyms.
+The [http://www.worldbirdnames.org/index.html IOC checklist] provides a current taxonomy and common names, but no taxonomic synonyms.
 
 === Mammals ===
 
