@@ -2,8 +2,6 @@
 title: Phenoscape data policy
 ---
 
-This is a draft of the Phenoscape Data Policy, which applies to both submitters and users.
-
 '''PhenoscapeKB Data Policy'''
 version 5.12.09
 
