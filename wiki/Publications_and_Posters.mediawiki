@@ -16,9 +16,25 @@ title: Publications and Posters
 
 <u>Hilmar Lapp</u> (2011) [[Media:UF Seminar Mar2011 HL.pdf| Reasoning over phenotype diversity, character change, and evolutionary descent]]. Invited seminar at University of Florida, March 1, 2011.
 
+James Balhoff, Wasila Dahdul, Hilmar Lapp, Peter Midford, Todd Vision, Monte Westerfield and Paula Mabee (2011) Poster; "Employing reasoning within the Phenoscape Knowledgebase", International Conference on Biomedical Ontology; University at Buffalo, NY, July 26-30, 2011
+
+Wasila Dahdul, James Balhoff, Hilmar Lapp, Peter Midford, Todd Vision, Monte Westerfield and Paula Mabee; (2001) Presentation; "Phenoscape: use cases and anatomy ontology requirements for linking evolutionary and model organism phenotypes", ICBO workshop: From fins to limbs to leaves: Facilitating anatomy ontology interoperability; International Conference on Biomedical Ontology; University at Buffalo, NY; Poster, July 26-30, 2011
+
+James P. Balhoff, Peter E. Midford, Hilmar Lapp (2011) International Conference on Biomedical Ontology, Buffalo, NY, "Integrating anatomy and phenotype ontologies with taxonomic hierarchies", July 2011.
 <u>James P. Balhoff</u> (2011) [http://www.iscb.org/cshals2011-program/cshals2011-full-agenda Conference on Semantics in Healthcare and Life Sciences], Cambridge, MA, "The Phenoscape Knowledgebase: Linking Evolutionary Diversity to Genetic Data Using Phenotype Ontologies" February 24, 2011.
 
+<u>Richard.C.Edmunds</u> (2011) Northwest Developmental Biology Meeting, Society for Developmental Biology, Friday Harbor, WA "Using Phenoscape to Uncover the Genetic Basis of Evolutionary Phenotypes" March 17, 2011.
+
+Monte Westerfield (2011) Phenotype Ontology Project Meeting, Berlin, "Update on Phenoscape", Germany, February 11-14, 2011.
+
 ===2010===
+
+James P. Balhoff (2010) iEvoBio Conference, Portland, OR,  "Phenex: Ontological Annotation of Phenotypic Diversity", June 29, 2010
+
+Monte Westerfield (2010) Vertebrate Anatomy Workshop, Hinxton, UK, "Anatomy Representation in Phenoscape", June 25-29, 2010.
+
+<u>Richard.C.Edmunds</u> (2010) Joint Meeting of Ichthyologists and Herpetologists, American Society of Ichthyology and Herpetology, Providence, RI, "Using Phenoscape to Uncover the Genetic Basis of Evolutionary Phenotypes" July 10, 2010.
+
 <u>Hilmar Lapp</u> (2010) [http://www.bioontology.org/phenoscape Bringing reason to phenotype diversity, character change, and common descent], Webex recording of NCBO Webinar, November 17, 2010.
 
 <u>Paula Mabee </u> (2010) Hymenoptera Anatomy Ontology meeting, Raleigh, NC, "Phenoscape: Integration with ontologies" October 16, 2010.
