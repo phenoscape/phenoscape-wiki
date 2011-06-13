@@ -18,6 +18,13 @@ The [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (
 * Browse [http://bioportal.bioontology.org/visualize/38362 TAO at BioPortal]
 * Download TAO from [http://bioportal.bioontology.org/ontologies/39222 Bioportal] or [http://www.obofoundry.org/ OBO Foundry] (use [http://oboedit.org/ OBO Edit] desktop software to open and view .obo file).
 
+=== Vertebrate Anatomy Ontology ===
+
+Release Schedule and Features
+[version X; Target Release Date: Late August 2011]
+- Add skeletal terms (limb/fin, cranial skeleton) applicable at the vertebrate level from the Phenotype RCN Vertebrate Working Group
+- Import GO, PATO, Cell terms by MIREOT
+
 == Taxonomy Ontologies ==
 === Teleost Taxonomy Ontology ===
 
