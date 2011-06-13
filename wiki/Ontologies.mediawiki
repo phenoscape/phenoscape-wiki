@@ -12,26 +12,26 @@ These ontologies will keep changing to accommodate our community needs, and they
 
 == Anatomy Ontologies ==
 
-
 === Vertebrate Anatomy Ontology ===
 
 ====Release Schedule and Features====
 '''Version X, Target release date: Late August 2011'''
 
-- New skeletal terms for the limb/fin and cranial skeleton will be added based on work done at the Phenotype RCN Vertebrate Working Group meeting.
-
-- Terms from external ontologies (GO, PATO, Cell) will be imported by MIREOT
-
-- New term request page at Sourceforge will be set up
+* New skeletal terms for the limb/fin and cranial skeleton will be added based on work done at the Phenotype RCN Vertebrate Working Group meeting.
+* Terms from external ontologies (GO, PATO, Cell) will be imported by MIREOT
+* New term request page at Sourceforge will be set up
 
 ===Amniote Anatomy Ontology===
 '''Version X, Target release date: Late August 2011'''
 
-- VAO terms will be imported
+* VAO terms will be imported
+* Taxon restrictions for chick terms will be implemented
+* All terms will be defined
 
-- Taxon restrictions for chick terms will be implemented
+=== Amphibian Anatomy Ontology ===
+'''Version X, Target release date: July 2011'''
 
-- All terms will be defined
+* Terms currently under “unclassified anatomical entity” will be given is_a parents
 
 === Teleost Anatomy Ontology ===
 
@@ -42,7 +42,7 @@ The [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (
 
 '''Version X, Target release date: Late August 2011'''
 
-- High-level skeletal terms from VAO will be imported into TAO with the next release
+* High-level skeletal terms from VAO will be imported into TAO with the next release
 
 == Taxonomy Ontologies ==
 === Teleost Taxonomy Ontology ===
