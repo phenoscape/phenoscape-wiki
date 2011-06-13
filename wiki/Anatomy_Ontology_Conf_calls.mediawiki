@@ -22,3 +22,18 @@ Participating: Monte Westerfield, Paula Mabee, Judy Blake, Aaron Zorn, Jeff Bowe
 ** Discussion on setting up modular ontology model and specifics of importing model species-specific information (like devo stage)
 
 ===Minutes===
+* Wasila will demonstrate diffs between Uberon and MA usingnon-skeletal terms
+** e.g. 'naris' in mouse is 'part of nose'
+** e.g. 'naris' in uberon with lots of xrefs but missing relationship 'part of' olfactory apparatus 
+* not sure how often Chris updates Uberon
+
+
+* Judy:  
+** Discussion on how to initiate the Amniote Anatomy Ontology for terms outside skeletal system  
+** Report on status of unified anatomy [emap + MA] 
+** What exactly is abstract mouse?
+** Clone MA, UBERON, unified mouse [emap + MA], or abstract mouse? 
+* Monte: 
+** Discussion on moving ZFA to GO like model; possibility of implementing VAO import (so that XAO can just clone this VAO chunk when they also clone the rest of ZFA)
+* Aaron and Jeff: 
+** Discussion on setting up modular ontology model and specifics of importing model species-specific information (like devo stage)
