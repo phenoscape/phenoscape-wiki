@@ -6,8 +6,10 @@ title: Anatomy Ontology Conf calls
 <!--1-213-289-0500, Access Code: 279610-->
 * Adobe Connect: http://dukeuniversity.acrobat.com/phenoscape
 
-=2011=
+
 == June 13, 2011 ==
+Participating: Monte Westerfield, Paula Mabee, Judy Blake, Aaron Zorn, Jeff Bowes, Wasila Dahdul, Jim Balhoff
+
 ===Agenda===
 * Judy:  
 ** Discussion on how to initiate the Amniote Anatomy Ontology for terms outside skeletal system  
