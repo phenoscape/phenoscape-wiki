@@ -51,9 +51,17 @@ Participating: Monte Westerfield, Paula Mabee, Judy Blake, Aaron Zorn, Jeff Bowe
 * Wasila: Yes, go up to next higher level ontology.
 * Jeff: Given current architecture, not hard to do.  However concerns about changing higher level terms and effects on lower level terms. 
 * Monte: talked about how zfin does with go currently - via diffs list - not overly onerous - but have to have sop - can run checks on reasoning, but human will have to fix a couple of things
-* 
-
-
- Discussion on moving ZFA to GO like model; possibility of implementing VAO import (so that XAO can just clone this VAO chunk when they also clone the rest of ZFA)
-* Aaron and Jeff: 
-** Discussion on setting up modular ontology model and specifics of importing model species-specific information (like devo stage)
+* Judy - -yes
+* Aaron: VAO not complete for all organ systems....how does this work?
+* Jeff: This is ok -- for terms that exist in VAO, we can show as inherited.
+* Jeff: Development not taken into account in higher-level ontologies. Have to have a way to associate development with terms.  Just show which terms are inherited and maintain just as we do now.
+* Aaron: Will clone vao and zfa terms and keep xrefs.  When we transition to other system, can track what we are importing.  
+** In short term, clone vao terms into xao - ok?  
+* Short term goal: Add xrefs to VAO to ZFA, XAO, MA
+* Judy: weekly meeting to sort out what is happening in these anatomies?
+* Wasila: yes, it would be useful
+* Aaron: jamboree approach -- 
+* Judy: Even a 1/2 hour check up
+* Wasila: Even a open weekly call
+* Judy: open up wiki for agenda building and notes
+* Aaron re: data jam: 22 Aug-26 Aug; Erik S for 5 days
