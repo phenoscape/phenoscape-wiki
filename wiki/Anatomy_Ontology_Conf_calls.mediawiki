@@ -43,7 +43,15 @@ Participating: Monte Westerfield, Paula Mabee, Judy Blake, Aaron Zorn, Jeff Bowe
 
 * Monte: 
 **Need to improve ways of synchronizing zfish ontology with vao, uberon, etc.  Met with db admins etc. to discuss future re: ontologies and new mechanism to stay in synch.  Potential problem is that lead curator out on maternity leave, so people he discussed it with not necessarily in charge, but they understood basic issue.  Charge to the zfin group (from Monte) is to write up plan and potential problems.  Briefly -- problem how to grow two ontologies grow in synch.  Big concern that curators have is if they become dependent on outside group such as Phenoscape, there could be changes made without consideration for the implications of zfin.  Also, term request brokerage rights need to be grant to zfin.  Need to work out sop for how updates are made.  
-** Concern how we represent developmental staging.  Start and stop times in same db table.  
+** Concern how we represent developmental staging.  Start and stop times in same db table.  If bringing in terms from outside resource, will break the devo and it will have to be moved to an outside table.  This has implications for xao.  If xao is dependent on zfin, this will take some time.  
+* Aaron: best way to go is to clone zfa.  Have to develop ways to import VAO.  
+* Jeff: Inheritance structure?
+* Wasila: Yes, direct links
+* Jeff: inheritance from next highest ontology? correct?
+* Wasila: Yes, go up to next higher level ontology.
+* Jeff: Given current architecture, not hard to do.  However concerns about changing higher level terms and effects on lower level terms. 
+* Monte: talked about how zfin does with go currently - via diffs list - not overly onerous - but have to have sop - can run checks on reasoning, but human will have to fix a couple of things
+* 
 
 
  Discussion on moving ZFA to GO like model; possibility of implementing VAO import (so that XAO can just clone this VAO chunk when they also clone the rest of ZFA)
