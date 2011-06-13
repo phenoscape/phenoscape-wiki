@@ -35,7 +35,11 @@ Participating: Monte Westerfield, Paula Mabee, Judy Blake, Aaron Zorn, Jeff Bowe
 ** Wasila - use mouse
 ** Judy -- start with MA, great place to start.  Talk with Chris to see where he last updated and worked with it.  
 ** Terry -- Uberon - made an effort to take into consideration only things that are shared - not less valuable for it; structurally less consistent than mouse; mouse is lacking becuase of roots in ed anatomy and purpose for expression -- so the high level structure is a partonomy; first level division into regions, then into organ systems, etc.  Need to think about primary goals of new ontology.  Where along tree does it no longer serve amniotes or chickens?  
-** 
+** Some avian terms are already in uberon -- use mixed approach.  Also uberon follows more of a is_a approach; 
+** MA, Uberon, VAO, AmAO are all separate right now; good documentation of proposed changes; 
+* Judy: suggestion -- all work together on one aspect at a time - start with limb/fin
+* Terry: Historically for MA, when significant changes made, to a section in response to some input; not a constant stream of changes; structurally and in terms of big picture, not changes often.  Need to do in coordination. 
+* Wasila: Conclude -- need mixed approach
 
 * Monte: 
 ** Discussion on moving ZFA to GO like model; possibility of implementing VAO import (so that XAO can just clone this VAO chunk when they also clone the rest of ZFA)
