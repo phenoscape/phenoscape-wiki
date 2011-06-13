@@ -10,8 +10,8 @@ Phenoscape has developed ontologies that are required for the annotation of evol
 
 These ontologies will keep changing to accommodate our community needs, and they have been admitted into the OBO CVS-based version-control system, from where the NCBO's BioPortal loads and updates ontologies on a regular basis.  Ontologies available at the BioPortal can be browsed, searched, and visualized at the NCBO BioPortal. Ontologies are also available for download as .obo files from the [http://bioportal.bioontology.org/ BioPortal] or [http://www.obofoundry.org/ OBO Foundry], and viewed using the [http://oboedit.org/ OBO-Edit] desktop software.
 
-== Anatomy Ontologies Release Schedules and Features ==
-
+== Anatomy Ontologies - Release Schedules and Features ==
+[[WG:Anatomy_Ontology_Conf_calls | Conference call minutes ]]
 
 ==== Vertebrate Anatomy Ontology ====
 '''Version X, Target release date: Late August 2011'''
