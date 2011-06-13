@@ -10,6 +10,14 @@ Phenoscape has developed ontologies that are required for the annotation of evol
 
 These ontologies will keep changing to accommodate our community needs, and they have been admitted into the OBO CVS-based version-control system, from where the NCBO's BioPortal loads and updates ontologies on a regular basis.  Both [http://bioportal.bioontology.org/visualize/38362 TAO] and [http://bioportal.bioontology.org/visualize/38363 TTO] can be browsed, searched, and visualized at the NCBO BioPortal. Ontologies are also available for download as .obo files from the [http://bioportal.bioontology.org/ BioPortal] or [http://www.obofoundry.org/ OBO Foundry], and viewed using the [http://oboedit.org/ OBO-Edit] desktop software.
 
+=== Teleost Anatomy Ontology ===
+
+The [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (TAO)] is a multi-species ontology that was initialized with the terms in the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology. Details about the development of the TAO can be found [[Teleost Anatomy Ontology | here]].
+
+* Browse [http://bioportal.bioontology.org/visualize/38362 TAO at BioPortal]
+* Download TAO from [http://bioportal.bioontology.org/ontologies/39222 Bioportal] or [http://www.obofoundry.org/ OBO Foundry] (use [http://oboedit.org/ OBO Edit] desktop software to open and view .obo file).
+
+
 === Teleost Taxonomy Ontology ===
 
 Phenotypes are associated with species using a taxonomy ontology, the [[Teleost Taxonomy Ontology]] (TTO) derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes] (see also the [http://bioportal.bioontology.org/visualize/38363 representation on BioPortal], which can be navigated on-line). The TTO is updated in concert with Catalog of Fishes updates.  Changes to the TTO relative to the latest version generated from a dump from the Catalog of Fishes are documented [[TTO_Changes]].
@@ -26,15 +34,6 @@ Additional documentation:
 
 * Browse [http://bioportal.bioontology.org/ontologies/38703 TTO at BioPortal]
 * Download TTO from [http://bioportal.bioontology.org/visualize/38703 Bioportal] or [http://www.obofoundry.org/ OBO Foundry] (use [http://oboedit.org/ OBO Edit] desktop software to open and view .obo file).
-
-=== Teleost Anatomy Ontology ===
-
-The [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (TAO)] is a multi-species ontology that was initialized with the terms in the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology. Details about the development of the TAO can be found [[Teleost Anatomy Ontology | here]].
-
-* Browse [http://bioportal.bioontology.org/visualize/38362 TAO at BioPortal]
-* Download TAO from [http://bioportal.bioontology.org/ontologies/39222 Bioportal] or [http://www.obofoundry.org/ OBO Foundry] (use [http://oboedit.org/ OBO Edit] desktop software to open and view .obo file).
-
-
 
 === Fish Collection Codes Ontology ===
 
