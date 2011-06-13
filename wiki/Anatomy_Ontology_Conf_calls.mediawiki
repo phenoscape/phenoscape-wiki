@@ -42,6 +42,10 @@ Participating: Monte Westerfield, Paula Mabee, Judy Blake, Aaron Zorn, Jeff Bowe
 * Wasila: Conclude -- need mixed approach
 
 * Monte: 
-** Discussion on moving ZFA to GO like model; possibility of implementing VAO import (so that XAO can just clone this VAO chunk when they also clone the rest of ZFA)
+**Need to improve ways of synchronizing zfish ontology with vao, uberon, etc.  Met with db admins etc. to discuss future re: ontologies and new mechanism to stay in synch.  Potential problem is that lead curator out on maternity leave, so people he discussed it with not necessarily in charge, but they understood basic issue.  Charge to the zfin group (from Monte) is to write up plan and potential problems.  Briefly -- problem how to grow two ontologies grow in synch.  Big concern that curators have is if they become dependent on outside group such as Phenoscape, there could be changes made without consideration for the implications of zfin.  Also, term request brokerage rights need to be grant to zfin.  Need to work out sop for how updates are made.  
+** Concern how we represent developmental staging.  Start and stop times in same db table.  
+
+
+ Discussion on moving ZFA to GO like model; possibility of implementing VAO import (so that XAO can just clone this VAO chunk when they also clone the rest of ZFA)
 * Aaron and Jeff: 
 ** Discussion on setting up modular ontology model and specifics of importing model species-specific information (like devo stage)
