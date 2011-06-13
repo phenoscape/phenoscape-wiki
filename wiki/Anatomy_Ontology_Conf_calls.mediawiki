@@ -20,3 +20,5 @@ Participating: Monte Westerfield, Paula Mabee, Judy Blake, Aaron Zorn, Jeff Bowe
 ** Discussion on moving ZFA to GO like model; possibility of implementing VAO import (so that XAO can just clone this VAO chunk when they also clone the rest of ZFA)
 * Aaron and Jeff: 
 ** Discussion on setting up modular ontology model and specifics of importing model species-specific information (like devo stage)
+
+===Minutes===
