@@ -23,9 +23,19 @@ The [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (
 ====Release Schedule and Features====
 [version X; Target Release Date: Late August 2011]
 
-- Add skeletal terms (limb/fin, cranial skeleton) applicable at the vertebrate level from the Phenotype RCN Vertebrate Working Group
+- Addition of skeletal terms (limb/fin, cranial skeleton) applicable at the vertebrate level from the Phenotype RCN Vertebrate Working Group
 
 - Import GO, PATO, Cell terms by MIREOT
+
+===Amniote Anatomy Ontology===
+
+[initial version; Target release date: Late August 2011]
+
+- Import VAO terms
+
+- Taxon restrictions for chick terms
+
+- All terms defined
 
 == Taxonomy Ontologies ==
 === Teleost Taxonomy Ontology ===
