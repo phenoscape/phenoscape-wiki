@@ -1,0 +1,20 @@
+---
+title: Anatomy Ontology Conf calls
+---
+
+* Dial-in Number:  800.505.4464, participant passcode 784002#
+<!--1-213-289-0500, Access Code: 279610-->
+* Adobe Connect: http://dukeuniversity.acrobat.com/phenoscape
+
+=2011=
+== June 13, 2011 ==
+===Agenda===
+* Judy:  
+** Discussion on how to initiate the Amniote Anatomy Ontology for terms outside skeletal system  
+** Report on status of unified anatomy [emap + MA] 
+** What exactly is abstract mouse?
+** Clone MA, UBERON, unified mouse [emap + MA], or abstract mouse? 
+* Monte: 
+** Discussion on moving ZFA to GO like model; possibility of implementing VAO import (so that XAO can just clone this VAO chunk when they also clone the rest of ZFA)
+* Aaron and Jeff: 
+** Discussion on setting up modular ontology model and specifics of importing model species-specific information (like devo stage)
