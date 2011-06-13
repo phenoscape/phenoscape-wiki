@@ -10,30 +10,29 @@ Phenoscape has developed ontologies that are required for the annotation of evol
 
 These ontologies will keep changing to accommodate our community needs, and they have been admitted into the OBO CVS-based version-control system, from where the NCBO's BioPortal loads and updates ontologies on a regular basis.  Ontologies available at the BioPortal can be browsed, searched, and visualized at the NCBO BioPortal. Ontologies are also available for download as .obo files from the [http://bioportal.bioontology.org/ BioPortal] or [http://www.obofoundry.org/ OBO Foundry], and viewed using the [http://oboedit.org/ OBO-Edit] desktop software.
 
-== Anatomy Ontologies ==
+== Anatomy Ontologies Release Schedules and Features ==
 
-=== Vertebrate Anatomy Ontology ===
 
-====Release Schedule and Features====
+==== Vertebrate Anatomy Ontology ====
 '''Version X, Target release date: Late August 2011'''
 
 * New skeletal terms for the limb/fin and cranial skeleton will be added based on work done at the Phenotype RCN Vertebrate Working Group meeting.
 * Terms from external ontologies (GO, PATO, Cell) will be imported by MIREOT
 * New term request page at Sourceforge will be set up
 
-===Amniote Anatomy Ontology===
+====Amniote Anatomy Ontology====
 '''Version X, Target release date: Late August 2011'''
 
 * VAO terms will be imported
 * Taxon restrictions for chick terms will be implemented
 * All terms will be defined
 
-=== Amphibian Anatomy Ontology ===
+==== Amphibian Anatomy Ontology ====
 '''Version X, Target release date: July 2011'''
 
 * Terms currently under “unclassified anatomical entity” will be given is_a parents
 
-=== Teleost Anatomy Ontology ===
+==== Teleost Anatomy Ontology ====
 
 The [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (TAO)] is a multi-species ontology that was initialized with terms from the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across fishes, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology. Details about the development of the TAO can be found [[Teleost Anatomy Ontology | here]].
 
