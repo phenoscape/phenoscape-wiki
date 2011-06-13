@@ -25,7 +25,12 @@ Participating: Monte Westerfield, Paula Mabee, Judy Blake, Aaron Zorn, Jeff Bowe
 * Wasila will demonstrate diffs between Uberon and MA usingnon-skeletal terms
 ** e.g. 'naris' in mouse is 'part of nose'
 ** e.g. 'naris' in uberon with lots of xrefs but missing relationship 'part of' olfactory apparatus 
-* not sure how often Chris updates Uberon
+** not sure how often Chris updates Uberon
+*Terry - developed adult Mouse Anatomy; working with Edinburgh group to update their ontology
+** 'unified mouse anatomy' not an official term, just a descriptor
+** Ed. developmental mouse anatomy developed 15 years ago in an effort to code mouse expressiondata.  Built along lines of an atlas by kauffman and baird; partonomy; Used for expression annotation by ... for years now.  Two parts: abstract mouse which is a time -inedpent collection of terms in a hierarhy not a dag; and from that extracted stage-dependent hierarchies.  stage 28 is postnatal -- this is not developed at all.  8-10 years ago, a postnatal developed by jax.  jax added is-a and expanded on stages.  Examined all relevant ontologies in updating.  Two entities (MA vs. developmental) not connected currently -- working to make it an anatomy ontology encompassing the whole of mouse development.  
+** Q: re: timeline?  Terry:  within next two weeks could give clearer answer. 
+
 
 
 * Judy:  
