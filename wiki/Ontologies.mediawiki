@@ -18,7 +18,7 @@ The [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (
 * Browse [http://bioportal.bioontology.org/visualize/38362 TAO at BioPortal]
 * Download TAO from [http://bioportal.bioontology.org/ontologies/39222 Bioportal] or [http://www.obofoundry.org/ OBO Foundry] (use [http://oboedit.org/ OBO Edit] desktop software to open and view .obo file).
 
-
+== Taxonomy Ontologies ==
 === Teleost Taxonomy Ontology ===
 
 Phenotypes are associated with species using a taxonomy ontology, the [[Teleost Taxonomy Ontology]] (TTO) derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes] (see also the [http://bioportal.bioontology.org/visualize/38363 representation on BioPortal], which can be navigated on-line). The TTO is updated in concert with Catalog of Fishes updates.  Changes to the TTO relative to the latest version generated from a dump from the Catalog of Fishes are documented [[TTO_Changes]].
