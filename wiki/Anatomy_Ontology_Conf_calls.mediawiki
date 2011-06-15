@@ -22,6 +22,10 @@ Participating: Monte Westerfield, Paula Mabee, Judy Blake, Aaron Zorn, Jeff Bowe
 ** Discussion on setting up modular ontology model and specifics of importing model species-specific information (like devo stage)
 
 ===Minutes===
+* Action items resulting from call:
+
+** Charge to the zfin group (from Monte) is to write up plan and potential problems
+
 * Wasila will demonstrate diffs between Uberon and MA using non-skeletal terms
 ** e.g. 'naris' in mouse is 'part of nose'
 ** e.g. 'naris' in uberon with lots of xrefs but missing relationship 'part of' olfactory apparatus 
