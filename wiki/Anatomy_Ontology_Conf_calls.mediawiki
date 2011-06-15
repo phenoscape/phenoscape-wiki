@@ -27,6 +27,7 @@ Participating: Monte Westerfield, Paula Mabee, Judy Blake, Aaron Zorn, Jeff Bowe
 * Short term goal: Add xrefs to VAO to ZFA, XAO, MA
 * Wasila: Schedule weekly meeting to sort out what is happening in these AOs, beginning in July
 * Judy: Will send Jim contact for Amelia Ireland for diff
+* Wasila: give VAO write access to other groups
 
 ===Minutes===
 
