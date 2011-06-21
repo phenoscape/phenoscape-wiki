@@ -31,7 +31,7 @@ The software source code is in part being contributed back directly to a variety
 ** Code checkout: <code>git clone git://phenex.git.sourceforge.net/gitroot/phenex/phenex</code>
 * Database and database loading:
 ** [http://obo.svn.sourceforge.net/viewvc/obo/OBDAPI/trunk/scripts Browse source]
-** Code check out: <code>svn co https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk/scripts</code>
+** Code check out: <code>svn co https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk</code>
 * Data services and middleware:
 ** Data model and database access API (OBD-API):
 *** [http://obo.svn.sourceforge.net/viewvc/obo/OBDAPI/trunk Browse source]
