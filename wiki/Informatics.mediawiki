@@ -37,11 +37,11 @@ The software source code is in part being contributed back directly to a variety
 *** [http://obo.svn.sourceforge.net/viewvc/obo/OBDAPI/trunk Browse source]
 *** Code check out: <code>svn co https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk</code>
 ** Web-services (OBD-WS):
-*** [http://obo.svn.sourceforge.net/viewvc/obo/OBD-WS/trunk/ Browse source]
+*** [https://github.com/phenoscape/PhenoscapeOBD-WS Browse source]
 *** Code checkout: <code>svn co https://obo.svn.sourceforge.net/svnroot/obo/OBD-WS/trunk</code>
 * Web-based user interface ([http://kb.phenoscape.org Knowledge Base]):
 ** [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/PhenoscapeWeb/ Browse source]
-** Code checkout: <code>svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/PhenoscapeWeb</code>
+** Code checkout: <code>git clone git://github.com/phenoscape/PhenoscapeOBD-WS.git</code>
 * Ontology conversion and management:
 ** TTOUpdate
 *** [http://obo.svn.sourceforge.net/viewvc/phenoscape/trunk/tools/TTOUpdate Browse source]
