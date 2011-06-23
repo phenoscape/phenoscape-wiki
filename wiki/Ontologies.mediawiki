@@ -20,7 +20,7 @@ Phenoscape is coordinating the integration of anatomy ontologies for vertebrates
 
 * Vertebrate anatomy list email: [mailto:obo-vertebrate-anatomy@lists.sourceforge.net obo-vertebrate-anatomy@lists.sourceforge.net]
 
-Notes from conference calls for anatomy ontology coordination are [[WG:Anatomy_Ontology_Conf_calls | available here]].
+[[WG:Anatomy_Ontology_Conf_calls | Notes from conference calls ]] for anatomy ontology coordination are maintained in the project intranet. 
 
 === Release Schedules and Features ===
 
