@@ -12,7 +12,7 @@ These ontologies will keep changing to accommodate our community needs, and they
 
 == Anatomy Ontologies ==
 
-Phenoscape is coordinating the integration of anatomy ontologies for vertebrates. Ontology update requests are made on the Vertebrate Anatomy term request tracker, and requests are forwarded to the vertebrate anatomy mailing list.  Links to the term request and mailing list subscription page are below:
+Phenoscape is coordinating the integration of model organism and multi-species (see below) anatomy ontologies for vertebrates. Ontology update requests are made on the Vertebrate Anatomy term request tracker, and requests are forwarded to the vertebrate anatomy mailing list.  Links to the term request and mailing list subscription page are below:
 
 * [https://sourceforge.net/tracker/?group_id=76834&atid=2257941 Vertebrate anatomy term request page] (requests are forwarded to the mailing list):
 
