@@ -14,21 +14,21 @@ These ontologies will keep changing to accommodate our community needs, and they
 [[WG:Anatomy_Ontology_Conf_calls | Conference call minutes ]]
 
 ==== Vertebrate Anatomy Ontology ====
-'''Version X, Target release date: Late August 2011'''
+'''Next target release date: Late August 2011'''
 
 * New skeletal terms for the limb/fin and cranial skeleton will be added based on work done at the Phenotype RCN Vertebrate Working Group meeting.
 * Terms from external ontologies (GO, PATO, Cell) will be imported by MIREOT
 * New term request page at Sourceforge will be set up
 
 ====Amniote Anatomy Ontology====
-'''Version X, Target release date: Late August 2011'''
+'''Next target release date: Late August 2011'''
 
 * VAO terms will be imported
 * Taxon restrictions for chick terms will be implemented
 * All terms will be defined
 
 ==== Amphibian Anatomy Ontology ====
-'''Version X, Target release date: July 2011'''
+'''Next target release date: July 2011'''
 
 * Terms currently under “unclassified anatomical entity” will be given is_a parents
 
@@ -39,7 +39,7 @@ The [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (
 * Browse [http://bioportal.bioontology.org/visualize/38362 TAO at BioPortal]
 * Download TAO from [http://bioportal.bioontology.org/ontologies/39222 Bioportal] or [http://www.obofoundry.org/ OBO Foundry] (use [http://oboedit.org/ OBO Edit] desktop software to open and view .obo file).
 
-'''Version X, Target release date: Late August 2011'''
+'''Next target release date: Late August 2011'''
 
 * High-level skeletal terms from VAO will be imported into TAO with the next release
 
