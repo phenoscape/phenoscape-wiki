@@ -10,8 +10,20 @@ Phenoscape has developed ontologies that are required for the annotation of evol
 
 These ontologies will keep changing to accommodate our community needs, and they have been admitted into the OBO CVS-based version-control system, from where the NCBO's BioPortal loads and updates ontologies on a regular basis.  Ontologies available at the BioPortal can be browsed, searched, and visualized at the NCBO BioPortal. Ontologies are also available for download as .obo files from the [http://bioportal.bioontology.org/ BioPortal] or [http://www.obofoundry.org/ OBO Foundry], and viewed using the [http://oboedit.org/ OBO-Edit] desktop software.
 
-== Anatomy Ontologies - Release Schedules and Features ==
-[[WG:Anatomy_Ontology_Conf_calls | Conference call minutes ]]
+== Anatomy Ontologies ==
+
+Phenoscape is coordinating the integration of anatomy ontologies for vertebrates. Ontology update requests are made on the Vertebrate Anatomy term request tracker, and requests are forwarded to the vertebrate anatomy mailing list.  Links to the term request and mailing list subscription page are below:
+
+* [https://sourceforge.net/tracker/?group_id=76834&atid=2257941 Term request page] (requests are forwarded to the mailing list):
+
+* [https://lists.sourceforge.net/lists/listinfo/obo-vertebrate-anatomy Subscribe to the vertebrate anatomy mailing list]
+
+* Vertebrate anatomy list email: 
+obo-vertebrate-anatomy@lists.sourceforge.net
+
+Notes from conference calls for anatomy ontology coordination are [[WG:Anatomy_Ontology_Conf_calls | available here]]. 
+
+=== Release Schedules and Features ===
 
 ==== Vertebrate Anatomy Ontology ====
 '''Next target release date: Late August 2011'''
