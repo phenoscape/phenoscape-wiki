@@ -16,10 +16,9 @@ Phenoscape is coordinating the integration of anatomy ontologies for vertebrates
 
 * [https://sourceforge.net/tracker/?group_id=76834&atid=2257941 Vertebrate anatomy term request page] (requests are forwarded to the mailing list):
 
-* [https://lists.sourceforge.net/lists/listinfo/obo-vertebrate-anatomy Subscribe to the vertebrate anatomy mailing list]
+* Subscribe to the [https://lists.sourceforge.net/lists/listinfo/obo-vertebrate-anatomy vertebrate anatomy mailing list]
 
-* Vertebrate anatomy list email:
-obo-vertebrate-anatomy@lists.sourceforge.net
+* Vertebrate anatomy list email: [mailto:obo-vertebrate-anatomy@lists.sourceforge.net obo-vertebrate-anatomy@lists.sourceforge.net]
 
 Notes from conference calls for anatomy ontology coordination are [[WG:Anatomy_Ontology_Conf_calls | available here]].
 
