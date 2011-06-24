@@ -32,7 +32,7 @@ Phenoscape is coordinating the integration of model organism (zebrafish, Xenopus
 * New term request page at Sourceforge will be set up
 
 ====Amniote Anatomy Ontology====
-'''Next target release date: Late August 2011'''
+'''Initial release date: Late August 2011'''
 
 * VAO terms will be imported
 * Taxon restrictions for chick terms will be implemented
