@@ -4,42 +4,7 @@ title: VTO Taxonomy Resources
 
 =Resources for Constructing a Vertebrate Taxonomy Ontology =
 
-There are two types of resources useful for building taxonomic ontologies: taxonomic resources which provide hierarchy and nomenclature resources which provide information about names.  Both types of resources are used in taxonomic ontologies and listed here.
-
-== Taxonomic Resources ==
-=== Fish ===
-
-The TTO is derived from the catalog of fishes, which provides some taxonomy information and a great deal of nomenclature in the form of synonyms.  It is updated several times a year and TTO should be rebuilt by requesting the appropriate files from Stan Blum.
-
-The TTO also incorporates some common names from Fishbase and cross references (xrefs) from the Global Names Index.
-
-Information for extinct taxa has been added as needed by curation, and the taxonomy is, as a rule, from the curated publication.
-
-=== Amphibians ===
-
-The ATO is derived from the [http://amphibiaweb.org/ AmphibiaWeb] list, which provides both taxonomy and some synonyms from ITIS and the [http://www.iucnredlist.org/initiatives/amphibians IUCN redlist].
-
-=== Birds ===
-
-The [http://www.worldbirdnames.org/index.html IOC checklist] provides a current taxonomy and common names, but no taxonomic synonyms.
-
-=== Mammals ===
-
-Wilson and Reader (1993) is the standard, but the available electronic version of their taxonomy is IP encumbered. NCBI and/or ITIS may be the best starting point.
-
-=== All Vertebrates ===
-
-*[http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/ NCBI] This was used to fill in the gaps (non-avian amniotes) in the current proposed VTO. This provides taxonomy for GenBank submissions (including fossil taxa), but does not claim to be an authoritative source (and generally doesn't cover taxa that have not been submitted).  It does provide some taxonomic synonyms as well.
-
-*[http://www.itis.gov/ ITIS] Claims to be authoritative, but coverage is not complete (nor uncontroversial).
-
-== Nomenclature Resources ==
-
-These can provide links to additional synonyms and resources (e.g., TTO uses fishbase to provide common names and links to their pages).  Taxonomic synonyms are particularly useful as aids to data curation, but common names can assist users in browsing the website.  Some nomenclature resources act as aggregators of names from other sources (e.g., Catalogue of Life incorporates names from ITIS.  Taxonomic resources (above) can be used as sources of names as well.
-
-* [http://www.fishbase.org/ Fishbase] - their taxonomy is close to TTO (both based on Catalog of Fishes), but TTO uses it strictly as a name resource.
-* [http://gni.globalnames.org/ Global Names Index (GNI)]
-* [http://www.catalogueoflife.org/ Catalogue of Life]
+Note: The material on this page has been incorporated into the main [[Ontologies]] page
 
 = Tools =
 
