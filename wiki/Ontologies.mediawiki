@@ -63,7 +63,7 @@ Phenotypes are associated with species using a taxonomy ontology, the [[Teleost 
 The ATO is derived from the [http://amphibiaweb.org/ AmphibiaWeb] list, which provides both taxonomy and some synonyms from ITIS and the [http://www.iucnredlist.org/initiatives/amphibians IUCN redlist].
 
 === Vertebrate Taxonomy Ontology ===
-The Vertebrate Taxonomy Ontology includes the TTO, ATO, as well as a new Amniote Taxonomy Ontology.  An [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/vocab/vertebrate_taxonomy.obo | initial release], including TTO and ATO, but using pan-vertebrate resources (see below) rather than a separate AmTO was made in May 2011.
+The Vertebrate Taxonomy Ontology includes the TTO, ATO, as well as a new Amniote Taxonomy Ontology.  An [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/vocab/vertebrate_taxonomy.obo | initial release], including TTO and ATO, but using pan-vertebrate resources (see below) rather than a separate AmTO was made in May 2011.  This taxonomy covers vertebrates and was built by starting with the NCBI taxonomy for vertebrates and splicing in TTO (except hagfish), ATO, and the IOC taxonomy of living birds.  Synonyms from ITIS and Catalog of Life were attached if the primary name matched a name in the existing taxonomy.  Subspecies names were added to their parent species as synonyms (not subclasses).  The taxonomy is currently in the OBO format used for TTO and ATO, which includes the use of the Taxonomic Rank Vocabulary to tag taxa with specified rank. 
 
 ==== Amniotes ====
 *Birds The [http://www.worldbirdnames.org/index.html IOC checklist] provides a current taxonomy and common names, but no taxonomic synonyms.
