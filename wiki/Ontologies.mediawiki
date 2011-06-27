@@ -71,6 +71,7 @@ The ATO is derived from the [http://amphibiaweb.org/ AmphibiaWeb] list, which pr
 *Birds The [http://www.worldbirdnames.org/index.html IOC checklist] provides a current taxonomy and common names, but no taxonomic synonyms.
 *Mammals Wilson and Reader (1993) is the standard, but the available electronic version of their taxonomy is IP encumbered. NCBI and/or ITIS may be the best starting point.
 
+
 === Resources Covering All Vertebrates ===
 
 ==== Taxonomic (hierarchy) Resources ====
