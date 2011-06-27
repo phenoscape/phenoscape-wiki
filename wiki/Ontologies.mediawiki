@@ -55,11 +55,40 @@ The [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (
 * High-level skeletal terms from VAO will be imported into TAO with the next release
 
 == Taxonomy Ontologies ==
+
 === Teleost Taxonomy Ontology ===
 
 Phenotypes are associated with species using a taxonomy ontology, the [[Teleost Taxonomy Ontology]] (TTO) derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes] (see also the [http://bioportal.bioontology.org/visualize/38363 representation on BioPortal], which can be navigated on-line). The TTO is updated in concert with Catalog of Fishes updates.  Changes to the TTO relative to the latest version generated from a dump from the Catalog of Fishes are documented [[TTO_Changes]].
 
-==== Taxonomic Rank Vocabulary ====
+
+=== Amphibian Taxonomy Ontology ===
+
+The ATO is derived from the [http://amphibiaweb.org/ AmphibiaWeb] list, which provides both taxonomy and some synonyms from ITIS and the [http://www.iucnredlist.org/initiatives/amphibians IUCN redlist].
+
+
+=== Amniotes ===
+
+*Birds The [http://www.worldbirdnames.org/index.html IOC checklist] provides a current taxonomy and common names, but no taxonomic synonyms.
+*Mammals Wilson and Reader (1993) is the standard, but the available electronic version of their taxonomy is IP encumbered. NCBI and/or ITIS may be the best starting point.
+
+=== Resources Covering All Vertebrates ===
+
+==== Taxonomic (hierarchy) Resources ====
+*[http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/ NCBI] This was used to fill in the gaps (non-avian amniotes) in the current proposed VTO. This provides taxonomy for GenBank submissions (including fossil taxa), but does not claim to be an authoritative source (and generally doesn't cover taxa that have not been submitted).  It does provide some taxonomic synonyms as well.
+
+*[http://www.itis.gov/ ITIS] Has some vetting by area experts, but coverage is not complete (nor uncontroversial).
+
+
+==== Nomenclature Resources ====
+
+These can provide links to additional synonyms and resources (e.g., TTO uses fishbase to provide common names and links to their pages).  Taxonomic synonyms are particularly useful as aids to data curation, but common names can assist users in browsing the website.  Some nomenclature resources act as aggregators of names from other sources (e.g., Catalogue of Life incorporates names from ITIS.  Taxonomic resources (above) can be used as sources of names as well.
+
+* [http://www.fishbase.org/ Fishbase] - their taxonomy is close to TTO (both based on Catalog of Fishes), but TTO uses it strictly as a name resource.
+* [http://gni.globalnames.org/ Global Names Index (GNI)]
+* [http://www.catalogueoflife.org/ Catalogue of Life]
+
+
+=== Taxonomic Rank Vocabulary ===
 During 2010, we released a separate [[Taxonomic Rank Vocabulary]] (TAXRANK), and removed all rank terms (e.g., family, genus, etc.) from the taxa within the TTO.  Taxa in the TTO specify their ranks as property values via the metadata relation has_rank, but the object of the has_rank links is contained in the TAXRANK vocabulary.
 
 Developing TAXRANK as a vocabulary, rather than an ontology (e.g., by defining an ordering relation between ranks) should facilitate its reuse in other taxonomic ontologies.  Developing a cross-authority (e.g., ICZN, ICBN, etc.) ontology of ranks may be possible, but there does not appear to be a compelling need for such an ontology.
