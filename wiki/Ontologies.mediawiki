@@ -60,12 +60,9 @@ The [http://bioportal.bioontology.org/visualize/38362 Teleost Anatomy Ontology (
 
 Phenotypes are associated with species using a taxonomy ontology, the [[Teleost Taxonomy Ontology]] (TTO) derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes] (see also the [http://bioportal.bioontology.org/visualize/38363 representation on BioPortal], which can be navigated on-line). The TTO is updated in concert with Catalog of Fishes updates.  Changes to the TTO relative to the latest version generated from a dump from the Catalog of Fishes are documented [[TTO_Changes]].
 
-
 === Amphibian Taxonomy Ontology ===
 
 The ATO is derived from the [http://amphibiaweb.org/ AmphibiaWeb] list, which provides both taxonomy and some synonyms from ITIS and the [http://www.iucnredlist.org/initiatives/amphibians IUCN redlist].
-
-
 
 
 === Resources for constructing the VTO ===
