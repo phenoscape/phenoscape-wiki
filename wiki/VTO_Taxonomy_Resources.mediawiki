@@ -4,7 +4,7 @@ title: VTO Taxonomy Resources
 
 =Resources for Constructing a Vertebrate Taxonomy Ontology =
 
-Note: The material on this page has been incorporated into the main [[Ontologies]] page
+Note: The material on this section has been moved and incorporated into the main [[Ontologies]] page.
 
 = Tools =
 
