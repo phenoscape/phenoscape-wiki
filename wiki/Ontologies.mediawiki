@@ -86,6 +86,10 @@ These can provide links to additional synonyms and resources (e.g., TTO uses fis
 * [http://gni.globalnames.org/ Global Names Index (GNI)]
 * [http://www.catalogueoflife.org/ Catalogue of Life]
 
+==== Additional documentation ====
+* [[Documenting taxon concepts used in a publication]]
+* [[Taxonomy ontology: ranks, unknown/unnamed species, & related issues]]
+* [[Hypodigm|Ambiguous specimen information: annotating phenotypes for specimens or species]] (also called the Hypodigm problem)
 
 === Taxonomic Rank Vocabulary ===
 During 2010, we released a separate [[Taxonomic Rank Vocabulary]] (TAXRANK), and removed all rank terms (e.g., family, genus, etc.) from the taxa within the TTO.  Taxa in the TTO specify their ranks as property values via the metadata relation has_rank, but the object of the has_rank links is contained in the TAXRANK vocabulary.
