@@ -25,9 +25,9 @@ Participating: Monte Westerfield, Paula Mabee, Judy Blake, Aaron Zorn, Jeff Bowe
 * Monte: Charge to the zfin group (from Monte) is to write up plan and potential problems
 * Judy: Will send Jim contact for Amelia Ireland for diff
 * All: short term goal to add xrefs to VAO to ZFA, XAO, MA
-* Wasila: give VAO write access to other groups
-* Wasila: find out how often UBERON gets updated
-* Wasila: Schedule weekly meeting to sort out what is happening in these AOs, beginning in July
+* Wasila: give VAO write access to other groups 
+* Wasila: find out how often UBERON gets updated '''-- done WD 6/25/2011'''
+* Wasila: Schedule weekly meeting to sort out what is happening in these AOs, beginning in July '''-- done WD 6/25/2011'''
 
 ===Minutes===
 
