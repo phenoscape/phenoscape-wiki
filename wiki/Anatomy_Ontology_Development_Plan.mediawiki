@@ -2,7 +2,7 @@
 title: Anatomy Ontology Development Plan
 ---
 
-The Phenoscape project is coordinating the integration and development of multispecies (msAO) and single species (ssAO) vertebrate ontologies for teleosts, zebrafish, amphibians, frog, amniotes, and mouse.  The focus of ontology development in year 1 is the limb/fin skeletal branch.
+The Phenoscape project is coordinating the integration and development of multispecies and single species  vertebrate ontologies for teleosts, zebrafish, amphibians, frog, amniotes, and mouse.  The focus of ontology development in year 1 is the limb/fin skeletal branch.
 
 The development of these ontologies follows OBO Foundry principles. Importing or MIREOTing ontology terms is the preferred mechanism for using shared terms and VAO will be imported into TAO, AAO, and AMAO. However, the existing model organism databases are largely hardcoded and a move toward importing terms from external ontologies will take time to implement. Because of this, some of the existing MOD vertebrate ontologies will instead duplicate shared terms with cross-references to equivalent terms in external ontologies.
 
