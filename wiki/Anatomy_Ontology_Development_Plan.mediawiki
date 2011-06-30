@@ -1,0 +1,26 @@
+---
+title: Anatomy Ontology Development Plan
+---
+
+Anatomy ontologies development and integration plan
+
+The Phenoscape project is coordinating the integration and development of multispecies (msAO) and single species (ssAO) vertebrate ontologies for teleosts, zebrafish, amphibians, frog, amniotes, and mouse.  The focus of ontology development in year 1 is the limb/fin skeletal branch.
+
+The development of these ontologies follows OBO Foundry principles. Importing or MIREOTing ontology terms is the preferred mechanism for using shared terms and VAO will be imported into TAO, AAO, and AMAO. However, the existing model organism databases are largely hardcoded and a move toward importing terms from external ontologies will take time to implement. Because of this, some of the existing MOD vertebrate ontologies will instead duplicate shared terms with cross-references to equivalent terms in external ontologies.  
+
+Year 1 Development Plan
+
+Vertebrate Anatomy Ontology (VAO)
+VAO will be expanded to include skeletal terms shared by two or more multispecies ontologies. These shared terms will be obsoleted from and subsequently imported into the multispecies ontology.  For example, ‘femur’, a term applicable to AAO and AMAO, will be added to VAO and imported into AMAO (Year 1) and AAO (Year 2).  However, terms shared by a multispecies ontology and its corresponding single-species ontology (e.g., AAO and XAO) will not be added to VAO. These taxonomically restricted terms should ideally be imported from the multispecies ontology into the single species ontology (or rather, a single ontology for that taxonomic group should be used). However, because MODs currently cannot import terms, single species ontologies will instead duplicate shared terms and cross-reference the external ontology..  For example, ‘radio-ulna’ is a term used in both XAO and AAO, and XAO will cross-reference the AAO ID for this term. It won’t be added to VAO.
+
+Multispecies ontologies (AAO, AMAO, TAO) will import only VAO terms applicable to their respective taxonomic groups. For example, TAO will not import ‘femur’. This requires implemention of only_in_taxon and never_in_taxon links.
+
+Zebrafish (ZFA)
+    Will add VAO xrefs; will update term relationships
+
+Teleost (TAO)
+TAO will import only teleost applicable VAO terms. For example, ‘femur’ would not be imported.
+
+    Will import teleost subset of VAO.
+
+Xenopus (XAO)
