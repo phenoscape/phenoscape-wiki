@@ -17,7 +17,7 @@ VAO will be expanded to include skeletal terms shared by two or more multispecie
 Taxonomically constrained subsets of VAO will be generated so that the terms imported into a subontology include only those designated as applicable to the taxonomic group of interest (e.g., TAO would import VAO using the "teleost" subset). This can be accomplished by using either taxonomically-defined subsets or never_in_taxon/only_in_taxon links to generate taxonomic slims of VAO.
 
 === Zebrafish (ZFA) ===
-Will add VAO xrefs; will update term relationships
+ZFA will add cross references to VAO terms. Cross references to TAO will be also be updated as needed.
 
 === Teleost (TAO) ===
 TAO will import only teleost applicable VAO terms. For example, ‘femur’ would not be imported.
