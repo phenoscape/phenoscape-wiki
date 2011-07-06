@@ -20,6 +20,16 @@ Taxonomically constrained subsets of VAO will be generated so that the terms imp
 ZFA will add cross references to VAO terms. Cross references to TAO will be also be updated as needed.
 
 === Teleost (TAO) ===
-TAO will import VAO terms. Any TAO terms applicable outside of Teleostei will be obsoleted and added to VAO.
+TAO will import VAO terms. Any TAO terms applicable outside of Teleostei will be obsoleted and added to VAO for subsequent import.
 
 === Xenopus (XAO) ===
+XAO will add cross references to VAO terms.
+
+=== Amphibian (AAO) ===
+AAO will import VAO terms in Year 2. Any AAO terms applicable outside of Amphibia will be obsoleted and added to VAO for subsequent import.
+
+=== Mouse Adult Gross Anatomy (MA) ===
+MA will add cross references to VAO terms.
+
+=== Amniote Anatomy Ontology (AMAO) ===
+AMAO will import VAO terms.
