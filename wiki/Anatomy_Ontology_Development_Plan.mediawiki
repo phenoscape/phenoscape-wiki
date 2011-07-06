@@ -20,7 +20,6 @@ Taxonomically constrained subsets of VAO will be generated so that the terms imp
 ZFA will add cross references to VAO terms. Cross references to TAO will be also be updated as needed.
 
 === Teleost (TAO) ===
-TAO will import only teleost applicable VAO terms. For example, ‘femur’ would not be imported.
-Will import teleost subset of VAO.
+TAO will import VAO terms. Any TAO terms applicable outside of Teleostei will be obsoleted and added to VAO.
 
 === Xenopus (XAO) ===
