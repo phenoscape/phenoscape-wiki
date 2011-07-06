@@ -28,8 +28,7 @@ Phenoscape is coordinating the integration of model organism (zebrafish, Xenopus
 '''Next target release date: Late August 2011'''
 
 * New skeletal terms for the limb/fin and cranial skeleton will be added based on work done at the Phenotype RCN Vertebrate Working Group meeting.
-* Terms from external ontologies (GO, PATO, Cell) will be imported by MIREOT
-* New term request page at Sourceforge will be set up
+* Terms from external ontologies (GO, PATO, Cell) will be cross-referenced
 
 ====Amniote Anatomy Ontology====
 '''Initial release date: Late August 2011'''
