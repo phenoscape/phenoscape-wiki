@@ -12,6 +12,11 @@ See [[Ontologies#Release_Schedules_and_Features | ontology release schedule]] fo
 === Vertebrate Anatomy Ontology (VAO) ===
 VAO will be expanded to include terms in the muscular and skeletal systems that are shared by two or more multispecies ontologies. These shared terms will be obsoleted from and subsequently imported into the multispecies ontologies.  For example, ‘femur’, a term applicable to AAO and AMAO, will be added to VAO and imported into AMAO (Year 1) and AAO (Year 2).  Terms shared by a multispecies ontology and its corresponding single-species ontology (e.g., AAO and XAO) would also ideally be imported from the multispecies ontology into the single species ontology (or rather, a single ontology for that taxonomic group should be used). However, because MODs currently cannot import terms, shared terms will instead be duplicated in single species ontologies and cross-reference to the term in the external ontology added. For example, because XAO and AAO both contain the term ‘radio-ulna’, the term XAO:radio-ulna will cross-reference the ID for AAO:radio-ulna.
 
+'''Next target release date: Late August 2011'''
+
+*New skeletal terms for the limb/fin and cranial skeleton will be added based on work done at the Phenotype RCN Vertebrate Working Group meeting.
+*Terms from external ontologies (GO, PATO, Cell) will be cross-referenced
+
 === Zebrafish Anatomical Ontology(ZFA) ===
 ZFA will add cross references to VAO terms. Cross references to TAO will be also be updated as needed.
 
