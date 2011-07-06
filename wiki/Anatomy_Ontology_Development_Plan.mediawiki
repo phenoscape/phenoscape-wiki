@@ -38,5 +38,5 @@ MA will add cross references to VAO terms.
 === Amniote Anatomy Ontology (AMAO) ===
 AMAO will import skeletal terms from VAO and non-skeletal terms from Uberon.
 
-: Initial release date: Late August 2011
+: '''Initial release date: Late August 2011'''
 *VAO terms will be imported
