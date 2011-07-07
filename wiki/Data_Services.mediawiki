@@ -1275,6 +1275,86 @@ JSON
 }
 </javascript>
 
+==Phenotypic profile match service==
+
+'''URI'''
+
+ <BASE URI>/phenotype/profile?taxon=[taxonID]&query=[url-encoded-json]
+
+The JSON-formatted query specification should contain only a list of phenotypes. The <code>taxon</code> parameter is optional. If included, the results will contain profile match counts for each of the taxon's children. If not provided, the service will return data the highest taxon which has children with different match counts (useful for starting the tree display).
+
+'''Phenotype query specification'''
+
+The value of the <code>query</code> parameter should be an annotation query represented as JSON, following this structure (in practice it should be collapsed as far as possible to shorten the URL):
+
+<javascript>
+{
+    "phenotype": [
+    {
+        "entity": {
+            "id": "TAO:XXXX",
+            "including_parts": false
+        },
+        "quality": {
+            "id": "PATO:XXXX"
+        },
+        "related_entity": {
+            "id": "TAO:YYYYY"
+        }
+    }
+    ]
+}
+</javascript>
+It should be URL-encoded to include in the request.
+
+'''Returns'''
+
+JSON
+<javascript>
+{
+    "matches": [{
+        "taxon_id": "TTO:10000304",
+        "greatest_profile_match": 1
+    },
+    {
+        "taxon_id": "TTO:10000293",
+        "greatest_profile_match": 1
+    },
+    {
+        "taxon_id": "TTO:251",
+        "greatest_profile_match": 2
+    },
+    {
+        "taxon_id": "TTO:10000352",
+        "greatest_profile_match": 1
+    },
+    {
+        "taxon_id": "TTO:10000326",
+        "greatest_profile_match": 1
+    },
+    {
+        "taxon_id": "TTO:10000316",
+        "greatest_profile_match": 1
+    },
+    {
+        "taxon_id": "TTO:254",
+        "greatest_profile_match": 2
+    },
+    {
+        "taxon_id": "TTO:10000357",
+        "greatest_profile_match": 1
+    },
+    {
+        "taxon_id": "TTO:253",
+        "greatest_profile_match": 2
+    },
+    {
+        "taxon_id": "TTO:252",
+        "greatest_profile_match": 2
+    }]
+}
+</javascript>
+
 =Other ontology service definitions (for comparison)=
 
 * [http://www.ebi.ac.uk/ontology-lookup/ Ontology Lookup Service (OLS)] at the EBI. <cite>cote2006</cite> According to the website, the OLS can integrate any ontology available in OBO format. OLS is implemented as a web-service. The website has documentation on
