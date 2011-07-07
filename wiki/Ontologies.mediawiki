@@ -12,15 +12,21 @@ These ontologies will keep changing to accommodate our community needs, and they
 
 == Anatomy Ontologies ==
 
-Phenoscape is coordinating the integration of model organism (zebrafish, Xenopus, mouse) and multi-species (see below) anatomy ontologies for vertebrates. Ontology update requests are made on the Vertebrate Anatomy term request tracker, and requests are forwarded to the vertebrate anatomy mailing list.  Links to the term request and mailing list subscription page are below:
+Phenoscape is coordinating the integration of model organism ([http://ZFIN.org zebrafish], [http://www.xenbase.org Xenopus], [http://www.informatics.jax.org/ mouse]) and multi-species ([http://www.phenoscape.org/wiki/Ontologies teleost, amphibian, amniote]) anatomy ontologies for vertebrates. The [http://www.phenoscape.org/wiki/Ontologies development plan and release schedule] for these anatomy ontologies detail the working plan for their integration. 
 
-* [https://sourceforge.net/tracker/?group_id=76834&atid=2257941 Vertebrate anatomy term request page] (requests are forwarded to the mailing list):
+'''Vertebrate anatomy term tracker'''
+Ontology update requests can be made on the Vertebrate Anatomy term request tracker, and requests are forwarded to the vertebrate anatomy mailing list.  Links to the term request and mailing list subscription page are below:
 
-* Subscribe to the [https://lists.sourceforge.net/lists/listinfo/obo-vertebrate-anatomy vertebrate anatomy mailing list]
+* Submit term requests to the [https://sourceforge.net/tracker/?group_id=76834&atid=2257941 vertebrate anatomy request tracker]
 
-* Vertebrate anatomy list email: [mailto:obo-vertebrate-anatomy@lists.sourceforge.net obo-vertebrate-anatomy@lists.sourceforge.net]
+* Subscribe to the [https://lists.sourceforge.net/lists/listinfo/obo-vertebrate-anatomy vertebrate anatomy mailing list] for notification of term requests
 
-[[WG:Anatomy_Ontology_Conf_calls | Notes from conference calls ]] for anatomy ontology coordination are maintained in the project intranet.
+'''obo-anatomy mailing list'''
+Discussion of vertebrate and general anatomy issues are posted to obo-anatomy mailing list:
+
+* Subscribe to the [https://lists.sourceforge.net/lists/listinfo/obo-anatomy obo-anatomy mailing list]
+
+* View [http://sourceforge.net/mailarchive/forum.php?forum_name=obo-anatomy obo-anatomy list archives]
 
 == Taxonomy Ontologies ==
 
