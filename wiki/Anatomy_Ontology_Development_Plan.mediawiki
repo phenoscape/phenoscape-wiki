@@ -30,7 +30,7 @@ XAO will add cross references to VAO terms.
 === Amphibian Anatomy Ontology (AAO) ===
 AAO will import VAO terms in Year 2. Any AAO terms applicable outside of Amphibia will be obsoleted and added to VAO for subsequent import.
 
-:'''Next target release date: July 2011'''
+'''Next target release date:''' July 2011
 *Terms currently under “unclassified anatomical entity” will be given is_a parents
 
 === Mouse Adult Gross Anatomy (MA) ===
