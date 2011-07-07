@@ -1281,7 +1281,7 @@ JSON
 
  <BASE URI>/phenotype/profile?taxon=[taxonID]&query=[url-encoded-json]
 
-The JSON-formatted query specification should contain only a list of phenotypes. The <code>taxon</code> parameter is optional. If included, the results will contain profile match counts for each of the taxon's children. If not provided, the service will return data the highest taxon which has children with different match counts (useful for starting the tree display).
+The JSON-formatted query specification should contain only a list of phenotypes, and a value for the <code>include_inferred</code> option. The <code>taxon</code> parameter is optional. If included, the results will contain profile match counts for each of the taxon's children. If not provided, the service will return data the highest taxon which has children with different match counts (useful for starting the tree display).
 
 '''Phenotype query specification'''
 
@@ -1302,7 +1302,8 @@ The value of the <code>query</code> parameter should be an annotation query repr
             "id": "TAO:YYYYY"
         }
     }
-    ]
+    ],
+    "include_inferred": false
 }
 </javascript>
 It should be URL-encoded to include in the request.
