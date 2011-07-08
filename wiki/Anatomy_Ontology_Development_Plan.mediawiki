@@ -40,7 +40,7 @@ AAO will import VAO terms in Year 2. Any AAO terms applicable outside of Amphibi
 MA will add cross references to VAO terms.
 
 === Amniote Anatomy Ontology (AMAO) ===
-AMAO will import musculo-skeletal terms from VAO and non-skeletal terms from Uberon.
+AMAO will import musculo-skeletal terms from VAO and non-skeletal terms from the Uber Anatomy Ontology [http://obofoundry.org/cgi-bin/detail.cgi?id=uberon (Uberon)].
 
 [[Category:Anatomy]]
 [[Category: Ontology]]
