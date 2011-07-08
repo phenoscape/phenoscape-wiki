@@ -17,9 +17,6 @@ VAO will be expanded to include terms in the muscular and skeletal systems that 
 *New skeletal terms for the limb/fin and cranial skeleton will be added based on work done at the Phenotype RCN Vertebrate Working Group meeting in Boulder, CO (June 1-3, 2011)
 *Terms from external ontologies (GO, PATO, Cell) will be cross-referenced
 
-=== Zebrafish Anatomical Ontology(ZFA) ===
-ZFA will add cross references to VAO terms. Cross references to TAO will be also be updated as needed.
-
 === Teleost Anatomy Ontology (TAO) ===
 
 '''Next target release date:''' Late August 2011
@@ -27,33 +24,37 @@ ZFA will add cross references to VAO terms. Cross references to TAO will be also
 '''Features:'''
 *VAO musculo-skeletal terms will be imported, and existing TAO terms applicable outside of Teleostei will be obsoleted and added to VAO for subsequent import
 
-=== Xenopus Anatomy Ontology (XAO) ===
-
-'''Next target release date:''' 
-
-'''Features:'''
-*XAO will add cross references to VAO terms
-
 === Amphibian Anatomy Ontology (AAO) ===
 
 '''Next target release date:''' Late August 2011
 
-'''Features: 
+'''Features:
 *children of "unclassified anatomical entity" will be given appropriate is_a parents
 
 AAO development will be frozen until curation begins in Year 2. AAO will import VAO terms. Any AAO terms applicable outside of Amphibia will be obsoleted and added to VAO for subsequent import.
 
-=== Mouse Adult Gross Anatomy (MA) ===
-'''Next target release date:''' 
-
-'''Features: 
-*MA will add cross references to VAO terms.
-
 === Amniote Anatomy Ontology (AMAO) ===
-'''Next target release date:''' 
+'''Next target release date:'''
 
-'''Features: 
+'''Features:
 *In the initial release of AMAO, musculo-skeletal terms from VAO and non-skeletal terms from the Uber Anatomy Ontology [http://obofoundry.org/cgi-bin/detail.cgi?id=uberon (Uberon)] will be imported
+
+=== Zebrafish Anatomical Ontology(ZFA) ===
+* Cross references to VAO musculo-skeletal terms will be added 
+* Cross references to additional TAO terms will be updated
+
+=== Xenopus Anatomy Ontology (XAO) ===
+
+'''Next target release date:'''
+
+'''Features:'''
+* Cross references to VAO musculo-skeletal terms will be added 
+
+=== Mouse Adult Gross Anatomy (MA) ===
+'''Next target release date:'''
+
+'''Features:
+* Cross references to VAO musculo-skeletal terms will be added
 
 [[Category:Anatomy]]
 [[Category: Ontology]]
