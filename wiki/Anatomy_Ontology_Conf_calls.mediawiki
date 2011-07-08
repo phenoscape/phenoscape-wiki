@@ -14,7 +14,7 @@ title: Anatomy Ontology Conf calls
 
 === Agenda ===
 # Review anatomy ontology [https://www.phenoscape.org/index.php?title=Anatomy_Ontology_Development_Plan development plans]
-# Vertebrate anatomy [https://www.phenoscape.org/wiki/Ontologies#Anatomy_Ontologies term tracker and mailing lists]
+# Discuss use of vertebrate anatomy [https://www.phenoscape.org/wiki/Ontologies#Anatomy_Ontologies term tracker and mailing lists]
 
 === Minutes ===
 
