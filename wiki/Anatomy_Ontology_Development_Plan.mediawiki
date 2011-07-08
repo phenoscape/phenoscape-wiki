@@ -31,7 +31,7 @@ VAO will be expanded to include terms in the muscular and skeletal systems that 
 '''Features:
 *children of "unclassified anatomical entity" will be given appropriate is_a parents
 
-After this release, AAO development will be frozen until curation begins in Year 2 (see XAO plan, below). At that time, AAO will import VAO terms, and any AAO terms applicable outside of Amphibia will be obsoleted and added to VAO for subsequent import.
+After this release, AAO will be merged into XAO and its development frozen until curation begins in Year 2 (see XAO plan, below). At that time, AAO will be exported out of XAO (and XAO retaining xrefs to AAO terms). AAO will import VAO terms, and any AAO terms applicable outside of Amphibia will be obsoleted and added to VAO for subsequent import.
 
 === Amniote Anatomy Ontology (AMAO) ===
 '''Next target release date:'''
@@ -40,15 +40,18 @@ After this release, AAO development will be frozen until curation begins in Year
 *In the initial release of AMAO, musculo-skeletal terms from VAO and non-skeletal terms from the Uber Anatomy Ontology [http://obofoundry.org/cgi-bin/detail.cgi?id=uberon (Uberon)] will be imported
 
 === Zebrafish Anatomical Ontology(ZFA) ===
-* Cross references to VAO musculo-skeletal terms will be added 
+* Cross references to VAO musculo-skeletal terms will be added
 * Cross references to additional TAO terms will be updated
 
 === Xenopus Anatomy Ontology (XAO) ===
 
+AAO will be merged into XAO. AAO terms applicable to Xenopus will be given two IDs (XAO ID and AAO alt-ID), and those not in Xenopus will have a single ID (the AAO ID with new XAO prefix). AAO terms will be exported in Year 2 when curation of amphibian publications begins. XAO will retain xrefs to AAO terms.
+
 '''Next target release date:'''
 
 '''Features:'''
-* Cross references to VAO musculo-skeletal terms will be added 
+* Cross references to VAO musculo-skeletal terms will be added
+* AAO terms merged with XAO terms
 
 === Mouse Adult Gross Anatomy (MA) ===
 '''Next target release date:'''
