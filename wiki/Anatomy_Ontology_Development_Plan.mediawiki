@@ -25,14 +25,12 @@ VAO will be expanded to include terms in the muscular and skeletal systems that 
 *VAO musculo-skeletal terms will be imported, and existing TAO terms applicable outside of Teleostei will be obsoleted and added to VAO for subsequent import
 
 === Amphibian Anatomy Ontology (AAO) ===
-As a long term goal, AAO and XAO will be aligned and XAO terms will cross reference their AAO parents. However, because AAO development is not scheduled for the first year, AAO will be merged into XAO and development of AAO frozen until year 2. Specifically, AAO terms applicable to Xenopus will be given two IDs (an XAO ID and AAO alt-ID), and those not applicable to Xenopus will be given a single ID (the AAO ID with new XAO prefix). In year 2, AAO terms will be exported and AAO development restarted for curation of amphibian publications. XAO will retain xrefs to Xenopus-applicable AAO terms and obsolete AAO terms not aplicable to Xenopus. The two ontologies will be synchronized regularly. AAO will import VAO terms, and any AAO terms applicable outside of Amphibia will be obsoleted and added to VAO for subsequent import.
-
 '''Next target release date:''' Late August 2011
 
 '''Features:
 *children of "unclassified anatomical entity" will be given appropriate is_a parents
 
-After this release, AAO will be merged into XAO and its development frozen until curation begins in Year 2 (see XAO plan, below). At that time, AAO will be exported out of XAO (with XAO retaining xrefs to AAO terms).
+As a long term goal, AAO and XAO will be aligned, XAO terms will cross reference their AAO parents, and these ontologies will be regularly synchronized. However, because AAO development is not scheduled for the first year, AAO will be merged into XAO and development of AAO frozen until year 2. Specifically, AAO terms applicable to Xenopus will be given two IDs in XAO (an XAO ID and AAO alt-ID), and those not applicable to Xenopus will be given a single ID (the AAO ID with new XAO prefix). In year 2, AAO will be cloned from XAO and AAO development restarted for curation of amphibian publications. XAO will retain xrefs to Xenopus-applicable AAO terms and will obsolete AAO terms not aplicable to Xenopus. The two ontologies will be synchronized regularly. AAO will import VAO terms, and any AAO terms applicable outside of Amphibia will be obsoleted and added to VAO for subsequent import.
 
 === Amniote Anatomy Ontology (AMAO) ===
 '''Next target release date:'''
