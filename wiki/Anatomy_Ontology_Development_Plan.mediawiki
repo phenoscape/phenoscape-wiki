@@ -28,19 +28,32 @@ ZFA will add cross references to VAO terms. Cross references to TAO will be also
 *VAO musculo-skeletal terms will be imported, and existing TAO terms applicable outside of Teleostei will be obsoleted and added to VAO for subsequent import
 
 === Xenopus Anatomy Ontology (XAO) ===
-XAO will add cross references to VAO terms.
+
+'''Next target release date:''' 
+
+'''Features:'''
+*XAO will add cross references to VAO terms
 
 === Amphibian Anatomy Ontology (AAO) ===
-AAO will import VAO terms in Year 2. Any AAO terms applicable outside of Amphibia will be obsoleted and added to VAO for subsequent import.
 
-'''Next target release date:''' July 2011
-*Terms currently under “unclassified anatomical entity” will be given is_a parents
+'''Next target release date:''' Late August 2011
+
+'''Features: 
+*children of "unclassified anatomical entity" will be given appropriate is_a parents
+
+AAO development will be frozen until curation begins in Year 2. AAO will import VAO terms. Any AAO terms applicable outside of Amphibia will be obsoleted and added to VAO for subsequent import.
 
 === Mouse Adult Gross Anatomy (MA) ===
-MA will add cross references to VAO terms.
+'''Next target release date:''' 
+
+'''Features: 
+*MA will add cross references to VAO terms.
 
 === Amniote Anatomy Ontology (AMAO) ===
-AMAO will import musculo-skeletal terms from VAO and non-skeletal terms from the Uber Anatomy Ontology [http://obofoundry.org/cgi-bin/detail.cgi?id=uberon (Uberon)].
+'''Next target release date:''' 
+
+'''Features: 
+*In the initial release of AMAO, musculo-skeletal terms from VAO and non-skeletal terms from the Uber Anatomy Ontology [http://obofoundry.org/cgi-bin/detail.cgi?id=uberon (Uberon)] will be imported
 
 [[Category:Anatomy]]
 [[Category: Ontology]]
