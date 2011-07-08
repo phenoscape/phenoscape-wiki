@@ -31,7 +31,7 @@ VAO will be expanded to include terms in the muscular and skeletal systems that 
 '''Features:
 *children of "unclassified anatomical entity" will be given appropriate is_a parents
 
-AAO development will be frozen until curation begins in Year 2. AAO will import VAO terms. Any AAO terms applicable outside of Amphibia will be obsoleted and added to VAO for subsequent import.
+AAO development will be frozen until curation begins in Year 2. At that time, AAO will import VAO terms, and any AAO terms applicable outside of Amphibia will be obsoleted and added to VAO for subsequent import.
 
 === Amniote Anatomy Ontology (AMAO) ===
 '''Next target release date:'''
