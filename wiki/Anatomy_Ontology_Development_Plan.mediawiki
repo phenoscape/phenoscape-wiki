@@ -47,13 +47,13 @@ ZFA terms are cross referenced to TAO terms, and these cross references will be 
 
 === Xenopus Anatomy Ontology (XAO) ===
 
-AAO will be merged into XAO. AAO terms applicable to Xenopus will be given two IDs (XAO ID and AAO alt-ID), and those not in Xenopus will have a single ID (the AAO ID with new XAO prefix). AAO terms will be exported in Year 2 when curation of amphibian publications begins. XAO will retain xrefs to AAO terms.
+(see desciption of XAO/AAO merge above)
 
 '''Next target release date:'''
 
 '''Features:'''
+* AAO terms will be merged with XAO terms
 * Cross references to VAO musculo-skeletal terms will be added
-* AAO terms merged with XAO terms
 
 === Mouse Adult Gross Anatomy (MA) ===
 '''Next target release date:'''
