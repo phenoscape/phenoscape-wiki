@@ -9,11 +9,12 @@ title: Anatomy Ontology Conf calls
 '''Weekly anatomy ontology calls are held on Mondays, 1:00-2:00 pm EDT.'''
 
 == July 11, 2011 ==
-Participating: 
-
+'''Participating:''' 
 
 
 === Agenda ===
+# Review anatomy ontology [https://www.phenoscape.org/index.php?title=Anatomy_Ontology_Development_Plan development plans]
+# Vertebrate anatomy [https://www.phenoscape.org/wiki/Ontologies#Anatomy_Ontologies term tracker and mailing lists]
 
 === Minutes ===
 
