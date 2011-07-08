@@ -36,7 +36,7 @@ As a long term goal, AAO and XAO will be aligned, XAO terms will cross reference
 '''Next target release date:'''
 
 '''Features:
-*In the initial release, musculo-skeletal terms from VAO and non-skeletal terms from the Uber Anatomy Ontology [http://obofoundry.org/cgi-bin/detail.cgi?id=uberon (Uberon)] will be imported into AMAO
+*In the initial release, musculo-skeletal terms from VAO and non-skeletal terms from the amniote subset of the Uber Anatomy Ontology [http://obofoundry.org/cgi-bin/detail.cgi?id=uberon (Uberon)] will be imported into AMAO
 
 === Zebrafish Anatomical Ontology (ZFA) ===
 ZFA terms are cross referenced to TAO terms, and these cross references will be maintained and updated as needed. In addition, cross references to VAO musculo-skeletal terms will be added.
