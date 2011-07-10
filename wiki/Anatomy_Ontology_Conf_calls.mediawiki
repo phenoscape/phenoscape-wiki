@@ -15,6 +15,9 @@ title: Anatomy Ontology Conf calls
 === Agenda ===
 # Review anatomy ontology [https://www.phenoscape.org/index.php?title=Anatomy_Ontology_Development_Plan development plans]
 # Discuss use of vertebrate anatomy [https://www.phenoscape.org/wiki/Ontologies#Anatomy_Ontologies term tracker and mailing lists]
+# Issues raised by Chris:
+##alternate project meetings with calls where we invite other members of the obo-anatomy list?
+##make the agenda pages on the wiki publicly readable?
 
 === Minutes ===
 
