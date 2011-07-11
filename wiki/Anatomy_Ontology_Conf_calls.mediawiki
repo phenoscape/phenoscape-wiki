@@ -12,14 +12,47 @@ title: Anatomy Ontology Conf calls
 '''Attending:'''  Judy, Terry, Monte,  Aaron, Christina, VG, Wasila
 
 === Agenda ===
-# Review anatomy ontology [https://www.phenoscape.org/index.php?title=Anatomy_Ontology_Development_Plan development plans]
-# Alternative formalisms for inter-ontology links (see email from Chris, 7/8/2011)
-# Discuss use of vertebrate anatomy [https://www.phenoscape.org/wiki/Ontologies#Anatomy_Ontologies term tracker and mailing lists]
-# Issues raised by Chris:
+1. Review anatomy ontology [https://www.phenoscape.org/index.php?title=Anatomy_Ontology_Development_Plan development plans]
+
+2. Alternative formalisms for inter-ontology links. From Chris email, 7/8/2011:
+* equivalence (e.g. VAO:ligament equivalentTo Uberon:skeletal_ligament)
+* subclass_of (e.g. EMAPA:islets_of_langerhans SubClassOf Uberon:islets_of_langerhans) note that EMAPA includes several classes called "islet of langerhans" and no single generic class, so we're forced to use subclass here
+* equivalence given a taxon (e.g. MA:ligament EquivalentTo Uberon:ligament and partOf some NCBITaxon:10090)
+
+3. Discuss use of vertebrate anatomy [https://www.phenoscape.org/wiki/Ontologies#Anatomy_Ontologies term tracker and mailing lists]
+
+4. Issues raised by Chris:
 ##alternate project meetings with calls where we invite other members of the obo-anatomy list?
 ##make the agenda pages on the wiki publicly readable?
 
 === Minutes ===
+ WD in progess
+
+1. Reviewed ontology development plan for year 1:
+* multispecies ontologies (TAO, AAO, AMAO) will import VAO; cross references unnecessary
+* single species ontologies (MA, XAO, ZFA) will maintain species specific version of all terms, and cross reference external ontologies
+**Cross references in single species ontologies will be translated to "equivalent in taxon" links. A line describing the meaning of the xref will be added to the header of ontology file; for example, ZFA has the following lines in the header:
+ treat-xrefs-as-genus-differentia: CL part_of NCBITaxon:7955
+ treat-xrefs-as-genus-differentia: TAO part_of NCBITaxon:7955
+ treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:7955
+*macro-xrefs tralsated into owl: ZFA term is the equivalent of the TAO term
+*Beware if two terms xref a single term: indicates that there is a duplicate term (error)
+
+Aaron: XAO will be adding upwards of several thougsand terms, many embryological; will ref ZFA, VAO, CARO 
+* will be done manually, case by case basis, - are there tools for automating this?
+* Action item: Chris and Jim to discuss tools for adding large chunks of ontologies to other ontologies - Paula suggests involving Jeff Bowes
+*Chris: mapping issue here: don't xref at sibling level (e.g., XAO shouldn't xref ZFA), should inherit the term
+*Long term goal for XAO is to follow import model; 
+
+Chris: need generic guidelines for when to subtype and when to merge
+*when need to designate develops_from relationship that is not general, would create a subclass rather than add relationship at amphibian level
+**this is a shortterm solution; get latticy ontology, difficult to navigate
+WD: way to handle taxonomically variable relationships as annotations?
+Chris: difficult to edit a separate data table, which would need extensions and way to view as ontology relationships
+
+Terry: redundancy issue: Uberon has skeletal terms that VAO doesn't yet; what should be xrefed
+WD: VAO is musculo-skeletal; xrefs should be made to VAO; non-skeletal terms xref Uberon
+* Focused xref addition on limb/fin anatomy in first year
 
 == June 13, 2011 ==
 '''Attending:''' Monte Westerfield, Paula Mabee, Judy Blake, Aaron Zorn, Jeff Bowes, Wasila Dahdul, Jim Balhoff, Terry Hayamizu
