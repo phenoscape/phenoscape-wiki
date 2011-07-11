@@ -15,7 +15,7 @@ VAO will be expanded to include terms in the muscular and skeletal systems that 
 
 '''Features:'''
 *New skeletal terms for the limb/fin and cranial skeleton will be added based on work done at the Phenotype RCN Vertebrate Working Group meeting in Boulder, CO (June 1-3, 2011)
-*Terms from external ontologies (GO, PATO, Cell) will be cross-referenced
+*Relationships to terms from external ontologies (GO, PATO, CL) will be included
 
 === Teleost Anatomy Ontology (TAO) ===
 
