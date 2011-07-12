@@ -30,15 +30,15 @@ title: Anatomy Ontology Conf calls
 
 1. Reviewed ontology development plan for year 1:
 * multispecies ontologies (TAO, AAO, AMAO) will import VAO; cross references unnecessary
-* single species ontologies (MA, XAO, ZFA) will maintain species specific version of all terms, and cross reference external ontologies
-**Cross references in single species ontologies will be translated to "equivalent in taxon" links. A line describing the meaning of the xref will be added to the header of ontology file; for example, ZFA has the following lines in the header:
+* single species ontologies (MA, XAO, ZFA) will maintain species-specific versions of terms, and cross reference VAO and appropriate multispecies ontology
+**Cross references in single species ontologies are specified as "equivalent in taxon" links by having a line describing the meaning of the xref in the header of ontology file; for example, ZFA has the following lines in the header:
  treat-xrefs-as-genus-differentia: CL part_of NCBITaxon:7955
  treat-xrefs-as-genus-differentia: TAO part_of NCBITaxon:7955
  treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:7955
 *macro-xrefs tralsated into owl: ZFA term is the equivalent of the TAO term
 *Beware if two terms xref a single term: indicates that there is a duplicate term (error)
 
-Aaron: XAO will be adding upwards of several thougsand terms, many embryological; will ref ZFA, VAO, CARO 
+Aaron: XAO will be adding upwards of several thousand terms, many embryological; will ref ZFA, VAO, CARO 
 * will be done manually, case by case basis, - are there tools for automating this?
 * Action item: Chris and Jim to discuss tools for adding large chunks of ontologies to other ontologies - Paula suggests involving Jeff Bowes
 *Chris: mapping issue here: don't xref at sibling level (e.g., XAO shouldn't xref ZFA), should inherit the term
