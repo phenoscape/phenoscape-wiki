@@ -29,7 +29,7 @@ title: Anatomy Ontology Conf calls
  WD in progess
 
 1. Reviewed ontology development plan for year 1:
-* multispecies ontologies (TAO, AAO, AMAO) will import VAO; cross references unnecessary
+* multispecies ontologies (TAO, AAO, AMAO) will import VAO; cross references in VAO, TAO, AAO, AMAO to upperlevel ontologies unnecessary
 * single species ontologies (MA, XAO, ZFA) will maintain species-specific versions of terms, and cross reference VAO and appropriate multispecies ontology
 **Cross references in single species ontologies are specified as "equivalent in taxon" links by having a line describing the meaning of the xref in the header of ontology file; for example, ZFA has the following lines in the header:
  treat-xrefs-as-genus-differentia: CL part_of NCBITaxon:7955
