@@ -54,6 +54,8 @@ Terry: possible redundancy issue: Uberon has skeletal terms that VAO doesn't yet
 Wasila: VAO is musculo-skeletal so xrefs should be made to VAO; non-skeletal terms can be xrefed to Uberon
 * Term addition to VAO is ongoing, but focus xref addition on limb/fin anatomy in first year
 
+Decided to keep this time slot for project specific issues but there is interest in participating in a general call; also could revisit using this time slot after project work settles down
+
 == June 13, 2011 ==
 '''Attending:''' Monte Westerfield, Paula Mabee, Judy Blake, Aaron Zorn, Jeff Bowes, Wasila Dahdul, Jim Balhoff, Terry Hayamizu
 
