@@ -12,7 +12,11 @@ title: Anatomy Ontology Conf calls
 '''Attending:'''  
 
 === Agenda ===
-
+Discuss strategies for [http://obofoundry.org/wiki/index.php/Strategies_for_cross-species_ontology_synchronization cross-species ontology synchronization]
+*multispecies ontologies and import vs. MIREOT
+**tool support in OE
+*species specific ontologies and macro x-refs
+** XAO/AAO plan
 
 == July 11, 2011 ==
 '''Attending:'''  Judy, Terry, Monte,  Aaron, Christina, VG, Wasila
