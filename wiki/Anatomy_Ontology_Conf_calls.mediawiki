@@ -26,7 +26,7 @@ Discuss strategies for [http://obofoundry.org/wiki/index.php/Strategies_for_cros
 *another option: use ‘never in taxon’ designation instead of mireot; Put taxon info in VAO with never_in_taxon links; TAO/VAO e.g. –want to import only teleost specific;
 ** never_in_taxon will be difficult for e.g., structures lost repeatedly in a clade
 *Homology discussion
-**Don't add terms to VAO that are not required [WD bad notes here...]
+**Don't add terms to VAO that are not required [incomplete notes here...]
 *For now: just import/mireot the whole thing
 *Better tool support needed
 
