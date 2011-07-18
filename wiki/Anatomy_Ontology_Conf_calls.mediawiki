@@ -34,10 +34,15 @@ Species specific ontologies and macro x-refs
 * XAO/AAO plan originally involved merging AAO into XAO, with AAO terms being alt-ids ot XAO terms. But messy to deal with alt-ids and obsoleting terms in XAO
 *New plan: see link
 **At end of year 1 would clone out AAO (keepign origianl AAO ids) terms not in Xenopus added back to AAO
-**OK to add VAO xrefs (with David) to AAO now and then 
+**OK to add VAO xrefs (with David) to AAO now and then
 **XAO would preferentially xref VAO terms where they are available
 **Primary location of xrefs would be in XAO now; the ssAOs hold xrefs to multispecies
 *Another issue: where XAO to get non-skel terms; not ideal to xref ZFA
+** Uberon xrefs AAO; easier to do from purpose of synchronization
+** currently XAO xrefs ZFA - should they be maintained? Keep as historical record and leave as xrefs without defined semantics; don't rush to get rid of
+WD: should AAO hold xrefs to Uberon or Uberon to AAO? CM: doesn't matter which file it lives in - need a bridging file which contains axioms for xrefs
+* Workflow: if XAO need a new term, where to get them? Better to get term from higher level
+** in order of preference for a new skeletal term: AAO, VAO, Uberon, ZFA, create new term (no xref)
 
 == July 11, 2011 ==
 '''Attending:'''  Judy, Terry, Monte,  Aaron, Christina, VG, Wasila
