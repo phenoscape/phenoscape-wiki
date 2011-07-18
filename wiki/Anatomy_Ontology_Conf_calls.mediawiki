@@ -23,7 +23,7 @@ Multispecies ontologies and import vs. [http://obi-ontology.org/page/MIREOT MIRE
 **Mireot only developed in owl; applied mainly in cell ontology to date; easier than working with imports because can extract a submodule as basis for the import; variation of it in obo-edit where you save only the relevant terms (save is_a closure)
 **develop a subset file - need external script to keep subset synchronized
 **WD: Plans to develop a mireot module for obo? Roundtripping tool being developed for OWL
-*another option: use ‘never in taxon’ designation instead of mireot; Put taxon info in VAO with never_in_taxon links; TAO/VAO e.g. –want to import only teleost specific; 
+*another option: use ‘never in taxon’ designation instead of mireot; Put taxon info in VAO with never_in_taxon links; TAO/VAO e.g. –want to import only teleost specific;
 ** never_in_taxon will be difficult for e.g., structures lost repeatedly in a clade
 *Homology discussion
 **Don't add terms to VAO that are not required [WD bad notes here...]
@@ -31,6 +31,13 @@ Multispecies ontologies and import vs. [http://obi-ontology.org/page/MIREOT MIRE
 *Better tool support needed
 
 Species specific ontologies and macro x-refs
+* XAO/AAO plan originally involved merging AAO into XAO, with AAO terms being alt-ids ot XAO terms. But messy to deal with alt-ids and obsoleting terms in XAO
+*New plan: see link
+**At end of year 1 would clone out AAO (keepign origianl AAO ids) terms not in Xenopus added back to AAO
+**OK to add VAO xrefs (with David) to AAO now and then 
+**XAO would preferentially xref VAO terms where they are available
+**Primary location of xrefs would be in XAO now; the ssAOs hold xrefs to multispecies
+*Another issue: where XAO to get non-skel terms; not ideal to xref ZFA
 
 == July 11, 2011 ==
 '''Attending:'''  Judy, Terry, Monte,  Aaron, Christina, VG, Wasila
