@@ -42,8 +42,11 @@ Species specific ontologies and macro x-refs
 ** currently XAO xrefs ZFA - should they be maintained? Keep as historical record and leave as xrefs without defined semantics; don't rush to get rid of
 WD: should AAO hold xrefs to Uberon or Uberon to AAO? CM: doesn't matter which file it lives in - need a bridging file which contains axioms for xrefs
 * Workflow: if XAO need a new term, where to get them? Better to get term from higher level
-** in order of preference for a new non-skeletal term: AAO, VAO, Uberon, ZFA, create new term (no xref)
-** in order of preference for a new musculo-skeletal term: VAO, AAO, create new term
+** in order of preference for a new term: AAO, VAO, Uberon, ZFA, create new term (no xref needed)
+** if AAO xrefs VAO, then VAO ID should be used preferentially over AAO id
+
+*Should terms be directlly requested from Uberon? Could do that or on the other hand, UBeron will pick up new terms when it gets updated
+*When pulling terms from above and definition is terrible, then start an external dialogue to fix it.
 
 == July 11, 2011 ==
 '''Attending:'''  Judy, Terry, Monte,  Aaron, Christina, VG, Wasila
