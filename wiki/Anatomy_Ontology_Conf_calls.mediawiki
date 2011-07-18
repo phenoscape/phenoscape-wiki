@@ -32,7 +32,7 @@ Discuss strategies for [http://obofoundry.org/wiki/index.php/Strategies_for_cros
 
 '''Species specific ontologies and [http://obofoundry.org/wiki/index.php/Strategies_for_cross-species_ontology_synchronization#Provide_explicit_cross-species_axioms macro x-refs]'''
 * XAO/AAO plan originally involved merging AAO into XAO, with AAO terms being alt-ids ot XAO terms. But messy to deal with alt-ids and obsoleting terms in XAO
-*New plan: see link
+*New plan for [https://www.phenoscape.org/index.php?title=Anatomy_Ontology_Development_Plan#Amphibian_Anatomy_Ontology_.28AAO.29 AAO/XAO alignment using xrefs]
 **At end of year 1 would clone out AAO (keeping original AAO ids) terms not in Xenopus added back to AAO
 **OK to add VAO xrefs (with David) to AAO now and then
 **XAO would preferentially xref VAO terms where they are available
