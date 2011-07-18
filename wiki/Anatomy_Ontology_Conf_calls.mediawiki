@@ -18,8 +18,8 @@ Discuss strategies for [http://obofoundry.org/wiki/index.php/Strategies_for_cros
 **tool support for synchronization (Obo-edit; GO diff tool)
 
 === Minutes ===
-Multispecies ontologies and import vs. [http://obi-ontology.org/page/MIREOT MIREOT]
-*Mireot lets you import a part of an ontology (e.g. so that we don’t get ‘tibia’ in the teleost ontology)
+'''Multispecies ontologies and import vs. MIREOT'''
+*[http://obi-ontology.org/page/MIREOT MIREOT] lets you import a part of an ontology (e.g. so that we don’t get ‘tibia’ in the teleost ontology)
 **Mireot only developed in owl; applied mainly in cell ontology to date; easier than working with imports because can extract a submodule as basis for the import; variation of it in obo-edit where you save only the relevant terms (save is_a closure)
 **develop a subset file - need external script to keep subset synchronized
 **WD: Plans to develop a mireot module for obo? Roundtripping tool being developed for OWL
@@ -30,7 +30,7 @@ Multispecies ontologies and import vs. [http://obi-ontology.org/page/MIREOT MIRE
 *For now: just import/mireot the whole thing
 *Better tool support needed
 
-Species specific ontologies and macro x-refs
+'''Species specific ontologies and [http://obofoundry.org/wiki/index.php/Strategies_for_cross-species_ontology_synchronization#Provide_explicit_cross-species_axioms macro x-refs]'''
 * XAO/AAO plan originally involved merging AAO into XAO, with AAO terms being alt-ids ot XAO terms. But messy to deal with alt-ids and obsoleting terms in XAO
 *New plan: see link
 **At end of year 1 would clone out AAO (keepign origianl AAO ids) terms not in Xenopus added back to AAO
