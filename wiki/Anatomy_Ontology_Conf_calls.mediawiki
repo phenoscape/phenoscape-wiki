@@ -2,14 +2,10 @@
 title: Anatomy Ontology Conf calls
 ---
 
-* Dial-in Number:  800.505.4464, participant passcode 784002#
-<!--1-213-289-0500, Access Code: 279610-->
-* Adobe Connect: http://dukeuniversity.acrobat.com/phenoscape
-
 '''Weekly anatomy ontology calls are held on Mondays, 11:00 am-12:00 pm EDT.'''
 
 == July 18, 2011 ==
-'''Attending:'''  
+'''Attending:'''
 
 === Agenda ===
 Discuss strategies for [http://obofoundry.org/wiki/index.php/Strategies_for_cross-species_ontology_synchronization cross-species ontology synchronization]
@@ -49,11 +45,11 @@ Discuss strategies for [http://obofoundry.org/wiki/index.php/Strategies_for_cros
 *macro-xrefs tralsated into owl: ZFA term is the equivalent of the TAO term
 *Beware if two terms xref a single term: indicates that there is a duplicate term (error)
 
-Aaron: XAO will be adding upwards of several thousand terms, many embryological; will ref ZFA, VAO, CARO 
+Aaron: XAO will be adding upwards of several thousand terms, many embryological; will ref ZFA, VAO, CARO
 * will be done manually, case by case basis, - are there tools for automating this?
 * '''Action item''': Chris and Jim to discuss tools for adding large chunks of ontologies to other ontologies - Paula suggests involving Jeff Bowes
 *Chris: mapping issue here: don't xref at sibling level (e.g., XAO shouldn't xref ZFA), should inherit the term
-*Long term goal for XAO is to follow import model; 
+*Long term goal for XAO is to follow import model;
 
 Chris: need generic guidelines for when to subtype and when to merge
 *when need to designate develops_from relationship that is not general, would create a subclass rather than add relationship at amphibian level
@@ -72,21 +68,21 @@ Decided to keep this time slot for project specific issues but there is interest
 '''Attending:''' Monte Westerfield, Paula Mabee, Judy Blake, Aaron Zorn, Jeff Bowes, Wasila Dahdul, Jim Balhoff, Terry Hayamizu
 
 ===Agenda===
-* Judy:  
-** Discussion on how to initiate the Amniote Anatomy Ontology for terms outside skeletal system  
-** Report on status of unified anatomy [emap + MA] 
+* Judy:
+** Discussion on how to initiate the Amniote Anatomy Ontology for terms outside skeletal system
+** Report on status of unified anatomy [emap + MA]
 ** What exactly is abstract mouse?
-** Clone MA, UBERON, unified mouse [emap + MA], or abstract mouse? 
-* Monte: 
+** Clone MA, UBERON, unified mouse [emap + MA], or abstract mouse?
+* Monte:
 ** Discussion on moving ZFA to GO like model; possibility of implementing VAO import (so that XAO can just clone this VAO chunk when they also clone the rest of ZFA)
-* Aaron and Jeff: 
+* Aaron and Jeff:
 ** Discussion on setting up modular ontology model and specifics of importing model species-specific information (like devo stage)
 
 === Action items resulting from call:===
 * Monte: Charge to the zfin group (from Monte) is to write up plan and potential problems
 * Judy: Will send Jim contact for Amelia Ireland for diff
 * All: short term goal to add xrefs to VAO to ZFA, XAO, MA
-* Wasila: give VAO write access to other groups 
+* Wasila: give VAO write access to other groups
 * Wasila: find out how often UBERON gets updated '''-- done WD 6/25/2011'''
 * Wasila: Schedule weekly meeting to sort out what is happening in these AOs, beginning in July '''-- done WD 6/25/2011'''
 
@@ -94,43 +90,43 @@ Decided to keep this time slot for project specific issues but there is interest
 
 * Wasila will demonstrate diffs between Uberon and MA using non-skeletal terms
 ** e.g. 'naris' in mouse is 'part of nose'
-** e.g. 'naris' in uberon with lots of xrefs but missing relationship 'part of' olfactory apparatus 
+** e.g. 'naris' in uberon with lots of xrefs but missing relationship 'part of' olfactory apparatus
 ** not sure how often Chris updates Uberon
 *Terry - developed adult Mouse Anatomy; working with Edinburgh group to update their ontology
 ** 'unified mouse anatomy' not an official term, just a descriptor
-** Ed. developmental mouse anatomy developed 15 years ago in an effort to code mouse expressiondata.  Built along lines of an atlas by kauffman and baird; partonomy; Used for expression annotation by ... for years now.  Two parts: abstract mouse which is a time -inedpent collection of terms in a hierarhy not a dag; and from that extracted stage-dependent hierarchies.  stage 28 is postnatal -- this is not developed at all.  8-10 years ago, a postnatal developed by jax.  jax added is-a and expanded on stages.  Examined all relevant ontologies in updating.  Two entities (MA vs. developmental) not connected currently -- working to make it an anatomy ontology encompassing the whole of mouse development.  
-** Q: re: timeline?  Terry:  within next two weeks could give clearer answer. 
+** Ed. developmental mouse anatomy developed 15 years ago in an effort to code mouse expressiondata.  Built along lines of an atlas by kauffman and baird; partonomy; Used for expression annotation by ... for years now.  Two parts: abstract mouse which is a time -inedpent collection of terms in a hierarhy not a dag; and from that extracted stage-dependent hierarchies.  stage 28 is postnatal -- this is not developed at all.  8-10 years ago, a postnatal developed by jax.  jax added is-a and expanded on stages.  Examined all relevant ontologies in updating.  Two entities (MA vs. developmental) not connected currently -- working to make it an anatomy ontology encompassing the whole of mouse development.
+** Q: re: timeline?  Terry:  within next two weeks could give clearer answer.
 ** would like to work with rest of ao community to make it a resource that will best serve needs of community.  It works for expression and for phenotype, but needs to work better for other communities. Have updated based on other working groups.   Would like to work to update weak points.
 ** Judy - Terry funded for small portion of time on issues relevant to project
 ** Wasila - use mouse
-** Judy -- start with MA, great place to start.  Talk with Chris to see where he last updated and worked with it.  
-** Terry -- Uberon - made an effort to take into consideration only things that are shared - not less valuable for it; structurally less consistent than mouse; mouse is lacking becuase of roots in ed anatomy and purpose for expression -- so the high level structure is a partonomy; first level division into regions, then into organ systems, etc.  Need to think about primary goals of new ontology.  Where along tree does it no longer serve amniotes or chickens?  
-** Some avian terms are already in uberon -- use mixed approach.  Also uberon follows more of a is_a approach; 
-** MA, Uberon, VAO, AmAO are all separate right now; good documentation of proposed changes; 
+** Judy -- start with MA, great place to start.  Talk with Chris to see where he last updated and worked with it.
+** Terry -- Uberon - made an effort to take into consideration only things that are shared - not less valuable for it; structurally less consistent than mouse; mouse is lacking becuase of roots in ed anatomy and purpose for expression -- so the high level structure is a partonomy; first level division into regions, then into organ systems, etc.  Need to think about primary goals of new ontology.  Where along tree does it no longer serve amniotes or chickens?
+** Some avian terms are already in uberon -- use mixed approach.  Also uberon follows more of a is_a approach;
+** MA, Uberon, VAO, AmAO are all separate right now; good documentation of proposed changes;
 * Judy: suggestion -- all work together on one aspect at a time - start with limb/fin
-* Terry: Historically for MA, when significant changes made, to a section in response to some input; not a constant stream of changes; structurally and in terms of big picture, not changes often.  Need to do in coordination. 
+* Terry: Historically for MA, when significant changes made, to a section in response to some input; not a constant stream of changes; structurally and in terms of big picture, not changes often.  Need to do in coordination.
 * Wasila: Conclude -- need mixed approach
 
-* Monte: 
-**Need to improve ways of synchronizing zfish ontology with vao, uberon, etc.  Met with db admins etc. to discuss future re: ontologies and new mechanism to stay in synch.  Potential problem is that lead curator out on maternity leave, so people he discussed it with not necessarily in charge, but they understood basic issue.  Charge to the zfin group (from Monte) is to write up plan and potential problems.  Briefly -- problem how to grow two ontologies grow in synch.  Big concern that curators have is if they become dependent on outside group such as Phenoscape, there could be changes made without consideration for the implications of zfin.  Also, term request brokerage rights need to be grant to zfin.  Need to work out sop for how updates are made.  
-** Concern how we represent developmental staging.  Start and stop times in same db table.  If bringing in terms from outside resource, will break the devo and it will have to be moved to an outside table.  This has implications for xao.  If xao is dependent on zfin, this will take some time.  
-* Aaron: best way to go is to clone zfa.  Have to develop ways to import VAO.  
+* Monte:
+**Need to improve ways of synchronizing zfish ontology with vao, uberon, etc.  Met with db admins etc. to discuss future re: ontologies and new mechanism to stay in synch.  Potential problem is that lead curator out on maternity leave, so people he discussed it with not necessarily in charge, but they understood basic issue.  Charge to the zfin group (from Monte) is to write up plan and potential problems.  Briefly -- problem how to grow two ontologies grow in synch.  Big concern that curators have is if they become dependent on outside group such as Phenoscape, there could be changes made without consideration for the implications of zfin.  Also, term request brokerage rights need to be grant to zfin.  Need to work out sop for how updates are made.
+** Concern how we represent developmental staging.  Start and stop times in same db table.  If bringing in terms from outside resource, will break the devo and it will have to be moved to an outside table.  This has implications for xao.  If xao is dependent on zfin, this will take some time.
+* Aaron: best way to go is to clone zfa.  Have to develop ways to import VAO.
 * Jeff: Inheritance structure?
 * Wasila: Yes, direct links
 * Jeff: inheritance from next highest ontology? correct?
 * Wasila: Yes, go up to next higher level ontology.
-* Jeff: Given current architecture, not hard to do.  However concerns about changing higher level terms and effects on lower level terms. 
+* Jeff: Given current architecture, not hard to do.  However concerns about changing higher level terms and effects on lower level terms.
 * Monte: talked about how zfin does with go currently - via diffs list - not overly onerous - but have to have sop - can run checks on reasoning, but human will have to fix a couple of things
 * Judy - -yes
 * Aaron: VAO not complete for all organ systems....how does this work?
 * Jeff: This is ok -- for terms that exist in VAO, we can show as inherited.
 * Jeff: Development not taken into account in higher-level ontologies. Have to have a way to associate development with terms.  Just show which terms are inherited and maintain just as we do now.
-* Aaron: Will clone vao and zfa terms and keep xrefs.  When we transition to other system, can track what we are importing.  
-** In short term, clone vao terms into xao - ok?  
+* Aaron: Will clone vao and zfa terms and keep xrefs.  When we transition to other system, can track what we are importing.
+** In short term, clone vao terms into xao - ok?
 * Short term goal: Add xrefs to VAO to ZFA, XAO, MA
 * Judy: weekly meeting to sort out what is happening in these anatomies?
 * Wasila: yes, it would be useful
-* Aaron: jamboree approach -- 
+* Aaron: jamboree approach --
 * Judy: Even a 1/2 hour check up
 * Wasila: Even a open weekly call
 * Judy: open up wiki for agenda building and notes
@@ -138,8 +134,8 @@ Decided to keep this time slot for project specific issues but there is interest
 * Paula: Most efficient way to add xrefs to VAO to zfa etc.?
 * Monte: ZFA  and XAO etc. need write access to VAO
 * Paula: Jim -- how to get this diff file automatically generated?
-* Judy: Will send Jim contact for Amelia Ireland for diff 
-* Wasila: Will give write access to VAO to other groups.  Will be making lots of changes over next two months.  
+* Judy: Will send Jim contact for Amelia Ireland for diff
+* Wasila: Will give write access to VAO to other groups.  Will be making lots of changes over next two months.
 * Paula: How coordinated in GO?
 * Judy: Webex every/most mornings by the GO development team, share screen and work together ---additions at leaves easy; others assigned to people; coordination - big branches worked on by whole group
 * bowes@ucalgary.ca and terry to be added to email list; Wasila will send out notes
