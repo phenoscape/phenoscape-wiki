@@ -41,7 +41,7 @@ Discuss strategies for [http://obofoundry.org/wiki/index.php/Strategies_for_cros
 ** Uberon xrefs AAO; easier to do from purpose of synchronization
 ** currently XAO xrefs ZFA - should they be maintained? Keep as historical record and leave as xrefs without defined semantics; don't rush to get rid of
 WD: should AAO hold xrefs to Uberon or Uberon to AAO? CM: doesn't matter which file it lives in - need a bridging file which contains axioms for xrefs
-* Workflow: if XAO need a new term, where to get them? Better to get term from higher level
+* '''XAO workflow''': if XAO need a new term, where to get them? Better to get term from higher level
 ** in order of preference for a new term: AAO, VAO, Uberon, ZFA, create new term (no xref needed)
 ** if AAO xrefs VAO, then VAO ID should be used preferentially over AAO id
 
