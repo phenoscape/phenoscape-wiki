@@ -55,7 +55,7 @@ ZFA terms are cross referenced to TAO terms, and these cross references will be 
 '''Next target release date:'''
 
 '''Features:'''
-* AAO terms will be merged with XAO terms
+* AAO and VAO terms will be cross-referenced
 * Cross references to VAO musculo-skeletal terms will be added
 
 === Mouse Adult Gross Anatomy (MA) ===
