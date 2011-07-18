@@ -33,7 +33,7 @@ Discuss strategies for [http://obofoundry.org/wiki/index.php/Strategies_for_cros
 '''Species specific ontologies and [http://obofoundry.org/wiki/index.php/Strategies_for_cross-species_ontology_synchronization#Provide_explicit_cross-species_axioms macro x-refs]'''
 * XAO/AAO plan originally involved merging AAO into XAO, with AAO terms being alt-ids ot XAO terms. But messy to deal with alt-ids and obsoleting terms in XAO
 *New plan: see link
-**At end of year 1 would clone out AAO (keepign origianl AAO ids) terms not in Xenopus added back to AAO
+**At end of year 1 would clone out AAO (keeping original AAO ids) terms not in Xenopus added back to AAO
 **OK to add VAO xrefs (with David) to AAO now and then
 **XAO would preferentially xref VAO terms where they are available
 **Primary location of xrefs would be in XAO now; the ssAOs hold xrefs to multispecies
@@ -44,6 +44,7 @@ WD: should AAO hold xrefs to Uberon or Uberon to AAO? CM: doesn't matter which f
 * '''XAO workflow''': if XAO need a new term, where to get them? Better to get term from higher level
 ** in order of preference for a new term: AAO, VAO, Uberon, ZFA, create new term (no xref needed)
 ** if AAO xrefs VAO, then VAO ID should be used preferentially over AAO id
+** non-skel terms not added to AAO until cloning
 
 *Should terms be directlly requested from Uberon? Could do that or on the other hand, UBeron will pick up new terms when it gets updated
 *When pulling terms from above and definition is terrible, then start an external dialogue to fix it.
