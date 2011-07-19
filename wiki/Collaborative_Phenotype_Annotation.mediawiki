@@ -23,13 +23,11 @@ The [http://mx.phenomix.org/index.php/Main_Page MX web application] is being enh
 * reliance on BioPortal web services for ontology data
 * less independence for anonymous user - requires server management, project accounts
 
-
 ==Phenex pros==
 * outputs files ready for KB; workflow in place
 * integrates OBO-Edit code for ontology visualization and query
 * "simple", targeted interface
 * easy to point to customized versions of ontologies
-
 
 ==Phenex cons==
 * less flexible interface
