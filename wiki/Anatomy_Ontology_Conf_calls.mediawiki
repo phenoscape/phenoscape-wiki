@@ -9,7 +9,8 @@ title: Anatomy Ontology Conf calls
 
 === Agenda ===
 Review Obo-Edit Synchronization Tool
-[https://www.phenoscape.org/wiki/Synchronization_Tool Download Synch tool plugin]
+
+[https://www.phenoscape.org/wiki/Synchronization_Tool Download Synch Tool plugin]
 
 == July 18, 2011 ==
 '''Attending:''' Terry, Christina, VG, Paula, Chris, Dave, Erik, Wasila
