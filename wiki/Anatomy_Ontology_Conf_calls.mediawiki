@@ -12,6 +12,27 @@ Review Obo-Edit Synchronization Tool
 
 [https://www.phenoscape.org/wiki/Synchronization_Tool Download Synch Tool plugin]
 
+=== Minutes ===
+
+For obsoleted terms, give reason for obsoletion in comments field
+
+Features and bug reports (already on request tracker)
+* indicate (by color) and filter obsolete terms
+* Conflicting data tab: synonyms not copied over
+* Missing terms: filter TAO terms with never_in_taxon links to D. rerio
+
+Some conflicting data will be ok. For example, a ZFA definition may begin with the broad genus-differentia definition shared with the corresponding TAO term, followed by zfish specific information not in TAO definition. 
+
+Discuss use of local file that keeps track of differences one would want to maintain between synchronized ontologies, e.g., differences among relationships, definitions, synonymes, etc.
+
+Chris long term synchronization goal might be to use annotations to guide ontology synch. For example, vertebra 1 part_of Weberian apparatus in Danio rerio allows this relationship in ZFA and explains its absence in TAO. 
+
+Could also make use of textual annotations for synchronization
+
+Working plan: update synch tool with easy fixes and requests, and reassess its use after one year
+
+Chris: instantiating everything in TAO is probably not necessary (e.g., every term added to ZFA currently gets duplicated in TAO). In some cases, ZFA would have very specific terms defined based on zfish research but unknown in other teleosts. Should still be able to search genes on these terms because
+
 == July 18, 2011 ==
 '''Attending:''' Terry, Christina, VG, Paula, Chris, Dave, Erik, Wasila
 
