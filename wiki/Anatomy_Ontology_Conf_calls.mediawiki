@@ -18,12 +18,10 @@ For obsoleted terms, give reason for obsoletion in comments field
 
 '''Synch tool review'''
 #Features and bug reports (already on request tracker)
-* indicate (by color) and filter obsolete terms
-* Conflicting data tab: synonyms not copied over
-* Missing terms: filter TAO terms with never_in_taxon links to D. rerio
-
+#* indicate (by color) and filter obsolete terms
+#* Conflicting data tab: synonyms not copied over
+#* Missing terms: filter TAO terms with never_in_taxon links to D. rerio
 #Some conflicting data will be ok. For example, a ZFA definition may begin with the broad genus-differentia definition shared with the corresponding TAO term, followed by zfish specific information not in TAO definition.
-
 #To maintain needed differences between ontologies (e.g., differences between defs, relationships, synonyms), synch tool could interact with a local file that keeps track of differences so that curator doesn't need to review these in each synch session
 
 '''Long-term synch goals'''
