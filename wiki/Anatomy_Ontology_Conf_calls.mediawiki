@@ -16,7 +16,7 @@ title: Anatomy Ontology Conf calls
 === Agenda ===
 Review Obo-Edit Synchronization Tool
 
-[https://www.phenoscape.org/wiki/Synchronization_Tool Download Synch Tool plugin]
+[https://www.phenoscape.org/wiki/Synchronization_Tool Download Sync Tool plugin]
 
 === Minutes ===
 
