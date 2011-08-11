@@ -8,7 +8,7 @@ Much of the schedule is based on the [[MEDIA:Dryad.proj.descr.07.pdf|2007 NSF gr
 
 ==1. Scalable workflow==
 Primary personnel: Hong Cui, Jim, Todd, UNC postdoc, MS student
-Overall objective: 
+Overall objective:
 
 === Target milestone: First quarter: October 1, 2011  ===
 Objective: Develop NLP to generate potential ontology terms and candidate EQ's in Phenex
@@ -30,16 +30,9 @@ Action items:
 === Target milestone: Fourth quarter:July 1, 2012  ===
 
 
-Data deposition:
-* Authors can update datafiles.  The [[Versioning|versioning system]] will be supported by DOIs and data citation conventions.
-
 ==2. Anatomy ontology coordination==
 
-'''Target release date:''' December 20, 2011
 
-Data deposition:
-* Detailed citation storage/export (migration to the version 3 metadata model).
-* Authors can [[Coauthor PIN|delegate submission authority]] to co-authors or other collaborators.
 
 ==3. Homology reasoning==
 
