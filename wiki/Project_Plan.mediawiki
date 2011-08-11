@@ -14,12 +14,12 @@ Overall objective:
 Objective: Develop NLP to generate potential ontology terms and candidate EQ's in Phenex
 * Generate list of terms to be added to ontologies (Hong)
 * Evaluate accuracy of automated EQs on 50 character test set, refine testing set and methodology, begin development of Phenex ‘EQ suggestion’ interface requirements/specifications
-* Identify corpus of publications, extract character descriptions 
+* Identify corpus of publications, extract character descriptions
 * Generate entities and qualities that can be identified, with frequency and ontology match
 
-Action items: 
+Action items:
 Wasila to send Hong the PDFs containing characters from the 50 char list - done
-Action item: Wasila to send Paul a curated pub 
+Action item: Wasila to send Paul a curated pub
 Action Item: Jim will send Hong full database report with character text and EQ assignments
 Jim: to enumerate pros and cons for MX (web-based) and Phenex for first phone call, estimate development time
 
