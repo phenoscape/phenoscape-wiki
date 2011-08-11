@@ -16,7 +16,7 @@ These ontologies will keep changing to accommodate our community needs, and they
 [http://www.phenoscape.org/wiki/Project_Plan Project Plan]
 
 Phenoscape is coordinating the integration of model organism (zebrafish, Xenopus, mouse) and multi-species (teleost, amphibian, amniote) anatomy ontologies for vertebrates. The [http://www.phenoscape.org/wiki/Anatomy_Ontology_Development_Plan development plan and release schedule] for these anatomy ontologies detail the working plan for their integration. We hold a weekly project [https://www.phenoscape.org/wiki/Anatomy_Ontology_Conf_calls anatomy ontology conference call] to discuss development with the curators of these ontologies.
-[http://www.phenoscape.org/wiki/Project_Plan Project Plan]
+
 '''Vertebrate anatomy term tracker'''
 
 Ontology update requests can be made on the Vertebrate Anatomy term request tracker. Requests are forwarded to the vertebrate anatomy mailing list.
