@@ -14,7 +14,7 @@ A broad community of users will participate through the lifecycle of this projec
 
 {{Box1|The detail project plan below is primarily for the use of the Phenoscape personnel, but most of the content is open for read-only access.}}
 
-{{Box1|This wiki is primarily for the use of the Dryad development team, but most of the content is open for read-only access. .}}
+{{Box1|This wiki is primarily for the use of the Dryad development team, but most of the content is open for read-only access. To access the Dryad repository, go to [http://www.datadryad.org/ DataDryad.org]. Dryad-specific source code and documentation is available at [http://code.google.com/p/dryad/ Google Code]. For the latest news on the project, and the occasional opinion piece, check out [http://blog.datadryad.org Dryad News and Views].}}
 
 
 Much of the schedule is based on the [[MEDIA:pdf here|1 July 2011 funded NSF grant]], with revisions .....
