@@ -12,10 +12,7 @@ Human-readable descriptions of “phenotypic” properties such as anatomy and b
 3. Indicate how your project addresses criteria specific to Development
 A broad community of users will participate through the lifecycle of this project in the development of community standards and resources for the interoperability and computability of phenotypic knowledge. This will be achieved through workshops, usability testing sessions, and coordination with key research networks.  Stakeholder ownership will be enhanced by rapid and open release of a variety of products that we anticipate to be of immediate and enduring value to the greater biology community, including tools for streamlining data curation and performing large-scale semantic similarity searches, high quality vertebrate taxonomy and anatomy ontologies, and standards for reasoning over homology.   We will provide a unique training environment for students, postdocs and summer interns, including Native Americans through outreach at the University of South Dakota and minority and female students though a collaboration with Project Exploration at the University of Chicago.  Project progress and outcomes will be disseminated through both traditional and online outlets for scholarly communication (including blog posts at mailing lists); the primary web presence will be at https://www.phenoscape.org/wiki/.
 
-{{Box1|The detail project plan below is primarily for the use of the Phenoscape personnel, but most of the content is open for read-only access.}}
-
-{{Box1|This wiki is primarily for the use of the Dryad development team, but most of the content is open for read-only access. To access the Dryad repository, go to [http://www.datadryad.org/ DataDryad.org]. Dryad-specific source code and documentation is available at [http://code.google.com/p/dryad/ Google Code]. For the latest news on the project, and the occasional opinion piece, check out [http://blog.datadryad.org Dryad News and Views].}}
-
+{{Box1|The detailed project plan below is primarily for the use of the Phenoscape personnel, but most of the content is open for read-only access.}}
 
 Much of the schedule is based on the [[MEDIA:pdf here|1 July 2011 funded NSF grant]], with revisions .....
 
