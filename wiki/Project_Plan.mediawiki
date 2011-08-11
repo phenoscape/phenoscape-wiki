@@ -38,8 +38,7 @@ Action items:
 =2. Anatomy ontology coordination (Wasila to fill in)=
 
 
-=3. Homology reasoning (Paula, Hilmar to fill in)=
-
+=3. Homology (Paula, Hilmar to fill in)=
 
 =4. Phenoblast and OBD/OWL (Todd, Jim? to fill in)=
 
