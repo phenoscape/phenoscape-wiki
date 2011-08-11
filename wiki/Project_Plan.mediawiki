@@ -28,6 +28,9 @@ Action items:
 === Target milestone: Second quarter: January 1, 2012  ===
 === Target milestone: Third quarter: April 1, 2012  ===
 === Target milestone: Fourth quarter:July 1, 2012  ===
+=== Target milestone: Year 2:July 1, 2013  ===
+=== Target milestone: Year 3:July 1, 2014  ===
+=== Target milestone: Year 4:July 1, 2015  ===
 
 ==Term broker (collab with NCBO) ==
 === Target milestone: First quarter: October 1, 2011  ===
