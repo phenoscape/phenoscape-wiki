@@ -2,11 +2,11 @@
 title: Project Plan
 ---
 
-=Project components=
+=1. Scalable workflow=
 
 Much of the schedule is based on the [[MEDIA:Dryad.proj.descr.07.pdf|2007 NSF grant]], with amendments by the Dryad Consortium Management Board and subsequent grant commitments. For Dryad project developers and associates, a (private) [[WG:Detailed Development Plan|detailed development plan]] is available.  For completed releases, see the [[Release Notes]].  The [[Repository Development Plan 2006|original project plan]] is still available.
 
-==1. Scalable workflow==
+==NLP work to generate potential ontology terms and candidate EQs in Phenex==
 Primary personnel: Hong Cui, Jim, Todd, UNC postdoc, MS student
 Overall objective:
 
@@ -29,6 +29,11 @@ Action items:
 === Target milestone: Third quarter: April 1, 2012  ===
 === Target milestone: Fourth quarter:July 1, 2012  ===
 
+==Term broker (collab with NCBO) ==
+=== Target milestone: First quarter: October 1, 2011  ===
+=== Target milestone: Second quarter: January 1, 2012  ===
+=== Target milestone: Third quarter: April 1, 2012  ===
+=== Target milestone: Fourth quarter:July 1, 2012  ===
 
 ==2. Anatomy ontology coordination==
 
