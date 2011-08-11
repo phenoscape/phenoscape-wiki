@@ -14,13 +14,18 @@ Much of the schedule is based on the [[MEDIA:Dryad.proj.descr.07.pdf|2007 NSF gr
 Data deposition:
 * Authors can update datafiles.  The [[Versioning|versioning system]] will be supported by DOIs and data citation conventions.
 
-=== Anatomy ontology coordination===
+==Anatomy ontology coordination==
 
 '''Target release date:''' December 20, 2011
 
 Data deposition:
 * Detailed citation storage/export (migration to the version 3 metadata model).
 * Authors can [[Coauthor PIN|delegate submission authority]] to co-authors or other collaborators.
+
+==Homology reasoning==
+
+
+==Phenoblast and OBD/OWL==
 
 [[Category:Project Management]]
 [[Category:Software]]
