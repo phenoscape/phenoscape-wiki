@@ -35,14 +35,13 @@ Action items:
 === Target milestone: Third quarter: April 1, 2012  ===
 === Target milestone: Fourth quarter:July 1, 2012  ===
 
-==2. Anatomy ontology coordination==
+=2. Anatomy ontology coordination (Wasila to fill in)=
 
 
+=3. Homology reasoning (Paula, Hilmar to fill in)=
 
-==3. Homology reasoning==
 
-
-==4. Phenoblast and OBD/OWL==
+=4. Phenoblast and OBD/OWL (Todd, Jim? to fill in)=
 
 [[Category:Project Management]]
 [[Category:Software]]
