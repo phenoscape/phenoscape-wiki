@@ -1,0 +1,15 @@
+---
+title: Project Plan
+---
+
+The goals of the phenoscape project include.....  Below are the proximate and long-term milestones that project personnel reference and update in the course of this work.
+
+{{EventBox1|==Scalable workflow==
+The overall goal of this objective is to create.....
+
+===About this project===
+
+
+===Anatomy ontologies===
+
+===Homology reasoning===
