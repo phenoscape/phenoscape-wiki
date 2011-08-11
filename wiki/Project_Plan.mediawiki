@@ -2,7 +2,7 @@
 title: Project Plan
 ---
 
-Much of the schedule below is based on the [[MEDIA:pdf here|2011 NSF grant]].  Differences between what we is proposed in the grant follow from revisions required by budget cuts.  Support for curation, particularly in the model organism databases, is significantly reduced, particularly in years 3 and 4.  This will impact our ability to respond as any problems arise with integration of the evolutionary data and somewhat compromise our ability to rigorously evaluate the tools being developed. Additionally, we will scale back the development goals for the semantic similarity search engine, focussing our efforts on achieving scalability and speedup.  We have also frontloaded the plans for execution of the NLP work to achieve a scalable workflow as early as possible in the process.  Despite this, we are confident that we will be able to demonstrate the utility of the software and reasoning tools with the proposed funding.
+Much of the schedule below is based on the [[MEDIA:pdf here|2011 NSF grant]].  Our development schedule is revised as below in concert with budget cuts.  Relative to the original proposal the support for curation, particularly in the model organism databases, is significantly reduced.  This will impact our ability to respond as any problems arise with integration of the evolutionary data and somewhat compromise our ability to rigorously evaluate the tools being developed. Additionally, we will scale back the development goals for the semantic similarity search engine, focussing our efforts on achieving scalability and speedup.  We have also frontloaded the plans for execution of the NLP work to achieve a scalable workflow as early as possible in the process.  
 
 =1. Scalable workflow=
 The overall objective of this is to .....
@@ -50,7 +50,7 @@ Action items:
 ==Homology reasoning==
 ==Homology assertions==
 
-=5. Phenoblast and OBD/OWL (Todd, Jim? to fill in)=
+=5. Semantic similarity search engine (aka Phenoblast) and OBD/OWL (Todd, Jim? to fill in)=
 
 =6. Knowledgebase reasoning and development
 
