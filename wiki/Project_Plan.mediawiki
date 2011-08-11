@@ -7,12 +7,11 @@ title: Project Plan
 Much of the schedule is based on the [[MEDIA:Dryad.proj.descr.07.pdf|2007 NSF grant]], with amendments by the Dryad Consortium Management Board and subsequent grant commitments. For Dryad project developers and associates, a (private) [[WG:Detailed Development Plan|detailed development plan]] is available.  For completed releases, see the [[Release Notes]].  The [[Repository Development Plan 2006|original project plan]] is still available.
 
 ==1. Scalable workflow==
-=== Release 2.0 - 2nd quarter ===
+=== Target milestone: First quarter: October 1, 2011  ===
+=== Target milestone: First quarter: January 1, 2012  ===
+=== Target milestone: First quarter: April 1, 2012  ===
+=== Target milestone: First quarter:July 1, 2012  ===
 
-'''Target milestone: First quarter: ''' October 1, 2011
-'''Target milestone: Second quarter: ''' January 1, 2012
-'''Target milestone: Third quarter: ''' April 1, 2012
-'''Target milestone: 1 year''' July 1, 2012
 
 Data deposition:
 * Authors can update datafiles.  The [[Versioning|versioning system]] will be supported by DOIs and data citation conventions.
