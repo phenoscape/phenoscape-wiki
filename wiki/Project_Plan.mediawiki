@@ -22,6 +22,8 @@ Action items:
 *Action item: Wasila to send Paul a curated pub
 *Action Item: Jim will send Hong full database report with character text and EQ assignments
 *Jim: to enumerate pros and cons for MX (web-based) and Phenex for first phone call, estimate development time
+*Hong: Hire MS student at AZ
+*Todd: Hire UNC postdoc
 
 === Target milestone: Second quarter: January 1, 2012  ===
 === Target milestone: Third quarter: April 1, 2012  ===
