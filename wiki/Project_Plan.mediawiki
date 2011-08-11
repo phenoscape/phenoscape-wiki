@@ -4,7 +4,7 @@ title: Project Plan
 
 =1. Scalable workflow=
 
-Much of the schedule is based on the [[MEDIA:Dryad.proj.descr.07.pdf|2007 NSF grant]], with amendments by the Dryad Consortium Management Board and subsequent grant commitments. For Dryad project developers and associates, a (private) [[WG:Detailed Development Plan|detailed development plan]] is available.  
+Much of the schedule is based on the [[MEDIA:Dryad.proj.descr.07.pdf|2007 NSF grant]], with amendments by the Dryad Consortium Management Board and subsequent grant commitments. For Dryad project developers and associates, a (private) [[WG:Detailed Development Plan|detailed development plan]] is available.
 
 ==NLP work to generate potential ontology terms and candidate EQs in Phenex==
 Primary personnel: Hong Cui, Jim, Todd, UNC postdoc, MS student
@@ -35,12 +35,24 @@ Action items:
 === Target milestone: Third quarter: April 1, 2012  ===
 === Target milestone: Fourth quarter:July 1, 2012  ===
 
-=2. Anatomy ontology coordination (Wasila to fill in)=
+=2. Ontology development and coordination (Wasila to fill in)=
+==Anatomy ontologies==
+==Taxonomy ontologies==
 
+=3. Phenotype annotation=
+==Evolutionary phenotypes==
+==Model organism phenotypes==
 
-=3. Homology (Paula, Hilmar to fill in)=
+=4. Homology (Paula to fill in and check with Hilmar)=
+==Homology reasoning==
+==Homology assertions==
 
-=4. Phenoblast and OBD/OWL (Todd, Jim? to fill in)=
+=5. Phenoblast and OBD/OWL (Todd, Jim? to fill in)=
+
+=6. Knowledgebase reasoning and development
+
+=7. Capstone=
+==component 1==
 
 [[Category:Project Management]]
 [[Category:Software]]
