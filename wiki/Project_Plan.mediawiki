@@ -2,11 +2,11 @@
 title: Project Plan
 ---
 
-=Feature Release Schedule=
+=Project components=
 
 Much of the schedule is based on the [[MEDIA:Dryad.proj.descr.07.pdf|2007 NSF grant]], with amendments by the Dryad Consortium Management Board and subsequent grant commitments. For Dryad project developers and associates, a (private) [[WG:Detailed Development Plan|detailed development plan]] is available.  For completed releases, see the [[Release Notes]].  The [[Repository Development Plan 2006|original project plan]] is still available.
 
-==2011==
+==Scalable workflow==
 === Release 2.0 - 2nd quarter ===
 
 '''Target release date:''' June 30, 2011
@@ -14,49 +14,13 @@ Much of the schedule is based on the [[MEDIA:Dryad.proj.descr.07.pdf|2007 NSF gr
 Data deposition:
 * Authors can update datafiles.  The [[Versioning|versioning system]] will be supported by DOIs and data citation conventions.
 
-Search and retrieval:
-* Integrated display that allows direct download of data from the Dryad page for a data package.
-
-Data curation:
-* Experiment with curator-supervised, [[Automatic Metadata Extraction|automated enhancement of metadata]] (e.g. mining text and data for terms from controlled vocabularies)
-
-=== Release 2.1 ===
-
-'''Target release date:''' September 30, 2011
-
-Data deposition:
-*Authors will be able to pull up information on previously published articles at the time of data submission using the DOI.
-* Improved support for archiving of software.
-* Handshaking with [[GenBank Submission Integration|GenBank]].
-
-Search and retrieval:
-* [[Journal_Landing_Page_Mockups|Landing pages]] for partner journals.
-* Publish contents as linked data.
-
-Data curation
-* Develop [[Curator Tools|tools required to support curation level 1]] (including validation of publication of metadata, DOI lookup).
-
-=== Release 2.2 ===
+=== Anatomy ontology coordination===
 
 '''Target release date:''' December 20, 2011
 
 Data deposition:
 * Detailed citation storage/export (migration to the version 3 metadata model).
 * Authors can [[Coauthor PIN|delegate submission authority]] to co-authors or other collaborators.
-
-Search and retrieval:
-* Search over hierarchical concepts (e.g., "all lizards") using vocabularies and ontologies (including taxa, keywords, geonames).
-* Documentation available in alternate languages.
-* Publish contents as linked data.
-* Dryad content searchable and replicated through the [http://dataone.org DataONE] network.
-
-
-Data curation:
-* Develop tools required to support curation level 2 (e.g., tool for verifying file formats and properties).
-
-Other:
-* Support for journal subscriptions.
-* [[DryadLab|Publish educational content]] for classroom use based on analysis of data in Dryad
 
 [[Category:Project Management]]
 [[Category:Software]]
