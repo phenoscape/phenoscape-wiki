@@ -1360,9 +1360,9 @@ JSON
 
 '''URI'''
 
- <BASE URI>/phenotype/variationsets?taxon=[taxonID]&query=[url-encoded-json]
+ <BASE URI>/phenotype/variationsets?taxon=[taxonID]&exclude_unannotated=[true|false]&exclude_attribute=[true|false]&query=[url-encoded-json]
 
-The JSON-formatted query specification should contain only a single phenotype. The <code>taxon</code> parameter is optional. If included, the results will contain variation sets for  the taxon's children. If not provided, the service will return data the highest taxon which has children in more than one variation set (useful for starting the tree display).
+The JSON-formatted query specification should contain only a single phenotype. The <code>taxon</code> parameter is optional. If included, the results will contain variation sets for  the taxon's children. If not provided, the service will return data the highest taxon which has children in more than one variation set (useful for starting the tree display). If <code>exclude_unannotated</code> is true, no child taxa without annotations to the given phenotype will be returned. If <code>exclude_attribute</code> is true, annotations to the queried attribute (and no more specific quality) will not be returned.
 
 '''Phenotype query specification'''
 
