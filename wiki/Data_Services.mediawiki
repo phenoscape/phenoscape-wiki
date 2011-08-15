@@ -1392,45 +1392,51 @@ It should be URL-encoded to include in the request.
 JSON
 <javascript>
 {
-    "matches": [{
-        "taxon_id": "TTO:10000304",
-        "greatest_profile_match": 1
+    "phenotype_sets": [{
+        "phenotypes": [{
+            "entity": {
+                "id": "TAO:0001058",
+                "name": "caudal fin"
+            },
+            "quality": {
+                "id": "PATO:0001784",
+                "name": "bifurcated"
+            }
+        }],
+        "taxa": ["TTO:11020", "TTO:103997", "TTO:109064", "TTO:10980", "TTO:10940", "TTO:107212", "TTO:11085", "TTO:11160", "TTO:10960", "TTO:102898", "TTO:10920", "TTO:101648", "TTO:102441", "TTO:101629", "TTO:10990", "TTO:11010", "TTO:11080", "TTO:11130", "TTO:107449", "TTO:10000017", "TTO:11110", "TTO:109385", "TTO:11180", "TTO:10000012", "TTO:10950", "TTO:10970", "TTO:10000015", "TTO:101263", "TTO:10000014"]
     },
     {
-        "taxon_id": "TTO:10000293",
-        "greatest_profile_match": 1
-    },
-    {
-        "taxon_id": "TTO:251",
-        "greatest_profile_match": 2
-    },
-    {
-        "taxon_id": "TTO:10000352",
-        "greatest_profile_match": 1
-    },
-    {
-        "taxon_id": "TTO:10000326",
-        "greatest_profile_match": 1
-    },
-    {
-        "taxon_id": "TTO:10000316",
-        "greatest_profile_match": 1
-    },
-    {
-        "taxon_id": "TTO:254",
-        "greatest_profile_match": 2
-    },
-    {
-        "taxon_id": "TTO:10000357",
-        "greatest_profile_match": 1
-    },
-    {
-        "taxon_id": "TTO:253",
-        "greatest_profile_match": 2
-    },
-    {
-        "taxon_id": "TTO:252",
-        "greatest_profile_match": 2
+        "phenotypes": [{
+            "entity": {
+                "id": "TAO:0001058",
+                "name": "caudal fin"
+            },
+            "quality": {
+                "id": "PATO:0001877",
+                "name": "lanceolate"
+            }
+        },
+        {
+            "entity": {
+                "id": "TAO:0001058",
+                "name": "caudal fin"
+            },
+            "quality": {
+                "id": "PATO:0000936",
+                "name": "truncated"
+            }
+        },
+        {
+            "entity": {
+                "id": "TAO:0001058",
+                "name": "caudal fin"
+            },
+            "quality": {
+                "id": "PATO:0000411",
+                "name": "round"
+            }
+        }],
+        "taxa": ["TTO:11050", "TTO:11090", "TTO:11040", "TTO:11190", "TTO:11181", "TTO:11030"]
     }]
 }
 </javascript>
