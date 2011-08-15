@@ -4,11 +4,15 @@ title: Anatomy Ontology Conf calls
 
 '''Weekly anatomy ontology calls are held on Mondays, 11:00 am-12:00 pm EDT.'''
 
-== Next call: Aug 15, 2011 ==
+== Aug 15, 2011 ==
+
+'''Attending:''' Chris, Paula, Wasila, Jim, Erik, Terry, Paul
 
 === Agenda ===
-* Chris will present on ontology modularization
+* Chris will present on ontology modularization - [http://icbo.buffalo.edu/2011/slides/WOMBO/WOMBO2011-04-Mungall-et-al.pdf Download slides from ICBO 2011]
 * Discuss need for complete vs. partial synchronization
+
+=== Notes ===
 
 == Aug 8, 2011 ==
 '''Attending:''' Terry, Chris, Wasila, Jim, Paula, Yvonne
