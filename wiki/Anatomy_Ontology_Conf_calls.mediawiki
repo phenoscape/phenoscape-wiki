@@ -43,6 +43,20 @@ For obsoleted terms, give reason for obsoletion in comments field
 '''Complete or partial synchronization?'''
 Chris: instantiating everything in TAO is probably not necessary (e.g., every term added to ZFA currently gets duplicated in TAO). In some cases, ZFA would have very specific terms defined based on zfish research but unknown in other teleosts. Should still be able to search genes on these terms because their parents are cross-referenced.
 
+== July 27, 2011 ==
+
+=== ICBO Anatomy Workshop Notes ===
+* ZFA in charge of mapping to Cl
+* TAO responsible for transitively linking to ZFA/Cl
+* When MIREOTing should be recording version of ontology you are using (is this captured in release notes?); do filtered save, allow dangling refs.
+* David importing is_a tree to root, assuming tree is reasoned
+* Communication important, but also having clear lines of responsibility important
+* If ZFA has two parallel classes infer the Cl; ask what asserted is_a links in Cl are not the correct inference for ZFA; which is_a links do I not re-infer in ZFA; down the line cache on a per term basis
+* VAO only skeletal, UBERON will hold everything else (common/universal/non-species specific terms)
+* ZFA needs to be doing intersections now. Strip them out for the database - they don't really need them do they?
+* Treat Phenoscape like a special case of ZFA/ZFIN to understand how to do the hard queries that utilize the intersections
+* TAO wants to import CARO and VAO; do filtered save as TAO; How do you add new imported terms?(David copy and pastes in, stripping out all relations?); Ideally plugin or webservice for OBOedit
+
 == July 18, 2011 ==
 '''Attending:''' Terry, Christina, VG, Paula, Chris, Dave, Erik, Wasila
 
