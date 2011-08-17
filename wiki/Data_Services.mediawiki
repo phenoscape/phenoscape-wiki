@@ -634,46 +634,86 @@ JSON:
 
 If there are no terms matching the given input, a document should still be returned, containing an empty results list.
 
-==Autocomplete==
+==Attribute qualities==
 '''URI'''
 
- <BASE URI>/term/search?text=[input]&name=[true|false]&syn=[true|false]&ontology=[ont1,ont2,...]&type=[type1,type2,...]&limit=[count]
+ <BASE URI>/term/attributes
 
-All URI parameters are optional except for <code>text</code>.  Default values are <code>name=true</code>, <code>syn=false</code>.  The <code>ontology</code> parameter should be a comma-separated list of ontology prefixes to search within (any of <code>tao, go, pato, tto, zfin, pspub</code>). The <code>type</code> parameter should be any of: <code>entity, quality, taxon, gene, pub</code>.  If no ontology or type is given, the default is to search all ontologies.  The <code>limit</code> parameter limits the number of results to the given integer count.
+This service returns the quality terms which have been marked as "attributes", commonly used to categorize phenotype data for display.
 
 '''Returns'''
 
 JSON:
 <javascript>
 {
-    "matches": [{
-        "match_text": "Brachydanio rerio",
-        "id": "TTO:1001979",
-        "match_type": "syn",
-        "name": "Danio rerio",
-        "source": "teleost-taxonomy"
+    "attributes": [
+    {
+        "id": "PATO:0000150",
+        "name": "texture"
     },
     {
-        "match_text": "Cyprinus rerio",
-        "id": "TTO:1001979",
-        "match_type": "syn",
-        "name": "Danio rerio",
-        "source": "teleost-taxonomy"
+        "id": "PATO:0000141",
+        "name": "structure"
     },
     {
-        "match_text": "Danio rerio",
-        "id": "TTO:1001979",
-        "match_type": "name",
-        "name": "Danio rerio",
-        "source": "teleost-taxonomy"
-    }],
-    "search_term": "rerio"
+        "id": "PATO:0000117",
+        "name": "size"
+    },
+    {
+        "id": "PATO:0002281",
+        "name": "Shape+Size"
+    },
+    {
+        "id": "PATO:0000052",
+        "name": "shape"
+    },
+    {
+        "id": "PATO:0001546",
+        "name": "quality of a solid"
+    },
+    {
+        "id": "PATO:0000140",
+        "name": "position"
+    },
+    {
+        "id": "PATO:0002062",
+        "name": "physical quality of a process"
+    },
+    {
+        "id": "PATO:0000004",
+        "name": "mobility"
+    },
+    {
+        "id": "PATO:0000125",
+        "name": "mass"
+    },
+    {
+        "id": "PATO:0000070",
+        "name": "count"
+    },
+    {
+        "id": "PATO:0000025",
+        "name": "composition"
+    },
+    {
+        "id": "PATO:0002282",
+        "name": "Closure+Structure"
+    },
+    {
+        "id": "PATO:0000136",
+        "name": "closure"
+    },
+    {
+        "id": "PATO:0001396",
+        "name": "cellular quality"
+    },
+    {
+        "id": "PATO:0000186",
+        "name": "behavioral quality"
+    }
+    ]
 }
 </javascript>
-
-'''Error'''
-
-If there are no terms matching the given input, a document should still be returned, containing an empty results list.
 
 ==Gene annotations==
 '''URI'''
