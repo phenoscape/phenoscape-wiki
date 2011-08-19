@@ -6,7 +6,8 @@ title: Anatomy Ontology Conf calls
 == Aug 29, 2011 ==
 === Agenda ===
 *annotation tools for Phenoscape: requirements and the pros and cons of desktop vs. web-based annotation tools (Wasila)
-*instance-based annotation model (Jim) 
+*instance-based annotation model (Jim)
+*full vs. partial synchronization (for next week?)
 
 == Aug 15, 2011 ==
 
