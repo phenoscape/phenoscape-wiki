@@ -82,5 +82,3 @@ Similarity Metrics (or more generally similarity measures) have been developed f
 
 
 === GCOS ===
-
-=== Hypergeometric metrics ===
