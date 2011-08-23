@@ -69,10 +69,13 @@ Profiles vary in size, and it is reasonable to assume that profiles with more ph
 Similarity Metrics (or more generally similarity measures) have been developed for scoring both pairs of phenotypes and for paired sets of phenotypes (i.e., phenotypic profiles).  We are currently investigating a number of similarity metrics.
 
 == Information Content-based metrics/measures ==
-=== Max IC ===
+These measures involve calculation of information content.
 
+=== Max IC ===
+This metric, also known as ???
 
 === ICCS ===
+
 
 === SimIC ===
 
