@@ -64,6 +64,8 @@ Although the four measures of profile similarity used in the Washington et al. (
 Profiles vary in size, and it is reasonable to assume that profiles with more phenotypes will, by chance, include phenotypes that yield higher scores for many statistics, in particular for the maxIC statistic.  Therefore, to evaluate the significance of a phenotype match score, it should be compared against a null distribution of profile matches involving taxon and gene profiles with the same numbers of phenotypes.  We will construct this null distribution by assigning phenotypes to profiles using sampling without replacement to build a set of profiles with the same size distribution as the actual dataset in the profile match report.  We can't simply permute phenotypes (EQs) among profiles because of the possibility of assigning the same phenotype twice to a profile.  Generated profiles will be paired (one taxon profile, one gene profile) and their test statistic score (e.g., maxIC) will be added to a distribution of scores in the appropriate cell in a table with rows corresponding to taxon profile sizes and columnts to gene profile sizes.  Once the distributions have been filled, they will provide possible cut-off values for test statistic values of profile comparisons in the real data.  For example
 
 = Similarity Metrics =
-<span id="SimilarityMetrics"><!-- for easy linking to resources section -->
+<span id="SimilarityMetrics"><!-- for easy linking to Similarity Metrics section -->
+
+Similarity Metrics (or more generally similarity measures) map from sets of phenotypes to real numbers.  
 == Alternatives ==
 Because of its dependence on the set of annotations, there is a real concern that IC may not be the most appropriate measure of similarity between terms an ontology with associated annotations.
