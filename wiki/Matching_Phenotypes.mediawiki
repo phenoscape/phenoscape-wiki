@@ -84,7 +84,3 @@ Similarity Metrics (or more generally similarity measures) have been developed f
 === GCOS ===
 
 === Hypergeometric-based metrics ===
-
-Similarity Metrics (or more generally similarity measures) map from pairs of either singleton phenotypes or sets of phenotypes to real numbers.
-== Alternatives ==
-Because of its dependence on the set of annotations, there is a real concern that IC may not be the most appropriate measure of similarity between terms an ontology with associated annotations.
