@@ -68,6 +68,7 @@ Profiles vary in size, and it is reasonable to assume that profiles with more ph
 
 Similarity Metrics (or more generally similarity measures) have been developed for scoring both pairs of phenotypes and for paired sets of phenotypes (i.e., phenotypic profiles).  We are currently investigating a number of similarity metrics.
 
+== Information Content-based metrics/measures ==
 === Max IC ===
 
 
@@ -75,12 +76,15 @@ Similarity Metrics (or more generally similarity measures) have been developed f
 
 === SimIC ===
 
+== Measures not based on information content ==
+
 === SimJ ===
 
 
 === GCOS ===
 
-=== 
-Similarity Metrics (or more generally similarity measures) map from pairs of either singleton phenotypes or sets of phenotypes to real numbers.  
+=== Hypergeometric-based metrics ===
+
+Similarity Metrics (or more generally similarity measures) map from pairs of either singleton phenotypes or sets of phenotypes to real numbers.
 == Alternatives ==
 Because of its dependence on the set of annotations, there is a real concern that IC may not be the most appropriate measure of similarity between terms an ontology with associated annotations.
