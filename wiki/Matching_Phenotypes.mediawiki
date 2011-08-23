@@ -82,3 +82,7 @@ Similarity Metrics (or more generally similarity measures) have been developed f
 
 
 === GCOS ===
+
+=== Measures based on the hypergeometric distribution ===
+
+The hypergeometric distribution
