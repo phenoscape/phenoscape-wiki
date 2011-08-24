@@ -31,7 +31,7 @@ Use cases:
 === Outline ===
 
 The background section covers key ontology concepts, in particular
-those of relevance to homoloy reasoning, such as the distinction
+those of relevance to homology reasoning, such as the distinction
 between generic classes and mereological sums. A section describing
 the logical characteristics of relations follows.
 
