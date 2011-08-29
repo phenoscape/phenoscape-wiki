@@ -20,5 +20,7 @@ Very strong statement - says that all Siluriformes have a bifurcated caudal fin,
 ===Observation annotation===
 '''''Siluriformes''''' Type (''has_member'' some (''has_part'' some ('''caudal_fin''' and ''bearer_of'' some '''bifurcated''')))
 
+This type of annotation simply says that some member of the given taxon has been observed with the phenotype. This works very well with polymorphic conditions and has no problem with evolutionary reversals. This form is pretty weak as an annotation to a broad taxon like Siluriformes (an order), but would be the most appropriate choice for species-level data.
+
 ===Ancestral state annotation===
 '''''Siluriformes''''' Type (''has_progenitor'' some (''has_part'' some ('''caudal_fin''' and ''bearer_of'' some '''bifurcated''')))
