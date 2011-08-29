@@ -26,5 +26,7 @@ This type of annotation simply says that some member of the given taxon has been
 ===Ancestral state annotation===
 '''''Siluriformes''''' Type (''has_progenitor'' some (''has_part'' some ('''caudal_fin''' and ''bearer_of'' some '''bifurcated''')))
 
+This annotation describes the ancestral state for the given taxon - the phenotype possessed by the nearest common ancestor of all the members of the taxon. This is like the "class generalization" but will not produce logical inconsistencies when previously unknown reversals are discovered.
+
 [[Category:Reasoning]]
 [[Category:EQ Annotation]]
