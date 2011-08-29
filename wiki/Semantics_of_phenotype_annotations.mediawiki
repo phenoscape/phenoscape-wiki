@@ -2,8 +2,18 @@
 title: Semantics of phenotype annotations
 ---
 
-In Phenoscape data annotation, we typically model a phenotype as a class expression describing a set of organisms, for example <nowiki>'</nowiki>''has_part'' some ('''caudal fin''' and ''bearer_of'' some '''bifurcated''')<nowiki>'</nowiki>. How precisely this phenotype class is related to a taxon has important consequences for the resulting inferences and thus queries for phenotypes across the taxonomy.
+In Phenoscape data annotation, we typically model a phenotype as a class expression describing a set of organisms, for example <nowiki>'</nowiki>''has_part'' some ('''caudal fin''' and ''bearer_of'' some '''bifurcated''')<nowiki>'</nowiki>. How precisely this phenotype class is related to a taxon has important consequences for the resulting inferences and thus queries for phenotypes across the taxonomy. This is most important when making annotations to higher-level taxa. How should these annotations propagate to sub-taxa?
 
-This page assumes that taxa are represented as OWL individuals, and the taxonomy is a tree of ''member_of''/''has_member'' relationships. For example:
+This page assumes that taxa are represented as OWL individuals, and the taxonomy is a tree of ''subclade_of''/''contains_clade'' relationships. For example:
 
-Ictalurus_punctatus ''member_of''  Ictalurus ''member_of'' Ictaluridae ''member_of'' Siluriformes
+Ictalurus_punctatus ''subclade_of''  Ictalurus ''subclade_of'' Ictaluridae ''subclade_of'' Siluriformes
+
+These are transitive, so that Ictalurus is a ''subclade_of'' Siluriformes. Individual organisms are related to taxa via ''member_of''/''has_member''. A ''member_of'' a taxon X which is a ''subclade_of'' taxon Y is also a ''member_of'' taxon Y.
+
+==Types of phenotype annotations==
+
+===Class generalization===
+
+===Ancestral state annotation===
+
+===Observation annotation===
