@@ -2,4 +2,4 @@
 title: Semantics of phenotype annotations
 ---
 
-In Phenoscape data annotation, we typically model a phenotype as a class expression describing a set of organisms, for example \'''has_part'' some ('''caudal fin''' and ''bearer_of'' some '''bifurcated''')'.
+In Phenoscape data annotation, we typically model a phenotype as a class expression describing a set of organisms, for example <nowiki>'</nowiki>''has_part'' some ('''caudal fin''' and ''bearer_of'' some '''bifurcated''')<nowiki>'</nowiki>.
