@@ -15,8 +15,8 @@ These are transitive, so that Ictalurus is a ''subclade_of'' Siluriformes. Indiv
 ===Class generalization===
 (''member_of'' value '''''Siluriformes''''') SubClassOf (''has_part'' some ('''caudal_fin''' and ''bearer_of'' some '''bifurcated'''))
 
+===Observation annotation===
+'''''Siluriformes''''' Type (''has_member'' some (''has_part'' some ('''caudal_fin''' and ''bearer_of'' some '''bifurcated''')))
+
 ===Ancestral state annotation===
 '''''Siluriformes''''' Type (''has_progenitor'' some (''has_part'' some ('''caudal_fin''' and ''bearer_of'' some '''bifurcated''')))
-
-
-===Observation annotation===
