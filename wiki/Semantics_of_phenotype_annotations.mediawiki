@@ -11,6 +11,7 @@ This page assumes that taxa are represented as OWL individuals, and the taxonomy
 These are transitive, so that Ictalurus is a ''subclade_of'' Siluriformes. Individual organisms are related to taxa via ''member_of''/''has_member''. A ''member_of'' a taxon X which is a ''subclade_of'' taxon Y is also a ''member_of'' taxon Y.
 
 ==Types of phenotype annotations==
+Formatting key: '''''OWL individual''''', '''OWL class''', ''OWL property''
 
 ===Class generalization===
 (''member_of'' value '''''Siluriformes''''') SubClassOf (''has_part'' some ('''caudal_fin''' and ''bearer_of'' some '''bifurcated'''))
