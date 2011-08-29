@@ -25,3 +25,6 @@ This type of annotation simply says that some member of the given taxon has been
 
 ===Ancestral state annotation===
 '''''Siluriformes''''' Type (''has_progenitor'' some (''has_part'' some ('''caudal_fin''' and ''bearer_of'' some '''bifurcated''')))
+
+[[Category:Reasoning]]
+[[Category:EQ Annotation]]
