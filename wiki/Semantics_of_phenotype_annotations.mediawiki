@@ -15,7 +15,7 @@ These are transitive, so that Ictalurus is a ''subclade_of'' Siluriformes. Indiv
 ===Class generalization===
 (''member_of'' value '''''Siluriformes''''') SubClassOf (''has_part'' some ('''caudal_fin''' and ''bearer_of'' some '''bifurcated'''))
 
-Very strong statement - says that all Siluriformes have a bifurcated caudal fin, no exceptions. This allows no observation of polymorphism or evolutionary reversal. But it does allow you to make one statement and then return any catfish species in a query for species with members having bifurcated caudal fins. This is the logic of annotations in the existing Phenoscape Knowledgebase.
+Very strong statement - says that all Siluriformes have a bifurcated caudal fin, no exceptions. This allows no observation of polymorphism or evolutionary reversal. But it does allow you to make one statement and then return any catfish species in a query for species with members having bifurcated caudal fins. This is generally the logic of annotations in the existing Phenoscape Knowledgebase.
 
 ===Observation annotation===
 '''''Siluriformes''''' Type (''has_member'' some (''has_part'' some ('''caudal_fin''' and ''bearer_of'' some '''bifurcated''')))
