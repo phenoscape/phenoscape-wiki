@@ -3,6 +3,17 @@ title: Anatomy Ontology Conf calls
 ---
 
 '''Weekly anatomy ontology calls are held on Mondays, 11:00 am-12:00 pm EDT.'''
+
+== Sep 12, 2011 ==
+
+=== Agenda ===
+
+[[Semantics of phenotype annotations]] (Jim)
+** Jim to describe query results on KB interface for ancestral state annotation
+
+== Sep 5, 2011 No call (Labor Day) ==
+
+
 == Aug 29, 2011 ==
 '''Attending:''' Monte, Terry, Chris, Wasila, Jim, Paula, Yvonne, VG, Christina, Hilmar (first half)
 
