@@ -1445,7 +1445,7 @@ JSON
 
 The JSON-formatted query specification should contain only a single phenotype. The <code>taxon</code> parameter is optional. If included, the results will contain variation sets for  the taxon's children. If not provided, the service will return data the highest taxon which has children in more than one variation set (useful for starting the tree display). If <code>exclude_unannotated</code> is true, no child taxa without annotations to the given phenotype will be returned. If <code>exclude_attribute</code> is true, annotations to the queried attribute (and no more specific quality) will not be returned.
 
-Alternative usage: if the <code>taxon</code> parameter has the value "suggest", a list of taxa are returned which represent suggested starting points for browsing the taxonomic tree using this service.
+'''Alternative usage:''' if the <code>taxon</code> parameter has the value "suggest", a list of taxa are returned which represent suggested starting points for browsing the taxonomic tree using this service.
 
 '''Phenotype query specification'''
 
