@@ -78,12 +78,12 @@ If a character describes the presence or absence of a structure located on anoth
 ===5. Counts===
 Characters involving counts of entities are annotated using the “count” quality.  Values for counts are entered in the “Comment” field(*).  Note that ranges and lower or upper bounds are recorded as follows:
 
- E: vertebra, Q: count, Comment: 33
+ E: vertebra, Q: count, Count: 33
  E: vertebra, Q: count, Comment: 34-38
  E: vertebra, Q: count, Comment: >38
  E: vertebra, Q: count, Comment: ≥48
 
-(*)The "Count" field in Phenex is not currently used because it does not accept ranges or symbols; therefore, please record all numerical values in the Comments field.
+(*)The "Count" field in Phenex currently does not accept ranges or symbols; therefore, please record these in the Comments field.
 
 ===6. Size ===
 
