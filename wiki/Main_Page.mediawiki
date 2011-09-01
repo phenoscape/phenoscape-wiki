@@ -5,11 +5,7 @@ title: Main Page
 {{EventBox1|
 * '''Try the Beta version of the [http://kb.phenoscape.org Phenoscape Knowledgebase].'''  Development is very much in progress, and your feedback is welcome!
 * Check out the latest news on the [http://blog.phenoscape.org/ Phenoscape blog], including the latest changes to PATO, a new bridging Vertebrate Anatomy Ontology, and the launch of a new Phenotype Ontology Research Coordination Network.
-* Recent publications:
-** [http://sysbio.oxfordjournals.org/content/59/4/369.full "The Teleost Anatomy Ontology: Anatomical Representation for the Genomics Age"] was published in the July 2010 issue of Systematic Biology; see our ontology [http://sysbio.oxfordjournals.org/content/vol59/issue4/cover.dtl cover art] that was selected for this issue!
-** [http://dx.plos.org/10.1371/journal.pone.0010708 “Evolutionary Characters, Phenotypes and Ontologies: Curating Data from the Systematic Biology Literature”] was published in PLoS ONE in May 2010.
-** [http://dx.plos.org/10.1371/journal.pone.0010500 “Phenex: Ontological Annotation of Phenotypic Diversity”] was published in PLoS ONE in May 2010. Download [http://blog.phenoscape.org/2009/11/25/phenex-1-0/ Phenex 1.0] here.
-}}
+* Our 2010 NSF ABI grant application titled "Ontology-enabled reasoning across phenotypes from evolution and model organisms" has been awarded and started July 1. Watch this page for a soon-to-be-updated project overview.
 
 ==Linking Evolution to Genomics Using Phenotype Ontologies==
 
