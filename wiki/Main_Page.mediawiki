@@ -5,52 +5,15 @@ title: Main Page
 {{EventBox1|
 * '''Try the Beta version of the [http://kb.phenoscape.org Phenoscape Knowledgebase].'''  Development is very much in progress, and your feedback is welcome!
 * Check out the latest news on the [http://blog.phenoscape.org/ Phenoscape blog], including the latest changes to PATO, a new bridging Vertebrate Anatomy Ontology, and the launch of a new Phenotype Ontology Research Coordination Network.
-* Our 2010 NSF ABI grant application titled "Ontology-enabled reasoning across phenotypes from evolution and model organisms" has been awarded and started July 1. Watch this page for a soon-to-be-updated project overview.
+* Our 2010 NSF ABI grant application titled "'''Ontology-enabled reasoning across phenotypes from evolution and model organisms'''" has been awarded and started July 1. Watch this page for a soon-to-be-updated project overview.}}
 
-==Linking Evolution to Genomics Using Phenotype Ontologies==
-
-[[Image:NESCent Logo.png|right]]
-===About this project===
-
-What are the developmental and genetic bases of evolutionary differences in morphology across species?  Currently it is difficult to approach this question due to a lack of computational tools that allow researchers to integrate developmental genetic and comparative morphological/anatomical data.
-
-[[Image:Ctol Logo.jpg|right]] [[Image:Zfinlogo.png|left]] We are addressing this by developing a database of evolutionarily variable morphological characters for a large clade of fishes (the Ostariophysi) and connecting this database to the large collection of mutant phenotypes in the [http://zfin.org ZFIN database], the central database of the zebrafish model organism community. The evolutionary and mutant phenotypes are being described using common [[#The_Role_of_Ontologies|ontologies]].  The database with its web-interface, together with the extended ontologies and data curation tools, will allow researchers to ask novel questions about the genetic and developmental regulation of evolutionary morphological transitions. Tool and database development are being guided by [http://en.wikipedia.org/wiki/Use_case use cases], or driving research questions, defined by the devo-evo community.  These tools are being developed under an open-source, open-development model, and in such a way that they can be used for additional biological systems in the future.
-
-[[Image:Deepfin Logo.gif|right]] This project is a unique collaboration between evolutionary and model organism biologists including two national centers ([http://www.nescent.org NESCent] and [http://www.bioontology.org NCBO]), the [http://zfin.org ZFIN model organism database], the [http://bio.slu.edu/mayden/cypriniformes/home.html Cypriniformes Tree of Life] project, the [http://www.deepfin.org/ DeepFin Research Coordination Network], and the morphological image databases used by the evolutionary biology community.
-
-===The Role of Ontologies===
-[[Image:Ncbo logo.gif|right]]
-====Background====
-
-Ontologies are constrained, structured vocabularies with well defined relationships among terms. Ontologies represent the knowledge of a particular discipline and provide not only a mechanism for consistent annotation of data, but also greater interoperability among people and machines. The most widely used biological ontology is the [http://www.geneontology.org Gene Ontology], which is utilized to annotate molecular function, biological processes and subcellular localization to gene products from different organisms.
-
-====Phenotype ontologies====
-
-[[Image:EAV4_layers_flat2.png|right|320px]] Approximately 500 mutant zebrafish lines (alleles) with over 660 annotated phenotypic characters from the jaw or gill arches, fins, axial skeleton and other features of the skeleton have been described. Curators in the [http://www.zfin.org Zebrafish Information Network] (ZFIN) are annotating mutant phenotypes using the [http://obofoundry.org/cgi-bin/detail.cgi?id=zebrafish_anatomy&title=Zebrafish%20anatomy%20and%20development zebrafish anatomy ontology] and the [http://www.bioontology.org/wiki/index.php/PATO:Main_Page Phenotype And Trait Ontology] (PATO). PATO is a “universal” ontology of terms describing qualities (e.g. shape, color, size) that may be applied to any organism.
-
-====Anatomical ontologies====
-
-We have initiated a multi-species ontology for ostariophysan fishes, the [[Teleost Anatomy Ontology]] (TAO), which was initialized with the terms in the zebrafish anatomical ontology.  The development of the TAO  is currently focused on the skeletal system because it varies significantly across the Ostariophysi, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology.
-
-This multi-species anatomy ontology is being used in combination with the PATO ontology (see EQ format) to describe the comparative morphological characters.  We have also developed a separate catalog of homology statements for entities within the TAO, so that individual investigators may select particular relationships based on evidence.
-
-====Taxonomic ontology====
-
-Together with taxonomic experts, we have developed a taxonomic ontology (based on the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes]) to relate species with particular characters and states.  The taxonomic ontology will include nodes ancestral to the Ostariophysi as far back as the Vertebrata in order to associate certain anatomical terms with more inclusive clades than the Ostariophysi.
-
-====Fish Morphology====
-
-Although the comparative anatomy of fishes has been documented in the literature for several hundred years, it is not available in a computable format.  With the help of taxon experts for ostariophysan fishes, we prioritized 76 papers for curation; these can be viewed on our publicly available [http://spreadsheets.google.com/ccc?key=pTeXfTnVPxC-P1URVHbI4Qg Google spreadsheet].  51 have been completely curated and consistency checked and are available for searching in the Knowledgebase.   We achieved our goal to input approximately 5,000 morphological features in an “EQ” format ([[Media:TREE Mabee.pdf|Mabee et al. 2007a]]<!--; Mabee et al. 2007 in process-->) http://dx.plos.org/10.1371/journal.pone.0010708 using a combination of ontologies.
-
-===Contact===
-
-Paula Mabee (University of South Dakota) is the Principal Investigator. Co-principal investigators are Todd Vision (University of North Carolina, Chapel Hill), Monte Westerfield (University of Oregon, ZFIN), and Hilmar Lapp (NESCent) ([[Contact|see their contact addresses]]).
-
-==Acknowledgments==
-
+<!--
+== Ontology-enabled reasoning across phenotypes from evolution and model organisms ==
+-->
+== Linking Evolution to Genomics Using Phenotype Ontologies ==
 {|
 |-
-| This project is funded by NSF grant BDI<nowiki>-</nowiki>0641025, and supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0423641. <br/><br/>This project arose from a NESCent <span class="plainlinks">[http://www.nescent.org/science/workinggroup.php Working Group]</span> led by Paula Mabee and Monte Westerfield, "Towards an Integrated Database for Fish Evolution." [[Fish Evolution Working Group|Goals and summaries of the group]] are archived on this wiki.
+| This project was funded by NSF grant BDI<nowiki>-</nowiki>0641025 from June 1, 2007, to Jun 30, 2011, and was supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0423641. The [[Phenoscape I| project home page has been archived]] on this wiki. The project arose from a NESCent <span class="plainlinks">[http://www.nescent.org/science/workinggroup.php Working Group]</span> led by Paula Mabee and Monte Westerfield, "Towards an Integrated Database for Fish Evolution." [[Fish Evolution Working Group|Goals and summaries of the group]] are archived on this wiki.
 | http://www.nescent.org/about/images/nsf_logo.jpg
 |}
 
