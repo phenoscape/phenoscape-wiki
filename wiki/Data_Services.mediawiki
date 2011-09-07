@@ -1452,7 +1452,7 @@ The JSON-formatted query specification should contain only a single phenotype. T
 The value of the <code>query</code> parameter should be an annotation query represented as JSON, following this structure (in practice it should be collapsed as far as possible to shorten the URL):
 
 <javascript>
-{   "parent_taxon" : TTO:1234,
+{   
     "phenotype": [
     {
         "entity": {
@@ -1475,6 +1475,7 @@ It should be URL-encoded to include in the request.
 JSON
 <javascript>
 {
+    "parent_taxon" : TTO:1234,
     "phenotype_sets": [{
         "phenotypes": [{
             "entity": {
