@@ -46,6 +46,5 @@ The following mailing lists have private archives, and subscription is usually r
 ==Blog==
 
 * Phenoscape blog: http://blog.phenoscape.org/
-.
 
 [[Category:Community]]
