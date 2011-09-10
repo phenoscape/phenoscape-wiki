@@ -8,10 +8,10 @@ A [https://docs.google.com/document/pub?id=196B6ggDem43q_RXuONK6s1_ziT-At8m_Jz1n
 
 == Technology options ==
 
-=== MX versus Phenex ===
+=== MX ===
 The [http://mx.phenomix.org/index.php/Main_Page MX web application] is being enhanced with features for EQ annotation of character matrix data. Phenoscape may be interested in adopting this system for data curation. This page collects a list of pros and cons to help decide whether to adopt the MX web application or continue using the [[Phenex]] desktop software.
 
-==== MX pros ====
+'''Pros:'''
 * web based, central database
 ** easy collaboration
 ** record of who changed what
@@ -21,7 +21,7 @@ The [http://mx.phenomix.org/index.php/Main_Page MX web application] is being enh
 * initial development of phenotype categories for EQ
 * unify more of Jim's effort
 
-==== MX cons ====
+'''Cons''':
 * many other features besides EQ annotation
 * missing ontology visualization tools
 * EQ interface in flux - not quite ready for primetime
@@ -30,13 +30,14 @@ The [http://mx.phenomix.org/index.php/Main_Page MX web application] is being enh
 * reliance on BioPortal web services for ontology data
 * less independence for anonymous user - requires server management, project accounts
 
-==== [[Phenex]] pros ====
+=== [[Phenex]] ===
+'''Pros''':
 * outputs files ready for KB; workflow in place
 * integrates OBO-Edit code for ontology visualization and query
 * "simple", targeted interface
 * easy to point to customized versions of ontologies
 
-==== [[Phenex]] cons ====
+'''Cons''':
 * less flexible interface
 * requires use of version control system for collaboration
 * tightly coupled to OBO format
