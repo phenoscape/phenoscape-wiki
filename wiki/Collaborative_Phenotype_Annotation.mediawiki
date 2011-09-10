@@ -34,3 +34,6 @@ The [http://mx.phenomix.org/index.php/Main_Page MX web application] is being enh
 * requires use of version control system for collaboration
 * tightly coupled to OBO format
 * updates must be manually downloaded and installed
+
+[[Category:Curation]]
+[[Category:Informatics]]
