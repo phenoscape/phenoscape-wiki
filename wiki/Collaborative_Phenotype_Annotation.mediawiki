@@ -33,7 +33,7 @@ A [https://docs.google.com/document/pub?id=196B6ggDem43q_RXuONK6s1_ziT-At8m_Jz1n
 * output to Excel report - consistency review; author page
 ** ''Not supported - would require implementation. Could be nicely implemented as a public-viewable web page in MX.''
 * output to KB - currently requires NeXML
-** ''Not completely supported. An OWL output format exists which could be the basis for future revisions of the KB based on OWL technology.''
+** ''Not completely supported. An OWL output format exists which could be the basis for output to future revisions of the KB based on OWL technology.''
 
 ====Requirements expected to newly arise (or arise at a more demanding level) in Phenoscape II====
 * Integrate with ORB:
