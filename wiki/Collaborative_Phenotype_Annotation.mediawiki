@@ -126,24 +126,36 @@ A [https://docs.google.com/document/pub?id=196B6ggDem43q_RXuONK6s1_ziT-At8m_Jz1n
 ** avoid right-clicks where possible
 *** ''Post-composition right-click could be removed if a button were added to each cell - moderately complicated in Phenex.''
 ** ability to attach images to character states or entities
-*** ''Not supported. Easy to add if just need to paste an image URL in a field. Showing images would require moderate amount of development.'' 
+*** ''Not supported. Easy to add if just need to paste an image URL in a field. Showing images would require moderate amount of development.''
 ** interface that unifies access to pdfs, svn, matrix editor, orb, etc.
 *** ''Not really feasible to integrate all of this into Phenex. Would continue to use external SVN application; probably also external reference management.''
 * Support collaborative phenotype annotation
 ** real-time teaching of the curation tool, practices, and results to project curators
+*** ''Would require screen-sharing - not directly possible.''
 ** simultaneous editing of different parts of single data matrix
+*** ''Only possible via SVN file merges - kind of risky.''
 ** ability to edit a data matrix without regard to current activities of other editors
+*** ''Only possible via SVN file merges - kind of risky.''
 ** ability to tie into real-time collaborative editing frameworks (such as Google’s upcoming one, codenamed BRIX)
+*** ''Practically impossible.''
 ** ability to share pdfs
+*** ''Not supported.''
 * Support annotation of homology
+** ''Currently done in a separate Phenote application. Could be added to Phenex, but this functionality is completely independent of the data matrix core of Phenex.''
 ** evidence codes
+*** ''Supported in Phenote.''
 ** attribution
+*** ''Supported in Phenote.''
 * Facilitate wider use and adoption
 ** easy tool deployment to users, including software updates
+*** ''Requires download of new versions and manual replacement.''
 ** easy deposition of annotation output to a shared repository
+*** ''Supported via SVN for data files. KB imports these directly.''
 ** easy digitization of the published matrices
+*** ''Unsure of meaning.''
 ** minimize or ideally obviate the need for maintaining 3rd party software dependencies (such as Mesquite, or SVN tools)
 ** support for deposition into TreeBASE
+*** ''Not directly supported - does TreeBASE support NeXML deposition?''
 
 [[Category:Curation]]
 [[Category:Informatics]]
