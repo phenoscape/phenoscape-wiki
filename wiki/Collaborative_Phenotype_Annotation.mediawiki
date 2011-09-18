@@ -56,6 +56,7 @@ A [https://docs.google.com/document/pub?id=196B6ggDem43q_RXuONK6s1_ziT-At8m_Jz1n
 *** ''Currently supports storage of PDFs with refs, matrix editing. ORB can be implemented. SVN would not be necessary with shared database.''
 * Support collaborative phenotype annotation
 ** real-time teaching of the curation tool, practices, and results to project curators
+*** Web-based implementation would facilitate remote collaboration.
 ** simultaneous editing of different parts of single data matrix
 *** ''Supported well due to web-based implementation.''
 ** ability to edit a data matrix without regard to current activities of other editors
