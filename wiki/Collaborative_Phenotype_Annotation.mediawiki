@@ -11,9 +11,11 @@ A [https://docs.google.com/document/pub?id=196B6ggDem43q_RXuONK6s1_ziT-At8m_Jz1n
 === MX ===
 ====Requirements from Phenoscape I curation workflow (that are expected to carry forward)====
 * import matrix data from file source (usually NEXUS)
-** ''Can import character and state labels, matrix data from a NEXUS file''
+** ''Can import character and state labels, matrix data from a NEXUS file. This is a one-time import before editing in MX.''
 * hold a reference to a publication as the source for the matrix
+** ''Has a module for maintaining references (publications) which can be used throughout the system.''
 * view and edit matrix
+** ''Several different matrix viewing and editing modes. Subsets of the matrix can be given a label and viewed/edited. In MX all the characters and OTUs constitute one global matrix - a labelled matrix is an arbitrary view into this big matrix via a specific list of characters and OTUs.''
 * free text entry for characters and character states for a matrix
 * free text entry for OTUs
 * annotate OTUs with taxonomy ontology ID
