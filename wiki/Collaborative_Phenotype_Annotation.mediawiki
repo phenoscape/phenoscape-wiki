@@ -88,16 +88,27 @@ A [https://docs.google.com/document/pub?id=196B6ggDem43q_RXuONK6s1_ziT-At8m_Jz1n
 * import matrix data from file source (usually NEXUS)
 ** ''Supported. Can import character and state labels, matrix data from a NEXUS file. This is a one-time import before editing in Phenex.''
 * hold a reference to a publication as the source for the matrix
+** ''Supported. A PSPUB ID must be entered in a text field. The PSPUB IDs are stored in a separate Endnote file maintained in SVN.''
 * view and edit matrix
+** ''Supported.''
 * free text entry for characters and character states for a matrix
+** ''Supported.''
 * free text entry for OTUs
+** ''Supported.''
 * annotate OTUs with taxonomy ontology ID
+** ''Supported.''
 * add specimens for each OTU, select museum code from ontology
+** ''Supported.''
 * ontology term autocomplete for term input
+** ''Supported.''
 * term info panel for terms selected in autocomplete
+** ''Supported. Immediately updates as terms are selected in autocomplete menu.''
 * ontology tree browsing panel or linkout to term in BioPortal tree view
+** ''Supported. Built-in to app, along with various OBO-Edit ontology views.''
 * output to Excel report - consistency review; author page
+** ''Supported.''
 * output to KB - currently requires NeXML
+** ''Supported. Will need update for future KB revisions based on OWL technology for proper presence/absence modeling, etc.''
 
 ====Requirements expected to newly arise (or arise at a more demanding level) in Phenoscape II====
 * Integrate with ORB:
