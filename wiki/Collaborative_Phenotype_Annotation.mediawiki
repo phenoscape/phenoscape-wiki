@@ -9,26 +9,46 @@ A [https://docs.google.com/document/pub?id=196B6ggDem43q_RXuONK6s1_ziT-At8m_Jz1n
 == Technology options ==
 
 === MX ===
-The [http://mx.phenomix.org/index.php/Main_Page MX web application] is being enhanced with features for EQ annotation of character matrix data. Phenoscape may be interested in adopting this system for data curation. This page collects a list of pros and cons to help decide whether to adopt the MX web application or continue using the [[Phenex]] desktop software.
+====Requirements from Phenoscape I curation workflow (that are expected to carry forward)====
+* import matrix data from file source (usually NEXUS)
+* hold a reference to a publication as the source for the matrix
+* view and edit matrix
+* free text entry for characters and character states for a matrix
+* free text entry for OTUs
+* annotate OTUs with taxonomy ontology ID
+* add specimens for each OTU, select museum code from ontology
+* ontology term autocomplete for term input
+* term info panel for terms selected in autocomplete
+* ontology tree browsing panel or linkout to term in BioPortal tree view
+* output to Excel report - consistency review; author page
+* output to KB - currently requires NeXML
 
-'''Pros:'''
-* web based, central database
-** easy collaboration
-** record of who changed what
-** latest application version always running
-* many other features besides EQ annotation
-* easy to create new pages displaying various reports using data
-* initial development of phenotype categories for EQ
-* unify more of Jim's effort
-
-'''Cons''':
-* many other features besides EQ annotation
-* missing ontology visualization tools
-* EQ interface in flux - not quite ready for primetime
-* requires internet connection
-* output format suitable for KB ingestion must be coded
-* reliance on BioPortal web services for ontology data
-* less independence for anonymous user - requires server management, project accounts
+====Requirements expected to newly arise (or arise at a more demanding level) in Phenoscape II====
+* Integrate with ORB:
+** request temporary term
+** check temporary terms for official ID
+** use previously requested temporary terms in data
+* Improved UI usability:
+** UI (data entry) and data model (OWL output) support for pre-configured frequently occurring types of characters (such as presence/absence (neomorphic), qualitative, count, relative phenotype)
+** as few clicks as possible for reaching features for composing annotations
+** avoid right-clicks where possible
+** ability to attach images to character states or entities
+** interface that unifies access to pdfs, svn, matrix editor, orb, etc.
+* Support collaborative phenotype annotation
+** real-time teaching of the curation tool, practices, and results to project curators
+** simultaneous editing of different parts of single data matrix
+** ability to edit a data matrix without regard to current activities of other editors
+** ability to tie into real-time collaborative editing frameworks (such as Google’s upcoming one, codenamed BRIX)
+** ability to share pdfs
+* Support annotation of homology
+** evidence codes
+** attribution
+* Facilitate wider use and adoption
+** easy tool deployment to users, including software updates
+** easy deposition of annotation output to a shared repository
+** easy digitization of the published matrices
+** minimize or ideally obviate the need for maintaining 3rd party software dependencies (such as Mesquite, or SVN tools)
+** support for deposition into TreeBASE
 
 === [[Phenex]] ===
 '''Pros''':
