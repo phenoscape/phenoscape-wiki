@@ -86,6 +86,7 @@ A [https://docs.google.com/document/pub?id=196B6ggDem43q_RXuONK6s1_ziT-At8m_Jz1n
 === [[Phenex]] ===
 ====Requirements from Phenoscape I curation workflow (that are expected to carry forward)====
 * import matrix data from file source (usually NEXUS)
+** ''Supported. Can import character and state labels, matrix data from a NEXUS file. This is a one-time import before editing in Phenex.''
 * hold a reference to a publication as the source for the matrix
 * view and edit matrix
 * free text entry for characters and character states for a matrix
