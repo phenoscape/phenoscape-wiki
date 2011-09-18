@@ -113,8 +113,11 @@ A [https://docs.google.com/document/pub?id=196B6ggDem43q_RXuONK6s1_ziT-At8m_Jz1n
 ====Requirements expected to newly arise (or arise at a more demanding level) in Phenoscape II====
 * Integrate with ORB:
 ** request temporary term
+*** ''Needs implementation - straightforward.''
 ** check temporary terms for official ID
+*** ''Needs implementation - could occur on user request or when files are opened.''
 ** use previously requested temporary terms in data
+*** ''Needs implementation - would probably be per user.''
 * Improved UI usability:
 ** UI (data entry) and data model (OWL output) support for pre-configured frequently occurring types of characters (such as presence/absence (neomorphic), qualitative, count, relative phenotype)
 ** as few clicks as possible for reaching features for composing annotations
