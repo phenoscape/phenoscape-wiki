@@ -42,7 +42,7 @@ A [https://docs.google.com/document/pub?id=196B6ggDem43q_RXuONK6s1_ziT-At8m_Jz1n
 ** check temporary terms for official ID
 *** ''Needs implementation - could be periodically run in the background and the database updated directly.''
 ** use previously requested temporary terms in data
-*** ''Needs implementation.''
+*** ''Needs implementation. Could be per project (fish, amphibians, etc.)''
 * Improved UI usability:
 ** UI (data entry) and data model (OWL output) support for pre-configured frequently occurring types of characters (such as presence/absence (neomorphic), qualitative, count, relative phenotype)
 *** ''Support for character types has been implemented; however after user experience with the initial version a complete revision is planned (and is beginning very soon).''
