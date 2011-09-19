@@ -7,6 +7,11 @@ title: Anatomy Ontology Conf calls
 == Sep 12, 2011 ==
 
 === Agenda ===
+* [[Collaborative_Phenotype_Annotation|Annotation tool requirements]]
+
+== Sep 12, 2011 ==
+
+=== Agenda ===
 
 [[Semantics of phenotype annotations]] (Jim)
 ** Jim to describe query results on KB interface for ancestral state annotation
