@@ -111,9 +111,7 @@ A common API implemented by ontology data services enables clients such as EQ ed
 
 ==References==
 
-<biblio>
-#cote2006 pmid=16507094
-</biblio>
+<references />
 
 [[Category:Informatics]]
 [[Category:API]]
