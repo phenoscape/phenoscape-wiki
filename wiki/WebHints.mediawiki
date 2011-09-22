@@ -1,0 +1,29 @@
+---
+title: WebHints
+---
+
+<style>
+div { background-color: yellow; }
+</style>
+
+This page is an easily editable source for help popups in the Phenoscape web UI. Each entry below should be contained in a block element (DIV) with a mnemonic ID.
+
+
+
+<div id="test-two" style="border: 2px dashed red;">
+Here's a quick test.
+</div>
+
+
+<div id="test-two" style="border: 2px dashed red;">
+This is another test
+
+</div>
+
+
+<div id="test-three" style="border: 2px dashed red;">
+
+Third test!
+</div>
+
+Add more entries here...
