@@ -31,21 +31,23 @@ It should, however, have two paragraphs.
 </div>
 
 
-<div id="BrowseAnatomicalEntities" style="border: 2px dashed silver;">
+<div id="BrowseAnatomicalEntities">
 '''Browse Anatomical Entities'''
 
 Now we're using a simple bolded paragraph instead of a heading. Does this give better margins?
 </div>
 
 <div id="BrowsePhenotypicQualities">
-    ===Browse Phenotypic Qualities===
-    TODO
+'''Browse Phenotypic Qualities'''
+
+TODO
 </div>
 
 
 <div id="BrowseGenes">
-    ===Browse Genes===
-    TODO
+'''Browse Genes'''
+
+TODO
 </div>
 
 
@@ -62,13 +64,13 @@ Now we're using a simple bolded paragraph instead of a heading. Does this give b
 
 
 <div id="QueryPhenotpyeAnnotationsToGenes">
-    ===Query Phenotpye Annotations To Genes===
+    '''Query Phenotpye Annotations To Genes'''
     TODO
 </div>
 
 
 <div id="QueryTaxa">
-    ===Query Taxa===
+    '''Query Taxa'''
     TODO
 </div>
 
