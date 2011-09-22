@@ -10,18 +10,20 @@ This page is an easily editable source for help popups in the Phenoscape web UI.
 
 
 
-<div id="test-two" style="border: 2px dashed red;">
-Here's a quick test.
+<div id="FindSpecificTerm" style="border: 2px dashed silver;">
+===Find a Specific Term===
+
+Use this tool to search using any valid term (taxon, gene, etc.) in the KnowledgeBase. ''You must choose a matched value from the drop-down list before you can search.''
 </div>
 
 
-<div id="test-two" style="border: 2px dashed red;">
+<div id="test-two" style="border: 2px dashed silver;">
 This is another test
 
 </div>
 
 
-<div id="test-three" style="border: 2px dashed red;">
+<div id="test-three" style="border: 2px dashed silver;">
 
 Third test!
 </div>
