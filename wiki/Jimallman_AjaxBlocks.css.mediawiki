@@ -1,0 +1,7 @@
+---
+title: Jimallman:AjaxBlocks.css
+---
+
+<style>
+div {background-color: #eee;}
+</style>
