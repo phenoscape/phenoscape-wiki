@@ -31,72 +31,82 @@ It should, however, have two paragraphs.
 </div>
 
 
-<div id="BrowseAnatomicalEntities">
+<div id="BrowseAnatomicalEntities" style="border: 2px dashed silver;">
 '''Browse Anatomical Entities'''
 
 Now we're using a simple bolded paragraph instead of a heading. Does this give better margins?
 </div>
 
-<div id="BrowsePhenotypicQualities">
+<div id="BrowsePhenotypicQualities" style="border: 2px dashed silver;">
 '''Browse Phenotypic Qualities'''
 
 TODO
 </div>
 
 
-<div id="BrowseGenes">
+<div id="BrowseGenes" style="border: 2px dashed silver;">
 '''Browse Genes'''
 
 TODO
 </div>
 
 
-<div id="BrowseComparitivePublications">
-    ===Browse Comparitive Publications===
-    TODO
+<div id="BrowseComparitivePublications" style="border: 2px dashed silver;">
+'''Browse Comparitive Publications'''
+
+TODO
 </div>
 
 
-<div id="QueryPhenotpyeAnnotationsToTaxa">
-    ===Query PhenotpyeAnnotations To Taxa===
-    TODO
+<div id="QueryPhenotpyeAnnotationsToTaxa" style="border: 2px dashed silver;">
+'''Query PhenotpyeAnnotations To Taxa'''
+
+TODO
 </div>
 
 
-<div id="QueryPhenotpyeAnnotationsToGenes">
-    '''Query Phenotpye Annotations To Genes'''
-    TODO
+<div id="QueryPhenotpyeAnnotationsToGenes" style="border: 2px dashed silver;">
+'''Query Phenotpye Annotations To Genes'''
+
+TODO
 </div>
 
 
-<div id="QueryTaxa">
-    '''Query Taxa'''
-    TODO
+<div id="QueryTaxa" style="border: 2px dashed silver;">
+'''Query Taxa'''
+
+TODO
 </div>
 
 
-<div id="QueryGenes">
-    ===Query Genes===
-    TODO
+<div id="QueryGenes" style="border: 2px dashed silver;">
+'''Query Genes'''
+
+TODO
 </div>
 
 
-<div id="QueryCompatarivePublications">
-    ===Query Compatarive Publications===
-    TODO
+<div id="QueryCompatarivePublications" style="border: 2px dashed silver;">
+'''Query Compatarive Publications'''
+
+TODO
 </div>
 
 
-<div id="VisualizePhenotypicProfileTree">
-    ===Visualize Phenotypic Profile Tree===
-    TODO
+<div id="VisualizePhenotypicProfileTree" style="border: 2px dashed silver;">
+'''Visualize Phenotypic Profile Tree'''
+
+TODO
 </div>
 
 
-<div id="VisualizePhenotypicVariationTree">
-    ===Visualize Phenotypic Variation Tree===
-    TODO
+<div id="VisualizePhenotypicVariationTree" style="border: 2px dashed silver;">
+'''Visualize Phenotypic Variation Tree'''
+
+TODO
 </div>
+
+
 
 
 Add more entries here...
