@@ -30,4 +30,11 @@ This is a more compact style of hint that does not use a heading.
 It should, however, have two paragraphs.
 </div>
 
+
+<div id="BrowseAnatomicalEntities" style="border: 2px dashed silver;">
+'''Browse Anatomical Entities'''
+
+Now we're using a simple bolded paragraph instead of a heading. Does this give better margins?
+</div>
+
 Add more entries here...
