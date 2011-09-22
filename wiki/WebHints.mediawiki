@@ -2,7 +2,7 @@
 title: WebHints
 ---
 
-@import "/w/wiki.phtml?title=User:Jimallman/AjaxBlocks.css&action=raw&ctype=text/css";
+@import "/wg/phenoscape/index.php?title=Jimallman:AjaxBlocks.css&action=raw&ctype=text/css";
 
 This page is an easily editable source for help popups in the Phenoscape web UI. Each entry below should be contained in a block element (DIV) with a mnemonic ID.
 
