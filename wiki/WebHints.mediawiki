@@ -37,6 +37,7 @@ It should, however, have two paragraphs.
 Now we're using a simple bolded paragraph instead of a heading. Does this give better margins?
 </div>
 
+
 <div id="BrowsePhenotypicQualities" style="border: 2px dashed silver;">
 '''Browse Phenotypic Qualities'''
 
