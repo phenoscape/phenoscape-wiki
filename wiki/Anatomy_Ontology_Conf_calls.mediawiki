@@ -12,19 +12,22 @@ title: Anatomy Ontology Conf calls
 '''Attending:''' Jim, Wasila, Yvonne, Monte, Paula, Chris, Terry, Christina, VG
 
 === Minutes ===
-* Wasila: Currently, TAO duplicates all ZFA terms, meaning that every term in ZFA has a corresponding term in TAO; links to gene data.  Chris pointed out that a reasoner can do the integration between TAO and ZFA.  Would lessen the work involved in synchronizing
+* Wasila: Currently, TAO duplicates all ZFA terms, meaning that every term in ZFA has a corresponding term in TAO; links to gene data.  
+* ZFA duplicates only zebrafish-applicable terms and only terms that might be needed for curation (e.g., some skeletal element terms, although applicable to zfish, not added to ZFA). 
+* Chris pointed out that a reasoner can do the integration between TAO and ZFA.  Would lessen the work involved in synchronizing and wouldn't need to duplicate every ZFA term in TAO
+* Reasoning: can bridging axioms handle this? Jim: bridging axioms can be generated from xrefs
 * Jim: in the redesigned version of the KB, this will work
 
-* ZFA duplicates only zebrafish-applicable terms; only duplicates terms that might be needed for curation (e.g., some skeletal element terms, although applicable to zfish, not added to ZFA). Likewise, TAO may not need to duplicate every ZFA term
+* How to keep track of terms that don’t apply to zfish or tao?  Don’t want to re-visit each time…. Need to have a diff file for each release…
 
 *Chris: Do you want branch-specific exclusion?
 **Probably not needed; not a big task to review newly added terms for inclusion/exclusion
 
-* Paula: Is there a way to make a comment appear after subset in OBO format? 
-** Chris: trailing qualifier can be used - appears as {}; not sure if preserved in OBO-edit
-
 * Add subset tags to ZFA and TAO: ZFA has "exclude from TAO" subset; TAO has "exclude from ZFA" subset
 ** discussed creating separate subsets for different reasons for exclusion; decided it was better to begin simple with one subset
+
+* Paula: Is there a way to make a comment appear after subset in OBO format?
+** Chris: trailing qualifier can be used - appears as {}; not sure if preserved in OBO-edit
 
 * Could also use a shared external file containing subset info, readable by Synch Tool
 
