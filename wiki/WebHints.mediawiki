@@ -9,25 +9,24 @@ title: WebHints
 This page is an easily editable source for help popups in the Phenoscape web UI. Each entry below should be contained in a block element (DIV) with a mnemonic ID.
 
 
-
 <div id="FindSpecificTerm" style="border: 2px dashed silver;">
-===Find a Specific Term===
+'''Find a Specific Term'''
 
 Use this tool to search using any valid term (taxon, gene, etc.) in the KnowledgeBase. '''You must choose a matched value from the drop-down list before you can search.'''
 </div>
 
 
 <div id="BrowseAllPhenotypes" style="border: 2px dashed silver;">
-====Browse All Phenotypes====
+'''Browse All Phenotypes'''
 
-You can browse all phenotypes. (This hint uses a smaller heading than ''Find a Specific Term''.)
+TODO
 </div>
 
 
 <div id="BrowseTaxa" style="border: 2px dashed silver;">
-This is a more compact style of hint that does not use a heading.
+'''Browse Taxa'''
 
-It should, however, have two paragraphs.
+TODO
 </div>
 
 
