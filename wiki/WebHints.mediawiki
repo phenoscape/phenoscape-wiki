@@ -54,12 +54,13 @@ TODO
 <div id="BrowseComparitivePublications" style="border: 2px dashed silver;">
 '''Browse Comparitive Publications'''
 
-TODO
+TODOPaula
 </div>
 
+Find phenotypic data associated with taxa
 
-<div id="QueryPhenotpyeAnnotationsToTaxa" style="border: 2px dashed silver;">
-'''Query PhenotpyeAnnotations To Taxa'''
+<div id="QueryPhenotypeAnnotationsToTaxa" style="border: 2px dashed silver;">
+'''Query Phenotype Annotations To Taxa'''
 
 TODO
 </div>
