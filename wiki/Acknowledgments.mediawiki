@@ -14,6 +14,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Mário de Pinna, Universidade de São Paulo
 * Alexander Diehl, The Jackson Laboratory
 * Jeff Engeman, University of South Dakota
+* Benjamin Frable, National Museum of Natural History, Smithsonian Institution
 * Terry Grande, Loyola University, Chicago
 * Melissa Haendel, Zebrafish Information Network
 * Brian Hall, Dalhousie University
