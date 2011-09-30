@@ -54,47 +54,46 @@ TODO
 <div id="BrowseComparativePublications" style="border: 2px dashed silver;">
 '''Browse Comparative Publications'''
 
-TODOPaula
+TODO
 </div>
 
-Find the taxa associated with a particular phenotype
 
 <div id="QueryPhenotypeAnnotationsToTaxa" style="border: 2px dashed silver;">
 '''Query Phenotype Annotations To Taxa'''
 
-TODOPAULA
+Find the taxa associated with a particular phenotype
+
 </div>
 
-Find phenotypic data associated with taxa
 
 <div id="QueryPhenotypeAnnotationsToGenes" style="border: 2px dashed silver;">
 '''Query Phenotype Annotations To Genes'''
 
-TODOPAULA
+Find phenotypic data associated with genes
+
 </div>
 
-Find phenotypic data associated with genes
 
 <div id="QueryTaxa" style="border: 2px dashed silver;">
 '''Query Taxa'''
 
-TODOpaula
+Find phenotypic data associated with taxa
 </div>
 
-Find the genes associated with a particular phenotype
 
 <div id="QueryGenes" style="border: 2px dashed silver;">
 '''Query Genes'''
 
-TODO
+Find the genes associated with a particular phenotype
+
 </div>
 
-Find the publications that contain particular taxa or particular phenotypes
 
 <div id="QueryComparativePublications" style="border: 2px dashed silver;">
 '''Query Comparative Publications'''
 
-TODO
+Find the publications that contain particular taxa or particular phenotypes
+
 </div>
 
 
