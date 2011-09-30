@@ -62,7 +62,6 @@ TODO
 '''Query Phenotype Annotations To Taxa'''
 
 Find the taxa associated with a particular phenotype
-
 </div>
 
 
@@ -70,7 +69,6 @@ Find the taxa associated with a particular phenotype
 '''Query Phenotype Annotations To Genes'''
 
 Find phenotypic data associated with genes
-
 </div>
 
 
@@ -85,7 +83,6 @@ Find phenotypic data associated with taxa
 '''Query Genes'''
 
 Find the genes associated with a particular phenotype
-
 </div>
 
 
@@ -93,7 +90,6 @@ Find the genes associated with a particular phenotype
 '''Query Comparative Publications'''
 
 Find the publications that contain particular taxa or particular phenotypes
-
 </div>
 
 
