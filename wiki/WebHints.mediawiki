@@ -51,8 +51,8 @@ TODO
 </div>
 
 
-<div id="BrowseComparitivePublications" style="border: 2px dashed silver;">
-'''Browse Comparitive Publications'''
+<div id="BrowseComparativePublications" style="border: 2px dashed silver;">
+'''Browse Comparative Publications'''
 
 TODOPaula
 </div>
@@ -66,8 +66,8 @@ TODO
 </div>
 
 
-<div id="QueryPhenotpyeAnnotationsToGenes" style="border: 2px dashed silver;">
-'''Query Phenotpye Annotations To Genes'''
+<div id="QueryPhenotypeAnnotationsToGenes" style="border: 2px dashed silver;">
+'''Query Phenotype Annotations To Genes'''
 
 TODO
 </div>
