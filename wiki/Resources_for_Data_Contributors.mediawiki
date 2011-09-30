@@ -10,8 +10,11 @@ Phenex was developed by Phenoscape for annotation of evolutionary phenotypes.  Y
 
 Phenoscape project files are XML files (more specifically, they are in [http://nexml.org NeXML] format) created using Phenex and housed in a subversion-controlled data repository.  Please read the [[Data Repository Access Instructions|'''Instructions for accessing the data repository''']] if you are interested in perusing or adding to them.
 
-==3. Download PDFs as Needed on Phenoscape Fileshare ==
-You can download publication PDFs and powerpoint posters of the TAO and PATO ontologies by connecting to the Phenoscape file share. Please ask a Phenoscaper for the username and password.
+==3. Access PDFs for Curation ==
+
+Phenoscape uses Mendeley to maintain the collection of PDFs for curation. Please ask project personnel (Wasila or Paula) for an invitation to join the group.
+
+Phenoscape also maintains a collection of PDFs for teleost publications on the Phenoscape file share. Directions for connecting to the file share are below.  Please ask a Phenoscaper for the username and password.
 
 ====Mac OS X====
 # In finder > Go > Connect to Server
