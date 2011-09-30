@@ -12,7 +12,7 @@ This page is an easily editable source for help popups in the Phenoscape web UI.
 <div id="FindSpecificTerm" style="border: 2px dashed silver;">
 '''Find a Specific Term'''
 
-Use this tool to search using any valid term (taxon, gene, etc.) in the KnowledgeBase. '''You must choose a matched value from the drop-down list before you can search.'''
+Use this tool to search using any valid term (taxon, gene, etc.) in the Knowledgebase. '''You must choose a matched value from the drop-down list before you can search.'''
 </div>
 
 
