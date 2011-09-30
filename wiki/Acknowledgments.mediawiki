@@ -51,6 +51,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Sonia Crichigno, Centro Regional Universitario Bariloche, (Univ. Nac. del Comahue), Argentina
 * Wasila Dahdul, University of South Dakota
 * Jeff Engeman, University of South Dakota
+* Benjamin Frable, National Museum of Natural History, Smithsonian Institution
 * Terry Grande, Loyola University, Chicago
 * Eric Hilton, Virginia Institute of Marine Science
 * John Lundberg, The Academy of Natural Sciences, Philadelphia
@@ -167,6 +168,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Sonia Crichigno, Centro Regional Universitario Bariloche, (Univ. Nac. del Comahue), Argentina
 * Jeff Engeman, University of South Dakota
 * Ericka Grey, University of South Dakota
+* Jun Hong Kim, Duke University
 * Jonathan Lee, Duke University
 * Leah Mabee, University of South Dakota
 * Mtakai Ngara, International Institute of Tropical Agriculture, Nairobi, Kenya
