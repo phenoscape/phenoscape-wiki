@@ -8,6 +8,11 @@ title: WebHints
 
 This page is an easily editable source for help popups in the Phenoscape web UI. Each entry below should be contained in a block element (DIV) with a mnemonic ID.
 
+<div id="WhatArePhenotypes" style="border: 2px dashed silver;">
+'''About Phenotypes'''
+
+Helpful information about phenotypes (E, Q, RE).
+</div>
 
 <div id="FindSpecificTerm" style="border: 2px dashed silver;">
 '''Find a Specific Term'''
