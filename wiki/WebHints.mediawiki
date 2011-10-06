@@ -14,6 +14,7 @@ This page is an easily editable source for help popups in the Phenoscape web UI.
 Helpful information about phenotypes (E, Q, RE).
 </div>
 
+
 <div id="FindSpecificTerm" style="border: 2px dashed silver;">
 '''Find a Specific Term'''
 
