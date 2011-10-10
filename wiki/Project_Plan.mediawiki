@@ -22,7 +22,8 @@ Action items:
 *Action Item: Jim will send Hong full database report with character text and EQ assignments
 *Hong: Hire MS student at AZ
 *Todd: Hire UNC postdoc
-*Interface between Hong’s tools and Phenex.
+*Jim: to enumerate pros and cons for MX (web-based) and Phenex for first phone call, estimate development time
+*Interface between Hong’s tools and Phenex (or MX)
 
 === Target milestone: Second quarter: January 1, 2012  ===
 === Target milestone: End of Year 1:July 1, 2012  ===
