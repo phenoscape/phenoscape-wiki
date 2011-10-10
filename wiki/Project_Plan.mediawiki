@@ -47,40 +47,40 @@ Action items:
 The objective is to curate
 
 
-Primary personnel: Paula, David, Paul, Wasila, and postdoctoral fellows
+Primary personnel: Paula, David, Paul, Wasila, Jim, and postdoctoral fellows
 
 === Target milestone: First quarter: October 1, 2011  ===
-Objective: Develop a prioritized list of phylogenetic papers containing vertebrate fin/limb data for curation
-*
+Objective: Develop a prioritized list of phylogenetic papers containing vertebrate fin/limb data for curation; evaluate curation tool
 
 Action items:
 * Papers (pdfs) to be prioritized by Paul and/or Nizar (sent to Hong Cui too?)
 * Annotation for AmAO to begin after AmAO developed (August 2011)
 * Training (ontology editor; annotation tool) for Paul & Nizar at NESCent (to be scheduled August
 2011)
-* Paul and Nizar will document in lists any additional terms and definitions before meeting;
-prepare to add them to AmAO at NESCent.
+* Paul and Nizar will document in lists any additional terms and definitions before meeting; prepare to add them to AmAO at NESCent.
+* evaluate curation tool - do we need a new one?
+* Jim will develop KB instance in parallel for Vertebrates (a new beta) this summer
 
-Annotation for AAO to begin Year 2 (after cloning XAO)
+=== Target milestone: Second quarter: January 1, 2012  ===
+=== Target milestone: End of Year 1:July 1, 2012  ===
+* Limb/fin to be curated initially; Amniotes done by end of year 1
 
-Curation tool decision?
+=== Target milestone: Year 2:July 1, 2013  ===
+* Annotation for AAO to begin in Year 2 (after cloning XAO)
 
-Limb/fin to be curated initially; done by year 1
-
-Jim will develop KB instance in parallel for Vertebrates (a new beta) this summer
-Q: Should Jim develop a new tool? Action item added to Scalable Workflow, above
-Hong would like copies of papers before we curate them (pdf)
+=== Target milestone: Year 3:July 1, 2014  ===
+=== Target milestone: Year 4:July 1, 2015  ===
 
 ==Model organism phenotypes (Monte) ==
-Objective: 
+Objective:
 Involved personnel: MGI (Judy, Terry), ZFIN (Monte, Ceri,Yvonne), Xenbase (Aaron, Christina)
 === Target milestone: First quarter: October 1, 2011  ===
-* Curation of expression and phenotypes 
+* Curation of expression and phenotypes
 * Investigate additional funding through NSF (Todd) and NIH (Monte, Judy)
 * Determine whether the current MP->EQ mapping is sufficient (i.e., the mapping that had been done with
 George)? In particular, is the limb and limb girdle mapping complete?
 
-Action items: 
+Action items:
 * Judy will check with Martin to see if limb mapping has done
 * Determine who is responsible for completing the mapping and keeping it up to date? Cindy?  How to coordinate with PATO?
 * Are there outstanding problems with developmental phenotypes for mouse, i.e. how to incorporate the abstract mouse?
