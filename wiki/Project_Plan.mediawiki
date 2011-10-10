@@ -30,7 +30,7 @@ Action items:
 === Target milestone: Year 3:July 1, 2014  ===
 === Target milestone: Year 4:July 1, 2015  ===
 
-==Term broker (collab with NCBO) ==
+==Term broker, in collaboration with NCBO (Hilmar) ==
 === Target milestone: First quarter: October 1, 2011  ===
 === Target milestone: Second quarter: January 1, 2012  ===
 === Target milestone: End of Year 1:July 1, 2012  ===
