@@ -97,8 +97,43 @@ Action items:
 === Target milestone: Year 4: July 1, 2015  ===
 
 =4. Homology (Paula to fill in and check with Hilmar)=
-==Homology reasoning==
+Objective: The legacy homology assertions for the fin-limb skeleton, including assertions of both phylogenetic and iterative (serial) homology [50], and
+the genes involved in growth and patterning of the limb at various stages, e.g., Bmps, Fgfs, Gdf5, Sox9
+are also well known, e.g., [20
+
+==Homology reasoning framework==
+Personnel: Hilmar*, Chris (also Paula, David, Paul)
+*coordinator
+* Use-cases and requirements for querying and reasoning; Decisions on reasoning etc. important because system architecture depends on it.
+* Collecting, curating, and annotating homology assertions
+* Logical model for homology in the KB, including for serial homology
+* Exposing homologies on UI
+* Integration of homology into reasoning
+* Exposing homology inferences (for display and for querying/filtering) through UI
+* Handling ‘Default homology’: same term in different taxa and with no evidence to the contrary,
+homologous.
+
+Action items
+* Collect use cases to develop and test reasoning - on wiki (look for examples of structures that are symmetric in some species; where serial structures are separate vs.fused in some taxa).
+* Make sure taxa in Vertebrate Homologies document are in VTO (Peter)
+* Work out initial reasoning for serial homology
+* Ensure testing can be accomplished within Protege, 3-6 months (Hilmar, Chris)
+
 ==Homology assertions==
+Personnel: Paula*, David, Paul
+*coordinator
+
+Action items:
+* Establish matrix of fin/limb homologies, evidence codes
+* Establishing test data set of homologies, incl iterative homology
+* Establish use cases for homology reasoning, esp iterative homology
+* Ensure that early data annotation has coverage over test homologies
+* Plan bake-off of homology models after testing is complete? (Practicality not clear)
+* Define tests for knowledgebase based on OWL-DL test suite (Jim)
+
+Communication and coordination issues
+* Plan on homology theme at RCN no earlier than Yr3
+* Touch base with Parkinson re: VBO plans (Monte)
 
 =5. Semantic similarity search engine (aka Phenoblast) and OBD/OWL (Todd, Jim? to fill in)=
 
