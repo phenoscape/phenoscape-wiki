@@ -38,7 +38,7 @@ Action items:
 === Target milestone: Year 3:July 1, 2014  ===
 === Target milestone: Year 4:July 1, 2015  ===
 
-=2. Ontology development and coordination (Wasila to fill in)=
+=2. Ontology development and coordination (Wasila)=
 ==Anatomy ontologies==
 ==Taxonomy ontologies==
 
