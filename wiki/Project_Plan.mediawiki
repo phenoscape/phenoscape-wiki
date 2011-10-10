@@ -68,7 +68,7 @@ Action items:
 === Target milestone: Year 4: July 1, 2015  ===
 
 ==Model organism phenotypes (Monte) ==
-Objective: To annotate the skeletal phenotypes for fin and limb for genetic mutants of zebrafish, Xenopus, and mouse. The model organism (MOD) curators will initially prioritize comprehensive annotation of skeletal phenotypes for the fin and limb, and subsequently of skeletal phenotypes in general. 
+Objective: To annotate the skeletal phenotypes for fin and limb for genetic mutants of zebrafish, Xenopus, and mouse. The model organism (MOD) curators will initially prioritize comprehensive annotation of skeletal phenotypes for the fin and limb, and subsequently of skeletal phenotypes in general.
 
 Involved personnel: MGI (Judy, Terry), ZFIN (Monte, Ceri,Yvonne), Xenbase (Aaron, Christina)
 
@@ -85,6 +85,12 @@ Action items:
 * Determine timeline for:
 ** Developing pipelines for uploading Xenbase and MGI phenotype data to Phenoscape
 ** Incorporating expression data into Phenoscape KB
+
+=== Target milestone: Second quarter: January 1, 2012  ===
+=== Target milestone: End of Year 1:July 1, 2012  ===
+=== Target milestone: Year 2: July 1, 2013  ===
+=== Target milestone: Year 3: July 1, 2014  ===
+=== Target milestone: Year 4: July 1, 2015  ===
 
 =4. Homology (Paula to fill in and check with Hilmar)=
 ==Homology reasoning==
