@@ -44,7 +44,7 @@ Action items:
 
 =3. Phenotype annotation=
 ==Evolutionary phenotypes (Paula)==
-Our objective is to transform the characters and character states from published phylogenetic studies into ontology-based descriptions ('Evolutionary phenotypes'), with our focus on fin and limb morphology.  This will require the development of a list of papers to be curated (below), re-evaluation of software curation tool, training of personnel in use of curation software and ontology development, and development of appropriate ontologies.
+The objective is to transform the characters and character states from published phylogenetic studies into ontology-based descriptions ('Evolutionary phenotypes'), with a focus on fin and limb morphology.  This will require the development of a list of papers to be curated (below), re-evaluation of software curation tool, training of personnel in use of curation software and ontology development, and development of appropriate ontologies.
 
 Primary personnel: Paula, David, Paul, Wasila, Jim, and postdoctoral fellows
 
@@ -54,7 +54,7 @@ Objective: Develop a prioritized list of phylogenetic papers containing vertebra
 Action items:
 * Papers (pdfs) to be prioritized
 * Annotation for AmAO to begin after AmAO developed (August 2011)
-* Training (ontology editor; annotation tool) for Paul & Nizar at NESCent 
+* Training (ontology editor; annotation tool) for Paul & Nizar at NESCent
 * Paul and Nizar will document in lists any additional terms and definitions before meeting; prepare to add them to AmAO at NESCent.
 * Evaluate curation tool - do we need a new one?
 * Jim will develop KB instance in parallel for Vertebrates (a new beta) this summer
