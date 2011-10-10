@@ -45,7 +45,8 @@ Action items:
 ==Taxonomy ontologies==
 
 =3. Phenotype annotation=
-==Evolutionary phenotypes==
+==Evolutionary phenotypes (Paula)==
+
 ==Model organism phenotypes (Monte) ==
 Objective: 
 Involved personnel: MGI (Judy, Terry), ZFIN (Monte, Ceri,Yvonne), Xenbase (Aaron, Christina)
