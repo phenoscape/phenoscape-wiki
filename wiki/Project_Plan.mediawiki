@@ -46,16 +46,32 @@ Action items:
 
 =3. Phenotype annotation=
 ==Evolutionary phenotypes (Paula)==
-The objective of this part of our work is to improve the efficiency with which curators can find accurate terms, add missing terms, etc.
+The objective is to curate
+
 
 Primary personnel: Paula, David, Paul, Wasila, and postdoctoral fellows
 
 === Target milestone: First quarter: October 1, 2011  ===
 Objective: Develop a prioritized list of phylogenetic papers containing vertebrate fin/limb data for curation
-* 
+*
 
 Action items:
-*
+* Papers (pdfs) to be prioritized by Paul and/or Nizar (sent to Hong Cui too?)
+* Annotation for AmAO to begin after AmAO developed (August 2011)
+* Training (ontology editor; annotation tool) for Paul & Nizar at NESCent (to be scheduled August
+2011)
+* Paul and Nizar will document in lists any additional terms and definitions before meeting;
+prepare to add them to AmAO at NESCent.
+
+Annotation for AAO to begin Year 2 (after cloning XAO)
+
+Curation tool decision?
+
+Limb/fin to be curated initially; done by year 1
+
+Jim will develop KB instance in parallel for Vertebrates (a new beta) this summer
+Q: Should Jim develop a new tool? Action item added to Scalable Workflow, above
+Hong would like copies of papers before we curate them (pdf)
 
 ==Model organism phenotypes (Monte) ==
 Objective: 
