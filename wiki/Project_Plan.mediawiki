@@ -118,18 +118,32 @@ Action items
 * Make sure taxa in Vertebrate Homologies document are in VTO (Peter)
 * Work out initial reasoning for serial homology
 * Ensure testing can be accomplished within Protege, 3-6 months (Hilmar, Chris)
+* Plan bake-off of homology models after testing is complete? (Practicality not clear)
+* Define tests for knowledgebase based on OWL-DL test suite (Jim)
+
+
+=== Target milestone: Second quarter: January 1, 2012  ===
+=== Target milestone: End of Year 1:July 1, 2012  ===
+=== Target milestone: Year 2: July 1, 2013  ===
+=== Target milestone: Year 3: July 1, 2014  ===
+=== Target milestone: Year 4: July 1, 2015  ===
 
 ==Homology assertions==
 Personnel: Paula*, David, Paul
 *coordinator
-
 Action items:
-* Establish matrix of fin/limb homologies, evidence codes
+* Establish matrix of fin/limb homologies, evidence codes --[[User:Pmabee@usd.edu|Pmabee@usd.edu]] 11:11, 10 October 2011 (EDT)Matrix established (google doc)
+
+=== Target milestone: Second quarter: January 1, 2012  ===
+* Finalize matrix of fin/limb homologies, evidence codes 
+
+=== Target milestone: End of Year 1:July 1, 2012  ===
+Action items:
 * Establishing test data set of homologies, incl iterative homology
-* Establish use cases for homology reasoning, esp iterative homology
+* Establish use cases for homology reasoning, esp iterative homology=== Target milestone: Year 2: July 1, 2013  ===
 * Ensure that early data annotation has coverage over test homologies
-* Plan bake-off of homology models after testing is complete? (Practicality not clear)
-* Define tests for knowledgebase based on OWL-DL test suite (Jim)
+=== Target milestone: Year 3: July 1, 2014  ===
+=== Target milestone: Year 4: July 1, 2015  ===
 
 Communication and coordination issues
 * Plan on homology theme at RCN no earlier than Yr3
