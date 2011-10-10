@@ -46,6 +46,16 @@ Action items:
 
 =3. Phenotype annotation=
 ==Evolutionary phenotypes (Paula)==
+The objective of this part of our work is to improve the efficiency with which curators can find accurate terms, add missing terms, etc.
+
+Primary personnel: Paula, David, Paul, Wasila, and postdoctoral fellows
+
+=== Target milestone: First quarter: October 1, 2011  ===
+Objective: Develop a prioritized list of phylogenetic papers containing vertebrate fin/limb data for curation
+* 
+
+Action items:
+*
 
 ==Model organism phenotypes (Monte) ==
 Objective: 
