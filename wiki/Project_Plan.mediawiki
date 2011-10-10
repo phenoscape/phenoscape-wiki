@@ -46,7 +46,8 @@ Action items:
 ==Evolutionary phenotypes (Paula)==
 The objective is to transform the characters and character states from published phylogenetic studies into ontology-based descriptions ('Evolutionary phenotypes'), with a focus on fin and limb morphology.  This will require the development of a list of papers to be curated, re-evaluation of software curation tool, training of personnel in use of curation software and ontology development, and development of appropriate ontologies.
 
-Primary personnel: Paula, David, Paul, Wasila, Jim, and postdoctoral fellows
+Personnel: Paula*, David, Paul, Wasila, Jim, and postdoctoral fellows
+*Coordinator
 
 === Target milestone: First quarter: October 1, 2011  ===
 Objective: Develop a prioritized list of phylogenetic papers containing vertebrate fin/limb data for curation; evaluate curation tool; prepare KB for vertebrate data
