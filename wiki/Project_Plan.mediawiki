@@ -48,7 +48,23 @@ Action items:
 
 =3. Phenotype annotation=
 ==Evolutionary phenotypes==
-==Model organism phenotypes==
+==Model organism phenotypes (Monte) ==
+Objective: 
+Involved personnel: MGI (Judy, Terry), ZFIN (Monte, Ceri,Yvonne), Xenbase (Aaron, Christina)
+=== Target milestone: First quarter: October 1, 2011  ===
+* Curation of expression and phenotypes 
+* Investigate additional funding through NSF (Todd) and NIH (Monte, Judy)
+* Determine whether the current MP->EQ mapping is sufficient (i.e., the mapping that had been done with
+George)? In particular, is the limb and limb girdle mapping complete?
+
+Action items: 
+* Judy will check with Martin to see if limb mapping has done
+* Determine who is responsible for completing the mapping and keeping it up to date? Cindy?  How to coordinate with PATO?
+* Are there outstanding problems with developmental phenotypes for mouse, i.e. how to incorporate the abstract mouse?
+* Determine timeline for:
+** Developing pipelines for uploading Xenbase and MGI phenotype data to Phenoscape
+** Talk with Jim about any issues
+** Incorporating expression data into Phenoscape KB
 
 =4. Homology (Paula to fill in and check with Hilmar)=
 ==Homology reasoning==
