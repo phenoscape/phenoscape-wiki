@@ -5,7 +5,7 @@ title: Project Plan
 Much of the schedule below is based on the [[MEDIA:Phenoscape_Project description_refs.pdf|1 July 2011 funded NSF grant]].  Our development schedule is revised as shown in the figure below in concert with budget cuts.  Relative to the original proposal the support for curation, particularly in the model organism databases, is significantly reduced.  This will impact our ability to respond as any problems arise with integration of the evolutionary data and somewhat compromise our ability to rigorously evaluate the tools being developed. Additionally, we will scale back the development goals for the semantic similarity search engine, focussing our efforts on achieving scalability and speedup.  We have also frontloaded the plans for execution of the NLP work to achieve a scalable workflow as early as possible in the process.
 [[Image:Phenoscape2fig.png|center|800px]]
 
-=1. Scalable workflow=
+=1. Scalable workflow (Hong)=
 Curation of legacy phenotypes from the literature is a major bottleneck. The overall objective of this part of our work is to improve the efficiency with which curators can find accurate terms, add missing terms, etc.
 
 Primary personnel: Hong Cui, Jim, Todd, UNC postdoc, MS student
