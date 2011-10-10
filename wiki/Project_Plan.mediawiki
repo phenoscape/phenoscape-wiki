@@ -53,7 +53,7 @@ Personnel: Paula*, David, Paul, Wasila, Jim, and postdoctoral fellows
 Objective: Develop a prioritized list of phylogenetic papers containing vertebrate fin/limb data for curation; evaluate curation tool; prepare KB for vertebrate data
 
 Action items:
-* Papers (pdfs) to be prioritized
+* Develop a list of priority papers (pdfs) to be curated
 * Annotation for AmAO to begin after AmAO developed (August 2011)
 * Training (ontology editor; annotation tool) for Paul & Nizar at NESCent
 * Paul and Nizar will document in lists any additional terms and definitions before meeting; prepare to add them to AmAO at NESCent.
