@@ -221,12 +221,8 @@ Personnel: Todd*, Hilmar, Jim
 Action items:
 
 === Target milestone: Second quarter: January 1, 2012  ===
-* Ensure testing can be accomplished within Protege, 3-6 months (Hilmar, Chris)
 
 === Target milestone: End of Year 1:July 1, 2012  ===
-* Plan bake-off of homology models after testing is complete? (Practicality not clear)
-* Define tests for knowledgebase based on OWL-DL test suite (Jim)
-
 === Target milestone: Year 2: July 1, 2013  ===
 === Target milestone: Year 3: July 1, 2014  ===
 === Target milestone: Year 4: July 1, 2015  ===
