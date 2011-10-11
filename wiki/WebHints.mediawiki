@@ -91,7 +91,7 @@ Find the genes associated with a particular phenotype
 </div>
 
 
-<div id="QueryComparativePublications" style="border: 2px dashed silver;">
+<div id="QueryCompatarivePublications" style="border: 2px dashed silver;">
 '''Query Comparative Publications'''
 
 Find the publications that contain particular taxa or particular phenotypes
