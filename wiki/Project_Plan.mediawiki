@@ -174,20 +174,20 @@ Personnel: Hilmar*, Chris (also Paula, David, Paul)
 * Exposing homologies on UI
 * Integration of homology into reasoning
 * Exposing homology inferences (for display and for querying/filtering) through UI
-* Handling ‘Default homology’: same term in different taxa and with no evidence to the contrary,
-homologous.
+* Handling ‘Default homology’: same term in different taxa and with no evidence to the contrary, homologous.
 
 Action items
 * Collect use cases to develop and test reasoning - on wiki (look for examples of structures that are symmetric in some species; where serial structures are separate vs.fused in some taxa).
 * Make sure taxa in Vertebrate Homologies document are in VTO (Peter)
 * Work out initial reasoning for serial homology
+
+=== Target milestone: Second quarter: January 1, 2012  ===
 * Ensure testing can be accomplished within Protege, 3-6 months (Hilmar, Chris)
+
+=== Target milestone: End of Year 1:July 1, 2012  ===
 * Plan bake-off of homology models after testing is complete? (Practicality not clear)
 * Define tests for knowledgebase based on OWL-DL test suite (Jim)
 
-
-=== Target milestone: Second quarter: January 1, 2012  ===
-=== Target milestone: End of Year 1:July 1, 2012  ===
 === Target milestone: Year 2: July 1, 2013  ===
 === Target milestone: Year 3: July 1, 2014  ===
 === Target milestone: Year 4: July 1, 2015  ===
