@@ -115,7 +115,7 @@ Action Items
 **update VTO from list of taxa previously added
 
 === Target milestone: End of Year 1:July 1, 2012  ===
-*Generate OWL version (Peter?,Jim?)
+*Support generation of OWL (individual-based) taxonomies (Peter?,Jim?)
 *Finalize workflow for bulk updates from CoF(via TTO), ATO, and PaleoDB
 *Guide for updating taxonomy ontologies with curation driven additions
 
