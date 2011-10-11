@@ -74,15 +74,13 @@ Personnel: Wasila, Nizar, Lauren, Paul, David, Terry, Yvonne, Ceri, Christina, V
 === Target milestone: First quarter: October 1, 2011  ===
 Action items:
 
-* Set up weekly anatomy ontology conference calls, mailing lists, etc - ''done''
-* Jim: further develop synchronization plug-in in 3-6 mo window (depending on choice of import mechanism for MOD ontologies) -- ''ongoing''
-* Monte: discuss with ZFIN team issue of moving to GO like model, probably long-term goal -- done, August 2011
-* Set up conference call with Aaron and XAO db folks to set up modular ontology model and specifics of importing model species-specific information (like devo stage) (Monte, Jim, Wasila) - ''done, August 2011 (WD)''
+* Set up weekly anatomy ontology conference calls and mailing lists - ''done''
+* Jim: further development of synchronization plug-in in 3-6 mo window -- ''ongoing''
+* Communication with ZFIN and XenBase on issue of moving to GO like model, probably long-term goal -- done, August 2011
 * incorporate MIREOT into ontologies - ''done: modified import/MIREOT strategy used in new TAO; will be used in AMAO''
 * XAO update (lead by Christina, VG, Erik) -- '''done, August 2011:'''
 **Complete definitions; add CARO terms to make is_a complete; Review of overall structure (review structure from 2008)
-**Terms from AAO and VAO integrated into XAO (including xrefs)
-**Looked to ZFA and UBERON for additional terms needed
+**Terms from AAO and VAO integrated into XAO (including xrefs); looked to ZFA and UBERON for additional terms needed
 * Training in ontology development tools (for Nizar, David, Paul, etc)--'' training for Paul and Lauren, week of October 10, 2011
 ''
 * initiate Amniote Anatomy Ontology -- ''in progress, week of October 2011''
