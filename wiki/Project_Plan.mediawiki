@@ -218,7 +218,7 @@ Action items:
 * Establish matrix of fin/limb homologies, evidence codes -- Matrix established (google doc: https://docs.google.com/spreadsheet/ccc?key=0Apgi__7Z2km5dHQ2eTRWeEpCOWwtS2VIZC1tM2lPbUE&hl=en_US#gid=0)
 
 === Target milestone: Second quarter: January 1, 2012  ===
-* Finalize matrix of fin/limb homologies, evidence codes
+* Finalize small test matrix of fin/limb homologies, evidence codes
 
 === Target milestone: End of Year 1:July 1, 2012  ===
 Action items:
