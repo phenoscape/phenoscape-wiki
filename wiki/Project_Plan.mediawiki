@@ -248,13 +248,21 @@ Personnel: Todd*, Hilmar, Jim
 
 Action items:
 === Target milestone: First quarter: October 1, 2011  ===
-
+* literature review of existing semantic similarity metrics and algorithms
+* compilation of test sets for benchmarking and evaluation 
 === Target milestone: Second quarter: January 1, 2012  ===
-
+* installation and existing tools (standalone, R libraries, etc)
+* elaboration of alternative graph-based metrics
+* R implementation of graph-based metrics
 === Target milestone: End of Year 1:July 1, 2012  ===
+* initial scalability/performance testing of tools
+* begin work required on algorithm optimization 
 === Target milestone: Year 2: July 1, 2013  ===
+* software development, testing, documentation
 === Target milestone: Year 3: July 1, 2014  ===
+* integration of software into Phenoscape KB
 === Target milestone: Year 4: July 1, 2015  ===
+* use in capstone
 
 =6. Knowledgebase reasoning and development (Jim)=
 
