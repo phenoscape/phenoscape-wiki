@@ -221,13 +221,13 @@ Action items:
 * Finalize small test matrix of fin/limb homologies, evidence codes
 
 === Target milestone: End of Year 1:July 1, 2012  ===
-Action items:
-* Establishing test data set of homologies, incl iterative homology
 * Establish use cases for homology reasoning, esp iterative homology
-* Plan/convene homology jamboree for experts on the fin/limb
+* Plan homology jamboree for experts on the fin/limb in year 2
 
 === Target milestone: Year 2: July 1, 2013  ===
 * Ensure that early data annotation has coverage over test homologies
+* Convene homology jamboree for experts
+
 === Target milestone: Year 3: July 1, 2014  ===
 === Target milestone: Year 4: July 1, 2015  ===
 
