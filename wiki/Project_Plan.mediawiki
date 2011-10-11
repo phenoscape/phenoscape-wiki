@@ -64,7 +64,7 @@ Priorities and milestones (3 mos, 6 mos, 1 yr)
 === Target milestone: Year 4:July 1, 2015  ===
 
 =2. Ontology development and coordination (Wasila)=
-==Anatomy ontologies==
+==Anatomy ontologies (Wasila)==
 The objective is the integration and coordinated development of multispecies and single species ontologies for teleosts, zebrafish, amphibians, Xenopus, amniotes, and mouse. The focus of ontology development in year 1 is the limb/fin skeletal branch. This will require reviewing the fin/limb branch in existing ontologies and continued development of the higher-level vertebrate skeletal ontology (VAO). Specific ontology development plans are documented [[Anatomy_Ontology_Development_Plan | here.]]
 
 Personnel: Wasila*, Nizar, Lauren, Paul, David, Terry, Yvonne, Ceri, Christina, VG, Paula
@@ -99,11 +99,18 @@ Action items:
 
 ==Vertebrate Taxonomy Ontology (Peter)==
 The objective is to develop a taxonomic ontology that includes all fossil and extant vertebrate taxa from community-vetted sources.  This ontology is required for curation of phenotypes and querying.
+Personnel: Peter*, Paul, David
+*Coordinator
+
+=== Target milestone: First quarter: October 1, 2011  ===
 Action Items
 * Paul will generate taxonomy and bring to NESCent in August
 * David will update the ATO based on his in-progress revision of Amphibiaweb (with outreach to ???)
 * initiate Vertebrate Taxonomy Ontology (VTO)
 * Obtain names for extinct taxa from PaleoDB; add to VTO
+
+=== Target milestone: Second quarter: January 1, 2012  ===
+=== Target milestone: End of Year 1:July 1, 2012  ===
 
 =3. Phenotype annotation=
 ==Evolutionary phenotypes (Paula)==
