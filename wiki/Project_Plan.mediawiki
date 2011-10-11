@@ -266,7 +266,7 @@ Action items:
 * Public release of KB (Oct. 31, 2011)
 
 === Target milestone: Second quarter: January 1, 2012  ===
-* Knowledgebase Encyclopedia of Life integration
+* Knowledgebase Encyclopedia of Life integration release
 * Phenoscape OWL datamodel for phenotype annotations
 ** formalize “Phenoscape” ontology serving as datamodel framework
 
