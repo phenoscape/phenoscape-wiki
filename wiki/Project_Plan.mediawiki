@@ -229,13 +229,16 @@ Action items:
 === Target milestone: Year 3: July 1, 2014  ===
 === Target milestone: Year 4: July 1, 2015  ===
 
-=6. Knowledgebase reasoning and development (Todd)=
+=6. Knowledgebase reasoning and development (Jim)=
 
 Objective:
 
 Personnel: Todd, Jim, Hilmar
+*Coordinator
 
 Action items:
+*Public release of KB (Oct. 31, 2011)
+
 
 === Target milestone: Second quarter: January 1, 2012  ===
 
