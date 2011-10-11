@@ -273,6 +273,7 @@ Action items:
 ** absence-over-develops-from
 
 === Target milestone: End of Year 1:July 1, 2012  ===
+* Reasoning framework homology integration
 
 === Target milestone: Year 2: July 1, 2013  ===
 === Target milestone: Year 3: July 1, 2014  ===
