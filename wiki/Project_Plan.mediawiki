@@ -245,6 +245,7 @@ Personnel: Todd, Jim, Hilmar
 
 Action items:
 *Public release of KB (Oct. 31, 2011)
+* Jim will develop KB instance in parallel for Vertebrates (a new beta) this summer
 
 === Target milestone: First quarter: October 1, 2011  ===
 
