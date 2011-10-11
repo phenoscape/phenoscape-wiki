@@ -128,6 +128,8 @@ Action items:
 * Paul and Nizar will document in lists any additional terms and definitions before meeting; prepare to add them to AmAO at NESCent. - ''ongoing''
 
 === Target milestone: Second quarter: January 1, 2012  ===
+* Annotation for AmAO to begin after AmAO developed (August 2011)
+
 === Target milestone: End of Year 1:July 1, 2012  ===
 
 === Target milestone: Year 2: July 1, 2013  ===
