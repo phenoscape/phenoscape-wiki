@@ -199,7 +199,7 @@ Action items
 === Target milestone: Year 3: July 1, 2014  ===
 === Target milestone: Year 4: July 1, 2015  ===
 
-==Homology assertions==
+==Homology assertions (Paula)==
 Personnel: Paula*, David, Paul, Hilmar
 *coordinator
 
@@ -213,7 +213,10 @@ Action items:
 === Target milestone: End of Year 1:July 1, 2012  ===
 Action items:
 * Establishing test data set of homologies, incl iterative homology
-* Establish use cases for homology reasoning, esp iterative homology=== Target milestone: Year 2: July 1, 2013  ===
+* Establish use cases for homology reasoning, esp iterative homology
+* Plan/convene homology jamboree for experts on the fin/limb
+
+=== Target milestone: Year 2: July 1, 2013  ===
 * Ensure that early data annotation has coverage over test homologies
 === Target milestone: Year 3: July 1, 2014  ===
 === Target milestone: Year 4: July 1, 2015  ===
