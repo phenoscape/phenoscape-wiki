@@ -259,11 +259,12 @@ Personnel: Todd, Jim, Hilmar
 *Coordinator
 
 Action items:
-*Public release of KB (Oct. 31, 2011)
+
 * Jim will develop KB instance in parallel for Vertebrates (a new beta) this summer
 
 === Target milestone: First quarter: October 1, 2011  ===
-
+* Public release of KB (Oct. 31, 2011)
+* Encyclopedia of Life integration (November 2011)
 === Target milestone: Second quarter: January 1, 2012  ===
 * Phenoscape OWL datamodel for phenotype annotations
 ** formalize “Phenoscape” ontology serving as datamodel framework
