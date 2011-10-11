@@ -66,21 +66,34 @@ Priorities and milestones (3 mos, 6 mos, 1 yr)
 
 =2. Ontology development and coordination (Wasila)=
 ==Anatomy ontologies==
+The objective is to transform the characters and character states from published phylogenetic studies into ontology-based descriptions ('Evolutionary phenotypes'), with a focus on fin and limb morphology.  This will require the development of a list of papers to be curated, re-evaluation of software curation tool, training of personnel in use of curation software and ontology development, and development of appropriate ontologies.
 
-Target milestone: First quarter: October 1, 2011
+Personnel: Wasila, Nizar, Lauren, Paul, David, Terry, Yvonne, Ceri, Christina, VG, Paula
+*Coordinator
 
+=== Target milestone: First quarter: October 1, 2011  ===
 Objective: Develop a prioritized list of phylogenetic papers containing vertebrate fin/limb data for curation; evaluate curation tool; prepare KB for vertebrate data
 
 Action items:
-Target milestone: Second quarter: January 1, 2012
-Target milestone: End of Year 1:July 1, 2012
-Target milestone: Year 2: July 1, 2013
-    
-Target milestone: Year 3: July 1, 2014
-Target milestone: Year 4: July 1, 2015 
+* Develop a list of priority papers (pdfs) to be curated. --[[User:Pmabee@usd.edu|Pmabee@usd.edu]] 10:37, 10 October 2011 (EDT) Done in Mendeley except archosaurs
+* Annotation for AmAO to begin after AmAO developed (August 2011)
+* Training (ontology editor; annotation tool) for Paul & Nizar at NESCent
+* Paul and Nizar will document in lists any additional terms and definitions before meeting; prepare to add them to AmAO at NESCent.
+* Evaluate curation tool - do we need a new one?
+* Jim will develop KB instance in parallel for Vertebrates (a new beta) this summer
+
+=== Target milestone: Second quarter: January 1, 2012  ===
+=== Target milestone: End of Year 1:July 1, 2012  ===
+
+=== Target milestone: Year 2: July 1, 2013  ===
+* Annotation for AAO to begin in Year 2 (after cloning XAO)
+=== Target milestone: Year 3: July 1, 2014  ===
+=== Target milestone: Year 4: July 1, 2015  ===
+
 
 
 ==Taxonomy ontologies==
+
 
 =3. Phenotype annotation=
 ==Evolutionary phenotypes (Paula)==
@@ -175,7 +188,7 @@ Action items:
 * Establish matrix of fin/limb homologies, evidence codes --[[User:Pmabee@usd.edu|Pmabee@usd.edu]] 11:11, 10 October 2011 (EDT)Matrix established (google doc)
 
 === Target milestone: Second quarter: January 1, 2012  ===
-* Finalize matrix of fin/limb homologies, evidence codes 
+* Finalize matrix of fin/limb homologies, evidence codes
 
 === Target milestone: End of Year 1:July 1, 2012  ===
 Action items:
