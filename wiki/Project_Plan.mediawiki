@@ -160,7 +160,7 @@ Action items:
 === Target milestone: Year 3: July 1, 2014  ===
 === Target milestone: Year 4: July 1, 2015  ===
 
-=4. Homology=
+=4. Homology (Paula, Hilmar)=
 Objective: The legacy homology assertions for the fin-limb skeleton, including assertions of both phylogenetic and iterative (serial) homology [50], and
 the genes involved in growth and patterning of the limb at various stages, e.g., Bmps, Fgfs, Gdf5, Sox9
 are also well known, e.g., [20
