@@ -243,6 +243,7 @@ Personnel: Todd, Jim, Hilmar
 Action items:
 *Public release of KB (Oct. 31, 2011)
 
+=== Target milestone: First quarter: October 1, 2011  ===
 
 === Target milestone: Second quarter: January 1, 2012  ===
 
