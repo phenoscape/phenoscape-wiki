@@ -25,7 +25,7 @@ Use this tool to search using any valid term (taxon, gene, etc.) in the Knowledg
 <div id="BrowseAllPhenotypes" style="border: 2px dashed silver;">
 '''Browse All Phenotypes'''
 
-TODO
+Faceted view of phenotypes.
 </div>
 
 
