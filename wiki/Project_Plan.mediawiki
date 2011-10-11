@@ -171,7 +171,7 @@ Objective: The legacy homology assertions for the fin-limb skeleton, including a
 the genes involved in growth and patterning of the limb at various stages, e.g., Bmps, Fgfs, Gdf5, Sox9
 are also well known, e.g., [20
 
-==Homology reasoning framework==
+==Homology reasoning framework (Hilmar)==
 Personnel: Hilmar*, Chris (also Paula, David, Paul)
 *coordinator
 * Use-cases and requirements for querying and reasoning; Decisions on reasoning etc. important because system architecture depends on it.
