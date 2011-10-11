@@ -64,13 +64,13 @@ TODO
 </div>
 
 
-<div id="QueryPhenotypeAnnotationsToTaxa" style="border: 2px dashed silver;">
+<div id="QueryPhenotpyeAnnotationsToTaxa" style="border: 2px dashed silver;">
 '''Query Phenotype Annotations To Taxa'''
 
 Find the taxa associated with a particular phenotype
 </div>
 
-<div id="QueryPhenotypeAnnotationsToGenes" style="border: 2px dashed silver;">
+<div id="QueryPhenotpyeAnnotationsToGenes" style="border: 2px dashed silver;">
 '''Query Phenotype Annotations To Genes'''
 
 Find phenotypic data associated with genes
