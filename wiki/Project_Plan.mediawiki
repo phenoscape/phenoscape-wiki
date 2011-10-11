@@ -98,8 +98,8 @@ Action items:
 === Target milestone: Year 3: July 1, 2014  ===
 === Target milestone: Year 4: July 1, 2015  ===
 
-==Taxonomy ontologies==
-The objective is to develop a taxonomic ontology that includes all fossil and extant vertebrate taxa from community-vetted sources.  
+==Vertebrate Taxonomy Ontology (Peter)==
+The objective is to develop a taxonomic ontology that includes all fossil and extant vertebrate taxa from community-vetted sources.  This ontology is required for curation of phenotypes and querying.
 Action Items
 * Paul will generate taxonomy and bring to NESCent in August
 * David will update the ATO based on his in-progress revision of Amphibiaweb (with outreach to ???)
