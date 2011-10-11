@@ -99,6 +99,7 @@ Action items:
 
 ==Vertebrate Taxonomy Ontology (Peter)==
 The objective is to develop a taxonomic ontology that includes all fossil and extant vertebrate taxa from community-vetted sources (PBDB, Paul's database, AmphibiaWeb).  This ontology is required for curation of phenotypes and querying.
+
 Personnel: Peter*, Paul, David
 *Coordinator
 
