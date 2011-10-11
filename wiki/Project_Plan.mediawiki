@@ -214,10 +214,11 @@ Communication and coordination issues
 * Plan on homology theme at RCN no earlier than Yr3
 * Touch base with Parkinson re: VBO plans (Monte)
 
-=5. Semantic similarity search engine (aka Phenoblast) and OBD/OWL (Todd, Jim? to fill in)=
+=5. Semantic similarity search engine (aka Phenoblast) and OBD/OWL (Todd)=
 Objective: Provide the ability for users to take a phenotype collection (of terms) and look across all collections for those that semantically match the terms. Like BLAST, highest ‘hits’ would be ranked first, and user could drill down.
 
 Personnel: Todd*, Hilmar, Jim
+*coordinator
 
 Action items:
 
