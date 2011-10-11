@@ -177,6 +177,7 @@ Personnel: Hilmar*, Chris (also Paula, David, Paul)
 * Exposing homology inferences (for display and for querying/filtering) through UI
 * Handling ‘Default homology’: same term in different taxa and with no evidence to the contrary, homologous.
 
+=== Target milestone: First quarter: October 1, 2011  ===
 Action items
 * Collect use cases to develop and test reasoning - on wiki (look for examples of structures that are symmetric in some species; where serial structures are separate vs.fused in some taxa).
 * Make sure taxa in Vertebrate Homologies document are in VTO (Peter)
