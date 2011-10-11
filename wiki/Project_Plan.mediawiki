@@ -111,6 +111,9 @@ Action Items
 ** Add PaleoDB terms to VTO -- ''In progress''
 
 === Target milestone: Second quarter: January 1, 2012  ===
+*Tool for small batch updates from PaleoDB
+**update VTO from list of taxa previously added
+
 === Target milestone: End of Year 1:July 1, 2012  ===
 *Generate OWL version (Peter?,Jim?)
 *Finalize workflow for bulk updates from CoF(via TTO), ATO, and PaleoDB
