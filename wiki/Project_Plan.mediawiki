@@ -100,6 +100,9 @@ Action items:
 
 ==Taxonomy ontologies==
 
+Action Items
+* Paul will generate taxonomy and bring to NESCent in August
+* David will update the ATO based on his in-progress revision of amphibiaweb (with outreach to ???)
 
 =3. Phenotype annotation=
 ==Evolutionary phenotypes (Paula)==
