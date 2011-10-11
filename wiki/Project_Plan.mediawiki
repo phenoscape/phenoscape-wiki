@@ -195,8 +195,10 @@ Action items
 === Target milestone: Year 4: July 1, 2015  ===
 
 ==Homology assertions==
-Personnel: Paula*, David, Paul
+Personnel: Paula*, David, Paul, Hilmar
 *coordinator
+
+=== Target milestone: First quarter: October 1, 2011  ===
 Action items:
 * Establish matrix of fin/limb homologies, evidence codes --[[User:Pmabee@usd.edu|Pmabee@usd.edu]] 11:11, 10 October 2011 (EDT)Matrix established (google doc)
 
