@@ -67,7 +67,7 @@ Priorities and milestones (3 mos, 6 mos, 1 yr)
 
 =2. Ontology development and coordination (Wasila)=
 ==Anatomy ontologies==
-The objective is the integration and coordinated development of multispecies and single species ontologies for teleosts, zebrafish, amphibians, Xenopus, amniotes, and mouse. The focus of ontology development in year 1 is the limb/fin skeletal branch. This will require reviewing the fin/limb branch in existing ontologies and continued development of the higher-level vertebrate skeletal ontology (VAO).
+The objective is the integration and coordinated development of multispecies and single species ontologies for teleosts, zebrafish, amphibians, Xenopus, amniotes, and mouse. The focus of ontology development in year 1 is the limb/fin skeletal branch. This will require reviewing the fin/limb branch in existing ontologies and continued development of the higher-level vertebrate skeletal ontology (VAO). Specific ontology development plans are documented [[Anatomy_Ontology_Development_Plan | here.]]
 
 Personnel: Wasila, Nizar, Lauren, Paul, David, Terry, Yvonne, Ceri, Christina, VG, Paula
 
