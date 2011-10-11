@@ -267,6 +267,10 @@ Action items:
 === Target milestone: Second quarter: January 1, 2012  ===
 * Phenoscape OWL datamodel for phenotype annotations
 ** formalize “Phenoscape” ontology serving as datamodel framework
+===Target milestone: Third quarter: April 1, 2012===
+* Reasoning framework proof of concept
+** OWL scalability
+** absence-over-develops-from
 
 === Target milestone: End of Year 1:July 1, 2012  ===
 
