@@ -272,6 +272,7 @@ Action items:
 
 === Target milestone: Second quarter: January 1, 2012  ===
 * Knowledgebase Encyclopedia of Life integration release
+* Phenoscape 1 KB user testing of new functionality - conducted at NESCent
 * Phenoscape OWL datamodel for phenotype annotations
 ** formalize “Phenoscape” ontology serving as datamodel framework
 
