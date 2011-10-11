@@ -73,8 +73,16 @@ Personnel: Wasila, Nizar, Lauren, Paul, David, Terry, Yvonne, Ceri, Christina, V
 
 === Target milestone: First quarter: October 1, 2011  ===
 Action items:
+
+* Jim: further develop synchronization plug-in in 3-6 mo window (depending on choice of import mechanism for MOD ontologies)
+* Monte: discuss with ZFIN team issue of moving to GO like model, probably long-term goal -- done, August 2011
+* Set up conference call with Aaron and XAO db folks to set up modular ontology model and specifics of importing model species-specific information (like devo stage) (Monte, Jim, Wasila) - ''done, August 2011 (WD)''
+   
+* Set up weekly anatomy ontology conference calls, mailing lists, etc - ''done''
+* Training in ontology development tools (for Nizar, David, Paul, etc)--'' training for Paul and Lauren, week of October 10, 2011
+''* Workshop toward end of 2011 or beginning of 2012
 * initiate Amniote Anatomy Ontology -- ''in progress, week of October 2011''
-* update VAO with proposed changes from RCN workshop
+* sort out high level VAO/Amniote termsupdate VAO with proposed changes from RCN workshop
 
 === Target milestone: Second quarter: January 1, 2012  ===
 === Target milestone: End of Year 1:July 1, 2012  ===
