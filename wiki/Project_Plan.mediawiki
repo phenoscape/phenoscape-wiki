@@ -112,6 +112,9 @@ Action Items
 
 === Target milestone: Second quarter: January 1, 2012  ===
 === Target milestone: End of Year 1:July 1, 2012  ===
+*Generate OWL version (Peter?,Jim?)
+*Finalize workflow for bulk updates from CoF(via TTO), ATO, and PaleoDB
+*Guide for updating taxonomy ontologies with curation driven additions
 
 =3. Phenotype annotation=
 ==Evolutionary phenotypes (Paula)==
