@@ -103,6 +103,8 @@ Action items:
 Action Items
 * Paul will generate taxonomy and bring to NESCent in August
 * David will update the ATO based on his in-progress revision of amphibiaweb (with outreach to ???)
+* initiate Vertebrate Taxonomy Ontology (VTO)
+* Obtain names for extinct taxa from PaleoDB; add to VTO
 
 =3. Phenotype annotation=
 ==Evolutionary phenotypes (Paula)==
