@@ -124,9 +124,8 @@ Objective: Develop a prioritized list of phylogenetic papers containing vertebra
 
 Action items:
 * Develop a list of priority papers (pdfs) to be curated. - ''done except archosaurs''
-* Annotation for AmAO to begin after AmAO developed (August 2011)
 * Training (ontology editor; annotation tool) for Paul & Nizar at NESCent - ''Oct 10-13, Paul and Lauren at NESCent''
-* Paul and Nizar will document in lists any additional terms and definitions before meeting; prepare to add them to AmAO at NESCent.
+* Paul and Nizar will document in lists any additional terms and definitions before meeting; prepare to add them to AmAO at NESCent. - ''ongoing''
 
 === Target milestone: Second quarter: January 1, 2012  ===
 === Target milestone: End of Year 1:July 1, 2012  ===
