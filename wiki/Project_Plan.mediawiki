@@ -86,6 +86,9 @@ Action items:
 * sort out high level VAO/Amniote termsupdate VAO with proposed changes from RCN workshop
 
 === Target milestone: Second quarter: January 1, 2012  ===
+Action items:
+* Synchronization of MODs to multispecies ontologies
+
 === Target milestone: End of Year 1:July 1, 2012  ===
 
 === Target milestone: Year 2: July 1, 2013  ===
