@@ -9,20 +9,20 @@ Much of the schedule below is based on the [[MEDIA:Phenoscape_Project descriptio
 Curation of legacy phenotypes from the literature is a major bottleneck. The overall objective of this part of our work is to improve the efficiency with which curators can find accurate terms, add missing terms, etc.
 
 Primary personnel: Hong Cui*, Jim, Todd, Hong's MS student, Todd's UNC postdoc.  UNC postdoc will take character state annotations, determine how to incorporate that into curation interface and handle software development, including requirements.
-*coordinator
+*coordinator: Todd
 
 === Target milestone: First quarter: October 1, 2011  ===
 Objective: Develop NLP to generate potential ontology terms and candidate EQ's in Phenex
-* Generate list of terms to be added to ontologies (Hong)
-* Evaluate accuracy of automated EQs on 50 character test set, refine testing set and methodology, begin development of Phenex ‘EQ suggestion’ interface requirements/specifications
-* Identify corpus of publications, extract character descriptions
-* Generate entities and qualities that can be identified, with frequency and ontology match
+* Generate list of terms to be added to ontologies (Hong, done)
+* Start to develop algorithms for "term to ontology" mapping
+* Identify corpus of publications, extract character descriptions (who's responsible for this?)
+
 
 Action items:
 *Wasila to send Hong the PDFs containing characters from the 50 char list - done
 *Action item: Wasila to send Paul a curated pub
 *Action Item: Jim will send Hong full database report with character text and EQ assignments
-*Hong: Hire MS student at AZ
+*Hong: Hire MS student at AZ (e fdone)
 *Todd: Hire UNC postdoc
 *Jim: to enumerate pros and cons for MX (web-based) and Phenex for first phone call, estimate development time
 *Interface between Hong’s tools and Phenex (or MX)
@@ -30,6 +30,10 @@ Action items:
 === Target milestone: Second quarter: January 1, 2012  ===
 
 === Target milestone: End of Year 1:July 1, 2012  ===
+* Generate entities and qualities that can be mapped to ontology
+* Evaluate accuracy of automated EQs on 50 character test set, refine testing set and methodology (Hong)
+* Begin development of Phenex ‘EQ suggestion’ interface requirements/specifications (Todd)
+
 === Target milestone: Year 2:July 1, 2013  ===
 === Target milestone: Year 3:July 1, 2014  ===
 === Target milestone: Year 4:July 1, 2015  ===
