@@ -78,12 +78,14 @@ Action items:
 * Jim: further develop synchronization plug-in in 3-6 mo window (depending on choice of import mechanism for MOD ontologies)
 * Monte: discuss with ZFIN team issue of moving to GO like model, probably long-term goal -- done, August 2011
 * Set up conference call with Aaron and XAO db folks to set up modular ontology model and specifics of importing model species-specific information (like devo stage) (Monte, Jim, Wasila) - ''done, August 2011 (WD)''
-   
+
 * Set up weekly anatomy ontology conference calls, mailing lists, etc - ''done''
 * Training in ontology development tools (for Nizar, David, Paul, etc)--'' training for Paul and Lauren, week of October 10, 2011
-''* Workshop toward end of 2011 or beginning of 2012
+''
+* Workshop toward end of 2011 or beginning of 2012
 * initiate Amniote Anatomy Ontology -- ''in progress, week of October 2011''
 * sort out high level VAO/Amniote termsupdate VAO with proposed changes from RCN workshop
+* incorporate MIREOT into ontologies - ''done: modified import/MIREOT strategy used in new TAO; will be used in AMAO''
 
 === Target milestone: Second quarter: January 1, 2012  ===
 Action items:
