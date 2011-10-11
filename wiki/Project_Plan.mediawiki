@@ -268,7 +268,7 @@ Action items:
 
 Objective:
 
-Personnel: Todd, Jim, Hilmar
+Personnel: Todd, Jim, Hilmar, 
 *Coordinator
 
 Action items:
