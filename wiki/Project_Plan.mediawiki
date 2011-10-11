@@ -38,6 +38,7 @@ Action items:
 The overall goal here is to obtain temporary ID for anatomy ontology terms, communicate it to Phenex, and automatically replace with permanent terms when available.
 *Personnel: Hilmar*, Judy, Wasila, Jim?, Todd?
 
+* Judy, Wasila, and Hilmar to form a committee to decide on next steps
 * We envisioned curator working within WebProtege within the NCBO environment within which temp ids are captured; after term vetted, replaced w/in ontology automatically?
 * review specification (done at June mtg; Bioportal api: bioontology.org/wiki/index.php/BioPortal_Provisional_terms)
 * find out how are privileges are handled? (not stated in documentation).
@@ -46,7 +47,6 @@ The overall goal here is to obtain temporary ID for anatomy ontology terms, comm
 * address the disconnection at initiation of community vetting process and integrating that process into term provenance. We had proposed to use the NCBO provenance
 mechanism.
 * Wasila to document current term change process and requirements for term broker
-* Judy, Wasila, Hilmar to discuss next steps
 
 === Target milestone: First quarter: October 1, 2011  ===
 Priorities and milestones (3 mos, 6 mos, 1 yr)
@@ -55,7 +55,6 @@ Priorities and milestones (3 mos, 6 mos, 1 yr)
 * Get requirements to NCBO for both term request and provenance
 * Dependency on closing curation cycle and tying ourselves in to it
 * Suitability of web protege, insufficient resources available to build plug-ins
-* Judy, Wasila, and Hilmar to form a committee to decide on next steps
 
 === Target milestone: Second quarter: January 1, 2012  ===
 === Target milestone: End of Year 1:July 1, 2012  ===
