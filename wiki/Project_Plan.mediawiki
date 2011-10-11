@@ -214,8 +214,18 @@ Communication and coordination issues
 * Touch base with Parkinson re: VBO plans (Monte)
 
 =5. Semantic similarity search engine (aka Phenoblast) and OBD/OWL (Todd, Jim? to fill in)=
+Objective: Provide the ability for users to take a phenotype collection (of terms) and look across all collections for those that semantically match the terms. Like BLAST, highest ‘hits’ would be ranked first, and user could drill down.
 
-=6. Knowledgebase reasoning and development
+Personnel:
+Action items:
+
+
+=6. Knowledgebase reasoning and development (Todd, Jim)=
+
+Objective: 
+
+Personnel:
+Action items:
 
 =7. Capstone=
 ==component 1==
