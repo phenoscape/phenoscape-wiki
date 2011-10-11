@@ -280,7 +280,7 @@ Action items:
 === Target milestone: Year 4: July 1, 2015  ===
 
 =7. Capstone=
-As a capstone, we will validate the capabilities of this suite of tools by testing how well it identifies known developmental pathways for the well-studied fin/limb skeletal transition in vertebrate evolution and how well it scales to a datastore containing billions of phenotypes
+As a capstone, in years 3 and 4 of the project, we will validate the capabilities of the above suite of tools by testing how well known developmental pathways for the well-studied fin/limb skeletal transition in vertebrate evolution are identified and how well it scales to a datastore containing billions of phenotypes.
 
 =NSF Phenoscape project abstracts=
 DBI 1062404 and 1062542: Collaborative research: ABI Development: Ontology-enabled reasoning across phenotypes from evolution and model organisms
