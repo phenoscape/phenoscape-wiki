@@ -104,10 +104,11 @@ Personnel: Peter*, Paul, David
 
 === Target milestone: First quarter: October 1, 2011  ===
 Action Items
-* Paul will generate taxonomy and bring to NESCent in August
+* Paul will generate taxonomy and bring to NESCent in August  -- ''In progress week October''
 * David will update the ATO based on his in-progress revision of Amphibiaweb (with outreach to ???)
-* initiate Vertebrate Taxonomy Ontology (VTO)
-* Obtain names for extinct taxa from PaleoDB; add to VTO
+* initiate Vertebrate Taxonomy Ontology (VTO) -- ''Initial version posted''
+* Obtain names for extinct taxa from PaleoDB -- ''Done''
+** Add PaleoDB terms to VTO -- ''In progress''
 
 === Target milestone: Second quarter: January 1, 2012  ===
 === Target milestone: End of Year 1:July 1, 2012  ===
