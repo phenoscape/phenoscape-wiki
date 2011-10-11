@@ -30,6 +30,10 @@ Action items:
 *Interface between Hong’s tools and Phenex (or MX)
 
 === Target milestone: Second quarter: January 1, 2012  ===
+
+Action items:
+* Synchronization of MODs to multispecies ontologies
+
 === Target milestone: End of Year 1:July 1, 2012  ===
 === Target milestone: Year 2:July 1, 2013  ===
 === Target milestone: Year 3:July 1, 2014  ===
