@@ -106,7 +106,7 @@ Personnel: Peter*, Paul, David
 Action Items
 * Paul will generate taxonomy and bring to NESCent in August  -- ''In progress week October''
 * David will update the ATO based on his in-progress revision of Amphibiaweb (with outreach to ???)
-* initiate Vertebrate Taxonomy Ontology (VTO) -- ''Initial version posted''
+* initiate Vertebrate Taxonomy Ontology (VTO) -- ''In progress''
 * Obtain names for extinct taxa from PaleoDB -- ''Done''
 ** Add PaleoDB terms to VTO -- ''In progress''
 
