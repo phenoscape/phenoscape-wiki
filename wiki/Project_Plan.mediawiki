@@ -276,6 +276,8 @@ Action items:
 * Reasoning framework homology integration
 
 === Target milestone: Year 2: July 1, 2013  ===
+* Replace KB backend with newly reasoning and and storage model.
+
 === Target milestone: Year 3: July 1, 2014  ===
 === Target milestone: Year 4: July 1, 2015  ===
 
