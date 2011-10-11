@@ -247,6 +247,7 @@ Action items:
 =7. Capstone=
 As a capstone, we will validate the capabilities of this suite of tools by testing how well it identifies known developmental pathways for the well-studied fin/limb skeletal transition in vertebrate evolution and how well it scales to a datastore containing billions of phenotypes
 
+=NSF Phenoscape project abstracts=
 DBI 1062404 and 1062542: Collaborative research: ABI Development: Ontology-enabled reasoning across phenotypes from evolution and model organisms
 
 1. Technical description of the project.
