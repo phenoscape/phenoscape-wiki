@@ -123,6 +123,11 @@ Action Items
 *Finalize workflow for bulk updates from CoF(via TTO), ATO, and PaleoDB
 *Guide for updating taxonomy ontologies with curation driven additions
 
+==Sync Tool (Jim)==
+=== Target milestone: Second quarter: January 1, 2012  ===
+* Sync Tool 0.5
+** management of terms excluded from syncing
+
 =3. Phenotype annotation=
 ==Evolutionary phenotypes (Paula)==
 The objective is to transform the characters and character states from published phylogenetic studies into ontology-based descriptions ('Evolutionary phenotypes'), with a focus on fin and limb morphology.  This will require the development of a list of papers to be curated, re-evaluation of software curation tool, training of personnel in use of curation software and ontology development, and development of appropriate ontologies.
