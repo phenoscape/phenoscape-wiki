@@ -8,14 +8,13 @@ title: WebHints
 
 This page is an easily editable source for help popups in the Phenoscape web UI. Each entry below should be contained in a block element (DIV) with a mnemonic ID.
 
-<div id="WhatArePhenotypes" style="border: 2px dashed silver;">
+==WhatArePhenotypes==
 '''About Phenotypes'''
 
 Helpful information about phenotypes (E, Q, RE).
-</div>
 
 
-<div id="FindSpecificTerm" style="border: 2px dashed silver;">
+==FindSpecificTerm==
 '''Find a Specific Term'''
 
 Use this tool to search using any valid term (taxon, gene, etc.) in the Knowledgebase. '''You must choose a matched value from the drop-down list before you can search.'''
@@ -69,6 +68,7 @@ TODO
 
 Find the taxa associated with a particular phenotype
 </div>
+
 
 <div id="QueryPhenotpyeAnnotationsToGenes" style="border: 2px dashed silver;">
 '''Query Phenotype Annotations To Genes'''
