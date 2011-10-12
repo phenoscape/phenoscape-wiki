@@ -67,35 +67,42 @@ TODO
 <div id="QueryPhenotpyeAnnotationsToTaxa" style="border: 2px dashed silver;">
 '''Query Phenotype Annotations To Taxa'''
 
-Find the taxa associated with a particular phenotype
+Find the taxon-to-phenotype annotations for given taxa, phenotypes, and publications.
 </div>
 
 
 <div id="QueryPhenotpyeAnnotationsToGenes" style="border: 2px dashed silver;">
 '''Query Phenotype Annotations To Genes'''
 
-Find phenotypic data associated with genes
+Find the gene-to-phenotype annotations for given genes and phenotypes.
 </div>
 
 
 <div id="QueryTaxa" style="border: 2px dashed silver;">
 '''Query Taxa'''
 
-Find phenotypic data associated with taxa
+Find the taxa associated with a particular phenotype or publication.
 </div>
 
 
 <div id="QueryGenes" style="border: 2px dashed silver;">
 '''Query Genes'''
 
-Find the genes associated with a particular phenotype
+Find the genes associated with a particular phenotype.
 </div>
 
 
 <div id="QueryCompatarivePublications" style="border: 2px dashed silver;">
 '''Query Comparative Publications'''
 
-Find the publications that contain particular taxa or particular phenotypes
+Find the publications that contain describe particular taxa or phenotypes.
+</div>
+
+
+<div id="QueryPhenotypes" style="border: 2px dashed silver;">
+'''Query Phenotypes'''
+
+Find phenotypes associated with particular taxa, genes, anatomical structures, or phenotypic qualities.
 </div>
 
 
