@@ -18,7 +18,6 @@ Helpful information about phenotypes (E, Q, RE).
 '''Find a Specific Term'''
 
 Use this tool to search using any valid term (taxon, gene, etc.) in the Knowledgebase. '''You must choose a matched value from the drop-down list before you can search.'''
-</div>
 
 
 <div id="BrowseAllPhenotypes" style="border: 2px dashed silver;">
