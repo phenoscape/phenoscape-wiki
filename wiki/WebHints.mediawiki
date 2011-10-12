@@ -25,7 +25,7 @@ Use this tool to search using any valid term (taxon, gene, etc.) in the Knowledg
 <div id="BrowseAllPhenotypes" style="border: 2px dashed silver;">
 '''Browse All Phenotypes'''
 
-Faceted view of phenotypes.
+View all phenotypes used within annotations. Narrow results along dimensions of taxa, anatomical entities, phenotypic qualities, or gene classification.
 </div>
 
 
