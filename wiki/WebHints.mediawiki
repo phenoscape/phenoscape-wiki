@@ -32,21 +32,21 @@ View all phenotypes used within annotations. Narrow results along dimensions of 
 <div id="BrowseTaxa" style="border: 2px dashed silver;">
 '''Browse Taxa'''
 
-TODO
+Browse the taxonomic hierarchy and view detailed information about each term.
 </div>
 
 
 <div id="BrowseAnatomicalEntities" style="border: 2px dashed silver;">
 '''Browse Anatomical Entities'''
 
-Now we're using a simple bolded paragraph instead of a heading. Does this give better margins?
+Browse the anatomy ontology hierarchy and view detailed information about each term.
 </div>
 
 
 <div id="BrowsePhenotypicQualities" style="border: 2px dashed silver;">
 '''Browse Phenotypic Qualities'''
 
-TODO
+Browse the phenotypic quality ontology hierarchy and view detailed information about each term.
 </div>
 
 
