@@ -99,7 +99,7 @@ Find the publications that contain describe particular taxa or phenotypes.
 </div>
 
 
-<div id="QueryPhenotypes" style="border: 2px dashed silver;">
+<div id="QueryPhenotpyes" style="border: 2px dashed silver;">
 '''Query Phenotypes'''
 
 Find phenotypes associated with particular taxa, genes, anatomical structures, or phenotypic qualities.
