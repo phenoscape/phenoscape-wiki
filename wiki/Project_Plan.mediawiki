@@ -8,7 +8,8 @@ Much of the schedule below is based on the [[MEDIA:Phenoscape_Project descriptio
 =1. Scalable workflow=
 ==1.1 NLP in aid of ontology building and EQ annotation (Hong) ==
 Curation of legacy phenotypes from the literature is a major bottleneck. The overall objective of this part of our work is to improve the efficiency with which curators can find accurate terms, add missing terms, etc.
-Primary personnel: Hong Cui, Jim, Todd*, Hong's MS student, Todd's UNC postdoc.  
+
+Working group: Hong Cui, Jim, Todd*, Hong's MS student, Todd's UNC postdoc.
 *coordinator: Todd
 
 === Target milestone: First quarter: October 1, 2011  ===
