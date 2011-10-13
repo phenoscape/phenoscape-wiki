@@ -67,14 +67,14 @@ TODO
 <div id="QueryPhenotpyeAnnotationsToTaxa" style="border: 2px dashed silver;">
 '''Query Phenotype Annotations To Taxa'''
 
-Use this to find the '''phenotypes''' associated with particular '''taxa'''; filter by publication.  
+Use this to find a list of '''phenotypes''' associated with particular '''taxa'''; filter by publication.
 </div>
 
 
 <div id="QueryPhenotpyeAnnotationsToGenes" style="border: 2px dashed silver;">
 '''Query Phenotype Annotations To Genes'''
 
-Use this to find the '''phenotypes''' associated with particular '''genes'''. 
+Use this to find a list of '''phenotypes''' associated with particular '''genes'''.
 </div>
 
 
