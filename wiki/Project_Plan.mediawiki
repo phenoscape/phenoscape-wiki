@@ -67,7 +67,7 @@ Priorities and milestones (3 mos, 6 mos, 1 yr)
 === Target milestone: Year 4:July 1, 2015  ===
 
 =2. Ontology development and coordination=
-==Anatomy ontologies (Wasila)==
+==2.1 Anatomy ontologies (Wasila)==
 The objective is the integration and coordinated development of multispecies and single species ontologies for teleosts, zebrafish, amphibians, Xenopus, amniotes, and mouse. The focus of ontology development in year 1 is the limb/fin skeletal branch. This will require reviewing the fin/limb branch in existing ontologies and continued development of the higher-level vertebrate skeletal ontology (VAO). Specific ontology development plans are documented [[Anatomy_Ontology_Development_Plan | here.]]
 
 Personnel: Wasila*, Nizar, Lauren, Paul, David, Terry, Yvonne, Ceri, Christina, VG, Paula
@@ -99,7 +99,7 @@ Action items:
 === Target milestone: Year 3: July 1, 2014  ===
 === Target milestone: Year 4: July 1, 2015  ===
 
-==Vertebrate Taxonomy Ontology (Peter)==
+==2.2 Vertebrate Taxonomy Ontology (Peter)==
 The objective is to develop a taxonomic ontology that includes all fossil and extant vertebrate taxa from community-vetted sources (PBDB, Paul's database, AmphibiaWeb).  This ontology is required for curation of phenotypes and querying.
 
 Personnel: Peter*, Paul, David
@@ -122,7 +122,8 @@ Action Items
 *Finalize workflow for bulk updates from CoF(via TTO), ATO, and PaleoDB
 *Guide for updating taxonomy ontologies with curation driven additions
 
-==Sync Tool (Jim)==
+==2.3 Sync Tool (Jim)==
+Personnel: Jim*, Wasila
 === Target milestone: Second quarter: January 1, 2012  ===
 * Sync Tool 0.5
 ** management of terms excluded from syncing
