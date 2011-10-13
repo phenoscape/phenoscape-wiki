@@ -81,14 +81,14 @@ Find the gene-to-phenotype annotations for given genes and phenotypes.
 <div id="QueryTaxa" style="border: 2px dashed silver;">
 '''Query Taxa'''
 
-Use this to find the taxa associated with a particular phenotype or publication.
+Use this to find the '''taxa''' associated with a particular phenotype or publication.
 </div>
 
 
 <div id="QueryGenes" style="border: 2px dashed silver;">
 '''Query Genes'''
 
-Use this to find the genes associated with a particular phenotype.
+Use this to find the '''genes''' associated with a particular phenotype.
 </div>
 
 
