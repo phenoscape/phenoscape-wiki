@@ -41,7 +41,8 @@ Action items:
 
 ==1.2 Term broker, in collaboration with NCBO (Hilmar) ==
 The overall goal here is to obtain temporary ID for anatomy ontology terms, communicate it to Phenex, and automatically replace with permanent terms when available.
-*Personnel: Hilmar*, Judy, Wasila, Jim?, Todd?
+
+Working group: Hilmar*, Judy, Wasila, Jim?, Todd?
 
 * Judy, Wasila, and Hilmar to form a committee to decide on next steps
 * We envisioned curator working within WebProtege within the NCBO environment within which temp ids are captured; after term vetted, replaced w/in ontology automatically?
@@ -71,7 +72,7 @@ Priorities and milestones (3 mos, 6 mos, 1 yr)
 ==2.1 Anatomy ontologies (Wasila)==
 The objective is the integration and coordinated development of multispecies and single species ontologies for teleosts, zebrafish, amphibians, Xenopus, amniotes, and mouse. The focus of ontology development in year 1 is the limb/fin skeletal branch. This will require reviewing the fin/limb branch in existing ontologies and continued development of the higher-level vertebrate skeletal ontology (VAO). Specific ontology development plans are documented [[Anatomy_Ontology_Development_Plan | here.]]
 
-Personnel: Wasila*, Nizar, Lauren, Paul, David, Terry, Yvonne, Ceri, Christina, VG, Paula
+Working group: Wasila*, Nizar, Lauren, Paul, David, Terry, Yvonne, Ceri, Christina, VG, Paula
 
 === Target milestone: First quarter: October 1, 2011  ===
 Action items:
@@ -103,7 +104,7 @@ Action items:
 ==2.2 Vertebrate Taxonomy Ontology (Peter)==
 The objective is to develop a taxonomic ontology that includes all fossil and extant vertebrate taxa from community-vetted sources (PBDB, Paul's database, AmphibiaWeb).  This ontology is required for curation of phenotypes and querying.
 
-Personnel: Peter*, Paul, David
+Working group: Peter*, Paul, David
 *Coordinator
 
 === Target milestone: First quarter: October 1, 2011  ===
@@ -124,7 +125,7 @@ Action Items
 *Guide for updating taxonomy ontologies with curation driven additions
 
 ==2.3 Sync Tool (Jim)==
-Personnel: Jim*, Wasila
+Working group: Jim*, Wasila
 === Target milestone: Second quarter: January 1, 2012  ===
 * Sync Tool 0.5
 ** management of terms excluded from syncing
@@ -133,7 +134,7 @@ Personnel: Jim*, Wasila
 ==3.1 Evolutionary phenotypes (Paula)==
 The objective is to transform the characters and character states from published phylogenetic studies into ontology-based descriptions ('Evolutionary phenotypes'), with a focus on fin and limb morphology.  This will require the development of a list of papers to be curated, re-evaluation of software curation tool, training of personnel in use of curation software and ontology development, and development of appropriate ontologies.
 
-Personnel: Paula*, David, Paul, Wasila, Jim, and postdoctoral fellows
+Working group: Paula*, David, Paul, Wasila, Jim, and postdoctoral fellows
 *Coordinator
 
 === Target milestone: First quarter: October 1, 2011  ===
@@ -157,7 +158,7 @@ Action items:
 ==3.2 Model organism phenotypes (Monte) ==
 Objective: To annotate the skeletal phenotypes for fin and limb for genetic mutants of zebrafish, Xenopus, and mouse. The model organism (MOD) curators will initially prioritize comprehensive annotation of skeletal phenotypes for the fin and limb, and subsequently of skeletal phenotypes in general.
 
-Involved personnel: ZFIN (Monte*, Ceri,Yvonne), Xenbase (Aaron, Christina), MGI (Judy, Terry)
+Working group: ZFIN (Monte*, Ceri,Yvonne), Xenbase (Aaron, Christina), MGI (Judy, Terry)
 * coordinator
 
 === Target milestone: First quarter: October 1, 2011  ===
@@ -188,7 +189,7 @@ the genes involved in growth and patterning of the limb at various stages, e.g.,
 are also well known, e.g., [20
 
 ==4.1 Homology reasoning framework (Hilmar)==
-Personnel: Hilmar*, Chris (also Paula, David, Paul)
+Working group:  Hilmar*, Chris (also Paula, David, Paul)
 *coordinator
 * Use-cases and requirements for querying and reasoning; Decisions on reasoning etc. important because system architecture depends on it.
 * Collecting, curating, and annotating homology assertions
@@ -216,7 +217,7 @@ Action items
 === Target milestone: Year 4: July 1, 2015  ===
 
 ==4.2 Homology assertions (Paula)==
-Personnel: Paula*, David, Paul, Hilmar
+Working group: Paula*, David, Paul, Hilmar
 *coordinator
 
 === Target milestone: First quarter: October 1, 2011  ===
@@ -244,20 +245,20 @@ Communication and coordination issues
 =5. Semantic similarity search engine (aka Phenoblast) and OBD/OWL (Todd)=
 Objective: Provide the ability for users to take a phenotype collection (of terms) and look across all collections for those that semantically match the terms. Like BLAST, highest ‘hits’ would be ranked first, and user could drill down.
 
-Personnel: Todd*, Hilmar, Jim
+Working group: Todd*, Hilmar, Jim
 *coordinator
 
 Action items:
 === Target milestone: First quarter: October 1, 2011  ===
 * literature review of existing semantic similarity metrics and algorithms
-* compilation of test sets for benchmarking and evaluation 
+* compilation of test sets for benchmarking and evaluation
 === Target milestone: Second quarter: January 1, 2012  ===
 * installation and existing tools (standalone, R libraries, etc)
 * elaboration of alternative graph-based metrics
 * R implementation of graph-based metrics
 === Target milestone: End of Year 1:July 1, 2012  ===
 * initial scalability/performance testing of tools
-* begin work required on algorithm optimization 
+* begin work required on algorithm optimization
 === Target milestone: Year 2: July 1, 2013  ===
 * software development, testing, documentation
 === Target milestone: Year 3: July 1, 2014  ===
@@ -269,7 +270,7 @@ Action items:
 
 Objective:
 
-Personnel: Todd, Jim, Hilmar, 
+Working group: Todd, Jim, Hilmar,
 *Coordinator
 
 Action items:
