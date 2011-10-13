@@ -53,6 +53,7 @@ Working group: Hilmar*, Judy, Wasila, Jim?, Todd?
 * address the disconnection at initiation of community vetting process and integrating that process into term provenance. We had proposed to use the NCBO provenance
 mechanism.
 * Wasila to document current term change process and requirements for term broker
+* Update: NCBO Bioportal has implemented a provisional term service which can be used as the term broker. Natasha Noy of Stanford has worked with Hilmar on our requirements for this. --[[User:Balhoff|Balhoff]] 10:17, 13 October 2011 (EDT)
 
 === Target milestone: First quarter: October 1, 2011  ===
 Priorities and milestones (3 mos, 6 mos, 1 yr)
