@@ -88,7 +88,7 @@ Use this to find the taxa associated with a particular phenotype or publication.
 <div id="QueryGenes" style="border: 2px dashed silver;">
 '''Query Genes'''
 
-Find the genes associated with a particular phenotype.
+Use this to find the genes associated with a particular phenotype.
 </div>
 
 
