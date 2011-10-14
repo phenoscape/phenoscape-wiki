@@ -42,7 +42,7 @@ Action items:
 ==1.2 Term broker, in collaboration with NCBO (Hilmar) ==
 The overall goal here is to obtain temporary ID for anatomy ontology terms, communicate it to Phenex, and automatically replace with permanent terms when available.
 
-Working group: Jim*, Hilmar, Judy, Wasila, Todd
+Working group: Jim*, Natasha, Hilmar, Judy, Wasila, Todd
 * coordinator
 
 * Judy, Wasila, and Hilmar to form a committee to decide on next steps
