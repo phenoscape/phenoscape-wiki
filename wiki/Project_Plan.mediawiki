@@ -271,7 +271,7 @@ Action items:
 
 Objective:
 
-Working group: Todd, Jim, Hilmar,
+Working group: Todd, Jim*, Hilmar, Wasila
 *Coordinator
 
 Action items:
