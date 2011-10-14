@@ -246,7 +246,7 @@ Communication and coordination issues
 =5. Semantic similarity search engine (aka Phenoblast) and OBD/OWL (Todd)=
 Objective: Provide the ability for users to take a phenotype collection (of terms) and look across all collections for those that semantically match the terms. Like BLAST, highest ‘hits’ would be ranked first, and user could drill down.
 
-Working group: Todd*, Hilmar, Jim
+Working group: Todd*, Hilmar, Jim, Chris
 *coordinator
 
 Action items:
