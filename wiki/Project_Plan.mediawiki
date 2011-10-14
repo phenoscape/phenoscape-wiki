@@ -272,7 +272,7 @@ Action items:
 
 Objective:
 
-Working group: Todd, Jim, Hilmar*, Chris
+Working group: Hilmar*, Todd, Jim, Chris [+Wasila and others for UI development]
 *Coordinator
 
 Action items:
