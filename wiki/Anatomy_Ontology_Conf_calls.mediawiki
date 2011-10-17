@@ -12,6 +12,7 @@ title: Anatomy Ontology Conf calls
 
 '''Attending:''' Wasila, Ceri, Yvonne, Monte, Terry, David, Paula, Chris, Christina, VG, Paul, Ben
 
+=== Minutes ===
 _'''Podium terms'''
 * In Uberon, FMA, and MA, podium terms are types of limb segments; in AAO, they are types of skeletal subdivisions
 * Literature is also mixed (examples presented); Might be consequence of skeletal elements being the most discrete embryologically, but assume patterning of soft tissues is also present. Paul: most of his literature refers to skeletal only.
@@ -20,7 +21,7 @@ _'''Podium terms'''
 * Everyone to review Google doc spreadsheet "podium terms" for discussion next week
 * Chris: terms for shoulders, wrists, joints vary in relationships to regions
 ** adjacent_to vs. overlaps; overlaps seems more appropriate:
-**knee region overlaps stylopod + zeugopod 
+**knee region overlaps stylopod + zeugopod
 **humerus is contained in the shoulder region, but not the entire humerus, so use overlaps relation
 *Chris: FMA uniquely among AOs has girdle part_of limb; FMA:free limb equivalent to "limb" in other AOs
 **Terry: limb field developmentally gives rise to girdle (possibly)
@@ -29,7 +30,7 @@ _'''Podium terms'''
 '''Term documentation'''
 * Chris: [http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0048909&session_id=4472amigo1318874633  GO refs]
 ** links from term to references and other links within GO Ref
-** ZFA has ZFIN virtual publication 
+** ZFA has ZFIN virtual publication
 **Paula: will ask Todd about microattribution
 
 === Minutes ===
