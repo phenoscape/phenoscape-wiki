@@ -7,6 +7,15 @@ title: Anatomy Ontology Conf calls
 == Oct 17, 2011 ==
 
 === Agenda ===
+* Review [https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0Aj8NJdyb-leqdFdTaEJjNkMyUXR1SE1PSUNJc0gwcmc&output=html "Podium terms"] GoogleDoc spreadsheet
+
+'''Attending:'''
+
+=== Minutes ===
+
+== Oct 17, 2011 ==
+
+=== Agenda ===
 * "podium" terms (stylodpod, zeugopod, autopod) as limb segments/ organism subdivisions vs. skeletal subdivisions
 * documentation of discussions, references, and resources in ontology development
 
@@ -35,9 +44,9 @@ _'''Podium terms'''
 
 == Oct 10, 2011 ==
 === Agenda ===
-* 
+*
 
-'''Attending:''' 
+'''Attending:'''
 
 === Minutes ===
 
