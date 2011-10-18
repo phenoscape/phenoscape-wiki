@@ -112,7 +112,7 @@ Working group: Peter*, Paul, David
 === Target milestone: First quarter: October 1, 2011  ===
 Action Items
 * Paul will generate taxonomy and bring to NESCent in August  -- ''In progress week of October 2011''
-* David will update the ATO based on his in-progress revision of Amphibiaweb (with outreach to ???)
+* David will update the ATO based on his in-progress revision of AmphibiaWeb (with outreach to ???)
 * initiate Vertebrate Taxonomy Ontology (VTO) -- ''Initial version generated, refinements in progress week of October 2011''
 * Obtain names for extinct taxa from PaleoDB -- ''Done''
 ** Add PaleoDB terms to VTO -- ''In progress''
