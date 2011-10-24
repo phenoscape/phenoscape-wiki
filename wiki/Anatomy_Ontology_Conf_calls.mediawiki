@@ -8,6 +8,7 @@ title: Anatomy Ontology Conf calls
 
 === Agenda ===
 * Review [https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0Aj8NJdyb-leqdFdTaEJjNkMyUXR1SE1PSUNJc0gwcmc&output=html "Podium terms"] GoogleDoc spreadsheet
+* Pectoral and pelvic fin representation - see [http://code.google.com/p/caro2/issues/detail?id=5 CARO tracker item] 
 
 '''Attending:''' Ceri, Terry, Monte, Yvonne, Christina, VG, Melissa, Chris, Ben, Wasila
 
