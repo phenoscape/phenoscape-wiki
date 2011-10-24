@@ -9,7 +9,7 @@ title: Anatomy Ontology Conf calls
 === Agenda ===
 * Review [https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0Aj8NJdyb-leqdFdTaEJjNkMyUXR1SE1PSUNJc0gwcmc&output=html "Podium terms"] GoogleDoc spreadsheet
 
-'''Attending:'''
+'''Attending:''' Ceri, Terry, Monte, Yvonne, Christina, VG, Melissa, Chris, Ben, Wasila
 
 === Minutes ===
 
