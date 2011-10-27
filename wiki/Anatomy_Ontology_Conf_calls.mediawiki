@@ -14,13 +14,16 @@ title: Anatomy Ontology Conf calls
 === Minutes ===
 * Proposed synonyms of podial terms (e.g., upper arm, crus etc…) see spreadsheet
 * Arm and leg defined differently:
-** In MA, VAO, arm = forelimb stylopod + forelimb zeugopod 
+** In MA, VAO, arm = forelimb stylopod + forelimb zeugopod
 ** In FMA, arm = forelimb stylopod
 ** In MA, leg = hindlimb stylopod + hindlimb zeugopod ;  (leg not in VAO)
 ** In FMA, leg = hindlimb zeugopodium
 *Question: wrist/ankle = synonyms of forelimb mesopodium/hindlimb mesopodium?
 ** Terry: no, Common usage of wrist includes joint- composed of multiple articulations, zeugopodial segments, specific tendons, ligaments, etc...
 ** Wrist region might be better term to represent everything; parent is_a anatomical cluster
+*CARO appendage: refer to pelvic and pectoral regions? Or just sticking out part?
+*Terry to look into development of appendages and girdles
+*
 
 === Minutes ===
 
