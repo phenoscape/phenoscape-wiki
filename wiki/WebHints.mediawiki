@@ -109,14 +109,14 @@ Use this to find a list of '''phenotypes''' associated with particular taxon, ge
 <div id="VisualizePhenotypicProfileTree" style="border: 2px dashed silver;">
 '''Visualize Phenotypic Profile Tree'''
 
-TODO
+Use this to visually explore the degree of match of specified phenotypes exhibited by taxa within a clade.
 </div>
 
 
 <div id="VisualizePhenotypicVariationTree" style="border: 2px dashed silver;">
 '''Visualize Phenotypic Variation Tree'''
 
-TODO
+Use this to visually explore the distribution of a specified phenotype among taxa in clade.
 </div>
 
 
