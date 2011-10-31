@@ -268,7 +268,7 @@ Action items:
 === Target milestone: Year 4: July 1, 2015  ===
 * use in capstone
 
-=6. Knowledgebase reasoning and development (Jim)=
+=6. Knowledgebase reasoning and development (Hilmar)=
 
 Objective:
 
