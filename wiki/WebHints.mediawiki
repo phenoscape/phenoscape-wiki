@@ -123,7 +123,7 @@ TODO
 <div id="AboutInferredAnnotations" style="border: 2px dashed silver;">
 '''Apply higher taxon annotations to all included species'''
 
-TODO
+Phenotypes annotated to higher taxa (such as a whole fish family) are assumed to apply to all organisms within that group. For example, searching for 'basihyal bone absent' would return all species of catfish since this phenotype has been annotated for Siluriformes, the catfish order.
 </div>
 
 
