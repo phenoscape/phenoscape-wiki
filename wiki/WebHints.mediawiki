@@ -130,7 +130,7 @@ TODO
 <div id="AboutTheWorkspace" style="border: 2px dashed silver;">
 '''Add to workspace'''
 
-When viewing query results, check the box to the left of any result to add it to the workspace. On your workspace page, you can combine saved items into new queries.
+When viewing query results, check the box to the left of any result to add it to the workspace. On the workspace page, you can combine saved items into new queries.
 </div>
 
 
