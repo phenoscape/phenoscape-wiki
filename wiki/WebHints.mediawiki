@@ -120,6 +120,11 @@ TODO
 </div>
 
 
+<div id="AboutInferredAnnotations" style="border: 2px dashed silver;">
+'''Apply higher taxon annotations to all included species'''
+
+TODO
+</div>
 
 
 Add more entries here...
