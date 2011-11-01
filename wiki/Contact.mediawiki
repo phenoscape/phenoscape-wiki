@@ -26,6 +26,21 @@ title: Contact
 :Email: [mailto:hlapp%40nescent%2org hlapp&#64;nescent&#46;org]
 :Phone: 919-490-5288
 
+* '''Paul Sereno''': Co-principal Investigator
+:University of Chicago
+:Email: [mailto:dinosaur%40uchicago%2edu dinosaur&#64;uchicago&#46;edu]
+:Phone: 
+
+* '''Judith Blake''': Co-principal Investigator
+:Mouse Genome Informatics - Jackson Laboratories
+:Email: [mailto:Judith.Blake%40jax%2org Judith.Blake&#64;jax&#46;org]
+:Phone: 
+
+* '''Aaron Zorn''': Co-principal Investigator
+:Xenopus model organism database, Cincinnati's Children's Hospital Medical Center
+:Email: [mailto:aaron.zorn%40cchmc%2org aaron.zorn&#64;cchmc&#46;org]
+:Phone:
+
 ==Mailing lists==
 
 === Public mailing lists ===
