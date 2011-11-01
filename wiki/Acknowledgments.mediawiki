@@ -213,8 +213,10 @@ The following individuals have contributed to Phenoscape ontology development, d
 |- style="height: 10px;"
 |
 |- align="left" style="font-weight: bold; "
-| University of Arizona || Lawrence Berkeley National Labs ||
+| California Academy of Sciences || University of Arizona || Lawrence Berkeley National Labs ||
 |- valign="top"
+|
+* David Blackburn
 |
 * Hong Cui
 |
