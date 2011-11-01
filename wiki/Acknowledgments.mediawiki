@@ -179,13 +179,47 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Michael Wallinga, University of South Dakota
 
 ==Project team==
-* Paula Mabee, University of South Dakota
-* Monte Westerfield, Zebrafish Information Network and University of Oregon
-* Todd Vision, National Evolutionary Synthesis Center and University of North Carolina at Chapel Hill
-* Hilmar Lapp, National Evolutionary Synthesis Center
-* Jim Balhoff, National Evolutionary Synthesis Center
-* Wasila Dahdul, University of South Dakota
-* Peter Midford, National Evolutionary Synthesis Center
+
+{| width="90%"
+|- align="left" style="font-weight: bold;"
+| style="width: 33%;" | University of South Dakota
+| style="width: 33%;" | University of Oregon 
+| style="width: 33%;" | National Evolutionary Synthesis Center (NESCent)
+|- valign="top"
+| 
+* Paula Mabee
+* Wasila Dahdul
+| 
+* Monte Westerfield (Zebrafish Information Network)
+|
+* Todd Vision (also University of North Carolina at Chapel Hill)
+* Hilmar Lapp
+* Jim Balhoff
+* Peter Midford
+|- style="height: 10px;"
+|
+|- align="left" style="font-weight: bold; "
+| University of Chicago || Mouse Genome Informatics || Cincinnati Children's
+|-
+|
+* Paul Sereno
+* Nizar Ibrahim
+|
+* Judith Blake
+* Terry Hayamizu
+|
+* Aaron Zorn (Xenbase)
+* Christina James-Zorn (Xenbase)
+|- style="height: 10px;"
+|
+|- align="left" style="font-weight: bold; "
+| University of Arizona || Lawrence Berkeley National Labs ||
+|- 
+|
+* Hong Cui
+|
+* Chris Mungall
+|}
 
 ==Data sources==
 * [http://zfin.org ZFIN] - mutant and morpholino zebrafish genes and phenotypes
