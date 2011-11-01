@@ -31,7 +31,7 @@ In addition to a web-based interface, we will make all data, including the integ
 
 === Contact ===
 
-Paula Mabee (University of South Dakota) is the Principal Investigator. Co-principal investigators are Judith Blake (Mouse Genome Informatics, Jackson Laboratories), Hilmar Lapp (NESCent), Paul Sereno (University of Chicago), Todd Vision (University of North Carolina, Chapel Hill), Monte Westerfield (University of Oregon, ZFIN), and Aaron Zorn (Xenbase, Cincinnati's Children's Hospital and Medical Center) (see their [[Contact| contact addresses]]).
+Paula Mabee (University of South Dakota) is the Principal Investigator. Co-principal investigators are David Blackburn (California Academy of Sciences), Judith Blake (Mouse Genome Informatics, Jackson Laboratories), Hilmar Lapp (NESCent), Paul Sereno (University of Chicago), Todd Vision (University of North Carolina, Chapel Hill), Monte Westerfield (University of Oregon, ZFIN), and Aaron Zorn (Xenbase, Cincinnati's Children's Hospital and Medical Center) (see their [[Contact| contact addresses]]).
 
 == Acknowledgements ==
 
