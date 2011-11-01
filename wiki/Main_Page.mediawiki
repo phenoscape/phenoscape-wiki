@@ -20,10 +20,10 @@ In a previous project, titled [[Linking Evolution to Genomics Using Phenotype On
 # Develop a fast semantic similarity engine so that the integrated knowledgebase can be searched on-the-fly for biological taxa or genotypes bearing a profile of phenotypes that is similar, but not necessarily identical, to a query profile.
 # Develop an ontological framework for reasoning over homology that can be scaled to a large number of anatomically diverse evolutionary lineages.
 # Reduce the time and cost of obtaining EQ statements from the literature, while at the same time improving the quality and  consistency of those statements, by incorporating natural language processing tools and by improving curation software to allow for on-demand augmentation of community ontologies.
-# Build umbrella taxonomic and anatomical ontologies for the vertebrates, the latter to be supplemented by explicit homology relations among anatomical structures. 
+# Build umbrella taxonomic and anatomical ontologies for the vertebrates, the latter to be supplemented by explicit homology relations among anatomical structures.
 # Create a knowledgebase that integrates evolutionary phenotypes for vertebrate fin and limb characters with genetic and phenotype data from three vertebrate model organisms: zebrafish (Danio rerio), frog (Xenopus laevis), and mouse (Mus musculus).
-# As a capstone, we will assess the results of our work by how well we can apply machine reasoning to retrieve candidate genes for the well-studied vertebrate fin-limb transition and other major events in skeletal evolution of vertebrates. 
-In addition to a web-based interface, we will make all data, including the integrated knowledgebase, available in the Ontology Web Language (OWL), so that other researchers can reuse the data in as many ways as possible. 
+# As a capstone, we will assess the results of our work by how well we can apply machine reasoning to retrieve candidate genes for the well-studied vertebrate fin-limb transition and other major events in skeletal evolution of vertebrates.
+In addition to a web-based interface, we will make all data, including the integrated knowledgebase, available in the Ontology Web Language (OWL), so that other researchers can reuse the data in as many ways as possible.
 
 === Semantic similarity search ===
 
@@ -35,23 +35,21 @@ In addition to a web-based interface, we will make all data, including the integ
 
 === Capstone: Hypothesis generation ===
 
-=== Project Exploration === 
+=== Project Exploration ===
 
 === Contact ===
 
 Paula Mabee (University of South Dakota) is the Principal Investigator. Co-principal investigators are Judith Blake (Mouse Genome Informatics, Jackson Laboratories), Hilmar Lapp (NESCent), Paul Sereno (University of Chicago), Todd Vision (University of North Carolina, Chapel Hill), Monte Westerfield (University of Oregon, ZFIN), and Aaron Zorn (Xenbase, Cincinnati's Children's Hospital and Medical Center) (see their [[Contact| contact addresses]]).
 
-=== Acknowledgements ===
+== Acknowledgements ==
 
 {|
 |-
 | This project is funded by NSF grant BDI<nowiki>-</nowiki>1062404 from July 1, 2011, to Jun 30, 2015, and is supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0905606.
-| http://www.nescent.org/about/images/nsf_logo.jpg
-|}
-
-== History ==
 
 This project would not have been possible without the hard work and results obtained in the [[Linking Evolution to Genomics Using Phenotype Ontologies]] project, which was funded by NSF grant BDI<nowiki>-</nowiki>0641025 from June 1, 2007, to Jun 30, 2011, and was supported by NESCent, NSF #EF-0423641. This earlier project in turn arose from a NESCent <span class="plainlinks">[http://www.nescent.org/science/workinggroup.php Working Group]</span> led by Paula Mabee and Monte Westerfield, "[[Fish Evolution Working Group|Towards an Integrated Database for Fish Evolution]]."
+| http://www.nescent.org/about/images/nsf_logo.jpg
+|}
 
 ==Pages of public interest==
 
