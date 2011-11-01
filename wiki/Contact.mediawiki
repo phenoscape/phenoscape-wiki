@@ -10,12 +10,17 @@ title: Contact
 :Phone: 605-677-6171
 :FAX: 605-677-6557
 
+* '''David Blackburn''': Co-principal Investigator
+:California Academy of Sciences
+:Email: [mailto:david.c.blackburn%40gmail%2com david.c.blackburn&#64;gmail&#46;com]
+:Phone:
+
 * '''Judith Blake''': Co-principal Investigator
 :Mouse Genome Informatics - Jackson Laboratories
 :Email: [mailto:Judith.Blake%40jax%2org Judith.Blake&#64;jax&#46;org]
 :Phone:
 
-* '''Hilmar Lapp''': Co-principal Investigator
+* '''[[User:Hlapp|Hilmar Lapp]]''': Co-principal Investigator
 :Assistant Director for Informatics
 :National Evolutionary Synthesis Center
 :Email: [mailto:hlapp%40nescent%2org hlapp&#64;nescent&#46;org]
