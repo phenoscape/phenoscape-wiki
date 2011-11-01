@@ -7,15 +7,51 @@ title: Main Page
 * Check out the latest news on the [http://blog.phenoscape.org/ Phenoscape blog], including the latest changes to PATO, a new bridging Vertebrate Anatomy Ontology, and the launch of a new Phenotype Ontology Research Coordination Network.
 * Our 2010 NSF ABI grant application titled "'''Ontology-enabled reasoning across phenotypes from evolution and model organisms'''" has been awarded and started July 1. Watch this page for a soon-to-be-updated project overview.}}
 
-<!--
+
 == Ontology-enabled reasoning across phenotypes from evolution and model organisms ==
--->
-== Linking Evolution to Genomics Using Phenotype Ontologies ==
+
+=== About this project ===
+
+Our overall objective is to create a scalable infrastructure that enables linking descriptive phenotype observations across different fields of biology by the semantic similarity of their free-text descriptions.  In other words, we are trying to make descriptive observations amenable to large-scale computation so that they can be subjected to computational data integration and knowledge discovery techniques in ways similarly powerful to the techniques we are used to for numeric, quantitative observations.
+
+Our approach to accomplish this centers on transforming descriptive observations from the natural language text form in which they are typically reported, to fully computable logic expressions that utilize terms from shared ontologies. We create these expressions (which we also call "annotations") for evolutionary phenotypes reported in the systematics literature, and integrate them in a knowledgebase (essentially a triple store) with annotations created, using the same approach, for the myriad of phenotypes observed for mutant model organisms.  We then apply Description Logic-reasoning to evaluate which evolutionary phenotype transitions can be inferred as semantically similar to which mutant model organism phenotypes, and vice versa.  Since the genetic cause of a mutant phenotype is usually known, the links between evolutionary and mutant phenotypes identified in this way can be used to construct testable hypotheses about the genetic correlates or causes of evolutionary transitions.
+
+In a previous project, titled [[Linking Evolution to Genomics Using Phenotype Ontologies]], we developed a working prototype as a successful proof-of-concept, using teleost fishes for evolutionary phenotypes and the zebrafish model organism as a source of mutant phenotypes. Here, we aim to make the components of the prototype, including tools and workflows, sufficiently scalable so that they are adequate for the much more extensive volume and more diverse nature of skeletal phenotypes across all vertebrates, fossil and modern.  Specifically, our aims encompass the following:
+# Develop a fast semantic similarity engine so that the integrated knowledgebase can be searched on-the-fly for biological taxa or genotypes bearing a profile of phenotypes that is similar, but not necessarily identical, to a query profile.
+# Develop an ontological framework for reasoning over homology that can be scaled to a large number of anatomically diverse evolutionary lineages.
+# Reduce the time and cost of obtaining EQ statements from the literature, while at the same time improving the quality and  consistency of those statements, by incorporating natural language processing tools and by improving curation software to allow for on-demand augmentation of community ontologies.
+# Build umbrella taxonomic and anatomical ontologies for the vertebrates, the latter to be supplemented by explicit homology relations among anatomical structures. 
+# Create a knowledgebase that integrates evolutionary phenotypes for vertebrate fin and limb characters with genetic and phenotype data from three vertebrate model organisms: zebrafish (Danio rerio), frog (Xenopus laevis), and mouse (Mus musculus).
+# As a capstone, we will assess the results of our work by how well we can apply machine reasoning to retrieve candidate genes for the well-studied vertebrate fin-limb transition and other major events in skeletal evolution of vertebrates. 
+In addition to a web-based interface, we will make all data, including the integrated knowledgebase, available in the Ontology Web Language (OWL), so that other researchers can reuse the data in as many ways as possible. 
+
+=== Semantic similarity search ===
+
+=== Reasoning over homology ===
+
+=== Scaling up EQ annotation ===
+
+=== Ontology building ===
+
+=== Capstone: Hypothesis generation ===
+
+=== Project Exploration === 
+
+=== Contact ===
+
+Paula Mabee (University of South Dakota) is the Principal Investigator. Co-principal investigators are Todd Vision (University of North Carolina, Chapel Hill), Monte Westerfield (University of Oregon, ZFIN), Hilmar Lapp (NESCent), Paul Sereno (University of Chicago), Judith Blake (Jackson Laboratories), and <need to complete here> (see their contact addresses).
+
+=== Acknowledgements ===
+
 {|
 |-
-| This project was funded by NSF grant BDI<nowiki>-</nowiki>0641025 from June 1, 2007, to Jun 30, 2011, and was supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0423641. The [[Phenoscape I| project home page has been archived]] on this wiki. The project arose from a NESCent <span class="plainlinks">[http://www.nescent.org/science/workinggroup.php Working Group]</span> led by Paula Mabee and Monte Westerfield, "Towards an Integrated Database for Fish Evolution." [[Fish Evolution Working Group|Goals and summaries of the group]] are archived on this wiki.
+| This project is funded by NSF grant BDI<nowiki>-</nowiki>1062404 from July 1, 2011, to Jun 30, 2015, and is supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0905606.
 | http://www.nescent.org/about/images/nsf_logo.jpg
 |}
+
+== History ==
+
+This project would not have been possible without the hard work and results obtained in the [[Linking Evolution to Genomics Using Phenotype Ontologies]] project, which was funded by NSF grant BDI<nowiki>-</nowiki>0641025 from June 1, 2007, to Jun 30, 2011, and was supported by NESCent, NSF #EF-0423641. This earlier project in turn arose from a NESCent <span class="plainlinks">[http://www.nescent.org/science/workinggroup.php Working Group]</span> led by Paula Mabee and Monte Westerfield, "[[Fish Evolution Working Group|Towards an Integrated Database for Fish Evolution]]."
 
 ==Pages of public interest==
 
