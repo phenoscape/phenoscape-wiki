@@ -39,7 +39,7 @@ In addition to a web-based interface, we will make all data, including the integ
 
 === Contact ===
 
-Paula Mabee (University of South Dakota) is the Principal Investigator. Co-principal investigators are Todd Vision (University of North Carolina, Chapel Hill), Monte Westerfield (University of Oregon, ZFIN), Hilmar Lapp (NESCent), Paul Sereno (University of Chicago), Judith Blake (Jackson Laboratories), and <need to complete here> (see their contact addresses).
+Paula Mabee (University of South Dakota) is the Principal Investigator. Co-principal investigators are Todd Vision (University of North Carolina, Chapel Hill), Monte Westerfield (University of Oregon, ZFIN), Hilmar Lapp (NESCent), Paul Sereno (University of Chicago), Judith Blake (Jackson Laboratories), and <need to complete here> (see their [[Contact| contact addresses]]).
 
 === Acknowledgements ===
 
