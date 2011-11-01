@@ -11,7 +11,7 @@ title: Main Page
 
 === About this project ===
 
-Our overall objective is to create a scalable infrastructure that enables linking descriptive phenotype observations across different fields of biology by the semantic similarity of their free-text descriptions.  In other words, we are trying to make descriptive observations amenable to large-scale computation so that they can be subjected to computational data integration and knowledge discovery techniques in ways similarly powerful to the techniques we are used to for numeric, quantitative observations.
+Our overall objective is to create a scalable infrastructure that enables linking descriptive phenotype observations across different fields of biology by the semantic similarity of their free-text descriptions.  In other words, we are trying to make descriptive observations amenable to large-scale computation so that they can be subjected to computational data integration and knowledge discovery techniques in ways similarly powerful as the techniques we are used to for numeric, quantitative observations.
 
 Our approach to accomplish this centers on transforming descriptive observations from the natural language text form in which they are typically reported, to fully computable logic expressions that utilize terms from shared ontologies. We create these expressions (which we also call "annotations") for evolutionary phenotypes reported in the systematics literature, typically in the form of character state matrices. We use the [[EQ for character matrices| Entity-Quality (EQ) formalism]] to compose these expressions, which was initially conceived for making biomedical and mutant model organism phenotype observations interoperable.
 
