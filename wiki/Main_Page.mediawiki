@@ -26,15 +26,7 @@ In a previous project, titled [[Linking Evolution to Genomics Using Phenotype On
 # As a capstone, we will assess the results of our work by how well we can apply machine reasoning to retrieve candidate genes for the well-studied vertebrate fin-limb transition and other major events in skeletal evolution of vertebrates.
 In addition to a web-based interface, we will make all data, including the integrated knowledgebase, available in the Ontology Web Language (OWL), so that other researchers can reuse the data in as many ways as possible.
 
-=== Semantic similarity search ===
-
-=== Reasoning over homology ===
-
-=== Scaling up EQ annotation ===
-
-=== Ontology building ===
-
-=== Capstone: Hypothesis generation ===
+=== The vertebrate fin/limb transition ===
 
 === Project Exploration ===
 
