@@ -188,7 +188,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 |- valign="top"
 |
 * Todd Vision (also University of North Carolina at Chapel Hill)
-* Hilmar Lapp
+* [[User:Hlapp| Hilmar Lapp]]
 * Jim Balhoff
 * Peter Midford
 |
