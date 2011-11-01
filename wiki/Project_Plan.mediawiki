@@ -80,13 +80,14 @@ Working group: Wasila*, Nizar, Lauren, Paul, David, Terry, Yvonne, Ceri, Christi
 Action items:
 
 * Set up weekly anatomy ontology conference calls and mailing lists - ''done''
-* Jim: further development of synchronization plug-in in 3-6 mo window -- ''ongoing''
-* Communication with ZFIN and XenBase on issue of moving to GO like model, probably long-term goal -- done, August 2011
-* incorporate MIREOT into ontologies - ''done: modified import/MIREOT strategy used in new TAO; will be used in AMAO''
+* Development of synchronization plug-in in 3-6 mo window -- ''ongoing''
+* Synchronization: 
+** communication with ZFIN and XenBase on issue of moving to GO like model, probably long-term goal -- done, August 2011
+** incorporate MIREOT into ontologies - ''done: modified import/MIREOT strategy used in new TAO; will be used in AMAO''
 * XAO update (lead by Christina, VG, Erik) -- ''done, August 2011:''
 **Complete definitions; add CARO terms to make is_a complete; Review of overall structure (review structure from 2008)
 **Terms from AAO and VAO integrated into XAO (including xrefs); looked to ZFA and UBERON for additional terms needed
-* Training in ontology development and annotation 
+* Training in ontology development and annotation
 ** ''Paul, Lauren visited NESCent during the week of October 10, 2011''
 ** ''Nizar to visit NESCent in November, 2011''
 * initiate Amniote Anatomy Ontology -- ''in progress''
