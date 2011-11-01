@@ -73,14 +73,14 @@ Priorities and milestones (3 mos, 6 mos, 1 yr)
 ==2.1 Anatomy ontologies (Wasila)==
 The objective is the integration and coordinated development of multispecies and single species ontologies for teleosts, zebrafish, amphibians, Xenopus, amniotes, and mouse. The focus of ontology development in year 1 is the limb/fin skeletal branch. This will require reviewing the fin/limb branch in existing ontologies and continued development of the higher-level vertebrate skeletal ontology (VAO). Specific ontology development plans are documented [[Anatomy_Ontology_Development_Plan | here.]]
 
-Working group: Wasila*, Nizar, Lauren, Paul, David, Terry, Yvonne, Ceri, Christina, VG, Paula
+Working group: Wasila*, Nizar, Lauren, Paul, David, Terry, Yvonne, Ceri, Christina, VG, Paula, Chris
 
 === Target milestone: First quarter: October 1, 2011  ===
 Action items:
 
 * Set up weekly anatomy ontology conference calls and mailing lists - ''done''
 * Development of synchronization plug-in in 3-6 mo window -- ''ongoing''
-* Synchronization: 
+* Synchronization:
 ** communication with ZFIN and XenBase on issue of moving to GO like model, probably long-term goal -- done, August 2011
 ** incorporate MIREOT into ontologies - ''done: modified import/MIREOT strategy used in new TAO; will be used in AMAO''
 * XAO update (lead by Christina, VG, Erik) -- ''done, August 2011:''
