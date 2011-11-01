@@ -115,6 +115,7 @@ Visualize the extent to which a specified set of phenotypes is exhibited within 
 
 <div id="VisualizePhenotypicVariationTree" style="border: 2px dashed silver;">
 '''Visualize Phenotypic Variation Tree'''
+
 Visualize the taxonomic distribution of a specified phenotype.
 </div>
 
