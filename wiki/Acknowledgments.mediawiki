@@ -227,7 +227,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 * [http://www.fishbase.org/ Fishbase] - fish common names
 
 ==Funding==
-The Phenoscape II project is funded by NSF grant BDI<nowiki>-</nowiki>1062404, and is supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0905606. It's predecessor, the [[Phenoscape I]] project, was funded by NSF grant BDI-0641025, and supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0423641.
+The Phenoscape II project is funded by NSF grant BDI<nowiki>-</nowiki>1062404, and is supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0905606. It's predecessor, the [[Phenoscape I]] project, was funded by NSF grant BDI-0641025, and supported by NESCent, NSF #EF-0423641.
 
 [[Category:Curation]]
 [[Category:Community]]
