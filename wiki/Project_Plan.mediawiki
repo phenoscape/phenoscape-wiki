@@ -21,7 +21,7 @@ Objective: Develop NLP to generate potential ontology terms and candidate EQ's i
 
 Action items:
 *Wasila to send Hong the PDFs containing characters from the 50 char list - done
-*Action item: Wasila to send Paul a curated pub
+*Action item: Wasila to send Paul a curated pub - done
 *Action Item: Jim will send Hong full database report with character text and EQ assignments
 *Hong: Hire MS student at AZ (e fdone)
 *Todd: Hire UNC postdoc
