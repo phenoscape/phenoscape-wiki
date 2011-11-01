@@ -11,21 +11,21 @@ This page is an easily editable source for help popups in the Phenoscape web UI.
 <div id="WhatArePhenotypes" style="border: 2px dashed silver;">
 '''About Phenotypes'''
 
-Helpful information about phenotypes (E, Q, RE).
+See additional information about phenotypes (Entities, Qualities, and optionally Relational Entities).
 </div>
 
 
 <div id="FindSpecificTerm" style="border: 2px dashed silver;">
 '''Find a Specific Term'''
 
-Use this tool to search using any valid term (taxon, gene, etc.) in the Knowledgebase. '''You must choose a matched value from the drop-down list before you can search.'''
+Search using any valid term (taxon, gene, etc.) in the Knowledgebase. '''You must choose a matched value from the drop-down list before you can search.'''
 </div>
 
 
 <div id="BrowseAllPhenotypes" style="border: 2px dashed silver;">
 '''Browse All Phenotypes'''
 
-View all phenotypes used within annotations. Narrow results along dimensions of taxa, anatomical entities, phenotypic qualities, or gene classification.
+View all phenotypes used within annotations. Narrow results by taxa, anatomical entity, phenotypic quality, or gene classification.
 </div>
 
 
@@ -67,63 +67,62 @@ TODO
 <div id="QueryPhenotpyeAnnotationsToTaxa" style="border: 2px dashed silver;">
 '''Query Phenotype Annotations To Taxa'''
 
-Use this to find the '''phenotypes''' associated with particular '''taxa'''; filter by publication.
+Find '''phenotypes''' associated with particular '''taxa'''; filter by publication.
 </div>
 
 
 <div id="QueryPhenotpyeAnnotationsToGenes" style="border: 2px dashed silver;">
 '''Query Phenotype Annotations To Genes'''
 
-Use this to find the '''phenotypes''' associated with particular '''genes'''.
+Find '''phenotypes''' associated with particular '''genes'''.
 </div>
 
 
 <div id="QueryTaxa" style="border: 2px dashed silver;">
 '''Query Taxa'''
 
-Use this to find a list of '''taxa''' associated with a particular phenotype or publication.
+Find the '''taxa''' associated with a particular phenotype or publication.
 </div>
 
 
 <div id="QueryGenes" style="border: 2px dashed silver;">
 '''Query Genes'''
 
-Use this to find a list of '''genes''' associated with a particular phenotype.
+Find a list of '''genes''' associated with a particular phenotype.
 </div>
 
 
-<div id="QueryCompatarivePublications" style="border: 2px dashed silver;">
+<div id="QueryComparativePublications" style="border: 2px dashed silver;">
 '''Query Comparative Publications'''
 
-Find the '''publications''' that contain describe particular taxa or phenotypes.
+Find '''publications''' that contain descriptions of particular taxa or phenotypes.
 </div>
 
 
-<div id="QueryPhenotpyes" style="border: 2px dashed silver;">
+<div id="QueryPhenotyes" style="border: 2px dashed silver;">
 '''Query Phenotypes'''
 
-Use this to find a list of '''phenotypes''' associated with particular taxon, gene, or publication.
+Find a list of '''phenotypes''' associated with a particular taxon, gene, or publication.
 </div>
 
 
 <div id="VisualizePhenotypicProfileTree" style="border: 2px dashed silver;">
 '''Visualize Phenotypic Profile Tree'''
 
-Use this to visually explore the degree of match of specified phenotypes exhibited by taxa within a clade.
+Visualize the extent to which a specified set of phenotypes is exhibited within and between taxa.
 </div>
 
 
 <div id="VisualizePhenotypicVariationTree" style="border: 2px dashed silver;">
 '''Visualize Phenotypic Variation Tree'''
-
-Use this to visually explore the distribution of a specified phenotype among taxa in clade.
+Visualize the taxonomic distribution of a specified phenotype.
 </div>
 
 
 <div id="AboutInferredAnnotations" style="border: 2px dashed silver;">
 '''Apply higher taxon annotations to all included species'''
 
-Phenotypes annotated to higher taxa (such as a whole fish family) are assumed to apply to all organisms within that group. For example, searching for 'basihyal bone absent' would return all species of catfish since this phenotype has been annotated for Siluriformes, the catfish order.
+Phenotypes annotated to a higher taxon (e.g. all Euteleosts) are assumed to apply to all organisms within that group. For example, searching for 'basihyal bone absent' would return a list of all catfish (Siluriformes) species because this phenotype has been annotated at the level of the Siluriformes.
 </div>
 
 
