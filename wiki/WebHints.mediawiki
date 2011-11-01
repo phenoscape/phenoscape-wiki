@@ -92,14 +92,14 @@ Find a list of '''genes''' associated with a particular phenotype.
 </div>
 
 
-<div id="QueryComparativePublications" style="border: 2px dashed silver;">
+<div id="QueryCompatarivePublications" style="border: 2px dashed silver;">
 '''Query Comparative Publications'''
 
 Find '''publications''' that contain descriptions of particular taxa or phenotypes.
 </div>
 
 
-<div id="QueryPhenotyes" style="border: 2px dashed silver;">
+<div id="QueryPhenotpyes" style="border: 2px dashed silver;">
 '''Query Phenotypes'''
 
 Find a list of '''phenotypes''' associated with a particular taxon, gene, or publication.
