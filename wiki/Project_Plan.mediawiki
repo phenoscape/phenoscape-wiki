@@ -86,10 +86,11 @@ Action items:
 * XAO update (lead by Christina, VG, Erik) -- ''done, August 2011:''
 **Complete definitions; add CARO terms to make is_a complete; Review of overall structure (review structure from 2008)
 **Terms from AAO and VAO integrated into XAO (including xrefs); looked to ZFA and UBERON for additional terms needed
-* Training in ontology development tools (for Nizar, David, Paul, etc)--'' training for Paul and Lauren, week of October 10, 2011
-''
-* initiate Amniote Anatomy Ontology -- ''in progress, week of October 2011''
-* sort out high level VAO/Amniote terms -- ''in progress, week of October 2011''
+* Training in ontology development and annotation 
+** ''Paul, Lauren visited NESCent during the week of October 10, 2011''
+** ''Nizar to visit NESCent in November, 2011''
+* initiate Amniote Anatomy Ontology -- ''in progress''
+* sort out high level VAO/Amniote terms -- ''in progress''
 
 === Target milestone: Second quarter: January 1, 2012  ===
 Action items:
