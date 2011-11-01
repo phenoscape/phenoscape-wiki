@@ -182,25 +182,25 @@ The following individuals have contributed to Phenoscape ontology development, d
 
 {| width="90%"
 |- align="left" style="font-weight: bold;"
-| style="width: 33%;" | University of South Dakota
-| style="width: 33%;" | University of Oregon 
 | style="width: 33%;" | National Evolutionary Synthesis Center (NESCent)
+| style="width: 33%;" | University of South Dakota
+| style="width: 33%;" | University of Oregon
 |- valign="top"
-| 
-* Paula Mabee
-* Wasila Dahdul
-| 
-* Monte Westerfield (Zebrafish Information Network)
 |
 * Todd Vision (also University of North Carolina at Chapel Hill)
 * Hilmar Lapp
 * Jim Balhoff
 * Peter Midford
+|
+* Paula Mabee
+* Wasila Dahdul
+|
+* Monte Westerfield (Zebrafish Information Network)
 |- style="height: 10px;"
 |
 |- align="left" style="font-weight: bold; "
 | University of Chicago || Mouse Genome Informatics || Cincinnati Children's
-|-
+|- valign="top"
 |
 * Paul Sereno
 * Nizar Ibrahim
@@ -214,7 +214,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 |
 |- align="left" style="font-weight: bold; "
 | University of Arizona || Lawrence Berkeley National Labs ||
-|- 
+|- valign="top"
 |
 * Hong Cui
 |
