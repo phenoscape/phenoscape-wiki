@@ -9,6 +9,11 @@ title: Contact
 :Email: [mailto:pmabee%40usd%2eedu pmabee&#64;usd&#46;edu]
 :Phone: 605-677-6171
 
+* '''Todd Vision''': Principal Investigator
+:University of North Carolina
+:Email: [mailto:tjv%40bio%2eunc%2eedu tjv&#64;bio&#46;edu]
+:Phone: 919-843-4507
+
 * '''David Blackburn''': Co-principal Investigator
 :California Academy of Sciences
 :Email: [mailto:david.c.blackburn%40gmail%2com david.c.blackburn&#64;gmail&#46;com]
@@ -29,11 +34,6 @@ title: Contact
 :University of Chicago
 :Email: [mailto:dinosaur%40uchicago%2edu dinosaur&#64;uchicago&#46;edu]
 :Phone: 773-428-7801
-
-* '''Todd Vision''': Co-principal Investigator
-:University of North Carolina
-:Email: [mailto:tjv%40bio%2eunc%2eedu tjv&#64;bio&#46;edu]
-:Phone: 919-843-4507
 
 * '''Monte Westerfield''': Co-principal Investigator
 :University of Oregon
