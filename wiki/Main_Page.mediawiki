@@ -39,7 +39,7 @@ Paula Mabee (University of South Dakota) and Todd Vision (University of North Ca
 
 {|
 |-
-| The Phenoscape project is funded by NSF NSF collaborative grants DBI-1062404 and DBI-1062542 from July 1, 2011, to Jun 30, 2015, and supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0905606.
+| The Phenoscape project is funded by NSF collaborative grants DBI-1062404 and DBI-1062542 from July 1, 2011, to Jun 30, 2015, and supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0905606.
 
 This project would not have been possible without the hard work of [[Acknowledgments#Contributors| numerous contributors]] and the results obtained in the [[Linking Evolution to Genomics Using Phenotype Ontologies]] project, which was funded by NSF grant BDI<nowiki>-</nowiki>0641025 from June 1, 2007, to Jun 30, 2011, and was supported by NESCent, NSF #EF-0423641. This earlier project in turn arose from a NESCent <span class="plainlinks">[http://www.nescent.org/science/workinggroup.php Working Group]</span> led by Paula Mabee and Monte Westerfield, "[[Fish Evolution Working Group|Towards an Integrated Database for Fish Evolution]]."
 | http://www.nescent.org/about/images/nsf_logo.jpg
