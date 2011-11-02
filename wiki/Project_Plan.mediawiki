@@ -128,7 +128,7 @@ Action Items
 *Guide for updating taxonomy ontologies with curation driven additions
 
 ==2.3 Sync Tool (Jim)==
-Working group: Jim*, Wasila
+Working group: Jim*, Wasila, Chris, Ceri, Yvonne
 === Target milestone: Second quarter: January 1, 2012  ===
 * Sync Tool 0.5
 ** management of terms excluded from syncing
