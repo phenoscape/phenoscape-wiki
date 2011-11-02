@@ -8,7 +8,6 @@ title: Contact
 :University of South Dakota
 :Email: [mailto:pmabee%40usd%2eedu pmabee&#64;usd&#46;edu]
 :Phone: 605-677-6171
-:FAX: 605-677-6557
 
 * '''David Blackburn''': Co-principal Investigator
 :California Academy of Sciences
@@ -18,7 +17,7 @@ title: Contact
 * '''Judith Blake''': Co-principal Investigator
 :Mouse Genome Informatics - Jackson Laboratories
 :Email: [mailto:Judith.Blake%40jax%2org Judith.Blake&#64;jax&#46;org]
-:Phone:
+:Phone: 207-288-6248
 
 * '''[[User:Hlapp|Hilmar Lapp]]''': Co-principal Investigator
 :Assistant Director for Informatics
@@ -29,7 +28,7 @@ title: Contact
 * '''Paul Sereno''': Co-principal Investigator
 :University of Chicago
 :Email: [mailto:dinosaur%40uchicago%2edu dinosaur&#64;uchicago&#46;edu]
-:Phone:
+:Phone: 773-428-7801
 
 * '''Todd Vision''': Co-principal Investigator
 :University of North Carolina
@@ -39,12 +38,12 @@ title: Contact
 * '''Monte Westerfield''': Co-principal Investigator
 :University of Oregon
 :Email: [mailto:monte%40uoneuro%2uoregon%2edu monte&#64;uoneuro&#46;uoregon&#46;edu]
-:Phone:541-346-4607
+:Phone: 541-346-4607
 
 * '''Aaron Zorn''': Co-principal Investigator
 :Xenopus model organism database, Cincinnati's Children's Hospital Medical Center
 :Email: [mailto:aaron.zorn%40cchmc%2org aaron.zorn&#64;cchmc&#46;org]
-:Phone:
+:Phone: 513-636-3770
 
 ==Mailing lists==
 
