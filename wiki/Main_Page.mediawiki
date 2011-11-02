@@ -25,7 +25,8 @@ We combine the EQ annotations we create for evolutionary phenotypes with the EQ 
 # As a capstone, we will assess the results of our work by how well we can apply machine reasoning to retrieve candidate genes for the well-studied vertebrate fin-limb transition and other major events in skeletal evolution of vertebrates.
 In addition to a web-based interface, we will make all data, including the integrated knowledgebase, available in the Web Ontology Language (OWL), so that other researchers can reuse the data in as many ways as possible.
 
-=== The vertebrate fin/limb transition ===
+=== The vertebrate fin/limb transition: the test system ===
+The evolution of limbs from fins is arguably one of the most well studied transitions in vertebrate history.  The genes involved in positioning, growth, and patterning of the fin and limb at various stages are well known and documented in the vertebrate model organism databases (ZFIN, Xenbase, MGI), and the changes in skeletal morphology and corresponding assertions of homology are well-documented in the comparative morphological literature.  Bringing together the genetic, developmental, morphological and evolutionary data in the Knowledgebase will provide an ideal test bed for judging the reliability of candidate gene predictions and the application of homology logic.
 
 === Project Exploration ===
 
