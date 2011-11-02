@@ -218,7 +218,8 @@ The following individuals have contributed to Phenoscape ontology development, d
 |
 * David Blackburn
 |
-* Hong Cui
+* [http://sites.google.com/site/biosemanticsproject/project-overview Hong Cui]
+* [http://www.linkedin.com/pub/zilong-chang/3a/348/585 Zilong Chang]
 |
 * Chris Mungall
 |}
