@@ -4,7 +4,7 @@ title: Main Page
 
 {{EventBox1|
 * '''Try the Beta version of the [http://kb.phenoscape.org Phenoscape Knowledgebase].'''  Development is very much in progress, and your feedback is welcome!
-* Check out the latest news on the [http://blog.phenoscape.org/ Phenoscape blog], including the latest changes to PATO, a new bridging Vertebrate Anatomy Ontology, and the launch of a new Phenotype Ontology Research Coordination Network.}}
+* Check out the latest news on the [http://blog.phenoscape.org/ Phenoscape blog]}}
 
 == Ontology-enabled reasoning across phenotypes from evolution and model organisms ==
 
