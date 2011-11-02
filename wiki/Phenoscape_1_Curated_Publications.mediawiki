@@ -56,3 +56,6 @@ title: Phenoscape 1 Curated Publications
 #Wiley, E. O., G. D. Johnson, et al. (2000). "The interrelationships of acanthomorph fishes: a total evidence approach using molecular and morphological data." Biochemical Systematics and Ecology 28: 319-350.
 #Zanata, A. M. and R. P. Vari (2005). "The family Alestidae (Ostariophysi, Characiformes): a phylogenetic analysis of a trans-Atlantic clade." Zoological Journal of the Linnean Society 145(1): 1-144.
 # Zaragueta Bagils, R. (2004). Basal clupeomorphs and ellimmichthyiform phylogeny. Mesozoic Fishes 3 - Systematics, Paleoenvironments and Biodiversity G. Arratia and A. Tintori. Munich, Verlag Dr. F. Pfeil: 391-404.
+
+[[Category:Curation]]
+[[Category:Phenoscape I]]
