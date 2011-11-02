@@ -42,7 +42,7 @@ Action items:
 ==1.2 Term broker, in collaboration with NCBO (Jim) ==
 The overall goal here is to obtain temporary ID for anatomy ontology terms, communicate it to Phenex, and automatically replace with permanent terms when available.
 
-Working group: Jim*, Natasha, Hilmar, Judy, Wasila, Todd
+Working group: Jim*, Natasha, Hilmar, Judy, Wasila
 * coordinator: Jim
 * Judy, Wasila, and Hilmar to form a committee to decide on next steps
 * We envisioned curator working within WebProtege within the NCBO environment within which temp ids are captured; after term vetted, replaced w/in ontology automatically?
