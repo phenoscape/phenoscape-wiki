@@ -33,7 +33,7 @@ A "Junior Biocurator" program for advanced Chicago public high school students w
 
 === Contact ===
 
-Paula Mabee (University of South Dakota) and Todd Vision (University of North Carolina Chapel Hill, National Evolutionary Synthesis Center) are the Principal Investigators of this project. Co-principal investigators are David Blackburn (California Academy of Sciences), Judith Blake (Mouse Genome Informatics, Jackson Laboratories), Hilmar Lapp (NESCent), Paul Sereno (University of Chicago), Monte Westerfield (University of Oregon, ZFIN), and Aaron Zorn (Xenbase, Cincinnati's Children's Hospital and Medical Center) (see their [[Contact| contact addresses]]).
+Paula Mabee (University of South Dakota) and Todd Vision (University of North Carolina Chapel Hill, National Evolutionary Synthesis Center) are the Principal Investigators of this project. Co-principal investigators are David Blackburn (California Academy of Sciences), Judith Blake (Mouse Genome Informatics, Jackson Laboratories), Hilmar Lapp (NESCent), Paul Sereno (University of Chicago), Monte Westerfield (ZFIN, University of Oregon), and Aaron Zorn (Xenbase, Cincinnati Children's Hospital Medical Center) (see their [[Contact| contact addresses]]).
 
 == Acknowledgements ==
 
