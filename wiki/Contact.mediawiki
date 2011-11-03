@@ -28,7 +28,7 @@ title: Contact
 :Assistant Director for Informatics
 :National Evolutionary Synthesis Center
 :Email: [mailto:hlapp%40nescent%2org hlapp&#64;nescent&#46;org]
-:Phone: 919-490-5288
+:Phone: 919-668-5288
 
 * '''Paul Sereno''': Co-principal Investigator
 :University of Chicago
