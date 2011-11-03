@@ -184,7 +184,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 |- align="left" style="font-weight: bold;"
 | style="width: 33%;" | National Evolutionary Synthesis Center (NESCent)
 | style="width: 33%;" | University of South Dakota
-| style="width: 33%;" | University of Oregon
+| style="width: 33%;" | University of Oregon (Zebrafish Information Network)
 |- valign="top"
 |
 * Todd Vision (also University of North Carolina at Chapel Hill)
@@ -195,7 +195,9 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Paula Mabee
 * Wasila Dahdul
 |
-* Monte Westerfield (Zebrafish Information Network)
+* [http://zfin.org/cgi-bin/webdriver?MIval=aa-persview.apg&OID=ZDB-PERS-960805-676 Monte Westerfield]
+* Yvonne Bradford
+* Ceri Van Slyke 
 |- style="height: 10px;"
 |
 |- align="left" style="font-weight: bold; "
