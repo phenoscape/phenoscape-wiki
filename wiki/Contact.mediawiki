@@ -63,6 +63,6 @@ The following mailing lists have private archives, and subscription is usually r
 
 ==Blog==
 
-* Phenoscape blog: http://blog.phenoscape.org/
+* Phenoscape blog: http://blog.phenoscape.org/ You can subscribe to the blog so that you receive a notification each time a new post is published. Scroll down until you see the box titled "Subscribe via Email", enter your email address, and click "Subscribe".
 
 [[Category:Community]]
