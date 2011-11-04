@@ -4,6 +4,19 @@ title: Anatomy Ontology Conf calls
 
 '''Weekly anatomy ontology calls are held on Mondays, 1:15 pm - 2:15 pm EDT.'''
 
+== Nov 7, 2011 ==
+=== Agenda ===
+
+
+1.  Addition of fin terms (available from TAO) to VAO for annotation of basal vertebrate phenotypes (add to tracker)
+2.  Review of proposed updates to [https://docs.google.com/spreadsheet/ccc?key=0Aj8NJdyb-leqdDM0R3hTVTRHRExDVjRCSkZEbDc5N1E
+cranial skeleton terms] (from recent work with John Lundberg)
+
+'''Attending:''' 
+
+=== Minutes ===
+
+
 == Oct 17, 2011 ==
 
 === Agenda ===
