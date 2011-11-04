@@ -8,11 +8,10 @@ title: Anatomy Ontology Conf calls
 === Agenda ===
 
 
-1.  Addition of fin terms (available from TAO) to VAO for annotation of basal vertebrate phenotypes (add to tracker)
-2.  Review of proposed updates to [https://docs.google.com/spreadsheet/ccc?key=0Aj8NJdyb-leqdDM0R3hTVTRHRExDVjRCSkZEbDc5N1E
-cranial skeleton terms] (from recent work with John Lundberg)
+* Addition of fin terms (available from TAO) to VAO for annotation of basal vertebrate phenotypes (add to tracker)
+* Review of proposed updates to [https://docs.google.com/spreadsheet/ccc?key=0Aj8NJdyb-leqdDM0R3hTVTRHRExDVjRCSkZEbDc5N1E cranial skeleton terms] (from recent work with John Lundberg)
 
-'''Attending:''' 
+'''Attending:'''
 
 === Minutes ===
 
