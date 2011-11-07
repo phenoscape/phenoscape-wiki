@@ -14,15 +14,15 @@ title: Anatomy Ontology Conf calls
 '''Attending:''' Ceri, Terry, Yvonne, Melissa, Paula, Ben, Wasila, David
 
 === Minutes ===
-* '''Addition of fin terms''' (available from TAO) to VAO for annotation of basal vertebrate phenotypes 
+* '''Addition of fin terms''' (available from TAO) to VAO for annotation of basal vertebrate phenotypes
 ** Melissa: terms outside musculoskeletal scope (e.g., dorsal fin) are available in UBERON. These are organism subdivisions rather than skeletal subdivisions
 *** organism subdivisions- large portions with various organs/ elements included as part of “chunk” or organismsum of parts don’t add up to what is seen on surface, not adquately represented in CARO yet
 ** VAO scope is musculoskeletal, import ‘dorsal fin’ from Uberon and have “dorsal fin skeleton” be part_of
 ** Don’t need to import all of Uberon, import single classes or specific vertebrate files, not all of it.
 ** Can also use placeholder term in Vao which gets obsoleted and replaced with term imported from existing ontologies
 ** Melissa: Ideally would import from Uberon but tools not there yet
-** Paula: Median fins don’t develop from fin buds, we have the develop_from relationship in TAO/ZFA, how to change relationship for VAO? change in all ontologies—add to tracker in Uberon—developing tools to see differences and populate ontologies from higher ontologies 
-* Review of proposed updates to [https://docs.google.com/spreadsheet/ccc?key=0Aj8NJdyb-leqdDM0R3hTVTRHRExDVjRCSkZEbDc5N1E '''cranial skeleton terms'''] (from recent work with John Lundberg)
+** Paula: Median fins don’t develop from fin buds, we have the develop_from relationship in TAO/ZFA, how to change relationship for VAO? change in all ontologies—add to tracker in Uberon—developing tools to see differences and populate ontologies from higher ontologies
+* Review of proposed updates to '''cranial skeleton terms''' spreadsheet
 ** Chondrocranium could be defined logically as restricted set of replacement elements that is not replaced by mineralized tissue
 ** Paul: chondrocranium and neurocranium used interchangeably- a problem, disparity in different types of literature over time
 ** Paul generally agrees with using chondrocranium for the splanchnocranium + neurocranium precursors as there is no term for the full chondrocranium
