@@ -93,9 +93,8 @@ Action items:
 === Target milestone: Second quarter: January 1, 2012  ===
 Action items:
 * VAO update: cloning of fin terms from TAO and cross-referencing or importing non-skeletal Uberon terms -- ''in progress''
-* Training in ontology development and annotation
-** ''planned: Nizar to visit NESCent in November, 2011''
-
+* Training in ontology development and annotation planned for Nizar at NESCent in November, 2011
+* Review of limb and cranial skeletal terms by Nizar and Paul
 
 === Target milestone: End of Year 1:July 1, 2012  ===
 
