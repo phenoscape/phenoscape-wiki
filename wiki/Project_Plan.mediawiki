@@ -93,6 +93,7 @@ Action items:
 === Target milestone: Second quarter: January 1, 2012  ===
 Action items:
 * VAO update: cloning of fin terms from TAO and cross-referencing or importing non-skeletal Uberon terms -- ''in progress''
+* Review cell and process terms in VAO, CL, and GO; submit term proposals to CL and GO - ''ongoing with Alex Diehl and Melissa Haendel''
 * Training in ontology development and annotation planned for Nizar at NESCent in November, 2011
 * Review of limb and cranial skeletal terms by Nizar and Paul
 * initiate Amniote Anatomy Ontology (AMAO) -- ''draft OBO file created''
