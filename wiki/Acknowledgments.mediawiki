@@ -197,7 +197,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 |
 * [http://zfin.org/cgi-bin/webdriver?MIval=aa-persview.apg&OID=ZDB-PERS-960805-676 Monte Westerfield]
 * Yvonne Bradford
-* Ceri Van Slyke 
+* Ceri Van Slyke
 |- style="height: 10px;"
 |
 |- align="left" style="font-weight: bold; "
@@ -230,6 +230,13 @@ The following individuals have contributed to Phenoscape ontology development, d
 * [http://zfin.org ZFIN] - mutant and morpholino zebrafish genes and phenotypes
 * [http://research.calacademy.org/ichthyology/catalog Catalog of Fishes] - fish taxonomy
 * [http://www.fishbase.org/ Fishbase] - fish common names
+
+==Advisory Board==
+* John Day-Richter (Google)
+* Brian K. Hall (Dalhousie University)
+* Allen Ruttenberg (University of Buffalo)
+* Paul Schofield (University of Cambridge)
+* Peter Vize (University of Calgary)
 
 ==Funding==
 The Phenoscape II project is funded by NSF collaborative grants DBI-1062404 and DBI-1062542 grant, and is supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0905606. It's predecessor, the [[Phenoscape I]] project, was funded by NSF grant BDI-0641025, and supported by NESCent, NSF #EF-0423641.
