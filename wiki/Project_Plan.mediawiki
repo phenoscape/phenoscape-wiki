@@ -89,7 +89,6 @@ Action items:
 * Training in ontology development and curation
 ** ''-- done: Paul and Lauren visited NESCent in October 2011''
 
-
 === Target milestone: Second quarter: January 1, 2012  ===
 Action items:
 * VAO update: cloning of fin terms from TAO and cross-referencing or importing non-skeletal Uberon terms -- ''in progress''
