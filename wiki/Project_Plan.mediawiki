@@ -188,13 +188,12 @@ Action items:
 === Target milestone: Year 3: July 1, 2014  ===
 === Target milestone: Year 4: July 1, 2015  ===
 
-=4. Homology (Paula, Hilmar)=
+=4. Homology (Hilmar)=
 Objective: The legacy homology assertions for the fin-limb skeleton, including assertions of both phylogenetic and iterative (serial) homology [50], and
 the genes involved in growth and patterning of the limb at various stages, e.g., Bmps, Fgfs, Gdf5, Sox9
 are also well known, e.g., [20
 
-==4.1 Homology reasoning framework (Hilmar)==
-Working group:  Hilmar*, Chris (also Paula, David, Paul)
+Working group:  Hilmar*, Chris, Paula, David, Paul, Nizar
 *coordinator
 * Use-cases and requirements for querying and reasoning; Decisions on reasoning etc. important because system architecture depends on it.
 * Collecting, curating, and annotating homology assertions
@@ -209,30 +208,15 @@ Action items
 * Collect use cases to develop and test reasoning - on wiki (look for examples of structures that are symmetric in some species; where serial structures are separate vs.fused in some taxa).
 * Make sure taxa in Vertebrate Homologies document are in VTO (Peter)
 * Work out initial reasoning for serial homology
+* Establish matrix of fin/limb homologies, evidence codes -- Matrix established (google doc: https://docs.google.com/spreadsheet/ccc?key=0Apgi__7Z2km5dHQ2eTRWeEpCOWwtS2VIZC1tM2lPbUE&hl=en_US#gid=0)
 
 === Target milestone: Second quarter: January 1, 2012  ===
 * Ensure testing can be accomplished within Protege, 3-6 months (Hilmar, Chris)
+* Finalize small test matrix of fin/limb homologies, evidence codes
 
 === Target milestone: End of Year 1:July 1, 2012  ===
 * Plan bake-off of homology models after testing is complete? (Practicality not clear)
 * Define tests for knowledgebase based on OWL-DL test suite (Jim)
-
-=== Target milestone: Year 2: July 1, 2013  ===
-=== Target milestone: Year 3: July 1, 2014  ===
-=== Target milestone: Year 4: July 1, 2015  ===
-
-==4.2 Homology assertions (Paula)==
-Working group: Paula*, David, Paul, Hilmar, Nizar
-*coordinator
-
-=== Target milestone: First quarter: October 1, 2011  ===
-Action items:
-* Establish matrix of fin/limb homologies, evidence codes -- Matrix established (google doc: https://docs.google.com/spreadsheet/ccc?key=0Apgi__7Z2km5dHQ2eTRWeEpCOWwtS2VIZC1tM2lPbUE&hl=en_US#gid=0)
-
-=== Target milestone: Second quarter: January 1, 2012  ===
-* Finalize small test matrix of fin/limb homologies, evidence codes
-
-=== Target milestone: End of Year 1:July 1, 2012  ===
 * Establish use cases for homology reasoning, esp iterative homology
 * Plan homology jamboree for experts on the fin/limb in year 2
 
