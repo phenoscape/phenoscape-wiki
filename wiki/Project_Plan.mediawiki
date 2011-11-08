@@ -94,8 +94,7 @@ Action items:
 
 === Target milestone: Second quarter: January 1, 2012  ===
 Action items:
-* Synchronization of MODs to multispecies ontologies
-* Workshop toward end of 2011 or beginning of 2012
+* cloning of fin terms from TAO to VAO; cross-referencing or importing non-skeletal Uberon terms -- ''in progress''
 
 === Target milestone: End of Year 1:July 1, 2012  ===
 
