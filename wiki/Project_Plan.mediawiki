@@ -90,7 +90,6 @@ Action items:
 ** ''done: Paul, Lauren visited NESCent during the week of October 10, 2011''
 ** ''in planning: Nizar to visit NESCent in November, 2011''
 * initiate Amniote Anatomy Ontology -- ''in progress''
-* sort out high level VAO/Amniote terms -- ''in progress''
 
 === Target milestone: Second quarter: January 1, 2012  ===
 Action items:
