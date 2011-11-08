@@ -95,7 +95,7 @@ Action items:
 * VAO update: cloning of fin terms from TAO and cross-referencing or importing non-skeletal Uberon terms -- ''in progress''
 * Training in ontology development and annotation planned for Nizar at NESCent in November, 2011
 * Review of limb and cranial skeletal terms by Nizar and Paul
-* initiate Amniote Anatomy Ontology (AMAO) -- ''in progress''
+* initiate Amniote Anatomy Ontology (AMAO) -- ''draft OBO file created''
 
 === Target milestone: End of Year 1:July 1, 2012  ===
 * submit AMAO to the OBO Foundry
