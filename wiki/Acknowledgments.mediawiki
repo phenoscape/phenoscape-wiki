@@ -238,6 +238,8 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Paul Schofield (University of Cambridge)
 * Peter Vize (University of Calgary)
 
+First advisory board meeting agenda: https://docs.google.com/document/d/1oE9Mp-UVu6r-Ci7G3EHTRaBuXsapyqm7DQ-Q0FjwCyo/edit?hl=en_US
+
 ==Funding==
 The Phenoscape II project is funded by NSF collaborative grants DBI-1062404 and DBI-1062542 grant, and is supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0905606. It's predecessor, the [[Phenoscape I]] project, was funded by NSF grant BDI-0641025, and supported by NESCent, NSF #EF-0423641.
 
