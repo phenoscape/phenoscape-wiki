@@ -34,7 +34,7 @@ Outreach activities to include:
 * A "Junior Biocurator" program for advanced Chicago public high school students to be implemented by [http://www.projectexploration.org/ Project Exploration].
 * Undergraduate internship and community outreach to the Lakota population through the University of South Dakota.
 
-=== Contact ===
+=== Contacts ===
 
 Paula Mabee (University of South Dakota) and Todd Vision (University of North Carolina Chapel Hill, National Evolutionary Synthesis Center) are the Principal Investigators of this project. Co-principal investigators are David Blackburn (California Academy of Sciences), Judith Blake (Mouse Genome Informatics, Jackson Laboratories), Hilmar Lapp (National Evolutionary Synthesis Center), Paul Sereno (University of Chicago), Monte Westerfield (ZFIN, University of Oregon), and Aaron Zorn (Xenbase, Cincinnati Children's Hospital Medical Center) (see their [[Contact| contact addresses]]).
 
@@ -42,7 +42,7 @@ Paula Mabee (University of South Dakota) and Todd Vision (University of North Ca
 
 {|
 |-
-| The Phenoscape project is funded by NSF collaborative grants DBI-1062404 and DBI-1062542 from July 1, 2011, to Jun 30, 2015, and supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0905606.  The original Project Description for this grant is available [[:File:Phenoscape_Project_description_refs.pdf| here]].  
+| The Phenoscape project is funded by NSF collaborative grants DBI-1062404 and DBI-1062542 from July 1, 2011, to Jun 30, 2015, and supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0905606.  The original Project Description for this grant is available [[:File:Phenoscape_Project_description_refs.pdf| here]].
 
 This project would not have been possible without the hard work of [[Acknowledgments#Contributors| numerous contributors]] and the results obtained in the [[Linking Evolution to Genomics Using Phenotype Ontologies]] project, which was funded by NSF grant BDI<nowiki>-</nowiki>0641025 from June 1, 2007, to Jun 30, 2011, and was supported by NESCent, NSF #EF-0423641. This earlier project in turn arose from a NESCent <span class="plainlinks">[http://www.nescent.org/science/workinggroup.php Working Group]</span> led by Paula Mabee and Monte Westerfield, "[[Fish Evolution Working Group|Towards an Integrated Database for Fish Evolution]]."
 | http://www.nescent.org/about/images/nsf_logo.jpg
