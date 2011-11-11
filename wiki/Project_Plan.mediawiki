@@ -257,10 +257,8 @@ Action items:
 Objective:
 
 Working group: Hilmar*, Todd, Jim, Chris, Paula, Wasila and others for UI development
-*Coordinator
 
 Action items:
-
 * Jim will develop KB instance in parallel for Vertebrates (a new beta) this summer
 
 === Target milestone: First quarter: October 1, 2011  ===
