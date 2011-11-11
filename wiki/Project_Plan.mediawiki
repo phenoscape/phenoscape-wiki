@@ -189,12 +189,9 @@ Action items:
 === Target milestone: Year 4: July 1, 2015  ===
 
 =4. Homology (Hilmar)=
-Objective: The legacy homology assertions for the fin-limb skeleton, including assertions of both phylogenetic and iterative (serial) homology [50], and
-the genes involved in growth and patterning of the limb at various stages, e.g., Bmps, Fgfs, Gdf5, Sox9
-are also well known, e.g., [20
+Objective: The legacy homology assertions for the fin-limb skeleton, including assertions of both phylogenetic and iterative (serial) homology, and the genes involved in growth and patterning of the limb at various stages, e.g., Bmps, Fgfs, Gdf5, Sox9 are also well known.
 
 Working group:  Hilmar*, Chris, Paula, David, Paul, Nizar
-*coordinator
 * Use-cases and requirements for querying and reasoning; Decisions on reasoning etc. important because system architecture depends on it.
 * Collecting, curating, and annotating homology assertions
 * Logical model for homology in the KB, including for serial homology
@@ -208,7 +205,7 @@ Action items
 * Collect use cases to develop and test reasoning - on wiki (look for examples of structures that are symmetric in some species; where serial structures are separate vs.fused in some taxa).
 * Make sure taxa in Vertebrate Homologies document are in VTO (Peter)
 * Work out initial reasoning for serial homology
-* Establish matrix of fin/limb homologies, evidence codes -- Matrix established (google doc: https://docs.google.com/spreadsheet/ccc?key=0Apgi__7Z2km5dHQ2eTRWeEpCOWwtS2VIZC1tM2lPbUE&hl=en_US#gid=0)
+* Establish matrix of fin/limb homologies, evidence codes -- [https://docs.google.com/spreadsheet/ccc?key=0Apgi__7Z2km5dHQ2eTRWeEpCOWwtS2VIZC1tM2lPbUE&hl=en_US#gid=0 Matrix established]
 
 === Target milestone: Second quarter: January 1, 2012  ===
 * Ensure testing can be accomplished within Protege, 3-6 months (Hilmar, Chris)
