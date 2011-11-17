@@ -4,6 +4,10 @@ title: KB data integrity checks
 
 This page documents data integrity checks that would be useful to implement in a testing framework running against the Knowledgebase.
 
+==Obsolete terms used in phenotype annotations==
+
+==Check that there is no multiple inheritance within TTO==
+
 [[Category:Informatics]]
 [[Category:Curation]]
 [[Category:Reasoning]]
