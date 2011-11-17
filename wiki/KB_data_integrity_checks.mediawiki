@@ -8,6 +8,10 @@ This page documents data integrity checks that would be useful to implement in a
 
 ==Check that there is no multiple inheritance within TTO==
 
+==Relational qualities should have related entity==
+
+==Non-relational qualities should not have related entity==
+
 [[Category:Informatics]]
 [[Category:Curation]]
 [[Category:Reasoning]]
