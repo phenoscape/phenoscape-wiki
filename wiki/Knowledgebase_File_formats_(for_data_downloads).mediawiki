@@ -2,8 +2,10 @@
 title: Knowledgebase:File formats (for data downloads)
 ---
 
+<div id="DownloadFileFormats" Xstyle="border: 2px dashed silver;">
 '''File formats (for data downloads)'''
 
 Here we discuss JSON vs. tab-delimited, etc.
+</div>
 
 [[Category:Knowledgebase Help]]
