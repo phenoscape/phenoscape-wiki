@@ -8,6 +8,8 @@ title: WebHints
 
 This page is an easily editable source for help popups in the Phenoscape web UI. Each entry below should be contained in a block element (DIV) with a mnemonic ID.
 
+NOTE that there may be other wiki pages that also appear in the Phenoscape web UI, e.g. http://phenoscape.org/wiki/Knowledgebase:File_formats_(for_data_downloads)
+
 <div id="WhatArePhenotypes" style="border: 2px dashed silver;">
 '''About Phenotypes'''
 
