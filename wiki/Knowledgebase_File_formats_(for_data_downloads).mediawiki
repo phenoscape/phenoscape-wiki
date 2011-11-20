@@ -2,6 +2,8 @@
 title: Knowledgebase:File formats (for data downloads)
 ---
 
-JSON vs. tab-delimited, etc.
+'''File formats (for data downloads)'''
+
+Here we discuss JSON vs. tab-delimited, etc.
 
 [[Category:Knowledgebase Help]]
