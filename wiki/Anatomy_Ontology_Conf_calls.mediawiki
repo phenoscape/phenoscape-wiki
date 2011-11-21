@@ -13,7 +13,18 @@ title: Anatomy Ontology Conf calls
 
 === Minutes ===
 
-*
+* See Peter's slides [link]
+* VTO Tool takes taxonomies and puts them together
+* Planning to use single tracker (VTO tracker - link]
+* Review of workflow for taxonomic groups (see slides)
+* Pending AMTO from Paul, could use NCBI scaffolding to curate directly in VTO
+* PBDB
+** "bulk" update grabs all chordate data; needs review by curator; would have list of species with invalid parents
+** Action item: Peter to post list of problematic taxa, which can be fixed if corrected by curators
+** "simple" update - curator provides list of names for VTO; only update is to names curator provides
+** PBDB is patchy, not a complete ontology; VTO update from PBDB gives new terms and path to root, but doesn't change what's already in VTO
+
+** Nizar can create a basic amniote taxonomy based on standard references, put in excel for Peter to pull into VTO
 
 == Nov 7, 2011 ==
 === Agenda ===
