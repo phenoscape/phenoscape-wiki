@@ -22,7 +22,7 @@ title: Anatomy Ontology Conf calls
 ** "bulk" update grabs all chordate data; needs review by curator; would have list of species with invalid parents
 ** Action item: Peter to post list of problematic taxa, which can be fixed if corrected by curators
 ** "simple" update - curator provides list of names for VTO; only update is to names curator provides
-** PBDB is patchy, not a complete ontology; VTO update from PBDB gives new terms and path to root, but doesn't change what's already in VTO
+** PBDB is patchy, not a complete taxonomy; VTO update from PBDB gives new terms and path to root, but doesn't change what's already in VTO
 
 ** Nizar can create a basic amniote taxonomy based on standard references, put in excel for Peter to pull into VTO
 
