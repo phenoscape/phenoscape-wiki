@@ -27,23 +27,23 @@ title: Anatomy Ontology Conf calls
 === Slides ===
 [[File:TaxonomyOverview.png]]
 
-Overview of taxonomy curation in Phenoscape II
+'''Overview of taxonomy curation in Phenoscape II'''
 
 [[File:FishWorkflow.png]]
 
-Detailed workflow for fish taxa covered by the Catalog of Fishes.
+'''Detailed workflow for fish taxa covered by the Catalog of Fishes'''
 
 [[File:AmphibianWorkflow.png]]
 
-Proposed workflow for amphibian taxa (with input from amphbiaweb).
+'''Proposed workflow for amphibian taxa (with input from amphbiaweb)'''
 
 [[File:AmnioteWorkflow.png]]
 
-Proposed workflow for amniote taxa
+'''Proposed workflow for amniote taxa'''
 
 [[File:PaleoWorkflow.png]]
 
-Proposed workflow for taxa extracted from paleodb.
+'''Proposed workflow for taxa extracted from paleodb'''
 
 == Nov 7, 2011 ==
 === Agenda ===
