@@ -14,6 +14,7 @@ title: Anatomy Ontology Conf calls
 === Minutes ===
 
 * See Peter's slides [link]
+**[TaxonomyOverview.png]
 * VTO Tool takes taxonomies and puts them together
 * Planning to use single tracker (VTO tracker - link]
 * Review of workflow for taxonomic groups (see slides)
