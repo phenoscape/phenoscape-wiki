@@ -25,24 +25,19 @@ title: Anatomy Ontology Conf calls
 *Plans
 ** Nizar can create a basic amniote taxonomy based on standard references, put in excel for Peter to pull into VTO
 === Slides ===
-[[File:TaxonomyOverview.png]]
-
+[[Image:TaxonomyOverview.png|800px]]
 '''Overview of taxonomy curation in Phenoscape II'''
 
-[[File:FishWorkflow.png]]
-
+[[Image:FishWorkflow.png|800px]]
 '''Detailed workflow for fish taxa covered by the Catalog of Fishes'''
 
-[[File:AmphibianWorkflow.png]]
-
+[[Image:AmphibianWorkflow.png|800px]]
 '''Proposed workflow for amphibian taxa (with input from amphbiaweb)'''
 
-[[File:AmnioteWorkflow.png]]
-
+[[Image:AmnioteWorkflow.png|800px]]
 '''Proposed workflow for amniote taxa'''
 
-[[File:PaleoWorkflow.png]]
-
+[[Image:PaleoWorkflow.png|800px]]
 '''Proposed workflow for taxa extracted from paleodb'''
 
 == Nov 7, 2011 ==
