@@ -27,7 +27,7 @@ title: Anatomy Ontology Conf calls
 *Plans
 ** Nizar can create a basic amniote taxonomy based on standard references, put in excel for Peter to pull into VTO
 *Slides
-**[[File:TaxonomyOverview.png]
+**[[File:TaxonomyOverview.png]]
 **[[File:FishWorkflow.png]]
 
 == Nov 7, 2011 ==
