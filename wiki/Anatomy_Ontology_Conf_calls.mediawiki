@@ -14,6 +14,14 @@ Melissa will lead the call summarizing proposed updates and requests to process 
 === Minutes ===
 *[[Media:GOoverview.pdf|Download Melissa's slides]] (PDF)
 
+* Gene ontology - 5 new classes being proposed (see slides)
+*develops_from vs. replaced_by relation: cartilage doesn’t develop into a bone element; it’s “replaced by” bone and incoming osteoblasts
+*Endochondral ossification definition: doesn’t need to be mineralized to replace bone, so removed that clause
+*perichondral definition – some ossificaiton occurs off the periosteum but not adjacent to it, so worded as from the surface rather than adjacent to
+*intratendonous ossification results in formation of ossified tendon [TO DO:change primary lable on VAO term from ‘intratendonous ossification’ to ‘ossified tendon’
+*Relation for GO processes: “results_in_formation_of” or “participates_in”/”has_participants_in” [input/output has participants in it] so might not want to use particpates_in -- need to define subproperties
+*Ligamentous ossification: replacement ossificaition –  there is a ligament model replaced by a bone model; could also say that within a ligmant have metaplastic ossification – ligament cell becomes bone without dividing; probably have both going on in one skeletal element
+
 == Nov 21, 2011 -- Taxonomy Ontology call ==
 === Agenda ===
 
