@@ -4,6 +4,18 @@ title: Anatomy Ontology Conf calls
 
 '''Weekly anatomy ontology calls are held on Mondays, 1:15 pm - 2:15 pm ET.'''
 
+== Nov 28, 2011 -- Taxonomy Ontology call ==
+=== Agenda ===
+
+Melissa will lead the call summarizing proposed updates and requests to process terms related to the skeletal system in the Gene Ontology, extending the work done at last year's skeletal anatomy workshop. These terms will be integrated in VAO cross-product definitions. 
+
+'''Attending:''' Ceri, Yvonne, Terry, Melissa, Nizar, David
+
+=== Minutes ===
+
+
+
+
 == Nov 21, 2011 -- Taxonomy Ontology call ==
 === Agenda ===
 
@@ -27,14 +39,14 @@ title: Anatomy Ontology Conf calls
 === Slides ===
 
 {|
-| 
+|
 [[Image:TaxonomyOverview.png|400px]]
 '''Overview of taxonomy curation in Phenoscape II'''
 |
 [[Image:FishWorkflow.png|400px]]
 '''Detailed workflow for fish taxa covered by the Catalog of Fishes'''
 |- valign="top"
-| 
+|
 [[Image:AmphibianWorkflow.png|400px]]
 '''Proposed workflow for amphibian taxa (with input from amphbiaweb)'''
 |
