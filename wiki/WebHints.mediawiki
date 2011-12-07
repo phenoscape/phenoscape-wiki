@@ -136,4 +136,10 @@ When viewing query results, check the box to the left of any result to add it to
 </div>
 
 
+<div id="ChooseTermForFacet" style="border: 2px dashed silver;">
+'''Choose a specific term'''
+
+Use this button to choose a specific term to jump to, rather than narrowing down via the ontology hierarchy.
+</div>
+
 Add more entries here...
