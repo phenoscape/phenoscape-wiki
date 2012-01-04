@@ -21,6 +21,7 @@ For a localized absence we would use a nested ''has_part'':
 The has_part formulation also provides the benefit of automatic "present" inferences for structures used in any phenotype, not just "present" phenotypes.
 
 ===Taxa and phenotype annotations===
+Taxa in the new data model are modeled as OWL individuals, rather than OWL classes. Thus, the taxonomic hierarchy is represented directly in RDF as a tree of ''subclade_of'' property relationships between taxa, rather than OWL subclass axioms. This model allows for richer modeling of how phenotypes are propagated due to taxon membership and ancestral states than a class-based taxonomy (see [http://www.mendeley.com/download/public/2280031/4561422715/faae92a74742bc35ceca9b3f5862cb94a4cde61e/dl.pdf]).
 
 ==Reasoning==
 
