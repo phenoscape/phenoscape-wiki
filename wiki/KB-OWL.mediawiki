@@ -11,6 +11,9 @@ For example, "serrated dorsal fin":
 * old: ''exhibits'' some (serrated and ''inheres_in'' some dorsal_fin)
 * new: ''has_part'' some (dorsal_fin and ''bearer_of'' some serrated)
 
+We can now model absence correctly. The previous version of the KB uses a quality class called 'absent' in a way which produces unintended inferences. In the new model, for "dorsal fin, absent":
+* ''has_part'' only (not dorsal_fin)
+
 ==Reasoning==
 
 ==Data loader==
