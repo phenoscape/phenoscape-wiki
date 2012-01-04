@@ -14,6 +14,9 @@ For example, "serrated dorsal fin":
 We can now model absence correctly. The previous version of the KB uses a quality class called 'absent' in a way which produces unintended inferences. In the new model we use universal quantification with negation. For "dorsal fin, absent":
 * ''has_part'' only (not dorsal_fin)
 
+For a localized absence we would use a nested ''has_part'':
+* ''has_part'' some (head and ''has_part'' only (not scale))
+
 ==Reasoning==
 
 ==Data loader==
