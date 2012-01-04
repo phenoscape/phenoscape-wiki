@@ -5,6 +5,7 @@ title: KB-OWL
 This page describes the data model, data loading process, and query methods being developed for a new version of the Phenoscape Knowledgebase built on top of RDF and making use of standard OWL reasoners.
 
 ==Data model==
+===Phenotypes===
 Phenotypes in the new data model are modeled as OWL class expressions. They are now constructed in an inverse fashion from the form in the original KB - rather than describing classes of particular qualities which inhere in particular structures, we describe parts which bear particular qualities (at the level of instance data the model is the same — ''inheres_in'' is the inverse of ''bearer_of'').
 
 For example, "serrated dorsal fin":
@@ -18,6 +19,8 @@ For a localized absence we would use a nested ''has_part'':
 * ''has_part'' some (head and ''has_part'' only (not scale))
 
 The has_part formulation also provides the benefit of automatic "present" inferences for structures used in any phenotype, not just "present" phenotypes.
+
+===Taxa and phenotype annotations===
 
 ==Reasoning==
 
