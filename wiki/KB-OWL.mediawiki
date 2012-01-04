@@ -5,6 +5,7 @@ title: KB-OWL
 This page describes the data model, data loading process, and query methods being developed for a new version of the Phenoscape Knowledgebase built on top of RDF and making use of standard OWL reasoners.
 
 ==Data model==
+Phenotypes in the new data model are modeled as OWL class expressions. They are now constructed in an inverse fashion - rather than describing classes of particular qualities which inhere in particular structures, we describe organisms which have parts which bear particular qualities (''inheres_in'' is the inverse of ''bearer_of'').
 
 ==Data loader==
 
