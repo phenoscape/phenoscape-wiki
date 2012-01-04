@@ -11,6 +11,8 @@ For example, "serrated dorsal fin":
 * old: ''exhibits'' some (serrated and ''inheres_in'' some dorsal_fin)
 * new: ''has_part'' some (dorsal_fin and ''bearer_of'' some serrated)
 
+==Reasoning==
+
 ==Data loader==
 
 ==Data store==
