@@ -27,6 +27,9 @@ A given phenotype expression (''has_part'' some ...) describes the condition of 
 * '''Observation annotation:''' ''has_member'' some (''has_part'' some (dorsal_fin and ''bearer_of'' some serrated))
 * '''Ancestral state annotation:''' ''has_progenitor'' some (''has_part'' some (dorsal_fin and ''bearer_of'' some serrated))
 
+The actual phenotype annotation can be created as an class assertion axiom for the given taxon:
+* Ictalurus_punctatus rdf:type (''has_member'' some (''has_part'' some (dorsal_fin and ''bearer_of'' some serrated)))
+
 ==Reasoning==
 
 ==Data loader==
