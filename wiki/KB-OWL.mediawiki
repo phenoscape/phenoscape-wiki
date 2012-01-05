@@ -30,6 +30,8 @@ A given phenotype expression (''has_part'' some ...) describes the condition of 
 The actual phenotype annotation can be created as a class assertion axiom for the given taxon:
 * Ictalurus_punctatus Type (''has_member'' some (''has_part'' some (dorsal_fin and ''bearer_of'' some serrated)))
 
+===Genes and phenotype annotations===
+
 ==Reasoning==
 
 ==Data loader==
