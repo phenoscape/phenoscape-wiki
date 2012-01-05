@@ -24,8 +24,8 @@ The has_part formulation also provides the benefit of automatic "present" infere
 Taxa in the new data model are modeled as OWL individuals, rather than OWL classes. Thus, the taxonomic hierarchy is represented directly in RDF as a tree of ''subclade_of'' property relationships between taxa, rather than OWL subclass axioms. This model allows for richer modeling of how phenotypes are propagated due to taxon membership and ancestral states than a class-based taxonomy ([http://www.mendeley.com/download/public/2280031/4561422715/faae92a74742bc35ceca9b3f5862cb94a4cde61e/dl.pdf]).
 
 A given phenotype expression (''has_part'' some ...) describes the condition of an individual organism, not a whole taxon. So to create a phenotype annotation for a taxon, the relationship of this organism to the taxon must be captured. We use two forms, [[Semantics_of_phenotype_annotations|depending on the intended meaning]]:
-* Observation annotation: ''has_member'' some (''has_part'' some (dorsal_fin and ''bearer_of'' some serrated))
-* Ancestral state annotation: ''has_progenitor'' some (''has_part'' some (dorsal_fin and ''bearer_of'' some serrated))
+* '''Observation annotation:''' ''has_member'' some (''has_part'' some (dorsal_fin and ''bearer_of'' some serrated))
+* '''Ancestral state annotation:''' ''has_progenitor'' some (''has_part'' some (dorsal_fin and ''bearer_of'' some serrated))
 
 ==Reasoning==
 
