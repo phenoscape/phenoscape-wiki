@@ -2,7 +2,7 @@
 title: Term Definitions and References
 ---
 
-=== Genus differentia definition ===
+=== Genus differentia definitions ===
 '''Textual term definitions''' facilitate the consistent use of a term in annotation of different data types by curators. We follow the convention that each term should have a textual definition of the '''genus-differentia''' form (i.e., a subclass structure of A is an A that has properties X and Y that distinguish it from the other subclass structures of A (Smith et al. 2007). Distinguishing characteristics typically include structural criteria, location, shape, development and/or a list of the parts of the entity.
 
 The following are examples of genus-differentia definitions in the TAO. Note that the definition begins with the name of the parent term ("dermal bone") followed by the characteristics that differentiate the defined term from all other dermal bones:
