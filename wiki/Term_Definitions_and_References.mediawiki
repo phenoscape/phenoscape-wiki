@@ -4,15 +4,17 @@ title: Term Definitions and References
 
 This page describes the conventions used for constructing textual and logical definitions, and ways to cite references for ontology term components (definitions, synonyms, etc.).
 
-=== Textual definitions ===
-'''Textual term definitions''' facilitate the consistent use of a term in annotation of different data types by curators. We follow the convention that each term should have a textual definition of the '''genus-differentia''' form (i.e., a subclass structure of A is an A that has properties X and Y that distinguish it from the other subclass structures of A (Smith et al. 2007). Distinguishing characteristics typically include structural criteria, location, shape, development and/or a list of the parts of the entity.
+== Textual definitions ==
+Textual term definitions facilitate the consistent use of a term in annotation of different data types by curators. We follow the convention that each term should have a textual definition of the '''genus-differentia''' form (i.e., a subclass structure of A is an A that has properties X and Y that distinguish it from the other subclass structures of A (Smith et al. 2007). Distinguishing characteristics typically include structural criteria, location, shape, development and/or a list of the parts of the entity.
 
+====Examples====
 The following are examples of genus-differentia definitions in the TAO. Note that the definition begins with the name of the parent term ("dermal bone") followed by the characteristics that differentiate the defined term from all other dermal bones:
 
 '''''Antorbital''''': Dermal bone that is located on the anterior margin of the infraorbital series, dorsal to the first infraorbital and lateral to the nasal
 
 '''''Dentary''''': Dermal bone that forms the anterolateral part of the lower jaw.
 
+====Taxonomic information====
 Definitions are written so that they apply universally to the taxon under consideration.  However, some taxonomic information, such as the presence of the structure or its variation in some quality across taxa, can be helpful to the user for general understanding and identification of the structure. Such '''taxonomic statements''' are recorded in the "Comment" field for the term. For example, 'Weberian apparatus' (TAO: 0001188) has the following definition: “Anatomical cluster that consists of the modified anteriormost vertebrae and associated structures that connect the swim bladder to the inner ear” and the following is recorded in the comment field: “Vertebra 1-4, and sometimes vertebra 5 in some catfishes, are part of the Weberian apparatus. Weberian apparatus is present in Otophysi.”
 
 === Logical definitions ===
