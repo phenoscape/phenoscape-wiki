@@ -24,4 +24,6 @@ Logical definitions, or cross-products, are computable forms of textual definiti
 * TODO:Examples
 * [http://oboedit.org/docs/html/Introduction_to_Cross_Products.htm Creating cross-products in Obo-Edit]
 
-== Phenoscape Publication Identifiers (PSPUB)==
+== Documenting term references == 
+
+=== Phenoscape Publication Identifiers (PSPUB)===
