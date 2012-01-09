@@ -17,4 +17,4 @@ Definitions are written so that they apply universally to the taxon under consid
 
 === Logical definitions ===
 
-=== Phenoscape Publication Identifiers ===
+=== Phenoscape Publication Identifiers (PSPUB)===
