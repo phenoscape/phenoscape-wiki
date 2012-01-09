@@ -17,4 +17,9 @@ Definitions are written so that they apply universally to the taxon under consid
 
 === Logical definitions ===
 
+Logical definitions, or cross-products, are computable forms of textual definitions, and also take the form of genus-differentia definitions.  They are created by combining ontology terms with a relation, enabling reasoners to perform automated tasks such as inferring is_a relationships among terms. 
+
+* TODO:Examples
+* [http://oboedit.org/docs/html/Introduction_to_Cross_Products.htm Creating cross-products in Obo-Edit]
+
 === Phenoscape Publication Identifiers (PSPUB)===
