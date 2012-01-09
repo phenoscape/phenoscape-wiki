@@ -26,7 +26,7 @@ Logical definitions, or cross-products, are computable forms of textual definiti
 
 == Documenting term references ==
 
-There are several ways to record references for the origin of definitions or synonyms. These include DOIs or Pubmed IDs to reference a publication. Older publications typically lack these identifiers, and in these cases, a PSPUB identifier (see below) can created for the reference.  URLs can also be used to reference a term tracker item or website.  Finally, a curator's initials is used in cases where the curator created a basic definition without the use of external references.
+There are several ways to record references for the origin of definitions or synonyms. These include '''DOIs or Pubmed IDs''' to reference a publication. Older publications typically lack these identifiers, and in these cases, a '''PSPUB identifier''' (see below) can created for the reference.  '''URLs''' can also be used to reference a term tracker item or website.  Finally, a '''curator's initials''' is used in cases where the curator created a basic definition without the use of external references.
 
 === Phenoscape Publication Identifiers (PSPUB)===
 PSPUB identifiers are identifiers created to store references to journal articles which lack DOI or Pubmed identifiers. They are also used to reference meetings or workshops during which ontology design decisions were made. Examples of how these are used given below.
