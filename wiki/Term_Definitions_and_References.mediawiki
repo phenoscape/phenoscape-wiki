@@ -24,27 +24,19 @@ Logical definitions, or cross-products, are computable forms of textual definiti
 * TODO:Examples
 * [http://oboedit.org/docs/html/Introduction_to_Cross_Products.htm Creating cross-products in Obo-Edit]
 
-== Documenting term references == 
+== Documenting term references ==
 
 === Phenoscape Publication Identifiers (PSPUB)===
-
-PSPUB identifiers are identifiers created to store references to journal articles which lack DOI or Pubmed identifiers. They are also used to reference meetings or workshops during which ontology design decisions were made. Examples of how these are used given below. 
-
+PSPUB identifiers are identifiers created to store references to journal articles which lack DOI or Pubmed identifiers. They are also used to reference meetings or workshops during which ontology design decisions were made. Examples of how these are used given below.
 * '''Workshop reference for the origin of a definition:'''
  id: VAO:0000000
  name: cartilaginous element
  def: "Skeletal element that is composed of cartilage tissue and may be permanent or transient." [PSPUB:0000170]
-
-'''''PSPUB:0000170''''' Phenoscape Skeletal Anatomy Jamboree (2010). Brian K. Hall (Dalhousie University), Matthew Vickaryous (Ontario Veterinary College, University of Guelph), David Blackburn, University of Kansas; Wasila Dahdul, University of South Dakota and NESCent; Alexander Diehl, Mouse Genome Informatics (MGI); Melissa Haendel, Oregon Health Sciences University; John G. Lundberg, Department of Ichthyology, Academy of Natural Sciences, Philadelphia; Paula Mabee, Department of Biology, University of South Dakota; Martin Ringwald, Mouse Genome Informatics (MGI); Erik Segerdell, Oregon Health Sciences University; Ceri Van Slyke, Zebrafish Information Network (ZFIN); Monte Westerfield, Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon., 2010.
-Skeletal terms and relationships were created and revised at the Skeletal Anatomy Jamboree held by Phenoscape (NSF grant BDI-0641025) and hosted by the National Evolutionary Synthesis Center (NESCent), April 9-10, 2010.
-
+:: ''PSPUB:0000170'': Phenoscape Skeletal Anatomy Jamboree (2010). Brian K. Hall (Dalhousie University), Matthew Vickaryous (Ontario Veterinary College, University of Guelph), David Blackburn, University of Kansas; Wasila Dahdul, University of South Dakota and NESCent; Alexander Diehl, Mouse Genome Informatics (MGI); Melissa Haendel, Oregon Health Sciences University; John G. Lundberg, Department of Ichthyology, Academy of Natural Sciences, Philadelphia; Paula Mabee, Department of Biology, University of South Dakota; Martin Ringwald, Mouse Genome Informatics (MGI); Erik Segerdell, Oregon Health Sciences University; Ceri Van Slyke, Zebrafish Information Network (ZFIN); Monte Westerfield, Zebrafish Information Network (ZFIN) and Institute of Neuroscience, University of Oregon., 2010.  Skeletal terms and relationships were created and revised at the Skeletal Anatomy Jamboree held by Phenoscape (NSF grant BDI-0641025) and hosted by the National Evolutionary Synthesis Center (NESCent), April 9-10, 2010.
 
 * '''Publication reference for a synonym'''
-
  id: TAO:0000169
  name: basisphenoid
  def: "An endochondral bone that is located ventral to the pterosphenoid and dorsal to the parasphenoid. Basisphenoid is a median bone that is usually Y-shaped." [TAO:wd]
  synonym: "basisphénoïde (French)" EXACT [PSPUB:0000164]
-
-
-'''''PSPUB:0000164''''': Chanet, B. and Desoutter-Meniger (2008). "French-English glossary of terms found in Chabanaud’s published works on Pleuronectiformes." Cybium E1: 1-23.
+:: ''PSPUB:0000164'': Chanet, B. and Desoutter-Meniger (2008). "French-English glossary of terms found in Chabanaud’s published works on Pleuronectiformes." Cybium E1: 1-23.
