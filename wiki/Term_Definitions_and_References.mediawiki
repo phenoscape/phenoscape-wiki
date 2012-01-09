@@ -17,11 +17,11 @@ The following are examples of genus-differentia definitions in the TAO. Note tha
 ====Taxonomic information====
 Definitions are written so that they apply universally to the taxon under consideration.  However, some taxonomic information, such as the presence of the structure or its variation in some quality across taxa, can be helpful to the user for general understanding and identification of the structure. Such '''taxonomic statements''' are recorded in the "Comment" field for the term. For example, 'Weberian apparatus' (TAO: 0001188) has the following definition: “Anatomical cluster that consists of the modified anteriormost vertebrae and associated structures that connect the swim bladder to the inner ear” and the following is recorded in the comment field: “Vertebra 1-4, and sometimes vertebra 5 in some catfishes, are part of the Weberian apparatus. Weberian apparatus is present in Otophysi.”
 
-=== Logical definitions ===
+== Logical definitions ==
 
 Logical definitions, or cross-products, are computable forms of textual definitions, and also take the form of genus-differentia definitions.  They are created by combining ontology terms with a relation, enabling reasoners to perform automated tasks such as inferring is_a relationships among terms.
 
 * TODO:Examples
 * [http://oboedit.org/docs/html/Introduction_to_Cross_Products.htm Creating cross-products in Obo-Edit]
 
-=== Phenoscape Publication Identifiers (PSPUB)===
+== Phenoscape Publication Identifiers (PSPUB)==
