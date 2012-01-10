@@ -69,6 +69,9 @@ The Vertebrate Taxonomy Ontology includes the TTO, ATO, as well as a new Amniote
 *Birds The [http://www.worldbirdnames.org/index.html IOC checklist] provides a current taxonomy and common names, but no taxonomic synonyms.
 *Mammals Wilson and Reader (1993) is the standard, but the available electronic version of their taxonomy is IP encumbered.
 
+====Fossil Taxa====
+*[http://paleodb.org/ Paleobiology Database] This covers all groups represented in the fossil record - we have implemented a way to incorporate bulk taxonomy downloads in the VTO.  We are still somewhat uncertain about how hierarchies are (dynamically) built in this resource.
+
 ==== Taxonomic (hierarchy) Resources ====
 *[http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/ NCBI] This was used to fill in the gaps (non-avian amniotes) in the current proposed VTO. This provides taxonomy for GenBank submissions (including fossil taxa), but does not claim to be an authoritative source (and generally doesn't cover taxa that have not been submitted).  It does provide some taxonomic synonyms as well.
 *[http://www.itis.gov/ ITIS] Has some vetting by area experts, but coverage is not complete (nor uncontroversial).
