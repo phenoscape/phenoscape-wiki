@@ -181,6 +181,8 @@ Action items:
 ** Incorporating expression data into Phenoscape KB
 
 === Target milestone: Second quarter: January 1, 2012  ===
+Need to develop a flow chart of work to be done to import mouse phenotypes into Phenoscape
+
 === Target milestone: End of Year 1:July 1, 2012  ===
 === Target milestone: Year 2: July 1, 2013  ===
 * In year 2, Xenbase will begin curating phenotypes
