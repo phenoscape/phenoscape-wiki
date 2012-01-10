@@ -184,7 +184,7 @@ Action items:
 Flow chart of work to be done to import mouse phenotypes into Phenoscape:
 * Use translation file to map MP->EQ
 ** http://code.google.com/p/phenotype-ontologies/source/browse/#svn%2Ftrunk%2Fsrc%2Fontology%2Fmp
-** Develop sync mechanism to tag new MP terms (limited to limb phenotypes), so EQ translation can be done
+** Develop sync mechanism to tag new MP terms (limited to limb phenotypes), so EQ translation can be kept up to date
 ** Complete definitions: http://www.obofoundry.org/cgi-bin/detail.cgi?id=mammalian_phenotype_xp
 ** Develop obo2owl pipeline for the bridge ontologies
 * Develop pipeline to import the translated mouse phenotypes into Phenoscape
