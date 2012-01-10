@@ -181,7 +181,13 @@ Action items:
 ** Incorporating expression data into Phenoscape KB
 
 === Target milestone: Second quarter: January 1, 2012  ===
-Need to develop a flow chart of work to be done to import mouse phenotypes into Phenoscape
+Flow chart of work to be done to import mouse phenotypes into Phenoscape:
+* Use translation file to map MP->EQ
+** http://code.google.com/p/phenotype-ontologies/source/browse/#svn%2Ftrunk%2Fsrc%2Fontology%2Fmp
+** Develop sync mechanism to tag new MP terms (limited to limb phenotypes), so EQ translation can be done
+** Complete definitions: http://www.obofoundry.org/cgi-bin/detail.cgi?id=mammalian_phenotype_xp
+** Develop obo2owl pipeline for the bridge ontologies
+* Develop pipeline to import the translated mouse phenotypes into Phenoscape
 
 === Target milestone: End of Year 1:July 1, 2012  ===
 === Target milestone: Year 2: July 1, 2013  ===
