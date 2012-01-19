@@ -184,10 +184,19 @@ Action items:
 Flow chart of work to be done to import mouse phenotypes into Phenoscape:
 * Use translation file to map MP->EQ
 ** http://code.google.com/p/phenotype-ontologies/source/browse/#svn%2Ftrunk%2Fsrc%2Fontology%2Fmp
+*** Terry has reviewed the MP->EQ file, aligning it with the most up-to-date MP file, to detect instances of relevant (i.e. limb-related) terms with no EQ. For now, it appears that all limb-related MP terms with phenotype annotations in MGI already have EQ associations.
+*** It would be optimal to have EQ statements for all relevant terms, even if they do not yet have associated annotations.
 ** Develop sync mechanism to tag new MP terms (limited to limb phenotypes), so EQ translation can be kept up to date
+*** Eventually it would be optimal to develop an automated mechanism for this.
+*** In the mean time:
+**** MGI curators who are adding terms to the MP will contact Terry when relevant terms are added.
+**** Terry will periodically (e.g. weekly or monthly) check the latest MP file for new terms.
+**** Terry will request EQ translations for relevant new terms as needed.
 ** Complete definitions: http://www.obofoundry.org/cgi-bin/detail.cgi?id=mammalian_phenotype_xp
 ** Develop obo2owl pipeline for the bridge ontologies
 * Develop pipeline to import the translated mouse phenotypes into Phenoscape
+** Terry has prepared a file of sample data
+** Jim will use this to develop the pipeline
 
 === Target milestone: End of Year 1:July 1, 2012  ===
 === Target milestone: Year 2: July 1, 2013  ===
