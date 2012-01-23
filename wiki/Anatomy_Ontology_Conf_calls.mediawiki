@@ -7,8 +7,9 @@ title: Anatomy Ontology Conf calls
 == Jan 23, 2011 ==
 === Agenda ===
 
-Nizar will give an update on the limb terms and definitions - see Google docs AMAO-Appendicular and VAO-appendicular.  
-'''Attending:''' 
+Nizar will give an update on the limb terms and definitions - see Google docs AMAO-Appendicular and VAO-appendicular.
+
+'''Attending:'''
 
 === Minutes ===
 
