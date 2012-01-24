@@ -26,6 +26,7 @@ Nizar will give an update on the limb terms and definitions - see Google docs AM
 ** Podium terms in original literature, defined by Haeckel in 1895. Refers to skeletal elements only
 * Terry: need to have a way to designate the limb segments as well that contain skeletal elements
 **	Could have two terms: stylopodal segment of limb and stylopod skeleton
+** could also have stylopodium as related synonym for two terms 'stylopodium skeleton' and 'stylopodium limb segment'
 * David: usability very important, at least include recent usage as a pointer to historical usage
 * Terry: better to define regional limb terms by the skeletal elements contained within, because terms like "arm" are confused in the literature
 * Nizar: similar problem with terms like cranial skeleton, axial skeleton, postcranial axial skeleton; his community wouldn't include cranial as part of axial skeleton
