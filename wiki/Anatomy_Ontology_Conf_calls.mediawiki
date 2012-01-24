@@ -13,7 +13,7 @@ Nizar will give an update on the limb terms and definitions - see Google docs AM
 
 === Minutes ===
 
-Nizar:
+Nizar, discussion of AMAO and VAO terms:
 * Currently working on specific terms and higher level terms from AMAO, VAO, and CARO
 * Also going to highest levels (e.g., anatomical entity) for review
 * Created new OBO file that they can edit all three ontologies directly
