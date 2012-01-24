@@ -4,11 +4,11 @@ title: Anatomy Ontology Conf calls
 
 '''Weekly anatomy ontology calls are held on Mondays, 1:15 pm - 2:15 pm ET.'''
 
-== Feb 6, 2011 ==
+== Feb 6, 2012 ==
 
 Review and discussion of proposed definitions, labels, and synonyms for limb podium terms
 
-== Jan 23, 2011 ==
+== Jan 23, 2012 ==
 === Agenda ===
 
 Nizar will give an update on the limb terms and definitions - see Google docs AMAO-Appendicular and VAO-appendicular.
