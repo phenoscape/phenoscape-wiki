@@ -14,6 +14,7 @@ title: Publications and Posters
 ==Posters & Presentations==
 ===2011===
 
+Paula Mabee (2011) Presentation "Comparative anatomy for the genomics age:  Informatics to reason across vertebrate evolutionary and developmental biology”, Muséum national d'Histoire naturelle, Paris, Nov. 8, 2011.  
 
 James Balhoff, Wasila Dahdul, Hilmar Lapp, Peter Midford, Todd Vision, Monte Westerfield and Paula Mabee (2011) Poster; "Employing reasoning within the Phenoscape Knowledgebase", International Conference on Biomedical Ontology; University at Buffalo, NY, July 26-30, 2011
 
