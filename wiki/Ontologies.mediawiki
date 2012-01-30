@@ -13,15 +13,7 @@ These ontologies will keep changing to accommodate our community needs, and they
 
 == Anatomy Ontologies ==
 
-Phenoscape is coordinating the integration of model organism (zebrafish, Xenopus, mouse) and multi-species (teleost, amphibian, amniote) anatomy ontologies for vertebrates. The [http://www.phenoscape.org/wiki/Anatomy_Ontology_Development_Plan development plan and release schedule] for these anatomy ontologies detail the working plan for their integration. We hold a weekly project [https://www.phenoscape.org/wiki/Anatomy_Ontology_Conf_calls anatomy ontology conference call] to discuss development with the curators of these ontologies.
-
-'''Vertebrate anatomy term tracker'''
-
-Ontology update requests can be made on the Vertebrate Anatomy term request tracker. Requests are forwarded to the vertebrate anatomy mailing list.
-
-* Submit term requests to the [http://sourceforge.net/tracker/?group_id=76834&atid=2257941 vertebrate anatomy request tracker]
-
-* Subscribe to the [http://lists.sourceforge.net/lists/listinfo/obo-vertebrate-anatomy vertebrate anatomy mailing list] for notification of term requests
+Phenoscape is coordinating the integration of model organism (zebrafish, Xenopus, mouse) and multi-species (vertebrate, teleost, amphibian, amniote) anatomy ontologies for vertebrates. The [http://www.phenoscape.org/wiki/Anatomy_Ontology_Development_Plan development plan and release schedule] for these anatomy ontologies detail the working plan for their integration. We hold regular project [https://www.phenoscape.org/wiki/Anatomy_Ontology_Conf_calls anatomy ontology conference call] to discuss development with the curators of these ontologies.
 
 '''Anatomy mailing list'''
 
@@ -31,8 +23,16 @@ Discussion of vertebrate and general anatomy issues are posted to the obo-anatom
 
 * View [http://sourceforge.net/mailarchive/forum.php?forum_name=obo-anatomy obo-anatomy list archives]
 
-===Vertebrate Anatomy Ontology===
-VAO contains terms representing structures in the musculo-skeletal system of vertebrates. It imports terms from the Common Anatomy Reference Ontology (CARO). VAO can be downloaded at the [http://obofoundry.org/cgi-bin/detail.cgi?id=vertebrate_anatomy OBO Foundry] and browsed at [http://bioportal.bioontology.org/ontologies/45737?p=terms BioPortal].
+===Vertebrate Musculoskeletal Anatomy Ontology===
+VAO contains terms representing structures in the musculoskeletal system of vertebrates. It imports terms from the Common Anatomy Reference Ontology (CARO), Gene Ontology (GO) Biological Process, Cell Ontology (CL), and the Phenotype and Trait Ontology (PATO). VAO can be downloaded at the [http://obofoundry.org/cgi-bin/detail.cgi?id=vertebrate_anatomy OBO Foundry] and browsed at [http://bioportal.bioontology.org/ontologies/45737?p=terms BioPortal].
+
+'''Vertebrate musculoskeletal anatomy term tracker'''
+
+Ontology update requests can be made on the Vertebrate Anatomy term request tracker. Requests are forwarded to the vertebrate anatomy mailing list.
+
+* Submit term requests to the [http://sourceforge.net/tracker/?group_id=76834&atid=2257941 vertebrate anatomy request tracker]
+
+* Subscribe to the [http://lists.sourceforge.net/lists/listinfo/obo-vertebrate-anatomy vertebrate anatomy mailing list] for notification of term requests
 
 === Teleost Anatomy Ontology ===
 TAO is a multi-species ontology for teleost fishes that was initialized with terms from the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across fishes, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology. The development of the TAO is described in [http://sysbio.oxfordjournals.org/content/59/4/369.full Dahdul et al. (2010)]. Download TAO from the [http://obofoundry.org/cgi-bin/detail.cgi?id=teleost_anatomy OBO Foundry]  and browse at [http://bioportal.bioontology.org/visualize/38362 BioPortal]
