@@ -18,7 +18,6 @@ Paula Mabee (2011) Presentation "Comparative anatomy for the genomics age:  Info
 
 Todd Vision, Judith Blake, Hilmar Lapp, Paula Mabee, Monte Westerfield (2011) Similarity Between Semantic Description Sets: Addressing Needs Beyond Data Integration. First International Workshop on Linked Science, Bonn, October 24, 2011, [[Media:Vision.etal.LISC2011.pdf|Extended abstract]] from [http://www.ceur-ws.org/Vol-783/ Proceedings].
 
-
 James Balhoff, Wasila Dahdul, Hilmar Lapp, Peter Midford, Todd Vision, Monte Westerfield and Paula Mabee (2011) Poster; "Employing reasoning within the Phenoscape Knowledgebase", International Conference on Biomedical Ontology; University at Buffalo, NY, July 26-30, 2011
 
 Wasila Dahdul, James Balhoff, Hilmar Lapp, Peter Midford, Todd Vision, Monte Westerfield and Paula Mabee; (2001) Presentation; "Phenoscape: use cases and anatomy ontology requirements for linking evolutionary and model organism phenotypes", ICBO workshop: From fins to limbs to leaves: Facilitating anatomy ontology interoperability; International Conference on Biomedical Ontology; University at Buffalo, NY; Poster, July 26-30, 2011
