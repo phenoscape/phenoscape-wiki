@@ -16,7 +16,7 @@ Discussion of vertebrate and general anatomy issues are posted to the obo-anatom
 
 * View [http://sourceforge.net/mailarchive/forum.php?forum_name=obo-anatomy obo-anatomy list archives]
 
-===Vertebrate Musculoskeletal Anatomy Ontology===
+===Vertebrate Musculoskeletal Anatomy Ontology (VAO) ===
 VAO contains terms representing structures in the musculoskeletal system of vertebrates. It imports terms from the Common Anatomy Reference Ontology (CARO), Gene Ontology (GO) Biological Process, Cell Ontology (CL), and the Phenotype and Trait Ontology (PATO). VAO can be downloaded at the [http://obofoundry.org/cgi-bin/detail.cgi?id=vertebrate_anatomy OBO Foundry] and browsed at [http://bioportal.bioontology.org/ontologies/45737?p=terms BioPortal].
 
 '''Vertebrate musculoskeletal anatomy term tracker'''
@@ -27,33 +27,33 @@ Ontology update requests can be made on the Vertebrate Anatomy term request trac
 
 * Subscribe to the [http://lists.sourceforge.net/lists/listinfo/obo-vertebrate-anatomy vertebrate anatomy mailing list] for notification of term requests
 
-=== Teleost Anatomy Ontology ===
+=== Teleost Anatomy Ontology (TAO) ===
 TAO is a multi-species ontology for teleost fishes that was initialized with terms from the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across fishes, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology. The development of the TAO is described in [http://sysbio.oxfordjournals.org/content/59/4/369.full Dahdul et al. (2010)]. Download TAO from the [http://obofoundry.org/cgi-bin/detail.cgi?id=teleost_anatomy OBO Foundry]  and browse at [http://bioportal.bioontology.org/visualize/38362 BioPortal]
 
-=== Amphibian Anatomy Ontology ===
+=== Amphibian Anatomy Ontology (AAO) ===
 AAO is a multispecies ontology for amphibian anatomy. It will be used to annotate characters from the amphibian systematics literature. Download AAO from the [http://obofoundry.org/cgi-bin/detail.cgi?id=amphibian_anatomy OBO Foundry]  and browse at [http://bioportal.bioontology.org/ontologies/45269?p=terms BioPortal]
 
-=== Amniote Anatomy Ontology ===
+=== Amniote Anatomy Ontology (AmAO) ===
 AMAO is a new anatomy ontology being developed for amniotes. It will import skeletal terms from VAO and non-skeletal terms from the Uber Anatomy Ontology [http://obofoundry.org/cgi-bin/detail.cgi?id=uberon (Uberon)].
 
-=== Zebrafish Anatomical Ontology ===
+=== Zebrafish Anatomical Ontology (ZFA) ===
 ZFA is used by [http://zfin.org ZFIN] to annotate mutant phenotypes for the model organsim zebrafish (''Danio rerio''). ZFA can be downloaded from the [http://obofoundry.org/cgi-bin/detail.cgi?id=zebrafish_anatomy OBO Foundry] and browsed at the [http://bioportal.bioontology.org/ontologies/1051 BioPortal].
 
-=== Xenopus Anatomy Ontology ===
+=== Xenopus Anatomy Ontology (XAO) ===
 XAO contains terms that represent anatomical structures for the model organism ''Xenopus laevis'' (African clawed frog). [http://www.xenbase.org Xenbase] uses XAO to annotate Xenopus gene expression and phenotypes. XAO can be downloaded at the [http://obofoundry.org/cgi-bin/detail.cgi?id=xenopus_anatomy OBO Foundry] and browsed at the [http://bioportal.bioontology.org/ontologies/45264?p=terms BioPortal].
 
-=== Mouse Adult Gross Anatomy ===
+=== Mouse Adult Gross Anatomy (MA) ===
 MA contains terms that represent structures in the adult mouse (''Mus'') and is used to annotate gene expression and phenotypes for mouse at [http://www.informatics.jax.org/ Mouse Genome Informatics (MGI)]. Download MA at the [http://obofoundry.org/cgi-bin/detail.cgi?id=adult_mouse_anatomy OBO Foundry] and browse the ontology at the [http://bioportal.bioontology.org/ontologies/45241?p=terms BioPortal].
 
 == Taxonomy Ontologies ==
 
-=== Teleost Taxonomy Ontology ===
+=== Teleost Taxonomy Ontology (TTO) ===
 Phenotypes are associated with species using a taxonomy ontology, the [[Teleost Taxonomy Ontology]] (TTO) derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes] (see also the [http://bioportal.bioontology.org/visualize/38363 representation on BioPortal], which can be navigated on-line). The TTO is updated in concert with Catalog of Fishes updates.  Changes to the TTO relative to the latest version generated from a dump from the Catalog of Fishes are documented [[TTO_Changes]].
 
-=== Amphibian Taxonomy Ontology ===
+=== Amphibian Taxonomy Ontology (ATO) ===
 The ATO is derived from the [http://amphibiaweb.org/ AmphibiaWeb] list, which provides both taxonomy and some synonyms from ITIS and the [http://www.iucnredlist.org/initiatives/amphibians IUCN redlist].
 
-=== Vertebrate Taxonomy Ontology ===
+=== Vertebrate Taxonomy Ontology (VTO) ===
 The Vertebrate Taxonomy Ontology includes the TTO, ATO, as well as a new Amniote Taxonomy Ontology.  An [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/vocab/vertebrate_taxonomy.obo initial release], including TTO and ATO, but using pan-vertebrate resources (see below) rather than a separate AmTO was made in May 2011.  This taxonomy covers vertebrates and was built by starting with the NCBI taxonomy for vertebrates and splicing in TTO (except hagfish), ATO, and the IOC taxonomy of living birds.  Synonyms from ITIS and Catalog of Life were attached if the primary name matched a name in the existing taxonomy.  Subspecies names were added to their parent species as synonyms (not subclasses).  The taxonomy is currently in the OBO format used for TTO and ATO, which includes the use of the Taxonomic Rank Vocabulary to tag taxa with specified rank.
 
 === Other Taxonomic Resources ===
