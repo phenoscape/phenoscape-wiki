@@ -14,7 +14,10 @@ title: Publications and Posters
 ==Posters & Presentations==
 ===2011===
 
-Paula Mabee (2011) Presentation "Comparative anatomy for the genomics age:  Informatics to reason across vertebrate evolutionary and developmental biology”, Muséum national d'Histoire naturelle, Paris, Nov. 8, 2011.  
+Paula Mabee (2011) Presentation "Comparative anatomy for the genomics age:  Informatics to reason across vertebrate evolutionary and developmental biology”, Muséum national d'Histoire naturelle, Paris, Nov. 8, 2011.
+
+Todd Vision, Judith Blake, Hilmar Lapp, Paula Mabee, Monte Westerfield (2011) Similarity Between Semantic Description Sets: Addressing Needs Beyond Data Integration. First International Workshop on Linked Science, Bonn, October 24, 2011, [[Media:Vision.etal.LISC2011.pdf|Extended abstract]] from [http://www.ceur-ws.org/Vol-783/ Proceedings].
+
 
 James Balhoff, Wasila Dahdul, Hilmar Lapp, Peter Midford, Todd Vision, Monte Westerfield and Paula Mabee (2011) Poster; "Employing reasoning within the Phenoscape Knowledgebase", International Conference on Biomedical Ontology; University at Buffalo, NY, July 26-30, 2011
 
