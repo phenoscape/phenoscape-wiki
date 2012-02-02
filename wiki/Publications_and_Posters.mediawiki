@@ -23,7 +23,7 @@ James Balhoff, Wasila Dahdul, Hilmar Lapp, Peter Midford, Todd Vision, Monte Wes
 
 Wasila Dahdul, James Balhoff, Hilmar Lapp, Peter Midford, Todd Vision, Monte Westerfield and Paula Mabee; (2001) Presentation; "Phenoscape: use cases and anatomy ontology requirements for linking evolutionary and model organism phenotypes", ICBO workshop: From fins to limbs to leaves: Facilitating anatomy ontology interoperability; International Conference on Biomedical Ontology; University at Buffalo, NY; Poster, July 26-30, 2011
 
-James P. Balhoff, Peter E. Midford, Hilmar Lapp (2011) International Conference on Biomedical Ontology, Buffalo, NY, "Integrating anatomy and phenotype ontologies with taxonomic hierarchies", July 2011.
+James P. Balhoff, Peter E. Midford, Hilmar Lapp (2011) International Conference on Biomedical Ontology, Buffalo, NY, [http://www.mendeley.com/download/public/2280031/4561422715/faae92a74742bc35ceca9b3f5862cb94a4cde61e/dl.pdf Integrating anatomy and phenotype ontologies with taxonomic hierarchies], July 2011.
 
 James P. Balhoff and Hilmar Lapp (2011) Phenotype RCN Meeting, Boulder, CO, "The challenge of expressive reasoning over large knowledgebases", June 1, 2011.
 
