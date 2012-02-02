@@ -4,12 +4,9 @@ title: Ontologies
 
 Phenoscape is using multiple ontologies to describe variation in phenotypes across species.  We have developed several new ontologies required for evolutionary biology, but whenever possible, we are sharing existing ontologies with the broader biological community.  This will ensure the greatest interoperability between evolutionary and model organism data.
 
-'''Ontologies Initiated by Phenoscape'''
+Phenoscape has developed several ontologies (TAO, VAO, TTO) that are required for the annotation of evolutionary phenotypes across vertebrate species.  These ontologies are publicly available and being used and extended by the community [[Contributors|(view the list of contributors)]].
 
-Phenoscape has developed several ontologies (TAO, VAO, TTO) that are required for the annotation of evolutionary phenotypes across species.  These ontologies are publicly available and being used and extended by the community [[Contributors|(view the list of contributors)]].
-
-These ontologies will keep changing to accommodate our community needs, and they have been admitted into the OBO CVS-based version-control system, from where the NCBO's BioPortal loads and updates ontologies on a regular basis.  Ontologies available at the [http://bioportal.bioontology.org/ BioPortal] can be browsed, searched, and visualized. Ontologies are also available for download as .obo files from the [http://bioportal.bioontology.org/ BioPortal] or [http://www.obofoundry.org/ OBO Foundry], and viewed using the [http://oboedit.org/ OBO-Edit] desktop software.
-
+These ontologies are dynamic and will change to reflect community needs and standards.  They have been admitted into the OBO CVS-based version-control system, from where they are loaded into the NCBO BioPortal on a regular basis.  Ontologies available at the [http://bioportal.bioontology.org/ BioPortal] can be readily browsed, searched, and visualized. Ontologies are also available for download as .obo files from the [http://bioportal.bioontology.org/ BioPortal] or [http://www.obofoundry.org/ OBO Foundry], and viewed using the [http://oboedit.org/ OBO-Edit] desktop software.
 
 == Anatomy Ontologies ==
 
