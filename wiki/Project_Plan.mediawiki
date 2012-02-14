@@ -195,7 +195,7 @@ Flow chart of work to be done to import mouse phenotypes into Phenoscape:
 ** Develop obo2owl pipeline for the bridge ontologies
 * Develop pipeline to import the translated mouse phenotypes into Phenoscape
 ** Terry has prepared a file of sample data
-** Jim will use this to develop the pipeline
+** Jim will use this to develop the pipeline (this has been delayed until the new instance of the database is implemented)
 
 === Target milestone: End of Year 1:July 1, 2012  ===
 === Target milestone: Year 2: July 1, 2013  ===
