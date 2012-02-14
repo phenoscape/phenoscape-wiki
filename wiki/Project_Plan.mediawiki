@@ -164,7 +164,6 @@ Action items:
 Objective: To annotate the skeletal phenotypes for fin and limb for genetic mutants of zebrafish, Xenopus, and mouse. The model organism (MOD) curators will initially prioritize comprehensive annotation of skeletal phenotypes for the fin and limb, and subsequently of skeletal phenotypes in general.
 
 Working group: ZFIN (Monte*, Ceri,Yvonne), Xenbase (Aaron, Christina), MGI (Judy, Terry)
-* coordinator
 
 === Target milestone: First quarter: October 1, 2011  ===
 * Curation of expression and phenotypes
