@@ -2,9 +2,8 @@
 title: Training and Workshops
 ---
 
-
-== [https://academy.nescent.org/wiki/Anatomy_ontologies Anatomy Ontology Summer Course]: September 25-27, 2010 ==
-A summer course on anatomy ontologies is being offered for the first time through the NESCent Academy and the Phenotype Ontology Research Coordination Network.  The intended audience is postgraduate researchers in evolutionary biology and informatics – including students, postdocs and faculty – who are relative newcomers to ontologies.  It will be held from 30-Jul to 3-Aug 2012 at NESCent in Durham, NC and the application deadline is 6-Apr. 
+== [https://academy.nescent.org/wiki/Anatomy_ontologies Anatomy Ontology Summer Course]: July 30 to August 3, 2012 ==
+For the first time, a summer course on anatomy ontologies is being offered in Durham NC, made possible by the NESCent Academy and the Phenotype Ontology Research Coordination Network.  The intended audience is postgraduate researchers in evolutionary biology and informatics – including students, postdocs and faculty – who are relative newcomers to ontologies.  Application deadline is 6-Apr.
 
 == [[PATO workshop]]: September 25-27, 2010 ==
 Members of Phenoscape met with personnel from the Hymenoptera Anatomy Ontology (HAO) project, TAIR and the Phenotype and Trait Ontology (PATO) at the University of Oregon to discuss and find solutions to reasoning issues that have arisen as a result of PATO ontology structure, and ways to represent phenotypes using the EQ model.
