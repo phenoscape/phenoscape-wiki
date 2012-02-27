@@ -6,7 +6,7 @@ title: Main Page
 * '''Try the Beta version of the [http://kb.phenoscape.org Phenoscape Knowledgebase].'''  Development is very much in progress, and your feedback is welcome!
 * Check out the latest news on the [http://blog.phenoscape.org/ Phenoscape blog]
 * Apply to the [https://academy.nescent.org/wiki/Anatomy_ontologies  Anatomy Ontology Summer Course], 30-Jul to 3-Aug 2012 at NESCent in Durham, NC. The target audience is postgraduate researchers in evolutionary biology and informatics – including students, postdocs and faculty – who are relative newcomers to ontologies. Application deadline 6-Apr.
-* We are recruiting for a postdoc at NESCent interested in the [[https://docs.google.com/document/d/1CAiXFnzueBliLom_kRBnjDuDOuuRIrPkJ6zZNRBUeQQ application of phenotype bioinformatics to evo-devo]].}}
+* We are recruiting for a postdoc at NESCent interested in the [https://docs.google.com/document/d/1CAiXFnzueBliLom_kRBnjDuDOuuRIrPkJ6zZNRBUeQQ application of phenotype bioinformatics to evo-devo].}}
 
 == Ontology-enabled reasoning across phenotypes from evolution and model organisms ==
 
