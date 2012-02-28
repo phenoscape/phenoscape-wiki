@@ -2,6 +2,9 @@
 title: Ontologies
 ---
 
+{{Outdated}}
+
+== Headline text ==
 Phenoscape has developed several multispecies anatomy ontologies for vertebrates to describe (annotate) variation in phenotypes.  These ontologies are publicly available and being used and extended by the community [[Contributors|(view the list)]]. Where possible, we are sharing existing ontologies (e.g., PATO) with the broader biological community for the greatest interoperability across data types.  These anatomy ontologies reside in the OBO CVS-based version-control system, from which they are regularly loaded into the NCBO [http://bioportal.bioontology.org/ BioPortal] where they can be readily browsed, searched, and visualized. The ontologies are also available for download as .obo files from the [http://bioportal.bioontology.org/ BioPortal] or [http://www.obofoundry.org/ OBO Foundry], and can be viewed using the [http://oboedit.org/ OBO-Edit] desktop software.
 
 == Anatomy Ontologies ==
