@@ -83,7 +83,7 @@ These can provide links to additional synonyms and resources (e.g., TTO uses fis
 === Taxonomic Rank Vocabulary ===
 During 2010, we released a separate [[Taxonomic Rank Vocabulary]] (TAXRANK), and removed all rank terms (e.g., family, genus, etc.) from the taxa within the TTO.  Taxa in the TTO specify their ranks as property values via the metadata relation has_rank, but the object of the has_rank links is contained in the TAXRANK vocabulary.
 
-Developing TAXRANK as a vocabulary, rather than an ontology (e.g., by defining an ordering relation between ranks) should facilitate its reuse in other taxonomic ontologies.  Developing a cross-authority (e.g., ICZN, ICBN, etc.) ontology of ranks may be possible, but there does not appear to be a compelling need for such an ontology.
+Developing TAXRANK as a vocabulary, rather than an ontology (e.g., by defining an ordering relation between ranks) should facilitate its reuse in other taxonomic ontologies.  Developing a cross-authority (e.g., ICZN, ICBN, etc.) ontology of ranks may be possible, but there does not appear to be a compelling need for such an ontology.  The TAXRANK vocabulary can be browsed at  [http://bioportal.bioontology.org/ontologies/1419 Bioportal].
 
 * Browse [http://bioportal.bioontology.org/ontologies/38703 TTO at BioPortal]
 * Download TTO from [http://bioportal.bioontology.org/visualize/38703 Bioportal] or [http://www.obofoundry.org/ OBO Foundry] (use [http://oboedit.org/ OBO Edit] desktop software to open and view .obo file).
