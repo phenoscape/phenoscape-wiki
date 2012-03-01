@@ -25,23 +25,23 @@ Ontology update requests can be made on the Vertebrate Anatomy term request trac
 
 * Subscribe to the [http://lists.sourceforge.net/lists/listinfo/obo-vertebrate-anatomy vertebrate anatomy mailing list] for notification of term requests
 
-=== Teleost Anatomy Ontology (TAO) ===
-TAO is a multi-species ontology for teleost fishes that was initialized with terms from the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across fishes, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology. The development of the TAO is described in [http://sysbio.oxfordjournals.org/content/59/4/369.full Dahdul et al. (2010)]. Download TAO from the [http://obofoundry.org/cgi-bin/detail.cgi?id=teleost_anatomy OBO Foundry]  and browse at [http://bioportal.bioontology.org/visualize/38362 BioPortal].  Term requests can be submitted to the [http://sourceforge.net/tracker/?group_id=76834&atid=994764 TAO tracker].
+=== Amniote Anatomy Ontology (AMAO) ===
+AMAO is a new anatomy ontology being developed for amniotes. It will import skeletal terms from VAO and non-skeletal terms from the Uber Anatomy Ontology [http://obofoundry.org/cgi-bin/detail.cgi?id=uberon (Uberon)].
 
 === Amphibian Anatomy Ontology (AAO) ===
 AAO is a multispecies ontology for amphibian anatomy. It will be used to annotate characters from the amphibian systematics literature. Download AAO from the [http://obofoundry.org/cgi-bin/detail.cgi?id=amphibian_anatomy OBO Foundry]  and browse at [http://bioportal.bioontology.org/ontologies/45269?p=terms BioPortal]
 
-=== Amniote Anatomy Ontology (AMAO) ===
-AMAO is a new anatomy ontology being developed for amniotes. It will import skeletal terms from VAO and non-skeletal terms from the Uber Anatomy Ontology [http://obofoundry.org/cgi-bin/detail.cgi?id=uberon (Uberon)].
+=== Mouse Adult Gross Anatomy (MA) ===
+MA contains terms that represent structures in the adult mouse (''Mus'') and is used to annotate gene expression and phenotypes for mouse at [http://www.informatics.jax.org/ Mouse Genome Informatics (MGI)]. Download MA at the [http://obofoundry.org/cgi-bin/detail.cgi?id=adult_mouse_anatomy OBO Foundry] and browse the ontology at the [http://bioportal.bioontology.org/ontologies/45241?p=terms BioPortal]. Term requests can be submitted on the [http://sourceforge.net/tracker/?group_id=76834&atid=1205376 mouse anatomy tracker]
 
-=== Zebrafish Anatomical Ontology (ZFA) ===
-ZFA is used by [http://zfin.org ZFIN] to annotate mutant phenotypes for the model organsim zebrafish (''Danio rerio''). ZFA can be downloaded from the [http://obofoundry.org/cgi-bin/detail.cgi?id=zebrafish_anatomy OBO Foundry] and browsed at the [http://bioportal.bioontology.org/ontologies/1051 BioPortal].  Term requests can be submitted to the [http://sourceforge.net/tracker/?group_id=76834&atid=994726 ZFA tracker].
+=== Teleost Anatomy Ontology (TAO) ===
+TAO is a multi-species ontology for teleost fishes that was initialized with terms from the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across fishes, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology. The development of the TAO is described in [http://sysbio.oxfordjournals.org/content/59/4/369.full Dahdul et al. (2010)]. Download TAO from the [http://obofoundry.org/cgi-bin/detail.cgi?id=teleost_anatomy OBO Foundry]  and browse at [http://bioportal.bioontology.org/visualize/38362 BioPortal].  Term requests can be submitted to the [http://sourceforge.net/tracker/?group_id=76834&atid=994764 TAO tracker].
 
 === Xenopus Anatomy Ontology (XAO) ===
 XAO contains terms that represent anatomical structures for the model organism ''Xenopus laevis'' (African clawed frog). [http://www.xenbase.org Xenbase] uses XAO to annotate Xenopus gene expression and phenotypes. XAO can be downloaded at the [http://obofoundry.org/cgi-bin/detail.cgi?id=xenopus_anatomy OBO Foundry] and browsed at the [http://bioportal.bioontology.org/ontologies/45264?p=terms BioPortal].
 
-=== Mouse Adult Gross Anatomy (MA) ===
-MA contains terms that represent structures in the adult mouse (''Mus'') and is used to annotate gene expression and phenotypes for mouse at [http://www.informatics.jax.org/ Mouse Genome Informatics (MGI)]. Download MA at the [http://obofoundry.org/cgi-bin/detail.cgi?id=adult_mouse_anatomy OBO Foundry] and browse the ontology at the [http://bioportal.bioontology.org/ontologies/45241?p=terms BioPortal]. Term requests can be submitted on the [http://sourceforge.net/tracker/?group_id=76834&atid=1205376 mouse anatomy tracker]
+=== Zebrafish Anatomical Ontology (ZFA) ===
+ZFA is used by [http://zfin.org ZFIN] to annotate mutant phenotypes for the model organsim zebrafish (''Danio rerio''). ZFA can be downloaded from the [http://obofoundry.org/cgi-bin/detail.cgi?id=zebrafish_anatomy OBO Foundry] and browsed at the [http://bioportal.bioontology.org/ontologies/1051 BioPortal].  Term requests can be submitted to the [http://sourceforge.net/tracker/?group_id=76834&atid=994726 ZFA tracker].
 
 == Taxonomy Ontologies ==
 
