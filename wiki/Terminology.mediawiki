@@ -8,9 +8,11 @@ title: Terminology
 
 * '''Gene phenotype’’’: A phenotype that has been used in a gene phenotype annotation.
 
-* '''Distinct phenotype''': Property of a set of phenotypes. Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parentheses).  Property of a set of phenotypes.
+'''Distinct phenotype''': Property of a set of phenotypes. Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parentheses).  Property of a set of phenotypes.
 
-** '''Distinct taxon phenotype''': Phenotype assigned to taxon that is unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype for alternative character states (e.g., when annotating at high level of PATO granularity).  The number of distinct taxon phenotype annotations is typically lower than the total number of taxon phenotype annotations.
+* '''Distinct taxon phenotype''': Phenotype assigned to taxon that is unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype for alternative character states (e.g., when annotating at high level of PATO granularity).  The number of distinct taxon phenotype annotations is typically lower than the total number of taxon phenotype annotations.
+
+* '''Distinct gene phenotype''': Phenotype assigned to gene that is unique.  
 
 '''Phenotype annotation''' (synonym: phenotype assertion): The connection of a phenotype to a taxon or gene.
 
