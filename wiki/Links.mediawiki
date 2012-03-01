@@ -8,11 +8,12 @@ title: Links
 ===Anatomy Ontologies===
 * [http://phenoscape.org/wiki/Ontologies#Amniote_Anatomy_Ontology_.28AMAO.29 Amniote Anatomy Ontology (AMAO)]
 * [http://phenoscape.org/wiki/Ontologies#Amphibian_Anatomy_Ontology_.28AAO.29 Amphibian Anatomy Ontology (AAO)]
+* [http://obofoundry.org/cgi-bin/detail.cgi?caro Common Anatomy Reference Ontology (CARO)]
+* [http://phenoscape.org/wiki/Ontologies#Mouse_Adult_Gross_Anatomy_.28MA.29 Mouse Adult Gross Anatomy (MA)]
 * [http://phenoscape.org/wiki/Ontologies#Teleost_Anatomy_Ontology_.28TAO.29 Teleost Anatomy Ontology (TAO)]
+* [http://obofoundry.org/cgi-bin/detail.cgi?id=uberon Uber Anatomy Ontology (UBERON)]
 * [http://phenoscape.org/wiki/Ontologies#Xenopus_Anatomy_Ontology_.28XAO.29 Xenopus Anatomy Ontology]
 * [http://phenoscape.org/wiki/Ontologies#Zebrafish_Anatomical_Ontology_.28ZFA.29 Zebrafish Anatomy and Development (ZFA)]
-
-* [http://obofoundry.org/cgi-bin/detail.cgi?caro Common Anatomy Reference Ontology (CARO)]
 * [http://obofoundry.org/cgi-bin/detail.cgi?id=quality Phenotype and Trait Ontology (PATO)]
 
 ===Taxonomy Ontologies===
