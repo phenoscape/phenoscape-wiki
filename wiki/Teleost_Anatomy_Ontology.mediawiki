@@ -9,7 +9,7 @@ The Teleost Anatomy Ontology (TAO) is a multi-species anatomy ontology for teleo
 The current release may be found [http://obo.cvs.sourceforge.net/viewvc/obo/obo/ontology/anatomy/gross_anatomy/animal_gross_anatomy/fish/teleost_anatomy.obo here].
 
 == TAO and ZFA synchronization ==
-The TAO was initialized with terms from the ZFA, and we currently maintain manual synchronization of the two ontologies.  A synchronization tool (in development) will help automate this process.
+The TAO was initialized with terms from the ZFA, and we currently maintain manual synchronization of the two ontologies.  We developed the [http://phenoscape.org/wiki/Synchronization_Tool Synchronization Tool] as an Obo-Edit plug in to help automate this process.
 
 One of the challenges in synchronzing the two ontologies involves the addition of terms to the TAO that are not required for the ZFA.  The addition of these terms to the TAO may require the creation of additional intermediate terms that are redundant for the ZFA.  For example, zebrafish have only one type of tooth (ceratobranchial 5 tooth).  Other teleost species have teeth on the jaw bones and other branchial arch and  oral cavity bones.  Because of this, the term ‘tooth’ is needed in the TAO as a parent to all tooth types:
 
