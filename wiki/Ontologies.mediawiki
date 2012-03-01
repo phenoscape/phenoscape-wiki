@@ -19,6 +19,8 @@ Discussion of vertebrate and general anatomy issues are posted to the obo-anatom
 ===Vertebrate Musculoskeletal Anatomy Ontology (VAO) ===
 VAO contains terms representing structures in the musculoskeletal system of vertebrates. It references terms from the Common Anatomy Reference Ontology (CARO), Gene Ontology (GO) Biological Process, Cell Ontology (CL), and the Phenotype and Trait Ontology (PATO). VAO can be downloaded at the [http://obofoundry.org/cgi-bin/detail.cgi?id=vertebrate_anatomy OBO Foundry] and browsed at [http://bioportal.bioontology.org/ontologies/45737?p=terms BioPortal].
 
+See the [http://phenoscape.org/wiki/Anatomy_Ontology_Development_Plan#Vertebrate_Musculoskeletal_Anatomy_Ontology_.28VAO.29 VAO development plan] for more details on its release schedule and development.
+
 Ontology update requests can be made on the Vertebrate Anatomy term request tracker. Requests are forwarded to the vertebrate anatomy mailing list.
 
 * Submit term requests to the [http://sourceforge.net/tracker/?group_id=76834&atid=2257941 vertebrate anatomy request tracker]
