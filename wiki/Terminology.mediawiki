@@ -2,9 +2,9 @@
 title: Terminology
 ---
 
-'''Phenotype''': An Entity-Quality (EQ) statement. Semantically, a phenotype is_a PATO:quality AND inheres_in some entity.
+; Phenotype: An Entity-Quality (EQ) statement. Semantically, a phenotype is_a PATO:quality AND inheres_in some entity.
 
-* '''Taxon phenotype''': A phenotype that has been used in a taxon phenotype annotation.  A taxon phenotype may correspond to part or whole of a described character state (i.e. a character state may be decomposed into multiple phenotypes).
+;   Taxon phenotype: A phenotype that has been used in a taxon phenotype annotation.  A taxon phenotype may correspond to part or whole of a described character state (i.e. a character state may be decomposed into multiple phenotypes).
 
 * '''Gene phenotype''': A phenotype that has been used in a gene phenotype annotation.
 
