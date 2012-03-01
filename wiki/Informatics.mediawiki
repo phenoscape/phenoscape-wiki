@@ -44,8 +44,7 @@ Some code is being contributed back directly to a variety of existing projects w
 *** [http://obo.svn.sourceforge.net/viewvc/phenoscape/trunk/tools/TTOUpdate Browse source]
 *** Code checkout: <code>svn co https://obo.svn.sourceforge.net/svnroot/phenoscape/trunk/tools/TTOUpdate</code>
 ** Synchronization Tool
-*** [http://obo.svn.sourceforge.net/viewvc/phenoscape/trunk/src/SynchronizationTool/ Browse source]
-*** Code checkout: <code>svn co https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/SynchronizationTool</code>
+*** [https://github.com/phenoscape/synctool-oboedit Github home]
 * Other scripts and small tools:
 
 ==Affiliated projects==
