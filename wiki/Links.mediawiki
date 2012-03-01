@@ -19,6 +19,7 @@ title: Links
 
 ===Taxonomy Ontologies===
 * [https://www.phenoscape.org/wiki/Teleost_Taxonomy_Ontology Teleost Taxonomy Ontology (TTO)]
+* [http://phenoscape.org/wiki/Ontologies#Vertebrate_Taxonomy_Ontology_.28VTO.29 Vertebrate Taxonomy Ontology]
 
 ===Ontology Resources===
 
