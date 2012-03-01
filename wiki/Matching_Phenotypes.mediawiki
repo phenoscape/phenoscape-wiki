@@ -55,7 +55,7 @@ Note that under this scheme, an exact match may still score poorly if the select
 
 == Extending matches above the level of Entity-Attribute ==
 
-Forming the full set of subsumers for a phenotype allows matches where the common subsumer is above the Entity-Attribute level.  For example, eye size and eye color would match at eye physical object quality, since the later is a common subsumer. Because qualities above the attribute level will usually subsume large fractions of the total number of annotations, the information content of such subsumers will be relatively low.  The full set of matches will be required for implementing Jaccard-type similarity metrics (e.g., the SimIC and SimJ metrics of Washington et al. (2009)).  The higher level subsumers will also allow most phenotypes to match at levels below the top of the hierarchy (the class 'quality').
+Forming the full set of subsumers for a phenotype allows matches where the common subsumer is above the Entity-Attribute level.  For example, eye size and eye color would match at eye physical object quality, since the latter is a common subsumer. Because qualities above the attribute level will usually subsume large fractions of the total number of annotations, the information content of such subsumers will be relatively low.  The full set of matches will be required for implementing Jaccard-type similarity metrics (e.g., the SimIC and SimJ metrics of Washington et al. (2009)).  The higher level subsumers will also allow most phenotypes to match at levels below the top of the hierarchy (the class 'quality').
 
 = Scoring matches of sets of phenotypes (phenotypic profiles) associated with a gene or taxon node =
 
