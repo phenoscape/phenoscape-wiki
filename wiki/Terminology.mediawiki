@@ -2,10 +2,9 @@
 title: Terminology
 ---
 
-'''Phenotype''': An EQ statement. A phenotype, i.e. EQ statement, corresponds to a part or whole character state (i.e. a character state may have multiple phenotypes).  Semantically, a phenotype is_a PATO:quality AND inheres_in some entity. <font color=red>''- used in all papers''</font>
+'''Phenotype''': An Entity-Quality statement. A phenotype corresponds to a part or whole character state (i.e. a character state may have multiple phenotypes).  Semantically, a phenotype is_a PATO:quality AND inheres_in some entity. 
 
-'''Distinct phenotype''': Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parens) <font color=red>''not used''</font>
-** though used currently in Phenoscape paper
+'''Distinct phenotype''': Property of a set of phenotypes. Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parentheses).  Property of a set of phenotypes.  
 
 '''Phenotype assertion''': <font color=red>not defined, used in TAO paper only''</font>
 **'Another alternative would take advantage of phenotype annotations to infer a taxonomically variable relationship. In thiscase, a rule could be constructed that would allow a reasoner to infer from the (separately asserted) presence of Weberian apparatus in a taxon (e.g., Otophysi) that vertebra 1 is a Weberian vertebra in that taxon. Because the presence of the Weberian apparatus is a morphological character state and as such a phenotype, this strategy would use <B>phenotype assertions </B> to inject additional and taxon-specific relationships into the anatomy ontology, without the need for an ontology curator to maintain those separately.'
