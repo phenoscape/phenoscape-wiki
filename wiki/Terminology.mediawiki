@@ -4,11 +4,11 @@ title: Terminology
 
 '''Phenotype''': An Entity-Quality statement. A phenotype corresponds to a part or whole character state (i.e. a character state may have multiple phenotypes).  Semantically, a phenotype is_a PATO:quality AND inheres_in some entity.
 
-'''Distinct phenotype''': Property of a set of phenotypes. Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parentheses).  Property of a set of phenotypes.
+#* '''Distinct phenotype''': Property of a set of phenotypes. Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parentheses).  Property of a set of phenotypes.
 
-'''Taxon phenotype’’’: A phenotype that has been used in a taxon phenotype annotation. 
+'''Taxon phenotype’’’: A phenotype that has been used in a taxon phenotype annotation.
 
-'''Gene phenotype’’’: A phenotype that has been used in a gene phenotype annotation. 
+'''Gene phenotype’’’: A phenotype that has been used in a gene phenotype annotation.
 
 '''Phenotype annotation''' (synonym: phenotype assertion): The connection of a phenotype to a taxon or gene.
 
@@ -16,19 +16,19 @@ title: Terminology
 
 '''Gene phenotype annotation''': EQ statement associated with a gene.
 
-'''Distinct phenotype-taxon assertions''': phenotypes assigned to taxa that are unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype (EQ) for alternative character states (when annotating at high level of PATO granularity, e.g.).  Thus the number of distinct phenotype assertions is lower than the number of phenotype assertions. <font color=red>''- not used''</font>
+'''Distinct taxon phenotype''': Phenotypes assigned to taxa that are unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype (EQ) for alternative character states (when annotating at high level of PATO granularity, e.g.).  Thus the number of distinct phenotype assertions is lower than the number of phenotype assertions. 
 
-'''Attribute''': High-level PATO quality term used to group other qualities.  
+'''Attribute''': High-level PATO quality term used to group other qualities.
 
 '''Phenotype profile''': union of phenotypes that are asserted for a particular gene or a particular taxon.  Washington et al. define phenotypic profile as 'the sum-total of the EQ descriptions for an individual genotype' (but they also refer to gene phenotype profile.
 
-'''Character’’’: Presumably homologous feature of an organism that varies across taxa.  
+'''Character’’’: Presumably homologous feature of an organism that varies across taxa.
 
-'''Character state''': Variant of a character; assigned a code in a phylogenetic analysis.  
+'''Character state''': Variant of a character; assigned a code in a phylogenetic analysis.
 
-'''Composite character''': A character state with more than one phenotype. 
+'''Composite character''': A character state with more than one phenotype.
 
-'''Phenotyped character''': A character with one or more states assigned to a phenotype. 
+'''Phenotyped character''': A character with one or more states assigned to a phenotype.
 
 == Taxa: ==
 
