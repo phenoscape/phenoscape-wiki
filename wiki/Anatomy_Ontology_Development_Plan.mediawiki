@@ -2,13 +2,13 @@
 title: Anatomy Ontology Development Plan
 ---
 
-The Phenoscape project is coordinating the development and integration of multispecies and single species ontologies for teleosts, zebrafish, amphibians, Xenopus, amniotes, and mouse.  The focus of ontology development in year 1 is the limb/fin skeletal branch.
+The Phenoscape project is coordinating the development and integration of multispecies and single species anatomy ontologies for vertebrates, with taxonomic focus on teleosts, zebrafish, amphibians, Xenopus, amniotes, and mouse.  The limb/fin branch is the focus of ontology development in year 1.
 
-The development of these ontologies follows OBO Foundry principles. Importing ontology terms is the preferred mechanism for using shared terms and VAO will be imported into TAO, AAO, and AMAO. However, the existing model organism databases are largely hardcoded to reference identifiers for their own ontologies (e.g., MGI database reads MA term identifiers). In the long terms, we will be exploring importing terms from external ontologies. In the interim, the existing MOD vertebrate ontologies will duplicate shared terms with cross-references to equivalent terms in external ontologies.
+The development of these ontologies follows [http://obofoundry.org/ OBO Foundry principles]. Reusing ontology terms (by import or MIREOT) is the preferred mechanism for using shared terms and VAO will be imported into TAO, AAO, and AMAO. However, the existing model organism databases are largely hardcoded to reference identifiers for their own ontologies (e.g., MGI database reads MA term identifiers). In the long term, we will be exploring how to import terms into these ontologies. In the interim, the existing MOD vertebrate ontologies will continue to duplicate equivalent terms from other ontologies, with cross-references to the external ontology identifiers.
 
 == Year 1 Development Plan ==
 
-=== Vertebrate Anatomy Ontology (VAO) ===
+=== Vertebrate Musculoskeletal Anatomy Ontology (VAO) ===
 VAO will be expanded to include terms in the muscular and skeletal systems that are shared by two or more multispecies vertebrate ontologies. These shared terms will be imported into the multispecies ontologies. For example, ‘femur’, a term applicable to AAO and AMAO, will be added to VAO and imported into AMAO (Year 1) and AAO (Year 2). Shared terms that already exist in multispecies ontologies will be obsoleted, given a "replaced_by" relationship to the relevant VAO term, and the shared term subsequently imported into the ontology. Terms shared by a multispecies ontology and its corresponding single-species ontology (e.g., AAO and XAO) would also ideally be imported from the multispecies ontology into the single species ontology (or rather, a single ontology for that taxonomic group could be used). However, because MODs currently cannot import terms, shared terms will instead be duplicated in single species ontologies and cross-referenced to the term in the external ontology. For example, because XAO and AAO both contain ‘radio-ulna’, the term XAO term will cross-reference the AAO ID for radio-ulna.
 
 '''Next target release date:''' Late August 2011
