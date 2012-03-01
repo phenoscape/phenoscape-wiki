@@ -24,8 +24,8 @@ The [[Phenoscape web UI|Phenoscape web application]] will allow scientists to br
 The [[Synchronization Tool]] is a plug-in for [http://oboedit.org/ OBO-Edit] which aids in keeping the Teleost Anatomy Ontology and the Zebrafish Anatomy Ontology consistent with each other.
 
 == Source code ==
-
-The software source code is in part being contributed back directly to a variety of existing projects we build upon, and deposited in the [http://obo.svn.sourceforge.net/viewvc/obo/ OBO] and [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape Phenoscape] Subversion repositories on SourceForge and Github.
+Phenoscape-created source code is primarily hosted at Github within the [http://github.com/phenoscape Phenoscape organization]. Some legacy projects and data are still hosted in [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape our Sourceforge repository].
+The software source code is in part being contributed back directly to a variety of existing projects we build upon, such as the [http://obo.svn.sourceforge.net/viewvc/obo/ OBO] and Subversion repository on SourceForge.
 * Phenex:
 ** [http://phenex.git.sourceforge.net/git/gitweb-index.cgi Browse source]
 ** Code checkout: <code>git clone git://phenex.git.sourceforge.net/gitroot/phenex/phenex</code>
