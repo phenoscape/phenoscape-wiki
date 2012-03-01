@@ -25,7 +25,7 @@ The [[Synchronization Tool]] is a plug-in for [http://oboedit.org/ OBO-Edit] whi
 
 == Source code ==
 
-The software source code is in part being contributed back directly to a variety of existing projects we build upon, and deposited in the [http://obo.svn.sourceforge.net/viewvc/obo/ OBO] and [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape Phenoscape] Subversion repositories on SourceForge.
+The software source code is in part being contributed back directly to a variety of existing projects we build upon, and deposited in the [http://obo.svn.sourceforge.net/viewvc/obo/ OBO] and [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape Phenoscape] Subversion repositories on SourceForge and Github.
 * Phenex:
 ** [http://phenex.git.sourceforge.net/git/gitweb-index.cgi Browse source]
 ** Code checkout: <code>git clone git://phenex.git.sourceforge.net/gitroot/phenex/phenex</code>
