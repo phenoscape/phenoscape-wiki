@@ -46,6 +46,24 @@ The following individuals have contributed to Phenoscape ontology development, d
 * John Lundberg, The Academy of Natural Sciences, Philadelphia
 * Richard Mayden, St. Louis University
 
+===Vertebrate Musculoskeletal Anatomy Ontology Contributors===
+* James P. Balhoff
+* David C. Blackburn
+* Alexander D. Diehl
+* Melissa A. Haendel
+* Brian K. Hall
+* Terry Hayamizu
+* Hilmar Lapp
+* John G. Lundberg
+* Paula M. Mabee
+* Christopher J. Mungall
+* Martin Ringwald
+* Erik Segerdell
+* Ceri E. Van Slyke
+* Matthew K. Vickaryous
+* Monte Westerfield
+* Christina James Zorn
+
 ===Curators (Data Annotation)===
 * Miles Coburn, John Carroll University
 * Sonia Crichigno, Centro Regional Universitario Bariloche, (Univ. Nac. del Comahue), Argentina
