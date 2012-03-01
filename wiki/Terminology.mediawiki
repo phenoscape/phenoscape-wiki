@@ -6,31 +6,31 @@ title: Terminology
 
 ;   Taxon phenotype: A phenotype that has been used in a taxon phenotype annotation.  A taxon phenotype may correspond to part or whole of a described character state (i.e. a character state may be decomposed into multiple phenotypes).
 
-* '''Gene phenotype''': A phenotype that has been used in a gene phenotype annotation.
+; Gene phenotype''': A phenotype that has been used in a gene phenotype annotation.
 
-'''Distinct phenotype''': Property of a set of phenotypes. A distinct phenotype differs from others in entity, quality, related entity (where present), relation, or post-composition.
+; Distinct phenotype''': Property of a set of phenotypes. A distinct phenotype differs from others in entity, quality, related entity (where present), relation, or post-composition.
 
-* '''Distinct taxon phenotype''': Phenotype assigned to taxon that is unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype for alternative character states (e.g., when annotating at high level of PATO granularity).  The number of distinct taxon phenotype annotations is typically lower than the total number of taxon phenotype annotations.
+; Distinct taxon phenotype''': Phenotype assigned to taxon that is unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype for alternative character states (e.g., when annotating at high level of PATO granularity).  The number of distinct taxon phenotype annotations is typically lower than the total number of taxon phenotype annotations.
 
-* '''Distinct gene phenotype''': Phenotype assigned to gene that is unique.
+; Distinct gene phenotype: Phenotype assigned to gene that is unique.
 
-'''Phenotype annotation''' (synonym: phenotype assertion): The connection of a phenotype to a taxon or gene.
+; Phenotype annotation (synonym: phenotype assertion): The connection of a phenotype to a taxon or gene.
 
-* '''Taxon phenotype annotation''': EQ statement associated with a taxon.
+; Taxon phenotype annotation: EQ statement associated with a taxon.
 
-* '''Gene phenotype annotation''': EQ statement associated with a gene.
+; Gene phenotype annotation: EQ statement associated with a gene.
 
-'''Attribute''': High-level PATO quality term.
+; Attribute: High-level PATO quality term.
 
-'''Phenotype profile''': The union of phenotypes that are asserted for a particular gene or a particular taxon.  Washington et al. (2009) defined a phenotypic profile or gene phenotype profile as 'the sum-total of the EQ descriptions for an individual genotype'.
+; Phenotype profile: The union of phenotypes that are asserted for a particular gene or a particular taxon.  Washington et al. (2009) defined a phenotypic profile or gene phenotype profile as 'the sum-total of the EQ descriptions for an individual genotype'.
 
-'''Character''': Presumably homologous feature of an organism that varies across taxa.
+; Character: Presumably homologous feature of an organism that varies across taxa.
 
-'''Character state''': Variant of a character; assigned a code in a phylogenetic analysis.
+; Character state: Variant of a character; assigned a code in a phylogenetic analysis.
 
-'''Composite character''': A character state with more than one phenotype.
+; Composite character: A character state with more than one phenotype.
 
-'''Phenotyped character''': A character with one or more states assigned to a phenotype.
+; Phenotyped character: A character with one or more states assigned to a phenotype.
 
 == Taxa: ==
 
