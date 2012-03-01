@@ -12,7 +12,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Kevin Conway, St. Louis University
 * Wasila Dahdul, University of South Dakota
 * Mário de Pinna, Universidade de São Paulo
-* Alexander Diehl, The Jackson Laboratory
+* Alexander Diehl, University at Buffalo, The State University of New York
 * Jeff Engeman, University of South Dakota
 * Benjamin Frable, National Museum of Natural History, Smithsonian Institution
 * Terry Grande, Loyola University, Chicago
@@ -47,22 +47,25 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Richard Mayden, St. Louis University
 
 ===Vertebrate Musculoskeletal Anatomy Ontology Contributors===
-* James P. Balhoff
-* David C. Blackburn
-* Alexander D. Diehl
-* Melissa A. Haendel
-* Brian K. Hall
-* Terry Hayamizu
-* Hilmar Lapp
-* John G. Lundberg
-* Paula M. Mabee
-* Christopher J. Mungall
-* Martin Ringwald
-* Erik Segerdell
-* Ceri E. Van Slyke
-* Matthew K. Vickaryous
-* Monte Westerfield
-* Christina James Zorn
+* James P. Balhoff, National Evolutionary Synthesis Center
+* David C. Blackburn, California Academy of Sciences
+* Wasila Dahdul, University of South Dakota
+* Alexander D. Diehl, University at Buffalo, The State University of New York
+* Melissa A. Haendel, Oregon Health & Science University
+* Brian K. Hall, Dalhousie University
+* Terry Hayamizu, The Jackson Laboratory
+* Nizar Ibrahim, University of Chicago
+* Hilmar Lapp, National Evolutionary Synthesis Center
+* John G. Lundberg, The Academy of Natural Sciences
+* Paula M. Mabee, University of South Dakota
+* Christopher J. Mungall, Lawrence Berkeley National Laboratory
+* Martin Ringwald, The Jackson Laboratory
+* Erik Segerdell, Oregon Health & Science University
+* Paul Sereno, University of Chicago
+* Ceri E. Van Slyke, Zebrafish Information Network
+* Matthew K. Vickaryous, University of Guelph
+* Monte Westerfield, Zebrafish Information Network and University of Oregon
+* Christina James Zorn, Xenbase
 
 ===Curators (Data Annotation)===
 * Miles Coburn, John Carroll University
@@ -93,7 +96,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Wasila Dahdul, University of South Dakota
 * Mário de Pinna, Universidade de São Paulo
 * Andy Deans, North Carolina State University
-* Alexander Diehl, The Jackson Laboratory
+* Alexander Diehl, University at Buffalo, The State University of New York
 * Torsten Dikow, Field Museum, Chicago
 * Jeff Engeman, University of South Dakota
 * George Gkoutos, University of Cambridge
