@@ -2,18 +2,11 @@
 title: Terminology
 ---
 
-'''Phenotype''': An Entity-Quality statement. A phenotype corresponds to a part or whole character state (i.e. a character state may have multiple phenotypes).  Semantically, a phenotype is_a PATO:quality AND inheres_in some entity. 
+'''Phenotype''': An Entity-Quality statement. A phenotype corresponds to a part or whole character state (i.e. a character state may have multiple phenotypes).  Semantically, a phenotype is_a PATO:quality AND inheres_in some entity.
 
-'''Distinct phenotype''': Property of a set of phenotypes. Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parentheses).  Property of a set of phenotypes.  
+'''Distinct phenotype''': Property of a set of phenotypes. Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parentheses).  Property of a set of phenotypes.
 
-'''Phenotype assertion''': <font color=red>not defined, used in TAO paper only''</font>
-**'Another alternative would take advantage of phenotype annotations to infer a taxonomically variable relationship. In thiscase, a rule could be constructed that would allow a reasoner to infer from the (separately asserted) presence of Weberian apparatus in a taxon (e.g., Otophysi) that vertebra 1 is a Weberian vertebra in that taxon. Because the presence of the Weberian apparatus is a morphological character state and as such a phenotype, this strategy would use <B>phenotype assertions </B> to inject additional and taxon-specific relationships into the anatomy ontology, without the need for an ontology curator to maintain those separately.'
-
-'''Annotation''': part of title of Phenex paper, not defined; defined in TAO paper: 'One common use of ontologies is the  <B>annotation </B> or “tagging” of objects or observations, such as genetic sequences, gene expression patterns, or whole organism phenotypes, with ontology terms. The convention used by model organism databases to  <B>annotate </B> mutant phenotypes is entity-quality (EQ) syntax in which an entity from an anatomical ontology is combined with a quality or nontaxon specific modifier (Gkoutos et al. 2004; Sprague et al. 2008). The Phenoscape project has adopted and extended EQ to  <B>annotate </B> evolutionary phenotypes, specifically systematic characters for ostariophysan fishes. '
-
-'''Asserted annotation''': used in Phenoscape paper
-
-'''Inferred annotation''': used in Phenoscape paper
+'''Phenotype annotation''' (synonym: phenotype assertion): The connection of a phenotype to a taxon or gene. 
 
 '''Phenotype annotation''': <font color=red>''- used in all papers, not defined!''</font>
 **From SB paper: 'Because the active use of ontologies is relatively new to evolutionary biology in general and systematics in particular, the biological research project currently driving development of TAO is the  <B>phenotype annotation </B> of the systematic literature for teleost fishes by the Phenoscape project.'
