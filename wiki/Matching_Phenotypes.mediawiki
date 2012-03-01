@@ -33,11 +33,11 @@ Figure 2 - This figure illustrates the potential problem that propagating inters
 
 = Using attributes to limit the scope of quality comparisons =
 
-Because the focus of this analysis is comparing changes in phenotype, we compare phenotypes at a courser level that captures the set of states associated with a changing character.  As discussed in the previous section, this is particularly important in capturing variation in taxa, but it also allows grouping gene annotated phenotypes that cause change in size of some entity (either increase or decrease) or color changes.
+Because the focus of this analysis is comparing changes in phenotype, we compare phenotypes at a courser level that captures the set of states associated with a changing character.  As discussed in the previous section, this is particularly important in capturing variation in taxa, but it also allows grouping gene annotated phenotypes that e.g., cause change in size of some entity (either increase or decrease) or color changes.
 
-We use a set of asserted attributes (see above and the [[Guide_to_Character_Annotation]]) to group phenotype annotations into similar groups.  Subsuming qualities all the way to this set attributes is not necessarily in all cases, for example, round and triangular are subsumed by 2-D shape.  However, use of a consistent set of subsuming qualities simplifies the matching process.
+We use a set of asserted attributes (see above and the [[Guide_to_Character_Annotation]]) to group phenotype annotations into similar groups.  Subsuming qualities all the way to this set of attributes is not necessarily in all cases, for example, round and triangular are subsumed by 2-D shape.  However, use of a consistent set of subsuming qualities simplifies the matching process.
 
-This is currently implemented by mapping each phenotype to the corresponding phenotype consisting of the same entity and the closest subsuming attribute (e.g., opercle round will map to opercle shape).  These mapped phenotypes are what the matcher actually compares.  
+This is currently implemented by mapping each phenotype to the corresponding phenotype consisting of the same entity and the closest subsuming attribute (e.g., opercle round will map to opercle shape).  These mapped phenotypes are what the matcher actually compares.
 
 Therefore, matching phenotypes is reduced to matching the entity component of changes that have a common attribute (so shape changes and color changes will never be matched).
 
@@ -47,7 +47,7 @@ ZFIN and Phenoscape use different (though partially overlapping) sets of qualiti
 
 Each phenotype is linked to multiple entities via ''inheres_in_part_of'' relations.  This relation holds between the entity in the phenotype as well as its ''is_a'' and ''part_of'' parents.  The reasoner infers the closure of this relation, which means the KB contains inferred ''inheres_in_part_of'' relations between the entity and all the ''is_a'' and ''part_of'' parents of the entity in the phenotype.
 
-Matching requires based on building a set of class expressions, subsumed by quality, that subsume the phenotype.  This set of class expressions include all the phenotypes formed from an entity from the set of ''inheres_in_part_of'' parents and a quality that subsumes the quality specified in the phenotype.  It also includes the quality terms that are subsumers (via ''is_a'') of the quality in the phenotype.  Because this set includes both quality terms from the PATO ontology and post-composed phenotype expressions, it is a set of  class expressions.
+Matching is based on building a set of class expressions, subsumed by quality, that subsume the phenotype.  This set of class expressions include all the phenotypes formed from an entity from the set of ''inheres_in_part_of'' parents and a quality that subsumes the quality specified in the phenotype.  It also includes the quality terms that are subsumers (via ''is_a'') of the quality in the phenotype.  Because this set includes both quality terms from the PATO ontology and post-composed phenotype expressions, it is a set of  class expressions.
 
 The actual matching consists of taking the sets of subsuming class expressions from each of the phenotypes to be matched and forming the intersection, which is the set of common subsumers.  Each of these subsuming expressions can be assigned an information content (IC).  The match is scored as the IC of the common subsumer with the highest information content.
 
