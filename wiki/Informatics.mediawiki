@@ -27,8 +27,7 @@ The [[Synchronization Tool]] is a plug-in for [http://oboedit.org/ OBO-Edit] whi
 Phenoscape-created source code is primarily hosted at Github within the [http://github.com/phenoscape Phenoscape organization]. Some legacy projects and data are still hosted in [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape our Sourceforge repository].
 Some code is being contributed back directly to a variety of existing projects we build upon, such as the [http://obo.svn.sourceforge.net/viewvc/obo/ OBO Subversion repository] on SourceForge.
 * Phenex:
-** [http://phenex.git.sourceforge.net/git/gitweb-index.cgi Browse source]
-** Code checkout: <code>git clone git://phenex.git.sourceforge.net/gitroot/phenex/phenex</code>
+** [https://github.com/phenoscape/Phenex Github home]
 * Database and database loading:
 ** [http://obo.svn.sourceforge.net/viewvc/obo/OBDAPI/trunk/scripts Browse source]
 ** Code check out: <code>svn co https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk</code>
@@ -37,11 +36,9 @@ Some code is being contributed back directly to a variety of existing projects w
 *** [http://obo.svn.sourceforge.net/viewvc/obo/OBDAPI/trunk Browse source]
 *** Code check out: <code>svn co https://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk</code>
 ** Web-services (OBD-WS):
-*** [https://github.com/phenoscape/PhenoscapeOBD-WS Browse source]
-*** Code checkout: <code>git clone git://github.com/phenoscape/PhenoscapeOBD-WS.git</code>
+*** [https://github.com/phenoscape/PhenoscapeOBD-WS Github home]
 * Web-based user interface ([http://kb.phenoscape.org Knowledge Base]):
-** [https://github.com/phenoscape/PhenoscapeWeb Browse source]
-** Code checkout: <code>git clone git://github.com/phenoscape/PhenoscapeWeb.git</code>
+** [https://github.com/phenoscape/PhenoscapeWeb Github home]
 * Ontology conversion and management:
 ** TTOUpdate
 *** [http://obo.svn.sourceforge.net/viewvc/phenoscape/trunk/tools/TTOUpdate Browse source]
