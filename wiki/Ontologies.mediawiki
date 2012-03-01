@@ -56,7 +56,7 @@ See the [http://phenoscape.org/wiki/Anatomy_Ontology_Development_Plan#Xenopus_An
 === Zebrafish Anatomical Ontology (ZFA) ===
 ZFA is used by [http://zfin.org ZFIN] to annotate mutant phenotypes for the model organsim zebrafish (''Danio rerio''). ZFA can be downloaded from the [http://obofoundry.org/cgi-bin/detail.cgi?id=zebrafish_anatomy OBO Foundry] and browsed at the [http://bioportal.bioontology.org/ontologies/1051 BioPortal].  Term requests can be submitted to the [http://sourceforge.net/tracker/?group_id=76834&atid=994726 ZFA tracker].
 
-See the [http://phenoscape.org/wiki/Anatomy_Ontology_Development_Plan#Zebrafish_Anatomical_Ontology_.28ZFA.29 ZFA] for more details on its release schedule and development.
+See the [http://phenoscape.org/wiki/Anatomy_Ontology_Development_Plan#Zebrafish_Anatomical_Ontology_.28ZFA.29 ZFA development plan] for more details on its release schedule and development.
 
 == Taxonomy Ontologies ==
 
