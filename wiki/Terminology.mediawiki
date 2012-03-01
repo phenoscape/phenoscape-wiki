@@ -22,9 +22,9 @@ title: Terminology
 
 '''Attribute''': High-level PATO quality term used to group other qualities.
 
-'''Phenotype profile'’’: The union of phenotypes that are asserted for a particular gene or a particular taxon.  Washington et al. (2009) defined a phenotypic profile or gene phenotype profile as 'the sum-total of the EQ descriptions for an individual genotype'.
+'''Phenotype profile''': The union of phenotypes that are asserted for a particular gene or a particular taxon.  Washington et al. (2009) defined a phenotypic profile or gene phenotype profile as 'the sum-total of the EQ descriptions for an individual genotype'.
 
-'''Character’’’: Presumably homologous feature of an organism that varies across taxa.
+'''Character''': Presumably homologous feature of an organism that varies across taxa.
 
 '''Character state''': Variant of a character; assigned a code in a phylogenetic analysis.
 
