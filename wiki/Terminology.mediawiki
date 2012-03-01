@@ -6,17 +6,17 @@ title: Terminology
 
 #* '''Distinct phenotype''': Property of a set of phenotypes. Phenotype that differs from others in entity, quality, related entity (where present), relation, or postcomposition (order of parentheses).  Property of a set of phenotypes.
 
-'''Taxon phenotype’’’: A phenotype that has been used in a taxon phenotype annotation.
+#** '''Distinct taxon phenotype''': Phenotypes assigned to taxa that are unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype (EQ) for alternative character states (when annotating at high level of PATO granularity, e.g.).  Thus the number of distinct phenotype assertions is lower than the number of phenotype assertions.
 
-'''Gene phenotype’’’: A phenotype that has been used in a gene phenotype annotation.
+#* '''Taxon phenotype’’’: A phenotype that has been used in a taxon phenotype annotation.
+
+#* '''Gene phenotype’’’: A phenotype that has been used in a gene phenotype annotation.
 
 '''Phenotype annotation''' (synonym: phenotype assertion): The connection of a phenotype to a taxon or gene.
 
-‘’’Taxon phenotype annotation''': EQ statement associated with a taxon.
+#* ‘’’Taxon phenotype annotation''': EQ statement associated with a taxon.
 
-'''Gene phenotype annotation''': EQ statement associated with a gene.
-
-'''Distinct taxon phenotype''': Phenotypes assigned to taxa that are unique.  For example, the same taxon might be assigned the same phenotype (EQ) in different papers or the same taxon may be assigned the same phenotype (EQ) for alternative character states (when annotating at high level of PATO granularity, e.g.).  Thus the number of distinct phenotype assertions is lower than the number of phenotype assertions. 
+#* '''Gene phenotype annotation''': EQ statement associated with a gene.
 
 '''Attribute''': High-level PATO quality term used to group other qualities.
 
