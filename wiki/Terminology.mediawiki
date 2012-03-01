@@ -38,7 +38,7 @@ title: Terminology
 
 ; Incompletely Identified Taxon: A taxon that is identified in a publication less specific than genus and species. Typically, these are of the form "''Genus'' sp. (Author Year)", where (Author Year) cites the publication in which it appears.
 
-; Valid Taxon Name: The name of a taxon that is currently valid, according to the [[Teleost Taxonomy Ontology]] and the taxonomic authorities it is based on. This may or may not be the same as the Publication Taxon Name.
+; Valid Taxon Name: The name of a taxon that is currently valid, according to an authoritative naming source (e.g., Catalog of Fishes) that is used in construction of the Taxonomy Ontology under consideration. This may or may not be the same as the Publication Taxon Name.
 
 ; Total (Number of) Publication <font color=red>Taxon</font> Names:  Count of the total number of taxa used in the publications that have annotations.  Includes repeated uses of the same taxon name in different publications.<br/>[*''side note not for report: should be around 3,400 for 47 publications'']
 
