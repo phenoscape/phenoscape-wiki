@@ -40,9 +40,9 @@ title: Terminology
 
 ; Valid Taxon Name: The name of a taxon that is currently valid, according to an authoritative naming source (e.g., Catalog of Fishes) that is used in construction of the Taxonomy Ontology under consideration. This may or may not be the same as the Publication Taxon Name.
 
-; Total (Number of) Publication <font color=red>Taxon</font> Names:  Count of the total number of taxa used in the publications that have annotations.  Includes repeated uses of the same taxon name in different publications.<br/>[*''side note not for report: should be around 3,400 for 47 publications'']
+; Total (Number of) Publication Taxon Names:  Count of the total number of taxon names used in the publications that have annotations.  The same publication taxon name used in different publications is counted multiple times.
 
-; Distinct (Number of) Publication <font color=red>Taxon</font> Names: Count of the unique number of publication taxa used in the publications that have annotations.  The same taxon name used in different publications is counted only once.
+; Distinct (Number of) Publication Taxon Names: Count of the unique number of taxon names used in the publications that have annotations.  The same taxon name used in different publications is counted only once.
 
 ; Distinct (Number of) Valid Taxon Names: Count of unique Valid Taxon names appearing in publications. The same valid taxon name used in different publications is counted only once.  This includes incompletely identified taxa (which we cite to the publication in which it appears, such as ''Danio'' sp. (Smith 1992)).
 
