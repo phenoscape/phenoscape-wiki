@@ -5,7 +5,7 @@ title: Acknowledgments
 ==Contributors==
 The following individuals have contributed to Phenoscape ontology development, data curation, workshops, and data entry:
 
-===Teleost Anatomy Ontology Contributors===
+===Teleost Anatomy Ontology (TAO) Contributors===
 * Gloria Arratia, The University of Kansas
 * David Blackburn, University of Kansas
 * Miles Coburn, John Carroll University
@@ -33,7 +33,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Jacqueline Webb, University of Rhode Island
 * Edward Wiley, The University of Kansas
 
-===Teleost Taxonomy Ontology Contributors===
+===Teleost Taxonomy Ontology (TTO) Contributors===
 * Nicolas Bailly, WorldFish Center, Philippines
 * Stan Blum, California Academy of Sciences
 * Miles Coburn, John Carroll University
@@ -46,7 +46,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 * John Lundberg, The Academy of Natural Sciences, Philadelphia
 * Richard Mayden, St. Louis University
 
-===Vertebrate Musculoskeletal Anatomy Ontology Contributors===
+===Vertebrate Musculoskeletal Anatomy Ontology (VAO) Contributors===
 * James P. Balhoff, National Evolutionary Synthesis Center
 * David C. Blackburn, California Academy of Sciences
 * Wasila Dahdul, University of South Dakota
@@ -188,6 +188,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Alyssa Block, University of South Dakota
 * Sonia Crichigno, Centro Regional Universitario Bariloche, (Univ. Nac. del Comahue), Argentina
 * Jeff Engeman, University of South Dakota
+* Benjamin Frable, National Museum of Natural History, Smithsonian Institution
 * Ericka Grey, University of South Dakota
 * Jun Hong Kim, Duke University
 * Jonathan Lee, Duke University
