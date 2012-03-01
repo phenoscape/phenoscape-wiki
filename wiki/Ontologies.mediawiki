@@ -43,7 +43,7 @@ ZFA is used by [http://zfin.org ZFIN] to annotate mutant phenotypes for the mode
 XAO contains terms that represent anatomical structures for the model organism ''Xenopus laevis'' (African clawed frog). [http://www.xenbase.org Xenbase] uses XAO to annotate Xenopus gene expression and phenotypes. XAO can be downloaded at the [http://obofoundry.org/cgi-bin/detail.cgi?id=xenopus_anatomy OBO Foundry] and browsed at the [http://bioportal.bioontology.org/ontologies/45264?p=terms BioPortal].
 
 === Mouse Adult Gross Anatomy (MA) ===
-MA contains terms that represent structures in the adult mouse (''Mus'') and is used to annotate gene expression and phenotypes for mouse at [http://www.informatics.jax.org/ Mouse Genome Informatics (MGI)]. Download MA at the [http://obofoundry.org/cgi-bin/detail.cgi?id=adult_mouse_anatomy OBO Foundry] and browse the ontology at the [http://bioportal.bioontology.org/ontologies/45241?p=terms BioPortal].
+MA contains terms that represent structures in the adult mouse (''Mus'') and is used to annotate gene expression and phenotypes for mouse at [http://www.informatics.jax.org/ Mouse Genome Informatics (MGI)]. Download MA at the [http://obofoundry.org/cgi-bin/detail.cgi?id=adult_mouse_anatomy OBO Foundry] and browse the ontology at the [http://bioportal.bioontology.org/ontologies/45241?p=terms BioPortal]. Term requests can be submitted on the [http://sourceforge.net/tracker/?group_id=76834&atid=1205376 mouse anatomy tracker]
 
 == Taxonomy Ontologies ==
 
