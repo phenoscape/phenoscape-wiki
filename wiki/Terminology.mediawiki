@@ -14,7 +14,7 @@ title: Terminology
 
 ; Distinct gene phenotype: Phenotype assigned to gene that is unique.
 
-; Phenotype annotation (synonym: phenotype assertion): The connection of a phenotype to a taxon or gene.
+; Phenotype annotation: (synonym: phenotype assertion) The connection of a phenotype to a taxon or gene.
 
 ; Taxon phenotype annotation: EQ statement associated with a taxon.
 
