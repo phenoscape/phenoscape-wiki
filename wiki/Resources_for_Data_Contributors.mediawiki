@@ -8,7 +8,7 @@ Phenex was developed by Phenoscape for annotation of evolutionary phenotypes.  Y
 
 ==2. Access Project Files==
 
-Phenoscape project files are XML files (more specifically, they are in [http://nexml.org NeXML] format) created using Phenex and housed in a subversion-controlled data repository.  Please read the [[Data Repository Access Instructions|'''Instructions for accessing the data repository''']] if you are interested in perusing or adding to them.
+Phenoscape project files are XML files (more specifically, they are in [http://nexml.org NeXML] format) created using Phenex and housed in a shared DropBox folder (Phenoscape-data).  Please contact Wasila or Paula if you are interested in perusing or adding to them.
 
 ==3. Access PDFs for Curation ==
 
