@@ -84,10 +84,9 @@ The Vertebrate Taxonomy Ontology includes the TTO, ATO, as well as a new Amniote
 *[http://www.catalogueoflife.org/ Catalogue of Life] Claimed to incorporate all of ITIS plus Species2000.  Updated quarterly.
 
 ==== Nomenclature Resources ====
-These can provide links to additional synonyms and resources (e.g., TTO uses fishbase to provide common names and links to their pages).  Taxonomic synonyms are particularly useful as aids to data curation, but common names can assist users in browsing the website.  Some nomenclature resources act as aggregators of names from other sources (e.g., Catalogue of Life incorporates names from ITIS.  Taxonomic resources (above) can be used as sources of names as well.
+These can provide links to additional synonyms and resources (e.g., TTO uses fishbase to provide common names and links to their pages).  Taxonomic synonyms are particularly useful as aids to data curation, but common names can assist users in browsing the website.  Taxonomic resources (above) can be used as sources of names as well.
 * [http://www.fishbase.org/ Fishbase] - their taxonomy is close to TTO (both based on Catalog of Fishes), but TTO uses it strictly as a name resource.
-* [http://gni.globalnames.org/ Global Names Index (GNI)]
-* [http://www.catalogueoflife.org/ Catalogue of Life]
+* [http://gni.globalnames.org/ Global Names Index (GNI)] - Extensive list of names but no hierarchy.
 
 === Additional documentation ===
 * [[Documenting taxon concepts used in a publication]]
