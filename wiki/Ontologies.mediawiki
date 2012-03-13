@@ -81,6 +81,7 @@ The Vertebrate Taxonomy Ontology includes the TTO, ATO, as well as a new Amniote
 ==== Taxonomic (hierarchy) Resources ====
 *[http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/ NCBI] This was used to fill in the gaps (non-avian amniotes) in the current proposed VTO. This provides taxonomy for GenBank submissions (including fossil taxa), but does not claim to be an authoritative source (and generally doesn't cover taxa that have not been submitted).  It does provide some taxonomic synonyms as well.
 *[http://www.itis.gov/ ITIS] Has some vetting by area experts, but coverage is not complete (nor uncontroversial).
+*[http://www.catalogueoflife.org/ Catalogue of Life] Claimed to incorporate all of ITIS plus Species2000.  Updated quarterly.
 
 ==== Nomenclature Resources ====
 These can provide links to additional synonyms and resources (e.g., TTO uses fishbase to provide common names and links to their pages).  Taxonomic synonyms are particularly useful as aids to data curation, but common names can assist users in browsing the website.  Some nomenclature resources act as aggregators of names from other sources (e.g., Catalogue of Life incorporates names from ITIS.  Taxonomic resources (above) can be used as sources of names as well.
