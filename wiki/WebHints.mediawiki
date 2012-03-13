@@ -13,7 +13,7 @@ NOTE that there may be other wiki pages that also appear in the Phenoscape web U
 <div id="WhatArePhenotypes" style="border: 2px dashed silver;">
 '''About Phenotypes'''
 
-Phenotypes are a combination of an Entity, such as an anatomical structure, with a Quality, a description of some qualitative aspect of the entity such as shape, color, or size. Some qualities describe aspects of one entity relative to another: these use the optional Related Entity term.
+Phenotypes are a combination of an '''Entity''', such as an anatomical structure, with a '''Quality''', a description of some qualitative aspect of the entity such as shape, color, or size. Some qualities describe aspects of one entity relative to another: these use the optional '''Related Entity''' term.
 </div>
 
 
