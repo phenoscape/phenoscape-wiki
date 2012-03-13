@@ -142,4 +142,10 @@ When viewing query results, check the box to the left of any result to add it to
 Use this button to choose a specific term to jump to, rather than narrowing down via the ontology hierarchy links.
 </div>
 
+<div id="PhenotypeProfiles" style="border: 2px dashed silver;">
+'''Phenotype Profiles'''
+
+A phenotype profile is a set of phenotypes exhibited by a taxon. Taxa in the tree are displayed in groups exhibiting a common phenotype profile. A given phenotype may appear in multiple profiles—select a phenotype in the table to see in which profiles in the tree it is present.
+</div>
+
 Add more entries here...
