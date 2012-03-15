@@ -2,6 +2,7 @@
 title: Terminology
 ---
 
+__TOC__
 == Phenotypes ==
 
 ; Phenotype: An Entity-Quality (EQ) statement. Semantically, a phenotype is_a PATO:quality AND inheres_in some entity. In OWL, a phenotype is a class expression that is equivalent to the intersection of a PATO:quality with all things that inheres_in some entity (a property restriction).
