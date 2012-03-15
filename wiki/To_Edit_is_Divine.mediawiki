@@ -6,7 +6,7 @@ title: To Edit is Divine
 
 Please delete items that have been completed!
 
-* [[Acknowledgments]] - Add pbdb and other data sources (Peter Midford) 
+* [[Acknowledgments]] - Add pbdb and other data sources (Peter Midford)
 * Update [[Vertebrate_Musculoskeletal_Anatomy_Ontology_.28VAO.29|VAO]] documentation (Wasila or Melissa)
 * [[Contact]] - update
 * [[Outreach]] - needs new full wiki page based on: https://phenoscape.org/wiki/Main_Page#Outreach)
@@ -15,6 +15,7 @@ Please delete items that have been completed!
 * [[Knowledgebase:Phenotypes]] - needs content
 * [[Curation]] page
 ** embed publicly accessible fin-limb phenotype curation log on [https://docs.google.com/spreadsheet/ccc?key=0Aj8NJdyb-leqdEhPRjgzakV4NWxXdWNYanFjMVJoTlE&hl=en_US#gid=0 googledocs] ?
+** consolidate [[Storing_publication_reference_information]] 
 ** Biocreative entry?
 * Unified [[Homology]] page that leades to [[Reasoning_over_homology_statements]], this [https://docs.google.com/spreadsheet/ccc?key=0Apgi__7Z2km5dHQ2eTRWeEpCOWwtS2VIZC1tM2lPbUE&hl=en_US#gid=0 googledoc] and other resources
 * [[Ontologies]] - consolidate multiple pages about ontologies
