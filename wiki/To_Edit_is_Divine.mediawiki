@@ -6,6 +6,8 @@ title: To Edit is Divine
 
 Please delete items that have been completed!
 
+* [[Acknowledgments]] - Add pbdb and other data sources (Peter Midford) - this 
+* Update [[Vertebrate_Musculoskeletal_Anatomy_Ontology_.28VAO.29|VAO]] documentation (Wasila or Melissa)
 * [[Contact]] - update
 * [[Outreach]] - needs new full wiki page based on: https://phenoscape.org/wiki/Main_Page#Outreach)
 * [[Knowledgebase]] - no central page yet, not even for the category
@@ -18,9 +20,9 @@ Please delete items that have been completed!
 * [[Ontologies]] - consolidate multiple pages about ontologies
 * A [[Software]] page
 ** incorporating the content from a deprecated [[Informatics]] page
-** with links to [[Phenex]] 
+** with links to [[Phenex]]
 ** consolidate the software roadmap into major release notes
-* A [[Resources]] page 
+* A [[Resources]] page
 ** with links to Phenoscape publications (https://phenoscape.org/wiki/Publications_and_Posters)
 ** partners, like EoL  Fishbase, ZFIN, XenBase, MGI, etc.
 ** Do we need a separate wiki page with a description of our data in EoL?
