@@ -15,7 +15,7 @@ Please delete items that have been completed!
 * [[Knowledgebase:Phenotypes]] - needs content
 * [[Curation]] page
 ** embed publicly accessible fin-limb phenotype curation log on [https://docs.google.com/spreadsheet/ccc?key=0Aj8NJdyb-leqdEhPRjgzakV4NWxXdWNYanFjMVJoTlE&hl=en_US#gid=0 googledocs] ?
-** consolidate [[Storing_publication_reference_information]] 
+** consolidate [[Storing_publication_reference_information]]
 ** Biocreative entry?
 * Unified [[Homology]] page that leades to [[Reasoning_over_homology_statements]], this [https://docs.google.com/spreadsheet/ccc?key=0Apgi__7Z2km5dHQ2eTRWeEpCOWwtS2VIZC1tM2lPbUE&hl=en_US#gid=0 googledoc] and other resources
 * [[Ontologies]] - consolidate multiple pages about ontologies
@@ -28,7 +28,7 @@ Please delete items that have been completed!
 ** partners, like EoL  Fishbase, ZFIN, XenBase, MGI, etc.
 ** Do we need a separate wiki page with a description of our data in EoL?
 ** Opportunities (postdoc ads, internship ads, etc.)
-** Workshops &  Meetings
+** Workshops &  Meetings - past meetings need updating [[Training_and_Workshops]] and future ones need to go somewhere too
 ** Phenotype RCN (http://www.phenotypercn.org/?page_id=231) and community ontology resources (http://www.phenotypercn.org/?page_id=34)
 ** Partners in current project
 ** Other....google summer of code?
