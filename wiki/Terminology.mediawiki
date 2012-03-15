@@ -33,17 +33,17 @@ __TOC__
 
 ; Taxon phenotype annotation: EQ statement associated with a taxon.
 
-== Taxa ==
+== Taxa, Taxon Names, and Taxon Summaries ==
 
 ; Publication (Taxon) Name: The taxon name used in a publication from which we have curated data.
-
-; Incompletely Identified Taxon: A taxon that is identified in a publication less specific than genus and species. Typically, these are of the form "''Genus'' sp. (Author Year)", where (Author Year) cites the publication in which it appears.
-
-; Valid Taxon Name: The name of a taxon that is currently valid, according to an authoritative naming source (e.g., Catalog of Fishes) that is used in construction of the Taxonomy Ontology under consideration. This may or may not be the same as the Publication Taxon Name.
 
 ; Total (Number of) Publication Taxon Names:  Count of the total number of taxon names used in the publications that have annotations.  The same publication taxon name used in different publications is counted multiple times.
 
 ; Distinct (Number of) Publication Taxon Names: Count of the unique number of taxon names used in the publications that have annotations.  The same taxon name used in different publications is counted only once.
+
+; Incompletely Identified Taxon: A taxon that is identified in a publication less specific than genus and species. Typically, these are of the form "''Genus'' sp. (Author Year)", where (Author Year) cites the publication in which it appears.
+
+; Valid Taxon Name: The name of a taxon that is currently valid, according to an authoritative naming source (e.g., Catalog of Fishes) that is used in construction of the Taxonomy Ontology under consideration. This may or may not be the same as the Publication Taxon Name.
 
 ; Distinct (Number of) Valid Taxon Names: Count of unique Valid Taxon names appearing in publications. The same valid taxon name used in different publications is counted only once.  This includes incompletely identified taxa (which we cite to the publication in which it appears, such as ''Danio'' sp. (Smith 1992)).
 
