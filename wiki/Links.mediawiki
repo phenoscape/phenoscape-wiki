@@ -16,6 +16,10 @@ title: Links
 * [http://phenoscape.org/wiki/Ontologies#Xenopus_Anatomy_Ontology_.28XAO.29 Xenopus Anatomy Ontology]
 * [http://phenoscape.org/wiki/Ontologies#Zebrafish_Anatomical_Ontology_.28ZFA.29 Zebrafish Anatomy and Development (ZFA)]
 * [http://obofoundry.org/cgi-bin/detail.cgi?id=quality Phenotype and Trait Ontology (PATO)]
+'''Anatomy mailing list'''
+Discussion of vertebrate and general anatomy issues are posted to the obo-anatomy list:
+* Subscribe or view list archives here: [http://lists.sourceforge.net/lists/listinfo/obo-anatomy obo-anatomy mailing list]
+* View [http://sourceforge.net/mailarchive/forum.php?forum_name=obo-anatomy obo-anatomy list archives]
 
 ===Taxonomy Ontologies===
 * [https://www.phenoscape.org/wiki/Teleost_Taxonomy_Ontology Teleost Taxonomy Ontology (TTO)]
