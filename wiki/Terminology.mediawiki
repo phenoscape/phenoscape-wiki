@@ -2,9 +2,9 @@
 title: Terminology
 ---
 
-== Phenotypes: ==
+== Phenotypes ==
 
-; Phenotype: An Entity-Quality (EQ) statement. Semantically, a phenotype is_a PATO:quality AND inheres_in some entity. In OWL, a phenotype is a class expression that is equivalent to the intersection of a PATO:quality with all things that inheres_in some entity (a property restriction). 
+; Phenotype: An Entity-Quality (EQ) statement. Semantically, a phenotype is_a PATO:quality AND inheres_in some entity. In OWL, a phenotype is a class expression that is equivalent to the intersection of a PATO:quality with all things that inheres_in some entity (a property restriction).
 
 ;  Taxon phenotype: A phenotype that has been used in a taxon phenotype annotation.  A taxon phenotype may correspond to part or whole of a described character state (i.e. a character state may be decomposed into multiple phenotypes).
 
@@ -34,7 +34,7 @@ title: Terminology
 
 ; Phenotyped character: A character with one or more states assigned to a phenotype.
 
-== Taxa: ==
+== Taxa ==
 
 ; Publication (Taxon) Name: The taxon name used in a publication from which we have curated data.
 
