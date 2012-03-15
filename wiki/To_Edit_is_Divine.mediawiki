@@ -6,7 +6,7 @@ title: To Edit is Divine
 
 Please delete items that have been completed!
 
-* [[Acknowledgments]] - Add pbdb and other data sources (Peter Midford) - this 
+* [[Acknowledgments]] - Add pbdb and other data sources (Peter Midford) 
 * Update [[Vertebrate_Musculoskeletal_Anatomy_Ontology_.28VAO.29|VAO]] documentation (Wasila or Melissa)
 * [[Contact]] - update
 * [[Outreach]] - needs new full wiki page based on: https://phenoscape.org/wiki/Main_Page#Outreach)
