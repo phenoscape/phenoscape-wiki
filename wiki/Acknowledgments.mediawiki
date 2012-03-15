@@ -256,6 +256,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 * [http://paleodb.org The Paleobiology Database] - taxonomy of extinct chordate taxa
 * [http://www.worldbirdnames.org/index.html IOC World Bird Names] - taxonomy of extant birds
 * [http://www.ncbi.nlm.nih.gov/Taxonomy/ NCBI txonomy] - taxonomy for groups not otherwise covered
+* [http://www.catalogueoflife.org/ Catalogue of Life] - source of taxonomic synonyms
 
 ==Advisory Board==
 
