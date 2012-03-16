@@ -3,8 +3,10 @@ title: Publications and Posters
 ---
 
 ==Publications==
+* Mabee P.M., Balhoff J.P., Dahdul W.M., Lapp H., Midford P.E., Vision T.J., Westerfield M. 2012. 500,000 fish phenotypes: The new informatics landscape of evolutionary and developmental skeletal biology. Journal of Applied Icthyology (in press).
 * Deans, A.R., M.J. Yoder, J.P. Balhoff. 2011. Time to change how we describe biodiversity. Trends in Ecology & Evolution 27 (2):78-84. http://dx.doi.org/10.1016/j.tree.2011.11.007
-* Dahdul, W. M., J. P. Balhoff, J. Engeman, T. Grande, E. J. Hilton, C. R. Kothari, H. Lapp, J. G. Lundberg, P. E. Midford, T. J. Vision, M. Westerfield, and P. M. Mabee. 2010. Evolutionary characters, phenotypes and ontologies: curating data from the systematic biology literature. PLoS ONE 5(5):e10708. [http://dx.doi.org/10.1371/journal.pone.0010708 doi:10.1371/journal.pone.0010708]
+* Dahdul, W. M., J. P. Balhoff, J. Engeman, T. Grande, E. J. Hilton, C. R. Kothari, H. Lapp, J. G. Lundberg, P. E. Midford, T. J. Vision, M. Westerfield, and P. M. Mabee. 2010. Evolutionary characters, phenotypes and 
+ontologies: curating data from the systematic biology literature. PLoS ONE 5(5):e10708. [http://dx.doi.org/10.1371/journal.pone.0010708 doi:10.1371/journal.pone.0010708]
 * Balhoff, J. P., W. M. Dahdul, C. R. Kothari, H. Lapp, J. G. Lundberg, P. M. Mabee, P. E. Midford, M. Westerfield, and T. J. Vision. 2010. Phenex: Ontological annotation of phenotypic diversity. PLoS ONE 5(5):e10500. [http://dx.doi.org/10.1371/journal.pone.0010500 doi:10.1371/journal.pone.0010500]
 * Washington, N.L., C.J. Mungall, M.Gibson, J.P. Balhoff, J. Day-Richter, and S. Lewis.  Phenote: A biological data annotation editor using ontologies. ''In revision November 2010''
 * Dahdul, W.M., Lundberg, J.G., Midford, P.E., Balhoff, J.P., Lapp, H., Vision, T.J., Haendel, M.A., Westerfield, M., Mabee, P.M. 2010.    The Teleost Anatomy Ontology: Anatomical Representation for the Genomics Age. Systematic Biology 59(4):369-383. [http://dx.doi.org/10.1093/sysbio/syq013 doi:10.1093/sysbio/syq013]
