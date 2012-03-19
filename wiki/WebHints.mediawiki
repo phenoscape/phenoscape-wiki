@@ -125,7 +125,7 @@ Visualize the taxonomic distribution of a specified phenotype.
 <div id="AboutInferredAnnotations" style="border: 2px dashed silver;">
 '''Apply higher taxon annotations to all included species'''
 
-Phenotypes annotated to a higher taxon (e.g. all Euteleosts) are assumed to apply to all organisms within that group. For example, searching for 'basihyal bone absent' would return a list of all catfish (Siluriformes) species because this phenotype has been annotated at the level of the Siluriformes.
+Using this option, phenotypes annotated to a higher taxon (e.g., Vertebrata) are assumed to apply to all organisms within that group. For example, searching for 'basihyal bone absent' would return a list of all catfish (Siluriformes) species because this phenotype has been annotated at the level of the Siluriformes.
 </div>
 
 
