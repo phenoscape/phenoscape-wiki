@@ -14,6 +14,9 @@ title: Publications and Posters
 * Mabee PM, Arratia G, Coburn M, Haendel M, Hilton EJ, Lundberg JG, Mayden RL, Rios N, and Westerfield M. Connecting evolutionary morphology to genomics using ontologies: a case study from Cypriniformes including zebrafish. J Exp Zoolog B Mol Dev Evol 2007 Jun 28. [http://dx.doi.org/10.1002/jez.b.21181 doi:10.1002/jez.b.21181]
 
 ==Posters & Presentations==
+===2012===
+Vision T. "Phenotypes, descriptive data, and measuring similarity using structured vocabularies". Invited seminar, University of Gottingen, March 8, 2012.
+
 ===2011===
 
 Paula Mabee (2011) Presentation "Comparative anatomy for the genomics age:  Informatics to reason across vertebrate evolutionary and developmental biology”, Muséum national d'Histoire naturelle, Paris, Nov. 8, 2011.
