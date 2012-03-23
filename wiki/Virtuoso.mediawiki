@@ -4,6 +4,8 @@ title: Virtuoso
 
 ==Helpful Virtuoso documentation links==
 * [http://www.openlinksw.com/dataspace/dav/wiki/Main/VirtBulkRDFLoader Bulk loading RDF source files]
+** Within isql: <code>ld_dir_all('/usr/local/virtuoso/6.1.4/share/virtuoso/vad/kb', '*.owl', 'http://kb.phenoscape.org/');</code>
+** then, <code>rdf_loader_run();</code>
 * [http://www.openlinksw.com/dataspace/dav/wiki/Main/VirtRemoveTriples Removing all triples]
 ** Within isql: <code>sparql clear graph <http://kb.phenoscape.org/> ;</code>
 * [http://docs.openlinksw.com/virtuoso/newadminui.html Setting default passwords]
