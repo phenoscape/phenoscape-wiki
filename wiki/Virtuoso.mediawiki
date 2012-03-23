@@ -5,6 +5,7 @@ title: Virtuoso
 ==Helpful Virtuoso documentation links==
 * [http://www.openlinksw.com/dataspace/dav/wiki/Main/VirtBulkRDFLoader Bulk loading RDF source files]
 * [http://www.openlinksw.com/dataspace/dav/wiki/Main/VirtRemoveTriples Removing all triples]
+** Within isql: <code>sparql clear graph <http://kb.phenoscape.org/> ;</code>
 * [http://docs.openlinksw.com/virtuoso/newadminui.html Setting default passwords]
 * [http://docs.openlinksw.com/virtuoso/rdfsparqlrule.html Inference rules and reasoning]
 ** Within isql: <code>rdfs_rule_set('http://example.com/2/owl', 'http://example.com/2/owl');</code>
