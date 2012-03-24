@@ -10,7 +10,7 @@ title: Virtuoso
 ** Within isql: <code>sparql clear graph <http://kb.phenoscape.org/> ;</code>
 * [http://docs.openlinksw.com/virtuoso/newadminui.html Setting default passwords]
 * [http://docs.openlinksw.com/virtuoso/rdfsparqlrule.html Inference rules and reasoning]
-** Within isql: <code>rdfs_rule_set('http://example.com/2/owl', 'http://example.com/2/owl');</code>
+** Within isql: <code>rdfs_rule_set('http://kb.phenoscape.org/', 'http://kb.phenoscape.org/');</code>
 ***First arg is name of rule set, second is RDF graph to include
 
 [[Category:Informatics]]
