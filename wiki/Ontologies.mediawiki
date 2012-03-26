@@ -30,7 +30,12 @@ New skeletal terms for the limb/fin and cranial skeleton have and will continue 
 === Amniote Anatomy Ontology (AMAO) ===
 AMAO is a new anatomy ontology being developed for amniotes. It will import skeletal terms from VAO and non-skeletal terms from the Uber Anatomy Ontology [http://obofoundry.org/cgi-bin/detail.cgi?id=uberon (Uberon)].
 
-See the [http://phenoscape.org/wiki/Anatomy_Ontology_Development_Plan#Amniote_Anatomy_Ontology_.28AMAO.29 AMAO development plan] for more details on its release schedule and development.
+It wil be available at: 
+and the Tracker will be at:
+
+====Development====
+
+Under construction.
 
 === Amphibian Anatomy Ontology (AAO) ===
 AAO is a multispecies ontology for amphibian anatomy. It will be used to annotate characters from the amphibian systematics literature. Download AAO from the [http://obofoundry.org/cgi-bin/detail.cgi?id=amphibian_anatomy OBO Foundry]  and browse at [http://bioportal.bioontology.org/ontologies/45269?p=terms BioPortal]
