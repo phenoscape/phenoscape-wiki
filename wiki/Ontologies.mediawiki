@@ -71,10 +71,14 @@ XAO contains terms that represent anatomical structures for the model organism '
 
 See the [http://phenoscape.org/wiki/Anatomy_Ontology_Development_Plan#Xenopus_Anatomy_Ontology_.28XAO.29 XAO development plan] for more details on its release schedule and development.
 
-=== Zebrafish Anatomical Ontology (ZFA) ===
-ZFA is used by [http://zfin.org ZFIN] to annotate mutant phenotypes for the model organsim zebrafish (''Danio rerio''). ZFA can be downloaded from the [http://obofoundry.org/cgi-bin/detail.cgi?id=zebrafish_anatomy OBO Foundry] and browsed at the [http://bioportal.bioontology.org/ontologies/1051 BioPortal].  Term requests can be submitted to the [http://sourceforge.net/tracker/?group_id=76834&atid=994726 ZFA tracker].
+== Zebrafish Anatomical Ontology (ZFA) ==
+ZFA is used by [http://zfin.org ZFIN] to annotate mutant phenotypes for the model organsim zebrafish (''Danio rerio''). ZFA can be downloaded from the [http://obofoundry.org/cgi-bin/detail.cgi?id=zebrafish_anatomy OBO Foundry] and browsed at the [http://bioportal.bioontology.org/ontologies/1051 BioPortal].  
 
-See the [http://phenoscape.org/wiki/Anatomy_Ontology_Development_Plan#Zebrafish_Anatomical_Ontology_.28ZFA.29 ZFA development plan] for more details on its release schedule and development.
+* Term requests can be submitted to the [http://sourceforge.net/tracker/?group_id=76834&atid=994726 ZFA tracker].
+* Edit version is kept internally at ZFIN, but a prerelease edit version is available at [http://obo.cvs.sourceforge.net/viewvc/obo/obo/ontology/anatomy/gross_anatomy/animal_gross_anatomy/fish/preversion.zfish.obo]
+
+====Development====
+ZFA terms are cross referenced to TAO terms, and these cross references will be maintained and updated as needed. In addition, cross references to VAO musculo-skeletal terms will be added.
 
 == Taxonomy Ontologies ==
 
