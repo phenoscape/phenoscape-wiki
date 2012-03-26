@@ -2,6 +2,8 @@
 title: Anatomy Ontology Development Plan
 ---
 
+#REDIRECT [[Ontologies]]
+
 The Phenoscape project is coordinating the development and integration of multispecies and single species anatomy ontologies for vertebrates, with taxonomic focus on teleosts, zebrafish, amphibians, Xenopus, amniotes, and mouse.  The limb/fin branch is the focus of ontology development in year 1.
 
 The development of these ontologies follows [http://obofoundry.org/ OBO Foundry principles]. Reusing ontology terms (by import or MIREOT) is the preferred mechanism for using shared terms and VAO will be imported into TAO, AAO, and AMAO. However, the existing model organism databases are largely hardcoded to reference identifiers for their own ontologies (e.g., MGI database reads MA term identifiers). In the long term, we will be exploring how to import terms into these ontologies. In the interim, the existing MOD vertebrate ontologies will continue to duplicate equivalent terms from other ontologies, with cross-references to the external ontology identifiers.
