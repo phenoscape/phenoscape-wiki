@@ -40,7 +40,7 @@ To Do
 
 * Subscribe to the X list for notification of term requests
 
-=== Amphibian Anatomy Ontology (AAO) ===
+== Amphibian Anatomy Ontology (AAO) ==
 AAO is a multispecies ontology for amphibian anatomy. It will be used to annotate characters from the amphibian systematics literature. Download AAO from the [http://obofoundry.org/cgi-bin/detail.cgi?id=amphibian_anatomy OBO Foundry]  and browse at [http://bioportal.bioontology.org/ontologies/45269?p=terms BioPortal]
 
 To Do
