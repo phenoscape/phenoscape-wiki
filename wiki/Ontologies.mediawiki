@@ -71,7 +71,7 @@ TAO is a multi-species ontology for teleost fishes that was initialized with ter
 
 VAO musculo-skeletal terms will be imported, and existing TAO terms applicable outside of Teleostei will be obsoleted and added to VAO for subsequent import
 
-=== Xenopus Anatomy Ontology (XAO) ===
+== Xenopus Anatomy Ontology (XAO) ==
 XAO contains terms that represent anatomical structures for the model organism ''Xenopus laevis'' (African clawed frog). [http://www.xenbase.org Xenbase] uses XAO to annotate Xenopus gene expression and phenotypes. XAO can be downloaded at the [http://obofoundry.org/cgi-bin/detail.cgi?id=xenopus_anatomy OBO Foundry] and browsed at the [http://bioportal.bioontology.org/ontologies/45264?p=terms BioPortal].
 
 * Term tracker is available here:
