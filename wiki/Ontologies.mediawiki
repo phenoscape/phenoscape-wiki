@@ -30,7 +30,7 @@ AAO is a multispecies ontology for amphibian anatomy. It will be used to annotat
 See the [http://phenoscape.org/wiki/Anatomy_Ontology_Development_Plan#Amphibian_Anatomy_Ontology_.28AAO.29 AAO development plan] for more details on its release schedule and development.
 
 === Mouse Adult Gross Anatomy (MA) ===
-MA contains terms that represent structures in the adult mouse (''Mus'') and is used to annotate gene expression and phenotypes for mouse at [http://www.informatics.jax.org/ Mouse Genome Informatics (MGI)]. Download MA at the [http://obofoundry.org/cgi-bin/detail.cgi?id=adult_mouse_anatomy OBO Foundry] and browse the ontology at the [http://bioportal.bioontology.org/ontologies/45241?p=terms BioPortal]. Term requests can be submitted on the [http://sourceforge.net/tracker/?group_id=76834&atid=1205376 mouse anatomy tracker]
+MA contains terms that represent structures in the adult mouse (''Mus'') and is used to annotate gene expression and phenotypes for mouse at [http://www.informatics.jax.org/ Mouse Genome Informatics (MGI)]. Download MA at the [http://obofoundry.org/cgi-bin/detail.cgi?id=adult_mouse_anatomy OBO Foundry] and browse the ontology at the [http://www.informatics.jax.org/searches/AMA_form.shtml]. Term requests can be submitted on the [http://sourceforge.net/tracker/?group_id=76834&atid=1205376 mouse anatomy tracker]
 
 See the [http://phenoscape.org/wiki/Anatomy_Ontology_Development_Plan#Mouse_Adult_Gross_Anatomy_.28MA.29 MA development plan] for more details on its release schedule and development.
 
