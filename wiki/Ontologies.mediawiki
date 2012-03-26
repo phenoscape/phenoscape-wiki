@@ -32,12 +32,11 @@ New skeletal terms for the limb/fin and cranial skeleton have and will continue 
 === Amniote Anatomy Ontology (AMAO) ===
 AMAO is a new anatomy ontology being developed for amniotes. It will import skeletal terms from VAO and non-skeletal terms from the Uber Anatomy Ontology [http://obofoundry.org/cgi-bin/detail.cgi?id=uberon (Uberon)].
 
-
 To Do
 
-* Source edit directory available here: 
+* Source edit directory available here:
 
-* Submit term requests to 
+* Submit term requests to
 
 * Subscribe to the X list for notification of term requests
 
