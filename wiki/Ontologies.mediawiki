@@ -61,10 +61,15 @@ The Adult Mouse Anatomy (MA) ontology contains terms that represent structures i
 ====Development====
 Cross references to VAO musculo-skeletal terms will be added
 
-=== Teleost Anatomy Ontology (TAO) ===
-TAO is a multi-species ontology for teleost fishes that was initialized with terms from the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across fishes, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology. The development of the TAO is described in [http://sysbio.oxfordjournals.org/content/59/4/369.full Dahdul et al. (2010)]. Download TAO from the [http://obofoundry.org/cgi-bin/detail.cgi?id=teleost_anatomy OBO Foundry]  and browse at [http://bioportal.bioontology.org/visualize/38362 BioPortal].  Term requests can be submitted to the [http://sourceforge.net/tracker/?group_id=76834&atid=994764 TAO tracker].
+== Teleost Anatomy Ontology (TAO) ==
+TAO is a multi-species ontology for teleost fishes that was initialized with terms from the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across fishes, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology. The development of the TAO is described in [http://sysbio.oxfordjournals.org/content/59/4/369.full Dahdul et al. (2010)]. Download TAO from the [http://obofoundry.org/cgi-bin/detail.cgi?id=teleost_anatomy OBO Foundry]  and browse at [http://bioportal.bioontology.org/visualize/38362 BioPortal].  
 
-See the [http://phenoscape.org/wiki/Anatomy_Ontology_Development_Plan#Teleost_Anatomy_Ontology_.28TAO.29 TAO development plan] for more details on its release schedule and development.
+* Term requests can be submitted to the [http://sourceforge.net/tracker/?group_id=76834&atid=994764 TAO tracker].
+* Source directory for edit files is here: 
+
+====Development====
+
+VAO musculo-skeletal terms will be imported, and existing TAO terms applicable outside of Teleostei will be obsoleted and added to VAO for subsequent import
 
 === Xenopus Anatomy Ontology (XAO) ===
 XAO contains terms that represent anatomical structures for the model organism ''Xenopus laevis'' (African clawed frog). [http://www.xenbase.org Xenbase] uses XAO to annotate Xenopus gene expression and phenotypes. XAO can be downloaded at the [http://obofoundry.org/cgi-bin/detail.cgi?id=xenopus_anatomy OBO Foundry] and browsed at the [http://bioportal.bioontology.org/ontologies/45264?p=terms BioPortal].
