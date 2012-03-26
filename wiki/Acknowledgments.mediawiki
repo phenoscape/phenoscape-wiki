@@ -250,7 +250,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 
 ==Data sources==
 * [http://zfin.org ZFIN] - mutant and morpholino zebrafish genes and phenotypes
-* [http://research.calacademy.org/ichthyology/catalog Catalog of Fishes] - fish taxonomy
+* [http://research.calacademy.org/ichthyology/catalog Catalog of Fishes] - fish taxonomy, list of collections
 * [http://www.fishbase.org/ Fishbase] - fish common names
 * [http://amphibiaweb.org/ Amphibiaweb] - amphibian taxonomy
 * [http://paleodb.org The Paleobiology Database] - taxonomy of extinct chordate taxa
