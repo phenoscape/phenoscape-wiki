@@ -80,7 +80,7 @@ ZFA is used by [http://zfin.org ZFIN] to annotate mutant phenotypes for the mode
 ====Development====
 ZFA terms are cross referenced to TAO terms, and these cross references will be maintained and updated as needed. In addition, cross references to VAO musculo-skeletal terms will be added.
 
-== Taxonomy Ontologies ==
+= Taxonomy Ontologies =
 
 === Teleost Taxonomy Ontology (TTO) ===
 Phenotypes are associated with species using a taxonomy ontology, the [[Teleost Taxonomy Ontology]] (TTO) derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes] (see also the [http://bioportal.bioontology.org/visualize/38363 representation on BioPortal], which can be navigated on-line). The TTO is updated in concert with Catalog of Fishes updates.  Changes to the TTO relative to the latest version generated from a dump from the Catalog of Fishes are documented [[TTO_Changes]].
