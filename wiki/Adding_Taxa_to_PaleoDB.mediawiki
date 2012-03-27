@@ -21,5 +21,11 @@ Next you’ll enter the taxonomic opinion on the parent of the taxon.
 
 =Adding unpublished opinions=
 
+#Go to the "Add reference" form.
+#Add the author(s) name in the author fields, the current year in the year field, and a proxy title such as "Personal communication regarding placoderm taxonomy."
+#Select "unpublished" as the publication type (there's no "personal communication" category because that would be splitting hairs).
+#Select "stated with evidence" as the "taxonomy" value. Otherwise, the opinions would be trumped by earlier-published "with evidence" opinions.
+#Don't worry about the serial name, volume, issue number, first page, or last page. These fields are actually optional.
+
 [[Category:Taxonomy]]
 [[Category:Curation]]
