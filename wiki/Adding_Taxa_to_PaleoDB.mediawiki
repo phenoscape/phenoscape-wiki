@@ -4,6 +4,8 @@ title: Adding Taxa to PaleoDB
 
 =Introduction=
 
+This page discusses the procedure for adding taxa to the PaleoDB (aka PBDB) via the web interface.  It is mostly meant as a reference as you should have received training from the authorized person supervising your data entry.  Note, as mentioned below, that names entered into the PaleDB do not automatically appear in the Vertebrate Taxonomy Ontology (VTO), instead you will need to request an update be made to the VTO, either as a tracker request, or directly to the taxonomy curator.
+
 =Adding taxon names=
 #Go to [http://paleodb.org paleodb.org]
 #Login (link at the upper right corner of the startup window).  If you are not registered as a contributor, you should specify your supervisor (e.g., Paula or Wasila) as the authorizer, and your name (lastname, first initial, followed by period e.g., Midford, P.) as enterer.  This will take you to the Main Menu.
