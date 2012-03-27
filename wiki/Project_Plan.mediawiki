@@ -137,7 +137,7 @@ Working group: Jim*, Wasila, Chris, Ceri, Yvonne
 
 =3. Phenotype annotation=
 ==3.1 Evolutionary phenotypes (Paula)==
-The objective is to transform the characters and character states from published phylogenetic studies into ontology-based descriptions ('Evolutionary phenotypes'), with a focus on fin and limb morphology.  This will require the development of a list of papers to be curated, re-evaluation of software curation tool, training of personnel in use of curation software and ontology development, and development of appropriate ontologies.
+The objective is to transform the characters and character states from published phylogenetic studies into ontology-based descriptions ('Evolutionary phenotypes'), with a focus on fin and limb morphology.  This will require the development of a list of papers to be curated, re-evaluation of software curation tool, training of personnel in use of curation software and ontology development, and development of appropriate ontologies. Annotation workflow is described [[Curation workflow | here.]]
 
 Working group: Paula*, David, Paul, Wasila, Jim, Nizar
 *Coordinator
