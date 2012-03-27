@@ -88,8 +88,13 @@ Phenoscape Knowledgebase (staging, where prelease VAO-TAO will be uploaded) kb-s
 
 ===Term trackers===
 VAO - http://sourceforge.net/tracker/?group_id=76834&atid=2257941
+
 PATO - http://sourceforge.net/tracker/?group_id=76834&atid=595654
+
 Uberon - https://github.com/cmungall/uberon/issues?sort=created&direction=desc&state=open
+
 TTO - http://sourceforge.net/tracker/?group_id=224046&atid=2519810
-AMAO (to dos) 
+
+AMAO (to do)
+
 AAO (to do)
