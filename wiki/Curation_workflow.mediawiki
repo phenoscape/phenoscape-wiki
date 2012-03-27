@@ -74,7 +74,7 @@ Note: this folder is hidden on Mac OSX. Should you need to access it using Finde
 Finder> Go > Go to Folder, and typing in "~/Library"
 
 ===Bookmarks===
-Guide to Character Annotation: [http://phenoscape.org/wiki/Guide_to_Character_Annotation]
+Guide to Character Annotation: [http://phenoscape.org/wiki/Guide_to_Character_Annotation| Guide to Character Annotation]
 
 BioPortal (search across all ontologies) - [http://bioportal.bioontology.org/]
 
