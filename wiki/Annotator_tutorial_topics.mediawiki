@@ -1,0 +1,40 @@
+---
+title: Annotator tutorial topics
+---
+
+Agenda- topics and software for curator training:
+Overview of curation workflow (see Sandrine’s slides) and software involved
+
+====Ontology development:====
+Review of limb terms for Amniote Anatomy Ontology (AMAO) and ontology update
+Amniote Taxonomy (with Peter Midford) and ontology update
+
+====Ontology development principles:====
+OBO foundry principles (orthogonality, single inheritance, versioning, etc...) 
+OBO format (terms, synonyms, identifiers, dbxrefs...)
+Genus-differentia definitions (see [1])
+Logical relationships
+
+====Online resources and mailing lists (bookmark)====
+Term trackers (VAO, VTO, PATO, CARO, Uberon) 
+OBO Foundry
+BioPortal
+Mailing lists: Phenoscape-curators, Obo-edit Working Group, obo-anatomy,	obo-discuss
+
+====Curation training====
+EQ annotation - Review wiki Guide to Character Annotation 
+Phenex
+Matrix and free text entry in Mesquite and/OR direct import into Phenex
+SVN and ZigVersion
+Mendeley
+Phenoscape Curation Log in Google Docs
+Taxon lists update
+Endnote and publication identifiers
+
+====Ontology editing and updating====
+OBO-edit
+CVS, SmartCVS; SVN, ZigVersion
+Term request workflow; proposed ORB workflow
+Running the reasoner in Obo-Edit
+Protégé overview?
+Synchronization Tool
