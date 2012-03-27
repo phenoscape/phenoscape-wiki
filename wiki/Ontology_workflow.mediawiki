@@ -1,0 +1,64 @@
+---
+title: Ontology workflow
+---
+
+ZigVersion is the SVN client we use for keeping local copies of ontologies on your computer synchronized with those in the SVN (SubVersion server)
+* Note: we will start using SmartSVN because ZigVersion is no longer being developed or maintained.
+
+General workflow; begin each day by:
+Starting up Zigversion and connect to repository
+
+For ontology editing, use the “Vocab” URL in Zigversion. “Vocab” folder contains ontology files for OBO-Edit.
+Select the top-level folder named with a forward slash (/)
+Click "update" to download recent versions of files to your local, working folder
+
+Within OBO-edit, open the local copy of your file and proceed with your curation work.
+After saving your file, go back to ZigVersion and “check in” your modified file(s) to the repository. Remember to add a comment to the bottom of the check in window describing the changes you made to the file.
+
+Wasila uses SmartCVS as the CVS client for obtaining local copies of ontologies on the OBO CVS server.  Question: do all curators need this? Could also download ontologies directly from OBOFoundry and Phenoscape ontologies are kept in SVN.
+
+====Making ontology updates using ZigVersion and OboEdit====
+1. Start OboEdit. Go to File>Load ontologies.
+	Select the correct “stored adapter settings” for the ontology you want to update
+	Nizar will have VAO-edit and Amniote-draft settings saved
+	Browse Path or URL will connect to the local copies of these ontologies
+	Make sure “allow dangling references” is checked
+
+4.  ID profile mismatch message: hit yes
+
+5.  Make edits...
+
+6.  When adding a new term, make sure a high ID number is assigned. If assigned number is XX:0000000, then fix the ID in the ID Manager panel under Metadata.  Click “+” to add new ID profile; Then hit gears button. Give Profile name (e.g., TAO) and Default rule (e.g., TAO:$sequence(7,0,9999999)$). Hit commit.
+
+7. Saving to local file
+File>Save as. Ignore non-fatal warnings.Create new “stored adapter settings” for your ontology.  In Tag filtering, uncheck “modification date”, “modified by”, “creation_date”, and “created_by”. 
+Make sure “filter tags” and “allow dangling parents” are checked.
+ID rules: select “Write originally loaded ID rules”
+Hit OK, overwrite is OK.
+
+8. Save to SVN repository
+Open Zigversion
+Navigate to ontology file and hit “View changes” to verify your updates
+Hit “check in” and add a comment (e.g., “added new terms: scapula, coracoid) and hit check in.
+
+Opening ontology files in OBO-Edit  -- 
+1. Create new “Stored adaptor settings” for each ontology (e.g., VTO, VAO, AMAO)
+2. Hit “+” button next to stored adapter settings field, and type in ontology name
+3. Hit “add” button to specify the ontology file location; hit “browse” to find the file 
+
+OORT for reasoning
+
+Anatomy ontology call minutes, development plans
+http://phenoscape.org/wiki/Anatomy_Ontology_Conf_calls
+
+http://phenoscape.org/wiki/Ontologies
+
+https://phenoscape.org/wiki/Project_Plan
+
+Recent phenoscape-curators discussions:
+http://sourceforge.net/mailarchive/forum.php?forum_name=phenoscape-curators
+
+Open issues
+- provenance documentation in ontologies
+- terminology vs. ontology; use of synonyms (related; incorrect); produce ‘slim’ version of VAO/AMAO for archosaur group
+- tracker items: see CARO tracker, VAO tracker, Uberon tracker
