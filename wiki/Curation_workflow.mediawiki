@@ -75,10 +75,15 @@ Finder> Go > Go to Folder, and typing in "~/Library"
 
 ===Bookmarks===
 Guide to Character Annotation: [http://phenoscape.org/wiki/Guide_to_Character_Annotation]
+
 BioPortal (search across all ontologies) - [http://bioportal.bioontology.org/]
+
 OboFoundry (download ontologies)- [http://obofoundry.org/]
+
 Obo-Edit User’s Guide  - [http://oboedit.org/docs/]
+
 Phenoscape Knowledgebase (public) - kb.phenoscape.org
+
 Phenoscape Knowledgebase (staging, where prelease VAO-TAO will be uploaded) kb-staging.phenoscape.org
 
 ===Term trackers===
