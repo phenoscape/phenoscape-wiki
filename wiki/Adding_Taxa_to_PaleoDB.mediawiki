@@ -16,8 +16,8 @@ title: Adding Taxa to PaleoDB
 #The first step is to specify (with the radio buttons) whether the taxon was named in the data record’s primary reference or in an earlier publication.  For example, the taxon ''Loganellia scotica'' was references in Wilson and Marss 2004, but was originally described and named in Traquair 1898.  In this case the second radio button is the appropriate choice.  At a minimum, the original author and year should be entered.  You must also specify whether this taxon is extant (living).  Additional information, such as ‘type specimen’, preservation category, type locality, etc. are optional and not recorded for Phenoscape taxa.  Then you will reach a page that indicates that your taxon has been entered in the database.
 
 =Adding published taxonomic opinions=
-
-
+Next you’ll enter the taxonomic opinion on the parent of the taxon. 
+#Click on Add this author’s taxonomic opinion. Usually, it will be repeated from the original description. It will look up the parent taxa after you press submit.
 
 =Adding unpublished opinions=
 
