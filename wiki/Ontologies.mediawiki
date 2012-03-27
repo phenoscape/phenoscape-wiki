@@ -8,6 +8,7 @@ The Phenoscape project is coordinating the development and integration of multis
 The VAO will be imported into TAO, AAO, and AMAO. However, the existing model organism databases are largely hardcoded to reference identifiers for their own ontologies (e.g., MGI database reads MA term identifiers). In the long term, we will be exploring how to import terms into these ontologies. In the interim, the existing MOD vertebrate ontologies will continue to create equivalent terms from other ontologies and keep links to them using a cross-referencing strategy to external ontology identifiers.
 
 
+New personnel training topics for building and using ontologies are posted [[Annotator tutorial topics| here.]]
 We hold regular project [https://www.phenoscape.org/wiki/Anatomy_Ontology_Conf_calls anatomy ontology conference calls] to discuss development with the curators of these ontologies. The limb/fin branch is the focus of ontology development in year 1 across the various ontologies described below.
 
 = Anatomy Ontologies =
