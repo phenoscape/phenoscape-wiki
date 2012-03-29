@@ -34,3 +34,4 @@ Please delete items that have been completed!
 * Front splash page
 ** Blog/twitter link on front page, perhaps similar to the way it is presented on the [http://datadryad.org/ Dryad] site
 ** Including link to login for project intranet
+* Taxon annotation: https://phenoscape.org/wiki/Creating_Taxon_Lists - consolidate and update with: https://phenoscape.org/wiki/Documenting_taxon_concepts_used_in_a_publication and https://phenoscape.org/wiki/Update_Taxon_Lists
