@@ -7,7 +7,7 @@ Much of the schedule below is based on the [[:File:Phenoscape_Project_descriptio
 
 = Goals in progress, coming up, and scheduled =
 
-We are keeping our high-level goals, milestones, and deliverables in a public Trello Board. Click on the name of the board ("Phenoscape Roadmap") to open the board in its own window.
+We are keeping our high-level goals, milestones, and deliverables in a [https://trello.com/b/xYkl0qmC public Trello Board]. (Click this link to get the board in its own window.)
 
 <embedurl>https://trello.com/b/xYkl0qmC</embedurl>
 
