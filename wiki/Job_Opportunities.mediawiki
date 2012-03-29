@@ -1,0 +1,11 @@
+---
+title: Job Opportunities
+---
+
+== Postdoctoral Opportunities ==
+
+* We are recruiting for a postdoc at NESCent interested in the [https://docs.google.com/document/d/1CAiXFnzueBliLom_kRBnjDuDOuuRIrPkJ6zZNRBUeQQ/edit application of phenotype bioinformatics to evo-devo].
+
+== Student Internship Opportunities ==
+
+We will be offering to host a 3-month student internship during the summer of 2012 in the informatics side of the project. More information will be forthcoming soon; in the meantime, please feel free to inquire with [[User:Hlapp| Hilmar Lapp]] if you are interested.
