@@ -9,6 +9,8 @@ The VAO will be imported into TAO, AAO, and AMAO. However, the existing model or
 
 
 New personnel training topics for building and using ontologies are posted [[Annotator tutorial topics| here.]]
+Ontology editing workflow is here: [[Ontology_workflow| Ontology Workflow]]
+
 We hold regular project [https://www.phenoscape.org/wiki/Anatomy_Ontology_Conf_calls anatomy ontology conference calls] to discuss development with the curators of these ontologies. The limb/fin branch is the focus of ontology development in year 1 across the various ontologies described below.
 
 = Anatomy Ontologies =
