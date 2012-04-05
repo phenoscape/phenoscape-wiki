@@ -12,6 +12,8 @@ title: Virtuoso
 * [http://docs.openlinksw.com/virtuoso/rdfsparqlrule.html Inference rules and reasoning]
 ** Within isql: <code>rdfs_rule_set('http://kb.phenoscape.org/', 'http://kb.phenoscape.org/');</code>
 ***First arg is name of rule set, second is RDF graph to include
+* Performance tuning
+** http://virtuoso.openlinksw.com/dataspace/dav/wiki/Main/VirtRDFPerformanceTuning
 
 [[Category:Informatics]]
 [[Category:Software]]
