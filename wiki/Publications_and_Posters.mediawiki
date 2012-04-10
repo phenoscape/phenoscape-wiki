@@ -25,7 +25,7 @@ Todd Vision, Judith Blake, Hilmar Lapp, Paula Mabee, Monte Westerfield (2011) Si
 
 James Balhoff, Wasila Dahdul, Hilmar Lapp, Peter Midford, Todd Vision, Monte Westerfield and Paula Mabee (2011) Poster; "Employing reasoning within the Phenoscape Knowledgebase", International Conference on Biomedical Ontology; University at Buffalo, NY, July 26-30, 2011
 
-Wasila Dahdul, James Balhoff, Hilmar Lapp, Peter Midford, Todd Vision, Monte Westerfield and Paula Mabee; (2001) Presentation; "Phenoscape: use cases and anatomy ontology requirements for linking evolutionary and model organism phenotypes", ICBO workshop: From fins to limbs to leaves: Facilitating anatomy ontology interoperability; International Conference on Biomedical Ontology; University at Buffalo, NY; Poster, July 26-30, 2011
+Wasila Dahdul, James Balhoff, Hilmar Lapp, Peter Midford, Todd Vision, Monte Westerfield and Paula Mabee; (2011) Presentation; "Phenoscape: use cases and anatomy ontology requirements for linking evolutionary and model organism phenotypes", ICBO workshop: From fins to limbs to leaves: Facilitating anatomy ontology interoperability; International Conference on Biomedical Ontology; University at Buffalo, NY; Poster, July 26-30, 2011
 
 James P. Balhoff, Peter E. Midford, Hilmar Lapp (2011) International Conference on Biomedical Ontology, Buffalo, NY, [http://www.mendeley.com/download/public/2280031/4561422715/faae92a74742bc35ceca9b3f5862cb94a4cde61e/dl.pdf Integrating anatomy and phenotype ontologies with taxonomic hierarchies], July 2011.
 
