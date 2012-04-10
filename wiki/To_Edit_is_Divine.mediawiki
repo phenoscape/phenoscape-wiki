@@ -11,8 +11,7 @@ Please delete items that have been completed!
 * [[Outreach]] - needs new full wiki page based on: https://phenoscape.org/wiki/Main_Page#Outreach)
 * [[Knowledgebase]] - no central page yet, not even for the category
 * update and possibly combine [[Resources_for_curators]] and [[Student_Instructions]]
-* Curator resources: http://phenoscape.org/wiki/Resources_for_curators add ‘student instructions’ to this page add ‘Phenoscape data policy’ to this page: http://phenoscape.org/wiki/Phenoscape_data_policy 
-* [[Knowledgebase:Phenotypes]] - needs content
+* Curator resources: http://phenoscape.org/wiki/Resources_for_curators add ‘student instructions’ to this page add ‘Phenoscape data policy’ to this page: http://phenoscape.org/wiki/Phenoscape_data_policy
 * [[Curation]] page
 ** embed publicly accessible fin-limb phenotype curation log on [https://docs.google.com/spreadsheet/ccc?key=0Aj8NJdyb-leqdEhPRjgzakV4NWxXdWNYanFjMVJoTlE&hl=en_US#gid=0 googledocs] ?
 ** consolidate [[Storing_publication_reference_information]]
