@@ -7,6 +7,8 @@ title: To Edit is Divine
 Please delete items that have been completed!
 
 * Update [[Vertebrate_Musculoskeletal_Anatomy_Ontology_.28VAO.29|VAO]] documentation (Wasila or Melissa)
+** http://phenoscape.org/wiki/Ontology_workflow
+** http://phenoscape.org/wiki/Annotator_tutorial_topics
 * [[Contact]] - update
 * [[Outreach]] - needs new full wiki page based on: https://phenoscape.org/wiki/Main_Page#Outreach)
 * [[Knowledgebase]] - no central page yet, not even for the category
