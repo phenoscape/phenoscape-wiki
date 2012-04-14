@@ -47,7 +47,7 @@ To Do
 AAO is a multispecies ontology for amphibian anatomy. It will be used to annotate characters from the amphibian systematics literature. Download AAO from the [http://obofoundry.org/cgi-bin/detail.cgi?id=amphibian_anatomy OBO Foundry]  and browse at [http://bioportal.bioontology.org/ontologies/45269?p=terms BioPortal]
 
 To Do
-* Source edit directory available [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/vocab/AAO_v2.1 here].  The current version (April 2012) includes terms merged from the Xenopus Anatomy Ontology and updates from David Blackburn and Wasila Dahdul.
+* Source edit directory available [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/vocab/AAO_v2.1.obo here].  The current version (April 2012) includes terms merged from the Xenopus Anatomy Ontology and updates from David Blackburn and Wasila Dahdul.
 
 * Submit term requests to
 
