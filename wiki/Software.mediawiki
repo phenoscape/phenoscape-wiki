@@ -5,4 +5,7 @@ title: Software
 This page provides a broad overview of our software development activities. Phenoscape supports open development processes and collaboration. All source code we create is available from open source repositories such as [http://github.com/phenoscape Github] and [http://sourceforge.net/projects/phenoscape/ Sourceforge], and we work with existing open-source projects whenever possible.
 
 ==Phenoscape Knowledgebase==
-One of the chief objectives of the Phenoscape project is to present a centralized repository to store evolutionary phenotype annotations entered by curators and also integrate relevant data imported from partner projects.
+One of the chief objectives of the Phenoscape project is to present a centralized repository to store evolutionary phenotype annotations entered by curators and also integrate relevant data imported from partner projects. The Knowledgebase consists of a back-end semantic data store, a web service application which provides a query API for the data, a web application user interface allowing exploration of the Knowledgebase, and accessory tools for loading data.
+===Production version===
+The live Phenoscape Knowledgebase is available at http://kb.phenoscape.org/.
+===RDF-OWL version (in development)===
