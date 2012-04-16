@@ -7,5 +7,7 @@ This page provides a broad overview of our software development activities. Phen
 ==Phenoscape Knowledgebase==
 One of the chief objectives of the Phenoscape project is to present a centralized repository to store evolutionary phenotype annotations entered by curators and also integrate relevant data imported from partner projects. The Knowledgebase consists of a back-end semantic data store, a web service application which provides a query API for the data, a web application user interface allowing exploration of the Knowledgebase, and accessory tools for loading data.
 ===Production version===
-The live Phenoscape Knowledgebase is available at http://kb.phenoscape.org/.
+The live Phenoscape Knowledgebase is available at http://kb.phenoscape.org/. It makes use of the following software projects:
+* [http://berkeleybop.org/obd/ OBD]
+
 ===RDF-OWL version (in development)===
