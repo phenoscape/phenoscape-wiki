@@ -9,5 +9,8 @@ One of the chief objectives of the Phenoscape project is to present a centralize
 ===Production version===
 The live Phenoscape Knowledgebase is available at http://kb.phenoscape.org/. It makes use of the following software projects:
 * [http://berkeleybop.org/obd/ OBD] - an ontology-driven datastore developed by the [http://www.berkeleybop.org/ Berkeley Bioinformatics Open-source Projects] group. It provides a generic schema for storing ontologies and semantic data expressed with those ontologies. It also includes an automated reasoner used to materialize inferred knowledge into the datastore. The master build script for loading the Phenoscape Knowledgebase is included within the [http://obo.svn.sourceforge.net/svnroot/obo/OBDAPI/trunk OBD source code].
+* Phenoscape OBD data services
+* Phenoscape web UI
+* Phenoscape data loader
 
 ===RDF-OWL version (in development)===
