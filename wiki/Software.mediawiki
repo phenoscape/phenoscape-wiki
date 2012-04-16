@@ -14,3 +14,8 @@ The live Phenoscape Knowledgebase is available at http://kb.phenoscape.org/. It 
 * [http://github.com/phenoscape/PhenoscapeDataLoader Phenoscape data loader] - a Java library providing translations of various data inputs into the OBD model, used within the OBD build script.
 
 ===RDF-OWL version (in development)===
+* ''more here''
+
+==Phenex==
+
+==Ontology tools==
