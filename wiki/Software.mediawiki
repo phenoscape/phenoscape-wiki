@@ -2,4 +2,4 @@
 title: Software
 ---
 
-This page provides a broad overview of our informatics activities. Phenoscape supports open development processes and collaboration. All source code we create is available from open source repositories such as [http://github.com/phenoscape Github] and [http://sourceforge.net/projects/phenoscape/ Sourceforge], and we work with existing open-source projects whenever possible.
+This page provides a broad overview of our software development activities. Phenoscape supports open development processes and collaboration. All source code we create is available from open source repositories such as [http://github.com/phenoscape Github] and [http://sourceforge.net/projects/phenoscape/ Sourceforge], and we work with existing open-source projects whenever possible.
