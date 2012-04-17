@@ -13,12 +13,11 @@ title: Virtuoso
 * [http://docs.openlinksw.com/virtuoso/rdfsparqlrule.html Inference rules and reasoning]
 ** Within isql: <code>rdfs_rule_set('http://kb.phenoscape.org/', 'http://kb.phenoscape.org/');</code>
 ***First arg is name of rule set, second is RDF graph to include
-* Full-text indexing
+* [http://docs.openlinksw.com/virtuoso/sparqlextensions.html Full-text indexing]
 ** Within isql: <code>DB.DBA.RDF_OBJ_FT_RULE_ADD (null, null, 'All');</code>
-** http://docs.openlinksw.com/virtuoso/sparqlextensions.html
-* Performance tuning
-** http://virtuoso.openlinksw.com/dataspace/dav/wiki/Main/VirtRDFPerformanceTuning
+* [http://virtuoso.openlinksw.com/dataspace/dav/wiki/Main/VirtRDFPerformanceTuning Performance tuning]
 ** add index on predicate
+** adjust memory settings
 * Configure [http://en.wikipedia.org/wiki/Cross-origin_resource_sharing CORS] (Cross-Origin Resource Sharing) to allow SPARQL queries from any web application
 ** http://virtuoso.openlinksw.com/dataspace/dav/wiki/Main/VirtTipsAndTricksGuideCORSSetup#CORS%20Setup%20for%20Virtuoso%20servers
 
