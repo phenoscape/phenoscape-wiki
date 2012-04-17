@@ -18,6 +18,7 @@ title: Virtuoso
 * Performance tuning
 ** http://virtuoso.openlinksw.com/dataspace/dav/wiki/Main/VirtRDFPerformanceTuning
 ** add index on predicate
+* Configure CORS to allow query from any web application
 
 [[Category:Informatics]]
 [[Category:Software]]
