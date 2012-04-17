@@ -17,6 +17,7 @@ title: Virtuoso
 ** ''notes to go here''
 * Performance tuning
 ** http://virtuoso.openlinksw.com/dataspace/dav/wiki/Main/VirtRDFPerformanceTuning
+** add index on predicate
 
 [[Category:Informatics]]
 [[Category:Software]]
