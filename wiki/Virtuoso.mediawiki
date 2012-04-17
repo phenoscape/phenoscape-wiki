@@ -14,7 +14,8 @@ title: Virtuoso
 ** Within isql: <code>rdfs_rule_set('http://kb.phenoscape.org/', 'http://kb.phenoscape.org/');</code>
 ***First arg is name of rule set, second is RDF graph to include
 * Full-text indexing
-** ''notes to go here''
+** Within isql: <code>DB.DBA.RDF_OBJ_FT_RULE_ADD (null, null, 'All');</code>
+** http://docs.openlinksw.com/virtuoso/sparqlextensions.html
 * Performance tuning
 ** http://virtuoso.openlinksw.com/dataspace/dav/wiki/Main/VirtRDFPerformanceTuning
 ** add index on predicate
