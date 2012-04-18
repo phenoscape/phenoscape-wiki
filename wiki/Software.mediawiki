@@ -22,3 +22,5 @@ To meet new requirements for scalability, reasoning expressivity, and support fo
 [[Phenex]] is ontology annotation software tailored for phenotype annotation of evolutionary character matrices. It saves ontology annotations alongside traditional character matrix data using the new [http://www.nexml.org/ NeXML] format standard for evolutionary data.
 
 ==Ontology tools==
+===Synchronization Tool===
+The [[Synchronization Tool]] is a plug-in for [http://oboedit.org/ OBO-Edit] which aids in keeping the Teleost Anatomy Ontology and the Zebrafish Anatomy Ontology consistent with each other.
