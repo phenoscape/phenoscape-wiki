@@ -24,3 +24,7 @@ To meet new requirements for scalability, reasoning expressivity, and support fo
 ==Ontology tools==
 ===Synchronization Tool===
 The [[Synchronization Tool]] is a plug-in for [http://oboedit.org/ OBO-Edit] which aids in keeping the Teleost Anatomy Ontology and the Zebrafish Anatomy Ontology consistent with each other.
+===VTOTool===
+The VTOTool assembles the VTO by starting from an initial taxonomy (NCBI) and deleting and splicing in group specific taxonomies (e.g., TTO, ATO).  It will also add taxonomy from PaleoDB and synonyms from other taxonomic source (e.g., Catalog of Life).
+===TTOUpdate===
+This tool (legacy from Phenoscape I) builds the Teleost Taxonomy Ontology (TTO) from a download of the Catalog of Fishes.
