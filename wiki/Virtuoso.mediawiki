@@ -16,7 +16,7 @@ title: Virtuoso
 * [http://docs.openlinksw.com/virtuoso/sparqlextensions.html Full-text indexing]
 ** Within isql: <code>DB.DBA.RDF_OBJ_FT_RULE_ADD (null, null, 'All');</code>
 * [http://virtuoso.openlinksw.com/dataspace/dav/wiki/Main/VirtRDFPerformanceTuning Performance tuning]
-** add index on predicate
+** Add index on predicate: <code>CREATE BITMAP INDEX RDF_QUAD_PGOS ON DB.DBA.RDF_QUAD (G, P, O, S)  PARTITION (O VARCHAR (-1, 0hexffff));</code>
 ** adjust memory settings
 * Configure [http://en.wikipedia.org/wiki/Cross-origin_resource_sharing CORS] (Cross-Origin Resource Sharing) to allow SPARQL queries from any web application
 ** http://virtuoso.openlinksw.com/dataspace/dav/wiki/Main/VirtTipsAndTricksGuideCORSSetup#CORS%20Setup%20for%20Virtuoso%20servers
