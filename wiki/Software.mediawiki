@@ -19,5 +19,6 @@ To meet new requirements for scalability, reasoning expressivity, and support fo
 * [[KB-OWL|Reasoning strategy overview]]
 
 ==Phenex==
+[[Phenex]] is ontology annotation software tailored for phenotype annotation of evolutionary character matrices. It saves ontology annotations alongside traditional character matrix data using the new [http://www.nexml.org/ NeXML] format standard for evolutionary data
 
 ==Ontology tools==
