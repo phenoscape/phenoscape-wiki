@@ -45,7 +45,7 @@ Most project files require a taxonomic expert to review the taxonomy used in a p
 
 Curation drives ontology development and many new terms and relationships need to be added. For instructions on how to make these changes, please and see the [[Term_Requests | '''Term Request Instructions''']].
 
-==7. Subscribe to Curator Mailing Lists ==
+==7. Subscribe to Curator and Ontology Request Mailing Lists ==
 * Phenoscape Curators mailing list (for discussion and communication of data curation issues, solutions, and progress):  http://lists.sourceforge.net/lists/listinfo/phenoscape-curators
 * Vertebrate Musculoskeletal Anatomy Ontology term discussion: ''[https://lists.sourceforge.net/lists/listinfo/obo-vertebrate-anatomy List subscription and archives]'' | [mailto:obo-vertebrate-discuss%40lists%2e.sourceforge%2enet email: obo-vertebrate-anatomy@lists.sourceforge.net]
 * Teleost Anatomy ontology term discussion: ''[https://lists.sourceforge.net/lists/listinfo/obo-teleost-discuss List subscription and archives]'' | [mailto:obo-teleost-discuss%40lists%2e.sourceforge%2enet email: obo-teleost-discuss&#64;lists&#46;sourceforge&#46;net]
