@@ -6,7 +6,6 @@ title: To Edit is Divine
 
 Please delete items that have been completed!
 
-*Curator resources: http://phenoscape.org/wiki/Resources_for_curators add ‘student instructions’ to this page add ‘Phenoscape data policy’ to this page: http://phenoscape.org/wiki/Phenoscape_data_policy
 * Taxon annotation: https://phenoscape.org/wiki/Creating_Taxon_Lists - consolidate and update with: https://phenoscape.org/wiki/Documenting_taxon_concepts_used_in_a_publication and https://phenoscape.org/wiki/Update_Taxon_Lists
 * Update [[Vertebrate_Musculoskeletal_Anatomy_Ontology_.28VAO.29|VAO]] documentation (Wasila or Melissa)
 ** http://phenoscape.org/wiki/Ontology_workflow
