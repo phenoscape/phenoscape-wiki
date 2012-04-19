@@ -2,7 +2,7 @@
 title: Resources for Data Contributors
 ---
 
-The following instructions outline the resources used by Phenoscape curators for the annotation of evolutionary phenotypes.  If you are a student intern, please refer to [http://phenoscape.org/wiki/Student_Instructions the Student Instructions] more information and links.  
+The following instructions outline the resources used by Phenoscape curators for the annotation of evolutionary phenotypes.  If you are a student intern, please refer to the [http://phenoscape.org/wiki/Student_Instructions Student Instructions] page for more information and links.
 
 ==1. Download Most Recent Version of Phenex==
 
