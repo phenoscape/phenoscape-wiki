@@ -4,6 +4,8 @@ title: Resources for Data Contributors
 
 The following instructions outline the resources used by Phenoscape curators for the annotation of evolutionary phenotypes.  If you are a student intern, please refer to the [http://phenoscape.org/wiki/Student_Instructions Student Instructions] page for more information and links.
 
+Data uploaded to the Phenoscape Knowledgebase are made available under a Creative Commons Attribution 3.0 Unported license (see [http://phenoscape.org/wiki/Phenoscape_data_policy Phenoscape data policy])
+
 ==1. Download Most Recent Version of Phenex==
 
 Phenex was developed by Phenoscape for annotation of evolutionary phenotypes.  You can find instructions for downloading and installing Phenex at the [[Phenex|'''Phenex homepage''']].
