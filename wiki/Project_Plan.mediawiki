@@ -2,6 +2,7 @@
 title: Project Plan
 ---
 
+__TOC__
 = Goals in progress, coming up, and scheduled =
 
 We are keeping our high-level goals, milestones, and deliverables in a [https://trello.com/b/xYkl0qmC public Trello Board]. (Click this link to get the board in its own window.)
