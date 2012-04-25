@@ -4,31 +4,31 @@ title: Project Plan
 
 = Aims and working groups =
 
-; 1. Scalable workflow : 
+; 1. Scalable workflow :
 
-;;1.1 NLP in aid of ontology building and EQ annotation : Curation of legacy phenotypes from the literature is a major bottleneck. The overall objective of this part of our work is to improve the efficiency with which curators can find accurate terms, add missing terms, etc.
+:; 1.1 NLP in aid of ontology building and EQ annotation : Curation of legacy phenotypes from the literature is a major bottleneck. The overall objective of this part of our work is to improve the efficiency with which curators can find accurate terms, add missing terms, etc.
 ::* Participants: '''Hong Cui''' (lead), Jim, Todd, Wasila, Judy, Hong's MS student Zilong Chang, Paula
 
-;; 1.2 Term broker, in collaboration with NCBO : The overall goal here is to obtain temporary ID for anatomy ontology terms, communicate it to Phenex, and automatically replace with permanent terms when available.
+:; 1.2 Term broker, in collaboration with NCBO : The overall goal here is to obtain temporary ID for anatomy ontology terms, communicate it to Phenex, and automatically replace with permanent terms when available.
 ::* Participants: '''Jim''' (lead), Natasha, Hilmar, Judy, Wasila
 
 ; 2. Ontology development and coordination:
 
-;; 2.1 Anatomy ontologies : The objective is to coordinate the development and alignment of multispecies and single species ontologies for vertebrates.  The lead curators of the zebrafish, Xenopus, and mouse anatomy ontologies, the teleost and amphibian multi-species ontologies, and the proposed amniote anatomy ontology will meet regularly to review terms from the musculoskeletal branch, and update and synchronize ontologies accordingly. The focus of ontology development in year 1 is the limb/fin skeletal branch. Specific ontology development plans are [[Ontologies | here]] and Ontology development workflow is [[Ontology workflow | here]].
+:; 2.1 Anatomy ontologies : The objective is to coordinate the development and alignment of multispecies and single species ontologies for vertebrates.  The lead curators of the zebrafish, Xenopus, and mouse anatomy ontologies, the teleost and amphibian multi-species ontologies, and the proposed amniote anatomy ontology will meet regularly to review terms from the musculoskeletal branch, and update and synchronize ontologies accordingly. The focus of ontology development in year 1 is the limb/fin skeletal branch. Specific ontology development plans are [[Ontologies | here]] and Ontology development workflow is [[Ontology workflow | here]].
 ::* Participants: '''Wasila''' lead), Nizar, Lauren, Paul, David, Terry, Yvonne, Ceri, Christina, VG, Paula, Chris
 
-;; 2.2 Vertebrate Taxonomy Ontology : The objective is to develop a taxonomic ontology that includes all fossil and extant vertebrate taxa from community-vetted sources (PBDB, Paul's database, AmphibiaWeb).  This ontology is required for curation of phenotypes and querying.
+:; 2.2 Vertebrate Taxonomy Ontology : The objective is to develop a taxonomic ontology that includes all fossil and extant vertebrate taxa from community-vetted sources (PBDB, Paul's database, AmphibiaWeb).  This ontology is required for curation of phenotypes and querying.
 ::* Participants: '''Peter''' (lead), Paul, David, Nizar, Wasila
 
 ;; 2.3 Sync Tool :
 ::* Participants: '''Jim''' (lead), Wasila, Chris, Ceri, Yvonne
 
-; 3. Phenotype annotation
+; 3. Phenotype annotation :
 
-;; 3.1 Evolutionary phenotypes : The objective is to transform the characters and character states from published phylogenetic studies into ontology-based descriptions ('Evolutionary phenotypes'), with a focus on fin and limb morphology.  This will require the development of a list of papers to be curated, re-evaluation of software curation tool, training of personnel in use of curation software and ontology development, and development of appropriate ontologies. Annotation workflow is described [[Curation workflow | here.]]
+:; 3.1 Evolutionary phenotypes : The objective is to transform the characters and character states from published phylogenetic studies into ontology-based descriptions ('Evolutionary phenotypes'), with a focus on fin and limb morphology.  This will require the development of a list of papers to be curated, re-evaluation of software curation tool, training of personnel in use of curation software and ontology development, and development of appropriate ontologies. Annotation workflow is described [[Curation workflow | here.]]
 ::* Participants: '''Paula''' (lead), David, Paul, Wasila, Jim, Nizar
 
-;; 3.2 Model organism phenotypes (Monte) : To annotate the skeletal phenotypes for fin and limb for genetic mutants of zebrafish, Xenopus, and mouse. The model organism (MOD) curators will initially prioritize comprehensive annotation of skeletal phenotypes for the fin and limb, and subsequently of skeletal phenotypes in general.
+:; 3.2 Model organism phenotypes (Monte) : To annotate the skeletal phenotypes for fin and limb for genetic mutants of zebrafish, Xenopus, and mouse. The model organism (MOD) curators will initially prioritize comprehensive annotation of skeletal phenotypes for the fin and limb, and subsequently of skeletal phenotypes in general.
 ::* Participants: '''Monte''' (lead), ZFIN (Monte, Ceri,Yvonne), Xenbase (Aaron, Christina), MGI (Judy, Terry)
 
 ; 4. Homology : The legacy homology assertions for the fin-limb skeleton, including assertions of both phylogenetic and iterative (serial) homology, and the genes involved in growth and patterning of the limb at various stages, e.g., Bmps, Fgfs, Gdf5, Sox9 are also well known.
@@ -37,7 +37,7 @@ title: Project Plan
 ; 5. Semantic similarity search engine (aka Phenoblast) : Provide the ability for users to take a phenotype collection (of terms) and look across all collections for those that semantically match the terms. Like BLAST, highest ‘hits’ would be ranked first, and user could drill down.
 :* Participants: '''Todd''' (lead), Hilmar, Jim, Chris, Judy, Paula, Peter
 
-; 6. Knowledgebase reasoning and development : 
+; 6. Knowledgebase reasoning and development :
 :* Participants: '''Hilmar''' (lead), Todd, Jim, Chris, Paula, Wasila and others for UI development
 
 ; 7. Capstone : As a capstone, in years 3 and 4 of the project, we will validate the capabilities of the above suite of tools by testing how well known developmental pathways for the well-studied fin/limb skeletal transition in vertebrate evolution are identified and how well it scales to a datastore containing billions of phenotypes.
