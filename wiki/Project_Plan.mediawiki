@@ -20,7 +20,7 @@ title: Project Plan
 :; 2.2 Vertebrate Taxonomy Ontology : The objective is to develop a taxonomic ontology that includes all fossil and extant vertebrate taxa from community-vetted sources (PBDB, Paul's database, AmphibiaWeb).  This ontology is required for curation of phenotypes and querying.
 ::* Participants: '''Peter''' (lead), Paul, David, Nizar, Wasila
 
-;; 2.3 Sync Tool :
+:; 2.3 Sync Tool :
 ::* Participants: '''Jim''' (lead), Wasila, Chris, Ceri, Yvonne
 
 ; 3. Phenotype annotation :
