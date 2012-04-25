@@ -2,6 +2,12 @@
 title: Project Plan
 ---
 
+= Goals in progress, coming up, and scheduled =
+
+We are keeping our high-level goals, milestones, and deliverables in a [https://trello.com/b/xYkl0qmC public Trello Board]. (Click this link to get the board in its own window.)
+
+<embedurl>https://trello.com/b/xYkl0qmC</embedurl>
+
 = Aims and working groups =
 
 ; 1. Scalable workflow :
@@ -42,12 +48,6 @@ title: Project Plan
 
 ; 7. Capstone : As a capstone, in years 3 and 4 of the project, we will validate the capabilities of the above suite of tools by testing how well known developmental pathways for the well-studied fin/limb skeletal transition in vertebrate evolution are identified and how well it scales to a datastore containing billions of phenotypes.
 :* Participants: '''Todd''' (lead), everyone in project
-
-= Goals in progress, coming up, and scheduled =
-
-We are keeping our high-level goals, milestones, and deliverables in a [https://trello.com/b/xYkl0qmC public Trello Board]. (Click this link to get the board in its own window.)
-
-<embedurl>https://trello.com/b/xYkl0qmC</embedurl>
 
 = NSF Phenoscape project abstracts =
 DBI 1062404 and 1062542: Collaborative research: ABI Development: Ontology-enabled reasoning across phenotypes from evolution and model organisms
