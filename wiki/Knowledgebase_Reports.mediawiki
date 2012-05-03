@@ -126,6 +126,7 @@ This contains all of the data files found [http://phenoscape.svn.sourceforge.net
 ** [http://kb-dev.phenoscape.org/OBD-WS/report/count/publications?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D skeletal system and parts only]
 * [http://kb-dev.phenoscape.org/OBD-WS/report/count/characters/published Count of all published characters]
 * [http://kb-dev.phenoscape.org/OBD-WS/report/count/characters/annotated Count of all annotated characters]
+** [http://kb-dev.phenoscape.org/OBD-WS/report/count/characters/annotated?query=%7B%22phenotype%22%3A%5B%7B%22quality%22%3A%7B%22id%22%3A%22PATO%3A0000462%22%7D%7D%2C%20%7B%22quality%22%3A%7B%22id%22%3A%22PATO%3A0000467%22%7D%7D%5D%2C%20%22match_all_phenotypes%22%3A%20false%7D present or absent quality only]
 ** [http://kb-dev.phenoscape.org/OBD-WS/report/count/characters/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D pelvic fin and parts only]
 ** [http://kb-dev.phenoscape.org/OBD-WS/report/count/characters/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D pectoral fin and parts only]
 ** [http://kb-dev.phenoscape.org/OBD-WS/report/count/characters/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D skeletal system and parts only]
