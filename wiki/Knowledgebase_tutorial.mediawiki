@@ -2,6 +2,8 @@
 title: Knowledgebase tutorial
 ---
 
+ UNDER CONSTRUCTION
+
 ==Getting started with the Phenoscape Knowledgebase==
 
 This tutorial is designed to introduce users to exploring phenotypic data in the [http://kb.phenoscape.org/ Phenoscape Knowledgebase] (KB). The current release includes data from over 50 comparative publications, describing mainly [http://en.wikipedia.org/wiki/Ostariophysi ostariophysan fishes] (for example, catfish, minnows, loaches, characins, and knifefishes), as well as developmental genetic data imported from [http://zfin.org/ ZFIN].
