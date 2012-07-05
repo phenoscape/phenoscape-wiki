@@ -18,7 +18,7 @@ The [http://kb.phenoscape.org/ homepage] provides several different entry points
 
 <br style="clear: both">
 
-[[Image:KB_term_info.png|thumb|Term detail page for basihyal bone.|right|250px]]
+[[Image:KB_term_info.png|thumb|Term detail page for basihyal bone.|left|250px]]
 
 Pressing the ''Search'' button will take you to the '''term page''' [http://kb.phenoscape.org/term/entity/TAO:0000316 entry for this structure]: you can view the placement of this term within the anatomy ontology hierarchy, metadata such as synonym labels and a textual definition, semantic information such as logical relationships to other concepts, and links to data pages in the KB focused on the basihyal bone. To get an overview of the data in the KB about the basihyal bone, we’ll follow the link [http://kb.phenoscape.org/phenotypes/facets?facet_paths%5Bentity%5D=TAO%3A0000316 Browse phenotypes (faceted view)].
 
