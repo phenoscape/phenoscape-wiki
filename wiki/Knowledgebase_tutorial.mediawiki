@@ -2,8 +2,6 @@
 title: Knowledgebase tutorial
 ---
 
- UNDER CONSTRUCTION
-
 ==Getting started with the Phenoscape Knowledgebase==
 
 [[Image:KB_homepage.png|thumb|The Phenoscape Knowledgebase homepage.|left|350px]]
