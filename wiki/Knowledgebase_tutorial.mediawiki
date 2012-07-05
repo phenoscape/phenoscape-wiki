@@ -8,6 +8,8 @@ title: Knowledgebase tutorial
 
 This tutorial is designed to introduce users to exploring phenotypic data in the [http://kb.phenoscape.org/ Phenoscape Knowledgebase] (KB). The current release includes data from over 50 comparative publications, describing mainly [http://en.wikipedia.org/wiki/Ostariophysi ostariophysan fishes] (for example, catfish, minnows, loaches, characins, and knifefishes), as well as developmental genetic data imported from [http://zfin.org/ ZFIN].
 
+[[Image:KB_homepage.png|right|380px]]
+
 The [http://kb.phenoscape.org/ homepage] provides several different entry points into the KB. We’ll start by using the '''term search field''' to find data related to a structure of interest, such as the “basihyal bone”. The KB consists of structured data in the form of related ontology terms. So the search field is used to find a specific term from the vocabulary known to the KB. An autocomplete menu will pop up once you have typed 3 characters. Enter “basihyal bone” into the search field and click on it once it appears in the popup menu.
 
 Pressing the Search button will take you to the '''term page''' entry for this structure: you can view the placement of this term within the anatomy ontology hierarchy, metadata such as synonym labels and a textual definition, semantic information such as logical relationships to other concepts, and links to data pages in the KB focused on the basihyal bone. To get an overview of the data in the KB about the basihyal bone, we’ll follow the link [http://kb.phenoscape.org/phenotypes/facets?facet_paths%5Bentity%5D=TAO%3A0000316 Browse phenotypes (faceted view)].
