@@ -21,19 +21,59 @@ Initially, both union and intersection sets were constructed without reference t
 
 [[Image:SubsumingUnion.jpeg]]
 
+Figure 1 - Tree illustrating computation of subsuming union
+
+{|
+! Operation Type
+! Union
+! Intersection
+! Difference
+|-
+| Subsuming
+| {blue}
+| {}
+| {blue}
+|-
+| Nonsubsuming
+| {blue, light blue, dark blue}
+| {}
+| {blue, light blue, dark blue}
+|}
+
+Table I - Genus1 phenotype quality sets (inhering in E1) when subsuming Species 1-3
+
+{|
+! Operation Type
+! Union
+! Intersection
+! Difference
+|-
+| Subsuming
+| {blue, light blue}
+| {light blue}
+| {dark blue, ?}
+|-
+| Nonsubsuming
+| {blue, light blue}
+| {}
+| {blue, light blue}
+|}
+
+Table II - Genus1 phenotype quality sets (inhering in E1) when subsuming Species1,2 (not Species 3)
+
 Changing to propagating intersection sets appears to reduce the inflation of propagated phenotype sets, and we are currently using it as our propagation method.  There are some issues related to monotypic outgroups and propagating intersection sets (figure 2) that we are still investigating.
 
 
 
 [[Image:PropagationTree1.jpeg]]
 
-Figure 1 - This figure shows alternate methods of propagating phenotype sets.
+Figure 2 - This figure shows alternate methods of propagating phenotype sets.
 
 
 
 [[Image:PropagationTree2.jpeg]]
 
-Figure 2 - This figure illustrates the potential problem that propagating intersections has with monotypic outgroups.
+Figure 3 - This figure illustrates the potential problem that propagating intersections has with monotypic outgroups.
 
 = Using attributes to limit the scope of quality comparisons =
 
