@@ -40,7 +40,8 @@ Figure 1 - Tree illustrating computation of subsuming union
 | {blue, light blue, dark blue}
 |}
 
-Table I - Genus1 phenotype quality sets (inhering in E1) when subsuming Species 1-3
+'''Table I - Genus1 phenotype quality sets (inhering in E1) when subsuming Species 1-3'''
+
 
 {|
 ! Operation Type
@@ -59,7 +60,8 @@ Table I - Genus1 phenotype quality sets (inhering in E1) when subsuming Species 
 | {blue, light blue}
 |}
 
-Table II - Genus1 phenotype quality sets (inhering in E1) when subsuming Species1,2 (not Species 3)
+'''Table II - Genus1 phenotype quality sets (inhering in E1) when subsuming Species1,2 (not Species 3)'''
+
 
 Changing to propagating intersection sets appears to reduce the inflation of propagated phenotype sets, and we are currently using it as our propagation method.  There are some issues related to monotypic outgroups and propagating intersection sets (figure 2) that we are still investigating.
 
