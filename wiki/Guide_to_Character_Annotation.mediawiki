@@ -2,6 +2,19 @@
 title: Guide to Character Annotation
 ---
 
+== Adding new ontology terms: Genus-differentia definitions ==
+Term definitions are important because they facilitate consistent use of a term in annotation of disparate data types by different curators.  Ontologies follow the convention that each term should have a textual definition of the genus-differentia form, i.e., a subclass structure of A is an A that has properties X and Y that distinguish it from the other subclass structures of A (Smith et al. 2007).
+
+The entity term B is defined by its membership in higher category entity A and distinguished from its sibling terms by characteristic X. Entity definitions are primarily based on structural criteria.  Distinguishing characteristics (X) can include the location, shape, and a list of the parts of the entity.
+
+The following are examples of genus-differentia definitions in the Teleost Anatomy Ontology:
+#''Antorbital:'' Dermal bone that is located on the anterior margin of the infraorbital series, dorsal to the first infraorbital and lateral to the nasal bone.
+#''Dentary:'' Dermal bone that forms the anterolateral part of the lower jaw.
+
+In example 1, the definition mentions the parent dermal bone of the term antorbital, followed by the characteristics that differentiate antorbital from all other dermal bones.
+
+Comments: Taxonomic statements to be applied to a structure, which are not universals, are recorded in the comment field for that term.  For example, Weberian apparatus (TAO: 0001188 ) has the following definition: “Anatomical cluster that consists of the modified anteriormost vertebrae and associated structures that connect the swim bladder to the inner ear.,” and the following is recorded in the comment field: “Vertebra 1-4, and sometimes vertebra 5 in some catfishes, are part of the Weberian apparatus. Weberian apparatus is present in Otophysi.”  Here the statements about components of the Weberian apparatus do not universally apply to all teleosts, but is included in the comment field because this information is potentially helpful to the ontology user for general understanding  and for identifying structures.
+
 ==PATO terms used to annotate systematic characters ==
 Below is a simplified graph showing a subset of quality terms from the [http://obofoundry.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)] used to curate systematic characters. Terms in orange represent attribute-level qualities.
 
@@ -252,8 +265,6 @@ The TAS evidence code covers author statements that are attributed to a cited so
 
 ===Nontraceable Author Statement (NAS)===
 The NAS evidence code should be used in all cases where the author makes a statement that a curator wants to capture but for which there are neither results presented nor a specific reference cited in the source used to make the annotation. The source of the information may be peer reviewed papers, textbooks, database records or vouchered specimens.
-
-
 
 [[Category:Curation]]
 [[Category:EQ Annotation]]
