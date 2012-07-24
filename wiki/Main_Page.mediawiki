@@ -5,6 +5,7 @@ title: Main Page
 {{EventBox1|
 * Try the [http://kb.phenoscape.org Phenoscape Knowledgebase].  Your feedback is welcome!
 * Check out the latest news on the [http://blog.phenoscape.org/ Phenoscape blog]
+* We are [http://blog.phenoscape.org/2012/07/23/workshop_new_tools_for_studying_vertebrate_phenotype_evolution/ calling for participants in a workshop on New Tools for Studying Phenotype Evolution in the Vertebrates]. 
 * We are recruiting for two postdocs, one at NESCent interested in [http://nescent.org/about/employment.php#PostDoc the application of phenotype bioinformatics to evo-devo], and one at U. South Dakota interested in [http://nescent.org/about/employment.php#PostDoc2 studying phenotypic evolution by combining model organism genetic data with comparative anatomical data from throughout the vertebrates].}}
 
 == Ontology-enabled reasoning across phenotypes from evolution and model organisms ==
