@@ -16,7 +16,9 @@ title: Publications and Posters
 ==Posters & Presentations==
 ===2012===
 Balhoff, J.P. "The Phenoscape Knowledgebase: Integrating phenotypic data across taxonomy, from biodiversity to developmental genetics". Poster at DILS 2012, College Park, MD, June 28, 2012.
+
 Balhoff, J.P. "Linking phenotypes using ontologies." Invited seminar, California Academy of Sciences, March 28, 2012.
+
 Vision T. "Phenotypes, descriptive data, and measuring similarity using structured vocabularies". Invited seminar, University of Gottingen, March 8, 2012.
 
 ===2011===
