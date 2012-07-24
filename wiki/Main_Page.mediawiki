@@ -3,9 +3,9 @@ title: Main Page
 ---
 
 {{EventBox1|
-* Try the Beta version of the [http://kb.phenoscape.org Phenoscape Knowledgebase].  Development is very much in progress, and your feedback is welcome!
+* Try the [http://kb.phenoscape.org Phenoscape Knowledgebase].  Your feedback is welcome!
 * Check out the latest news on the [http://blog.phenoscape.org/ Phenoscape blog]
-* We are recruiting for a postdoc at NESCent interested in the [https://docs.google.com/document/d/1CAiXFnzueBliLom_kRBnjDuDOuuRIrPkJ6zZNRBUeQQ/edit application of phenotype bioinformatics to evo-devo].}}
+* We are recruiting for two postdocs, one at NESCent interested in [http://nescent.org/about/employment.php#PostDoc the application of phenotype bioinformatics to evo-devo], and one at U. South Dakota interested in [http://nescent.org/about/employment.php#PostDoc2 studying phenotypic evolution by combining model organism genetic data with comparative anatomical data from throughout the vertebrates].}}
 
 == Ontology-enabled reasoning across phenotypes from evolution and model organisms ==
 
