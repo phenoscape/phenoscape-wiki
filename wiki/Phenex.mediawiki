@@ -19,7 +19,7 @@ Please join the Phenex users mailing list for software support and discussion of
 * https://lists.sourceforge.net/lists/listinfo/phenex-users
 
 ==Download & Installation==
-The latest version of Phenex can be obtained from the [http://sourceforge.net/projects/phenex/ Sourceforge project site].  At the Sourceforge site, you will find both "release" versions and "beta" versions.  Unless you are testing new features, please use the official releases.  Download the file appropriate for your system ("mac", "win", or "unix").
+The latest version of Phenex can be obtained from the [https://github.com/phenoscape/Phenex Github project site]. Download the file appropriate for your system ("mac", "win", or "unix").
 
 ===Direct downloads for Phenex 1.4===
 Choose download appropriate for your platform:
