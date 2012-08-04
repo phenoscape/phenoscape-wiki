@@ -16,7 +16,7 @@ Phenoscape project files are XML files (more specifically, they are in [http://n
 
 ==3. Access PDFs for Curation ==
 
-Phenoscape uses Mendeley to maintain the collection of PDFs for curation. Please ask project personnel (Wasila or Paula) for an invitation to join the group.
+Phenoscape uses [http://www.mendeley.com/ Mendeley] to maintain the collection of PDFs for curation. Please ask project personnel (Wasila or Paula) for an invitation to join the group.
 
 Phenoscape also maintains a collection of PDFs for teleost publications on the Phenoscape file share. Directions for connecting to the file share are below.  Please ask a Phenoscaper for the username and password.
 
