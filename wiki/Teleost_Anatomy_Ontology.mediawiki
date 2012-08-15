@@ -4,9 +4,9 @@ title: Teleost Anatomy Ontology
 
 ==Summary==
 
-The Teleost Anatomy Ontology (TAO) is a multi-species anatomy ontology for teleost fishes. The TAO uses terms from the Common Anatomy Reference Ontology as a template for its upper level nodes, and the Vertebrate Skeletal Anatomy Ontology for general skeletal anatomy classes. for Growth of the TAO is enabled by contributions from data curators and the ichthyological community (see [[#Anatomy Term Tracker and Teleost-discuss Mailing List|Anatomy Term Trackers]]). The TAO can be browsed by using the [http://bioportal.bioontology.org/visualize/38362 NCBO BioPortal]. Details about the development and use of TAO can be found in [http://sysbio.oxfordjournals.org/cgi/content/abstract/syq013/ Dahdul et al. 2010]
+The Teleost Anatomy Ontology (TAO) is a multi-species anatomy ontology for teleost fishes. The TAO uses terms from the Common Anatomy Reference Ontology as a template for its upper level nodes, and the Vertebrate Skeletal Anatomy Ontology for general skeletal anatomy classes. Growth of the TAO is enabled by contributions from data curators and the ichthyological community (see [[#Anatomy Term Tracker and Teleost-discuss Mailing List|Anatomy Term Trackers]]). The TAO can be browsed by using the [http://bioportal.bioontology.org/visualize/38362 NCBO BioPortal]. Details about the development and use of TAO can be found in [http://sysbio.oxfordjournals.org/cgi/content/abstract/syq013/ Dahdul et al. 2010]
 
-The current release may be found [http://obo.cvs.sourceforge.net/viewvc/obo/obo/ontology/anatomy/gross_anatomy/animal_gross_anatomy/fish/teleost_anatomy.obo here].
+The current release may be found [http://purl.obolibrary.org/obo/tao.obo here].
 
 == TAO and ZFA synchronization ==
 The TAO was initialized with terms from the ZFA, and we currently maintain manual synchronization of the two ontologies.  We developed the [http://phenoscape.org/wiki/Synchronization_Tool Synchronization Tool] as an Obo-Edit plug-in to help automate this process.
