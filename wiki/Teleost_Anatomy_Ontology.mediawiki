@@ -4,7 +4,7 @@ title: Teleost Anatomy Ontology
 
 ==Summary==
 
-The Teleost Anatomy Ontology (TAO) is a multi-species anatomy ontology for teleost fishes. The TAO uses terms from the Common Anatomy Reference Ontology as a template for its upper level nodes, and the Vertebrate Skeletal Anatomy Ontology for general skeletal anatomy classes. Growth of the TAO is enabled by contributions from data curators and the ichthyological community (see [[#Anatomy Term Tracker and Teleost-discuss Mailing List|Anatomy Term Trackers]]). The TAO can be browsed by using the [http://bioportal.bioontology.org/visualize/38362 NCBO BioPortal]. Details about the development and use of TAO can be found in [http://sysbio.oxfordjournals.org/cgi/content/abstract/syq013/ Dahdul et al. 2010]
+The Teleost Anatomy Ontology (TAO) is a multi-species anatomy ontology for teleost fishes. The TAO uses terms from the Common Anatomy Reference Ontology as a template for its upper level nodes, and the Vertebrate Skeletal Anatomy Ontology for general skeletal anatomy classes. Growth of the TAO is enabled by contributions from data curators and the ichthyological community (see [[#Anatomy Term Tracker and Teleost-discuss Mailing List|Anatomy Term Trackers]]). The TAO can be browsed by using the [http://bioportal.bioontology.org/visualize/38362 NCBO BioPortal] and data annotated using TAO terms can be queried using the [http://kb.phenoscape.org/ Phenoscape Knowedgebase]. Details about the development and use of TAO can be found in [http://sysbio.oxfordjournals.org/cgi/content/abstract/syq013/ Dahdul et al. 2010]
 
 The current release may be found [http://purl.obolibrary.org/obo/tao.obo here].
 
