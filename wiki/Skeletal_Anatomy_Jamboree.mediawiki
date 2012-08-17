@@ -20,7 +20,7 @@ The main focus of this meeting will be to re-evaluate the high-level skeletal sy
 == Download the Vertebrate Anatomy Ontology ==
 Download current release version in [http://purl.obolibrary.org/obo/vsao.obo OBO] or [http://purl.obolibrary.org/obo/vsao.owl OWL]  format.
 
-Download the version generated from discussion at the workshop [here https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/VSAO-workshop.obo]
+Download the version generated from discussion at the workshop [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/VSAO-workshop.obo here]
 
 == Agenda ==
 
