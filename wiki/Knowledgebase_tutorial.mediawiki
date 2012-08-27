@@ -61,5 +61,6 @@ Two of the more experimental interfaces to the KB use the organismal taxonomy to
 ==Downloading data==
 [[Image:KB_download_data.png|thumb|Links to download bulk data.|right|250px]]
 Knowledgebase data can be downloaded in bulk—look for the '''Download''' links following data tables on each page. JSON is a structured text format useful to programmers. The plain-text output is tab-delimited and can be viewed within Microsoft Excel. Please contact us if you are interested in a different format (such as RDF) or would like a dump of all the data.
+<br style="clear: both">
 
 ==Providing feedback==
