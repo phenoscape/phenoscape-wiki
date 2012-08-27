@@ -64,4 +64,4 @@ Knowledgebase data can be downloaded in bulk—look for the '''Download''' links
 <br style="clear: both">
 
 ==Providing feedback==
-Please contact us with suggestions on how to make this interface work better for you. At the top of each page of the KB, there is a prominent '''Feedback''' button. You can also send an email to [help@phenoscape.org].
+Please contact us with suggestions on how to make this interface work better for you. At the top of each page of the KB, there is a prominent '''Feedback''' button. You can also send an email to [[help@phenoscape.org]].
