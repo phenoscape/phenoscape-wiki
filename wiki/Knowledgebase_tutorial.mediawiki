@@ -59,5 +59,6 @@ Two of the more experimental interfaces to the KB use the organismal taxonomy to
 <br style="clear: both">
 
 ==Downloading data==
+Knowledgebase data can be downloaded in bulk—look for the '''Download''' links following data tables on each page.
 
 ==Providing feedback==
