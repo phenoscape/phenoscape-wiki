@@ -17,7 +17,7 @@ We hold regular project [https://www.phenoscape.org/wiki/Anatomy_Ontology_Conf_c
 
 ==Vertebrate Skeletal Anatomy Ontology (VSAO) ==
 
-VSAO contains terms representing structures in the musculoskeletal system of vertebrates. It references terms from the Common Anatomy Reference Ontology (CARO), Gene Ontology (GO) Biological Process, Cell Ontology (CL), and the Phenotype and Trait Ontology (PATO). VSAO can be downloaded at the [http://obofoundry.org/cgi-bin/detail.cgi?id=vertebrate_anatomy OBO Foundry] and browsed at [http://bioportal.bioontology.org/ontologies/45737?p=terms BioPortal].
+VSAO contains terms representing structures in the musculoskeletal system of vertebrates. It references terms from the Common Anatomy Reference Ontology (CARO), Gene Ontology (GO) Biological Process, Cell Ontology (CL), and the Phenotype and Trait Ontology (PATO). VSAO can be downloaded at the [http://obofoundry.org/cgi-bin/detail.cgi?id=vertebrate_skeletal_anatomy OBO Foundry] and browsed at [http://bioportal.bioontology.org/ontologies/45737?p=terms BioPortal].
 
 Ontology update requests can be made on the Vertebrate Anatomy term request tracker. Requests are forwarded to the vertebrate anatomy mailing list.
 
