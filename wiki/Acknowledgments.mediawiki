@@ -46,7 +46,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 * John Lundberg, The Academy of Natural Sciences, Philadelphia
 * Richard Mayden, St. Louis University
 
-===Vertebrate Musculoskeletal Anatomy Ontology (VAO) Contributors===
+===Vertebrate Skeletal Anatomy Ontology (VSAO) Contributors===
 * James P. Balhoff, National Evolutionary Synthesis Center
 * David C. Blackburn, California Academy of Sciences
 * Wasila Dahdul, University of South Dakota
