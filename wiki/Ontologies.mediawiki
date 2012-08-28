@@ -61,10 +61,10 @@ The Adult Mouse Anatomy (MA) ontology contains terms that represent structures i
 * Term requests can be submitted on the [http://sourceforge.net/tracker/?group_id=76834&atid=1205376 mouse anatomy tracker]
 
 ====Development====
-Cross references to VAO musculo-skeletal terms will be added
+Cross references to VSAO skeletal terms will be added
 
 == Teleost Anatomy Ontology (TAO) ==
-TAO is a multi-species ontology for teleost fishes that was initialized with terms from the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across fishes, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology. The development of the TAO is described in [http://sysbio.oxfordjournals.org/content/59/4/369.full Dahdul et al. (2010)]. Download TAO from the [http://obofoundry.org/cgi-bin/detail.cgi?id=teleost_anatomy OBO Foundry]  and browse at [http://bioportal.bioontology.org/visualize/38362 BioPortal]. 
+TAO is a multi-species ontology for teleost fishes that was initialized with terms from the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across fishes, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology. The development of the TAO is described in [http://sysbio.oxfordjournals.org/content/59/4/369.full Dahdul et al. (2010)]. Download TAO from the [http://obofoundry.org/cgi-bin/detail.cgi?id=teleost_anatomy OBO Foundry]  and browse at [http://bioportal.bioontology.org/visualize/38362 BioPortal].
 
 Further documentation about TAO is located here: [[Teleost_Anatomy_Ontology|Teleost_Anatomy_Ontology]]
 
@@ -73,7 +73,7 @@ Further documentation about TAO is located here: [[Teleost_Anatomy_Ontology|Tele
 
 ====Development====
 
-VAO musculo-skeletal terms will be imported, and existing TAO terms applicable outside of Teleostei will be obsoleted and added to VAO for subsequent import
+VSAO skeletal terms will be imported, and existing TAO terms applicable outside of Teleostei will be obsoleted and added to VAO for subsequent import
 
 == Xenopus Anatomy Ontology (XAO) ==
 XAO contains terms that represent anatomical structures for the model organism ''Xenopus laevis'' (African clawed frog). [http://www.xenbase.org Xenbase] uses XAO to annotate Xenopus gene expression and phenotypes. XAO can be downloaded at the [http://obofoundry.org/cgi-bin/detail.cgi?id=xenopus_anatomy OBO Foundry] and browsed at the [http://bioportal.bioontology.org/ontologies/45264?p=terms BioPortal].
@@ -84,7 +84,7 @@ XAO contains terms that represent anatomical structures for the model organism '
 
 ====Development====
 
-Cross references to AAO and VAO musculo-skeletal terms will be added
+Cross references to AAO and VSAO skeletal terms will be added
 
 == Zebrafish Anatomical Ontology (ZFA) ==
 ZFA is used by [http://zfin.org ZFIN] to annotate mutant phenotypes for the model organsim zebrafish (''Danio rerio''). ZFA can be downloaded from the [http://obofoundry.org/cgi-bin/detail.cgi?id=zebrafish_anatomy OBO Foundry] and browsed at the [http://bioportal.bioontology.org/ontologies/1051 BioPortal].
@@ -93,7 +93,7 @@ ZFA is used by [http://zfin.org ZFIN] to annotate mutant phenotypes for the mode
 * Edit version is kept internally at ZFIN, but a prerelease edit version is available at [http://obo.cvs.sourceforge.net/viewvc/obo/obo/ontology/anatomy/gross_anatomy/animal_gross_anatomy/fish/preversion.zfish.obo]
 
 ====Development====
-ZFA terms are cross referenced to TAO terms, and these cross references will be maintained and updated as needed. In addition, cross references to VAO musculo-skeletal terms will be added.
+ZFA terms are cross referenced to TAO terms, and these cross references will be maintained and updated as needed. In addition, cross references to VSAO skeletal terms will be added.
 
 = Taxonomy Ontologies =
 
