@@ -21,7 +21,8 @@ Phenoscape-ext contains the TAO, AAO, and VSAO combined with Uberon. We are curr
 Ontology update requests can be made on the Uberon term request tracker:
 [https://github.com/cmungall/uberon/issues]
 
-* Source edit file available here: [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/edit/phenoscape-ext.owl/]
+* Source edit file available here: [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/edit/phenoscape-ext.owl]
+* PURL: http://purl.obolibrary.org/obo/uberon/phenoscape-ext.owl
 
 ==Vertebrate Skeletal Anatomy Ontology (VSAO) ==
 
