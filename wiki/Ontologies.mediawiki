@@ -123,22 +123,22 @@ The current release, as used in Phenex is
 
 
 
-== Shared Ontologies ==
+= Shared Ontologies =
 
 These ontologies listed below were initiated by the model organism communities. Phenoscape is actively involved in extending these ontologies.
 
-=== Phenotype and Trait Ontology ===
+== Phenotype and Trait Ontology ==
 
 * [http://bioportal.bioontology.org/visualize/38339 Phenotype and Trait Ontology (PATO)]
 
-=== Evidence Code Ontology ===
+== Evidence Code Ontology ==
 
 *[http://bioportal.bioontology.org/visualize/36625 Evidence Code Ontology]
 
-=== Relations Ontology ===
+== Relations Ontology ==
 * [http://www.obofoundry.org/ro/ OBO-relations]
 
-=== Spatial Ontology ===
+== Spatial Ontology ==
 *[http://bioportal.bioontology.org/visualize/29952 Spatial Ontology]
 
 === Comparative Data Analysis Ontology ===
