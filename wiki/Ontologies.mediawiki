@@ -5,8 +5,12 @@ title: Ontologies
 The Phenoscape project is coordinating the development and integration of multispecies and single species anatomy ontologies for vertebrates, with taxonomic focus on teleosts, zebrafish, amphibians, Xenopus, amniotes, and mouse. These ontologies are publicly available and being used and extended by the community [[Contributors|(view the list)]]. Where possible, we are also reusing external ontologies (e.g., PATO) from the broader biological community for the greatest interoperability across data types. The development of these ontologies follows OBO Foundry principles as much as possible, including reuse of ontology terms (by import or MIREOT) as the preferred mechanism for using shared terms. These anatomy ontologies are available from the OBO CVS-based version-control system, from which they are regularly loaded into the NCBO [http://bioportal.bioontology.org/ BioPortal] where they can be readily browsed, searched, and visualized. The ontologies are also available for download as .obo files from [http://www.obofoundry.org/ OBO Foundry] and can also be viewed using the [http://oboedit.org/ OBO-Edit] desktop or [http://protege.stanford.edu/| Protege] software.
 
 
-The existing model organism databases are largely hardcoded to reference identifiers for their own ontologies (e.g., MGI database reads MA term identifiers). In the long term, we will be exploring how to import terms into these ontologies. In the interim, the existing MOD vertebrate ontologies will continue to link to external terms using a cross-referencing strategy to external ontology identifiers (see [http://www.obofoundry.org/wiki/index.php/Inter-ontology_Links])
+The existing model organism databases are largely hardcoded to reference identifiers for their own ontologies (e.g., MGI database reads MA term identifiers). In the long term, we will be exploring how to import terms into these ontologies. In the interim, the existing MOD vertebrate ontologies will continue to link to external terms using a cross-referencing strategy to external ontology identifiers (see [[http://www.obofoundry.org/wiki/index.php/Inter-ontology_Links| Interontology links]])
 
+
+= Anatomy Ontologies =
+
+ONTOLOGY COORDINATION
 
 New personnel training topics for building and using ontologies are posted [[Annotator tutorial topics| here.]]
 
@@ -18,7 +22,7 @@ In the past we have held regular project [https://www.phenoscape.org/wiki/Anatom
 
 In addition, the phenoscape curators have been meeting twice weekly to have joint ontology editing sessions. Please let us know if you would like to join us, Melissa Haendel has been coordinating these sessions (haendel@ohsu.edu).
 
-= Anatomy Ontologies =
+
 
 ==Phenoscape-ext ==
 Phenoscape-ext contains the TAO, AAO, and VSAO combined with Uberon. We are currently in the process of reconciling the issues that arose during this merge, so you may see some messiness for a bit.  This ontology will be used by phenoscape for annotation of evolutionary characters. Phenoscape-ext is our first foray into working directly in OWL.
@@ -77,7 +81,7 @@ ZFA is used by [http://zfin.org ZFIN] to annotate mutant phenotypes for the mode
 * Edit version is kept internally at ZFIN, but a prerelease edit version is available at [http://obo.cvs.sourceforge.net/viewvc/obo/obo/ontology/anatomy/gross_anatomy/animal_gross_anatomy/fish/preversion.zfish.obo]
 
 ====Development====
-ZFA terms are cross referenced to TAO terms, and these cross references will be maintained and updated as needed. 
+ZFA terms are cross referenced to TAO terms, and these cross references will be maintained and updated as needed.
 
 = Taxonomy Ontologies =
 
