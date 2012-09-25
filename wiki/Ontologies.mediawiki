@@ -61,7 +61,7 @@ TAO is a multi-species ontology for teleost fishes that was initialized with ter
 
 Further documentation about TAO is located here: [[Teleost_Anatomy_Ontology|Teleost_Anatomy_Ontology]]
 
-NOTE: as per above case with VSAO, AAO has been merged into phenoscape-ext and is no longer under development.
+NOTE: as per above case with VSAO, the TAO has been merged into phenoscape-ext and is no longer under development.
 
 == Mouse Adult Gross Anatomy (MA) ==
 The Adult Mouse Anatomy (MA) ontology contains terms that represent structures in the postnatal mouse (''Mus'') and is used to annotate gene expression and phenotypes for the mouse at [http://www.informatics.jax.org/ Mouse Genome Informatics (MGI)] and other resources. Development of the MA is described in [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1088948/ Hayamizu et al. (2005)]. The MA is available for download at the [http://obofoundry.org/cgi-bin/detail.cgi?id=adult_mouse_anatomy OBO Foundry] and can be browsed using the [http://www.informatics.jax.org/searches/AMA_form.shtml Mouse Anatomy Browser].
