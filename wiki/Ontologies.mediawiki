@@ -9,7 +9,7 @@ The existing model organism databases are largely hardcoded to reference identif
 
 
 New personnel training topics for building and using ontologies are posted [[Annotator tutorial topics| here.]]
-See also the course materials for the anatomy ontology course held at NESCent in August of 2012: [http://code.google.com/p/nescent-anatomy-course/source/browse/#svn%2Ftrunk%2Fmaterial_for_course]
+See also the course materials for the anatomy ontology course held at NESCent in August of 2012: [[NESCent Anatomy Ontology Course| http://code.google.com/p/nescent-anatomy-course/source/browse/#svn%2Ftrunk%2Fmaterial_for_course]
 
 Ontology editing workflow is here: [[Ontology_workflow| Ontology Workflow]]
 
@@ -37,7 +37,7 @@ VSAO contains terms representing structures in the skeletal system of vertebrate
 
 * Release version available here: [http://phenoscape.svn.sourceforge.net/svnroot/phenoscape/tags/vocab-releases/VSAO/vsao.obo]
 
-Note that VSAO as released represents the outcome of the skeletal anatomy workshop held at NESCent [https://phenoscape.org/wiki/Skeletal_Anatomy_Jamboree] and corresponding paper due out in PlosOne. 
+Note that VSAO as released represents the outcome of the skeletal anatomy workshop held at NESCent [https://phenoscape.org/wiki/Skeletal_Anatomy_Jamboree] and corresponding paper due out in PlosOne.
 NOTE: VSAO development moving forward has been merged into the above Phenoscape-ext ontology described above.
 
 VSAO will be expanded to include terms in the skeletal system that are shared by two or more multispecies vertebrate ontologies. These shared terms will be imported into the multispecies ontologies. For example, ‘femur’, a term applicable to AAO and AMAO, will be added to phenoscape-ext. Shared terms that already exist in multispecies ontologies will be obsoleted, given a "replaced_by" relationship to the relevant phenoscape-ext term, and the shared term subsequently imported into the ontology. Terms shared by a multispecies ontology and its corresponding single-species ontology (e.g., AAO and XAO) would also ideally be imported from the multispecies ontology into the single species ontology (or rather, a single ontology for that taxonomic group could be used). However, because MODs currently cannot import terms, shared terms will instead be duplicated in single species ontologies and cross-referenced to the term in the external ontology. For example, because XAO and AAO both contain ‘radio-ulna’, the term XAO term will cross-reference the AAO or phenoscape-ext ID for radio-ulna.
