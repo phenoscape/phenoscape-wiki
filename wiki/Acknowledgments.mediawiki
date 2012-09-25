@@ -5,6 +5,13 @@ title: Acknowledgments
 ==Contributors==
 The following individuals have contributed to Phenoscape ontology development, data curation, workshops, and data entry:
 
+===Phenoscape-ext Contributors===
+* Wasila Dahdul, University of South Dakota
+* T. Alexander Dececchi, University of South Dakota
+* Chris Mungall, LBL
+* Melissa Haendel, OHSU
+* Nizar Ibrahim, University of Chicago
+
 ===Teleost Anatomy Ontology (TAO) Contributors===
 * Gloria Arratia, The University of Kansas
 * David Blackburn, University of Kansas
@@ -16,7 +23,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Jeff Engeman, University of South Dakota
 * Benjamin Frable, National Museum of Natural History, Smithsonian Institution
 * Terry Grande, Loyola University, Chicago
-* Melissa Haendel, Zebrafish Information Network
+* Melissa Haendel, OHSU
 * Brian Hall, Dalhousie University
 * Eric Hilton, Virginia Institute of Marine Science
 * John Lundberg, The Academy of Natural Sciences, Philadelphia
@@ -24,7 +31,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Richard Mayden, St. Louis University
 * Martin Ringwald, The Jackson Laboratory
 * Mark Sabaj Pérez, The Academy of Natural Sciences, Philadelphia
-* Erik Segerdell, University of Calgary
+* Erik Segerdell, OHSU
 * Brian Sidlauskas, Oregon State University
 * Sandrine Tercerie, Muséum National d'Histoire Naturelle
 * Ceri Van Slyke, Zebrafish Information Network
