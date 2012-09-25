@@ -71,8 +71,8 @@ The Adult Mouse Anatomy (MA) ontology contains terms that represent structures i
 == Xenopus Anatomy Ontology (XAO) ==
 XAO contains terms that represent anatomical structures for the model organism ''Xenopus laevis'' (African clawed frog). [http://www.xenbase.org Xenbase] uses XAO to annotate Xenopus gene expression and phenotypes. XAO can be downloaded at the [http://obofoundry.org/cgi-bin/detail.cgi?id=xenopus_anatomy OBO Foundry] and browsed at the [http://bioportal.bioontology.org/ontologies/45264?p=terms BioPortal].
 
-* Term tracker is available here:
-* Source directory is available here:
+* Term tracker is available here: [https://sourceforge.net/tracker/?atid=1127722&group_id=76834]
+* Source directory is available here: [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/vocab/xenopus_anatomy_2.0.8_eriks3.obo]
 
 == Zebrafish Anatomical Ontology (ZFA) ==
 ZFA is used by [http://zfin.org ZFIN] to annotate mutant phenotypes for the model organsim zebrafish (''Danio rerio''). ZFA can be downloaded from the [http://obofoundry.org/cgi-bin/detail.cgi?id=zebrafish_anatomy OBO Foundry] and browsed at the [http://bioportal.bioontology.org/ontologies/1051 BioPortal].
