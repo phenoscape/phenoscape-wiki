@@ -25,7 +25,7 @@ In addition, the phenoscape curators have been meeting twice weekly to have join
 
 
 ==Phenoscape-ext ==
-Phenoscape-ext contains the TAO, AAO, and VSAO combined with Uberon. We are currently in the process of reconciling the issues that arose during this merge, so you may see some messiness for a bit.  This ontology will be used by phenoscape for annotation of evolutionary characters. Phenoscape-ext is our first foray into working directly in OWL.
+Phenoscape-ext contains the TAO, AAO, and VSAO combined with Uberon. We are currently in the process of reconciling the issues that arose during this merge (August, 2012), so you may see some messiness for a bit.  This ontology will be used by phenoscape for annotation of evolutionary characters. Phenoscape-ext is our first foray into working directly in OWL.
 
 Ontology update requests can be made on the Uberon term request tracker:
 [https://github.com/cmungall/uberon/issues]
