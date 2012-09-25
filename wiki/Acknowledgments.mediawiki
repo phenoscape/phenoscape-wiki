@@ -8,8 +8,8 @@ The following individuals have contributed to Phenoscape ontology development, d
 ===Phenoscape-ext Contributors===
 * Wasila Dahdul, University of South Dakota
 * T. Alexander Dececchi, University of South Dakota
-* Chris Mungall, LBL
-* Melissa Haendel, OHSU
+* Chris Mungall, Lawrence Berkeley Labs
+* Melissa Haendel, Oregon Health Sciences University
 * Nizar Ibrahim, University of Chicago
 
 ===Teleost Anatomy Ontology (TAO) Contributors===
