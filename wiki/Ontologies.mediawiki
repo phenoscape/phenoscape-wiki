@@ -108,7 +108,7 @@ There is a flat vocabulary of fish collections, based on [http://research.calaca
 The current release, as used in Phenex is
 [https://obo.svn.sourceforge.net/viewvc/obo/phenote/trunk/obo-files/fish_collection_abbreviation.obo?view=markup Fish Collection Abbreviations]
 
-=== Additional documentation ===
+== Additional documentation ==
 * [[Documenting taxon concepts used in a publication]]
 * [[Taxonomy ontology: ranks, unknown/unnamed species, & related issues]]
 * [[Hypodigm|Ambiguous specimen information: annotating phenotypes for specimens or species]] (also called the Hypodigm problem)
