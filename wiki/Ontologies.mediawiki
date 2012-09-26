@@ -86,7 +86,6 @@ These can provide links to additional synonyms and resources (e.g., TTO uses fis
 * [http://www.fishbase.org/ Fishbase] - their taxonomy is close to TTO (both based on Catalog of Fishes), but TTO uses it strictly as a name resource.
 * [http://gni.globalnames.org/ Global Names Index (GNI)] - Extensive list of names but no hierarchy.
 
-
 == Teleost Taxonomy Ontology (TTO) ==
 Phenotypes are associated with species using a taxonomy ontology, the [[Teleost Taxonomy Ontology]] (TTO) derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes] (see also the [http://bioportal.bioontology.org/visualize/38363 representation on BioPortal], which can be navigated on-line). The TTO is updated in concert with Catalog of Fishes updates.  Changes to the TTO relative to the latest version generated from a dump from the Catalog of Fishes are documented [[TTO_Changes]].
 
