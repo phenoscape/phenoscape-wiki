@@ -11,7 +11,7 @@ The existing model organism databases are largely hardcoded to reference identif
 == Ontology coordination ==
 
 * [[Annotator tutorial topics| New personnel training topics for building and using ontologies]]
-* [[Ontology_workflow| Ontology Workflow| Ontology editing workflow]]
+* [[Ontology_workflow| Ontology editing workflow]]
 * See also the [http://code.google.com/p/nescent-anatomy-course/source/browse/#svn%2Ftrunk%2Fmaterial_for_course| course materials for the anatomy ontology course] held at NESCent in August of 2012
 
 In the past we have held regular project [[Anatomy_Ontology_Conf_calls| anatomy ontology conference calls]] to discuss development with the curators of the various anatomy ontologies listed below. The limb/fin branch was the focus of ontology development in year 1. Currently, we coordinate our development calls with the [http://phenotypercn.org Phenotype RCN] vertebrate working group monthly calls. Information about these calls is sent to the obo-anatomy, phenotype-rcn vertebrate google groups, and the phenoscape project listservs. These calls are open to everyone and call in info and notes from them is available at the [http://wiki.phenotypercn.org/wiki/Vertebrates Vertebrate Working Group Wiki Page].
