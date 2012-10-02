@@ -103,20 +103,20 @@ Characters involving counts of entities are annotated using the “count” qual
 In the systematics literature, the size of a structure is often compared to the size of another structure, or it is compared to the same structure in another taxon.  For example, an author may compare the '''size of one bone relative to another''' (e.g., state 0: "frontal length greater than parietal length" vs. state 1: frontal length shorter than parietal length"). This is represented as:
 
 State 0:
-E: frontal, Q: increased length, E2: parietal
+ E: frontal, Q: increased length, E2: parietal
 State 1:
-E: frontal, Q: decreased length, E2: parietal
+ E: frontal, Q: decreased length, E2: parietal
 
 '''Comparison of the size of one structure across species''' (e.g., “state 0: frontal large” vs. “state 1: frontal small”, with taxonomic distribution recorded in the character by taxon matrix) is represented as:
 
 State 0
-E: frontal, Q: increased size
+ E: frontal, Q: increased size
 
 Note: The use of PATO size terms in Phenoscape are [[EQ_shortcuts_(temporary)|curatorial shortcuts]] because these terms are precomposed relative to "normal" (e.g., ''increased size'' has an ''increased_in'' relationship to "normal"). These annotations will be converted in the KB data loader to the correct form using PATO:size and the appropriate relation (''increased_in_magnitude_relative_to'', ''decreased_in_magnitude_relative_to'', ''similar_in_magnitude_relative_to'').
 
 '''Size comparisons within the same bone''' are represented by using a size quality in the entity field. For example, an author may describe the frontal bone as having a "greater length relative to width". This is represented as:
 
-E: frontal bone, Q: increased length, E2: width^inheres_in(frontal bone)
+ E: frontal bone, Q: increased length, E2: width^inheres_in(frontal bone)
 
 ====[[EQ_shortcuts_(temporary)|Locally relative phenotypes]]====
 
