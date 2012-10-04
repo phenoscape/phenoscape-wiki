@@ -77,16 +77,19 @@ Some characters describe multiple aspects of phenotypic variation in an entity (
 
 ===4. Presence/absence characters ===
 
-Variation is often reported describing an anatomical entity that is present in some taxa and lacking in others.  These characters are annotated using the terms ''present'' and ''absent'' :
+Variation in the presence or absence of an entity is annotated using the terms ''present'' and ''absent'', e.g. :
 
  E: pectoral fin, Q: present
  E: pectoral fin, Q: absent
 
 The use of ''present'' and ''absent'' in curation is a curatorial shortcut to the more logically sound syntax discussed on the [http://obofoundry.org/wiki/index.php/PATO:Absent PATO wiki]. These annotations will be translated into the logically sound form prior to their addition in the Phenoscape KB.
 
-If a character describes the presence or absence of a structure located on another entity (for example, teeth present on a particular bone), first check to see whether the structure exists as a term in TAO before creating a post-composition.  For example, a character might describe "teeth absent on basihyal bone." Rather than create a post-composition for entity ("tooth^part_of(basihyal bone)"), the entity in this case is a preexisting term chosen from TAO:
+If a character describes the presence or absence of a structure located on another entity (for example, teeth present on a particular bone), first check to see whether the structure exists as a term in the ontology before creating a post-composition.  For example, a character might describe "teeth absent on basihyal bone." Rather than create a post-composition for entity ("tooth^part_of(basihyal bone)"), the entity in this case is a preexisting term chosen from TAO:
 
- E: basihyal tooth, Q: absent
+E: basihyal tooth, Q: absent
+
+====Inferred presence from annotation to other attributes====
+If a character describes both the presence and some attribute of an entity, only the attribute is annotated because the presence of the entity can be inferred by the annotation. For example, a character might describe 'frontal bone' with state 'present and round'. This would be annotated as E: 'frontal bone', Q: 'round'.  The quality 'present' is not annotated because the presence of a frontal bone can be inferred from the annotation describing its shape.
 
 ===5. Counts===
 Characters involving counts of entities are annotated using the “count” quality.  Values for counts are entered in the “Comment” field(*).  Note that ranges and lower or upper bounds are recorded as follows:
