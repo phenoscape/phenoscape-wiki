@@ -237,17 +237,17 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 
 === Relations used for post-compositions ===
 
-connected_to
-has_quality
-in_left_side_of
-in_right_side_of
-inheres_in
-located_in
-overlaps
-part_of
-spatial relations (e.g., anterior_to, dorsal_to, distal_to, adjacent_to, vicinity_of)
-towards
-"not"
+ connected_to
+ has_quality
+ in_left_side_of
+ in_right_side_of
+ inheres_in
+ located_in
+ overlaps
+ part_of
+ spatial relations (e.g., anterior_to, dorsal_to, distal_to, adjacent_to, vicinity_of)
+ towards
+ "not"
 
 ==Evidence Codes==
 
