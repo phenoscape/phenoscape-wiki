@@ -16,7 +16,7 @@ We can now model absence correctly. The previous version of the KB used a qualit
 * not (''has_part'' some dorsal_fin)
 
 For a localized absence we would use a nested ''has_part'':
-* ''has_part'' some (head and ''has_part'' only (not scale))
+* ''has_part'' some (head and not (''has_part'' some scale))
 
 The ''has_part'' formulation also provides the benefit of automatic "present" inferences for structures used in any phenotype, not just "present" phenotypes.
 
