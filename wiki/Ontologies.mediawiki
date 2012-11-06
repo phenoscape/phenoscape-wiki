@@ -30,7 +30,7 @@ Phenoscape-ext contains the TAO, AAO, and VSAO combined with Uberon. We are curr
 
 VSAO contains terms representing structures in the skeletal system of vertebrates. It references terms from the Common Anatomy Reference Ontology (CARO), Gene Ontology (GO) Biological Process, Cell Ontology (CL), and the Phenotype and Trait Ontology (PATO). VSAO can be downloaded at the [http://obofoundry.org/cgi-bin/detail.cgi?id=vertebrate_skeletal_anatomy OBO Foundry] and browsed at [http://bioportal.bioontology.org/ontologies/45737?p=terms BioPortal].
 
-* Release version available here: [http://phenoscape.svn.sourceforge.net/svnroot/phenoscape/tags/vocab-releases/VSAO/vsao.obo]
+* Release version available here: [http://purl.obolibrary.org/obo/vsao.obo]
 
 Note that VSAO as released represents the outcome of the [[Skeletal_Anatomy_Jamboree| skeletal anatomy workshop held at NESCent]] and corresponding paper due out in PLOS ONE. Note also that VSAO development moving forward has been merged into the Phenoscape-ext ontology described above.
 
