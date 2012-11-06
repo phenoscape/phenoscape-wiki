@@ -2,6 +2,9 @@
 title: Training and Workshops
 ---
 
+== Workshop on New Tools for Studying Phenotype Evolution in the Vertebrates, February 7-10, 2013==
+What new research opportunities are opened up by the power to compute over phenotype information from thousands of species of vertebrates, together with phenotype and expression information for thousands of genes in multiple model organisms?  The first release of the Phenoscape Knowledgebase includes over 500K species phenotypes linked to 4,000+ genes from zebrafish, and is currently being extended to capture phenotype data from other vertebrates and linked to phenotype and expression data for other model organisms (including mouse and Xenopus).  We invite participants to a facilitated workshop with the aim of initiating new collaborations that will drive the development of the Phenoscape tool set/interface and would present new and creative ways to deepen understanding of phenotypic evolution. Phenoscape aims to support the initial steps in these activities. We are particularly interested in a broad approach to this problem and welcome interest from scientists with backgrounds in computational and systems biology, mathematics, development, genomics, and evolution. Location: California Academy of Sciences.  Organizers: David Blackburn, Paula Mabee and Todd Vision, together with KnowInnovation.
+
 == [https://academy.nescent.org/wiki/Anatomy_ontologies Anatomy Ontology Summer Course]: July 30 to August 3, 2012 ==
 A summer course on anatomy ontologies was offered in Durham NC, made possible by the NESCent Academy and the Phenotype Ontology Research Coordination Network.
 
