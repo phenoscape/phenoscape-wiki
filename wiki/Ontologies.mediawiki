@@ -34,7 +34,7 @@ VSAO contains terms representing structures in the skeletal system of vertebrate
 
 Note that VSAO as released represents the outcome of the [[Skeletal_Anatomy_Jamboree| skeletal anatomy workshop held at NESCent]] and corresponding paper due out in PLOS ONE. Note also that VSAO development moving forward has been merged into the Phenoscape-ext ontology described above.
 
-New skeletal terms for the limb/fin and cranial skeleton have and will continue to be added to the Phenoscape-ext ontology based on work done at the Phenotype RCN Vertebrate Working Group meeting in Boulder, CO (June 1-3, 2011) and [https://docs.google.com/spreadsheet/ccc?key=0Aj8NJdyb-leqdFdTaEJjNkMyUXR1SE1PSUNJc0gwcmc#gid=0 from ongoing work].
+New skeletal terms for the limb/fin and cranial skeleton have and will continue to be added to the Phenoscape-ext ontology based on work done at the Phenotype RCN Vertebrate Working Group meeting in Boulder, CO (June 1-3, 2011) and from ongoing work.
 
 == Amphibian Anatomy Ontology (AAO) ==
 AAO is a multispecies ontology for amphibian anatomy.
