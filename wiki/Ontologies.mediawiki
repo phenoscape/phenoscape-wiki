@@ -16,7 +16,7 @@ The existing model organism databases are largely hardcoded to reference identif
 
 In the past we have held regular project [[Anatomy_Ontology_Conf_calls| anatomy ontology conference calls]] to discuss development with the curators of the various anatomy ontologies listed below. The limb/fin branch was the focus of ontology development in year 1. Currently, we coordinate our development calls with the [http://phenotypercn.org Phenotype RCN] vertebrate working group monthly calls. Information about these calls is sent to the obo-anatomy, phenotype-rcn vertebrate google groups, and the phenoscape project listservs. These calls are open to everyone and call in info and notes from them is available at the [http://wiki.phenotypercn.org/wiki/Vertebrates Vertebrate Working Group Wiki Page].
 
-In addition, the Phenoscape curators have been meeting twice weekly to have joint ontology editing sessions. Please let us know if you would like to join us, Melissa Haendel has been coordinating these sessions (haendel@ohsu.edu).
+In addition, the Phenoscape curators have been meeting weekly to have joint ontology editing sessions. Please let us know if you would like to join us, Melissa Haendel has been coordinating these sessions (haendel@ohsu.edu).
 
 == Phenoscape-ext ==
 Phenoscape-ext contains the TAO, AAO, and VSAO combined with Uberon. We are currently in the process of reconciling the issues that arose during this merge (August, 2012), so you may see some messiness for a bit.  This ontology will be used by Phenoscape for annotation of evolutionary characters. Phenoscape-ext is our first foray into working directly in OWL.
