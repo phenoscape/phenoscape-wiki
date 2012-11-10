@@ -54,7 +54,7 @@ The following mailing lists have publicly accessible archives (linked to from th
 * Discussion of EQ formalism, phenotype description, PATO terms: [mailto:obo-phenotype%40lists%2e.sourceforge%2enet obo-phenotype@lists&#46;sourceforge&#46;net] - ''[https://lists.sourceforge.net/mailman/listinfo/obo-phenotype List subscription and archives]''
 * Anatomy ontology terms
 ** General anatomy: [mailto:obo-anatomy%40lists%2e.sourceforge%2enet obo-anatomy&#64;lists&#46;sourceforge&#46;net] - ''[https://lists.sourceforge.net/mailman/listinfo/obo-anatomy List subscription and archives]''
-** RCN Vertebrate Working Group: [mailto:rcn-vertebrate-working-group%40googlegroups%2e.com rcn-vertebrate-working-group@googlegroups.com]
+** RCN Vertebrate Working Group: [mailto:rcn-vertebrate-working-group%40googlegroups%2e.com rcn-vertebrate-working-group@googlegroups.com] - ''[https://groups.google.com/forum/?hl=en#!forum/rcn-vertebrate-working-group List subscription and archives]''
 
 === Project-only mailing lists ===
 
