@@ -90,7 +90,7 @@ Phenotypes are associated with species using a taxonomy ontology, the [[Teleost 
 * Download TTO from [http://bioportal.bioontology.org/visualize/38703 Bioportal] or [http://www.obofoundry.org/ OBO Foundry] (use [http://oboedit.org/ OBO Edit] desktop software to open and view .obo file).
 
 == Amphibian Taxonomy Ontology (ATO) ==
-The ATO is derived from the [http://amphibiaweb.org/ AmphibiaWeb] list, which provides both taxonomy and some synonyms from ITIS and the [http://www.iucnredlist.org/initiatives/amphibians IUCN redlist].
+The ATO is derived from the [http://amphibiaweb.org/ AmphibiaWeb] list, which provides both taxonomy and some synonyms from ITIS and the [http://www.iucnredlist.org/initiatives/amphibians IUCN redlist].  [http://bioportal.bioontology.org/ontologies/40791?p=terms The version available at BioPortal] is currently very out of date.
 
 == Taxonomic Rank Vocabulary (TAXRANK) ==
 During 2010, we released a separate [[Taxonomic Rank Vocabulary]], and removed all rank terms (e.g., family, genus, etc.) from the taxa within the TTO.  Taxa in the TTO specify their ranks as property values via the metadata relation has_rank, but the object of the has_rank links is contained in the TAXRANK vocabulary.
