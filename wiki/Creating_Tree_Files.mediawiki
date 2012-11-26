@@ -18,7 +18,7 @@ The following are instructions for creating and saving trees using [http://mesqu
 ## Name the tree after the figure number (e.g., Figure 6.).
 # To add additional trees to the file, modify the stored tree (e.g., Figure 6) as needed, then go to Tree > Store Tree As
 ## Name the tree after the new figure number
-#Use ZigVersion to check in your modified tree file.  If "hidden files" appear in the Tree Files folder, delete them within the ZigVersion program (you may need to restart ZigVersion to confirm that the files were deleted).
+
 
 ==== Tree tools commonly used ====
 Tree Window buttons
