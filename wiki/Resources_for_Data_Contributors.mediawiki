@@ -47,6 +47,10 @@ Most project files require a taxonomic expert to review the taxonomy used in a p
 
 Curation drives ontology development and many new terms and relationships need to be added. Term requests for updates to ontologies used in Phenoscape can be submitted to the following term trackers:
 
+* [https://github.com/cmungall/uberon/issues Uber Anatomy Ontology (Uberon) term tracker]
+* [http://sourceforge.net/tracker/?group_id=76834&atid=595654 Phenotype and Trait Ontology (PATO) term tracker] 
+* [http://sourceforge.net/tracker/?group_id=224046&atid=2519810 Vertebrate Taxonomy Ontology (VTO) term tracker]
+
 ==7. Subscribe to Curator and Ontology Request Mailing Lists ==
 * Phenoscape Curators mailing list (for discussion and communication of data curation issues, solutions, and progress):  http://lists.sourceforge.net/lists/listinfo/phenoscape-curators
 * Vertebrate Skeletal Anatomy Ontology term discussion: ''[https://lists.sourceforge.net/lists/listinfo/obo-vertebrate-anatomy List subscription and archives]'' | [mailto:obo-vertebrate-discuss%40lists%2e.sourceforge%2enet email: obo-vertebrate-anatomy@lists.sourceforge.net]
