@@ -2,81 +2,32 @@
 title: Annotation status
 ---
 
-===2009-05-20===
-*Publication count: 64
-*Total characters: 6263
-*Completed characters*: 1700
-*In-progress characters**: 204
-*Empty characters***: 4359
-*Total annotations: 4109
+==2012-11-26==
+===Fish excluding tetrapodomorphs===
+* Publication count: 16
+* Total characters: 1693
+* Completed characters: 221
+* Partially annotated characters: 79
+* Unannotated characters: 1393
+* Annotated states: 599
+* Total EQ annotations: 661
 
-===2009-03-30===
-*Publication count: 83
-*Total characters: 6549
-*Completed characters*: 1213
-*In-progress characters**: 220
-*Empty characters***: 5116
-*Total annotations: 2862
+===Amphibians and transitional===
+*Publication count: 28
+*Total characters: 3238
+*Completed characters: 496
+*Partially annotated characters: 96
+*Unannotated characters: 2646
+*Annotated states: 1332
+*Total EQ annotations: 1693
 
-===2009-03-23===
-*Publication count: 83
-*Total characters: 6550
-*Completed characters*: 1191
-*In-progress characters**: 219
-*Empty characters***: 5140
-*Total annotations: 2804
-
-===2009-03-19===
-*Publication count: 83
-*Total characters: 6549
-*Completed characters*: 1123
-*In-progress characters**: 217
-*Empty characters***: 5209
-*Total annotations: 2643
-
-===2009-02-18===
-*Publication count: 81
-*Total characters: 6386
-*Completed characters*: 903
-*In-progress characters**: 215
-*Empty characters***: 5268
-*Total annotations: 2514
-
-===2009-02-09===
-*Publication count: 80
-*Total characters: 6347
-*Completed characters*: 894
-*In-progress characters**: 211
-*Empty characters***: 5242
-*Total annotations: 2476
-
-===2009-02-02===
-*Publication count: 79
-*Total characters: 5940
-*Completed characters*: 894
-*In-progress characters**: 211
-*Empty characters***: 4835
-*Total annotations: 2476
-
-===2009-01-26===
-*Publication count: 78
-*Total characters: 5840
-*Completed characters*: 838
-*In-progress characters**: 208
-*Empty characters***: 4794
-*Total annotations: 2345
-
-===2008-11-14===
-*Publication count: 71
-*Total characters: 5096
-*Completed characters*: 395
-*In-progress characters**: 47
-*Empty characters***: 4654
-*Total annotations: 1067
-
-
-(*) Completed characters = all states have at least one annotation<br/>
-(**) In-progress characters = some state has an annotation<br/>
-(***) Empty characters = no state has an annotation<br/>
+===Sereno Files===
+*Publication count: 4
+*Total characters: 3608
+*Completed characters: 73
+*Partially annotated characters: 70
+*Unannotated characters: 3465
+*Annotated states: 298
+*Total EQ annotations: 334
 
 [[Category:Curation]]
