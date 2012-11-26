@@ -10,13 +10,11 @@ The following are instructions on how to update a taxon list for taxonomy and su
 
 Make sure that you have an internet connection before starting Phenex as the software will need to download updated ontology files if available.
 
-As always, make sure to Update your project files using ZigVersion, then start up Phenex and open the relevant xml file using File>Open.
-
 Choose the Taxon perspective by going to Window>Taxon. This will display only the Taxon panels (Taxa, Specimens, Term Info) in Phenex.
 
 ====Review Taxon List====
 
-The Taxa and Specimens Panels are used to record information from a publication's materials list. Within the Taxa Panel, the Publication Taxon field is a free-text field listing the names of all taxa used in the publication, and the Valid Taxon field is an ontology-enabled field linked to the Teleost Taxonomy Ontology, and used to record the current, valid names of the taxa.  Comments or questions about a particular entry are recorded in the Taxon Comments column. The Matrix Taxon field (which you usually do not need to edit) is used to record the name of taxa used in the matrix.  Specimen information (museum vouchers) for each species is recorded in the Specimens table.
+The Taxa and Specimens Panels are used to record information from a publication's materials list. Within the Taxa Panel, the Publication Taxon field is a free-text field listing the names of all taxa used in the publication, and the Valid Taxon field is an ontology-enabled field linked to the Vertebrate Taxonomy Ontology, and used to record the current, valid names of the taxa.  Comments or questions about a particular entry are recorded in the Taxon Comments column. The Matrix Taxon field (which you usually do not need to edit) is used to record the name of taxa used in the matrix.  Specimen information (museum vouchers) for each species is recorded in the Specimens table.
 
 You can sort the data by clicking on any column header.  Sort the "Taxon Comments" column to view the questions or comments that a student recorded about the taxon list.  Also sort by "Valid Taxon" to view missing entries.
 
@@ -31,7 +29,7 @@ If you make any updates on a file or submit term requests for an entry, be sure 
 ====Taxonomy ontology change requests====
 #Taxon name misspelled: Misspellings are requested as synonyms of the correctly spelled taxon name in the TTO.  Choose the appropriate name from the Valid Taxon field, and add note in Taxon Comments field (e.g., Requested addition of synonym to TTO, Your Name, 7/28/2008)
 #If an author has made an error in the generic assignment of a species, which does not represent a difference in taxonomic opinion or concepts, then the current valid name of that species should be chosen, and the erroneous name should be added to TTO as a synonym of the valid name.  The curator should add a comment in the Taxon Comments about the request.
-#Taxon name not found: If the missing taxon name is a synonym of a valid name, then the synonym will need to be added to the taxonomy ontology.  Add a note in Taxon Comments field (e.g., taxon XY is synonym of XZ: submitted TTO request on 7/28/2008 by Your Name).
+#Taxon name not found: If the missing taxon name is a synonym of a valid name, then the synonym will need to be added to the taxonomy ontology.  Add a note in Taxon Comments field (e.g., taxon XY is synonym of XZ: submitted VTO request on 7/28/2008 by Your Name).
 #Unnamed or unknown species:  Examples of unnamed or unknown species in a Materials list might include: Danio sp., Cyprinus sp. 1, Cyprinus sp. 2, Danio aff. dangila, Danio cf. dangila, etc... These names should be added to the taxonomy ontology with reference to the publication. In this example, for a publication by Smith 2008, the request for new species names would be:
 
 *Danio sp. (Smith 2008)
@@ -42,7 +40,7 @@ If you make any updates on a file or submit term requests for an entry, be sure 
 
 =====''Taxonomic Requests''=====
 
-You need only submit one request per publication.  See [https://www.nescent.org/phenoscape/Term_Requests term request instructions] for the TTO.
+You need only submit one request per publication.  See [https://www.nescent.org/phenoscape/Term_Requests term request instructions] for the VTO.
 
 =====''Museum Code Requests''=====
 
@@ -54,6 +52,6 @@ After making your taxon update, save the file and return to ZigVersion.  Select 
 
 ====Update entry for publication on Google Docs====
 
-Remember to make a note (dated) in the Taxon List Notes column of the shared publication spreadsheet on Google Docs (ask a PhenoScaper for access to the spreadsheet), recording that you have reviewed the taxon list and made any necessary term requests.
+Remember to make a note (dated) in the Taxon List Notes column of the shared publication spreadsheet on Google Docs (ask a Phenoscaper for access to the spreadsheet), recording that you have reviewed the taxon list and made any necessary term requests.
 
 [[Category:Curation]]
