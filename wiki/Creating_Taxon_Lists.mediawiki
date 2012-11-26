@@ -4,7 +4,7 @@ title: Creating Taxon Lists
 
 The following instructions provide details on how to build a Taxon List from a published materials list using Phenex.
 
-===Step 1: create and the file for your taxon list===
+===Step 1: create the file for your taxon list===
 
 
 Make sure that you have an internet connection before starting Phenex, because the software needs to download updated ontology files.
