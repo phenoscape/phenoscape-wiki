@@ -22,7 +22,8 @@ Phenoscape also maintains a collection of PDFs for teleost publications on the P
 
 ====Mac OS X====
 # In finder > Go > Connect to Server
-# Type in <nowiki>https://webdav.nescent.org/phenoscape-data</nowiki>
+# Type in
+<nowiki>https://webdav.nescent.org/phenoscape-data</nowiki> 
 # Accept security warning about certificate
 # enter username and password
 
@@ -30,7 +31,8 @@ Phenoscape also maintains a collection of PDFs for teleost publications on the P
 # Go to "My Network Places"
 # Add a Network Place (pulls up wizard)
 # Click Next twice
-# In internet or Network address box, type in <nowiki>https://webdav.nescent.org/phenoscape-data</nowiki>
+# In internet or Network address box, type in
+<nowiki>https://webdav.nescent.org/phenoscape-data</nowiki> 
 # Accept certificate warning, if given.
 # Give the share a meaningful name. Default is usually fine.
 # Finish
@@ -52,7 +54,10 @@ Curation drives ontology development and many new terms and relationships need t
 * [http://sourceforge.net/tracker/?group_id=224046&atid=2519810 Vertebrate Taxonomy Ontology (VTO) term tracker]
 * [http://phenoscape.org/wiki/Ontologies#Fish_Collection_Codes_Vocabulary Collection Codes Vocabulary]
 
-==7. Subscribe to Curator and Ontology Request Mailing Lists ==
+==7. Edit the Anatomy Ontology ==
+* [http://phenoscape.org/wiki/Ontology_workflow Ontology Editing Guidelines]
+
+==8. Subscribe to Curator and Ontology Request Mailing Lists ==
 * Phenoscape Curators mailing list (for discussion and communication of data curation issues, solutions, and progress):  [http://lists.sourceforge.net/lists/listinfo/phenoscape-curators phenoscape-curators]
 * Discussion of EQ formalism, phenotype description, PATO terms:  ''[https://lists.sourceforge.net/mailman/listinfo/obo-phenotype obo-phenotype]
 * Discussion of anatomy ontology issues ''[https://lists.sourceforge.net/lists/listinfo/obo-anatomy obo-anatomy]
