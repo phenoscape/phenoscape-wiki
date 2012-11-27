@@ -17,13 +17,16 @@ title: Publications and Posters
 
 ==Posters & Presentations==
 ===2012===
-Mabee, P. M. "Synthesis of evolutionary and developmental data for fishes using new informatics tools' Oral presentation, World Congress of Herpetology, Vancouver, BC, August 8-14, 2012. 
+Mabee, P. M. "Synthesis of evolutionary and developmental data for fishes using new informatics tools' Oral presentation, World Congress of Herpetology, Vancouver, BC, August 8-14, 2012.
 
 James P. Balhoff, Wasila M. Dahdul, Hilmar Lapp, Paula M. Mabee, Peter E. Midford, Todd J. Vision, and Monte J. Westerfield, on behalf of the Phenoscape Project Team.  "The Phenoscape Knowledgebase: Integrating phenotypic data across taxonomy, from biodiversity to developmental genetics". Poster at DILS 2012, College Park, MD, June 28, 2012.
 
 Balhoff, J.P. "Linking phenotypes using ontologies." Invited seminar, California Academy of Sciences, March 28, 2012.
 
 Vision T. "Phenotypes, descriptive data, and measuring similarity using structured vocabularies". Invited seminar, University of Gottingen, March 8, 2012.
+
+Sereno, P.C., Ibrahim, N., Mabee, P., Vision, T., Lapp, H. "Phenoscape: A New Anatomical Ontology of Vertebrates". Society of Vertebrate Paleontology, Annual Meeting, October 18, 2012.
+
 
 ===2011===
 
