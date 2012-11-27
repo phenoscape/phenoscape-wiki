@@ -224,6 +224,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 |
 * Paula Mabee
 * Wasila Dahdul
+* Alex Dececchi
 |
 * [http://zfin.org/cgi-bin/webdriver?MIval=aa-persview.apg&OID=ZDB-PERS-960805-676 Monte Westerfield]
 * Yvonne Bradford
