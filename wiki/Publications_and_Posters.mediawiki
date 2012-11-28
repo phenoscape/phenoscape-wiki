@@ -27,6 +27,9 @@ Vision T. "Phenotypes, descriptive data, and measuring similarity using structur
 
 Sereno, P.C., Ibrahim, N., Mabee, P., Vision, T., Lapp, H. "Phenoscape: A New Anatomical Ontology of Vertebrates". Society of Vertebrate Paleontology, Annual Meeting, October 18, 2012.
 
+Dececchi, T.A., Balhoff, J., Dahdul, W., Ibrahim, N., Lapp., H., Midford, P., Sereno, P.C., Vision, T., Westerfield, M., Mabee, P., Blackburn., D. "Phenoscape: Bridging the gap between fossils and genes".Society of Vertebrate Paleontology, Annual Meeting, October 18, 2012.
+
+[[Category:Curation]]
 
 ===2011===
 
