@@ -3,7 +3,7 @@ title: Annotator tutorial topics
 ---
 
 Agenda- topics and software for curator training:
-Overview of curation workflow (see Sandrine’s slides) and software involved
+Overview of curation workflow and software involved
 
 ====Ontology development:====
 Protege tutorial
