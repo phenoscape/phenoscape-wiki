@@ -47,7 +47,7 @@ Most project files require a taxonomic expert to review the taxonomy used in a p
 
 ==6. Request New Terms for Ontologies==
 
-Curation drives ontology development and many new terms and relationships need to be added. Term requests for updates to ontologies used in Phenoscape can be submitted to the following term trackers:
+Curation drives ontology development and many new terms and relationships need to be added. Submit requests for updates to the ontologies used in Phenoscape to the following term trackers:
 
 * [https://github.com/cmungall/uberon/issues Uber Anatomy Ontology (Uberon) term tracker]
 * [http://sourceforge.net/tracker/?group_id=76834&atid=595654 Phenotype and Trait Ontology (PATO) term tracker]
