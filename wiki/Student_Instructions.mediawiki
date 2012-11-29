@@ -6,19 +6,19 @@ title: Student Instructions
 
 Phenex is used by Phenoscape for curation of evolutionary phenotypes.  You can find instructions for downloading and installing Phenex at the [[Phenex|Phenex homepage]].
 
-===2. Create a SourceForge account===
-We use [http://sourceforge.net/ SourceForge] to maintain our data files and you'll need a username and password to work with these files.
-
-===3. Use DropBox to work with project files ===
+===2. Use DropBox to work with project files ===
 
 Phenoscape project files are XML files (more specifically, they are in [http://nexml.org NeXML] format) created using Phenex and housed in a shared [http://www.dropbox.com DropBox] folder (named 'Phenoscape-data').  Please contact Wasila or Paula for access.
 
-===4. Download PDFs from the Phenoscape Fileshare ===
-PDFs are shared using Mendeley. Some PDFs are also available in the Phenoscape file share.  Please ask a Phenoscaper for the username and password.
+===3. Access PDFs from the Phenoscape Mendeley library ===
+PDFs are shared using Mendeley. Please ask Paula or Wasila for access to the group.  
+
+Note: PDFs for teleost publications are housed on a file share; see access instructions below:
 
 ====Mac OS X====
 # In finder > Go > Connect to Server
 # Type in
+
 
 <nowiki>https://webdav.nescent.org/phenoscape-data</nowiki> 
 # Accept security warning about certificate
@@ -30,15 +30,16 @@ PDFs are shared using Mendeley. Some PDFs are also available in the Phenoscape f
 # Click Next twice
 # In internet or Network address box, type in
 
+
 <nowiki>https://webdav.nescent.org/phenoscape-data</nowiki> 
 # Accept certificate warning, if given.
 # Give the share a meaningful name. Default is usually fine.
 # Finish
 
-===5. Subscribe to Curator Mailing List ===
+===4. Subscribe to Curator Mailing List ===
 * Phenoscape Curators mailing list (for discussion and communication of data curation issues, solutions, and progress):  http://lists.sourceforge.net/lists/listinfo/phenoscape-curators
 
-===6. Create Tree Files ===
+===5. Create Tree Files ===
 
 We use [http://mesquiteproject.org/mesquite/mesquite.html Mesquite] to create nexus files containing trees replicated from fish publications.  See this page for [[Creating_Tree_Files|instructions on creating tree files using Mesquite.]]
 
