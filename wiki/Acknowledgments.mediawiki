@@ -221,7 +221,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 * [[User:Hlapp| Hilmar Lapp]]
 * [http://www.mendeley.com/profiles/jim-balhoff/ Jim Balhoff]
 * Peter Midford
-| 
+|
 * Paula Mabee
 * Wasila Dahdul
 * Alex Dececchi
@@ -232,7 +232,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 |- style="height: 1px;"
 |
 |- align="left" style="font-weight: bold; "
-| Oregon Health Science University
+| Oregon Health & Science University
 |- valign="top"
 |
 * Melissa Haendel
