@@ -3,7 +3,7 @@ title: Publications and Posters
 ---
 
 ==Publications==
-* Arighi, C, et al. (including Dahdul, Mabee, Cui, Haendel, Balhoff) 2012. "An Overview of the BioCreative 2012 Workshop Track III: Interactive Text Mining Task" Database (in press)
+* Arighi, C, et al. (including Dahdul, Mabee, Cui, Haendel, Balhoff) 2012. An Overview of the BioCreative 2012 Workshop Track III: Interactive Text Mining Task. Database (in press)
 * Bertone, M.A., I. Mikó, M.J. Yoder, K.C. Seltmann, J.P. Balhoff, and A.R. Deans. 2012. Matching arthropod anatomy ontologies to the Hymenoptera Anatomy Ontology: Results from a manual alignment. Database (in press)
 * Dahdul W.M., Balhoff J.P, Blackburn D.C., Diehl A.D., Haendel M.A., Hall B.K., Lapp H., Lundberg J.G., Mungall C.J., Ringwald M., Segerdell E., Van Slyke C.E., Vickaryous M.K., Westerfield M., Mabee P.M. 2012. A unified anatomy ontology of the vertebrate skeletal system. PLoS ONE (in press)
 * Mullins P., Kawada R., Balhoff J.P., Deans A. 2012. A revision of Evaniscus (Hymenoptera, Evaniidae) using ontology-based semantic phenotype annotation. ZooKeys 223:1-38 http://dx.doi.org/10.3897/zookeys.223.3572
