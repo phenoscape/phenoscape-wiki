@@ -239,7 +239,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 |- style="height: 10px;"
 |
 |- align="left" style="font-weight: bold; "
-| University of Chicago || Mouse Genome Informatics || Cincinnati Children's
+| University of Chicago || Mouse Genome Informatics || Cincinnati Children's Hospital Medical Center
 |- valign="top"
 |
 * Paul Sereno
