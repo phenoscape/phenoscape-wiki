@@ -284,6 +284,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Cyndy Parr (Encyclopedia of Life)
 * Paul Schofield (University of Cambridge)
 * Peter Vize (University of Calgary)
+* Alan Ruttenberg (University of Buffalo) (2011-2012)
 
 === Meetings ===
 
