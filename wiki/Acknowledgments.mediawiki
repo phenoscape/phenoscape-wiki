@@ -194,9 +194,11 @@ The following individuals have contributed to Phenoscape ontology development, d
 ===Students===
 * Alex Ahearn, Duke University
 * Alyssa Block, University of South Dakota
+* Jordan Catlett, University of South Dakota
 * Sonia Crichigno, Centro Regional Universitario Bariloche, (Univ. Nac. del Comahue), Argentina
 * Jeff Engeman, University of South Dakota
 * Benjamin Frable, National Museum of Natural History, Smithsonian Institution
+* Char Green, University of South Dakota
 * Ericka Grey, University of South Dakota
 * Jun Hong Kim, Duke University
 * Jonathan Lee, Duke University
