@@ -281,7 +281,7 @@ The following individuals have contributed to Phenoscape ontology development, d
 === Members ===
 * John Day-Richter (Google)
 * Brian K. Hall (Dalhousie University)
-* Cyndy Parr (Encyclopedia of Life)
+* Cyndy Parr (Encyclopedia of Life) (2012-)
 * Paul Schofield (University of Cambridge)
 * Peter Vize (University of Calgary)
 * Alan Ruttenberg (University of Buffalo) (2011-2012)
