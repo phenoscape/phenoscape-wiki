@@ -237,17 +237,98 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 
 === Relations used for post-compositions ===
 
- connected_to
- has_quality
- in_left_side_of
- in_right_side_of
- inheres_in
- located_in
- overlaps
- part_of
- spatial relations (e.g., anterior_to, dorsal_to, distal_to, adjacent_to, vicinity_of)
- towards
- "not"
+{| class="wikitable"
+|-
+! Relation !! Category !! Example
+|-
+| anteriorly connected to || connectedness || Example
+|-
+| attaches_to || connectedness || Example
+|-
+| connected_to || connectedness || Example
+|-
+| distally_connected_to || connectedness || Example
+|-
+| posteriorly connected to || connectedness || Example
+|-
+| proximally connected to || connectedness || Example
+|-
+| develops_from || development || Example
+|-
+| has_muscle_insertion || muscle attachment || Example
+|-
+| has_muscle_origin || muscle attachment || Example
+|-
+| serves_ as _attachment _site_ for || muscle attachment || 'ridge' ^ part_of 'femur' ^ '''serves_as_attachment_site_for''' 'muscle X'
+|-
+| has_part || mereological || Example
+|-
+| part_of || mereological || Example
+|-
+| has_quality || quality || Example
+|-
+| inheres_in || quality || Example
+|-
+| decreased_in_magnitude_relative_to || size || Example
+|-
+| increased_in_magnitude_relative_to || size || Example
+|-
+| similar_in_magnitude_relative_to || size || Example
+|-
+| adjacent_to || spatial || Example
+|-
+| anterior_to || spatial || Example
+|-
+| deep_to || spatial || Example
+|-
+| distal_to || spatial || Example
+|-
+| dorsal_to || spatial || Example
+|-
+| encloses || spatial || Example
+|-
+| extends_from || spatial || Example
+|-
+| extends_to || spatial || Example
+|-
+| has_cross_section || spatial || Example
+|-
+| in_anterior_side_of || spatial || Example
+|-
+| in_distal_side_of || spatial || Example
+|-
+| in_lateral_side_of || spatial || Example
+|-
+| in_left_side_of || spatial || Example
+|-
+| in_median_plane_of || spatial || Example
+|-
+| in_posterior_side_of || spatial || Example
+|-
+| in_proximal_side_of || spatial || Example
+|-
+| in_right_side_of || spatial || Example
+|-
+| located_in || spatial || Example
+|-
+| overlaps || spatial || Example
+|-
+| passes_through || spatial || Example
+|-
+| posterior_to || spatial || Example
+|-
+| proximal_to || spatial || Example
+|-
+| surrounded_by || spatial || Example
+|-
+| surrounds || spatial || Example
+|-
+| ventral_to || spatial || Example
+|-
+| vicinity_of || spatial || Example
+|-
+| not || || shape^'''not'''(round)
+|}
 
 ==Evidence Codes==
 
