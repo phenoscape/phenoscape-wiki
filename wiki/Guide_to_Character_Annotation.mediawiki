@@ -261,13 +261,13 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 |-
 | serves_ as _attachment _site_ for || muscle attachment || 'ridge' ^ part_of 'femur' ^ '''serves_as_attachment_site_for''' 'muscle X'
 |-
-| has_part || mereological || Example
+| has_part || mereological || 'premaxilla' ^ has_part 'anatomical projection'
 |-
-| part_of || mereological || Example
+| part_of || mereological || 'anatomical projection' ^ part_of 'premaxilla'
 |-
-| has_quality || quality || Example
+| has_quality || quality || 'tooth' ^ has_quality 'tapered'
 |-
-| inheres_in || quality || Example
+| inheres_in || quality || 'length' and inheres_in some 'coracoid bone'
 |-
 | decreased_in_magnitude_relative_to || size || Example
 |-
