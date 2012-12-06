@@ -243,7 +243,7 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 |-
 | anteriorly connected to || connectedness || E anteriorly_connected_to E
 |-
-| attaches_to || connectedness || E attaches_to E; e.g., 'tooth' and '''attaches_to''' some'maxilla'
+| attaches_to || connectedness || E attaches_to E; e.g., 'tooth' and ('''attaches_to''' some'maxilla')
 |-
 | connected_to || connectedness || E connected_to RE;
 |-
@@ -255,19 +255,19 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 |-
 | develops_from || development || E develops_from E
 |-
-| has_muscle_insertion || muscle attachment ||  E = muscle X has_muscle_insertion E ; e.g., 'triceps brachii' '''has_muscle_insertion''' some 'olecranon'
+| has_muscle_insertion || muscle attachment ||  E = muscle X has_muscle_insertion E ; e.g., 'triceps brachii' and ('''has_muscle_insertion''' some 'olecranon')
 |-
-| has_muscle_origin || muscle attachment || E = muscle X has_muscle_origin E; e.g., 'triceps brachii' '''has_muscle_origin''' some 'humerus'
+| has_muscle_origin || muscle attachment || E = muscle X has_muscle_origin E; e.g., 'triceps brachii' and ('''has_muscle_origin''' some 'humerus')
 |-
 | serves_ as _attachment _site_ for || muscle attachment || E serves_as_attachment_site_for muscle X
 |-
-| has_part || mereological || E has_part E; 'premaxilla' and '''has_part''' some 'anatomical projection'
+| has_part || mereological || E has_part E; 'premaxilla' and ('''has_part''' some 'anatomical projection')
 |-
-| part_of || mereological || E part_of E; 'anatomical projection' and '''part_of''' some 'premaxilla'
+| part_of || mereological || E part_of E; 'anatomical projection' and ('''part_of''' some 'premaxilla')
 |-
-| bearer_of || quality || E bearer_of Q; 'tooth' and '''bearer_of''' some 'tapered'
+| bearer_of || quality || E bearer_of Q; 'tooth' and ('''bearer_of''' some 'tapered')
 |-
-| inheres_in || quality || Q inheres_in E; 'length' and '''inheres_in''' some 'coracoid bone'
+| inheres_in || quality || Q inheres_in E; 'length' and ('''inheres_in''' some 'coracoid bone')
 |-
 | decreased_in_magnitude_relative_to || size || [1]
 |-
@@ -287,11 +287,11 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 |-
 | encloses || spatial || E encloses E
 |-
-| extends_from || spatial || E extends_from E; e.g., 'anatomical surface' and '''extends_from''' some 'parietal bone'
+| extends_from || spatial || E extends_from E; e.g., 'anatomical surface' and ('''extends_from''' some 'parietal bone')
 |-
-| extends_to || spatial || E extends_to E; e.g., 'anatomical surface' and '''extends_to''' some 'frontal bone'
+| extends_to || spatial || E extends_to E; e.g., 'anatomical surface' and ('''extends_to''' some 'frontal bone')
 |-
-| has_cross_section || spatial || 
+| has_cross_section || spatial ||
 |-
 | in_anterior_side_of || spatial || E in_anterior_side_of E
 |-
@@ -299,7 +299,7 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 |-
 | in_lateral_side_of || spatial || E in_lateral_side_of E
 |-
-| in_left_side_of || spatial || E in_left_side_of E; e.g., 'frontal bone' and '''in_left_side_of''' 'body'
+| in_left_side_of || spatial || E in_left_side_of E; e.g., 'frontal bone' and ('''in_left_side_of''' some 'body')
 |-
 | in_median_plane_of || spatial || E in_median_plane_of E
 |-
@@ -307,13 +307,13 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 |-
 | in_proximal_side_of || spatial || E in_proximal_side_of E
 |-
-| in_right_side_of || spatial || E in_right_side_of E; e.g., 'frontal bone' and '''in_right_side_of''' 'body'
+| in_right_side_of || spatial || E in_right_side_of E; e.g., 'frontal bone' and ('''in_right_side_of''' some 'body')
 |-
 | located_in || spatial || E located_in E
 |-
-| overlaps || spatial || E overlaps E; e.g., 
+| overlaps || spatial || E overlaps E; e.g.,
 |-
-| passes_through || spatial || 
+| passes_through || spatial ||
 |-
 | posterior_to || spatial || E posterior_to E
 |-
