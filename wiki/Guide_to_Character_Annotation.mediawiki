@@ -269,11 +269,11 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 |-
 | inheres_in || quality || Q inheres_in E; 'length' and '''inheres_in''' some 'coracoid bone'
 |-
-| decreased_in_magnitude_relative_to || size || Example
+| decreased_in_magnitude_relative_to || size || [1]
 |-
-| increased_in_magnitude_relative_to || size || Example
+| increased_in_magnitude_relative_to || size || [1]
 |-
-| similar_in_magnitude_relative_to || size || Example
+| similar_in_magnitude_relative_to || size || [1]
 |-
 | adjacent_to || spatial || Example
 |-
@@ -329,6 +329,7 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 |-
 | not || || shape^'''not'''(round)
 |}
+* [1] [http://phenoscape.org/wiki/Guide_to_Character_Annotation#6._Size see note about curatorial shortcuts related to 'size']
 
 ==Evidence Codes==
 
