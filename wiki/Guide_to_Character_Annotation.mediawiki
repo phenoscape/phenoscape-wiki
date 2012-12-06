@@ -255,9 +255,9 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 |-
 | develops_from || development || E develops_from E
 |-
-| has_muscle_insertion || muscle attachment ||  muscle X has_muscle_insertion E ; e.g., 'triceps brachii' '''has_muscle_insertion''' some 'olecranon' 
+| has_muscle_insertion || muscle attachment ||  E = muscle X has_muscle_insertion E ; e.g., 'triceps brachii' '''has_muscle_insertion''' some 'olecranon'
 |-
-| has_muscle_origin || muscle attachment || muscle X has_muscle_origin E; e.g., 'triceps brachii' '''has_muscle_origin''' some 'humerus' 
+| has_muscle_origin || muscle attachment || E = muscle X has_muscle_origin E; e.g., 'triceps brachii' '''has_muscle_origin''' some 'humerus'
 |-
 | serves_ as _attachment _site_ for || muscle attachment || E serves_as_attachment_site_for muscle X
 |-
