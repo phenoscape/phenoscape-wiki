@@ -275,21 +275,21 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 |-
 | similar_in_magnitude_relative_to || size || [1]
 |-
-| adjacent_to || spatial || Example
+| adjacent_to || spatial || E adjacent_to E
 |-
-| anterior_to || spatial || Example
+| anterior_to || spatial || E anterior_to E
 |-
-| deep_to || spatial || Example
+| deep_to || spatial || E deep_to E
 |-
-| distal_to || spatial || Example
+| distal_to || spatial || E distal_to E
 |-
-| dorsal_to || spatial || Example
+| dorsal_to || spatial || E dorsal_to E
 |-
-| encloses || spatial || Example
+| encloses || spatial || E encloses E
 |-
-| extends_from || spatial || Example
+| extends_from || spatial || E extends_from E
 |-
-| extends_to || spatial || Example
+| extends_to || spatial || E extends_to E
 |-
 | has_cross_section || spatial || Example
 |-
