@@ -241,33 +241,33 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 |-
 ! Relation !! Category !! Example
 |-
-| anteriorly connected to || connectedness || Example
+| anteriorly connected to || connectedness || E anteriorly_connected_to E
 |-
-| attaches_to || connectedness || Example
+| attaches_to || connectedness || E attaches_to E; e.g., 'tooth' and '''attaches_to''' some'maxilla'
 |-
-| connected_to || connectedness || Example
+| connected_to || connectedness || E connected_to RE;
 |-
-| distally_connected_to || connectedness || Example
+| distally_connected_to || connectedness || E distally_connected_to E
 |-
-| posteriorly connected to || connectedness || Example
+| posteriorly connected to || connectedness || E posteriorly connected to E
 |-
-| proximally connected to || connectedness || Example
+| proximally connected to || connectedness || E proximally connected to E
 |-
-| develops_from || development || Example
+| develops_from || development || E develops_from E
 |-
-| has_muscle_insertion || muscle attachment || Example
+| has_muscle_insertion || muscle attachment ||  muscle X has_muscle_insertion E ; e.g., 'triceps brachii' '''has_muscle_insertion''' some 'olecranon' 
 |-
-| has_muscle_origin || muscle attachment || Example
+| has_muscle_origin || muscle attachment || muscle X has_muscle_origin E; e.g., 'triceps brachii' '''has_muscle_origin''' some 'humerus' 
 |-
-| serves_ as _attachment _site_ for || muscle attachment || 'ridge' ^ part_of 'femur' ^ '''serves_as_attachment_site_for''' 'muscle X'
+| serves_ as _attachment _site_ for || muscle attachment || E serves_as_attachment_site_for muscle X
 |-
-| has_part || mereological || 'premaxilla' and '''has_part''' some 'anatomical projection'
+| has_part || mereological || E has_part E; 'premaxilla' and '''has_part''' some 'anatomical projection'
 |-
-| part_of || mereological || 'anatomical projection' and '''part_of''' some 'premaxilla'
+| part_of || mereological || E part_of E; 'anatomical projection' and '''part_of''' some 'premaxilla'
 |-
-| bearer_of || quality || 'tooth' and '''bearer_of''' some 'tapered'
+| bearer_of || quality || E bearer_of Q; 'tooth' and '''bearer_of''' some 'tapered'
 |-
-| inheres_in || quality || 'length' and '''inheres_in''' some 'coracoid bone'
+| inheres_in || quality || Q inheres_in E; 'length' and '''inheres_in''' some 'coracoid bone'
 |-
 | decreased_in_magnitude_relative_to || size || Example
 |-
