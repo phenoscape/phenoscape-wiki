@@ -287,47 +287,47 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 |-
 | encloses || spatial || E encloses E
 |-
-| extends_from || spatial || E extends_from E
+| extends_from || spatial || E extends_from E; e.g., 'anatomical surface' and '''extends_from''' some 'parietal bone'
 |-
-| extends_to || spatial || E extends_to E
+| extends_to || spatial || E extends_to E; e.g., 'anatomical surface' and '''extends_to''' some 'frontal bone'
 |-
-| has_cross_section || spatial || Example
+| has_cross_section || spatial || 
 |-
-| in_anterior_side_of || spatial || Example
+| in_anterior_side_of || spatial || E in_anterior_side_of E
 |-
-| in_distal_side_of || spatial || Example
+| in_distal_side_of || spatial || E in_distal_side_of E
 |-
-| in_lateral_side_of || spatial || Example
+| in_lateral_side_of || spatial || E in_lateral_side_of E
 |-
-| in_left_side_of || spatial || Example
+| in_left_side_of || spatial || E in_left_side_of E; e.g., 'frontal bone' and '''in_left_side_of''' 'body'
 |-
-| in_median_plane_of || spatial || Example
+| in_median_plane_of || spatial || E in_median_plane_of E
 |-
-| in_posterior_side_of || spatial || Example
+| in_posterior_side_of || spatial || E in_posterior_side_of E
 |-
-| in_proximal_side_of || spatial || Example
+| in_proximal_side_of || spatial || E in_proximal_side_of E
 |-
-| in_right_side_of || spatial || Example
+| in_right_side_of || spatial || E in_right_side_of E; e.g., 'frontal bone' and '''in_right_side_of''' 'body'
 |-
-| located_in || spatial || Example
+| located_in || spatial || E located_in E
 |-
-| overlaps || spatial || Example
+| overlaps || spatial || E overlaps E; e.g., 
 |-
-| passes_through || spatial || Example
+| passes_through || spatial || 
 |-
-| posterior_to || spatial || Example
+| posterior_to || spatial || E posterior_to E
 |-
-| proximal_to || spatial || Example
+| proximal_to || spatial || E proximal_to E
 |-
-| surrounded_by || spatial || Example
+| surrounded_by || spatial || E surounded_by E
 |-
-| surrounds || spatial || Example
+| surrounds || spatial || E surrounds E
 |-
-| ventral_to || spatial || Example
+| ventral_to || spatial || E ventral_to E
 |-
-| vicinity_of || spatial || Example
+| vicinity_of || spatial || E vicinity_of E
 |-
-| not || || shape^'''not'''(round)
+| not || || 'shape' and '''not''' some round
 |}
 * [1] [http://phenoscape.org/wiki/Guide_to_Character_Annotation#6._Size see note about curatorial shortcuts related to 'size']
 
