@@ -243,7 +243,7 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 |-
 | anteriorly connected to || connectedness || E anteriorly_connected_to E
 |-
-| attaches_to || connectedness || E attaches_to E; e.g., 'tooth' and ('''attaches_to''' some'maxilla')
+| attaches_to || connectedness || E attaches_to E; e.g., 'tooth' and ('''attaches_to''' some 'maxilla')
 |-
 | connected_to || connectedness || E connected_to RE;
 |-
@@ -327,7 +327,7 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 |-
 | vicinity_of || spatial || E vicinity_of E
 |-
-| not || || 'shape' and '''not''' some round
+| not || || Q not Q; e.g., 'shape' and ('''not''' some 'round')
 |}
 * [1] [http://phenoscape.org/wiki/Guide_to_Character_Annotation#6._Size see note about curatorial shortcuts related to 'size']
 
