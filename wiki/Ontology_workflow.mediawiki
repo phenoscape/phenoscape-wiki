@@ -45,3 +45,12 @@ The tracker is here: [https://github.com/cmungall/uberon/issues?direction=desc&s
 4. Commit regularly. Always describe the changes you have made at a high level in the svn commit messages. These are searchable in the logs and very helpful for troubleshooting. It is ok to be verbose, it is not ok to be too terse. Always do a "svn diff" before committing to look at your changes. It is easier to look at a few changes, as there are often serialization changes from Protege, usually you can see that things have moved around but not really changed. You should be able to identify the intended changes.
 
 5. Commit to SVN repository
+
+===Fulfilling ORB requests===
+
+1. Go to the ORB tracker here: http://rdf.phenoscape.org/provisional/
+2. Implement a request as per the ReadMe and instructions above.
+3. Commit, and then wait for the Jenkins build to tell you the build was successful here: http://build.berkeleybop.org/view/Anatomy/job/build-phenoscape/
+4. Add the URI/IRI to the ORB tracker.  
+
+This process will ensure that the new entity is available to Phenex when indicated in the ORB tracker.
