@@ -49,8 +49,11 @@ The tracker is here: [https://github.com/cmungall/uberon/issues?direction=desc&s
 ===Fulfilling ORB requests===
 
 1. Go to the ORB tracker here: http://rdf.phenoscape.org/provisional/
+
 2. Implement a request as per the ReadMe and instructions above.
+
 3. Commit, and then wait for the Jenkins build to tell you the build was successful here: http://build.berkeleybop.org/view/Anatomy/job/build-phenoscape/
-4. Add the URI/IRI to the ORB tracker.  
+
+4. Add the URI/IRI to the ORB tracker.
 
 This process will ensure that the new entity is available to Phenex when indicated in the ORB tracker.
