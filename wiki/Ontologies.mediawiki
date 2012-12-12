@@ -85,9 +85,9 @@ These can provide links to additional synonyms and resources (e.g., TTO uses fis
 * [http://gni.globalnames.org/ Global Names Index (GNI)] - Extensive list of names.
 
 == Teleost Taxonomy Ontology (TTO) ==
-The [[Teleost Taxonomy Ontology]] (TTO) is derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes] (see also the [http://bioportal.bioontology.org/visualize/38363 representation on BioPortal], which can be navigated on-line).  The TTO was developed from the Phenoscape I project and provides coverage of fish in the VTO.  The TTO is updated in concert with Catalog of Fishes updates. 
-* Browse [http://bioportal.bioontology.org/ontologies/38703 TTO at BioPortal]
-* The TTO in OWL format is [http://purl.obolibrary.org/obo/tto.owl available here]. It can be browsed at [http://bioportal.bioontology.org/visualize/38703 Bioportal].
+The [[Teleost Taxonomy Ontology]] (TTO) is derived from the [http://www.calacademy.org/RESEARCH/ichthyology/catalog/fishcatsearch.html Catalog of Fishes] (see also the [http://bioportal.bioontology.org/visualize/38363 representation on BioPortal], which can be navigated on-line).  The TTO was developed from the Phenoscape I project and provides coverage of fish in the VTO.  The TTO is updated in concert with Catalog of Fishes updates.
+* The TTO in OWL format is [http://purl.obolibrary.org/obo/tto.owl available here].
+* Browse TTO [http://bioportal.bioontology.org/ontologies/38703 at BioPortal]
 
 == Amphibian Taxonomy Ontology (ATO) ==
 The ATO is derived from the [http://amphibiaweb.org/ AmphibiaWeb] list, which provides both taxonomy and some synonyms from ITIS and the [http://www.iucnredlist.org/initiatives/amphibians IUCN redlist].  It also includes a set of fossil taxa requested and curated by David Blackburn.  [http://bioportal.bioontology.org/ontologies/40791?p=terms The version available at BioPortal] is currently very out of date.
