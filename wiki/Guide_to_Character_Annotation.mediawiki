@@ -2,18 +2,10 @@
 title: Guide to Character Annotation
 ---
 
-== Adding new ontology terms: Genus-differentia definitions ==
-Term definitions are important because they facilitate consistent use of a term in annotation of disparate data types by different curators.  Ontologies follow the convention that each term should have a textual definition of the genus-differentia form, i.e., a subclass structure of A is an A that has properties X and Y that distinguish it from the other subclass structures of A (Smith et al. 2007).
+== Creating new Phenex files ==
 
-The entity term B is defined by its membership in higher category entity A and distinguished from its sibling terms by characteristic X. Entity definitions are primarily based on structural criteria.  Distinguishing characteristics (X) can include the location, shape, and a list of the parts of the entity.
+1. Dataset tab
 
-The following are examples of genus-differentia definitions in the Teleost Anatomy Ontology:
-#''Antorbital:'' Dermal bone that is located on the anterior margin of the infraorbital series, dorsal to the first infraorbital and lateral to the nasal bone.
-#''Dentary:'' Dermal bone that forms the anterolateral part of the lower jaw.
-
-In example 1, the definition mentions the parent dermal bone of the term antorbital, followed by the characteristics that differentiate antorbital from all other dermal bones.
-
-Comments: Taxonomic statements to be applied to a structure, which are not universals, are recorded in the comment field for that term.  For example, Weberian apparatus (TAO: 0001188 ) has the following definition: “Anatomical cluster that consists of the modified anteriormost vertebrae and associated structures that connect the swim bladder to the inner ear.,” and the following is recorded in the comment field: “Vertebra 1-4, and sometimes vertebra 5 in some catfishes, are part of the Weberian apparatus. Weberian apparatus is present in Otophysi.”  Here the statements about components of the Weberian apparatus do not universally apply to all teleosts, but is included in the comment field because this information is potentially helpful to the ontology user for general understanding  and for identifying structures.
 
 ==PATO terms used to annotate systematic characters ==
 Below is a simplified graph showing a subset of quality terms from the [http://obofoundry.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)] used to curate systematic characters. Terms in orange represent attribute-level qualities.
@@ -63,24 +55,24 @@ The following are examples of character types commonly encountered in the system
 ===1. Qualities of single physical entities===
 Qualities of single physical entities are those that exist in a single entity. These qualities include 'shape,' 'size', and 'structure.'  For example, “sigmoid-shaped supraorbital bone” is annotated as:
 
- E: supraorbital, Q: sigmoid
+E: supraorbital, Q: sigmoid
 
 ===2. Qualities of related physical entities ===
 Relational qualities are those that exist between multiple entities. For example, “parietal fused with supraoccipital” is represented as:
 
- E: parietal, Q: fused with, RE: supraoccipital
+E: parietal, Q: fused with, RE: supraoccipital
 
 ===3. Multiple phenotypes for a single character state ===
 Some characters describe multiple aspects of phenotypic variation in an entity (or entities).  These characters are represented with multiple EQ statements. For example, a character state may describe "premaxillary teeth round and multicuspidate." This is represented with the following two phenotypes:
- E: premaxillary tooth, Q: round
- E: premaxillary tooth, Q: multicuspidate
+E: premaxillary tooth, Q: round
+E: premaxillary tooth, Q: multicuspidate
 
 ===4. Presence/absence characters ===
 
 Variation in the presence or absence of an entity is annotated using the terms ''present'' and ''absent'', e.g. :
 
- E: pectoral fin, Q: present
- E: pectoral fin, Q: absent
+E: pectoral fin, Q: present
+E: pectoral fin, Q: absent
 
 The use of ''present'' and ''absent'' in curation is a curatorial shortcut to the more logically sound syntax discussed on the [http://obofoundry.org/wiki/index.php/PATO:Absent PATO wiki]. These annotations will be translated into the logically sound form prior to their addition in the Phenoscape KB.
 
@@ -94,10 +86,10 @@ If a character describes both the presence of an entity and some other attribute
 ===5. Counts===
 Characters involving counts of entities are annotated using the “count” quality.  Values for counts are entered in the “Comment” field(*).  Note that ranges and lower or upper bounds are recorded as follows:
 
- E: vertebra, Q: count, Count: 33
- E: vertebra, Q: count, Comment: 34-38
- E: vertebra, Q: count, Comment: >38
- E: vertebra, Q: count, Comment: ≥48
+E: vertebra, Q: count, Count: 33
+E: vertebra, Q: count, Comment: 34-38
+E: vertebra, Q: count, Comment: >38
+E: vertebra, Q: count, Comment: ≥48
 
 (*)The "Count" field in Phenex currently does not accept ranges or symbols; therefore, please record these in the Comments field.
 
@@ -107,31 +99,31 @@ In the systematics literature, the size of a structure is usually described rela
 
 * The '''size of one structure relative to another structure ''' (e.g., state 0: "frontal length greater than parietal length", with taxonomic distribution recorded in the character by taxon matrix) is represented as:
 
- E: frontal, Q: increased length, E2: parietal
+E: frontal, Q: increased length, E2: parietal
 
 * Comparison of the '''size of a structure across taxa''' (e.g., “state 0: frontal large”) is represented as:
 
- E: frontal, Q: increased size
+E: frontal, Q: increased size
 
 * '''Size comparisons within a single structure''' are represented by using a size quality in the entity field. For example, an author may describe the frontal bone as having a "greater length relative to width". This is represented as:
 
- E: frontal bone, Q: increased length, E2: width^inheres_in(frontal bone)
+E: frontal bone, Q: increased length, E2: width^inheres_in(frontal bone)
 
 * '''Locally relative phenotypes''' describe a range of sizes in more than two states.
 Example: "opercle size: small, medium, or large". Choose the quality being compared, and place a number in the Count column indicating the proper sort order (1 < 2 < 3). For "small":
 
- E: opercle, Q: size, Count: 1
+E: opercle, Q: size, Count: 1
 
 Note: Representation of size in Phenex uses [[EQ_shortcuts_(temporary)|curatorial shortcuts]] because PATO size terms are precomposed relative to "normal" (e.g., ''increased size'' has an ''increased_in'' relationship to "normal"). These annotations will be converted in the KB data loader to the correct form using the appropriate relations (''increased_in_magnitude_relative_to'', ''decreased_in_magnitude_relative_to'', ''similar_in_magnitude_relative_to'').
 
 ===7. Contralateral halves of bilaterally paired structures ===
 
 Terms for the contralateral halves of bilaterally paired structures are created using the ''in_right_side_of'' and ''in_left_side_of'' relations in a post-composition, where the perspective is from the standpoint of the organism. For example:
- E: frontal^''in_right_side_of''(body), Q: fused with, RE: frontal^''in_left_side_of''(body).
+E: frontal^''in_right_side_of''(body), Q: fused with, RE: frontal^''in_left_side_of''(body).
 
 ===8. [[EQ_shortcuts_(temporary)|Complementary phenotypes ("negation")]] ===
 Example: "opercle, not round". Create a postcomposition for the quality, choosing a meaningful genus term and using the "not" relation.
- E: opercle, Q: shape^not(round)
+E: opercle, Q: shape^not(round)
 
 ===9. Annotation involving bone and cartilage terms ===
 Authors sometimes refer to endochondral structures without specifying whether the structure is “bone” or “cartilage.” For example, the convention for a term like “epibranchial 2” or “basibranchial” is that it is composed of bone and when composed of cartilage an author will say “epibranchial 2 cartilage” or “basibranchial cartilage”.  However,  this is not universally followed and a curator must read the character description and examine associated text and figures to ascertain this.
@@ -141,36 +133,36 @@ The following are a series of examples demonstrating the use of bone, cartilage,
 
 ==== ''Example 1''====
 Epibranchial 1: (0) present and ossified
- E: Epibranchial 1 bone, Q: present
+E: Epibranchial 1 bone, Q: present
 
 Epibranchial 1: (1) present and cartilaginous
- E: Epibranchial 1 cartilage, Q: present
+E: Epibranchial 1 cartilage, Q: present
 
 Epibranchial 1: (2) absent
- E: Epibranchial 1 cartilage, Q: absent
- E: Epibranchial 1 bone, Q: absent
+E: Epibranchial 1 cartilage, Q: absent
+E: Epibranchial 1 bone, Q: absent
 
 The curator should use both the cartilage and bone terms to annotate state 2 because the author clearly differentiates between the two.
 
 ==== ''Example 2''====
 Epibranchial 1 (0) present, (0) absent.  After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term:
- E: epibranchial 1 element, Q: present or Q: absent
+E: epibranchial 1 element, Q: present or Q: absent
 
 ==== ''Example 3''====
 Epibranchial 1 bone: (0) present; (1) absent
- E: epibranchial 1 bone; Q: present or Q: absent
+E: epibranchial 1 bone; Q: present or Q: absent
 
 ==== ''Example 4''====
 Epibranchial 1: (0) triangular.  After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term:
- E: epibranchial 1 element, Q: shape
+E: epibranchial 1 element, Q: shape
 
 ==== ''Example 5''====
 Epibranchial number: (0) 3; (1) 4.  After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term:
- E: epibranchial element; Q: count; Comment: 3 or Comment: 4
+E: epibranchial element; Q: count; Comment: 3 or Comment: 4
 
 ==== ''Example 6''====
 Epibranchial bone number: (0) 3; (1) 4
- E: epibranchial bone; Q: count; Comment: 3 or Comment: 4
+E: epibranchial bone; Q: count; Comment: 3 or Comment: 4
 
 == Creating or refining terms  by post-composition ==
 
@@ -192,7 +184,7 @@ Now click on “Edit Post-composed Term.”  The Editor box should now appear (s
 
 The post-composed term appears in the Entity field as:
 
- process^part_of(maxilla)
+process^part_of(maxilla)
 
 === Refining post-compositions using spatial terms ===
 Often we will want to include spatial information in a post-composed term.  The Spatial Ontology is used to post-compose terms related to bone margins, surfaces, or regions.  For example, the entity “anterior process of the maxilla" is post-composed as follows:
@@ -202,16 +194,16 @@ Within the Entity field, type “process” and right-click the field to open th
 [[Image:Nested-boxes.png|center]]
 
 Within Phenex, the post-composed term for process on the anterior margin of the maxilla appears as:
- process^part_of(anterior region^part_of(maxilla))
+process^part_of(anterior region^part_of(maxilla))
 
 As for semantics, identifiability, and rules for post-composing, the same applies as above for entity terms applies to spatial terms. In creating the nested term "anterior  region of maxilla", start with the more general term (for example, the "anterior region") as the genus, then refine it using a relationship and a differentia term (for example, anterior region that is part_of the "supraorbital bone").
 
 === Multiple differentia terms and nesting in post-composition ===
 Post-compositions can contain multiple differentia terms that are either nested:
- process^part_of(anterior region^part_of(maxilla))
+process^part_of(anterior region^part_of(maxilla))
 
 or not:
- joint^overlaps(metapterygoid)^overlaps(hyomandibula)
+joint^overlaps(metapterygoid)^overlaps(hyomandibula)
 
 For nested post-compositions, the order of nested terms is important (e.g., maxilla^part_of(anterior region^part-of(process)) is incorrect), as is the nesting itself (e.g., process^part_of(anterior region)^part_of(maxilla) is incorrect).
 
@@ -221,11 +213,11 @@ Some post-compositions with multiple differentia do not require nesting (see [ht
 
 Joints are defined in TAO according to the bones that participate in the joint.  Because only regions of these bones are ''part_of'' the joint rather than the entire bone, we use the ''overlaps'' relation to define joints. For example, the ''frontal-pterotic joint'' has the following relationships:
 
- relationships:
- ''is_a'' joint
+relationships:
+''is_a'' joint
 
- frontal ''overlaps'' frontal-pterotic joint
- pterotic ''overlaps'' frontal-pterotic joint
+frontal ''overlaps'' frontal-pterotic joint
+pterotic ''overlaps'' frontal-pterotic joint
 
 If it is unlikely that a joint term will be used repeatedly for annotation, then a term for the joint can be post-composed using Phenex. To post-compose metapterygoid-hyomandibular joint, for example, open the post-composition editor box by right-clicking on the Entity field, and enter the following terms in the window:
 
@@ -233,7 +225,7 @@ If it is unlikely that a joint term will be used repeatedly for annotation, then
 
 The post-composed term for metapterygoid-hyomandibular joint will appear as:
 
- joint^overlaps(metapterygoid)^overlaps(hyomandibula)
+joint^overlaps(metapterygoid)^overlaps(hyomandibula)
 
 === Relations used for post-compositions ===
 
