@@ -72,16 +72,3 @@ user > Library > Application Support > Phenex > Filters
 
 Note: this folder is hidden on Mac OSX. Should you need to access it using Finder, first make the folder visible by going to 
 Finder> Go > Go to Folder, and typing in "~/Library"
-
-===Bookmarks===
-Guide to Character Annotation: [http://phenoscape.org/wiki/Guide_to_Character_Annotation| Guide to Character Annotation]
-
-BioPortal (search across all ontologies) - [http://bioportal.bioontology.org/]
-
-OboFoundry (download ontologies)- [http://obofoundry.org/]
-
-Obo-Edit User’s Guide  - [http://oboedit.org/docs/]
-
-Phenoscape Knowledgebase (public) - kb.phenoscape.org
-
-Phenoscape Knowledgebase (staging, where prelease VAO-TAO will be uploaded) kb-staging.phenoscape.org
