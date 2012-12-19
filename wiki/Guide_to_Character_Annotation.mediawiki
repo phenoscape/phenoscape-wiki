@@ -2,9 +2,6 @@
 title: Guide to Character Annotation
 ---
 
-== Creating new Phenex files ==
-
-1. Dataset tab
 
 
 ==PATO terms used to annotate systematic characters ==
