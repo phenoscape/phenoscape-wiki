@@ -4,20 +4,14 @@ title: Curation workflow
 
 ===Processing new publications===
 # Add reference info to the Phenoscape II Curation Log in Googledocs.  Use the log to keep track of curation status for publications (what’s been done by who and when).
-
 # Add citation to the Phenoscape Endnote file (Phenoscape_pubs_A_papers.enl in Dropbox)
-
 ## Create PSPUB identifier (ask Jim or Wasila for explanation)
-# In Phenex file for the paper, record the PSPUB identifier in the Dataset Tab’s Publication field
+## In Phenex file for the paper, record the PSPUB identifier in the Dataset Tab’s Publication field
 # Upload PDF of paper to the Mendeley Vertebrate Curation Group
-
-Phenex files are now located in DropBox
-Make sure you are using Phenex version 1.2 or later, which has the autosave feature and will automatically save to files in DropBox - no need for SVN or ZigVersion!
-
-
-
-1. Fill in information in the Dataset tab
-
+#Add Phenex file to DropBox
+#Make sure you are using Phenex version 1.2 or later, which has the autosave feature and will automatically save to files in DropBox - no need for SVN or ZigVersion!
+#Fill in curation information in the Dataset tab
+## Information recorded here consists of modifications made to published data based on author communication, 
 
 Phenex and Mesquite files locations in DropBox:
 These files are located in the “Phenoscape-data” folder within DropBox
