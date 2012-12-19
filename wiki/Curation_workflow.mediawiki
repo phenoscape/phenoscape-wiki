@@ -11,17 +11,16 @@ title: Curation workflow
 #Add Phenex file to DropBox
 #Make sure you are using Phenex version 1.2 or later, which has the autosave feature and will automatically save to files in DropBox - no need for SVN or ZigVersion!
 #Fill in curatorial information in the '''Dataset tab'''
-**This space is used to record general information about dataset that a user should know.  Generally, this includes notes on how the data was modified from the publication. For example, 
+**This space is used to record general information about dataset that a user should know.  Generally, this includes notes on how the data was modified from the publication. For example,
 **matrix created from free text descriptions in the publication text
 **only fin or limb characters curated to date
 **additional taxa were added to the matrix
 **coding was updated based on author feedback
-**characters X, Y, and Z were omitted based on character reassessment in subsequent publications. 
+**characters X, Y, and Z were omitted based on character reassessment in subsequent publications.
 **evidence code for matrix is IVS
 
-*if curator corresponds with author, make note of data of correspondence and name of author (personal communications)
-
-*note if matrix is not published wth apper, that the curator should indicate where dataset came from and where it is available from.Pplease check with phenoscape as to where they would like the data deposited. 	
+**if curator corresponds with author, make note of data of correspondence and name of author (personal communications)
+**note if matrix is not published wth paper, then the curator should indicate where the dataset came from and where it is available from. Please check with Phenoscape as to where they would like the data deposited.
 
 ## Information recorded here consists of modifications made to published data based on author communication,
 
