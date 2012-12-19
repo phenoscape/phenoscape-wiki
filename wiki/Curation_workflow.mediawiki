@@ -19,10 +19,9 @@ title: Curation workflow
 **characters X, Y, and Z were omitted based on character reassessment in subsequent publications.
 **evidence code for matrix is IVS
 
-**if curator corresponds with author, make note of data of correspondence and name of author (personal communications)
+**if curator corresponds with author, make note of data of correspondence and name of author (e.g., Information recorded here consists of modifications made to published data based on author communication, 10/12/2013).
 **note if matrix is not published wth paper, then the curator should indicate where the dataset came from and where it is available from. Please check with Phenoscape as to where they would like the data deposited.
 
-## Information recorded here consists of modifications made to published data based on author communication,
 
 Phenex and Mesquite files locations in DropBox:
 These files are located in the “Phenoscape-data” folder within DropBox
