@@ -3,9 +3,10 @@ title: Main Page
 ---
 
 {{EventBox1|
+* Check out our new paper in PLoS ONE: [http://dx.plos.org/10.1371/journal.pone.0051070 "A unified anatomy ontology of the vertebrate skeletal system"], published on December 10, 2012.
 * Try the [http://kb.phenoscape.org Phenoscape Knowledgebase].  Your feedback is welcome!
 * Check out the latest news on the [http://blog.phenoscape.org/ Phenoscape blog]
-* We are [http://blog.phenoscape.org/2012/07/23/workshop_new_tools_for_studying_vertebrate_phenotype_evolution/ calling for participants in a workshop on New Tools for Studying Phenotype Evolution in the Vertebrates]. 
+* We are [http://blog.phenoscape.org/2012/07/23/workshop_new_tools_for_studying_vertebrate_phenotype_evolution/ calling for participants in a workshop on New Tools for Studying Phenotype Evolution in the Vertebrates].
 * We are recruiting for two postdocs, one at NESCent interested in [http://nescent.org/about/employment.php#PostDoc the application of phenotype bioinformatics to evo-devo], and one at U. South Dakota interested in [http://nescent.org/about/employment.php#PostDoc2 studying phenotypic evolution by combining model organism genetic data with comparative anatomical data from throughout the vertebrates].}}
 
 == Ontology-enabled reasoning across phenotypes from evolution and model organisms ==
@@ -46,7 +47,11 @@ Paula Mabee (University of South Dakota) and Todd Vision (University of North Ca
 |-
 | The Phenoscape project is funded by NSF collaborative grants DBI-1062404 and DBI-1062542 from July 1, 2011, to Jun 30, 2015, and supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0905606.  The original Project Description for this grant is available [[:File:Phenoscape_Project_description_refs.pdf| here]].
 
-This project would not have been possible without the hard work of [[Acknowledgments#Contributors| numerous contributors]] and the results obtained in the [[Linking Evolution to Genomics Using Phenotype Ontologies]] project, which was funded by NSF grant BDI<nowiki>-</nowiki>0641025 from June 1, 2007, to Jun 30, 2011, and was supported by NESCent, NSF #EF-0423641. This earlier project in turn arose from a NESCent <span class="plainlinks">[http://www.nescent.org/science/workinggroup.php Working Group]</span> led by Paula Mabee and Monte Westerfield, "[[Fish Evolution Working Group|Towards an Integrated Database for Fish Evolution]]."
+This project would not have been possible without the hard work of [[Acknowledgments#Contributors| numerous contributors]] and the results obtained in the [[Linking Evolution to Genomics Using Phenotype Ontologies]] project, which was funded by NSF grant BDI
+
+
+
+<nowiki>-</nowiki> 0641025 from June 1, 2007, to Jun 30, 2011, and was supported by NESCent, NSF #EF-0423641. This earlier project in turn arose from a NESCent <span class="plainlinks">[http://www.nescent.org/science/workinggroup.php Working Group]</span> led by Paula Mabee and Monte Westerfield, "[[Fish Evolution Working Group|Towards an Integrated Database for Fish Evolution]]."
 | http://www.nescent.org/about/images/nsf_logo.jpg
 |}
 
