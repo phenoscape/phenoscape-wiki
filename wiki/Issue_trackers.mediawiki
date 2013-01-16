@@ -2,7 +2,7 @@
 title: Issue trackers
 ---
 
-If you have a problem or suggestion related to any Phenoscape software project, please use one of the issue trackers listed below. Or, send an email to [help@phenoscape.org]. If you are a developer working with a particular code module, use the issue tracker associated with that Github repository.
+If you have a problem or suggestion related to any Phenoscape software project, please use one of the issue trackers listed below. Or, send an email to [mailto:help@phenoscape.org]. If you are a developer working with a particular code module, use the issue tracker associated with that Github repository.
 
 ==Phenoscape Knowledgebase==
 https://github.com/phenoscape/PhenoscapeWeb/issues
