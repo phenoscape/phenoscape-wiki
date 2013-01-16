@@ -1,0 +1,14 @@
+---
+title: Issue trackers
+---
+
+If you have a problem or suggestion related to any Phenoscape software project, please use one of the issue trackers listed below. Or, send an email to help@phenoscape.org. If you are a developer working with a particular code module, use the issue tracker associated with that Github repository.
+
+==Phenoscape Knowledgebase==
+https://github.com/phenoscape/PhenoscapeWeb/issues
+
+==Phenex==
+https://github.com/phenoscape/Phenex/issues
+
+==Provisional term management web interface==
+https://github.com/balhoff/phenoscape-sparqlweb/issues
