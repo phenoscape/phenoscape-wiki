@@ -2,6 +2,34 @@
 title: Annotation status
 ---
 
+==2013-01-28==
+===Fish excluding tetrapodomorphs===
+* Publication count: 17
+* Total characters: 1827
+* Completed characters: 393
+* Partially annotated characters: 67
+* Unannotated characters: 1367
+* Annotated states: 997
+* Total EQ annotations: 1122
+
+===Amphibians and transitional===
+*Publication count: 40
+*Total characters: 4654
+*Completed characters: 804
+*Partially annotated characters: 134
+*Unannotated characters: 3716
+*Annotated states: 2192
+*Total EQ annotations: 2892
+
+===Sereno Files===
+*Publication count: 6
+*Total characters: 4094
+*Completed characters: 406
+*Partially annotated characters: 125
+*Unannotated characters: 3563
+*Annotated states: 1185
+*Total EQ annotations: 1452
+
 ==2013-01-14==
 ===Fish excluding tetrapodomorphs===
 * Publication count: 17
