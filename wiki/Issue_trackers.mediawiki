@@ -12,5 +12,5 @@ https://github.com/phenoscape/PhenoscapeWeb/issues
 ==Phenex==
 https://github.com/phenoscape/Phenex/issues
 
-==Provisional term management web interface==
-https://github.com/balhoff/phenoscape-sparqlweb/issues
+==Provisional term (ORB) management web interface, data reports==
+https://github.com/phenoscape/phenoscape-data
