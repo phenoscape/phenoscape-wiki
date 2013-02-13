@@ -13,4 +13,4 @@ https://github.com/phenoscape/PhenoscapeWeb/issues
 https://github.com/phenoscape/Phenex/issues
 
 ==Provisional term (ORB) management web interface, data reports==
-https://github.com/phenoscape/phenoscape-data
+https://github.com/phenoscape/phenoscape-data/issues
