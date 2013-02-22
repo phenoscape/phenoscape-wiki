@@ -232,7 +232,7 @@ joint^overlaps(metapterygoid)^overlaps(hyomandibula)
 |-
 | anteriorly connected to || connectedness || E anteriorly_connected_to E
 |-
-| attaches_to || connectedness || E attaches_to E; e.g., 'tooth' and ('''attaches_to''' some 'maxilla')
+| attaches_to || connectedness || E attaches_to E; e.g., 'tooth' and ('''attaches_to''' some 'maxilla').  Also, 'scale' and ('''attaches_to''' some 'caudal fin'). 
 |-
 | connected_to || connectedness || E connected_to RE;
 |-
