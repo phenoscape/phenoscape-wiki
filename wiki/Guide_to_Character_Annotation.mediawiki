@@ -231,7 +231,7 @@ joint^overlaps(metapterygoid)^overlaps(hyomandibula)
 ! Relation
 ! Category
 ! Design &nbsp;Pattern&nbsp;&nbsp;&nbsp; <br>
-! Example
+! Examples
 |-
 | anteriorly connected to
 | connectedness
