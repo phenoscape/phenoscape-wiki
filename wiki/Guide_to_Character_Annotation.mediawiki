@@ -224,101 +224,237 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 
 joint^overlaps(metapterygoid)^overlaps(hyomandibula)
 
-=== Relations used for post-compositions ===
+=== Relations used for post-compositions  ===
 
-{| class="wikitable"
+{| width="1046" class="wikitable"
 |-
-! Relation !! Category !! Example
+! Relation
+! Category
+! Design &nbsp;Pattern&nbsp;&nbsp;&nbsp; <br>
+! Example
 |-
-| anteriorly connected to || connectedness || E anteriorly_connected_to E
+| anteriorly connected to
+| connectedness
+| E anteriorly_connected_to E<br>
+| <br>
 |-
-| attaches_to || connectedness || E attaches_to E; e.g., 'tooth' and ('''attaches_to''' some 'maxilla').  Also, 'scale' and ('''attaches_to''' some 'caudal fin'). 
+| attaches_to
+| connectedness
+| E attaches_to E<br>
+| 'tooth' and ('''attaches_to''' some 'maxilla'). Also, 'scale' and ('''attaches_to''' some 'caudal fin').
 |-
-| connected_to || connectedness || E connected_to RE;
+| connected_to
+| connectedness
+| E connected_to E<br>
+| <br>
 |-
-| distally_connected_to || connectedness || E distally_connected_to E
+| distally_connected_to
+| connectedness
+| E distally_connected_to E <br>
+| <br>
 |-
-| posteriorly connected to || connectedness || E posteriorly connected to E
+| posteriorly connected to
+| connectedness
+| E posteriorly_connected_to E <br><br>
+| <br>
 |-
-| proximally connected to || connectedness || E proximally connected to E
+| proximally connected to
+| connectedness
+| E proximally_connected_to E <br>
+| <br>
 |-
-| develops_from || development || E develops_from E
+| develops_from
+| development
+| E develops_from E <br>
+| <br>
 |-
-| has_muscle_insertion || muscle attachment ||  E = muscle X has_muscle_insertion E ; e.g., 'triceps brachii' and ('''has_muscle_insertion''' some 'olecranon')
+| has_muscle_insertion
+| muscle attachment
+| 'muscle X' has_muscle_insertion E<br>
+| 'triceps brachii' and ('''has_muscle_insertion''' some 'olecranon')
 |-
-| has_muscle_origin || muscle attachment || E = muscle X has_muscle_origin E; e.g., 'triceps brachii' and ('''has_muscle_origin''' some 'humerus')
+| has_muscle_origin
+| muscle attachment
+| 'muscle X' has_muscle_origin E<br>
+| 'triceps brachii' and ('''has_muscle_origin''' some 'humerus')
 |-
-| serves_ as _attachment _site_ for || muscle attachment || E serves_as_attachment_site_for muscle X
+| serves_ as _attachment _site_ for
+| muscle attachment
+| E serves_as_attachment_site_for muscle X <br>
+| <br>
 |-
-| has_part || mereological || E has_part E; 'premaxilla' and ('''has_part''' some 'anatomical projection')
+| has_part
+| mereological
+| E has_part E<br>
+| 'premaxilla' and ('''has_part''' some 'anatomical projection')
 |-
-| part_of || mereological || E part_of E; 'anatomical projection' and ('''part_of''' some 'premaxilla')
+| part_of
+| mereological
+| E part_of E<br>
+| 'anatomical projection' and ('''part_of''' some 'premaxilla')
 |-
-| bearer_of || quality || E bearer_of Q; 'tooth' and ('''bearer_of''' some 'tapered')
+| bearer_of
+| quality
+| E bearer_of Q<br>
+| tooth' and ('''bearer_of''' some 'tapered')
 |-
-| inheres_in || quality || Q inheres_in E; 'length' and ('''inheres_in''' some 'coracoid bone')
+| inheres_in
+| quality
+| Q inheres_in E<br>
+| 'length' and ('''inheres_in''' some 'coracoid bone')
 |-
-| decreased_in_magnitude_relative_to || size || [1]
+| decreased_in_magnitude_relative_to
+| size
+| <br>
+| [1]
 |-
-| increased_in_magnitude_relative_to || size || [1]
+| increased_in_magnitude_relative_to
+| size
+| <br>
+| [1]
 |-
-| similar_in_magnitude_relative_to || size || [1]
+| similar_in_magnitude_relative_to
+| size
+| <br>
+| [1]
 |-
-| adjacent_to || spatial || E adjacent_to E
+| adjacent_to
+| spatial
+| E adjacent_to E <br>
+| <br>
 |-
-| anterior_to || spatial || E anterior_to E
+| anterior_to
+| spatial
+| E anterior_to E <br>
+| <br>
 |-
-| deep_to || spatial || E deep_to E
+| deep_to
+| spatial
+| E deep_to E <br>
+| <br>
 |-
-| distal_to || spatial || E distal_to E
+| distal_to
+| spatial
+| E distal_to E <br>
+| <br>
 |-
-| dorsal_to || spatial || E dorsal_to E
+| dorsal_to
+| spatial
+| E dorsal_to E <br>
+| <br>
 |-
-| encloses || spatial || E encloses E
+| encloses
+| spatial
+| E encloses E<br>
+| <br>
 |-
-| extends_from || spatial || E extends_from E; e.g., 'anatomical surface' and ('''extends_from''' some 'parietal bone')
+| extends_from
+| spatial
+| E extends_from E<br>
+| 'anatomical surface' and ('''extends_from''' some 'parietal bone')
 |-
-| extends_to || spatial || E extends_to E; e.g., 'anatomical surface' and ('''extends_to''' some 'frontal bone')
+| extends_to
+| spatial
+| E extends_to E<br>
+| 'anatomical surface' and ('''extends_to''' some 'frontal bone')
 |-
-| has_cross_section || spatial ||
+| has_cross_section
+| spatial
+| <br>
+| <br>
 |-
-| in_anterior_side_of || spatial || E in_anterior_side_of E
+| in_anterior_side_of
+| spatial
+| E in_anterior_side_of E <br>
+| <br>
 |-
-| in_distal_side_of || spatial || E in_distal_side_of E
+| in_distal_side_of
+| spatial
+| E in_distal_side_of E <br>
+| <br>
 |-
-| in_lateral_side_of || spatial || E in_lateral_side_of E
+| in_lateral_side_of
+| spatial
+| E in_lateral_side_of E <br>
+| <br>
 |-
-| in_left_side_of || spatial || E in_left_side_of E; e.g., 'frontal bone' and ('''in_left_side_of''' some 'body')
+| in_left_side_of
+| spatial
+| E in_left_side_of E<br>
+| 'frontal bone' and ('''in_left_side_of''' some 'body')
 |-
-| in_median_plane_of || spatial || E in_median_plane_of E
+| in_median_plane_of
+| spatial
+| E in_median_plane_of E <br>
+| <br>
 |-
-| in_posterior_side_of || spatial || E in_posterior_side_of E
+| in_posterior_side_of
+| spatial
+| E in_posterior_side_of E <br>
+| <br>
 |-
-| in_proximal_side_of || spatial || E in_proximal_side_of E
+| in_proximal_side_of
+| spatial
+| E in_proximal_side_of E <br>
+| <br>
 |-
-| in_right_side_of || spatial || E in_right_side_of E; e.g., 'frontal bone' and ('''in_right_side_of''' some 'body')
+| in_right_side_of
+| spatial
+| E in_right_side_of E<br>
+| &nbsp;'frontal bone' and ('''in_right_side_of''' some 'body')
 |-
-| located_in || spatial || E located_in E
+| located_in
+| spatial
+| E located_in E <br>
+| <br>
 |-
-| overlaps || spatial || E overlaps E; e.g.,
+| overlaps
+| spatial
+| E overlaps E <br>
+| <br>
 |-
-| passes_through || spatial ||
+| passes_through
+| spatial
+| <br>
+| <br>
 |-
-| posterior_to || spatial || E posterior_to E
+| posterior_to
+| spatial
+| E posterior_to E <br>
+| <br>
 |-
-| proximal_to || spatial || E proximal_to E
+| proximal_to
+| spatial
+| E proximal_to E <br>
+| <br>
 |-
-| surrounded_by || spatial || E surounded_by E
+| surrounded_by
+| spatial
+| E surounded_by E <br>
+| <br>
 |-
-| surrounds || spatial || E surrounds E
+| surrounds
+| spatial
+| E surrounds E <br>
+| <br>
 |-
-| ventral_to || spatial || E ventral_to E
+| ventral_to
+| spatial
+| E ventral_to E <br>
+| <br>
 |-
-| vicinity_of || spatial || E vicinity_of E
+| vicinity_of
+| spatial
+| E vicinity_of E <br>
+| <br>
 |-
-| not || || Q not Q; e.g., 'shape' and ('''not''' some 'round')
+| not
+| <br>
+| Q not Q<br>
+| 'shape' and ('''not''' some 'round')
 |}
-* [1] [http://phenoscape.org/wiki/Guide_to_Character_Annotation#6._Size see note about curatorial shortcuts related to 'size']
+
+*[1] [http://phenoscape.org/wiki/Guide_to_Character_Annotation#6._Size see note about curatorial shortcuts related to 'size']
 
 ==Evidence Codes==
 
