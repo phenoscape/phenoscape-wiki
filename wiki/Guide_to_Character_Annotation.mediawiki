@@ -457,7 +457,9 @@ NOTE: Teeth and scales are not always related to structures by attaches_to; they
 | not
 | <br>
 | Q not Q<br>
-| 'shape' and ('''not''' some 'round')
+| Used to represent complementary phenotypes.
+
+'shape' and ('''not''' some 'round')
 |}
 
 *[1] [http://phenoscape.org/wiki/Guide_to_Character_Annotation#6._Size see note about curatorial shortcuts related to 'size']
