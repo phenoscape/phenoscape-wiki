@@ -224,7 +224,7 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 
 joint^overlaps(metapterygoid)^overlaps(hyomandibula)
 
-=== Relations used for post-compositions  ===
+=== Relations used in post-composition  ===
 
 {| width="1046" class="wikitable"
 |-
