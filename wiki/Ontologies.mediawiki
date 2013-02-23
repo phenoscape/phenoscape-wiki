@@ -19,11 +19,20 @@ In the past we have held regular project [[Anatomy_Ontology_Conf_calls| anatomy 
 In addition, the Phenoscape curators have been meeting weekly to have joint ontology editing sessions. Please let us know if you would like to join us, Melissa Haendel has been coordinating these sessions (haendel@ohsu.edu).
 
 == Phenoscape-ext ==
-Phenoscape-ext contains the TAO, AAO, and VSAO combined with Uberon. We are currently in the process of reconciling the issues that arose during this merge (August, 2012), so you may see some messiness for a bit.  This ontology will be used by Phenoscape for annotation of evolutionary characters. Phenoscape-ext is our first foray into working directly in OWL.
+Phenoscape-ext contains the TAO, AAO, and VSAO combined with Uberon. This adds an additional 2500+ classes to the core Uberon, all contributed by the Phenoscape project. Phenoscape-ext is our first foray into working directly in OWL.
 
 * Ontology update requests can be made on the Uberon term request tracker: [https://github.com/cmungall/uberon/issues]
 * Source edit file available here: [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/edit/phenoscape-ext.owl]
-* PURL: http://purl.obolibrary.org/obo/uberon/phenoscape-ext.owl
+* Release files are available here:
+
+[http://purl.obolibrary.org/obo/uberon/ext.obo; http://purl.obolibrary.org/obo/uberon/ext.obo]
+
+[http://purl.obolibrary.org/obo/uberon/ext.owl; http://purl.obolibrary.org/obo/uberon/ext.owl]
+
+phenoscape-ext.owl will remain the editors version. The release uberon/ext.owl retains the import chains and is pre-reasoned. uberon/ext.obo merges the import chain into one ontology because obo does not have good support for imports. Mant of the other uberon derived artefacts such as composite-metazoan do not use ext but this may be changed in the future. See [http://uberon.org; uberon.org] for details of all the various cuts.
+
+We will continue to reconcile the issues that arose during this merge (started in August, 2012, first release on Feb 22, 2013), so you may continue to see some issues.  This ontology will be used by Phenoscape for annotation of evolutionary characters.
+
 * [http://www.obofoundry.org/wiki/index.php/UBERON:Main_Page#Phenoscape-ext_.28new.29 Further information about Uberon and the Phenoscape-ext merge]
 
 ==Vertebrate Skeletal Anatomy Ontology (VSAO) ==
