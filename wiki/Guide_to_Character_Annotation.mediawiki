@@ -224,7 +224,7 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 
 joint^overlaps(metapterygoid)^overlaps(hyomandibula)
 
-=== Relations used in post-composition  ===
+=== Relations used for post-compositions  ===
 
 {| width="1046" class="wikitable"
 |-
@@ -241,7 +241,12 @@ joint^overlaps(metapterygoid)^overlaps(hyomandibula)
 | attaches_to
 | connectedness
 | E attaches_to E<br>
-| 'tooth' and ('''attaches_to''' some 'maxilla'). Also, 'scale' and ('''attaches_to''' some 'caudal fin').
+| Used primarily to represent attachment of teeth, scales, and ligaments. Examples:
+'tooth' and ('''attaches_to''' some 'maxilla')
+
+'scale' and ('''attaches_to''' some 'caudal fin')
+
+NOTE: Teeth and scales are not always related to structures by attaches_to; they can also be part_of an anatomical structure, e.g., 'tooth' '''part_of''' (some 'dentition') or 'scale' ('''part_of''' some 'scale row')
 |-
 | connected_to
 | connectedness
@@ -411,12 +416,13 @@ joint^overlaps(metapterygoid)^overlaps(hyomandibula)
 | overlaps
 | spatial
 | E overlaps E <br>
-| <br>
+| Two structures overlap if they have some part in common. For example, metapterygoid-hyomandibular joint is post-composed as:
+'joint' and ('''overlaps''' some 'metapterygoid') and ('''overlaps''' some 'hyomandibula')
 |-
 | passes_through
 | spatial
 | <br>
-| <br>
+| BSPO relation. Need to check usage<br>
 |-
 | posterior_to
 | spatial
@@ -430,13 +436,13 @@ joint^overlaps(metapterygoid)^overlaps(hyomandibula)
 |-
 | surrounded_by
 | spatial
-| E surounded_by E <br>
+| E surrounded_by E <br>
 | <br>
 |-
 | surrounds
 | spatial
 | E surrounds E <br>
-| <br>
+| 'anatomical projection' and ('''surrounds''' some 'popliteal area')
 |-
 | ventral_to
 | spatial
