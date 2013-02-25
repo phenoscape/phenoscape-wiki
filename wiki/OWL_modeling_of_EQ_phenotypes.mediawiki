@@ -45,9 +45,9 @@ Many characters are of this form - character: "shape of opercle"; state 0: "roun
 '''shape''' that ''inheres_in'' some '''opercle''' and not '''round'''
 
 ==Presence/absence phenotype==
-The presence or absence of a structure should be expressed as a cardinality of the has_part property.  For example, "frontal bone, absent":
+The presence or absence of a structure should be expressed a negation of the has_part property.  For example, "frontal bone, absent":
 
-''has_part'' exactly 0 '''frontal'''
+not (''has_part'' some '''frontal''')
 
 For "present":
 
@@ -55,7 +55,7 @@ For "present":
 
 If the absence is within a particular structure:
 
-''has_part'' some ('''dorsal_fin''' that ''has_part'' exactly 0 '''actinotrichium''')
+''has_part'' some ('''dorsal_fin''' that not (''has_part'' some '''actinotrichium'''))
 
 ==Count phenotype==
 Counts can be expressed as a generalization of presence/absence.  Both exact counts and maximum or minimums can be expressed.  So, for the character "Number of scales on dorsal fin", state 0: 45, state 1: >45,
