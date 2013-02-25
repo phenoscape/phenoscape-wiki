@@ -224,242 +224,244 @@ The post-composed term for metapterygoid-hyomandibular joint will appear as:
 
 joint^overlaps(metapterygoid)^overlaps(hyomandibula)
 
-=== Relations used for post-compositions  ===
+=== Relations used for post-compositions ===
 
-{| width="1046" class="wikitable"
+{| class="wikitable" style="width: 1046px"
 |-
 ! Relation
 ! Category
-! Design &nbsp;Pattern&nbsp;&nbsp;&nbsp; <br>
+! Design &nbsp;Pattern&nbsp;&nbsp;&nbsp;<br/>
 ! Examples
 |-
 | anteriorly connected to
 | connectedness
-| E anteriorly_connected_to E<br>
-| <br>
+| E anteriorly_connected_to E<br/>
+| <br/>
 |-
 | attaches_to
 | connectedness
-| E attaches_to E<br>
+| E attaches_to E<br/>
 | Used primarily to represent attachment of teeth, scales, and ligaments. Examples:
 'tooth' and ('''attaches_to''' some 'maxilla')
 
 'scale' and ('''attaches_to''' some 'caudal fin')
 
 NOTE: Teeth and scales are not always related to structures by attaches_to; they can also be part_of an anatomical structure, e.g., 'tooth' '''part_of''' (some 'dentition') or 'scale' ('''part_of''' some 'scale row')
+
 |-
 | connected_to
 | connectedness
-| E connected_to E<br>
-| <br>
+| E connected_to E<br/>
+| <br/>
 |-
 | distally_connected_to
 | connectedness
-| E distally_connected_to E <br>
-| <br>
+| E distally_connected_to E<br/>
+| <br/>
 |-
 | posteriorly connected to
 | connectedness
-| E posteriorly_connected_to E <br><br>
-| <br>
+| E posteriorly_connected_to E<br/><br/>
+| <br/>
 |-
 | proximally connected to
 | connectedness
-| E proximally_connected_to E <br>
-| <br>
+| E proximally_connected_to E<br/>
+| <br/>
 |-
 | develops_from
 | development
-| E develops_from E <br>
-| <br>
+| E develops_from E<br/>
+| <br/>
 |-
 | has_muscle_insertion
 | muscle attachment
-| 'muscle X' has_muscle_insertion E<br>
+| 'muscle X' has_muscle_insertion E<br/>
 | 'triceps brachii' and ('''has_muscle_insertion''' some 'olecranon')
 |-
 | has_muscle_origin
 | muscle attachment
-| 'muscle X' has_muscle_origin E<br>
+| 'muscle X' has_muscle_origin E<br/>
 | 'triceps brachii' and ('''has_muscle_origin''' some 'humerus')
 |-
 | serves_ as _attachment _site_ for
 | muscle attachment
-| E serves_as_attachment_site_for muscle X <br>
-| <br>
+| E serves_as_attachment_site_for muscle X<br/>
+| <br/>
 |-
 | has_part
 | mereological
-| E has_part E<br>
+| E has_part E<br/>
 | 'premaxilla' and ('''has_part''' some 'anatomical projection')
 |-
 | part_of
 | mereological
-| E part_of E<br>
+| E part_of E<br/>
 | 'anatomical projection' and ('''part_of''' some 'premaxilla')
 |-
 | bearer_of
 | quality
-| E bearer_of Q<br>
+| E bearer_of Q<br/>
 | tooth' and ('''bearer_of''' some 'tapered')
 |-
 | inheres_in
 | quality
-| Q inheres_in E<br>
+| Q inheres_in E<br/>
 | 'length' and ('''inheres_in''' some 'coracoid bone')
 |-
 | decreased_in_magnitude_relative_to
 | size
-| <br>
+| <br/>
 | [1]
 |-
 | increased_in_magnitude_relative_to
 | size
-| <br>
+| <br/>
 | [1]
 |-
 | similar_in_magnitude_relative_to
 | size
-| <br>
+| <br/>
 | [1]
 |-
 | adjacent_to
 | spatial
-| E adjacent_to E <br>
-| <br>
+| E adjacent_to E<br/>
+| <br/>
 |-
 | anterior_to
 | spatial
-| E anterior_to E <br>
-| <br>
+| E anterior_to E<br/>
+| <br/>
 |-
 | deep_to
 | spatial
-| E deep_to E <br>
-| <br>
+| E deep_to E<br/>
+| <br/>
 |-
 | distal_to
 | spatial
-| E distal_to E <br>
-| <br>
+| E distal_to E<br/>
+| <br/>
 |-
 | dorsal_to
 | spatial
-| E dorsal_to E <br>
-| <br>
+| E dorsal_to E<br/>
+| <br/>
 |-
 | encloses
 | spatial
-| E encloses E<br>
-| <br>
+| E encloses E<br/>
+| <br/>
 |-
 | extends_from
 | spatial
-| E extends_from E<br>
+| E extends_from E<br/>
 | 'anatomical surface' and ('''extends_from''' some 'parietal bone')
 |-
 | extends_to
 | spatial
-| E extends_to E<br>
+| E extends_to E<br/>
 | 'anatomical surface' and ('''extends_to''' some 'frontal bone')
 |-
 | has_cross_section
 | spatial
-| <br>
-| <br>
+| <br/>
+| <br/>
 |-
 | in_anterior_side_of
 | spatial
-| E in_anterior_side_of E <br>
-| <br>
+| E in_anterior_side_of E<br/>
+| <br/>
 |-
 | in_distal_side_of
 | spatial
-| E in_distal_side_of E <br>
-| <br>
+| E in_distal_side_of E<br/>
+| <br/>
 |-
 | in_lateral_side_of
 | spatial
-| E in_lateral_side_of E <br>
-| <br>
+| E in_lateral_side_of E<br/>
+| <br/>
 |-
 | in_left_side_of
 | spatial
-| E in_left_side_of E<br>
+| E in_left_side_of E<br/>
 | 'frontal bone' and ('''in_left_side_of''' some 'body')
 |-
 | in_median_plane_of
 | spatial
-| E in_median_plane_of E <br>
-| <br>
+| E in_median_plane_of E<br/>
+| <br/>
 |-
 | in_posterior_side_of
 | spatial
-| E in_posterior_side_of E <br>
-| <br>
+| E in_posterior_side_of E<br/>
+| <br/>
 |-
 | in_proximal_side_of
 | spatial
-| E in_proximal_side_of E <br>
-| <br>
+| E in_proximal_side_of E<br/>
+| <br/>
 |-
 | in_right_side_of
 | spatial
-| E in_right_side_of E<br>
+| E in_right_side_of E<br/>
 | &nbsp;'frontal bone' and ('''in_right_side_of''' some 'body')
 |-
 | located_in
 | spatial
-| E located_in E <br>
-| <br>
+| E located_in E<br/>
+| <br/>
 |-
 | overlaps
 | spatial
-| E overlaps E <br>
+| E overlaps E<br/>
 | Two structures overlap if they have some part in common. For example, metapterygoid-hyomandibular joint is post-composed as:
 'joint' and ('''overlaps''' some 'metapterygoid') and ('''overlaps''' some 'hyomandibula')
+
 |-
 | passes_through
 | spatial
-| <br>
-| BSPO relation. Need to check usage<br>
+| <br/>
+| BSPO relation. Need to check usage<br/>
 |-
 | posterior_to
 | spatial
-| E posterior_to E <br>
-| <br>
+| E posterior_to E<br/>
+| <br/>
 |-
 | proximal_to
 | spatial
-| E proximal_to E <br>
-| <br>
+| E proximal_to E<br/>
+| <br/>
 |-
 | surrounded_by
 | spatial
-| E surrounded_by E <br>
-| <br>
+| E surrounded_by E<br/>
+| <br/>
 |-
 | surrounds
 | spatial
-| E surrounds E <br>
+| E surrounds E<br/>
 | 'anatomical projection' and ('''surrounds''' some 'popliteal area')
 |-
 | ventral_to
 | spatial
-| E ventral_to E <br>
-| <br>
+| E ventral_to E<br/>
+| <br/>
 |-
 | vicinity_of
 | spatial
-| E vicinity_of E <br>
-| <br>
+| E vicinity_of E<br/>
+| <br/>
 |-
 | not
-| <br>
-| Q not Q<br>
-| Used to represent complementary phenotypes.
-
+| <br/>
+| Q not Q<br/>
+| Used to represent complementary phenotypes, for example: <br/>
 'shape' and ('''not''' some 'round')
+
 |}
 
 *[1] [http://phenoscape.org/wiki/Guide_to_Character_Annotation#6._Size see note about curatorial shortcuts related to 'size']
