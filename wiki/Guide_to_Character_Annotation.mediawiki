@@ -332,7 +332,7 @@ NOTE: Teeth and scales are not always related to structures by attaches_to; they
 | anterior_to
 | spatial
 | E anterior_to E<br/>
-| <br/>
+| 'basal fulcrum' and ('''anterior_to''' some 'dorsal fin')
 |-
 | deep_to
 | spatial
@@ -342,12 +342,12 @@ NOTE: Teeth and scales are not always related to structures by attaches_to; they
 | distal_to
 | spatial
 | E distal_to E<br/>
-| <br/>
+| 'radial' and ('''distal_to''' some 'ulnare')
 |-
 | dorsal_to
 | spatial
 | E dorsal_to E<br/>
-| <br/>
+| 'anatomical region' and ('''dorsal_to''' some (glenoid fossa and ('''part_of''' some 'scapula') 
 |-
 | encloses
 | spatial
