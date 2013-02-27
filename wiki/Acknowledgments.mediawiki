@@ -2,6 +2,78 @@
 title: Acknowledgments
 ---
 
+==Project team==
+
+{| width="90%"
+|- align="left" valign="top" style="font-weight: bold;"
+| style="width: 33%;" | National Evolutionary Synthesis Center (NESCent)
+| style="width: 33%;" | University of South Dakota
+| style="width: 33%;" | University of Oregon (Zebrafish Information Network)
+|- valign="top"
+| rowspan="4" |
+* [http://visionlab.web.unc.edu/| Todd Vision] (also University of North Carolina at Chapel Hill)
+* [[User:Hlapp| Hilmar Lapp]]
+* [http://www.mendeley.com/profiles/jim-balhoff/ Jim Balhoff]
+* Prashanti Manda
+|
+* Paula Mabee
+* Wasila Dahdul
+* Alex Dececchi
+| rowspan="4" |
+* [http://zfin.org/cgi-bin/webdriver?MIval=aa-persview.apg&OID=ZDB-PERS-960805-676 Monte Westerfield]
+* Yvonne Bradford
+* Ceri Van Slyke
+|- style="height: 1px;"
+|
+|- align="left" style="font-weight: bold; "
+| Oregon Health & Science University
+|- valign="top"
+|
+* Melissa Haendel
+|- style="height: 10px;"
+|
+|- align="left" style="font-weight: bold; "
+| University of Chicago || Mouse Genome Informatics || Cincinnati Children's Hospital Medical Center
+|- valign="top"
+|
+* Paul Sereno
+* Nizar Ibrahim
+|
+* Judith Blake
+* Terry Hayamizu
+|
+* Aaron Zorn (Xenbase)
+* Christina James-Zorn (Xenbase)
+|- style="height: 10px;"
+|
+|- align="left" style="font-weight: bold; "
+| California Academy of Sciences || University of Arizona || Lawrence Berkeley National Labs ||
+|- valign="top"
+|
+* David Blackburn
+|
+* [http://sites.google.com/site/biosemanticsproject/project-overview Hong Cui]
+* [http://www.linkedin.com/pub/zilong-chang/3a/348/585 Zilong Chang]
+|
+* Chris Mungall
+|}
+
+==Advisory Board==
+
+=== Members ===
+* John Day-Richter (Google)
+* Brian K. Hall (Dalhousie University)
+* Cyndy Parr (Encyclopedia of Life) (2012-)
+* Paul Schofield (University of Cambridge)
+* Peter Vize (University of Calgary)
+* Alan Ruttenberg (University of Buffalo) (2011-2012)
+
+=== Meetings ===
+
+* [[WG:All-Hands_Meeting_2011-11-11| Advisory Board meeting (electronic) on Nov. 11, 2011]] (by conference call):  [http://docs.google.com/document/d/1oE9Mp-UVu6r-Ci7G3EHTRaBuXsapyqm7DQ-Q0FjwCyo/edit?hl=en_US agenda] and [[Media:ABmeeting 2011-11-11 notes.pdf| notes]]
+* Advisory Board meeting (face to face): Friday, April 27, 2012; Phenoscape project meeting will precede this on April 25, 26
+* [[WG:Advisory Board Meeting 2012-12-04| Advisory Board meeting (electronic) on Dec. 4, 2012]]
+
 ==Contributors==
 The following individuals have contributed to Phenoscape ontology development, data curation, workshops, and data entry:
 
@@ -210,62 +282,6 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Brad Schanche, University of South Dakota
 * Michael Wallinga, University of South Dakota
 
-==Project team==
-
-{| width="90%"
-|- align="left" valign="top" style="font-weight: bold;"
-| style="width: 33%;" | National Evolutionary Synthesis Center (NESCent)
-| style="width: 33%;" | University of South Dakota
-| style="width: 33%;" | University of Oregon (Zebrafish Information Network)
-|- valign="top"
-| rowspan="4" |
-* Todd Vision (also University of North Carolina at Chapel Hill)
-* [[User:Hlapp| Hilmar Lapp]]
-* [http://www.mendeley.com/profiles/jim-balhoff/ Jim Balhoff]
-* Peter Midford
-|
-* Paula Mabee
-* Wasila Dahdul
-* Alex Dececchi
-| rowspan="4" |
-* [http://zfin.org/cgi-bin/webdriver?MIval=aa-persview.apg&OID=ZDB-PERS-960805-676 Monte Westerfield]
-* Yvonne Bradford
-* Ceri Van Slyke
-|- style="height: 1px;"
-|
-|- align="left" style="font-weight: bold; "
-| Oregon Health & Science University
-|- valign="top"
-|
-* Melissa Haendel
-|- style="height: 10px;"
-|
-|- align="left" style="font-weight: bold; "
-| University of Chicago || Mouse Genome Informatics || Cincinnati Children's Hospital Medical Center
-|- valign="top"
-|
-* Paul Sereno
-* Nizar Ibrahim
-|
-* Judith Blake
-* Terry Hayamizu
-|
-* Aaron Zorn (Xenbase)
-* Christina James-Zorn (Xenbase)
-|- style="height: 10px;"
-|
-|- align="left" style="font-weight: bold; "
-| California Academy of Sciences || University of Arizona || Lawrence Berkeley National Labs ||
-|- valign="top"
-|
-* David Blackburn
-|
-* [http://sites.google.com/site/biosemanticsproject/project-overview Hong Cui]
-* [http://www.linkedin.com/pub/zilong-chang/3a/348/585 Zilong Chang]
-|
-* Chris Mungall
-|}
-
 ==Data sources==
 * [http://zfin.org ZFIN] - mutant and morpholino zebrafish genes and phenotypes
 * [http://research.calacademy.org/ichthyology/catalog Catalog of Fishes] - fish taxonomy, list of collections
@@ -275,22 +291,6 @@ The following individuals have contributed to Phenoscape ontology development, d
 * [http://www.worldbirdnames.org/index.html IOC World Bird Names] - taxonomy of extant birds
 * [http://www.ncbi.nlm.nih.gov/Taxonomy/ NCBI taxonomy] - taxonomy for groups not otherwise covered
 * [http://www.catalogueoflife.org/ Catalogue of Life] - source of taxonomic synonyms
-
-==Advisory Board==
-
-=== Members ===
-* John Day-Richter (Google)
-* Brian K. Hall (Dalhousie University)
-* Cyndy Parr (Encyclopedia of Life) (2012-)
-* Paul Schofield (University of Cambridge)
-* Peter Vize (University of Calgary)
-* Alan Ruttenberg (University of Buffalo) (2011-2012)
-
-=== Meetings ===
-
-* [[WG:All-Hands_Meeting_2011-11-11| Advisory Board meeting (electronic) on Nov. 11, 2011]] (by conference call):  [http://docs.google.com/document/d/1oE9Mp-UVu6r-Ci7G3EHTRaBuXsapyqm7DQ-Q0FjwCyo/edit?hl=en_US agenda] and [[Media:ABmeeting 2011-11-11 notes.pdf| notes]]
-* Advisory Board meeting (face to face): Friday, April 27, 2012; Phenoscape project meeting will precede this on April 25, 26
-* [[WG:Advisory Board Meeting 2012-12-04| Advisory Board meeting (electronic) on Dec. 4, 2012]]
 
 ==Funding==
 The Phenoscape II project is funded by NSF collaborative grants DBI-1062404 and DBI-1062542 grant, and is supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0905606. It's predecessor, the [[Phenoscape I]] project, was funded by NSF grant BDI-0641025, and supported by NESCent, NSF #EF-0423641.
