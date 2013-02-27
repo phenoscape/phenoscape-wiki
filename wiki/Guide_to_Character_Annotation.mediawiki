@@ -267,12 +267,12 @@ NOTE: Teeth and scales are not always related to structures by attaches_to; they
 | proximally connected to
 | connectedness
 | E proximally_connected_to E<br/>
-| <br/>
+| 'forelimb skeleton' and ('''proximally_connected_to''' some 'pectoral girdle skeleton')
 |-
 | develops_from
 | development
 | E develops_from E<br/>
-| <br/>
+| 'endochondral bone' and ('''develops_from''' some 'cartilage element')
 |-
 | has_muscle_insertion
 | muscle attachment
