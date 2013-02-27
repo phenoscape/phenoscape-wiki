@@ -236,7 +236,7 @@ joint^overlaps(metapterygoid)^overlaps(hyomandibula)
 | anteriorly connected to
 | connectedness
 | E anteriorly_connected_to E<br/>
-| <br/>
+| 'head' and ('''anteriorly_connected_to''' some 'neck')
 |-
 | attaches_to
 | connectedness
@@ -252,17 +252,17 @@ NOTE: Teeth and scales are not always related to structures by attaches_to; they
 | connected_to
 | connectedness
 | E connected_to E<br/>
-| <br/>
+| 'sternum' and ('''connected_to''' some 'rib')
 |-
 | distally_connected_to
 | connectedness
 | E distally_connected_to E<br/>
-| <br/>
+| 'leg' and ('''distally_connected_to''' some 'pes')
 |-
 | posteriorly connected to
 | connectedness
 | E posteriorly_connected_to E<br/><br/>
-| <br/>
+| 'neck' and ('''posteriorly connected to''' some 'trunk')
 |-
 | proximally connected to
 | connectedness
