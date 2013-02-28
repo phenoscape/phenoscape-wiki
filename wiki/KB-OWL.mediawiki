@@ -38,5 +38,6 @@ Currently all reasoning is conducted during the data load process, in which requ
 ''Need more here about advantages and limitations.''
 
 ==Data loader==
+The data loader is a set of Scala classes which manipulate ontologies in various ways. They can be called from within an Ant file which describes the build process. The data loader classes are developed within the [https://github.com/phenoscape/phenoscape-owl-tools phenoscape-owl-tools] project. The Ant file which builds the RDF files constituting the KB triplestore is part of the [https://github.com/phenoscape/phenoscape-builder phenoscape-builder] project.
 
 ==Data store==
