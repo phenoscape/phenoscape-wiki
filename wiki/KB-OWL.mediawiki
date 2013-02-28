@@ -33,6 +33,9 @@ The actual phenotype annotation can be created as a class assertion axiom for th
 ===Genes and phenotype annotations===
 
 ==Reasoning==
+Currently all reasoning is conducted during the data load process, in which required inferences are precomputed and then asserted in the data. This allows for more expressive reasoning than is available at query time (for example, RDFS reasoners in triplestore SPARQL engines), and also allows for faster queries (since all need facts are asserted).
+
+''Need more here about advantages and limitations.''
 
 ==Data loader==
 
