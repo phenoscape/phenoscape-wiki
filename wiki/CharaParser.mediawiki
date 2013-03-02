@@ -2,13 +2,15 @@
 title: CharaParser
 ---
 
-CharaParser is a natural-language processing tool which analyzes the text of character-state descriptions to produce a structured output used to generate proposals for ontological phenotype annotations. We are working to enhance the performance of CharaParser and also to integrate it with Phenex, so that data curators can take advantage of natural-language processing to accelerate their workflow.
+CharaParser is a natural-language processing tool which analyzes the text of character and character state descriptions to produce a structured output. It was initially developed in [https://sites.google.com/site/biosemanticsproject/ "Fine-Grained Semantic Markup of Descriptive Data for Knowledge Applications in Biodiversity Domains"]. We are adapting it to generate proposals for ontological phenotype annotations. When it is ready, we plan to integrate it with Phenex, so that data curators can take advantage of natural-language processing to accelerate their workflow.
+ 
 
-==Current installation process==
+<!-- ==Current installation process==
 
 ==Phenex integration==
 ===Preliminary integration===
 ===Development plan===
+--!>
 
 [[Category:Software]]
 [[Category:Curation]]
