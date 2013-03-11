@@ -20,3 +20,4 @@ More information on the original CharaParser can be found at [http://sites.googl
 
 [[Category:Software]]
 [[Category:Curation]]
+[[Category:NLP]]
