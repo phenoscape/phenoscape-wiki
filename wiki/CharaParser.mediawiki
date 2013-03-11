@@ -10,14 +10,6 @@ A prototype of adapted CharaParser participated in the BioCreative 2012 Workshop
 
 More information on the original CharaParser can be found at [http://sites.google.com/site/biosemanticsproject/project-source-code]
 
-
-<!-- ==Current installation process==
-
-==Phenex integration==
-===Preliminary integration===
-===Development plan===
---!>
-
 [[Category:Software]]
 [[Category:Curation]]
 [[Category:NLP]]
