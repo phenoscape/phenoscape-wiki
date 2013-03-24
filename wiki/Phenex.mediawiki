@@ -5,20 +5,10 @@ title: Phenex
 [[Image:Phenex-small.png|right]]
 Phenex is an application for annotating character matrix files with ontology terms.  Character states can be annotated using the Entity-Quality syntax for ontologically describing phenotypes.  In addition, taxon entries can be annotated with identifiers from a taxonomy ontology.  Phenex saves ontology annotations alongside traditional character matrix data using the new [http://www.nexml.org NeXML] format standard for evolutionary data.  Phenex builds on [http://www.phenote.org/ Phenote] and [http://oboedit.org/ OBO-Edit] from the [http://www.obofoundry.org/ OBO project]. Jim Balhoff is the lead developer of Phenex.
 
-==Citation==
-Balhoff JP, Dahdul WM, Kothari CR, Lapp H, Lundberg JG, Mabee P, Midford PE, Westerfield ME, Vision TJ. 2010. ''Phenex: Ontological Annotation of Phenotypic Diversity''. PLoS ONE 5(5): e10500. [http://dx.doi.org/10.1371/journal.pone.0010500 DOI]
-
-==System Requirements==
-Phenex runs on any system with Java 5 or newer (Java 5 is also called version 1.5).  Java 5 comes pre-installed on Mac OS X 10.4 and later.  Phenex can't be used on older releases of Mac OS X (check your version of Mac OS X by selecting "About This Mac" under the Apple menu).  For Windows, you can check your version of Java, and install if necessary, at http://www.java.com/.  Phenex runs on Linux - just make sure you have Java 5 installed.
-
-==Licensing==
-Phenex is open source software, released under the [http://www.opensource.org/licenses/mit-license.php MIT license].
-
-==Mailing List==
-Please join the Phenex users mailing list for software support and discussion of Phenex features:
-* https://lists.sourceforge.net/lists/listinfo/phenex-users
-
 ==Download & Installation==
+
+===System Requirements===
+Phenex runs on any system with Java 5 or newer (Java 5 is also called version 1.5).  Java 5 comes pre-installed on Mac OS X 10.4 and later.  Phenex can't be used on older releases of Mac OS X (check your version of Mac OS X by selecting "About This Mac" under the Apple menu).  For Windows, you can check your version of Java, and install if necessary, at http://www.java.com/.  Phenex runs on Linux - just make sure you have Java 5 installed.
 
 ===Direct downloads for Phenex 1.8===
 Choose download appropriate for your platform:
@@ -35,7 +25,18 @@ On Windows you must be sure to extract the Phenex folder from the zip archive - 
 ===Installation on Linux/Unix===
 Unzip the downloaded archive using a command such as <code>tar zxvf phenex-1.0-unix.tgz</code>. Change directories into the Phenex folder and run the shell script to launch Phenex. You will need to have Java in your executable <code>PATH</code>.
 
-===Obtaining Phenex source code (for developers)===
+==License and Attribution==
+
+Phenex is open source software, released under the [http://www.opensource.org/licenses/mit-license.php MIT license].
+
+If you use Phenex for annotation or extend it for your project, please cite the following publication in your documentation and resulting publications: <br/>
+Balhoff JP, Dahdul WM, Kothari CR, Lapp H, Lundberg JG, Mabee P, Midford PE, Westerfield ME, Vision TJ. 2010. ''Phenex: Ontological Annotation of Phenotypic Diversity''. PLoS ONE 5(5): e10500. [http://dx.doi.org/10.1371/journal.pone.0010500 DOI]
+
+==Source code and support ==
+
+Please join the Phenex users mailing list for software support and discussion of Phenex features:
+* https://lists.sourceforge.net/lists/listinfo/phenex-users
+
 The Phenex source for a particular release can be found in the "src" archive at the download site.  To make contributions to the project or test the latest in-development code, you should check out a working copy from the Git repository:
 * git clone git://phenex.git.sourceforge.net/gitroot/phenex/phenex
 The Phenex source includes both an Eclipse project (used for most active development) and an Ant build file (used for making releases).  You can browse Phenex Git revisions [http://phenex.git.sourceforge.net/git/gitweb.cgi?p=phenex/phenex;a=tree;h=refs/heads/master;hb=master on the web].
