@@ -200,6 +200,18 @@ Phenotype annotations are stored within the "state" element to which they corres
 ===Entering polymorphic or uncertain state values===
 The Phenex matrix editor can handle entry of polymorphic or uncertain state values within cells. In order to enter multiple states in a single cell,you must use the matrix "quick editor". Just beneath the matrix view, there is a checkbox titled "Use quick editor". After enabling this setting, when you click to edit a cell, instead of popping up a states menu, the cell will become an editable text field, which operates very much like the matrix cell editor in Mesquite. Here you can simply type the symbol of the state you want to enter. If you want to enter a polymorphism of states 0 and 1, simply enter "0&1" (no spaces). For an uncertainty, use a slash: "0/1".
 
+===Consistency Review panel===
+Phenex includes a Consistency Review panel which reports problematic or missing annotations. The consistency issues currently evaluated are:
+
+* Unannotated state.
+* Empty '''entity''' field.
+* Empty '''quality''' field.
+* Post-composition consisting of more than one differentia (may be okay).
+* Relational quality used without a '''related entity'''.
+* '''Related entity''' entered without a relational quality.
+* Biological process entity not used with a process quality.
+* Qualities descending from different attributes used in states for a given character.
+
 ==Troubleshooting Problems==
 
 ===Removing Corrupted Ontology Files===
