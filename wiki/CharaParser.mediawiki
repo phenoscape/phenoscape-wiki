@@ -8,7 +8,7 @@ CharaParser is a natural-language processing tool which analyzes the text of cha
 A prototype of adapted CharaParser participated in the BioCreative 2012 Workshop with [[Phenex]]. The evaluation results showed that CharaParser was quite capable of identifying candidate entity and quality phrases (it outperformed biocurators by 20% in recall on average), but it had difficulty translating candidate phrases to ontology terms. This is the area we are currently working on.
 
 
-More information on the original CharaParser can be found at [http://sites.google.com/site/biosemanticsproject/project-source-code]
+More information on the original CharaParser can be found at [http://sites.google.com/site/biosemanticsproject/project-source-code] and the newer version of the code is available through [https://github.com/phenoscape github].
 
 [[Category:Software]]
 [[Category:Curation]]
