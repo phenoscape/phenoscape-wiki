@@ -70,9 +70,9 @@ title: Acknowledgments
 
 === Meetings ===
 
-* [[WG:All-Hands_Meeting_2011-11-11| Advisory Board meeting (electronic) on Nov. 11, 2011]] (by conference call):  [http://docs.google.com/document/d/1oE9Mp-UVu6r-Ci7G3EHTRaBuXsapyqm7DQ-Q0FjwCyo/edit?hl=en_US agenda] and [[Media:ABmeeting 2011-11-11 notes.pdf| notes]]
+* [[WG:All-Hands_Meeting_2011-11-11| Advisory Board meeting on Nov. 11, 2011]] (by conference call):  [http://docs.google.com/document/d/1oE9Mp-UVu6r-Ci7G3EHTRaBuXsapyqm7DQ-Q0FjwCyo/edit?hl=en_US agenda] and [[Media:ABmeeting 2011-11-11 notes.pdf| notes]]
 * Advisory Board meeting (face to face): Friday, April 27, 2012; Phenoscape project meeting will precede this on April 25, 26
-* [[WG:Advisory Board Meeting 2012-12-04| Advisory Board meeting (electronic) on Dec. 4, 2012]]
+* [[WG:Advisory Board Meeting 2012-12-04| Advisory Board meeting on Dec. 4, 2012]]. (by conference call): [[Media:Advisory Board Meeting 2012-12-04 notes.pdf| agenda and notes]]
 
 ==Contributors==
 The following individuals have contributed to Phenoscape ontology development, data curation, workshops, and data entry:
