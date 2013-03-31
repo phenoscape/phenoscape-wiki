@@ -34,6 +34,8 @@ BioCreative-2012 Workshop (April 4-5, 2012). Fifth International Biocuration Con
 
 Balhoff, J.P., Wasila M. Dahdul, Hilmar Lapp, Paula M. Mabee, Peter E. Midford, Todd J. Vision, and Monte J. Westerfield, on behalf of the Phenoscape Project Team.  "The Phenoscape Knowledgebase: Integrating phenotypic data across taxonomy, from biodiversity to developmental genetics". Poster at DILS 2012, College Park, MD, June 28, 2012.
 
+Catlett, J., Block, A., P. Mabee. Your Inner Fin: Studying Zebrafish Pectoral Fin Development to Understand Human Forelimb Mutations. Poster presentation. 2012 Science Festival- It’s All About Science, Sanford Research Center, July 28, 2012. Sioux Falls, SD. (also presented at the 2012 Sanford Summer Research Symposium, Sioux Falls, SD, August 2, 2012). 
+
 Mabee, P. M. "Synthesis of evolutionary and developmental data for fishes using new informatics tools' Oral presentation, World Congress of Herpetology, Vancouver, BC, August 8-14, 2012.
 
 Sereno, P.C., Ibrahim, N., Mabee, P., Vision, T., Lapp, H. "Phenoscape: A New Anatomical Ontology of Vertebrates". Society of Vertebrate Paleontology, Annual Meeting, October 18, 2012.
@@ -41,6 +43,12 @@ Sereno, P.C., Ibrahim, N., Mabee, P., Vision, T., Lapp, H. "Phenoscape: A New An
 Dececchi, T.A., Balhoff, J., Dahdul, W., Ibrahim, N., Lapp., H., Midford, P., Sereno, P.C., Vision, T., Westerfield, M., Mabee, P., Blackburn., D. "Phenoscape: Bridging the gap between fossils and genes".Society of Vertebrate Paleontology, Annual Meeting, October 18, 2012.
 
 Ibrahim, N. "Dinosaurs of the Sahara". Department of Biology, University of South Dakota, Vermillion (December 3, 2012).
+
+Cui, H., et al. 2013. CharaParser and associated software. Pro-ibiosphere workshop. Leiden, the Netherlands, Feb 2013.
+
+Vision, T. Phenotype challenges in Phenoscape vertebrate use cases, Third annual summit meeting, Phenotype RCN. 25 March 2013, NESCent, NC.
+
+Mungall, C.J., Jim Balhoff, Frederic Bastian, David Blackburn, Aurelie Comte, Wasila Dahdul , Alex Dececchi, Nizar Ibrahim, Suzanna E Lewis, Paula Mabee, Anne Niknejad, Melissa A Haendel. A merger of multi‐species anatomy ontologies. Biocuration Conference, April 7-10, 2013, Cambridge, UK.
 
 [[Category:Curation]]
 
