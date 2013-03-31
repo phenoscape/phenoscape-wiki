@@ -19,6 +19,11 @@ title: Publications and Posters
 
 ==Posters & Presentations==
 ===2013===
+Cui, H., et al. 2013. CharaParser and associated software. Pro-ibiosphere workshop. Leiden, the Netherlands, Feb 2013.
+
+Vision, T. Phenotype challenges in Phenoscape vertebrate use cases, Third annual summit meeting, Phenotype RCN. 25 March 2013, NESCent, NC.
+
+Mungall, C.J., Jim Balhoff, Frederic Bastian, David Blackburn, Aurelie Comte, Wasila Dahdul , Alex Dececchi, Nizar Ibrahim, Suzanna E Lewis, Paula Mabee, Anne Niknejad, Melissa A Haendel. A merger of multi‐species anatomy ontologies. Biocuration Conference, April 7-10, 2013, Cambridge, UK.
 
 ===2012===
 Balhoff, J.P. "Linking phenotypes using ontologies." Invited seminar, California Academy of Sciences, March 28, 2012.
