@@ -25,9 +25,9 @@ Phenoscape-ext contains the TAO, AAO, and VSAO combined with Uberon. This adds a
 * Source edit file available here: [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/edit/phenoscape-ext.owl]
 * Release files are available here:
 
-[http://purl.obolibrary.org/obo/uberon/ext.obo; http://purl.obolibrary.org/obo/uberon/ext.obo]
+[http://purl.obolibrary.org/obo/uberon/ext.obo http://purl.obolibrary.org/obo/uberon/ext.obo]
 
-[http://purl.obolibrary.org/obo/uberon/ext.owl; http://purl.obolibrary.org/obo/uberon/ext.owl]
+[http://purl.obolibrary.org/obo/uberon/ext.owl  http://purl.obolibrary.org/obo/uberon/ext.owl]
 
 phenoscape-ext.owl will remain the editors version. The release uberon/ext.owl retains the import chains and is pre-reasoned. uberon/ext.obo merges the import chain into one ontology because obo does not have good support for imports. Mant of the other uberon derived artefacts such as composite-metazoan do not use ext but this may be changed in the future. See [http://uberon.org; uberon.org] for details of all the various cuts.
 
