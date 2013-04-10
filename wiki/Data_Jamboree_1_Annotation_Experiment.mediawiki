@@ -1104,7 +1104,7 @@ Extra Credit: Form of parasphenoid: (0) relatively straight anteroposteriorly an
 | infraorbital 4
 | anteriorly rotated
 |-
-| 11a
+| ECa<br/>
 | 0
 | key
 | anterior/posterior axis^part_of(parasphenoid)
@@ -1114,7 +1114,7 @@ Extra Credit: Form of parasphenoid: (0) relatively straight anteroposteriorly an
 | 
 | 
 |-
-| 11a
+| ECa<br/>
 | 0
 | 4
 | parasphenoid
@@ -1124,7 +1124,7 @@ Extra Credit: Form of parasphenoid: (0) relatively straight anteroposteriorly an
 | 
 | 
 |-
-| 11a
+| ECa<br/>
 | 0
 | 2
 | anterior/posterior axis^part_of(parasphenoid)
@@ -1134,7 +1134,7 @@ Extra Credit: Form of parasphenoid: (0) relatively straight anteroposteriorly an
 | 
 | 
 |-
-| 11a
+| ECa<br/>
 | 1
 | key
 | anterior/posterior axis^part_of(parasphenoid)
@@ -1144,7 +1144,7 @@ Extra Credit: Form of parasphenoid: (0) relatively straight anteroposteriorly an
 | 
 | 
 |-
-| 11a
+| ECa<br/>
 | 1
 | 4
 | parasphenoid
@@ -1154,7 +1154,7 @@ Extra Credit: Form of parasphenoid: (0) relatively straight anteroposteriorly an
 | 
 | 
 |-
-| 11a
+| ECa<br/>
 | 1
 | 2
 | anterior/posterior axis^part_of(parasphenoid)
@@ -1164,7 +1164,7 @@ Extra Credit: Form of parasphenoid: (0) relatively straight anteroposteriorly an
 | 
 | 
 |-
-| 11b
+| ECb<br/>
 | 0
 | key
 | posterior region^part_of(parasphenoid)
@@ -1174,7 +1174,7 @@ Extra Credit: Form of parasphenoid: (0) relatively straight anteroposteriorly an
 | 
 | 
 |-
-| 11b
+| ECb<br/>
 | 0
 | 2
 | posterior region^part_of(parasphenoid)
@@ -1184,7 +1184,7 @@ Extra Credit: Form of parasphenoid: (0) relatively straight anteroposteriorly an
 | 
 | 
 |-
-| 11b
+| ECb<br/>
 | 1
 | key
 | posterior region^part_of(parasphenoid)
@@ -1194,7 +1194,7 @@ Extra Credit: Form of parasphenoid: (0) relatively straight anteroposteriorly an
 | 
 | 
 |-
-| 11b
+| ECb<br/>
 | 1
 | 2
 | posterior region^part_of(parasphenoid)
@@ -1204,6 +1204,3 @@ Extra Credit: Form of parasphenoid: (0) relatively straight anteroposteriorly an
 | 
 | 
 |}
-
-[[Category:Data Jamboree 1]]
-[[Category:Curation]]
