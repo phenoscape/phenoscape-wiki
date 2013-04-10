@@ -2,89 +2,162 @@
 title: Data Jamboree 1/Annotation Experiment
 ---
 
-====Background and Participant Preparation====
+==== Background and Participant Preparation ====
 
-An annotation experiment was conducted on day 2 of the April 2008 Data Jamboree in order to assess curation consistency among the four trained participants.  Training consisted of a hands-on group annotation exercise on day 1, and individual work on each participant's own publications with assistance from project personnel on days 1 and 2. An Annotation Guide with examples of character types commonly encountered in the fish systematic literature was also given to participants.  For the experiment, participants were given 2 hours to annotate 10 characters (plus one extra credit) taken from three publications.
+An annotation experiment was conducted on day 2 of the April 2008 Data Jamboree in order to assess curation consistency among the four trained participants. Training consisted of a hands-on group annotation exercise on day 1, and individual work on each participant's own publications with assistance from project personnel on days 1 and 2. An Annotation Guide with examples of character types commonly encountered in the fish systematic literature was also given to participants. For the experiment, participants were given 2 hours to annotate 10 characters (plus one extra credit) taken from three publications.
 
-====Results and Conclusions====
+==== Results and Conclusions ====
 
-=====Completeness of annotations=====
+===== Completeness of annotations =====
+
 Three of the four participants attempted annotations for all 11 characters, while one participant finished only 7 characters. All participants recorded the character number and textual description, and selected the appropriate voucher specimen for each annotation. Only two of the four participants recorded evidence codes for each annotation.
 
-=====Variability of EQ statements=====
+===== Variability of EQ statements =====
+
 A summary of annotation consistency among participants is presented in the table below (incomplete annotations due to software issues are excluded).
 
-{| border="1" cellspacing="0" cellpadding="3"
+{| cellspacing="0" border="1" cellpadding="3"
+|-
 ! Character #
 ! # Participants with
 Completed Annotations*
-! % Consistency with Key
+
+! &nbsp;% Consistency with Key
 ! Variable component of annotation
 |-
-| 1 || 4 || 100 ||
+| 1
+| 4
+| 100
+| 
 |-
-| 2 || 3 || 0  || post-composition of Q term for relative length
+| 2
+| 3
+| 0
+| post-composition of Q term for relative length
 |-
-| 3 || 3 || 0  || incorrect recording of count values
+| 3
+| 3
+| 0
+| incorrect recording of count values
 |-
-| 4 || 4 || 0  || TAO term definition confusion (bone vs. cartilage)
+| 4
+| 4
+| 0
+| TAO term definition confusion (bone vs. cartilage)
 |-
-| 5 || 3 || 33  || E post-composition; choice of appropriate Q
+| 5
+| 3
+| 33
+| E post-composition; choice of appropriate Q
 |-
-| 6 || 4 || 0  || E post-composition
+| 6
+| 4
+| 0
+| E post-composition
 |-
-| 7 || 4 || 50  || E post-composition
+| 7
+| 4
+| 50
+| E post-composition
 |-
-| 8 || 3 || 33  || choice of appropriate Q term
+| 8
+| 3
+| 33
+| choice of appropriate Q term
 |-
-| 9 || 3 || 0  || E post-composition; choice of appropriate Q term
+| 9
+| 3
+| 0
+| E post-composition; choice of appropriate Q term
 |-
-| 10 || 2 || 50  ||  choice of appropriate Q term
+| 10
+| 2
+| 50
+| choice of appropriate Q term
 |-
-| EC || 2 || 25  || E post-composition; choice of appropriate Q term
+| EC
+| 2
+| 25
+| E post-composition; choice of appropriate Q term
 |}
+
 **incomplete annotations due to software issues were excluded
 
 Participants annotated only one character identically. Variation in other annotations was due to several reasons:
 
-* Granularity of annotations. Some participants integrated very detailed information in post-compositions of entities or qualities, whereas others used single anatomy terms or broad term categories for quality.  Use of spatial information in post-composition also varied among participants.
+*Granularity of annotations. Some participants integrated very detailed information in post-compositions of entities or qualities, whereas others used single anatomy terms or broad term categories for quality. Use of spatial information in post-composition also varied among participants.
 
-*Creation of post-composed entities. Participants had difficulty in deciding what term to use as the genus in post-composition.  Also, the relation used in post-composition (for example, use of part_of/has_part) differed in annotations among participants.
+*Creation of post-composed entities. Participants had difficulty in deciding what term to use as the genus in post-composition. Also, the relation used in post-composition (for example, use of part_of/has_part) differed in annotations among participants.
 
-*Choice of the appropriate quality term.  Participants had difficulty in choosing quality terms among many similar choices.  The appropriate use of monadic and relational qualities also differed in the annotations among participants.
+*Choice of the appropriate quality term. Participants had difficulty in choosing quality terms among many similar choices. The appropriate use of monadic and relational qualities also differed in the annotations among participants.
 
 *Confusion regarding the definition of ontology terms. For one character, confusion about the identity of a term resulted in differing annotations, and points to the need for consistent term names for bones in the TAO.
 
 The results of the annotation experiment provide detailed areas for improvement in establishing curation standards to assist in annotation, and stream-lining of the software interface so that curators are not faced with similar and inapplicable choices for terms and relations. Based on these results, curation standards and improvement to the Annotation Guide are in development, and improvements to the Phenote interface are planned.
 
-====Instructions to Participants====
+==== Instructions to Participants ====
 
-In the following exercise, we would like to assess annotation consistency among data jamboree participants working independently on a common set of characters.  These characters are taken directly from the literature of comparative morphology of fishes.
+In the following exercise, we would like to assess annotation consistency among data jamboree participants working independently on a common set of characters. These characters are taken directly from the literature of comparative morphology of fishes.
 
 Download the annotation-experiment folder from the Phenoscape server.
 
-Use the taxon list and the character matrix given in Table 1 to annotate characters 1-11 below. For the purpose of this exercise, character states noted in Table 1 were observed in all specimens listed in the materials list.  The name of this publication is: Lapp and Dahdul, 2008.
+Use the taxon list and the character matrix given in Table 1 to annotate characters 1-11 below. For the purpose of this exercise, character states noted in Table 1 were observed in all specimens listed in the materials list. The name of this publication is: Lapp and Dahdul, 2008.
 
-=====Table 1.  Character matrix=====
-{| border="1" cellspacing="0" cellpadding="3"
+===== Table 1. Character matrix =====
+
+{| cellspacing="0" border="1" cellpadding="3"
+|-
 ! Taxon
 ! 1
 ! 2
 ! 3
 ! 4
-! 4
-! 5
-! 6
-! 7
-! 8
-! 9
-! 10
+! 5<br/>
+! 6<br/>
+! 7<br/>
+! 8<br/>
+! 9<br/>
+! 10<br/>
+! EC<br/>
 |-
-| Chanos chanos || 0 || 0 ||0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+| Chanos chanos
+| 0
+| 0
+| 0
+| 0
+| 0
+| 0
+| 0
+| 0
+| 0
+| 0
+| 0
 |-
-| Diplomystes chilensis || 0 || 0 || 0 || 1 || 0 || 0 || 0 || 0 || 0 || 1 || 0
+| Diplomystes chilensis
+| 0
+| 0
+| 0
+| 1
+| 0
+| 0
+| 0
+| 0
+| 0
+| 1
+| 0
 |-
-| Hiodon alosoides || 1 || 1 || 1 || 2 || 1 || 1 || 1 || 1 || 1 || 2 || 1
+| Hiodon alosoides
+| 1
+| 1
+| 1
+| 2
+| 1
+| 1
+| 1
+| 1
+| 1
+| 2
+| 1
 |}
 
 1. Presence or absence of intercalar: (0) present; (1) absent.
@@ -97,7 +170,7 @@ Use the taxon list and the character matrix given in Table 1 to annotate charact
 
 5. Position of anterior margin of nasal: (0) falling short of lateral process of mesethmoid (= lateral ethmoid wing of Weitzman, 1962); (1) extending anteriorly to overlie or extend beyond lateral process of mesethmoid.
 
-6. Number of hypurals in upper lobe of caudal fin:  (0) four; (1) three.
+6. Number of hypurals in upper lobe of caudal fin: (0) four; (1) three.
 
 7. Presence or absence of medially directed, spine-like process on ventral surface of post-temporal: (0) present; (1) absent.
 
@@ -107,267 +180,1029 @@ Use the taxon list and the character matrix given in Table 1 to annotate charact
 
 10. Infraorbital 6: (0) triangular; (1) triradiate; (2) tubular.
 
-Extra Credit:
-Form of parasphenoid: (0) relatively straight anteroposteriorly and with posterior portion of bone aligned approximately along longitudinal axis of anterior portion of vertebral column; (1) with distinct anteroposterior curvature and with posterior portion of bone located distinctly ventral to longitudinal axis through anterior portion of vertebral column. (Zanata & Vari, 2005)
+Extra Credit: Form of parasphenoid: (0) relatively straight anteroposteriorly and with posterior portion of bone aligned approximately along longitudinal axis of anterior portion of vertebral column; (1) with distinct anteroposterior curvature and with posterior portion of bone located distinctly ventral to longitudinal axis through anterior portion of vertebral column. (Zanata & Vari, 2005)
 
-=====References=====
-* Hilton, EJ. 2003. Comparative osteology and phylogenetic systematics of fossil and living bony-tongue fishes (Actinopterygii, Teleostei, Osteoglossomorpha). Zoological Journal of the Linnean Society 137:1-100.
-* Sanger, TJ and AR McCune. 2002. Comparative osteology of the Danio (Cyprinidae: Ostariophysi) axial skeleton with comments on Danio relationships based on molecules and morphology. Zoological Journal of the Linnean Society 135: 529-546.
-* Zanata AM and Vari RP. 2005. The family Alestidae (Ostariophysi, Characiformes): a phylogenetic analysis of a trans-Atlantic clade. Zoological Journal of the Linnean Society 145: 1-144.
+===== References =====
 
-====Raw Data from Participants====
-{| {{table}}
-| align="center" style="background:#f0f0f0;"|'''Character Number'''
-| align="center" style="background:#f0f0f0;"|'''Character State'''
-| align="center" style="background:#f0f0f0;"|'''Participant'''
-| align="center" style="background:#f0f0f0;"|'''Entity Name'''
-| align="center" style="background:#f0f0f0;"|'''Quality Name'''
-| align="center" style="background:#f0f0f0;"|'''Additional Entity Name'''
-| align="center" style="background:#f0f0f0;"|'''Count'''
-| align="center" style="background:#f0f0f0;"|'''Measurement'''
-| align="center" style="background:#f0f0f0;"|'''Unit Name'''
-|-
-| 1||0||key||intercalar||present||||||||
-|-
-| 1||0||1||intercalar||present||||||||
-|-
-| 1||0||2||intercalar||present||||||||
-|-
-| 1||0||3||intercalar||present||||||||
-|-
-| 1||0||4||intercalar||present||||||||
-|-
-| 1||1||key||intercalar||absent||||||||
-|-
-| 1||1||1||intercalar||absent||||||||
-|-
-| 1||1||2||intercalar||absent||||||||
-|-
-| 1||1||3||intercalar||absent||||||||
-|-
-| 1||1||4||intercalar||absent||||||||
-|-
-| 2||0||key||opercle||depth^relative_to(width)||||||<2 ||ratio
-|-
-| 2||0||1||opercle||depth^relative_to(width)||opercle||||<2||ratio
-|-
-| 2||0||2||opercle||||||||||
-|-
-| 2||0||3||opercle||increased width||decreased height||||||
-|-
-| 2||0||4||opercle||relational shape quality||||||<2||
-|-
-| 2||1||key||opercle||depth^relative_to(width)||||||>, = 2||
-|-
-| 2||1||1||opercle||depth^relative_to(width)||||||>, = 2||ratio
-|-
-| 2||1||2||opercle||||||||||
-|-
-| 2||1||3||opercle||increased height||decreased height||||||
-|-
-| 2||1||4||opercle||relational shape quality||||||2 or >||
-|-
-| 3||0||key||pelvic fin lepidotrichium||count||||11||||
-|-
-| 3||0||1||pelvic fin lepidotrichium||count||||11||||
-|-
-| 3||0||2||pelvic fin lepidotrichium||count||||11||||
-|-
-| 3||0||3||pelvic fin lepidotrichium||count||||11||||
-|-
-| 3||0||4||accessory pretectal nucleus||count||||11||||
-|-
-| 3||1||key||pelvic fin lepidotrichium||count||||9||||
-|-
-| 3||1||1||pelvic fin lepidotrichium||count||||9||||
-|-
-| 3||1||2||pelvic fin lepidotrichium||count||||9||||
-|-
-| 3||1||3||pelvic fin lepidotrichium||count||||9||||
-|-
-| 3||1||4||pelvic fin||count||||>11||||
-|-
-| 3||1||key||pelvic fin||count||||>11||||
-|-
-| 3||2||1||pelvic fin lepidotrichium||count||||11
-|-
-| 3||2||2||pelvic fin lepidotrichium||count||||11
-|-
-| 3||2||3||pelvic fin lepidotrichium||count||||11
-|-
-| 3||2||4||pelvic fin||count||||11
-|-
-| 4||0||key||basihyal||present ||||
-|-
-| 4||0||1||basihyal^is_a(bone)||present||||
-|-
-| 4||0||2||basihyal cartilage||ossified||||
-|-
-| 4||0||3||basihyal||ossified||||
-|-
-| 4||0||4||basihyal||ossified||||
-|-
-| 4||1||key||basihyal cartilage||present ||||
-|-
-| 4||1||1||basihyal cartilage||present||||
-|-
-| 4||1||2||basihyal cartilage||cartilaginous||||
-|-
-| 4||1||3||basihyal||cartilaginous||||
-|-
-| 4||1||4||basihyal||cartilaginous||||
-|-
-| 4||2||key||basihyal cartilage||absent||||
-|-
-| 4||2||1||basihyal||absent||||
-|-
-| 4||2||2||basihyal cartilage||absent||||
-|-
-| 4||2||3||basihyal||absent||||
-|-
-| 4||2||4||basihyal||absent||||
-|-
-| 5||0||key||nasal bone||separated from||mesethmoid bone||
-|-
-| 5||0||1||nasal bone^has_boundary(posterior)||position||mesethmoid bone||
-|-
-| 5||0||2||anterior margin^part_of(nasal bone)||separated from||mesethmoid bone||
-|-
-| 5||0||3||nasal bone||length^ends_earlier_than(length)||mesethmoid bone^part_of(lateral ethmoid process)||
-|-
-| 5||0||4||nasal bone||posterior to||||
-|-
-| 5||0||4||nasal bone||posterior to||||
-|-
-| 5||1||key||nasal bone||overlaps with||lateral ethmoid ventral wing||
-|-
-| 5||1||1||basihyal||composition||||
-|-
-| 5||1||2||anterior margin^part_of(nasal bone)||overlap with||mesethmoid bone||
-|-
-| 5||1||3||nasal bone||length^ends_during(length)||mesethmoid bone^part_of(lateral ethmoid process)||
-|-
-| 5||1||4||nasal bone||lateral to||||
-|-
-| 6||0||key||hypural^part_of(caudal fin)||count||||4
-|-
-| 6||0||1||hypural||count||caudal fin^has_integral_part(caudal fin upper lobe)||4
-|-
-| 6||0||2||hypural||count||caudal fin upper lobe||4
-|-
-| 6||0||3||caudal fin upper lobe^contains(hypural)||count||||4
-|-
-| 6||0||4||caudal fin upper lobe^arises_from(medial surface)||count||||4
-|-
-| 6||1||key||hypural^part_of(caudal fin)||count||||3
-|-
-| 6||1||1||hypural||count||caudal fin^has_integral_part(caudal fin upper lobe)||3
-|-
-| 6||1||2||hypural||count||caudal fin upper lobe||3
-|-
-| 6||1||3||caudal fin upper lobe^contains(hypural)||count||||3
-|-
-| 6||1||4||caudal fin upper lobe||count||||3
-|-
-| 7||0||key||bony projection^part_of(ventral surface)^part_of(posttemporal)||present||||
-|-
-| 7||0||1||posttemporal||present||posttemporal^has_part(specialized hemal arch and spine)||4
-|-
-| 7||0||2||bony projection^part_of(ventral surface)^part_of(posttemporal)||present||||
-|-
-| 7||0||3||bony projection^contained_in(posttemporal)||present||||
-|-
-| 7||0||4||bony projection^part_of(posttemporal)||absent||||
-|-
-| 7||0||key||bony projection^part_of(ventral surface)^part_of(posttemporal)||absent||||
-|-
-| 7||1||1||posttemporal||present||posttemporal^has_part(specialized hemal arch and spine)||3
-|-
-| 7||1||2||bony projection^part_of(ventral surface)^part_of(posttemporal)||absent||||
-|-
-| 7||1||3||bony projection^contained_in(posttemporal)||absent||
-|-
-| 7||1||4||bony projection^part_of(posttemporal)||present||
-|-
-| 8||0||key||frontal bone||in contact with||pterotic
-|-
-| 8||0||2||frontal bone||in contact with||pterotic
-|-
-| 8||0||3||frontal bone||||pterotic
-|-
-| 8||0||3||frontal bone||||pterotic
-|-
-| 8||0||4||frontal bone||||pterotic
-|-
-| 8||1||key||frontal bone||separated from||pterotic
-|-
-| 8||1||2||frontal bone||separated from||pterotic
-|-
-| 8||1||3||frontal bone||||pterotic
-|-
-| 8||1||4||frontal bone||||pterotic
-|-
-| 8||1||4||frontal bone||||pterotic
-|-
-| 9||0||key||proximal region^part_of(pharyngobranchial 1 bone)||anteriorly rotated||
-|-
-| 9||0||2||proximal region^part_of(pharyngobranchial 1 bone)||anterioralized||
-|-
-| 9||0||3||pharyngobranchial 1 bone||||
-|-
-| 9||0||4||anatomical region^arises_from(medial surface)^part_of(pharyngobranchial 1 bone)||anteriorly rotated||
-|-
-| 9||1||key||proximal region^part_of(pharyngobranchial 1 bone)||posteriorly rotated
-|-
-| 9||1||2||proximal region^part_of(pharyngobranchial 1 bone)||posterioralized
-|-
-| 9||1||3||pharyngobranchial 1 bone||
-|-
-| 9||1||4||anatomical region^arises_from(medial surface)^part_of(pharyngobranchial 1 bone)||posteriorly rotated
-|-
-| 10||0||key||infraorbital 6||triangular
-|-
-| 10||0||2||infraorbital 6||triangular
-|-
-| 10||0||3||infraorbital 6||shape
-|-
-| 10||0||4||infraorbital 4||posteriorly rotated
-|-
-| 10||1||key||infraorbital 6||tripartite
-|-
-| 10||1||2||infraorbital 6||tripartite
-|-
-| 10||1||3||infraorbital 6||shape
-|-
-| 10||1||4||infraorbital 4||posteriorly rotated
-|-
-| 10||2||key||infraorbital 6||cylindrical
-|-
-| 10||2||2||infraorbital 6||cylindrical
-|-
-| 10||2||3||infraorbital 6||shape
-|-
-| 10||2||4||infraorbital 4||anteriorly rotated
-|-
-| 11a||0||key||anterior/posterior axis^part_of(parasphenoid)||straight angle||||||||
-|-
-| 11a||0||4||parasphenoid||straight angle||||||||
-|-
-| 11a||0||2||anterior/posterior axis^part_of(parasphenoid)||straight angle||||||||
-|-
-| 11a||1||key||anterior/posterior axis^part_of(parasphenoid)||curved ventral||||||||
-|-
-| 11a||1||4||parasphenoid||curved ventral||||||||
-|-
-| 11a||1||2||anterior/posterior axis^part_of(parasphenoid)||curved||vertebral column||||||
-|-
-| 11b||0||key||posterior region^part_of(parasphenoid)||aligned with||anterior region^part_of(vertebral column)||||||
-|-
-| 11b||0||2||posterior region^part_of(parasphenoid)||aligned with||vertebral column||||||
-|-
-| 11b||1||key||posterior region^part_of(parasphenoid)||ventral to||anterior region^part_of(vertebral column)||||||
-|-
-| 11b||1||2||posterior region^part_of(parasphenoid)||ventral to||||||||
+*Hilton, EJ. 2003. Comparative osteology and phylogenetic systematics of fossil and living bony-tongue fishes (Actinopterygii, Teleostei, Osteoglossomorpha). Zoological Journal of the Linnean Society 137:1-100.
+*Sanger, TJ and AR McCune. 2002. Comparative osteology of the Danio (Cyprinidae: Ostariophysi) axial skeleton with comments on Danio relationships based on molecules and morphology. Zoological Journal of the Linnean Society 135: 529-546.
+*Zanata AM and Vari RP. 2005. The family Alestidae (Ostariophysi, Characiformes): a phylogenetic analysis of a trans-Atlantic clade. Zoological Journal of the Linnean Society 145: 1-144.
+
+==== Raw Data from Participants ====
+
+{|
+|-
+| style="text-align: center;  background:#f0f0f0" | '''Character Number'''
+| style="text-align: center;  background:#f0f0f0" | '''Character State'''
+| style="text-align: center;  background:#f0f0f0" | '''Participant'''
+| style="text-align: center;  background:#f0f0f0" | '''Entity Name'''
+| style="text-align: center;  background:#f0f0f0" | '''Quality Name'''
+| style="text-align: center;  background:#f0f0f0" | '''Additional Entity Name'''
+| style="text-align: center;  background:#f0f0f0" | '''Count'''
+| style="text-align: center;  background:#f0f0f0" | '''Measurement'''
+| style="text-align: center;  background:#f0f0f0" | '''Unit Name'''
+|-
+| 1
+| 0
+| key
+| intercalar
+| present
+| 
+| 
+| 
+| 
+|-
+| 1
+| 0
+| 1
+| intercalar
+| present
+| 
+| 
+| 
+| 
+|-
+| 1
+| 0
+| 2
+| intercalar
+| present
+| 
+| 
+| 
+| 
+|-
+| 1
+| 0
+| 3
+| intercalar
+| present
+| 
+| 
+| 
+| 
+|-
+| 1
+| 0
+| 4
+| intercalar
+| present
+| 
+| 
+| 
+| 
+|-
+| 1
+| 1
+| key
+| intercalar
+| absent
+| 
+| 
+| 
+| 
+|-
+| 1
+| 1
+| 1
+| intercalar
+| absent
+| 
+| 
+| 
+| 
+|-
+| 1
+| 1
+| 2
+| intercalar
+| absent
+| 
+| 
+| 
+| 
+|-
+| 1
+| 1
+| 3
+| intercalar
+| absent
+| 
+| 
+| 
+| 
+|-
+| 1
+| 1
+| 4
+| intercalar
+| absent
+| 
+| 
+| 
+| 
+|-
+| 2
+| 0
+| key
+| opercle
+| depth^relative_to(width)
+| 
+| 
+| <2
+| ratio
+|-
+| 2
+| 0
+| 1
+| opercle
+| depth^relative_to(width)
+| opercle
+| 
+| <2
+| ratio
+|-
+| 2
+| 0
+| 2
+| opercle
+| 
+| 
+| 
+| 
+| 
+|-
+| 2
+| 0
+| 3
+| opercle
+| increased width
+| decreased height
+| 
+| 
+| 
+|-
+| 2
+| 0
+| 4
+| opercle
+| relational shape quality
+| 
+| 
+| <2
+| 
+|-
+| 2
+| 1
+| key
+| opercle
+| depth^relative_to(width)
+| 
+| 
+| >, = 2
+| 
+|-
+| 2
+| 1
+| 1
+| opercle
+| depth^relative_to(width)
+| 
+| 
+| >, = 2
+| ratio
+|-
+| 2
+| 1
+| 2
+| opercle
+| 
+| 
+| 
+| 
+| 
+|-
+| 2
+| 1
+| 3
+| opercle
+| increased height
+| decreased height
+| 
+| 
+| 
+|-
+| 2
+| 1
+| 4
+| opercle
+| relational shape quality
+| 
+| 
+| 2 or >
+| 
+|-
+| 3
+| 0
+| key
+| pelvic fin lepidotrichium
+| count
+| 
+| 11
+| 
+| 
+|-
+| 3
+| 0
+| 1
+| pelvic fin lepidotrichium
+| count
+| 
+| 11
+| 
+| 
+|-
+| 3
+| 0
+| 2
+| pelvic fin lepidotrichium
+| count
+| 
+| 11
+| 
+| 
+|-
+| 3
+| 0
+| 3
+| pelvic fin lepidotrichium
+| count
+| 
+| 11
+| 
+| 
+|-
+| 3
+| 0
+| 4
+| accessory pretectal nucleus
+| count
+| 
+| 11
+| 
+| 
+|-
+| 3
+| 1
+| key
+| pelvic fin lepidotrichium
+| count
+| 
+| 9
+| 
+| 
+|-
+| 3
+| 1
+| 1
+| pelvic fin lepidotrichium
+| count
+| 
+| 9
+| 
+| 
+|-
+| 3
+| 1
+| 2
+| pelvic fin lepidotrichium
+| count
+| 
+| 9
+| 
+| 
+|-
+| 3
+| 1
+| 3
+| pelvic fin lepidotrichium
+| count
+| 
+| 9
+| 
+| 
+|-
+| 3
+| 1
+| 4
+| pelvic fin
+| count
+| 
+| >11
+| 
+| 
+|-
+| 3
+| 1
+| key
+| pelvic fin
+| count
+| 
+| >11
+| 
+| 
+|-
+| 3
+| 2
+| 1
+| pelvic fin lepidotrichium
+| count
+| 
+| 11
+|-
+| 3
+| 2
+| 2
+| pelvic fin lepidotrichium
+| count
+| 
+| 11
+|-
+| 3
+| 2
+| 3
+| pelvic fin lepidotrichium
+| count
+| 
+| 11
+|-
+| 3
+| 2
+| 4
+| pelvic fin
+| count
+| 
+| 11
+|-
+| 4
+| 0
+| key
+| basihyal
+| present
+| 
+| 
+|-
+| 4
+| 0
+| 1
+| basihyal^is_a(bone)
+| present
+| 
+| 
+|-
+| 4
+| 0
+| 2
+| basihyal cartilage
+| ossified
+| 
+| 
+|-
+| 4
+| 0
+| 3
+| basihyal
+| ossified
+| 
+| 
+|-
+| 4
+| 0
+| 4
+| basihyal
+| ossified
+| 
+| 
+|-
+| 4
+| 1
+| key
+| basihyal cartilage
+| present
+| 
+| 
+|-
+| 4
+| 1
+| 1
+| basihyal cartilage
+| present
+| 
+| 
+|-
+| 4
+| 1
+| 2
+| basihyal cartilage
+| cartilaginous
+| 
+| 
+|-
+| 4
+| 1
+| 3
+| basihyal
+| cartilaginous
+| 
+| 
+|-
+| 4
+| 1
+| 4
+| basihyal
+| cartilaginous
+| 
+| 
+|-
+| 4
+| 2
+| key
+| basihyal cartilage
+| absent
+| 
+| 
+|-
+| 4
+| 2
+| 1
+| basihyal
+| absent
+| 
+| 
+|-
+| 4
+| 2
+| 2
+| basihyal cartilage
+| absent
+| 
+| 
+|-
+| 4
+| 2
+| 3
+| basihyal
+| absent
+| 
+| 
+|-
+| 4
+| 2
+| 4
+| basihyal
+| absent
+| 
+| 
+|-
+| 5
+| 0
+| key
+| nasal bone
+| separated from
+| mesethmoid bone
+| 
+|-
+| 5
+| 0
+| 1
+| nasal bone^has_boundary(posterior)
+| position
+| mesethmoid bone
+| 
+|-
+| 5
+| 0
+| 2
+| anterior margin^part_of(nasal bone)
+| separated from
+| mesethmoid bone
+| 
+|-
+| 5
+| 0
+| 3
+| nasal bone
+| length^ends_earlier_than(length)
+| mesethmoid bone^part_of(lateral ethmoid process)
+| 
+|-
+| 5
+| 0
+| 4
+| nasal bone
+| posterior to
+| 
+| 
+|-
+| 5
+| 0
+| 4
+| nasal bone
+| posterior to
+| 
+| 
+|-
+| 5
+| 1
+| key
+| nasal bone
+| overlaps with
+| lateral ethmoid ventral wing
+| 
+|-
+| 5
+| 1
+| 1
+| basihyal
+| composition
+| 
+| 
+|-
+| 5
+| 1
+| 2
+| anterior margin^part_of(nasal bone)
+| overlap with
+| mesethmoid bone
+| 
+|-
+| 5
+| 1
+| 3
+| nasal bone
+| length^ends_during(length)
+| mesethmoid bone^part_of(lateral ethmoid process)
+| 
+|-
+| 5
+| 1
+| 4
+| nasal bone
+| lateral to
+| 
+| 
+|-
+| 6
+| 0
+| key
+| hypural^part_of(caudal fin)
+| count
+| 
+| 4
+|-
+| 6
+| 0
+| 1
+| hypural
+| count
+| caudal fin^has_integral_part(caudal fin upper lobe)
+| 4
+|-
+| 6
+| 0
+| 2
+| hypural
+| count
+| caudal fin upper lobe
+| 4
+|-
+| 6
+| 0
+| 3
+| caudal fin upper lobe^contains(hypural)
+| count
+| 
+| 4
+|-
+| 6
+| 0
+| 4
+| caudal fin upper lobe^arises_from(medial surface)
+| count
+| 
+| 4
+|-
+| 6
+| 1
+| key
+| hypural^part_of(caudal fin)
+| count
+| 
+| 3
+|-
+| 6
+| 1
+| 1
+| hypural
+| count
+| caudal fin^has_integral_part(caudal fin upper lobe)
+| 3
+|-
+| 6
+| 1
+| 2
+| hypural
+| count
+| caudal fin upper lobe
+| 3
+|-
+| 6
+| 1
+| 3
+| caudal fin upper lobe^contains(hypural)
+| count
+| 
+| 3
+|-
+| 6
+| 1
+| 4
+| caudal fin upper lobe
+| count
+| 
+| 3
+|-
+| 7
+| 0
+| key
+| bony projection^part_of(ventral surface)^part_of(posttemporal)
+| present
+| 
+| 
+|-
+| 7
+| 0
+| 1
+| posttemporal
+| present
+| posttemporal^has_part(specialized hemal arch and spine)
+| 4
+|-
+| 7
+| 0
+| 2
+| bony projection^part_of(ventral surface)^part_of(posttemporal)
+| present
+| 
+| 
+|-
+| 7
+| 0
+| 3
+| bony projection^contained_in(posttemporal)
+| present
+| 
+| 
+|-
+| 7
+| 0
+| 4
+| bony projection^part_of(posttemporal)
+| absent
+| 
+| 
+|-
+| 7
+| 0
+| key
+| bony projection^part_of(ventral surface)^part_of(posttemporal)
+| absent
+| 
+| 
+|-
+| 7
+| 1
+| 1
+| posttemporal
+| present
+| posttemporal^has_part(specialized hemal arch and spine)
+| 3
+|-
+| 7
+| 1
+| 2
+| bony projection^part_of(ventral surface)^part_of(posttemporal)
+| absent
+| 
+| 
+|-
+| 7
+| 1
+| 3
+| bony projection^contained_in(posttemporal)
+| absent
+| 
+|-
+| 7
+| 1
+| 4
+| bony projection^part_of(posttemporal)
+| present
+| 
+|-
+| 8
+| 0
+| key
+| frontal bone
+| in contact with
+| pterotic
+|-
+| 8
+| 0
+| 2
+| frontal bone
+| in contact with
+| pterotic
+|-
+| 8
+| 0
+| 3
+| frontal bone
+| 
+| pterotic
+|-
+| 8
+| 0
+| 3
+| frontal bone
+| 
+| pterotic
+|-
+| 8
+| 0
+| 4
+| frontal bone
+| 
+| pterotic
+|-
+| 8
+| 1
+| key
+| frontal bone
+| separated from
+| pterotic
+|-
+| 8
+| 1
+| 2
+| frontal bone
+| separated from
+| pterotic
+|-
+| 8
+| 1
+| 3
+| frontal bone
+| 
+| pterotic
+|-
+| 8
+| 1
+| 4
+| frontal bone
+| 
+| pterotic
+|-
+| 8
+| 1
+| 4
+| frontal bone
+| 
+| pterotic
+|-
+| 9
+| 0
+| key
+| proximal region^part_of(pharyngobranchial 1 bone)
+| anteriorly rotated
+| 
+|-
+| 9
+| 0
+| 2
+| proximal region^part_of(pharyngobranchial 1 bone)
+| anterioralized
+| 
+|-
+| 9
+| 0
+| 3
+| pharyngobranchial 1 bone
+| 
+| 
+|-
+| 9
+| 0
+| 4
+| anatomical region^arises_from(medial surface)^part_of(pharyngobranchial 1 bone)
+| anteriorly rotated
+| 
+|-
+| 9
+| 1
+| key
+| proximal region^part_of(pharyngobranchial 1 bone)
+| posteriorly rotated
+|-
+| 9
+| 1
+| 2
+| proximal region^part_of(pharyngobranchial 1 bone)
+| posterioralized
+|-
+| 9
+| 1
+| 3
+| pharyngobranchial 1 bone
+| 
+|-
+| 9
+| 1
+| 4
+| anatomical region^arises_from(medial surface)^part_of(pharyngobranchial 1 bone)
+| posteriorly rotated
+|-
+| 10
+| 0
+| key
+| infraorbital 6
+| triangular
+|-
+| 10
+| 0
+| 2
+| infraorbital 6
+| triangular
+|-
+| 10
+| 0
+| 3
+| infraorbital 6
+| shape
+|-
+| 10
+| 0
+| 4
+| infraorbital 4
+| posteriorly rotated
+|-
+| 10
+| 1
+| key
+| infraorbital 6
+| tripartite
+|-
+| 10
+| 1
+| 2
+| infraorbital 6
+| tripartite
+|-
+| 10
+| 1
+| 3
+| infraorbital 6
+| shape
+|-
+| 10
+| 1
+| 4
+| infraorbital 4
+| posteriorly rotated
+|-
+| 10
+| 2
+| key
+| infraorbital 6
+| cylindrical
+|-
+| 10
+| 2
+| 2
+| infraorbital 6
+| cylindrical
+|-
+| 10
+| 2
+| 3
+| infraorbital 6
+| shape
+|-
+| 10
+| 2
+| 4
+| infraorbital 4
+| anteriorly rotated
+|-
+| 11a
+| 0
+| key
+| anterior/posterior axis^part_of(parasphenoid)
+| straight angle
+| 
+| 
+| 
+| 
+|-
+| 11a
+| 0
+| 4
+| parasphenoid
+| straight angle
+| 
+| 
+| 
+| 
+|-
+| 11a
+| 0
+| 2
+| anterior/posterior axis^part_of(parasphenoid)
+| straight angle
+| 
+| 
+| 
+| 
+|-
+| 11a
+| 1
+| key
+| anterior/posterior axis^part_of(parasphenoid)
+| curved ventral
+| 
+| 
+| 
+| 
+|-
+| 11a
+| 1
+| 4
+| parasphenoid
+| curved ventral
+| 
+| 
+| 
+| 
+|-
+| 11a
+| 1
+| 2
+| anterior/posterior axis^part_of(parasphenoid)
+| curved
+| vertebral column
+| 
+| 
+| 
+|-
+| 11b
+| 0
+| key
+| posterior region^part_of(parasphenoid)
+| aligned with
+| anterior region^part_of(vertebral column)
+| 
+| 
+| 
+|-
+| 11b
+| 0
+| 2
+| posterior region^part_of(parasphenoid)
+| aligned with
+| vertebral column
+| 
+| 
+| 
+|-
+| 11b
+| 1
+| key
+| posterior region^part_of(parasphenoid)
+| ventral to
+| anterior region^part_of(vertebral column)
+| 
+| 
+| 
+|-
+| 11b
+| 1
+| 2
+| posterior region^part_of(parasphenoid)
+| ventral to
+| 
+| 
+| 
+| 
 |}
 
 [[Category:Data Jamboree 1]]
