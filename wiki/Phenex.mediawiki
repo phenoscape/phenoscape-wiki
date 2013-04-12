@@ -169,6 +169,11 @@ Phenex includes a Consistency Review panel which reports problematic or missing 
 * Biological process entity not used with a process quality.
 * Qualities descending from different attributes used in states for a given character.
 
+===Collaboration via file change detection and autosave===
+Phenex includes two features that are intended to facilitate multiple curators editing shared files (such as in Dropbox).
+* '''File change detection and reload:''' If a file changes on disk while it is being edited by Phenex, Phenex will detect the change and alert the user. The user will be given the opportunity to load the most current version of the file, so that conflicting edits are not produced. If the open file is in an edited, unsaved state, the unsaved edits will need to be discarded before reloading.
+* '''Autosave:''' To make it unlikely that Phenex will be holding unsaved edits at the time a file changes via Dropbox, an autosave feature is provided that immediately writes every edit to disk. This must be enabled via the menu command <code>File > Enable autosave</code>.
+
 ==Troubleshooting Problems==
 
 ===Removing Corrupted Ontology Files===
