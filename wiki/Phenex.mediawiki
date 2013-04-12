@@ -88,6 +88,7 @@ The Phenex settings folder contains cached copies of downloaded ontology files, 
 ===Importing data from a NEXUS file===
 ''TODO''
 
+<!--
 ===NeXML file format extensions===
 This is out of date and will be updated with the new NeXML metadata scheme soon!
 
@@ -151,6 +152,7 @@ Phenotype annotations are stored within the "state" element to which they corres
 </dict>
 </state>
 </xml>
+-->
 
 ===Entering polymorphic or uncertain state values===
 The Phenex matrix editor can handle entry of polymorphic or uncertain state values within cells. In order to enter multiple states in a single cell,you must use the matrix "quick editor". Just beneath the matrix view, there is a checkbox titled "Use quick editor". After enabling this setting, when you click to edit a cell, instead of popping up a states menu, the cell will become an editable text field, which operates very much like the matrix cell editor in Mesquite. Here you can simply type the symbol of the state you want to enter. If you want to enter a polymorphism of states 0 and 1, simply enter "0&1" (no spaces). For an uncertainty, use a slash: "0/1".
