@@ -196,3 +196,5 @@ Phenex will then download new copies of the ontology files on startup.
 
 [[Category:Curation]]
 [[Category:Informatics]]
+[[Category:Software]]
+[[Category:Phenex]]
