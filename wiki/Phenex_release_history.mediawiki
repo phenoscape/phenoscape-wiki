@@ -12,6 +12,7 @@ Released 2013-03-05.
 ==Phenex 1.7==
 * [https://github.com/phenoscape/Phenex/compare/v1.6...v1.7 Source changes]
 * New feature: Annotation checker panel
+* Increased max memory setting to 2 gigabytes.
 
 [[Category:Informatics]]
 [[Category:Phenex]]
