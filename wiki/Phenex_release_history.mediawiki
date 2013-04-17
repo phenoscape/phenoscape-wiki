@@ -26,6 +26,7 @@ Released 2012-12-03.
 * Fixed a problem with the version number in the release.
 
 ==Phenex 1.6.1==
+Released 2012-12-03.
 * [https://github.com/phenoscape/Phenex/compare/v1.6...v1.6.1 Source changes]
 * Updated entities filter to allow any term with the UBERON prefix.
 * Fixed editing issue with publication notes field.
