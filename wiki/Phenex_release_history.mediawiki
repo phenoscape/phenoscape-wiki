@@ -10,7 +10,7 @@ Released 2013-03-05.
 * New feature: [[Phenex#Consistency_Review_panel|Consistency review panel]]
 
 ==Phenex 1.7==
-* [https://github.com/phenoscape/Phenex/compare/v1.6...v1.7 Source changes]
+* [https://github.com/phenoscape/Phenex/compare/v1.6.3...v1.7 Source changes]
 * New feature: Annotation checker panel
 * Increased max memory setting to 2 gigabytes.
 
