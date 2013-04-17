@@ -36,6 +36,7 @@ Released 2012-12-03.
 Released 2012-10-09.
 * [https://github.com/phenoscape/Phenex/compare/v1.5.1...v1.6 Source changes]
 * New feature: full support for reading, writing, and editing [[Phenex#Entering_polymorphic_or_uncertain_state_values|polymorphic values within matrix cells]].
+* Removed NEXUS import features. NEXUS files should instead be [[Phenex#Importing_data_from_a_NEXUS_file|converted to NeXML using Mesquite]].
 
 [[Category:Informatics]]
 [[Category:Phenex]]
