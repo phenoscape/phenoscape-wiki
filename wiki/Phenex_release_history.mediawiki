@@ -21,6 +21,7 @@ Released 2012-12-05.
 * Bugfix: Added missing Phenex relations list to default ontology configuration.
 
 ==Phenex 1.6.2==
+Released 2012-12-03.
 * [https://github.com/phenoscape/Phenex/compare/v1.6.1...v1.6.2 Source changes]
 * Fixed a problem with the version number in the release.
 
