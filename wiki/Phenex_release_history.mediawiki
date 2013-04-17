@@ -17,6 +17,10 @@ Released 2013-03-05.
 ==Phenex 1.6.3==
 * [https://github.com/phenoscape/Phenex/compare/v1.6.2...v1.6.3 Source changes]
 
+==Phenex 1.6.2==
+* [https://github.com/phenoscape/Phenex/compare/v1.6.1...v1.6.2 Source changes]
+* Fixed a problem with the version number in the release.
+
 [[Category:Informatics]]
 [[Category:Phenex]]
 [[Category:Software]]
