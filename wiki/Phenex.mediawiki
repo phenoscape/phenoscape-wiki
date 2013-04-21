@@ -2,7 +2,10 @@
 title: Phenex
 ---
 
-[[Image:Phenex-small.png|right]]
+__NOTOC__
+<div style="float:right;"><center>[[Image:Phenex-small.png]]</center>
+<div style="margin: 1em;">__TOC__</div>
+</div>
 Phenex is an application for annotating character matrix files with ontology terms.  Character states can be annotated using the Entity-Quality syntax for ontologically describing phenotypes.  In addition, taxon entries can be annotated with identifiers from a taxonomy ontology.  Phenex saves ontology annotations alongside traditional character matrix data using the new [http://www.nexml.org NeXML] format standard for evolutionary data.  Phenex builds on [http://www.phenote.org/ Phenote] and [http://oboedit.org/ OBO-Edit] from the [http://www.obofoundry.org/ OBO project]. Jim Balhoff is the lead developer of Phenex.
 
 ==Download & Installation==
