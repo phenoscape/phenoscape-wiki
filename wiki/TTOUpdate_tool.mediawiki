@@ -2,7 +2,7 @@
 title: TTOUpdate tool
 ---
 
-= TTOUpdate =
+== Overview<br/> ==
 
 TTOUpdate is a tool used for merging updated exports from the [http://researcharchive.calacademy.org/research/Ichthyology/catalog/fishcatmain.asp Catalog of Fishes]. The exports are merged into a preexisting copy of the Teleost Taxonomy Ontology (cite) in OBO format.
 
