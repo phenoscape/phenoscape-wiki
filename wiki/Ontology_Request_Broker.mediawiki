@@ -6,6 +6,7 @@ In the process of annotating data files, curators may encounter terms in the dat
 
 ==Components==
 ===Phenex term request interface===
+[[File:ORB-request.png]]
 ===Bioportal provisional term services===
 ===Phenoscape provisional term management interface===
 
