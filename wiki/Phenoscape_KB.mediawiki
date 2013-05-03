@@ -2,7 +2,7 @@
 title: Phenoscape KB
 ---
 
-The Phenoscape Knowledgebase (KB) is an integrated dataset, and software infrastructure and services, bringing together evolutionary data matrices annotated by Phenoscape curators, model organism phenotype and gene expression annotations, and ontologies providing a common semantic framework. The entire dataset is expressed in the OWL Web Ontology Language, and, when used as a database, stored in an RDF triplestore.
+The Phenoscape Knowledgebase (KB) is an integrated dataset, and software infrastructure and services, bringing together evolutionary data matrices annotated by Phenoscape curators, model organism phenotype and gene expression annotations, and a collection of ontologies providing a common semantic framework. The entire dataset is expressed in the OWL Web Ontology Language, and, when used as a database, stored in an RDF triplestore.
 
 ''This page describes the in-development version of the KB built on OWL and RDF technologies, not the legacy Phenoscape Knowledgebase built on OBD.''
 
