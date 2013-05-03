@@ -9,6 +9,10 @@ The Phenoscape Knowledgebase (KB) is an integrated dataset, and software infrast
 ==Data sources==
 ===Phenoscape===
 * [https://github.com/phenoscape/phenoscape-data/tree/master/Curation%20Files Evolutionary data matrices annotated by Phenoscape curators]
+===ZFIN===
+===MGI===
+===Xenbase===
+===Ontologies===
 
 [[Category:Informatics]]
 [[Category:Database]]
