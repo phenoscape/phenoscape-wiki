@@ -48,6 +48,14 @@ Genetic phenotype annotations for human (''Homo sapiens''). HPO data downloads c
 ** http://compbio.charite.de/hudson/job/hpo.annotations.monthly/lastStableBuild/artifact/annotation/genes_to_phenotype.txt
 
 ===Ontologies===
+====Anatomy====
+* Uberon cross-species anatomy ontology, with Phenoscape extensions
+** http://purl.obolibrary.org/obo/uberon/ext.owl
+** Imports http://purl.obolibrary.org/obo/uberon/merged.owl
+** Imports http://purl.obolibrary.org/obo/uberon/references/references.owl 
+* Zebrafish anatomy
+** http://purl.obolibrary.org/obo/zfa.owl
+** Bridge axioms to Uberon: http://purl.obolibrary.org/obo/uberon/bridge/uberon-ext-bridge-to-zfa.owl
 
 [[Category:Informatics]]
 [[Category:Database]]
