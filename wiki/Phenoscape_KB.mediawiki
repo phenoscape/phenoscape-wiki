@@ -36,6 +36,13 @@ Gene expression and genetic phenotype annotations for frog (''Xenopus laevis'' a
 * Gene expression annotations
 ** ftp://ftp.xenbase.org/pub/GenePageReports/GeneExpression_laevis.txt
 ** ftp://ftp.xenbase.org/pub//GenePageReports/GeneExpression_tropicalis.txt
+* Genetic phenotype annotations
+** A preliminary annotation file has been provided by Xenbase curators. Not yet imported into the KB.
+
+===HPO===
+Genetic phenotype annotations for human (''Homo sapiens''). HPO data downloads can be found at http://www.human-phenotype-ontology.org/contao/index.php/downloads.html.
+* Genetic phenotype annotations
+** http://compbio.charite.de/hudson/job/hpo.annotations.monthly/lastStableBuild/artifact/annotation/genes_to_phenotype.txt
 
 ===Ontologies===
 
