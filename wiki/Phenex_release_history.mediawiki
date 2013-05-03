@@ -36,6 +36,11 @@ Released 2012-10-09.
 * New feature: full support for reading, writing, and editing [[Phenex#Entering_polymorphic_or_uncertain_state_values|polymorphic values within matrix cells]].
 * Removed NEXUS import features. NEXUS files should instead be [[Phenex#Importing_data_from_a_NEXUS_file|converted to NeXML using Mesquite]].
 
+==Phenex 1.5.1==
+Released 2012-10-03.
+* [https://github.com/phenoscape/Phenex/compare/v1.5...v1.5.1 Source changes]
+* Fixed a problem with download of provisional terms from Bioportal.
+
 [[Category:Informatics]]
 [[Category:Phenex]]
 [[Category:Software]]
