@@ -63,7 +63,7 @@ Genetic phenotype annotations for human (''Homo sapiens''). HPO data downloads c
 ** http://purl.obolibrary.org/obo/hp.owl
 ** Logical definitions for human phenotype classes (FMA + PATO): http://purl.obolibrary.org/obo/hp/hp-equivalence-axioms.obo
 ** Bridge axioms from FMA (human anatomy) to Uberon: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fma.owl
-** FMA itself is not used
+** FMA itself is not used ''(should it be? are there FMA classes used in the HP definitions that don't have direct mappings in the bridge file?)''
 
 [[Category:Informatics]]
 [[Category:Database]]
