@@ -55,6 +55,18 @@ Released 2012-08-17.
 * [https://github.com/phenoscape/Phenex/compare/v1.4.2...v1.4.3 Source changes]
 * Updated OBO-Edit libraries.
 
+==Phenex 1.4.2==
+Released 2012-08-15.
+* [https://github.com/phenoscape/Phenex/compare/v1.4.1...v1.4.2 Source changes]
+
+==Phenex 1.4.1==
+Released 2012-08-03.
+* [https://github.com/phenoscape/Phenex/compare/v1.4...v1.4.1 Source changes]
+
+==Phenex 1.4==
+Released 2012-08-03.
+* [https://github.com/phenoscape/Phenex/compare/v1.2.1...v1.4 Source changes]
+
 [[Category:Informatics]]
 [[Category:Phenex]]
 [[Category:Software]]
