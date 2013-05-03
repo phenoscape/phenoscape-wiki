@@ -15,6 +15,8 @@ The NCBO Bioportal provides [http://www.bioontology.org/wiki/index.php/BioPortal
 ===Phenoscape provisional term management interface===
 Using the web-based [http://rdf.phenoscape.org/provisional/ provisional term management interface], Phenoscape ontology editors can review the requested terms, independently of data annotation work. After adding a term to an appropriate ontology, or deciding that an appropriate term already exists, the management interface can be used to apply the preferred permanent ID to the provisional term. The management interface, like Phenex, makes use of Bioportal web services to interact with the provisional terms database.
 
+When Phenex opens a data file containing provisional terms, it checks to see if any have been assigned permanent IDs. If so, the data is updated to reference the permanent IDs.
+
 [[Category:Curation]]
 [[Category:Software]]
 [[Category:Phenex]]
