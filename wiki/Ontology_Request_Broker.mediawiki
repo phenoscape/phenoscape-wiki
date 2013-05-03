@@ -7,7 +7,7 @@ In the process of annotating data files, curators may encounter terms in the dat
 ==Components==
 ===Phenex term request interface===
 [[File:ORB-request.png|thumb|Phenex term request panel|250px]]
-During annotation in Phenex, curators can use the term request panel to obtain provisional terms. See the [[Phenex#Ontology_Request_Broker_.28ORB.29|Phenex documenation]] for more details on usage. Phenex interacts with the Bioportal provisional term services to create provisional terms and also to query their properties and status.
+During annotation in Phenex, curators can use the term request panel to obtain provisional terms. See the [[Phenex#Ontology_Request_Broker_.28ORB.29|Phenex documenation]] for more details on usage. Phenex interacts with the Bioportal provisional term services to create provisional terms and also to query their properties and status. At launch time Phenex loads all provisional terms previously created by Phenoscape curators into its ontology session, making them available for use in annotation.
 
 ===Bioportal provisional term services===
 ===Phenoscape provisional term management interface===
