@@ -71,6 +71,11 @@ Genetic phenotype annotations for human (''Homo sapiens''). HPO data downloads c
 ** http://purl.obolibrary.org/obo/bspo.owl
 * Phenotypic quality ontology
 ** http://purl.obolibrary.org/obo/pato.owl
+* Vertebrate taxonomy
+** http://purl.obolibrary.org/obo/vto.owl
+** An individual-based taxonomy is generated from this class hierarchy, and both are loaded into the KB.
+* Ontology metadata
+** http://purl.obolibrary.org/obo/iao/ontology-metadata.owl
 
 [[Category:Informatics]]
 [[Category:Database]]
