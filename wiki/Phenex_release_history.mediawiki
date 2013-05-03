@@ -2,7 +2,7 @@
 title: Phenex release history
 ---
 
-=='''Phenex 1.8'''==
+==Phenex 1.8==
 Released 2013-03-05.
 * [https://github.com/phenoscape/Phenex/compare/v1.7...v1.8 Source changes]
 * New feature: [[Phenex#Consistency_Review_panel|Consistency review panel]]
