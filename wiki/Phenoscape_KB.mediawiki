@@ -20,6 +20,14 @@ Gene expression and genetic phenotype annotations for zebrafish. ZFIN data downl
 ** http://zfin.org/downloads/phenoGeneClean.txt
 
 ===MGI===
+Gene expression and genetic phenotype annotations for mouse. MGI data downloads can be found at ftp://ftp.informatics.jax.org/pub/reports/index.html.
+* Gene identifiers and names
+** ftp://ftp.informatics.jax.org/pub/reports/MRK_List2.rpt
+* Gene expression annotations
+** Custom report provided by Terry Hayamizu. We are working with the Monarch project to establish continually updated downloadable reports.
+* Genetic phenotype annotations
+** Custom report provided by Terry Hayamizu. We are working with the Monarch project to establish continually updated downloadable reports.
+
 ===Xenbase===
 ===Ontologies===
 
