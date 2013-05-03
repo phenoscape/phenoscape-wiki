@@ -7,5 +7,5 @@ The Phenoscape Knowledgebase (KB) is an integrated dataset, and software infrast
 [[Category:Informatics]]
 [[Category:Database]]
 [[Category:Reasoning]]
-[[Category:Taxonomy, Software]]
 [[Category:API]]
+[[Category:Software]]
