@@ -50,6 +50,11 @@ Released 2012-09-20.
 * Phenex now displays an alert panel, rather than crashes, when there has been an ontology load error.
 * Reversed default for autosave feature (default is now OFF).
 
+==Phenex 1.4.3==
+Released 2012-08-17.
+* [https://github.com/phenoscape/Phenex/compare/v1.4.2...v1.4.3 Source changes]
+* Updated OBO-Edit libraries.
+
 [[Category:Informatics]]
 [[Category:Phenex]]
 [[Category:Software]]
