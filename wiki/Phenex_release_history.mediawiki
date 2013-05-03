@@ -91,6 +91,10 @@ Released 2010-10-25.
 Released 2010-09-20.
 * [https://github.com/phenoscape/Phenex/compare/v1.1…v1.1.1 Source changes]
 
+==Phenex 1.1==
+Released 2010-09-02.
+* [https://github.com/phenoscape/Phenex/compare/v1.0.5…v1.1 Source changes]
+
 [[Category:Informatics]]
 [[Category:Phenex]]
 [[Category:Software]]
