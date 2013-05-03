@@ -183,7 +183,7 @@ Phenex includes two features that are intended to facilitate multiple curators e
 ===Ontology Request Broker (ORB)===
 During the course of curation, a term may be needed which isn't available in a given ontology. Using ORB, the curator can request a provisional term from the [http://www.bioontology.org/wiki/index.php/BioPortal_Provisional_Terms Bioportal provisional term service].
 * Select <code>ORB > Request New Term...</code> and fill out the request dialog.
-* A provisional term with a temporary ID and the requested name will immediately be added to the Phenex ontology session. This term will now be available within all ontology autocomplete fields in Phenex.
+* A provisional term with a temporary ID and the requested name will immediately be added to the Phenex ontology session. This term will now be available within all ontology autocomplete fields in Phenex. Provisional terms are displayed in purple within data fields.
 * If the provisional term is assigned a permanent ID via the [[Ontology Request Broker|provisional term management interface]] (not part of Phenex), when Phenex next loads any data file containing that term, it will auto-migrate data using the provisional ID to the permanent ID.
 * See the [[Ontology Request Broker]] documentation for more information on the overall workflow for handling provisional terms.
 
