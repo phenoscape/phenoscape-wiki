@@ -1,0 +1,11 @@
+---
+title: Phenoscape KB
+---
+
+The Phenoscape Knowledgebase (KB) is an integrated dataset, and software infrastructure and services, bringing together evolutionary data matrices annotated by Phenoscape curators, model organism phenotype and gene expression annotations, and ontologies providing a common semantic framework.
+
+[[Category:Informatics]]
+[[Category:Database]]
+[[Category:Reasoning]]
+[[Category:Taxonomy, Software]]
+[[Category:API]]
