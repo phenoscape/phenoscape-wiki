@@ -83,7 +83,7 @@ All of the inputs to the Phenoscape KB are processed to create a coherent semant
 This project provides a collection of Scala classes which implement various ontology manipulations, as well as OWL converters for the various data formats used by our data providers.
 * https://github.com/phenoscape/phenoscape-owl-tools
 ===Phenoscape builder===
-This project provides an Ant build script which orchestrates download of data sources and ontologies, conversion to OWL, and pre-reasoning tasks. The result is a set of OWL files, constituting the Phenoscape KB, which can be loaded together into an RDF triplestore.
+This project provides an Ant build script which orchestrates download of data sources and ontologies, conversion to OWL, and pre-reasoning tasks using the Phenoscape OWL tools and other code libraries. The result is a set of OWL files, constituting the Phenoscape KB, which can be loaded together into an RDF triplestore.
 * https://github.com/phenoscape/phenoscape-builder
 
 [[Category:Informatics]]
