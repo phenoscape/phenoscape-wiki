@@ -4,9 +4,9 @@ title: TTOUpdate tool
 
 == Overview<br/> ==
 
-TTOUpdate is a tool used for merging updated exports from the [http://researcharchive.calacademy.org/research/Ichthyology/catalog/fishcatmain.asp Catalog of Fishes]. The exports are merged into a preexisting copy of the Teleost Taxonomy Ontology (cite) in OBO format.  The source for the tool is available within a repository on sourceforge [http://sourceforge.net/p/phenoscape/code/HEAD/tree/trunk/tools/TTOUpdate/ here].
+TTOUpdate is a tool used for merging updated exports from the [http://researcharchive.calacademy.org/research/Ichthyology/catalog/fishcatmain.asp Catalog of Fishes]. The exports are merged into a preexisting copy of the Teleost Taxonomy Ontology (cite) in OBO format.  
 
-[[Category:Taxonomy, Software, Phenoscape I]]
+The source code for TTOUpdate is available [http://sourceforge.net/p/phenoscape/code/HEAD/tree/trunk/tools/TTOUpdate/ within the Phenoscape repository on Sourceforge] under the MIT license.
 
 == Input Files ==
 
@@ -15,3 +15,5 @@ The export from the Catalog of Fishes (CoF) consists of 3 Excel 2003 files, cons
 == Output ==
 
 The output of TTOUpdate is an updated copy of the TTO in OBO (1.2) format.
+
+[[Category:Taxonomy, Software, Phenoscape I]]
