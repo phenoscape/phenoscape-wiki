@@ -6,6 +6,10 @@ The Phenoscape Knowledgebase (KB) is an integrated dataset, and software infrast
 
 ''This page describes the in-development version of the KB built on OWL and RDF technologies, not the legacy Phenoscape Knowledgebase built on OBD.''
 
+==Data sources==
+===Phenoscape===
+* [https://github.com/phenoscape/phenoscape-data/tree/master/Curation%20Files Evolutionary data matrices annotated by Phenoscape curators]
+
 [[Category:Informatics]]
 [[Category:Database]]
 [[Category:Reasoning]]
