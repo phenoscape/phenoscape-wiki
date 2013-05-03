@@ -10,7 +10,7 @@ The Phenoscape Knowledgebase (KB) is an integrated dataset, and software infrast
 ===Phenoscape===
 * [https://github.com/phenoscape/phenoscape-data/tree/master/Curation%20Files Evolutionary data matrices annotated by Phenoscape curators]
 ===ZFIN===
-Gene expression and genetic phenotype annotations for zebrafish. ZFIN data downloads can be found at http://zfin.org/downloads.
+Gene expression and genetic phenotype annotations for zebrafish (''Danio rerio''). ZFIN data downloads can be found at http://zfin.org/downloads.
 * Gene identifiers and names
 ** http://zfin.org/downloads/genetic_markers.txt
 ** http://zfin.org/downloads/aliases.txt
@@ -20,7 +20,7 @@ Gene expression and genetic phenotype annotations for zebrafish. ZFIN data downl
 ** http://zfin.org/downloads/phenoGeneClean.txt
 
 ===MGI===
-Gene expression and genetic phenotype annotations for mouse. MGI data downloads can be found at ftp://ftp.informatics.jax.org/pub/reports/index.html.
+Gene expression and genetic phenotype annotations for mouse (''Mus musculus''). MGI data downloads can be found at ftp://ftp.informatics.jax.org/pub/reports/index.html.
 * Gene identifiers and names
 ** ftp://ftp.informatics.jax.org/pub/reports/MRK_List2.rpt
 * Gene expression annotations
@@ -29,6 +29,14 @@ Gene expression and genetic phenotype annotations for mouse. MGI data downloads 
 ** Custom report provided by Terry Hayamizu. We are working with the Monarch project to establish continually updated downloadable reports.
 
 ===Xenbase===
+Gene expression and genetic phenotype annotations for frog (''Xenopus laevis'' and ''X. tropicalis''). Xenbase data downloads can be found at ftp://ftp.xenbase.org/pub.
+* Gene identifiers and names
+** ftp://ftp.xenbase.org/pub/GenePageReports/GenePageGeneralInfo_ManuallyCurated.txt
+** ftp://ftp.xenbase.org/pub/GenePageReports/XenbaseGenepageToGeneIdMapping.txt
+* Gene expression annotations
+** ftp://ftp.xenbase.org/pub/GenePageReports/GeneExpression_laevis.txt
+** ftp://ftp.xenbase.org/pub//GenePageReports/GeneExpression_tropicalis.txt
+
 ===Ontologies===
 
 [[Category:Informatics]]
