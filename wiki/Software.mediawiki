@@ -16,7 +16,7 @@ The live Phenoscape Knowledgebase is available at http://kb.phenoscape.org/. It 
 ===RDF-OWL version (in development)===
 To meet new requirements for scalability, reasoning expressivity, and support for linked data standards, we are developing a new Knowledgebase infrastructure based on RDF and OWL reasoning. Some in-progress components:
 * [http://github.com/phenoscape/phenoscape-kb Phenoscape content in RDF] (rapidly evolving)
-* [[KB-OWL|Reasoning strategy overview]]
+* [[Phenoscape_KB|Phenoscape RDF KB overview]]
 
 ==Data curation tools==
 ===Phenex===
