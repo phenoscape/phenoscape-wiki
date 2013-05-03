@@ -10,7 +10,7 @@ The Phenoscape Knowledgebase (KB) is an integrated dataset, and software infrast
 ===Phenoscape===
 * [https://github.com/phenoscape/phenoscape-data/tree/master/Curation%20Files Evolutionary data matrices annotated by Phenoscape curators]
 ===ZFIN===
-ZFIN data downloads can be found at http://zfin.org/downloads .
+ZFIN data downloads can be found at http://zfin.org/downloads.
 * Gene identifiers and names
 ** http://zfin.org/downloads/genetic_markers.txt
 ** http://zfin.org/downloads/aliases.txt
