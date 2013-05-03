@@ -65,6 +65,12 @@ Genetic phenotype annotations for human (''Homo sapiens''). HPO data downloads c
 *** This file is converted to OWL after introducing a special header, <code>logical-definition-view-relation: involves</code>, which is used by the oboformat converter.
 ** Bridge axioms from FMA (human anatomy) to Uberon: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fma.owl
 ** FMA itself is not used ''(should it be? are there FMA classes used in the HP definitions that don't have direct mappings in the bridge file?)''
+* Gene Ontology
+** http://purl.obolibrary.org/obo/go.owl
+* Biospatial ontology
+** http://purl.obolibrary.org/obo/bspo.owl
+* Phenotypic quality ontology
+** http://purl.obolibrary.org/obo/pato.owl
 
 [[Category:Informatics]]
 [[Category:Database]]
