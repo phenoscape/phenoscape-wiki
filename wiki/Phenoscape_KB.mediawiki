@@ -7,9 +7,12 @@ The Phenoscape Knowledgebase (KB) is an integrated dataset, and software infrast
 ''This page describes the in-development version of the KB built on OWL and RDF technologies, not the legacy Phenoscape Knowledgebase built on OBD.''
 
 ==Data sources==
-===Phenoscape===
+===Comparative data===
+====Phenoscape====
 * [https://github.com/phenoscape/phenoscape-data/tree/master/Curation%20Files Evolutionary data matrices annotated by Phenoscape curators]
-===ZFIN===
+
+===Model organism data===
+====ZFIN====
 Gene expression and genetic phenotype annotations for zebrafish (''Danio rerio''). ZFIN data downloads can be found at http://zfin.org/downloads.
 * Gene identifiers and names
 ** http://zfin.org/downloads/genetic_markers.txt
@@ -19,7 +22,7 @@ Gene expression and genetic phenotype annotations for zebrafish (''Danio rerio''
 * Genetic phenotype annotations
 ** http://zfin.org/downloads/phenoGeneClean.txt
 
-===MGI===
+====MGI====
 Gene expression and genetic phenotype annotations for mouse (''Mus musculus''). MGI data downloads can be found at ftp://ftp.informatics.jax.org/pub/reports/index.html.
 * Gene identifiers and names
 ** ftp://ftp.informatics.jax.org/pub/reports/MRK_List2.rpt
@@ -28,7 +31,7 @@ Gene expression and genetic phenotype annotations for mouse (''Mus musculus''). 
 * Genetic phenotype annotations
 ** Custom report provided by Terry Hayamizu. We are working with the Monarch project to establish continually updated downloadable reports.
 
-===Xenbase===
+====Xenbase====
 Gene expression and genetic phenotype annotations for frog (''Xenopus laevis'' and ''X. tropicalis''). Xenbase data downloads can be found at ftp://ftp.xenbase.org/pub.
 * Gene identifiers and names
 ** ftp://ftp.xenbase.org/pub/GenePageReports/GenePageGeneralInfo_ManuallyCurated.txt
@@ -39,7 +42,7 @@ Gene expression and genetic phenotype annotations for frog (''Xenopus laevis'' a
 * Genetic phenotype annotations
 ** A preliminary annotation file has been provided by Xenbase curators. Not yet imported into the KB.
 
-===HPO===
+====HPO====
 Genetic phenotype annotations for human (''Homo sapiens''). HPO data downloads can be found at http://www.human-phenotype-ontology.org/contao/index.php/downloads.html.
 * Genetic phenotype annotations
 ** http://compbio.charite.de/hudson/job/hpo.annotations.monthly/lastStableBuild/artifact/annotation/genes_to_phenotype.txt
