@@ -1,0 +1,14 @@
+---
+title: Ontology Request Broker
+---
+
+In the process of annotating data files, curators may encounter terms in the data that have not yet been added to an appropriate ontology. Requesting a new ontology term and adding it to the ontology may take several days or weeks when it involves discussion with other ontology editors and requires a new production release of the ontology. For this reason we have developed the Ontology Request Broker (ORB) for use with [[Phenex]]. Using ORB, when an appropriate ontology term cannot be found during annotation, the curator simply requests a new term, providing a suggested label and description, using a special interface within Phenex. A provisional term is immediately created in the Bioportal provisional term database and added to the Phenex session for use by the curator. Independently, this term can be provided with a permanent ID after the ontology editing and release process are complete, and Phenex will automatically replace references to the provisional term with the permanent ID.
+
+==Components==
+===Phenex term request interface===
+===Bioportal provisional term services===
+===Phenoscape provisional term management interface===
+
+[[Category:Curation]]
+[[Category:Software]]
+[[Category:Phenex]]
