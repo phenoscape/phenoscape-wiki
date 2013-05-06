@@ -75,7 +75,7 @@ title: Acknowledgments
 * [[WG:All-Hands_Meeting_2011-11-11| Advisory Board meeting on Nov. 11, 2011]] (by conference call):  [http://docs.google.com/document/d/1oE9Mp-UVu6r-Ci7G3EHTRaBuXsapyqm7DQ-Q0FjwCyo/edit?hl=en_US agenda] and [[Media:ABmeeting 2011-11-11 notes.pdf| notes]]
 
 ==Contributors==
-The following individuals have contributed to Phenoscape ontology development, data curation, workshops, and data entry:
+The following groups and individuals have contributed to Phenoscape ontology development, data curation, workshops, and data entry:
 
 ===Phenoscape-ext Contributors===
 * Wasila Dahdul, University of South Dakota
@@ -281,6 +281,8 @@ The following individuals have contributed to Phenoscape ontology development, d
 * Du Rui, University of South Dakota
 * Brad Schanche, University of South Dakota
 * Michael Wallinga, University of South Dakota
+
+===Groups===
 
 ==Data sources==
 * [http://zfin.org ZFIN] - mutant and morpholino zebrafish genes and phenotypes
