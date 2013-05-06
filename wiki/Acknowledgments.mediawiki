@@ -283,6 +283,7 @@ The following groups and individuals have contributed to Phenoscape ontology dev
 * Michael Wallinga, University of South Dakota
 
 ===Groups===
+* [http://http://www.deepfin.org/ DeepFin Research Coordination Network] - support for training and participation of ichthyology students and researchers
 
 ==Data sources==
 * [http://zfin.org ZFIN] - mutant and morpholino zebrafish genes and phenotypes
