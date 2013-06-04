@@ -15,7 +15,7 @@ __TOC__
 
 ; Character state: Variant of a character; assigned a code in a phylogenetic analysis.
 
-; Composite character: A character state with more than one phenotype.
+; Composite character state: A character state with more than one phenotype.
 
 ; Phenotyped character: A character with one or more states assigned to a phenotype.
 
