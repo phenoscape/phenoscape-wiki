@@ -369,20 +369,20 @@ Note: '''bearer_of''' is most likely used as a modifier of an Entity term, not u
 | Q inheres_in E<br/>
 | 'length' and ('''inheres_in''' some 'coracoid bone')<br/>
 |-
-| decreased_in_magnitude_relative_to
+| decreased_in_magnitude_relative_to<br/>
 | size
-| <br/>
-| [1]
+| Q decreased_in_magnitude_relative_to Q<br/>
+| <span style="font-family:arial,helvetica,sans-serif">[1]E: frontal bone, Q: length^'''''decreased_in_magnitude_relative_to'''''(width^'''''inheres_in'''''(frontal bone))<br/></span>
 |-
-| increased_in_magnitude_relative_to
-| size
-| <br/>
-| [1]
+| increased_in_magnitude_relative_to<br/>
+| size<br/>
+| Q increased_in_magnitude_relative_to Q<br/>
+| <span style="font-family:arial,helvetica,sans-serif">[1]E: frontal bone, Q: length^''increased_in_magnitude_relative_to''(width^'''''inheres_in'''''(frontal bone))<br/></span>
 |-
-| similar_in_magnitude_relative_to
+| similar_in_magnitude_relative_to<br/>
 | size
-| <br/>
-| [1]
+| Q similar_in_magnitude_relative_to Q<br/>
+| <span style="font-family:arial,helvetica,sans-serif">[1]E: frontal bone, Q: length^</span>'''''similar_in_magnitude_relative_to'''''<span style="font-family:arial,helvetica,sans-serif">(width^'''''inheres_in'''''(frontal bone))<br/></span>
 |-
 | adjacent_to
 | spatial
