@@ -465,22 +465,12 @@ NOTE: Teeth and scales are not always related to structures by attaches_to; they
 | E in_right_side_of E<br/>
 | &nbsp;'frontal bone' and ('''in_right_side_of''' some 'body')
 |-
-| located_in
+| connects<br/>
 | spatial
-| E located_in E<br/>
-| <br/>
-|-
-| overlaps
-| spatial
-| E overlaps E<br/>
+| E connects E<br/>
 | Two structures overlap if they have some part in common. For example, metapterygoid-hyomandibular joint is post-composed as:
-'joint' and ('''overlaps''' some 'metapterygoid') and ('''overlaps''' some 'hyomandibula')
+'joint' and ('''connects''' some 'metapterygoid') and ('''connects''' some 'hyomandibula')
 
-|-
-| passes_through
-| spatial
-| <br/>
-| BSPO relation. Need to check usage<br/>
 |-
 | posterior_to
 | spatial
