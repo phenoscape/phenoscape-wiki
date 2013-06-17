@@ -142,6 +142,8 @@ There are various ways an author may describe or compare the size of a structure
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: frontal bone, Q: length^''increased_in_magnitude_relative_to''(width^''inheres_in''(frontal bone)</span>)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We are currently annotating to this fine level, but as an example, this can also be annotated at the coarse level as: <span style="font-family:courier new,courier,monospace">E: frontal bone, Q: increased length, RE: frontal bone</span> 
+
 *'''Locally relative phenotypes''' describe a range of sizes in more than two states.&nbsp; Example: "opercle size: small, medium, or large". Choose the quality being compared, and place a number in the Count column indicating the proper sort order (1 < 2 < 3). For "small":
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: opercle, Q: size, Count: 1</span>
@@ -150,11 +152,15 @@ Note: For the first two examples above, we use [[EQ shortcuts (temporary)|curato
 
 === 7. Contralateral halves of bilaterally paired structures ===
 
-Terms for the contralateral halves of bilaterally paired structures are created using the ''in_right_side_of'' and ''in_left_side_of'' relations in a post-composition, where the perspective is from the standpoint of the organism. For example: E: frontal^''in_right_side_of''(body), Q: fused with, RE: frontal^''in_left_side_of''(body).
+Terms for the contralateral halves of bilaterally paired structures are created using the <span style="font-family:courier new,courier,monospace">''in_right_side_of'' </span>and <span style="font-family:courier new,courier,monospace">''in_left_side_of'' </span>relations in a post-composition, where the perspective is from the standpoint of the organism. For example:
 
-=== 8. [[EQ shortcuts (temporary)|Complementary phenotypes ("negation")]] ===
+<span style="font-size:larger"><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family: courier new,courier,monospace"><sub>E: frontal^''in_right_side_of''(whole organism), Q: fused with, RE: frontal^''in_left_side_of''(whole organism)</sub></span></span>
 
-Example: "opercle, not round". Create a postcomposition for the quality, choosing a meaningful genus term and using the "not" relation. E: opercle, Q: shape^not(round)
+=== 8. [[EQ shortcuts (temporary)|Complementary phenotypes ("negation")]]<br/> ===
+
+Example: "opercle, not round". Create a postcomposition for the quality, choosing a meaningful genus term and using the "not" relation. 
+
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: opercle, Q: shape^not(round)</span>
 
 === 9. Annotation involving bone and cartilage terms ===
 
