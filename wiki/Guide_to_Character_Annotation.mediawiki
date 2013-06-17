@@ -116,37 +116,37 @@ If a character describes both the presence of an entity and some other attribute
 
 Characters involving counts of entities are annotated using the “count” quality. Values for counts are entered in the “Comment” field(*). Note that ranges and lower or upper bounds are recorded as follows:
 
-<span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Count: 33</span>
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: vertebra, Q: count, Count: 33</span>
 
-<span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: 34-38</span>
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: 34-38</span>
 
-<span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: >38</span>
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: >38</span>
 
-<span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: ≥48</span>
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: ≥48</span>
 
 *The "Count" field in Phenex currently does not accept ranges or symbols; therefore, please record these in the Comments field.
 
-=== 6. Size ===
+=== 6. Size<br/> ===
 
 In the systematics literature, the size of a structure is usually described relative to another structure, or size of a structure is compared across taxa.
 
 *The '''size of one structure relative to another structure ''' (e.g., state 0: "frontal length greater than parietal length", with taxonomic distribution recorded in the character by taxon matrix) is represented as:
 
-<span style="font-family:courier new,courier,monospace">E: frontal, Q: increased length, E2: parietal</span>
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: frontal, Q: increased length, E2: parietal</span>
 
 *Comparison of the '''size of a structure across taxa''' (e.g., “state 0: frontal large”) is represented as:
 
-<span style="font-family:courier new,courier,monospace">E: frontal, Q: increased size</span>
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: frontal, Q: increased size</span>
 
 *'''Size comparisons within a single structure''' are represented by using a size quality in the entity field. For example, an author may describe the frontal bone as having a "greater length relative to width". This is represented as:
 
-<span style="font-family:courier new,courier,monospace">E: frontal bone, Q: increased length, E2: width^inheres_in(frontal bone)</span>
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: frontal bone, Q: increased length, E2: width^inheres_in(frontal bone)</span>
 
 *'''Locally relative phenotypes''' describe a range of sizes in more than two states.
 
 Example: "opercle size: small, medium, or large". Choose the quality being compared, and place a number in the Count column indicating the proper sort order (1 < 2 < 3). For "small":
 
-<span style="font-family:courier new,courier,monospace">E: opercle, Q: size, Count: 1</span>
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: opercle, Q: size, Count: 1</span>
 
 Note: Representation of size in Phenex uses [[EQ shortcuts (temporary)|curatorial shortcuts]] because PATO size terms are precomposed relative to "normal" (e.g., ''increased size'' has an ''increased_in'' relationship to "normal"). These annotations will be converted in the KB data loader to the correct form using the appropriate relations (''increased_in_magnitude_relative_to'', ''decreased_in_magnitude_relative_to'', ''similar_in_magnitude_relative_to'').
 
@@ -166,33 +166,51 @@ The following are a series of examples demonstrating the use of bone, cartilage,
 
 ==== ''Example 1'' ====
 
-Epibranchial 1: (0) present and ossified E: Epibranchial 1 bone, Q: present
+Epibranchial 1: (0) present and ossified 
 
-Epibranchial 1: (1) present and cartilaginous E: Epibranchial 1 cartilage, Q: present
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: Epibranchial 1 bone, Q: present</span>
 
-Epibranchial 1: (2) absent E: Epibranchial 1 cartilage, Q: absent E: Epibranchial 1 bone, Q: absent
+Epibranchial 1: (1) present and cartilaginous 
+
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: Epibranchial 1 cartilage, Q: present</span>
+
+Epibranchial 1: (2) absent 
+
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: Epibranchial 1 cartilage, Q: absent <br/></span>
+
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: Epibranchial 1 bone, Q: absent</span>
 
 The curator should use both the cartilage and bone terms to annotate state 2 because the author clearly differentiates between the two.
 
 ==== ''Example 2'' ====
 
-Epibranchial 1 (0) present, (0) absent. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term: E: epibranchial 1 element, Q: present or Q: absent
+Epibranchial 1 (0) present, (0) absent. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term: 
+
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: epibranchial 1 element, Q: present or Q: absent</span>
 
 ==== ''Example 3'' ====
 
-Epibranchial 1 bone: (0) present; (1) absent E: epibranchial 1 bone; Q: present or Q: absent
+Epibranchial 1 bone: (0) present; (1) absent 
+
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: epibranchial 1 bone; Q: present or Q: absent</span>
 
 ==== ''Example 4'' ====
 
-Epibranchial 1: (0) triangular. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term: E: epibranchial 1 element, Q: shape
+Epibranchial 1: (0) triangular. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term: 
+
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: epibranchial 1 element, Q: shape</span>
 
 ==== ''Example 5'' ====
 
-Epibranchial number: (0) 3; (1) 4. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term: E: epibranchial element; Q: count; Comment: 3 or Comment: 4
+Epibranchial number: (0) 3; (1) 4. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term: 
 
-==== ''Example 6'' ====
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: epibranchial element; Q: count; Comment: 3 or Comment: 4</span>
 
-Epibranchial bone number: (0) 3; (1) 4 E: epibranchial bone; Q: count; Comment: 3 or Comment: 4
+==== ''Example 6''<br/> ====
+
+Epibranchial bone number: (0) 3; (1) 4 
+
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: epibranchial bone; Q: count; Comment: 3 or Comment: 4</span>
 
 == Creating or refining terms by post-composition ==
 
@@ -212,9 +230,7 @@ To post-compose a term (for example, "maxillary process") using Phenex, first ty
 
 Now click on “Edit Post-composed Term.” The Editor box should now appear (see below), with “process” in the Genus field. The Genus is the feature of specific interest (varying feature in systematics). Click the “+” button to add a row in the table, type “part_of” in the relationship field, and type “maxilla” in the differentia field. Click OK. [[File:Post-comp-box.jpg|center|Post-comp-box.jpg]]
 
-The post-composed term appears in the Entity field as:
-
-process^part_of(maxilla)
+The post-composed term appears in the Entity field as:<span style="font-family:courier new,courier,monospace">&nbsp; process^part_of(maxilla)</span>
 
 === Refining post-compositions using spatial terms ===
 
@@ -224,41 +240,35 @@ Within the Entity field, type “process” and right-click the field to open th
 
 [[File:Nested-boxes.png|center|Nested-boxes.png]]
 
-Within Phenex, the post-composed term for process on the anterior margin of the maxilla appears as: process^part_of(anterior region^part_of(maxilla))
+Within Phenex, the post-composed term for process on the anterior margin of the maxilla appears as: <span style="font-family:courier new,courier,monospace">process^part_of(anterior region^part_of(maxilla))</span>
 
 As for semantics, identifiability, and rules for post-composing, the same applies as above for entity terms applies to spatial terms. In creating the nested term "anterior region of maxilla", start with the more general term (for example, the "anterior region") as the genus, then refine it using a relationship and a differentia term (for example, anterior region that is part_of the "supraorbital bone").
 
 === Multiple differentia terms and nesting in post-composition ===
 
-Post-compositions can contain multiple differentia terms that are either nested: process^part_of(anterior region^part_of(maxilla))
+Post-compositions can contain multiple differentia terms that are either nested:<span style="font-family:courier new,courier,monospace">process^part_of(anterior region^part_of(maxilla))</span>
 
-or not: joint^overlaps(metapterygoid)^overlaps(hyomandibula)
+or not: <span style="font-family:courier new,courier,monospace">joint^connects(metapterygoid)^connects(hyomandibula)</span>
 
-For nested post-compositions, the order of nested terms is important (e.g., maxilla^part_of(anterior region^part-of(process)) is incorrect), as is the nesting itself (e.g., process^part_of(anterior region)^part_of(maxilla) is incorrect).
+For nested post-compositions, the order of nested terms is important (e.g., maxilla^part_of(anterior region^part-of(process)) is incorrect), as is the nesting itself (e.g., <span style="font-family:courier new,courier,monospace">process^part_of(anterior region)^part_of(maxilla) </span>is incorrect).
 
 Some post-compositions with multiple differentia do not require nesting (see [https://www.phenoscape.org/wiki/Guide_to_Character_Annotation#Creating_.22joint.22_terms_on-the-fly discussion of joint post-compositions]).
 
 === Creating "joint" terms on-the-fly ===
 
-Joints are defined in TAO according to the skeletal elements that participate in the joint. Because only regions of these bones are ''part_of'' the joint rather than the entire bone, we use the ''overlaps'' relation to define joints. For example, the ''frontal-pterotic joint'' has the following relationships:
-
-relationships: ''is_a'' joint
-
-frontal ''overlaps'' frontal-pterotic joint pterotic ''overlaps'' frontal-pterotic joint
-
-If it is unlikely that a joint term will be used repeatedly for annotation, then a term for the joint can be post-composed using Phenex. To post-compose metapterygoid-hyomandibular joint, for example, open the post-composition editor box by right-clicking on the Entity field, and enter the following terms in the window:
+Joints are defined in Uberon according to the skeletal elements that participate in the joint. The ''connects'' relation is used to relate skeletal elements to skeletal joints.&nbsp; We post-compose joint terms that are not likely to be used repeatedly for annotation. To post-compose a joint, for example the "metapterygoid-hyomandibular joint", open the post-composition editor box by right-clicking on the Entity field, and enter the following terms in the window:
 
 [[File:Joint.png|center|Joint.png]]
 
 The post-composed term for metapterygoid-hyomandibular joint will appear as:
 
-joint^overlaps(metapterygoid)^overlaps(hyomandibula)
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; skeletal </span><span style="font-family:courier new,courier,monospace">joint^connects(metapterygoid)^connects (hyomandibula)</span>
 
-=== Relations used for post-compositions ===
+=== Relations used for post-compositions<br/> ===
 
 {| class="wikitable" style="width: 1046px"
 |-
-! Relation
+! Relation<br/>
 ! Category
 ! Design &nbsp;Pattern&nbsp;&nbsp;&nbsp;<br/>
 ! Examples
