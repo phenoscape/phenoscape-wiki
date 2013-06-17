@@ -339,7 +339,11 @@ NOTE: Teeth and scales are not always related to structures by attaches_to; they
 | serves_ as _attachment _site_ for
 | muscle attachment
 | E serves_as_attachment_site_for muscle X<br/>
-| <br/>
+| 
+anatomical projection^'''serves_as_attachment_site_for'''(triceps brachii)^'''part_of'''(coracoid bone)
+
+Note: this post-composition is not nested
+
 |-
 | has_part
 | mereological
