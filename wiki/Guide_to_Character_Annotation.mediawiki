@@ -76,9 +76,9 @@ Below is a simplified graph showing a subset of quality terms from the [http://o
 
 Annotations are made using the most specific term or post-composition possible for Entity and Quality. This may not be possible for some characters involving very complex phenotypes, particularly those with descriptions of shape variation. In these cases, annotations are made to 'attribute' level PATO terms (e.g., PATO: <span style="font-family:courier new,courier,monospace">shape</span>).
 
-== Character Annotation Examples ==
+== Character Annotation Examples<br/> ==
 
-The following are examples of character types commonly encountered in the systematic literature and how we annotate them using the EQ model in Phenex. Abbreviations: E, entity; Q, quality, RE, related entity, C, count.
+The following are examples of character types commonly encountered in the systematic literature and how we annotate them using the EQ model in Phenex. Abbreviations:<span style="font-family:courier new,courier,monospace">E</span>, entity; <span style="font-family:courier new,courier,monospace">Q</span>, quality, <span style="font-family:courier new,courier,monospace">RE</span>, related entity, <span style="font-family:courier new,courier,monospace">C</span>, count.
 
 === 1. Qualities of single physical entities ===
 
@@ -124,23 +124,23 @@ Characters involving counts of entities are annotated using the “count” qual
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: ≥48</span>
 
-*The "Count" field in Phenex currently does not accept ranges or symbols; therefore, please record these in the Comments field.
+*NOTE: the "Count" field in Phenex currently does not accept ranges or symbols; therefore, please record these in the Comment field, as seen above.
 
 === 6. Size<br/> ===
 
-In the systematics literature, the size of a structure is usually described relative to another structure, or size of a structure is compared across taxa.
+There are various ways an author may describe or compare the size of a structure across taxa. These include:
 
-*The '''size of one structure relative to another structure ''' (e.g., state 0: "frontal length greater than parietal length", with taxonomic distribution recorded in the character by taxon matrix) is represented as:
+*The '''size of one structure relative to another structure. '''For example, "frontal length greater than parietal length" is represented as:
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: frontal, Q: increased length, E2: parietal</span>
 
-*Comparison of the '''size of a structure across taxa''' (e.g., “state 0: frontal large”) is represented as:
+*Comparison of the '''size of a single structure across taxa'''. For example, "frontal large” is represented as:
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: frontal, Q: increased size</span>
 
-*'''Size comparisons within a single structure''' are represented by using a size quality in the entity field. For example, an author may describe the frontal bone as having a "greater length relative to width". This is represented as:
+*'''Comparison of multiple dimensions of size for a single structure'''. For example, an author may describe the frontal bone as having a "greater length relative to width". This requires post-composing the quality with the two PATO terms for length and width:
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: frontal bone, Q: increased length, E2: width^inheres_in(frontal bone)</span>
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: frontal bone, Q: length^''increased_in_magnitude_relative_to''(width^''inheres_in''(frontal bone)</span>)
 
 *'''Locally relative phenotypes''' describe a range of sizes in more than two states.
 
@@ -166,17 +166,17 @@ The following are a series of examples demonstrating the use of bone, cartilage,
 
 ==== ''Example 1'' ====
 
-Epibranchial 1: (0) present and ossified 
+Epibranchial 1: (0) present and ossified
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: Epibranchial 1 bone, Q: present</span>
 
-Epibranchial 1: (1) present and cartilaginous 
+Epibranchial 1: (1) present and cartilaginous
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: Epibranchial 1 cartilage, Q: present</span>
 
-Epibranchial 1: (2) absent 
+Epibranchial 1: (2) absent
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: Epibranchial 1 cartilage, Q: absent <br/></span>
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: Epibranchial 1 cartilage, Q: absent</span>
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: Epibranchial 1 bone, Q: absent</span>
 
@@ -184,31 +184,31 @@ The curator should use both the cartilage and bone terms to annotate state 2 bec
 
 ==== ''Example 2'' ====
 
-Epibranchial 1 (0) present, (0) absent. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term: 
+Epibranchial 1 (0) present, (0) absent. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term:
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: epibranchial 1 element, Q: present or Q: absent</span>
 
 ==== ''Example 3'' ====
 
-Epibranchial 1 bone: (0) present; (1) absent 
+Epibranchial 1 bone: (0) present; (1) absent
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: epibranchial 1 bone; Q: present or Q: absent</span>
 
 ==== ''Example 4'' ====
 
-Epibranchial 1: (0) triangular. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term: 
+Epibranchial 1: (0) triangular. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term:
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: epibranchial 1 element, Q: shape</span>
 
 ==== ''Example 5'' ====
 
-Epibranchial number: (0) 3; (1) 4. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term: 
+Epibranchial number: (0) 3; (1) 4. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term:
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: epibranchial element; Q: count; Comment: 3 or Comment: 4</span>
 
 ==== ''Example 6''<br/> ====
 
-Epibranchial bone number: (0) 3; (1) 4 
+Epibranchial bone number: (0) 3; (1) 4
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: epibranchial bone; Q: count; Comment: 3 or Comment: 4</span>
 
