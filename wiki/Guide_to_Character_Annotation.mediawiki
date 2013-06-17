@@ -84,33 +84,29 @@ The following are examples of character types commonly encountered in the system
 
 Qualities of single physical entities are those that exist in a single entity. These qualities include 'shape,' 'size', and 'structure.' For example, “sigmoid-shaped supraorbital bone” is annotated as:
 
-<span style="font-family:courier new,courier,monospace">&nbsp;E: supraorbital, Q: sigmoid</span>
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: supraorbital, Q: sigmoid</span>
 
-=== 2. Qualities of related physical entities ===
+=== 2. Qualities of related physical entities<br/> ===
 
 Relational qualities are those that exist between multiple entities. For example, “parietal fused with supraoccipital” is represented as:
 
-<span style="font-family:courier new,courier,monospace">E: parietal, Q: fused with, RE: supraoccipital</span>
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: parietal, Q: fused with, RE: supraoccipital</span>
 
-=== 3. Multiple phenotypes for a single character state ===
+=== 3. Multiple phenotypes for a single character state<br/> ===
 
-Some characters describe multiple aspects of phenotypic variation in an entity (or entities). These characters are represented with multiple EQ statements. For example, a character state may describe "premaxillary teeth round and multicuspidate." This is represented with the following two phenotypes:
+Some characters describe multiple aspects of phenotypic variation in an entity (or entities). These characters are represented with multiple EQ statements. For example, a character state may describe "premaxillary teeth round and multicuspidate." This is represented with the following two phenotypes:<br/><br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: premaxillary tooth, Q: round</span><br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: premaxillary tooth, Q: multicuspidate</span>
 
-<span style="font-family:courier new,courier,monospace">E: premaxillary tooth, Q: round<br/></span>
+=== 4. Presence/absence characters<br/> ===
 
-<span style="font-family:courier new,courier,monospace">E: premaxillary tooth, Q: multicuspidate</span>
+Variation in the presence or absence of an entity is annotated using the terms ''present'' and ''absent'', e.g.&nbsp;:<br/><span style="font-family:courier new,courier,monospace">&nbsp;</span>
 
-=== 4. Presence/absence characters ===
-
-Variation in the presence or absence of an entity is annotated using the terms ''present'' and ''absent'', e.g.&nbsp;:
-
-<span style="font-family:courier new,courier,monospace">E: pectoral fin, Q: present E: pectoral fin, Q: absent</span>
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: pectoral fin, Q: present E: pectoral fin, Q: absent</span>
 
 The use of ''present'' and ''absent'' in curation is a curatorial shortcut to the more logically sound syntax discussed on the [http://obofoundry.org/wiki/index.php/PATO:Absent PATO wiki]. These annotations will be translated into the logically sound form prior to their addition in the Phenoscape KB.
 
 If a character describes the presence or absence of a structure located on another entity (for example, teeth present on a particular bone), first check to see whether the structure exists as a term in the ontology before creating a post-composition. For example, a character might describe "teeth absent on basihyal bone." Rather than create a post-composition for entity ("tooth^part_of(basihyal bone)"), the entity in this case is a preexisting term chosen from TAO:
 
-<span style="font-family:courier new,courier,monospace">E: basihyal tooth, Q: absent</span>
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: basihyal tooth, Q: absent</span>
 
 ==== Inferred presence from annotation to other attributes ====
 
@@ -128,7 +124,7 @@ Characters involving counts of entities are annotated using the “count” qual
 
 <span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: ≥48</span>
 
-* The "Count" field in Phenex currently does not accept ranges or symbols; therefore, please record these in the Comments field.
+*The "Count" field in Phenex currently does not accept ranges or symbols; therefore, please record these in the Comments field.
 
 === 6. Size ===
 
@@ -136,21 +132,21 @@ In the systematics literature, the size of a structure is usually described rela
 
 *The '''size of one structure relative to another structure ''' (e.g., state 0: "frontal length greater than parietal length", with taxonomic distribution recorded in the character by taxon matrix) is represented as:
 
-E: frontal, Q: increased length, E2: parietal
+<span style="font-family:courier new,courier,monospace">E: frontal, Q: increased length, E2: parietal</span>
 
 *Comparison of the '''size of a structure across taxa''' (e.g., “state 0: frontal large”) is represented as:
 
-E: frontal, Q: increased size
+<span style="font-family:courier new,courier,monospace">E: frontal, Q: increased size</span>
 
 *'''Size comparisons within a single structure''' are represented by using a size quality in the entity field. For example, an author may describe the frontal bone as having a "greater length relative to width". This is represented as:
 
-E: frontal bone, Q: increased length, E2: width^inheres_in(frontal bone)
+<span style="font-family:courier new,courier,monospace">E: frontal bone, Q: increased length, E2: width^inheres_in(frontal bone)</span>
 
 *'''Locally relative phenotypes''' describe a range of sizes in more than two states.
 
 Example: "opercle size: small, medium, or large". Choose the quality being compared, and place a number in the Count column indicating the proper sort order (1 < 2 < 3). For "small":
 
-E: opercle, Q: size, Count: 1
+<span style="font-family:courier new,courier,monospace">E: opercle, Q: size, Count: 1</span>
 
 Note: Representation of size in Phenex uses [[EQ shortcuts (temporary)|curatorial shortcuts]] because PATO size terms are precomposed relative to "normal" (e.g., ''increased size'' has an ''increased_in'' relationship to "normal"). These annotations will be converted in the KB data loader to the correct form using the appropriate relations (''increased_in_magnitude_relative_to'', ''decreased_in_magnitude_relative_to'', ''similar_in_magnitude_relative_to'').
 
@@ -519,6 +515,3 @@ The TAS evidence code covers author statements that are attributed to a cited so
 === Nontraceable Author Statement (NAS) ===
 
 The NAS evidence code should be used in all cases where the author makes a statement that a curator wants to capture but for which there are neither results presented nor a specific reference cited in the source used to make the annotation. The source of the information may be peer reviewed papers, textbooks, database records or vouchered specimens.
-
-[[Category:Curation]]
-[[Category:EQ Annotation]]
