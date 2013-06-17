@@ -2,207 +2,241 @@
 title: Guide to Character Annotation
 ---
 
+== PATO terms used to annotate systematic characters ==
 
-
-==PATO terms used to annotate systematic characters ==
 Below is a simplified graph showing a subset of quality terms from the [http://obofoundry.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)] used to curate systematic characters. Terms in orange represent attribute-level qualities.
 
-[[Image:pato-diagram-v2.jpeg|1000px|Image:1000 pixels]]
-{| border="1" cellspacing="0" cellpadding="3"
+[[File:Pato-diagram-v2.jpeg|1000px|Image:1000 pixels]]
+
+{| cellpadding="3" cellspacing="0" border="1"
+|-
 ! PATO attribute-level term
 ! Synonyms
 ! Examples of child terms
-
 |-
-|| shape || || triangular, lobed, concave, protruding into
+| shape
+| 
+| triangular, lobed, concave, protruding into
 |-
-|| position || placement, location || horizontal, anterior to
+| position
+| placement, location
+| horizontal, anterior to
 |-
-|| size || || thin, large, decreased height
+| size
+| 
+| thin, large, decreased height
 |-
-|| structure ||  || porous, fused with
+| structure
+| 
+| porous, fused with
 |-
-|| composition || || ligamentous, cartilaginous
+| composition
+| 
+| ligamentous, cartilaginous
 |-
-|| texture || || smooth, wrinkled
+| texture
+| 
+| smooth, wrinkled
 |-
-|| optical quality || || color, brightness ||
+| optical quality
+| 
+| color, brightness
+| 
 |-
-|| mass || || increased mass ||
+| mass
+| 
+| increased mass
+| 
 |-
-|| quality of a solid ||   || flexible, hard
+| quality of a solid
+| 
+| flexible, hard
 |-
-|| mobility || || mobile, immobile  ||
+| mobility
+| 
+| mobile, immobile
+| 
 |-
-|| closure || || open, closed  ||
+| closure
+| 
+| open, closed
+| 
 |-
-|| behavioral quality ||   ||
+| behavioral quality
+| 
+| 
 |-
-|| count || || present, absent  ||
+| count
+| 
+| present, absent
+| 
 |}
 
-==Annotation Specificity==
+== Annotation Specificity ==
 
-Annotations are made using the most specific term or post-composition possible for entity and quality.  This may not be possible for some characters involving very complex phenotypes, which typically involving descriptions of shape variation.  In these cases, annotations are made to 'attribute' level PATO terms (e.g., Q: shape).
+Annotations are made using the most specific term or post-composition possible for entity and quality. This may not be possible for some characters involving very complex phenotypes, which typically involving descriptions of shape variation. In these cases, annotations are made to 'attribute' level PATO terms (e.g., Q: shape).
 
-==Character Annotation Examples==
+== Character Annotation Examples ==
 
-The following are examples of character types commonly encountered in the systematic literature and how we annotate them using the EQ model in Phenex.  Abbreviations: E, entity; Q, quality, RE, related entity, C, count.
+The following are examples of character types commonly encountered in the systematic literature and how we annotate them using the EQ model in Phenex. Abbreviations: E, entity; Q, quality, RE, related entity, C, count.
 
-===1. Qualities of single physical entities===
-Qualities of single physical entities are those that exist in a single entity. These qualities include 'shape,' 'size', and 'structure.'  For example, “sigmoid-shaped supraorbital bone” is annotated as:
+=== 1. Qualities of single physical entities ===
 
-E: supraorbital, Q: sigmoid
+Qualities of single physical entities are those that exist in a single entity. These qualities include 'shape,' 'size', and 'structure.' For example, “sigmoid-shaped supraorbital bone” is annotated as:
 
-===2. Qualities of related physical entities ===
+<span style="font-family:courier new,courier,monospace">&nbsp;E: supraorbital, Q: sigmoid</span>
+
+=== 2. Qualities of related physical entities ===
+
 Relational qualities are those that exist between multiple entities. For example, “parietal fused with supraoccipital” is represented as:
 
-E: parietal, Q: fused with, RE: supraoccipital
+<span style="font-family:courier new,courier,monospace">E: parietal, Q: fused with, RE: supraoccipital</span>
 
-===3. Multiple phenotypes for a single character state ===
-Some characters describe multiple aspects of phenotypic variation in an entity (or entities).  These characters are represented with multiple EQ statements. For example, a character state may describe "premaxillary teeth round and multicuspidate." This is represented with the following two phenotypes:
+=== 3. Multiple phenotypes for a single character state ===
 
-E: premaxillary tooth, Q: round
+Some characters describe multiple aspects of phenotypic variation in an entity (or entities). These characters are represented with multiple EQ statements. For example, a character state may describe "premaxillary teeth round and multicuspidate." This is represented with the following two phenotypes:
 
-E: premaxillary tooth, Q: multicuspidate
+<span style="font-family:courier new,courier,monospace">E: premaxillary tooth, Q: round<br/></span>
 
-===4. Presence/absence characters ===
+<span style="font-family:courier new,courier,monospace">E: premaxillary tooth, Q: multicuspidate</span>
 
-Variation in the presence or absence of an entity is annotated using the terms ''present'' and ''absent'', e.g. :
+=== 4. Presence/absence characters ===
 
-E: pectoral fin, Q: present
-E: pectoral fin, Q: absent
+Variation in the presence or absence of an entity is annotated using the terms ''present'' and ''absent'', e.g.&nbsp;:
+
+<span style="font-family:courier new,courier,monospace">E: pectoral fin, Q: present E: pectoral fin, Q: absent</span>
 
 The use of ''present'' and ''absent'' in curation is a curatorial shortcut to the more logically sound syntax discussed on the [http://obofoundry.org/wiki/index.php/PATO:Absent PATO wiki]. These annotations will be translated into the logically sound form prior to their addition in the Phenoscape KB.
 
-If a character describes the presence or absence of a structure located on another entity (for example, teeth present on a particular bone), first check to see whether the structure exists as a term in the ontology before creating a post-composition.  For example, a character might describe "teeth absent on basihyal bone." Rather than create a post-composition for entity ("tooth^part_of(basihyal bone)"), the entity in this case is a preexisting term chosen from TAO:
+If a character describes the presence or absence of a structure located on another entity (for example, teeth present on a particular bone), first check to see whether the structure exists as a term in the ontology before creating a post-composition. For example, a character might describe "teeth absent on basihyal bone." Rather than create a post-composition for entity ("tooth^part_of(basihyal bone)"), the entity in this case is a preexisting term chosen from TAO:
 
-E: basihyal tooth, Q: absent
+<span style="font-family:courier new,courier,monospace">E: basihyal tooth, Q: absent</span>
 
-====Inferred presence from annotation to other attributes====
+==== Inferred presence from annotation to other attributes ====
+
 If a character describes both the presence of an entity and some other attribute regarding its features (e.g., 'frontal bone' with state 'present and round'), only the attribute ('round') is annotated because the presence of the entity can be inferred by annotations to any other attribute.
 
-===5. Counts===
-Characters involving counts of entities are annotated using the “count” quality.  Values for counts are entered in the “Comment” field(*).  Note that ranges and lower or upper bounds are recorded as follows:
+=== 5. Counts ===
 
-E: vertebra, Q: count, Count: 33
-E: vertebra, Q: count, Comment: 34-38
-E: vertebra, Q: count, Comment: >38
-E: vertebra, Q: count, Comment: ≥48
+Characters involving counts of entities are annotated using the “count” quality. Values for counts are entered in the “Comment” field(*). Note that ranges and lower or upper bounds are recorded as follows:
 
-(*)The "Count" field in Phenex currently does not accept ranges or symbols; therefore, please record these in the Comments field.
+<span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Count: 33</span>
 
-===6. Size ===
+<span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: 34-38</span>
+
+<span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: >38</span>
+
+<span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: ≥48</span>
+
+* The "Count" field in Phenex currently does not accept ranges or symbols; therefore, please record these in the Comments field.
+
+=== 6. Size ===
 
 In the systematics literature, the size of a structure is usually described relative to another structure, or size of a structure is compared across taxa.
 
-* The '''size of one structure relative to another structure ''' (e.g., state 0: "frontal length greater than parietal length", with taxonomic distribution recorded in the character by taxon matrix) is represented as:
+*The '''size of one structure relative to another structure ''' (e.g., state 0: "frontal length greater than parietal length", with taxonomic distribution recorded in the character by taxon matrix) is represented as:
 
 E: frontal, Q: increased length, E2: parietal
 
-* Comparison of the '''size of a structure across taxa''' (e.g., “state 0: frontal large”) is represented as:
+*Comparison of the '''size of a structure across taxa''' (e.g., “state 0: frontal large”) is represented as:
 
 E: frontal, Q: increased size
 
-* '''Size comparisons within a single structure''' are represented by using a size quality in the entity field. For example, an author may describe the frontal bone as having a "greater length relative to width". This is represented as:
+*'''Size comparisons within a single structure''' are represented by using a size quality in the entity field. For example, an author may describe the frontal bone as having a "greater length relative to width". This is represented as:
 
 E: frontal bone, Q: increased length, E2: width^inheres_in(frontal bone)
 
-* '''Locally relative phenotypes''' describe a range of sizes in more than two states.
+*'''Locally relative phenotypes''' describe a range of sizes in more than two states.
+
 Example: "opercle size: small, medium, or large". Choose the quality being compared, and place a number in the Count column indicating the proper sort order (1 < 2 < 3). For "small":
 
 E: opercle, Q: size, Count: 1
 
-Note: Representation of size in Phenex uses [[EQ_shortcuts_(temporary)|curatorial shortcuts]] because PATO size terms are precomposed relative to "normal" (e.g., ''increased size'' has an ''increased_in'' relationship to "normal"). These annotations will be converted in the KB data loader to the correct form using the appropriate relations (''increased_in_magnitude_relative_to'', ''decreased_in_magnitude_relative_to'', ''similar_in_magnitude_relative_to'').
+Note: Representation of size in Phenex uses [[EQ shortcuts (temporary)|curatorial shortcuts]] because PATO size terms are precomposed relative to "normal" (e.g., ''increased size'' has an ''increased_in'' relationship to "normal"). These annotations will be converted in the KB data loader to the correct form using the appropriate relations (''increased_in_magnitude_relative_to'', ''decreased_in_magnitude_relative_to'', ''similar_in_magnitude_relative_to'').
 
-===7. Contralateral halves of bilaterally paired structures ===
+=== 7. Contralateral halves of bilaterally paired structures ===
 
-Terms for the contralateral halves of bilaterally paired structures are created using the ''in_right_side_of'' and ''in_left_side_of'' relations in a post-composition, where the perspective is from the standpoint of the organism. For example:
-E: frontal^''in_right_side_of''(body), Q: fused with, RE: frontal^''in_left_side_of''(body).
+Terms for the contralateral halves of bilaterally paired structures are created using the ''in_right_side_of'' and ''in_left_side_of'' relations in a post-composition, where the perspective is from the standpoint of the organism. For example: E: frontal^''in_right_side_of''(body), Q: fused with, RE: frontal^''in_left_side_of''(body).
 
-===8. [[EQ_shortcuts_(temporary)|Complementary phenotypes ("negation")]] ===
-Example: "opercle, not round". Create a postcomposition for the quality, choosing a meaningful genus term and using the "not" relation.
-E: opercle, Q: shape^not(round)
+=== 8. [[EQ shortcuts (temporary)|Complementary phenotypes ("negation")]] ===
 
-===9. Annotation involving bone and cartilage terms ===
-Authors sometimes refer to endochondral structures without specifying whether the structure is “bone” or “cartilage.” For example, the convention for a term like “epibranchial 2” or “basibranchial” is that it is composed of bone and when composed of cartilage an author will say “epibranchial 2 cartilage” or “basibranchial cartilage”.  However,  this is not universally followed and a curator must read the character description and examine associated text and figures to ascertain this.
-If after reviewing the publication it is still not clear, then the curator can use the “element” term for the structure.  In general, the “element” terms should be used sparingly, and only when an author does not indicate whether a structure (e.g. “epibranchial”) is composed of cartilage or bone.
+Example: "opercle, not round". Create a postcomposition for the quality, choosing a meaningful genus term and using the "not" relation. E: opercle, Q: shape^not(round)
+
+=== 9. Annotation involving bone and cartilage terms ===
+
+Authors sometimes refer to endochondral structures without specifying whether the structure is “bone” or “cartilage.” For example, the convention for a term like “epibranchial 2” or “basibranchial” is that it is composed of bone and when composed of cartilage an author will say “epibranchial 2 cartilage” or “basibranchial cartilage”. However, this is not universally followed and a curator must read the character description and examine associated text and figures to ascertain this. If after reviewing the publication it is still not clear, then the curator can use the “element” term for the structure. In general, the “element” terms should be used sparingly, and only when an author does not indicate whether a structure (e.g. “epibranchial”) is composed of cartilage or bone.
 
 The following are a series of examples demonstrating the use of bone, cartilage, and element terms.
 
-==== ''Example 1''====
-Epibranchial 1: (0) present and ossified
-E: Epibranchial 1 bone, Q: present
+==== ''Example 1'' ====
 
-Epibranchial 1: (1) present and cartilaginous
-E: Epibranchial 1 cartilage, Q: present
+Epibranchial 1: (0) present and ossified E: Epibranchial 1 bone, Q: present
 
-Epibranchial 1: (2) absent
-E: Epibranchial 1 cartilage, Q: absent
-E: Epibranchial 1 bone, Q: absent
+Epibranchial 1: (1) present and cartilaginous E: Epibranchial 1 cartilage, Q: present
+
+Epibranchial 1: (2) absent E: Epibranchial 1 cartilage, Q: absent E: Epibranchial 1 bone, Q: absent
 
 The curator should use both the cartilage and bone terms to annotate state 2 because the author clearly differentiates between the two.
 
-==== ''Example 2''====
-Epibranchial 1 (0) present, (0) absent.  After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term:
-E: epibranchial 1 element, Q: present or Q: absent
+==== ''Example 2'' ====
 
-==== ''Example 3''====
-Epibranchial 1 bone: (0) present; (1) absent
-E: epibranchial 1 bone; Q: present or Q: absent
+Epibranchial 1 (0) present, (0) absent. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term: E: epibranchial 1 element, Q: present or Q: absent
 
-==== ''Example 4''====
-Epibranchial 1: (0) triangular.  After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term:
-E: epibranchial 1 element, Q: shape
+==== ''Example 3'' ====
 
-==== ''Example 5''====
-Epibranchial number: (0) 3; (1) 4.  After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term:
-E: epibranchial element; Q: count; Comment: 3 or Comment: 4
+Epibranchial 1 bone: (0) present; (1) absent E: epibranchial 1 bone; Q: present or Q: absent
 
-==== ''Example 6''====
-Epibranchial bone number: (0) 3; (1) 4
-E: epibranchial bone; Q: count; Comment: 3 or Comment: 4
+==== ''Example 4'' ====
 
-== Creating or refining terms  by post-composition ==
+Epibranchial 1: (0) triangular. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term: E: epibranchial 1 element, Q: shape
 
-Often times the need arises to create a new term at the time of annotation ("post-composition"), rather than requesting that the new term is formally added to the ontology.  Such cases typically arise when annotating the presence of processes on bones. In some cases a more granular term is required than is already present in the ontology, whether it is the anatomical entity or the quality. For example,  to prevent ontology "bloat", regions, margins, and projections of a bone are not in the anatomy ontology, but the bone itself is, and the concepts of margin, relative location of the margin (anterior, posterior, ventral, dorsal, etc), or bony projection are too, or are in other ontologies (spatial aspect, for example). Similarly, the directionality of a phenotype (such as a rotation, or curvature) isn't necessarily present in PATO, but the component terms necessary to express it are. The act of combining terms on-the-fly into cross-product terms is called post-composition, as opposed to pre-composed terms that are already in the ontology.
+==== ''Example 5'' ====
+
+Epibranchial number: (0) 3; (1) 4. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term: E: epibranchial element; Q: count; Comment: 3 or Comment: 4
+
+==== ''Example 6'' ====
+
+Epibranchial bone number: (0) 3; (1) 4 E: epibranchial bone; Q: count; Comment: 3 or Comment: 4
+
+== Creating or refining terms by post-composition ==
+
+Often times the need arises to create a new term at the time of annotation ("post-composition"), rather than requesting that the new term is formally added to the ontology. Such cases typically arise when annotating the presence of processes on bones. In some cases a more granular term is required than is already present in the ontology, whether it is the anatomical entity or the quality. For example, to prevent ontology "bloat", regions, margins, and projections of a bone are not in the anatomy ontology, but the bone itself is, and the concepts of margin, relative location of the margin (anterior, posterior, ventral, dorsal, etc), or bony projection are too, or are in other ontologies (spatial aspect, for example). Similarly, the directionality of a phenotype (such as a rotation, or curvature) isn't necessarily present in PATO, but the component terms necessary to express it are. The act of combining terms on-the-fly into cross-product terms is called post-composition, as opposed to pre-composed terms that are already in the ontology.
 
 Post-composed terms can be created in Phenex following the genus-differentia principle of defining terms, where one term serves as the genus, which is then differentiated using a relationship and a differentia term. Unlike pre-composed terms, post-composed terms do not have an ID, and hence are "anonymous." Therefore if the same post-composition is used multiple times, it has the same semantics, but not the same identity. For example, if one wants to assign multiple annotations to the same process of the lateral ethmoid in the same specimen, using post-composed terms does not allow the identity of the anatomical structure between the annotations to be inferred.
 
-The order in which the terms are composed is important if the composition relationship is not symmetric (a relationship is symmetric iff A rel B <=> B rel A). Most relationships are not symmetric. As a general rule, choose the more general part as the genus, and then use the relationship and differentia to narrow down. For example, for "process of the lateral ethmoid" use "process" as the genus, and use the relationship and differentia to narrow down  which process of the many that are possible you mean, such as using part_of for the relationship and "lateral ethmoid" as the differentia (formally, the "process that is part_of the lateral ethmoid").
+The order in which the terms are composed is important if the composition relationship is not symmetric (a relationship is symmetric iff A rel B &lt;=&gt; B rel A). Most relationships are not symmetric. As a general rule, choose the more general part as the genus, and then use the relationship and differentia to narrow down. For example, for "process of the lateral ethmoid" use "process" as the genus, and use the relationship and differentia to narrow down which process of the many that are possible you mean, such as using part_of for the relationship and "lateral ethmoid" as the differentia (formally, the "process that is part_of the lateral ethmoid").
 
-Note that semantically, the post-composed term is equivalent to a pre-composed term, provided the pre-composed term has both the inheritance relationship and the cross-product relationship properly recorded. For example,  "process of lateral ethmoid" is-a "process", and  "process of lateral ethmoid" part-of "lateral ethmoid".
+Note that semantically, the post-composed term is equivalent to a pre-composed term, provided the pre-composed term has both the inheritance relationship and the cross-product relationship properly recorded. For example, "process of lateral ethmoid" is-a "process", and "process of lateral ethmoid" part-of "lateral ethmoid".
 
 === Creating post-composition in Phenex ===
 
-To post-compose a term (for example, "maxillary process") using Phenex, first type in the genus term 'process' in the Entity field within the "Phenotypes" panel.  Then open the Post-composition Editor box by right-clicking on the Entity cell (make sure that the entity cell is blue in color) :[[Image:Right-click.png|center]]
+To post-compose a term (for example, "maxillary process") using Phenex, first type in the genus term 'process' in the Entity field within the "Phenotypes" panel. Then open the Post-composition Editor box by right-clicking on the Entity cell (make sure that the entity cell is blue in color)&nbsp;:[[File:Right-click.png|center|Right-click.png]]
 
 
 
-Now click on “Edit Post-composed Term.”  The Editor box should now appear (see below), with “process” in the Genus field. The Genus is the feature of specific interest (varying feature in systematics). Click the “+” button to add a row in the table, type “part_of” in the relationship field, and type “maxilla” in the differentia field.  Click OK. [[Image:Post-comp-box.jpg|center]]
+Now click on “Edit Post-composed Term.” The Editor box should now appear (see below), with “process” in the Genus field. The Genus is the feature of specific interest (varying feature in systematics). Click the “+” button to add a row in the table, type “part_of” in the relationship field, and type “maxilla” in the differentia field. Click OK. [[File:Post-comp-box.jpg|center|Post-comp-box.jpg]]
 
 The post-composed term appears in the Entity field as:
 
 process^part_of(maxilla)
 
 === Refining post-compositions using spatial terms ===
-Often we will want to include spatial information in a post-composed term.  The Spatial Ontology is used to post-compose terms related to bone margins, surfaces, or regions.  For example, the entity “anterior process of the maxilla" is post-composed as follows:
 
-Within the Entity field, type “process” and right-click the field to open the Post-Composition Editor box. Within this box, Click the + button to add relationship = "part_of" and differentia = "anterior region".  Right click on the differentia field to open another Post-Composition Editor box to add second post-composed term for "anterior margin of maxilla" (see below).  Click the OK button after you have filled out the genus and differentia for this nested composition.
+Often we will want to include spatial information in a post-composed term. The Spatial Ontology is used to post-compose terms related to bone margins, surfaces, or regions. For example, the entity “anterior process of the maxilla" is post-composed as follows:
 
-[[Image:Nested-boxes.png|center]]
+Within the Entity field, type “process” and right-click the field to open the Post-Composition Editor box. Within this box, Click the + button to add relationship = "part_of" and differentia = "anterior region". Right click on the differentia field to open another Post-Composition Editor box to add second post-composed term for "anterior margin of maxilla" (see below). Click the OK button after you have filled out the genus and differentia for this nested composition.
 
-Within Phenex, the post-composed term for process on the anterior margin of the maxilla appears as:
-process^part_of(anterior region^part_of(maxilla))
+[[File:Nested-boxes.png|center|Nested-boxes.png]]
 
-As for semantics, identifiability, and rules for post-composing, the same applies as above for entity terms applies to spatial terms. In creating the nested term "anterior  region of maxilla", start with the more general term (for example, the "anterior region") as the genus, then refine it using a relationship and a differentia term (for example, anterior region that is part_of the "supraorbital bone").
+Within Phenex, the post-composed term for process on the anterior margin of the maxilla appears as: process^part_of(anterior region^part_of(maxilla))
+
+As for semantics, identifiability, and rules for post-composing, the same applies as above for entity terms applies to spatial terms. In creating the nested term "anterior region of maxilla", start with the more general term (for example, the "anterior region") as the genus, then refine it using a relationship and a differentia term (for example, anterior region that is part_of the "supraorbital bone").
 
 === Multiple differentia terms and nesting in post-composition ===
-Post-compositions can contain multiple differentia terms that are either nested:
-process^part_of(anterior region^part_of(maxilla))
 
-or not:
-joint^overlaps(metapterygoid)^overlaps(hyomandibula)
+Post-compositions can contain multiple differentia terms that are either nested: process^part_of(anterior region^part_of(maxilla))
+
+or not: joint^overlaps(metapterygoid)^overlaps(hyomandibula)
 
 For nested post-compositions, the order of nested terms is important (e.g., maxilla^part_of(anterior region^part-of(process)) is incorrect), as is the nesting itself (e.g., process^part_of(anterior region)^part_of(maxilla) is incorrect).
 
@@ -210,17 +244,15 @@ Some post-compositions with multiple differentia do not require nesting (see [ht
 
 === Creating "joint" terms on-the-fly ===
 
-Joints are defined in TAO according to the skeletal elements that participate in the joint.  Because only regions of these bones are ''part_of'' the joint rather than the entire bone, we use the ''overlaps'' relation to define joints. For example, the ''frontal-pterotic joint'' has the following relationships:
+Joints are defined in TAO according to the skeletal elements that participate in the joint. Because only regions of these bones are ''part_of'' the joint rather than the entire bone, we use the ''overlaps'' relation to define joints. For example, the ''frontal-pterotic joint'' has the following relationships:
 
-relationships:
-''is_a'' joint
+relationships: ''is_a'' joint
 
-frontal ''overlaps'' frontal-pterotic joint
-pterotic ''overlaps'' frontal-pterotic joint
+frontal ''overlaps'' frontal-pterotic joint pterotic ''overlaps'' frontal-pterotic joint
 
 If it is unlikely that a joint term will be used repeatedly for annotation, then a term for the joint can be post-composed using Phenex. To post-compose metapterygoid-hyomandibular joint, for example, open the post-composition editor box by right-clicking on the Entity field, and enter the following terms in the window:
 
-[[Image:joint.png|center]]
+[[File:Joint.png|center|Joint.png]]
 
 The post-composed term for metapterygoid-hyomandibular joint will appear as:
 
@@ -349,7 +381,7 @@ NOTE: Teeth and scales are not always related to structures by attaches_to; they
 | dorsal_to
 | spatial
 | E dorsal_to E<br/>
-| 'anatomical region' and ('''dorsal_to''' some (glenoid fossa and ('''part_of''' some 'scapula') 
+| 'anatomical region' and ('''dorsal_to''' some (glenoid fossa and ('''part_of''' some 'scapula')
 |-
 | encloses
 | spatial
@@ -461,28 +493,31 @@ NOTE: Teeth and scales are not always related to structures by attaches_to; they
 | not
 | <br/>
 | Q not Q<br/>
-| Used to represent complementary phenotypes, for example: <br/>
+| Used to represent complementary phenotypes, for example:<br/>
 'shape' and ('''not''' some 'round')
 
 |}
 
 *[1] [http://phenoscape.org/wiki/Guide_to_Character_Annotation#6._Size see note about curatorial shortcuts related to 'size']
 
-==Evidence Codes==
+== Evidence Codes ==
 
 '''**Note: Does not apply to current curation'''
 
-We record phenotype descriptions as properties of species, and annotations are assigned one of three evidence codes based on the level of evidence given by an author for phenotype observations. These specimen evidence codes are in an Evidence Codes Ontology that was developed by the broader biological community (see http://obofoundry.org/cgi-bin/detail.cgi?id=evidence_code). We have added evidence codes to this ontology, and we use the following in order below from strong to weak evidence.
+We record phenotype descriptions as properties of species, and annotations are assigned one of three evidence codes based on the level of evidence given by an author for phenotype observations. These specimen evidence codes are in an Evidence Codes Ontology that was developed by the broader biological community (see [http://obofoundry.org/cgi-bin/detail.cgi?id=evidence_code http://obofoundry.org/cgi-bin/detail.cgi?id=evidence_code]). We have added evidence codes to this ontology, and we use the following in order below from strong to weak evidence.
 
-===Inferred from Voucher Specimen (IVS)===
+=== Inferred from Voucher Specimen (IVS) ===
+
 Used when an annotation is made on the basis of a phenotype description for a species or higher level group that is given by an author who explicitly references an observation of a voucher specimen(s). Voucher specimens are defined as those specimens with permanent museum catalog numbers. Thus it would be possible for a person to examine this particular specimen and observe the annotated phenotype.
 
 *Note: if there is a matrix in the paper, the IVS evidence code is assigned to all annotations linked to the character list.
 
-===Traceable Author Statement (TAS)===
+=== Traceable Author Statement (TAS) ===
+
 The TAS evidence code covers author statements that are attributed to a cited source. Typically this type of information comes from review articles. Material from the introductions and discussion sections of non-review papers may also be suitable if another reference is cited as the source of experimental work or analysis. When annotating with this code the curator should use caution and be aware that authors often cite papers dealing with experiments that were performed in organisms different from the one being discussed in the paper at hand. Thus a problem with the TAS code is that it may turn out from following up the references in the paper that no experiments were performed on the gene in the organism actually being characterized in the primary paper. For this reason we recommend (when time and resources allow) that curators track down the cited paper and annotate directly from the experimental paper using the appropriate experimental evidence code. When this is not possible and it is necessary to annotate from reviews, the TAS code is the appropriate code to use for statements that are associated with a cited reference. Once an annotation has been made to a given term using an experimental evidence code, we recommend removing any annotations made to the same term using the TAS evidence code.
 
-===Nontraceable Author Statement (NAS)===
+=== Nontraceable Author Statement (NAS) ===
+
 The NAS evidence code should be used in all cases where the author makes a statement that a curator wants to capture but for which there are neither results presented nor a specific reference cited in the source used to make the annotation. The source of the information may be peer reviewed papers, textbooks, database records or vouchered specimens.
 
 [[Category:Curation]]
