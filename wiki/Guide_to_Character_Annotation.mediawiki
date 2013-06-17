@@ -74,7 +74,7 @@ Below is a simplified graph showing a subset of quality terms from the [http://o
 
 == Annotation Specificity ==
 
-Annotations are made using the most specific term or post-composition possible for entity and quality. This may not be possible for some characters involving very complex phenotypes, which typically involving descriptions of shape variation. In these cases, annotations are made to 'attribute' level PATO terms (e.g., PATO: shape).
+Annotations are made using the most specific term or post-composition possible for Entity and Quality. This may not be possible for some characters involving very complex phenotypes, particularly those with descriptions of shape variation. In these cases, annotations are made to 'attribute' level PATO terms (e.g., PATO: <span style="font-family:courier new,courier,monospace">shape</span>).
 
 == Character Annotation Examples ==
 
