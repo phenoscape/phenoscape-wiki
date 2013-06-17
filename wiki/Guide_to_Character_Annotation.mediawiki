@@ -250,7 +250,7 @@ Post-compositions can contain multiple differentia terms that are either nested:
 
 or not: <span style="font-family:courier new,courier,monospace">joint^connects(metapterygoid)^connects(hyomandibula)</span>
 
-For nested post-compositions, the order of nested terms is important (e.g., maxilla^part_of(anterior region^part-of(process)) is incorrect), as is the nesting itself (e.g., <span style="font-family:courier new,courier,monospace">process^part_of(anterior region)^part_of(maxilla) </span>is incorrect).
+For nested post-compositions, the order of nested terms is important (e.g., <span style="font-family:courier new,courier,monospace">maxilla^part_of(anterior region^part-of(process))</span> is incorrect), as is the nesting itself (e.g., <span style="font-family:courier new,courier,monospace">process^part_of(anterior region)^part_of(maxilla) </span>is incorrect).
 
 Some post-compositions with multiple differentia do not require nesting (see [https://www.phenoscape.org/wiki/Guide_to_Character_Annotation#Creating_.22joint.22_terms_on-the-fly discussion of joint post-compositions]).
 
