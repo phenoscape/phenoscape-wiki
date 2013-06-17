@@ -355,15 +355,19 @@ NOTE: Teeth and scales are not always related to structures by attaches_to; they
 | E part_of E<br/>
 | 'anatomical projection' and ('''part_of''' some 'premaxilla')
 |-
-| bearer_of
+| bearer_of<br/>
 | quality
 | E bearer_of Q<br/>
-| tooth' and ('''bearer_of''' some 'tapered')
+| 
+tooth' and ('''bearer_of''' some 'tapered')
+
+Note: '''bearer_of''' is most likely used as a modifier of an Entity term, not used in Quality field
+
 |-
 | inheres_in
 | quality
 | Q inheres_in E<br/>
-| 'length' and ('''inheres_in''' some 'coracoid bone')
+| 'length' and ('''inheres_in''' some 'coracoid bone')<br/>
 |-
 | decreased_in_magnitude_relative_to
 | size
