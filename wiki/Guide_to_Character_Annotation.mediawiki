@@ -240,11 +240,15 @@ Now click on “Edit Post-composed Term.” The Editor box should now appear (se
 
 The post-composed term appears in the Entity field as:<span style="font-family:courier new,courier,monospace">&nbsp; process^part_of(maxilla)</span>
 
-=== Refining post-compositions using spatial terms ===
+=== Refining post-compositions using terms from the Spatial Ontology (BSPO)<br/> ===
 
-Often we will want to include spatial information in a post-composed term. The Spatial Ontology is used to post-compose terms related to bone margins, surfaces, or regions. For example, the entity “anterior process of the maxilla" is post-composed as follows:
+The Spatial Ontology (BSPO) is used to post-compose terms related to the margins, surfaces, or regions of skeletal elements. For example, the entity “anterior process of the maxilla" is post-composed as follows:
 
-Within the Entity field, type “process” and right-click the field to open the Post-Composition Editor box. Within this box, Click the + button to add relationship = "part_of" and differentia = "anterior region". Right click on the differentia field to open another Post-Composition Editor box to add second post-composed term for "anterior margin of maxilla" (see below). Click the OK button after you have filled out the genus and differentia for this nested composition.
+<span style="font-family:courier new,courier,monospace">process^part_of(anterior region^part_of(maxilla))</span>
+
+Use of terms for '''regions vs. sides in BSPO:''' Regions are defined as not having well-defined boundaries, unlike sides. For post-compositions, we usually annotate using region terms because the placement of processes on skeletal elements aren't described with very much detail. For example, if an author describes the dorsal process of some bone, then we post-compose "process part of dorsal region part of bone".&nbsp; This also applies to an author describing the shape of a portion of a skeletal element.
+
+To create post-compositions using BSPO in Phenex, right click the Entity field to bring up the post-composition editor box.&nbsp; Type “process” and right-click the field to open the Post-Composition Editor box. Within this box, Click the + button to add relationship = "part_of" and differentia = "anterior region". Right click on the differentia field to open another Post-Composition Editor box to add second post-composed term for "anterior margin of maxilla" (see below). Click the OK button after you have filled out the genus and differentia for this nested composition.
 
 [[File:Nested-boxes.png|center|Nested-boxes.png]]
 
