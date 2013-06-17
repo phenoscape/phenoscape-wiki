@@ -339,7 +339,7 @@ NOTE: Teeth and scales are not always related to structures by attaches_to; they
 | serves_ as _attachment _site_ for
 | muscle attachment
 | E serves_as_attachment_site_for muscle X<br/>
-| 
+|
 anatomical projection^'''serves_as_attachment_site_for'''(triceps brachii)^'''part_of'''(coracoid bone)
 
 Note: this post-composition is not nested
@@ -358,7 +358,7 @@ Note: this post-composition is not nested
 | bearer_of<br/>
 | quality
 | E bearer_of Q<br/>
-| 
+|
 tooth' and ('''bearer_of''' some 'tapered')
 
 Note: '''bearer_of''' is most likely used as a modifier of an Entity term, not used in Quality field
@@ -472,7 +472,7 @@ Note: '''bearer_of''' is most likely used as a modifier of an Entity term, not u
 | connects<br/>
 | spatial
 | E connects E<br/>
-| Two structures overlap if they have some part in common. For example, metapterygoid-hyomandibular joint is post-composed as:
+| This is used to post-compose terms for joints. For example, metapterygoid-hyomandibular joint is post-composed as:
 'joint' and ('''connects''' some 'metapterygoid') and ('''connects''' some 'hyomandibula')
 
 |-
