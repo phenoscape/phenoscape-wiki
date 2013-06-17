@@ -142,13 +142,11 @@ There are various ways an author may describe or compare the size of a structure
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: frontal bone, Q: length^''increased_in_magnitude_relative_to''(width^''inheres_in''(frontal bone)</span>)
 
-*'''Locally relative phenotypes''' describe a range of sizes in more than two states.
-
-Example: "opercle size: small, medium, or large". Choose the quality being compared, and place a number in the Count column indicating the proper sort order (1 < 2 < 3). For "small":
+*'''Locally relative phenotypes''' describe a range of sizes in more than two states.&nbsp; Example: "opercle size: small, medium, or large". Choose the quality being compared, and place a number in the Count column indicating the proper sort order (1 < 2 < 3). For "small":
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: opercle, Q: size, Count: 1</span>
 
-Note: Representation of size in Phenex uses [[EQ shortcuts (temporary)|curatorial shortcuts]] because PATO size terms are precomposed relative to "normal" (e.g., ''increased size'' has an ''increased_in'' relationship to "normal"). These annotations will be converted in the KB data loader to the correct form using the appropriate relations (''increased_in_magnitude_relative_to'', ''decreased_in_magnitude_relative_to'', ''similar_in_magnitude_relative_to'').
+Note: For the first two examples above, we use [[EQ shortcuts (temporary)|curatorial shortcuts]] in Phenex to represent size (as opposed to creating complex but semantically correct post-compositions). In PATO, the terms <span style="font-family:courier new,courier,monospace">increased size</span> and <span style="font-family:courier new,courier,monospace">decreased size </span>(along with their children) are precomposed relative to "normal" (e.g., ''increased size'' has an ''increased_in'' relationship to "normal").&nbsp; Because the "normal" phenotype does not apply to systematic characters, these annotations will be converted in the KB data loader to the correct form using the appropriate relations (<span style="font-family:courier new,courier,monospace">''increased_in_magnitude_relative_to'', ''decreased_in_magnitude_relative_to'', ''similar_in_magnitude_relative_to''</span>).
 
 === 7. Contralateral halves of bilaterally paired structures ===
 
