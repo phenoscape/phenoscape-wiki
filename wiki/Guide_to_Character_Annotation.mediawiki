@@ -301,15 +301,24 @@ Joints are defined in Uberon according to the skeletal elements that participate
 NOTE: Teeth and scales are not always related to structures by attaches_to; they can also be part_of an anatomical structure, e.g., 'tooth' '''part_of''' (some 'dentition') or 'scale' ('''part_of''' some 'scale row')
 
 |-
-| connected_to
+| connected_to<br/>
 | connectedness
 | E connected_to E<br/>
-| 'sternum' and ('''connected_to''' some 'rib')
+| 
+Used between entities of the same general type. For example, cities, bones, neurons
+
+'sternum' and ('''connected_to''' some 'rib')
+
+|-
+| connects<br/>
+| connectedness<br/>
+| E connects E<br/>
+| Used between the entity facilitating the connection and each entity on either side. For example, roads, joints, axons + synapses.This is used to post-compose terms for joints. For example, metapterygoid-hyomandibular joint is post-composed as:<br/>'joint' and ('''connects''' some 'metapterygoid') and ('''connects''' some 'hyomandibula')<br/>
 |-
 | distally_connected_to
 | connectedness
 | E distally_connected_to E<br/>
-| 'leg' and ('''distally_connected_to''' some 'pes')
+| 'leg' and ('''distally_connected_to''' some 'pes')<br/>
 |-
 | posteriorly connected to
 | connectedness
@@ -339,7 +348,7 @@ NOTE: Teeth and scales are not always related to structures by attaches_to; they
 | serves_ as _attachment _site_ for
 | muscle attachment
 | E serves_as_attachment_site_for muscle X<br/>
-|
+| 
 anatomical projection^'''serves_as_attachment_site_for'''(triceps brachii)^'''part_of'''(coracoid bone)
 
 Note: this post-composition is not nested
@@ -358,7 +367,7 @@ Note: this post-composition is not nested
 | bearer_of<br/>
 | quality
 | E bearer_of Q<br/>
-|
+| 
 tooth' and ('''bearer_of''' some 'tapered')
 
 Note: '''bearer_of''' is most likely used as a modifier of an Entity term, not used in Quality field
@@ -372,17 +381,17 @@ Note: '''bearer_of''' is most likely used as a modifier of an Entity term, not u
 | decreased_in_magnitude_relative_to<br/>
 | size
 | Q decreased_in_magnitude_relative_to Q<br/>
-| <span style="font-family:arial,helvetica,sans-serif">[1]E: frontal bone, Q: length^'''''decreased_in_magnitude_relative_to'''''(width^'''''inheres_in'''''(frontal bone))<br/></span>
+| <span style="font-family:arial,helvetica,sans-serif">[1]E: frontal bone, Q: length^'''''decreased_in_magnitude_relative_to'''''(width^'''''inheres_in'''''(frontal bone))</span><br/>
 |-
 | increased_in_magnitude_relative_to<br/>
 | size<br/>
 | Q increased_in_magnitude_relative_to Q<br/>
-| <span style="font-family:arial,helvetica,sans-serif">[1]E: frontal bone, Q: length^''increased_in_magnitude_relative_to''(width^'''''inheres_in'''''(frontal bone))<br/></span>
+| <span style="font-family:arial,helvetica,sans-serif">[1]E: frontal bone, Q: length^''increased_in_magnitude_relative_to''(width^'''''inheres_in'''''(frontal bone))</span><br/>
 |-
 | similar_in_magnitude_relative_to<br/>
 | size
 | Q similar_in_magnitude_relative_to Q<br/>
-| <span style="font-family:arial,helvetica,sans-serif">[1]E: frontal bone, Q: length^</span>'''''similar_in_magnitude_relative_to'''''<span style="font-family:arial,helvetica,sans-serif">(width^'''''inheres_in'''''(frontal bone))<br/></span>
+| <span style="font-family:arial,helvetica,sans-serif">[1]E: frontal bone, Q: length^</span>'''''similar_in_magnitude_relative_to'''''<span style="font-family:arial,helvetica,sans-serif">(width^'''''inheres_in'''''(frontal bone))</span><br/>
 |-
 | adjacent_to
 | spatial
@@ -469,12 +478,10 @@ Note: '''bearer_of''' is most likely used as a modifier of an Entity term, not u
 | E in_right_side_of E<br/>
 | &nbsp;'frontal bone' and ('''in_right_side_of''' some 'body')
 |-
-| connects<br/>
-| spatial
-| E connects E<br/>
-| This is used to post-compose terms for joints. For example, metapterygoid-hyomandibular joint is post-composed as:
-'joint' and ('''connects''' some 'metapterygoid') and ('''connects''' some 'hyomandibula')
-
+| <br/>
+| <br/>
+| <br/>
+| <br/>
 |-
 | posterior_to
 | spatial
