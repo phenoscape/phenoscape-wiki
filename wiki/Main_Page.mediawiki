@@ -32,7 +32,7 @@ The evolution of limbs from fins is arguably one of the most well studied transi
 
 === Outreach===
 Outreach activities include:
-* Summer internships in bio-ontologies for undergraduate/graduate students, in partnership with the DeepFin RCN.
+* Summer internships in bio-ontologies for undergraduate/graduate students, in partnership with the [http://http://www.deepfin.org/ DeepFin Research Coordination Network]
 * A "Junior Biocurator" program for advanced Chicago public high school students to be implemented by [http://www.projectexploration.org/ Project Exploration].
 * Undergraduate internship and community outreach to the Native American population through University of South Dakota programs.
 
