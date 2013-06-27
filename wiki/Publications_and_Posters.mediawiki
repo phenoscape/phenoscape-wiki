@@ -20,6 +20,8 @@ title: Publications and Posters
 
 ==Posters & Presentations==
 ===2013===
+Vision, T. Towards an integrated system for computationally linking vertebrate skeletal evolution and development genetics. Department of Ecology and Evolution, University of Lausanne, 10 June 2013.
+
 Cui, H., et al. 2013. CharaParser and associated software. Pro-ibiosphere workshop. Leiden, the Netherlands, Feb 2013.
 
 Vision, T. Phenotype challenges in Phenoscape vertebrate use cases, Third annual summit meeting, Phenotype RCN. 25 March 2013, NESCent, NC.
@@ -54,7 +56,7 @@ Dececchi, T.A., Balhoff, J., Dahdul, W., Ibrahim, N., Lapp., H., Midford, P., Se
 
 Ibrahim, N. "Dinosaurs of the Sahara". Department of Biology, University of South Dakota, Vermillion (December 3, 2012).
 
-[[Category:Curation]]
+
 
 ===2011===
 
@@ -158,4 +160,5 @@ Todd Vision and Hilmar Lapp (2008) [http://www.nesc.ac.uk/esi/events/710/program
 
 Paula Mabee, J.P. Balhoff, W. Dahdul, H. Lapp, J. Lundberg, P. Midford, T.J. Vision, M. Westerfield (2007) [[Media:Biocurator2007-phenoscape.ppt|Linking Evolution to Genomics Using Phenotype Ontologies]]. Poster at the [http://tesuque.stanford.edu/biocurator.org/Mtg2007/ 2nd Int. BioCurator Meeting], San Jose, California, Oct 2007.
 
+[[Category:Curation]]
 [[Category:Community]]
