@@ -26,6 +26,8 @@ Vision, T. Phenotype challenges in Phenoscape vertebrate use cases, Third annual
 
 Mungall, C.J., Jim Balhoff, Frederic Bastian, David Blackburn, Aurelie Comte, Wasila Dahdul , Alex Dececchi, Nizar Ibrahim, Suzanna E Lewis, Paula Mabee, Anne Niknejad, Melissa A Haendel. A merger of multi‐species anatomy ontologies. Biocuration Conference, April 7-10, 2013, Cambridge, UK.
 
+Mabee, P. M. Comparative morphology is integrated with genetics and development in the Phenoscape Knowledgebase. International Congress of Vertebrate Morphology.  Barcelona, Spain. July 7-13, 2013.
+
 ===2012===
 Balhoff, J.P. "Linking phenotypes using ontologies." Invited seminar, California Academy of Sciences, March 28, 2012.
 
