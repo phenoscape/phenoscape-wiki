@@ -20,6 +20,8 @@ title: Publications and Posters
 
 ==Posters & Presentations==
 ===2013===
+Balhoff, J.P. Computing with phenotypic diversity using semantic descriptions. iEvoBio Conference, 26 June 2013, Snowbird, Utah.
+
 Vision, T. Towards an integrated system for computationally linking vertebrate skeletal evolution and development genetics. Department of Ecology and Evolution, University of Lausanne, 10 June 2013.
 
 Cui, H., et al. 2013. CharaParser and associated software. Pro-ibiosphere workshop. Leiden, the Netherlands, Feb 2013.
