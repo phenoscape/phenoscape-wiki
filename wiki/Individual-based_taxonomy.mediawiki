@@ -2,7 +2,7 @@
 title: Individual-based taxonomy
 ---
 
-Representing evolutionary lineages using ontological individuals has some modeling advantages, and may be more realistic, compared with using a simple class hierarchy. We described some of the rationale in [http://ceur-ws.org/Vol-833/paper82.pdf these ICBO conference proceedings].
+Representing evolutionary lineages using ontological individuals has some modeling advantages, and may be more realistic, compared with using a simple class hierarchy. We described some of the rationale in [http://ceur-ws.org/Vol-833/paper82.pdf these ICBO conference proceedings]. For the purposes of the Phenoscape KB,  this model supports specification of the [[Semantics_of_phenotype_annotations|semantics of particular phenotype annotations]]: the phenotype applies to all members of a clade, known for some members, or known for the ancestor of the members.
 
 [[Category:Reasoning]]
 [[Category:Ontology]]
