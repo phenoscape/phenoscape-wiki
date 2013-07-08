@@ -1,0 +1,8 @@
+---
+title: Individual-based taxonomy
+---
+
+Representing evolutionary lineages using ontological individuals has some modeling advantages, and may be more realistic, compared with using a simple class hierarchy. We described some of the rationale in [http://ceur-ws.org/Vol-833/paper82.pdf these ICBO conference proceedings].
+
+[[Category:Reasoning]]
+[[Category:Ontology]]
