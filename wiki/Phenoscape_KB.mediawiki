@@ -92,7 +92,7 @@ This tool is being replaced by a more straightforward [https://github.com/phenos
 The OWL ontologies and data files constituting the Phenoscape KB are ultimately loaded into an RDF triplestore for use as a database back-end for the KB web application. The SPARQL query language provides a natural interface to semantic web data; however, support for query-time reasoning within RDF triplestores is severely limited in both performance (in the face of large, complex ontologies) and OWL expressivity. Further, while SPARQL and RDF are perfectly "aligned" with OWL instance data and property assertions, queries that require direct manipulation of the RDF serialization implementation details of OWL class expressions and complex axioms are over-complicated, error-prone, and bound to result in possibly faulty attempts to embed OWL reasoning logic into the structure of the query.
 
 These considerations have led to a number of guiding principles for the production of OWL data for the KB:
-* Any logical inferences which we wish to make us of in the web application interface must be precomputed and asserted into the triplestore knowledgebase.
+* Any logical inferences which we wish to make use of in the web application interface must be precomputed and asserted into the triplestore knowledgebase.
 * SPARQL queries should be able to obtain the desired results by making use of only named classes; it should not be necessary to describe OWL class expressions via SPARQL triple patterns.
 * TODO Tbox vs Abox reasoning performance
 
