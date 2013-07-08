@@ -98,6 +98,10 @@ These considerations have led to a number of guiding principles for the producti
 * At the scale of the Phenoscape KB, the ELK reasoner is nearly always the only reasoner capable of producing a timely result (less than an hour vs. an uncounted number of days) for reasoning use cases. Even dividing up the dataset into smaller pieces that can be reasoned independently does not seem to be worth it; the size of the terminology is still quite large and it is difficult to separate pieces that are known to not logically interact.
 
 ==Database and web application==
+The RDF output of the production script is loaded into an RDF triplestore. We are currently using the [http://www.systap.com/bigdata.htm Bigdata] triplestore. In selecting an RDF triplestore for the KB, we have a few basic requirements:
+* SPARQL endpoint.
+* Support for [http://www.w3.org/TR/2013/REC-sparql11-query-20130321/ SPARQL 1.1 query language]. This is required for aggregates such as "COUNT". Property paths also provide basic transitivity reasoning which can be useful for ad hoc queries, even if not performant enough for use in queries from the web application.
+* Embedded full-text index available within SPARQL queries.
 
 [[Category:Informatics]]
 [[Category:Database]]
