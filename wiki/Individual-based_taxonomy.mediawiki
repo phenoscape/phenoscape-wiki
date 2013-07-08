@@ -14,7 +14,7 @@ Individuals with the same IDs (using OWL punning) are created with a relationshi
  Individual: Ictaluridae
      Facts: subCladeOf Siluriformes
 
-The properties used in the evolutionary lineage model are currently held in the [http://purl.org/phenoscape/vocab.owl Phenoscape KB vocabulary ontology] (a holding place for KB-specific and preliminary terms). These include the inverse property pairs subCladeOf/containsClade (taxon to taxon) and memberOf/hasMember (organism to taxon/taxon to organism). subCladeOf is transitive, and also a member of a given taxon is inferred to be a member of all taxa containing that taxon (using a property chain).
+The properties used in the evolutionary lineage model are currently held in the [http://purl.org/phenoscape/vocab.owl Phenoscape KB vocabulary ontology] (a holding place for KB-specific and preliminary terms). These include the inverse property pairs ''subCladeOf/containsClade'' (taxon to taxon) and ''memberOf/hasMember'' (organism to taxon/taxon to organism). ''subCladeOf'' is transitive, and also a member of a given taxon is inferred to be a member of all taxa containing that taxon (using a property chain).
 
 [[Category:Reasoning]]
 [[Category:Ontology]]
