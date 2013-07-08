@@ -86,6 +86,8 @@ This project provides a collection of Scala classes which implement various onto
 This project provides an Ant build script which orchestrates download of data sources and ontologies, conversion to OWL, and pre-reasoning tasks using the Phenoscape OWL tools and other code libraries. The result is a set of OWL files, constituting the Phenoscape KB, which can be loaded together into an RDF triplestore.
 * https://github.com/phenoscape/phenoscape-builder
 
+This tool is being replaced by a more straightforward [https://github.com/phenoscape/phenoscape-owl-tools/blob/builder/src/main/scala/org/phenoscape/owl/build/PhenoscapeKB.scala build script written in Scala].
+
 ==Reasoning process==
 The OWL ontologies and data files constituting the Phenoscape KB are ultimately loaded into an RDF triplestore for use as a database back-end for the KB web application. The SPARQL query language provides a natural interface to semantic web data; however, support for query-time reasoning within RDF triplestores is severely limited in both performance (in the face of large, complex ontologies) and OWL expressivity. Further, while SPARQL and RDF are perfectly "aligned" with OWL instance data and property assertions, queries that require direct manipulation of the RDF serialization implementation details of OWL class expressions and complex axioms are over-complicated, error-prone, and bound to result in possibly faulty attempts to embed OWL reasoning logic into the structure of the query.
 
