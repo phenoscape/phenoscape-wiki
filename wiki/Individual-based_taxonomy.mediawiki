@@ -4,5 +4,15 @@ title: Individual-based taxonomy
 
 Representing evolutionary lineages using ontological individuals has some modeling advantages, and may be more realistic, compared with using a simple class hierarchy. We described some of the rationale in [http://ceur-ws.org/Vol-833/paper82.pdf these ICBO conference proceedings]. For the purposes of the Phenoscape KB,  this model supports specification of the [[Semantics_of_phenotype_annotations|semantics of particular phenotype annotations]]: the phenotype applies to all members of a clade, is observed for some members, or is applied to the ancestor of the members.
 
+In the KB build process, the VTO taxon class hierarchy is translated into a relationship graph. For every class relationships such as:
+
+ Class: Ictaluridae
+     SubClassOf: Siluriformes
+
+Individuals with the same IDs (using OWL punning) are created with a relationship such as:
+
+ Individual: Ictaluridae
+     Facts: subCladeOf Siluriformes
+
 [[Category:Reasoning]]
 [[Category:Ontology]]
