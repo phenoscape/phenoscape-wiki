@@ -100,8 +100,11 @@ These considerations have led to a number of guiding principles for the producti
 ==Database and web application==
 The RDF output of the production script is loaded into an RDF triplestore. We are currently using the [http://www.systap.com/bigdata.htm Bigdata] triplestore. In selecting an RDF triplestore for the KB, we have a few basic requirements:
 * SPARQL endpoint.
-* Support for [http://www.w3.org/TR/2013/REC-sparql11-query-20130321/ SPARQL 1.1 query language]. This is required for aggregates such as "COUNT". Property paths also provide basic transitivity reasoning which can be useful for ad hoc queries, even if not performant enough for use in queries from the web application.
+* Support for [http://www.w3.org/TR/2013/REC-sparql11-query-20130321/ SPARQL 1.1 query language]. This is required for aggregates such as "COUNT". "Property paths" also provide basic transitivity reasoning which can be useful for ad hoc queries, even if not performant enough for use in queries from the web application.
 * Embedded full-text index available within SPARQL queries.
+
+Nice features (not required but possibly needed for certain interface features):
+* [http://www.w3.org/Submission/CBD/ Concise bounded description] mode for SPARQL DESCRIBE queries. This when blank nodes are found in a DESCRIBE result, this recursively describes them until the graph terminates in named nodes in all directions. This is useful for grabbing the necessary and RDF graph needed to reconstruct OWL class expressions.
 
 [[Category:Informatics]]
 [[Category:Database]]
