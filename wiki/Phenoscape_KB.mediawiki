@@ -104,7 +104,7 @@ The RDF output of the production script is loaded into an RDF triplestore. We ar
 * Embedded full-text index available within SPARQL queries.
 
 Nice features (not required but possibly needed for certain interface features):
-* [http://www.w3.org/Submission/CBD/ Concise bounded description] mode for SPARQL DESCRIBE queries. This when blank nodes are found in a DESCRIBE result, this recursively describes them until the graph terminates in named nodes in all directions. This is useful for grabbing the necessary and RDF graph needed to reconstruct OWL class expressions.
+* [http://www.w3.org/Submission/CBD/ Concise bounded description] mode for SPARQL DESCRIBE queries. When blank nodes are included in a DESCRIBE result, this recursively describes them until the graph terminates in named nodes in all directions. This is useful for grabbing the necessary and RDF graph needed to reconstruct OWL class expressions.
 
 [[Category:Informatics]]
 [[Category:Database]]
