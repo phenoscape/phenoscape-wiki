@@ -96,8 +96,8 @@ These considerations have contributed to a number of guiding principles for the 
 * SPARQL queries should be able to obtain the desired results by making use of only named classes; it should not be necessary to describe OWL class expressions via SPARQL triple patterns.
 * Currently available OWL reasoners provide dramatically better performance when computing an inferred class hierarchy vs. making inferences about OWL individuals. This is evident even with the very high performance [https://code.google.com/p/elk-reasoner/ ELK reasoner] for the OWL EL profile. For this reason data are modeled in such a way that class axioms can be extracted from datasets, combined with ontologies and reasoned over separately, then merged back with datasets containing OWL individuals.
 * At the scale of the Phenoscape KB, the ELK reasoner is nearly always the only reasoner capable of producing a timely result (less than an hour vs. an uncounted number of days) for reasoning use cases. Even dividing up the dataset into smaller pieces that can be reasoned independently does not seem to be worth it; the size of the terminology is still quite large and it is difficult to separate pieces that are known to not logically interact.
-* TODO property normalization
-* TODO memory requirements
+* ''TODO property normalization''
+* ''TODO memory requirements''
 
 ==Database and web application==
 The RDF output of the production script is loaded into an RDF triplestore. We are currently using the [http://www.systap.com/bigdata.htm Bigdata] triplestore. In selecting an RDF triplestore for the KB, we have a few basic requirements:
