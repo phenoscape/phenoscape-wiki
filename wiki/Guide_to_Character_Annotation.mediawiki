@@ -8,7 +8,7 @@ Below is a simplified graph showing a subset of quality terms from the [http://o
 
 [[File:Pato-diagram-v2.jpeg|1000px|Image:1000 pixels]]
 
-{| cellpadding="3" cellspacing="0" border="1"
+{| border="1" cellpadding="3" cellspacing="0"
 |-
 ! PATO attribute-level term
 ! Synonyms
@@ -152,25 +152,25 @@ Note: For the first two examples above, we use [[EQ shortcuts (temporary)|curato
 
 Similar 'size' and 'shape' terms
 
-In PATO, <span style="font-family:courier new,courier,monospace">increased width</span> (related synonym: "broad") and <span style="font-family:courier new,courier,monospace">broad</span> are now separate terms in PATO.&nbsp; <span style="font-family:courier new,courier,monospace">Increased width</span> has ‘size’ as it’s parent whereas <span style="font-family:courier new,courier,monospace">broad</span> has 'shape' as a parent.&nbsp; By convention, we use <span style="font-family:courier new,courier,monospace">increased width</span> in Phenoscape annotations to indicated variation in the size dimension.<br/>
+In PATO, <span style="font-family:courier new,courier,monospace">increased width</span> (related synonym: "broad") and <span style="font-family:courier new,courier,monospace">broad</span> are now separate terms in PATO.&nbsp; <span style="font-family:courier new,courier,monospace">Increased width</span> has ‘size’ as it’s parent whereas <span style="font-family:courier new,courier,monospace">broad</span> has 'shape' as a parent.&nbsp; By convention, we use <span style="font-family:courier new,courier,monospace">increased width</span> in Phenoscape annotations to indicated variation in the size dimension.
 
-=== 6. Quality-modified entities<br/> ===
+=== 7. Quality-modified entities<br/> ===
 
 Sometimes it is necessary to use a quality term to modify the entity in post-composition. For example, an author may describe the "number of round teeth":<br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: tooth bearer_of some round; Q: count</span><br/><br/>In other cases, it may appear that there are two similar ways to annotate such characters: for example, the presence/absence of white hair:<br/><br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: 'hair' bearer_of some 'white' hair Q: present</span><br/><br/>This is different from:<br/><br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: hair Q: white</span><br/><br/>The first annotation describe the presence of some white hair, whereas the second annotation describes *all* hair being white .&nbsp; *Generally, want to use quality modified entity when annotating complex EQs.
 
-=== 7. Contralateral halves of bilaterally paired structures<br/> ===
+=== 8. Contralateral halves of bilaterally paired structures<br/> ===
 
 Terms for the contralateral halves of bilaterally paired structures are created using the <span style="font-family:courier new,courier,monospace">''in_right_side_of'' </span>and <span style="font-family:courier new,courier,monospace">''in_left_side_of'' </span>relations in a post-composition, where the perspective is from the standpoint of the organism. For example:
 
 <span style="font-size:larger"><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family: courier new,courier,monospace"><sub>E: frontal^''in_right_side_of''(whole organism), Q: fused with, RE: frontal^''in_left_side_of''(whole organism)</sub></span></span>
 
-=== 8. [[EQ shortcuts (temporary)|Complementary phenotypes ("negation")]]<br/> ===
+=== 9. [[EQ shortcuts (temporary)|Complementary phenotypes ("negation")]]<br/> ===
 
 Example: "opercle, not round". Create a postcomposition for the quality, choosing a meaningful genus term and using the "not" relation.
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: opercle, Q: shape^not(round)</span>
 
-=== 9. Annotation involving bone and cartilage terms ===
+=== 10. Annotation involving bone and cartilage terms<br/> ===
 
 Authors sometimes refer to endochondral structures without specifying whether the structure is “bone” or “cartilage.” For example, the convention for a term like “epibranchial 2” or “basibranchial” is that it is composed of bone and when composed of cartilage an author will say “epibranchial 2 cartilage” or “basibranchial cartilage”. However, this is not universally followed and a curator must read the character description and examine associated text and figures to ascertain this. If after reviewing the publication it is still not clear, then the curator can use the “element” term for the structure. In general, the “element” terms should be used sparingly, and only when an author does not indicate whether a structure (e.g. “epibranchial”) is composed of cartilage or bone.
 
