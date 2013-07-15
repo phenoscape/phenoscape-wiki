@@ -45,7 +45,7 @@ Gene expression and genetic phenotype annotations for frog (''Xenopus laevis'' a
 ====HPO====
 Genetic phenotype annotations for human (''Homo sapiens''). HPO data downloads can be found at http://www.human-phenotype-ontology.org/contao/index.php/downloads.html.
 * Genetic phenotype annotations
-** http://compbio.charite.de/hudson/job/hpo.annotations.monthly/lastStableBuild/artifact/annotation/genes_to_phenotype.txt
+** http://compbio.charite.de/hudson/job/hpo.annotations.monthly/lastStableBuild/artifact/annotation/ALL_SOURCES_ALL_FREQUENCIES_genes_to_phenotype.txt
 
 ===Ontologies===
 * Uberon cross-species anatomy ontology, with Phenoscape extensions
