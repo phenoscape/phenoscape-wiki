@@ -5,8 +5,7 @@ title: Phenex release history
 ==Phenex 1.10==
 Released 2013-07-19.
 * [https://github.com/phenoscape/Phenex/compare/v1.9...v1.10 Source changes]
-
-
+* New features for matrix editing: consolidate selected characters; create new character with selected states.
 
 ==Phenex 1.9==
 Released 2013-06-18.
