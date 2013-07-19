@@ -2,6 +2,13 @@
 title: Phenex release history
 ---
 
+==Phenex 1.9==
+Released 2013-06-18.
+* [https://github.com/phenoscape/Phenex/compare/v1.8...v1.9 Source changes]
+* New feature: ORB user settings for provisional term requests are now configurable.
+* Unified consistency checking between annotation checker panel and consistency review panel.
+* Updated user interface for native look on OS X Mountain Lion.
+
 ==Phenex 1.8==
 Released 2013-03-05.
 * [https://github.com/phenoscape/Phenex/compare/v1.7...v1.8 Source changes]
