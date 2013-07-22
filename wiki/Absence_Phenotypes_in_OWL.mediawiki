@@ -16,7 +16,11 @@ or describe this class of phenotypes (from the perspective of the quality):
 These expressions are not equivalent but describe different aspects of the same data model.
 
 =="Absent" quality==
-The PATO ontology of phenotypic qualities includes a commonly used quality '''absent'''. However, using this term in the above EQ model is problematic. For the entity '''dorsal fin''' and the quality '''absent''', we would end up with an expression such as ''has_part'' some ('''dorsal fin''' and ''bearer_of'' some '''absent'''). The obvious problem is that this asserts the existence of a '''dorsal fin''', needed to bear the instance of '''absent'''.
+The PATO ontology of phenotypic qualities includes a commonly used quality '''absent'''. However, using this term in the above EQ model is problematic. For the entity '''dorsal fin''' and the quality '''absent''', we would end up with an expression such as
+
+ ''has_part'' some ('''dorsal fin''' and ''bearer_of'' some '''absent''')
+
+The obvious problem is that this asserts the existence of a '''dorsal fin''', needed to bear the instance of '''absent'''.
 
 Additionally, reasoning with these classes produces unintuitive results. An organism with no dorsal fin would be described as ''has_part'' some '''dorsal fin''' and ''bearer_of'' some '''absent'''. An organism with no fins at all would be in the class ''has_part'' some '''fin''' and ''bearer_of'' some '''absent'''. An OWL reasoner would correctly infer that the former is a subclass of the latter, which is the opposite of what we really intend (organisms without dorsal fins are subset of the organisms without any fins).
 
