@@ -31,7 +31,7 @@ We can also use a cardinality expression:
 
 ''has_part'' exactly 0 '''dorsal fin'''
 
-This is logically equivalent to the complement expression, and cardinality expressions present the same difficulties just described. Also, while cardinalities other than 0 can be used to express counts, transitive properties such as has_part cannot be used in cardinality expressions.
+This is logically equivalent to the complement expression, and cardinality expressions present the same difficulties just described. Also, while cardinalities other than 0 can be used to express counts, transitive properties such as ''has_part'' cannot be used in cardinality expressions.
 
 =="Lacks all parts of type" quality==
 The solution provided by PATO for the above problem is the "relational" quality '''lacks all parts of type'''. Relational qualities in PATO are further specified by a relation to another class, for example '''sensitivity''' toward '''ultraviolet light'''. So instead of describing an entity '''dorsal fin''' which bears an '''absent''' quality, we should instead describe the entity '''body''' which bears a quality '''lacks all parts of type''' toward '''dorsal fin'''.
