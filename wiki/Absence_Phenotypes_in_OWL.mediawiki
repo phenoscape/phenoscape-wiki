@@ -41,4 +41,5 @@ This is logically equivalent to the complement expression, and cardinality expre
 The solution provided by PATO for the problems with the '''absent''' quality is the "relational" quality '''lacks all parts of type'''. Relational qualities in PATO are qualities that are further specified by a relation to another class, for example '''sensitivity''' toward '''ultraviolet light'''. So instead of describing an entity '''dorsal fin''' which bears an '''absent''' quality, we should instead describe the entity '''body''' which bears a quality '''lacks all parts of type''' toward '''dorsal fin'''. At first glance, this approach seems to address all the above issues:
 * We can describe phenotypes from the quality perspective; '''lacks all parts of type''' is a subclass of '''quality''' and doesn't require a complement expression.
 * The instance of '''lacks all parts of type''' ''inheres_in'' an instance of '''body''' rather than in a non-existent '''dorsal fin'''.
+and...
 * A '''lacks all parts of type''' toward '''fin''' should be a subclass of '''lacks all parts of type''' toward '''dorsal fin'''... but is it??
