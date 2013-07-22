@@ -29,7 +29,7 @@ Instead of representing absence with a quality, we can describe it in OWL using 
 
 <blockquote><tt>not (''has_part'' some '''dorsal fin''')</tt></blockquote>
 
-This results in reasoning that matches our expectations: <tt>not (''has_part'' some '''fin''')</tt> is a subclass of <tt>not (''has_part'' some '''dorsal fin''')</tt>. Also, we don't need to infer the existence of a structure that is supposed to be absent. However, this approach introduces two difficulties. First, we lose the ability to directly describe the phenotypic quality (there is no instance of "absence" to refer to; we are instead describing the organism or structure). This can be problematic when the application otherwise presents and/or queries for phenotypes as qualities. Second, complement expressions are not available within the OWL EL profile. Reasoning with such expressions requires a complete OWL DL reasoner, which is far less scalable.
+This results in reasoning that matches our expectations: <tt>not (''has_part'' some '''fin''')</tt> is a subclass of <tt>not (''has_part'' some '''dorsal fin''')</tt>. Also, we don't need to infer the existence of a structure that is supposed to be absent. However, this approach introduces two difficulties. First, we lose the ability to directly describe the phenotypic quality (there is no instance of "absence" to refer to; we are instead describing the organism or structure). This can be problematic when the application otherwise presents or queries for phenotypes as qualities. Second, complement expressions are not available within the OWL EL profile. Reasoning with such expressions requires a complete OWL DL reasoner, which is far less scalable.
 
 We could also use a cardinality expression:
 
