@@ -22,7 +22,7 @@ The PATO ontology of phenotypic qualities includes a commonly used quality '''ab
 
 The obvious problem is that this asserts the existence of a '''dorsal fin''', needed to bear the instance of '''absent'''.
 
-Additionally, reasoning with these classes produces unintuitive results. An organism with no dorsal fin would be described as <tt>''has_part'' some '''dorsal fin'''</tt> and ''bearer_of'' some '''absent'''. An organism with no fins at all would be in the class ''has_part'' some '''fin''' and ''bearer_of'' some '''absent'''. An OWL reasoner would correctly infer that the former is a subclass of the latter, which is the opposite of what we really intend (organisms without dorsal fins are subset of the organisms without any fins).
+Additionally, reasoning with these classes produces unintuitive results. An organism with no dorsal fin would be described as <tt>''has_part'' some '''dorsal fin''' and ''bearer_of'' some '''absent'''</tt>. An organism with no fins at all would be in the class ''has_part'' some '''fin''' and ''bearer_of'' some '''absent'''. An OWL reasoner would correctly infer that the former is a subclass of the latter, which is the opposite of what we really intend (organisms without dorsal fins are subset of the organisms without any fins).
 
 ==Using OWL class complements or cardinality==
 Instead of representing absence with a quality, we can describe it in OWL using a class complement (logical negation):
