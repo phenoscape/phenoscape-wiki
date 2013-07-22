@@ -19,4 +19,4 @@ These expressions are not equivalent but describe different aspects of the same 
 The PATO ontology of phenotypic qualities includes a commonly used quality '''absent'''. However, using this term in the above EQ model is problematic. For the entity '''dorsal fin''' and the quality '''absent''', we would end up with an expression such as ''has_part'' some ('''dorsal fin''' and ''bearer_of'' some '''absent'''). The obvious problem is that this asserts the existence of a '''dorsal fin''', needed to bear the instance of '''absent'''.
 
 =="Lacks all parts of type" quality==
-The solution provided by PATO for the above problem is the "relational" quality '''lacks all parts of type'''.
+The solution provided by PATO for the above problem is the "relational" quality '''lacks all parts of type'''. Relational qualities in PATO are further specified by a relation to another class, for example '''sensitivity''' towards '''ultraviolet light'''. So instead of describing an entity '''dorsal fin''' which bears an '''absent''' quality, we should instead describe the entity '''body''' which bears a quality '''lacks all parts of type''' toward '''dorsal fin'''.
