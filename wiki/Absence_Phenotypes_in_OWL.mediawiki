@@ -16,9 +16,9 @@ or describe this class of phenotypes (from the perspective of the quality):
 These expressions are not equivalent but describe different aspects of the same data model.
 
 =="Absent" quality==
-The PATO ontology of phenotypic qualities includes a commonly used quality '''absent'''. However, using this term in the above EQ model is problematic. For the entity '''dorsal fin''' and the quality '''absent''', we would end up with an expression such as
+The PATO ontology of phenotypic qualities includes a commonly used quality '''absent'''. However, using this term in the above EQ model is problematic. For the entity '''dorsal fin''' and the quality '''absent''', we would end up with an expression such as:
 
-''has_part'' some ('''dorsal fin''' and ''bearer_of'' some '''absent''')
+ ''has_part'' some ('''dorsal fin''' and ''bearer_of'' some '''absent''')
 
 The obvious problem is that this asserts the existence of a '''dorsal fin''', needed to bear the instance of '''absent'''.
 
