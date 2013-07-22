@@ -27,13 +27,13 @@ Additionally, reasoning with these classes produces unintuitive results. An orga
 ==Using OWL class complements or cardinality==
 Instead of representing absence with a quality, we can describe it in OWL using a class complement (logical negation):
 
-not (''has_part'' some '''dorsal fin''')
+<blockquote><tt>not (''has_part'' some '''dorsal fin''')</tt></blockquote>
 
 This results in reasoning that matches our expectations: not (''has_part'' some '''fin''') is a subclass of not (''has_part'' some '''dorsal fin'''). Also, we don't need to infer the existence of a structure that is supposed to be absent. However, this approach introduces two difficulties. First, we lose the ability to directly describe the phenotypic quality (there is no instance of "absence" to refer to; we are instead describing the organism or structure). This can be problematic when the application otherwise presents and/or queries for phenotypes as qualities. Second, complement expressions are not available within the OWL EL profile. Reasoning with such expressions requires a complete OWL DL reasoner, which is far less scalable.
 
 We could also use a cardinality expression:
 
-''has_part'' exactly 0 '''dorsal fin'''
+<blockquote><tt>''has_part'' exactly 0 '''dorsal fin'''</tt></blockquote>
 
 This is logically equivalent to the complement expression, and cardinality expressions present the same difficulties just described. Also, while cardinalities other than 0 can be used to express counts, transitive properties such as ''has_part'' cannot be used in cardinality expressions.
 
