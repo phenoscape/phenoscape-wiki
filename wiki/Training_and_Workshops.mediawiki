@@ -103,7 +103,7 @@ Further information can be found at the [http://www.bioontology.org/wiki/index.p
 
 == First Morphology Data Jamboree: April 18-20, 2008 ==
 
-The first Data Jamboree on Morpholoy with project personnel, affiliated ichthyologists and curators, and external advisors was held at NESCent on April 18-20, 2008.
+The first Data Jamboree on Morphology with project personnel, affiliated ichthyologists and curators, and external advisors was held at NESCent on April 18-20, 2008.
 
 * [[Data Jamboree 1|Data Jamboree overview]] with links to agenda and related material
 * [[Media:phenoscape.jamboree.report.apr08.pdf|Final report]] from the event
