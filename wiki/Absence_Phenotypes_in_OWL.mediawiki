@@ -4,11 +4,16 @@ title: Absence Phenotypes in OWL
 
 Phenotypes describing the absence of a type of structure require particular consideration for both semantic modeling and reasoning.
 
-==EQ modeling==
+==Basic EQ modeling==
 We generally represent phenotypes as classes describing relationships between an entity and a quality. The entity is usually an anatomical structure, such as a '''dorsal fin''', which is the ''bearer_of'' some quality, such as an instance of '''serrated'''. The inverse of bearer_of is inheres_in, so we can either describe the set of organisms with this phenotype:
 
 ''has_part'' some ('''dorsal fin''' and ''bearer_of'' some '''serrated''')
 
-or describe this class of phenotypes (from the quality perspective):
+or describe this class of phenotypes (from the perspective of the quality):
 
 '''serrated''' and ''inheres_in'' some '''dorsal fin'''
+
+These expressions are not equivalent but describe different aspects of the same data model.
+
+=="Absent" quality==
+The PATO ontology of phenotypic qualities includes a commonly used quality '''absent'''. However, using this term in the above EQ model is problematic. For the entity dorsal fin and the quality absent, we would end up with an expression such as ''has_part'' some ('''dorsal fin''' and ''bearer_of'' some '''absent'''). The obvious problem is that this asserts the existence of a '''dorsal fin''', needed to bear the instance of '''absent'''.
