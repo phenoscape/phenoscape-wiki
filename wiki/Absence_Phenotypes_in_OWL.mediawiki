@@ -5,7 +5,7 @@ title: Absence Phenotypes in OWL
 Phenotypes describing the absence of a type of structure require particular consideration for both semantic modeling and reasoning.
 
 ==Basic EQ modeling==
-We generally represent phenotypes as classes describing relationships between an entity and a quality. The entity is usually an anatomical structure, such as a '''dorsal fin''', which is the ''bearer_of'' some quality, such as an instance of '''serrated'''. The inverse of bearer_of is inheres_in, so we can either describe the set of organisms with this phenotype:
+We generally represent phenotypes as classes describing relationships between an entity and a quality. The entity is usually an anatomical structure, such as a '''dorsal fin''', which is the ''bearer_of'' some quality, such as an instance of '''serrated'''. The inverse of ''bearer_of'' is ''inheres_in'', so we can either describe the set of organisms with this phenotype:
 
 ''has_part'' some ('''dorsal fin''' and ''bearer_of'' some '''serrated''')
 
