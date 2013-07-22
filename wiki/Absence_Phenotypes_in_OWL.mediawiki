@@ -1,0 +1,5 @@
+---
+title: Absence Phenotypes in OWL
+---
+
+Phenotypes describing the absence of a type of structure require particular consideration for both semantic modeling and reasoning.
