@@ -43,3 +43,7 @@ The solution provided by PATO for the problems with the '''absent''' quality is 
 * The instance of '''lacks all parts of type''' ''inheres_in'' an instance of '''body''' (or other containing structure) rather than in a non-existent '''dorsal fin'''.
 and...
 * A '''lacks all parts of type''' toward '''fin''' should be a subclass of '''lacks all parts of type''' toward '''dorsal fin'''... but is it??
+
+Define an explicit OWL representation for '''lacks all parts of type''' introduces some reasoning difficulties. To relate the quality to the missing part, we could use the standard existential restriction:
+
+<blockquote><tt>'''lacks all parts of type''' and ''inheres_in'' some '''body''' and ''towards'' some '''dorsal fin'''</tt></blockquote>
