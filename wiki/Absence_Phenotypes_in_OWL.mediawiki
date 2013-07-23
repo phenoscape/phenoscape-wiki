@@ -47,3 +47,5 @@ and...
 Define an explicit OWL representation for '''lacks all parts of type''' introduces some reasoning difficulties. To relate the quality to the missing part, we might expect to use the standard existential restriction:
 
 <blockquote><tt>'''lacks all parts of type''' and ''inheres_in'' some '''body''' and ''towards'' some '''dorsal fin'''</tt></blockquote>
+
+However, we end up with the same backwards reasoning found with absent. <tt>'''lacks all parts of type''' ''towards'' some '''fin'''</tt> is a superclass of <tt>'''lacks all parts of type''' ''towards'' some '''dorsal fin'''</tt>.
