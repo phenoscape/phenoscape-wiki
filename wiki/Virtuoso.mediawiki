@@ -9,6 +9,7 @@ title: Virtuoso
 ** Before doing the above you may need to <code>delete from db.dba.load_list;</code> to make it reload files that have previously been loaded.
 * [http://www.openlinksw.com/dataspace/dav/wiki/Main/VirtRemoveTriples Removing all triples]
 ** Within isql: <code>sparql clear graph <http://kb.phenoscape.org/> ;</code>
+** Or, to remove all triples except those from the system: <code>RDF_GLOBAL_RESET ();</code>
 * [http://docs.openlinksw.com/virtuoso/newadminui.html Setting default passwords]
 * [http://docs.openlinksw.com/virtuoso/rdfsparqlrule.html Inference rules and reasoning]
 ** Within isql: <code>rdfs_rule_set('http://kb.phenoscape.org/', 'http://kb.phenoscape.org/');</code>
