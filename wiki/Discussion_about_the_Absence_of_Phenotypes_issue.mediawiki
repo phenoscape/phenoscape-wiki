@@ -2,4 +2,4 @@
 title: Discussion about the Absence of Phenotypes issue
 ---
 
-#REDIRECT [[Modeling Absence of Phenotypes]]
+#REDIRECT [[Absence Phenotypes in OWL]]
