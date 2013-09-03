@@ -51,3 +51,5 @@ Defining an explicit OWL representation for '''lacks all parts of type''' introd
 However, we end up with the same backwards reasoning found with absent. <tt>'''lacks all parts of type''' ''towards'' some '''fin'''</tt> is a superclass of <tt>'''lacks all parts of type''' ''towards'' some '''dorsal fin'''</tt>, the opposite of what we intend. But an existential restriction on ''towards'' clearly holds the wrong semantics anyway (and furthermore implies the existence of the absent structure). The object of the towards relation is the type '''dorsal fin''' itself, not some instance. To reference the class directly we must use it in a value restriction, where we would expect an instance:
 
 <blockquote><tt>'''lacks all parts of type''' and ''inheres_in'' some '''body''' and ''towards'' value '''dorsal fin'''</tt></blockquote>
+
+[[Category:Reasoning]]
