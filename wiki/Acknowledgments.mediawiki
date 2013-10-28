@@ -113,7 +113,8 @@ The following groups and individuals have contributed to Phenoscape ontology dev
 * Jacqueline Webb, University of Rhode Island
 * Edward Wiley, The University of Kansas
 
-===Teleost Taxonomy Ontology (TTO) Contributors===
+===Vertebrate and Teleost Taxonomy Ontology Contributors===
+* John Alroy, Paleobiology Database
 * Nicolas Bailly, WorldFish Center, Philippines
 * Stan Blum, California Academy of Sciences
 * Miles Coburn, John Carroll University
