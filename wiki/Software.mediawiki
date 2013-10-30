@@ -28,6 +28,7 @@ The live Phenoscape Knowledgebase is available at http://kb.phenoscape.org/. It 
 
 ==Other software products==
 ===owlet===
+[http://github.com/phenoscape/owlet owlet] is a query expansion preprocessor for SPARQL. It parses embedded OWL class expressions and uses an OWL reasoner to replace them with FILTER statements containing the URIs of subclasses of the given class expression (or superclasses, equivalent classes, or instances). It is written in Scala but can be used in any Java application.
 
 ===VTOTool===
 The VTOTool assembles the VTO by starting from an initial taxonomy (NCBI) and deleting and splicing in group specific taxonomies (e.g., TTO, ATO).  It will also add taxonomy from PaleoDB and synonyms from other taxonomic source (e.g., Catalog of Life).
