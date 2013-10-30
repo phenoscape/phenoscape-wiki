@@ -10,6 +10,7 @@ One of the chief objectives of the Phenoscape project is to present a centralize
 ===RDF-OWL version (in development)===
 To meet new requirements for scalability, reasoning expressivity, and support for linked data standards, we are developing a new Knowledgebase infrastructure based on RDF and OWL reasoning. Some in-progress components:
 * [http://github.com/phenoscape/phenoscape-owl-tools phenoscape-owl-tools]—build application for generating the RDF content for the Phenoscape KB, including utilities for converting datasets to OWL and running reasoning tasks
+* [http://github.com/phenoscape/phenoscape-kb-services phenoscape-kb-services]—updated web services API for the Knowledgebase. Very early in development so far.
 * [[Phenoscape_KB|Phenoscape RDF KB overview]]
 
 ===Classic version===
