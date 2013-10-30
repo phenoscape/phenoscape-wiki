@@ -8,10 +8,11 @@ This page provides a broad overview of our software development activities. Phen
 One of the chief objectives of the Phenoscape project is to present a centralized repository to store evolutionary phenotype annotations entered by curators and also integrate relevant data imported from partner projects. The Knowledgebase consists of a back-end semantic data store, a web service application which provides a query API for the data, a web application user interface allowing exploration of the Knowledgebase, and accessory tools for loading data.
 
 ===RDF-OWL version (in development)===
+[[Phenoscape_KB|Phenoscape RDF KB overview]]
+
 To meet new requirements for scalability, reasoning expressivity, and support for linked data standards, we are developing a new Knowledgebase infrastructure based on RDF and OWL reasoning. Some in-progress components:
 * [http://github.com/phenoscape/phenoscape-owl-tools phenoscape-owl-tools]—build application for generating the RDF content for the Phenoscape KB, including utilities for converting datasets to OWL and running reasoning tasks
 * [http://github.com/phenoscape/phenoscape-kb-services phenoscape-kb-services]—updated web services API for the Knowledgebase. Very early in development so far.
-* [[Phenoscape_KB|Phenoscape RDF KB overview]]
 
 ===Classic version===
 The live Phenoscape Knowledgebase is available at http://kb.phenoscape.org/. It makes use of the following software projects:
