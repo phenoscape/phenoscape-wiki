@@ -26,11 +26,13 @@ title: Publications and Posters
 
 === 2013 ===
 
+Sears, K.E., Marcot, J.D., Mabee, P.M., and T.A. Dececchi. Evolution and development of the limb: Evolution of appendage modularity during the fin to limb transition. Society of Vertebrate Paleontology, Annual Meeting, San Diego, CA (October 31, 2013).
+
 Mabee, P.M., Dececchi, T.A., Ibrahim, N., Sereno, P., Balhoff, J.P. Aggregation of morphological characters across studies using an ontology-based phenotype approach. Poster presentation. Society of Vertebrate Paleontology, Annual Meeting, San Diego, CA (October 31, 2013).
 
 Mabee, P.M. Phylogenetic mapping of morphology from multiple studies using ontologies: Insights, prospects, and challenges. Muséum national d'Histoire naturelle, Paris, France (October 24, 2013).
 
-Mabee, P.M. Comparative morphology is integrated with genetics and development in the Phenoscape Knowledgebase.  International Congress of Vertebrate Morphology (ICVM), Barcelona, Spain (July 11, 2013).  
+Mabee, P.M. Comparative morphology is integrated with genetics and development in the Phenoscape Knowledgebase.  International Congress of Vertebrate Morphology (ICVM), Barcelona, Spain (July 11, 2013).
 
 Balhoff, J.P. Computing with phenotypic diversity using semantic descriptions. iEvoBio Conference, 26 June 2013, Snowbird, Utah.
 
