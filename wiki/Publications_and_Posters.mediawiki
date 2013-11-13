@@ -4,6 +4,8 @@ title: Publications and Posters
 
 == Publications ==
 
+*Midford, P.E., Dececchi, T.A., Balhoff, J.P., Dahdul, W.M., Ibrahim, N., Lapp, H., Lundberg, J.G., Mabee, P.M., Sereno, P.C., Westerfield, M., Vision, T.J.  '''2013'''. The Vertebrate Taxonomy Ontology: A framework for reasoning across model organism and species phenotypes.  Journal of Biomedical Semantics.  In press. 
+*Druzinsky, R.E., Mungall, C.J., Haendel, M., Lapp, H., Mabee, P.M. ''2013'''. What is an anatomy ontology? The Anatomical Record. In press.  
 *Segerdell, E., V.G. Ponferrada, C. James-Zorn, K.A. Burns, J.D. Fortriede, W.M. Dahdul, P.D. Vize and A.M. Zorn. '''2013'''. Enhanced XAO: the ontology of Xenopus anatomy and development underpins more accurate annotation of gene expression and queries on Xenbase. Journal of Biomedical Semantics. 4:31. [http://dx.doi.org/10.1186/2041-1480-4-31 http://dx.doi.org/10.1186/2041-1480-4-31]
 *Balhoff, J.P, I. Mikó, M.J. Yoder, P.L. Mullins, & A.R. Deans. '''2013'''. A semantic model for species description, applied to the ensign wasps (Hymenoptera: Evaniidae) of New Caledonia. Systematic Biology [http://dx.doi.org/10.1093/sysbio/syt028 http://dx.doi.org/10.1093/sysbio/syt028]
 *Arighi, C, et al. (including Dahdul, Mabee, Cui, Haendel, Balhoff) '''2012'''. An Overview of the BioCreative 2012 Workshop Track III: Interactive Text Mining Task. 2013 [http://dx.doi.org/10.1093/database/bas056 http://dx.doi.org/10.1093/database/bas056]
