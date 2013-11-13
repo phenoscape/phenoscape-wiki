@@ -24,17 +24,21 @@ title: Publications and Posters
 
 === 2013 ===
 
+Mabee, P.M., Dececchi, T.A., Ibrahim, N., Sereno, P., Balhoff, J.P. Aggregation of morphological characters across studies using an ontology-based phenotype approach. Poster presentation. Society of Vertebrate Paleontology, Annual Meeting, San Diego, CA (October 31, 2013).
+
+Mabee, P.M. Phylogenetic mapping of morphology from multiple studies using ontologies: Insights, prospects, and challenges. Muséum national d'Histoire naturelle, Paris, France (October 24, 2013).
+
+Mabee, P.M. Comparative morphology is integrated with genetics and development in the Phenoscape Knowledgebase.  International Congress of Vertebrate Morphology (ICVM), Barcelona, Spain (July 11, 2013).  
+
 Balhoff, J.P. Computing with phenotypic diversity using semantic descriptions. iEvoBio Conference, 26 June 2013, Snowbird, Utah.
-
-Vision, T. Towards an integrated system for computationally linking vertebrate skeletal evolution and development genetics. Department of Ecology and Evolution, University of Lausanne, 10 June 2013.
-
-Cui, H., et al. 2013. CharaParser and associated software. Pro-ibiosphere workshop. Leiden, the Netherlands, Feb 2013.
-
-Vision, T. Phenotype challenges in Phenoscape vertebrate use cases, Third annual summit meeting, Phenotype RCN. 25 March 2013, NESCent, NC.
 
 Mungall, C.J., Jim Balhoff, Frederic Bastian, David Blackburn, Aurelie Comte, Wasila Dahdul , Alex Dececchi, Nizar Ibrahim, Suzanna E Lewis, Paula Mabee, Anne Niknejad, Melissa A Haendel. A merger of multi‐species anatomy ontologies. Biocuration Conference, April 7-10, 2013, Cambridge, UK.
 
-Mabee, P. M. Comparative morphology is integrated with genetics and development in the Phenoscape Knowledgebase. International Congress of Vertebrate Morphology. Barcelona, Spain. July 7-13, 2013.
+Vision, T. Towards an integrated system for computationally linking vertebrate skeletal evolution and development genetics. Department of Ecology and Evolution, University of Lausanne, 10 June 2013.
+
+Vision, T. Phenotype challenges in Phenoscape vertebrate use cases, Third annual summit meeting, Phenotype RCN. 25 March 2013, NESCent, NC.
+
+Cui, H., et al. 2013. CharaParser and associated software. Pro-ibiosphere workshop. Leiden, the Netherlands, Feb 2013.
 
 === 2012 ===
 
