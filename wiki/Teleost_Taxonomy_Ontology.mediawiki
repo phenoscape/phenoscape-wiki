@@ -52,36 +52,7 @@ To the extent possible under law, Peter E. Midford has waived all copyright and 
 * In general TTO does not assign intermediate ranks (e.g., subclass).  There are a few exceptions that may be removed.
 * At present is_extinct does not include recently extinct taxa.
 
-==Detailed Term Counts==
-{|border="1" cellpadding="3" cellspacing="3"
-!Item
-!Count
-|-
-|Total Terms || 38590
-|-
-|Total Synonyms || 59557
-|-
-|Common Name Synonyms || 14754
-|-
-|Synonyms resulting from misspelling || 18
-|-
-|Extinct Taxa || 228
-|-
-|Cross references to names in NCBI taxonomy || 13318
-|-
-|Phyla || 1
-|-
-|Classes || 3
-|-
-|Orders || 68
-|-
-|Families || 566
-|-
-|Genera || 5263
-|-
-|Species || 32653
-|-
-|}
+
 
 [[Category:Ontology]]
 [[Category:Taxonomy]]
