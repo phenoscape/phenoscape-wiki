@@ -22,8 +22,8 @@ Discussion of vertebrate and general anatomy issues are posted to the obo-anatom
 * View [http://sourceforge.net/mailarchive/forum.php?forum_name=obo-anatomy obo-anatomy list archives]
 
 ===Taxonomy Ontologies===
-* [https://www.phenoscape.org/wiki/Teleost_Taxonomy_Ontology Teleost Taxonomy Ontology (TTO)]
-* [http://phenoscape.org/wiki/Ontologies#Vertebrate_Taxonomy_Ontology_.28VTO.29 Vertebrate Taxonomy Ontology]
+* [[Teleost Taxonomy Ontology]] (TTO)
+* [[Ontologies#Vertebrate_Taxonomy_Ontology_.28VTO.29| Vertebrate Taxonomy Ontology]]
 
 ===Ontology Resources===
 
