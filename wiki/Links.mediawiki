@@ -23,7 +23,7 @@ Discussion of vertebrate and general anatomy issues are posted to the obo-anatom
 
 ===Taxonomy Ontologies===
 * [[Teleost Taxonomy Ontology]] (TTO)
-* [[Ontologies#Vertebrate_Taxonomy_Ontology_.28VTO.29| Vertebrate Taxonomy Ontology]]
+* [[Ontologies#Vertebrate_Taxonomy_Ontology_.28VTO.29| Vertebrate Taxonomy Ontology]] (VTO)
 
 ===Ontology Resources===
 
