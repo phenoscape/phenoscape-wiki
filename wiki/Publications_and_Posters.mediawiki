@@ -78,7 +78,7 @@ Ibrahim, N. "Dinosaurs of the Sahara". Department of Biology, University of Sout
 
 Paula Mabee (2011) Presentation "Comparative anatomy for the genomics age: Informatics to reason across vertebrate evolutionary and developmental biology”, Muséum national d'Histoire naturelle, Paris, Nov. 8, 2011.
 
-Todd Vision, Judith Blake, Hilmar Lapp, Paula Mabee, Monte Westerfield (2011) Similarity Between Semantic Description Sets: Addressing Needs Beyond Data Integration. First International Workshop on Linked Science, Bonn, October 24, 2011, [[/wg/phenoscape/images/2/27/Vision.etal.LISC2011.pdf|Extended abstract]] from [http://www.ceur-ws.org/Vol-783/ Proceedings].
+Todd Vision, Judith Blake, Hilmar Lapp, Paula Mabee, Monte Westerfield (2011) Similarity Between Semantic Description Sets: Addressing Needs Beyond Data Integration. First International Workshop on Linked Science, Bonn, October 24, 2011, [[Media:Vision.etal.LISC2011.pdf|Extended abstract]] from [http://www.ceur-ws.org/Vol-783/ Proceedings].
 
 James Balhoff, Wasila Dahdul, Hilmar Lapp, Peter Midford, Todd Vision, Monte Westerfield and Paula Mabee (2011) Poster; "Employing reasoning within the Phenoscape Knowledgebase", International Conference on Biomedical Ontology; University at Buffalo, NY, July 26-30, 2011
 
@@ -90,7 +90,7 @@ James P. Balhoff and Hilmar Lapp (2011) Phenotype RCN Meeting, Boulder, CO, "The
 
 Paula Mabee (2011) Keynote talk for Fish Skeletal Meeting (Tavira, Portugal) "500,000 fish phenotypes: the new informatics landscape of evolutionary and developmental skeletal biology." April 28, 2011.
 
-<u>Hilmar Lapp</u> (2011) [[/wg/phenoscape/images/5/5f/UF_Seminar_Mar2011_HL.pdf|Reasoning over phenotype diversity, character change, and evolutionary descent]]. Invited seminar at University of Florida, March 1, 2011.
+<u>Hilmar Lapp</u> (2011) [[Media:UF_Seminar_Mar2011_HL.pdf|Reasoning over phenotype diversity, character change, and evolutionary descent]]. Invited seminar at University of Florida, March 1, 2011.
 
 <u>James P. Balhoff</u> (2011) [http://www.iscb.org/cshals2011-program/cshals2011-full-agenda Conference on Semantics in Healthcare and Life Sciences], Cambridge, MA, "The Phenoscape Knowledgebase: Linking Evolutionary Diversity to Genetic Data Using Phenotype Ontologies" February 24, 2011.
 
