@@ -166,9 +166,9 @@ Paula Mabee, Jim Balhoff, Wasila Dahdul, Hilmar Lapp, John Lundberg, Peter Midfo
 
 Peter Midford (2008) [http://www.tdwg.org/fileadmin/2008conference/slides/Midford_06_02_TaxonomicOntologies.ppt Taxonomic ontologies: Bridging phylogenetic and taxonomic history.] Presentation at the 2008 TDWG Conference, Fremantle, Western Australia, October 2008.
 
-Paula Mabee, Jim Balhoff, Wasila Dahdul, Hilmar Lapp, John Lundberg, Peter Midford, Todd Vision, Monte Westerfield (2008). [[/wg/phenoscape/images/d/d2/Evolution2008-phenoscape.ppt|Linking evolutionary morphology to genomics using ontologies]]. Poster at the Evolution 2008 Conference, Minneapolis, MN, July 2008.
+Paula Mabee, Jim Balhoff, Wasila Dahdul, Hilmar Lapp, John Lundberg, Peter Midford, Todd Vision, Monte Westerfield (2008). [[Media:Evolution2008-phenoscape.ppt|Linking evolutionary morphology to genomics using ontologies]]. Poster at the Evolution 2008 Conference, Minneapolis, MN, July 2008.
 
-Todd Vision, Jim Balhoff, Wasila Dahdul, Hilmar Lapp, John Lundberg, Paula Mabee, Peter Midford, Monte Westerfield (2008) [[/wg/phenoscape/images/8/8e/Atol.march08.pdf|How to enable computable phenotypes?]] Assembling the Tree of Life Principal Investigators Meeting, Hilton St. Charles, New Orleans, LA, March 2008.
+Todd Vision, Jim Balhoff, Wasila Dahdul, Hilmar Lapp, John Lundberg, Paula Mabee, Peter Midford, Monte Westerfield (2008) [[Media:Atol.march08.pdf|How to enable computable phenotypes?]] Assembling the Tree of Life Principal Investigators Meeting, Hilton St. Charles, New Orleans, LA, March 2008.
 
 Paula Mabee. Keynote presentation at the NSF conference "Where to Next with the Tree of Life?" [http://www.biology.uiowa.edu/ATOL/index.htm http://www.biology.uiowa.edu/ATOL/index.htm] “Development of an Informatics System to bridge AToL and Evo-Devo”. April 4, 2008.
 
