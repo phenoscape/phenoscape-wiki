@@ -3,7 +3,7 @@ title: Publications and Posters
 ---
 
 == Publications ==
-*Segerdell E, Ponferrada VG, James-Zorn C, Burns KA, Fortriede JD, Dahdul WM, Vize PD, Zorn AM.  2013. Enhanced XAO: the ontology of Xenopus anatomy and development underpins more accurate annotation of gene expression and queries on Xenbase.J Biomed Semantics. 2013 Oct 18;4(1):31.  (PMC3816597)
+*Segerdell E, Ponferrada VG, James-Zorn C, Burns KA, Fortriede JD, Dahdul WM, Vize PD, Zorn AM.  2013. Enhanced XAO: the ontology of Xenopus anatomy and development underpins more accurate annotation of gene expression and queries on Xenbase. Journal of Biomedical Semantics. 2013 Oct 18;4(1):31.  (PMC3816597) 
 *Haendel, M.A., Ballhoff, J.P., Bastian, F.B., Blackburn, D.C., Blake, J.A., Comte, A., Dahdul, W.A., Dececchi, T.A., Druzinsky, R.E., Hayamizu, T.F., Ibrahim, N., Lewis, S.E., Mabee, P.M., Niknejad, A., Robinson-Rechavi, M., Sereno, P.C., Mungall, C. J. 2013. Uberon: Unification of multi-species vertebrate anatomy ontologies for comparative biology. Journal of Biomedical Semantics. Accepted, in revision.
 *Dahdul, W.M., H. Cui, P.M. Mabee, C.J. Mungall, D. Osumi-Sutherland, R. Walls, and M. Haendel.  Nose to tail, roots to shoots: spatial descriptors for phenotypic diversity in the Biological Spatial Ontology. Journal of Biomedical Semantics. Accepted, in revision.
 *Midford, P.E., Dececchi, T.A., Balhoff, J.P., Dahdul, W.M., Ibrahim, N., Lapp, H., Lundberg, J.G., Mabee, P.M., Sereno, P.C., Westerfield, M., Vision, T.J.  '''2013'''. The Vertebrate Taxonomy Ontology: A framework for reasoning across model organism and species phenotypes.  Journal of Biomedical Semantics.  http://dx.doi.org/10.1186/2041-1480-4-34.
