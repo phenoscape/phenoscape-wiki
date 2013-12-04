@@ -86,7 +86,7 @@ Wasila Dahdul, James Balhoff, Hilmar Lapp, Peter Midford, Todd Vision, Monte Wes
 
 James P. Balhoff, Peter E. Midford, Hilmar Lapp (2011) International Conference on Biomedical Ontology, Buffalo, NY, [http://www.mendeley.com/download/public/2280031/4561422715/faae92a74742bc35ceca9b3f5862cb94a4cde61e/dl.pdf Integrating anatomy and phenotype ontologies with taxonomic hierarchies], July 2011.
 
-J. Balhoff, W. Dahdul, H. Lapp, P. Mabee, P. Midford, T. Vision, M. Westerfield (2011) "Phenoscape Knowledgebase", Data integration challenge entry presentation for iEvoBio Conference 2011.
+J. Balhoff, W. Dahdul, H. Lapp, P. Mabee, P. Midford, T. Vision, M. Westerfield (2011) [http://www.slideshare.net/balhoff/the-phenoscape-knowledgebase "Phenoscape Knowledgebase"], Data integration challenge entry presentation for iEvoBio Conference 2011.
 
 James P. Balhoff and Hilmar Lapp (2011) Phenotype RCN Meeting, Boulder, CO, "The challenge of expressive reasoning over large knowledgebases", June 1, 2011.
 
