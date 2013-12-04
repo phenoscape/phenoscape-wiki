@@ -26,7 +26,7 @@ title: Publications and Posters
 == Posters & Presentations ==
 
 === 2013 ===
-Balhoff, J., Dececchi, T.A., Mabee, P., Lapp, H.  Semantic tools for aggregation of morphological characters across studies. Annual conference of the Taxonomic Database Working Group. Florence, Italy (November 1 2013)
+Balhoff, J., Dececchi, T.A., Mabee, P., Lapp, H.  [http://www.slideshare.net/balhoff/semantic-tools-for-aggregation-of-morphological-characters-across-studies Semantic tools for aggregation of morphological characters across studies]. Annual conference of the Taxonomic Database Working Group. Florence, Italy (November 1 2013)
 
 Sears, K.E., Marcot, J.D., Mabee, P.M., and T.A. Dececchi. Evolution and development of the limb: Evolution of appendage modularity during the fin to limb transition. Society of Vertebrate Paleontology, Annual Meeting, Los Angeles, CA (October 31, 2013).
 
@@ -36,7 +36,7 @@ Mabee, P.M. Phylogenetic mapping of morphology from multiple studies using ontol
 
 Mabee, P.M. Comparative morphology is integrated with genetics and development in the Phenoscape Knowledgebase.  International Congress of Vertebrate Morphology (ICVM), Barcelona, Spain (July 11, 2013).
 
-Balhoff, J.P. Computing with phenotypic diversity using semantic descriptions. iEvoBio Conference, 26 June 2013, Snowbird, Utah.
+Balhoff, J.P. [http://www.slideshare.net/balhoff/balhoff-i-evobio2013 Computing with phenotypic diversity using semantic descriptions]. iEvoBio Conference, 26 June 2013, Snowbird, Utah.
 
 Mungall, C.J., Jim Balhoff, Frederic Bastian, David Blackburn, Aurelie Comte, Wasila Dahdul , Alex Dececchi, Nizar Ibrahim, Suzanna E Lewis, Paula Mabee, Anne Niknejad, Melissa A Haendel. A merger of multi‐species anatomy ontologies. Biocuration Conference, April 7-10, 2013, Cambridge, UK.
 
