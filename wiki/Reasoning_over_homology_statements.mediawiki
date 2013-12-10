@@ -986,7 +986,7 @@ i.e. no two distinct entity classes can be homologs of the same structure in one
 
 (this is the instance-level relation VBO calls homologous_to)
 
-ID: [http://purl.obolibrary.org/obo/RO_0002158 obo:RO_0002158]. (Also see legacy declaration in [https://sourceforge.net/p/phenoscape/code/HEAD/tree/trunk/vocab/homology/attic/homol_relations.obo homol_relations.obo])
+ID: [http://purl.obolibrary.org/obo/RO_0002158 RO_0002158]. (Also see legacy declaration in [https://sourceforge.net/p/phenoscape/code/HEAD/tree/trunk/vocab/homology/attic/homol_relations.obo homol_relations.obo])
 
 This is simply the chain of two relations. In OWL:
 
