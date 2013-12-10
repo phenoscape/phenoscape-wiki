@@ -956,29 +956,29 @@ and
 
 OBO Format: [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/homology/homol_relations.obo homol_relations.obo]
 
-=== [[#homologous_to]] ===
+=== #homologous_to ===
 
 Note: this is OBO_REL:homologous_to in the above file
 
 This expands to two all-some relations. In OBD, macro-expansion is just another kind of rule
 
- A homologous_to B
- <==>
- all A derived_by_descent_from some anc(A,B)
- and
- all B derived_by_descent_from some anc(A,B)
+A homologous_to B
+<==>
+all A derived_by_descent_from some anc(A,B)
+and
+all B derived_by_descent_from some anc(A,B)
 
 where anc(A,B) =
 
- entity^has_derived_by_descendant(A)^has_derived_by_descendant(B)
+entity^has_derived_by_descendant(A)^has_derived_by_descendant(B)
 
 The function can be implemented as a SQL function which materializes the class expression.
 
 A constraint can be specified as:
 
- A homologous_to B and A homologous_to C and B in_taxon T and C in_taxon T 
- ==>
- B == C
+A homologous_to B and A homologous_to C and B in_taxon T and C in_taxon T
+==>
+B == C
 
 i.e. no two distinct entity classes can be homologs of the same structure in one species
 
