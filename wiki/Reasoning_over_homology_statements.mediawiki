@@ -954,7 +954,7 @@ and
 
 === Relations ===
 
-OBO Format: [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/homology/homol_relations.obo homol_relations.obo]
+OBO Format (legacy): [https://sourceforge.net/p/phenoscape/code/HEAD/tree/trunk/vocab/homology/attic/homol_relations.obo homol_relations.obo]
 
 === #homologous_to ===
 
