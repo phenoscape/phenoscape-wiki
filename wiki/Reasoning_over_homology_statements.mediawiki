@@ -949,8 +949,8 @@ implemented simply as SQL views that mimic statements).
 See
 [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/homology/ vocab/homology]
 
-and
-[https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/homology/README.obd vocab/homology/README.obd]
+and legacy documentation in
+[https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/homology/attic/README.obd vocab/homology/README.obd]
 
 === Relations ===
 
