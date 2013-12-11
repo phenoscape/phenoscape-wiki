@@ -3,7 +3,7 @@ title: Main Page
 ---
 
 {{EventBox1|
-* Note our recent workshop [http://phenoscape.org/wiki/Training_and_Workshops#Workshop_on_New_Tools_for_Studying_Phenotype_Evolution_in_the_Vertebrates.2C_February_7-10.2C_2013] facilitated by [http://knowinnovation.com/ KnowInnovation] at [http://www.calacademy.org/ California Academy of Sciences].  Thanks to the [http://www.nsf.gov/ National Science Foundation] and [http://http://www.deepfin.org/ DeepFin Research Coordination Network] for the funding that made this possible.
+* Note our workshop [http://phenoscape.org/wiki/Training_and_Workshops#Workshop_on_New_Tools_for_Studying_Phenotype_Evolution_in_the_Vertebrates.2C_February_7-10.2C_2013] facilitated by [http://knowinnovation.com/ KnowInnovation] at [http://www.calacademy.org/ California Academy of Sciences].  Thanks to the [http://www.nsf.gov/ National Science Foundation] and [http://http://www.deepfin.org/ DeepFin Research Coordination Network] for the funding that made this possible.
 * Try the [http://kb.phenoscape.org Phenoscape Knowledgebase].  Your feedback is welcome!
 * Check out the latest news on the [http://blog.phenoscape.org/ Phenoscape blog]}}
 
@@ -46,6 +46,7 @@ Paula Mabee (University of South Dakota) and Todd Vision (University of North Ca
 | The Phenoscape project is funded by NSF collaborative grants DBI-1062404 and DBI-1062542 from July 1, 2011, to Jun 30, 2015, and supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0905606.  The original Project Description for this grant is available [[:File:Phenoscape_Project_description_refs.pdf| here]].
 
 This project would not have been possible without the hard work of [[Acknowledgments#Contributors| numerous contributors]] and the results obtained in the [[Linking Evolution to Genomics Using Phenotype Ontologies]] project, which was funded by NSF grant BDI
+
 
 
 
