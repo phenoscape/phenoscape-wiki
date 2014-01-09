@@ -117,4 +117,3 @@ Phenoscape web UI development plan.
 [[Category:Roadmaps]]
 [[Category:User Interface]]
 [[Category:Informatics]]
-[[Category:Outdated]]
