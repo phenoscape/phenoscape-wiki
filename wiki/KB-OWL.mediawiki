@@ -2,8 +2,6 @@
 title: KB-OWL
 ---
 
-{{Outdated}}
-
 This page describes the data model, data loading process, and query methods being developed for a new version of the Phenoscape Knowledgebase built on top of RDF and making use of standard OWL reasoners.
 
 ==Data model==
