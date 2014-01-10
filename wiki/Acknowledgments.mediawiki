@@ -69,7 +69,7 @@ title: Acknowledgments
 * Alan Ruttenberg (University of Buffalo)
 
 === Meetings ===
-
+*  [[WG:Advisory Board Meeting 2013-12-12| Advisory Board meeting on Dec. 12, 2013]]. (by conference call): [[Media:http://phenoscape.org/wiki/File:Phenoscape_Dec_2013_AB_notes.hl.tjv.docx| agenda and notes]] 
 * [[WG:Advisory Board Meeting 2012-12-04| Advisory Board meeting on Dec. 4, 2012]]. (by conference call): [[Media:Phenoscape_AB_Dec2012_minutes.pdf| agenda and notes]]
 * Advisory Board meeting (face to face): Friday, April 27, 2012; Phenoscape project meeting will precede this on April 25, 26
 * [[WG:All-Hands_Meeting_2011-11-11| Advisory Board meeting on Nov. 11, 2011]] (by conference call):  [http://docs.google.com/document/d/1oE9Mp-UVu6r-Ci7G3EHTRaBuXsapyqm7DQ-Q0FjwCyo/edit?hl=en_US agenda] and [[Media:ABmeeting 2011-11-11 notes.pdf| notes]]
