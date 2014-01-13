@@ -228,6 +228,8 @@ Epibranchial bone number: (0) 3; (1) 4
 
 ==== ''Example 7 [paleo studies]''<br/> ====
 
+The convention in paleo stidies is to use "unossfied" when no trace of the element is present; ie, it does not imply cartilage is present.
+
 Pubis (0) unossified, (1) ossified
 
 <span style="font-family:courier new,courier,monospace">State 0: &nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: pubis (is_a bone); Q: absent</span>
