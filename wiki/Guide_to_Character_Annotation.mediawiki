@@ -192,10 +192,6 @@ Epibranchial 1: (2) absent
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: Epibranchial 1 bone, Q: absent</span>
 
-Epibranchial 1: (3) unossified
-
-<span style="font-family: 'courier new', courier, monospace;">&nbsp; &nbsp; &nbsp;</span><span style="font-family: 'courier new', courier, monospace;">E: Epibranchial 1 element, Q: not^ossified</span>
-
 The curator should use both the cartilage and bone terms to annotate state 2 because the author clearly differentiates between the two.
 
 ==== ''Example 2'' ====
