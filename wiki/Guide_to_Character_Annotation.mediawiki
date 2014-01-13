@@ -230,11 +230,9 @@ Epibranchial bone number: (0) 3; (1) 4
 
 Pubis (0) absent, (1) present
 
-<span style="font-family:courier new,courier,monospace">State 0: &nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: pubis; Q: absent</span>
+<span style="font-family:courier new,courier,monospace">State 0: &nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: pubis; Q: unossified</span>
 
-<span style="font-family:courier new,courier,monospace">State 1: &nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: pubis; Q: present</span>
-
-<span style="font-family:courier new,courier,monospace"></span>
+<span style="font-family:courier new,courier,monospace">State 1: &nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: pubis; Q: ossified</span>
 
 == Interpreting Authors' Text<br/> ==
 
