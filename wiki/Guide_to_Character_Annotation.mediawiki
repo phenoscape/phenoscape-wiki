@@ -174,7 +174,9 @@ Example: "opercle, not round". Create a postcomposition for the quality, choosin
 
 Authors sometimes refer to endochondral structures without specifying whether the structure is “bone” or “cartilage.” For example, the convention for a term like “epibranchial 2” or “basibranchial” is that it is composed of bone and when composed of cartilage an author will say “epibranchial 2 cartilage” or “basibranchial cartilage”. However, this is not universally followed and a curator must read the character description and examine associated text and figures to ascertain this. If after reviewing the publication it is still not clear, then the curator can use the “element” term for the structure. In general, the “element” terms should be used sparingly, and only when an author does not indicate whether a structure (e.g. “epibranchial”) is composed of cartilage or bone.
 
-The following are a series of examples demonstrating the use of bone, cartilage, and element terms.
+Note: in paleontological studies, authors may describe an element as "unossified", which is interpreted as the absence of the bone element (see example 7). However, if the matrix of a paleo paper contains extant taxa, ossified for extant taxa means that the element is cartilaginous.
+
+The following are a series of examples demonstrating the use of bone, cartilage, and element terms. 
 
 ==== ''Example 1'' ====
 
