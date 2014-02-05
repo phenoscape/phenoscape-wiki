@@ -178,7 +178,17 @@ Note: in paleontological studies, authors may describe an element as "unossified
 
 The following are a series of examples demonstrating the use of bone, cartilage, and element terms.
 
-==== ''Example 1'' ====
+==== ''Example 1''<br/> ====
+
+Epibranchial 1 bone: (0) present
+
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: epibranchial 1 bone; Q: present</span>
+
+Epibranchial 1 bone: (1) absent
+
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: epibranchial 1 bone; Q: absent</span>
+
+==== ''Example 2''<br/> ====
 
 Epibranchial 1: (0) present and ossified
 
@@ -200,19 +210,13 @@ Epibranchial 1: (2) absent
 
 The curator should use both the cartilage and bone terms to annotate state 2 because the author clearly differentiates between the two.
 
-==== ''Example 2'' ====
+==== ''Example 3''<br/> ====
 
 Epibranchial 1 (0) present, (0) absent. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term:
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: epibranchial 1 element, Q: present or Q: absent</span>
 
-==== ''Example 3'' ====
-
-Epibranchial 1 bone: (0) present; (1) absent
-
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: epibranchial 1 bone; Q: present or Q: absent</span>
-
-==== ''Example 4'' ====
+==== ''Example 4''<br/> ====
 
 Epibranchial 1: (0) triangular. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term:
 
@@ -224,31 +228,23 @@ Epibranchial number: (0) 3; (1) 4. After careful reading of associated text in t
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: epibranchial element; Q: count; Comment: 3 or Comment: 4</span>
 
-==== ''Example 6''<br/> ====
+==== ''Example 6 -- Convention used in paleontology''<br/> ====
 
-Epibranchial bone number: (0) 3; (1) 4
+The convention in paleo studies is to use "unossified" when no trace of the skeletal element is present.&nbsp; It does not imply cartilage is present or absent. For example:
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: epibranchial bone; Q: count; Comment: 3 or Comment: 4</span>
+Pubis: (0) unossified, (1) ossified
 
-==== ''Example 7 [paleo studies]''<br/> ====
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; State 0: &nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: pubis (is_a bone); Q: absent</span>
 
-The convention in paleo studies is to use "unossified" when no trace of the skeletal element is present.&nbsp; It does not imply cartilage is present or absent.
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; State 1: &nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: pubis (is_a bone); Q: present</span>
 
-Pubis (0) unossified, (1) ossified
-
-<span style="font-family:courier new,courier,monospace">State 0: &nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: pubis (is_a bone); Q: absent</span>
-
-<span style="font-family:courier new,courier,monospace">State 1: &nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: pubis (is_a bone); Q: present</span>
-
-
-
-==== ''Example 8-&nbsp; ''Presence of dermal elements<br/> ====
+==== ''Example 7 --&nbsp; ''''Presence of dermal elements''<br/> ====
 
 <span style="font-family:arial,helvetica,sans-serif">Cleithrum: (0) unossified; (1) ossified</span>
 
-<span style="font-family:courier new,courier,monospace">State 0: E: cleithrum; Q: absent</span>
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; State 0: E: cleithrum; Q: absent</span>
 
-<span style="font-family:courier new,courier,monospace">State 1: E: cleithrum; Q: present</span>
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; State 1: E: cleithrum; Q: present</span>
 
 == Interpreting Authors' Text<br/> ==
 
