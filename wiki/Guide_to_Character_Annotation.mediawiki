@@ -156,11 +156,11 @@ Sometimes it is necessary to use a PATO term to modify an entity in post-composi
 
 In other cases, we will want to avoid creating a post-composition. For example, consider the character: "branched dorsal fin ray, present or absent". In this case, we interpret the character as describing the quality of the fin rays being <span style="font-family:courier new,courier,monospace">'branched'</span> or <span style="font-family:courier new,courier,monospace">'unbranched'</span>, rather than present or absent:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:courier new,courier,monospace">E: dorsal fin ray; Q: branched<br/></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:courier new,courier,monospace">E: dorsal fin ray; Q: branched</span>
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp; E: dorsal fin ray: Q: unbranched<br/></span>
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp; E: dorsal fin ray: Q: unbranched</span>
 
-<br/>'''Implications on reasoning.&nbsp; '''It may appear that there are two similar ways to annotate such characters: for example, consider the presence/absence of white hair:<br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: 'hair' bearer_of some 'white'; Q: 'present</span>'<br/><br/>This is different from:<br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: 'hair' Q: 'white</span>'<br/><br/>The first annotation describes the presence of some white hair, whereas the second annotation describes *all* hair being white .&nbsp; Generally, we want to use quality modified entities when annotating these types of complex EQs.
+<br/>'''Implications on reasoning.&nbsp; '''It may appear that there are two similar ways to annotate such characters: for example, consider the presence/absence of white hair:<br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: 'hair' bearer_of some 'white'; Q: 'present</span>'<br/>This is different from:<br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: 'hair' Q: 'white</span>'<br/>The first annotation describes the presence of some white hair, whereas the second annotation describes *all* hair being white .&nbsp; Generally, we want to use quality modified entities when annotating these types of complex EQs.
 
 === 8. Contralateral halves of bilaterally paired structures<br/> ===
 
