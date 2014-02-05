@@ -170,7 +170,7 @@ Example: "opercle, not round". Create a postcomposition for the quality, choosin
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: opercle, Q: shape^not(round)</span>
 
-=== 10. Compositional phenotypes involving skeletal elements<br/> ===
+=== 10. Compositional phenotypes involving 'bone', 'cartilage', and 'skeletal element' terms<br/> ===
 
 Authors sometimes refer to endochondral structures without specifying whether the structure is “bone” or “cartilage.” For example, the convention for a term like “epibranchial 2” or “basibranchial” is that it is composed of bone and when composed of cartilage an author will say “epibranchial 2 cartilage” or “basibranchial cartilage”. However, this is not universally followed and a curator must read the character description and examine associated text and figures to ascertain this. If after reviewing the publication it is still not clear, then the curator can use the “element” term for the structure. In general, the “element” terms should be used sparingly, and only when an author does not indicate whether a structure (e.g. “epibranchial”) is composed of cartilage or bone.
 
@@ -184,13 +184,13 @@ Epibranchial 1: (0) present and ossified
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: Epibranchial 1 bone, Q: present</span>
 
-<span style="font-family:courier new,courier,monospace"></span>''&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Note that the annotation "epibranchial 1 cartilage, absent" is not needed''
+''&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Note that the annotation "epibranchial 1 cartilage, absent" is not needed''
 
 Epibranchial 1: (1) present and cartilaginous
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: Epibranchial 1 cartilage, Q: present</span>
 
-<span style="font-family:courier new,courier,monospace"></span>''&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Note that the annotation "epibranchial 1 bone, absent" is not needed''
+''&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Note that the annotation "epibranchial 1 bone, absent" is not needed''
 
 Epibranchial 1: (2) absent
 
@@ -240,13 +240,13 @@ Pubis (0) unossified, (1) ossified
 
 <span style="font-family:courier new,courier,monospace">State 1: &nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: pubis (is_a bone); Q: present</span>
 
-<span style="font-family:courier new,courier,monospace"></span>
 
-==== ''Example 8-&nbsp; ''Presence of dermal elements <br/> ====
 
-<span style="font-family:arial,helvetica,sans-serif">Cleithrum: (0) unossified; (1) ossified<br/></span>
+==== ''Example 8-&nbsp; ''Presence of dermal elements<br/> ====
 
-<span style="font-family:arial,helvetica,sans-serif"></span><span style="font-family:courier new,courier,monospace">State 0: E: cleithrum; Q: absent</span>
+<span style="font-family:arial,helvetica,sans-serif">Cleithrum: (0) unossified; (1) ossified</span>
+
+<span style="font-family:courier new,courier,monospace">State 0: E: cleithrum; Q: absent</span>
 
 <span style="font-family:courier new,courier,monospace">State 1: E: cleithrum; Q: present</span>
 
