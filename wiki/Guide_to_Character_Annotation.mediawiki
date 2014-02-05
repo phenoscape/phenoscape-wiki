@@ -150,9 +150,17 @@ Similar 'size' and 'shape' terms
 
 In PATO, <span style="font-family:courier new,courier,monospace">increased width</span> (related synonym: "broad") and <span style="font-family:courier new,courier,monospace">broad</span> are now separate terms in PATO.&nbsp; <span style="font-family:courier new,courier,monospace">Increased width</span> has ‘size’ as it’s parent whereas <span style="font-family:courier new,courier,monospace">broad</span> has 'shape' as a parent.&nbsp; By convention, we use <span style="font-family:courier new,courier,monospace">increased width</span> in Phenoscape annotations to indicated variation in the size dimension.
 
-=== 7. Quality-modified entities<br/> ===
+=== 7. Quality-modified entities and 'present'/'absent' annotations<br/> ===
 
-Sometimes it is necessary to use a quality term to modify the entity in post-composition. For example, an author may describe the "number of round teeth":<br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: tooth bearer_of some round; Q: count</span><br/><br/>In other cases, it may appear that there are two similar ways to annotate such characters: for example, the presence/absence of white hair:<br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: 'hair' bearer_of some white; Q: present</span><br/><br/>This is different from:<br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: hair Q: white</span><br/><br/>The first annotation describes the presence of some white hair, whereas the second annotation describes *all* hair being white .&nbsp; Generally, we want to use quality modified entities when annotating these types of complex EQs.
+Sometimes it is necessary to use a PATO term to modify an entity in post-composition. For example, an author may describe the "number of round teeth":<br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: 'tooth' bearer_of some 'round'; Q: 'count'</span>
+
+In other cases, we will want to avoid creating a post-composition. For example, consider the character: "branched dorsal fin ray, present or absent". In this case, we interpret the character as describing the quality of the fin rays being <span style="font-family:courier new,courier,monospace">'branched'</span> or <span style="font-family:courier new,courier,monospace">'unbranched'</span>, rather than present or absent:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:courier new,courier,monospace">E: dorsal fin ray; Q: branched<br/></span>
+
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp; E: dorsal fin ray: Q: unbranched<br/></span>
+
+<br/>'''Implications on reasoning.&nbsp; '''It may appear that there are two similar ways to annotate such characters: for example, consider the presence/absence of white hair:<br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: 'hair' bearer_of some 'white'; Q: 'present</span>'<br/><br/>This is different from:<br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: 'hair' Q: 'white</span>'<br/><br/>The first annotation describes the presence of some white hair, whereas the second annotation describes *all* hair being white .&nbsp; Generally, we want to use quality modified entities when annotating these types of complex EQs.
 
 === 8. Contralateral halves of bilaterally paired structures<br/> ===
 
