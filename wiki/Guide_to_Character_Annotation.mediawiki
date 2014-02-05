@@ -184,9 +184,13 @@ Epibranchial 1: (0) present and ossified
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: Epibranchial 1 bone, Q: present</span>
 
+<span style="font-family:courier new,courier,monospace"></span>''&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Note that the annotation "epibranchial 1 cartilage, absent" is not needed''
+
 Epibranchial 1: (1) present and cartilaginous
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: Epibranchial 1 cartilage, Q: present</span>
+
+<span style="font-family:courier new,courier,monospace"></span>''&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Note that the annotation "epibranchial 1 bone, absent" is not needed''
 
 Epibranchial 1: (2) absent
 
