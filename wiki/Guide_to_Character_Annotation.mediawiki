@@ -98,17 +98,13 @@ Some characters describe multiple aspects of phenotypic variation in an entity (
 
 === 4. Presence/absence characters<br/> ===
 
-Variation in the presence or absence of an entity is annotated using the terms ''present'' and ''absent'', e.g.&nbsp;:<br/><span style="font-family:courier new,courier,monospace">&nbsp;</span>
+Variation in the presence or absence of an entity is annotated using the terms ''present'' and ''absent'', e.g.&nbsp;:<span style="font-family:courier new,courier,monospace">"</span><span style="font-family:courier new,courier,monospace"></span><span style="font-family:courier new,courier,monospace">E: pectoral fin, Q: present"</span> .&nbsp; The use of ''present'' and ''absent'' in curation is a curatorial shortcut to the more logically sound syntax discussed on the [http://obofoundry.org/wiki/index.php/PATO:Absent PATO wiki].&nbsp; Presence annotations in Phenoscape are translated into this logically sound form prior to their addition in the Phenoscape KB.
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: pectoral fin, Q: present E: pectoral fin, Q: absent</span>
-
-The use of ''present'' and ''absent'' in curation is a curatorial shortcut to the more logically sound syntax discussed on the [http://obofoundry.org/wiki/index.php/PATO:Absent PATO wiki]. These annotations will be translated into the logically sound form prior to their addition in the Phenoscape KB.
-
-If a character describes the presence or absence of a structure located on another entity (for example, teeth present on a particular bone), first check to see whether the structure exists as a term in the ontology before creating a post-composition. For example, a character might describe "teeth absent on basihyal bone." Rather than create a post-composition for entity ("tooth^part_of(basihyal bone)"), the entity in this case is a preexisting term chosen from TAO:
+If a character describes the presence or absence of a structure located on another entity (for example, teeth present on a particular bone), first check to see whether the structure exists as a term in the ontology before creating a post-composition. For example, a character might describe "teeth absent on basihyal bone." Rather than create a post-composition for entity ("tooth^part_of(basihyal bone)"), the entity in this case is a preexisting term chosen from UBERON:
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: basihyal tooth, Q: absent</span>
 
-==== Inferred presence from annotation to other attributes ====
+==== Inferred presence from annotation to other attributes<br/> ====
 
 If a character describes both the presence of an entity and some other attribute regarding its features (e.g., 'frontal bone' with state 'present and round'), only the attribute ('round') is annotated because the presence of the entity can be inferred by annotations to any other attribute.
 
