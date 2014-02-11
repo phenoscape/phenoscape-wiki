@@ -103,8 +103,7 @@ The [[Teleost Taxonomy Ontology]] (TTO) is derived from the [http://www.calacade
 * Browse TTO [http://bioportal.bioontology.org/ontologies/38703 at BioPortal]
 
 == Amphibian Taxonomy Ontology (ATO) ==
-The ATO is derived from the [http://amphibiaweb.org/ AmphibiaWeb] list, which provides both taxonomy and some synonyms from ITIS and the [http://www.iucnredlist.org/initiatives/amphibians IUCN redlist].  It also includes a set of fossil taxa requested and curated by David Blackburn.  
-* The current version of the ATO (in OBO format) is available [http://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/ATO.obo here].
+The ATO has been deprecated in favor of generating the Amphibian component of the VTO directly from [http://amphibiaweb.org/amphib_names.txt Amphibiaweb].
 * [http://bioportal.bioontology.org/ontologies/40791?p=terms The version available at BioPortal] is very old and neither used in VTO nor recommended.
 
 == Taxonomic Rank Vocabulary (TAXRANK) ==
