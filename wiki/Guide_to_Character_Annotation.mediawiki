@@ -78,27 +78,35 @@ Annotations are made using the most specific term or post-composition possible f
 
 == Character Annotation Examples<br/> ==
 
-The following are examples of character types commonly encountered in the systematic literature and how we annotate them using the EQ model in Phenex. Abbreviations:<span style="font-family:courier new,courier,monospace">E</span>, entity; <span style="font-family:courier new,courier,monospace">Q</span>, quality, <span style="font-family:courier new,courier,monospace">RE</span>, related entity, <span style="font-family:courier new,courier,monospace">C</span>, count.
+The following are examples of character types commonly encountered in the systematic literature and how we annotate them using the EQ model in Phenex. 
 
-=== 1. Qualities of single physical entities ===
+Abbreviations:<span style="font-family:courier new,courier,monospace">E</span> = anatomical entity from UBERON; <span style="font-family:courier new,courier,monospace">Q</span> = Quality term from PATO, <span style="font-family:courier new,courier,monospace">RE</span>, related anatomical entity, <span style="font-family:courier new,courier,monospace">C</span> = count, numerical value.
 
-Qualities of single physical entities are those that exist in a single entity. These qualities include 'shape,' 'size', and 'structure.' For example, “sigmoid-shaped supraorbital bone” is annotated as:
+=== <br/> ===
+
+Qualities such as 'shape,' 'size', and 'structure' can be applied to single entities. 
+
+Example: “sigmoid-shaped supraorbital bone” is annotated as:
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: supraorbital, Q: sigmoid</span>
 
-=== 2. Qualities of related physical entities<br/> ===
+=== 2. Qualities of related physical entities.<br/> ===
 
-Relational qualities are those that exist between multiple entities. For example, “parietal fused with supraoccipital” is represented as:
+Relational qualities are those that exist between two entities. 
+
+Example: “parietal fused with supraoccipital” is represented as:
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: parietal, Q: fused with, RE: supraoccipital</span>
 
 === 3. Multiple phenotypes for a single character state<br/> ===
 
-Some characters describe multiple aspects of phenotypic variation in an entity (or entities). These characters are represented with multiple EQ statements. For example, a character state may describe "premaxillary teeth round and multicuspidate." This is represented with the following two phenotypes:<br/><br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: premaxillary tooth, Q: round</span><br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: premaxillary tooth, Q: multicuspidate</span>
+Multiple EQ statements can be applied to a single character state.&nbsp;
+
+Example: "State (1). premaxillary teeth round and multicuspidate." This is represented with the following two phenotypes:<br/><br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: premaxillary tooth, Q: round</span><br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: premaxillary tooth, Q: multicuspidate</span>
 
 === 4. Presence/absence characters<br/> ===
 
-Variation in the presence or absence of an entity is annotated using the terms ''present'' and ''absent'', e.g.&nbsp;:<span style="font-family:courier new,courier,monospace">"</span><span style="font-family:courier new,courier,monospace"></span><span style="font-family:courier new,courier,monospace">E: pectoral fin, Q: present"</span> .&nbsp; The use of ''present'' and ''absent'' in curation is a curatorial shortcut to the more logically sound syntax discussed on the [http://obofoundry.org/wiki/index.php/PATO:Absent PATO wiki].&nbsp; Presence annotations in Phenoscape are translated into this logically sound form prior to their addition in the Phenoscape KB.
+The PATO qualities ''present'' and ''absent'' are used to annotate variation in the presence of entities, e.g.&nbsp;:<span style="font-family:courier new,courier,monospace">"</span><span style="font-family:courier new,courier,monospace">E: pectoral fin, Q: present"</span> .&nbsp; (Technical note: The use of ''present'' and ''absent'' in curation is a curatorial shortcut to the more logically sound syntax discussed on the [http://obofoundry.org/wiki/index.php/PATO:Absent PATO wiki].&nbsp; Presence annotations in Phenoscape are translated into this logically sound form prior to their addition in the Phenoscape KB.)
 
 If a character describes the presence or absence of a structure located on another entity (for example, teeth present on a particular bone), first check to see whether the structure exists as a term in the ontology before creating a post-composition. For example, a character might describe "teeth absent on basihyal bone." Rather than create a post-composition for entity ("tooth^part_of(basihyal bone)"), the entity in this case is a preexisting term chosen from UBERON:
 
@@ -242,7 +250,7 @@ Pubis: (0) unossified, (1) ossified
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; State 1: &nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: pubis (is_a bone); Q: present</span>
 
-==== ''Example 7 --&nbsp; ''''Presence of dermal elements''<br/> ====
+==== ''Example 7 --&nbsp; ''''Presence of dermal elements'''''<br/> ====
 
 <span style="font-family:arial,helvetica,sans-serif">Cleithrum: (0) unossified; (1) ossified</span>
 
