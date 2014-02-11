@@ -116,7 +116,7 @@ For example,&nbsp; "frontal bone present and round" requires only one annotation
 
 === 5. Counts ===
 
-Characters involving counts of entities are annotated using the “count” quality. Values for counts are entered in the “Comment” field(*). Note that ranges and lower or upper bounds are recorded as follows:
+The 'count' quality is used to annotate variation in the number of an entity.&nbsp; Values for counts are recorded in the “Count" field (Note: due to a Phenex bug, ranges ("3-5") or symbols ("≥") must be recorded in the "Comment” field. Some examples:
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: vertebra, Q: count, Count: 33</span>
 
@@ -125,8 +125,6 @@ Characters involving counts of entities are annotated using the “count” qual
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: >38</span>
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: ≥48</span>
-
-*NOTE: the "Count" field in Phenex currently does not accept ranges or symbols; therefore, please record these in the Comment field, as seen above.
 
 === 6. Size<br/> ===
 
