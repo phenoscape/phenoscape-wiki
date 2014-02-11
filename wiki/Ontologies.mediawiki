@@ -107,7 +107,7 @@ During 2010, we released a separate [[Taxonomic Rank Vocabulary]], and removed a
 
 Developing TAXRANK as a vocabulary, rather than an ontology (e.g., by defining an ordering relation between ranks) should facilitate its reuse in other taxonomic ontologies.  Developing a cross-authority (e.g., ICZN, ICBN, etc.) ontology of ranks may be possible, but there does not appear to be a compelling need for such an ontology.
 
-* The TAXRANK vocabulary is available in OWL format [http://www.berkeleybop.org/ontologies/taxrank.owl here].
+* The TAXRANK vocabulary is available in OWL format [http://purl.obolibrary.org/obo/taxrank.owl here].
 * The vocabulary can be browsed at [http://bioportal.bioontology.org/ontologies/1419 Bioportal].
 
 == Fish Collection Codes Vocabulary ==
