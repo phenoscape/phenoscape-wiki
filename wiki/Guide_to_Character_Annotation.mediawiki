@@ -78,21 +78,21 @@ Annotations are made using the most specific term or post-composition possible f
 
 == Character Annotation Examples<br/> ==
 
-The following are examples of character types commonly encountered in the systematic literature and how we annotate them using the EQ model in Phenex. 
+The following are examples of character types commonly encountered in the systematic literature and how we annotate them using the EQ model in Phenex.
 
 Abbreviations:<span style="font-family:courier new,courier,monospace">E</span> = anatomical entity from UBERON; <span style="font-family:courier new,courier,monospace">Q</span> = Quality term from PATO, <span style="font-family:courier new,courier,monospace">RE</span>, related anatomical entity, <span style="font-family:courier new,courier,monospace">C</span> = count, numerical value.
 
-=== <br/> ===
+=== 1. Qualities of single physical entities<br/> ===
 
-Qualities such as 'shape,' 'size', and 'structure' can be applied to single entities. 
+Qualities such as 'shape,' 'size', and 'structure' can be applied to single entities.
 
 Example: “sigmoid-shaped supraorbital bone” is annotated as:
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: supraorbital, Q: sigmoid</span>
 
-=== 2. Qualities of related physical entities.<br/> ===
+=== 2. Qualities of related physical entities<br/> ===
 
-Relational qualities are those that exist between two entities. 
+Relational qualities are those that exist between two entities.
 
 Example: “parietal fused with supraoccipital” is represented as:
 
