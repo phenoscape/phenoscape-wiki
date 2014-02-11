@@ -144,9 +144,9 @@ There are various ways an author may describe or compare the size of a structure
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We are currently annotating to this fine level, but as an example, this can also be annotated at the coarse level as: <span style="font-family:courier new,courier,monospace">E: frontal bone, Q: increased length, RE: frontal bone</span>
 
-*'''Size as an ordered series (locally relative phenotype)''' describe a range of sizes in more than two states.&nbsp; Example: "opercle size: small, medium, or large". Choose the quality being compared, and place a number in the Count column indicating the proper sort order (1 < 2 < 3). For "small":
+*'''Size as an ordered series (locally relative phenotype)''' describes a range of sizes in more than two states.&nbsp; For example: "maxilla: long, medium, or short". Choose the relavent size quality being compared, and place a number in the Count column indicating the proper sort order (1 < 2 < 3 for short < medium < long). For "short":
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: opercle, Q: size, Count: 1</span>
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: maxilla, Q: length, Count: 1</span>
 
 Note: For the first two examples above, we use &lt;a href="EQ%20shortcuts%20%28temporary%29"&gt;curatorial shortcuts&lt;/a&gt; in Phenex to represent size (as opposed to creating complex but semantically correct post-compositions). In PATO, the terms <span style="font-family:courier new,courier,monospace">increased size</span> and <span style="font-family:courier new,courier,monospace">decreased size </span>(along with their children) are precomposed relative to "normal" (e.g., ''increased size'' has an ''increased_in'' relationship to "normal").&nbsp; Because the "normal" phenotype does not apply to systematic characters, these annotations will be converted in the KB data loader to the correct form using the appropriate relations (<span style="font-family:courier new,courier,monospace">''increased_in_magnitude_relative_to'', ''decreased_in_magnitude_relative_to'', ''similar_in_magnitude_relative_to''</span>).
 
