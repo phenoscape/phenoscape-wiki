@@ -102,14 +102,10 @@ The [[Teleost Taxonomy Ontology]] (TTO) is derived from the [http://www.calacade
 * The TTO in OWL format is [http://purl.obolibrary.org/obo/tto.owl available here].
 * Browse TTO [http://bioportal.bioontology.org/ontologies/38703 at BioPortal]
 
-== Amphibian Taxonomy Ontology (ATO) ==
-The ATO has been deprecated in favor of generating the Amphibian component of the VTO directly from [http://amphibiaweb.org/amphib_names.txt Amphibiaweb].
-* [http://bioportal.bioontology.org/ontologies/40791?p=terms The version available at BioPortal] is very old and neither used in VTO nor recommended.
-
 == Taxonomic Rank Vocabulary (TAXRANK) ==
 During 2010, we released a separate [[Taxonomic Rank Vocabulary]], and removed all rank terms (e.g., family, genus, etc.) from the taxa within the TTO.  Taxa in the TTO specify their ranks as property values via the metadata relation has_rank, but the object of the has_rank links is contained in the TAXRANK vocabulary.
 
-Developing TAXRANK as a vocabulary, rather than an ontology (e.g., by defining an ordering relation between ranks) should facilitate its reuse in other taxonomic ontologies.  Developing a cross-authority (e.g., ICZN, ICBN, etc.) ontology of ranks may be possible, but there does not appear to be a compelling need for such an ontology. 
+Developing TAXRANK as a vocabulary, rather than an ontology (e.g., by defining an ordering relation between ranks) should facilitate its reuse in other taxonomic ontologies.  Developing a cross-authority (e.g., ICZN, ICBN, etc.) ontology of ranks may be possible, but there does not appear to be a compelling need for such an ontology.
 
 * The TAXRANK vocabulary is available in OWL format [http://www.berkeleybop.org/ontologies/taxrank.owl here].
 * The vocabulary can be browsed at [http://bioportal.bioontology.org/ontologies/1419 Bioportal].
@@ -120,6 +116,10 @@ There is a flat vocabulary of fish collections, based on [http://research.calaca
 
 The current release, as used in Phenex is
 [https://obo.svn.sourceforge.net/viewvc/obo/phenote/trunk/obo-files/fish_collection_abbreviation.obo?view=markup Fish Collection Abbreviations]
+
+== Amphibian Taxonomy Ontology (ATO) ==
+The ATO has been deprecated in favor of generating the Amphibian component of the VTO directly from [http://amphibiaweb.org/amphib_names.txt Amphibiaweb].
+* [http://bioportal.bioontology.org/ontologies/40791?p=terms The version available at BioPortal] is very old and neither used in VTO nor recommended.
 
 == Additional documentation ==
 * [[Documenting taxon concepts used in a publication]]
