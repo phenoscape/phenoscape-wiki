@@ -114,36 +114,45 @@ It is not necessary to annotate the presence of an entity if the character descr
 
 For example,&nbsp; "frontal bone present and round" requires only one annotation:&nbsp; <span style="font-family:courier new,courier,monospace">E: frontal bone Q: round</span> The presence of the frontal bone is inferred by this annotation.
 
-<h3> 5. Counts </h3>
-<p>The 'count' quality is used to annotate variation in the number of an entity.&#160; Values for counts are recorded in the “Count" field (Note: due to a Phenex bug, ranges ("3-5") or symbols ("≥") must be recorded in the "Comment” field. Some examples:
-</p><p><span style="font-family:courier new,courier,monospace">&#160;&#160;&#160;&#160; E: vertebra, Q: count, Count: 33</span>
-</p><p><span style="font-family:courier new,courier,monospace">&#160;&#160;&#160;&#160; </span><span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: 34-38</span>
-</p><p><span style="font-family:courier new,courier,monospace">&#160;&#160;&#160;&#160; </span><span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: &gt;38</span>
-</p><p><span style="font-family:courier new,courier,monospace">&#160;&#160;&#160;&#160; </span><span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: ≥48</span>
-</p>
-<h3> 6. Size<br /> </h3>
-<p>There are various ways an author may describe or compare the size of a structure across taxa. These include:
-</p>
-<ul><li>The <b>size of one structure relative to another structure. </b>For example, "frontal length greater than parietal length" is represented as:
-</li></ul>
-<p><span style="font-family:courier new,courier,monospace">&#160;&#160;&#160;&#160; </span><span style="font-family:courier new,courier,monospace">E: frontal, Q: increased length, E2: parietal</span>
-</p>
-<ul><li>Comparison of the <b>size of a single structure across taxa</b>. For example, "frontal large” is represented as:
-</li></ul>
-<p><span style="font-family:courier new,courier,monospace">&#160;&#160;&#160;&#160; </span><span style="font-family:courier new,courier,monospace">E: frontal, Q: increased size</span>
-</p>
-<ul><li><b>Comparison of multiple dimensions of size for a single structure</b>. For example, an author may describe the frontal bone as having a "greater length relative to width". This requires post-composing the quality with the two PATO terms for length and width:
-</li></ul>
-<p><span style="font-family:courier new,courier,monospace">&#160;&#160;&#160;&#160; </span><span style="font-family:courier new,courier,monospace">E: frontal bone, Q: length^<i>increased_in_magnitude_relative_to</i>(width^<i>inheres_in</i>(frontal bone)</span>)
-</p><p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; We are currently annotating to this fine level, but as an example, this can also be annotated at the coarse level as: <span style="font-family:courier new,courier,monospace">E: frontal bone, Q: increased length, RE: frontal bone</span>
-</p>
-<ul><li><b>Locally relative phenotypes</b> describe a range of sizes in more than two states.&#160; Example: "opercle size: small, medium, or large". Choose the quality being compared, and place a number in the Count column indicating the proper sort order (1 &lt; 2 &lt; 3). For "small":
-</li></ul>
-<p><span style="font-family:courier new,courier,monospace">&#160;&#160;&#160;&#160; </span><span style="font-family:courier new,courier,monospace">E: opercle, Q: size, Count: 1</span>
-</p><p>Note: For the first two examples above, we use &lt;a href="EQ%20shortcuts%20%28temporary%29"&gt;curatorial shortcuts&lt;/a&gt; in Phenex to represent size (as opposed to creating complex but semantically correct post-compositions). In PATO, the terms <span style="font-family:courier new,courier,monospace">increased size</span> and <span style="font-family:courier new,courier,monospace">decreased size </span>(along with their children) are precomposed relative to "normal" (e.g., <i>increased size</i> has an <i>increased_in</i> relationship to "normal").&#160; Because the "normal" phenotype does not apply to systematic characters, these annotations will be converted in the KB data loader to the correct form using the appropriate relations (<span style="font-family:courier new,courier,monospace"><i>increased_in_magnitude_relative_to</i>, <i>decreased_in_magnitude_relative_to</i>, <i>similar_in_magnitude_relative_to</i></span>).
-</p><p>Similar 'size' and 'shape' terms
-</p><p>In PATO, <span style="font-family:courier new,courier,monospace">increased width</span> (related synonym: "broad") and <span style="font-family:courier new,courier,monospace">broad</span> are now separate terms in PATO.&#160; <span style="font-family:courier new,courier,monospace">Increased width</span> has ‘size’ as it’s parent whereas <span style="font-family:courier new,courier,monospace">broad</span> has 'shape' as a parent.&#160; By convention, we use <span style="font-family:courier new,courier,monospace">increased width</span> in Phenoscape annotations to indicated variation in the size dimension.
-</p>
+=== 5. Counts ===
+
+The 'count' quality is used to annotate variation in the number of an entity.&nbsp; Values for counts are recorded in the “Count" field (Note: due to a Phenex bug, ranges ("3-5") or symbols ("≥") must be recorded in the "Comment” field. Some examples:
+
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: vertebra, Q: count, Count: 33</span>
+
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: 34-38</span>
+
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: >38</span>
+
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: ≥48</span>
+
+=== 6. Size<br/> ===
+
+There are various ways an author may describe or compare the size of a structure across taxa. These include:
+
+*The '''size of one structure relative to another structure. '''For example, "frontal length greater than parietal length" is represented as:
+
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: frontal, Q: increased length, E2: parietal</span>
+
+*Comparison of the '''size of a single structure across taxa'''. For example, "frontal large” is represented as:
+
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: frontal, Q: increased size</span>
+
+*'''Comparison of multiple dimensions of size for a single structure'''. For example, an author may describe the frontal bone as having a "greater length relative to width". This requires post-composing the quality with the two PATO terms for length and width:
+
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: frontal bone, Q: length^''increased_in_magnitude_relative_to''(width^''inheres_in''(frontal bone)</span>)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We are currently annotating to this fine level, but as an example, this can also be annotated at the coarse level as: <span style="font-family:courier new,courier,monospace">E: frontal bone, Q: increased length, RE: frontal bone</span>
+
+*'''Size as an ordered series (locally relative phenotype)''' describe a range of sizes in more than two states.&nbsp; Example: "opercle size: small, medium, or large". Choose the quality being compared, and place a number in the Count column indicating the proper sort order (1 < 2 < 3). For "small":
+
+<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: opercle, Q: size, Count: 1</span>
+
+Note: For the first two examples above, we use &lt;a href="EQ%20shortcuts%20%28temporary%29"&gt;curatorial shortcuts&lt;/a&gt; in Phenex to represent size (as opposed to creating complex but semantically correct post-compositions). In PATO, the terms <span style="font-family:courier new,courier,monospace">increased size</span> and <span style="font-family:courier new,courier,monospace">decreased size </span>(along with their children) are precomposed relative to "normal" (e.g., ''increased size'' has an ''increased_in'' relationship to "normal").&nbsp; Because the "normal" phenotype does not apply to systematic characters, these annotations will be converted in the KB data loader to the correct form using the appropriate relations (<span style="font-family:courier new,courier,monospace">''increased_in_magnitude_relative_to'', ''decreased_in_magnitude_relative_to'', ''similar_in_magnitude_relative_to''</span>).
+
+Similar 'size' and 'shape' terms
+
+In PATO, <span style="font-family:courier new,courier,monospace">increased width</span> (related synonym: "broad") and <span style="font-family:courier new,courier,monospace">broad</span> are now separate terms in PATO.&nbsp; <span style="font-family:courier new,courier,monospace">Increased width</span> has ‘size’ as it’s parent whereas <span style="font-family:courier new,courier,monospace">broad</span> has 'shape' as a parent.&nbsp; By convention, we use <span style="font-family:courier new,courier,monospace">increased width</span> in Phenoscape annotations to indicated variation in the size dimension.
 
 === 7. Quality-modified entities and 'present'/'absent' annotations<br/> ===
 
