@@ -170,7 +170,7 @@ In other cases, we will want to avoid creating a post-composition. For example, 
 
 <br/>'''Implications on reasoning.&nbsp; '''It may appear that there are two similar ways to annotate such characters: for example, consider the presence/absence of white hair:<br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: 'hair' bearer_of some 'white'; Q: 'present</span>'<br/>This is different from:<br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: 'hair' Q: 'white</span>'<br/>The first annotation describes the presence of some white hair, whereas the second annotation describes *all* hair being white .&nbsp; Generally, we want to use quality modified entities when annotating these types of complex EQs.
 
-=== 8. Contralateral halves of bilaterally paired structures<br/> ===
+=== 8. Bilaterally paired structures<br/> ===
 
 Terms for the contralateral halves of bilaterally paired structures are created using the <span style="font-family:courier new,courier,monospace">''in_right_side_of'' </span>and <span style="font-family:courier new,courier,monospace">''in_left_side_of'' </span>relations in a post-composition, where the perspective is from the standpoint of the organism. For example:
 
