@@ -114,7 +114,7 @@ It is not necessary to annotate the presence of an entity if the character descr
 
 For example,&nbsp; "frontal bone present and round" requires only one annotation:&nbsp; <span style="font-family:courier new,courier,monospace">E: frontal bone Q: round</span> The presence of the frontal bone is inferred by this annotation.
 
-=== 5. Counts ===
+=== 5. Count<br/> ===
 
 The 'count' quality is used to annotate variation in the number of an entity.&nbsp; Values for counts are recorded in the “Count" field (Note: due to a Phenex bug, ranges ("3-5") or symbols ("≥") must be recorded in the "Comment” field. Some examples:
 
