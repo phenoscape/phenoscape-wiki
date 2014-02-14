@@ -93,7 +93,7 @@ The Phenex settings folder contains cached copies of downloaded ontology files, 
 * '''Unix:'''  ''<user's home>''/.phenex
 
 ===Importing data from a NEXUS file===
-''TODO''
+''TODO, but briefly, use the NeXML plugin within Mesquite to export a NeXML file which Phenex can open.''
 
 <!--
 ===NeXML file format extensions===
