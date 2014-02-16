@@ -94,7 +94,11 @@ The Phenex settings folder contains cached copies of downloaded ontology files, 
 
 === Creating, opening, and saving data files<br/> ===
 
-Phenex uses the NeXML file format for evolutionary data.&nbsp; NEXUS formatted phylogenetic matrices can be converted to NeXML format by using the NeXML plugin within Mesquite. &nbsp;<br/>1. Download the NeXML Mesquite plugin: https://www.dropbox.com/sh/yp8t4jvb5id879m/S7ERRMkUpw<br/>2. Within the nexml_mesquite_plugin folder, there are two folders ("mesquite" and "org").&nbsp; These folders correspond to the "mesquite" and "org" folders in the Mesquite application folder of your computer.&nbsp; You need to copy the CONTENTS of the plugin's "mesquite" and "org" folders to the application folder's "mesquite" and "org" folders, as shown below.<br/>
+Phenex uses the NeXML file format for evolutionary data.&nbsp; NEXUS formatted phylogenetic matrices can be converted to NeXML format by using the NeXML plugin within Mesquite. 
+* Download the NeXML Mesquite plugin: https://www.dropbox.com/sh/yp8t4jvb5id879m/S7ERRMkUpw https://www.dropbox.com/sh/yp8t4jvb5id879m 
+* Within the nexml_mesquite_plugin folder, there are two folders ("mesquite" and "org"). These folders correspond to the "mesquite" and "org" folders in the Mesquite application folder. You need to copy the *contents* of the plugin's "mesquite" and "org" folders to the application folder's "mesquite" and "org" folders, as shown below.
+
+
 
 <!--
 ===NeXML file format extensions===
