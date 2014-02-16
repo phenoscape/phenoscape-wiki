@@ -94,13 +94,12 @@ The Phenex settings folder contains cached copies of downloaded ontology files, 
 
 === Creating, opening, and saving data files<br/> ===
 
-Phenex uses the NeXML file format for evolutionary data.&nbsp; NEXUS formatted phylogenetic matrices can be converted to NeXML format by using the NeXML plugin within Mesquite. 
-* Download the NeXML Mesquite plugin: https://www.dropbox.com/sh/yp8t4jvb5id879m/S7ERRMkUpw https://www.dropbox.com/sh/yp8t4jvb5id879m 
-* Within the nexml_mesquite_plugin folder, there are two folders ("mesquite" and "org"). These folders correspond to the "mesquite" and "org" folders in the Mesquite application folder. You need to copy the *contents* of the plugin's "mesquite" and "org" folders to the application folder's "mesquite" and "org" folders, as shown below.
+Phenex uses the NeXML file format for evolutionary data.&nbsp; NEXUS formatted phylogenetic matrices can be converted to NeXML format by using the NeXML plugin within Mesquite.
 
+*Download the NeXML Mesquite plugin: [https://www.dropbox.com/sh/yp8t4jvb5id879m/S7ERRMkUpw https://www.dropbox.com/sh/yp8t4jvb5id879m/S7ERRMkUpw]
+*Within the nexml_mesquite_plugin folder, there are two folders ("mesquite" and "org"). These folders correspond to the "mesquite" and "org" folders in the Mesquite application folder. You need to copy the *contents* of the plugin's "mesquite" and "org" folders to the application folder's "mesquite" and "org" folders, as shown below.
 
-
-<!--
+<br/><!--
 ===NeXML file format extensions===
 This is out of date and will be updated with the new NeXML metadata scheme soon!
 
@@ -119,7 +118,7 @@ An OBO ontology identifier for a taxon is stored within the taxon's "otu" elemen
 ====Phenotype annotations====
 Phenotype annotations are stored within the "state" element to which they correspond, within a dict using the key "OBO_phenotype".  The value for this dict is an "any" element containing a "phenotype" element.  The "phenotype" element and its children are taken from the [http://www.fruitfly.org/~cjm/obd/formats.html PhenoXML schema].
 <span class="fck_mw_xml" _fck_mw_customtag="true" _fck_mw_tagname="xml">fckLR&lt;state id="889131fa-7e4d-45f0-b918-14d3ba806c65" label="present" symbol="1"&gt;fckLR&lt;dict&gt;fckLR&lt;key&gt;OBO_phenotype&lt;/key&gt;fckLR&lt;any&gt;fckLR&lt;phen:phenotype&gt;fckLR&lt;phen:phenotype_character&gt;fckLR&lt;phen:description/&gt;fckLR&lt;phen:bearer&gt;fckLR&lt;phen:typeref about="TAO:0000203"/&gt;fckLR&lt;/phen:bearer&gt;fckLR&lt;phen:quality&gt;fckLR&lt;phen:typeref about="PATO:0000467"/&gt;fckLR&lt;/phen:quality&gt;fckLR&lt;/phen:phenotype_character&gt;fckLR&lt;/phen:phenotype&gt;fckLR&lt;/any&gt;fckLR&lt;/dict&gt;fckLR&lt;/state&gt;fckLR</span>
--->
+-->http://phenoscape.org/wg/phenoscape/images/2/2e/Nexml_plugin.png
 
 ===Entering polymorphic or uncertain state values===
 The Phenex matrix editor can handle entry of polymorphic or uncertain state values within cells. In order to enter multiple states in a single cell,you must use the matrix "quick editor". Just beneath the matrix view, there is a checkbox titled "Use quick editor". After enabling this setting, when you click to edit a cell, instead of popping up a states menu, the cell will become an editable text field, which operates very much like the matrix cell editor in Mesquite. Here you can simply type the symbol of the state you want to enter. If you want to enter a polymorphism of states 0 and 1, simply enter "0&1" (no spaces). For an uncertainty, use a slash: "0/1".
