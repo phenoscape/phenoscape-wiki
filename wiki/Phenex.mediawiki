@@ -92,8 +92,9 @@ The Phenex settings folder contains cached copies of downloaded ontology files, 
 * '''Windows:''' C:\Documents and Settings\''<user's name>''\Phenex
 * '''Unix:'''  ''<user's home>''/.phenex
 
-===Importing data from a NEXUS file===
-''TODO, but briefly, use the NeXML plugin within Mesquite to export a NeXML file which Phenex can open.''
+=== Creating, opening, and saving data files<br/> ===
+
+Phenex uses the NeXML file format for evolutionary data.&nbsp; NEXUS formatted phylogenetic matrices can be converted to NeXML format by using the NeXML plugin within Mesquite. &nbsp;<br/>1. Download the NeXML Mesquite plugin: https://www.dropbox.com/sh/yp8t4jvb5id879m/S7ERRMkUpw<br/>2. Within the nexml_mesquite_plugin folder, there are two folders ("mesquite" and "org").&nbsp; These folders correspond to the "mesquite" and "org" folders in the Mesquite application folder of your computer.&nbsp; You need to copy the CONTENTS of the plugin's "mesquite" and "org" folders to the application folder's "mesquite" and "org" folders, as shown below.<br/>
 
 <!--
 ===NeXML file format extensions===
@@ -105,60 +106,15 @@ While these data are currently stored within proprietary Phenex dicts, eventuall
 
 ====Document metadata====
 Document metadata is stored within the root "nexml" element in a dict using the key "phenex-metadata".  An "any" element contains custom XML with the elements listed below.
-<xml>
-<dict>
-<key>phenex-metadata</key>
-<any>
-<curators>W. Dahdul</curators>
-<publication>Buckup, 1998</publication>
-<publicationNotes>Evidence codes for matrix is IVS</publicationNotes>
-</any>
-</dict>
-</xml>
+<span class="fck_mw_xml" _fck_mw_customtag="true" _fck_mw_tagname="xml">fckLR&lt;dict&gt;fckLR&lt;key&gt;phenex-metadata&lt;/key&gt;fckLR&lt;any&gt;fckLR&lt;curators&gt;W. Dahdul&lt;/curators&gt;fckLR&lt;publication&gt;Buckup, 1998&lt;/publication&gt;fckLR&lt;publicationNotes&gt;Evidence codes for matrix is IVS&lt;/publicationNotes&gt;fckLR&lt;/any&gt;fckLR&lt;/dict&gt;fckLR</span>
 
 ====Taxon and specimen data====
 An OBO ontology identifier for a taxon is stored within the taxon's "otu" element in a dict using the key "OBO_ID".  The value is a string representing the OBO identifier.  Specimens for this taxon are also stored within the taxon's "otu" element, within a dict using the key "OBO_specimens".  The value for this dict is an "any" element containing custom "specimen' XML elements.  The OBO identifier for the museum collection is stored in a "collection" attribute while the specimen accession number is in an "accession" attribute.
-<xml>
-<otu id="4341922c-a479-4088-b02e-42a0e248a825" label="Acestrorhynchus lacustris">
-<dict>
-<key>OBO_ID</key>
-<string>TTO:1030219</string>
-</dict>
-<dict>
-<key>OBO_specimens</key>
-<any>
-<specimen collection="COLLECTION:0000403" accession="205830"/>
-<specimen collection="COLLECTION:0000403" accession="206997"/>
-<specimen collection="COLLECTION:0000403" accession="207388"/>
-<specimen collection="COLLECTION:0000403" accession="207768"/>
-<specimen collection="COLLECTION:0000403" accession="207850"/>
-</any>
-</dict>
-</otu>
-</xml>
+<span class="fck_mw_xml" _fck_mw_customtag="true" _fck_mw_tagname="xml">fckLR&lt;otu id="4341922c-a479-4088-b02e-42a0e248a825" label="Acestrorhynchus lacustris"&gt;fckLR&lt;dict&gt;fckLR&lt;key&gt;OBO_ID&lt;/key&gt;fckLR&lt;string&gt;TTO:1030219&lt;/string&gt;fckLR&lt;/dict&gt;fckLR&lt;dict&gt;fckLR&lt;key&gt;OBO_specimens&lt;/key&gt;fckLR&lt;any&gt;fckLR&lt;specimen collection="COLLECTION:0000403" accession="205830"/&gt;fckLR&lt;specimen collection="COLLECTION:0000403" accession="206997"/&gt;fckLR&lt;specimen collection="COLLECTION:0000403" accession="207388"/&gt;fckLR&lt;specimen collection="COLLECTION:0000403" accession="207768"/&gt;fckLR&lt;specimen collection="COLLECTION:0000403" accession="207850"/&gt;fckLR&lt;/any&gt;fckLR&lt;/dict&gt;fckLR&lt;/otu&gt;fckLR</span>
 
 ====Phenotype annotations====
 Phenotype annotations are stored within the "state" element to which they correspond, within a dict using the key "OBO_phenotype".  The value for this dict is an "any" element containing a "phenotype" element.  The "phenotype" element and its children are taken from the [http://www.fruitfly.org/~cjm/obd/formats.html PhenoXML schema].
-<xml>
-<state id="889131fa-7e4d-45f0-b918-14d3ba806c65" label="present" symbol="1">
-<dict>
-<key>OBO_phenotype</key>
-<any>
-<phen:phenotype>
-<phen:phenotype_character>
-<phen:description/>
-<phen:bearer>
-<phen:typeref about="TAO:0000203"/>
-</phen:bearer>
-<phen:quality>
-<phen:typeref about="PATO:0000467"/>
-</phen:quality>
-</phen:phenotype_character>
-</phen:phenotype>
-</any>
-</dict>
-</state>
-</xml>
+<span class="fck_mw_xml" _fck_mw_customtag="true" _fck_mw_tagname="xml">fckLR&lt;state id="889131fa-7e4d-45f0-b918-14d3ba806c65" label="present" symbol="1"&gt;fckLR&lt;dict&gt;fckLR&lt;key&gt;OBO_phenotype&lt;/key&gt;fckLR&lt;any&gt;fckLR&lt;phen:phenotype&gt;fckLR&lt;phen:phenotype_character&gt;fckLR&lt;phen:description/&gt;fckLR&lt;phen:bearer&gt;fckLR&lt;phen:typeref about="TAO:0000203"/&gt;fckLR&lt;/phen:bearer&gt;fckLR&lt;phen:quality&gt;fckLR&lt;phen:typeref about="PATO:0000467"/&gt;fckLR&lt;/phen:quality&gt;fckLR&lt;/phen:phenotype_character&gt;fckLR&lt;/phen:phenotype&gt;fckLR&lt;/any&gt;fckLR&lt;/dict&gt;fckLR&lt;/state&gt;fckLR</span>
 -->
 
 ===Entering polymorphic or uncertain state values===
