@@ -1,0 +1,9 @@
+---
+title: Configuring Mesquite with the NeXML plugin
+---
+
+
+*Download the NeXML Mesquite plugin: [https://www.dropbox.com/sh/yp8t4jvb5id879m/S7ERRMkUpw https://www.dropbox.com/sh/yp8t4jvb5id879m/S7ERRMkUpw]
+
+*Within the nexml_mesquite_plugin folder, there are two subfolders ("mesquite" and "org"). The contents of these two folders should be copied into the corresponding "mesquite" and "org" folders in the Mesquite application directory. Note that you need to copy the *contents* of the plugin's "mesquite" and "org" folders to the application folder's "mesquite" and "org" folders, as shown below.
+http://phenoscape.org/wg/phenoscape/images/2/2e/Nexml_plugin.png
