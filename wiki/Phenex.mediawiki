@@ -96,7 +96,7 @@ The Phenex settings folder contains cached copies of downloaded ontology files, 
 
 This introductory screencast demonstrates how to create, open and save files in Phenex: [https://www.youtube.com/watch?v=4y68PehOnSo https://www.youtube.com/watch?v=4y68PehOnSo].
 
-Phenex uses the NeXML file format for evolutionary data.&nbsp; NEXUS formatted phylogenetic matrices can be converted to NeXML format by using the NeXML plugin within Mesquite. Please see the [[#Configuring_Mesquite_with_the_NeXML_plugin|instructions for configuring Mesquite with the NeXML plugin.]]
+Phenex uses the NeXML file format for evolutionary data.&nbsp; NEXUS formatted phylogenetic matrices can be converted to NeXML format by using the NeXML plugin within Mesquite. Please see the [[Configuring_Mesquite_with_the_NeXML_plugin|instructions for configuring Mesquite with the NeXML plugin.]]
 
 ===Entering polymorphic or uncertain state values===
 The Phenex matrix editor can handle entry of polymorphic or uncertain state values within cells. In order to enter multiple states in a single cell,you must use the matrix "quick editor". Just beneath the matrix view, there is a checkbox titled "Use quick editor". After enabling this setting, when you click to edit a cell, instead of popping up a states menu, the cell will become an editable text field, which operates very much like the matrix cell editor in Mesquite. Here you can simply type the symbol of the state you want to enter. If you want to enter a polymorphism of states 0 and 1, simply enter "0&1" (no spaces). For an uncertainty, use a slash: "0/1".
