@@ -6,3 +6,5 @@ title: Configuring Mesquite with the NeXML plugin
 
 *Within the nexml_mesquite_plugin folder, there are two subfolders ("mesquite" and "org"). The contents of these two folders should be copied into the corresponding "mesquite" and "org" folders in the Mesquite application directory. Note that you need to copy the *contents* of the plugin's "mesquite" and "org" folders to the application folder's "mesquite" and "org" folders, as shown below.
 http://phenoscape.org/wg/phenoscape/images/2/2e/Nexml_plugin.png
+
+* You can now start up Mesquite, open a NEXUS file, and export the file (File > Export) in NeXML format.
