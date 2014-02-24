@@ -13,6 +13,8 @@ One of the chief objectives of the Phenoscape project is to present a centralize
 To meet new requirements for scalability, reasoning expressivity, and support for linked data standards, we are developing a new Knowledgebase infrastructure based on RDF and OWL reasoning. Some in-progress components:
 * [http://github.com/phenoscape/phenoscape-owl-tools phenoscape-owl-tools]—build application for generating the RDF content for the Phenoscape KB, including utilities for converting datasets to OWL and running reasoning tasks
 * [http://github.com/phenoscape/phenoscape-kb-services phenoscape-kb-services]—updated web services API for the Knowledgebase. Very early in development so far.
+* [http://github.com/phenoscape/owlet owlet]—a query expansion preprocessor for SPARQL. It parses embedded OWL class expressions and uses an OWL reasoner to replace them with FILTER statements containing the URIs of subclasses of the given class expression (or superclasses, equivalent classes, or instances). It is written in Scala but can be used in any Java application.
+* [http://github.com/phenoscape/scowl Scowl]—a Scala library allowing a declarative approach to composing OWL expressions and axioms using the [http://owlapi.sourceforge.net/ OWL API].
 
 ===Classic version===
 The live Phenoscape Knowledgebase is available at http://kb.phenoscape.org/. It makes use of the following software projects:
