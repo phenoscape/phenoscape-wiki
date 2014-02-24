@@ -2,6 +2,8 @@
 title: KB build process
 ---
 
+''Still being fleshed out''
+
 The Phenoscape KB build process goes through several steps in converting input data sources to a queryable knowledgebase. This page provides some description for each of the steps, most or all of which are implemented in the [https://github.com/phenoscape/phenoscape-owl-tools phenoscape-owl-tools] project.
 
 ==OWL conversion==
