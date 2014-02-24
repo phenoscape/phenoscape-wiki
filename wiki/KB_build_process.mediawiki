@@ -15,3 +15,9 @@ Several standard OWL properties (''part_of'', ''has_part'', ''develops_from'', e
 ==Materialization of inferred axioms==
 
 ==Assertion of absence hierarchy==
+
+[[Category:Reasoning]]
+[[Category:Database]]
+[[Category:Informatics]]
+[[Category:Identifiers]]
+[[Category:Software]]
