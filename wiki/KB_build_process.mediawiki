@@ -1,0 +1,15 @@
+---
+title: KB build process
+---
+
+The Phenoscape KB build process goes through several steps in converting input data sources to a queryable knowledgebase. This page provides some description for each of the steps.
+
+==OWL conversion==
+
+==Identifier cleanup==
+
+==Axiom generation==
+
+==Materialization of inferred axioms==
+
+==Assertion of absence hierarchy==
