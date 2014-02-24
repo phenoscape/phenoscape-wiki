@@ -19,6 +19,7 @@ Several standard OWL properties (''part_of'', ''has_part'', ''develops_from'', e
 ELK reasoner using extracted tbox axioms only (not feasible with individuals included).
 
 ==Assertion of absence hierarchy==
+Based on inverse of hierarchy of negated classes computed by ELK.
 
 [[Category:Reasoning]]
 [[Category:Database]]
