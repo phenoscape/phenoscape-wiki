@@ -83,7 +83,7 @@ All of the inputs to the Phenoscape KB are processed to create a coherent semant
 This project provides a collection of Scala classes which implement various ontology manipulations, as well as OWL converters for the various data formats used by our data providers.
 * https://github.com/phenoscape/phenoscape-owl-tools
 ===KB build process===
-The Knowledgebase is built using a [https://github.com/phenoscape/phenoscape-owl-tools/blob/builder/src/main/scala/org/phenoscape/owl/build/PhenoscapeKB.scala Scala script] within the Phenoscape OWL tools codebase. It orchestrates coordinates OWL conversions and reasoning tasks. The result is a set of OWL files, constituting the Phenoscape KB, which can be loaded together into an RDF triplestore.
+The Knowledgebase is built using a [https://github.com/phenoscape/phenoscape-owl-tools/blob/master/src/main/scala/org/phenoscape/owl/build/PhenoscapeKB.scala Scala script] within the Phenoscape OWL tools codebase. It orchestrates coordinates OWL conversions and reasoning tasks. The result is a set of OWL files, constituting the Phenoscape KB, which can be loaded together into an RDF triplestore.
 
 An overview of specific components of the [[KB build process]] is available.
 
