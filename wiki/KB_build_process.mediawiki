@@ -16,6 +16,7 @@ Several standard OWL properties (''part_of'', ''has_part'', ''develops_from'', e
 * SPARQL facilitation (e.g. materialized existential hierarchies such as part_of)
 
 ==Materialization of inferred axioms==
+ELK reasoner using extracted tbox axioms only (not feasible with individuals included).
 
 ==Assertion of absence hierarchy==
 
