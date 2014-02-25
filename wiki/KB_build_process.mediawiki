@@ -141,7 +141,6 @@ Several common OWL properties (''part_of'', ''has_part'', ''develops_from'', etc
 
 ==Axiom generation==
 * "Absence" classes for OWL EL negation classification workaround: more to come here, but for now see some documentation on [[Absence Phenotypes in OWL]]
-* General class axiom rules for presence–absence inference over part_of, develops_from
 * SPARQL facilitation (e.g. materialized existential hierarchies such as part_of)
 
 ==Materialization of inferred axioms==
