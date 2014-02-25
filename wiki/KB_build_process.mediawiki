@@ -8,6 +8,120 @@ The Phenoscape KB build process goes through several steps in converting input d
 
 ==OWL conversion==
 The Phenoscape Knowledgebase works as a single unified OWL model. While some inputs (e.g. the shared ontologies such as [http://uberon.org/ Uberon] and [http://purl.obolibrary.org/obo/pato PATO]) are natively distributed as OWL documents, others are converted to OWL from some other representation. In doing so the inputs are, as far as possible, converted to a shared data model. EQ annotations are converted to a specific semantic representation.
+===Examples===
+* ZFIN phenotypes
+<table class="summary1">
+                        <tbody><tr>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">1</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">2</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">3</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">4</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">5</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">6</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">7</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">8</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">9</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">10</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">11</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">12</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">13</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">14</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">15</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">16</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">17</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">18</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">19</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">20</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">21</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">22</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">23</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">24</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">25</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF; text-align: center">26</td>
+                            
+                        </tr>
+                        <tr>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">ID</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Gene Symbol</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Gene ID</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Affected Structure or Process 1 subterm ID</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Affected Structure or Process 1 subterm Name</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Post-composed Relationship ID</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Post-composed Relationship Name</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Affected Structure or Process 1 superterm ID</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Affected Structure or Process 1 superterm Name</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Phenotype Keyword ID</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Phenotype Keyword Name</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Phenotype Tag</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Affected Structure or Process 2 subterm ID</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Affected Structure or Process 2 subterm name</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Post-composed Relationship (rel) ID</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Post-composed Relationship (rel) Name</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Affected Structure or Process 2 superterm ID</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Affected Structure or Process 2 superterm name</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Genotype ID</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Genotype Display Name</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Knockdown Reagent ID</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Start Stage ID</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">End Stage ID</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Genotype Environment ID</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Publication ID</td>
+                            
+                                <td style="font-weight: bold; background-color: #CCFFFF;">Figure ID</td>
+                            
+                        </tr>
+                    </tbody></table>
 
 ==Identifier cleanup==
 Several standard OWL properties (''part_of'', ''has_part'', ''develops_from'', etc.) are conceptually shared across ontology and annotation resources, facilitating data integration. However, unlike class identifiers, identifiers for properties are often not standardized and they may not properly reference shared terms (usually because of poor tool support rather than user intent). We maintain a [https://github.com/phenoscape/phenoscape-owl-tools/blob/master/src/main/scala/org/phenoscape/owl/PropertyNormalizer.scala table of "alternative" URIs] for common properties as we observe them in our data inputs. We could create equivalence axioms between these, but instead we just standardize all incoming content. This saves the reasoner some work and also makes it much easier to query across data using standard URIs, especially when not using a reasoner.
