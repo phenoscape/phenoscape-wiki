@@ -123,7 +123,6 @@ The Phenoscape Knowledgebase works as a single unified OWL model. While some inp
 </tr>
 </table>
 
-<pre>
   Individual: <uuid_1>
     Types: AnnotatedPhenotype, <uuid_2>
     Facts: ps:associated_with_gene: <col_3>,
@@ -132,7 +131,8 @@ The Phenoscape Knowledgebase works as a single unified OWL model. While some inp
   
   Class: <uuid_2>
     SubClassOf: <col_10> and (inheres_in some (<col_4> and (<col_6> some <col_8>))) and (towards some (<col_13> and (<col_15> some <col_17>)))
-</pre>
+
+* Annotations from other MODs are similarly structured; however some such as MGI use precoordinated phenotype classes instead of an EQ template. In that case, the phenotype instance is simply an instance of the stated MP phenotype term.
 
 ==Identifier cleanup==
 Several standard OWL properties (''part_of'', ''has_part'', ''develops_from'', etc.) are conceptually shared across ontology and annotation resources, facilitating data integration. However, unlike class identifiers, identifiers for properties are often not standardized and they may not properly reference shared terms (usually because of poor tool support rather than user intent). We maintain a [https://github.com/phenoscape/phenoscape-owl-tools/blob/master/src/main/scala/org/phenoscape/owl/PropertyNormalizer.scala table of "alternative" URIs] for common properties as we observe them in our data inputs. We could create equivalence axioms between these, but instead we just standardize all incoming content. This saves the reasoner some work and also makes it much easier to query across data using standard URIs, especially when not using a reasoner.
