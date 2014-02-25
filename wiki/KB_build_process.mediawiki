@@ -9,7 +9,7 @@ The Phenoscape KB build process goes through several steps in converting input d
 ==OWL conversion==
 The Phenoscape Knowledgebase works as a single unified OWL model. While some inputs (e.g. the shared ontologies such as [http://uberon.org/ Uberon] and [http://purl.obolibrary.org/obo/pato PATO]) are natively distributed as OWL documents, others are converted to OWL from some other representation. In doing so the inputs are, as far as possible, converted to a shared data model. EQ annotations are converted to a specific semantic representation.
 ===Examples===
-* ZFIN phenotype annotations are provided at [http://zfin.org/downloads their data download site]. We translate each row into a phenotype instance: an individual instance of some PATO quality. Here is the column headers table from the ZFIN website, followed by representative OWL syntax (referencing column numbers where actual URI values would be, and somewhat casual with other identifiers):
+* ZFIN phenotype annotations are provided at [http://zfin.org/downloads their data download site]. We translate each row into a phenotype instance: an individual instance of some PATO quality. Here are the column headers from the ZFIN website, followed by representative OWL syntax (referencing column numbers where actual URI values would be, and somewhat casual with other identifiers):
 
 <table class="summary1">
 <tr>
@@ -122,6 +122,7 @@ The Phenoscape Knowledgebase works as a single unified OWL model. While some inp
 
 </tr>
 </table>
+
   Individual: <uuid_1>
     Types: AnnotatedPhenotype, <uuid_2>
     Facts: ps:associated_with_gene: <col_3>,
