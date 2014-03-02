@@ -26,8 +26,10 @@ title: Publications and Posters
 == Posters & Presentations ==
 
 === 2014 ===
-Lapp H. [http://www.slideshare.net/hlapp/cshals-2014-keynote-31803361 Semantics of and for the diversity of life:  Opportunities and perils of trying to reason on the frontier]. Keynote at the 2014 Conference on Semantics in Healthcare and Life Sciences (CSHALS).
-Mabee, P. M. Anatomy in the genomics age.  Seminar to Department of Biology, Salisbury University, MD.  27 February 2014.
+
+Lapp H. [http://www.slideshare.net/hlapp/cshals-2014-keynote-31803361 Semantics of and for the diversity of life:  Opportunities and perils of trying to reason on the frontier]. Keynote at the 2014 Conference on Semantics in Healthcare and Life Sciences (CSHALS). &nbsp;28 February 2014.
+
+Mabee, P. M. Anatomy in the genomics age. Seminar to Department of Biology, Salisbury University, MD. 27 February 2014.
 
 === 2013 ===
 Balhoff, J., Dececchi, T.A., Mabee, P., Lapp, H.  [http://www.slideshare.net/balhoff/semantic-tools-for-aggregation-of-morphological-characters-across-studies Semantic tools for aggregation of morphological characters across studies]. Annual conference of the Taxonomic Database Working Group. Florence, Italy (November 1 2013)
