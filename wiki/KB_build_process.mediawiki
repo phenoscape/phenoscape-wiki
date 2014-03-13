@@ -6,7 +6,7 @@ title: KB build process
 
 The Phenoscape KB build process goes through several steps in converting input data sources to a queryable knowledgebase. This page provides some description for each of the steps, most or all of which are implemented in the [https://github.com/phenoscape/phenoscape-owl-tools phenoscape-owl-tools] project.
 
-[[Image:PhenoscapeKB-build-process.png|center]]
+[[Image:PhenoscapeKB-build-process.png|right|200px]]
 
 ==OWL conversion==
 The Phenoscape Knowledgebase works as a single unified OWL model. While some inputs (e.g. the shared ontologies such as [http://uberon.org/ Uberon] and [http://purl.obolibrary.org/obo/pato PATO]) are natively distributed as OWL documents, others are converted to OWL from some other representation. In doing so the inputs are, as far as possible, converted to a shared data model. EQ annotations are converted to a specific semantic representation.
