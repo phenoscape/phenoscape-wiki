@@ -125,11 +125,11 @@ The Phenoscape Knowledgebase works as a single unified OWL model. While some inp
 
 <pre>
 Individual: <uuid_1>
-Types: ps:AnnotatedPhenotype,
-<uuid_2>
-Facts: ps:associated_with_gene <col_3>,
-ps:associated_with_taxon NCBITaxon:zebrafish,
-dc:source <col_26>
+  Types: ps:AnnotatedPhenotype,
+         <uuid_2>
+  Facts: ps:associated_with_gene <col_3>,
+         ps:associated_with_taxon NCBITaxon:zebrafish,
+         dc:source <col_26>
 
 Class: <uuid_2>
 SubClassOf: <col_10> and
