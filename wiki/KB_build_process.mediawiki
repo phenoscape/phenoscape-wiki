@@ -2,7 +2,7 @@
 title: KB build process
 ---
 
-The Phenoscape KB build process goes through several steps in converting input data sources to a queryable knowledgebase. This page provides some description for each of the steps, most or all of which are implemented in the [https://github.com/phenoscape/phenoscape-owl-tools phenoscape-owl-tools] project.
+The Phenoscape KB build process goes through several steps in converting input data sources to a queryable knowledgebase. This page provides some description for each of the steps, most or all of which are implemented in the [https://github.com/phenoscape/phenoscape-owl-tools phenoscape-owl-tools] project. The result of this pipeline is a unified OWL dataset containing the ontologies and data. The result is loaded as RDF into a [[Bigdata]] triplestore.
 
 [[Image:PhenoscapeKB-build-process.png|right|500px]]
 
@@ -125,11 +125,11 @@ The Phenoscape Knowledgebase works as a single unified OWL model. While some inp
 
 <pre>
 Individual: <uuid_1>
-  Types: ps:AnnotatedPhenotype,
-         <uuid_2>
-  Facts: ps:associated_with_gene <col_3>,
-         ps:associated_with_taxon NCBITaxon:zebrafish,
-         dc:source <col_26>
+Types: ps:AnnotatedPhenotype,
+<uuid_2>
+Facts: ps:associated_with_gene <col_3>,
+ps:associated_with_taxon NCBITaxon:zebrafish,
+dc:source <col_26>
 
 Class: <uuid_2>
 SubClassOf: <col_10> and
