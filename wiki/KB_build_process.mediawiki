@@ -125,18 +125,19 @@ The Phenoscape Knowledgebase works as a single unified OWL model. While some inp
 </tr>
 </table>
 
-  Individual: <uuid_1>
-    Types: ps:AnnotatedPhenotype,
-              <uuid_2>
-    Facts: ps:associated_with_gene <col_3>,
-             ps:associated_with_taxon NCBITaxon:zebrafish,
-             dc:source <col_26>
-  
-  Class: <uuid_2>
-    SubClassOf: <col_10> and 
-                       (inheres_in some (<col_4> and (<col_6> some <col_8>))) and 
-                       (towards some (<col_13> and (<col_15> some <col_17>)))
+<pre>
+Individual: <uuid_1>
+  Types: ps:AnnotatedPhenotype,
+            <uuid_2>
+  Facts: ps:associated_with_gene <col_3>,
+            ps:associated_with_taxon NCBITaxon:zebrafish,
+            dc:source <col_26>
 
+Class: <uuid_2>
+  SubClassOf: <col_10> and
+                     (inheres_in some (<col_4> and (<col_6> some <col_8>))) and
+                     (towards some (<col_13> and (<col_15> some <col_17>)))
+</pre>
 
 * Annotations from other MODs are similarly structured; however some such as MGI use precoordinated phenotype classes instead of an EQ template. In that case, the phenotype instance is simply an instance of the stated [http://www.informatics.jax.org/searches/MP_form.shtml MP] phenotype term.
 
