@@ -1,0 +1,7 @@
+---
+title: Bigdata
+---
+
+For querying across the entire Knowledgebase dataset, Phenoscape is using the [http://wiki.bigdata.com/wiki/index.php/Main_Page Bigdata RDF triplestore]. We selected Bigdata for several reasons:
+* Top SPARQL query performance among open-source triplestores
+* Support for [http://www.w3.org/TR/2013/REC-sparql11-query-20130321/ SPARQL 1.1 query language].
