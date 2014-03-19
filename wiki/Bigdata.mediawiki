@@ -14,6 +14,7 @@ For querying across the entire Knowledgebase dataset, Phenoscape is using the [h
 ** This database holds about 35 million triples.
 * owlet service which expands SPARQL queries using the ELK reasoner and submits them to the preceding Bigdata endpoint. This machine runs Ubuntu Linux, with 4 CPUs and 16 GB RAM. Tomcat is allowed 12 GB RAM.
 ** The ELK instance holds about 750,000 logical axioms.
+** This web application also contains the beginnings of a few web services. These query the SPARQL endpoint over HTTP. Perhaps this application should be revised to directly load Bigdata, as our standalone compute scripts do (below).
 * Direct loading of Bigdata to answer long-running, high-memory queries on the [https://wiki.duke.edu/display/SCSC/DSCR DSCR cluster]. We have machines with many CPUs and over 100 GB RAM.
 ** Example script: https://github.com/phenoscape/presence-absence-matrix
 
