@@ -27,6 +27,7 @@ Since Phenoscape annotations are composed largely of complex OWL class descripti
 
 ==Issues for consideration==
 * Full text searches are quite a bit slower when more than one property is considered. It would be really nice to be able to search <code>?s rdfs:label|obo:related_synonym ?label</code>, but this is not really feasible.
+* Some simple queries can be quite slow, for example counting the number of triples in the database. There seems to be some special optimization for this in Virtuoso, which returns the answer instantly.
 
 [[Category:Informatics]]
 [[Category:Reasoning]]
