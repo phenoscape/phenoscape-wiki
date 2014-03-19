@@ -15,4 +15,8 @@ Since Phenoscape annotations are composed largely of complex OWL class descripti
 * Generated sets of named classes for useful expression patterns. These include annotation property relations which make it easier to query these "class-level relationships" from SPARQL.
 ** Existential restriction hierarchies, such as (part_of some X), where X is every anatomical structure
 ** Absence classes
-* [https://github.com/phenoscape/owlet owlet], which allows embedding of arbitrary DL queries into SPARQL. This provides for an infinite number of possible expressions, but precludes using variables in the class expression.
+* [http://github.com/phenoscape/owlet owlet], which allows embedding of arbitrary DL queries into SPARQL. This provides for an infinite number of possible expressions, but precludes using variables in the class expression.
+
+[[Category:Informatics]]
+[[Category:Reasoning]]
+[[Category:Database]]
