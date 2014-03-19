@@ -8,7 +8,7 @@ For querying across the entire Knowledgebase dataset, Phenoscape is using the [h
 * Embedded full-text index available within SPARQL queries.
 * [http://www.w3.org/Submission/CBD/ Concise bounded description] mode for SPARQL <code>DESCRIBE</code> queries. When blank nodes are included in a <code>DESCRIBE</code> result, this recursively describes them until the graph terminates in named nodes in all directions. This is useful for grabbing the necessary and sufficient RDF graph needed to reconstruct OWL class expressions.
 
-==Machine configurations==
+==Phenoscape machine configurations==
 * SPARQL endpoint using the Bigdata NanoSparqlServer within Apache Tomcat. This machine runs Ubuntu Linux, with 4 CPUs and 8 GB RAM. Tomcat is allowed 6 GB RAM.
 ** This database holds
 * owlet service which expands SPARQL queries using the ELK reasoner and submits them to the preceding Bigdata endpoint. This machine runs Ubuntu Linux, with 4 CPUs and 16 GB RAM. Tomcat is allowed 12 GB RAM.
