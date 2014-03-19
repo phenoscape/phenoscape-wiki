@@ -37,6 +37,7 @@ For several applications we would like to query for data items which are [http:/
 
 Current implementations of semantic similarity compute scores for profile pairs and can run for several hours. It would be nice to develop a system which could query for similar entities on the fly, providing some sort of match score. Could [http://www.systap.com/mpgraph/api/html/index.html MPGraph] play a role here?
 * A difficulty of implementing semantic similarity search using SPARQL queries is the need to find the nearest common ancestor along the subclass hierarchy. A graph traversal API could possibly facilitate this.
+* Scores could also take into account information content of matches, giving more weight to higher information matches.
 
 [[Category:Informatics]]
 [[Category:Reasoning]]
