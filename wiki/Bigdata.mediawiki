@@ -10,3 +10,9 @@ For querying across the entire Knowledgebase dataset, Phenoscape is using the [h
 
 ==Querying with OWL semantics==
 While OWL can be stored as RDF, thinking at the OWL axiom level can be quite different from thinking at the RDF triple level. While OWL matches up nicely with RDF and SPARQL when dealing with object property assertions for individuals, querying using complex class descriptions is much more straightforward using DL queries to an OWL reasoner rather than via SPARQL, which is designed for matching triple patterns. Embedding SPARQL patterns matching pieces of the OWL-to-RDF serialization is error prone and will likely provide incomplete results. It is best to consider that triples using predicates from the OWL namespace are a private implementation detail (e.g. owl:onProperty, owl:someValuesFrom, etc.).
+
+Since Phenoscape annotations are composed largely of complex OWL class descriptions, we use two approaches to make use of OWL semantics within SPARQL queries:
+* Generated sets of named classes for useful expression patterns. These include annotation property relations which make it easier to query these "class-level relationships" from SPARQL.
+** Existential restriction hierarchies, such as (part_of some X), where X is every anatomical structure
+** Absence classes
+* [https://github.com/phenoscape/owlet owlet], which allows embedding of arbitrary DL queries into SPARQL. This provides for an infinite number of possible expressions, but precludes using variables in the class expression.
