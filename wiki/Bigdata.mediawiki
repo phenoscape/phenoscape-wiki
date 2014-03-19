@@ -4,7 +4,7 @@ title: Bigdata
 
 For querying across the entire Knowledgebase dataset, Phenoscape is using the [http://wiki.bigdata.com/wiki/index.php/Main_Page Bigdata RDF triplestore]. We selected Bigdata for several reasons:
 * Top SPARQL query performance among open-source triplestores
-* Support for [http://www.w3.org/TR/2013/REC-sparql11-query-20130321/ SPARQL 1.1 query language]. This is required for aggregates such as "COUNT". "Property paths" also provide basic transitivity reasoning at query time.
+* Support for [http://www.w3.org/TR/2013/REC-sparql11-query-20130321/ SPARQL 1.1 query language]. This is required for aggregates such as <code>COUNT</code>. [http://www.w3.org/TR/sparql11-query/#propertypaths Property paths] also provide basic transitivity reasoning at query time.
 * Embedded full-text index available within SPARQL queries.
 * [http://www.w3.org/Submission/CBD/ Concise bounded description] mode for SPARQL DESCRIBE queries. When blank nodes are included in a DESCRIBE result, this recursively describes them until the graph terminates in named nodes in all directions. This is useful for grabbing the necessary and sufficient RDF graph needed to reconstruct OWL class expressions.
 
