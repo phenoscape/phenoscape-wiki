@@ -32,7 +32,7 @@ Since Phenoscape annotations are composed largely of complex OWL class descripti
 
 ==Future applications==
 ===Semantic similarity===
-For several applications we would like to query for data items which are [http://www.mendeley.com/catalog/similarity-between-semantic-description-sets-addressing-needs-beyond-data-integration/ semantically similar] to each other, meaning they are each annotated with sets of class descriptions which share semantics to a greater degree than with other data items. For example, a gene may be associated with a set of phenotypic expressions such as <code>'''round''' and ''inheres_in'' some '''tail'''</code>, <code>'''small''' and ''inheres_in'' some '''eye'''</code>. What other genes are annotated most similarly? Perhaps another also affects the tail but with a different shape.
+For several applications we would like to query for data items which are [http://www.mendeley.com/catalog/similarity-between-semantic-description-sets-addressing-needs-beyond-data-integration/ semantically similar] to each other, meaning they are each annotated with sets of class descriptions which share semantics to a greater degree than with other data items. For example, a gene may be associated with a set of phenotypic expressions such as <code>'''round''' and ''inheres_in'' some '''tail'''</code>; <code>'''small''' and ''inheres_in'' some '''eye'''</code>. What other genes are annotated most similarly? Perhaps another also affects the tail but with a different shape.
 
 [[Category:Informatics]]
 [[Category:Reasoning]]
