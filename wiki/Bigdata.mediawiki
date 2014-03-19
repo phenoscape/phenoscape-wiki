@@ -24,7 +24,7 @@ While OWL can be stored as RDF, thinking at the OWL axiom level can be quite dif
 Since Phenoscape annotations are composed largely of complex OWL class descriptions, we use two approaches to make use of OWL semantics within SPARQL queries:
 * Generated sets of named classes for useful expression patterns. These include annotation property relations which make it easier to query these "class-level relationships" from SPARQL.
 ** Existential restriction hierarchies, such as (part_of some X), where X is every anatomical structure
-** Absence classes
+** [[KB_build_process#.22Absence.22_classes_for_OWL_EL_negation_classification_workaround Absence classes]]
 * [http://github.com/phenoscape/owlet owlet], which allows embedding of arbitrary DL queries into SPARQL. This provides for an infinite number of possible expressions, but precludes using variables in the class expression.
 
 ==Issues we've encountered==
