@@ -55,7 +55,7 @@ Genetic phenotype annotations for human (''Homo sapiens''). HPO data downloads c
 * Zebrafish anatomy
 ** http://purl.obolibrary.org/obo/zfa.owl
 ** Bridge axioms to Uberon: http://purl.obolibrary.org/obo/uberon/bridge/uberon-ext-bridge-to-zfa.owl
-* Mouse annotations provided by Terry directly reference Uberon; no mouse-specific ontologies are used at this time.
+* Mouse annotations provided by Terry directly reference Uberon; no mouse-specific ontologies are used at this time. ''Out of date, need to update''
 * Xenopus anatomy
 ** http://purl.obolibrary.org/obo/xao.owl
 ** Bridge axioms to Uberon: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.owl
