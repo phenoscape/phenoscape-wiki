@@ -3,7 +3,7 @@ title: Publications and Posters
 ---
 
 == Publications ==
-*Haendel, M.A., Ballhoff, J.P., Bastian, F.B., Blackburn, D.C., Blake, J.A., Comte, A., Dahdul, W.A., Dececchi, T.A., Druzinsky, R.E., Hayamizu, T.F., Ibrahim, N., Lewis, S.E., Mabee, P.M., Niknejad, A., Robinson-Rechavi, M., Sereno, P.C., Mungall, C. J. 2013. Uberon: Unification of multi-species vertebrate anatomy ontologies for comparative biology. Journal of Biomedical Semantics. Accepted, in revision.
+*Haendel, M.A., Ballhoff, J.P., Bastian, F.B., Blackburn, D.C., Blake, J.A., Comte, A., Dahdul, W.A., Dececchi, T.A., Druzinsky, R.E., Hayamizu, T.F., Ibrahim, N., Lewis, S.E., Mabee, P.M., Niknejad, A., Robinson-Rechavi, M., Sereno, P.C., Mungall, C. J. 2013. Uberon: Unification of multi-species vertebrate anatomy ontologies for comparative biology. Journal of Biomedical Semantics. In press (as of 26 March 2014).
 *Dahdul, W.M., H. Cui, P.M. Mabee, C.J. Mungall, D. Osumi-Sutherland, R. Walls, and M. Haendel.  Nose to tail, roots to shoots: spatial descriptors for phenotypic diversity in the Biological Spatial Ontology. Journal of Biomedical Semantics. Accepted, in revision.
 *Midford, P.E., Dececchi, T.A., Balhoff, J.P., Dahdul, W.M., Ibrahim, N., Lapp, H., Lundberg, J.G., Mabee, P.M., Sereno, P.C., Westerfield, M., Vision, T.J.  '''2013'''. The Vertebrate Taxonomy Ontology: A framework for reasoning across model organism and species phenotypes.  Journal of Biomedical Semantics.  http://dx.doi.org/10.1186/2041-1480-4-34.
 *Druzinsky, R.E., Mungall, C.J., Haendel, M., Lapp, H., Mabee, P.M. '''2013'''. What is an anatomy ontology? The Anatomical Record 296:1797-1799. http://dx.doi.org/10.1002/ar.22805.
