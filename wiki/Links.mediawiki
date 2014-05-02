@@ -41,7 +41,7 @@ Discussion of vertebrate and general anatomy issues are posted to the obo-anatom
 * [http://fishbase.org/ FishBase]
 
 ===Morphology image database resources===
-
+* [https://www.flickr.com/photos/109282112@N02/ Phenoscape flickr account]
 * [http://www.morphbank.net/ Morphbank]
 * [http://morphobank.geongrid.org/ MorphoBank]
 * [http://digimorph.org/ Digimorph]
