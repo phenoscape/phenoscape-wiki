@@ -27,7 +27,7 @@ title: Publications and Posters
 
 === 2014 ===
 
-Balhoff, J., T.A. Dececchi, H. Lapp, P. Mabee. Synthetic morphological supermatrices: revealing unknown knowns and reducing missing data. Evolution 2014, Raleigh, NC. http://f1000.com/posters/browse/summary/1095873
+Balhoff, J., T.A. Dececchi, H. Lapp, P. Mabee. [http://f1000.com/posters/browse/summary/1095873 Synthetic morphological supermatrices: revealing unknown knowns and reducing missing data.] Evolution 2014, Raleigh, NC.
 
 Mabee, P. M. Big Anatomy: The new views from integrated anatomy, development, and genes.  Symposium: Anatomy ontologies: Bioinformatics in the anatomical sciences, American Association of Anatomists, Experimental Biology meetings, San Diego, CA.  April 29, 2014.
 
