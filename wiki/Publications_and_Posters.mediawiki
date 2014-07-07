@@ -27,9 +27,11 @@ title: Publications and Posters
 
 === 2014 ===
 
-Mabee, P. M. Big Anatomy: The new views from integrated anatomy, development, and genes.  Symposium: Anatomy ontologies: Bioinformatics in the anatomical sciences, American Association of Anatomists, Experimental Biology meetings, San Diego, CA.  April 29, 2014. 
+Balhoff, J., T.A. Dececchi, H. Lapp, P. Mabee. Synthetic morphological supermatrices: revealing unknown knowns and reducing missing data. Evolution 2014, Raleigh, NC. http://f1000.com/posters/browse/summary/1095873
 
-Dececchi, A., Mabee P.M., and J. Balhoff.  The modern character synthesis: Using semantic tools to aggregate morphological characters across studies. Symposium: Anatomy ontologies: Bioinformatics in the anatomical sciences, American Association of Anatomists, Experimental Biology meetings, San Diego, CA.  April 29, 2014. 
+Mabee, P. M. Big Anatomy: The new views from integrated anatomy, development, and genes.  Symposium: Anatomy ontologies: Bioinformatics in the anatomical sciences, American Association of Anatomists, Experimental Biology meetings, San Diego, CA.  April 29, 2014.
+
+Dececchi, A., Mabee P.M., and J. Balhoff.  The modern character synthesis: Using semantic tools to aggregate morphological characters across studies. Symposium: Anatomy ontologies: Bioinformatics in the anatomical sciences, American Association of Anatomists, Experimental Biology meetings, San Diego, CA.  April 29, 2014.
 
 Lapp H. [http://www.slideshare.net/hlapp/cshals-2014-keynote-31803361 Semantics of and for the diversity of life:  Opportunities and perils of trying to reason on the frontier]. Keynote at the 2014 Conference on Semantics in Healthcare and Life Sciences (CSHALS). &nbsp;28 February 2014.
 
