@@ -2,4 +2,10 @@
 title: Journal Club
 ---
 
-The journal club will meet once a month in the Grey building at NESCent. We will discuss publications in bio-ontologies, applications, semantic similarity etc. The first meeting will be on Wednesday July 30th from 2.00 pm - 3.00 pm. We will be discussing "Semantic Precision and Recall for Concept Annotation of Text" by Michael Bada ''et. al.''.  The manuscript can be found on page 30 of https://docs.google.com/file/d/0B6AZUdKw1IVHQjI3MVFvWjFRWlE/edit .
+The journal club will meet once a month in the Grey building at NESCent. We will discuss publications in bio-ontologies, applications, semantic similarity etc. 
+
+= July 30th ==
+
+'''Time:''' 2.00 pm - 3.00 pm.
+
+We will be discussing "Semantic Precision and Recall for Concept Annotation of Text" by Michael Bada ''et. al.''.  The manuscript can be found on page 30 of https://docs.google.com/file/d/0B6AZUdKw1IVHQjI3MVFvWjFRWlE/edit .
