@@ -2,9 +2,9 @@
 title: Journal Club
 ---
 
-The journal club will meet once a month in the Grey building at NESCent. We will discuss publications in bio-ontologies, applications, semantic similarity etc. 
+The journal club will meet once a month in the Grey building at NESCent. We will discuss publications in bio-ontologies, applications, semantic similarity etc.
 
-= July 30th ==
+== July 30th ==
 
 '''Time:''' 2.00 pm - 3.00 pm.
 
