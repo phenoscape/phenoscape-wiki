@@ -24,6 +24,7 @@ One of the chief objectives of the Phenoscape project is to present a centralize
 * [http://github.com/phenoscape/kb-sparql-queries kb-sparql-queries]—miscellaneous queries for use with the Phenoscape KB SPARQL endpoint. Used for reports and may also aid in navigating the KB RDF datamodel.
 * [http://github.com/phenoscape/phenoscape.github.com phenoscape.github.com]—source for Phenoscape public website
 * The VTOTool assembles the VTO by starting from an initial taxonomy (NCBI) and deleting and splicing in group specific taxonomies (e.g., TTO, ATO).  It will also add taxonomy from PaleoDB and synonyms from other taxonomic source (e.g., Catalog of Life).
+* [http://github.com/phenoscape/phenoday-reasoning-paper phenoday-reasoning-paper]—Demonstration code for [http://phenoday2014.bio-lark.org/pdf/11.pdf paper submission] to the Bio-ontologies SIG [http://phenoday2014.bio-lark.org Phenotype Day] at ISMB 2014.
 
 ==Repositories no longer being used/maintained==
 ===Classic Phenoscape KB===
