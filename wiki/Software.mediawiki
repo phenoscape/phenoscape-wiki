@@ -9,6 +9,7 @@ One of the chief objectives of the Phenoscape project is to present a centralize
 
 * [http://github.com/phenoscape/phenoscape-owl-tools phenoscape-owl-tools]—build application for generating the RDF content for the Phenoscape KB, including utilities for converting datasets to OWL and running reasoning tasks
 * [http://github.com/phenoscape/phenoscape-kb-services phenoscape-kb-services]—updated web services API for the Knowledgebase. Very early in development so far.
+* [http://github.com/phenoscape/phenoscape-data phenoscape-data]—document store for semantically annotated character matrix files. This is the evolutionary data content for the Phenoscape KB.
 * [http://github.com/phenoscape/owlet owlet]—integration of OWL reasoner queries within SPARQL. It parses embedded OWL class expressions and uses an OWL reasoner to either generate a new query by injecting FILTER statements containing the reasoner results, or instead return the reasoner results in SPARQL results format (for use in [http://www.w3.org/TR/sparql11-federated-query/ SPARQL federated queries]). Owlet helps us query our database while making use of the full expressivity found in biological ontologies.
 * [http://github.com/phenoscape/owlery owlery]—web service interface for OWL API reasoner queries. In addition to direct DL queries, Owlery provides a SPARQL endpoint powered by Owlet.
 * [http://github.com/phenoscape/scowl scowl]—a Scala library allowing a declarative approach to composing OWL expressions and axioms using the [http://owlapi.sourceforge.net/ OWL API].
