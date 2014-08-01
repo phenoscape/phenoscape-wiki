@@ -14,8 +14,8 @@ One of the chief objectives of the Phenoscape project is to present a centralize
 
 ==Data curation tools==
 * [http://github.com/phenoscape/Phenex Phenex]—ontology annotation software tailored for phenotype annotation of evolutionary character matrices. It saves ontology annotations alongside traditional character matrix data using the [http://www.nexml.org/ NeXML] format standard for evolutionary data. Also see the [[Phenex|Phenex homepage]].
-* [https://github.com/phenoscape/phenoscape-nlp phenoscape-nlp]—Phenoscape version of the [[CharaParser]] natural-language processing tool, which analyzes the text of character-state descriptions to produce a structured output used to generate proposals for ontological phenotype annotations. We are working to enhance the performance of CharaParser and also to integrate it with Phenex, so that data curators can take advantage of natural-language processing to accelerate their workflow. Developed and maintained by [http://hongcui.faculty.arizona.edu Hong Cui].
-* [https://github.com/phenoscape/charaparser-unsupervised charaparser-unsupervised]—implementation of the CharaParser unsupervised learning algorithm in Java, to be incorporated into the main CharaParser code.
+* [http://github.com/phenoscape/phenoscape-nlp phenoscape-nlp]—Phenoscape version of the [[CharaParser]] natural-language processing tool, which analyzes the text of character-state descriptions to produce a structured output used to generate proposals for ontological phenotype annotations. We are working to enhance the performance of CharaParser and also to integrate it with Phenex, so that data curators can take advantage of natural-language processing to accelerate their workflow. Developed and maintained by [http://hongcui.faculty.arizona.edu Hong Cui].
+* [http://github.com/phenoscape/charaparser-unsupervised charaparser-unsupervised]—implementation of the CharaParser unsupervised learning algorithm in Java, to be incorporated into the main CharaParser code.
 
 ==Other software products==
 ===VTOTool===
