@@ -12,8 +12,6 @@ One of the chief objectives of the Phenoscape project is to present a centralize
 * [http://github.com/phenoscape/owlet Owlet]—a query expansion preprocessor for SPARQL. It parses embedded OWL class expressions and uses an OWL reasoner to replace them with FILTER statements containing the URIs of subclasses of the given class expression (or superclasses, equivalent classes, or instances). Owlet helps us query our database while making use of the full expressivity found in biological ontologies.
 * [http://github.com/phenoscape/scowl Scowl]—a Scala library allowing a declarative approach to composing OWL expressions and axioms using the [http://owlapi.sourceforge.net/ OWL API].
 
-
-
 ==Data curation tools==
 ===Phenex===
 [[Phenex]] is ontology annotation software tailored for phenotype annotation of evolutionary character matrices. It saves ontology annotations alongside traditional character matrix data using the new [http://www.nexml.org/ NeXML] format standard for evolutionary data.
