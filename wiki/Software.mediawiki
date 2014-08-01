@@ -21,6 +21,7 @@ One of the chief objectives of the Phenoscape project is to present a centralize
 
 ==Other active projects==
 * [http://github.com/phenoscape/presence-absence-matrix presence-absence-matrix]—tool for querying a local copy of the Phenoscape KB and generating a synthetic presence/absence character matrix using anatomical reasoning.
+* [http://github.com/phenoscape/kb-sparql-queries kb-sparql-queries]—miscellaneous queries for use with the Phenoscape KB SPARQL endpoint. Used for reports and may also aid in navigating the KB RDF datamodel.
 * [http://github.com/phenoscape/phenoscape.github.com phenoscape.github.com]—source for Phenoscape public website
 * The VTOTool assembles the VTO by starting from an initial taxonomy (NCBI) and deleting and splicing in group specific taxonomies (e.g., TTO, ATO).  It will also add taxonomy from PaleoDB and synonyms from other taxonomic source (e.g., Catalog of Life).
 
