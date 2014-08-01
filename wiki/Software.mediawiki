@@ -5,12 +5,8 @@ title: Software
 This page provides a broad overview of our software development activities. Phenoscape supports open development processes and collaboration. All source code we create is available from open source repositories such as [http://github.com/phenoscape Github] and [http://sourceforge.net/projects/phenoscape/ Sourceforge], and we work with existing open-source projects whenever possible.
 
 ==Phenoscape Knowledgebase==
-One of the chief objectives of the Phenoscape project is to present a centralized repository to store evolutionary phenotype annotations entered by curators and also integrate relevant data imported from partner projects. The Knowledgebase consists of a back-end semantic data store, a web service application which provides a query API for the data, a web application user interface allowing exploration of the Knowledgebase, and accessory tools for loading data.
+One of the chief objectives of the Phenoscape project is to present a centralized repository to store evolutionary phenotype annotations entered by curators and also integrate relevant data imported from partner projects. The Knowledgebase consists of a back-end semantic data store, web services  which provide a query API for the data, a web application user interface allowing exploration of the Knowledgebase, and accessory tools for loading data. To meet requirements for scalability, reasoning expressivity, and support for linked data standards, we are developing a our Knowledgebase infrastructure using the RDF and OWL semantic web standards.
 
-===RDF-OWL version (in development)===
-[[Phenoscape_KB|Phenoscape RDF KB overview]]
-
-To meet new requirements for scalability, reasoning expressivity, and support for linked data standards, we are developing a new Knowledgebase infrastructure based on RDF and OWL reasoning. Some in-progress components:
 * [http://github.com/phenoscape/phenoscape-owl-tools phenoscape-owl-tools]—build application for generating the RDF content for the Phenoscape KB, including utilities for converting datasets to OWL and running reasoning tasks
 * [http://github.com/phenoscape/phenoscape-kb-services phenoscape-kb-services]—updated web services API for the Knowledgebase. Very early in development so far.
 * [http://github.com/phenoscape/owlet Owlet]—a query expansion preprocessor for SPARQL. It parses embedded OWL class expressions and uses an OWL reasoner to replace them with FILTER statements containing the URIs of subclasses of the given class expression (or superclasses, equivalent classes, or instances). Owlet helps us query our database while making use of the full expressivity found in biological ontologies.
