@@ -41,4 +41,5 @@ The first edition of the Phenoscape Knowledgebase is still live at http://kb.phe
 * [http://github.com/phenoscape/PhenoscapeDataLoader Phenoscape data loader] - a Java library providing translations of various data inputs into the OBD model, used within the OBD build script.
 ===Others===
 * [http://github.com/phenoscape/phenoscape-builder phenoscape-builder]—early Ant-based tool for building the RDF-based KB. Replaced by Scala script within [http://github.com/phenoscape/phenoscape-owl-tools phenoscape-owl-tools].
+* [http://github.com/phenoscape/skeleton-image-annotation skeleton-image-annotation]—reference images for the vertebrate skeleton annotated with Uberon terms, using Phenote.
 * TTOTool...
