@@ -44,4 +44,7 @@ The first edition of the Phenoscape Knowledgebase is still live at http://kb.phe
 * [http://github.com/phenoscape/phenoscape-builder phenoscape-builder]—early Ant-based tool for building the RDF-based KB. Replaced by Scala script within [http://github.com/phenoscape/phenoscape-owl-tools phenoscape-owl-tools].
 * [http://github.com/phenoscape/skeleton-image-annotation skeleton-image-annotation]—reference images for the vertebrate skeleton annotated with Uberon terms, using Phenote.
 * [http://github.com/phenoscape/phenoscape-kb-rdf-data phenoscape-kb-rdf-data]—some obsolete full dumps of the RDF knowledgebase. We are exploring making current data dumps available elsewhere, such as at http://datahub.io.
+* [http://github.com/phenoscape/Phenotype-Matching-Queries Phenotype-Matching-Queries]
+* [http://github.com/phenoscape/CMAPOBO CMAPOBO]
+* [http://github.com/phenoscape/synctool-oboedit synctool-oboedit]
 * TTOTool...
