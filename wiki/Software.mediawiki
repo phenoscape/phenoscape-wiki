@@ -47,4 +47,5 @@ The first edition of the Phenoscape Knowledgebase is still live at http://kb.phe
 * [http://github.com/phenoscape/Phenotype-Matching-Queries Phenotype-Matching-Queries]
 * [http://github.com/phenoscape/CMAPOBO CMAPOBO]
 * [http://github.com/phenoscape/synctool-oboedit synctool-oboedit]
+* [http://github.com/phenoscape/ontophenotype-eol ontophenotype-eol]
 * TTOTool...
