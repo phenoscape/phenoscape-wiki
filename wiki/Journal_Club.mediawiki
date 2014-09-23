@@ -4,7 +4,7 @@ title: Journal Club
 
 The journal club will meet once a month in the Grey building at NESCent. We will discuss publications in bio-ontologies, applications, semantic similarity etc.
 
-== 24-Sep=2014, 2-3pm==
+== 24-Sep-2014, 2-3pm==
 Oellrich et al (2014) The influence of disease categories on gene candidate predictions from model organism phenotypes. J Biomed Semantics. 2014; 5(Suppl 1): S4.
 http://doi.org/10.1186/2041-1480-5-S1-S4
 
