@@ -314,7 +314,7 @@ Joints are defined in Uberon according to the skeletal elements that participate
 
 <span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; skeletal </span><span style="font-family:courier new,courier,monospace">joint^connects(metapterygoid)^connects (hyomandibula)</span>
 
-=== Relations used for post-compositions<br/> ===
+== === Relations used for post-compositions<br/>= ==
 
 {| class="wikitable" style="width: 1046px"
 |-
@@ -560,6 +560,8 @@ Note: '''bearer_of''' is most likely used as a modifier of an Entity term, not u
 |}
 
 *[1] [http://phenoscape.org/wiki/Guide_to_Character_Annotation#6._Size see note about curatorial shortcuts related to 'size']
+
+ ==
 
 == Evidence Codes ==
 
