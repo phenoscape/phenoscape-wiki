@@ -1,0 +1,5 @@
+---
+title: Data Availability
+---
+
+#REDIRECT [[Phenoscape data policy]]
