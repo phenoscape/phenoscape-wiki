@@ -11,7 +11,7 @@ title: Acknowledgments
 | style="width: 33%;" | University of Oregon (Zebrafish Information Network)
 |- valign="top"
 | rowspan="4" |
-* [http://visionlab.web.unc.edu/| Todd Vision] (also University of North Carolina at Chapel Hill)
+* [http://visionlab.web.unc.edu/ Todd Vision] (also University of North Carolina at Chapel Hill)
 * [[User:Hlapp| Hilmar Lapp]]
 * [http://www.mendeley.com/profiles/jim-balhoff/ Jim Balhoff]
 * Prashanti Manda
