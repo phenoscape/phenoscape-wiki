@@ -36,7 +36,7 @@ title: Acknowledgments
 | University of Chicago || Mouse Genome Informatics || Cincinnati Children's Hospital Medical Center
 |- valign="top"
 |
-* Paul Sereno
+* [http://paulsereno.uchicago.edu Paul Sereno]
 * Nizar Ibrahim
 |
 * Judith Blake
