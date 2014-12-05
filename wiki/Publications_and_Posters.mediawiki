@@ -31,6 +31,8 @@ title: Publications and Posters
 
 Mabee, P. M. Connecting evolutionary morphology and model organism genetics. Symposium "What should Bioinformatics do for Evodevo" (organized by G. Plickert, M. Blaxter, A. Burke, and P. Mabee) at EuroEvoDevo conference.  Vienna, Austria. 24 July 2014.
 
+Dahdul, W. M., T.A. Dececchi, N. Ibrahim, H. Lapp, P. Mabee. 2014. Moving the mountain: How to transform comparative anatomy into computable anatomy? Poster at Evolution 2014, Raleigh, NC.
+
 Balhoff, J., T.A. Dececchi, H. Lapp, P. Mabee. [http://f1000.com/posters/browse/summary/1095873 Synthetic morphological supermatrices: revealing unknown knowns and reducing missing data.] Evolution 2014, Raleigh, NC.
 
 Mabee, P. M. Big Anatomy: The new views from integrated anatomy, development, and genes.  Symposium: Anatomy ontologies: Bioinformatics in the anatomical sciences, American Association of Anatomists, Experimental Biology meetings, San Diego, CA.  April 29, 2014.
