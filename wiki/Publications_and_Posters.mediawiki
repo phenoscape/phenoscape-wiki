@@ -28,6 +28,7 @@ title: Publications and Posters
 == Posters & Presentations ==
 
 === 2014 ===
+Mabee, P. M., Dececchi, T.A., and D. Blackburn. 2014. Matrix versus monograph: Comparison of phenotypic richness across data sources. Talk at 74th annual meeting of the Society of Vertebrate Paleontology. Berlin, Germany. November 8th 2014. 
 
 Mabee, P. M. Connecting evolutionary morphology and model organism genetics. Symposium "What should Bioinformatics do for Evodevo" (organized by G. Plickert, M. Blaxter, A. Burke, and P. Mabee) at EuroEvoDevo conference.  Vienna, Austria. 24 July 2014.
 
@@ -37,7 +38,7 @@ Balhoff, J., T.A. Dececchi, H. Lapp, P. Mabee. [http://f1000.com/posters/browse/
 
 Mabee, P. M. Big Anatomy: The new views from integrated anatomy, development, and genes.  Symposium: Anatomy ontologies: Bioinformatics in the anatomical sciences, American Association of Anatomists, Experimental Biology meetings, San Diego, CA.  April 29, 2014.
 
-Dececchi, A., Mabee P.M., and J. Balhoff.  The modern character synthesis: Using semantic tools to aggregate morphological characters across studies. Symposium: Anatomy ontologies: Bioinformatics in the anatomical sciences, American Association of Anatomists, Experimental Biology meetings, San Diego, CA.  April 29, 2014.
+Dececchi, T. A.., Mabee P.M., and J. Balhoff.  The modern character synthesis: Using semantic tools to aggregate morphological characters across studies. Symposium: Anatomy ontologies: Bioinformatics in the anatomical sciences, American Association of Anatomists, Experimental Biology meetings, San Diego, CA.  April 29, 2014.
 
 Lapp H. [http://www.slideshare.net/hlapp/cshals-2014-keynote-31803361 Semantics of and for the diversity of life:  Opportunities and perils of trying to reason on the frontier]. Keynote at the 2014 Conference on Semantics in Healthcare and Life Sciences (CSHALS). &nbsp;28 February 2014.
 
