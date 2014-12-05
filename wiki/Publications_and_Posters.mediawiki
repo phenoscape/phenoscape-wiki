@@ -28,7 +28,7 @@ title: Publications and Posters
 == Posters & Presentations ==
 
 === 2014 ===
-Dececchi, T.A., Mabee, P. M., and D. Blackburn. 2014. Matrix versus monograph: Comparison of phenotypic richness across data sources. Talk at 74th annual meeting of the Society of Vertebrate Paleontology. Berlin, Germany. November 8th 2014.
+Dececchi, T.A. (presenter), Mabee, P. M., and D. Blackburn. 2014. Matrix versus monograph: Comparison of phenotypic richness across data sources. Talk at 74th annual meeting of the Society of Vertebrate Paleontology. Berlin, Germany. November 8th 2014.
 
 Mabee, P. M. Connecting evolutionary morphology and model organism genetics. Symposium "What should Bioinformatics do for Evodevo" (organized by G. Plickert, M. Blaxter, A. Burke, and P. Mabee) at EuroEvoDevo conference.  Vienna, Austria. 24 July 2014.
 
