@@ -32,7 +32,7 @@ Mabee, P. M., Dececchi, T.A. (presenter), and D. Blackburn. 2014. Matrix versus 
 
 Mabee, P. M. Connecting evolutionary morphology and model organism genetics. Symposium "What should Bioinformatics do for Evodevo" (organized by G. Plickert, M. Blaxter, A. Burke, and P. Mabee) at EuroEvoDevo conference.  Vienna, Austria. 24 July 2014.
 
-Dahdul, W. M., T.A. Dececchi, N. Ibrahim, H. Lapp, P. Mabee. 2014. Moving the mountain: How to transform comparative anatomy into computable anatomy? Poster at Evolution 2014, Raleigh, NC.
+Dahdul, W. M., T.A. Dececchi, N. Ibrahim, H. Lapp, P. Mabee. 2014. Moving the mountain: How to transform comparative anatomy into computable anatomy? Poster at Evolution 2014, Raleigh, NC. June 23, 2014.
 
 Balhoff, J., T.A. Dececchi, H. Lapp, P. Mabee. [http://f1000.com/posters/browse/summary/1095873 Synthetic morphological supermatrices: revealing unknown knowns and reducing missing data.] Evolution 2014, Raleigh, NC. June 23, 2014.
 
