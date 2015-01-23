@@ -3,6 +3,7 @@ title: Publications and Posters
 ---
 
 == Publications ==
+* Dececchi, T.A., J.P. Balhoff, H. Lapp, P.M. Mabee. '''2015'''. Toward synthesizing our knowledge of morphology: using ontologies and machine reasoning to extract presence/absence evolutionary phenotypes across studies. PeerJ PrePrints 3:e807v1 http://dx.doi.org/10.7287/peerj.preprints.807v1
 * Balhoff, J.P., W.M. Dahdul, T.A. Dececchi, H. Lapp, P.M. Mabee, and T.J. Vision. '''2014'''. Annotation of phenotypic diversity: decoupling data curation and ontology curation using Phenex. Journal of Biomedical Semantics 5:45 http://dx.doi.org/10.1186/2041-1480-5-45
 *Balhoff, J.P., Dececchi, T.A., Mabee, P.M., Lapp, H. '''2014'''. Presence-absence reasoning for evolutionary phenotypes. Peer-reviewed conference paper, Bio-ontologies SIG at ISMB 2014. http://phenoday2014.bio-lark.org/pdf/11.pdf and http://arxiv.org/abs/1410.3862
 *Haendel, M.A., Ballhoff, J.P., Bastian, F.B., Blackburn, D.C., Blake, J.A., Comte, A., Dahdul, W.A., Dececchi, T.A., Druzinsky, R.E., Hayamizu, T.F., Ibrahim, N., Lewis, S.E., Mabee, P.M., Niknejad, A., Robinson-Rechavi, M., Sereno, P.C., Mungall, C. J. '''2014'''. Uberon: Unification of multi-species vertebrate anatomy ontologies for comparative biology. Journal of Biomedical Semantics. 5:21 http://dx.doi.org/10.1186/2041-1480-5-21
