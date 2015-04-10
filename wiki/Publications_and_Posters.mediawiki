@@ -3,7 +3,8 @@ title: Publications and Posters
 ---
 
 == Publications ==
-*Dececchi, T., Mabee, P., Blackburn, D. The phenomic content of monographs and evolutionary matrices.  In review, Systematic Biology.  
+*Edmunds, R.C., Su, B., Balhoff, J.P., Dahdul, W.M., Lapp, H., Lundberg, J.G., Vision, T.J., Dunham, R.A., Mabee, P.M., Westerfield, M. Phenoscape: Identifying candidate genes for species-specific phenotypes.  In revision.  
+*Dececchi, T., Mabee, P., Blackburn, D. The phenomic content of monographs and evolutionary matrices.  In review, Systematic Biology.
 *Dahdul, W., T.A. Dececchi, N. Ibrahim, H. Lapp, P.M. Mabee. '''2015'''. Moving the mountain: Analysis of the effort required to transform comparative anatomy into computable anatomy.  Database.  In press.
 *Deans, A.R., et al., (including Balhoff, Blackburn, Cui, Dahdul, Dececchi, Haendel, Ibrahim, Lapp, Mungall, Westerfeld, Zorn, & Mabee). '''2015'''. Finding Our Way through Phenotypes. PLoS Biol, 13(1), e1002033. [http://dx.doi.org/10.1371/journal.pbio.1002033 http://dx.doi.org/10.1371/journal.pbio.1002033]
 *Dececchi, T.A., J.P. Balhoff, H. Lapp, P.M. Mabee. '''2015'''. Toward synthesizing our knowledge of morphology: using ontologies and machine reasoning to extract presence/absence evolutionary phenotypes across studies. PeerJ PrePrints 3:e807v1 [http://dx.doi.org/10.7287/peerj.preprints.807v1 http://dx.doi.org/10.7287/peerj.preprints.807v1] <span style="color:#ff0000;">PrePrint!</span>
