@@ -165,7 +165,8 @@ Technical note: [http://phenoscape.org/wiki/EQ_shortcuts_%28temporary%29 Curator
 
 === 7. Quality-modified entities and 'present'/'absent' annotations<br/> ===
 
-Sometimes it is necessary to use a PATO term to modify an entity in post-composition. For example, an author may describe the "number of round teeth":<br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: 'tooth' bearer_of some 'round'; Q: 'count'</span>
+Sometimes it is necessary to use a PATO term to modify an entity in post-composition. For example, an author may describe the "number of round teeth":
+ E: 'tooth' bearer_of some 'round'; Q: 'count'
 
 In other cases, we will want to avoid creating a post-composition. For example, consider the character: "branched dorsal fin ray, present or absent". In this case, we interpret the character as describing the quality of the fin rays being <span style="font-family:courier new,courier,monospace">'branched'</span> or <span style="font-family:courier new,courier,monospace">'unbranched'</span>, rather than present or absent:
 
