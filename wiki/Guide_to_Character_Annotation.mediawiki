@@ -92,7 +92,7 @@ Qualities such as 'shape,' 'size', and 'structure' can be applied to single enti
 
 Example: “sigmoid-shaped supraorbital bone” is annotated as:
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: supraorbital, Q: sigmoid</span>
+ E: supraorbital, Q: sigmoid
 
 === 2. Qualities of related physical entities<br/> ===
 
