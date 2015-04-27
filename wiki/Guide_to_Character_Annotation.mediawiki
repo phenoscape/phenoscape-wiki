@@ -2,7 +2,7 @@
 title: Guide to Character Annotation
 ---
 
-This page describes the best practices and guidelines for consistently and accurately representing phenotypes from the systematic literature. We provide examples of character types commonly encountered in the systematics literature, and provide discussion of special cases and issues in their annotation. The standards were developed provide a resource that curators can use to improve annotation consistency and assist in new curator training. 
+This page describes the best practices and guidelines for consistently and accurately representing phenotypes from the systematic literature. The guidelines are an evolving set of standards created to improve annotation consistency for the use cases and goals of the Phenoscape project. We provide examples of character types commonly encountered in the systematics literature, and provide discussion of special cases and issues in their annotation. 
 
 == PATO terms used to annotate systematic characters ==
 
