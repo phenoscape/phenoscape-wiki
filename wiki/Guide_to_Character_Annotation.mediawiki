@@ -136,21 +136,21 @@ There are various ways an author may describe or compare the size of a structure
 
 *The '''size of one structure relative to another structure. '''For example, "frontal length greater than parietal length" is represented as:
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: frontal, Q: increased length, E2: parietal</span>
+ E: frontal, Q: increased length, E2: parietal
 
 *Comparison of the '''size of a single structure across taxa'''. For example, "frontal large” is represented as:
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: frontal, Q: increased size</span>
+ E: frontal, Q: increased size
 
 *'''Comparison of multiple dimensions of size for a single structure'''. For example, an author may describe the frontal bone as having a "greater length relative to width". This requires post-composing the quality with the two PATO terms for length and width:
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: frontal bone, Q: length^''increased_in_magnitude_relative_to''(width^''inheres_in''(frontal bone)</span>)
+ E: frontal bone, Q: length^''increased_in_magnitude_relative_to''(width^''inheres_in''(frontal bone)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We are currently annotating to this fine level, but as an example, this can also be annotated at the coarse level as: <span style="font-family:courier new,courier,monospace">E: frontal bone, Q: increased length, RE: frontal bone</span>
 
 *'''Size as an ordered series (locally relative phenotype)''' describes a range of sizes in more than two states.&nbsp; For example: "maxilla: long, medium, or short". Choose the relavent size quality being compared, and place a number in the Count column indicating the proper sort order (1 < 2 < 3 for short < medium < long). For "short":
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: maxilla, Q: length, Count: 1</span>
+ E: maxilla, Q: length, Count: 1
 
 *<span style="font-size:small"><span style="font-family: Arial;  color: rgb(0, 0, 0);  background-color: transparent;  font-weight: normal;  font-style: normal;  font-variant: normal;  text-decoration: none;  vertical-align: baseline">Comparison of </span><span style="font-family: Arial;  color: rgb(0, 0, 0);  background-color: transparent;  font-weight: bold;  font-style: normal;  font-variant: normal;  text-decoration: none;  vertical-align: baseline">size as a “normal” or “typical” state</span><span style="font-family: Arial;  color: rgb(0, 0, 0);  background-color: transparent;  font-weight: normal;  font-style: normal;  font-variant: normal;  text-decoration: none;  vertical-align: baseline">: &nbsp;Authors will sometimes describe variation in size from a “normal” or “typical” state. &nbsp;Consider state 1 for this character: "femur size: &nbsp;0, small; 1, typical size (or 'normal' or 'not small')". &nbsp;State 1 does not imply imply that the femur is large (therefore ‘increased size’ should not be used) but this state is distinguished from the other state by NOT being small in size. We annotate this as:</span></span>
 
