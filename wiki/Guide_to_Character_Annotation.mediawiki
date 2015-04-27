@@ -243,7 +243,8 @@ Epibranchial 1: (0) triangular. After careful reading of associated text in the 
 
 Epibranchial number: (0) 3; (1) 4. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term:
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: epibranchial element; Q: count; Comment: 3 or Comment: 4</span>
+ E: epibranchial element; Q: Count 3 (State 0)
+ E: epibranchial element; Q: Count 3 (State 1)
 
 ==== ''Example 6 -- Convention used in paleontology''<br/> ====
 
