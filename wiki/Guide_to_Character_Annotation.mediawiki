@@ -256,7 +256,7 @@ Pubis: (0) unossified, (1) ossified
 
 ==== ''Example 7 --&nbsp; ''''Presence of dermal elements'''''<br/> ====
 
- Cleithrum: (0) unossified; (1) ossified
+Cleithrum: (0) unossified; (1) ossified
 
  State 0: E: cleithrum; Q: absent
 
