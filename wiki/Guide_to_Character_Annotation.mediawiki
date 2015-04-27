@@ -84,7 +84,7 @@ Often, multiple phenotypes for a single character state are required to capture 
  E: premaxillary tooth, Q: multicuspidate
 
 
-Abbreviations:<span style="font-family:courier new,courier,monospace">E</span> = anatomical entity from Uberon; <span style="font-family:courier new,courier,monospace">Q</span> = Quality term from PATO, <span style="font-family:courier new,courier,monospace">RE</span>, related anatomical entity, <span style="font-family:courier new,courier,monospace">C</span> = count, numerical value.
+Abbreviations: '''E''' = anatomical entity from Uberon; '''Q''' = Quality term from PATO, '''RE''' = related anatomical entity, '''C''' = count (numerical value).
 
 === 1. Qualities of single physical entities<br/> ===
 
@@ -116,7 +116,7 @@ The PATO qualities ''present'' and ''absent'' are used to annotate variation in 
 
 It is not necessary to annotate the presence of an entity if the character describes some other attribute regarding its features .
 
-For example,&nbsp; "frontal bone present and round" requires only one annotation:&nbsp; <span style="font-family:courier new,courier,monospace">E: frontal bone Q: round</span> The presence of the frontal bone is inferred by this annotation.
+For example, "frontal bone present and round" requires only one annotation: '''E: frontal bone Q: round''' because the presence of frontal bone is inferred by this annotation.
 
 === 5. Count<br/> ===
 
