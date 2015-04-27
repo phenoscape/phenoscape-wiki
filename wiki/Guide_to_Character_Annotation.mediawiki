@@ -100,7 +100,7 @@ Relational qualities are those that exist between two entities.
 
 Example: “parietal fused with supraoccipital” is represented as:
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: parietal, Q: fused with, RE: supraoccipital</span>
+ E: parietal bone, Q: fused with, RE: supraoccipital bone
 
 === 3. Multiple phenotypes for a single character state<br/> ===
 
