@@ -317,7 +317,7 @@ Some post-compositions with multiple differentia do not require nesting (see [ht
 
 Joints are defined in Uberon according to the skeletal elements that participate in the joint. The <span style="font-family:courier new,courier,monospace">''connects''</span> relation is used to relate skeletal elements to skeletal joints.&nbsp; We post-compose joint terms that are not likely to be used repeatedly for annotation. To post-compose a joint, for example the "metapterygoid-hyomandibular joint", use the post-composition editor box by right-clicking on the Entity field and compose the following term.&nbsp; Note that this expression is not nested.
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; skeletal </span><span style="font-family:courier new,courier,monospace">joint^connects(metapterygoid)^connects (hyomandibula)</span>
+ skeletal joint^connects(metapterygoid)^connects (hyomandibula)
 
 == === Relations used for post-compositions<br/>= ==
 
