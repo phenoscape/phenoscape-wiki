@@ -74,7 +74,7 @@ Below is a simplified graph showing a subset of quality terms from the [http://o
 
 == Annotation Specificity ==
 
-Annotations are made using the most specific term or post-composition possible for Entity and Quality. This may not be possible for some characters involving very complex phenotypes, particularly those describing shape variation. In these cases, annotations are made to 'attribute' level PATO terms (e.g., PATO: <span style="font-family:courier new,courier,monospace">shape</span>).
+Annotations are made using the most specific term or post-composition possible for Entity and Quality. This may not be possible for some characters involving very complex phenotypes, particularly those describing shape variation. In these cases, annotations are made to 'attribute' level PATO terms (e.g., PATO: shape).
 
 == Character Annotation Examples<br/> ==
 
@@ -199,31 +199,30 @@ The following are a series of examples demonstrating the use of bone, cartilage,
 
 Epibranchial 1 bone: (0) present
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: epibranchial 1 bone; Q: present</span>
+ E: epibranchial 1 bone; Q: present
 
 Epibranchial 1 bone: (1) absent
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: epibranchial 1 bone; Q: absent</span>
+ E: epibranchial 1 bone; Q: absent
 
 ==== ''Example 2''<br/> ====
 
 Epibranchial 1: (0) present and ossified
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: Epibranchial 1 bone, Q: present</span>
+ E: Epibranchial 1 bone, Q: present
 
-''&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Note that the annotation "epibranchial 1 cartilage, absent" is not needed''
+Note that the annotation "epibranchial 1 cartilage, absent" is not needed''
 
 Epibranchial 1: (1) present and cartilaginous
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: Epibranchial 1 cartilage, Q: present</span>
+ E: Epibranchial 1 cartilage, Q: present
 
-''&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Note that the annotation "epibranchial 1 bone, absent" is not needed''
+Note that the annotation "epibranchial 1 bone, absent" is not needed''
 
 Epibranchial 1: (2) absent
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: Epibranchial 1 cartilage, Q: absent</span>
-
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: Epibranchial 1 bone, Q: absent</span>
+ E: Epibranchial 1 cartilage, Q: absent
+ E: Epibranchial 1 bone, Q: absent
 
 The curator should use both the cartilage and bone terms to annotate state 2 because the author clearly differentiates between the two.
 
@@ -231,13 +230,14 @@ The curator should use both the cartilage and bone terms to annotate state 2 bec
 
 Epibranchial 1 (0) present, (0) absent. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term:
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: epibranchial 1 element, Q: present or Q: absent</span>
+ E: epibranchial 1 element, Q: present 
+ E: epibranchial 1 element, Q: absent
 
 ==== ''Example 4''<br/> ====
 
 Epibranchial 1: (0) triangular. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term:
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: epibranchial 1 element, Q: shape</span>
+ E: epibranchial 1 element, Q: shape
 
 ==== ''Example 5'' ====
 
@@ -247,13 +247,12 @@ Epibranchial number: (0) 3; (1) 4. After careful reading of associated text in t
 
 ==== ''Example 6 -- Convention used in paleontology''<br/> ====
 
-The convention in paleo studies is to use "unossified" when no trace of the skeletal element is present.&nbsp; It does not imply cartilage is present or absent. For example:
+The convention in paleo studies is to use "unossified" when no trace of the skeletal element is present. It does not imply that cartilage is present or absent. For example:
 
 Pubis: (0) unossified, (1) ossified
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; State 0: &nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: pubis (is_a bone); Q: absent</span>
-
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; State 1: &nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: pubis (is_a bone); Q: present</span>
+ E: pubis (is_a bone); Q: absent
+ E: pubis (is_a bone); Q: present
 
 ==== ''Example 7 --&nbsp; ''''Presence of dermal elements'''''<br/> ====
 
