@@ -2,6 +2,8 @@
 title: Guide to Character Annotation
 ---
 
+This page describes the best practices and guidelines for consistently and accurately representing phenotypes from the systematic literature. We provide examples of character types commonly encountered in the systematics literature, and provide discussion of special cases and issues in their annotation. The standards were developed provide a resource that curators can use to improve annotation consistency and assist in new curator training. 
+
 == PATO terms used to annotate systematic characters ==
 
 Below is a simplified graph showing a subset of quality terms from the [http://obofoundry.org/wiki/index.php/PATO:Main_Page Phenotype and Trait Ontology (PATO)] used to curate systematic characters. Terms in orange represent attribute-level qualities.
