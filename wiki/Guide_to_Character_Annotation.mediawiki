@@ -303,11 +303,13 @@ As for semantics, identifiability, and rules for post-composing, the same applie
 
 === Multiple differentia terms and nesting in post-composition ===
 
-Post-compositions can contain multiple differentia terms that are either nested:<span style="font-family:courier new,courier,monospace">process^part_of(anterior region^part_of(maxilla))</span>
+Post-compositions can contain multiple differentia terms that are either nested:
+ anatomical project^part_of(anterior region^part_of(maxilla))
 
-or not: <span style="font-family:courier new,courier,monospace">joint^connects(metapterygoid)^connects(hyomandibula)</span>
+or not nested: 
+ joint^connects(metapterygoid)^connects(hyomandibula)
 
-For nested post-compositions, the order of nested terms is important (e.g., <span style="font-family:courier new,courier,monospace">maxilla^part_of(anterior region^part-of(process))</span> is incorrect), as is the nesting itself (e.g., <span style="font-family:courier new,courier,monospace">process^part_of(anterior region)^part_of(maxilla) </span>is incorrect).
+For nested post-compositions, the order of nested terms is important (e.g., maxilla^part_of(anterior region^part-of(anatomical projection)) is incorrect), as is the nesting itself (e.g., anatomical projection^part_of(anterior region)^part_of(maxilla)  is incorrect).
 
 Some post-compositions with multiple differentia do not require nesting (see [https://www.phenoscape.org/wiki/Guide_to_Character_Annotation#Creating_.22joint.22_terms_on-the-fly discussion of joint post-compositions]).
 
