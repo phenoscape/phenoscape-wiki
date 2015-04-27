@@ -122,13 +122,13 @@ For example,&nbsp; "frontal bone present and round" requires only one annotation
 
 The 'count' quality is used to annotate variation in the number of an entity.&nbsp; Values for counts are recorded in the “Count" field (Note: due to a Phenex bug, ranges ("3-5") or symbols ("≥") must be recorded in the "Comment” field. Some examples:
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: vertebra, Q: count, Count: 33</span>
+ E: vertebra, Q: count, Count: 33
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: 34-38</span>
+ E: vertebra, Q: count, Comment: 34-38
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: >38</span>
+ E: vertebra, Q: count, Comment: >38
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: vertebra, Q: count, Comment: ≥48</span>
+ E: vertebra, Q: count, Comment: ≥48
 
 === 6. Size<br/> ===
 
