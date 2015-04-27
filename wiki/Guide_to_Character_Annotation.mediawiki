@@ -290,7 +290,7 @@ The post-composed term appears in the Entity field as:<span style="font-family:c
 
 The Spatial Ontology (BSPO) is used to post-compose terms related to the margins, surfaces, or regions of skeletal elements. For example, the entity “anterior process of the maxilla" is post-composed as follows:
 
-<span style="font-family:courier new,courier,monospace">process^part_of(anterior region^part_of(maxilla))</span>
+ anatomical projection^part_of(anterior region^part_of(maxilla))
 
 Use of terms for '''regions vs. sides in BSPO:''' Regions are defined as not having well-defined boundaries, unlike sides. For post-compositions, we usually annotate using region terms because the placement of processes on skeletal elements aren't described with very much detail. For example, if an author describes the dorsal process of some bone, then we post-compose "process part of dorsal region part of bone".&nbsp; This also applies to an author describing the shape of a portion of a skeletal element.
 
