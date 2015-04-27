@@ -256,11 +256,11 @@ Pubis: (0) unossified, (1) ossified
 
 ==== ''Example 7 --&nbsp; ''''Presence of dermal elements'''''<br/> ====
 
-<span style="font-family:arial,helvetica,sans-serif">Cleithrum: (0) unossified; (1) ossified</span>
+ Cleithrum: (0) unossified; (1) ossified
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; State 0: E: cleithrum; Q: absent</span>
+ State 0: E: cleithrum; Q: absent
 
-<span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; State 1: E: cleithrum; Q: present</span>
+ State 1: E: cleithrum; Q: present
 
 == Interpreting Authors' Text<br/> ==
 
