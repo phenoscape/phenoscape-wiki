@@ -259,7 +259,6 @@ Pubis: (0) unossified, (1) ossified
 Cleithrum: (0) unossified; (1) ossified
 
  State 0: E: cleithrum; Q: absent
-
  State 1: E: cleithrum; Q: present
 
 == Interpreting Authors' Text<br/> ==
