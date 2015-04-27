@@ -283,7 +283,7 @@ To post-compose a term (for example, "maxillary process") using Phenex, first ty
 
 Now click on “Edit Post-composed Term.” The Editor box should now appear (see below), with “process” in the Genus field. The Genus is the feature of specific interest (varying feature in systematics). Click the “+” button to add a row in the table, type “part_of” in the relationship field, and type “maxilla” in the differentia field. Click OK. [[File:Post-comp-box.jpg|center|Post-comp-box.jpg]]
 
-The post-composed term appears in the Entity field as:<span style="font-family:courier new,courier,monospace">&nbsp; process^part_of(maxilla)</span>
+ process^part_of(maxilla)
 
 === Refining post-compositions using terms from the Spatial Ontology (BSPO)<br/> ===
 
