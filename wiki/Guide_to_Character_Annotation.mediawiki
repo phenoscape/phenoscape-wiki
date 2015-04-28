@@ -122,7 +122,7 @@ For example, "frontal bone present and round" requires only one annotation: '''E
 
 === 5. Count<br/> ===
 
-The 'count' quality is used to annotate variation in the number of an entity.&nbsp; Values for counts are recorded in the “Count" field (Note: due to a Phenex bug, ranges ("3-5") or symbols ("≥") must be recorded in the "Comment” field. Some examples:
+The 'count' quality is used to annotate variation in the number of an entity.&nbsp; Values for counts are recorded in the “Count" field ''(Note: due to a Phenex bug, ranges ("3-5") or symbols ("≥") must be recorded in the "Comment” field)''. Some examples:
 
  E: vertebra, Q: count, Count: 33
 
