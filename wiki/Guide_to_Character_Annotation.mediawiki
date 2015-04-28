@@ -129,17 +129,17 @@ The 'count' quality is used to annotate variation in the number of an entity.&nb
 
 === 5. Size<br/> ===
 
-There are various ways an author may describe or compare the size of a structure across taxa. These include:
+There are various ways an author may describe or compare the size of a structure across taxa. These are summarized below:
 
-*The '''size of one structure relative to another structure. '''For example, "frontal length greater than parietal length" is represented as:
+* '''Relative size''' comparisons compare the size of two structures. For example, "frontal length greater than parietal length" is represented as:
 
- E: frontal, Q: increased length, E2: parietal
+ E: frontal bone, Q: increased length, E2: parietal
 
-*Comparison of the '''size of a single structure across taxa'''. For example, "frontal large” is represented as:
+* '''Size variation across taxa'''. For example, a state describing "frontal large” is annotated as below.  Note that the EQ does not require annotation to terms from a taxonomy ontology because the matrix saved in the Phenex file has a mapping from states to taxa.
 
- E: frontal, Q: increased size
+ E: frontal bone, Q: increased size
 
-*'''Comparison of multiple dimensions of size for a single structure'''. For example, an author may describe the frontal bone as having a "greater length relative to width". This requires post-composing the quality with the two PATO terms for length and width:
+*'''Multiple dimensions of size''' may be described for a single structure. For example, an author may describe the frontal bone as having a "greater length relative to width". This requires post-composing the Quality with PATO: "length" and PATO:"width":
 
  E: frontal bone, Q: length^''increased_in_magnitude_relative_to''(width^''inheres_in''(frontal bone)
 
