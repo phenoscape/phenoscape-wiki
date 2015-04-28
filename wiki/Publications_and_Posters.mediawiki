@@ -65,7 +65,7 @@ title: Publications and Posters
 
 *Dahdul, W.M., Lundberg, J.G., Midford, P.E., Balhoff, J.P., Lapp, H., Vision, T.J., Haendel, M.A., Westerfield, M., Mabee, P.M. '''2010'''. The Teleost Anatomy Ontology: Anatomical Representation for the Genomics Age. Systematic Biology 59(4):369-383. [http://dx.doi.org/10.1093/sysbio/syq013 doi:10.1093/sysbio/syq013]
 
-*Haendel, M.A., Neuhaus, F., Osumi-Sutherland, D.S., Mabee, P.M., Mejino J.L.V., Mungall, C.J., and Smith, B. '''2008'''. [[/wg/phenoscape/images/9/91/Caroreprint.pdf|CARO - The Common Anatomy Reference Ontology]]. ''In:'' Albert Burger, Duncan Davidson and Richard Baldock (Editors): ''Anatomy Ontologies for Bioinformatics: Principles and Practice''. ISBN 978-1-84628-884-5.
+*Haendel, M.A., Neuhaus, F., Osumi-Sutherland, D.S., Mabee, P.M., Mejino J.L.V., Mungall, C.J., and Smith, B. '''2008'''. [[:File:Caroreprint.pdf|CARO - The Common Anatomy Reference Ontology]]. ''In:'' Albert Burger, Duncan Davidson and Richard Baldock (Editors): ''Anatomy Ontologies for Bioinformatics: Principles and Practice''. ISBN 978-1-84628-884-5.
 
 == Posters & Presentations ==
 
