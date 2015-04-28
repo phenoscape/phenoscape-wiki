@@ -208,23 +208,17 @@ Epibranchial 1 bone: (1) absent
 
 ==== ''Example 2''<br/> ====
 
-Epibranchial 1: (0) present and ossified
-
+* Epibranchial 1: (0) present and ossified. 
  E: Epibranchial 1 bone, Q: present
+(Note that the annotation "epibranchial 1 cartilage, absent" is not needed)
 
-Note that the annotation "epibranchial 1 cartilage, absent" is not needed''
-
-Epibranchial 1: (1) present and cartilaginous
-
+* Epibranchial 1: (1) present and cartilaginous
  E: Epibranchial 1 cartilage, Q: present
+(Note that the annotation "epibranchial 1 bone, absent" is not needed)
 
-Note that the annotation "epibranchial 1 bone, absent" is not needed''
-
-Epibranchial 1: (2) absent
-
+* Epibranchial 1: (2) absent
  E: Epibranchial 1 cartilage, Q: absent
  E: Epibranchial 1 bone, Q: absent
-
 The curator should use both the cartilage and bone terms to annotate state 2 because the author clearly differentiates between the two.
 
 ==== ''Example 3''<br/> ====
