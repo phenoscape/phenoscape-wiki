@@ -200,11 +200,11 @@ The following are a series of examples demonstrating the use of bone, cartilage,
 
 Epibranchial 1 bone: (0) present
 
- E: epibranchial 1 bone; Q: present
+ E: epibranchial 1 bone, Q: present
 
 Epibranchial 1 bone: (1) absent
 
- E: epibranchial 1 bone; Q: absent
+ E: epibranchial 1 bone, Q: absent
 
 ==== ''Example 2''<br/> ====
 
@@ -238,8 +238,8 @@ Epibranchial 1: (0) triangular. After careful reading of associated text in the 
 
 Epibranchial number: (0) 3; (1) 4. After careful reading of associated text in the publication, the curator cannot conclude that the author refers to bone or cartilage, and therefore uses "element" term:
 
- E: epibranchial element; Q: Count 3 (State 0)
- E: epibranchial element; Q: Count 3 (State 1)
+ E: epibranchial element, Q: Count 3 (State 0)
+ E: epibranchial element, Q: Count 3 (State 1)
 
 ==== ''Example 6 -- Convention used in paleontology''<br/> ====
 
@@ -247,15 +247,15 @@ The convention in paleo studies is to use "unossified" when no trace of the skel
 
 Pubis: (0) unossified, (1) ossified
 
- E: pubis (is_a bone); Q: absent
- E: pubis (is_a bone); Q: present
+ E: pubis (is_a bone), Q: absent
+ E: pubis (is_a bone), Q: present
 
 ==== ''Example 7 --&nbsp; ''''Presence of dermal elements'''''<br/> ====
 
 Cleithrum: (0) unossified; (1) ossified
 
- E: cleithrum; Q: absent (State 0)
- E: cleithrum; Q: present (State 1)
+ E: cleithrum, Q: absent (State 0)
+ E: cleithrum, Q: present (State 1)
 
 == Interpreting Authors' Text<br/> ==
 
