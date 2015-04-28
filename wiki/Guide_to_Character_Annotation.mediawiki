@@ -112,7 +112,9 @@ Example: "State (1). premaxillary teeth round and multicuspidate." This is repre
 
 === 4. Presence/absence characters<br/> ===
 
-The PATO qualities ''present'' and ''absent'' are used to annotate variation in the presence of entities, e.g.&nbsp;:<span style="font-family:courier new,courier,monospace">"</span><span style="font-family:courier new,courier,monospace">E: pectoral fin, Q: present"</span> .&nbsp; (Technical note: The use of ''present'' and ''absent'' in curation is a curatorial shortcut to the more logically sound syntax discussed on the [http://obofoundry.org/wiki/index.php/PATO:Absent PATO wiki].&nbsp; Presence annotations in Phenoscape are translated into this logically sound form prior to their addition in the Phenoscape KB.)
+The PATO qualities ''present'' and ''absent'' are used to annotate variation in the presence of entities, e.g.:
+ E: pectoral fin, Q: present
+(Technical note: The use of ''present'' and ''absent'' in curation is a curatorial shortcut to the more logically sound syntax discussed on the [http://obofoundry.org/wiki/index.php/PATO:Absent PATO wiki].&nbsp; Presence annotations in Phenoscape are translated into this logically sound form prior to their addition in the Phenoscape KB.)
 
 ==== Inferred presence from annotation to other attributes<br/> ====
 
