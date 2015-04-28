@@ -80,8 +80,7 @@ Annotations are made using the most specific term or post-composition possible f
 
 == Character Annotation Examples<br/> ==
 
-The following are examples of character types commonly encountered in the systematic literature and how we annotate them using the [[EQ for character matrices| Entity-Quality (EQ)]] model in Phenex.
-Often, multiple phenotypes for a single character state are required to capture all of the anatomical details described. For example, an author may describe “premaxillary teeth round and multicuspidate." This is represented with the following two phenotypes:
+The following are examples of character types commonly encountered in the systematic literature and how we annotate them using the [[EQ for character matrices| '''Entity-Quality (EQ)''']] model in Phenex. A character state can often require multiple EQs to capture all of the anatomical details described by an author. For example, a state may describe “premaxillary teeth round and multicuspidate." This is represented with the following two phenotypes:
  E: premaxillary tooth, Q: round
  E: premaxillary tooth, Q: multicuspidate
 
@@ -104,13 +103,7 @@ Example: “parietal fused with supraoccipital” is represented as:
 
  E: parietal bone, Q: fused with, RE: supraoccipital bone
 
-=== 3. Multiple phenotypes for a single character state<br/> ===
-
-Multiple EQ statements can be applied to a single character state.&nbsp;
-
-Example: "State (1). premaxillary teeth round and multicuspidate." This is represented with the following two phenotypes:<br/><br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: premaxillary tooth, Q: round</span><br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:courier new,courier,monospace">E: premaxillary tooth, Q: multicuspidate</span>
-
-=== 4. Presence/absence characters<br/> ===
+=== 3. Presence/absence characters<br/> ===
 
 The PATO qualities ''present'' and ''absent'' are used to annotate variation in the presence of entities, e.g.:
  E: pectoral fin, Q: present
@@ -122,7 +115,7 @@ It is not necessary to annotate the presence of an entity if the character descr
 
 For example, "frontal bone present and round" requires only one annotation: '''E: frontal bone Q: round''' because the presence of frontal bone is inferred by this annotation.
 
-=== 5. Count<br/> ===
+=== 4. Count<br/> ===
 
 The 'count' quality is used to annotate variation in the number of an entity.&nbsp; Values for counts are recorded in the “Count" field ''(Note: due to a Phenex bug, the Count field only accepts integer values; ranges ("3-5") or symbols ("≥") must be recorded in the "Comment” field)''. Some examples:
 
@@ -134,7 +127,7 @@ The 'count' quality is used to annotate variation in the number of an entity.&nb
 
  E: vertebra, Q: count, Comment: ≥48
 
-=== 6. Size<br/> ===
+=== 5. Size<br/> ===
 
 There are various ways an author may describe or compare the size of a structure across taxa. These include:
 
@@ -150,14 +143,14 @@ There are various ways an author may describe or compare the size of a structure
 
  E: frontal bone, Q: length^''increased_in_magnitude_relative_to''(width^''inheres_in''(frontal bone)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We are currently annotating to this fine level, but as an example, this can also be annotated at the coarse level as: 
+We are currently annotating to this fine level, but this can also be annotated at the coarse level as: 
  E: frontal bone, Q: increased length, RE: frontal bone
 
 *'''Size as an ordered series (locally relative phenotype)''' describes a range of sizes in more than two states.&nbsp; For example: "maxilla: long, medium, or short". Choose the relavent size quality being compared, and place a number in the Count column indicating the proper sort order (1 < 2 < 3 for short < medium < long). For "short":
 
  E: maxilla, Q: length, Count: 1
 
-*<span style="font-size:small"><span style="font-family: Arial;  color: rgb(0, 0, 0);  background-color: transparent;  font-weight: normal;  font-style: normal;  font-variant: normal;  text-decoration: none;  vertical-align: baseline">Comparison of </span><span style="font-family: Arial;  color: rgb(0, 0, 0);  background-color: transparent;  font-weight: bold;  font-style: normal;  font-variant: normal;  text-decoration: none;  vertical-align: baseline">size as a “normal” or “typical” state</span><span style="font-family: Arial;  color: rgb(0, 0, 0);  background-color: transparent;  font-weight: normal;  font-style: normal;  font-variant: normal;  text-decoration: none;  vertical-align: baseline">: &nbsp;Authors will sometimes describe variation in size from a “normal” or “typical” state. &nbsp;Consider state 1 for this character: "femur size: &nbsp;0, small; 1, typical size (or 'normal' or 'not small')". &nbsp;State 1 does not imply imply that the femur is large (therefore ‘increased size’ should not be used) but this state is distinguished from the other state by NOT being small in size. We annotate this as:</span></span>
+Comparison of size as a “normal” or “typical” state. Authors will sometimes describe variation in size from a “normal” or “typical” state. &nbsp;Consider state 1 for this character: "femur size: &nbsp;0, small; 1, typical size (or 'normal' or 'not small')". State 1 does not imply imply that the femur is large (therefore ‘increased size’ should not be used) but this state is distinguished from the other state by NOT being small in size. We annotate this as:
 
  E: femur, Q: decreased size
  E: femur, Q: size '''not''' decreased size
