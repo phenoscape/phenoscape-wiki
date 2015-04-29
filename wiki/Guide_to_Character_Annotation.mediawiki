@@ -89,11 +89,15 @@ Abbreviations: '''E''' = anatomical entity from Uberon; '''Q''' = Quality term f
 
 === 1. Qualities of single physical entities<br/> ===
 
-Qualities such as 'shape,' 'size', and 'structure' can be applied to single entities.
+Qualities such as 'shape,' 'size', and 'structure' apply to single entities without reference to a second, related entity (RE). 
+
+==== 1a. Shape ====
 
 Example: “sigmoid-shaped supraorbital bone” is annotated as:
 
  E: supraorbital, Q: sigmoid
+
+====1b. Count ====
 
 === 2. Qualities of related physical entities<br/> ===
 
