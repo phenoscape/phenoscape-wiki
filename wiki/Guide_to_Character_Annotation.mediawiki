@@ -99,29 +99,7 @@ Example: “sigmoid-shaped supraorbital bone” is annotated as:
 
 ====1b. Count ====
 
-=== 2. Qualities of related physical entities<br/> ===
-
-Relational qualities are those that exist between two entities.
-
-Example: “parietal fused with supraoccipital” is represented as:
-
- E: parietal bone, Q: fused with, RE: supraoccipital bone
-
-=== 3. Presence/absence characters<br/> ===
-
-The PATO qualities ''present'' and ''absent'' are used to annotate variation in the presence of entities, e.g.:
- E: pectoral fin, Q: present
-(Technical note: The use of ''present'' and ''absent'' in curation is a curatorial shortcut to the more logically sound syntax discussed on the [http://obofoundry.org/wiki/index.php/PATO:Absent PATO wiki].&nbsp; Presence annotations in Phenoscape are translated into this logically sound form prior to their addition in the Phenoscape KB.)
-
-==== Inferred presence from annotation to other attributes<br/> ====
-
-It is not necessary to annotate the presence of an entity if the character describes some other attribute regarding its features .
-
-For example, "frontal bone present and round" requires only one annotation: '''E: frontal bone Q: round''' because the presence of frontal bone is inferred by this annotation.
-
-=== 4. Count<br/> ===
-
-The 'count' quality is used to annotate variation in the number of an entity.&nbsp; Values for counts are recorded in the “Count" field ''(Note: due to a Phenex bug, the Count field only accepts integer values; ranges ("3-5") or symbols ("≥") must be recorded in the "Comment” field)''. Some examples:
+'Count' is used to record the number value(s) of an entity. Values for counts are recorded in the “Count" field ''(Note: due to a Phenex bug, the Count field only accepts integer values; ranges ("3-5") or symbols ("≥") must be recorded in the "Comment” field)''. Some examples:
 
  E: vertebra, Q: count, Count: 33
 
@@ -130,6 +108,28 @@ The 'count' quality is used to annotate variation in the number of an entity.&nb
  E: vertebra, Q: count, Comment: >38
 
  E: vertebra, Q: count, Comment: ≥48
+
+====1c. Presence/Absence ====
+PATO: ''present'' and ''absent'' are used to annotate variation in the presence of entities, e.g.:
+ E: pectoral fin, Q: present
+(Technical note: The use of ''present'' and ''absent'' in curation is a curatorial shortcut to the more logically sound syntax discussed on the [http://obofoundry.org/wiki/index.php/PATO:Absent PATO wiki].&nbsp; Presence annotations in Phenoscape are translated into this logically sound form prior to their addition in the Phenoscape KB.)
+
+===== Inferred presence from annotation to other attributes<br/> =====
+
+It is not necessary to annotate the presence of an entity if the character describes some other attribute regarding its features .
+
+For example, "frontal bone present and round" requires only one annotation: '''E: frontal bone Q: round''' because the presence of frontal bone is inferred by this annotation.
+
+
+
+=== 2. Qualities of related physical entities<br/> ===
+
+Relational qualities are those that exist between two entities.
+
+Example: “parietal fused with supraoccipital” is represented as:
+
+ E: parietal bone, Q: fused with, RE: supraoccipital bone
+
 
 === 5. Size<br/> ===
 
