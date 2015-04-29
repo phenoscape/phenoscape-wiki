@@ -93,7 +93,7 @@ Many qualities in PATO apply only to single entities (e.g., 'shape,', 'count','p
 
 ==== 1a. Shape ====
 
-Example: “sigmoid-shaped supraorbital bone” is annotated as:
+All shape terms apply only to single entities. Example: “sigmoid-shaped supraorbital bone” is annotated as:
 
  E: supraorbital, Q: sigmoid
 
