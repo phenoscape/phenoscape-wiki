@@ -118,12 +118,23 @@ PATO: ''present'' and ''absent'' are used to annotate variation in the presence 
 
 === 2. Qualities of related physical entities<br/> ===
 
-Relational qualities are those that exist between two entities.
-
+Relational qualities are those that exist between two entities. Some relational qualities must be used with two entities. 
 Example: “parietal fused with supraoccipital” is represented as:
 
  E: parietal bone, Q: fused with, RE: supraoccipital bone
 
+A partial list of PATO terms that require related entities include:
+
+structure
+* separated from
+* attached to
+* in contact with
+* fused with
+* unfused from
+  
+position
+* anterior to
+* posterior to
 
 === 5. Size<br/> ===
 
