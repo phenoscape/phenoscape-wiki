@@ -89,7 +89,7 @@ Abbreviations: '''E''' = anatomical entity from Uberon; '''Q''' = Quality term f
 
 === 1. Qualities of single physical entities<br/> ===
 
-Many qualities in PATO apply only to single entities (e.g., 'shape,', 'count','present/absent' list below) without reference to a second, related entity (RE). Other qualities can be used 
+Many qualities in PATO apply only to single entities (e.g., 'shape,', 'count','present/absent' list below) without reference to a second, related entity (RE). Other qualities must be used with a seond, related entity (see #2 below), whereas other qualities can be used with or without a second entity (e.g., 'increased size'). Examples of qualities of single physical entities are given below.
 
 ==== 1a. Shape ====
 
@@ -114,11 +114,7 @@ PATO: ''present'' and ''absent'' are used to annotate variation in the presence 
  E: pectoral fin, Q: present
 (Technical note: The use of ''present'' and ''absent'' in curation is a curatorial shortcut to the more logically sound syntax discussed on the [http://obofoundry.org/wiki/index.php/PATO:Absent PATO wiki].&nbsp; Presence annotations in Phenoscape are translated into this logically sound form prior to their addition in the Phenoscape KB.)
 
-===== Inferred presence from annotation to other attributes<br/> =====
-
-It is not necessary to annotate the presence of an entity if the character describes some other attribute regarding its features .
-
-For example, "frontal bone present and round" requires only one annotation: '''E: frontal bone Q: round''' because the presence of frontal bone is inferred by this annotation.
+'''Inferred presence''' from annotation to other attributes.  It is not necessary to annotate the presence of an entity if the character describes some other attribute regarding its features . For example, "frontal bone present and round" requires only one annotation: '''E: frontal bone Q: round''' because the presence of frontal bone is inferred by this annotation.
 
 === 2. Qualities of related physical entities<br/> ===
 
