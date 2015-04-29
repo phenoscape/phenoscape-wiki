@@ -89,7 +89,7 @@ Abbreviations: '''E''' = anatomical entity from Uberon; '''Q''' = Quality term f
 
 === 1. Qualities of single physical entities<br/> ===
 
-Qualities such as 'shape,' 'size', and 'structure' apply to single entities without reference to a second, related entity (RE). 
+Many qualities in PATO apply only to single entities (e.g., 'shape,', 'count','present/absent' list below) without reference to a second, related entity (RE). Other qualities can be used 
 
 ==== 1a. Shape ====
 
@@ -119,8 +119,6 @@ PATO: ''present'' and ''absent'' are used to annotate variation in the presence 
 It is not necessary to annotate the presence of an entity if the character describes some other attribute regarding its features .
 
 For example, "frontal bone present and round" requires only one annotation: '''E: frontal bone Q: round''' because the presence of frontal bone is inferred by this annotation.
-
-
 
 === 2. Qualities of related physical entities<br/> ===
 
