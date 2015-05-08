@@ -67,7 +67,7 @@ Below is a simplified graph showing a subset of quality terms from the [http://o
 | 
 |-
 | count
-| 
+| number, amount
 | present, absent
 |}
 
