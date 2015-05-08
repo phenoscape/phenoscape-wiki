@@ -165,7 +165,7 @@ We are currently annotating to this detailed level. A less detailed ("coarse") w
 
 Technical note: [http://phenoscape.org/wiki/EQ_shortcuts_%28temporary%29 Curatorial shortcuts] are used in Phenex to represent size, in place of requiring curators to create the complex but semantically correct post-compositions otherwise required. In PATO, the terms "increased size" and "decreased size" (along with their children) are precomposed relative to "normal" (e.g., ''increased size'' has an ''increased_in'' relationship to "normal").&nbsp; Because the "normal" phenotype does not apply to systematic characters, these annotations will be converted in the KB data loader to the correct form using the appropriate relations (''increased_in_magnitude_relative_to'', ''decreased_in_magnitude_relative_to'', ''similar_in_magnitude_relative_to'').
 
-=== 4. Biological process annotations ====
+=== 4. Biological process annotations ===
 Some phenotypes describe variation related to biological processes (e.g., tooth development) and in such cases, terms are taken from the 'biological process' (GO:0008150) branch of the Gene Ontology. Biological process terms can only be used with ‘process quality’ (PATO:0001236) terms in PATO.
 
 === 5. Quality-modified entities and 'present'/'absent' annotations<br/> ===
