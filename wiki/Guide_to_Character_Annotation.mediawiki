@@ -2,7 +2,9 @@
 title: Guide to Character Annotation
 ---
 
-This page describes the best practices and guidelines for consistently and accurately representing phenotypes from the systematic literature. The guidelines are an evolving set of standards created to improve annotation consistency for the use cases and goals of the Phenoscape project. We provide examples of character types commonly encountered in the systematics literature, and provide discussion of special cases and issues in their annotation. 
+This page describes the best practices and guidelines for using EQ syntax to consistently and accurately represent phenotypes from the systematic literature. The guidelines are an evolving set of standards created to improve annotation consistency for the use cases and goals of the Phenoscape project. We provide examples of character types commonly encountered in the systematics literature, and provide discussion of special cases and issues in their annotation. 
+
+The Entity-Quality (EQ) formalism combines ‘Entity’ terms from an anatomical ontology, in our case [http://uberon.github.io/ Uberon], with ‘Quality’ descriptors from the Phenotype and Trait Ontology (PATO). Spatial and positional terms from the Biological Spatial Ontology (BSPO) are also used to represent phenotypes.
 
 == PATO terms used to annotate systematic characters ==
 
