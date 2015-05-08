@@ -35,7 +35,7 @@ Below is a simplified graph showing a subset of quality terms from the [http://o
 | porous, fused with
 |-
 | composition
-| 
+| composed of, content
 | ligamentous, cartilaginous
 |-
 | texture
