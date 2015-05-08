@@ -173,7 +173,16 @@ Some phenotypes describe variation related to biological processes (e.g., tooth 
 Phenotypes specific to males or females are defined using the Uberon terms ‘male organism’ and ‘female organism’. For example, “Male cloacal folds, absent” is represented as
  E: cloacal fold^part_of(male organism), Q: absent
 
-=== 6. Quality-modified entities and 'present'/'absent' annotations<br/> ===
+=== 6. Positional or spatial phenotypes ===
+Phenotypes describing the position or orientation of entities are annotated with 'position' qualities in PATO. These can describe an entity's position relative to another entity:
+
+ E: dorsal fin, Q:  anterior to, E2: midbody spot
+
+Positional phenotypes may also describe an entity's orientation, and not require that a second entity is specified:
+
+ E: projection part_of frontal, Q: horizontal
+
+=== 7. Quality-modified entities and 'present'/'absent' annotations<br/> ===
 
 Sometimes it is necessary to use a PATO term to modify an entity in post-composition. For example, an author may describe the "number of round teeth":
  E: 'tooth' bearer_of some 'round'; Q: 'count'
@@ -185,19 +194,19 @@ In other cases, we will want to avoid creating a post-composition. For example, 
 
 <br/>'''Implications on reasoning.&nbsp; '''It may appear that there are two similar ways to annotate such characters: for example, consider the presence/absence of white hair:<br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: 'hair' bearer_of some 'white'; Q: 'present</span>'<br/>This is different from:<br/><span style="font-family:courier new,courier,monospace">&nbsp;&nbsp;&nbsp;&nbsp; E: 'hair' Q: 'white</span>'<br/>The first annotation describes the presence of some white hair, whereas the second annotation describes *all* hair being white .&nbsp; Generally, we want to use quality modified entities when annotating these types of complex EQs.
 
-=== 7. Bilaterally paired structures<br/> ===
+=== 8. Bilaterally paired structures<br/> ===
 
 Terms for the contralateral halves of bilaterally paired structures are created using the <span style="font-family:courier new,courier,monospace">''in_right_side_of'' </span>and <span style="font-family:courier new,courier,monospace">''in_left_side_of'' </span>relations in a post-composition, where the perspective is from the standpoint of the organism. For example:
 
  E: frontal^''in_right_side_of''(whole organism), Q: fused with, RE: frontal^''in_left_side_of''(whole organism)
 
-=== 8. [[EQ shortcuts (temporary)|Complementary phenotypes ("negation")]]<br/> ===
+=== 9. [[EQ shortcuts (temporary)|Complementary phenotypes ("negation")]]<br/> ===
 
 Example: "opercle, not round". Create a postcomposition for the quality, choosing a meaningful genus term and using the "not" relation.
 
  E: opercle, Q: shape^not(round)
 
-=== 9. Compositional phenotypes involving 'bone', 'cartilage', and 'skeletal element' terms<br/> ===
+=== 10. Compositional phenotypes involving 'bone', 'cartilage', and 'skeletal element' terms<br/> ===
 
 Authors sometimes refer to endochondral structures without specifying whether the structure is “bone” or “cartilage.” For example, the convention for a term like “epibranchial 2” or “basibranchial” is that it is composed of bone and when composed of cartilage an author will say “epibranchial 2 cartilage” or “basibranchial cartilage”. However, this is not universally followed and a curator must read the character description and examine associated text and figures to ascertain this. If after reviewing the publication it is still not clear, then the curator can use the “element” term for the structure. In general, the “element” terms should be used sparingly, and only when an author does not indicate whether a structure (e.g. “epibranchial”) is composed of cartilage or bone.
 
