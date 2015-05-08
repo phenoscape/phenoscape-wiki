@@ -137,7 +137,7 @@ Note: some qualities in PATO can be used with single entities OR with two entiti
 
 * '''Fusion and contact qualities'''
 
-Fusion of skeletal elements can be described using the relational qualities ‘fused with’ and ‘unfused from’.  The latter term (‘unfused from’) can apply whether or not two elements are in contact with each other.  If an author explicitly describes the contact between two elements, the qualities ‘in contact with’ and ‘separated from’ should be used. Note that all of the mentioned qualities require a second related entity.
+Fusion of skeletal elements can be described using the relational qualities ‘'''fused with'''’ and ‘'''unfused from'''’.  The latter term (‘unfused from’) can apply whether or not two elements are in contact with each other.  If an author explicitly describes the contact between two elements, the qualities ‘'''in contact with'''’ and ‘'''separated from'''’ should be used. Note that all of the mentioned qualities require a second related entity.
 
 === 3. Size<br/> ===
 
