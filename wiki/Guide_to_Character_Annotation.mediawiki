@@ -151,7 +151,7 @@ There are various ways an author may describe or compare the size of a structure
 
  E: frontal bone, Q: increased length, E2: parietal
 
-'''3b. Size variation across taxa'''. For example, a state describing "frontal large” is annotated as below.  Note that the EQ does not require annotation to terms from a taxonomy ontology because the matrix saved in the Phenex file has a mapping from states to taxa.
+'''3b. Size comparison across taxa'''. For example, a state describing "frontal large” is annotated as below.  Note that the EQ does not require annotation to terms from a taxonomy ontology because the matrix saved in the Phenex file has a mapping from states to taxa.
 
  E: frontal bone, Q: increased size
 
