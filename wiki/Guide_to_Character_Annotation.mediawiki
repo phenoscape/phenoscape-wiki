@@ -147,31 +147,31 @@ Fusion of skeletal elements can be described using the relational qualities ‘'
 
 There are various ways an author may describe or compare the size of a structure across taxa. These are summarized below:
 
-*'''Relative size''' comparisons compare the size of two structures. For example, "frontal length greater than parietal length" is represented as:
+'''3a. Relative size''' comparisons compare the size of two structures. For example, "frontal length greater than parietal length" is represented as:
 
  E: frontal bone, Q: increased length, E2: parietal
 
-*'''Size variation across taxa'''. For example, a state describing "frontal large” is annotated as below.  Note that the EQ does not require annotation to terms from a taxonomy ontology because the matrix saved in the Phenex file has a mapping from states to taxa.
+'''3b. Size variation across taxa'''. For example, a state describing "frontal large” is annotated as below.  Note that the EQ does not require annotation to terms from a taxonomy ontology because the matrix saved in the Phenex file has a mapping from states to taxa.
 
  E: frontal bone, Q: increased size
 
-*'''Multiple dimensions of size''' may be described for a single structure. For example, an author may describe the frontal bone as having a "greater length relative to width". This requires post-composing the Quality with PATO: "length" and PATO:"width":
+'''3c. Multiple dimensions of size''' may be described for a single structure. For example, an author may describe the frontal bone as having a "greater length relative to width". This requires post-composing the Quality with PATO: "length" and PATO:"width":
 
  E: frontal bone, Q: length^''increased_in_magnitude_relative_to''(width^''inheres_in''(frontal bone)
 
 We are currently annotating to this detailed level. A less detailed ("coarse") way to represent the above phenotype is: 
  E: frontal bone, Q: increased length, RE: frontal bone
 
-*'''Series of relative sizes''' describes a range of sizes in more than two states. For example: "maxilla: (0) long, (1) medium, or (2) short". Choose the relevant size quality being compared, and place a number in the Count column indicating the proper sort order (e.g., 1 < 2 < 3... for short < medium < long ...). For "short":
+'''3d. Series of relative sizes''' describes a range of sizes in more than two states. For example: "maxilla: (0) long, (1) medium, or (2) short". Choose the relevant size quality being compared, and place a number in the Count column indicating the proper sort order (e.g., 1 < 2 < 3... for short < medium < long ...). For "short":
 
  E: maxilla, Q: length, Count: 1
 
-* '''Size variation from a "normal" or "typical" state''': For example: "femur size: (0) small, (1) typical size. State 1 does not imply imply that the femur is large (thus, PATO:‘increased size’ should not be used) but state 1 is distinguished from state 0 by NOT being small in size:
+'''3e. Size variation from a "normal" or "typical" state''': For example: "femur size: (0) small, (1) typical size. State 1 does not imply imply that the femur is large (thus, PATO:‘increased size’ should not be used) but state 1 is distinguished from state 0 by NOT being small in size:
 
  E: femur, Q: decreased size (state 0)
  E: femur, Q: size '''not''' decreased size (state 1)
 
-*Similarity in ''''size' and 'shape'''' terms. Many aspects of size variation also relate to shape (and vice versa). For example, the terms PATO:"increased width" (with related synonym: "broad") and PATO:"broad" are separate terms that have different parent terms in the ontology, despite describing very similar phenotypes. "Increased width" has ‘size’ as its parent whereas "broad" has "shape" as its parent. By convention, we use "increased width" to indicated variation in the size dimension.
+'''3f. Similarity in 'size' and 'shape'''' terms. Many aspects of size variation also relate to shape (and vice versa). For example, the terms PATO:"increased width" (with related synonym: "broad") and PATO:"broad" are separate terms that have different parent terms in the ontology, despite describing very similar phenotypes. "Increased width" has ‘size’ as its parent whereas "broad" has "shape" as its parent. By convention, we use "increased width" to indicated variation in the size dimension.
 
 Technical note: [http://phenoscape.org/wiki/EQ_shortcuts_%28temporary%29 Curatorial shortcuts] are used in Phenex to represent size, in place of requiring curators to create the complex but semantically correct post-compositions otherwise required. In PATO, the terms "increased size" and "decreased size" (along with their children) are precomposed relative to "normal" (e.g., ''increased size'' has an ''increased_in'' relationship to "normal").&nbsp; Because the "normal" phenotype does not apply to systematic characters, these annotations will be converted in the KB data loader to the correct form using the appropriate relations (''increased_in_magnitude_relative_to'', ''decreased_in_magnitude_relative_to'', ''similar_in_magnitude_relative_to'').
 
