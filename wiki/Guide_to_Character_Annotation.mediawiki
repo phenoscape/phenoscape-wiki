@@ -94,6 +94,11 @@ All shape terms apply only to single entities. Example: “sigmoid-shaped suprao
 
  E: supraorbital, Q: sigmoid
 
+==== 1b. Position ====
+Some position terms apply only to single entities (see XX below for position terms applicable to two entities). 
+
+ E: projection part_of frontal, Q: vertical
+ 
 ====1b. Count ====
 
 'Count' is used to record the number value(s) of an entity. Values for counts are recorded in the “Count" field ''(Note: due to a Phenex bug, the Count field only accepts integer values; ranges ("3-5") or symbols ("≥") must be recorded in the "Comment” field)''. Some examples:
