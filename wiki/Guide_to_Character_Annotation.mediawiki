@@ -95,11 +95,11 @@ All shape terms apply only to single entities. Example: “sigmoid-shaped suprao
  E: supraorbital, Q: sigmoid
 
 ==== 1b. Position ====
-Some position terms apply only to single entities (see XX below for position terms applicable to two entities). 
+Some position terms apply only to single entities (see 2b. below for position terms applicable to two entities). 
 
  E: projection part_of frontal, Q: vertical
  
-====1b. Count ====
+====1c. Count ====
 
 'Count' is used to record the number value(s) of an entity. Values for counts are recorded in the “Count" field ''(Note: due to a Phenex bug, the Count field only accepts integer values; ranges ("3-5") or symbols ("≥") must be recorded in the "Comment” field)''. Some examples:
 
@@ -111,7 +111,7 @@ Some position terms apply only to single entities (see XX below for position ter
 
  E: vertebra, Q: count, Comment: ≥48
 
-====1c. Presence/Absence ====
+====1d. Presence/Absence ====
 PATO: ''present'' and ''absent'' are used to annotate variation in the presence of entities, e.g.:
  E: pectoral fin, Q: present
 (Technical note: The use of ''present'' and ''absent'' in curation is a curatorial shortcut to the more logically sound syntax discussed on the [http://obofoundry.org/wiki/index.php/PATO:Absent PATO wiki].&nbsp; Presence annotations in Phenoscape are translated into this logically sound form prior to their addition in the Phenoscape KB.)
