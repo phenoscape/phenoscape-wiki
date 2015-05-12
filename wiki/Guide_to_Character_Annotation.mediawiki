@@ -120,8 +120,7 @@ PATO: ''present'' and ''absent'' are used to annotate variation in the presence 
 
 === 2. Qualities of related physical entities<br/> ===
 
-Some phenotypes describe a state that exists between two entities. In these cases, relational qualities are used to relate the two entities. 
-For example, “parietal fused with supraoccipital” is represented as:
+Some phenotypes describe a state that exists between two entities. In these cases, relational qualities are used to relate the two entities. Examples of relational qualities include 'differetiated from', 'overlapped by', and 'fused with':
 
  E: parietal bone, Q: fused with, RE: supraoccipital bone
 
