@@ -126,7 +126,7 @@ Some phenotypes describe a state that exists between two entities. In these case
 
 Note: some qualities in PATO can be used with either single entities OR with two entities (for example, PATO: increased size).  A partial list of PATO terms that require related entities are listed below in 2a and 2b.
 
-====2a. Examples of structural qualities between two entities====
+====2a. Structural qualities between two entities====
 * separated from
 * attached to
 * in contact with
