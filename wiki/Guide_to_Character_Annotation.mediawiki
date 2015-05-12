@@ -133,7 +133,7 @@ Note: some qualities in PATO can be used with either single entities OR with two
 * fused with
 * unfused from
 
-====2b. Examples of positional qualities between two entities====
+====2b. Positional qualities between two entities====
 The following are position qualities used to describe the position or orientation of an entity relative to another entity. Note that some positional qualities apply to single entities only (see 1b above).
 
 * anterior to
