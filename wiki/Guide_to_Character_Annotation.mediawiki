@@ -86,7 +86,7 @@ Abbreviations: '''E''' = anatomical entity from Uberon; '''Q''' = Quality term f
 
 === 1. Qualities of single physical entities<br/> ===
 
-Many qualities in PATO apply only to single entities (e.g., 'shape,', 'count','present/absent' list below) without reference to a second, related entity (RE). Other qualities must be used with a seond, related entity (see #2 below), whereas other qualities can be used with or without a second entity (e.g., 'increased size'). Examples of qualities of single physical entities are given below.
+Many qualities in PATO apply only to single entities (e.g., 'shape,', 'count', 'open') without reference to a second, related entity (RE). Examples of qualities of single physical entities are given below. Other qualities are "relational" and must be used with a second, related entity (e.g., 'fused with'; more examples in #2).  Finally, some qualities can be used either with or without a second entity (e.g., 'increased size'). 
 
 ==== 1a. Shape ====
 
