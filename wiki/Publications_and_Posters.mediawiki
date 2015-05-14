@@ -37,7 +37,7 @@ title: Publications and Posters
 
 === Data annotation & curation ===
 
-*Dahdul, W., T.A. Dececchi, N. Ibrahim, H. Lapp, P.M. Mabee. '''2015'''. Moving the mountain: Analysis of the effort required to transform comparative anatomy into computable anatomy.  Database.  In press. [http://dx.doi.org/10.1093/database/bav040 http://dx.doi:10.1093/database/bav040]
+*Dahdul, W., T.A. Dececchi, N. Ibrahim, H. Lapp, P.M. Mabee. '''2015'''. Moving the mountain: Analysis of the effort required to transform comparative anatomy into computable anatomy.  Database 2015: bav040. [http://dx.doi.org/10.1093/database/bav040 http://dx.doi:10.1093/database/bav040]
 
 *Arighi, C, et al. (including Dahdul, Mabee, Cui, Haendel, Balhoff) '''2012'''. An Overview of the BioCreative 2012 Workshop Track III: Interactive Text Mining Task. 2013 [http://dx.doi.org/10.1093/database/bas056 http://dx.doi.org/10.1093/database/bas056]
 
