@@ -122,6 +122,13 @@ PATO: ''present'' and ''absent'' are used to annotate variation in the presence 
 Skeletal entities are sometimes described as being mobile, meaning capable of movement, as opposed to immobile, or fixed in place. The PATO terms 'mobile' and 'immobile' are used in such cases:
  E: maxilla, Q: mobile
 
+====1f. Composition ====
+Composition qualities describe the types and quantities of a bearer entity's constituent subparts. For example, skeletal entities can be 'cartilaginous' or 'ossified'. 
+
+ E: bone , Q: poorly ossified
+
+Note: unlike its child terms, 'composition' can be used with related entities; see examples in the next section.
+
 === 2. Qualities of related physical entities<br/> ===
 
 Some phenotypes describe a state that exists between two entities. In these cases, relational qualities are used to relate the two entities. Examples of relational qualities include 'differetiated from', 'overlapped by', and 'fused with':
