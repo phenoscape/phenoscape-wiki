@@ -319,7 +319,7 @@ Use of terms for '''regions vs. sides in BSPO:''' Regions are defined as not hav
 
 To create post-compositions using BSPO in Phenex, right click the Entity field to bring up the post-composition editor box.&nbsp; Type “process” and right-click the field to open the Post-Composition Editor box. Within this box, Click the + button to add relationship = "part_of" and differentia = "anterior region". Right click on the differentia field to open another Post-Composition Editor box to add second post-composed term for "anterior margin of maxilla" (see below). Click the OK button after you have filled out the genus and differentia for this nested composition.
 
-[[File:Nested-boxes.png|center|Nested-boxes.png]]
+[[File:Nested-boxes2.png|center|Nested-boxes2.png]]
 
 === Multiple differentia terms and nesting in post-composition ===
 
