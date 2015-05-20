@@ -148,6 +148,11 @@ The following are position qualities used to describe the position or orientatio
 
 Fusion of skeletal elements can be described using ‘'''fused with'''’ and ‘'''unfused from'''’.  The latter term (‘unfused from’) can apply whether or not two elements are in contact with each other.  If an author explicitly describes the contact between two elements, the qualities ‘'''in contact with'''’ and ‘'''separated from'''’ should be used. Note that all of the mentioned qualities require a second related entity.
 
+====2c. Composition quality between two entities====
+Composition (synonym= ''composed of'') can be used to relate an entity to its component related entities (ie., the subparts or entities that it is composed of); for example: the character "Lateral forebrain bundle composed of myelinated fibers" from Wiley and Johnson (#20) is annotated as:
+
+ E: lateral forebrain bundle, Q: composition, RE: myelinated nerve fiber
+
 === 3. Size<br/> ===
 
 There are various ways an author may describe or compare the size of a structure across taxa. These are summarized below:
