@@ -118,6 +118,10 @@ PATO: ''present'' and ''absent'' are used to annotate variation in the presence 
 
 '''Inferred presence''' from annotation to other attributes.  It is not necessary to annotate the presence of an entity if the character describes some other attribute regarding its features . For example, "frontal bone present and round" requires only one annotation: '''E: frontal bone Q: round''' because the presence of frontal bone is inferred by this annotation.
 
+====1e. Mobility ====
+Skeletal entities are sometimes described as being mobile, meaning capable of movement, as opposed to immobile, or fixed in place. The PATO terms 'mobile' and 'immobile' are used in such cases:
+ E: maxilla, Q: mobile
+
 === 2. Qualities of related physical entities<br/> ===
 
 Some phenotypes describe a state that exists between two entities. In these cases, relational qualities are used to relate the two entities. Examples of relational qualities include 'differetiated from', 'overlapped by', and 'fused with':
