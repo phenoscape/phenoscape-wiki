@@ -299,13 +299,13 @@ Note that semantically, the post-composed term is equivalent to a pre-composed t
 
 === Creating post-composition in Phenex ===
 
-To post-compose a term (for example, "maxillary process") using Phenex, first type in the genus term 'process' in the Entity field within the "Phenotypes" panel. Then open the Post-composition Editor box by right-clicking on the Entity cell (make sure that the entity cell is blue in color)&nbsp;:[[File:Right-click.png|center|Right-click.png]]
+To post-compose a term (for example, "maxillary process") using Phenex, first type in the genus term 'anatomical projection' in the Entity field within the "Phenotypes" panel. Then open the Post-composition Editor box by right-clicking on the Entity cell (make sure that the entity cell is blue in color)&nbsp;:[[File:Right-click.png|center|Right-click.png]]
 
 
 
-Now click on “Edit Post-composed Term.” The Editor box should now appear (see below), with “process” in the Genus field. The Genus is the feature of specific interest (varying feature in systematics). Click the “+” button to add a row in the table, type “part_of” in the relationship field, and type “maxilla” in the differentia field. Click OK. [[File:Post-comp-box.jpg|center|Post-comp-box.jpg]]
+Now click on “Edit Post-composed Term.” The Editor box should now appear (see below), with 'anatomical projection' in the Genus field. The Genus is the feature of specific interest (varying feature in systematics). Click the “+” button to add a row in the table, type “part_of” in the relationship field, and type “maxilla” in the differentia field. Click OK. [[File:Post-comp-box.jpg|center|Post-comp-box.jpg]]
 
- process^part_of(maxilla)
+ anatomical projection^part_of(maxilla)
 
 === Refining post-compositions using terms from the Spatial Ontology (BSPO)<br/> ===
 
