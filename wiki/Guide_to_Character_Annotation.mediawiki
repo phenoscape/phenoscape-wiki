@@ -220,11 +220,14 @@ Terms for the contralateral halves of bilaterally paired structures are created 
 
 === 8. [[EQ shortcuts (temporary)|Complementary phenotypes ("negation")]]<br/> ===
 
-Example: "opercle, not round". Create a postcomposition for the quality, choosing a meaningful genus term and using the "not" relation.
+The two states of a character are sometimes composed such that one state encompasses any possible phenotype except the one specified in the opposite state. We call this "complementary phenotypes". For example consider the following character: "Opercle: 0), round; 1), not round". State 1 describes a phenotype that can be any shape except 'round'. This is represented in EQ as follows:
 
- E: opercle, Q: shape^not(round)
+ E: opercle, Q: round [state 0]
+ E: opercle, Q: shape^not(round) [state 1]
 
-See also 3e above for examples of size variation from a "normal" or "typical" state.
+For State 1, we created a postcomposition for the quality, choosing a meaningful genus term [use the attribute parent term from PATO, see diagram above] and using the "not" relation.
+
+This convention also applies to variation from a 'normal', 'average', or 'typical' state (See 3e above for size examples).
 
 === 9. Use of skeletal terms (bone, cartilage, skeletal element)<br/> ===
 
