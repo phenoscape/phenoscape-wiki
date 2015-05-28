@@ -147,13 +147,11 @@ The following are position qualities used to describe the position or orientatio
 * basal to
 
 ====2b. Structural qualities between two entities====
-* separated from
 * attached to
-* in contact with
+* in contact with 
+* separated from. Denotes that two entities are not touching. Typically used as the inverse of 'in contact with'
 * fused with
-* unfused from
-
-Fusion of skeletal elements can be described using ‘'''fused with'''’ and ‘'''unfused from'''’.  The latter term (‘unfused from’) can apply whether or not two elements are in contact with each other.  If an author explicitly describes the contact , or lack of contact, between two elements, ‘'''in contact with'''’ and ‘'''separated from'''’ should be used.
+* unfused from. Can apply whether or not two elements are in contact with each other. Typically used as the inverse of 'fused with'
 
 ====2c. Composition quality between two entities====
 Composition (synonym= ''composed of'') can be used to relate an entity to its component related entities (ie., the subparts or entities that it is composed of); for example: the character "Lateral forebrain bundle composed of myelinated fibers" from Wiley and Johnson (#20) is annotated as:
