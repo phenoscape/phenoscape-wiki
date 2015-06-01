@@ -229,8 +229,9 @@ This convention also applies to variation from a 'normal', 'average', or 'typica
 
 === 9. Singular vs. Plural Entities ===
 
-Terms names given are in the singular form (e.g., 'basihyal tooth' rather than 'basihyal teeth') rather than the plural, primarily to avoid ambiguity in the meaning of term names. A set can also be named to represent a collection of similar or related entities (e.g., 'infraorbital series' rather than 'infraorbitals'). 
+Terms names given are in the singular form (e.g., 'basihyal tooth' rather than 'basihyal teeth') rather than the plural, primarily to avoid ambiguity in the meaning of term names. A set can also be named to represent a collection of similar or related entities (e.g., 'infraorbital series' rather than 'infraorbitals'). For the character "teeth absent on fifth ceratobranchials", the following EQ applies:
 
+ E: ceratobranchial 5 tooth, Q: absent
 
 === 10. Use of skeletal terms (bone, cartilage, skeletal element)<br/> ===
 
