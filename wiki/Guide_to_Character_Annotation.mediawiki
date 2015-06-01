@@ -227,7 +227,12 @@ For State 1, we created a postcomposition for the quality, choosing a meaningful
 
 This convention also applies to variation from a 'normal', 'average', or 'typical' state (See 3e above for size examples).
 
-=== 9. Use of skeletal terms (bone, cartilage, skeletal element)<br/> ===
+=== 9. Singular vs. Plural Entities ===
+
+Terms names given are in the singular form (e.g., 'basihyal tooth' rather than 'basihyal teeth') rather than the plural, primarily to avoid ambiguity in the meaning of term names. A set can also be named to represent a collection of similar or related entities (e.g., 'infraorbital series' rather than 'infraorbitals'). 
+
+
+=== 10. Use of skeletal terms (bone, cartilage, skeletal element)<br/> ===
 
 Authors sometimes refer to endochondral structures without specifying whether the structure is “bone” or “cartilage.” For example, the convention for a term like “epibranchial 2” or “basibranchial” is that it is composed of bone and when composed of cartilage an author will say “epibranchial 2 cartilage” or “basibranchial cartilage”. However, this is not universally followed and a curator must read the character description and examine associated text and figures to ascertain this. If after reviewing the publication it is still not clear, then the curator can use the “element” term for the structure. In general, the “element” terms should be used sparingly, and only when an author does not indicate whether a structure (e.g. “epibranchial”) is composed of cartilage or bone.
 
