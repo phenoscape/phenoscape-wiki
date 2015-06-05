@@ -46,7 +46,7 @@ title: Publications and Posters
 *Dahdul, W. M., J. P. Balhoff, J. Engeman, T. Grande, E. J. Hilton, C. R. Kothari, H. Lapp, J. G. Lundberg, P. E. Midford, T. J. Vision, M. Westerfield, and P. M. Mabee. '''2010'''. Evolutionary characters, phenotypes and ontologies:curating data from the systematic biology literature. PLoS ONE 5(5):e10708. [http://dx.doi.org/10.1371/journal.pone.0010708 doi:10.1371/journal.pone.0010708]
 
 === Data modeling, reasoning & ontologies ===
-* Balhoff JP, Manda P, Lapp H, Mabee P, Vision TJ "2015" Connecting genes with evolutionary knowledge using semantic similarity and ancestral profiles of variation. [ http://phenoday2015.bio-lark.org/pdf/9.pdf Bio-ontologies SIG at ISMB 2015]
+* Balhoff JP, Manda P, Lapp H, Mabee P, Vision TJ "2015" Connecting genes with evolutionary knowledge using semantic similarity and ancestral profiles of variation. [http://phenoday2015.bio-lark.org/pdf/9.pdf Bio-ontologies SIG at ISMB 2015]
 
 *Balhoff, J.P., Dececchi, T.A., Mabee, P.M., Lapp, H. '''2014'''. Presence-absence reasoning for evolutionary phenotypes. Peer-reviewed conference paper, Bio-ontologies SIG at ISMB 2014. [http://phenoday2014.bio-lark.org/pdf/11.pdf http://phenoday2014.bio-lark.org/pdf/11.pdf] and [http://arxiv.org/abs/1410.3862 http://arxiv.org/abs/1410.3862]
 
