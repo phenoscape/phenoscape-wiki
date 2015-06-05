@@ -20,7 +20,7 @@ title: Publications and Posters
 
 *Dececchi, T., Mabee, P., Blackburn, D. The phenomic content of monographs and evolutionary matrices.  In review, Systematic Biology.
 
-*Dececchi, T.A., J.P. Balhoff, H. Lapp, P.M. Mabee. '''2015'''. Toward synthesizing our knowledge of morphology: using ontologies and machine reasoning to extract presence/absence evolutionary phenotypes across studies. PeerJ PrePrints 3:e807v1 [http://dx.doi.org/10.7287/peerj.preprints.807v1 http://dx.doi.org/10.7287/peerj.preprints.807v1] <span style="color:#ff0000;">PrePrint!</span>
+*Dececchi, T.A., J.P. Balhoff, H. Lapp, P.M. Mabee. '''2015'''. Toward synthesizing our knowledge of morphology: using ontologies and machine reasoning to extract presence/absence evolutionary phenotypes across studies.  [http://doi.org/10.1093/sysbio/syv031 Systematic Biology ahead of print];  [http://dx.doi.org/10.7287/peerj.preprints.807v1 PeerJ PrePrints 3:e807v1].
 
 *Ibrahim, N., P. C. Sereno, C. Dal Sasso, S. Maganuco, M. Fabbri, D. M. Martill, S. Zouhri, N. Myhrvold, and D. A. Iurino. Semiaquatic adaptations in a giant predatory dinosaur. Science. Published online 11 September 2014 http://dx.doi.org/10.1126/science.1258750
 
