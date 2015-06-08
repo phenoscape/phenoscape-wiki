@@ -233,7 +233,18 @@ Terms names given are in the singular form (e.g., 'basihyal tooth' rather than '
 
  E: ceratobranchial 5 tooth, Q: absent
 
-=== 10. Use of skeletal terms (bone, cartilage, skeletal element)<br/> ===
+=== 10. Coloration and color pattern phenotypes ===
+
+Phenotypes involving coloration (e.g., brown, black) are annotated with PATO: color qualities. Likewise, color patterns can be annotated with PATO terms such as 'blotchy' or 'banded'. For example:
+
+ E: trunk, Q: yellow
+ E: caudal fin, Q: banded
+
+Variation in body markings are annotated using the appropriate terms from Uberon, such as 'melanophore stripe' or 'melanophore spot': 
+
+E: melanophore stripe part_of dorsal fin, Q: black
+
+=== 11. Use of skeletal terms (bone, cartilage, skeletal element)<br/> ===
 
 Authors sometimes refer to endochondral structures without specifying whether the structure is “bone” or “cartilage.” For example, the convention for a term like “epibranchial 2” or “basibranchial” is that it is composed of bone and when composed of cartilage an author will say “epibranchial 2 cartilage” or “basibranchial cartilage”. However, this is not universally followed and a curator must read the character description and examine associated text and figures to ascertain this. If after reviewing the publication it is still not clear, then the curator can use the “element” term for the structure. In general, the “element” terms should be used sparingly, and only when an author does not indicate whether a structure (e.g. “epibranchial”) is composed of cartilage or bone.
 
