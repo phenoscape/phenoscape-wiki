@@ -242,7 +242,7 @@ Phenotypes involving coloration (e.g., brown, black) are annotated with PATO: co
 
 Variation in body markings are annotated using the appropriate terms from Uberon, such as 'melanophore stripe' or 'melanophore spot': 
 
-E: melanophore stripe part_of dorsal fin, Q: black
+ E: melanophore stripe part_of dorsal fin, Q: black
 
 === 11. Use of skeletal terms (bone, cartilage, skeletal element)<br/> ===
 
