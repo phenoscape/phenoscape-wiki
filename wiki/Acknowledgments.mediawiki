@@ -123,12 +123,15 @@ The following groups and individuals have contributed to Phenoscape ontology dev
 * Miles Coburn, John Carroll University
 * Kevin Conway, St. Louis University
 * Wasila Dahdul, University of South Dakota
+* T. Alexander Dececchi, University of South Dakota
 * Bill Eschmeyer, California Academy of Sciences
 * Rainer Froese, Leibniz-Institute of Marine Sciences
 * Terry Grande, Loyola University, Chicago
 * Eric Hilton, Virginia Institute of Marine Science
+* Nizar Ibrahim, University of Chicago
 * John Lundberg, The Academy of Natural Sciences, Philadelphia
 * Richard Mayden, St. Louis University
+* Paul Sereno, University of Chicago
 
 ===Vertebrate Skeletal Anatomy Ontology (VSAO) Contributors===
 * James P. Balhoff, National Evolutionary Synthesis Center
