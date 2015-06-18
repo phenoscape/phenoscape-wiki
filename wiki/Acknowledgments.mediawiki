@@ -83,6 +83,7 @@ The following groups and individuals have contributed to Phenoscape ontology dev
 * T. Alexander Dececchi, University of South Dakota
 * Pasan Chinthana Fernando, University of South Dakota
 * Melissa Haendel, Oregon Health Sciences University
+* Terry Hayamizu, Mouse Genome Informatics
 * Nizar Ibrahim, University of Chicago
 * Laura Jackson, University of South Dakota
 * Paula Mabee, University of South Dakota
