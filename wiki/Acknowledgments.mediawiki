@@ -152,13 +152,18 @@ The following groups and individuals have contributed to Phenoscape ontology dev
 * Christina James Zorn, Xenbase
 
 ===Curators (Data Annotation)===
+* Bruno Chanet, Muséum National d'Histoire Naturelle
 * Miles Coburn, John Carroll University
 * Sonia Crichigno, Centro Regional Universitario Bariloche, (Univ. Nac. del Comahue), Argentina
 * Wasila Dahdul, University of South Dakota
+* T. Alexander Dececchi, University of South Dakota
+* Pasan Chinthana Fernando, University of South Dakota
 * Jeff Engeman, University of South Dakota
 * Benjamin Frable, National Museum of Natural History, Smithsonian Institution
 * Terry Grande, Loyola University, Chicago
 * Eric Hilton, Virginia Institute of Marine Science
+* Nizar Ibrahim, University of Chicago
+* Laura Jackson, University of South Dakota
 * John Lundberg, The Academy of Natural Sciences, Philadelphia
 * Paula Mabee, University of South Dakota
 * Richard Mayden, St. Louis University
