@@ -278,9 +278,11 @@ The following groups and individuals have contributed to Phenoscape ontology dev
 * Jordan Catlett, University of South Dakota
 * Sonia Crichigno, Centro Regional Universitario Bariloche, (Univ. Nac. del Comahue), Argentina
 * Jeff Engeman, University of South Dakota
+* Pasan Chinthana Fernando, University of South Dakota
 * Benjamin Frable, National Museum of Natural History, Smithsonian Institution
 * Char Green, University of South Dakota
 * Ericka Grey, University of South Dakota
+* Laura Jackson, University of South Dakota
 * Jun Hong Kim, Duke University
 * Jonathan Lee, Duke University
 * Leah Mabee, University of South Dakota
