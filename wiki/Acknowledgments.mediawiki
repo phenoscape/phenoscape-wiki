@@ -77,13 +77,16 @@ title: Acknowledgments
 ==Contributors==
 The following groups and individuals have contributed to Phenoscape ontology development, data curation, workshops, and data entry:
 
-===Phenoscape-ext Contributors===
+===Phenoscape Contributors to the Uberon Anatomy Ontology===
 * Wasila Dahdul, University of South Dakota
+* David Blackburn, California Academy of Sciences
 * T. Alexander Dececchi, University of South Dakota
-* Paula Mabee, University of South Dakota
-* Chris Mungall, Lawrence Berkeley Labs
+* Pasan Chinthana Fernando, University of South Dakota
 * Melissa Haendel, Oregon Health Sciences University
 * Nizar Ibrahim, University of Chicago
+* Laura Jackson, University of South Dakota
+* Paula Mabee, University of South Dakota
+* Chris Mungall, Lawrence Berkeley Labs
 
 ===Teleost Anatomy Ontology (TAO) Contributors===
 * Gloria Arratia, The University of Kansas
