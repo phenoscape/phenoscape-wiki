@@ -70,6 +70,12 @@ title: Publications and Posters
 
 == Posters & Presentations ==
 
+=== 2015 ===
+Mabee, P.M. (presenter) (2015). Progress in Comparative Morphology can be accelerated through Semantic Annotation. In: Symposium in memory of Donn E. Rosen: Assumptions that inhibit scientific progress in comparative biology. JMIH (Joint Meeting of Ichthyologists & Herpetologists). Reno, NV. USA. July 18, 2015.
+
+Jackson, L (presenter, poster), Fernando, P., Balhoff, J, and P. Mabee. Automated Integration of Phenomics Data To Investigate Paired Fin Loss Across Teleost
+Fishes. JMIH (Joint Meeting of Ichthyologists & Herpetologists). Reno, NV. USA. July 17, 2015.
+
 === 2014 ===
 Balhoff, J.P. (presenter), Dececchi, T.A., Mabee, P.M., Lapp, H. (2014). Presence-absence reasoning for evolutionary phenotypes. ISMB (Intelligent Systems for Molecular Biology). Boston. 
 
