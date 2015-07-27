@@ -158,6 +158,9 @@ The ELK reasoner is used to compute the inferred class hierarchy. The reasoner i
 ==Assertion of absence hierarchy==
 The [https://github.com/phenoscape/phenoscape-owl-tools/blob/master/src/main/scala/org/phenoscape/owl/NegationHierarchyAsserter.scala Negation Hierarchy Asserter] looks for classes which are linked via a special annotation property, "negates", to some other named class. For each class N which negates a class C, any classes which negate superclasses of C are asserted as subclasses of N. Any classes which negate subclasses of C are asserted as superclasses of N. This allows us to compute a hierarchy for a specific set of negations (such as the set of "absence" classes) using the hierarchy of their complements.
 
+==RDF data model==
+The RDF data model resulting from the KB build process is depicted in this graph diagram. This is the form in which the data are loaded into Blazegraph, and subsequently queried using SPARQL to drive KB web services.
+
 [[Category:Reasoning]]
 [[Category:Database]]
 [[Category:Informatics]]
