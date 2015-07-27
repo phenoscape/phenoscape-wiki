@@ -161,7 +161,7 @@ The [https://github.com/phenoscape/phenoscape-owl-tools/blob/master/src/main/sca
 ==RDF data model==
 The RDF data model resulting from the KB build process is depicted in this graph diagram. This is the form in which the data are loaded into Blazegraph, and subsequently queried using SPARQL to drive KB web services.
 
-[[Image:PhenoscapeKB-RDF-model.png||800px]]
+[[Image:PhenoscapeKB-RDF-model.png|800px]]
 
 [[Category:Reasoning]]
 [[Category:Database]]
