@@ -2,7 +2,7 @@
 title: KB build process
 ---
 
-The Phenoscape KB build process goes through several steps in converting input data sources to a queryable knowledgebase. This page provides some description for each of the steps, most or all of which are implemented in the [https://github.com/phenoscape/phenoscape-owl-tools phenoscape-owl-tools] project. The result of this pipeline is a unified OWL dataset containing the ontologies and data. The result is loaded as RDF into a [[Blazegraph]] triplestore.
+The Phenoscape KB build process goes through several steps in converting input data sources to a queryable knowledgebase. This page provides some description for each of the steps, most or all of which are implemented in the [https://github.com/phenoscape/phenoscape-owl-tools phenoscape-owl-tools] project. The result of this pipeline is a unified OWL dataset containing the ontologies and data. The result is loaded as RDF into a [[Blazegraph|Bigdata]] triplestore.
 
 [[Image:PhenoscapeKB-build-process.png|right|500px]]
 
