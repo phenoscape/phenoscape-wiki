@@ -9,7 +9,7 @@ For querying across the entire [[Phenoscape_KB|Knowledgebase dataset]], Phenosca
 * [http://www.w3.org/Submission/CBD/ Concise bounded description] mode for SPARQL <code>DESCRIBE</code> queries. When blank nodes are included in a <code>DESCRIBE</code> result, this recursively describes them until the graph terminates in named nodes in all directions. This is useful for grabbing the necessary and sufficient RDF graph needed to reconstruct OWL class expressions.
 * Easy installation as Java WAR within Apache Tomcat.
 
-The data that go into Bigdata are assembled via the [[KB build process]].
+The data that go into Bigdata are assembled via the [[KB build process]] into a [[KB_build_process#RDF_data_model|graph data model]].
 
 ==Phenoscape machine configurations==
 * SPARQL endpoint using the Bigdata NanoSparqlServer within Apache Tomcat. This machine runs Ubuntu Linux, with 4 CPUs and 8 GB RAM. Tomcat is allowed 6 GB RAM.
