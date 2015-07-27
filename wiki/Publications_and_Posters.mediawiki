@@ -80,6 +80,8 @@ Fishes. JMIH (Joint Meeting of Ichthyologists & Herpetologists). Reno, NV. USA. 
 
 Dahdul, W. (presenter) (2015). How to Accelerate the Transformation of Comparative Anatomy into Computable Anatomy? JMIH (Joint Meeting of Ichthyologists & Herpetologists). Reno, NV. USA. July 18, 2015.
 
+Balhoff, J.P. (presenter, poster/talk), P. Manda, H. Lapp, P. Mabee, T.J. Vision. Connecting genes with evolutionary knowledge using semantic similarity and ancestral profiles of variation. Bio-ontologies SIG Phenotype Day at ISMB 2015. Dublin, Ireland. July 11, 2015.
+
 === 2014 ===
 Balhoff, J.P. (presenter), Dececchi, T.A., Mabee, P.M., Lapp, H. (2014). Presence-absence reasoning for evolutionary phenotypes. ISMB (Intelligent Systems for Molecular Biology). Boston. 
 
