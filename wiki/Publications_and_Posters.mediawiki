@@ -18,9 +18,9 @@ title: Publications and Posters
 
 === Biological knowledge discovery ===
 
-*Edmunds, R.C., Su, B., Balhoff, J.P., Dahdul, W.M., Lapp, H., Lundberg, J.G., Vision, T.J., Dunham, R.A., Mabee, P.M., Westerfield, M. Phenoscape: Identifying candidate genes for species-specific phenotypes.  Submitted.
+*Edmunds, R.C., Su, B., Balhoff, J.P., Dahdul, W.M., Lapp, H., Lundberg, J.G., Vision, T.J., Dunham, R.A., Mabee, P.M., Westerfield, M. Phenoscape: Identifying candidate genes for species-specific phenotypes.  In press.
 
-*Dececchi, T., Mabee, P., Blackburn, D. The phenomic content of monographs and evolutionary matrices.  In revision.
+*Dececchi, T., Mabee, P., Blackburn, D. The phenomic content of monographs and evolutionary matrices.  Submitted.
 
 *Dececchi, T.A., J.P. Balhoff, H. Lapp, P.M. Mabee. '''2015'''. Toward synthesizing our knowledge of morphology: using ontologies and machine reasoning to extract presence/absence evolutionary phenotypes across studies.  [http://doi.org/10.1093/sysbio/syv031 Systematic Biology ahead of print];  [http://dx.doi.org/10.7287/peerj.preprints.807v1 PeerJ PrePrints 3:e807v1].
 
