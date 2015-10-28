@@ -39,7 +39,7 @@ title: Publications and Posters
 
 === Data annotation & curation ===
 
-*Cui, H., Dahdul, W., Dececchi, T.A.,  Ibrahim, N., Mabee, P., Balhoff, J.P., Gopalakrishnan, H. CharaParser+EQ: Performance Evaluation without Gold Standard. Association for Information Science and Technology Annual Meeting.  '''2015'''. Accepted.
+*Cui, H., Dahdul, W., Dececchi, T.A.,  Ibrahim, N., Mabee, P., Balhoff, J.P., Gopalakrishnan, H. CharaParser+EQ: Performance Evaluation without Gold Standard. Association for Information Science and Technology Annual Meeting [https://www.asist.org/events/infometrics-papers/ (ASIS&T)].  '''2015'''. Accepted.
 
 *Dahdul, W., T.A. Dececchi, N. Ibrahim, H. Lapp, P.M. Mabee. '''2015'''. Moving the mountain: Analysis of the effort required to transform comparative anatomy into computable anatomy.  Database 2015: bav040. [http://dx.doi.org/10.1093/database/bav040 http://dx.doi:10.1093/database/bav040]
 
