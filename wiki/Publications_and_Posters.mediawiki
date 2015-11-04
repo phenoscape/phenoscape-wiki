@@ -8,8 +8,7 @@ title: Publications and Posters
 
 *Manda P., Balhoff J. P., Lapp H., Mabee P., Vision T.J. '''2015'''. Using the Phenoscape Knowledgebase to relate genetic perturbations to phenotypic evolution. Genesis [http://doi.org./10.1002/dvg.22878 http://dx.doi.org/10.1002/dvg.22878]
 
-* Oellrich A, Collier N, Groza T, Rebholz-Schuhmann D, Shah N, Bodenreider O, Boland MR, Georgiev I, Liu H, Livingston K, Luna A, Mallon AM, Manda P, Robinson 
-PN, Rustici G, Simon M, Wang L, Winnenburg R, Dumontier M. '''2015''' The digital revolution in phenotyping. Brief Bioinform. [http://doi.org/10.1093/bib/bbv083 http://doi.org/10.1093/bib/bbv083]
+* Oellrich A, Collier N, Groza T, Rebholz-Schuhmann D, Shah N, Bodenreider O, Boland MR, Georgiev I, Liu H, Livingston K, Luna A, Mallon AM, Manda P, Robinson PN, Rustici G, Simon M, Wang L, Winnenburg R, Dumontier M. '''2015''' The digital revolution in phenotyping. Brief Bioinform. [http://doi.org/10.1093/bib/bbv083 http://doi.org/10.1093/bib/bbv083]
 
 *Deans, A.R., et al., (including Balhoff, Blackburn, Cui, Dahdul, Dececchi, Haendel, Ibrahim, Lapp, Mungall, Westerfeld, Zorn, & Mabee). '''2015'''. Finding Our Way through Phenotypes. PLoS Biol, 13(1), e1002033. [http://dx.doi.org/10.1371/journal.pbio.1002033 http://dx.doi.org/10.1371/journal.pbio.1002033]
 
