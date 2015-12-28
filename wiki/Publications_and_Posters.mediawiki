@@ -6,7 +6,7 @@ title: Publications and Posters
 
 === Perspectives, reviews, and community ===
 
-*Thessen AE, Bunker DE, Buttigieg PL, Cooper LD, Dahdul WM, Domisch S, Franz NM, Jaiswal P, Lawrence-Dill CJ, Midford PE, Mungall CJ, Ramírez MJ, Specht CD, Vogt L, Vos RA, Walls RL, White JW, Zhang G, Deans AR, Huala E, Lewis SE, Mabee PM. '''2015'''.  Emerging semantics to link phenotype and environment. PeerJ 3:e1470 [https://doi.org/10.7717/peerj.1470]
+*Thessen AE, Bunker DE, Buttigieg PL, Cooper LD, Dahdul WM, Domisch S, Franz NM, Jaiswal P, Lawrence-Dill CJ, Midford PE, Mungall CJ, Ramírez MJ, Specht CD, Vogt L, Vos RA, Walls RL, White JW, Zhang G, Deans AR, Huala E, Lewis SE, Mabee PM. '''2015'''.  Emerging semantics to link phenotype and environment. PeerJ 3:e1470 [https://doi.org/10.7717/peerj.1470 https://doi.org/10.7717/peerj.1470]
 
 *Manda P., Balhoff J. P., Lapp H., Mabee P., Vision T.J. '''2015'''. Using the Phenoscape Knowledgebase to relate genetic perturbations to phenotypic evolution. Genesis [http://doi.org./10.1002/dvg.22878 http://dx.doi.org/10.1002/dvg.22878]
 
