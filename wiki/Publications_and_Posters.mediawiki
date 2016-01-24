@@ -85,7 +85,7 @@ title: Publications and Posters
 
 == Posters & Presentations ==
 === 2016 ===
-Manda, P (presenter), Mungall C, Balhoff J, Lapp H (2016) Investigating the importance of anatomical homology for cross-species phenotype comparisons using semantic similarity. Talk at the Pacific Symposium on Biocomputing, Hawaii. USA. January 5, 2016.
+Manda, P. (presenter), Mungall C., Balhoff J., Lapp H. (2016) Investigating the importance of anatomical homology for cross-species phenotype comparisons using semantic similarity. Talk at the Pacific Symposium on Biocomputing, Hawaii. USA. January 5, 2016.
 
 === 2015 ===
 * Mabee, P.M. (presenter) (2015). Progress in Comparative Morphology can be accelerated through Semantic Annotation. In: Symposium in memory of Donn E. Rosen: Assumptions that inhibit scientific progress in comparative biology. JMIH (Joint Meeting of Ichthyologists & Herpetologists). Reno, NV. USA. July 18, 2015.
