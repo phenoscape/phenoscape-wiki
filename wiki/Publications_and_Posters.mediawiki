@@ -11,7 +11,7 @@ title: Publications and Posters
 
 == Publications by date ==
 ===2016===
-*Edmunds, R.C., Su, B., Balhoff, J.P., Dahdul, W.M., Lapp, H., Lundberg, J.G., Vision, T.J., Dunham, R.A., Mabee, P.M., Westerfield, M. '''2016'''. Phenoscape: Identifying candidate genes for species-specific phenotypes. 33 (1): 13-24. doi: 10.1093/molbev/msv223
+*Edmunds, R.C., Su, B., Balhoff, J.P., Dahdul, W.M., Lapp, H., Lundberg, J.G., Vision, T.J., Dunham, R.A., Mabee, P.M., Westerfield, M. '''2016'''. Phenoscape: Identifying candidate genes for species-specific phenotypes. 33 (1): 13-24. [http://doi.org/10.1093/molbev/msv223 doi:10.1093/molbev/msv223]
 
 ===2015===
 * Balhoff JP, Manda P, Lapp H, Mabee P, Vision TJ '''2015''' Connecting genes with evolutionary knowledge using semantic similarity and ancestral profiles of variation. [http://phenoday2015.bio-lark.org/pdf/9.pdf Bio-ontologies SIG at ISMB 2015]
