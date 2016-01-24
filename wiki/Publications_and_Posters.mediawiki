@@ -84,7 +84,8 @@ title: Publications and Posters
 *Mabee PM, Ashburner M, Cronk Q, Gkoutos GV, Haendel M, Segerdell E, Mungall C, and Westerfield M. '''2007'''. Phenotype ontologies: the bridge between genomics and evolution. Trends Ecol Evol. Jul; 22(7) 345-50. [http://dx.doi.org/10.1016/j.tree.2007.03.013 doi:10.1016/j.tree.2007.03.013]
 
 == Posters & Presentations ==
-
+=== 2016 ===
+Manda P (presenter), Mungall C, Balhoff J, Lapp H (2016) Investigating the importance of anatomical homology for cross-species phenotype comparisons using semantic similarity. Talk at the Pacific Symposium on Biocomputing, Hawaii. USA. January 5, 2016.
 === 2015 ===
 * Mabee, P.M. (presenter) (2015). Progress in Comparative Morphology can be accelerated through Semantic Annotation. In: Symposium in memory of Donn E. Rosen: Assumptions that inhibit scientific progress in comparative biology. JMIH (Joint Meeting of Ichthyologists & Herpetologists). Reno, NV. USA. July 18, 2015.
 
