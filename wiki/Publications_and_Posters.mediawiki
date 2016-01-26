@@ -69,7 +69,6 @@ title: Publications and Posters
 
 ===2010===
 *Balhoff, J. P., W. M. Dahdul, C. R. Kothari, H. Lapp, J. G. Lundberg, P. M. Mabee, P. E. Midford, M. Westerfield, and T. J. Vision. '''2010'''. Phenex: Ontological annotation of phenotypic diversity. PLoS ONE 5(5):e10500. [http://dx.doi.org/10.1371/journal.pone.0010500 doi:10.1371/journal.pone.0010500]
-*Washington, N.L., C.J. Mungall, M.Gibson, J.P. Balhoff, J. Day-Richter, and S. Lewis. Phenote: A biological data annotation editor using ontologies. ''In revision November 2010''
 
 *Dahdul, W. M., J. P. Balhoff, J. Engeman, T. Grande, E. J. Hilton, C. R. Kothari, H. Lapp, J. G. Lundberg, P. E. Midford, T. J. Vision, M. Westerfield, and P. M. Mabee. '''2010'''. Evolutionary characters, phenotypes and ontologies:curating data from the systematic biology literature. PLoS ONE 5(5):e10708. [http://dx.doi.org/10.1371/journal.pone.0010708 doi:10.1371/journal.pone.0010708]
 
