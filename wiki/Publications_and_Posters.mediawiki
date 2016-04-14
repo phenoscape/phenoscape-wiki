@@ -15,7 +15,7 @@ title: Publications and Posters
 
 * Manda P, Mungall C, Balhoff J, Lapp H (2016) Investigating the importance of anatomical homology for cross-species phenotype comparisons using semantic similarity. Proceedings of the Pacific Symposium on Biocomputing 2016 [http://doi.org/10.1142/9789814749411_0013 doi:10.1142/9789814749411_0013]
 
-* A D Diehl (and 14 coauthors including W. Dahdul). (Submitted) The Cell Ontology 2016: Enhanced Content, Modularization, and Ontology Interoperability.
+* Diehl, A.D.  (and 14 coauthors including W. Dahdul). (Submitted) The Cell Ontology 2016: Enhanced Content, Modularization, and Ontology Interoperability.
 
 ===2015===
 * Balhoff JP, Manda P, Lapp H, Mabee P, Vision TJ '''2015''' Connecting genes with evolutionary knowledge using semantic similarity and ancestral profiles of variation. [http://phenoday2015.bio-lark.org/pdf/9.pdf Bio-ontologies SIG at ISMB 2015]
