@@ -13,7 +13,7 @@ title: Publications and Posters
 ===2016===
 * Edmunds, R.C., Su, B., Balhoff, J.P., Dahdul, W.M., Lapp, H., Lundberg, J.G., Vision, T.J., Dunham, R.A., Mabee, P.M., Westerfield, M. '''2016'''. Phenoscape: Identifying candidate genes for species-specific phenotypes. 33 (1): 13-24. [http://doi.org/10.1093/molbev/msv223 doi:10.1093/molbev/msv223]
 
-* Druzinsky, R. E., Balhoff, J. P., Crompton, A. W., Done, J., German, R. Z., Haendel, M. A., … Wall, C. E. (2016). Muscle Logic: New Knowledge Resource for Anatomy Enables Comprehensive Searches of the Literature on the Feeding Muscles of Mammals. PloS One, 11(2), e0149102. [http://doi.org/10.1371/journal.pone.0149102 doi:10.1371/journal.pone.0149102]
+* Druzinsky, R. E., Balhoff, J. P., Crompton, A. W., Done, J., German, R. Z., Haendel, M. A., Herrel, A., Herring, S.W., Lapp, H. Mabee, P.M., Muller, H., Mungall, C.J., Sternberg, P.W., Auken, K.V., Vinyard, C.J. , Williams, S.H., Wall, C. E. (2016). Muscle Logic: New Knowledge Resource for Anatomy Enables Comprehensive Searches of the Literature on the Feeding Muscles of Mammals. PloS One, 11(2), e0149102. [http://doi.org/10.1371/journal.pone.0149102 doi:10.1371/journal.pone.0149102]
 
 * Manda P, Mungall C, Balhoff J, Lapp H (2016) Investigating the importance of anatomical homology for cross-species phenotype comparisons using semantic similarity. Proceedings of the Pacific Symposium on Biocomputing 2016 [http://doi.org/10.1142/9789814749411_0013 doi:10.1142/9789814749411_0013]
 
