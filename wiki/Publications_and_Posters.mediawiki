@@ -99,6 +99,10 @@ title: Publications and Posters
 
 * Jackson LM (presenter, poster), Fernando P, Balhoff JP, Mabee PM. (2016). Poster. Automated Integration of Morphological Data Sheds Light on Paired Fin Loss in Actinopterygian Fishes.  Fifth Annual Summit Meeting of the Phenotype RCN, Tucson, AZ. February 2016.
 
+* Dahdul, WD (presenter). Phenoscape: computable phenotypes for comparative biology.  FuturePhy Workshop, University of Florida, Gainesville, FL; February 2016.
+
+* Jackson, LM (presenter). Integration of Phenomics Data to Investigate Paired Fin Loss: OntoTrace Case Study for Teleost Fishes. FuturePhy Workshop, University of Florida, Gainesville, FL; February 2016.
+
 * Manda, P. (presenter), Mungall C., Balhoff J., Lapp H. (2016) Investigating the importance of anatomical homology for cross-species phenotype comparisons using semantic similarity. Talk at the Pacific Symposium on Biocomputing, Hawaii. USA. January 5, 2016.
 
 === 2015 ===
