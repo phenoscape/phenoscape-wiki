@@ -2,7 +2,7 @@
 title: Postdoc2016
 ---
 
-==Opportunity for a Postdoctoral Fellow in Bioinformatics and Phenomics==
+==Postdoctoral Opportunity: Evolutionary Bioinformatics and Phenomics==
 
 The [http://phenoscape.org Phenoscape project] is recruiting a postdoc with training in bioinformatics and/or developmental biology who is interested in analyzing genomic and developmental data in relation to phenotypic data, with a focus on the vertebrate fin/limb. 
 
