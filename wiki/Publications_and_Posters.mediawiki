@@ -37,9 +37,10 @@ title: Publications and Posters
 *Oellrich A, Collier N, Groza T, Rebholz-Schuhmann D, Shah N, Bodenreider O, Boland MR, Georgiev I, Liu H, Livingston K, Luna A, Mallon AM, Manda P, Robinson PN, Rustici G, Simon M, Wang L, Winnenburg R, Dumontier M. '''2015''' The digital revolution in phenotyping. Brief Bioinform. [http://doi.org/10.1093/bib/bbv083 http://doi.org/10.1093/bib/bbv083]
 
 *Thessen AE, Bunker DE, Buttigieg PL, Cooper LD, Dahdul WM, Domisch S, Franz NM, Jaiswal P, Lawrence-Dill CJ, Midford PE, Mungall CJ, Ramírez MJ, Specht CD, Vogt L, Vos RA, Walls RL, White JW, Zhang G, Deans AR, Huala E, Lewis SE, Mabee PM. '''2015'''.  Emerging semantics to link phenotype and environment. PeerJ 3:e1470 [https://doi.org/10.7717/peerj.1470 https://doi.org/10.7717/peerj.1470]
-*Balhoff, J.P., W.M. Dahdul, T.A. Dececchi, H. Lapp, P.M. Mabee, and T.J. Vision. '''2014'''. Annotation of phenotypic diversity: decoupling data curation and ontology curation using Phenex. Journal of Biomedical Semantics 5:45 [http://dx.doi.org/10.1186/2041-1480-5-45 http://dx.doi.org/10.1186/2041-1480-5-45]
 
 ===2014===
+*Balhoff, J.P., W.M. Dahdul, T.A. Dececchi, H. Lapp, P.M. Mabee, and T.J. Vision. '''2014'''. Annotation of phenotypic diversity: decoupling data curation and ontology curation using Phenex. Journal of Biomedical Semantics 5:45 [http://dx.doi.org/10.1186/2041-1480-5-45 http://dx.doi.org/10.1186/2041-1480-5-45]
+
 *Balhoff, J.P., Dececchi, T.A., Mabee, P.M., Lapp, H. '''2014'''. Presence-absence reasoning for evolutionary phenotypes. Peer-reviewed conference paper, Bio-ontologies SIG at ISMB 2014. [http://phenoday2014.bio-lark.org/pdf/11.pdf http://phenoday2014.bio-lark.org/pdf/11.pdf] and [http://arxiv.org/abs/1410.3862 http://arxiv.org/abs/1410.3862]
 
 *Dahdul, W.M., H. Cui, P.M. Mabee, C.J. Mungall, D. Osumi-Sutherland, R. Walls, and M. Haendel. '''2014'''. Nose to tail, roots to shoots: spatial descriptors for phenotypic diversity in the Biological Spatial Ontology. Journal of Biomedical Semantics. 5:21. [http://dx.doi.org/10.1186/2041-1480-5-34 http://dx.doi.org/10.1186/2041-1480-5-34]
