@@ -11,7 +11,7 @@ title: Publications and Posters
 
 == Publications by date ==
 ===2016===
-* Dececchi, T.A., Mabee, P.M., Blackburn, D. '''2016''.' Data Sources for Trait Databases: Comparing the Phenomic Content of Monographs and Evolutionary Matrices.  PLOS One 11(5): e0155680. [http://dx.doi.org/10.1371/journal.pone.0155680 doi:10.1371/journal.pone.0155680]
+* Dececchi, T.A., Mabee, P.M., Blackburn, D. '''2016'''. Data Sources for Trait Databases: Comparing the Phenomic Content of Monographs and Evolutionary Matrices.  PLOS One 11(5): e0155680. [http://dx.doi.org/10.1371/journal.pone.0155680 doi:10.1371/journal.pone.0155680]
 
 * Edmunds, R.C., Su, B., Balhoff, J.P., Dahdul, W.M., Lapp, H., Lundberg, J.G., Vision, T.J., Dunham, R.A., Mabee, P.M., Westerfield, M. '''2016'''. Phenoscape: Identifying candidate genes for species-specific phenotypes. Molecular Biology and Evolution 33 (1): 13-24. [http://doi.org/10.1093/molbev/msv223 doi:10.1093/molbev/msv223]
 
