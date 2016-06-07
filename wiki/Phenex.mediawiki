@@ -11,7 +11,7 @@ Phenex is an application for annotating character matrix files with ontology ter
 You can learn more about using Phenex for phenotype annotation by viewing our [https://www.youtube.com/channel/UCEJqJ6r00D5W61tv1K4xDvA introductory screencasts].
 
 ==Download & Installation==
-Phenex is available for Mac or PC as a Java webstart application. Download and installation instructions ca be found here: http://phenoscape.github.io/Phenex/
+Phenex is available for Mac or PC as a Java webstart application. Download and installation instructions can be found here: http://phenoscape.github.io/Phenex/
 
 ===Release Notes===
 See the [[Phenex release history]] for the list of issues addressed in each version.
