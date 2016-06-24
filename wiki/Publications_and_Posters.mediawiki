@@ -94,7 +94,7 @@ title: Publications and Posters
 
 * Lapp, H. (presenter) (2016) [http://www.slideshare.net/hlapp/rphenoscape-connecting-the-semantics-of-evolutionary-morphology-to-comparative-phylogenetics Rphenoscape:  Connecting the semantics of evolutionary morphology to comparative phylogenetics]. 2016 Evolution Meetings, Austin, TX.
 
-* Lapp, H. (presenter) (2016) Evolutionary Morphology, computable: The Phenoscape KB. Software Bazaar at 2016 iEvoBio Conference, Austin, TX.
+* Lapp, H. (presenter) (2016) [https://docs.google.com/document/d/1mxthw6C0gZ6Ms3ULPz6eU0SfgYHlE75r5ozuhDwlDUs/edit?usp=sharing Evolutionary Morphology, computable: The Phenoscape KB]. Software Bazaar at 2016 iEvoBio Conference, Austin, TX.
 
 * Mabee, P. (presenter) (2016) Inference Expands Morphological Data: Filling in the “Unknown Knowns”. 2016 Evolution Meetings, Austin, TX. 
 
