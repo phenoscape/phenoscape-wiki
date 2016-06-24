@@ -91,7 +91,13 @@ title: Publications and Posters
 
 == Posters & Presentations ==
 === 2016 ===
- 
+
+* Lapp, H. (presenter) (2016) [http://www.slideshare.net/hlapp/rphenoscape-connecting-the-semantics-of-evolutionary-morphology-to-comparative-phylogenetics Rphenoscape:  Connecting the semantics of evolutionary morphology to comparative phylogenetics]. 2016 Evolution Meetings, Austin, TX.
+
+* Lapp, H. (presenter) (2016) Evolutionary Morphology, computable: The Phenoscape KB. Software Bazaar at 2016 iEvoBio Conference, Austin, TX.
+
+* Mabee, P. (presenter) (2016) Inference Expands Morphological Data: Filling in the “Unknown Knowns”. 2016 Evolution Meetings, Austin, TX. 
+
 * Vision, T. (presenter) (2016) [http://doi.org/10.6084/m9.figshare.3380380 The reaggregation of primary research outputs: A case study from Phenoscape]. FORCE 2016, April 18, 2016. 
 
 * Balhoff, J. (presenter) (2016) Data aggregation: Use of ontologies in phylogenetic matrix building. Fifth Annual Summit Meeting of the Phenotype RCN, Tucson, AZ. February 26, 2016.
