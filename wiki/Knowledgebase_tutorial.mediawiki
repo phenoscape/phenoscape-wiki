@@ -2,11 +2,8 @@
 title: Knowledgebase tutorial
 ---
 
-__NOTOC__
-
 {{StatusBox|This tutorial was developed for and describes usage of version 1 of the Phenoscape Knowledgebase, which continues to be available at http://fish.phenoscape.org. All links in this tutorial should be functional, but go to this legacy version of the KB, and not to the current version at http://kb.phenoscape.org. Most (though not all) of the functionality described here is also available in the current version, but at different URLs, and with different user-interfaces. The current KB version also has additional functionality not available in version 1, and thus not described here, such as OntoTrace and semantic similarity searches.}}
 
-__TOC__
 ==Getting started with the Phenoscape Knowledgebase==
 
 [[Image:KB_homepage.png|thumb|The Phenoscape Knowledgebase homepage.|left|350px]]
