@@ -12,9 +12,9 @@ title: Acknowledgments
 |- valign="top"
 | rowspan="4" |
 * [http://visionlab.web.unc.edu/ Todd Vision] (also University of North Carolina at Chapel Hill)
-* [[User:Hilmar| Hilmar Lapp]]
-* [http://www.mendeley.com/profiles/jim-balhoff/ Jim Balhoff]
-* Prashanti Manda
+* [[User:Hilmar| Hilmar Lapp]] (now at Duke University, Center for Genomic and Computational Biology)
+* [http://www.mendeley.com/profiles/jim-balhoff/ Jim Balhoff] (now at RTI, Inc.)
+* Prashanti Manda (now at University of North Carolina at Greensboro)
 |
 * Paula Mabee
 * Wasila Dahdul
