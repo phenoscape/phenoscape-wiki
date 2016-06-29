@@ -2,10 +2,12 @@
 title: Data Services
 ---
 
+{{StatusBox|This page documents data services for version 1 of the Phenoscape KB, available as a legacy resource at http://fish.phenoscape.org. The web-services API for the current version of the KB is documented at http://docs.phenoscapekb.apiary.io/.}}
+
 This page details the data services that query the Phenoscape OBD database and transfer the retrieved results to the Phenoscape UI. Each service may support multiple media types.  The desired media type can be specified by appending <code>?media=json</code> or similar to the request URL.  URI specifications are defined (loosely) using [http://bitworking.org/projects/URI-Templates/draft-gregorio-uritemplate-00.html URI Templates].
 
 =Phenoscape Knowledgebase data services=
-These are available at http://kb.phenoscape.org/OBD-WS/
+These are available at http://fish.phenoscape.org/OBD-WS/
 
 ==Timestamp==
 '''URI'''
