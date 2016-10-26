@@ -93,6 +93,7 @@ title: Publications and Posters
 
 == Posters & Presentations ==
 === 2016 ===
+* Dahdul, W (presenter) (2016) Beetles, barnacles, and catfishes: talking across lineages to build the tree of life. Department Seminar, California State University, Fullerton. October 12, 2016.
 
 * Mabee, P. (presenter) (2016) What does it mean to bring computable phenotypes linked to genes, to phylogenetic systematics? Willi Hennig Society Meeting, Buenos Aires, Argentina.
 
@@ -112,7 +113,7 @@ title: Publications and Posters
 
 * Jackson LM (presenter, poster), Fernando P, Balhoff JP, Mabee PM. (2016). Poster. Automated Integration of Morphological Data Sheds Light on Paired Fin Loss in Actinopterygian Fishes.  Fifth Annual Summit Meeting of the Phenotype RCN, Tucson, AZ. February 2016.
 
-* Dahdul, WD (presenter)  (2016) Phenoscape: computable phenotypes for comparative biology.  FuturePhy Workshop, University of Florida, Gainesville, FL; February 2016.
+* Dahdul, W (presenter)  (2016) Phenoscape: computable phenotypes for comparative biology.  FuturePhy Workshop, University of Florida, Gainesville, FL; February 2016.
 
 * Jackson, LM (presenter)  (2016)  Integration of Phenomics Data to Investigate Paired Fin Loss: OntoTrace Case Study for Teleost Fishes. FuturePhy Workshop, University of Florida, Gainesville, FL; February 2016.
 
