@@ -323,6 +323,17 @@ Cleithrum: (0) unossified; (1) ossified
  E: cleithrum, Q: absent (State 0)
  E: cleithrum, Q: present (State 1)
 
+== Higher-Level Taxon Annotations<br/> ==
+Authors sometimes describe features for higher-level taxa rather than species, and this can present challenges for EQ annotation (see discussion in Jackson et al., in prep). We developed the following guidelines to handle these cases:
+
+* In cases where authors describe features for higher-level taxa but do not specify the species or subgroups to which the taxonomic grouping applies, we annotate only to the specific higher-level taxon stated by the author. For example, for a character stating “preopercle triangular in Osteoglossomorpha”, only ‘Osteoglossomorpha' is annotated with this character and species-level annotations are not applied. Had the author indicated the family membership in this higher-level group, we would apply annotations to the containing families only, and not to the species which were not specified.
+
+* Authors may also refer to higher-level taxa not placed in a classification (e.g., Holacanthopterygii in Wiley and Johnson (2010)) and for which containing taxa was not specified. Because of insufficient information about placement and containing taxa, we don’t record annotations to these taxa.
+
+* Higher-level taxa in a publication may in some cases differ from higher-level groupings in the VTO. In such cases, we annotate to the containing taxa as intended in the publication. For example, some taxa included in Osmeridae in Wiley and Johnson (2010) are elevated to their own family (Plecoglossidae) in VTO; we ensure that the characters are applied to the relevant taxa within the family Plecoglossidae in VTO. 
+
+* In cases where a higher-level taxon is polymorphic for a character, we investigate the literature to determine the appropriate species coding. If this information is not available or can’t be traced in the literature to particular species, we do not apply the coding to the containing species
+
 == Interpreting Authors' Text<br/> ==
 
 Authors may sometimes describe characters with words that have exact matches to ontology terms, but these exact term matches may not chosen by a curator for various reasons.&nbsp; For example, a character may describe: “Clavicle shape of ventromedial plate: narrow, deep, intermediate”.&nbsp; “Deep” has an exact match in PATO but given the context of the other states and the curator’s knowledge of this particular anatomy, the curator decided that “deep” refers to an increase in width and therefore chose PATO: <span style="font-family:courier new,courier,monospace">increased width</span> to annotate this state.<br/><br/>Another example relates to the PATO terms for <span style="font-family:courier new,courier,monospace">continuous</span>, <span style="font-family:courier new,courier,monospace">discontinuous</span> and <span style="font-family:courier new,courier,monospace">offset quality</span>.&nbsp; These are children of <span style="font-family:courier new,courier,monospace">process quality</span> in PATO and therefore should not be used in the context of anatomy. However, authors sometimes use these terms to describe qualities of margins (continuous, discontinuous) and position (offset).&nbsp; Other PATO terms are more appropriate for these annotations (e.g., <span style="font-family:courier new,courier,monospace">straight</span>, <span style="font-family:courier new,courier,monospace">offset</span>).
