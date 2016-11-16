@@ -334,7 +334,7 @@ Authors sometimes describe features for higher-level taxa rather than species, a
 
 * In cases where a higher-level taxon is polymorphic for a character, we investigate the literature to determine the appropriate species coding. If this information is not available or can’t be traced in the literature to particular species, we do not apply the coding to the containing species
 
-== Lack of alternative character state descriptions == 
+== Lack of Alternative Character State Descriptions == 
 As discussed in Jackson et al. (in prep), authors may sometimes describe a feature or character without specifying the alternative phenotype or character state. For example, an author may describe the "pelvic fin absent" in one taxon, and not explicitly state the alternative ("pelvic fin present") which might apply to all other taxa. We annotate only the asserted state and never an implied alternative state.
 
 == Interpreting Authors' Text<br/> ==
