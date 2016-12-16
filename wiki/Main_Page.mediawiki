@@ -3,11 +3,10 @@ title: Main Page
 ---
 
 {{EventBox1|
-* We are posting vertebrate skeletal images from the Junior Biocurator Program to our [https://www.flickr.com/photos/109282112@N02/with/14085448954/ Phenoscape flickr account], all CC-BY licensed.
-* Note our workshop [http://phenoscape.org/wiki/Training_and_Workshops#Workshop_on_New_Tools_for_Studying_Phenotype_Evolution_in_the_Vertebrates.2C_February_7-10.2C_2013] facilitated by [http://knowinnovation.com/ KnowInnovation] at [http://www.calacademy.org/ California Academy of Sciences].  Thanks to the [http://www.nsf.gov/ National Science Foundation] and [http://www.deepfin.org/ DeepFin Research Coordination Network] for the funding that made this possible.
 * Try the [http://kb.phenoscape.org Phenoscape Knowledgebase].  Your feedback is welcome!
-* Check out the latest news on the [http://blog.phenoscape.org/ Phenoscape blog]}}
-
+* Check out the latest news on the [http://blog.phenoscape.org/ Phenoscape blog]
+* We have posted vertebrate skeletal images from the Junior Biocurator Program to our [https://www.flickr.com/photos/109282112@N02/with/14085448954/ Phenoscape flickr account], all CC-BY licensed.
+}}
 == Ontology-enabled reasoning across phenotypes from evolution and model organisms ==
 
 === About this project ===
