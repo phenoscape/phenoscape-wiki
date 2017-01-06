@@ -93,19 +93,19 @@ title: Publications and Posters
 
 == Posters & Presentations ==
 === 2016 ===
+* Dahdul, W (presenter) (2016) Beetles, barnacles, and catfishes: talking across lineages to build the tree of life. Department Seminar, California State University, Fullerton. October 12, 2016.
+
+* Mabee, P. (presenter) (2016) What does it mean to bring computable phenotypes linked to genes, to phylogenetic systematics? Willi Hennig Society Meeting, Buenos Aires, Argentina. November 2016.
+
 * Mabee, P. (presenter) (2016) Phenotypes, Databases and Ontologies, The Loci of Evolution Meta-Analysis Workshop, Paris, September 5, 2016.
 
 * Balhoff, J. (presenter) (2016) Reasoning with Phenotypes and Ontologies, The Loci of Evolution Meta-Analysis Workshop, Paris, September 5, 2016.
  
-* Dahdul, W (presenter) (2016) Beetles, barnacles, and catfishes: talking across lineages to build the tree of life. Department Seminar, California State University, Fullerton. October 12, 2016.
+* Lapp, H. (presenter) (2016) [http://www.slideshare.net/hlapp/rphenoscape-connecting-the-semantics-of-evolutionary-morphology-to-comparative-phylogenetics Rphenoscape:  Connecting the semantics of evolutionary morphology to comparative phylogenetics]. 2016 Evolution Meetings, Austin, TX. June 2016. 
 
-* Mabee, P. (presenter) (2016) What does it mean to bring computable phenotypes linked to genes, to phylogenetic systematics? Willi Hennig Society Meeting, Buenos Aires, Argentina.
-
-* Lapp, H. (presenter) (2016) [http://www.slideshare.net/hlapp/rphenoscape-connecting-the-semantics-of-evolutionary-morphology-to-comparative-phylogenetics Rphenoscape:  Connecting the semantics of evolutionary morphology to comparative phylogenetics]. 2016 Evolution Meetings, Austin, TX.
-
-* Lapp, H. (presenter) (2016) [https://docs.google.com/document/d/1mxthw6C0gZ6Ms3ULPz6eU0SfgYHlE75r5ozuhDwlDUs/edit?usp=sharing Evolutionary Morphology, computable: The Phenoscape KB]. Software Bazaar at 2016 iEvoBio Conference, Austin, TX.
-
-* Mabee, P. (presenter) (2016) Inference Expands Morphological Data: Filling in the “Unknown Knowns”. 2016 Evolution Meetings, Austin, TX. 
+* Lapp, H. (presenter) (2016) [https://docs.google.com/document/d/1mxthw6C0gZ6Ms3ULPz6eU0SfgYHlE75r5ozuhDwlDUs/edit?usp=sharing Evolutionary Morphology, computable: The Phenoscape KB]. Software Bazaar at 2016 iEvoBio Conference, Austin, TX. June 2016. 
+ 
+* Mabee, P. (presenter) (2016) Inference Expands Morphological Data: Filling in the “Unknown Knowns”. 2016 Evolution Meetings, Austin, TX. June 2016. 
 
 * Vision, T. (presenter) (2016) [http://doi.org/10.6084/m9.figshare.3380380 The reaggregation of primary research outputs: A case study from Phenoscape]. FORCE 2016, April 18, 2016. 
 
