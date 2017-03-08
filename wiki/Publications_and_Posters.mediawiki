@@ -99,6 +99,8 @@ title: Publications and Posters
 
 * Dahdul W (presenter, poster), Manda P, Cui H, Balhoff J, Dececchi A, Ibrahim N, Lapp H, Mabee PM, Vision TJ. (2017). Gold standard evaluation of machine and human generated annotations of biodiverse phenotypes.  Biocuration 2017, Stanford, CA, March 2017. 
 
+* Mabee, PM. 2017. Ontology-enabled reasoning across phenotypes from evolution and model organisms. George Washington University. Washington, D.C. March 3, 2017. 
+
 === 2016 ===
 * Dahdul, W (presenter) (2016) Beetles, barnacles, and catfishes: talking across lineages to build the tree of life. Department Seminar, California State University, Fullerton. October 12, 2016.
 
