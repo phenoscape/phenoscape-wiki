@@ -10,6 +10,7 @@ title: Publications and Posters
 * Data modeling, reasoning & ontologies: Manda et al. (2016), Balhoff et al. (2015), Balhoff et al (2013), Haendel et al (2014), Dahdul e al (2014), Midford et al (2013), Druzinsky et al (2013), Segerdell et al (2013), Balhoff et al (2013), Dahdul et al (2012), Haendel et al (2008)
 
 == Publications by date ==
+===2017===
 ===2016===
 * Balhoff, J.P. '''2016'''. Scowl: a Scala DSL for programming with the OWL API. The Journal of Open Source Software. [http://dx.doi.org/10.21105/joss.00023 doi:10.21105/joss.00023]
 
