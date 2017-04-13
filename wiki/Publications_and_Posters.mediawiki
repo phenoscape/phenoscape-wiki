@@ -95,11 +95,11 @@ title: Publications and Posters
 == Posters & Presentations ==
 === 2017 ===
 
-* Jackson LM (presenter, poster), Fernando P, Hanscom J, Balhoff J, and Mabee P. (2017). A computational framework using ontologies to integrate large-scale trees and traits: exploring diversity across the teleost tree of life. Biocuration 2017, Stanford, CA, March 2017.
+* Jackson LM (presenter, poster), Fernando P, Hanscom J, Balhoff J, and Mabee P. (2017). A computational framework using ontologies to integrate large-scale trees and traits: exploring diversity across the teleost tree of life. Biocuration 2017, Stanford, CA, March 2017. [http://doi.org/10.7490/f1000research.1113878.1 doi:10.7490/f1000research.1113878.1]
 
 * Dahdul W (presenter, poster), Manda P, Cui H, Balhoff J, Dececchi A, Ibrahim N, Lapp H, Mabee PM, Vision TJ. (2017). Gold standard evaluation of machine and human generated annotations of biodiverse phenotypes.  Biocuration 2017, Stanford, CA, March 2017. [http://doi.org/10.7490/f1000research.1113805.1 doi:10.7490/f1000research.1113805.1]
 
-* Mabee, PM. 2017. Ontology-enabled reasoning across phenotypes from evolution and model organisms. George Washington University. Washington, D.C. March 3, 2017.
+* Mabee, PM. (2017). Ontology-enabled reasoning across phenotypes from evolution and model organisms. George Washington University. Washington, D.C. March 3, 2017.
 
 === 2016 ===
 * Dahdul, W (presenter) (2016) Beetles, barnacles, and catfishes: talking across lineages to build the tree of life. Department Seminar, California State University, Fullerton. October 12, 2016.
