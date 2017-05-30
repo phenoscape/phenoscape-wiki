@@ -112,6 +112,8 @@ title: Publications and Posters
 
 * Balhoff, J. (presenter) (2016) Reasoning with Phenotypes and Ontologies, The Loci of Evolution Meta-Analysis Workshop, Paris, September 5, 2016.
  
+* Balhoff, J (presenter, poster), W Dahdul, P Manda, L Jackson, C Mao, H Xu, L Zhang, H Lapp, P Mabee, T Vision (2016) The Phenoscape Knowledgeable: tools and APIs for computing across phenotypes from evolutionary diversity to model organisms. International Conference on Biological Ontology, Corvallis, OR. August 2016.
+
 * Lapp, H. (presenter) (2016) [http://www.slideshare.net/hlapp/rphenoscape-connecting-the-semantics-of-evolutionary-morphology-to-comparative-phylogenetics Rphenoscape:  Connecting the semantics of evolutionary morphology to comparative phylogenetics]. 2016 Evolution Meetings, Austin, TX. June 2016. 
 
 * Lapp, H. (presenter) (2016) [https://docs.google.com/document/d/1mxthw6C0gZ6Ms3ULPz6eU0SfgYHlE75r5ozuhDwlDUs/edit?usp=sharing Evolutionary Morphology, computable: The Phenoscape KB]. Software Bazaar at 2016 iEvoBio Conference, Austin, TX. June 2016. 
