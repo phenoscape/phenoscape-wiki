@@ -12,7 +12,7 @@ title: Publications and Posters
 == Publications by date ==
 ===2017===
 * Manda P., Vision T.J.. '''2017'''. Evolution of anatomical concept usage over time: Mining 200 years of biodiversity literature. [http://doi.org/10.1145/3066911.3066919 Proceedings of The International Workshop on Semantic Big Data (SBD ’17)]  (preprint [http://doi.org/10.7287/peerj.preprints.2747v1 doi:10.7287/peerj.preprints.2747v1]).
-* Jackson, L.M., Fernando, P.C., Hanscom, J.S., Balhoff, J.P., Mabee, P.M.  Automated Integration of Trees and Traits: A Case Study Using Paired Fin Loss Across Teleost Fishes. (Accepted pending revision, April 2017)
+* Jackson, L.M., Fernando, P.C., Hanscom, J.S., Balhoff, J.P., Mabee, P.M.  Automated Integration of Trees and Traits: A Case Study Using Paired Fin Loss Across Teleost Fishes. (Accepted pending revision, Systematic Biology, April 2017)
 
 ===2016===
 * Manda P, Balhoff J, Vision TJ. '''2016'''. Measuring the importance of annotation granularity to the detection of semantic similarity between phenotype profiles. [http://ceur-ws.org/Vol-1747/ Proceedings of the International Conference on Biological Ontology 2016] ([https://doi.org/10.1101/086306 preprint doi:10.1101/086306]).
