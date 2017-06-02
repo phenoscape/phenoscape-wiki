@@ -102,17 +102,21 @@ title: Publications and Posters
 == Posters & Presentations ==
 === 2017 ===
 
-* Mabee, P (presenter) (2017) Progress in comparative biology can be accelerated through semantic annotation. SSB workshop – Trees, traits and functions: semantics for comparative biology. Evolution Conference, Portland, OR, June 2017.
+* Mabee, P (2017) Progress in comparative biology can be accelerated through semantic annotation. SSB workshop – Trees, traits and functions: semantics for comparative biology. Evolution Conference, Portland, OR, June 2017.
 
 * Vision, T (presenter, poster), J Balhoff, W Dahdul, A Dececchi, P Fernando, H Lapp, P Mabee, P Manda, K Mastick, M Westerfield, E Zeng (2017) Machine reasoning about phenotypes: enhancing expert knowledge about the genetics of a fossil transition. Evolution Conference, Portland, OR, June 2017. 
  
 * Dahdul, W (presenter, poster), J Balhoff, H Lapp, T Vision, P Mabee. (2017). Incorporating the logic of anatomical homology in a gene-phenotype knowledgebase: Phenoscape KB. Evolution Conference, Portland, OR, June 2017.
+
+* Jackson LM (presenter, poster), FC Fernando, JP Balhoff, PM Mabee. (2017). A computational framework using ontologies to integrate large-scale trees and traits: exploring diversity across the teleost tree of life. University of South Dakota Ideafest. Vermillion, SD, April 5, 2017.
 
 * Jackson LM (presenter, poster), Fernando P, Hanscom J, Balhoff J, and Mabee P. (2017). A computational framework using ontologies to integrate large-scale trees and traits: exploring diversity across the teleost tree of life. Biocuration 2017, Stanford, CA, March 2017. [http://doi.org/10.7490/f1000research.1113878.1 doi:10.7490/f1000research.1113878.1]
 
 * Dahdul W (presenter, poster), Manda P, Cui H, Balhoff J, Dececchi A, Ibrahim N, Lapp H, Mabee PM, Vision TJ. (2017). Gold standard evaluation of machine and human generated annotations of biodiverse phenotypes.  Biocuration 2017, Stanford, CA, March 2017. [http://doi.org/10.7490/f1000research.1113805.1 doi:10.7490/f1000research.1113805.1]
 
 * Mabee, PM. (2017). Ontology-enabled reasoning across phenotypes from evolution and model organisms. George Washington University. Washington, D.C. March 3, 2017.
+
+* Jackson LM (presenter), PC Fernando, JP Balhoff, PM Mabee. (2017). Automated integration of trees and traits: a case study using paired fin loss across teleost fishes. Annual Meeting of the Society for Integrative and Comparative Biology (SICB). New Orleans, LA, January 7, 2017.
 
 === 2016 ===
 * Dahdul, W (presenter) (2016) Beetles, barnacles, and catfishes: talking across lineages to build the tree of life. Department Seminar, California State University, Fullerton. October 12, 2016.
