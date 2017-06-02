@@ -17,6 +17,9 @@ title: Publications and Posters
 ===2016===
 * Manda P, Balhoff J, Vision TJ. '''2016'''. Measuring the importance of annotation granularity to the detection of semantic similarity between phenotype profiles. [http://ceur-ws.org/Vol-1747/ Proceedings of the International Conference on Biological Ontology 2016] ([https://doi.org/10.1101/086306 preprint doi:10.1101/086306]).
 
+* Balhoff, J.P. '''2016'''. The Phenoscape Knowledgebase: tools and APIs for computing across phenotypes from evolutionary diversity and model organisms. [http://ceur-ws.org/Vol-1747/ Proceedings of the International Conference on Biological Ontology 2016] ([https://doi.org/10.1101/071951 preprint doi:10.1101/071951]).
+
+
 * Balhoff, J.P. '''2016'''. Scowl: a Scala DSL for programming with the OWL API. The Journal of Open Source Software. [http://dx.doi.org/10.21105/joss.00023 doi:10.21105/joss.00023]
 
 * Dececchi, T.A., Mabee, P.M., Blackburn, D. '''2016'''. Data Sources for Trait Databases: Comparing the Phenomic Content of Monographs and Evolutionary Matrices.  PLOS One 11(5): e0155680. [http://dx.doi.org/10.1371/journal.pone.0155680 doi:10.1371/journal.pone.0155680]
