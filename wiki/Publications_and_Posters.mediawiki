@@ -108,7 +108,9 @@ title: Publications and Posters
  
 * Dahdul, W (presenter, poster), J Balhoff, H Lapp, T Vision, P Mabee. (2017). Incorporating the logic of anatomical homology in a gene-phenotype knowledgebase: Phenoscape KB. Evolution Conference, Portland, OR, June 2017.
 
-* Fernando, P, L Jackson, J Balhoff, E Zeng, P Mabee. (2017) A generic bioinformatics pipeline to integrate large-scale trait data with large phylogenies. 2017 RII Track-1 All Investigator Meeting. Oacoma, SD, May 2017.
+* Fernando, P (presenter, poster), L Jackson, J Balhoff, E Zeng, P Mabee. (2017) A generic bioinformatics pipeline to integrate large-scale trait data with large phylogenies. 2017 RII Track-1 All Investigator Meeting. Oacoma, SD, May 2017.
+
+* Fernando, P (presenter, poster), L Jackson, J Balhoff, E Zeng, P Mabee. (2017) A generic bioinformatics pipeline to integrate large-scale trait data with large phylogenies. Great Lakes Bioinformatics Conference, Chicago, IL. F1000Research 2017, 6(ISCB Comm J):674 (poster)  [http://doi.org/10.7490/f1000research.1114056.1 doi: 10.7490/f1000research.1114056.1]
 
 * Jackson LM (presenter, poster), FC Fernando, JP Balhoff, PM Mabee. (2017). A computational framework using ontologies to integrate large-scale trees and traits: exploring diversity across the teleost tree of life. University of South Dakota Ideafest. Vermillion, SD, April 5, 2017.
 
