@@ -85,7 +85,7 @@ This workshop will be held in conjunction with the [http://www.cce.umn.edu/confe
 
 ; Registration: Registration will be open to attendees of the Evolution 2008 conference at no additional cost.
 
-Further information can be found at the [http://www.bioontology.org/wiki/index.php/Evolutionary_Biology_and_Ontologies workshop page at the NCBO wiki]. There is also a [http://www.nescent.org/documents/EBO_Flyer.pdf  workshop flier] for dissemination. Please feel free to distribute the flier to your colleagues and students.
+Further information can be found at the [http://www.bioontology.org/wiki/index.php/Evolutionary_Biology_and_Ontologies workshop page at the NCBO wiki]. There is also a [[Media:EBO_Flyer.pdf|workshop flier ]] for dissemination. Please feel free to distribute the flier to your colleagues and students.
 
 ===Presentations===
 
