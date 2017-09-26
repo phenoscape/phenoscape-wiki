@@ -5,4 +5,5 @@ title: Categories
 == Category Tag Cloud ==
 <tagcloud/>
 == Alphabetical Listing of Categories ==
-<categorylinks/>
+
+[[Special:Categories|Category listing]]
