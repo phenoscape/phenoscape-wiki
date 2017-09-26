@@ -7,3 +7,5 @@ The [http://kb.phenoscape.org Phenoscape Knowledgebase] (KB) is Phenoscape's fla
 For query answering the KB uses machine reasoning to match data by its semantics. The API also gives access to other machine reasoning-based algorithms. These include synthesizing characters and states that are implied by but not expressly asserted in the original studies; and finding evolutionary phenotype transitions semantically similar to gene phenotypes.
 
 Further details, including relevant publications, KB data model, and API documentation can be found at [https://github.com/phenoscape/KB-DataFest-2017/wiki/Learning-about-the-KB Learning about the KB].
+
+[[Category:Database]][[Category:Informatics]][[Category:Software]]
