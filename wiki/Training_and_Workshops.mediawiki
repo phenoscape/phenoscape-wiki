@@ -2,6 +2,23 @@
 title: Training and Workshops
 ---
 
+== Evolution 2017 SSB workshop – Trees, traits and functions: semantics for comparative biology ==
+
+'''Day''': Friday, June 23, 2017<br/>
+'''Time''': 1:30 PM - 5:00 PM<br/>
+'''Location''': Oregon Convention Center, Portland, Rm. B114<br/>
+''An optional pre-conference event. Prior registration required (during conference registration).''
+
+Topic: A rich set of comparative phylogenetic methods has been developed in recent decades for the analysis of traits, functions, and other macroevolutionary patterns. A similarly rich set of tools, such as ontologies, data annotation models, and machine reasoners, have also recently been introduced allowing researchers to represent the semantics of phenotypes, traits, functions, and environmental properties in such a way that computers can access what had previously been the implicit knowledge of biological experts. Although these two efforts have remained largely separate from each other, a few studies at their intersection have shown that their synthesis has the potential to enable new classes of comparative analyses and provide an interdisciplinary bridge between different phylogenetics user communities. This symposium brings together research at the nexus of comparative phylogenetics and computable semantics of biological knowledge. The aim is to stimulate discussion and awareness of the opportunities that are emerging for the comparative biology community. 
+
+Speakers:
+* Carrine Blank (U. Montana) ''Use of natural language processing algorithms, ontologies, and phylogenomic trees to automate and accelerate phenotypic trait evolutionary studies for prokaryotes''
+* Paula Mabee (U. South Dakota) ''Progress in comparative biology can be accelerated through semantic annotation''
+* Paul Thomas (U. Southern California) ''Modeling the evolution of gene function using phylogenies and the Gene Ontology''
+* Martin Ramirez (Museo Argentino de Ciencias Naturales) ''Tracing the evolution of complex traits: the integration of atomized morphological data on phylogenies''
+* Sergei Tarasov (NIMBioS, U. Tennessee, Knoxville) ''Anatomy Ontology, Bayesian Networks and Evo-Devo suggest a new framework for modeling discrete morphological characters''
+* Josef Uyeda (Virginia Tech U.) ''Can ontologies help understand trait evolution (and vice versa)?''
+
 == Workshop on New Tools for Studying Phenotype Evolution in the Vertebrates, February 7-10, 2013==
 What new research opportunities are opened up by the power to compute over phenotype information from thousands of species of vertebrates, together with phenotype and expression information for thousands of genes in multiple model organisms?  The first release of the Phenoscape Knowledgebase includes over 500K species phenotypes linked to 4,000+ genes from zebrafish, and is currently being extended to capture phenotype data from other vertebrates and linked to phenotype and expression data for other model organisms (including mouse and Xenopus).  Scientists were invited through an open call and invitations to participate in a workshop facilitated by [http://knowinnovation.com/ KnowInnovation], with the aim of initiating new collaborations to drive the development of the Phenoscape tool set/interface and present new and creative ways to deepen understanding of phenotypic evolution.  We were particularly interested in a broad approach to this problem and welcomed scientists with backgrounds in computational and systems biology, mathematics, development, genomics, and evolution.  Phenoscape is supporting the initial steps in projects that were the outcome of this successful workshop.  Supplemental funding for facilitation was generously awarded from the [http://www.nsf.gov/ National Science Foundation].  Funding for participation of ichthyologists in this workshop was provided by the [http://http://www.deepfin.org/ DeepFin Research Coordination Network].  Location: [http://www.calacademy.org/ California Academy of Sciences].  Organizers: David Blackburn, Paula Mabee and Todd Vision, together with KnowInnovation.
 
