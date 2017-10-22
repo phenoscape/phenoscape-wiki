@@ -104,7 +104,7 @@ title: Publications and Posters
 
 * Mabee, P (2017) Progress in comparative biology can be accelerated through semantic annotation. SSB workshop – Trees, traits and functions: semantics for comparative biology. Evolution Conference, Portland, OR, June 23, 2017.
 
-* Vision, T (presenter, poster), J Balhoff, W Dahdul, A Dececchi, P Fernando, H Lapp, P Mabee, P Manda, K Mastick, M Westerfield, E Zeng (2017) Machine reasoning about phenotypes: enhancing expert knowledge about the genetics of a fossil transition. Evolution Conference, Portland, OR, June 23, 2017. 
+* Vision, T (presenter, poster), J Balhoff, W Dahdul, A Dececchi, P Fernando, H Lapp, P Mabee, P Manda, K Mastick, M Westerfield, E Zeng (2017) Machine reasoning about phenotypes: enhancing expert knowledge about the genetics of a fossil transition. Evolution Conference, Portland, OR, June 23, 2017. [http://doi.org/10.6084/m9.figshare.5262868.v1 doi:10.6084/m9.figshare.5262868.v1]
  
 * Dahdul, W (presenter, poster), J Balhoff, H Lapp, T Vision, P Mabee. (2017). Incorporating the logic of anatomical homology in a gene-phenotype knowledgebase: Phenoscape KB. Evolution Conference, Portland, OR, June 2017.
 
