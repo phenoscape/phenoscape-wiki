@@ -14,7 +14,7 @@ You can learn more about using Phenex for phenotype annotation by viewing our [h
 Phenex is available for Mac or PC as a Java webstart application. Download and installation instructions can be found here: http://phenoscape.github.io/Phenex/
 
 ===Release Notes===
-See the [[Phenex release history]] for the list of issues addressed in each version.
+See the [https://github.com/phenoscape/Phenex/releases Phenex release history] for the list of issues addressed in each version.
 
 ==License and Attribution==
 
