@@ -2,6 +2,8 @@
 title: Phenex release history
 ---
 
+{{StatusBox|''This page is outdated, obsolete and kept here solely for archival purposes. [https://github.com/phenoscape/Phenex/releases Phenex releases] are now kept in Github.''}}
+
 ==Phenex 1.10==
 Released 2013-07-19.
 * [https://github.com/phenoscape/Phenex/compare/v1.9...v1.10 Source changes]
