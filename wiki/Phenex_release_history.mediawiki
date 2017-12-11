@@ -116,3 +116,4 @@ Released 2010-07-19.
 [[Category:Informatics]]
 [[Category:Phenex]]
 [[Category:Software]]
+[[Category:Obsolete pages]]
