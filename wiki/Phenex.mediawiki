@@ -2,4 +2,4 @@
 title: Phenex
 ---
 
-Phenex is being [https://github.com/phenoscape/Phenex maintained on Github]. [https://github.com/phenoscape/Phenex/releases Releases] and [https://github.com/phenoscape/Phenex/issues known issues] can be found there, and [https://github.com/phenoscape/Phenex/wiki documentation about using Phenex] has now been moved to a Github-hosted wiki.
+''Phenex is being [https://github.com/phenoscape/Phenex maintained on Github]. [https://github.com/phenoscape/Phenex/releases Releases] and [https://github.com/phenoscape/Phenex/issues known issues] can be found there, and [https://github.com/phenoscape/Phenex/wiki documentation about using Phenex] has now been moved to a Github-hosted wiki.''
