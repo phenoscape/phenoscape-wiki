@@ -3,7 +3,7 @@ title: Publications and Posters
 ---
 
 == Publications by category ==
-* Perspectives and reviews: Thessen AE et al. (2015), Manda P. et al. (2015), Oellrich et al. (2015), Deans et. al (2015), Mabee et al. (2012), Deans et al (2011), Vision et al. (2011), Mabee et al (2007)
+* Perspectives and reviews: Mabee et al. (2018), Thessen AE et al. (2015), Manda P. et al. (2015), Oellrich et al. (2015), Deans et. al (2015), Mabee et al. (2012), Deans et al (2011), Vision et al. (2011), Mabee et al (2007)
 * Biological knowledge discovery: Edmunds et al (2016), Dececci et al (2015), Ibrahim et al (2014), Manda and Vision (2017), Mullins et al (2012), Mabee et al (2007). 
 * Software: Balhoff (2016), Balhoff et al. (2014), Balhoff et al (2010)
 * Data curation: Cui et al. (2015), Dahdul et al (2015), Arighi et al. (2012), Bertone et al (2012), Dahdul et al (2010)
