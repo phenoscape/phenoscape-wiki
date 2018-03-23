@@ -12,7 +12,7 @@ title: Publications and Posters
 == Publications by date ==
 ===2018===
 * Jackson, L.M., Fernando, P.C., Hanscom, J.S., Balhoff, J.P., Mabee, P.M.  2018. Automated Integration of Trees and Traits: A Case Study Using Paired Fin Loss Across Teleost Fishes.  Systematic Biology, syx098, https://doi.org/10.1093/sysbio/syx098
-* Submitted: Mabee P.M., Dahdul W., Balhoff J.P., Lapp, H., Manda, P., Uyeda, J., Vision, T.J., Westerfield, M. 2018. Phenoscape: Semantic analysis of organismal traits and genes yields insights in evolutionary biology. In: Application of Semantic Technologies in Biodiversity Science (A. Thessen, editor).
+* Submitted: Mabee P.M., Dahdul W., Balhoff J.P., Lapp, H., Manda, P., Uyeda, J., Vision, T.J., Westerfield, M. 2018. Phenoscape: Semantic analysis of organismal traits and genes yields insights in evolutionary biology. In: Application of Semantic Technologies in Biodiversity Science (A. Thessen, editor).  IOS Press, Berlin.
 
 ===2017===
 * Manda P., Vision T.J. '''2017'''. Evolution of anatomical concept usage over time: Mining 200 years of biodiversity literature. [http://doi.org/10.1145/3066911.3066919 Proceedings of The International Workshop on Semantic Big Data (SBD ’17)]  (preprint [http://doi.org/10.7287/peerj.preprints.2747v1 doi:10.7287/peerj.preprints.2747v1]).
