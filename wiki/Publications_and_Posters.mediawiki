@@ -56,7 +56,7 @@ title: Publications and Posters
 
 *Balhoff, J.P., Dececchi, T.A., Mabee, P.M., Lapp, H. '''2014'''. Presence-absence reasoning for evolutionary phenotypes. Peer-reviewed conference paper, Bio-ontologies SIG at ISMB 2014. [http://phenoday2014.bio-lark.org/pdf/11.pdf http://phenoday2014.bio-lark.org/pdf/11.pdf] and [http://arxiv.org/abs/1410.3862 http://arxiv.org/abs/1410.3862]
 
-*Dahdul, W.M., H. Cui, P.M. Mabee, C.J. Mungall, D. Osumi-Sutherland, R. Walls, and M. Haendel. '''2014'''. Nose to tail, roots to shoots: spatial descriptors for phenotypic diversity in the Biological Spatial Ontology. Journal of Biomedical Semantics. 5:21. [http://dx.doi.org/10.1186/2041-1480-5-34 http://dx.doi.org/10.1186/2041-1480-5-34]
+*Dahdul, W.M., H. Cui, P.M. Mabee, C.J. Mungall, D. Osumi-Sutherland, R. Walls, and M. Haendel. '''2014'''. Nose to tail, roots to shoots: spatial descriptors for phenotypic diversity in the Biological Spatial Ontology. Journal of Biomedical Semantics. 5:34. [http://dx.doi.org/10.1186/2041-1480-5-34 http://dx.doi.org/10.1186/2041-1480-5-34]
 
 *Haendel, M.A., Ballhoff, J.P., Bastian, F.B., Blackburn, D.C., Blake, J.A., Comte, A., Dahdul, W.A., Dececchi, T.A., Druzinsky, R.E., Hayamizu, T.F., Ibrahim, N., Lewis, S.E., Mabee, P.M., Niknejad, A., Robinson-Rechavi, M., Sereno, P.C., Mungall, C. J. '''2014'''. Uberon: Unification of multi-species vertebrate anatomy ontologies for comparative biology. Journal of Biomedical Semantics. 5:21 [http://dx.doi.org/10.1186/2041-1480-5-21 http://dx.doi.org/10.1186/2041-1480-5-21]
 
