@@ -103,6 +103,10 @@ title: Publications and Posters
 *Mabee PM, Ashburner M, Cronk Q, Gkoutos GV, Haendel M, Segerdell E, Mungall C, and Westerfield M. '''2007'''. Phenotype ontologies: the bridge between genomics and evolution. Trends Ecol Evol. Jul; 22(7) 345-50. [http://dx.doi.org/10.1016/j.tree.2007.03.013 doi:10.1016/j.tree.2007.03.013]
 
 == Posters & Presentations ==
+=== 2018 ===
+
+* Mabee, P.M. (2018).  Reasons to reason across disparate data types: linking species, phenotypes, genes, and more. Biodiversity Collections Network workshop: Addressing Legal Issues Involved in Digitized Collections: The Nagoya Protocol as a Test Case. Harvard University, March 27, 2018.
+
 === 2017 ===
 
 * Lapp H. (2017) Towards computational science with phenotype descriptions: From large-scale candidate gene discovery to reproducible data synthesis for morphological trait evolution. Duke Duke Computational Biology Seminar, Oct 23, 2017.
