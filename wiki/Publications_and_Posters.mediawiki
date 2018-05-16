@@ -6,7 +6,7 @@ title: Publications and Posters
 * Perspectives and reviews: Mabee et al (2018), Thessen et al (2015), Manda et al (2015), Oellrich et al. (2015), Deans et al (2015), Mabee et al (2012), Deans et al (2011), Vision et al. (2011), Mabee et al (2007)
 * Biological knowledge discovery: Jackson et al. (2018), Edmunds et al (2016), Dececci et al (2015), Ibrahim et al (2014), Manda and Vision (2017), Mullins et al (2012), Mabee et al (2007). 
 * Software: Balhoff (2016), Balhoff et al. (2014), Balhoff et al (2010)
-* Data curation: Cui et al. (2015), Dahdul et al (2015), Arighi et al. (2012), Bertone et al (2012), Dahdul et al (2010)
+* Data curation: Arighi et al. (2012), Bertone et al. (2012), Cui et al. (2015), Dahdul et al. (2010), Dahdul et al. (2015), Dahdul et al. (2018) 
 * Data modeling, reasoning & ontologies: Manda et al. (2016), Balhoff et al. (2015), Balhoff et al (2013), Haendel et al (2014), Dahdul e al (2014), Midford et al (2013), Druzinsky et al (2013), Segerdell et al (2013), Balhoff et al (2013), Dahdul et al (2012), Haendel et al (2008)
 
 == Publications by date ==
