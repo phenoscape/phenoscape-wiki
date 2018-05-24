@@ -6,31 +6,35 @@ title: Acknowledgments
 
 {| width="90%"
 |- align="left" valign="top" style="font-weight: bold;"
-| style="width: 33%;" | National Evolutionary Synthesis Center (NESCent)
+| style="width: 33%;" | University of North Carolina at Chapel Hill
 | style="width: 33%;" | University of South Dakota
-| style="width: 33%;" | University of Oregon (Zebrafish Information Network)
+| style="width: 33%;" | University of Oregon
 |- valign="top"
-| rowspan="4" |
-* [http://visionlab.web.unc.edu/ Todd Vision] (also University of North Carolina at Chapel Hill)
-* [[User:Hilmar| Hilmar Lapp]] (now at Duke University, Center for Genomic and Computational Biology)
-* [http://www.mendeley.com/profiles/jim-balhoff/ Jim Balhoff] (now at RTI Intl.)
-* Prashanti Manda (now at University of North Carolina at Greensboro)
+| 
+* [http://visionlab.web.unc.edu/ Todd Vision] (Department of Biology)
+* [http://www.mendeley.com/profiles/jim-balhoff/ Jim Balhoff] (Renaissance Computing Institute)
 |
 * Paula Mabee
 * Wasila Dahdul
 * Alex Dececchi
-| rowspan="4" |
+| 
 * [http://zfin.org/cgi-bin/webdriver?MIval=aa-persview.apg&OID=ZDB-PERS-960805-676 Monte Westerfield]
-* Yvonne Bradford
-* Ceri Van Slyke
-|- style="height: 1px;"
+* Yvonne Bradford (ZFIN)
+* Ceri Van Slyke (ZFIN)
+|- style="height: 5px;"
 |
 |- align="left" style="font-weight: bold; "
+| Duke University
+| University of North Carolina at Greensboro
 | Oregon Health & Science University
 |- valign="top"
 |
+* [[User:Hilmar| Hilmar Lapp]] (Center for Genomic and Computational Biology)
+|
+* Prashanti Manda
+|
 * Melissa Haendel
-|- style="height: 10px;"
+|- style="height: 5px;"
 |
 |- align="left" style="font-weight: bold; "
 | University of Chicago || Mouse Genome Informatics || Cincinnati Children's Hospital Medical Center
@@ -44,19 +48,21 @@ title: Acknowledgments
 |
 * Aaron Zorn (Xenbase)
 * Christina James-Zorn (Xenbase)
-|- style="height: 10px;"
+|- style="height: 5px;"
 |
 |- align="left" style="font-weight: bold; "
-| California Academy of Sciences || University of Arizona || Lawrence Berkeley National Labs ||
+| University of Florida || University of Arizona || Lawrence Berkeley National Labs ||
 |- valign="top"
 |
-* David Blackburn
+* David Blackburn (originally at California Academy of Sciences)
 |
 * [http://sites.google.com/site/biosemanticsproject/project-overview Hong Cui]
 * [http://www.linkedin.com/pub/zilong-chang/3a/348/585 Zilong Chang]
 |
 * Chris Mungall
 |}
+
+Todd Vision, Hilmar Lapp, Jim Balhoff, and Prashanti Manda were originally at [http://nescent.org NESCent].
 
 ==Advisory Board==
 
