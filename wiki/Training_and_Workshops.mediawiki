@@ -2,7 +2,7 @@
 title: Training and Workshops
 ---
 
-== Computable evolutionary phenotype knowledge: a hands-on workshop. Dec 11-14, Durham, NC ==
+== Computable evolutionary phenotype knowledge: a hands-on workshop. Dec 11-14, 2017, Durham, NC ==
 
 The Phenoscape project held a hands-on workshop on Dec 11-14, 2017, at Duke University in Durham, North Carolina, to foster broader adoption, reuse, and interoperability of its flagship resource, the Phenoscape Knowledgebase (KB; http://kb.phenoscape.org). The KB offers programmable (API) access to natural language phenotype descriptions annotated with formal ontologies so that machines can understand and compute with the semantics of descriptions at scale. The API also provides online access to machine reasoning and other computational semantics algorithms for its data content, including synthesizing presence/absence character matrices, and finding evolutionary phenotype transitions semantically similar to gene phenotypes. The event brought together a diverse group of people to collaboratively design and work hands-on on targets of their interest that took advantage and promoted reuse of the KB’s data and services.
 
