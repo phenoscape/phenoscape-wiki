@@ -3,7 +3,6 @@ title: Main Page
 ---
 
 {{EventBox1|
-* [https://hackmd.io/s/Sk6Xa7Eq-# Call for Participation for Hands-on Workshop on Computable Evolutionary Phenotype Knowledge], deadline Oct 9, 2017
 * Try the [http://kb.phenoscape.org Phenoscape Knowledgebase].  Your feedback is welcome!
 * Check out the latest news on the [http://blog.phenoscape.org/ Phenoscape blog]
 * We have posted vertebrate skeletal images from the Junior Biocurator Program to our [https://www.flickr.com/photos/109282112@N02/with/14085448954/ Phenoscape flickr account], all CC-BY licensed.
