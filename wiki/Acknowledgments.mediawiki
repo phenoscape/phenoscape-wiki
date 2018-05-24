@@ -25,15 +25,15 @@ title: Acknowledgments
 |
 |- align="left" style="font-weight: bold; "
 | Duke University
+| Virginia Tech
 | University of North Carolina at Greensboro
-| Oregon Health & Science University
 |- valign="top"
 |
 * [[User:Hilmar| Hilmar Lapp]] (Center for Genomic and Computational Biology)
 |
-* Prashanti Manda
+* [http://www.uyedalab.com/ Josef Uyeda]
 |
-* Melissa Haendel
+* Prashanti Manda
 |- style="height: 5px;"
 |
 |- align="left" style="font-weight: bold; "
@@ -53,13 +53,18 @@ title: Acknowledgments
 |- align="left" style="font-weight: bold; "
 | University of Florida || University of Arizona || Lawrence Berkeley National Labs ||
 |- valign="top"
-|
+| rowspan="3" |
 * David Blackburn (originally at California Academy of Sciences)
-|
+| rowspan="3" |
 * [http://sites.google.com/site/biosemanticsproject/project-overview Hong Cui]
 * [http://www.linkedin.com/pub/zilong-chang/3a/348/585 Zilong Chang]
 |
 * Chris Mungall
+|- align="left" style="font-weight: bold; "
+| Oregon Health & Science University
+|- valign="top"
+|
+* Melissa Haendel
 |}
 
 Todd Vision, Hilmar Lapp, Jim Balhoff, and Prashanti Manda were originally at [http://nescent.org NESCent].
