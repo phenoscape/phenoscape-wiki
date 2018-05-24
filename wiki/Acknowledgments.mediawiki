@@ -296,12 +296,15 @@ The following groups and individuals have contributed to Phenoscape ontology dev
 * Jun Hong Kim, Duke University
 * Jonathan Lee, Duke University
 * Leah Mabee, University of South Dakota
+* Callie Mao, Duke University
 * Mtakai Ngara, International Institute of Tropical Agriculture, Nairobi, Kenya
 * Carla Perez, Duke University
 * Carin Rambow, University of South Dakota
 * Du Rui, University of South Dakota
 * Brad Schanche, University of South Dakota
 * Michael Wallinga, University of South Dakota
+* Hong Xu, Duke University
+* Lucy Zhang, Duke University
 
 ===Groups===
 * [http://http://www.deepfin.org/ DeepFin Research Coordination Network] - support for training and participation of ichthyology students and researchers
