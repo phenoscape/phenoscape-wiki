@@ -2,10 +2,6 @@
 title: Job Opportunities
 ---
 
-== Postdoctoral Opportunities ==
 
-* We have opportunities for prospective postdoctoral researchers interested in studying phenotypic evolution by combining model organism genetic data with comparative anatomical data from throughout the vertebrates. [http://nescent.org/about/employment.php#PostDoc2 Learn more].
-
-== Student Internship Opportunities ==
-
-* We offer summer internships to students interested in learning phenotype informatics. Please inquire with [[User:Hlapp| Hilmar Lapp]] if you are interested.
+* Please see [https://scate.phenoscape.org/#join-us opportunities for joining the SCATE project] for postdoctoral, graduate student, and student internship opportunities.
+* We offer summer internships to students interested in learning phenotype informatics. Please inquire with [[User:Hilmar| Hilmar Lapp]] if you are interested.
