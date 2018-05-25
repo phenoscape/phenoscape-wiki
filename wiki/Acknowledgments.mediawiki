@@ -86,6 +86,16 @@ title: Acknowledgments
 * Chris Mungall
 |}
 
+=== Phenoscape I Project ===
+
+* Paula Mabee, University of South Dakota
+* Monte Westerfield, Zebrafish Information Network and University of Oregon
+* Todd Vision, National Evolutionary Synthesis Center and University of North Carolina at Chapel Hill
+* Hilmar Lapp, National Evolutionary Synthesis Center
+* Jim Balhoff, National Evolutionary Synthesis Center
+* Wasila Dahdul, University of South Dakota
+* Peter Midford, National Evolutionary Synthesis Center
+
 ==Advisory Board==
 
 === Members ===
