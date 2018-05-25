@@ -3,3 +3,5 @@ title: Category:Reasoning
 ---
 
 Index of pages labeled with category OBD Reasoner.
+
+''Note that some of the articles here are obsolete.'' The currently most up to date description of the reasoning process is in [[KB build process]].
