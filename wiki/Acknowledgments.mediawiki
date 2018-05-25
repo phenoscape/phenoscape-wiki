@@ -2,7 +2,7 @@
 title: Acknowledgments
 ---
 
-==Project teams==
+== Project team ==
 
 === SCATE Project ===
 
