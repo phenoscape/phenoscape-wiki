@@ -2,13 +2,13 @@
 title: Reasoning over homology statements
 ---
 
+{{Obsolete|This document describes a reasoning strategy originally designed for the [[OBD Reasoner]], which we no longer use. The relationships and inferences laid out here have since been refined and adapted to an OWL2 data model. A manuscript describing competency questions, implementation, and assessment of expressivity is in the works, and will be published on BioRxiv when ready.}}
+
 This document provides a collection of inference rules for homology
 relations. The emphasis is on implementation in OBD, although the
 rules can be used in other inference systems.
 
 The core homologous_to relation is introduced together with its relation characteristics. This relation is defined in terms of the derived_by_descent_from relation and its inverse.
-
-Document status: '''in progress'''
 
 == Introduction ==
 
