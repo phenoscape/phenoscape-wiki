@@ -2,6 +2,8 @@
 title: OBD Reasoner
 ---
 
+{{Obsolete|The rule-based OBD reasoner is used within the OBD-powered database. The current version of the Phenoscape KB is not powered anymore by OBD.}}
+
 The OBD reasoner uses definitions of transitive relations, relation hierarchies, and relation compositions to infer implicit information. These inferences are added to the OBD Phenoscape database. This section documents the inherited code in Perl and embedded SQL, that extracts implicit inferences from the downloaded ontologies and annotations of ZFIN and Phenoscape phenotypes.
 
 == Notation ==
