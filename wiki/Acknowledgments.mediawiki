@@ -98,7 +98,8 @@ title: Acknowledgments
 
 ==Advisory Board==
 
-=== Members ===
+=== Phenoscape II ===
+'''Members'''
 * John Day-Richter (Google)
 * Brian K. Hall (Dalhousie University)
 * Cyndy Parr (Encyclopedia of Life) (2012-)
@@ -106,7 +107,7 @@ title: Acknowledgments
 * Peter Vize (University of Calgary)
 * Alan Ruttenberg (University of Buffalo)
 
-=== Meetings ===
+'''Meetings'''
 *  [[WG:Advisory Board Meeting 2013-12-12| Advisory Board meeting on Dec. 12, 2013]]. (by conference call): [[Media:Phenoscape_Dec_2013_AB_notes.pdf| agenda and notes]]
 * [[WG:Advisory Board Meeting 2012-12-04| Advisory Board meeting on Dec. 4, 2012]]. (by conference call): [[Media:Phenoscape_AB_Dec2012_minutes.pdf| agenda and notes]]
 * Advisory Board meeting (face to face): Friday, April 27, 2012; Phenoscape project meeting will precede this on April 25, 26
