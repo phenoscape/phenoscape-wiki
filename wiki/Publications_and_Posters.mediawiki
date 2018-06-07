@@ -106,6 +106,9 @@ title: Publications and Posters
 
 == Posters & Presentations ==
 === 2018 ===
+* Mabee, P.M. (2018). Phenotyped. Second Annual Digital Data in Biodiversity Research Conference, UC Berkeley Campus, June  4-6, 2018.
+
+* Dahdul, W., J. Balhoff, H. Lapp, J. Uyeda, T. Vision, P. Mabee (2018).  Applications of ontology-based knowledge representation for comparative biology. Second Annual Digital Data in Biodiversity Research Conference, UC Berkeley Campus, June 4-6, 2018.
 
 * Mabee, P.M. (2018).  Reasons to reason across disparate data types: linking species, phenotypes, genes, and more. Biodiversity Collections Network workshop: Addressing Legal Issues Involved in Digitized Collections: The Nagoya Protocol as a Test Case. Harvard University, March 27, 2018.
 
