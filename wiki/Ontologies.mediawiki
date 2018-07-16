@@ -8,7 +8,7 @@ The Phenoscape Project uses community anatomy, quality, spatial, and taxonomic o
 
 == Previous work on ontology coordination ==
 
-In the past we held regular project [[Anatomy_Ontology_Conf_calls| anatomy ontology conference calls]] to discuss ontology development with the curators of the various anatomy ontologies (ZFA, .... The limb/fin branch was the primary focus of ontology development in Phenoscape II. We also coordinated our development calls with the [http://phenotypercn.org Phenotype RCN] vertebrate working group.
+Previously, Phenoscape coordinated the development and integration of vertebrate skeletal terms across anatomy ontologies for vertebrates, with taxonomic focus on teleosts, zebrafish, amphibians, Xenopus, amniotes, and mouse. The limb/fin branch was the primary focus of ontology development in Phenoscape II. We held regular project [[Anatomy_Ontology_Conf_calls| anatomy ontology conference calls]] to discuss ontology development with the curators of the various anatomy ontologies (ZFA, XAO, MA). We also coordinated our development calls with the [http://phenotypercn.org Phenotype RCN] vertebrate working group. Currently, we use and contribute new terms to the Uberon anatomy ontology (metazoans) into which the Teleost Anatomy Ontology,  Amphibian Anatomy Ontology,  and Vertebrate Skeletal Anatomy Ontology were merged.
 
 == Phenoscape-ext ==
 Phenoscape-ext contains the TAO, AAO, and VSAO combined with Uberon. This adds an additional 2500+ classes to the core Uberon, all contributed by the Phenoscape project. Phenoscape-ext is our first foray into working directly in OWL.
