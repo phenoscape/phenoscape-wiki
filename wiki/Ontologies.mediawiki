@@ -42,20 +42,24 @@ TAO is a multi-species ontology for teleost fishes that was initialized with ter
 === Amphibian Anatomy Ontology (AAO) ===
 AAO is a multispecies ontology for amphibian anatomy. Development of AAO is described in [https://doi.org/10.1142/9789812772435_0035 Maglia et al. (2007)]. View AAO at the [http://bioportal.bioontology.org/ontologies/AAO BioPortal]. The last updated version (April 2012) includes terms merged from the Xenopus Anatomy Ontology and updates from David Blackburn and Wasila Dahdul.
 
-== Mouse Adult Gross Anatomy (MA) ==
+==Model organism anatomy ontologies ==
+
+Phenotype data for model organisms are imported into the Phenoscape KB for mouse (MGI), human (HPO), zebrafish (ZFIN), and frog (Xenbase). Uberon maintains cross-references to terms from the corresponding model organism anatomy ontologies.
+ 
+=== Mouse Adult Gross Anatomy (MA) ===
 The Adult Mouse Anatomy (MA) ontology contains terms that represent structures in the postnatal mouse (''Mus'') and is used to annotate gene expression and phenotypes for the mouse at [http://www.informatics.jax.org/ Mouse Genome Informatics (MGI)] and other resources. Development of the MA is described in [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1088948/ Hayamizu et al. (2005)]. 
 
 * The MA is available for download at the [http://obofoundry.org/cgi-bin/detail.cgi?id=adult_mouse_anatomy OBO Foundry] and can be browsed using the [http://www.informatics.jax.org/searches/AMA_form.shtml Mouse Anatomy Browser].
 * Term requests can be submitted on the [http://sourceforge.net/tracker/?group_id=76834&atid=1205376 mouse anatomy tracker]
 
-== Xenopus Anatomy Ontology (XAO) ==
+=== Xenopus Anatomy Ontology (XAO) ===
 XAO contains terms that represent anatomical structures for the model organism ''Xenopus laevis'' (African clawed frog). [http://www.xenbase.org Xenbase] uses XAO to annotate Xenopus gene expression and phenotypes.
 
 * XAO can be downloaded at the [http://obofoundry.org/cgi-bin/detail.cgi?id=xenopus_anatomy OBO Foundry] and browsed at the [http://bioportal.bioontology.org/ontologies/45264?p=terms BioPortal].
 * Term tracker is available here: [https://sourceforge.net/tracker/?atid=1127722&group_id=76834]
 * Source directory is available here: [http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/vocab/xenopus_anatomy_2.0.8_eriks3.obo]
 
-== Zebrafish Anatomical Ontology (ZFA) ==
+=== Zebrafish Anatomical Ontology (ZFA) ===
 ZFA is used by [http://zfin.org ZFIN] to annotate mutant phenotypes for the model organsim zebrafish (''Danio rerio''). 
 
 * Download from the [http://obofoundry.org/cgi-bin/detail.cgi?id=zebrafish_anatomy OBO Foundry] or browse at the [http://bioportal.bioontology.org/ontologies/1051 BioPortal].
