@@ -6,10 +6,6 @@ The Phenoscape Project uses community anatomy, quality, spatial, and taxonomic o
 
 = Anatomy Ontologies =
 
-== Previous work on ontology coordination ==
-
-Previously, Phenoscape coordinated the development and integration of vertebrate skeletal terms across anatomy ontologies for vertebrates, with taxonomic focus on teleosts, zebrafish, amphibians, Xenopus, amniotes, and mouse. The limb/fin branch was the primary focus of ontology development in Phenoscape II. We held regular project [[Anatomy_Ontology_Conf_calls| anatomy ontology conference calls]] to discuss ontology development with the curators of the various anatomy ontologies (ZFA, XAO, MA). We also coordinated our development calls with the [http://phenotypercn.org Phenotype RCN] vertebrate working group. Currently, we use and contribute new terms to the Uberon anatomy ontology (metazoans) into which the Teleost Anatomy Ontology,  Amphibian Anatomy Ontology,  and Vertebrate Skeletal Anatomy Ontology were merged.
-
 == Phenoscape-ext ==
 Phenoscape-ext contains the TAO, AAO, and VSAO combined with Uberon. This adds an additional 2500+ classes to the core Uberon, all contributed by the Phenoscape project. Phenoscape-ext is our first foray into working directly in OWL.
 
@@ -27,7 +23,14 @@ We will continue to reconcile the issues that arose during this merge (started i
 
 * [http://www.obofoundry.org/wiki/index.php/UBERON:Main_Page#Phenoscape-ext_.28new.29 Further information about Uberon and the Phenoscape-ext merge]
 
-==Vertebrate Skeletal Anatomy Ontology (VSAO) ==
+== Previous work on ontology coordination ==
+
+Previously, Phenoscape coordinated the development and integration of vertebrate skeletal terms across anatomy ontologies for vertebrates, with taxonomic focus on teleosts, zebrafish, amphibians, Xenopus, amniotes, and mouse. The limb/fin branch was the primary focus of ontology development in Phenoscape II. We held regular project [[Anatomy_Ontology_Conf_calls| anatomy ontology conference calls]] to discuss ontology development with the curators of the various anatomy ontologies (ZFA, XAO, MA). We also coordinated our development calls with the [http://phenotypercn.org Phenotype RCN] vertebrate working group. Currently, we use and contribute new terms to the Uberon anatomy ontology (metazoans) into which the Teleost Anatomy Ontology,  Amphibian Anatomy Ontology,  and Vertebrate Skeletal Anatomy Ontology were merged.
+
+
+
+==Anatomy ontologies merged with Uberon and no longer under development ==
+===Vertebrate Skeletal Anatomy Ontology (VSAO) ===
 
 VSAO contains terms representing structures in the skeletal system of vertebrates. It references terms from the Common Anatomy Reference Ontology (CARO), Gene Ontology (GO) Biological Process, Cell Ontology (CL), and the Phenotype and Trait Ontology (PATO). VSAO can be downloaded at the [http://obofoundry.org/cgi-bin/detail.cgi?id=vertebrate_skeletal_anatomy OBO Foundry] and browsed at [http://bioportal.bioontology.org/ontologies/45737?p=terms BioPortal]. Development of the VSAO is described in [http://dx.plos.org/10.1371/journal.pone.0051070 Dahdul et al. (2012)]
 
@@ -37,7 +40,7 @@ Note that VSAO as released represents the outcome of the [[Skeletal_Anatomy_Jamb
 
 New skeletal terms for the limb/fin and cranial skeleton have and will continue to be added to the Phenoscape-ext ontology based on work done at the Phenotype RCN Vertebrate Working Group meeting in Boulder, CO (June 1-3, 2011) and from ongoing work.
 
-== Amphibian Anatomy Ontology (AAO) ==
+=== Amphibian Anatomy Ontology (AAO) ===
 AAO is a multispecies ontology for amphibian anatomy.
 
 * Download AAO from the [http://obofoundry.org/cgi-bin/detail.cgi?id=amphibian_anatomy OBO Foundry]  and browse at [http://bioportal.bioontology.org/ontologies/45269?p=terms BioPortal]
@@ -45,7 +48,7 @@ AAO is a multispecies ontology for amphibian anatomy.
 
 NOTE: as per above case with VSAO, AAO has been merged into phenoscape-ext and is no longer under development.
 
-== Teleost Anatomy Ontology (TAO) ==
+=== Teleost Anatomy Ontology (TAO) ===
 TAO is a multi-species ontology for teleost fishes that was initialized with terms from the Zebrafish Anatomical Ontology (ZFA). The development of the TAO currently focuses on the skeletal system because it varies significantly across fishes, is well-preserved in fossil specimens, and it is often the focus of morphologically-based evolutionary studies in ichthyology. The development of the TAO is described in [http://sysbio.oxfordjournals.org/content/59/4/369.full Dahdul et al. (2010)].
 
 * Download TAO from the [http://obofoundry.org/cgi-bin/detail.cgi?id=teleost_anatomy OBO Foundry]  and browse at [http://bioportal.bioontology.org/visualize/38362 BioPortal].
