@@ -23,12 +23,6 @@ We will continue to reconcile the issues that arose during this merge (started i
 
 * [http://www.obofoundry.org/wiki/index.php/UBERON:Main_Page#Phenoscape-ext_.28new.29 Further information about Uberon and the Phenoscape-ext merge]
 
-== Previous work on ontology coordination ==
-
-Previously, Phenoscape coordinated the development and integration of vertebrate skeletal terms across anatomy ontologies for vertebrates, with taxonomic focus on teleosts, zebrafish, amphibians, Xenopus, amniotes, and mouse. The limb/fin branch was the primary focus of ontology development in Phenoscape II. We held regular project [[Anatomy_Ontology_Conf_calls| anatomy ontology conference calls]] to discuss ontology development with the curators of the various anatomy ontologies (ZFA, XAO, MA). We also coordinated our development calls with the [http://phenotypercn.org Phenotype RCN] vertebrate working group. Currently, we use and contribute new terms to the Uberon anatomy ontology (metazoans) into which the Teleost Anatomy Ontology,  Amphibian Anatomy Ontology,  and Vertebrate Skeletal Anatomy Ontology were merged.
-
-
-
 ==Anatomy ontologies merged with Uberon and no longer under development ==
 ===Vertebrate Skeletal Anatomy Ontology (VSAO) ===
 
@@ -67,6 +61,10 @@ ZFA is used by [http://zfin.org ZFIN] to annotate mutant phenotypes for the mode
 * Edit version is kept internally at ZFIN, but a prerelease edit version is available at [http://obo.cvs.sourceforge.net/viewvc/obo/obo/ontology/anatomy/gross_anatomy/animal_gross_anatomy/fish/preversion.zfish.obo]
 
 ZFA terms are cross referenced to TAO terms, and these cross references will be maintained and updated as needed.
+
+== Previous work on ontology coordination ==
+
+Previously, Phenoscape coordinated the development and integration of vertebrate skeletal terms across anatomy ontologies for vertebrates, with taxonomic focus on teleosts, zebrafish, amphibians, Xenopus, amniotes, and mouse. The limb/fin branch was the primary focus of ontology development in Phenoscape II. We held regular project [[Anatomy_Ontology_Conf_calls| anatomy ontology conference calls]] to discuss ontology development with the curators of the various anatomy ontologies (ZFA, XAO, MA). We also coordinated our development calls with the [http://phenotypercn.org Phenotype RCN] vertebrate working group. Currently, we use and contribute new terms to the Uberon anatomy ontology (metazoans) into which the Teleost Anatomy Ontology,  Amphibian Anatomy Ontology,  and Vertebrate Skeletal Anatomy Ontology were merged.
 
 = Taxonomy Ontologies =
 
