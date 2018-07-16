@@ -2,7 +2,7 @@
 title: Ontologies
 ---
 
-The Phenoscape Project uses community anatomy, quality, spatial, and taxonomic ontologies for the annotation of phenotypes from the comparative biology literature. The development of these ontologies follows OBO Foundry principles as much as possible, including reuse of ontology terms as the preferred mechanism for using shared terms. These ontologies can be  downloaded, searched, and visualized at [http://www.ontobee.org/ Ontobee] or [http://bioportal.bioontology.org/ NCBO BioPortal]. The ontologies are also available for download from [http://www.obofoundry.org/ OBO Foundry] and can also be viewed using the OBO-Edit or [https://protege.stanford.edu/ Protégé] desktop software.
+The Phenoscape Project uses community anatomy, quality, spatial, and taxonomic ontologies for the annotation of phenotypes from the comparative biology literature. The development of these ontologies follows OBO Foundry principles as much as possible, including reuse of ontology terms as the preferred mechanism for using shared terms. These ontologies can be  downloaded, searched, and visualized at [http://www.ontobee.org/ Ontobee], [http://bioportal.bioontology.org/ NCBO BioPortal], or downloaded from [http://www.obofoundry.org/ OBO Foundry]. Ontologies can also be edited and viewed using the [https://protege.stanford.edu/ Protégé] desktop software.
 
 = Anatomy Ontologies =
 
