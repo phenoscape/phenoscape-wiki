@@ -2,7 +2,24 @@
 title: Journal Club
 ---
 
-The journal club will meet once a month in the Grey building at NESCent. We will discuss publications in bio-ontologies, applications, semantic similarity etc.
+
+= 2018 =
+1st and 3rd Fridays of month, 2:30-3:30 eastern
+
+Connection info:
+* Zoom: https://renci.zoom.us/j/929124809
+* US phone toll free: 877.853.5257, 855.880.1246
+* US phone not toll free: 669 900 6833, 646.558.8656
+* International #'s": https://renci.zoom.us/zoomconference?m=pZZ0jdZAKrL_L2SZsyjJ1rn04r0jrDVv
+* Meeting ID: 929 124 809
+
+[https://hackmd.io/FB8mQoBsSci5Aea1Y3KONw Signup Sheet]
+
+Papers available on [https://paperpile.com/shared/30ynCr Paperpile]
+
+
+=2014=
+An older iteration of the journal club met once a month in the Grey building at NESCent. 
 
 == 24-Sep-2014, 2-3pm==
 Oellrich et al (2014) The influence of disease categories on gene candidate predictions from model organism phenotypes. J Biomed Semantics. 2014; 5(Suppl 1): S4.
