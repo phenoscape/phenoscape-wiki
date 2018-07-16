@@ -6,22 +6,15 @@ The Phenoscape Project uses community anatomy, quality, spatial, and taxonomic o
 
 = Anatomy Ontologies =
 
-== Phenoscape-ext ==
-Phenoscape-ext contains the TAO, AAO, and VSAO combined with Uberon. This adds an additional 2500+ classes to the core Uberon, all contributed by the Phenoscape project. Phenoscape-ext is our first foray into working directly in OWL.
+== Uberon Anatomy Ontology ==
+We use and contribute to the Uberon Anatomy Ontology (metazoans) for annotation of vertebrate phenotypes, into which the Teleost Anatomy Ontology, Amphibian Anatomy Ontology,  and Vertebrate Skeletal Anatomy Ontology were merged. More information about the development of Uberon can be found in [https://doi.org/10.1186/gb-2012-13-1-r5 Mungall et al. (2012)] and [http://dx.doi.org/10.1186/2041-1480-5-21 Haendel et al. (2014)].
 
-* Ontology update requests can be made on the Uberon term request tracker: [https://github.com/cmungall/uberon/issues]
-* Source edit file available here: [https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/edit/phenoscape-ext.owl]
-* Release files are available here:
+Uberon is separated into a core file and an "extension" file (phenoscape-ext) which allows for separate editing by Phenoscape curators and the core Uberon developers. Terms sourced from the TAO, AAO, and VSAO are contained in phenoscape-ext, and new terms required for Phenoscape annotation are added to ext. The release version of Uberon contains both core and ext terms in a single file.
 
-[http://purl.obolibrary.org/obo/uberon/ext.obo http://purl.obolibrary.org/obo/uberon/ext.obo]
+* Ontology update requests can be made on the Uberon term request tracker: [https://github.com/obophenotype/uberon/issues]
+* Source edit file available here: [https://github.com/obophenotype/uberon-phenoscape-ext]
 
-[http://purl.obolibrary.org/obo/uberon/ext.owl  http://purl.obolibrary.org/obo/uberon/ext.owl]
-
-phenoscape-ext.owl will remain the editors version. The release uberon/ext.owl retains the import chains and is pre-reasoned. uberon/ext.obo merges the import chain into one ontology because obo does not have good support for imports. Mant of the other uberon derived artefacts such as composite-metazoan do not use ext but this may be changed in the future. See [http://uberon.org; uberon.org] for details of all the various cuts.
-
-We will continue to reconcile the issues that arose during this merge (started in August, 2012, first release on Feb 22, 2013), so you may continue to see some issues.  This ontology will be used by Phenoscape for annotation of evolutionary characters.
-
-* [http://www.obofoundry.org/wiki/index.php/UBERON:Main_Page#Phenoscape-ext_.28new.29 Further information about Uberon and the Phenoscape-ext merge]
+phenoscape-ext.owl is the editors version. The release uberon/ext.owl retains the import chains and is pre-reasoned. uberon/ext.obo merges the import chain into one ontology because obo does not have good support for imports. Many of the other uberon derived artifacts such as composite-metazoan do not use ext but this may be changed in the future. See [http://uberon.org; uberon.org] for details of all the various cuts.
 
 ==Anatomy ontologies merged with Uberon and no longer under development ==
 ===Vertebrate Skeletal Anatomy Ontology (VSAO) ===
