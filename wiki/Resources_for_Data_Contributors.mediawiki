@@ -18,8 +18,6 @@ Phenoscape project files are XML files (more specifically, they are in [http://n
 
 Phenoscape maintains a collection of PDFs for curation. Please ask project personnel (Wasila or Paula) for access to the collection.
 
-# Phenoscape also maintains a collection of PDFs for teleost publications on the Phenoscape file share (webdav).  Please ask a Phenoscaper for directions and the username and password.
-
 ==4. Use Ontologies to Annotate Characters ==
 
 The primary activity of a curator is to annotate the free-text characters from systematic studies using ontologies.  Instructions for this activity can be found in the [[Guide to Character Annotation | '''Phenoscape Guide to Character Annotation''']].
