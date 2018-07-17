@@ -16,9 +16,9 @@ Phenoscape project files are XML files (more specifically, they are in [http://n
 
 ==3. Access PDFs for Curation ==
 
-Phenoscape uses [http://www.mendeley.com/ Mendeley] to maintain the collection of PDFs for curation. Please ask project personnel (Wasila or Paula) for an invitation to join the group.
+Phenoscape maintains a collection of PDFs for curation. Please ask project personnel (Wasila or Paula) for access to the collection.
 
-Phenoscape also maintains a collection of PDFs for teleost publications on the Phenoscape file share (webdav).  Please ask a Phenoscaper for directions and the username and password.
+# Phenoscape also maintains a collection of PDFs for teleost publications on the Phenoscape file share (webdav).  Please ask a Phenoscaper for directions and the username and password.
 
 ==4. Use Ontologies to Annotate Characters ==
 
