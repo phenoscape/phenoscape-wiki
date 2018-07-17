@@ -39,8 +39,6 @@ Curation drives ontology development and many new terms and relationships need t
 * [http://phenoscape.org/wiki/Ontology_workflow Ontology Editing Guidelines]
 
 ==8. Subscribe to Curator and Ontology Request Mailing Lists ==
-#* Phenoscape Curators mailing list (for discussion and communication of data curation issues, solutions, and progress):  [http://lists.sourceforge.net/lists/listinfo/phenoscape-curators phenoscape-curators]
-#* Discussion of EQ formalism, phenotype description, PATO terms:  ''[https://lists.sourceforge.net/mailman/listinfo/obo-phenotype obo-phenotype]
 * Discussion of ontology development and Open Biomedical Ontologies community issues  ''[https://groups.google.com/forum/#!forum/obo-discuss obo-discuss]
 
 [[Category:Curation]]
