@@ -107,8 +107,9 @@ title: Publications and Posters
 
 == Posters & Presentations ==
 === 2018 ===
-* Mabee, P.M. (2018). Phenotyped. Second Annual Digital Data in Biodiversity Research Conference, UC Berkeley Campus, June 4, 2018.
 
+*P. Mabee, J. Balhoff, W Dahdul (presenter), H. Lapp, C. Mungall, T. Vision. (2018). Reasoning over anatomical homology in the Phenoscape KB. Workshop: Data Standards and Knowledge Sharing in Biodiversity -Tools and Applications. ICBO 2018, Corvallis, OR, August 7, 2018.
+* Mabee, P.M. (2018). Phenotyped. Second Annual Digital Data in Biodiversity Research Conference, UC Berkeley Campus, June 4, 2018.
 * Dahdul, W. (presenter, poster), J. Balhoff, H. Lapp, J. Uyeda, T. Vision, P. Mabee (2018).  [https://www.idigbio.org/wiki/images/3/3d/Dahdul-iDigBio-poster.pdf Applications of ontology-based knowledge representation for comparative biology]. Second Annual Digital Data in Biodiversity Research Conference, UC Berkeley Campus, June 4, 2018.
 * Vision, TJ (2018) Skeletons, mutants and ontologies: What can we learn from linking phenotypes and genetics on a large scale? University of Southern California, Computational Biology Seminar, March 29, 2018.
 * Mabee, P.M. (2018) Reasons to reason across disparate data types: linking species, phenotypes, genes, and more. Biodiversity Collections Network workshop: Addressing Legal Issues Involved in Digitized Collections: The Nagoya Protocol as a Test Case. Harvard University, March 27, 2018.
