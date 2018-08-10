@@ -6,7 +6,7 @@ title: Publications and Posters
 * Perspectives and reviews: Mabee et al (2018), Thessen et al (2015), Manda et al (2015), Oellrich et al. (2015), Deans et al (2015), Mabee et al (2012), Deans et al (2011), Vision et al. (2011), Mabee et al (2007)
 * Biological knowledge discovery: Jackson et al. (2018), Edmunds et al (2016), Dececci et al (2015), Ibrahim et al (2014), Manda and Vision (2017), Mullins et al (2012), Mabee et al (2007). 
 * Software: Balhoff (2016), Balhoff et al. (2014), Balhoff et al (2010)
-* Data curation: Arighi et al. (2012), Bertone et al. (2012), Cui et al. (2015), Dahdul et al. (2010), Dahdul et al. (2015), Dahdul et al. (2018) 
+* Data curation: Dahdul et al. (2018), Dahdul et al. (2015), Cui et al. (2015), Arighi et al. (2013), Bertone et al. (2012), Dahdul et al. (2010)
 * Data modeling, reasoning & ontologies: Manda et al. (2016), Balhoff et al. (2015), Balhoff et al (2013), Haendel et al (2014), Dahdul e al (2014), Midford et al (2013), Druzinsky et al (2013), Segerdell et al (2013), Balhoff et al (2013), Dahdul et al (2012), Haendel et al (2008)
 
 == Publications by date ==
@@ -74,9 +74,9 @@ title: Publications and Posters
 
 *Segerdell, E., V.G. Ponferrada, C. James-Zorn, K.A. Burns, J.D. Fortriede, W.M. Dahdul, P.D. Vize and A.M. Zorn. '''2013'''. Enhanced XAO: the ontology of Xenopus anatomy and development underpins more accurate annotation of gene expression and queries on Xenbase. Journal of Biomedical Semantics. 4:31. [http://dx.doi.org/10.1186/2041-1480-4-31 http://dx.doi.org/10.1186/2041-1480-4-31]
 
-===2012===
-*Arighi, C, et al. (including Dahdul, Mabee, Cui, Haendel, Balhoff) '''2012'''. An Overview of the BioCreative 2012 Workshop Track III: Interactive Text Mining Task. 2013 [http://dx.doi.org/10.1093/database/bas056 http://dx.doi.org/10.1093/database/bas056]
+*Arighi, C, et al. (including Dahdul, Mabee, Cui, Haendel, Balhoff) '''2013'''. An Overview of the BioCreative 2012 Workshop Track III: Interactive Text Mining Task. 2013:bas056 [http://dx.doi.org/10.1093/database/bas056 http://dx.doi.org/10.1093/database/bas056]
 
+===2012===
 *Bertone, M.A., I. Mikó, M.J. Yoder, K.C. Seltmann, J.P. Balhoff, and A.R. Deans. '''2012'''. Matching arthropod anatomy ontologies to the Hymenoptera Anatomy Ontology: Results from a manual alignment. Database [http://dx.doi.org/10.1093/database/bas057 http://dx.doi.org/10.1093/database/bas057]
 
 *Dahdul W.M., Balhoff J.P, Blackburn D.C., Diehl A.D., Haendel M.A., Hall B.K., Lapp H., Lundberg J.G., Mungall C.J., Ringwald M., Segerdell E., Van Slyke C.E., Vickaryous M.K., Westerfield M., Mabee P.M. '''2012'''. A unified anatomy ontology of the vertebrate skeletal system. PLoS ONE 7(12): e51070 [http://dx.plos.org/10.1371/journal.pone.0051070 http://dx.plos.org/10.1371/journal.pone.0051070]
