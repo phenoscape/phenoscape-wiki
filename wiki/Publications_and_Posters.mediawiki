@@ -116,7 +116,7 @@ title: Publications and Posters
 
 === 2017 ===
 
-* Fernando, P (presenter), L Jackson, J Balhoff, E Zeng, P Mabee (2017). A generic bioinformatics pipeline to integrate large-scale trait data with large phylogenies. IEEE International Conference on Bioinformatics and Biomedicine (BIBM). Kansas City, MO. November 14-16, 2017.
+* Fernando, P (presenter, poster), L Jackson, J Balhoff, E Zeng, P Mabee (2017). A generic bioinformatics pipeline to integrate large-scale trait data with large phylogenies. IEEE International Conference on Bioinformatics and Biomedicine (BIBM). Kansas City, MO. November 14-16, 2017.
 
 * Lapp H. (2017) Towards computational science with phenotype descriptions: From large-scale candidate gene discovery to reproducible data synthesis for morphological trait evolution. Duke Computational Biology Seminar, Oct 23, 2017.
 
