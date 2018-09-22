@@ -74,7 +74,7 @@ title: Publications and Posters
 
 *Segerdell, E., V.G. Ponferrada, C. James-Zorn, K.A. Burns, J.D. Fortriede, W.M. Dahdul, P.D. Vize and A.M. Zorn. '''2013'''. Enhanced XAO: the ontology of Xenopus anatomy and development underpins more accurate annotation of gene expression and queries on Xenbase. Journal of Biomedical Semantics. 4:31. [http://dx.doi.org/10.1186/2041-1480-4-31 http://dx.doi.org/10.1186/2041-1480-4-31]
 
-*Arighi, C, et al. (including Dahdul, Mabee, Cui, Haendel, Balhoff) '''2013'''. An Overview of the BioCreative 2012 Workshop Track III: Interactive Text Mining Task. 2013:bas056 [http://dx.doi.org/10.1093/database/bas056 http://dx.doi.org/10.1093/database/bas056]
+*Arighi, C, et al. (including Dahdul, Mabee, Cui, Haendel, Balhoff) '''2013'''. An Overview of the BioCreative 2012 Workshop Track III: Interactive Text Mining Task. Database 2013:bas056 [http://dx.doi.org/10.1093/database/bas056 http://dx.doi.org/10.1093/database/bas056]
 
 ===2012===
 *Bertone, M.A., I. Mikó, M.J. Yoder, K.C. Seltmann, J.P. Balhoff, and A.R. Deans. '''2012'''. Matching arthropod anatomy ontologies to the Hymenoptera Anatomy Ontology: Results from a manual alignment. Database [http://dx.doi.org/10.1093/database/bas057 http://dx.doi.org/10.1093/database/bas057]
