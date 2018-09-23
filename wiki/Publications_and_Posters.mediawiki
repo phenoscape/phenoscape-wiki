@@ -65,9 +65,9 @@ title: Publications and Posters
 
 *Ibrahim, N., P. C. Sereno, C. Dal Sasso, S. Maganuco, M. Fabbri, D. M. Martill, S. Zouhri, N. Myhrvold, and D. A. Iurino '''2016''' Semiaquatic adaptations in a giant predatory dinosaur. Science. [http://dx.doi.org/10.1126/science.1258750 doi:10.1126/science.1258750]
 
+===2013===
 *Midford, P.E., Dececchi, T.A., Balhoff, J.P., Dahdul, W.M., Ibrahim, N., Lapp, H., Lundberg, J.G., Mabee, P.M., Sereno, P.C., Westerfield, M., Vision, T.J. '''2013'''. The Vertebrate Taxonomy Ontology: A framework for reasoning across model organism and species phenotypes. Journal of Biomedical Semantics. 4:34. [http://dx.doi.org/10.1186/2041-1480-4-34 http://dx.doi.org/10.1186/2041-1480-4-34].
 
-===2013===
 *Balhoff, J.P, I. Mikó, M.J. Yoder, P.L. Mullins, & A.R. Deans. '''2013'''. A semantic model for species description, applied to the ensign wasps (Hymenoptera: Evaniidae) of New Caledonia. Systematic Biology 62: 639-659. [http://dx.doi.org/10.1093/sysbio/syt028 http://dx.doi.org/10.1093/sysbio/syt028]
 
 *Druzinsky, R.E., Mungall, C.J., Haendel, M., Lapp, H., Mabee, P.M. '''2013'''. What is an anatomy ontology? The Anatomical Record 296:1797-1799. [http://dx.doi.org/10.1002/ar.22805 http://dx.doi.org/10.1002/ar.22805].
