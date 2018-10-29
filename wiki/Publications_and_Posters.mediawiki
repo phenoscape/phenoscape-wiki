@@ -107,6 +107,7 @@ title: Publications and Posters
 
 == Posters & Presentations ==
 === 2018 ===
+* Mabee, P.M. Anatomy ontologies supply the missing links for knowledge discovery and recovery.  Invited talk for Biological Ontology Series, Iowa State University.  Ames, Iowa, October 22, 2018.
 * Uyeda, J.C. (presenter, poster) (2018). On the need for phylogenetic natural history. Evolution 2018, Montpellier, France. August 21, 2018.
 * Collins M. (presenter), R. Tarvin, M. Kandziora, W. Dahdul, and D. Paul (2018) Phenomap - Challenges and successes in bringing together multiple data projects to build new visualizations of phenotypic information and specimen records. Biodiversity Information Science and Standards 2: e25698. https://doi.org/10.3897/biss.2.25698. Presented at Biodiversity Information Standards (TDWG), Dunedin, NZ, August 2018
 *Fernando, P. (presenter, poster), E. Zeng, P. Mabee. (2018) The integrative use of anatomy ontology and protein-protein interaction networks to study evolutionary phenotypic transitions. International Conference on Biological Ontology (2018), Corvallis, OR, August 7, 2018
