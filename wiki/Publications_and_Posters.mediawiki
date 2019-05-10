@@ -11,7 +11,7 @@ title: Publications and Posters
 
 == Publications by date ==
 ===2019===
-*   Mabee, P.M., Balhoff, J.P., Dahdul, W.M., Lapp, H., Mungall, C.J., Vision, T.J. (2019) A logical model of homology for comparative biology. Submitted. Preprint bioRxiv https://doi.org/10.1101/588822 
+*   Mabee, P.M., Balhoff, J.P., Dahdul, W.M., Lapp, H., Mungall, C.J., Vision, T.J. (2019) A logical model of homology for comparative biology. Submitted for review 9 May 2019. Preprint available: bioRxiv https://doi.org/10.1101/588822
 
 ===2018===
 *   Manda P, Vision T (2018) On the statistical analysis of semantic similarity metrics. International Conference on Biological Ontology 2018. Oregon State University, Corvallis, OR, USA. Accepted. Preprint bioRxiv https://doi.org/10.1101/327833
