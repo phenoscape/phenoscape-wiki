@@ -109,8 +109,9 @@ title: Publications and Posters
 *Mabee PM, Ashburner M, Cronk Q, Gkoutos GV, Haendel M, Segerdell E, Mungall C, and Westerfield M. '''2007'''. Phenotype ontologies: the bridge between genomics and evolution. Trends Ecol Evol. Jul; 22(7) 345-50. [http://dx.doi.org/10.1016/j.tree.2007.03.013 doi:10.1016/j.tree.2007.03.013]
 
 == Posters & Presentations ==
-=== 2018 ===
+=== 2019 ===
 * Dahdul, W. (presenter, poster), J. Balhoff, H. Lapp, P. Mabee, S. Tarasov, J. Uyeda, T. Vision. (2019). Integrating ontologies in comparative analyses of trait evolution. Biocuration 2019. Cambridge UK. April 2019.
+=== 2018 ===
 * Mabee, P.M. Anatomy ontologies supply the missing links for knowledge discovery and recovery.  Invited talk for Biological Ontology Series, Iowa State University.  Ames, Iowa, October 22, 2018.
 * Uyeda, J.C. (presenter, poster) (2018). On the need for phylogenetic natural history. Evolution 2018, Montpellier, France. August 21, 2018.
 * Collins M. (presenter), R. Tarvin, M. Kandziora, W. Dahdul, and D. Paul (2018) Phenomap - Challenges and successes in bringing together multiple data projects to build new visualizations of phenotypic information and specimen records. Biodiversity Information Science and Standards 2: e25698. https://doi.org/10.3897/biss.2.25698. Presented at Biodiversity Information Standards (TDWG), Dunedin, NZ, August 2018
