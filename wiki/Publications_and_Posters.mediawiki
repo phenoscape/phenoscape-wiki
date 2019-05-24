@@ -110,11 +110,12 @@ title: Publications and Posters
 
 == Posters & Presentations ==
 === 2018 ===
+* Dahdul, W. (presenter, poster), J. Balhoff, H. Lapp, P. Mabee, S. Tarasov, J. Uyeda, T. Vision. (2019). Integrating ontologies in comparative analyses of trait evolution. Biocuration 2019. Cambridge UK. April 2019.
 * Mabee, P.M. Anatomy ontologies supply the missing links for knowledge discovery and recovery.  Invited talk for Biological Ontology Series, Iowa State University.  Ames, Iowa, October 22, 2018.
 * Uyeda, J.C. (presenter, poster) (2018). On the need for phylogenetic natural history. Evolution 2018, Montpellier, France. August 21, 2018.
 * Collins M. (presenter), R. Tarvin, M. Kandziora, W. Dahdul, and D. Paul (2018) Phenomap - Challenges and successes in bringing together multiple data projects to build new visualizations of phenotypic information and specimen records. Biodiversity Information Science and Standards 2: e25698. https://doi.org/10.3897/biss.2.25698. Presented at Biodiversity Information Standards (TDWG), Dunedin, NZ, August 2018
-*Fernando, P. (presenter, poster), E. Zeng, P. Mabee. (2018) The integrative use of anatomy ontology and protein-protein interaction networks to study evolutionary phenotypic transitions. International Conference on Biological Ontology (2018), Corvallis, OR, August 7, 2018
-*Mabee, P., J. Balhoff, W. Dahdul (invited oral presentation), H. Lapp, C. Mungall, T. Vision. (2018). Reasoning over anatomical homology in the Phenoscape KB. Workshop: Data Standards and Knowledge Sharing in Biodiversity -Tools and Applications. International Conference on Biological Ontology (2018), Corvallis, OR, August 7, 2018.
+* Fernando, P. (presenter, poster), E. Zeng, P. Mabee. (2018) The integrative use of anatomy ontology and protein-protein interaction networks to study evolutionary phenotypic transitions. International Conference on Biological Ontology (2018), Corvallis, OR, August 7, 2018
+* Mabee, P., J. Balhoff, W. Dahdul (invited oral presentation), H. Lapp, C. Mungall, T. Vision. (2018). Reasoning over anatomical homology in the Phenoscape KB. Workshop: Data Standards and Knowledge Sharing in Biodiversity -Tools and Applications. International Conference on Biological Ontology (2018), Corvallis, OR, August 7, 2018.
 * Mabee, P.M. (2018). Phenotyped. Second Annual Digital Data in Biodiversity Research Conference, UC Berkeley Campus, June 4, 2018.
 * Dahdul, W. (presenter, poster), J. Balhoff, H. Lapp, J. Uyeda, T. Vision, P. Mabee (2018).  [https://www.idigbio.org/wiki/images/3/3d/Dahdul-iDigBio-poster.pdf Applications of ontology-based knowledge representation for comparative biology]. Second Annual Digital Data in Biodiversity Research Conference, UC Berkeley Campus, June 4, 2018.
 * Vision, TJ (2018) Skeletons, mutants and ontologies: What can we learn from linking phenotypes and genetics on a large scale? University of Southern California, Computational Biology Seminar, March 29, 2018.
