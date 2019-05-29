@@ -111,7 +111,7 @@ title: Publications and Posters
 == Posters & Presentations ==
 === 2019 ===
 * Mabee, P. (presenter), (2019) Integrating traits across genes and trees: a semantic approach. Royal Botanic Gardens and Domain Trust Science Seminar Series. Royal Botanic Garden, Sydney, Australia. March 28, 2019. 
-* Mabee, P. (presenter), (2019) Trait ontologies: logical links across biodiversity. Plant Traits Workshop. Royal Botanic Gardens, Sydney, Australia. March 27, 2019. 
+* Mabee, P. (presenter), (2019) Trait ontologies: logical links across biodiversity. Plant Traits Workshop. Royal Botanic Garden, Sydney, Australia. March 27, 2019. 
 * Dahdul, W. (presenter, poster), J. Balhoff, H. Lapp, P. Mabee, S. Tarasov, J. Uyeda, T. Vision. (2019). Integrating ontologies in comparative analyses of trait evolution. Biocuration 2019. Cambridge UK. April 2019.
 
 === 2018 ===
