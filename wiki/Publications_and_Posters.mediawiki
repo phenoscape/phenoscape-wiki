@@ -110,6 +110,7 @@ title: Publications and Posters
 
 == Posters & Presentations ==
 === 2019 ===
+* Vision, T. (2019) Computing over descriptive phenotype data: Is Aristotle a help or hindrance? PIRS Minisymposium on Novel Candidate Gene Discovery by Computing on Phenotypes, Iowa State University, April 3, 2019.
 * Mabee, P. (2019) Integrating traits across genes and trees: a semantic approach. Center for Biodiversity Analysis, Australian National University, Canberra, Australia. April 1, 2019. 
 * Mabee, P. (2019) Integrating traits across genes and trees: a semantic approach. Royal Botanic Gardens and Domain Trust Science Seminar Series. Royal Botanic Garden, Sydney, Australia. March 28, 2019. 
 * Mabee, P. (2019) Trait ontologies: logical links across biodiversity. Plant Traits Workshop. Royal Botanic Garden, Sydney, Australia. March 27, 2019. 
