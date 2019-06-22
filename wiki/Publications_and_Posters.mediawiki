@@ -110,6 +110,7 @@ title: Publications and Posters
 
 == Posters & Presentations ==
 === 2019 ===
+* Balhoff J, Dahdul W, Lapp H, Mabee P, Tarasov S, Uyeda J, Vision T (2019)  Integrating ontologies in comparative analyses of trait evolution. Posster presented at Evolution 2019, Providence RI, June 22, 2019, https://doi.org/10.5281/zenodo.3252611
 * Vision, T. (2019) Computing over descriptive phenotype data: Is Aristotle a help or hindrance? PIRS Minisymposium on Novel Candidate Gene Discovery by Computing on Phenotypes, Iowa State University, April 3, 2019.
 * Mabee, P. (2019) Integrating traits across genes and trees: a semantic approach. Center for Biodiversity Analysis, Australian National University, Canberra, Australia. April 1, 2019. 
 * Mabee, P. (2019) Integrating traits across genes and trees: a semantic approach. Royal Botanic Gardens and Domain Trust Science Seminar Series. Royal Botanic Garden, Sydney, Australia. March 28, 2019. 
