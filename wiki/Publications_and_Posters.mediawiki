@@ -11,7 +11,7 @@ title: Publications and Posters
 
 == Publications by date ==
 ===2019===
-*   Mabee, P.M., Balhoff, J.P., Dahdul, W.M., Lapp, H., Mungall, C.J., Vision, T.J. (2019) A logical model of homology for comparative biology. Submitted for review 9 May 2019. Preprint available: bioRxiv https://doi.org/10.1101/588822
+*   Mabee, P.M., Balhoff, J.P., Dahdul, W.M., Lapp, H., Mungall, C.J., Vision, T.J. (2019) A logical model of homology for comparative biology. Systematic Biology. https://doi.org/10.1093/sysbio/syz067
 
 ===2018===
 * Uyeda JC, Zenil-Ferguson R, Pennell MW (2018) Rethinking phylogenetic comparative methods, Systematic Biology, Volume 67, Issue 6, November 2018, Pages 1091–1109, https://doi.org/10.1093/sysbio/syy031
