@@ -111,6 +111,7 @@ title: Publications and Posters
 
 == Posters & Presentations ==
 === 2019 ===
+* Mabee, P. (2019) Answering research questions requires semantic traits. In session: Operationalizing Trait-Based Biodiversity, Biodiversity Next meeting, Leiden, Netherlands, October 24, 2019. 
 * Uyeda J, Tarasov, S (2019) Extracting meaning from phylogenetic comparative methods: The necessity of considering process. Evolution 2019, Providence RI, June 25, 2019. 
 * Balhoff J, Dahdul W, Lapp H, Mabee P, Tarasov S, Uyeda J, Vision T (2019)  Integrating ontologies in comparative analyses of trait evolution. Poster presented at Evolution 2019, Providence RI, June 22, 2019, https://doi.org/10.5281/zenodo.3252611
 * Balhoff, J.P. (2019) OWL reasoning in the Phenoscape Knowledgebase. Semantic Data Models in Anatomy workshop, Zoological Research Museum Alexander Koenig, Bonn, Germany, May 9, 2019.
