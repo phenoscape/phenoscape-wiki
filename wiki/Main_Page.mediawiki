@@ -13,6 +13,12 @@ Our objective with this project is to create infrastructure that will provide co
 
 More information about this project, including participating PIs and funding, can be found at its [http://scate.phenoscape.org project website].
 
+== Previous Phenoscape and precursor projects ==
+
+* [[Ontology-enabled reasoning across phenotypes from evolution and model organisms]] ("Phenoscape II")
+* [[Linking Evolution to Genomics Using Phenotype Ontologies]] ("Phenoscape I")
+* [[Fish Evolution Working Group|Towards an Integrated Database for Fish Evolution]] (A [http://nescent.org NESCent] Working Group)
+
 == Acknowledgments ==
 
 {|
