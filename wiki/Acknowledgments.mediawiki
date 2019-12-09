@@ -338,6 +338,7 @@ The following groups and individuals have contributed to Phenoscape ontology dev
 * Char Green, University of South Dakota
 * Ericka Grey, University of South Dakota
 * Laura Jackson, University of South Dakota
+* Tova Just, Bryn Mawr College
 * Jun Hong Kim, Duke University
 * Jonathan Lee, Duke University
 * Leah Mabee, University of South Dakota
