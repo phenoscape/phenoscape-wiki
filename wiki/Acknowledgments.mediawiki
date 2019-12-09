@@ -218,6 +218,7 @@ The following groups and individuals have contributed to Phenoscape ontology dev
 * Eric Hilton, Virginia Institute of Marine Science
 * Nizar Ibrahim, University of Chicago
 * Laura Jackson, University of South Dakota
+* Tova Just, Bryn Mawr College
 * John Lundberg, The Academy of Natural Sciences, Philadelphia
 * Paula Mabee, University of South Dakota
 * Richard Mayden, St. Louis University
