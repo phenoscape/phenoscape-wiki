@@ -98,6 +98,17 @@ title: Acknowledgments
 
 ==Advisory Board==
 
+=== SCATE Project ===
+'''Members'''
+* Scott Chamberlain (rOpenSci)
+* Emily Jane McTavish (University of California, Merced) 
+* Brian Sidlauskas (Oregon State University)
+* Pam Soltis (University of Florida)
+* Paul Thomas (University of Southern California)
+
+'''Meetings'''
+* Advisory Board meeting on January 7, 2020, after the SSB 2020 meeting at University of Florida 
+
 === Phenoscape II ===
 '''Members'''
 * John Day-Richter (Google)
