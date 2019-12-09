@@ -343,6 +343,7 @@ The following groups and individuals have contributed to Phenoscape ontology dev
 * [http://http://www.deepfin.org/ DeepFin Research Coordination Network] - support for training and participation of ichthyology students and researchers
 
 ==Data sources==
+* [https://monarchinitiative.org Monarch Initiative] - aggregated and semantically harmonized model organism and human genes and phenotypes
 * [http://zfin.org ZFIN] - mutant and morpholino zebrafish genes and phenotypes
 * [http://research.calacademy.org/ichthyology/catalog Catalog of Fishes] - fish taxonomy, list of collections
 * [http://www.fishbase.org/ Fishbase] - fish common names
