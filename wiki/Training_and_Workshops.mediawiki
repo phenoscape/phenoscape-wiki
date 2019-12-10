@@ -2,18 +2,20 @@
 title: Training and Workshops
 ---
 
+==SSB 2020 Systematics in the Swamp Workshop: Phylogenetic comparative analysis of integrated anatomical traits ==
+'''When''': January 6, 2020, 9 am - 12 pm<br/>
+'''Where''': Gainesville, Fl
+
+Attendees will learn how to use R packages such as RPhenoscape to access a knowledgebase of ontology-linked phenotypes, build character matrices that take anatomical dependencies into account, and use these to construct stochastic character maps on a phylogeny. The course will also include a practical introduction to community ontologies for biodiversity domain knowledge (anatomy, taxonomy, phenotypic quality). Further information can be found on the [https://systbiol.github.io/ssb2020/workshop.html SSB 2020] conference website.
+
 ==Evolution 2019 Short Course: Phylogenetic comparative analysis of integrated anatomical traits==
 
 '''When''': June 26, 2019, 9 am - 12 pm<br/>
 '''Where''': Omni Hotel, Providence RI<br/>
 
-Ontologies encode information about a domain of knowledge, such as how anatomical structures are related, which is crucial information for modeling character evolution. Phenoscape, in its current Semantic Comparative Analyses for Trait Evolution [http://scate.phenoscape.org (SCATE)] project, is developing tools that use the computable knowledge in ontologies to improve phenotypic character modeling and inform analyses of trait evolution. To train evolutionary biologists and developers of comparative analysis tools to adopt these new capabilities, the SCATE team will be holding a short course on using ontologies in comparative analyses of integrated anatomical traits, in conjunction with iEvoBio and the Evolution Meetings, on June 26, 2019 in Providence, Rhode Island.  
+Ontologies encode information about a domain of knowledge, such as how anatomical structures are related, which is crucial information for modeling character evolution. Phenoscape, in its current Semantic Comparative Analyses for Trait Evolution [http://scate.phenoscape.org (SCATE)] project, is developing tools that use the computable knowledge in ontologies to improve phenotypic character modeling and inform analyses of trait evolution. To train evolutionary biologists and developers of comparative analysis tools to adopt these new capabilities, the SCATE team held a short course on using ontologies in comparative analyses of integrated anatomical traits, in conjunction with iEvoBio and the Evolution Meetings, on June 26, 2019 in Providence, Rhode Island.  
 
-Attendees will learn how to use R packages such as [http://rphenoscape.phenoscape.org RPhenoscape] to access a knowledgebase of ontology-linked phenotypes (kb.phenoscape.org), build character matrices that take anatomical dependencies into account, and use these to construct stochastic character maps on a phylogeny. The course will also include a practical introduction to community ontologies for biodiversity domain knowledge (anatomy, taxonomy, phenotypic attribute). 
-
-Graduate students, postdocs, faculty, and software developers with interests in comparative analyses, morphology, and phylogenetics are encouraged to apply.  
-
-Registration for this post-conference event is free. See the [https://scate.phenoscape.org/2019-workshop-cfp.html Call for Participation] for registration and further information.
+Attendees learned how to use R packages such as [http://rphenoscape.phenoscape.org RPhenoscape] to access the Phenoscape KB (kb.phenoscape.org), build character matrices that take anatomical dependencies into account, and use these to construct stochastic character maps on a phylogeny. The course also included a practical introduction to community ontologies for biodiversity domain knowledge (anatomy, taxonomy, phenotypic attribute). 
 
 == Computable evolutionary phenotype knowledge: a hands-on workshop. Dec 11-14, 2017, Durham, NC ==
 
