@@ -20,6 +20,11 @@ Software components:
 * [http://github.com/phenoscape/owlery owlery]—web service interface for OWL API reasoner queries. In addition to direct DL queries, Owlery provides a SPARQL endpoint powered by Owlet. Written in Scala using Spray web services.
 * [http://github.com/phenoscape/scowl scowl]—a Scala library allowing a declarative approach to composing OWL expressions and axioms using the [http://owlapi.sourceforge.net/ OWL API]. Written in Scala.
 
+==Software tools to access and analyze KB data==
+* [http://rphenoscape.phenoscape.org/ RPhenoscape]— R package that facilitates interfacing with the Phenoscape Knowledgebase for searching ontology terms, querying data matrices, obtaining dependency matrices, and computing semantic similarity metrics.
+
+* [http://beta.phenoscape.org/#/ontotrace OntoTrace] — tool used to query the KB for a synthetic character matrix of asserted and inferred presence/absence characters for anatomical structures. OntoTrace is also accessible by using [http://rphenoscape.phenoscape.org/ RPhenoscape] to query the web services API. 
+
 ==Data curation tools==
 * [http://github.com/phenoscape/Phenex Phenex]—ontology annotation software tailored for phenotype annotation of evolutionary character matrices. It saves ontology annotations alongside traditional character matrix data using the [http://www.nexml.org/ NeXML] format standard for evolutionary data. Also see the [[Phenex|Phenex homepage]].
 * [http://github.com/phenoscape/phenoscape-nlp phenoscape-nlp]—Phenoscape version of the [[CharaParser]] natural-language processing tool, which analyzes the text of character-state descriptions to produce a structured output used to generate proposals for ontological phenotype annotations. We are working to enhance the performance of CharaParser and also to integrate it with Phenex, so that data curators can take advantage of natural-language processing to accelerate their workflow. Developed and maintained by [http://hongcui.faculty.arizona.edu Hong Cui].
