@@ -20,6 +20,8 @@ Character construction is the first step of any comparative analysis, and involv
 
 === Evolutionary Enrichment Analyses ===
 
-Phylogenetic analysis allows researchers to estimate the evolutionary history of phenotypic evolution. As with gene ontologies, we can ask question such as which branches and at which time periods in evolutionary history has there been a particularly rapid rate of change. Ontologies allow to not only ask which characters are enriched on a given branch, but also which concepts are enriched. For example, are features associated with the fin-to-limb developmental transition particularly evolvable during the Devonian? Does a suite of traits related to a specific gene regulatory network demonstrate concerted evolution across the phylogeny? These questions promise to pr
+Phylogenetic analysis allows researchers to estimate the evolutionary history of phenotypic evolution. As with gene ontologies, we can ask question such as which branches and at which time periods in evolutionary history has there been a particularly rapid rate of change. Ontologies allow to not only ask which characters are enriched on a given branch, but also which concepts are enriched. For example, are features associated with the fin-to-limb developmental transition particularly evolvable during the Devonian? Does a suite of traits related to a specific gene regulatory network demonstrate concerted evolution across the phylogeny? 
 
 === Semantic Similarity ===
+
+Semantic similarity metrics measure concept similarity. We are working to integrate semantic similarity metrics into phylogenetic comparative models, as these contain information that allows users to partition, cluster and amalgamate different characters into a
