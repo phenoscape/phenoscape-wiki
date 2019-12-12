@@ -12,7 +12,7 @@ Ontologies provide knowledge of dependencies among traits. For example, the ''hu
 
 === Hidden State Models & Gene Regulatory Networks === 
 
-In addition to modeling the dependencies of characters on each other, proper modeling of dependent phenotypic characters requires inclusion of [[hidden states]] ([https://academic.oup.com/sysbio/article/68/5/698/5298740 Tarasov, 2018], [https://academic.oup.com/sysbio/advance-article/doi/10.1093/sysbio/syz050/5541792 2019]), that is a character state in which the observable phenotype corresponds to different genetic states. Hidden states add the possibility of incorporating more knowledge regarding the evo-devo of traits and account for evolution of novel phenotypic traits. 
+In addition to modeling the dependencies of characters on each other, proper modeling of dependent phenotypic characters requires inclusion of ''hidden states'' ([https://academic.oup.com/sysbio/article/68/5/698/5298740 Tarasov, 2018], [https://academic.oup.com/sysbio/advance-article/doi/10.1093/sysbio/syz050/5541792 2019]), that is a character state in which the observable phenotype corresponds to different genetic states. Hidden states add the possibility of incorporating more knowledge regarding the evo-devo of traits and account for evolution of novel phenotypic traits. 
 
 === Character Construction ===
 
