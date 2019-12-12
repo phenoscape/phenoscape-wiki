@@ -1,0 +1,19 @@
+---
+title: ComparativeAnalysis
+---
+
+## Phylogenetic Comparative Analyses using Ontologies
+
+A major goal of the SCATE project is to leverage the power of ontologies and the Phenoscape Knowledgebase to assist in evolutionary analyses of trait evolution. For example, researchers may wish to estimate phylogenies from phenotypic data, reconstruct ancestral states, or estimate correlations between phenotypes. Borrowing from molecular sequence data, the methods used for conducting such analyses typically make a series of assumptions that are very poorly suited for phenotypic data. For example, a common assumption is that every character in a character matrix is independent of each other. Phenotypic characters regularly violate this principle. By leveraging the information in phenotypic ontologies, we can correctly model character evolution by accounting for the dependencies of structures among each other. Furthermore, metrics such as semantic similarity can provide useful data that can be integrated into many steps in a phylogenetic comparative analysis. 
+
+### Structured Markov Models
+
+Ontologies provide knowledge of dependencies among traits. For example, the _humerus_ is a bone that is _part of_ the _forelimb_. Thus, the presence of a _humerus_ depends on the presence of a _forelimb_. Treating these as independent characters can result in, for example, ancestral reconstructions in which an organism has a humerus, but lacks a forelimb.  Such dependencies can be built into how we model traits by making use of structured markov models (Tarasov, 2018). By structuring the dependencies among traits (as described by Tarasov, 2018), we can reconstruct not only individual traits, but entire ancestral anatomies in a logically consistent framework. We have developed a stochastic mapping pipeline called _PARAMO_ (Tarasov et al. 2019) that allows users to reconstruct ancestral anatomies. 
+
+### Hidden State Models 
+
+### Character Construction
+
+### Enrichment Analyses
+
+### Semantic Similarity
