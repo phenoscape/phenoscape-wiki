@@ -4,22 +4,22 @@ title: Contact
 
 ==Principal investigators==
 
-* '''James  Balhoff'''
+* '''[http://www.mendeley.com/profiles/jim-balhoff/ Jim Balhoff]'''
 :Renaissance Computing Institute
 
-* '''Wasila Dahdul'''
+* '''[https://orcid.org/0000-0003-3162-7490 Wasila Dahdul]'''
 :University of South Dakota
 
 * '''Hilmar Lapp'''
 :Duke University
 
-* '''Paula Mabee'''
+* '''[https://www.usd.edu/faculty-and-staff/Paula-Mabee Paula Mabee]'''
 :University of South Dakota
 
-* '''Josef Uyeda'''
+* '''[http://www.uyedalab.com/ Josef Uyeda]'''
 :Virginia Tech
 
-* '''Todd Vision'''
+* '''[http://visionlab.web.unc.edu/ Todd Vision]'''
 :University of North Carolina
 
 ==Mailing lists==
