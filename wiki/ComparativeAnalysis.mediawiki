@@ -9,10 +9,9 @@ title: ComparativeAnalysis
 * For more background on the SCATE project and its predecessors, see [[here|Main Page]].
 }}
 
+== Phylogenetic Comparative Analyses using Ontologies ==
 
 The current project of the Phenoscape team is Enabling Machine-actionable '''S'''emantics for '''C'''omparative '''A'''nalysis of '''T'''rait '''E'''volution (SCATE). 
-
-== Phylogenetic Comparative Analyses using Ontologies ==
 
 A major goal of the SCATE project is to leverage the power of ontologies and the Phenoscape Knowledgebase to assist in evolutionary analyses of trait evolution. For example, researchers may wish to estimate phylogenies from phenotypic data, reconstruct ancestral states, or estimate correlations between phenotypes. Borrowing from molecular sequence data, the methods used for conducting such analyses typically make a series of assumptions that are very poorly suited for phenotypic data. For example, a common assumption is that every character in a character matrix is independent of each other. Phenotypic characters regularly violate this principle. By leveraging the information in phenotypic ontologies, we can correctly model character evolution by accounting for the dependencies of structures among each other. Furthermore, metrics such as semantic similarity can provide useful data that can be integrated into many steps in a phylogenetic comparative analysis. 
 
