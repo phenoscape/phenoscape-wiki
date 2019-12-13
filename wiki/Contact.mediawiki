@@ -22,9 +22,7 @@ title: Contact
 * '''[http://visionlab.web.unc.edu/ Todd Vision]'''
 :University of North Carolina
 
-==Mailing lists==
-
-=== Project-only mailing list ===
+==Project mailing list==
 
 The following mailing list has a private archive, and subscription is usually restricted to project personnel. However, anybody may send email to it; the email may be held for moderation, but legitimate (i.e., non-spam) postings will typically be released quickly.
 * Project-specific mailing list (reaches all PIs and coPIs, project team members, and those closely affiliated): [mailto:phenoscape%40googlegroups%2ecom phenoscape&#64;googlegroups&#46;com]
