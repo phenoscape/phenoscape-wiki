@@ -20,7 +20,7 @@ SCATE is funded by NSF collaborative grants DBI-1661456 (Duke University), DBI-1
 
 The grant proposal text with references is publicly available: ''W. Dahdul, J.P. Balhoff, H. Lapp, P. M. Mabee, J. Uyeda, & T.J. Vision. (2017). Enabling machine-actionable semantics for comparative analyses of trait evolution. Zenodo. http://doi.org/10.5281/zenodo.885538''.
 
-See the [http://scate.phenoscape.org project website] and [[ComparativeAnalysis]] for more information.
+See the [http://scate.phenoscape.org project website] for more information.  For more background on the how and why of incorporating ontologies into comparative analysis, see and [[ComparativeAnalysis]].
 
 == Previous Phenoscape projects and Acknowledgements ==
 * Phenoscape II ("[[Ontology-enabled reasoning across phenotypes from evolution and model organisms]]") was funded by NSF collaborative grants DBI-1062404 and DBI-1062542 from July 1, 2011, to June 30, 2018, and supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0905606.  The original Project Description for this grant is available [[:File:Phenoscape_Project_description_refs.pdf| here]].
