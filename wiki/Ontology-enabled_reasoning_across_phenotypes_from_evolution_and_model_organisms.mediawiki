@@ -2,7 +2,7 @@
 title: Ontology-enabled reasoning across phenotypes from evolution and model organisms
 ---
 
-This was the front page of this project wiki from August 1, 2011 to June 30, 2018, while it was funded (under the title of this page) by NSF grants DBI-1062404 and DBI-1062542.
+'''This is the homepage of the now-concluded Phenoscape II project (funded by NSF grants DBI-1062404 and DBI-1062542 from August 2011 through June 2018). For current projects, see the [[Main Page]].'''
 
 == Ontology-enabled reasoning across phenotypes from evolution and model organisms ==
 
