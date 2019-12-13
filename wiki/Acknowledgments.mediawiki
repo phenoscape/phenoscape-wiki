@@ -29,7 +29,7 @@ title: Acknowledgments
 * [[User:Hilmar| Hilmar Lapp]] (Center for Genomic and Computational Biology)
 * Amandeep Rathee (M.Sc. Student)
 |
-* [http://www.uyedalab.com/ Josef Uyeda]
+* [http://www.uyedalab.com/ Josef Uyeda] (Department of Biological Sciences)
 * Diego Sasso Porto (postdoc)
 * Sergei Tarasov (now at Finnish Museum of Natural History)
 |}
