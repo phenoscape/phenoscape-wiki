@@ -2,6 +2,13 @@
 title: ComparativeAnalysis
 ---
 
+{{EventBox1|
+* Try the [http://kb.phenoscape.org Phenoscape Knowledgebase].  Your feedback is welcome!
+* Check out the latest news on the [http://blog.phenoscape.org/ Phenoscape blog]
+* Learn more in one of our upcoming [[training workshops]]
+* For more background on the SCATE project and its predecessors, see [[here|Main Page]].
+}}
+
 == Phylogenetic Comparative Analyses using Ontologies ==
 
 A major goal of the SCATE project is to leverage the power of ontologies and the Phenoscape Knowledgebase to assist in evolutionary analyses of trait evolution. For example, researchers may wish to estimate phylogenies from phenotypic data, reconstruct ancestral states, or estimate correlations between phenotypes. Borrowing from molecular sequence data, the methods used for conducting such analyses typically make a series of assumptions that are very poorly suited for phenotypic data. For example, a common assumption is that every character in a character matrix is independent of each other. Phenotypic characters regularly violate this principle. By leveraging the information in phenotypic ontologies, we can correctly model character evolution by accounting for the dependencies of structures among each other. Furthermore, metrics such as semantic similarity can provide useful data that can be integrated into many steps in a phylogenetic comparative analysis. 
@@ -25,6 +32,3 @@ Phylogenetic analysis allows researchers to estimate the evolutionary history of
 === Semantic Similarity ===
 
 Semantic similarity metrics measure concept similarity. We are working to integrate semantic similarity metrics into phylogenetic comparative models, as these contain information that allows users to partition, cluster and amalgamate different characters and character states to make sense of evolutionary patterns.
-
-== More Information ==
-For more background on the SCATE project and its predecessors, see [[Main Page]].
