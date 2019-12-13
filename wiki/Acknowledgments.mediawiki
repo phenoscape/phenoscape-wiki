@@ -26,6 +26,7 @@ title: Acknowledgments
 |- valign="top"
 |
 * [[User:Hilmar| Hilmar Lapp]] (Center for Genomic and Computational Biology)
+* Amandeep Rathee (M.Sc. Student)
 |
 * [http://www.uyedalab.com/ Josef Uyeda]
 |}
