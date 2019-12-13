@@ -26,4 +26,5 @@ Phylogenetic analysis allows researchers to estimate the evolutionary history of
 
 Semantic similarity metrics measure concept similarity. We are working to integrate semantic similarity metrics into phylogenetic comparative models, as these contain information that allows users to partition, cluster and amalgamate different characters and character states to make sense of evolutionary patterns.
 
+== More Information ==
 For more background on the SCATE project and its predecessors, see [[Main Page]].
