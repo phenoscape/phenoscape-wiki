@@ -5,32 +5,27 @@ title: Main Page
 {{EventBox1|
 * Try the [http://kb.phenoscape.org Phenoscape Knowledgebase].  Your feedback is welcome!
 * Check out the latest news on the [http://blog.phenoscape.org/ Phenoscape blog]
+* Learn more in one of our upcoming [[training workshops]]
 }}
 
-== Enabling Machine-actionable Semantics for Comparative Analysis of Trait Evolution (SCATE) ==
+== Enabling Machine-actionable Semantics for Comparative Analysis of Trait Evolution ==
 
-Our objective with the [http://scate.phenoscape.org SCATE project] is to create infrastructure that will provide comparative trait analysis tools easy access to algorithms powered by machine reasoning with the semantics of trait descriptions. Similar to how Google, IBM Watson, and others have enabled developers of smartphone apps to incorporate, with only a few lines of code, complex machine-learning and artificial intelligence capabilities such as sentiment analysis, we aim to demonstrate how easy access to knowledge computing opens up new opportunities for analysis, tools, and research in comparative trait analysis. As driving biological research questions, we focus on addressing three long-standing limitations in comparative studies of trait evolution: recombining trait data, modeling trait evolution, and generating testable hypotheses for the drivers of trait adaptation.
+The current project of the Phenoscape team is Enabling Machine-actionable '''S'''emantics for '''C'''omparative '''A'''nalysis of '''T'''rait '''E'''volution (SCATE). 
 
-More information about this project, including participating PIs and funding, can be found at its [http://scate.phenoscape.org project website].
+The objective is to create infrastructure that will provide comparative trait analysis tools easy access to algorithms powered by machine reasoning with the semantics of trait descriptions. Similar to how Google, IBM Watson, and others have enabled developers of smartphone apps to incorporate, with only a few lines of code, complex machine-learning and artificial intelligence capabilities such as sentiment analysis, we aim to demonstrate how easy access to knowledge computing opens up new opportunities for analysis, tools, and research in comparative trait analysis. 
 
-== Previous Phenoscape and precursor projects ==
+As driving biological research questions, we focus on addressing three long-standing limitations in comparative studies of trait evolution: recombining trait data, modeling trait evolution, and generating testable hypotheses for the drivers of trait adaptation.
 
-* [[Ontology-enabled reasoning across phenotypes from evolution and model organisms]] ("Phenoscape II")
-* [[Linking Evolution to Genomics Using Phenotype Ontologies]] ("Phenoscape I")
-* [[Fish Evolution Working Group|Towards an Integrated Database for Fish Evolution]] (A [http://nescent.org NESCent] Working Group)
+SCATE is funded by NSF collaborative grants DBI-1661456 (Duke University), DBI-1661529 (Virginia Tech), DBI-1661516 (University of South Dakota), and DBI-1661356 (UNC Chapel Hill and RENCI) from Sep 1, 2017 to Aug 31, 2020. 
 
-== Acknowledgments ==
+The grant proposal text with references is publicly available: ''W. Dahdul, J.P. Balhoff, H. Lapp, P. M. Mabee, J. Uyeda, & T.J. Vision. (2017). Enabling machine-actionable semantics for comparative analyses of trait evolution. Zenodo. http://doi.org/10.5281/zenodo.885538''.
 
-{|
-|-
-| The [http://scate.phenoscape.org SCATE project] has been funded by NSF collaborative grants DBI-1661456 (Duke University), DBI-1661529 (Virginia Tech), DBI-1661516 (University of South Dakota), and DBI-1661356 (UNC Chapel Hill and RENCI) from Sep 1, 2017 to Aug 31, 2020. The grant proposal text with references is publicly available: ''W. Dahdul, J.P. Balhoff, H. Lapp, P. M. Mabee, J. Uyeda, & T.J. Vision. (2017). Enabling machine-actionable semantics for comparative analyses of trait evolution. Zenodo. http://doi.org/10.5281/zenodo.885538''.
+See the [http://scate.phenoscape.org project website] for more information.
 
-The Phenoscape II project ("[[Ontology-enabled reasoning across phenotypes from evolution and model organisms]]") was funded by NSF collaborative grants DBI-1062404 and DBI-1062542 from July 1, 2011, to June 30, 2018, and supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0905606.  The original Project Description for this grant is available [[:File:Phenoscape_Project_description_refs.pdf| here]].
+== Previous Phenoscape projects and Acknowledgements ==
+* Phenoscape II ("[[Ontology-enabled reasoning across phenotypes from evolution and model organisms]]") was funded by NSF collaborative grants DBI-1062404 and DBI-1062542 from July 1, 2011, to June 30, 2018, and supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0905606.  The original Project Description for this grant is available [[:File:Phenoscape_Project_description_refs.pdf| here]].
+* Phenoscape I ("[[Linking Evolution to Genomics Using Phenotype Ontologies]]") was funded by NSF grant BDI-0641025 from June 1, 2007, to Jun 30, 2011, and was supported by NESCent, NSF #EF-0423641. 
+* The original ideas for Phenoscape arose from a NESCent <span class="plainlinks">[http://www.nescent.org/science/workinggroup.php Working Group]</span> led by Paula Mabee and Monte Westerfield, "[[Fish Evolution Working Group|Towards an Integrated Database for Fish Evolution]]."
+* These projects have bene made possible possible by the hard work of [[Acknowledgments#Contributors| numerous contributors]].
 
-These projects would not have been possible without the hard work of [[Acknowledgments#Contributors| numerous contributors]] and the results obtained in the [[Linking Evolution to Genomics Using Phenotype Ontologies]] project, which was funded by NSF grant BDI-0641025 from June 1, 2007, to Jun 30, 2011, and was supported by NESCent, NSF #EF-0423641. This earlier project in turn arose from a NESCent <span class="plainlinks">[http://www.nescent.org/science/workinggroup.php Working Group]</span> led by Paula Mabee and Monte Westerfield, "[[Fish Evolution Working Group|Towards an Integrated Database for Fish Evolution]]."
-| https://www.nescent.org/about/images/nsf_logo.jpg
-|}
-
-==Pages of public interest==
-
-* [[Training and Workshops]]
+https://www.nescent.org/about/images/nsf_logo.jpg
