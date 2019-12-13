@@ -5,7 +5,7 @@ title: Main Page
 {{EventBox1|
 * Try the [http://kb.phenoscape.org Phenoscape Knowledgebase].  Your feedback is welcome!
 * Check out the latest news on the [http://blog.phenoscape.org/ Phenoscape blog]
-* Learn more in one of our upcoming [[training workshops]]
+* Learn more in one of our upcoming [[Training_and_Workshops | training workshops]]
 }}
 
 == Enabling Machine-actionable Semantics for Comparative Analysis of Trait Evolution ==
