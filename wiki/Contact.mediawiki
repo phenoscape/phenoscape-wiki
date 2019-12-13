@@ -4,30 +4,23 @@ title: Contact
 
 ==Principal investigators==
 
-* '''Paula Mabee''': Principal Investigator
+* '''James  Balhoff'''
+:Renaissance Computing Institute
+
+* '''Wasila Dahdul'''
 :University of South Dakota
 
-* '''Todd Vision''': Principal Investigator
-:University of North Carolina
-:Email: [mailto:tjv%40bio%2eunc%2eedu tjv&#64;bio&#46;edu]
-
-* '''David Blackburn''': Co-principal Investigator
-:University of Florida, Gainesville
-
-* '''Judith Blake''': Co-principal Investigator
-:Mouse Genome Informatics - Jackson Laboratories
-
-* '''[[User:Hlapp|Hilmar Lapp]]''': Co-principal Investigator
+* '''Hilmar Lapp'''
 :Duke University
 
-* '''Paul Sereno''': Co-principal Investigator
-:University of Chicago
+* '''Paula Mabee'''
+:University of South Dakota
 
-* '''Monte Westerfield''': Co-principal Investigator
-:University of Oregon Institute of Neuroscience
+* '''Josef Uyeda'''
+:Virginia Tech
 
-* '''Aaron Zorn''': Co-principal Investigator
-:Xenopus model organism database, Cincinnati's Children's Hospital Medical Center
+* '''Todd Vision'''
+:University of North Carolina
 
 ==Mailing lists==
 
