@@ -16,7 +16,7 @@ title: Acknowledgments
 * [http://www.mendeley.com/profiles/jim-balhoff/ Jim Balhoff] (Renaissance Computing Institute)
 |
 * [https://www.usd.edu/faculty-and-staff/Paula-Mabee/ Paula Mabee] (Department of Biology)
-* Wasila Dahdul
+* [https://orcid.org/0000-0003-3162-7490 Wasila Dahdul] (Department of Biology)
 | 
 |- style="height: 5px;"
 |
