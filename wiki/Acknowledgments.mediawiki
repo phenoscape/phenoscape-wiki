@@ -15,7 +15,7 @@ title: Acknowledgments
 * [http://visionlab.web.unc.edu/ Todd Vision] (Department of Biology)
 * [http://www.mendeley.com/profiles/jim-balhoff/ Jim Balhoff] (Renaissance Computing Institute)
 |
-* Paula Mabee
+* [https://www.usd.edu/faculty-and-staff/Paula-Mabee/ Paula Mabee] (Department of Biology)
 * Wasila Dahdul
 | 
 |- style="height: 5px;"
