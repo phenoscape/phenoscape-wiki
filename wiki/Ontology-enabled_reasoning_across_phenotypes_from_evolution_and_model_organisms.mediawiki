@@ -7,6 +7,7 @@ title: Ontology-enabled reasoning across phenotypes from evolution and model org
 * For current projects, see the [[Main Page]]
 * Try the [http://kb.phenoscape.org Phenoscape Knowledgebase].  Your feedback is welcome!
 * Check out the latest news on the [http://blog.phenoscape.org/ Phenoscape blog]
+* Follow us on Twitter at [https://twitter.com/_phenoscape @_phenoscape]
 }}
 
 == Ontology-enabled reasoning across phenotypes from evolution and model organisms ==
