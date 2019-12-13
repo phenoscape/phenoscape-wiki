@@ -29,6 +29,8 @@ title: Acknowledgments
 * Amandeep Rathee (M.Sc. Student)
 |
 * [http://www.uyedalab.com/ Josef Uyeda]
+* Diego Sasso Porto (postdoc)
+* Sergei Tarasov (postdoc, now at Finnish Museum of Natural History)
 |}
 
 === Phenoscape II Project ===
