@@ -68,7 +68,7 @@ title: Acknowledgments
 | University of Chicago || Mouse Genome Informatics || Cincinnati Children's Hospital Medical Center
 |- valign="top"
 |
-* [http://paulsereno.uchicago.edu Paul Sereno]
+* Paul Sereno
 * Nizar Ibrahim
 |
 * Judith Blake
@@ -84,8 +84,8 @@ title: Acknowledgments
 |
 * David Blackburn
 |
-* [http://sites.google.com/site/biosemanticsproject/project-overview Hong Cui]
-* [http://www.linkedin.com/pub/zilong-chang/3a/348/585 Zilong Chang]
+* Hong Cui
+* Zilong Chang
 |
 * Chris Mungall
 |}
