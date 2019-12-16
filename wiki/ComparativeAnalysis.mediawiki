@@ -5,9 +5,10 @@ title: ComparativeAnalysis
 {{EventBox1|
 * Try the [http://kb.phenoscape.org Phenoscape Knowledgebase].  Your feedback is welcome!
 * Check out the latest news on the [http://blog.phenoscape.org/ Phenoscape blog]
-* Learn more in one of our upcoming [[training workshops]]
-* For more background on the SCATE project and its predecessors, see [[here|Main Page]].
+* Learn more in one of our upcoming [[Training and Workshops]]
 }}
+
+This is part of the SCATE project. For more background on SCATE and its predecessors, see the [[Main Page]].
 
 == Phylogenetic Comparative Analyses using Ontologies ==
 
