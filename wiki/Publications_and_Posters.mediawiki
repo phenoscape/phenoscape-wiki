@@ -16,7 +16,7 @@ title: Publications and Posters
 
 ===2018===
 * Uyeda JC, Zenil-Ferguson R, Pennell MW (2018) Rethinking phylogenetic comparative methods, Systematic Biology, Volume 67, Issue 6, November 2018, Pages 1091–1109, https://doi.org/10.1093/sysbio/syy031
-*   Manda P, Vision T (2018) On the statistical analysis of semantic similarity metrics. International Conference on Biological Ontology 2018. Oregon State University, Corvallis, OR, USA. Accepted. Preprint bioRxiv https://doi.org/10.1101/327833
+*   Manda P, Vision T (2018) On the statistical analysis of semantic similarity metrics. International Conference on Biological Ontology 2018. Oregon State University, Corvallis, OR, USA. http://ceur-ws.org/Vol-2285/ICBO_2018_paper_47.pdf (preprint: https://doi.org/10.1101/327833)
 *  Dahdul W,  Manda P, Cui H,  Balhoff J,  Dececchi A, Ibrahim N,  Lapp H,  Vision T,  Mabee, PM (2018) Annotation of phenotypes using ontologies: a Gold Standard for the training and evaluation of natural language processing systems. Database. 2018:bay110, https://doi.org/10.1093/database/bay110
 * Jackson, L.M., Fernando, P.C., Hanscom, J.S., Balhoff, J.P., Mabee, P.M.  (2018) Automated integration of trees and traits: a case study using paired fin loss across teleost fishes.  Systematic Biology, 67(4):559–575, https://doi.org/10.1093/sysbio/syx098
 * Mabee P.M., Dahdul W., Balhoff J.P., Lapp, H., Manda, P., Uyeda, J., Vision, T.J., Westerfield, M. (2018) Phenoscape: Semantic analysis of organismal traits and genes yields insights in evolutionary biology. In: Application of Semantic Technology in Biodiversity Science (A. Thessen, editor).  IOS Press, Berlin. preprint https://peerj.com/preprints/26988
