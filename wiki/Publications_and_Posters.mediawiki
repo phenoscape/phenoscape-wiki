@@ -10,9 +10,11 @@ title: Publications and Posters
 * Data modeling, reasoning & ontologies: Manda et al. (2016), Balhoff et al. (2015), Balhoff et al (2013), Haendel et al (2014), Dahdul e al (2014), Midford et al (2013), Druzinsky et al (2013), Segerdell et al (2013), Balhoff et al (2013), Dahdul et al (2012), Haendel et al (2008)
 
 == Publications by date ==
+===2020===
+*   Mabee, P.M., Balhoff, J.P., Dahdul, W.M., Lapp, H., Mungall, C.J., Vision, T.J. (2020) A logical model of homology for comparative biology. Systematic Biology. 69(2):345–362, https://doi.org/10.1093/sysbio/syz067
+
 ===2019===
 *  Tarasov, S., Mikó, I., Yoder, M.J., Uyeda, J.C. (2019) PARAMO: A pipeline for reconstructing ancestral anatomies using ontologies and stochastic mapping. Insect Systematics and Diversity, Volume 3, Issue 6, https://doi.org/10.1093/isd/ixz009.
-*   Mabee, P.M., Balhoff, J.P., Dahdul, W.M., Lapp, H., Mungall, C.J., Vision, T.J. (2019) A logical model of homology for comparative biology. Systematic Biology. https://doi.org/10.1093/sysbio/syz067
 
 ===2018===
 * Uyeda JC, Zenil-Ferguson R, Pennell MW (2018) Rethinking phylogenetic comparative methods, Systematic Biology, Volume 67, Issue 6, November 2018, Pages 1091–1109, https://doi.org/10.1093/sysbio/syy031
