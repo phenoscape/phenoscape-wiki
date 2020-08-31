@@ -11,6 +11,8 @@ title: Publications and Posters
 
 == Publications by date ==
 ===2020===
+
+*Porto, D.S., Alameida, E.A., and M.W. Pennell. 2020. Investigating morphological complexes using informational dissonance and Bayes Factors: A case study in corbiculate bees. Accepted in Systematic Biology, syaa059, https://doi.org/10.1093/sysbio/syaa059
 *   Mabee, P.M., Balhoff, J.P., Dahdul, W.M., Lapp, H., Mungall, C.J., Vision, T.J. (2020) A logical model of homology for comparative biology. Systematic Biology. 69(2):345–362, https://doi.org/10.1093/sysbio/syz067
 
 ===2019===
