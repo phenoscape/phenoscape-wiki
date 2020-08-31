@@ -8,13 +8,13 @@ title: Contact
 :Renaissance Computing Institute
 
 * '''[https://orcid.org/0000-0003-3162-7490 Wasila Dahdul]'''
-:University of South Dakota
+:University of California, Irvine
 
 * '''Hilmar Lapp'''
 :Duke University
 
-* '''[https://www.usd.edu/faculty-and-staff/Paula-Mabee Paula Mabee]'''
-:University of South Dakota
+* '''[https://www.neonscience.org/observatory/staff/paula-mabee Paula Mabee]'''
+:National Ecological Observatory Network
 
 * '''[http://www.uyedalab.com/ Josef Uyeda]'''
 :Virginia Tech
