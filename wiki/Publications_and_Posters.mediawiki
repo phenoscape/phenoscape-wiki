@@ -116,6 +116,7 @@ title: Publications and Posters
 
 == Posters & Presentations ==
 === 2019 ===
+* Uyeda, J. (2019) The Measurement of Macroevolutionary Causes. Emerging Leader Invited Plenary Talk, SouthEastern Population Ecology and Evolutionary Genetics Conference, Clemson, SC.
 * Tarasov S, Miko I, Yoder M, and Uyeda J. (2019) Exploring and reconstructing ancestral anatomies using ontology-informed approaches. In session: Exploring Biodiversity Knowledge by Ontologies, Biodiversity Next meeting, Leiden, Netherlands, October 22, 2019. https://doi.org/10.3897/biss.3.37038
 * Mabee, P. (2019) Answering research questions requires semantic traits. In session: Operationalizing Trait-Based Biodiversity, Biodiversity Next meeting, Leiden, Netherlands, October 24, 2019. https://doi.org/10.3897/biss.3.37567 
 * Uyeda J, Tarasov, S (2019) Extracting meaning from phylogenetic comparative methods: The necessity of considering process. Evolution 2019, Providence RI, June 25, 2019. 
