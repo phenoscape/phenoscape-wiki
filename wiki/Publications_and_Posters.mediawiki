@@ -11,7 +11,9 @@ title: Publications and Posters
 
 == Publications by date ==
 ===2022===
-*Porto, D.S., Dahdul, W.M., Lapp, H., Balhoff, J.P., Vision, T.J., Mabee, P.M., Uyeda, J. (2022) Assessing bayesian phylogenetic information content of morphological data using knowledge from anatomy ontologies. Systematic Biology. https://doi.org/10.1093/sysbio/syac022
+*Porto, D.S., Dahdul, W.M., Lapp, H., Balhoff, J.P., Vision, T.J., Mabee, P.M., and Uyeda, J. (2022) Assessing bayesian phylogenetic information content of morphological data using knowledge from anatomy ontologies. Systematic Biology. https://doi.org/10.1093/sysbio/syac022
+
+*Tarasov, S., and Uyeda, J.. (2022) Resolving ubiquitous model congruence in phylogenetics and its application for studying macroevolution. bioRxiv 2022.07.04.498736; doi: https://doi.org/10.1101/2022.07.04.498736
 
 ===2021===
 * Fernando, P.C., Mabee, P.M., Zeng, E. (2021) Gene network module changes associated with the vertebrate fin to limb transition. bioRxiv 2021.01.28.428646; doi: https://doi.org/10.1101/2021.01.28.428646
