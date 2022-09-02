@@ -124,8 +124,10 @@ title: Publications and Posters
 
 == Posters & Presentations ==
 ===2022===
-* Lapp, H., Bradley, J., Xu, H., Rathee, A., Balhoff, J., and Dahdul, W. (2022). RPhenoscape: Semantic computing with morphological traits and ontologies. Bioinformatics Open Source Conference 2022, as part of ISMB 2022; 2022 July 14; Madison, WI
 * Porto, D.S., Tarasov, D., Charpentier, C., Dahdul, W., Lapp, H., Balhoff, J., Vision, T., Mabee, P., & Uyeda, J. rphenoscate: An R package for semantic-aware comparative analyses of organismal phenotypes. Annual Meeting of the Willi Hennig Society; 2022 July 24-28; Helsinki, Finland.
+* Lapp, H., Bradley, J., Xu, H., Rathee, A., Balhoff, J., and Dahdul, W. (2022). RPhenoscape: Semantic computing with morphological traits and ontologies. Bioinformatics Open Source Conference 2022, as part of ISMB 2022; 2022 July 14; Madison, WI
+* Lovill, K., Porto, D.S., Wasila, D., and Uyeda, J. (2022). Exploring Ontological Knowledge to Study Miniaturization in Ostariophysi Fish. Poster presented at: Dennis Dean Undergraduate Research and Creative Scholarship Conference; 2022 April 29; Blacksburg, VA.
+
 ===2021===
 * Porto, D (presenter), W Dahdul, H Lapp, J Balhoff, T Vision, P Mabee, J Uyeda. (2021) Assessing Phylogenetic information content of anatomy ontologies. Evolution 2021, virtual, June 22, 2021.
 === 2019 ===
