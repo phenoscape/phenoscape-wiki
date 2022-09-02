@@ -118,6 +118,8 @@ title: Publications and Posters
 *Mabee PM, Ashburner M, Cronk Q, Gkoutos GV, Haendel M, Segerdell E, Mungall C, and Westerfield M. '''2007'''. Phenotype ontologies: the bridge between genomics and evolution. Trends Ecol Evol. Jul; 22(7) 345-50. [http://dx.doi.org/10.1016/j.tree.2007.03.013 doi:10.1016/j.tree.2007.03.013]
 
 == Posters & Presentations ==
+===2022===
+* Porto, D.S., Tarasov, D., Charpentier, C., Dahdul, W., Lapp, H., Balhoff, J., Vision, T., Mabee, P., & Uyeda, J. rphenoscate: An R package for semantic-aware comparative analyses of organismal phenotypes. Annual Meeting of the Willi Hennig Society; 2022 July 24-28; Helsinki, Finland.
 ===2021===
 * Porto, D (presenter), W Dahdul, H Lapp, J Balhoff, T Vision, P Mabee, J Uyeda. (2021) Assessing Phylogenetic information content of anatomy ontologies. Evolution 2021, virtual, June 22, 2021.
 === 2019 ===
