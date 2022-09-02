@@ -13,6 +13,9 @@ title: Publications and Posters
 ===2022===
 *Porto, D.S., Dahdul, W.M., Lapp, H., Balhoff, J.P., Vision, T.J., Mabee, P.M., Uyeda, J. (2022) Assessing bayesian phylogenetic information content of morphological data using knowledge from anatomy ontologies. Systematic Biology. https://doi.org/10.1093/sysbio/syac022
 
+===2021===
+Fernando, P.C., Mabee, P.M., Zeng, E. (2021) Gene network module changes associated with the vertebrate fin to limb transition. bioRxiv 2021.01.28.428646; doi: https://doi.org/10.1101/2021.01.28.428646
+
 ===2020===
 *Fernando, P.C., Mabee, P.M. and E. Zeng. (2020) Integration of anatomy ontology data with protein–protein interaction networks improves the candidate gene prediction accuracy for anatomical entities. BMC Bioinformatics 21, 442. https://doi.org/10.1186/s12859-020-03773-2
 *Porto, D.S., Alameida, E.A., and M.W. Pennell. (2020) Investigating morphological complexes using informational dissonance and Bayes Factors: A case study in corbiculate bees. Systematic Biology 70(2):295–306, https://doi.org/10.1093/sysbio/syaa059
