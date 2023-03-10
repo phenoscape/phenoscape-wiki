@@ -10,6 +10,9 @@ title: Publications and Posters
 * Data modeling, reasoning & ontologies: Mabee et al. (2020),  Manda et al. (2016), Balhoff et al. (2015), Balhoff et al (2013), Haendel et al (2014), Dahdul e al (2014), Midford et al (2013), Druzinsky et al (2013), Segerdell et al (2013), Balhoff et al (2013), Dahdul et al (2012), Haendel et al (2008)
 
 == Publications by date ==
+===2023===
+*Porto, D.S., Tarasov, S., Charpentier, C., Lapp, H., Balhoff, J.P., Vision, T.J., Dahdul W.M., Mabee, P.M., and Uyeda, J. (2023) rphenoscate: An R package for semantic-aware evolutionary analyses of anatomical traits. bioRxiv 2023.02.19.528613; doi: https://doi.org/10.1101/2023.02.19.528613
+
 ===2022===
 *Porto, D.S., Dahdul, W.M., Lapp, H., Balhoff, J.P., Vision, T.J., Mabee, P.M., and Uyeda, J. (2022) Assessing bayesian phylogenetic information content of morphological data using knowledge from anatomy ontologies. Systematic Biology. https://doi.org/10.1093/sysbio/syac022
 
