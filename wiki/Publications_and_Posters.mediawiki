@@ -10,6 +10,9 @@ title: Publications and Posters
 * Data modeling, reasoning & ontologies: Mabee et al. (2020),  Manda et al. (2016), Balhoff et al. (2015), Balhoff et al (2013), Haendel et al (2014), Dahdul e al (2014), Midford et al (2013), Druzinsky et al (2013), Segerdell et al (2013), Balhoff et al (2013), Dahdul et al (2012), Haendel et al (2008)
 
 == Publications by date ==
+===2024===
+*Girón Duque, J.C., Balk, M., Dahdul, W., Lapp, H., Mikó, I., Alhajjar, E., Wynd, B., Tarasov, S., Lawrence, C., Khakurel, B., Porto, A., Yan, L., E Fluck, I., Porto, D., Keating, J., Borokini, I., Seltmann, K., Montanaro, G., Mabee, P. (2024) Meeting Report for the Phenoscape TraitFest 2023 with Comments on Organising Interdisciplinary Meetings. Biodiversity Information Science and Standards 8: e115232. https://doi.org/10.3897/biss.8.115232
+
 ===2023===
 *Porto, D.S., Tarasov, S., Charpentier, C., Lapp, H., Balhoff, J.P., Vision, T.J., Dahdul W.M., Mabee, P.M., and Uyeda, J. (2023) rphenoscate: An R package for semantic-aware evolutionary analyses of anatomical traits. Methods in Ecology and Evolution 14:2531-2540 doi: https://doi.org/10.1111/2041-210X.14210
 
