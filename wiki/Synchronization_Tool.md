@@ -1,0 +1,106 @@
+---
+title: Synchronization Tool
+permalink: wiki/Synchronization_Tool
+layout: wiki
+tags:
+ - Informatics
+ - Ontology
+ - Curation
+---
+
+The Synchronization Tool is a plug-in for
+[OBO-Edit](http://oboedit.org/) which aids in keeping the Teleost
+Anatomy Ontology and the Zebrafish Anatomy Ontology consistent with each
+other.
+
+## System Requirements
+
+The Synchronization Tool runs as a plug-in within OBO-Edit 2. The
+plug-in will not work with earlier versions of OBO-Edit. Download
+OBO-Edit for your system from its
+[website](http://oboedit.org/?page=download).
+
+## Download & Installation
+
+The latest version of the Synchronization Tool plug-in can be obtained
+from the [Phenoscape Sourceforge project
+site](http://sourceforge.net/projects/phenoscape/). The plug-in is
+packaged as a single "jar" file which works on all systems running
+OBO-Edit 2.
+
+- [Synchronization Tool
+  downloads](http://sourceforge.net/project/showfiles.php?group_id=224046&package_id=306516)
+
+### Installation
+
+If you have not yet installed OBO-Edit, do so. Move the downloaded
+Synchronization Tool jar file into the "extensions" folder within your
+OBO-Edit folder, then relaunch OBO-Edit. You should now see
+"Synchronization Tool" within the "Tools" menu.
+
+### Obtaining Synchronization Tool source code (for developers)
+
+To make contributions to the project or test the latest in-development
+code, you should check out a working copy from the Subversion
+repository:
+
+- <https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/src/SynchronizationTool>
+  (use that URL with an SVN client, not a web browser)
+
+The Synchronization Tool source includes both an Eclipse project (used
+for most active development) and an Ant build file (used for making
+releases). You can browse Synchronization Tool SVN revisions on the web
+at
+<http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/src/SynchronizationTool/>.
+
+## Reporting Bugs and Feature Requests
+
+Report any bugs and make feature requests using the [Synchronization
+Tool issue
+tracker](http://sourceforge.net/tracker/?group_id=224046&atid=1126441).
+You will need to log in with a Sourceforge account to submit an issue
+(just create an account if you don't already have one). Be sure to
+choose a group for your new issue, either Bug Report or Feature Request.
+
+## Usage
+
+The Synchronization Tool typically requires two ontology files to be
+loaded simultaneously in OBO-Edit. The sets of terms to be synchronized
+are actually selected by namespace, but each namespace will often come
+from a different ontology file.
+
+### Loading ontologies
+
+If both namespaces to be synchronized are in one ontology file, it can
+be opened in the usual fashion. Otherwise the ontology files need to be
+opened simultaneously by typing the file path to each in the "Load
+Ontologies..." panel, separated by a space. For example:
+![](Open_two_ontologies.png "Open_two_ontologies.png")
+
+### Configuration
+
+### Tabs
+
+#### Missing Dbxrefs
+
+These terms have the same name, but there is no Dbxref in the term from
+the referring namespace to the term in the master namespace.
+
+#### Conflicting Data
+
+These terms have a Dbxref from a term in the referring namespace to a
+term in the master namespace; however they differ in either their name
+or definition.
+
+#### Missing Terms
+
+These are terms in the referring namespace that have no Dbxref to a term
+in the master namespace, or terms in the master namespace that are not
+Dbxref'd from any term in the referring namespace. A subset of these may
+also be listed under the "Missing Dbxrefs" tab.
+
+#### Structural Differences
+
+Not yet implemented.
+
+### Saving changes

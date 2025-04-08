@@ -1,0 +1,1164 @@
+---
+title: Guide to Character Annotation
+permalink: wiki/Guide_to_Character_Annotation
+layout: wiki
+---
+
+This page describes the best practices and guidelines for using EQ
+syntax to consistently and accurately represent phenotypes from the
+systematic literature. The guidelines are an evolving set of standards
+created to improve annotation consistency for the use cases and goals of
+the Phenoscape project. We provide examples of character types commonly
+encountered in the systematics literature, and provide discussion of
+special cases and issues in their annotation.
+
+The Entity-Quality (EQ) formalism combines ‘Entity’ terms from an
+anatomical ontology, in our case [Uberon](http://uberon.github.io/),
+with ‘Quality’ descriptors from the Phenotype and Trait Ontology (PATO).
+Spatial and positional terms from the Biological Spatial Ontology (BSPO)
+are also used to represent phenotypes.
+
+## PATO terms used to annotate systematic characters
+
+Below is a simplified graph showing a subset of quality terms from the
+[Phenotype and Trait Ontology
+(PATO)](http://obofoundry.org/wiki/index.php/PATO:Main_Page) used to
+curate systematic characters. Terms in orange represent attribute-level
+qualities.
+
+<figure>
+<img src="Pato-diagram-v2.jpeg" title="Image:1000 pixels"
+width="1000" />
+<figcaption>Image:1000 pixels</figcaption>
+</figure>
+
+| PATO attribute-level term | Synonyms | Examples of child terms |
+|----|----|----|
+| shape |  | triangular, lobed, concave, protruding into |
+| position | placement, location | horizontal, anterior to |
+| size |  | thin, large, decreased height |
+| structure |  | porous, fused with |
+| composition | composed of, content | ligamentous, cartilaginous |
+| texture |  | smooth, wrinkled |
+| optical quality |  | color, brightness |
+| mass |  | increased mass |
+| quality of a solid |  | flexible, hard |
+| mobility |  | mobile, immobile |
+| closure |  | open, closed |
+| behavioral quality |  |  |
+| count | number, amount | present, absent |
+
+## Annotation Specificity
+
+Annotations are made using the most specific term or post-composition
+possible for Entity and Quality. This may not be possible for some
+characters involving very complex phenotypes, particularly those
+describing shape variation. In these cases, annotations are made to
+'attribute' level PATO terms (e.g., PATO: shape).
+
+## Character Annotation Examples 
+
+The following are examples of character types commonly encountered in
+the systematic literature and how we annotate them using the
+<a href="EQ_for_character_matrices" class="wikilink"
+title=" Entity-Quality (EQ)"> <strong>Entity-Quality (EQ)</strong></a>
+model in Phenex. A character state can often require multiple EQs to
+capture all of the anatomical details described by an author. For
+example, a state may describe “premaxillary teeth round and
+multicuspidate." This is represented with the following two phenotypes:
+
+`E: premaxillary tooth, Q: round`  
+`E: premaxillary tooth, Q: multicuspidate`
+
+Abbreviations: **E** = anatomical entity from Uberon; **Q** = Quality
+term from PATO, **RE** = related anatomical entity, **C** = count
+(numerical value).
+
+### 1. Qualities of single physical entities 
+
+Many qualities in PATO apply only to single entities (e.g., 'shape,',
+'count', 'open') without reference to a second, related entity (RE).
+Examples of qualities of single physical entities are given below. Other
+qualities are "relational" and must be used with a second, related
+entity (e.g., 'fused with'; more examples in \#2). Finally, some
+qualities can be used either with or without a second entity (e.g.,
+'increased size').
+
+#### 1a. Shape
+
+All shape terms apply only to single entities. Example: “sigmoid-shaped
+supraorbital bone” is annotated as:
+
+`E: supraorbital, Q: sigmoid`
+
+#### 1b. Position
+
+Some position terms apply only to single entities (see 2b. below for
+position terms applicable to two entities).
+
+`E: projection part_of frontal, Q: vertical`  
+
+#### 1c. Count
+
+'Count' is used to record the number value(s) of an entity. Values for
+counts are recorded in the “Count" field *(Note: due to a Phenex bug,
+the Count field only accepts integer values; ranges ("3-5") or symbols
+("≥") must be recorded in the "Comment” field)*. Some examples:
+
+`E: vertebra, Q: count, Count: 33`
+
+`E: vertebra, Q: count, Comment: 34-38`
+
+`E: vertebra, Q: count, Comment: >38`
+
+`E: vertebra, Q: count, Comment: ≥48`
+
+#### 1d. Presence/Absence
+
+PATO: *present* and *absent* are used to annotate variation in the
+presence of entities, e.g.:
+
+`E: pectoral fin, Q: present`
+
+(Technical note: The use of *present* and *absent* in curation is a
+curatorial shortcut to the more logically sound syntax discussed on the
+[PATO wiki](http://obofoundry.org/wiki/index.php/PATO:Absent).  Presence
+annotations in Phenoscape are translated into this logically sound form
+prior to their addition in the Phenoscape KB.)
+
+**Inferred presence** from annotation to other attributes. It is not
+necessary to annotate the presence of an entity if the character
+describes some other attribute regarding its features . For example,
+"frontal bone present and round" requires only one annotation: **E:
+frontal bone Q: round** because the presence of frontal bone is inferred
+by this annotation.
+
+#### 1e. Mobility
+
+Skeletal entities are sometimes described as being mobile, meaning
+capable of movement, as opposed to immobile, or fixed in place. The PATO
+terms 'mobile' and 'immobile' are used in such cases:
+
+`E: maxilla, Q: mobile`
+
+#### 1f. Composition
+
+Composition qualities describe the types and quantities of a bearer
+entity's constituent subparts. For example, skeletal entities can be
+'cartilaginous' or 'ossified'.
+
+`E: bone , Q: poorly ossified`
+
+Note: unlike its child terms, 'composition' can be used with related
+entities; see examples in the next section.
+
+### 2. Qualities of related physical entities 
+
+Some phenotypes describe a state that exists between two entities. In
+these cases, relational qualities are used to relate the two entities.
+Examples of relational qualities include 'differetiated from',
+'overlapped by', and 'fused with':
+
+`E: parietal bone, Q: fused with, RE: supraoccipital bone`
+
+Note: some qualities in PATO can be used with either single entities OR
+with two entities (for example, PATO: increased size). A partial list of
+PATO terms that require related entities are listed below in 2a and 2b.
+
+#### 2a. Positional qualities between two entities
+
+The following are position qualities used to describe the position or
+orientation of an entity relative to another entity. Note that some
+positional qualities apply to single entities only (see 1b above).
+
+- anterior to
+- posterior to
+- diagonal to
+- extends to
+- basal to
+
+#### 2b. Structural qualities between two entities
+
+- attached to
+- in contact with
+- separated from. (Denotes that two entities are not touching. Typically
+  used as the inverse of 'in contact with')
+- fused with
+- unfused from. (Can apply whether or not two elements are in contact
+  with each other. Typically used as the inverse of 'fused with')
+
+#### 2c. Composition quality between two entities
+
+Composition (synonym= *composed of*) can be used to relate an entity to
+its component related entities (ie., the subparts or entities that it is
+composed of); for example: the character "Lateral forebrain bundle
+composed of myelinated fibers" from Wiley and Johnson (#20) is annotated
+as:
+
+`E: lateral forebrain bundle, Q: composition, RE: myelinated nerve fiber`
+
+### 3. Size 
+
+There are various ways an author may describe or compare the size of a
+structure across taxa. These are summarized below:
+
+**3a. Relative size** comparisons compare the size of two structures.
+For example, "frontal length greater than parietal length" is
+represented as:
+
+`E: frontal bone, Q: increased length, E2: parietal`
+
+**3b. Size comparison across taxa**. For example, a state describing
+"frontal large” is annotated as below. Note that the EQ does not require
+annotation to terms from a taxonomy ontology because the matrix saved in
+the Phenex file has a mapping from states to taxa.
+
+`E: frontal bone, Q: increased size`
+
+**3c. Multiple dimensions of size** may be described for a single
+structure. For example, an author may describe the frontal bone as
+having a "greater length relative to width". This requires
+post-composing the Quality with PATO: "length" and PATO:"width":
+
+`E: frontal bone, Q: length^`*`increased_in_magnitude_relative_to`*`(width^`*`inheres_in`*`(frontal bone)`
+
+We are currently annotating to this detailed level. A less detailed
+("coarse") way to represent the above phenotype is:
+
+`E: frontal bone, Q: increased length, RE: frontal bone`
+
+**3d. Series of relative sizes** describes a range of sizes in more than
+two states. For example: "maxilla: (0) long, (1) medium, or (2) short".
+Choose the relevant size quality being compared, and place a number in
+the Count column indicating the proper sort order (e.g., 1 \< 2 \< 3...
+for short \< medium \< long ...). For "short":
+
+`E: maxilla, Q: length, Count: 1`
+
+**3e. Size variation from a "normal" or "typical" state**: For example:
+"femur size: (0) small, (1) typical size. State 1 does not imply imply
+that the femur is large (thus, PATO:‘increased size’ should not be used)
+but state 1 is distinguished from state 0 by NOT being small in size:
+
+`E: femur, Q: decreased size (state 0)`  
+`E: femur, Q: size `**`not`**` decreased size (state 1)`
+
+**3f. Similarity in 'size' and 'shape**' terms. Many aspects of size
+variation also relate to shape (and vice versa). For example, the terms
+PATO:"increased width" (with related synonym: "broad") and PATO:"broad"
+are separate terms that have different parent terms in the ontology,
+despite describing very similar phenotypes. "Increased width" has ‘size’
+as its parent whereas "broad" has "shape" as its parent. By convention,
+we use "increased width" to indicated variation in the size dimension.
+
+Technical note: [Curatorial
+shortcuts](http://phenoscape.org/wiki/EQ_shortcuts_%28temporary%29) are
+used in Phenex to represent size, in place of requiring curators to
+create the complex but semantically correct post-compositions otherwise
+required. In PATO, the terms "increased size" and "decreased size"
+(along with their children) are precomposed relative to "normal" (e.g.,
+*increased size* has an *increased_in* relationship to "normal"). 
+Because the "normal" phenotype does not apply to systematic characters,
+these annotations will be converted in the KB data loader to the correct
+form using the appropriate relations
+(*increased_in_magnitude_relative_to*,
+*decreased_in_magnitude_relative_to*,
+*similar_in_magnitude_relative_to*).
+
+### 4. Biological process annotations
+
+Some phenotypes describe variation related to biological processes
+(e.g., tooth development) and in such cases, terms are taken from the
+'biological process' (GO:0008150) branch of the Gene Ontology.
+Biological process terms can only be used with ‘process quality’
+(PATO:0001236) terms in PATO.
+
+### 5. Sexually dimorphic phenotypes
+
+Phenotypes specific to males or females are defined using the Uberon
+terms ‘male organism’ and ‘female organism’. For example, “Male cloacal
+folds, absent” is represented as
+
+`E: cloacal fold^part_of(male organism), Q: absent`
+
+### 6. Quality-modified entities and 'present'/'absent' annotations 
+
+Sometimes it is necessary to use a PATO term to modify an entity in
+post-composition. For example, an author may describe the "number of
+round teeth":
+
+`E: 'tooth' bearer_of some 'round'; Q: 'count'`
+
+In other cases, we will want to avoid creating a post-composition. For
+example, consider the character: "branched dorsal fin ray, present or
+absent". In this case, we interpret the character as describing the
+quality of the fin rays being
+<span style="font-family:courier new,courier,monospace">'branched'</span>
+or
+<span style="font-family:courier new,courier,monospace">'unbranched'</span>,
+rather than present or absent:
+
+`E: dorsal fin ray; Q: branched`  
+`E: dorsal fin ray: Q: unbranched`
+
+  
+**Implications on reasoning. **It may appear that there are two similar
+ways to annotate such characters: for example, consider the
+presence/absence of white hair:  
+<span style="font-family:courier new,courier,monospace">     E: 'hair'
+bearer_of some 'white'; Q: 'present</span>'  
+This is different from:  
+<span style="font-family:courier new,courier,monospace">     E: 'hair'
+Q: 'white</span>'  
+The first annotation describes the presence of some white hair, whereas
+the second annotation describes \*all\* hair being white .  Generally,
+we want to use quality modified entities when annotating these types of
+complex EQs.
+
+### 7. Bilaterally paired structures 
+
+Terms for the contralateral halves of bilaterally paired structures are
+created using the
+<span style="font-family:courier new,courier,monospace">*in_right_side_of*
+</span>and
+<span style="font-family:courier new,courier,monospace">*in_left_side_of*
+</span>relations in a post-composition, where the perspective is from
+the standpoint of the organism. For example:
+
+`E: frontal^`*`in_right_side_of`*`(whole organism), Q: fused with, RE: frontal^`*`in_left_side_of`*`(whole organism)`
+
+### 8. <a href="EQ_shortcuts_(temporary)" class="wikilink"
+title="Complementary phenotypes (&quot;negation&quot;)">Complementary
+phenotypes ("negation")</a> 
+
+The two states of a character are sometimes composed such that one state
+encompasses any possible phenotype except the one specified in the
+opposite state. We call this "complementary phenotypes". For example
+consider the following character: "Opercle: 0), round; 1), not round".
+State 1 describes a phenotype that can be any shape except 'round'. This
+is represented in EQ as follows:
+
+`E: opercle, Q: round [state 0]`  
+`E: opercle, Q: shape^not(round) [state 1]`
+
+For State 1, we created a postcomposition for the quality, choosing a
+meaningful genus term \[use the attribute parent term from PATO, see
+diagram above\] and using the "not" relation.
+
+This convention also applies to variation from a 'normal', 'average', or
+'typical' state (See 3e above for size examples).
+
+### 9. Singular vs. Plural Entities
+
+Terms names given are in the singular form (e.g., 'basihyal tooth'
+rather than 'basihyal teeth') rather than the plural, primarily to avoid
+ambiguity in the meaning of term names. A set can also be named to
+represent a collection of similar or related entities (e.g.,
+'infraorbital series' rather than 'infraorbitals'). For the character
+"teeth absent on fifth ceratobranchials", the following EQ applies:
+
+`E: ceratobranchial 5 tooth, Q: absent`
+
+### 10. Coloration and color pattern phenotypes
+
+Phenotypes involving coloration (e.g., brown, black) are annotated with
+PATO: color qualities. Likewise, color patterns can be annotated with
+PATO terms such as 'blotchy' or 'banded'. For example:
+
+`E: trunk, Q: yellow`  
+`E: caudal fin, Q: banded`
+
+Variation in body markings are annotated using the appropriate terms
+from Uberon, such as 'melanophore stripe' or 'melanophore spot':
+
+`E: melanophore stripe part_of dorsal fin, Q: black`
+
+### 11. Polymorphic state descriptions
+
+Variability in some aspect of a structure is sometimes described by
+authors within a single state. For example, an author may describe
+"infraorbital 5, reduced in size or absent"; to capture the variability
+in presence and size of this entity, we create two annotations for the
+state:
+
+`E: infraorbital 5, Q: decreased size`  
+`E: infraorbital 5, Q: absent`
+
+Another example may describe variation in shape of a structure, such as:
+
+`E: infraorbital 3, Q: square`  
+`E: infraorbital 3, Q: round`
+
+### 12. Use of skeletal terms (bone, cartilage, skeletal element) 
+
+Authors sometimes refer to endochondral structures without specifying
+whether the structure is “bone” or “cartilage.” For example, the
+convention for a term like “epibranchial 2” or “basibranchial” is that
+it is composed of bone and when composed of cartilage an author will say
+“epibranchial 2 cartilage” or “basibranchial cartilage”. However, this
+is not universally followed and a curator must read the character
+description and examine associated text and figures to ascertain this.
+If after reviewing the publication it is still not clear, then the
+curator can use the “element” term for the structure. In general, the
+“element” terms should be used sparingly, and only when an author does
+not indicate whether a structure (e.g. “epibranchial”) is composed of
+cartilage or bone.
+
+Note: in paleontological studies, authors may describe an element as
+"unossified", which is interpreted as the absence of the bone element
+(see example 7). However, if the matrix of a paleo paper contains extant
+taxa, ossified for extant taxa means that the element is cartilaginous.
+
+The following are a series of examples demonstrating the use of bone,
+cartilage, and element terms.
+
+#### *Example 1* 
+
+Epibranchial 1 bone: (0) present
+
+`E: epibranchial 1 bone, Q: present`
+
+Epibranchial 1 bone: (1) absent
+
+`E: epibranchial 1 bone, Q: absent`
+
+#### *Example 2* 
+
+- Epibranchial 1: (0) present and ossified.
+
+`E: epibranchial 1 bone, Q: present`
+
+(Note that the annotation "epibranchial 1 cartilage, absent" is not
+needed)
+
+- Epibranchial 1: (1) present and cartilaginous
+
+`E: epibranchial 1 cartilage, Q: present`
+
+(Note that the annotation "epibranchial 1 bone, absent" is not needed)
+
+- Epibranchial 1: (2) absent
+
+`E: epibranchial 1 cartilage, Q: absent`  
+`E: epibranchial 1 bone, Q: absent`
+
+The curator should use both the cartilage and bone terms to annotate
+state 2 because the author clearly differentiates between the two.
+
+#### *Example 3* 
+
+Epibranchial 1 (0) present, (0) absent. After careful reading of
+associated text in the publication, the curator cannot conclude that the
+author refers to bone or cartilage, and therefore uses "element" term:
+
+`E: epibranchial 1 element, Q: present `  
+`E: epibranchial 1 element, Q: absent`
+
+#### *Example 4* 
+
+Epibranchial 1: (0) triangular. After careful reading of associated text
+in the publication, the curator cannot conclude that the author refers
+to bone or cartilage, and therefore uses "element" term:
+
+`E: epibranchial 1 element, Q: shape`
+
+#### *Example 5*
+
+Epibranchial number: (0) 3; (1) 4. After careful reading of associated
+text in the publication, the curator cannot conclude that the author
+refers to bone or cartilage, and therefore uses "element" term:
+
+`E: epibranchial element, Q: Count 3 (State 0)`  
+`E: epibranchial element, Q: Count 3 (State 1)`
+
+#### *Example 6 -- Convention used in paleontology* 
+
+The convention in paleo studies is to use "unossified" when no trace of
+the skeletal element is present. It does not imply that cartilage is
+present or absent. For example:
+
+Pubis: (0) unossified, (1) ossified
+
+`E: pubis (is_a bone), Q: absent`  
+`E: pubis (is_a bone), Q: present`
+
+#### *Example 7 --  **'Presence of dermal elements*** 
+
+Cleithrum: (0) unossified; (1) ossified
+
+`E: cleithrum, Q: absent (State 0)`  
+`E: cleithrum, Q: present (State 1)`
+
+## Higher-Level Taxon Annotations 
+
+Authors sometimes describe features for higher-level taxa rather than
+species, and this can present challenges for EQ annotation (see
+discussion in Jackson et al., in prep). We developed the following
+guidelines to handle these cases:
+
+- In cases where authors describe features for higher-level taxa but do
+  not specify the species or subgroups to which the taxonomic grouping
+  applies, we annotate only to the specific higher-level taxon stated by
+  the author. For example, for a character stating “preopercle
+  triangular in Osteoglossomorpha”, only ‘Osteoglossomorpha' is
+  annotated with this character and species-level annotations are not
+  applied. Had the author indicated the family membership in this
+  higher-level group, we would apply annotations to the containing
+  families only, and not to the species which were not specified.
+
+<!-- -->
+
+- Authors may also refer to higher-level taxa not placed in a
+  classification (e.g., Holacanthopterygii in Wiley and Johnson (2010))
+  and for which containing taxa was not specified. Because of
+  insufficient information about placement and containing taxa, we don’t
+  record annotations to these taxa.
+
+<!-- -->
+
+- Higher-level taxa in a publication may in some cases differ from
+  higher-level groupings in the VTO. In such cases, we annotate to the
+  containing taxa as intended in the publication. For example, some taxa
+  included in Osmeridae in Wiley and Johnson (2010) are elevated to
+  their own family (Plecoglossidae) in VTO; we ensure that the
+  characters are applied to the relevant taxa within the family
+  Plecoglossidae in VTO.
+
+<!-- -->
+
+- In cases where a higher-level taxon is polymorphic for a character, we
+  investigate the literature to determine the appropriate species
+  coding. If this information is not available or can’t be traced in the
+  literature to particular species, we do not apply the coding to the
+  containing species
+
+## Lack of Alternative Character State Descriptions
+
+As discussed in Jackson et al. (in prep), authors may sometimes describe
+a feature or character without specifying the alternative phenotype or
+character state. For example, an author may describe the "pelvic fin
+absent" in one taxon, and not explicitly state the alternative ("pelvic
+fin present") which might apply to all other taxa. We annotate only the
+asserted state and never an implied alternative state.
+
+## Interpreting Authors' Text 
+
+Authors may sometimes describe characters with words that have exact
+matches to ontology terms, but these exact term matches may not chosen
+by a curator for various reasons.  For example, a character may
+describe: “Clavicle shape of ventromedial plate: narrow, deep,
+intermediate”.  “Deep” has an exact match in PATO but given the context
+of the other states and the curator’s knowledge of this particular
+anatomy, the curator decided that “deep” refers to an increase in width
+and therefore chose PATO:
+<span style="font-family:courier new,courier,monospace">increased
+width</span> to annotate this state.  
+  
+Another example relates to the PATO terms for
+<span style="font-family:courier new,courier,monospace">continuous</span>,
+<span style="font-family:courier new,courier,monospace">discontinuous</span>
+and <span style="font-family:courier new,courier,monospace">offset
+quality</span>.  These are children of
+<span style="font-family:courier new,courier,monospace">process
+quality</span> in PATO and therefore should not be used in the context
+of anatomy. However, authors sometimes use these terms to describe
+qualities of margins (continuous, discontinuous) and position (offset). 
+Other PATO terms are more appropriate for these annotations (e.g.,
+<span style="font-family:courier new,courier,monospace">straight</span>,
+<span style="font-family:courier new,courier,monospace">offset</span>).
+
+## Creating or refining terms by post-composition 
+
+Often times the need will arise for a new term during annotation. New
+terms can either be requested using the ORB in Phenex and later formally
+added to the ontology (pre-composed terms), or they can be composed
+"on-the-fly" by combining existing ontology terms (post-composed terms).
+Generally, we add terms to the ontology for entities that are described
+in multiple publications. We generally create a post-composed term in
+cases where entities are not formally named in a publication, or only
+described in the context of a single publication. This is the case when
+annotating the presence of projections on bones. We often will want to
+"post-compose" terms to prevent ontology "bloat".
+
+Post-composed terms are created by combining existing terms, e.g.,
+anatomical regions, margins, projections, and the specific structure
+from the anatomy ontology. They can be created in Phenex following the
+"genus-differentia" principle of defining terms, where one term serves
+as the genus, which is then differentiated using a relationship and a
+differentia term. Unlike pre-composed terms, post-composed terms do not
+have an ID, and hence are "anonymous." Therefore if the same
+post-composition is used multiple times, it has the same semantics, but
+not the same identity. For example, if one wants to assign multiple
+annotations to the same process of the lateral ethmoid in the same
+specimen, using post-composed terms does not allow the identity of the
+anatomical structure between the annotations to be inferred.
+
+### General rules about post-composing Entities or Qualities
+
+There are numerous relations used in post-compositions, particularly for
+Entities (see Table below). However, Qualities have a restricted set of
+relations that can be used in post-composition. These include
+*inheres_in*, *not*, and *size*-related relations (see Table).
+
+The order in which the terms are composed is important if the
+composition relationship is not symmetric (a relationship is symmetric
+iff A rel B \<=\> B rel A). Most relationships are not symmetric. As a
+general rule, choose the more general part as the genus, and then use
+the relationship and differentia to narrow down. For example, for
+"process of the lateral ethmoid" use "anatomical projection" as the
+genus, and use the relationship and differentia to narrow down which
+process of the many that are possible you mean, such as using part_of
+for the relationship and "lateral ethmoid" as the differentia (formally,
+the "anatomical projection that is part_of the lateral ethmoid").
+
+Note that semantically, the post-composed term is equivalent to a
+pre-composed term, provided the pre-composed term has both the
+inheritance relationship and the cross-product relationship properly
+recorded. For example, "process of lateral ethmoid" is-a "anatomical
+projection", and "process of lateral ethmoid" part-of "lateral ethmoid".
+
+### Creating post-composition in Phenex
+
+To post-compose a term (for example, "maxillary process") using Phenex,
+first type in the genus term 'anatomical projection' in the Entity field
+within the "Phenotypes" panel. Then open the Post-composition Editor box
+by right-clicking on the Entity cell (make sure that the entity cell is
+blue in color) :![](Right-click2.png "Right-click2.png")
+
+Now click on “Edit Post-composed Term.” The Editor box should now appear
+(see below), with 'anatomical projection' in the Genus field. The Genus
+is the feature of specific interest (varying feature in systematics).
+Click the “+” button to add a row in the table, type “part_of” in the
+relationship field, and type “maxilla” in the differentia field. Click
+OK. ![](Post-comp-box2.jpg "Post-comp-box2.jpg")
+
+`anatomical projection^part_of(maxilla)`
+
+### Refining post-compositions using terms from the Spatial Ontology (BSPO) 
+
+The Spatial Ontology (BSPO) is used to post-compose terms related to the
+margins, surfaces, or regions of skeletal elements. For example, the
+entity “anterior process of the maxilla" is post-composed as follows:
+
+`anatomical projection^part_of(anterior region^part_of(maxilla))`
+
+This example is a type of "nested" post-composition that begins with
+'anatomical projection' as the genus term, which is then related to its
+location on the maxilla: starting with the more general term (here, the
+"anterior region") as the genus, then refine it using a relationship and
+a differentia term (thus, anterior region that is part_of the
+"maxilla").
+
+Use of terms for **regions vs. sides in BSPO:** Regions are defined as
+not having well-defined boundaries, unlike sides. For post-compositions,
+we usually annotate using region terms because the placement of
+processes on skeletal elements aren't described with very much detail.
+For example, if an author describes the dorsal process of some bone,
+then we post-compose "anatomical projection part of dorsal region part
+of bone".  This also applies to an author describing the shape of a
+portion of a skeletal element.
+
+To create post-compositions using BSPO in Phenex, right click the Entity
+field to bring up the post-composition editor box.  Type “anatomical
+projection” and right-click the field to open the Post-Composition
+Editor box. Within this box, Click the + button to add relationship =
+"part_of" and differentia = "anterior region". Right click on the
+differentia field to open another Post-Composition Editor box to add
+second post-composed term for "anterior margin of maxilla" (see below).
+Click the OK button after you have filled out the genus and differentia
+for this nested composition.
+
+<figure>
+<img src="Nested-boxes2.png" title="Nested-boxes2.png" />
+<figcaption>Nested-boxes2.png</figcaption>
+</figure>
+
+### Multiple differentia terms and nesting in post-composition
+
+Post-compositions can contain multiple differentia terms that are either
+nested:
+
+`anatomical project^part_of(anterior region^part_of(maxilla))`
+
+or not nested:
+
+`joint^connects(metapterygoid)^connects(hyomandibula)`
+
+For nested post-compositions, the order of nested terms is important
+(e.g., maxilla^part_of(anterior region^part-of(anatomical projection))
+is incorrect), as is the nesting itself (e.g., anatomical
+projection^part_of(anterior region)^part_of(maxilla) is incorrect).
+
+Some post-compositions with multiple differentia do not require nesting
+(see [discussion of joint
+post-compositions](https://www.phenoscape.org/wiki/Guide_to_Character_Annotation#Creating_.22joint.22_terms_on-the-fly)).
+
+### Creating "joint" terms on-the-fly
+
+Joints are defined in Uberon according to the skeletal elements that
+participate in the joint. The
+<span style="font-family:courier new,courier,monospace">*connects*</span>
+relation is used to relate skeletal elements to skeletal joints.  We
+post-compose joint terms that are not likely to be used repeatedly for
+annotation. To post-compose a joint, for example the
+"metapterygoid-hyomandibular joint", use the post-composition editor box
+by right-clicking on the Entity field and compose the following term. 
+Note that this expression is not nested.
+
+`skeletal joint^connects(metapterygoid)^connects (hyomandibula)`
+
+## Relations used for post-compositions
+
+<table>
+<thead>
+<tr>
+<th><p>Relation<br />
+</p></th>
+<th><p>Category</p></th>
+<th><p>Design  Pattern   <br />
+</p></th>
+<th><p>Examples</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><p>anteriorly connected to</p></td>
+<td><p>connectedness</p></td>
+<td><p>E anteriorly_connected_to E<br />
+</p></td>
+<td><p>'head' and (<strong>anteriorly_connected_to</strong> some
+'neck')</p></td>
+</tr>
+<tr>
+<td><p>attaches_to</p></td>
+<td><p>connectedness</p></td>
+<td><p>E attaches_to E<br />
+</p></td>
+<td><p>Used primarily to represent attachment of teeth, scales, and
+ligaments. Examples: 'tooth' and (<strong>attaches_to</strong> some
+'maxilla')</p>
+<p>'scale' and (<strong>attaches_to</strong> some 'caudal fin')</p>
+<p>NOTE: Teeth and scales are not always related to structures by
+attaches_to; they can also be part_of an anatomical structure, e.g.,
+'tooth' <strong>part_of</strong> (some 'dentition') or 'scale'
+(<strong>part_of</strong> some 'scale row')</p></td>
+</tr>
+<tr>
+<td><p>connected_to<br />
+</p></td>
+<td><p>connectedness</p></td>
+<td><p>E connected_to E<br />
+</p></td>
+<td><p>Used between entities of the same general type. For example,
+cities, bones, neurons</p>
+<p>'sternum' and (<strong>connected_to</strong> some 'rib')</p></td>
+</tr>
+<tr>
+<td><p>connects<br />
+</p></td>
+<td><p>connectedness<br />
+</p></td>
+<td><p>E connects E<br />
+</p></td>
+<td><p>Used between the entity facilitating the connection and each
+entity on either side. For example, roads, joints, axons + synapses.This
+is used to post-compose terms for joints. For example,
+metapterygoid-hyomandibular joint is post-composed as:<br />
+'joint' and (<strong>connects</strong> some 'metapterygoid') and
+(<strong>connects</strong> some 'hyomandibula')<br />
+</p></td>
+</tr>
+<tr>
+<td><p>distally_connected_to</p></td>
+<td><p>connectedness</p></td>
+<td><p>E distally_connected_to E<br />
+</p></td>
+<td><p>'leg' and (<strong>distally_connected_to</strong> some
+'pes')<br />
+</p></td>
+</tr>
+<tr>
+<td><p>posteriorly connected to</p></td>
+<td><p>connectedness</p></td>
+<td><p>E posteriorly_connected_to E<br />
+<br />
+</p></td>
+<td><p>'neck' and (<strong>posteriorly connected to</strong> some
+'trunk')</p></td>
+</tr>
+<tr>
+<td><p>proximally connected to</p></td>
+<td><p>connectedness</p></td>
+<td><p>E proximally_connected_to E<br />
+</p></td>
+<td><p>'forelimb skeleton' and (<strong>proximally_connected_to</strong>
+some 'pectoral girdle skeleton')</p></td>
+</tr>
+<tr>
+<td><p>develops_from</p></td>
+<td><p>development</p></td>
+<td><p>E develops_from E<br />
+</p></td>
+<td><p>'endochondral bone' and (<strong>develops_from</strong> some
+'cartilage element')</p></td>
+</tr>
+<tr>
+<td><p>has_muscle_insertion</p></td>
+<td><p>muscle attachment</p></td>
+<td><p>'muscle X' has_muscle_insertion E<br />
+</p></td>
+<td><p>'triceps brachii' and (<strong>has_muscle_insertion</strong> some
+'olecranon')</p></td>
+</tr>
+<tr>
+<td><p>has_muscle_origin</p></td>
+<td><p>muscle attachment</p></td>
+<td><p>'muscle X' has_muscle_origin E<br />
+</p></td>
+<td><p>'triceps brachii' and (<strong>has_muscle_origin</strong> some
+'humerus')</p></td>
+</tr>
+<tr>
+<td><p>serves_ as _attachment _site_ for</p></td>
+<td><p>muscle attachment</p></td>
+<td><p>E serves_as_attachment_site_for muscle X<br />
+</p></td>
+<td><p>anatomical
+projection^<strong>serves_as_attachment_site_for</strong>(triceps
+brachii)^<strong>part_of</strong>(coracoid bone)</p>
+<p>Note: this post-composition is not nested</p></td>
+</tr>
+<tr>
+<td><p>has_part</p></td>
+<td><p>mereological</p></td>
+<td><p>E has_part E<br />
+</p></td>
+<td><p>'premaxilla' and (<strong>has_part</strong> some 'anatomical
+projection')</p></td>
+</tr>
+<tr>
+<td><p>part_of</p></td>
+<td><p>mereological</p></td>
+<td><p>E part_of E<br />
+</p></td>
+<td><p>'anatomical projection' and (<strong>part_of</strong> some
+'premaxilla')</p></td>
+</tr>
+<tr>
+<td><p>bearer_of<br />
+</p></td>
+<td><p>quality</p></td>
+<td><p>E bearer_of Q<br />
+</p></td>
+<td><p>tooth' and (<strong>bearer_of</strong> some 'tapered')</p>
+<p>Note: <strong>bearer_of</strong> is most likely used as a modifier of
+an Entity term, not used in Quality field</p></td>
+</tr>
+<tr>
+<td><p>inheres_in</p></td>
+<td><p>quality</p></td>
+<td><p>Q inheres_in E<br />
+</p></td>
+<td><p>'length' and (<strong>inheres_in</strong> some 'coracoid
+bone')<br />
+</p></td>
+</tr>
+<tr>
+<td><p>decreased_in_magnitude_relative_to<br />
+</p></td>
+<td><p>size</p></td>
+<td><p>Q decreased_in_magnitude_relative_to Q<br />
+</p></td>
+<td><p><span style="font-family:arial,helvetica,sans-serif">[1]E:
+frontal bone, Q:
+length^<strong><em>decreased_in_magnitude_relative_to<strong>''(width^</strong></em>inheres_in</strong>''(frontal
+bone))</span><br />
+</p></td>
+</tr>
+<tr>
+<td><p>increased_in_magnitude_relative_to<br />
+</p></td>
+<td><p>size<br />
+</p></td>
+<td><p>Q increased_in_magnitude_relative_to Q<br />
+</p></td>
+<td><p><span style="font-family:arial,helvetica,sans-serif">[1]E:
+frontal bone, Q:
+length^<em>increased_in_magnitude_relative_to</em>(width^<strong><em>inheres_in</em></strong>(frontal
+bone))</span><br />
+</p></td>
+</tr>
+<tr>
+<td><p>similar_in_magnitude_relative_to<br />
+</p></td>
+<td><p>size</p></td>
+<td><p>Q similar_in_magnitude_relative_to Q<br />
+</p></td>
+<td><p><span style="font-family:arial,helvetica,sans-serif">[1]E:
+frontal bone, Q:
+length^</span><strong><em>similar_in_magnitude_relative_to<strong>''<span style="font-family:arial,helvetica,sans-serif">(width^</strong></em>inheres_in</strong>''(frontal
+bone))</span><br />
+</p></td>
+</tr>
+<tr>
+<td><p>adjacent_to</p></td>
+<td><p>spatial</p></td>
+<td><p>E adjacent_to E<br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr>
+<td><p>anterior_to</p></td>
+<td><p>spatial</p></td>
+<td><p>E anterior_to E<br />
+</p></td>
+<td><p>'basal fulcrum' and (<strong>anterior_to</strong> some 'dorsal
+fin')</p></td>
+</tr>
+<tr>
+<td><p>deep_to</p></td>
+<td><p>spatial</p></td>
+<td><p>E deep_to E<br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr>
+<td><p>distal_to</p></td>
+<td><p>spatial</p></td>
+<td><p>E distal_to E<br />
+</p></td>
+<td><p>'radial' and (<strong>distal_to</strong> some 'ulnare')</p></td>
+</tr>
+<tr>
+<td><p>dorsal_to</p></td>
+<td><p>spatial</p></td>
+<td><p>E dorsal_to E<br />
+</p></td>
+<td><p>'anatomical region' and (<strong>dorsal_to</strong> some (glenoid
+fossa and (<strong>part_of</strong> some 'scapula')</p></td>
+</tr>
+<tr>
+<td><p>encloses</p></td>
+<td><p>spatial</p></td>
+<td><p>E encloses E<br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr>
+<td><p>extends_from</p></td>
+<td><p>spatial</p></td>
+<td><p>E extends_from E<br />
+</p></td>
+<td><p>'anatomical surface' and (<strong>extends_from</strong> some
+'parietal bone')</p></td>
+</tr>
+<tr>
+<td><p>extends_to</p></td>
+<td><p>spatial</p></td>
+<td><p>E extends_to E<br />
+</p></td>
+<td><p>'anatomical surface' and (<strong>extends_to</strong> some
+'frontal bone')</p></td>
+</tr>
+<tr>
+<td><p>has_cross_section</p></td>
+<td><p>spatial</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr>
+<td><p>in_anterior_side_of</p></td>
+<td><p>spatial</p></td>
+<td><p>E in_anterior_side_of E<br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr>
+<td><p>in_distal_side_of</p></td>
+<td><p>spatial</p></td>
+<td><p>E in_distal_side_of E<br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr>
+<td><p>in_lateral_side_of</p></td>
+<td><p>spatial</p></td>
+<td><p>E in_lateral_side_of E<br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr>
+<td><p>in_left_side_of</p></td>
+<td><p>spatial</p></td>
+<td><p>E in_left_side_of E<br />
+</p></td>
+<td><p>'frontal bone' and (<strong>in_left_side_of</strong> some
+'body')</p></td>
+</tr>
+<tr>
+<td><p>in_median_plane_of</p></td>
+<td><p>spatial</p></td>
+<td><p>E in_median_plane_of E<br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr>
+<td><p>in_posterior_side_of</p></td>
+<td><p>spatial</p></td>
+<td><p>E in_posterior_side_of E<br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr>
+<td><p>in_proximal_side_of</p></td>
+<td><p>spatial</p></td>
+<td><p>E in_proximal_side_of E<br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr>
+<td><p>in_right_side_of</p></td>
+<td><p>spatial</p></td>
+<td><p>E in_right_side_of E<br />
+</p></td>
+<td><p> 'frontal bone' and (<strong>in_right_side_of</strong> some
+'body')</p></td>
+</tr>
+<tr>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr>
+<td><p>posterior_to</p></td>
+<td><p>spatial</p></td>
+<td><p>E posterior_to E<br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr>
+<td><p>proximal_to</p></td>
+<td><p>spatial</p></td>
+<td><p>E proximal_to E<br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr>
+<td><p>surrounded_by</p></td>
+<td><p>spatial</p></td>
+<td><p>E surrounded_by E<br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr>
+<td><p>surrounds</p></td>
+<td><p>spatial</p></td>
+<td><p>E surrounds E<br />
+</p></td>
+<td><p>'anatomical projection' and (<strong>surrounds</strong> some
+'popliteal area')</p></td>
+</tr>
+<tr>
+<td><p>ventral_to</p></td>
+<td><p>spatial</p></td>
+<td><p>E ventral_to E<br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr>
+<td><p>vicinity_of</p></td>
+<td><p>spatial</p></td>
+<td><p>E vicinity_of E<br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr>
+<td><p>not</p></td>
+<td><p><br />
+</p></td>
+<td><p>Q not Q<br />
+</p></td>
+<td><p>Used to represent complementary phenotypes, for example:<br />
+'shape' and (<strong>not</strong> some 'round')</p></td>
+</tr>
+</tbody>
+</table>
+
+- \[1\] [see note about curatorial shortcuts related to
+  'size'](http://phenoscape.org/wiki/Guide_to_Character_Annotation#6._Size)
+
+## Evidence Codes
+
+**\*\*Note: Does not apply to current curation**
+
+We record phenotype descriptions as properties of species, and
+annotations are assigned one of three evidence codes based on the level
+of evidence given by an author for phenotype observations. These
+specimen evidence codes are in an Evidence Codes Ontology that was
+developed by the broader biological community (see
+[<http://obofoundry.org/cgi-bin/detail.cgi?id=evidence_code>](http://obofoundry.org/cgi-bin/detail.cgi?id=evidence_code)).
+We have added evidence codes to this ontology, and we use the following
+in order below from strong to weak evidence.
+
+### Inferred from Voucher Specimen (IVS)
+
+Used when an annotation is made on the basis of a phenotype description
+for a species or higher level group that is given by an author who
+explicitly references an observation of a voucher specimen(s). Voucher
+specimens are defined as those specimens with permanent museum catalog
+numbers. Thus it would be possible for a person to examine this
+particular specimen and observe the annotated phenotype.
+
+- Note: if there is a matrix in the paper, the IVS evidence code is
+  assigned to all annotations linked to the character list.
+
+### Traceable Author Statement (TAS)
+
+The TAS evidence code covers author statements that are attributed to a
+cited source. Typically this type of information comes from review
+articles. Material from the introductions and discussion sections of
+non-review papers may also be suitable if another reference is cited as
+the source of experimental work or analysis. When annotating with this
+code the curator should use caution and be aware that authors often cite
+papers dealing with experiments that were performed in organisms
+different from the one being discussed in the paper at hand. Thus a
+problem with the TAS code is that it may turn out from following up the
+references in the paper that no experiments were performed on the gene
+in the organism actually being characterized in the primary paper. For
+this reason we recommend (when time and resources allow) that curators
+track down the cited paper and annotate directly from the experimental
+paper using the appropriate experimental evidence code. When this is not
+possible and it is necessary to annotate from reviews, the TAS code is
+the appropriate code to use for statements that are associated with a
+cited reference. Once an annotation has been made to a given term using
+an experimental evidence code, we recommend removing any annotations
+made to the same term using the TAS evidence code.
+
+### Nontraceable Author Statement (NAS)
+
+The NAS evidence code should be used in all cases where the author makes
+a statement that a curator wants to capture but for which there are
+neither results presented nor a specific reference cited in the source
+used to make the annotation. The source of the information may be peer
+reviewed papers, textbooks, database records or vouchered specimens.

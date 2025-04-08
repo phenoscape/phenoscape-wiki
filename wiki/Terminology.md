@@ -1,0 +1,96 @@
+---
+title: Terminology
+permalink: wiki/Terminology
+layout: wiki
+tags:
+ - Curation
+ - Database
+ - Use Cases
+ - Data
+---
+
+## Phenotypes
+
+### Phenotypes and Characters
+
+Phenotype: An Entity-Quality (EQ) statement. Semantically, a phenotype is_a PATO:quality AND inheres_in some entity. In OWL, a phenotype is a class expression that is equivalent to the intersection of a PATO:quality with all things that inheres_in some entity (a property restriction).  
+
+<!-- -->
+
+Attribute: High-level PATO quality term, such as PATO:shape. Attribute terms are superclasses (direct or indirect) of lower-level PATO quality terms.  
+
+<!-- -->
+
+Character: Presumably homologous feature of an organism that varies across taxa.  
+
+<!-- -->
+
+Character state: Variant of a character; assigned a code in a phylogenetic analysis.  
+
+<!-- -->
+
+Composite character state: A character state with more than one phenotype.  
+
+<!-- -->
+
+Phenotyped character: A character with one or more states assigned to a phenotype.  
+
+### Phenotype annotations
+
+Phenotype annotation: (synonym: phenotype assertion) The connection of a phenotype to a taxon or gene.  
+
+<!-- -->
+
+Phenotype profile: The union of phenotypes that are asserted for a particular gene or a particular taxon. Washington et al. (2009) defined a phenotypic profile or gene phenotype profile as 'the sum-total of the EQ descriptions for an individual genotype'.  
+
+<!-- -->
+
+Gene phenotype: A phenotype that has been used in a gene phenotype annotation.  
+
+<!-- -->
+
+Gene phenotype annotation: EQ statement associated with a gene.  
+
+<!-- -->
+
+Taxon phenotype: A phenotype that has been used in a taxon phenotype annotation. A taxon phenotype may correspond to part or whole of a described character state (i.e. a character state may be decomposed into multiple phenotypes).  
+
+<!-- -->
+
+Taxon phenotype annotation: EQ statement associated with a taxon.  
+
+## Taxa, Taxon Names, and Taxon Summaries
+
+Publication (Taxon) Name: The taxon name used in a publication from which we have curated data.  
+
+<!-- -->
+
+Total (Number of) Publication Taxon Names: Count of the total number of taxon names used in the publications that have annotations. The same publication taxon name used in different publications is counted multiple times.  
+
+<!-- -->
+
+Distinct (Number of) Publication Taxon Names: Count of the unique number of taxon names used in the publications that have annotations. The same taxon name used in different publications is counted only once.  
+
+<!-- -->
+
+Incompletely Identified Taxon: A taxon that is identified in a publication less specific than genus and species. Typically, these are of the form "*Genus* sp. (Author Year)", where (Author Year) cites the publication in which it appears.  
+
+<!-- -->
+
+Valid Taxon Name: The name of a taxon that is currently valid, according to an authoritative naming source (e.g., Catalog of Fishes) that is used in construction of the Taxonomy Ontology under consideration. This may or may not be the same as the Publication Taxon Name.  
+
+<!-- -->
+
+Distinct (Number of) Valid Taxon Names: Count of unique Valid Taxon names appearing in publications. The same valid taxon name used in different publications is counted only once. This includes incompletely identified taxa (which we cite to the publication in which it appears, such as *Danio* sp. (Smith 1992)).  
+
+<!-- -->
+
+Total (Number of) Mismatches: Count of the total number of mismatches between publication taxon names and their corresponding valid taxon names. Each mismatch, including the same mismatch in different publications, is counted for the total. This count excludes incompletely identified taxa (such as *Danio* sp. in Smith 1992).  
+
+<!-- -->
+
+Distinct (Number of) Mismatches: Count of the unique mismatches between publication names and valid taxon names. The same mismatche occurring in different publications is counted only once. This count excludes incompletely identified taxa (such as *Danio* sp. in Smith 1992).  
+
+<!-- -->
+
+Total (Number of) Publication-Specific Names: Count of the unique valid taxon names that are incompletely identified in (and thus specific to) a publication (such as *Danio* sp. in Smith 1992). <font color=red>*- used in Curation paper*</font>  

@@ -1,0 +1,99 @@
+---
+title: Transitive homology
+permalink: wiki/Transitive_homology
+layout: wiki
+tags:
+ - Informatics
+ - Reasoning
+ - Ontology
+ - Taxonomy
+---
+
+This page explores the transitive closure of the homologous_to relation.
+Currently in OBD this is a binary class-level relation that holds
+between two taxon-specific anatomical entities.
+
+I propose the following expansion to OWL-DL instance-level quantified
+axioms:
+
+` homologous_to(A,B) ==>`  
+` Class: A`  
+` SubClassOf: descendedFrom some (hasDescendant some B)`  
+` Class: B`  
+` SubClassOf: descendedFrom some (hasDescendant some A)`
+
+If we make the simplifying assumption that directlyDescendsFrom is
+functional then it follows that class-level homology is transitive. What
+are the consequences of making this strong assumption? We can explore
+this with existing phenoscape data.
+
+## TAO classes with homology statements
+
+from latest KB:
+
+| ID | name | Def |
+|----|----|----|
+| TAO:0000429 | scaphium | Neural arch and Weberian ossicle that is reduced in size relative to other neural arches. Scaphium has a process which articulates with the first centrum. |
+| TAO:0000525 | intercalarium | Neural arch and Weberian ossicle that has been modified in shape relative to other neural arches. Intercalarium includes three parts: an anterolateral process (the manubrium) which is embedded in the interossicular ligament and the ascending and articulating processes. |
+| TAO:0000637 | claustrum cartilage | Postcranial axial cartilage and Weberian ossicle that is located dorsal to the scaphium. The claustrum cartilage is bilaterally paired. |
+| TAO:0000698 | tripus | Endochondral bone, membrane bone, and Weberian ossicle that is an element of third vertebra. Anteriorly it attaches to the interosseus ligament and posteriorly it extends as a transformator process embedded in the tunica externa of the swimbladder. |
+| TAO:0001171 | os suspensorium | Endochondral bone and Weberian ossicle that is an element of the fourth vertebra that curves ventrally around the anterior head of the swim bladder. |
+| TAO:0001253 | neural arch 2 | Neural arch that is the second after the neurocranium. |
+| TAO:0001335 | supradorsal | Supradorsals are small paired nodules of cartilage positioned at the distal ends of neural arches and the proximal end of neural spines (Arratia et al., 2001). |
+| TAO:0001396 | parapophysis + rib of vertebra 4 | The parapophysis + rib, fused to the centrum, extends laterally then angles anteroventrally. A thin plate, the os suspensorium fuses to its median surface. |
+| TAO:0001592 | claustrum bone | Endochondral bone, membrane bone, and Weberian ossicle that is located dorsal to the scaphium. The claustrum bone is bilaterally paired. |
+| TAO:0001877 | neural arch 1 | Neural arch that is the anteriormost neural arch. |
+| TAO:0001878 | rib of vertebra 2 | Rib that articulates with the parapophysis of the second centrum. |
+| TAO:0001884 | accessory neural arch | Neural arch that is located posterior to the neurocranium and anterior to neural arch 1. The accessory neural arch is not associated with a vertebral centrum. |
+| TAO:0001885 | neural spine 1 | Neural spine that is associated with the first vertebra. |
+| TAO:0001888 | supraneural 1 bone | Supraneural bone located dorsal to vertebra 1. |
+| TAO:0001889 | supraneural 1 cartilage | Postcranial axial cartilage located dorsal to vertebra 1. |
+
+## High Level Overview
+
+This is a high level part_of view of all homology relationships,
+projected onto TAO:
+
+<figure>
+<img src="TAO-all-p.png" title="TAO-all-p.png" />
+<figcaption>TAO-all-p.png</figcaption>
+</figure>
+
+- homology statements are generalized to the TAO, taxa not shown
+- clusters of homology relationships are shown in 4 distinct boxes
+- vertebra clustered into a box
+- only relations shown are homology and part_of
+
+Here we can see there are 4 distinct clusters, according to the vertebra
+number affected
+
+## Otophysi intercalarium
+
+this is annotated to be homologous to the neural arch 2 and vertebra 2
+in Teleosti. From this, what can be said of the relationship between
+these two entities?
+
+<figure>
+<img src="TAO-0000525-TTO-352.png" title="TAO-0000525-TTO-352.png" />
+<figcaption>TAO-0000525-TTO-352.png</figcaption>
+</figure>
+
+Note that for compactness reasons this diagram doesn't show the part_of
+relations.
+
+- intercalarium part_of v2
+
+presumably there should be some kind of relationship between "rib of v2"
+and "v2"
+
+## Otophysi tripus
+
+this is annotated to be homologous to (i) the fusion of parapophysis +
+rib of v3 and (ii) the fusion of parapophysis + rib of v3 + rib of v4 in
+Teleosti. What can be said from this of the relation between (i) and
+(ii)
+
+<figure>
+<img src="TAO-0000698-TTO-352.png" title="TAO-0000698-TTO-352.png" />
+<figcaption>TAO-0000698-TTO-352.png</figcaption>
+</figure>

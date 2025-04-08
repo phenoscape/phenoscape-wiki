@@ -1,0 +1,70 @@
+---
+title: Needs Analysis Workshop/Phylogeny Breakout
+permalink: wiki/Needs_Analysis_Workshop/Phylogeny_Breakout
+layout: wiki
+tags:
+ - Needs Analysis Workshop
+redirect_from:
+ - wiki/NAW_Phylogeny_Break-out
+---
+
+Participants: Monte Westerfield, Paula Mabee, Cartik Muthu, Chuck
+Kimmel, Wasila Dahdul, Hans Hofman
+
+<img src="Day2-phylogeny1.whiteboard.JPG" title="Whiteboard" width="384"
+alt="Whiteboard" /> PM - what are participants most interested in?
+
+`   -computing tree on the fly?`
+
+`   -repository of trees?`
+
+`   -manipulation of existing trees?`
+
+Group consensus - want the ability to deliver trees and ability to
+manipulate them
+
+HH – want the ability to map as many phenotypic traits as possible;
+
+-character mapping with phenotypic transitions, gains/losses, correlated
+changes;
+
+-have sets of data mapped on tree – for example , all in situs done for
+a particular gene…
+
+PM - view changes in all head bones
+
+CK - choose a term and see all changes on tree, perhaps from a drop-down
+list
+
+Group - discussion of challenges of visualizing multiple characters
+mapped on the tree
+
+-similar functionality of MacClade, summarizing character change
+information as tick marks on branches, but this might get crowded
+
+CK – interested in getting figures on the phylogeny
+
+HH - look for correlation between gene expression and trait on tree
+
+HH – note whether in situs have been done at all for species of
+interest; see which species have that data, download all the images.
+
+CK - interested in output/reports of statistics and quantitative
+measures, such as statistics for testing character correlation
+
+HH - also independent contrasts to assess character independence
+
+HH - has used heat maps to visualize correlations in data sets; might be
+useful for this project
+
+CK - time component mapped on phylogeny: overlay movie showing
+developmental sequence
+
+WD - interest in input of your own data (unpublished) to interact with
+database?
+
+CK/HH - yes, but challenges of data entry; perhaps a temporary
+repository for data similar to blast searches
+
+MW - having a modified curator interface available for the user to enter
+their data and run analyses against the database

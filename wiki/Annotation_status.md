@@ -1,0 +1,295 @@
+---
+title: Annotation status
+permalink: wiki/Annotation_status
+layout: wiki
+tags:
+ - Curation
+---
+
+## 2013-05-03
+
+### Fish excluding tetrapodomorphs
+
+- Publication count: 17
+- Total characters: 1827
+- Completed characters: 393
+- Partially annotated characters: 67
+- Unannotated characters: 1367
+- Annotated states: 997
+- Total EQ annotations: 1122
+
+### Amphibians and transitional
+
+- Publication count: 40
+- Total characters: 4654
+- Completed characters: 816
+- Partially annotated characters: 134
+- Unannotated characters: 3704
+- Annotated states: 2219
+- Total EQ annotations: 2929
+
+### Sereno Files
+
+- Publication count: 6
+- Total characters: 4340
+- Completed characters: 558
+- Partially annotated characters: 134
+- Unannotated characters: 3648
+- Annotated states: 1572
+- Total EQ annotations: 1931
+
+## 2013-02-13
+
+### Fish excluding tetrapodomorphs
+
+- Publication count: 17
+- Total characters: 1827
+- Completed characters: 393
+- Partially annotated characters: 67
+- Unannotated characters: 1367
+- Annotated states: 997
+- Total EQ annotations: 1122
+
+### Amphibians and transitional
+
+- Publication count: 40
+- Total characters: 4654
+- Completed characters: 804
+- Partially annotated characters: 134
+- Unannotated characters: 3716
+- Annotated states: 2192
+- Total EQ annotations: 2892
+
+### Sereno Files
+
+- Publication count: 6
+- Total characters: 4094
+- Completed characters: 406
+- Partially annotated characters: 125
+- Unannotated characters: 3564
+- Annotated states: 1183
+- Total EQ annotations: 1449
+
+## 2013-01-28
+
+### Fish excluding tetrapodomorphs
+
+- Publication count: 17
+- Total characters: 1827
+- Completed characters: 393
+- Partially annotated characters: 67
+- Unannotated characters: 1367
+- Annotated states: 997
+- Total EQ annotations: 1122
+
+### Amphibians and transitional
+
+- Publication count: 40
+- Total characters: 4654
+- Completed characters: 804
+- Partially annotated characters: 134
+- Unannotated characters: 3716
+- Annotated states: 2192
+- Total EQ annotations: 2892
+
+### Sereno Files
+
+- Publication count: 6
+- Total characters: 4094
+- Completed characters: 406
+- Partially annotated characters: 125
+- Unannotated characters: 3563
+- Annotated states: 1185
+- Total EQ annotations: 1452
+
+## 2013-01-14
+
+### Fish excluding tetrapodomorphs
+
+- Publication count: 17
+- Total characters: 1827
+- Completed characters: 388
+- Partially annotated characters: 71
+- Unannotated characters: 1368
+- Annotated states: 991
+- Total EQ annotations: 1116
+
+### Amphibians and transitional
+
+- Publication count: 38
+- Total characters: 4416
+- Completed characters: 804
+- Partially annotated characters: 134
+- Unannotated characters: 3478
+- Annotated states: 2192
+- Total EQ annotations: 2892
+
+### Sereno Files
+
+- Publication count: 6
+- Total characters: 4093
+- Completed characters: 302
+- Partially annotated characters: 122
+- Unannotated characters: 3669
+- Annotated states: 929
+- Total EQ annotations: 1128
+
+## 2013-01-07
+
+### Fish excluding tetrapodomorphs
+
+- Publication count: 17
+- Total characters: 1827
+- Completed characters: 368
+- Partially annotated characters: 75
+- Unannotated characters: 1384
+- Annotated states: 948
+- Total EQ annotations: 1057
+
+### Amphibians and transitional
+
+- Publication count: 38
+- Total characters: 4416
+- Completed characters: 760
+- Partially annotated characters: 134
+- Unannotated characters: 3522
+- Annotated states: 2064
+- Total EQ annotations: 2651
+
+### Sereno Files
+
+- Publication count: 6
+- Total characters: 4093
+- Completed characters: 283
+- Partially annotated characters: 121
+- Unannotated characters: 3689
+- Annotated states: 877
+- Total EQ annotations: 1063
+
+## 2012-12-17
+
+### Fish excluding tetrapodomorphs
+
+- Publication count: 17
+- Total characters: 1827
+- Completed characters: 319
+- Partially annotated characters: 81
+- Unannotated characters: 1427
+- Annotated states: 829
+- Total EQ annotations: 916
+
+### Amphibians and transitional
+
+- Publication count: 35
+- Total characters: 3962
+- Completed characters: 682
+- Partially annotated characters: 132
+- Unannotated characters: 3148
+- Annotated states: 1869
+- Total EQ annotations: 2377
+
+### Sereno Files
+
+- Publication count: 6
+- Total characters: 4093
+- Completed characters: 154
+- Partially annotated characters: 103
+- Unannotated characters: 3836
+- Annotated states: 546
+- Total EQ annotations: 643
+
+## 2012-12-12
+
+### Fish excluding tetrapodomorphs
+
+- Publication count: 17
+- Total characters: 1827
+- Completed characters: 299
+- Partially annotated characters: 83
+- Unannotated characters: 1445
+- Annotated states: 790
+- Total EQ annotations: 867
+
+### Amphibians and transitional
+
+- Publication count: 33
+- Total characters: 3717
+- Completed characters: 585
+- Partially annotated characters: 109
+- Unannotated characters: 3023
+- Annotated states: 1579
+- Total EQ annotations: 2006
+
+### Sereno Files
+
+- Publication count: 4
+- Total characters: 3609
+- Completed characters: 99
+- Partially annotated characters: 88
+- Unannotated characters: 3422
+- Annotated states: 389
+- Total EQ annotations: 442
+
+## 2012-12-03
+
+### Fish excluding tetrapodomorphs
+
+- Publication count: 16
+- Total characters: 1693
+- Completed characters: 234
+- Partially annotated characters: 81
+- Unannotated characters: 1378
+- Annotated states: 633
+- Total EQ annotations: 696
+
+### Amphibians and transitional
+
+- Publication count: 32
+- Total characters: 3652
+- Completed characters: 550
+- Partially annotated characters: 100
+- Unannotated characters: 3002
+- Annotated states: 1480
+- Total EQ annotations: 1896
+
+### Sereno Files
+
+- Publication count: 4
+- Total characters: 3608
+- Completed characters: 95
+- Partially annotated characters: 83
+- Unannotated characters: 3430
+- Annotated states: 372
+- Total EQ annotations: 425
+
+## 2012-11-26
+
+### Fish excluding tetrapodomorphs
+
+- Publication count: 16
+- Total characters: 1693
+- Completed characters: 221
+- Partially annotated characters: 79
+- Unannotated characters: 1393
+- Annotated states: 599
+- Total EQ annotations: 661
+
+### Amphibians and transitional
+
+- Publication count: 28
+- Total characters: 3238
+- Completed characters: 496
+- Partially annotated characters: 96
+- Unannotated characters: 2646
+- Annotated states: 1332
+- Total EQ annotations: 1693
+
+### Sereno Files
+
+- Publication count: 4
+- Total characters: 3608
+- Completed characters: 73
+- Partially annotated characters: 70
+- Unannotated characters: 3465
+- Annotated states: 298
+- Total EQ annotations: 334

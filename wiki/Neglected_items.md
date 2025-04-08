@@ -1,0 +1,77 @@
+---
+title: Neglected items
+permalink: wiki/Neglected_items
+layout: wiki
+tags:
+ - Informatics
+---
+
+This is a list of various items that have come up at meetings and other
+discussions, which don't seem to have made it onto any development plan
+or roadmap.
+
+### Measurement value literals in OBD (including ranges)
+
+Phenotypes that include a measurement are now stored without the
+measurement in OBD, for example "count" or "length" phenotypes. In
+Phenex, the user can choose a quality such as "length" for a phenotype,
+as in "basihyal bone" "length". The user can also input a literal
+numeric length in the measurement field (such as "11.5"), and also
+choose a unit from the unit ontology (such as "millimeters"). These
+values are not imported into OBD by the data loader.
+
+### Measurement input interface supporting ranges for Phenex
+
+Phenex supports input of a single number for measurements. Many
+publications provide ranges, which may or may not be bounded on both
+sides ("5-10", "more than 7").
+
+### Fully automated dataloader script
+
+The dataloader should run in an automated way on a server. It should be
+easy to install and run from any computer. *I know Cartik is working on
+this but I'm not sure it's on a roadmap.
+--<a href="User%3AJpb15" class="wikilink" title="jim">jim</a> 15:53, 19
+February 2009 (EST)* *This is a high-priority item, in fact. The fact
+that it doesn't appear to be does indicate that it needs to be
+explicitly documented as such.
+--<a href="User%3AHlapp" class="wikilink" title="Hilmar">Hilmar</a>
+18:37, 19 February 2009 (EST)*
+
+### Polymorphic matrix states in Phenex
+
+Data matrices sometimes use the NEXUS format for specifying polymorphic
+states. NeXML supports polymorphic state assignments, but Phenex doesn't
+provide any facilities for working with polymorphic states.
+
+### Search for phenotypes in web interface via anatomy part_of
+
+Currently the web interface and data service provide results using the
+is_a subsumption relation - searching for "bone" will return annotations
+to any particular bone. However we have not added a way to search for
+annotations to parts of some anatomical entity. This should already be
+supported by OBD - needs to be added to our query services and web
+interface.
+
+### Employing homology statements in data queries (via reasoning?)
+
+We need to determine and explicitly document how homology annotations
+will impact reasoning related to phenotype annotation searches. *Phone
+call scheduled for April 2, 2009 to discuss
+--<a href="User%3APmabee@usd.edu" class="wikilink"
+title="Pmabee@usd.edu">Pmabee@usd.edu</a> 15:53, 31 March 2009 (EDT)*
+
+### "Systematic character" PATO subset
+
+At the SICB 2009 meeting we discussed choosing a set of terms from PATO
+that would represent the "character attributes" we will standardly use
+to group phenotypes in a character matrix (in the web interface, for
+example). This subset should "bisect" the PATO ontology: any term should
+either be a descendant of, an ancestor of, or be, one and only one term
+in the systematic character slim. *I believe Wasila and Paula have this
+on their agenda.
+--<a href="User%3AJpb15" class="wikilink" title="jim">jim</a> 16:15, 19
+February 2009 (EST)* Wasila & Paula proposed a list of PATO terms; Jim
+incorporated into new version of Phenote
+3/20/09--<a href="User%3APmabee@usd.edu" class="wikilink"
+title="Pmabee@usd.edu">Pmabee@usd.edu</a> 15:53, 31 March 2009 (EDT)

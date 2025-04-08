@@ -1,0 +1,182 @@
+---
+title: Project Plan
+permalink: wiki/Project_Plan
+layout: wiki
+tags:
+ - Project Management
+ - Software
+---
+
+# Goals in progress, coming up, and scheduled
+
+We are keeping our high-level goals, milestones, and deliverables in a
+[public Trello Board](https://trello.com/b/xYkl0qmC). (Click this link
+to get the board in its own window.)
+
+<embedurl><https://trello.com/b/xYkl0qmC></embedurl>
+
+# Aims and working groups
+
+1\. Scalable workflow :  
+
+:; 1.1 NLP in aid of ontology building and EQ annotation : Curation of
+legacy phenotypes from the literature is a major bottleneck. The overall
+objective of this part of our work is to improve the efficiency with
+which curators can find accurate terms, add missing terms, etc.
+
+::\* Participants: **Hong Cui** (lead), Jim, Todd, Wasila, Judy, Hong's
+MS student Zilong Chang, Paula
+
+:; 1.2 Term broker, in collaboration with NCBO : The overall goal here
+is to obtain temporary ID for anatomy ontology terms, communicate it to
+Phenex, and automatically replace with permanent terms when available.
+
+::\* Participants: **Jim** (lead), Natasha, Hilmar, Judy, Wasila
+
+2\. Ontology development and coordination:  
+
+:; 2.1 Anatomy ontologies : The objective is to coordinate the
+development and alignment of multispecies and single species ontologies
+for vertebrates. The lead curators of the zebrafish, Xenopus, and mouse
+anatomy ontologies, the teleost and amphibian multi-species ontologies,
+and the proposed amniote anatomy ontology will meet regularly to review
+terms from the skeletal branch, and update and synchronize ontologies
+accordingly. The focus of ontology development in year 1 is the limb/fin
+skeletal branch. Specific ontology development plans are
+<a href="Ontologies" class="wikilink" title=" here"> here</a> and
+Ontology development workflow is
+<a href="Ontology_workflow" class="wikilink" title=" here"> here</a>.
+
+::\* Participants: **Wasila** lead), Nizar, Lauren, Paul, David, Terry,
+Yvonne, Ceri, Christina, VG, Paula, Chris
+
+:; 2.2 Vertebrate Taxonomy Ontology : The objective is to develop a
+taxonomic ontology that includes all fossil and extant vertebrate taxa
+from community-vetted sources (PBDB, Paul's database, AmphibiaWeb). This
+ontology is required for curation of phenotypes and querying.
+
+::\* Participants: **Peter** (lead), Paul, David, Nizar, Wasila
+
+:; 2.3 Sync Tool :
+
+::\* Participants: **Jim** (lead), Wasila, Chris, Ceri, Yvonne
+
+3\. Phenotype annotation :  
+
+:; 3.1 Evolutionary phenotypes : The objective is to transform the
+characters and character states from published phylogenetic studies into
+ontology-based descriptions ('Evolutionary phenotypes'), with a focus on
+fin and limb morphology. This will require the development of a list of
+papers to be curated, re-evaluation of software curation tool, training
+of personnel in use of curation software and ontology development, and
+development of appropriate ontologies. Annotation workflow is described
+<a href="Curation_workflow" class="wikilink" title=" here."> here.</a>
+
+::\* Participants: **Paula** (lead), David, Paul, Wasila, Jim, Nizar
+
+:; 3.2 Model organism phenotypes (Monte) : To annotate the skeletal
+phenotypes for fin and limb for genetic mutants of zebrafish, Xenopus,
+and mouse. The model organism (MOD) curators will initially prioritize
+comprehensive annotation of skeletal phenotypes for the fin and limb,
+and subsequently of skeletal phenotypes in general.
+
+::\* Participants: **Monte** (lead), ZFIN (Monte, Ceri,Yvonne), Xenbase
+(Aaron, Christina), MGI (Judy, Terry)
+
+4\. Homology : The legacy homology assertions for the fin-limb skeleton, including assertions of both phylogenetic and iterative (serial) homology, and the genes involved in growth and patterning of the limb at various stages, e.g., Bmps, Fgfs, Gdf5, Sox9 are also well known.  
+
+:\* Participants: **Hilmar** (lead), Chris, Paula, David, Paul, Nizar
+
+5\. Semantic similarity search engine (aka Phenoblast) : Provide the ability for users to take a phenotype collection (of terms) and look across all collections for those that semantically match the terms. Like BLAST, highest ‘hits’ would be ranked first, and user could drill down.  
+
+:\* Participants: **Todd** (lead), Hilmar, Jim, Chris, Judy, Paula,
+Peter
+
+6\. Knowledgebase reasoning and development :  
+
+:\* Participants: **Hilmar** (lead), Todd, Jim, Chris, Paula, Wasila and
+others for UI development
+
+7\. Capstone : As a capstone, in years 3 and 4 of the project, we will validate the capabilities of the above suite of tools by testing how well known developmental pathways for the well-studied fin/limb skeletal transition in vertebrate evolution are identified and how well it scales to a datastore containing billions of phenotypes.  
+
+:\* Participants: **Todd** (lead), everyone in project
+
+# NSF Phenoscape project abstracts
+
+DBI 1062404 and 1062542: Collaborative research: ABI Development:
+Ontology-enabled reasoning across phenotypes from evolution and model
+organisms
+
+1\. Technical description of the project.
+
+An award is made to the University of South Dakota and the University of
+North Carolina to develop ontology-driven tools for machine reasoning
+over large volumes of phenotype data. A fast semantic similarity engine
+will be developed to allow searches for evolutionary transitions and
+mutant genes characterized by similar phenotypic profiles. An
+ontological framework for reasoning over homology will be developed to
+allow rigorous reasoning over evolutionary diverse lineages. Natural
+language processing tools will be developed to improve upon the
+efficiency of mining phenotype data from the literature and improving
+data consistency. This suite of tools will be tested on a large number
+of skeletal phenotypes from diverse fossil and modern vertebrates.
+Taxonomic and anatomical ontologies for vertebrates will be augmented
+and hypotheses of anatomical homology formally encoded. The ontologies
+and software tools, together with phenotypes extracted from the
+vertebrate systematic literature, will be integrated in the
+knowledgebase with genetic and phenotype data from three vertebrate
+model organisms: zebrafish (Danio rerio), African clawed frog (Xenopus
+laevis), and mouse (Mus musculus). The knowledgebase will be exposed to
+generic reasoners using semantic web standards. The system will be
+validated by its success in retrieving candidate genes for the
+well-studied vertebrate fin-limb transition and other major events in
+skeletal evolution.
+
+2\. Non-technical explanation of the project's broader significance and
+importance.
+
+Human-readable descriptions of “phenotypic” properties such as anatomy
+and behavior are not well-suited to computational analysis. Yet, in
+evolutionary biology, genetics and development, computational assistance
+is necessary to discover patterns within the enormous volumes of
+descriptive phenotype data that are being reported in the literature and
+in online databases. Ontologies are structured, controlled vocabularies
+that can be applied to collections of descriptive data to permit logical
+reasoning to be used. Using the evolutionary transition from fins to
+limbs as a test system, this project will develop ontologically-aware
+software that allows users to discover similar sets of phenotypes for
+different taxa or mutant genes within large and diverse datasets. The
+evolutionary breadth of the test data requires the development of a
+rigorous framework for reasoning over hypotheses of homology. Another
+goal is to develop and evaluate natural language processing tools for
+efficiently capturing ontological descriptions of phenotype from the
+descriptions available in the published literature. Phenotype data from
+the systematic literature for both extinct and extant vertebrates will
+be combined with mutant phenotype data from three vertebrate genetic
+models: zebrafish (Danio rerio), frog (Xenopus laevis), and mouse (Mus
+musculus). The suite of tools will be validated by recovering
+developmental genetic pathways that underlie the evolutionary transition
+from fin to limb in vertebrates, and refined by iterative testing with
+domain bioinformaticians on the project and biologists from the broader
+user community.
+
+3\. Indicate how your project addresses criteria specific to Development
+
+A broad community of users will participate through the lifecycle of
+this project in the development of community standards and resources for
+the interoperability and computability of phenotypic knowledge. This
+will be achieved through workshops, usability testing sessions, and
+coordination with key research networks. Stakeholder ownership will be
+enhanced by rapid and open release of a variety of products that we
+anticipate to be of immediate and enduring value to the greater biology
+community, including tools for streamlining data curation and performing
+large-scale semantic similarity searches, high quality vertebrate
+taxonomy and anatomy ontologies, and standards for reasoning over
+homology. We will provide a unique training environment for students,
+postdocs and summer interns, including Native Americans through outreach
+at the University of South Dakota and minority and female students
+though a collaboration with Project Exploration at the University of
+Chicago. Project progress and outcomes will be disseminated through both
+traditional and online outlets for scholarly communication (including
+blog posts at mailing lists); the primary web presence will be at
+<https://www.phenoscape.org/wiki/>.

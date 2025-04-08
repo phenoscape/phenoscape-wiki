@@ -1,0 +1,715 @@
+---
+title: TTO Changes
+permalink: wiki/TTO_Changes
+layout: wiki
+tags:
+ - Ontology
+ - Taxonomy
+ - Informatics
+---
+
+# Notes to the Reader
+
+### Abbreviations
+
+CASGEN - California Academy of Sciences, Catalog of Fishes (CoF), Genera
+Database
+
+CASSPC - California Academy of Sciencies, Catalog of Fishes (CoF),
+Species Database
+
+CoF - William Eschmeyer's [Catalog of
+Fishes](http://research.calacademy.org/research/ichthyology/catalog/index.html)
+
+TTO - [Teleost Taxonomy
+Ontology](http://phenoscape.org/wiki/Teleost_Taxonomy_Ontology)
+
+### Possible actions for each change
+
+Note: Obsoleting a term means it is no longer available for use and does
+not appear in the main hierarchy of the TTO. Phenoscape needs to retain
+the name and term id so that prior annotations to the term do not break.
+
+- **Family added** A new TTO term is created, which should have a dbxref
+  referring to the publication or some CoF derived identifier.
+- **Family obsoleted** The TTO term and id are obsoleted. Genera are
+  moved to a new family or a higher taxon.
+
+<!-- -->
+
+- **Genus added** A new TTO term is created, which should have a dbxref
+  referring to the publication or a (new) CASGEN identifier
+- **Genus obsoleted** The TTO term and id are obsoleted. Any species
+  under this genus are changed to the new genus.
+- **Genus moved** The existing genus has its is_a relation changed to
+  point to the new family or higher taxon.
+
+<!-- -->
+
+- **Species added** A new TTO term is created, which should have a
+  dbxref referring to the publication or a (new) CASSPC identifier.
+- **Species changed to/added as synonym of** The TTO term and id are
+  retained; the name is changed to the new name, the old name is added
+  as a synonym. The is_a relation for the species is updated to the new
+  genus. The synonym should have a dbxref refering to the publication.
+  This is the default when the containing genus changes.
+- **Species obsoleted/added as synonym of** The term is obsoleted, the
+  old name is added as a synonym of the new name. The CASSPC or other
+  dbxref of the old term should be added to the synonym. This is the
+  default when species are merged.
+
+# Changes resulting from publication Fink and Fink (1981)
+
+Citation is: Fink, SV. and Fink, WL. 1981. Interrelations of the
+ostariophysan fishes (Teleostei) *Zoological Journal of the Linnean
+Society* 72:297-353.
+
+- *Abramites sp.* added as species
+- *Albula sp.* added as species
+- *Apareiodon sp.* added as species
+- *Astroblepus sp.* added as species
+- *Brycon sp.* added as species
+- *Bunocephalus sp.* added as species
+- *Carpiodes sp.* added as species
+- *Catostomus sp.* added as species
+- *Characidium sp.* added as species
+- *Clarias sp.* added as species
+- *Coregonus sp.* added as species
+- *Creagrutus sp.* added as species
+- *Ctenolucius sp.* added as species
+- *Distichodus sp.* added as species
+- *Eigenmannia sp.* added as species
+- *Esox sp.* added as species
+- *Gymnocorymbus sp.* added as species
+- *Gyrinocheilus sp.* added as species
+- *Hemiodus sp.* added as species
+- *Homaloptera sp.* added as species
+- *Ichthyborus sp.* added as species
+- *Ictalurus sp.* added as species
+- *Megalops sp.* added as species
+- *Mesoborus sp.* added as species
+- *Poecilocharax sp.* added as species
+- *Salmo sp.* added as species
+- *Sternopygus sp.* added as species
+- *Vandellia sp.* added as species
+
+# Change from a curator request
+
+- *Danio devario* added as synonym of *Devario devario*
+
+# Changes resulting from a project decision to add and reorganize higher level taxa
+
+Changes were made based on Nelson (2006) and the ToLWeb website.
+Citation for former source is:
+
+Nelson, J. S. 2006. *Fishes of the World*, 4th ed. John Wiley & Sons,
+Hoboken, New Jersey.
+
+- Chordata added as phylum
+- Myxinomorphi added without rank
+- Hyperotreti added as synonym of Myxinomorphi
+- Myxini removed (not obsoleted)
+- Vertebrata added without rank
+- Petromyzontomorphi added without rank
+- Cephalaspidomorphi removed
+- Gnathostomata added without rank
+- Chondrichthyes added without rank
+- Chimaeriformes added as order
+- Osteichthyes added without rank
+- Cladistia added without rank
+- Polypteriformes added as order
+- Chondrostei added without rank
+- Neopterygii added without rank
+- Halecostomi added without rank
+- Teleostei added without rank
+- Osteoglossomorpha added without rank
+- Hiodontiformes added as as order
+- Elopomorpha added without rank
+- Ostarioclupeomorphia added without rank
+- Otocephala added as synonym Ostarioclupeomorphia
+- Clupeomorphia added without rank
+- Ostariophysi added without rank
+- Anotophysi added without rank
+- Otophysi added without rank
+- Euteleostei added without rank
+- Protacanthopterygii added without rank
+- Osmeriformes removed (not obsoleted)
+- Neoteleostei added without rank
+- Stenopterygii added without rank
+- Ateleopodomorpha added without rank
+- Cyclosquamata added without rank
+- Scopelomorpha added without rank
+- Acantomorpha added without rank
+- Lampridiformes added without rank
+- Acanthopterygii added without rank
+- Smegmamorpha added without rank
+- Elassomatiformes added as order
+- Mugiliformes added as order
+- Dactylopteriformes added as order
+- Coelocanthiformes added as order
+
+# Changes resulting from publication Britz and Hoffman (2006)
+
+Citation is: Britz, R. and Hoffmann M. 2006. Ontogeny and homology of
+the claustra in otophysan Ostariophysi (Teleostei) *Journal of
+Morphology* 267:90-923.
+
+- *Ancistrus sp.* added as species
+- *Clarias sp.* added as species
+- *Puntius sp.* added as species
+- *Devario* cf. *aequipinnatus* added as species
+- *Hemiloricaria beni* added as synonym of *Rineloricaria beni*
+
+# Changes resulting from publication Fang (2003)
+
+- *Danio* aff. *dangila* added as species
+- *Chela sp.* added as species
+- *Esomus sp.* added as species
+
+# Changes resulting from publication Sidlauskas and Vari (2008)
+
+Citation is: Sidlauskas, BL. and Vari RP. Phylogenetic relationships
+within the South American fish family anostomidae (Teleostei,
+Ostariophysi, Characiformes). *Zoological Journal of the Linnean
+Society* 154:70-210.
+
+- *Laemolyta sp.* added as species
+- *Leporinus* cf. *ecuadorensis* added as species
+- *Leporinus* cf. *fasciatus* added as species
+- *Leporinus* cf. *friderici* added as species
+- *Leporinus* cf. *moralesi* added as species
+- *Leporinus* cf. *niceforoi* added as species
+- *Leporinus sp.* added as species
+- *Citharinus sp.* added as species
+- *Distichodus sp.* added as species
+- *Petulanos* added as genus
+- *Anostomus intermedius* changed to/added as synonym of *Petulanos
+  intermedius*
+- *Anostomus plicatus* changed to/added as synonym of *Petulanos
+  plicatus*
+- *Anostomus spiloclistron* changed to/added as synonym of *Petulanos
+  spiloclistron*
+- *Hypomasticus* added as genus (was subgenus of *Leporinus*)
+- *Leporinus despaxi* changed to/added as synonym of *Hypomasticus
+  despaxi*
+- *Leporinus megalepis* changed to/added as synonym of *Hypomasticus
+  megalepis*
+- *Leporinus mormyrops* changed to/added as synonym of *Hypomasticus
+  mormyrops*
+- *Leporinus pachycheilus* changed to/added as synonym of *Hypomasticus
+  pachycheilus*
+
+# Changes resulting from invited update (April 2008) of Mayden and Conway
+
+Notes: This update contains many subfamily assignments. We don't
+currently include subfamilies in the TTO, but the update file will be
+retained in case this policy changes.
+
+- *Paracanthocobitis* added as synonym to *Acanthocobitis* (Grant 2007)
+- Botiidae added as family (Nalbant, T. T. 2002))
+- *Botia* moved to family Botiidae
+- *Chromobotia* moved to family Botiidae
+- *Leptobotia* moved to family Botiidae
+- *Parabotia* moved to family Botiidae
+- *Sinibotia* moved to family Botiidae
+- *Syncrossus* moved to family Botiidae
+- *Yasuhikotakia* moved to family Botiidae
+- *Bibarba* added as genus to family Cobitidae (Chen & Chen 2007)
+- *Bibarba bibarba* added as species (Chen & Chen 2007)
+- *Erythroculter* no change (unpublished suggestion to demote to synonym
+  of Chandoichthys)
+- *Akrokolioplax* no change (already in CoF CASGEN:10888)
+- *Henicorhynchus* obsoleted/demoted to synonym of *Bangana* (Smith
+  1945)
+- *Henicorhynchus lobatus* changed to/added as synonym of *Bangana
+  lobatus*
+- *Henicorhynchus siamensis* changed to/added as synonym of *Bangana
+  siamensis*
+- *Henicorhynchus lineatus* changed to/added as synonym of *Bangana
+  lineatus*
+- *Henicorhynchus ornatipinnis* changed to/added as synonym of *Bangana
+  ornatipinnis*
+- *Acra* changed so it is now a synonym of *Bangana* (was subgenus in
+  CoF)
+- *Longiculter* no change (uncertain subfamily change)
+- *Chalcalburnus* obsoleted/demoted to synonym of *Alburnus* (as per
+  online CoF) - member species pending TTO revision
+- *Psilorhynchoides* obsoleted/demoted to synonym of *Psilorhynchus*
+  (Conway & Kottelat 2007)
+- *Psilorhynchoides pseudecheneis* changed to /demoted to synonym of
+  *Psilorhynchus pseudecheneis*
+- *Psilorhynchoides arunachalensis* changed to/demoted to synonym of
+  *Psilorhynchus arunachalensis*
+- *Psilorhyncus robustus* added as species (Conway & Kottelat 2007)
+- *Celesteichthys* obsoleted/demoted to synonym of Danio (Roberts 2007)
+- *Celesteichthys margaritatus* changed to/added as synonym of *Danio
+  margaritatus*
+- *Bengala* demoted to synonym of *Megarasbora*
+- *Bengala elanga* changed to/demoted to synonym of *Megarasbora elanga*
+- *Cyprinopsis* no change, problem appears in description date, not
+  covered in TTO
+- *Mirolabeo* no change, uncertain demotion to synonym of *Bangana*
+- *Vaillantellidae* added as family (Slechtova et al. 2007)
+- *Vaillantella* moved to family Vaillantellidae
+- *Caucus* – appears as cypriniform in online CoF, but was not in CAS
+  species table so never added to TTO; after consultation recommendation
+  was to remove/not add; no change.
+- *Oreodaimon* – appears as synonym to Pseudolabrus in online CoF, no
+  change.
+- *Orthrias barbatulus zetensis* no change (already demoted in CoF)
+- *Schistura cryptofasciata* no change (already in CoF; CASSPC 68781)
+- *Notropis harperi* changed to/demoted to synonym of *Pteronotropis
+  harperi*
+- *Microrasbora micropthalma* added as species (Jiang, Chen & Yang 2008)
+- *Araiocypris* added as genus to Cyprinidae
+- *Araiocypris batodes* added as species (Conway & Kottelat 2008)
+
+# Changes resulting from publication Conway (2005)
+
+- *Rasbora* cf. *bankanensis* added as species
+
+# Changes resulting from publication de Pinna and Grande (2003)
+
+- *Osteoglossum sp.* added as species
+- *Elops sp.* added as species
+
+# Changes resulting from publication Conway et al. (2008)
+
+- *Oxygaster hypophthalmus* added as synonym of *Parachela
+  hypophthalmus*
+- *Rasboroides vaterifloris* added as synonym of *Rasbora vaterifloris*
+- *Devario* cf. *aequipinnatus* added as species
+
+# Changes resulting from publication Vari(1995)
+
+Citation is: Vari RP. 1995. The Neotropical fish family Ctenoluciidae
+(Teleostei: Ostariophysi: Characiformes): supra and intrafamilial
+phylogenetic relationships, with a revisionary study. *Smithsonian
+Contributions to Zoology* 564: 103.
+
+- *Agoniates sp.* added as species
+- *Copella sp.* added as species
+- *Distichodus sp.* added as species
+- *Eugnathichthys sp.* added as species
+- *Hemistichodus sp.* added as species
+- *Hoplias* cf. *malabaricus* added as species
+- *Hydrocynus sp.* added as species
+- *Lebiasina sp.* added as species
+- *Mesoborus sp.* added as species
+- *Pyrrhulina sp.* added as species
+- *Salminus sp.* added as species
+- *Hydrolycus pectoralis* added as synonym of *Hydrolycus scomberoides*
+
+# Changes resulting from publication Cavender and Coburn (1992)
+
+Citation is: Cavender, Ted M., and Miles M. Coburn. 1992. Phylogenetic
+relationships of North American cyprinids. Pp. 293-327. In: Systematics,
+Historical Ecology, and North American Freshwater Fishes. R.L. Mayden
+(Ed.). Stanford University Press. Stanford, California. 969 p.
+
+- *Spratellicypris* added as synonym for genus *Puntius*
+- *Hybosis labrosa* added as synonym for *Cyprinella labrosa*
+- *Hybosis monocha* added as synonym for *Erimonax monocha*
+- *Hybosis zanema* added as synonym for *Cyprinella zanema*
+- *Notropis ardens* added as synonym for *Lythrurus ardens*
+- *Notropis caeruleus* added as synonym for *Cyprinella caerulea*
+- *Notropis callistius* added as synonym for *Cyprinella callistia*
+- *Notropis camurus* added as synonym for *Cyprinella camura*
+- *Notropis cerasinus* added as synonym for *Luxilus cerasinus*
+- *Notropis chloristius* added as synonym for *Cyprinella chloristia*
+- *Notropis chrysocephalus* added as synonym for *Luxilus
+  chrysocephalus*
+- *Notropis coccogenis* added as synonym for *Luxilus coccogenis*
+- *Notropis formosus* added as synonym for *Luxilus formosa*
+- *Notropis galacturus* added as synonym for *Cyprinella galactura*
+- *Notropis niveus* added as synonym for *Cyprinella nivea*
+- *Notropis pyrrhomelas* added as synonym for *Cyprinella pyrrhomelas*
+- *Notropis trichroistius* added as synonym for *Cyrinella trichroistia*
+- *Notropis venustus* added as synonym for *Cyprinella venusta*
+- *Notropis whipplei* added as synonym for *Cyprinella whipplei*
+- *Notropis xaenurus* added as synonym for *Cyprinella xaenura*
+- *Notropis zonatus* added as synonym for *Luxilus zonatus*
+- *Notropis zonistius* added as synonym for *Luxilus zonistius*
+- *Semotilus margarita* added as synonym for *Margariscus margarita*
+- *Engraulicypris argenteus* added as synonym for *Rastrineobola
+  argentea*
+- *Moroco steindachneri* added as synonym for *Phoxinus steindachneri*
+- *Osteocheilus hasseltii* added as synonym for *Osteochilus hasseltii*
+- *Rhotee cotio* added as synonym for *Osteobrama cotio*
+
+# Changes resulting from publication de Pinna (1996)
+
+Citation is: de Pinna MCC. 1996. A phylogenetic analysis of the Asian
+catfish families Sisoridae, Akysidae, and Amblycipitidae, with a
+hypothesis on the relationships of the neotropical Aspredinidae
+(Teleostei, Ostariophysi). *Fieldiana: Zoology* (New Series) 84:1-83.
+
+- *Akysis sp. 1* added as species
+- *Akysis sp. 2* added as species
+- *Akysis sp. 3* added as species
+- *Erethistes sp.* added as species
+- *Exostoma sp.* added as species
+- *Glyptothorax sp.* added as species
+- *Bunocephalus sp.* added as species
+- *Ernstichthys sp.* added as species
+
+# Changes resulting from publication Conway and Mayden (2007)
+
+Citation is: Conway, KW. and Mayden RL. 2007. The gill arches of
+Psilorhynchus (Ostariophysi: Psilorhynchidae). *Copeia* ? 267-280.
+
+- *Acanthocobitis sp.* added as species
+- *Beaufortia* cf. *leveretti* added as species
+- *Gastromyzon sp.* added as species
+- *Ictiobius sp.* added as species
+- *Acantopsis sp.* added as species
+
+# Changes resulting from publication Armbruster (2004)
+
+Citation is: Armbruster, JW. 2004. Phylogenetic relationships of the
+suckermouth armoured catfishes (Loricariidae) with emphasis on the
+Hypostominae and the Ancistrinae. *Zoological Journal of the Linnean
+Society* 141:1-80.
+
+- *Megalancistrus gigas* added as synonym for *Megalancistrus parananus*
+- *Hemiancistrus panamensis* added as synonym for *Hemiancistrus
+  aspidolepis*
+- *Hemiancistrus sp.* added as species
+- *Hemiancistrus sp. Brazil* added as species
+- *Peckoltia sp. 1* added as species
+- *Peckoltia sp. 2* added as species
+- *Peckoltia sp. big spot* added as species
+- *Pseudancistrus sp. gold spot* added as species
+- *Hypostomus plecostomus 2* added as species
+- *Hypostomus sp. round snout 1* added as species
+- *Hypostomus sp. round snout 2* added as species
+- *Hemipsilichthys sp.* added as species
+- *Hemipsilichthys?* added as species
+- *Kronichthys sp. 1* added as species
+- *Kronichthys sp. 2* added as species
+
+# Changes resulting from publication Schaefer (1990)
+
+Citation is: Schaefer, SA. 1990. Anatomy and relationships of the
+scoloplacid catfishes. *Proceedings of the Academy of Natural Sciences
+of Philadelphia* 142:167-210.
+
+- *Arius sp.* added as species
+- *Henonemus sp.* added as species
+- *Stegophilus sp.* added as species
+- *Trichomycterus sp.* added as species
+- *Tridentopsis sp.* added as species
+- *Astroblepus sp.* added as species
+- *Cochliodon sp.* added as species
+- *Neoplecostomus sp.* added as species
+- *Perugia xanthus* added as synonym of *Megalonema xanthum*
+- *Corydoras barbatus* added as synonym of *Scieromystax barbatus*
+- *Isorineloricaria spinosissima* added as species
+
+# Changes resulting from publication Winterbottom (1980)
+
+Citation is: Winterbottom, R. 1980. Systematics, osteology and
+phylogenetic relationships of fishes of the Ostariophysan subfamily
+Anostominae (Characoidei, Anostomidae). *Royal Ontario Museum Life
+Science Contributions* 123:112.
+
+- *Gnathodolus sp.* added as species
+
+# Changes resulting from publication Castro and Vari (2004)
+
+Citation is: Castro, RMC. and Vari, RP. 2004. Detritivores of the South
+American fish family Prochilodontidae (Ostariophysi: Characiformes): a
+phylogenetic and revisionary study. *Smithsonian Contributions to
+Zoology* 622:1-190.
+
+- *Anostomus sp.* added as species
+
+# Changes resulting from publication Toledo-Piza (2000)
+
+- *Cynodon sp.* (Toledo-Piza 2000) added as species
+- *Hydrolycus sp.* (Toledo-Piza 2000) added as species
+- *Agoniates sp.* (Toledo-Piza 2000) added as species
+- *Gnathocharax sp.* (Toledo-Piza 2000) added as species
+- *Heterocharax sp.* (Toledo-Piza 2000) added as species
+- *Mylossoma sp.* (Toledo-Piza 2000) added as species
+- *Roeboides sp.* (Toledo-Piza 2000) added as species
+- *Serrasalmus sp.* (Toledo-Piza 2000) added as species
+- *Triportheus sp.* (Toledo-Piza 2000) added as species
+- *Hoplias* cf. *malabaricus* (Toledo-Piza 2000) added as species
+- *Hemiodus sp.* (Toledo-Piza 2000) added as species
+- *Hydrocynus sp.* (Toledo-Piza 2000) added as species
+- *Pyrrhulina sp.* (Toledo-Piza 2000) added as species
+
+# Changes resulting from publication Toledo-Piza (2007)
+
+Citation is: Toledo-Piza, M. 2007. Phylogenetic relationships among
+Acestrorhynchus species (Ostariophysi: Characiformes:
+Acestrorhynchidae). *Zoological Journal of the Linnean Society*
+151:691-757.
+
+- *Bryconops sp.* (Toledo-Piza 2007) added as species
+
+# Changes resulting from publication Lucena and Menezes (1998)
+
+Citation is: Lucena, C. A. S., and N. A. Menezes. 1998. A phylogenetic
+analysis of Roestes Günther and Gilbertolus Eigenmann with a hypothesis
+on the relationships of the Cynodontidae and Acestrorhynchidae
+(Teleostei, Ostariophysi, Characiformes) in L. R. Malabarba, R. E. Reis,
+R. P. Vari, Z. M. S. Lucena, and C. A. S. Lucena, eds. *Phylogeny and
+Classification of Neotropical Fishes*. EDIPUCRS, Porto Alegre, Brazil.
+
+- *Brycon sp.* (Lucena and Menezes 1989) added as species
+- *Roeboides sp.* (Lucena and Menezes 1989) added as species
+- *Roestes sp.* (Lucena and Menezes 1989) added as species
+
+# Changes resulting from publication Weitzman and Fink (1983)
+
+Citation is: Weitzman, S. H., and W. L. Fink. 1983. Relationships of the
+neon tetras, a group of South American freshwater fishes (Teleostei,
+Characidae), with comments on the phylogeny of New World Characiforms.
+*Bulletin of the Museum of Comparative Zoology*, Harvard University
+150:339-395.
+
+- *Aphyodite sp.* (Weitzman and Fink 1983) added as species
+- *Characidium sp.* (Weitzman and Fink 1983) added as species
+- *Hemigrammus sp.* (Weitzman and Fink 1983) added as species
+- *Hyphessobrycon sp.* (Weitzman and Fink 1983) added as species
+- *Leptobrycon sp.* (Weitzman and Fink 1983) added as species
+- *Microschemobrycon sp.* (Weitzman and Fink 1983) added as species
+- *Oxybrycon sp.* (Weitzman and Fink 1983) added as species
+- *Pristella sp.* (Weitzman and Fink 1983) added as species
+- *Bryconamericus meridae* added as synonym of ''Knodus meridae'
+- *Cheirodon piaba* added as synonym of *Serrapinnus piaba*
+- *Neolebias olbrechtsi* added as synonym of *Congocharax olbrechtsi*
+
+# Changes resulting from publication Vari (1983)
+
+Citation is: Vari, R. P. 1983. Phylogenetic relationships of the
+families Curimatidae, Prochilodontidae, Anostomidae, and Chilodontidae
+(Pisces: Characiformes). *Smithsonian Contributions to Zoology* 378:60.
+
+- *Ichthyoelephas sp.* (Vari 1983) added as species
+- *Prochilodus sp.* (Vari 1983) added as species
+- *Anostomus sp.* (Vari 1983) added as species
+- *Hemiodus sp.* (Vari 1983) added as species
+- *Citharinus sp.* (Vari 1983) added as species
+
+# Changes resulting from publication Vari (1989a)
+
+Citation is: Vari, R. P. 1989. A phylogenetic study of the Neotropical
+characiform family Curimatidae (Pisces: Ostariophysi). *Smithsonian
+Contributions to Zoology* 471:iv+1-71.
+
+- *Anostomus sp.* (Vari 1989a) added as species
+- *Laemolyta sp.* (Vari 1989a) added as species
+- *Agoniates sp.* (Vari 1989a) added as species
+- *Hollandichthys sp.* (Vari 1989a) added as species
+- *Hydrocynus sp.* (Vari 1989a) added as species
+- *Mesoborus sp.* (Vari 1989a) added as species
+- *Hemiodus sp.* (Vari 1989a) added as species
+- *Ichthyoelephas sp.* (Vari 1989a) added as species
+
+# Changes resulting from publication Weitzman and Fink (1985)
+
+Citation is: Weitzman, S. H., and S. V. Fink. 1985. Xenurobryconin
+phylogeny and putative phermone pumps in glandulocaudine fishes
+(Teleostei: Characidae). *Smithsonian Contributions to Zoology* ?:1-121.
+
+- *Argopleura sp.* (Weitzman and Fink 1985) added as species
+- *Gephyrocharax sp.* (Weitzman and Fink 1985) added as species
+- *Tyttocharax sp.* (Weitzman and Fink 1985) added as species
+
+# Changes resulting from unpublished thesis of Siebert
+
+Citation is: Siebert, Darrell J. Interrelationships among families of
+the order Cypriniformes (Teleostei).Unpubl. PhD Thesis, City University
+of New York. 1987.
+
+- *Gyrinocheilus sp.* (Siebert 1987) added as species
+- *Ellopostoma sp.* (Siebert 1987) added as species
+- *Carpiodes sp.* (Siebert 1987) added as species
+- *Ictiobus sp.* (Siebert 1987) added as species
+- *Aopidoparia sp.* (Siebert 1987) added as species
+- *Acheilognathus intermedius* added as species
+- *Pantosteus clarki* added as species
+- *Hybopsis micropogon* added as species
+- *Hybopsis bigutattus* added as species
+- *Barbus matsudai* added as species
+- *Barbus conchonius* added as synonym of *Puntius conchonius*
+- *Acanthopsis choirorhynchos* added as synonym of *Acantopsis
+  choirorhynchos*
+- *Acanthophthalmus kuhli* added as synonym of *Pangio kuhlii*
+- *Chela anomalurus* added as synonym of *Oxygaster pointoni*
+- *Chondrostoma ohridanus* added as synonym of *Chondrostoma nasus*
+- *Cirrhinus chinensis* added as synonym of *Cirrhinus molitorella*
+- *Cyprinion irregularis* added as synonym of *Cprinion watsoni*
+- *Hemibarbus barbus* added as synonym of *Hemibarbus labeo*
+- *Epalzeorhynchus kalopterus* added as a synonym of *Epalzeorhynchos
+  kalopterus*
+- *Labeo erythrura* added as a synonym of *Epalzeorhynchos frenatum*
+- *Rhynchocypris variegata* added as a synonym of *Phoxinus oxycephalus*
+- *Varicorhinus tamusuiensis* added as a synonym of *Varicorhinus
+  barbatulus*
+- *Scaphesthes tamusuiensis* added as a synonym of *Varicorhinus
+  barbatulus*
+- *Lepidocephalus hasselti* added as a synonym of *Lepidocephalichthys
+  hasselti*
+- *Leptobotia fasciata* added as a synonym of *Parabotia fasciata*
+- *Morulius chrysophekadion* added as a synonym of *Labeo
+  chrysophekadion*
+- *Nemachelus posteroventralis* added as a synonym of *Barbatula toni*
+- *Noemacheilus selangoricus* added as a synonym of *Nemacheilus
+  selangoricus*
+- *Hesperoleucas symmetricus* added as synonym of ''Hesperoleucus
+  symmetricus'
+- *Noemacheilus pulcher* added as a synonym of *Micronemacheilus
+  pulcher*
+- *Nemacheilus pulcher* added as a synonym of *Micronemacheilus pulcher*
+
+# Changes resulting from publication Roberts (1969)
+
+Citation is: Roberts, T. R. 1969. Osteology and relationships of
+characoid fishes, particularly the genera Hepsetus, Salminus, Hoplias,
+Ctenolucius and Acestrorhynchus. *Proceedings of the California Academy
+of Sciences* 36:391-500.
+
+- *Anostomus sp. (Roberts 1969)* added as species
+- *Chilodus sp. (Roberts 1969)* added as species
+- *Hoplias sp. (Roberts 1969)* added as species
+- *Hydrocynus sp. (Roberts 1969)* added as species
+- *Mylossoma sp. (Roberts 1969)* added as species
+- *Serrasalmus sp. (Roberts 1969)* added as species
+
+# Changes resulting from publication Sawada (1982)
+
+Citation is: Sawada, Yukio. 1982. Phylogeny and zoogeography of the
+superfamily Cobitoidea (Cyprinoidei, Cypriniformes). *Mem. Fac. Fish.
+Hokkaido Univ.* 28:65-223.
+
+- *Acanthopsoides graciroides* added as species
+- *Botia hymenophysa* added as synonym of *Syncrossus hymenophysa*
+- *Somileptes gongata* added as synonym of *Canthophrys gongata*
+- *Cobitis paludicola* added as synonym of *Cobitis taenia*
+- *Acanthophthalmus anguillaris* added as synonym of *Pangio
+  anguillaris*
+- *Noemacheilus barbatulus* added as synonym of *Barbatula barbatula*
+- *Noemacheilus postventralis* added as synonym of *Barbatula toni*
+- *Noemacheilus botia* added as synonym of *Acanthocobitis botia*
+- *Noemachilus masyae* added as synonym of *Nemacheilus masyae*
+- *Nemacheilus panthera* added as synonym of *Orthrias panthera*
+- *Nemacheilus fasciolata* added as synonym of *Schistura fasciolata*
+- *Noemacheilus potanini* added as synonym of *Paracobitis potanini*
+- *Hemimyzon formosanum* added as synonym of *Hemimyzon formosanus*
+- *Squalidus biwae* added as synonym of *Squalidus chankaensis*
+- *Acheilognathus lanceolata* added as synonym of *Tanakia lanceolata*
+- *Acheilognathus rhombea* added as synonym of *Acheilognathus rhombeus*
+- *Garra rufus* added as synonym of *Garra rufa*
+
+# Changes resulting from publication Mayden (1989)
+
+Citation is: Mayden, R.L. 1989. Phylogenetic studies of North American
+Minnows, with emphasis on the Genus Cyprinella (Teleostei:
+Cypriniformes). *Univ. Kansas Misc. Publ.* No. 80. 189p.
+
+- *Hybopsis* cf. *labrosa* (Mayden 1989) added as species
+- *Notropis* cf. *spectrunculus* (Mayden 1989) added as species
+- *Erimystax monacha* added as synonym of *Erimonax monachus*
+- *Extrarius aestivalis* added as synonym of *Macrhybopsis aestivalis*
+- *Gila copei* added as synonym of *Snyderichthys copei*
+- *Hybopsis alborus* added as synonym of *Notropis alborus*
+- *Hybopis boucardi* added as synonym of *Notropis boucardi*
+- *Hybopsis calientis* added as synonym of *Notropis calientis*
+- *Hybopsis labrosa* added as synonym of *Cyprinella labrosa*
+- *Hybopsis longirostris* added as synonym of *Notropis longirostris*
+- *Hybopsis sabinae* added as synonym of *Notropis sabinae*
+- *Extrarius aestivalis*added as synonym of *Macrhybopsis aestivalis*
+
+# Changes resulting from publication Murray (2004)
+
+Citation is: Murray, A. M. 2004. Osteology and morphology of the
+characiform fish Alestes stuhlmannii Pfeffer, 1896 (Alestidae) from the
+Rufiji River basin, East Africa. *Journal of Fish Biology* 65:1412-1430.
+
+- *Brycinus schoutedini* added as synonym of *Alestes schoutedeni*
+- *Brycinus tholloni* added as synonym of *Alestes tholloni*
+
+# Changes resulting from publication Hoffmann and Britz (2006)
+
+Citation is: M. Hoffmann and R. Britz. 2006. Ontogeny and homology of
+the neural complex of otophysan Ostariophysi. *Zool. J. Linn. Soc.*
+147:301-330.
+
+- *Kneria* sp. (Hoffmann and Britz 2006)
+- *Puntius* sp. (Hoffmann and Britz 2006)
+- *Devario* cf. *aequipinnatus* (Hoffmann and Britz 2006)
+- *Ancistrus* sp. (Hoffmann and Britz 2006)
+
+# Changes resulting from publication Chen et al. (1984)
+
+Citation is: Chen X-L., Yue P-Q, and Lin R-D. 1984. Major groups within
+the family Cyprinidae and their phylogenetic relationships. *Acta
+Zootaxonomica Sinica* 9:424-440.
+
+- *Alburnus* sp. (Chen et al 1984) added as species
+- *Barilius microcephalum* added as synonym of *Opsaridium
+  microcephalum*
+- *Rutilus rutilus lacustris* added as synonym of *Rutilus rutilus*
+- *Erythroculter dabryi* added as synonym of *Chanodichthys dabryi*
+- *Erythroculter ilishaeformis* added as synonym of *Chanodichthys
+  erythropterus*
+- *Aristichthys nobilis* added as synonym of *Hypophthalmichthys
+  nobilis*
+- *Gnathopogon argentatus* added as synonym of *Squalidus argentatus*
+- *Gnathopogon wolterstorffi* added as synonym of *Squalidus
+  wolterstorffi*
+- *Gobio gobio cynocephalus* added as synonym of *Gobio cynocephalus*
+- *Pseudogobio vaillanti vaillanti* added as synonym of *Pseudogobio
+  vaillanti*
+- *Barbodes daliensis* added as synonym of *Poropuntius daliensis*
+- *Percocypris pingi regani* added as synonym of *Percocypris regain*
+- *Spinibarbus caldwelli* added as synonym of *Spinibarbus hollandi*
+- *Varicorhinus lepturus* added as synonym of *Onychostoma lepturus*
+- *Carassioides cantonensis* added as synonym of*Carassioides
+  acuminatus*
+- *Garra pingi* added as synonym of *Garra imberba*
+- *Lobocheilus melanotaenia* added as synonym of *Lobocheilos
+  melanotaenia*
+- *Osteochilus vittatus* added as synonym of *Osteochilus salsburyi*
+
+# Changes resulting from publication Coburn and Cavender (1992)
+
+Citation is: Coburn, Miles M., and Ted M. Cavender. 1992.
+Interrelationships of North American cyprinid fishes. Pp. 323-378 In:
+*Systematics, Historical Ecology, and North American Freshwater Fishes*.
+R.L. Mayden (Ed.). Stanford University Press. Stanford, California. 969
+p.
+
+- *Hybognathus* sp. (Coburn & Cavender 1992) added as species
+- *Notropis* sp. "sawfin shiner" (Coburn & Cavender 1992) added as
+  species
+- *Garra* sp. 'Discognathichthys' (Coburn & Cavender 1992) added as
+  species
+- *Garra* sp. (Coburn & Cavender 1992) added as species
+- *Lobocheilos* sp. (Coburn & Cavender 1992) added as species
+- *Rasbora* sp. (Coburn & Cavender 1992) added as species
+- *Salmophasia* sp. (Coburn & Cavender 1992) added as species
+- *Rohtee cotio* added as synonym of *Osteobrama cotio*
+- *Notropis callistius* added as synonym of *Cyprinella callistia*
+
+# Changes resulting from publication Buckup (1998)
+
+Citation is: Buckup, P. A. 1998. Relationships of the Characidiinae and
+phylogeny of characiform fishes (Teleostei: Ostariophysi). Pp. 123-144
+in L. R. Malabarba, R. E. Reis, R. P. Vari, Z. M. S. Lucena, and C. A.
+S. Lucena, eds. *Phylogeny and Classification of Neotropical Fishes*.
+EDIPUCRS, Porto Alegre, Brazil.
+
+- *Characidium* cf. *zebra* (Buckup 1998) added as species
+- *Charax* sp. (Buckup 1998) added as species
+
+# Update from August 2008 Catalog of Fishes
+
+TTO was updated from the Catalog of Fishes release of August 29, 2008
+with the TTOupdate tool. In addition to CoF changes, the TTOupdate tool
+captures intermediate synonyms from the CoF status text for each species
+name.

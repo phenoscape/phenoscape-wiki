@@ -1,0 +1,1393 @@
+---
+title: Publications and Posters
+permalink: wiki/Publications_and_Posters
+layout: wiki
+tags:
+ - Curation
+ - Community
+---
+
+## Publications by category
+
+- Perspectives and reviews: Mabee et al (2018), Thessen et al (2015),
+  Manda et al (2015), Oellrich et al. (2015), Deans et al (2015), Mabee
+  et al (2012), Deans et al (2011), Vision et al. (2011), Mabee et al
+  (2007)
+- Biological knowledge discovery: Jackson et al. (2018), Edmunds et al
+  (2016), Dececci et al (2015), Ibrahim et al (2014), Manda and Vision
+  (2017), Mullins et al (2012), Mabee et al (2007).
+- Software: Balhoff (2016), Balhoff et al. (2014), Balhoff et al (2010)
+- Data curation: Dahdul et al. (2018), Dahdul et al. (2015), Cui et al.
+  (2015), Arighi et al. (2013), Bertone et al. (2012), Dahdul et al.
+  (2010)
+- Data modeling, reasoning & ontologies: Mabee et al. (2020), Manda et
+  al. (2016), Balhoff et al. (2015), Balhoff et al (2013), Haendel et al
+  (2014), Dahdul e al (2014), Midford et al (2013), Druzinsky et al
+  (2013), Segerdell et al (2013), Balhoff et al (2013), Dahdul et al
+  (2012), Haendel et al (2008)
+
+## Publications by date
+
+### 2024
+
+- Girón Duque, J.C., Balk, M., Dahdul, W., Lapp, H., Mikó, I., Alhajjar,
+  E., Wynd, B., Tarasov, S., Lawrence, C., Khakurel, B., Porto, A., Yan,
+  L., E Fluck, I., Porto, D., Keating, J., Borokini, I., Seltmann, K.,
+  Montanaro, G., Mabee, P. (2024) Meeting Report for the Phenoscape
+  TraitFest 2023 with Comments on Organising Interdisciplinary Meetings.
+  Biodiversity Information Science and Standards 8: e115232.
+  <https://doi.org/10.3897/biss.8.115232>
+
+### 2023
+
+- Porto, D.S., Tarasov, S., Charpentier, C., Lapp, H., Balhoff, J.P.,
+  Vision, T.J., Dahdul W.M., Mabee, P.M., and Uyeda, J. (2023)
+  rphenoscate: An R package for semantic-aware evolutionary analyses of
+  anatomical traits. Methods in Ecology and Evolution 14:2531-2540 doi:
+  <https://doi.org/10.1111/2041-210X.14210>
+
+### 2022
+
+- Porto, D.S., Dahdul, W.M., Lapp, H., Balhoff, J.P., Vision, T.J.,
+  Mabee, P.M., and Uyeda, J. (2022) Assessing bayesian phylogenetic
+  information content of morphological data using knowledge from anatomy
+  ontologies. Systematic Biology.
+  <https://doi.org/10.1093/sysbio/syac022>
+
+<!-- -->
+
+- Tarasov, S., and Uyeda, J.. (2022) Resolving ubiquitous model
+  congruence in phylogenetics and its application for studying
+  macroevolution. bioRxiv 2022.07.04.498736; doi:
+  <https://doi.org/10.1101/2022.07.04.498736>
+
+### 2021
+
+- Fernando, P.C., Mabee, P.M., Zeng, E. (2021) Gene network module
+  changes associated with the vertebrate fin to limb transition. bioRxiv
+  2021.01.28.428646; doi: <https://doi.org/10.1101/2021.01.28.428646>
+
+### 2020
+
+- Fernando, P.C., Mabee, P.M. and E. Zeng. (2020) Integration of anatomy
+  ontology data with protein–protein interaction networks improves the
+  candidate gene prediction accuracy for anatomical entities. BMC
+  Bioinformatics 21, 442. <https://doi.org/10.1186/s12859-020-03773-2>
+- Porto, D.S., Alameida, E.A., and M.W. Pennell. (2020) Investigating
+  morphological complexes using informational dissonance and Bayes
+  Factors: A case study in corbiculate bees. Systematic Biology
+  70(2):295–306, <https://doi.org/10.1093/sysbio/syaa059>
+- Mabee, P.M., Balhoff, J.P., Dahdul, W.M., Lapp, H., Mungall, C.J., and
+  T.J. Vision. (2020) A logical model of homology for comparative
+  biology. Systematic Biology. 69(2):345–362,
+  <https://doi.org/10.1093/sysbio/syz067>
+
+### 2019
+
+- Tarasov, S., Mikó, I., Yoder, M.J., Uyeda, J.C. (2019) PARAMO: A
+  pipeline for reconstructing ancestral anatomies using ontologies and
+  stochastic mapping. Insect Systematics and Diversity, Volume 3, Issue
+  6, <https://doi.org/10.1093/isd/ixz009>.
+
+### 2018
+
+- Uyeda JC, Zenil-Ferguson R, Pennell MW (2018) Rethinking phylogenetic
+  comparative methods, Systematic Biology, Volume 67, Issue 6, November
+  2018, Pages 1091–1109, <https://doi.org/10.1093/sysbio/syy031>
+- Manda P, Vision T (2018) On the statistical analysis of semantic
+  similarity metrics. International Conference on Biological
+  Ontology 2018. Oregon State University, Corvallis, OR, USA.
+  <http://ceur-ws.org/Vol-2285/ICBO_2018_paper_47.pdf> (preprint:
+  <https://doi.org/10.1101/327833>)
+- Dahdul W, Manda P, Cui H, Balhoff J, Dececchi A, Ibrahim N, Lapp H,
+  Vision T, Mabee, PM (2018) Annotation of phenotypes using ontologies:
+  a Gold Standard for the training and evaluation of natural language
+  processing systems. Database. 2018:bay110,
+  <https://doi.org/10.1093/database/bay110>
+- Jackson, L.M., Fernando, P.C., Hanscom, J.S., Balhoff, J.P., Mabee,
+  P.M. (2018) Automated integration of trees and traits: a case study
+  using paired fin loss across teleost fishes. Systematic Biology,
+  67(4):559–575, <https://doi.org/10.1093/sysbio/syx098>
+- Mabee P.M., Dahdul W., Balhoff J.P., Lapp, H., Manda, P., Uyeda, J.,
+  Vision, T.J., Westerfield, M. (2018) Phenoscape: Semantic analysis of
+  organismal traits and genes yields insights in evolutionary biology.
+  In: Application of Semantic Technology in Biodiversity Science (A.
+  Thessen, editor). IOS Press, Berlin. preprint
+  <https://peerj.com/preprints/26988>
+- Braun I, Balhoff J, Berardini TZ, Cooper L, Gkoutos G, Harper L, Huala
+  E, Jaiswal P, Kazic T, Lapp H, Macklin JA, Specht CD, Vision T, Walls
+  RL, Lawrence-Dill CJ. (2018) Computable phenotypes enable comparative
+  and predictive phenomics among plant species and across domains of
+  life. In: Application of Semantic Technology in Biodiversity Science
+  (A. Thessen, editor). IOS Press, Berlin.
+
+### 2017
+
+- Manda P., Vision T.J. **2017**. Evolution of anatomical concept usage
+  over time: Mining 200 years of biodiversity literature. [Proceedings
+  of The International Workshop on Semantic Big Data (SBD
+  ’17)](http://doi.org/10.1145/3066911.3066919) (preprint
+  [<doi:10.7287/peerj.preprints.2747v1>](http://doi.org/10.7287/peerj.preprints.2747v1)).
+
+### 2016
+
+- Manda P, Balhoff J, Vision TJ. **2016**. Measuring the importance of
+  annotation granularity to the detection of semantic similarity between
+  phenotype profiles. [Proceedings of the International Conference on
+  Biological Ontology 2016](http://ceur-ws.org/Vol-1747/) ([preprint
+  <doi:10.1101/086306>](https://doi.org/10.1101/086306)).
+
+<!-- -->
+
+- Balhoff, J.P. **2016**. The Phenoscape Knowledgebase: tools and APIs
+  for computing across phenotypes from evolutionary diversity and model
+  organisms. [Proceedings of the International Conference on Biological
+  Ontology 2016](http://ceur-ws.org/Vol-1747/) ([preprint
+  <doi:10.1101/071951>](https://doi.org/10.1101/071951)).
+
+<!-- -->
+
+- Balhoff, J.P. **2016**. Scowl: a Scala DSL for programming with the
+  OWL API. The Journal of Open Source Software.
+  [<doi:10.21105/joss.00023>](http://dx.doi.org/10.21105/joss.00023)
+
+<!-- -->
+
+- Dececchi, T.A., Mabee, P.M., Blackburn, D. **2016**. Data Sources for
+  Trait Databases: Comparing the Phenomic Content of Monographs and
+  Evolutionary Matrices. PLOS One 11(5): e0155680.
+  [<doi:10.1371/journal.pone.0155680>](http://dx.doi.org/10.1371/journal.pone.0155680)
+
+<!-- -->
+
+- Edmunds, R.C., Su, B., Balhoff, J.P., Dahdul, W.M., Lapp, H.,
+  Lundberg, J.G., Vision, T.J., Dunham, R.A., Mabee, P.M.,
+  Westerfield, M. **2016**. Phenoscape: Identifying candidate genes for
+  species-specific phenotypes. Molecular Biology and Evolution 33 (1):
+  13-24.
+  [<doi:10.1093/molbev/msv223>](http://doi.org/10.1093/molbev/msv223)
+
+<!-- -->
+
+- Druzinsky, R. E., Balhoff, J. P., Crompton, A. W., Done, J.,
+  German, R. Z., Haendel, M. A., Herrel, A., Herring, S.W., Lapp, H.
+  Mabee, P.M., Muller, H., Mungall, C.J., Sternberg, P.W., Auken, K.V.,
+  Vinyard, C.J. , Williams, S.H., Wall, C. E. **2016**. Muscle Logic:
+  New Knowledge Resource for Anatomy Enables Comprehensive Searches of
+  the Literature on the Feeding Muscles of Mammals. PloS One, 11(2),
+  e0149102.
+  [<doi:10.1371/journal.pone.0149102>](http://doi.org/10.1371/journal.pone.0149102)
+
+<!-- -->
+
+- Manda P, Mungall C, Balhoff J, Lapp H, Vision TJ **2016**.
+  Investigating the importance of anatomical homology for cross-species
+  phenotype comparisons using semantic similarity. [Proceedings of the
+  Pacific Symposium on Biocomputing 2016: 132-143
+  <doi:10.1142/9789814749411_0013>](http://doi.org/10.1142/9789814749411_0013)
+
+<!-- -->
+
+- Diehl, A.D. (and 14 coauthors including W. Dahdul). **2016**. The Cell
+  Ontology 2016: Enhanced content, modularization, and ontology
+  interoperability. Journal of Biomedical Semantics 7:44
+  [<doi:10.1186/s13326-016-0088-7>](http://www.jbiomedsem.com/content/7/1/44)
+
+### 2015
+
+- Balhoff JP, Manda P, Lapp H, Mabee P, Vision TJ **2015** Connecting
+  genes with evolutionary knowledge using semantic similarity and
+  ancestral profiles of variation. [Bio-ontologies SIG at ISMB
+  2015](http://phenoday2015.bio-lark.org/pdf/9.pdf)
+
+<!-- -->
+
+- Cui, H., Dahdul, W., Dececchi, T.A., Ibrahim, N., Mabee, P., Balhoff,
+  J.P., Gopalakrishnan, H. **2015**. CharaParser+EQ: Performance
+  Evaluation without Gold Standard. Proceedings of the 78th Annual
+  Meeting of the Association for Information Science and Technology
+  Annual (ASIS&T) vol. 51.
+  [PDF](https://www.asist.org/files/meetings/am15/proceedings/submissions/papers/9paper.pdf)
+
+<!-- -->
+
+- Dahdul, W., T.A. Dececchi, N. Ibrahim, H. Lapp, P.M. Mabee. **2015**.
+  Moving the mountain: Analysis of the effort required to transform
+  comparative anatomy into computable anatomy. Database 2015: bav040.
+  [[http://dx.doi:10.1093/database/bav040](http://dx.doi:10.1093/database/bav040)](http://dx.doi.org/10.1093/database/bav040)
+
+<!-- -->
+
+- Deans, A.R., et al., (including Balhoff, Blackburn, Cui, Dahdul,
+  Dececchi, Haendel, Ibrahim, Lapp, Mungall, Westerfeld, Zorn, & Mabee).
+  **2015**. Finding Our Way through Phenotypes. PLoS Biol, 13(1),
+  e1002033.
+  [<http://dx.doi.org/10.1371/journal.pbio.1002033>](http://dx.doi.org/10.1371/journal.pbio.1002033)
+
+<!-- -->
+
+- Dececchi, T.A., J.P. Balhoff, H. Lapp, P.M. Mabee. **2015**. Toward
+  synthesizing our knowledge of morphology: using ontologies and machine
+  reasoning to extract presence/absence evolutionary phenotypes across
+  studies. Systematic Biology 64(6): 936-952.
+  [<doi:10.1093/sysbio/syv031>](http://doi.org/10.1093/sysbio/syv031)
+
+<!-- -->
+
+- Manda P., Balhoff J. P., Lapp H., Mabee P., Vision T.J. **2015**.
+  Using the Phenoscape Knowledgebase to relate genetic perturbations to
+  phenotypic evolution. Genesis 53 (8):561–571.
+  [<http://dx.doi.org/10.1002/dvg.22878>](http://doi.org./10.1002/dvg.22878)
+
+<!-- -->
+
+- Oellrich A, Collier N, Groza T, Rebholz-Schuhmann D, Shah N,
+  Bodenreider O, Boland MR, Georgiev I, Liu H, Livingston K, Luna A,
+  Mallon AM, Manda P, Robinson PN, Rustici G, Simon M, Wang L,
+  Winnenburg R, Dumontier M. **2015** The digital revolution in
+  phenotyping. Brief Bioinform.
+  [<http://doi.org/10.1093/bib/bbv083>](http://doi.org/10.1093/bib/bbv083)
+
+<!-- -->
+
+- Thessen AE, Bunker DE, Buttigieg PL, Cooper LD, Dahdul WM, Domisch S,
+  Franz NM, Jaiswal P, Lawrence-Dill CJ, Midford PE, Mungall CJ, Ramírez
+  MJ, Specht CD, Vogt L, Vos RA, Walls RL, White JW, Zhang G, Deans AR,
+  Huala E, Lewis SE, Mabee PM. **2015**. Emerging semantics to link
+  phenotype and environment. PeerJ 3:e1470
+  [<https://doi.org/10.7717/peerj.1470>](https://doi.org/10.7717/peerj.1470)
+
+### 2014
+
+- Balhoff, J.P., W.M. Dahdul, T.A. Dececchi, H. Lapp, P.M. Mabee, and
+  T.J. Vision. **2014**. Annotation of phenotypic diversity: decoupling
+  data curation and ontology curation using Phenex. Journal of
+  Biomedical Semantics 5:45
+  [<http://dx.doi.org/10.1186/2041-1480-5-45>](http://dx.doi.org/10.1186/2041-1480-5-45)
+
+<!-- -->
+
+- Balhoff, J.P., Dececchi, T.A., Mabee, P.M., Lapp, H. **2014**.
+  Presence-absence reasoning for evolutionary phenotypes. Peer-reviewed
+  conference paper, Bio-ontologies SIG at ISMB 2014.
+  [<http://phenoday2014.bio-lark.org/pdf/11.pdf>](http://phenoday2014.bio-lark.org/pdf/11.pdf)
+  and [<http://arxiv.org/abs/1410.3862>](http://arxiv.org/abs/1410.3862)
+
+<!-- -->
+
+- Dahdul, W.M., H. Cui, P.M. Mabee, C.J. Mungall, D.
+  Osumi-Sutherland, R. Walls, and M. Haendel. **2014**. Nose to tail,
+  roots to shoots: spatial descriptors for phenotypic diversity in the
+  Biological Spatial Ontology. Journal of Biomedical Semantics. 5:34.
+  [<http://dx.doi.org/10.1186/2041-1480-5-34>](http://dx.doi.org/10.1186/2041-1480-5-34)
+
+<!-- -->
+
+- Haendel, M.A., Balhoff, J.P., Bastian, F.B., Blackburn, D.C., Blake,
+  J.A., Comte, A., Dahdul, W.A., Dececchi, T.A., Druzinsky, R.E.,
+  Hayamizu, T.F., Ibrahim, N., Lewis, S.E., Mabee, P.M., Niknejad, A.,
+  Robinson-Rechavi, M., Sereno, P.C., Mungall, C. J. **2014**. Uberon:
+  Unification of multi-species vertebrate anatomy ontologies for
+  comparative biology. Journal of Biomedical Semantics. 5:21
+  [<http://dx.doi.org/10.1186/2041-1480-5-21>](http://dx.doi.org/10.1186/2041-1480-5-21)
+
+<!-- -->
+
+- Ibrahim, N., P. C. Sereno, C. Dal Sasso, S. Maganuco, M. Fabbri, D. M.
+  Martill, S. Zouhri, N. Myhrvold, and D. A. Iurino **2016** Semiaquatic
+  adaptations in a giant predatory dinosaur. Science.
+  [<doi:10.1126/science.1258750>](http://dx.doi.org/10.1126/science.1258750)
+
+### 2013
+
+- Midford, P.E., Dececchi, T.A., Balhoff, J.P., Dahdul, W.M., Ibrahim,
+  N., Lapp, H., Lundberg, J.G., Mabee, P.M., Sereno, P.C., Westerfield,
+  M., Vision, T.J. **2013**. The Vertebrate Taxonomy Ontology: A
+  framework for reasoning across model organism and species phenotypes.
+  Journal of Biomedical Semantics. 4:34.
+  [<http://dx.doi.org/10.1186/2041-1480-4-34>](http://dx.doi.org/10.1186/2041-1480-4-34).
+
+<!-- -->
+
+- Balhoff, J.P, I. Mikó, M.J. Yoder, P.L. Mullins, & A.R. Deans.
+  **2013**. A semantic model for species description, applied to the
+  ensign wasps (Hymenoptera: Evaniidae) of New Caledonia. Systematic
+  Biology 62: 639-659.
+  [<http://dx.doi.org/10.1093/sysbio/syt028>](http://dx.doi.org/10.1093/sysbio/syt028)
+
+<!-- -->
+
+- Druzinsky, R.E., Mungall, C.J., Haendel, M., Lapp, H., Mabee, P.M.
+  **2013**. What is an anatomy ontology? The Anatomical Record
+  296:1797-1799.
+  [<http://dx.doi.org/10.1002/ar.22805>](http://dx.doi.org/10.1002/ar.22805).
+
+<!-- -->
+
+- Segerdell, E., V.G. Ponferrada, C. James-Zorn, K.A. Burns, J.D.
+  Fortriede, W.M. Dahdul, P.D. Vize and A.M. Zorn. **2013**. Enhanced
+  XAO: the ontology of Xenopus anatomy and development underpins more
+  accurate annotation of gene expression and queries on Xenbase. Journal
+  of Biomedical Semantics. 4:31.
+  [<http://dx.doi.org/10.1186/2041-1480-4-31>](http://dx.doi.org/10.1186/2041-1480-4-31)
+
+<!-- -->
+
+- Arighi, C, et al. (including Dahdul, Mabee, Cui, Haendel, Balhoff)
+  **2013**. An Overview of the BioCreative 2012 Workshop Track III:
+  Interactive Text Mining Task. Database 2013:bas056
+  [<http://dx.doi.org/10.1093/database/bas056>](http://dx.doi.org/10.1093/database/bas056)
+
+### 2012
+
+- Bertone, M.A., I. Mikó, M.J. Yoder, K.C. Seltmann, J.P. Balhoff, and
+  A.R. Deans. **2012**. Matching arthropod anatomy ontologies to the
+  Hymenoptera Anatomy Ontology: Results from a manual alignment.
+  Database
+  [<http://dx.doi.org/10.1093/database/bas057>](http://dx.doi.org/10.1093/database/bas057)
+
+<!-- -->
+
+- Dahdul W.M., Balhoff J.P, Blackburn D.C., Diehl A.D., Haendel M.A.,
+  Hall B.K., Lapp H., Lundberg J.G., Mungall C.J., Ringwald M.,
+  Segerdell E., Van Slyke C.E., Vickaryous M.K., Westerfield M., Mabee
+  P.M. **2012**. A unified anatomy ontology of the vertebrate skeletal
+  system. PLoS ONE 7(12): e51070
+  [<http://dx.plos.org/10.1371/journal.pone.0051070>](http://dx.plos.org/10.1371/journal.pone.0051070)
+
+<!-- -->
+
+- Mabee P.M., Balhoff J.P., Dahdul W.M., Lapp H., Midford P.E., Vision
+  T.J., Westerfield M. **2012**. 500,000 fish phenotypes: The new
+  informatics landscape of evolutionary and developmental skeletal
+  biology. Journal of Applied Ichthyology 28(3):300-305.
+  [<http://dx.doi.org/10.1111/j.1439-0426.2012.01985.x>](http://dx.doi.org/10.1111/j.1439-0426.2012.01985.x)
+
+<!-- -->
+
+- Mullins P., Kawada R., Balhoff J.P., Deans A. **2012**. A revision of
+  Evaniscus (Hymenoptera, Evaniidae) using ontology-based semantic
+  phenotype annotation. ZooKeys 223:1-38
+  [<http://dx.doi.org/10.3897/zookeys.223.3572>](http://dx.doi.org/10.3897/zookeys.223.3572)
+
+### 2011
+
+- Deans, A.R., M.J. Yoder, J.P. Balhoff. **2011**. Time to change how we
+  describe biodiversity. Trends in Ecology & Evolution 27 (2):78-84.
+  [<http://dx.doi.org/10.1016/j.tree.2011.11.007>](http://dx.doi.org/10.1016/j.tree.2011.11.007)
+
+<!-- -->
+
+- Vision TJ, Blake JA, Lapp H, Mabee PM, Westerfield M **2011**
+  Similarity Between Semantic Description Sets: Addressing Needs Beyond
+  Data Integration. Proceedings of the First International Workshop on
+  Linked Science [PDF](http://ceur-ws.org/Vol-783/paper8.pdf)
+
+### 2010
+
+- Balhoff, J. P., W. M. Dahdul, C. R. Kothari, H. Lapp, J. G.
+  Lundberg, P. M. Mabee, P. E. Midford, M. Westerfield, and T. J.
+  Vision. **2010**. Phenex: Ontological annotation of phenotypic
+  diversity. PLoS ONE 5(5):e10500.
+  [<doi:10.1371/journal.pone.0010500>](http://dx.doi.org/10.1371/journal.pone.0010500)
+
+<!-- -->
+
+- Dahdul, W. M., J. P. Balhoff, J. Engeman, T. Grande, E. J.
+  Hilton, C. R. Kothari, H. Lapp, J. G. Lundberg, P. E. Midford, T. J.
+  Vision, M. Westerfield, and P. M. Mabee. **2010**. Evolutionary
+  characters, phenotypes and ontologies:curating data from the
+  systematic biology literature. PLoS ONE 5(5):e10708.
+  [<doi:10.1371/journal.pone.0010708>](http://dx.doi.org/10.1371/journal.pone.0010708)
+
+<!-- -->
+
+- Dahdul, W.M., Lundberg, J.G., Midford, P.E., Balhoff, J.P., Lapp, H.,
+  Vision, T.J., Haendel, M.A., Westerfield, M., Mabee, P.M. **2010**.
+  The Teleost Anatomy Ontology: Anatomical Representation for the
+  Genomics Age. Systematic Biology 59(4):369-383.
+  [<doi:10.1093/sysbio/syq013>](http://dx.doi.org/10.1093/sysbio/syq013)
+
+### 2008
+
+- Haendel, M.A., Neuhaus, F., Osumi-Sutherland, D.S., Mabee, P.M.,
+  Mejino J.L.V., Mungall, C.J., and Smith, B. **2008**.
+  <a href=":File:Caroreprint.pdf" class="wikilink"
+  title="CARO - The Common Anatomy Reference Ontology">CARO - The Common
+  Anatomy Reference Ontology</a>. *In:* Albert Burger, Duncan Davidson
+  and Richard Baldock (Editors): *Anatomy Ontologies for Bioinformatics:
+  Principles and Practice*. ISBN 978-1-84628-884-5.
+
+### 2007
+
+- Mabee PM, Arratia G, Coburn M, Haendel M, Hilton EJ, Lundberg JG,
+  Mayden RL, Rios N, and Westerfield M. **2007**. Connecting
+  evolutionary morphology to genomics using ontologies: a case study
+  from Cypriniformes including zebrafish. J Exp Zoolog B Mol Dev Evol. 
+  [<doi:10.1002/jez.b.21181>](http://dx.doi.org/10.1002/jez.b.21181)
+
+<!-- -->
+
+- Mabee PM, Ashburner M, Cronk Q, Gkoutos GV, Haendel M, Segerdell E,
+  Mungall C, and Westerfield M. **2007**. Phenotype ontologies: the
+  bridge between genomics and evolution. Trends Ecol Evol. Jul; 22(7)
+  345-50.
+  [<doi:10.1016/j.tree.2007.03.013>](http://dx.doi.org/10.1016/j.tree.2007.03.013)
+
+## Posters & Presentations
+
+### 2022
+
+- Porto, D.S., Tarasov, D., Charpentier, C., Dahdul, W., Lapp, H.,
+  Balhoff, J., Vision, T., Mabee, P., & Uyeda, J. rphenoscate: An R
+  package for semantic-aware comparative analyses of organismal
+  phenotypes. Annual Meeting of the Willi Hennig Society; 2022 July
+  24-28; Helsinki, Finland.
+- Lapp, H., Bradley, J., Xu, H., Rathee, A., Balhoff, J., and Dahdul, W.
+  (2022). RPhenoscape: Semantic computing with morphological traits and
+  ontologies. Bioinformatics Open Source Conference 2022, as part of
+  ISMB 2022; 2022 July 14; Madison, WI
+- Lovill, K., Porto, D.S., Wasila, D., and Uyeda, J. (2022). Exploring
+  Ontological Knowledge to Study Miniaturization in Ostariophysi Fish.
+  Poster presented at: Dennis Dean Undergraduate Research and Creative
+  Scholarship Conference; 2022 April 29; Blacksburg, VA.
+
+### 2021
+
+- Porto, D (presenter), W Dahdul, H Lapp, J Balhoff, T Vision, P Mabee,
+  J Uyeda. (2021) Assessing Phylogenetic information content of anatomy
+  ontologies. Evolution 2021, virtual, June 22, 2021.
+
+### 2019
+
+- Uyeda, J. (2019) The Measurement of Macroevolutionary Causes. Emerging
+  Leader Invited Plenary Talk, SouthEastern Population Ecology and
+  Evolutionary Genetics Conference, Clemson, SC.
+- Tarasov S, Miko I, Yoder M, and Uyeda J. (2019) Exploring and
+  reconstructing ancestral anatomies using ontology-informed approaches.
+  In session: Exploring Biodiversity Knowledge by Ontologies,
+  Biodiversity Next meeting, Leiden, Netherlands, October 22, 2019.
+  <https://doi.org/10.3897/biss.3.37038>
+- Mabee, P. (2019) Answering research questions requires semantic
+  traits. In session: Operationalizing Trait-Based Biodiversity,
+  Biodiversity Next meeting, Leiden, Netherlands, October 24, 2019.
+  <https://doi.org/10.3897/biss.3.37567>
+- Uyeda J, Tarasov, S (2019) Extracting meaning from phylogenetic
+  comparative methods: The necessity of considering process. Evolution
+  2019, Providence RI, June 25, 2019.
+- Balhoff J, Dahdul W, Lapp H, Mabee P, Tarasov S, Uyeda J, Vision
+  T (2019) Integrating ontologies in comparative analyses of trait
+  evolution. Poster presented at Evolution 2019, Providence RI, June 22,
+  2019, <https://doi.org/10.5281/zenodo.3252611>
+- Balhoff, J.P. (2019) OWL reasoning in the Phenoscape Knowledgebase.
+  Semantic Data Models in Anatomy workshop, Zoological Research Museum
+  Alexander Koenig, Bonn, Germany, May 9, 2019.
+- Vision, T. (2019) Computing over descriptive phenotype data: Is
+  Aristotle a help or hindrance? PIRS Minisymposium on Novel Candidate
+  Gene Discovery by Computing on Phenotypes, Iowa State University,
+  April 3, 2019.
+- Mabee, P. (2019) Integrating traits across genes and trees: a semantic
+  approach. Center for Biodiversity Analysis, Australian National
+  University, Canberra, Australia. April 1, 2019.
+- Mabee, P. (2019) Integrating traits across genes and trees: a semantic
+  approach. Royal Botanic Gardens and Domain Trust Science Seminar
+  Series. Royal Botanic Garden, Sydney, Australia. March 28, 2019.
+- Mabee, P. (2019) Trait ontologies: logical links across biodiversity.
+  Plant Traits Workshop. Royal Botanic Garden, Sydney, Australia. March
+  27, 2019.
+- Balhoff, J.P. (2019) Using phenotype ontologies to incorporate domain
+  knowledge into models of trait evolution. U.S. Semantic Technologies
+  Symposium (US2TS 2019), Durham, NC, March 11, 2019.
+- Dahdul, W. (presenter, poster), J. Balhoff, H. Lapp, P. Mabee, S.
+  Tarasov, J. Uyeda, T. Vision. (2019). Integrating ontologies in
+  comparative analyses of trait evolution. Biocuration 2019. Cambridge
+  UK. April 2019.
+
+### 2018
+
+- Mabee, P.M. Anatomy ontologies supply the missing links for knowledge
+  discovery and recovery. Invited talk for Biological Ontology Series,
+  Iowa State University. Ames, Iowa, October 22, 2018.
+- Uyeda, J.C. (presenter, poster) (2018). On the need for phylogenetic
+  natural history. Evolution 2018, Montpellier, France. August 21, 2018.
+- Collins M. (presenter), R. Tarvin, M. Kandziora, W. Dahdul, and D.
+  Paul (2018) Phenomap - Challenges and successes in bringing together
+  multiple data projects to build new visualizations of phenotypic
+  information and specimen records. Biodiversity Information Science and
+  Standards 2: e25698. <https://doi.org/10.3897/biss.2.25698>. Presented
+  at Biodiversity Information Standards (TDWG), Dunedin, NZ, August 2018
+- Fernando, P. (presenter, poster), E. Zeng, P. Mabee. (2018) The
+  integrative use of anatomy ontology and protein-protein interaction
+  networks to study evolutionary phenotypic transitions. International
+  Conference on Biological Ontology (2018), Corvallis, OR, August 7,
+  2018
+- Mabee, P., J. Balhoff, W. Dahdul (invited oral presentation), H.
+  Lapp, C. Mungall, T. Vision. (2018). Reasoning over anatomical
+  homology in the Phenoscape KB. Workshop: Data Standards and Knowledge
+  Sharing in Biodiversity -Tools and Applications. International
+  Conference on Biological Ontology (2018), Corvallis, OR, August 7,
+  2018.
+- Mabee, P.M. (2018). Phenotyped. Second Annual Digital Data in
+  Biodiversity Research Conference, UC Berkeley Campus, June 4, 2018.
+- Dahdul, W. (presenter, poster), J. Balhoff, H. Lapp, J. Uyeda, T.
+  Vision, P. Mabee (2018). [Applications of ontology-based knowledge
+  representation for comparative
+  biology](https://www.idigbio.org/wiki/images/3/3d/Dahdul-iDigBio-poster.pdf).
+  Second Annual Digital Data in Biodiversity Research Conference, UC
+  Berkeley Campus, June 4, 2018.
+- Vision, TJ (2018) Skeletons, mutants and ontologies: What can we learn
+  from linking phenotypes and genetics on a large scale? University of
+  Southern California, Computational Biology Seminar, March 29, 2018.
+- Mabee, P.M. (2018) Reasons to reason across disparate data types:
+  linking species, phenotypes, genes, and more. Biodiversity Collections
+  Network workshop: Addressing Legal Issues Involved in Digitized
+  Collections: The Nagoya Protocol as a Test Case. Harvard University,
+  March 27, 2018.
+- Mabee, P.M. (2018) Phenoscape: use case, tools, and outcomes. Explorer
+  of Taxon Concepts and Authors Projects Joint Workshop: Enabling
+  authors to produce computable phenotypic data. University of Arizona
+  Biosphere. January 12, 2018.
+
+### 2017
+
+- Fernando, P (presenter, poster), L Jackson, J Balhoff, E Zeng, P Mabee
+  (2017). A generic bioinformatics pipeline to integrate large-scale
+  trait data with large phylogenies. IEEE International Conference on
+  Bioinformatics and Biomedicine (BIBM). Kansas City, MO. November
+  14-16, 2017.
+
+<!-- -->
+
+- Lapp H. (2017) Towards computational science with phenotype
+  descriptions: From large-scale candidate gene discovery to
+  reproducible data synthesis for morphological trait evolution. Duke
+  Computational Biology Seminar, Oct 23, 2017.
+
+<!-- -->
+
+- Mabee, P (2017) Progress in comparative biology can be accelerated
+  through semantic annotation. SSB workshop – Trees, traits and
+  functions: semantics for comparative biology. Evolution Conference,
+  Portland, OR, June 23, 2017.
+
+<!-- -->
+
+- Vision, T, J Balhoff, W Dahdul, A Dececchi, P Fernando, H Lapp
+  (presenter, poster), P Mabee, P Manda, K Mastick, M Westerfield, E
+  Zeng (2017) Machine reasoning about phenotypes: enhancing expert
+  knowledge about the genetics of a fossil transition. Evolution
+  Conference, Portland, OR, June 23, 2017.
+  [<doi:10.6084/m9.figshare.5262868.v1>](http://doi.org/10.6084/m9.figshare.5262868.v1)
+
+<!-- -->
+
+- Dahdul, W (presenter, poster), J Balhoff, H Lapp, T Vision, P Mabee.
+  (2017). Incorporating the logic of anatomical homology in a
+  gene-phenotype knowledgebase: Phenoscape KB. Evolution Conference,
+  Portland, OR, June 2017.
+
+<!-- -->
+
+- Fernando, P (presenter, poster), L Jackson, J Balhoff, E Zeng, P
+  Mabee. (2017) A generic bioinformatics pipeline to integrate
+  large-scale trait data with large phylogenies. 2017 RII Track-1 All
+  Investigator Meeting. Oacoma, SD, May 2017.
+
+<!-- -->
+
+- Fernando, P (presenter, poster), L Jackson, J Balhoff, E Zeng, P
+  Mabee. (2017) A generic bioinformatics pipeline to integrate
+  large-scale trait data with large phylogenies. Great Lakes
+  Bioinformatics Conference, Chicago, IL. F1000Research 2017, 6(ISCB
+  Comm J):674 (poster) [doi:
+  10.7490/f1000research.1114056.1](http://doi.org/10.7490/f1000research.1114056.1)
+
+<!-- -->
+
+- Jackson LM (presenter, poster), FC Fernando, JP Balhoff, PM Mabee.
+  (2017). A computational framework using ontologies to integrate
+  large-scale trees and traits: exploring diversity across the teleost
+  tree of life. University of South Dakota Ideafest. Vermillion, SD,
+  April 5, 2017.
+
+<!-- -->
+
+- Jackson LM (presenter, poster), Fernando P, Hanscom J, Balhoff J, and
+  Mabee P. (2017). A computational framework using ontologies to
+  integrate large-scale trees and traits: exploring diversity across the
+  teleost tree of life. Biocuration 2017, Stanford, CA, March 26, 2017.
+  [<doi:10.7490/f1000research.1113878.1>](http://doi.org/10.7490/f1000research.1113878.1)
+
+<!-- -->
+
+- Dahdul W (presenter, poster), Manda P, Cui H, Balhoff J, Dececchi A,
+  Ibrahim N, Lapp H, Mabee PM, Vision TJ. (2017). Gold standard
+  evaluation of machine and human generated annotations of biodiverse
+  phenotypes. Biocuration 2017, Stanford, CA, March 27, 2017.
+  [<doi:10.7490/f1000research.1113805.1>](http://doi.org/10.7490/f1000research.1113805.1)
+
+<!-- -->
+
+- Mabee, PM. (2017). Ontology-enabled reasoning across phenotypes from
+  evolution and model organisms. George Washington University.
+  Washington, D.C. March 3, 2017.
+
+<!-- -->
+
+- Jackson LM (presenter), PC Fernando, JP Balhoff, PM Mabee. (2017).
+  Automated integration of trees and traits: a case study using paired
+  fin loss across teleost fishes. Annual Meeting of the Society for
+  Integrative and Comparative Biology (SICB). New Orleans, LA, January
+  7, 2017.
+
+### 2016
+
+- Dahdul, W (presenter) (2016) Beetles, barnacles, and catfishes:
+  talking across lineages to build the tree of life. Department Seminar,
+  California State University, Fullerton. October 12, 2016.
+
+<!-- -->
+
+- Mabee, P. (presenter) (2016) What does it mean to bring computable
+  phenotypes linked to genes, to phylogenetic systematics? Willi Hennig
+  Society Meeting, Buenos Aires, Argentina. October 5, 2016.
+
+<!-- -->
+
+- Mabee, P. (presenter) (2016) Phenotypes, Databases and Ontologies, The
+  Loci of Evolution Meta-Analysis Workshop, Paris, September 5, 2016.
+
+<!-- -->
+
+- Balhoff, J. (presenter) (2016) Reasoning with Phenotypes and
+  Ontologies, The Loci of Evolution Meta-Analysis Workshop, Paris,
+  September 5, 2016.
+
+<!-- -->
+
+- Balhoff, J (presenter, poster), W Dahdul, P Manda, L Jackson, C Mao, H
+  Xu, L Zhang, H Lapp, P Mabee, T Vision (2016) The Phenoscape
+  Knowledgeable: tools and APIs for computing across phenotypes from
+  evolutionary diversity to model organisms. International Conference on
+  Biological Ontology, Corvallis, OR. August 2016.
+
+<!-- -->
+
+- Lapp, H. (presenter) (2016) [Rphenoscape:  Connecting the semantics of
+  evolutionary morphology to comparative
+  phylogenetics](http://www.slideshare.net/hlapp/rphenoscape-connecting-the-semantics-of-evolutionary-morphology-to-comparative-phylogenetics).
+  2016 Evolution Meetings, Austin, TX. June 2016.
+
+<!-- -->
+
+- Lapp, H. (presenter) (2016) [Evolutionary Morphology, computable: The
+  Phenoscape
+  KB](https://docs.google.com/document/d/1mxthw6C0gZ6Ms3ULPz6eU0SfgYHlE75r5ozuhDwlDUs/edit?usp=sharing).
+  Software Bazaar at 2016 iEvoBio Conference, Austin, TX. June 2016.
+
+<!-- -->
+
+- Mabee, P. (presenter) (2016) Inference Expands Morphological Data:
+  Filling in the “Unknown Knowns”. 2016 Evolution Meetings, Austin, TX.
+  June 2016.
+
+<!-- -->
+
+- Vision, T. (presenter) (2016) [The reaggregation of primary research
+  outputs: A case study from
+  Phenoscape](http://doi.org/10.6084/m9.figshare.3380380). FORCE 2016,
+  April 18, 2016.
+
+<!-- -->
+
+- Fernando, P (presenter, poster), P Mabee, E Zeng. “Investigating the
+  Genomic Basis of Phenotypic Transitions Using a Novel Integrative
+  Analysis of Anatomy Ontology and Protein-Protein Interaction
+  Networks”Fifth Annual Summit Meeting of the Phenotype RCN, Biosphere2,
+  Tucson, AZ, February 26-28, 2016.
+
+<!-- -->
+
+- Balhoff, J. (presenter) (2016) Data aggregation: Use of ontologies in
+  phylogenetic matrix building. Fifth Annual Summit Meeting of the
+  Phenotype RCN, Tucson, AZ. February 26, 2016.
+
+<!-- -->
+
+- Dahdul, W. (presenter) (2016) Integration challenges: integrating
+  phylogenetic and phenotypic data. Fifth Annual Summit Meeting of the
+  Phenotype RCN, Tucson, AZ. February 27, 2016.
+
+<!-- -->
+
+- Vision, T. (presenter) (2016) Data analysis: Semantic similarity of
+  genes and taxa. Fifth Annual Summit Meeting of the Phenotype RCN,
+  Tucson, AZ. February 27, 2016.
+
+<!-- -->
+
+- Jackson LM (presenter, poster), Fernando P, Balhoff JP, Mabee PM.
+  (2016). Poster. Automated Integration of Morphological Data Sheds
+  Light on Paired Fin Loss in Actinopterygian Fishes. Fifth Annual
+  Summit Meeting of the Phenotype RCN, Tucson, AZ. February 2016.
+
+<!-- -->
+
+- Dahdul, W (presenter) (2016) Phenoscape: computable phenotypes for
+  comparative biology. FuturePhy Workshop, University of Florida,
+  Gainesville, FL; February 2016.
+
+<!-- -->
+
+- Jackson, LM (presenter) (2016) Integration of Phenomics Data to
+  Investigate Paired Fin Loss: OntoTrace Case Study for Teleost Fishes.
+  FuturePhy Workshop, University of Florida, Gainesville, FL; February
+  2016.
+
+<!-- -->
+
+- Manda, P. (presenter), Mungall C., Balhoff J., Lapp H. (2016)
+  Investigating the importance of anatomical homology for cross-species
+  phenotype comparisons using semantic similarity. Talk at the Pacific
+  Symposium on Biocomputing, Hawaii. USA. January 5, 2016.
+
+### 2015
+
+- Mabee, P.M. (presenter) (2015). Progress in Comparative Morphology can
+  be accelerated through Semantic Annotation. In: Symposium in memory of
+  Donn E. Rosen: Assumptions that inhibit scientific progress in
+  comparative biology. JMIH (Joint Meeting of Ichthyologists &
+  Herpetologists). Reno, NV. USA. July 18, 2015.
+
+<!-- -->
+
+- Jackson, L (presenter, poster), Fernando, P., Balhoff, J, and P.
+  Mabee. Automated Integration of Phenomics Data To Investigate Paired
+  Fin Loss Across Teleost Fishes. JMIH (Joint Meeting of Ichthyologists
+  & Herpetologists). Reno, NV. USA. July 17, 2015.
+
+<!-- -->
+
+- Dahdul, W. (presenter) (2015). How to Accelerate the Transformation of
+  Comparative Anatomy into Computable Anatomy? JMIH (Joint Meeting of
+  Ichthyologists & Herpetologists). Reno, NV. USA. July 18, 2015.
+
+<!-- -->
+
+- Balhoff, J.P. (presenter, poster/talk), P. Manda, H. Lapp, P. Mabee,
+  T.J. Vision. Connecting genes with evolutionary knowledge using
+  semantic similarity and ancestral profiles of variation.
+  Bio-ontologies SIG Phenotype Day at ISMB 2015. Dublin, Ireland. July
+  11, 2015.
+
+### 2014
+
+- Balhoff, J.P. (presenter), Dececchi, T.A., Mabee, P.M., Lapp, H.
+  (2014). Presence-absence reasoning for evolutionary phenotypes. ISMB
+  (Intelligent Systems for Molecular Biology). Boston.
+
+<!-- -->
+
+- Mabee, P. M., Dececchi, T.A. (presenter), and D. Blackburn. 2014.
+  Matrix versus monograph: Comparison of phenotypic richness across data
+  sources. Talk at 74th annual meeting of the Society of Vertebrate
+  Paleontology. Berlin, Germany. November 8th 2014.
+
+<!-- -->
+
+- Mabee, P. M. Connecting evolutionary morphology and model organism
+  genetics. Symposium "What should Bioinformatics do for Evodevo"
+  (organized by G. Plickert, M. Blaxter, A. Burke, and P. Mabee) at
+  EuroEvoDevo conference. Vienna, Austria. 24 July 2014.
+
+<!-- -->
+
+- Dahdul, W. M., T.A. Dececchi, N. Ibrahim, H. Lapp, P. Mabee. 2014.
+  Moving the mountain: How to transform comparative anatomy into
+  computable anatomy? Poster at Evolution 2014, Raleigh, NC. June 23,
+  2014.
+
+<!-- -->
+
+- Balhoff, J., T.A. Dececchi, H. Lapp, P. Mabee. [Synthetic
+  morphological supermatrices: revealing unknown knowns and reducing
+  missing data.](http://f1000.com/posters/browse/summary/1095873) Poster
+  at Evolution 2014, Raleigh, NC. June 23, 2014.
+
+<!-- -->
+
+- Mabee, P. M. Big Anatomy: The new views from integrated anatomy,
+  development, and genes. Symposium: Anatomy ontologies: Bioinformatics
+  in the anatomical sciences, American Association of Anatomists,
+  Experimental Biology meetings, San Diego, CA. April 29, 2014.
+
+<!-- -->
+
+- Dececchi, T. A.., Mabee P.M., and J. Balhoff. The modern character
+  synthesis: Using semantic tools to aggregate morphological characters
+  across studies. Symposium: Anatomy ontologies: Bioinformatics in the
+  anatomical sciences, American Association of Anatomists, Experimental
+  Biology meetings, San Diego, CA. April 29, 2014.
+
+<!-- -->
+
+- Lapp H. [Semantics of and for the diversity of life:  Opportunities
+  and perils of trying to reason on the
+  frontier](http://www.slideshare.net/hlapp/cshals-2014-keynote-31803361).
+  Keynote at the 2014 Conference on Semantics in Healthcare and Life
+  Sciences (CSHALS).  28 February 2014.
+
+<!-- -->
+
+- Mabee, P. M. Anatomy in the genomics age. Seminar to Department of
+  Biology, Salisbury University, MD. 27 February 2014.
+
+### 2013
+
+- Balhoff, J., Dececchi, T.A., Mabee, P., Lapp, H. [Semantic tools for
+  aggregation of morphological characters across
+  studies](http://www.slideshare.net/balhoff/semantic-tools-for-aggregation-of-morphological-characters-across-studies).
+  Annual conference of the Taxonomic Database Working Group. Florence,
+  Italy (November 1 2013)
+
+<!-- -->
+
+- Sears, K.E., Marcot, J.D., Mabee, P.M., and T.A. Dececchi. Evolution
+  and development of the limb: Evolution of appendage modularity during
+  the fin to limb transition. Society of Vertebrate Paleontology, Annual
+  Meeting, Los Angeles, CA (October 31, 2013).
+
+<!-- -->
+
+- Mabee, P.M., Dececchi, T.A., Ibrahim, N., Sereno, P., Balhoff, J.P.
+  Aggregation of morphological characters across studies using an
+  ontology-based phenotype approach. Poster presentation. Society of
+  Vertebrate Paleontology, Annual Meeting, Los Angeles, CA (October 31,
+  2013).
+
+<!-- -->
+
+- Mabee, P.M. Phylogenetic mapping of morphology from multiple studies
+  using ontologies: Insights, prospects, and challenges. Muséum national
+  d'Histoire naturelle, Paris, France (October 24, 2013).
+
+<!-- -->
+
+- Balhoff, J.P. Introduction to OWL. INCF Cross-Program Meeting,
+  Karolinska Institute, Stockholm, Sweden (August 30, 2013).
+
+<!-- -->
+
+- Mabee, P.M. Comparative morphology is integrated with genetics and
+  development in the Phenoscape Knowledgebase. International Congress of
+  Vertebrate Morphology (ICVM), Barcelona, Spain (July 11, 2013).
+
+<!-- -->
+
+- Balhoff, J.P. [Computing with phenotypic diversity using semantic
+  descriptions](http://www.slideshare.net/balhoff/balhoff-i-evobio2013).
+  iEvoBio Conference, 26 June 2013, Snowbird, Utah.
+
+<!-- -->
+
+- Mungall, C.J., Jim Balhoff, Frederic Bastian, David Blackburn, Aurelie
+  Comte, Wasila Dahdul , Alex Dececchi, Nizar Ibrahim, Suzanna E Lewis,
+  Paula Mabee, Anne Niknejad, Melissa A Haendel. A merger of
+  multi‐species anatomy ontologies. Biocuration Conference, April 7-10,
+  2013, Cambridge, UK.
+
+<!-- -->
+
+- Vision, T. Towards an integrated system for computationally linking
+  vertebrate skeletal evolution and development genetics. Department of
+  Ecology and Evolution, University of Lausanne, 10 June 2013.
+
+<!-- -->
+
+- Vision, T. Prospects for computational assistance of phenotype
+  curation in Phenoscape, Third annual summit meeting, Phenotype RCN. 25
+  March 2013, NESCent, NC.
+
+<!-- -->
+
+- Cui, H., et al. 2013. CharaParser and associated software.
+  Pro-ibiosphere workshop. Leiden, the Netherlands, Feb 2013.
+
+### 2012
+
+- Balhoff, J.P. "Linking phenotypes using ontologies." Invited seminar,
+  California Academy of Sciences, March 28, 2012.
+
+<!-- -->
+
+- Vision T. "Phenotypes, descriptive data, and measuring similarity
+  using structured vocabularies". Invited seminar, University of
+  Gottingen, March 8, 2012.
+
+<!-- -->
+
+- Dahdul, W., Balhoff, J., Blackburn, D., Diehl, A., Haendel, M., Hall,
+  B., Lundberg, J., Mungall, C., Ringwald, M., Segerdell, E., Van Slyke,
+  C., Vickaryous, M.K., Westerfield, M., Mabee, P. "VAO: A backbone for
+  the ontological representation of vertebrate musculoskeletal anatomy.
+  Poster. Fifth International Biocuration Conference, Georgetown
+  (Washington, D.C.). April 2-4, 2012.
+
+<!-- -->
+
+- Cui, H., Balhoff J., Dahdul W., Lapp H., Mabee P., Vision T., &
+  Chang, Z. (2012). PCS for Phylogenetic Systematic Literature Curation.
+  BioCreative-2012 Workshop (April 4-5, 2012). Fifth International
+  Biocuration Conference, Georgetown (Washington, D.C.). April
+  2-4, 2012. Proceedings of the BioCreative workshop 2012 (pp.137-144).
+
+<!-- -->
+
+- Chang Z., Balhoff J., Dahdul W., Lapp H., Mabee P., Vision T., &
+  Cui, H. (2012). Workflow of CharaParser and Phenex: Turning character
+  descriptions to EQ statements. BioCreative-2012 Workshop (April 4-5,
+  2012). Fifth International Biocuration Conference, Georgetown
+  (Washington, D.C.). April 2-4, 2012. \[poster and software demo\]
+
+<!-- -->
+
+- Balhoff, J.P., Wasila M. Dahdul, Hilmar Lapp, Paula M. Mabee, Peter E.
+  Midford, Todd J. Vision, and Monte J. Westerfield, on behalf of the
+  Phenoscape Project Team. "The Phenoscape Knowledgebase: Integrating
+  phenotypic data across taxonomy, from biodiversity to developmental
+  genetics". Poster at DILS 2012, College Park, MD, June 28, 2012.
+
+<!-- -->
+
+- Catlett, J., Block, A., P. Mabee. Your Inner Fin: Studying Zebrafish
+  Pectoral Fin Development to Understand Human Forelimb Mutations.
+  Poster presentation. 2012 Science Festival- It’s All About Science,
+  Sanford Research Center, July 28, 2012. Sioux Falls, SD. (also
+  presented at the 2012 Sanford Summer Research Symposium, Sioux Falls,
+  SD, August 2, 2012).
+
+<!-- -->
+
+- Green, C., Block, A., P. Mabee. Development of the hindlimb and pelvic
+  fin. Poster presentation. 2012 Science Festival- It’s All About
+  Science, Sanford Research Center, July 28, 2012. Sioux Falls, SD.
+  (also presented at the 2012 Sanford Summer Research Symposium, Sioux
+  Falls, SD, August 2, 2012).
+
+<!-- -->
+
+- Mabee, P. M. "Synthesis of evolutionary and developmental data for
+  fishes using new informatics tools' Oral presentation, World Congress
+  of Herpetology, Vancouver, BC, August 8-14, 2012.
+
+<!-- -->
+
+- Sereno, P.C., Ibrahim, N., Mabee, P., Vision, T., Lapp, H.
+  "Phenoscape: A New Anatomical Ontology of Vertebrates". Society of
+  Vertebrate Paleontology, Annual Meeting, October 18, 2012.
+
+<!-- -->
+
+- Dececchi, T.A., Balhoff, J., Dahdul, W., Ibrahim, N., Lapp., H.,
+  Midford, P., Sereno, P.C., Vision, T., Westerfield, M., Mabee, P.,
+  Blackburn., D. "Phenoscape: Bridging the gap between fossils and
+  genes".Society of Vertebrate Paleontology, Annual Meeting, October 18,
+  2012.
+
+<!-- -->
+
+- Ibrahim, N. "Dinosaurs of the Sahara". Department of Biology,
+  University of South Dakota, Vermillion (December 3, 2012).
+
+### 2011
+
+- Paula Mabee (2011) Presentation "Comparative anatomy for the genomics
+  age: Informatics to reason across vertebrate evolutionary and
+  developmental biology”, Muséum national d'Histoire naturelle, Paris,
+  Nov. 8, 2011.
+
+<!-- -->
+
+- Todd Vision, Judith Blake, Hilmar Lapp, Paula Mabee, Monte
+  Westerfield (2011) Similarity Between Semantic Description Sets:
+  Addressing Needs Beyond Data Integration. First International Workshop
+  on Linked Science, Bonn, October 24, 2011,
+  <a href="Media:Vision.etal.LISC2011.pdf" class="wikilink"
+  title="Extended abstract">Extended abstract</a> from
+  [Proceedings](http://www.ceur-ws.org/Vol-783/).
+
+<!-- -->
+
+- James Balhoff, Wasila Dahdul, Hilmar Lapp, Peter Midford, Todd Vision,
+  Monte Westerfield and Paula Mabee (2011) Poster; "Employing reasoning
+  within the Phenoscape Knowledgebase", International Conference on
+  Biomedical Ontology; University at Buffalo, NY, July 26-30, 2011
+
+<!-- -->
+
+- Wasila Dahdul, James Balhoff, Hilmar Lapp, Peter Midford, Todd Vision,
+  Monte Westerfield and Paula Mabee; (2011) Presentation; "Phenoscape:
+  use cases and anatomy ontology requirements for linking evolutionary
+  and model organism phenotypes", ICBO workshop: From fins to limbs to
+  leaves: Facilitating anatomy ontology interoperability; International
+  Conference on Biomedical Ontology; University at Buffalo, NY; Poster,
+  July 26-30, 2011
+
+<!-- -->
+
+- James P. Balhoff, Peter E. Midford, Hilmar Lapp (2011) International
+  Conference on Biomedical Ontology, Buffalo, NY, [Integrating anatomy
+  and phenotype ontologies with taxonomic
+  hierarchies](http://www.mendeley.com/download/public/2280031/4561422715/faae92a74742bc35ceca9b3f5862cb94a4cde61e/dl.pdf),
+  July 2011.
+
+<!-- -->
+
+- J . Balhoff, W. Dahdul, H. Lapp, P. Mabee, P. Midford, T. Vision, M.
+  Westerfield (2011) [Phenoscape
+  Knowledgebase](http://www.slideshare.net/balhoff/the-phenoscape-knowledgebase),
+  Data integration challenge entry presentation for iEvoBio Conference
+  2011.
+
+<!-- -->
+
+- James P. Balhoff and Hilmar Lapp (2011) Phenotype RCN Meeting,
+  Boulder, CO, "The challenge of expressive reasoning over large
+  knowledgebases", June 1, 2011.
+
+<!-- -->
+
+- Paula Mabee (2011) Keynote talk for Fish Skeletal Meeting (Tavira,
+  Portugal) "500,000 fish phenotypes: the new informatics landscape of
+  evolutionary and developmental skeletal biology." April 28, 2011.
+
+<!-- -->
+
+- <u>Hilmar Lapp</u> (2011)
+  <a href="Media:UF_Seminar_Mar2011_HL.pdf" class="wikilink"
+  title="Reasoning over phenotype diversity, character change, and evolutionary descent">Reasoning
+  over phenotype diversity, character change, and evolutionary descent</a>.
+  Invited seminar at University of Florida, March 1, 2011.
+
+<!-- -->
+
+- <u>James P. Balhoff</u> (2011) [Conference on Semantics in Healthcare
+  and Life
+  Sciences](http://www.iscb.org/cshals2011-program/cshals2011-full-agenda),
+  Cambridge, MA, "The Phenoscape Knowledgebase: Linking Evolutionary
+  Diversity to Genetic Data Using Phenotype Ontologies" February 24,
+  2011.
+
+<!-- -->
+
+- <u>Richard.C.Edmunds</u> (2011) Northwest Developmental Biology
+  Meeting, Society for Developmental Biology, Friday Harbor, WA "Using
+  Phenoscape to Uncover the Genetic Basis of Evolutionary Phenotypes"
+  March 17, 2011.
+
+<!-- -->
+
+- Monte Westerfield (2011) Phenotype Ontology Project Meeting, Berlin,
+  "Update on Phenoscape", Germany, February 11-14, 2011.
+
+### 2010
+
+- James P. Balhoff (2010) iEvoBio Conference, Portland, OR, "Phenex:
+  Ontological Annotation of Phenotypic Diversity", June 29, 2010
+
+<!-- -->
+
+- Monte Westerfield (2010) Vertebrate Anatomy Workshop, Hinxton, UK,
+  "Anatomy Representation in Phenoscape", June 25-29, 2010.
+
+<!-- -->
+
+- <u>Richard.C.Edmunds</u> (2010) Joint Meeting of Ichthyologists and
+  Herpetologists, American Society of Ichthyology and Herpetology,
+  Providence, RI, "Using Phenoscape to Uncover the Genetic Basis of
+  Evolutionary Phenotypes" July 10, 2010.
+
+<!-- -->
+
+- <u>Hilmar Lapp</u> (2010) [Bringing reason to phenotype diversity,
+  character change, and common
+  descent](http://www.bioontology.org/phenoscape), Webex recording of
+  NCBO Webinar, November 17, 2010.
+
+<!-- -->
+
+- <u>Paula Mabee </u> (2010) Hymenoptera Anatomy Ontology meeting,
+  Raleigh, NC, "Phenoscape: Integration with ontologies" October 16,
+  2010.
+
+<!-- -->
+
+- <u>Paula Mabee and Wasila Dahdul </u> (2010) Joint Meeting of
+  Ichthyologists and Herpetologists, American Society of Ichthyology and
+  Herpetology, Providence, RI, "New Tools for Study of Development and
+  Evolution of the Fish Skeleton" July 11, 2010.
+
+<!-- -->
+
+- <u>Paula Mabee</u> (2010), Sanford Health USD Biomedical Research
+  Symposium, University of South Dakota, Vermillion, SD, "Linking
+  phenotypes of species, mutants, and human diseases to genetics and
+  evolution" May 14, 2010.
+
+<!-- -->
+
+- <u>Paula Mabee</u> (2010), Collections Web Workshop II: New research
+  opportunities emerging from integrating data across different
+  taxonomic colletions, NSF Collections Web RCN
+  ([<http://www.collectionsweb.org>](http://www.collectionsweb.org)),
+  New Orleans, LA, "Phenoscape integration", March 26, 2010.
+
+<!-- -->
+
+- <u>Paula Mabee</u> (2010), Informatics tools for integrating
+  morphological data, Encyclopedia of Life and Phenoscape (via NSF),
+  Field Museum of Natural History, Chicago, IL, March 19, 2010.
+
+<!-- -->
+
+- <u>Paula Mabee</u> (2010), Phenotype and Trait Ontology Workshop, PATO
+  (NIH funded), Rome, Italy, "Phenoscape and use of the PATO ontology",
+  February 27, 2010.
+
+<!-- -->
+
+- <u>Paula Mabee</u> (2010), Locating Biology: The Development and
+  Application of an Environment Ontology, Schloss Dagstuhl - Leibniz
+  Center for Informatics, Germany, "Phenoscape: species phenotypes,
+  genes, development...and environment", February 22, 2010.
+
+### 2009
+
+- <u>Todd Vision</u> (2009)
+  <a href="Media:Iplant_ontologies_2009_11_22.pdf" class="wikilink"
+  title="Ontologies in Phenoscape: Morphology, Taxa and Evolution">Ontologies
+  in Phenoscape: Morphology, Taxa and Evolution</a>, Presentation at the
+  iPlant Tree of Life Data Assembly Meeting, Phoenix, AZ, Nov 22, 2009.
+
+<!-- -->
+
+- <u>Paula Mabee</u> (2009) Introduction to Phenoscape and relation to
+  AmphibAnat. Presentation at the AmphibAnat Meeting, Kansas City, KS
+  Nov. 6, 2009.
+
+<!-- -->
+
+- <u>Peter Midford</u>, Paula Mabee, Todd Vision, Hilmar Lapp, Jim
+  Balhoff, Wasila Dahdul, Cartik Kothari, John Lundberg, Monte
+  Westerfield (2009)
+  \[<http://precedings.nature.com/documents/3594/version/1%7CPhenoscape>:
+  Ontologies for large multi-species phenotype datasets.\] Poster at the
+  [2009 International Conference on Biomedical
+  Ontology](http://icbo.buffalo.edu/%7C) in Buffalo, NY, July 25, 2009.
+
+<!-- -->
+
+- <u>Hilmar Lapp</u>, Jim Balhoff, Cartik Kothari, Todd Vision, Wasila
+  Dahdul, Paula Mabee, John Lundberg, Peter Midford, Monte
+  Westerfield (2009)
+  "<a href="Media:Lapp_et_al_ISMB2009.pdf" class="wikilink"
+  title="Informatics obstacles for integrating evolutionary phenotype diversity with model organism data">Informatics
+  obstacles for integrating evolutionary phenotype diversity with model
+  organism data</a>". Poster at the 2009 ISMB conference in Stockholm,
+  Sweden.
+
+<!-- -->
+
+- <u>Todd Vision</u>, Jim Balhoff, Cartik Kothari, <u>Hilmar Lapp</u>,
+  Wasila Dahdul, Paula Mabee, John Lundberg, Peter Midford, Monte
+  Westerfield (2009)
+  "<a href="Media:Vision_et_al_eBiosphere09.pdf" class="wikilink"
+  title="Phenoscape: Linking phenotypic biodiversity to model organism genetics using ontologies">Phenoscape:
+  Linking phenotypic biodiversity to model organism genetics using
+  ontologies</a>". Poster at the e-Biosphere09 conference in London, UK.
+
+<!-- -->
+
+- Mabee, P., J.P. Balhoff, W. Dahdul, C. Kothari, H. Lapp, J.
+  Lundberg, P. Midford, T. Vision, M. Westerfield. Phenoscape:
+  evolutionary morphology linked to genes using informatics. Poster at
+  Joint Meeting of Ichthyologists and Herpetologists, Portland, OR,
+  2009.
+
+<!-- -->
+
+- <u>Hilmar Lapp</u>, Todd J. Vision. 2009. A gentle introduction to
+  ontologies for biology. 'Ontologies for Ichthyology and Herpetology'
+  symposium. Joint Meeting of Ichthyologists and Herpetologists,
+  Portland, OR. July 25, 2009.
+
+<!-- -->
+
+- <u>Monte Westerfield</u>. 2009. Linking animal models and human
+  diseases. 'Ontologies for Ichthyology and Herpetology' symposium.
+  Joint Meeting of Ichthyologists and Herpetologists, Portland, OR. July
+  25, 2009.
+
+<!-- -->
+
+- <u>Paula Mabee</u>, Jim Balhoff, Wasila Dahdul, Cartik Kothari, Hilmar
+  Lapp, John Lundberg, Peter Midford, Todd Vision, Monte Westerfield
+  (2009). 2009. Phenoscape: Using ontologies to link comparative
+  morphology to genes. 'Ontologies for Ichthyology and Herpetology'
+  symposium. Joint Meeting of Ichthyologists and Herpetologists,
+  Portland, OR. July 25, 2009.
+
+<!-- -->
+
+- <u>Wasila Dahdul</u>. 2009. The Teleost Anatomy Ontology: computable
+  evolutionary morphology for teleost fishes. Department of Biological
+  Science seminar at California State University, Fullerton, CA. May 13,
+  2009.
+
+<!-- -->
+
+- <u>Paula Mabee</u>, Wasila Dahdul, John Lundberg, Peter Midford, Todd
+  Vision, Hilmar Lapp, Jim Balhoff, Cartik Kothari, Monte
+  Westerfield (2009)
+  "<a href="Media:Mabee_et_al._Biocurator_09.pdf" class="wikilink"
+  title="PHENOSCAPE: Curation of evolutionary phenotypes using the MOD model">PHENOSCAPE:
+  Curation of evolutionary phenotypes using the MOD model</a>". Poster
+  at the 2009 Biocurator Conference in Berlin, Germany. April 18, 2009.
+
+<!-- -->
+
+- <u>Wasila Dahdul</u>, Paula Mabee, John Lundberg, Peter Midford, Todd
+  Vision, Hilmar Lapp, Jim Balhoff, Cartik Kothari, Melissa Haendel,
+  Monte Westerfield (2009)
+  "<a href="Media:Dahdul_et_al._Biocurator_09.pdf" class="wikilink"
+  title="Developing a Multi-species Anatomy Ontology for Teleost Fishes">Developing
+  a Multi-species Anatomy Ontology for Teleost Fishes</a>". Poster at
+  the 2009 Biocurator Conference in Berlin, Germany. April 18, 2009
+
+<!-- -->
+
+- <u>Jim Balhoff</u>, Cartik Kothari, Hilmar Lapp, Todd Vision (2009)
+  "<a href="Media:EvoBioOnt_SICB09_Vision.pdf" class="wikilink"
+  title="Software and database resources for curation and management of evolutionary phenotypes">Software
+  and database resources for curation and management of evolutionary
+  phenotypes</a>". Presentation (by T. Vision) at the [2nd Evolutionary
+  Biology and Ontologies
+  workshop](http://www.bioontology.org/wiki/index.php/Evolutionary_Biology_and_Ontologies_2009)
+  in conjunction with the [Annual Meeting of the Society for Integrative
+  and Comparative Biology
+  (SICB)](http://www.sicb.org/meetings/2009/index.php3). Boston, MA,
+  January 5, 2009.
+
+<!-- -->
+
+- <u>Wasila Dahdul</u> (2009)
+  "<a href="Media:EvoBioOnt_SICB09_Dahdul.pdf" class="wikilink"
+  title="Challenges of developing multi-species anatomy ontologies">Challenges
+  of developing multi-species anatomy ontologies</a>". Presentation at
+  the [2nd Evolutionary Biology and Ontologies
+  workshop](http://www.bioontology.org/wiki/index.php/Evolutionary_Biology_and_Ontologies_2009)
+  in conjunction with the [Annual Meeting of the Society for Integrative
+  and Comparative Biology
+  (SICB)](http://www.sicb.org/meetings/2009/index.php3). Boston, MA,
+  January 5, 2009.
+
+<!-- -->
+
+- <u>Paula Mabee</u> (2009)
+  "<a href="Media:EvoBioOnt_SICB09_Mabee.pdf" class="wikilink"
+  title="Phenoscape: Extending model organism ontologies for devo-evo studies of evolutionary phenotypes">Phenoscape:
+  Extending model organism ontologies for devo-evo studies of evolutionary
+  phenotypes</a>". Presentation at the [2nd Evolutionary Biology and
+  Ontologies
+  workshop](http://www.bioontology.org/wiki/index.php/Evolutionary_Biology_and_Ontologies_2009)
+  in conjunction with the [Annual Meeting of the Society for Integrative
+  and Comparative Biology
+  (SICB)](http://www.sicb.org/meetings/2009/index.php3). Boston, MA,
+  January 5, 2009.
+
+### 2008
+
+- Paula Mabee (2008) “Phenoscape: Bridging systematics and genetics with
+  ontologies”. Panel presentation at “Establishing Fish Collections and
+  Other Biodiversity Research Resources in Africa Countries” as part of
+  [International Workshop Enhancing Freshwater Fish Biodiversity
+  Research in Africa](http://www.museum.tulane.edu/ctolafrica/)
+  Grahamstown, South Africa, Nov. 18, 2008.
+
+<!-- -->
+
+- Paula Mabee, Jim Balhoff, Wasila Dahdul, Cartik Kothari, Hilmar Lapp,
+  John Lundberg, Peter Midford, Todd Vision, Monte Westerfield (2008)
+  “Phenoscape: Morphology linked to genes using ontologies” Poster
+  presentation (by P. Mabee) at: [International Workshop Enhancing
+  Freshwater Fish Biodiversity Research in
+  Africa](http://www.museum.tulane.edu/ctolafrica/) Grahamstown, South
+  Africa, Nov. 17, 2008.
+
+<!-- -->
+
+- Paula Mabee (2008). "Introduction to Phenoscape, annotation and
+  ontologies". Presentation at [AmphibAnat
+  workshop](http://174.133.140.86/) St. Louis, MO, Nov. 7, 2008
+
+<!-- -->
+
+- Paula Mabee, Jim Balhoff, Wasila Dahdul, Hilmar Lapp, John Lundberg,
+  Peter Midford, Todd Vision, Monte Westerfield (2008). Linking
+  evolutionary morphology to genomics using ontologies. Poster
+  (presented by Wasila Dahdul) at the [Society of Vertebrate
+  Paleontology Annual
+  Meeting](http://www.vertpaleo.org/meetings/past.cfm), Cincinnati, OH,
+  October 2008
+
+<!-- -->
+
+- Peter Midford (2008) [Taxonomic ontologies: Bridging phylogenetic and
+  taxonomic
+  history.](http://www.tdwg.org/fileadmin/2008conference/slides/Midford_06_02_TaxonomicOntologies.ppt)
+  Presentation at the 2008 TDWG Conference, Fremantle, Western
+  Australia, October 2008.
+
+<!-- -->
+
+- Paula Mabee, Jim Balhoff, Wasila Dahdul, Hilmar Lapp, John Lundberg,
+  Peter Midford, Todd Vision, Monte Westerfield (2008).
+  <a href="Media:Evolution2008-phenoscape.ppt" class="wikilink"
+  title="Linking evolutionary morphology to genomics using ontologies">Linking
+  evolutionary morphology to genomics using ontologies</a>. Poster at
+  the Evolution 2008 Conference, Minneapolis, MN, July 2008.
+
+<!-- -->
+
+- Todd Vision, Jim Balhoff, Wasila Dahdul, Hilmar Lapp, John Lundberg,
+  Paula Mabee, Peter Midford, Monte Westerfield (2008)
+  <a href="Media:Atol.march08.pdf" class="wikilink"
+  title="How to enable computable phenotypes?">How to enable computable
+  phenotypes?</a> Assembling the Tree of Life Principal Investigators
+  Meeting, Hilton St. Charles, New Orleans, LA, March 2008.
+
+<!-- -->
+
+- Paula Mabee. Keynote presentation at the NSF conference "Where to Next
+  with the Tree of Life?"
+  [<http://www.biology.uiowa.edu/ATOL/index.htm>](http://www.biology.uiowa.edu/ATOL/index.htm)
+  “Development of an Informatics System to bridge AToL and Evo-Devo”.
+  April 4, 2008.
+
+### 2007
+
+- Todd Vision and Hilmar Lapp (2008) [Prospects for enabling
+  phylogenetically informed comparative biology on the
+  web](http://www.nesc.ac.uk/esi/events/710/programme.cfm). e-Science
+  Institute PhyloInformatics Workshop, Edinburgh, UK, October 2007.
+
+<!-- -->
+
+- Paula Mabee, J.P. Balhoff, W. Dahdul, H. Lapp, J. Lundberg, P.
+  Midford, T.J. Vision, M. Westerfield (2007)
+  <a href="Media:Biocurator2007-phenoscape.ppt" class="wikilink"
+  title="Linking Evolution to Genomics Using Phenotype Ontologies">Linking
+  Evolution to Genomics Using Phenotype Ontologies</a>. Poster at the
+  [2nd Int. BioCurator
+  Meeting](http://tesuque.stanford.edu/biocurator.org/Mtg2007/), San
+  Jose, California, Oct 2007.

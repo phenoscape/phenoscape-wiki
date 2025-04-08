@@ -1,0 +1,116 @@
+---
+title: Term Definitions and References
+permalink: wiki/Term_Definitions_and_References
+layout: wiki
+---
+
+This page describes the conventions used for constructing textual and
+logical definitions, and ways to cite references for ontology term
+components (definitions, synonyms, etc.).
+
+## Textual definitions
+
+Textual term definitions facilitate the consistent use of a term in
+annotation of different data types by curators. We follow the convention
+that each term should have a textual definition of the
+**genus-differentia** form (i.e., a subclass structure of A is an A that
+has properties X and Y that distinguish it from the other subclass
+structures of A (Smith et al. 2007). Distinguishing characteristics
+typically include structural criteria, location, shape, development
+and/or a list of the parts of the entity.
+
+#### Examples
+
+The following are examples of genus-differentia definitions in the TAO.
+Note that the definition begins with the name of the parent term
+("dermal bone") followed by the characteristics that differentiate the
+defined term from all other dermal bones:
+
+***Antorbital***: Dermal bone that is located on the anterior margin of
+the infraorbital series, dorsal to the first infraorbital and lateral to
+the nasal
+
+***Dentary***: Dermal bone that forms the anterolateral part of the
+lower jaw.
+
+#### Taxonomic information
+
+Definitions are written so that they apply universally to the taxon
+under consideration. However, some taxonomic information, such as the
+presence of the structure or its variation in some quality across taxa,
+can be helpful to the user for general understanding and identification
+of the structure. Such taxonomic statements are recorded in the
+**"Comment" field** for the term. For example, 'Weberian apparatus'
+(TAO: 0001188) has the following definition: “Anatomical cluster that
+consists of the modified anteriormost vertebrae and associated
+structures that connect the swim bladder to the inner ear” and the
+following is recorded in the comment field: “Vertebra 1-4, and sometimes
+vertebra 5 in some catfishes, are part of the Weberian apparatus.
+Weberian apparatus is present in Otophysi.”
+
+## Logical definitions
+
+Logical definitions, or cross-products, are computable forms of textual
+definitions, and also take the form of genus-differentia definitions.
+They are created by combining ontology terms with a relation, enabling
+reasoners to perform automated tasks such as inferring is_a
+relationships among terms.
+
+- TODO:Examples
+- [Creating cross-products in
+  Obo-Edit](http://oboedit.org/docs/html/Introduction_to_Cross_Products.htm)
+
+## Documenting term references
+
+There are several ways to record references for the origin of
+definitions or synonyms. These include **DOIs or Pubmed IDs** to
+reference a publication. Older publications typically lack these
+identifiers, and in these cases, a **PSPUB identifier** (see below) can
+created for the reference. **URLs** can also be used to reference a term
+tracker item or website. Finally, a **curator's initials** is used in
+cases where the curator created a basic definition without the use of
+external references.
+
+### Phenoscape Publication Identifiers (PSPUB)
+
+PSPUB identifiers are identifiers created to store references to journal
+articles which lack DOI or Pubmed identifiers. They are also used to
+reference meetings or workshops during which ontology design decisions
+were made. Examples of how these are used given below.
+
+- **Reference for the origin of a definition:**
+
+`id: VAO:0000000`  
+`name: cartilaginous element`  
+`def: "Skeletal element that is composed of cartilage tissue and may be permanent or transient." [PSPUB:0000170]`
+
+  
+  
+*PSPUB:0000170*: Phenoscape Skeletal Anatomy Jamboree (2010). Brian K.
+Hall (Dalhousie University), Matthew Vickaryous (Ontario Veterinary
+College, University of Guelph), David Blackburn, University of Kansas;
+Wasila Dahdul, University of South Dakota and NESCent; Alexander Diehl,
+Mouse Genome Informatics (MGI); Melissa Haendel, Oregon Health Sciences
+University; John G. Lundberg, Department of Ichthyology, Academy of
+Natural Sciences, Philadelphia; Paula Mabee, Department of Biology,
+University of South Dakota; Martin Ringwald, Mouse Genome Informatics
+(MGI); Erik Segerdell, Oregon Health Sciences University; Ceri Van
+Slyke, Zebrafish Information Network (ZFIN); Monte Westerfield,
+Zebrafish Information Network (ZFIN) and Institute of Neuroscience,
+University of Oregon. 2010. Skeletal terms and relationships were
+created and revised at the Skeletal Anatomy Jamboree held by Phenoscape
+(NSF grant BDI-0641025) and hosted by the National Evolutionary
+Synthesis Center (NESCent), April 9-10, 2010.
+
+- **Reference for a synonym**
+
+`id: TAO:0000169`  
+`name: basisphenoid`  
+`def: "An endochondral bone that is located ventral to the pterosphenoid and dorsal to the parasphenoid. Basisphenoid is a median bone that is usually Y-shaped." [TAO:wd]`  
+`synonym: "basisphénoïde (French)" EXACT [PSPUB:0000164]`
+
+  
+  
+*PSPUB:0000164*: Chanet, B. and Desoutter-Meniger (2008).
+"French-English glossary of terms found in Chabanaud’s published works
+on Pleuronectiformes." Cybium E1: 1-23.

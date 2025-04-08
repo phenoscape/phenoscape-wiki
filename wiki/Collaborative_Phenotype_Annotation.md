@@ -1,0 +1,285 @@
+---
+title: Collaborative Phenotype Annotation
+permalink: wiki/Collaborative_Phenotype_Annotation
+layout: wiki
+tags:
+ - Curation
+ - Informatics
+redirect_from:
+ - wiki/Collaborative_phenotype_annotation
+ - wiki/MX_for_phenotype_annotation
+---
+
+## Requirements
+
+A [requirements and priorities
+document](https://docs.google.com/document/pub?id=196B6ggDem43q_RXuONK6s1_ziT-At8m_Jz1nVLJdHEc)
+is in development and being reviewed by stakeholders.
+
+## Technology options
+
+### MX
+
+#### Requirements from Phenoscape I curation workflow (that are expected to carry forward)
+
+- import matrix data from file source (usually NEXUS)
+  - *Supported. Can import character and state labels, matrix data from
+    a NEXUS file. This is a one-time import before editing in MX.*
+- hold a reference to a publication as the source for the matrix
+  - *Supported. Has a module for maintaining references (publications)
+    which can be used throughout the system. References can be used to
+    tag several different types of data in the system.*
+- view and edit matrix
+  - *Supported. Several different matrix viewing and editing modes.
+    Subsets of the matrix can be given a label and viewed/edited. In MX
+    all the characters and OTUs constitute one global matrix - a
+    labelled matrix is an arbitrary view into this big matrix via a
+    specific list of characters and OTUs.*
+- free text entry for characters and character states for a matrix
+  - *Supported.*
+- free text entry for OTUs
+  - *Supported.*
+- annotate OTUs with taxonomy ontology ID
+  - *Not directly supported. There is a taxonomy module which OTUs can
+    reference. However for Phenoscape needs we would probably implement
+    a separate ontology/controlled vocabulary field for OTUs.*
+- add specimens for each OTU, select museum code from ontology
+  - *Supported but complex. MX has a pretty comprehensive specimen
+    management module. However it is much more complex than that in
+    Phenex.*
+- ontology term autocomplete for term input
+  - *Supported, via Bioportal data services. However the EQ entry form
+    is being updated and is somewhat in flux at the moment.*
+- term info panel for terms selected in autocomplete
+  - *Not supported - would require implementation. A trivial but
+    somewhat lacking implementation could provide a link in MX that
+    would pop open the Bioportal term info page.*
+- ontology tree browsing panel or linkout to term in BioPortal tree view
+  - *Not supported - would require implementation. A trivial
+    implementation could provide a link in MX that would pop open the
+    Bioportal term info page.*
+- output to Excel report - consistency review; author page
+  - *Not supported - would require implementation. Could be nicely
+    implemented as a public-viewable web page in MX.*
+- output to KB - currently requires NeXML
+  - *Not completely supported. An OWL output format exists which could
+    be the basis for output to future revisions of the KB based on OWL
+    technology.*
+
+#### Requirements expected to newly arise (or arise at a more demanding level) in Phenoscape II
+
+- Integrate with ORB:
+  - request temporary term
+    - *Needs implementation - straightforward.*
+  - check temporary terms for official ID
+    - *Needs implementation - could be periodically run in the
+      background and the database updated directly.*
+  - use previously requested temporary terms in data
+    - *Needs implementation. Could be per project (fish, amphibians,
+      etc.)*
+- Improved UI usability:
+  - UI (data entry) and data model (OWL output) support for
+    pre-configured frequently occurring types of characters (such as
+    presence/absence (neomorphic), qualitative, count, relative
+    phenotype)
+    - *Support for character types has been implemented; however after
+      user experience with the initial version a complete revision is
+      planned (and is beginning very soon).*
+  - as few clicks as possible for reaching features for composing
+    annotations
+    - *The current implementation provides a link next to a term field
+      which pops open a post-composition window.*
+  - avoid right-clicks where possible
+    - *Right-clicks are not used in the interface.*
+  - ability to attach images to character states or entities
+    - *MX supports tagging of almost anything with images/figures.*
+  - interface that unifies access to pdfs, svn, matrix editor, orb, etc.
+    - *Currently supports storage of PDFs with refs, matrix editing. ORB
+      can be implemented. SVN would not be necessary with shared
+      database.*
+- Support collaborative phenotype annotation
+  - real-time teaching of the curation tool, practices, and results to
+    project curators
+    - Web-based implementation would facilitate remote collaboration.
+  - simultaneous editing of different parts of single data matrix
+    - *Supported well due to web-based implementation.*
+  - ability to edit a data matrix without regard to current activities
+    of other editors
+    - *Supported well due to web-based implementation.*
+  - ability to tie into real-time collaborative editing frameworks (such
+    as Google’s upcoming one, codenamed BRIX)
+    - *Unlikely to be practical.*
+  - ability to share pdfs
+    - *Supported in reference module.*
+- Support annotation of homology
+  - *Not supported - could be developed fairly easily but would be its
+    own new module.*
+  - evidence codes
+    - *Not supported but straightforward.*
+  - attribution
+    - *Not supported but straightforward.*
+- Facilitate wider use and adoption
+  - easy tool deployment to users, including software updates
+    - *Web-based application does not need to be installed by users;
+      always up-to-date.*
+  - easy deposition of annotation output to a shared repository
+    - *Would need to be developed for whatever format is required.*
+  - easy digitization of the published matrices
+    - *Unsure of meaning.*
+  - minimize or ideally obviate the need for maintaining 3rd party
+    software dependencies (such as Mesquite, or SVN tools)
+    - *SVN no longer needed. Mesquite might be needed for initial
+      massaging of original NEXUS files.*
+  - support for deposition into TreeBASE
+    - *Not currently supported - an output format would need
+      development.*
+
+### <a href="Phenex" class="wikilink" title="Phenex">Phenex</a>
+
+#### Requirements from Phenoscape I curation workflow (that are expected to carry forward)
+
+- import matrix data from file source (usually NEXUS)
+  - *Supported. Can import character and state labels, matrix data from
+    a NEXUS file. This is a one-time import before editing in Phenex.*
+- hold a reference to a publication as the source for the matrix
+  - *Supported. A PSPUB ID must be entered in a text field. The PSPUB
+    IDs are stored in a separate Endnote file maintained in SVN.*
+- view and edit matrix
+  - *Supported.*
+- free text entry for characters and character states for a matrix
+  - *Supported.*
+- free text entry for OTUs
+  - *Supported.*
+- annotate OTUs with taxonomy ontology ID
+  - *Supported.*
+- add specimens for each OTU, select museum code from ontology
+  - *Supported.*
+- ontology term autocomplete for term input
+  - *Supported.*
+- term info panel for terms selected in autocomplete
+  - *Supported. Immediately updates as terms are selected in
+    autocomplete menu.*
+- ontology tree browsing panel or linkout to term in BioPortal tree view
+  - *Supported. Built-in to app, along with various OBO-Edit ontology
+    views.*
+- output to Excel report - consistency review; author page
+  - *Supported.*
+- output to KB - currently requires NeXML
+  - *Supported. Will need update for future KB revisions based on OWL
+    technology for proper presence/absence modeling, etc.*
+
+#### Requirements expected to newly arise (or arise at a more demanding level) in Phenoscape II
+
+- Integrate with ORB:
+  - request temporary term
+    - *Needs implementation - straightforward.*
+  - check temporary terms for official ID
+    - *Needs implementation - could occur on user request or when files
+      are opened.*
+  - use previously requested temporary terms in data
+    - *Needs implementation - would probably be per user.*
+- Improved UI usability:
+  - UI (data entry) and data model (OWL output) support for
+    pre-configured frequently occurring types of characters (such as
+    presence/absence (neomorphic), qualitative, count, relative
+    phenotype)
+    - *Not supported - EQ interface and data model would need to be
+      reimplemented.*
+  - as few clicks as possible for reaching features for composing
+    annotations
+    - *Cell must be double-clicked to edit, right-clicked for
+      post-composition.*
+  - avoid right-clicks where possible
+    - *Post-composition right-click could be removed if a button were
+      added to each cell - moderately complicated in Phenex.*
+  - ability to attach images to character states or entities
+    - *Not supported. Easy to add if just need to paste an image URL in
+      a field. Showing images would require moderate amount of
+      development.*
+  - interface that unifies access to pdfs, svn, matrix editor, orb, etc.
+    - *Not really feasible to integrate all of this into Phenex. Would
+      continue to use external SVN application; probably also external
+      reference management.*
+- Support collaborative phenotype annotation
+  - real-time teaching of the curation tool, practices, and results to
+    project curators
+    - *Would require screen-sharing - not directly possible.*
+  - simultaneous editing of different parts of single data matrix
+    - *Only possible via SVN file merges - kind of risky.*
+  - ability to edit a data matrix without regard to current activities
+    of other editors
+    - *Only possible via SVN file merges - kind of risky.*
+  - ability to tie into real-time collaborative editing frameworks (such
+    as Google’s upcoming one, codenamed BRIX)
+    - *Practically impossible.*
+  - ability to share pdfs
+    - *Not supported.*
+- Support annotation of homology
+  - *Currently done in a separate Phenote application. Could be added to
+    Phenex, but this functionality is completely independent of the data
+    matrix core of Phenex.*
+  - evidence codes
+    - *Supported in Phenote.*
+  - attribution
+    - *Supported in Phenote.*
+- Facilitate wider use and adoption
+  - easy tool deployment to users, including software updates
+    - *Requires download of new versions and manual replacement.*
+  - easy deposition of annotation output to a shared repository
+    - *Supported via SVN for data files. KB imports these directly.*
+  - easy digitization of the published matrices
+    - *Unsure of meaning.*
+  - minimize or ideally obviate the need for maintaining 3rd party
+    software dependencies (such as Mesquite, or SVN tools)
+  - support for deposition into TreeBASE
+    - *Not directly supported - does TreeBASE support NeXML deposition?*
+
+## Original basic overview comparison
+
+### MX
+
+The [MX web application](http://mx.phenomix.org/index.php/Main_Page) is
+being enhanced with features for EQ annotation of character matrix data.
+Phenoscape may be interested in adopting this system for data curation.
+This page collects a list of pros and cons to help decide whether to
+adopt the MX web application or continue using the
+<a href="Phenex" class="wikilink" title="Phenex">Phenex</a> desktop
+software.
+
+**Pros:**
+
+- web based, central database
+  - easy collaboration
+  - record of who changed what
+  - latest application version always running
+- many other features besides EQ annotation
+- easy to create new pages displaying various reports using data
+- initial development of phenotype categories for EQ
+- unify more of Jim's effort
+
+**Cons**:
+
+- many other features besides EQ annotation
+- missing ontology visualization tools
+- EQ interface in flux - not quite ready for primetime
+- requires internet connection
+- output format suitable for KB ingestion must be coded
+- reliance on BioPortal web services for ontology data
+- less independence for anonymous user - requires server management,
+  project accounts
+
+### <a href="Phenex" class="wikilink" title="Phenex">Phenex</a>
+
+**Pros**:
+
+- outputs files ready for KB; workflow in place
+- integrates OBO-Edit code for ontology visualization and query
+- "simple", targeted interface
+- easy to point to customized versions of ontologies
+
+**Cons**:
+
+- less flexible interface
+- requires use of version control system for collaboration
+- tightly coupled to OBO format
+- updates must be manually downloaded and installed

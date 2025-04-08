@@ -1,0 +1,202 @@
+---
+title: Phenex release history
+permalink: wiki/Phenex_release_history
+layout: wiki
+tags:
+ - Informatics
+ - Phenex
+ - Software
+ - Obsolete pages
+---
+
+## Phenex 1.10
+
+Released 2013-07-19.
+
+- \[<https://github.com/phenoscape/Phenex/compare/v1.9>...v1.10 Source
+  changes\]
+- New features for matrix editing: consolidate selected characters;
+  create new character with selected states.
+
+## Phenex 1.9
+
+Released 2013-06-18.
+
+- \[<https://github.com/phenoscape/Phenex/compare/v1.8>...v1.9 Source
+  changes\]
+- New feature: ORB user settings for provisional term requests are now
+  configurable.
+- Unified consistency checking between annotation checker panel and
+  consistency review panel.
+- Updated user interface for native look on OS X Mountain Lion.
+
+## Phenex 1.8
+
+Released 2013-03-05.
+
+- \[<https://github.com/phenoscape/Phenex/compare/v1.7>...v1.8 Source
+  changes\]
+- New feature:
+  <a href="Phenex#Consistency_Review_panel" class="wikilink"
+  title="Consistency review panel">Consistency review panel</a>
+
+## Phenex 1.7
+
+Released 2012-12-07.
+
+- \[<https://github.com/phenoscape/Phenex/compare/v1.6.3>...v1.7 Source
+  changes\]
+- New feature: Annotation checker panel
+- Increased max memory setting to 2 gigabytes.
+
+## Phenex 1.6.3
+
+Released 2012-12-05.
+
+- \[<https://github.com/phenoscape/Phenex/compare/v1.6.2>...v1.6.3
+  Source changes\]
+- Bugfix: Added missing Phenex relations list to default ontology
+  configuration.
+
+## Phenex 1.6.2
+
+Released 2012-12-03.
+
+- \[<https://github.com/phenoscape/Phenex/compare/v1.6.1>...v1.6.2
+  Source changes\]
+- Fixed a problem with the version number in the release.
+
+## Phenex 1.6.1
+
+Released 2012-12-03.
+
+- \[<https://github.com/phenoscape/Phenex/compare/v1.6>...v1.6.1 Source
+  changes\]
+- Updated entities filter to allow any term with the UBERON prefix.
+- Fixed editing issue with publication notes field.
+- Fixed null pointer exception in tab-delimited export.
+
+## Phenex 1.6
+
+Released 2012-10-09.
+
+- \[<https://github.com/phenoscape/Phenex/compare/v1.5.1>...v1.6 Source
+  changes\]
+- New feature: full support for reading, writing, and editing
+  <a href="Phenex#Entering_polymorphic_or_uncertain_state_values"
+  class="wikilink"
+  title="polymorphic values within matrix cells">polymorphic values within
+  matrix cells</a>.
+- Removed NEXUS import features. NEXUS files should instead be
+  <a href="Phenex#Importing_data_from_a_NEXUS_file" class="wikilink"
+  title="converted to NeXML using Mesquite">converted to NeXML using
+  Mesquite</a>.
+
+## Phenex 1.5.1
+
+Released 2012-10-03.
+
+- \[<https://github.com/phenoscape/Phenex/compare/v1.5>...v1.5.1 Source
+  changes\]
+- Fixed a problem with download of provisional terms from Bioportal.
+
+## Phenex 1.5
+
+Released 2012-09-20.
+
+- \[<https://github.com/phenoscape/Phenex/compare/v1.4.3>...v1.5 Source
+  changes\]
+- New feature: auto-migration of obsolete terms when there is a
+  replaced_by tag.
+- New feature: auto-migration of provisional terms when a permanent ID
+  has been assigned.
+- New feature: reading and writing of polymorphic/uncertain states
+  from/to NeXML (this roundtrips values, but does not allow editing).
+- Phenex now displays an alert panel, rather than crashes, when there
+  has been an ontology load error.
+- Reversed default for autosave feature (default is now OFF).
+
+## Phenex 1.4.3
+
+Released 2012-08-17.
+
+- \[<https://github.com/phenoscape/Phenex/compare/v1.4.2>...v1.4.3
+  Source changes\]
+- Updated OBO-Edit libraries.
+
+## Phenex 1.4.2
+
+Released 2012-08-15.
+
+- \[<https://github.com/phenoscape/Phenex/compare/v1.4.1>...v1.4.2
+  Source changes\]
+
+## Phenex 1.4.1
+
+Released 2012-08-03.
+
+- \[<https://github.com/phenoscape/Phenex/compare/v1.4>...v1.4.1 Source
+  changes\]
+
+## Phenex 1.4
+
+Released 2012-08-03.
+
+- \[<https://github.com/phenoscape/Phenex/compare/v1.2.1>...v1.4 Source
+  changes\]
+
+## Phenex 1.2.1
+
+Released 2012-01-30.
+
+- \[<https://github.com/phenoscape/Phenex/compare/v1.2>...v1.2.1 Source
+  changes\]
+
+## Phenex 1.2
+
+Released 2012-01-26.
+
+- [Source
+  changes](https://github.com/phenoscape/Phenex/compare/v1.1.4…v1.2)
+
+## Phenex 1.1.4
+
+Released 2011-09-20.
+
+- [Source
+  changes](https://github.com/phenoscape/Phenex/compare/v1.1.3…v1.1.4)
+
+## Phenex 1.1.3
+
+Released 2011-09-14.
+
+- [Source
+  changes](https://github.com/phenoscape/Phenex/compare/v1.1.2…v1.1.3)
+
+## Phenex 1.1.2
+
+Released 2010-10-25.
+
+- [Source
+  changes](https://github.com/phenoscape/Phenex/compare/v1.1.1…v1.1.2)
+
+## Phenex 1.1.1
+
+Released 2010-09-20.
+
+- [Source
+  changes](https://github.com/phenoscape/Phenex/compare/v1.1…v1.1.1)
+
+## Phenex 1.1
+
+Released 2010-09-02.
+
+- [Source
+  changes](https://github.com/phenoscape/Phenex/compare/v1.0.5…v1.1)
+
+## Phenex 1.0.5
+
+Released 2010-07-19.
+
+- [Source
+  changes](https://github.com/phenoscape/Phenex/compare/v1.0.4…v1.0.5)

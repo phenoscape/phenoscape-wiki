@@ -1,0 +1,126 @@
+---
+title: Ontology workflow
+permalink: wiki/Ontology_workflow
+layout: wiki
+---
+
+#### Using Version Control
+
+SmartSVN is the SVN client we use for keeping local copies of ontologies
+on your computer synchronized with those in the SVN (SubVersion server)
+To get SmartSVN, go to their site
+[1](http://www.smartsvn.com/SmartSVN)\].
+
+Do an SVN checkout of
+[2](http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/vocab/)
+Contact Hilmar or Jim if you need help with passwords.
+
+General workflow; begin each day by: Starting up SmartSVN and update the
+edit (phenoscape-ext) directory.
+
+### Read Me File
+
+NOTE that there is a "Read Me" file in the phenoscape-ext directory
+here:
+[3](http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/vocab/edit/README.txt?view=log)
+
+The content here is to get you started, but you should always be working
+in such a way as to be consistent with the Read Me file. Look for
+updates to this file when you update your SVN.
+
+### Setting up your ID range
+
+Ensure that you have Protege configured to generate new IRIs in your own
+range. The ranges are indicated in this file:
+[4](http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/vocab/edit/phenoscape-idranges.owl?view=log)
+You can adjust the ID range in the preferences panel, New Entities tab.
+
+Note that if you edit multiple files, you need to check this every time
+to ensure that the proper settings are in place. ALWAYS check the URI of
+the first class you create in each session to see that it is working
+properly.
+
+## Ontology definitions
+
+Term definitions are important because they facilitate consistent use of
+a term in annotation of disparate data types by different curators.
+Ontologies follow the convention that each term should have a textual
+definition of the genus-differentia form, i.e., a subclass structure of
+A is an A that has properties X and Y that distinguish it from the other
+subclass structures of A (Smith et al. 2007).
+
+The entity term B is defined by its membership in higher category entity
+A and distinguished from its sibling terms by characteristic X. Entity
+definitions are primarily based on structural criteria. Distinguishing
+characteristics (X) can include the location, shape, and a list of the
+parts of the entity.
+
+The following are examples of genus-differentia definitions in the
+Teleost Anatomy Ontology:
+
+1.  *Antorbital:* Dermal bone that is located on the anterior margin of
+    the infraorbital series, dorsal to the first infraorbital and
+    lateral to the nasal bone.
+2.  *Dentary:* Dermal bone that forms the anterolateral part of the
+    lower jaw.
+
+In example 1, the definition mentions the parent dermal bone of the term
+antorbital, followed by the characteristics that differentiate
+antorbital from all other dermal bones.
+
+Comments: Taxonomic statements to be applied to a structure, which are
+not universals, are recorded in the comment field for that term. For
+example, Weberian apparatus (TAO: 0001188 ) has the following
+definition: “Anatomical cluster that consists of the modified
+anteriormost vertebrae and associated structures that connect the swim
+bladder to the inner ear.,” and the following is recorded in the comment
+field: “Vertebra 1-4, and sometimes vertebra 5 in some catfishes, are
+part of the Weberian apparatus. Weberian apparatus is present in
+Otophysi.” Here the statements about components of the Weberian
+apparatus do not universally apply to all teleosts, but is included in
+the comment field because this information is potentially helpful to the
+ontology user for general understanding and for identifying structures.
+
+### Making ontology edits using Protege 4
+
+1\. Start P4. Go to File\>Load ontologies. Navigate to Phenoscape-ext on
+your versioned directory on your hardrive.
+
+2\. Switch on the Elk reasoner. If you are making changes, be sure to
+synchronize the reasoner. If you do not have the ELK reasoner, you can
+get it here: [5](http://code.google.com/p/elk-reasoner/downloads/list)
+
+You have access rights to any classes that are highlighted in bold font.
+Do not make changes to classes that are NOT in bold - changes here go
+through the uberon tracker, or be brought up on the mailing list. Note
+that it is fine for any request to go on the uberon tracker. The tracker
+is here:
+[6](https://github.com/cmungall/uberon/issues?direction=desc&sort=created&state=open)
+
+3\. Saving to same file location regularly.
+
+4\. Commit regularly. Always describe the changes you have made at a
+high level in the svn commit messages. These are searchable in the logs
+and very helpful for troubleshooting. It is ok to be verbose, it is not
+ok to be too terse. Always do a "svn diff" before committing to look at
+your changes. It is easier to look at a few changes, as there are often
+serialization changes from Protege, usually you can see that things have
+moved around but not really changed. You should be able to identify the
+intended changes.
+
+5\. Commit to SVN repository
+
+### Fulfilling ORB requests
+
+1\. Go to the ORB tracker here: <http://rdf.phenoscape.org/provisional/>
+
+2\. Implement a request as per the ReadMe and instructions above.
+
+3\. Commit, and then wait for the Jenkins build to tell you the build
+was successful here:
+<http://build.berkeleybop.org/view/Anatomy/job/build-phenoscape/>
+
+4\. Add the URI/IRI to the ORB tracker.
+
+This process will ensure that the new entity is available to Phenex when
+indicated in the ORB tracker.

@@ -1,0 +1,129 @@
+---
+title: OWL modeling of EQ phenotypes
+permalink: wiki/OWL_modeling_of_EQ_phenotypes
+layout: wiki
+tags:
+ - Ontology
+ - EQ Annotation
+ - Reasoning
+---
+
+This page documents OWL class expressions for particular categories of
+phenotypes modeled as EQs. This is to provide explicit examples of EQs
+representing common character types and also to help clarify a
+classification of phenotypes. This classification will be helpful when
+communicating about these phenotypes and also for directing design of
+curatorial user interfaces facilitating input of various types of EQs.
+The examples all use the [OWL Manchester
+syntax](http://www.w3.org/TR/owl2-manchester-syntax/).
+
+## Basic phenotype
+
+A quality of a singe physical entity. Example: “sigmoid-shaped
+supraorbital bone”:
+
+**sigmoid** that *inheres_in* some **supraorbital_bone**
+
+## Relational phenotype (Dependent phenotype?)
+
+Relational qualities are those that exist between multiple entities. For
+example, “parietal fused with supraoccipital” is represented as:
+
+**fused_with** that *inheres_in* some **parietal** and *towards* some
+**supraoccipital**
+
+## Comparative phenotype
+
+In the systematics literature, the size of a structure is often compared
+to the size of different structure, or it is compared to the same
+structure in another taxon.
+
+### Compared to another structure
+
+For example, an author may compare the length of one bone relative to
+another (e.g., state 0: "frontal length greater than parietal length"
+vs. state 1: frontal length shorter than parietal length"). State 0 is
+represented as:
+
+**length** that *inheres_in* some **frontal** and
+*increased_in_magnitude_relative_to* some (**length** that *inheres_in*
+some **parietal**)
+
+### Compared to same structure in another taxon
+
+Comparison of the length of one bone across species (e.g., “state 0:
+frontal large” vs. “state 1: frontal small”, with taxonomic distribution
+recorded in the character by taxon matrix).
+
+#### Reference to a particular taxon
+
+When referencing a particular (possibly outgroup) taxon:
+
+**length** that *inheres_in* some **frontal** and
+*increased_in_magnitude_relative_to* some (**length** that *inheres_in*
+some **frontal** and *in_taxon* some **Ictaluridae**)
+
+#### Local relative phenotypes without explicit taxonomic references
+
+"Local" relative length classes must be defined for the character and
+then used across all phenotype annotations for that character:
+
+Class: **character_1_state_0**  
+EquivalentTo: **length** and *inheres_in* some **frontal** and
+*increased_in_magnitude_relative_to* some **character_1_state_1**
+
+Class: **character_1_state_1**  
+EquivalentTo: **length** and *inheres_in* some **frontal** and
+*decreased_in_magnitude_relative_to* some **character_1_state_0**
+
+## Complementary phenotype
+
+Many characters are of this form - character: "shape of opercle"; state
+0: "round", state 1: "not round". The author is not specifying what the
+shape of the opercle in state 1 is except that it is not round. This is
+more usefully expressed as complementation of a class ("not" in
+Manchester syntax) rather than negation of a statement:
+
+**shape** that *inheres_in* some **opercle** and not **round**
+
+## Presence/absence phenotype
+
+The presence or absence of a structure should be expressed a negation of
+the has_part property. For example, "frontal bone, absent":
+
+not (*has_part* some **frontal**)
+
+For "present":
+
+*has_part* some **frontal**
+
+If the absence is within a particular structure:
+
+*has_part* some (**dorsal_fin** that not (*has_part* some
+**actinotrichium**))
+
+## Count phenotype
+
+Counts can be expressed as a generalization of presence/absence. Both
+exact counts and maximum or minimums can be expressed. So, for the
+character "Number of scales on dorsal fin", state 0: 45, state 1: \>45,
+
+state 0:
+
+*has_part* some (**dorsal_fin** that *has_part* exactly 45 **scale**)
+
+state 1:
+
+*has_part* some (**dorsal_fin** that *has_part* min 46 **scale**)
+
+## Measurements
+
+A direct measurement of the magnitude of some quality of a structure.
+
+**length** that *inheres_in* some **femur** and *has_measurement* some
+(*has_quantity* value `10.3f` and *has_unit* value `cm`)
+
+The properties *has_measurement*, *has_quantity*, and *has_unit* need to
+be standardized - there may be some in OBO_REL that can be used. This
+version assumes that `cm` is available as an individual in some units
+terminology.

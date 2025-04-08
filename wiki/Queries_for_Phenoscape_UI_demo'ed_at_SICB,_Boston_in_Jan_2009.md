@@ -1,0 +1,108 @@
+---
+title: Queries for Phenoscape UI demo'ed at SICB, Boston in Jan 2009
+permalink: wiki/Queries_for_Phenoscape_UI_demo'ed_at_SICB,_Boston_in_Jan_2009
+layout: wiki
+tags:
+ - Database
+---
+
+This page documents the queries implemented to retrieve data for the
+Anatomy Web Services module of the Phenoscape project, which was
+demonstrated at the SICB Workshop in Boston, MA in Jan 2009.
+
+## Query details
+
+These queries correspond to the queries Q1~Q4 detailed in the
+<a href="Queries#Querying_strategy_for_the_SICB_prototype"
+class="wikilink" title="Queries">Queries</a> page. The anatomical
+feature being searched for is TAO:0001510 (Basihyal Cartilage)
+
+## Query 1 (Q1)
+
+This query retrieves the phenotypes from the database that are composed
+from the anatomical feature as one of their components. These retrieved
+phenotypes are parsed to retrieve the qualities associated with the
+anatomical feature being searched for. These retrieved qualities are
+input to query Q2
+
+### SQL
+
+<javascript> SELECT \* FROM node_link_node_with_pred_and_source WHERE
+pred_uid LIKE '%PHENOSCAPE:exhibits%' AND object_uid LIKE
+'%TAO:0001510%'; </javascript>
+
+### Execution
+
+- Time : 145 Milliseconds
+- Rows Returned: 25
+
+## Query 2 (Q2)
+
+For each Quality that is retrieved by Q1, this query Q2 is executed to
+determine if it is an attribute or a value. A lookup table is populated
+to avoid redundant queries. This example is using PATO:0000467 (present
+in normal numbers in the organism)
+
+### SQL
+
+<javascript> SELECT \* FROM node_link_node_with_pred_and_source WHERE
+pred_uid LIKE '%oboInOwl:inSubset%' AND node_uid LIKE '%PATO:0000467%';
+</javascript>
+
+### Execution
+
+- Time: 286 milliseconds
+- Rows returned: 485
+
+## Query 3 (Q3)
+
+If the results from Q2 show the Quality is a Value, then this query Q3
+is executed to find out the Attribute
+
+### SQL
+
+<javascript> SELECT \* FROM node_link_node_with_pred_and_source WHERE
+node_uid LIKE '%PATO:0000467%' AND pred_uid LIKE '%OBO_REL:is_a%';
+</javascript>
+
+### Execution
+
+- Time: 199 milliseconds
+- Rows returned: 685
+
+### Notes on Queries Q2 and Q3
+
+- Queries Q2 and Q3 return many more rows than anticipated because they
+  use wildcard matches. Therefore rows containing only the search term
+  (PATO:0000467) and also the rows containing phenotypes containing the
+  search term (PATO:0000467^inheres_in:...) are returned
+- The attribute is determined by this query Q3 because the reasoner adds
+  all the transitive *is_a* relationships between the search term and
+  its super attributes and all these inferred rows are retrieved by Q3
+- Q2 and Q3 are executed several times. An attribute-value lookup table
+  is populated from the results of the earlier executions. If the value
+  being searched for is found to be mapped to a specific attribute in
+  the lookup table, the attribute is retrieved directly from the lookup
+  table and the executions of database queries Q2 and Q3 are avoided.
+  Coupled with connection, query execution, and data transfer times,
+  this leads to significant time savings.
+
+## Query 4 (Q4)
+
+The sub anatomical features for the given anatomical feature are
+retrieved in this query. Here, we search for the sub anatomical features
+of TAO:0001510 (basihyal cartilage). This query, if started with a TAO
+feature, will often retrieve a corresponding ZFA feature (if the DbXref
+link has been asserted). For every feature retrieved by the query, the
+process described above starts off again.
+
+### SQL
+
+<javascript> SELECT \* FROM node_link_node_with_pred_and_source WHERE
+object_uid LIKE '%TAO:0001510%' AND pred_uid LIKE '%OBO_REL:is_a%';
+</javascript>
+
+### Execution
+
+- Time: 162 ms
+- Rows returned: 2

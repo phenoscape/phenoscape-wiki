@@ -1,0 +1,109 @@
+---
+title: Update Taxon Lists
+permalink: wiki/Update_Taxon_Lists
+layout: wiki
+tags:
+ - Curation
+---
+
+If you need to create a taxon list for a publication, see
+<a href="Creating_Taxon_Lists" class="wikilink"
+title=" Creating Taxon Lists instructions"> Creating Taxon Lists
+instructions</a>.
+
+The following are instructions on how to update a taxon list for
+taxonomy and submit requests for needed taxonomic names in the VTO.
+
+#### Open file in Phenex
+
+Make sure that you have an internet connection before starting Phenex as
+the software will need to download updated ontology files if available.
+
+Choose the Taxon perspective by going to Window\>Taxon. This will
+display only the Taxon panels (Taxa, Specimens, Term Info) in Phenex.
+
+#### Review Taxon List
+
+The Taxa and Specimens Panels are used to record information from a
+publication's materials list. Within the Taxa Panel, the Publication
+Taxon field is a free-text field listing the names of all taxa used in
+the publication, and the Valid Taxon field is an ontology-enabled field
+linked to the Vertebrate Taxonomy Ontology, and used to record the
+current, valid names of the taxa. Comments or questions about a
+particular entry are recorded in the Taxon Comments column. The Matrix
+Taxon field (which you usually do not need to edit) is used to record
+the name of taxa used in the matrix. Specimen information (museum
+vouchers) for each species is recorded in the Specimens table.
+
+You can sort the data by clicking on any column header. Sort the "Taxon
+Comments" column to view the questions or comments that a student
+recorded about the taxon list. Also sort by "Valid Taxon" to view
+missing entries.
+
+#### Making updates to taxon entries
+
+The names listed in the **Publication Taxon** column are those used in
+the publication, and should not require editing by curators (though edit
+if there is an obvious mismatch with the publication, usually because of
+a mistaken entry by a student). **Valid Taxon** names will usually need
+to be updated.
+
+Not all publication taxa need to be updated with valid taxon names: only
+update those that were used in the matrix. To find taxa associated with
+matrix data, look at: 1) the **Matrix Taxon** column in the Taxa Panel,
+which will contain higher level taxon names if used by an author as a
+placeholder for multiple taxa; 2) the Publication Taxon column within
+the **Matrix Panel** (View \> Annotation \> Matrix).
+
+If you make any updates on a file or submit term requests for an entry,
+be sure to write a note in the Taxon Comments column detailing your
+actions.
+
+#### Taxonomy ontology change requests
+
+1.  Taxon name misspelled: Misspellings are requested as synonyms of the
+    correctly spelled taxon name in the VTO. Choose the appropriate name
+    from the Valid Taxon field, and add note in Taxon Comments field
+    (e.g., Requested addition of synonym to VTO, Your Name, 7/28/2008)
+2.  If an author has made an error in the generic assignment of a
+    species, which does not represent a difference in taxonomic opinion
+    or concepts, then the current valid name of that species should be
+    chosen, and the erroneous name should be added to VTO as a synonym
+    of the valid name. The curator should add a comment in the Taxon
+    Comments about the request.
+3.  Taxon name not found: If the missing taxon name is a synonym of a
+    valid name, then the synonym will need to be added to the taxonomy
+    ontology. Add a note in Taxon Comments field (e.g., taxon XY is
+    synonym of XZ: submitted VTO request on 7/28/2008 by Your Name).
+4.  Unnamed or unknown species: Examples of unnamed or unknown species
+    in a Materials list might include: Danio sp., Cyprinus sp. 1,
+    Cyprinus sp. 2, Danio aff. dangila, Danio cf. dangila, etc... These
+    names should be added to the taxonomy ontology with reference to the
+    publication. In this example, for a publication by Smith 2008, the
+    request for new species names would be:
+
+- Danio sp. (Smith 2008)
+- Cyprinus sp. 1 (Smith 2008)
+- Cyprinus sp. 2 (Smith 2008)
+- Danio aff. dangila (Smith 2008)
+- Danio cf. dangila (Smith 2008)
+
+##### *Taxonomic Requests*
+
+You need only submit one request per publication. See [term request
+instructions](https://www.nescent.org/phenoscape/Term_Requests) for the
+VTO.
+
+##### *Museum Code Requests*
+
+We use the Fish Collection Codes spreadsheet on Google Docs, along with
+the taxonomy term tracker, to request the addition of missing codes, or
+request addition of synonyms of an existing code. See instructions
+[here](https://www.nescent.org/phenoscape/Term_Requests#Collection_Code_requests)
+
+#### Update entry for publication on Google Docs
+
+Remember to make a note (dated) in the Taxon List Notes column of the
+shared publication spreadsheet on Google Docs (ask a Phenoscaper for
+access to the spreadsheet), recording that you have reviewed the taxon
+list and made any necessary term requests.

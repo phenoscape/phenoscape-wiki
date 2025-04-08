@@ -1,0 +1,239 @@
+---
+title: Phenoscape KB
+permalink: wiki/Phenoscape_KB
+layout: wiki
+tags:
+ - Informatics
+ - Database
+ - Reasoning
+ - API
+ - Software
+---
+
+The Phenoscape Knowledgebase (KB) is an integrated dataset, and software
+infrastructure and services, bringing together evolutionary data
+matrices annotated by Phenoscape curators, model organism phenotype and
+gene expression annotations, and a collection of ontologies providing a
+common semantic framework. The entire dataset is expressed in the OWL
+Web Ontology Language, and, when used as a database, stored in an RDF
+triplestore.
+
+*This page describes the in-development version of the KB built on OWL
+and RDF technologies, not the legacy Phenoscape Knowledgebase built on
+OBD.*
+
+## Data sources
+
+### Comparative data
+
+#### Phenoscape
+
+- [Evolutionary data matrices annotated by Phenoscape
+  curators](https://github.com/phenoscape/phenoscape-data/tree/master/Curation%20Files)
+
+### Model organism data
+
+#### ZFIN
+
+Gene expression and genetic phenotype annotations for zebrafish (*Danio
+rerio*). ZFIN data downloads can be found at
+<http://zfin.org/downloads>.
+
+- Gene identifiers and names
+  - <http://zfin.org/downloads/genetic_markers.txt>
+  - <http://zfin.org/downloads/aliases.txt>
+- Gene expression annotations
+  - <http://zfin.org/downloads/wildtype-expression.txt>
+- Genetic phenotype annotations
+  - <http://zfin.org/downloads/phenoGeneClean.txt>
+
+#### MGI
+
+Gene expression and genetic phenotype annotations for mouse (*Mus
+musculus*). MGI data downloads can be found at
+<ftp://ftp.informatics.jax.org/pub/reports/index.html>.
+
+- Gene identifiers and names
+  - <ftp://ftp.informatics.jax.org/pub/reports/MRK_List2.rpt>
+- Gene expression annotations
+  - Custom report provided by Terry Hayamizu. We are working with MGI to
+    establish continually updated downloadable reports.
+- Genetic phenotype annotations
+  - Custom report provided by Terry Hayamizu. We are working with MGI to
+    establish continually updated downloadable reports.
+
+#### Xenbase
+
+Gene expression and genetic phenotype annotations for frog (*Xenopus
+laevis* and *X. tropicalis*). Xenbase data downloads can be found at
+<ftp://ftp.xenbase.org/pub>.
+
+- Gene identifiers and names
+  - <ftp://ftp.xenbase.org/pub/GenePageReports/GenePageGeneralInfo_ManuallyCurated.txt>
+  - <ftp://ftp.xenbase.org/pub/GenePageReports/XenbaseGenepageToGeneIdMapping.txt>
+- Gene expression annotations
+  - <ftp://ftp.xenbase.org/pub/GenePageReports/GeneExpression_laevis.txt>
+  - <ftp://ftp.xenbase.org/pub//GenePageReports/GeneExpression_tropicalis.txt>
+- Genetic phenotype annotations
+  - A preliminary annotation file has been provided by Xenbase curators.
+    Not yet imported into the KB.
+
+#### HPO
+
+Genetic phenotype annotations for human (*Homo sapiens*). HPO data
+downloads can be found at
+<http://www.human-phenotype-ontology.org/contao/index.php/downloads.html>.
+
+- Genetic phenotype annotations
+  - <http://compbio.charite.de/hudson/job/hpo.annotations.monthly/lastStableBuild/artifact/annotation/ALL_SOURCES_ALL_FREQUENCIES_genes_to_phenotype.txt>
+
+### Ontologies
+
+- Uberon cross-species anatomy ontology, with Phenoscape extensions
+  - <http://purl.obolibrary.org/obo/uberon/ext.owl>
+  - Imports <http://purl.obolibrary.org/obo/uberon/merged.owl>
+  - Imports
+    <http://purl.obolibrary.org/obo/uberon/references/references.owl>
+- Zebrafish anatomy
+  - <http://purl.obolibrary.org/obo/zfa.owl>
+  - Bridge axioms to Uberon:
+    <http://purl.obolibrary.org/obo/uberon/bridge/uberon-ext-bridge-to-zfa.owl>
+- Mouse annotations provided by Terry directly reference Uberon; no
+  mouse-specific ontologies are used at this time. *Out of date, need to
+  update*
+- Xenopus anatomy
+  - <http://purl.obolibrary.org/obo/xao.owl>
+  - Bridge axioms to Uberon:
+    <http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.owl>
+- Human phenotypes
+  - <http://purl.obolibrary.org/obo/hp.owl>
+  - Logical definitions for human phenotype classes (FMA + PATO):
+    <http://purl.obolibrary.org/obo/hp/hp-equivalence-axioms.obo>
+    - This file is converted to OWL after introducing a special header,
+      `logical-definition-view-relation: involves`, which is used by the
+      oboformat converter.
+  - Bridge axioms from FMA (human anatomy) to Uberon:
+    <http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fma.owl>
+  - FMA itself is not used *(should it be? are there FMA classes used in
+    the HP definitions that don't have direct mappings in the bridge
+    file?)*
+- Gene Ontology
+  - <http://purl.obolibrary.org/obo/go.owl>
+- Biospatial ontology
+  - <http://purl.obolibrary.org/obo/bspo.owl>
+- Phenotypic quality ontology
+  - <http://purl.obolibrary.org/obo/pato.owl>
+- Vertebrate taxonomy
+  - <http://purl.obolibrary.org/obo/vto.owl>
+  - An <a href="individual-based_taxonomy" class="wikilink"
+    title="individual-based taxonomy">individual-based taxonomy</a> is
+    generated from this class hierarchy, and both are loaded into the
+    KB.
+- Ontology metadata
+  - <http://purl.obolibrary.org/obo/iao/ontology-metadata.owl>
+
+## Production tools
+
+All of the inputs to the Phenoscape KB are processed to create a
+coherent semantic model in OWL. For OWL-based ontology files, processing
+may be minimal. For input datasets, we have written conversion tools
+which generate OWL-formatted data from input tables.
+
+### Phenoscape OWL tools
+
+This project provides a collection of Scala classes which implement
+various ontology manipulations, as well as OWL converters for the
+various data formats used by our data providers.
+
+- <https://github.com/phenoscape/phenoscape-owl-tools>
+
+### KB build process
+
+The Knowledgebase is built using a [Scala
+script](https://github.com/phenoscape/phenoscape-owl-tools/blob/master/src/main/scala/org/phenoscape/owl/build/PhenoscapeKB.scala)
+within the Phenoscape OWL tools codebase. It orchestrates coordinates
+OWL conversions and reasoning tasks. The result is a set of OWL files,
+constituting the Phenoscape KB, which can be loaded together into an RDF
+triplestore.
+
+An overview of specific components of the
+<a href="KB_build_process" class="wikilink" title="KB build process">KB
+build process</a> is available.
+
+## Reasoning process
+
+The OWL ontologies and data files constituting the Phenoscape KB are
+ultimately loaded into an RDF triplestore for use as a database back-end
+for the KB web application. The SPARQL query language provides a natural
+interface to semantic web data; however, support for query-time
+reasoning within RDF triplestores is severely limited in both
+performance (in the face of large, complex ontologies) and OWL
+expressivity. Further, while SPARQL and RDF are perfectly "aligned" with
+OWL instance data and property assertions, queries that require direct
+manipulation of the RDF serialization implementation details of OWL
+class expressions and complex axioms are over-complicated, error-prone,
+and bound to result in possibly faulty attempts to embed OWL reasoning
+logic into the structure of the query.
+
+These considerations have contributed to a number of guiding principles
+for the production of OWL data for the KB:
+
+- Impedance mismatch between SPARQL and OWL must be considered when
+  modeling data for SPARQL query.
+  - Any logical inferences which we wish to make use of in the web
+    application interface must be precomputed and asserted into the
+    triplestore knowledgebase.
+  - SPARQL queries should be able to obtain the desired results by
+    making use of only named classes; it should not be necessary to
+    describe OWL class expressions via SPARQL triple patterns.
+  - [Owlet](https://github.com/phenoscape/owlet) is available as a
+    workaround for describing anonymous classes to be used in a SPARQL
+    query.
+- Currently available OWL reasoners provide dramatically better
+  performance when computing an inferred class hierarchy vs. making
+  inferences about OWL individuals. This is evident even with the very
+  high performance [ELK
+  reasoner](https://code.google.com/p/elk-reasoner/) for the OWL EL
+  profile. For this reason data are modeled in such a way that class
+  axioms can be extracted from datasets, combined with ontologies and
+  reasoned over separately, then merged back with datasets containing
+  OWL individuals.
+- At the scale of the Phenoscape KB, the ELK reasoner is nearly always
+  the only reasoner capable of producing a timely result (a few minutes
+  vs. an uncounted number of days) for reasoning use cases. Even
+  dividing up the dataset into smaller pieces that can be reasoned
+  independently does not seem to be worth it; the size of the
+  terminology is still quite large and it is difficult to separate
+  pieces that are known to not logically interact.
+  - For this reason most modeling/reasoning expectations must fall
+    within the OWL EL profile. We have developed some programmatic
+    workarounds to compute a hierarchy of absence phenotypes.
+    *TODO—describe*
+- *TODO property normalization*
+- *TODO memory requirements*
+
+## Database and web application
+
+The RDF output of the production script is loaded into an RDF
+triplestore. We are currently using the
+[Bigdata](http://www.systap.com/bigdata.htm) triplestore. In selecting
+an RDF triplestore for the KB, we have a few basic requirements:
+
+- SPARQL endpoint.
+- Support for [SPARQL 1.1 query
+  language](http://www.w3.org/TR/2013/REC-sparql11-query-20130321/).
+  This is required for aggregates such as "COUNT". "Property paths" also
+  provide basic transitivity reasoning which can be useful for ad hoc
+  queries, even if not performant enough for use in queries from the web
+  application.
+- Embedded full-text index available within SPARQL queries.
+
+Nice features (not required but possibly needed for certain interface
+features):
+
+- [Concise bounded description](http://www.w3.org/Submission/CBD/) mode
+  for SPARQL DESCRIBE queries. When blank nodes are included in a
+  DESCRIBE result, this recursively describes them until the graph
+  terminates in named nodes in all directions. This is useful for
+  grabbing the necessary and sufficient RDF graph needed to reconstruct
+  OWL class expressions.

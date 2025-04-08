@@ -1,0 +1,86 @@
+---
+title: Needs Analysis Workshop/Chalk talks
+permalink: wiki/Needs_Analysis_Workshop/Chalk_talks
+layout: wiki
+tags:
+ - Needs Analysis Workshop
+---
+
+### Notes from chalk talks:
+
+- **John Lundberg**:
+  - ~30,000 teleost species
+  - ostariophysi most important group of freshwater fish
+- **Arhat Abzhanov**:
+  - works on craniofacial evolution
+  - drivers and evolution of cranial development
+  - variation; beak development and diversification (morphs) among
+    Galapagos finches
+  - comparative relationships of developmental pathways of interacting
+    and regulatory genes
+- **Hans Hofman**:
+  - individual variation in gene expression, pathways, physiology,
+    anatomy, behaviour, etc
+  - variation at the population and species level, such as ecology,
+    biogeography, natural history, etc
+  - how to link these two through, for example, a data repository
+  - how to implement the ability for open-ended queries (when we don't
+    know what questions might be)
+  - how to connect this to development time, plasticity,
+    genotype/environment interactions
+- **Toby Kellogg**:
+  - grasses have about 10,000 species, e.g., rice, maize
+  - which meristem-specific genes have been conserved or evolutionarily
+    changed
+  - challenge: how to get from a list of candidate genes (involved in
+    floresence) to the 3'UTR to use for in-situs for same or different
+    species?
+  - designing primers for an entire clade based on a multiple alignment
+  - automating the pipeline is desire and major challenge
+- **Austin Mast**:
+  - MorphBank
+  - Images provide greater information than what we can put into words
+  - Slide-server interface
+  - bulk annotation, 'tile' layout
+- **Elizabeth Jockusch**:
+  - beetle devo-evo; antennae divided into: scape (1), pedicel (1),
+    flagellum (typically 9 segments, but many exceptions)
+  - Tribolium: flagellum -\> funicle and club, with variable number of
+    segments
+  - candidate genes; using RNAi to induce changes (phenotypes) in 5 sp
+    of Tribolium
+  - e.g. reduced number of antenna segments, why? e.g. fusions of
+    antenna segments, deletions, failure to form? (empirical devo Q's)
+  - how to code these phenotypes so one can ask for broader patterns,
+    non-randomness?
+- **Chuck Kimmel**:
+  - Important: role of cells in forming skeletal shape
+  - what are the activities of cells controlled by developmental genes
+  - devo hypothesis: modular assembly?
+  - what is the broad nature of shape diversity (of, e.g., certain
+    bones)
+  - evo hyothesis: a missing module?
+  - how could a database help with the shape transformation; how to code
+    cells and cell activity into process? Retrieval of hypotheses vs.
+    facts
+- **Günter Wagner**:
+  - evolution of limbs, gene duplication in teleosts, internal
+    development of human
+  - following the genes to the taxa they lead to
+  - comparative cell morphology and cell physiology
+  - what to compare to in organisms that don't have a particular cell
+    type? e.g. myelinated cells comparing to lampreys (which have only
+    glial cells)
+- **David Stern** (Tuesday):
+  - parsing out categories of morphological features (morphology,
+    physiology, behavior, etc.); trait differences between Drosophila
+    species
+  - list of mutations that cause phenotypic differences
+  - experimental evidence for the role of mutation
+  - database of evolutionary mutations and their phenotypes fixed
+    through drift or selection (EvolGen)
+- **Hopi Hoekstra** (Tuesday):
+  - genetic basis for variation
+  - classify phenotypic variation (pigment, morphology (e.g. tail
+    length), behavior)
+  - Peromyscus trait evolution

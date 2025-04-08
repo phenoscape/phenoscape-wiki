@@ -1,0 +1,94 @@
+---
+title: Needs Analysis Workshop/Correlation Breakout
+permalink: wiki/Needs_Analysis_Workshop/Correlation_Breakout
+layout: wiki
+tags:
+ - Needs Analysis Workshop
+redirect_from:
+ - wiki/NAW_Correlation_Break-out
+---
+
+Arhat Abzhanov, Todd Vision, Elizabeth Jockusch, Hopi Hoekstra, Jim
+Balhoff
+
+## Notes
+
+<img src="Day2-correlation1.whiteboard.JPG" title="Whiteboard"
+width="384" alt="Whiteboard" /> AA - Important to note difference in
+naming conventions between genetic terminology and diversity terminology
+
+TV - Ontologies are meant to solve this problem - can map synonym terms
+to each other
+
+EJ - many natural phenotypes are much more subtle than genetic mutants
+
+TV - that is an advantage of relationships in ontology - can tell that
+phenotypes are related to the same morphology
+
+AA - only some phenotypes will overlap - the types of variation are
+different
+
+TV - but at least both may be annotated as affecting the same part of
+morphology
+
+AA - user may want to be able to see traits at various levels within
+ontology - see everything within the tail or just one vertebra
+
+TV - Covariance matrix can provide table of co-occurring changes in
+entities on tree
+
+EJ - there are many complicated ways for doing character
+reconstruction - user will probably want to get data and run themselves
+
+HH - especially in the case of parsimony, can't always treat transition
+probabilities as equal
+
+HH & EJ - maybe provide some default methods, such as parsimony, maybe
+allowing specifying of transition models
+
+EJ - co-ocurrrence table will be useful for eyeballing interesting
+groupings
+
+EJ - also want to see which traits are related to the same genes
+
+HH - this should be either location of expression in both entities, or
+same type of effect in both entities
+
+On the branches where trait 1 changes, how many also have change in
+trait 2? Of the genes affecting trait 1, how many also affect trait 2?
+
+- View these in two matrices - are there correlations in these two
+  matrices?
+
+Should we allow the user to specify the entity-quality combinations they
+want in their matrix?
+
+In mayflies, does having a particular gill morphology, increase
+diversity in habitat? Is gregariousness more likely to evolve in
+aposematically colored lineages?
+
+I see these two traits covarying - how does the system tell you that?
+
+- table output (matrix) lets you visually scan for for co-occurrence
+- click on cell, bring up tree with covarying branches highlighted
+  - or click on multiple cells and limit tree to those
+- further information on how the character changed...
+
+2 approaches - interested in investigating a particular branch vs.
+interested in trait correlation across independent changes across tree
+
+Gene can affect multiple tissues/structures
+
+What genes affects all x structures? See results on anatomy view,
+separated into developmental series / developmental modules
+
+- See list of genes, click on gene, see mutant phenotypes, then see
+  links to similar evolutionary phenotypes
+- See matrix of co-ocurring mutant phenotypes in two entities/
+  developmental regions
+
+See colored indication on anatomy view of co-occurrence showing shared
+genetic bases
+
+Find minimum number of genetic changes which can account for a
+particular compound evolutionary change (multiple phenotypes)

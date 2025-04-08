@@ -1,0 +1,96 @@
+---
+title: Author Guide
+permalink: wiki/Author_Guide
+layout: wiki
+tags:
+ - Curation
+ -  Training
+ -  Help
+---
+
+This page provides background information for authors whose
+publication(s) has been curated for the Phenoscape Knowledgebase. The
+goal of the Phenoscape Project is to link evolutionary data to genomics
+using ontologies and Phenoscape is developing a curated knowledgebase of
+morphological characters and prototyping the approach with ostariophysan
+fishes, beginning with the papers that have published data matrices.
+Learn more about the project and the ontologies used by Phenoscape here.
+
+## How to provide feedback
+
+Review the Excel spreadsheet for:
+
+- Errors in character and state descriptions, taxon list, and matrix
+- Comments or questions from the curator (please see Comments columns)
+
+Please return your comments by email or in a Word or text file
+referencing the particular character or taxon for each comment.
+
+## Annotation of evolutionary phenotypes using Entity-Quality syntax
+
+The morphological variation reported in systematic character data is
+documented in phenotype statements recorded in Entity-Quality syntax.
+**Entities** are terms taken from the anatomy ontology to represent
+anatomical structures and **qualities** are terms taken from the quality
+ontology to describe the variable aspect of the structure. For example,
+an author may describe a “rectangularly shaped supraorbital bone.” This
+is represented as:
+
+`E: supraorbital, Q: shape`
+
+Phenotype annotations for characters involving more than one entity
+require a 'related entity' (RE) in annotation:
+
+` E: supraorbital, Q: relational structural quality, RE: antorbital`
+
+Complex characters may also require more than one phenotype statement.
+For example, a character state might describe: "antorbital large and
+sigmoid shaped." Two EQ statements are recorded:
+
+`E: antorbital, Q: size`  
+`E: antorbital, Q: shape`
+
+Additional information about EQ syntax is available
+<a href="EQ_for_character_matrices" class="wikilink" title=" here">
+here</a>.
+
+Phenoscape is currently annotating characters to a coarse level of
+entity and quality. We are using a small set of quality terms to
+categorize phenotype variation into broad categories which will guide
+future annotation and ontology development efforts. See the
+<a href="Guide_to_Character_Annotation" class="wikilink"
+title=" Guide to Character Annotation"> <strong>Guide to Character
+Annotation</strong></a> for the list of quality terms, and for further
+examples of how characters are annotated in Phenoscape.
+
+## Data spreadsheet
+
+The spreadsheet sent to you contains data curated by students and at
+least one data curator (a taxonomic expert). The various columns
+contained in the spreadsheet are summarized below:
+
+**Taxa and Matrix fields:**
+
+| Field | Description |
+|----|----|
+| Publication Taxon | Free text field for the taxon name used in the publication |
+| TTO Taxon | Term from the Teleost Taxonomy Ontology for the valid taxon name (based on Catalog of Fishes) |
+| Matrix Taxon | Free text field for the taxon name used in the publication's matrix |
+| Taxon Comment | Notes or questions made by a curator regarding a particular taxon |
+| Specimens | Voucher specimen(s) from the materials list |
+
+**Characters and EQ fields:**
+
+| Field | Description |
+|----|----|
+| Character Number |  |
+| Character Description | Free-text description of the character from the publication |
+| Character Comment | Notes or questions made by a curator regarding a particular character |
+| State Number |  |
+| State Description | Free-text description of the character state from the publication |
+| State Comment | Notes or questions made by a curator regarding a particular state |
+| Entity | Term from the Teleost Anatomy Ontology (sometimes combined with a Spatial Ontology term) |
+| Quality | Term from the Phenotype and Trait Ontology (sometimes combined with a Spatial Ontology term) |
+| Related Entity | Term from the Teleost Anatomy Ontology (sometimes combined with a Spatial Ontology term) |
+| Count | Numerical value or range |
+| Comment | Notes or questions made by a curator regarding a phenotype statement |

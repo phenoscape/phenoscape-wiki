@@ -1,0 +1,405 @@
+---
+title: Phenoscape Grant Renewal Workshop/Notes
+permalink: wiki/Phenoscape_Grant_Renewal_Workshop/Notes
+layout: wiki
+tags:
+ - Events
+---
+
+## Phenoscape II: Tuesday, April 28, 1:00-5:30
+
+Participating: Phenoscape: Paula Mabee, Todd Vision, Monte Westerfield,
+Hilmar Lapp, Wasila Dahdul, Jim Balhoff, Cartik Kothari, Peter Midford,
+John Lundberg; Suzanna Lewis, Judy Blake, Peter Vize, Anne Maglia
+
+- Will be extending the taxonomic scope to extant and extinct
+  vertebrates
+  - Create an annotation database spanning the taxonomic scope and their
+    anatomy ontologies
+  - Three multi-species anatomy ontologies are being developed:
+    teleosts, amphibians, mammalian anatomy
+  - Tree mapping: show when an evolutionary phenotype first appeared
+- EQ support in all involved model organism databases
+  - Structure of MP is not consistent with anatomy, or with PATO
+  - Mapping from MP to EQ syntax is being worked on (George Gkoutos)
+    - How is this supported in MGI?
+      - Could spit back EQ, but could not allow users to search
+  - MGI isn't in a position to use EQ internally, but for example
+    Phenoscape II could provide an EQ-view on mouse phenotypes, using
+    the decomposition of MP into anatomy (or entity) and quality term
+    cross-product
+  - Full EQ annotation for OMIM is being planned but not yet funded
+  - MGI, Xenbase, and ZFIN all have links from their phenotype data to
+    OMIM
+- Phenoscape II: Development of anatomy - new queries supported; would
+  generate testable hypotheses; how exactly do those queries rely on
+  developmental data?
+  - Different approaches between MGI and ZFIN:
+    - MGI uses complete anatomy at different developmental stages
+    - ZFIN uses one anatomy ontology and adds start and end dates to
+      indicate the developmental period during which it appears (adult
+      structures don't have an end date)
+    - Xenbase uses the ZFIN approach
+  - Candidate genes for evolutionary change could be derived from
+    anatomy-annotated gene expression studies during development; Where
+    do mouse and Xenopus share gene sets in early development?
+    - genes responsible for or associated with morphological changes
+      during individual development could be candidates for evolutionary
+      change
+    - evolutionary phenotype changes could be used to query
+      morphological changes during development
+  - Can we enable queries to generate hypotheses based on ontogeny
+    reflecting evolutionary history?
+  - Powerful tool in interpreting microarray data downstream from node;
+    know candidate genes without mutants using this approach
+  - See phenotypic differences between 2 taxa – where do you see similar
+    changes?
+  - Cell types and associate with time and space – can reason from,
+    neural crest, etc.
+
+<!-- -->
+
+- - Evolutionary developmental data could come from medaka, stickleback
+- Sequence of steps:
+  1.  Ontology building
+      - Adult phenotype annotations for mutants in Xenbase
+      - Presently only 3 species for amphibians: Xenopus, Dermophis,
+        Salamandria (integration beginning in July; phenotypes/mutants,
+        adulta; L. Zimmerman (GB))
+      - Development decoupling from anatomy ontology in mouse (as per
+        above)
+        - Requirements:
+          - QC required – 1 person to find orphans and generate reports
+            (80% complete); make decisions
+          - 1st: alignment of MP and mouse anatomy, then QC of MP-EQ;
+            use Mouse anatomy to initalize Paul’s ontology
+          - 2nd: Mouse staging-\> ZFIN + Xenbase style
+          - Phenoscape II: Time required for above (1st and 2nd) is 1
+            person over 3 years
+      - Expanding mammalian anatomy to include extinct species
+        - - Judy mentioned Fiona McCarthy (chick ontology? Judy will
+            ask)
+      - Anatomy for amniotes (the clade including mouse and dinosaurs),
+        including extinct taxa (such as dinosaurs)
+        - Scope of this could be overwhelming
+        - Should be strongly driven (or staged) according to the
+          character matrices to be annotated
+        - Chicken anatomy could provide a starting point?
+        - There is work on bird anatomy that uses a latin naming scheme
+        - Work on any smaller-scope anatomy (or multi-species anatomy)
+          ontology will contribute terms that apply more broadly
+        - There may not be very many neomorphs between birds and
+          mammals, though there are a few areas such as the digits in
+          birds where the exact homology relationships aren't as clearly
+          agreed upon.
+        - set up ontology and extend to fossils that Paul knows best;
+        - also need taxonomy onotlogy (from suprageneric filemaker
+          database?)
+  2.  Mammalian phenotype decomposition
+      - Need support for QC'ing the results of automated decomposition
+      - Alignment of MP with mouse anatomy
+  3.  Annotation
+      - Which published character matrices are there for dinosaurs?
+- Ontology mapping and alignment
+  - Need to align teleost and amphibian anatomy to mouse.
+  - Mouse and chicken need to be mapped to amniote anatomy. Mouse is a
+    better start because there are genetic data.
+- Paul Sereno gave short presentation on reconciling character-derived
+  trees and character definition and use between different matrices and
+  trees that share taxa
+  - [TaxonSearch](http://taxonsearch.org)
+  - Formalizing and generating grammar of character coding and character
+    state definition
+    - Phenoscape II grant activity could be to produce EQ primer
+  - presented summaries of annotations, by region, by authors, by
+    structure, by quality
+  - Paul’s question: Why are 2 trees different? A: Particular characters
+    and types of coding; If you are trying to develop a consensus tree –
+    can see how authors’ differ
+  - Analyzing character usage (shared, not shared, rejected) between
+    trees that share taxa
+  - Conflicting phylogenies for the same set of taxa often turn out to
+    be based on character codings that are not consistent or not
+    compatible
+  - need to not only curate legacy data but be proactive in terms of
+    syntax etc. of future data; use cases looking forward; morphology in
+    crisis, wallowing in a sea of data
+- Re: direct submission --Monte: ZFIN has 6,000 users, but 4-5 labs do
+  direct submission of a lot of data; he suggested Phenex modified as a
+  web tool to put in data; also ontology modification/use of Mesquite
+
+## 
+
+- Miscellaneous discussion following above (Tuesday pm)
+- Open to communities
+  - Phenoscape has public data, but can upload private data and use
+    visualization tool
+  - working environment enabling exploration of data for analysis
+  - would allow people temporarily to overlay on whole data store
+
+<!-- -->
+
+- NCBI blast similarity – phenoblast
+  - Will need term tracker
+  - Monte: Issue of best practice for global size/shape
+  - Todd: (here is forest of EQs that match)
+    - can move up and down ontology
+    - shape and syntax; best practice
+
+<!-- -->
+
+- Discussion of images (linked to AO, PATO) – definitional, put in
+  ontology; browsing, finding right AO term
+  - could call for images in particular sets of species
+
+<!-- -->
+
+- Are ontologies useful for phylogenetics? ATOL data and relationships
+  are a challenge (Paul)
+  - Can a matrix be reconstructed and can data be related in an
+    effective way?
+  - Do ontologies serve this community well?
+  - Limiting from community?
+  - Explore whether useful for phylogenetics?
+  - Capability of characters for phylogenetic studies?
+- Viability of PhenoscapeII depends on morphologists using it!
+  - vast phylogenetic branches – does character annotation at gross
+    level conceal or reveal phylogenetic information?
+  - Can we retrieve the characters that are discordant?
+- What question motivates character matrix?
+
+## Developmental time & misc discussion
+
+- Development of mouse and Xenopus:
+  - Notochord in adult example
+- Phenoscape II: create developmental time ontology for vertebrates.
+- Compare heterochronies:
+  - relative ordering of entities and associated gene expression
+  - Anne’s example of heterochronic frogs…
+
+<!-- -->
+
+- - Notochord-hedgehog at particular times & wnts
+- For a given evolutionary change, what are genes expressed in a time at
+  a place?
+  - pick ~ 12 terms and make table and map for multiples species
+
+<!-- -->
+
+- Phenoscape and vertebrate development ontology (?)
+  - would facilitate finding genes responsible
+  - without start and stop times, would have develops_from only
+  - enables placement of a phenotypic information into a developmental
+    framework; develops_from
+  - what are the sets of characters that evolve at derived condition;
+    see how phenotypic characters cluster at particular branch points;
+    even do math, counting nodes; can do stats at branch points.
+  - creating diff definitions of homology; try to experimentally
+    differentiate species
+- Evolutionary time: use cases; compare sister groups
+  - Rates
+  - Dating clades – minimum age
+
+<!-- -->
+
+- Database discussion – Todd/Jim
+
+<!-- -->
+
+- OBD – Suzi – Need to work on ability to pull things back on basis of
+  similarity; on basis of phenotype – what else is there that affects a
+  bone?
+- Suzi & co. would adopt single searches by gene or body parts
+
+<!-- -->
+
+- - Cartik: Support units and measures
+  - Jim: User see OBD structure – enter a term and visualize EQ
+    annotations in relation to it;
+  - See Ensemble – Phenoscape Mammals; Phenoscape Amphibs; Phenoscape
+    Fishes – Allow user to move between taxonomic stashes without
+    mapping
+
+<!-- -->
+
+- - Sparkle: Chris: issue generic queries – return data in generic
+    format
+
+<!-- -->
+
+- - 
+  - Suzi: Allow people to add term if they are making query and not
+    finding anything
+    - could repurpose protein tree/ GO
+    - relative ordering of entities and associated gene expression
+
+## Wednesday morning, April 29, 2009
+
+- Expanding taxonomic coverage to Vertebrata
+  - Phenoscape has about 15,000 species of teleosts untouched (half that
+    number is sampled in a typical study) and approx 200 matrices to
+    target
+  - Amphibanat estimates 3,000 amphib species and approx 36 matrices
+  - Plan to maintain skeletal focus for anatomy development
+- How best to keep nomenclature history?
+  - Nomenclatural history of terms in ontologies
+  - mechanism to keep track of in OBO-edit? No
+  - keep track of this information on the database side
+  - Current exchange format standards don't support this really beyond
+    obsoletion
+  - ZFIN tracks within the database the complete nomenclatural history
+    of gene names; (ZFIN records the reason, comments etc…in database
+    comments)
+  - RDBOM tracks literature and author attribution for anatomy terms but
+    not yet nomenclatural history
+    - Amphibanat handles comments with fields:
+      - Is_defined_by:
+      - Is_discussed_by:
+      - Literature citations are an ontology linked to other concepts
+- Character quality profiles for data matrices
+  - Addresses the question of "Where in the skeleton are the changes
+    occurring that drive the phylogeny"
+  - Distribution of characters across the skeletal anatomy, at different
+    levels of the hierarchy
+  - Distribution of missing data across the anatomy, at different
+    hierarchy levels
+  - How many taxa have how much missing data, distributed on which
+    anatomical parts
+- DRIVING QUESTIONS:
+  - What parts are of phenotype are variable a) in particular taxonomic
+    groups; b) in particular author’s studies?
+    - Where are the gaps in character variation? In taxon sampling?
+    - Why are there gaps in phenotype variation? Missing data, fossils
+    - What is not changing – not in matrix –
+    - Because extinct not in fossil record (no a??)
+    - Or constrained (just no variation)
+    - To get at redundancy, have to factor in taxonomic sampling and
+      character sampling.
+  - Q: Who much is good data? How much is redundant?
+    - What is redundancy? Identical EQs? Action: curate to fine grain in
+      order to match; develop tool to be able to see other EQ
+      annotations
+  - Q: How does the order of development correspond to the order to
+    evolution?
+- Use case: Character redundancy
+  - Deriving a character profile across the anatomy could help visualize
+    the redundancy between annotations
+- Use case: Mapping the evolutionary characters that lead (and
+  distinguish) to a model organism. Subsequently, see whether these
+  evolutionary changes and the order in which they appear to the
+  ontogeny of the organism.
+  - Will need to deal with character gaps and with character redundancy
+    for this.
+
+**Specific goals:**
+
+1.  Expand taxonomic coverage of Phenoscape to Vertebrata
+    - Mouse is done but needs to be rearranged (MP decomposition)
+    - Amniotes need to be done from the ground up
+
+## Wednesday afternoon
+
+- Problem of lossy transformation of legacy character data
+  - EQ annotation is often at a lesser granularity (or level of detail)
+    than the original free text description
+  - This isn't due to any technological obstacles but rather due to the
+    limited resources available for annotation.
+  - Annotation effort is best focused to a granularity level where it
+    suffices to solve a use-case of interest.
+  - Annotating at very granular levels is entirely possible but can take
+    a lot of time because many of the ontology terms needed are likely
+    not to be present yet in the ontology.
+  - How does this impact phylogeny and data matrix reconciliation, or
+    phylogenetic reconstruction on the basis of the EQ annotations?
+
+<!-- -->
+
+- Use-case for development
+  - Heterochrony would be interesting if one can pull it out of the
+    database
+  - Ordering of developmental landmarks uses develops_from;
+    Developmental ordering relationships currently used are confined to
+    develops_from and transforms-into.
+    - This is missing yet for mouse.
+    - Wouldn't really allow inferring heterochrony.
+    - Would allow though to place and compare the placement of
+      phenotypes into a developmental chain of transformations.
+  - Use case to compare sequence of ossification in ontogeny of an
+    individual vs. among species variation in degree of ossification of
+    a structure; idea is to visualize where these structures are on the
+    developmental sequence of a MOD
+  - Homology and develops_from:
+  - Juvenile wing primordiium homologous to adult limb?
+  - John: should add the phrase to any homology statement: “two things
+    are homologous as \_\_\_\_\_\_\_”
+
+<!-- -->
+
+- Evolutionary time:
+  - TimeTree www.timetree.com; pairwise comparisons to get ages
+  - Questions that can be asked regarding geologic time:
+    - How far back in time do you need to go to find a particular change
+      in phenotype?
+    - Does this type of character change occur during a particular time
+      period?
+      - Requires trees
+
+<!-- -->
+
+- Informatics: what do you want to see?
+  - Cartik: measurements displayed in web interface (it’s supported in
+    Phenex and OBD currently)
+  - Jim: user upload; group annotations and click through
+    neigborhoods…see Hilmar notes
+
+<!-- -->
+
+- Tree visualization
+  - Nodes don’t have ancestral state reconstruction, they are the union
+    of phenotypes in the database; displays all the phenotypes that are
+    recorded in a clade, not mapping of characters.
+  - PhyloWidget developed in 2007 summer of code
+    - Annotate parts of the tree with images, phenotypes, etc.. to a
+      tree topology
+  - Character optimization for Phenoscape II
+    - Optimizing EQs involves deciding which EQ is alternative to
+      another
+    - Todd: Easier for user to download data and create matrix on their
+      own
+
+<!-- -->
+
+- Phenex stuff:
+  - Add skeletal parts in association with museum voucher for paleo
+    data; for extant dry skeletal vs. cl/st. Could help discern WHY,
+    e.g., cartilage is not variable in data matrix.
+- Demonstration of Phenoscape KB
+  - Some of the features we are developing (the 3 principle queries)
+    would be very useful to MOD users
+- Informatics goals for Phenoscape 2:
+  - Supporting units for measurements
+  - Allowing others to compare their phenotype data to the knowledge
+    base
+  - Generic ontological queries, such as a SPARQL endpoint
+  - Private data overlay
+  - Linked Data and semweb integration
+  - Tree visualization
+  - Triple store technology evaluation
+  - Species ID
+  - Phylogenetically informative distance metric based on EQ assertions
+  - NLP-based text processing, Mass curation
+
+## Idea bin
+
+1.  Intermine connection (multiple model organisms, AJAX-based widget
+    for displaying protein family tree)
+2.  Some phenotypes imply developmental abnormalities, differences, or
+    variation.
+    - For example, a "poorly ossified cranium" in an adult amphibian
+      implies that the developmental process was delayed or did not
+      complete.
+3.  How does logical inference of homology propagate over develops-from
+    relationships.
+    - E.g., if A and B are asserted homologous, and C develops from A
+      and D develops from B, are then C and D inferred as homologous,
+      and are C and B inferred as homologous.

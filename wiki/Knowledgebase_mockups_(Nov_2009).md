@@ -1,0 +1,315 @@
+---
+title: Knowledgebase mockups (Nov 2009)
+permalink: wiki/Knowledgebase_mockups_(Nov_2009)
+layout: wiki
+tags:
+ - User Interface
+ -  Mockups
+---
+
+## Publications
+
+### *Revision 1*
+
+Revision 1 posted on 12/16/09 by Wasila based on amphibanat feedback,
+Phenoscape conference call (11/20/09), discussion with Paula (12/14/09),
+and conference call with John Lundberg (12/18/09). The Powerpoint file
+containing the revisions is on the webdav.
+
+#### Publication results on anatomy term search pages, revision 1
+
+<figure>
+<img src="Pubs1-rev1.png" title="Pubs1-rev1.png" width="700" />
+<figcaption>Pubs1-rev1.png</figcaption>
+</figure>
+
+##### Comments:
+
+- John likes separate column for publications (as in previous revision),
+  maybe add 'KB Publications' vs. book icon in taxon column.
+- Tree page, source data box: will need link to Pub page 3, below (case
+  \# 1337)
+- Per conference call 12/15/2009: we will use book icon with hover popup
+  text which tells what book means and how many publications user will
+  see.
+
+#### List of publications, revision 1
+
+<figure>
+<img src="pubs2-rev1.png" title="pubs2-rev1.png" width="700" />
+<figcaption>pubs2-rev1.png</figcaption>
+</figure>
+
+##### Comments:
+
+- Per conference call 12/15/2009: include indented smaller source
+  character text under each publication to indicate which data caused
+  association of that publication with ontological term on previous
+  page. This text is not clickable, only the publication citation is.
+
+#### Publication detail page, revision 1
+
+<figure>
+<img src="pubs3-rev1.png" title="pubs3-rev1.png" width="700" />
+<figcaption>pubs3-rev1.png</figcaption>
+</figure>
+
+##### Comments:
+
+- Per conference call 12/15/2009: Free text character headers and cells
+  are not linked anywhere. There should be a popup accessed by clicking
+  a cell to see the EQ(s) resulting from that character state.
+- Per conference call 12/15/2009: Matrix will show all characters, using
+  horizontal scroll bar. Matrix should be scrolled to start so that
+  character of interest is in view (determined by page user navigates
+  from).
+
+#### Additional character x taxon matrix mockups
+
+Based on conference call 12/18/09; mockups added on 12/21/09 by Wasila.
+"how to show character of interest? should entopterygoid be first column
+(even if author lists as \#4 or \#79)? or should there be a slider or
+'next' arrow that allows users to view additional characters?"
+
+##### collapse/expand all button
+
+1\. <img src="matrix1.png" title="matrix1.png" width="700"
+alt="matrix1.png" />
+
+2\. <img src="matrix2.png" title="matrix2.png" width="700"
+alt="matrix2.png" />
+
+##### advance to next character arrow
+
+<figure>
+<img src="matrix3.png" title="matrix3.png" width="700" />
+<figcaption>matrix3.png</figcaption>
+</figure>
+
+#### Comments:
+
+##### Data downloads: phenotypes for single entity across studies
+
+From 12/18/09 conference call:
+
+- John’s new use case: obtain data for a single entity across multiple
+  studies. If want to do broad phylogenetic analysis of catfishes, need
+  to look in detail in each pub of how entopterygoid is treated. Want to
+  get just the entopterygoid by taxon data matrix.
+
+<!-- -->
+
+- - go back to anatomical term page. Need to get all data for
+    entopterygoid (size, shape, etc.). Will the tree have
+    'entopterygoid' with 'ento, shape', 'ento, size' etc. beneath it?
+    Will there be a sum/number of the total number of phenotypes for
+    just entopterygoid? if, e.g. '800', click on it, and you would see a
+    matrix with columns, size, shape, etc. with EQ in cells, but
+    mouse-over to see free text. Can DOWNLOAD THIS SELECTION OF DATA
+    ALONE in excel. In the excel file, you would have the free text,
+    publication, and EQ? ...same thing as in genbank data with
+    incomplete stuff, put in alignment program.
+
+### *Original mockups*
+
+Integration of publication data across site.
+
+#### Publication results on term search pages
+
+- this shows an entity page (entopterygoid) - could have similar layout
+  on taxon and gene searches
+- for each row (phenotype class) - see how many publication are linked
+  to any EQs of that type
+- click one of the count links to go to a page listing those
+  publications
+
+<figure>
+<img src="pubs1.png" title="pubs1.png" width="700" />
+<figcaption>pubs1.png</figcaption>
+</figure>
+
+#### List of publications
+
+- click one of the links to go to that publication's detail page
+
+<figure>
+<img src="pubs2.png" title="pubs2.png" width="700" />
+<figcaption>pubs2.png</figcaption>
+</figure>
+
+#### Publication detail page
+
+- matrix will usually be much bigger - will be scrollable
+- click column header or cell links to go to a phenotype details page
+  showing all related EQs grouped by taxon (as on existing phenotype
+  pages)
+
+<figure>
+<img src="pubs3.png" title="pubs3.png" width="700" />
+<figcaption>pubs3.png</figcaption>
+</figure>
+
+#### Comments
+
+## Tree mapping
+
+### Map 2 phenotypes on tree
+
+<figure>
+<img src="MultiplePhenotypesOnTree.png"
+title="MultiplePhenotypesOnTree.png" />
+<figcaption>MultiplePhenotypesOnTree.png</figcaption>
+</figure>
+
+## November 2009 version from Jim
+
+- user can enter phenotype specification for each "state"
+- see on tree which branches exhibit one or both of the phenotypes
+- Do users want the tree "pruned"? Or show branches without annotations
+  also? could be a lot of taxa
+
+<figure>
+<img src="trees1.png" title="trees1.png" width="700" />
+<figcaption>trees1.png</figcaption>
+</figure>
+
+### Same interface
+
+- shows that the 2 phenotypes don't have to be obvious alternatives
+
+<figure>
+<img src="trees2.png" title="trees2.png" width="700" />
+<figcaption>trees2.png</figcaption>
+</figure>
+
+### Map phenotypes of a given entity on tree
+
+## Display qualities using a grid of colored tiles
+
+- Qualities are displayed with consistent location and color in the grid
+- Desaturated colors are used for qualities of phenotypes that are
+  inferred, rather than annotated
+  - Note annotation to Ictaluridae in this and next candidate example
+- The 16 tile designs are intended to support expansion of the list of
+  qualities used in curation - as has already happened.
+
+<figure>
+<img src="ColorGridOption1.png" title="ColorGridOption1.png" />
+<figcaption>ColorGridOption1.png</figcaption>
+</figure>
+
+## Display qualities using colored icons strung along branches
+
+- Qualities are displayed with consistent icon, color and relative
+  position along branches
+- As above, desaturated colors are used for inferred qualities
+- Additional icons may be added
+
+<figure>
+<img src="IconsOnBranchOption.png" title="IconsOnBranchOption.png" />
+<figcaption>IconsOnBranchOption.png</figcaption>
+</figure>
+
+## Display qualities using text icons adjacent to taxon names
+
+- user enters any entity term
+- each of the standard upper-level PATO qualities has some icon
+- each node of tree is annotated with icons for which kinds of
+  phenotypes are exhibited by that node
+- so if you just put in "bone", you could get a "shape" icon at a node
+  for any bone shape phenotype (basihyal bone round, vertebra 1 flat,
+  etc.)
+
+<figure>
+<img src="trees3.png" title="trees3.png" width="700" />
+<figcaption>trees3.png</figcaption>
+</figure>
+
+### Comments
+
+## Phenotype queries
+
+### Entry of phenotype specification
+
+#### Single Pane Set Algebra interface
+
+<figure>
+<img src="ComplexQuery1.png" title="ComplexQuery1.png" />
+<figcaption>ComplexQuery1.png</figcaption>
+</figure>
+
+<figure>
+<img src="ComplexQuery2.png" title="ComplexQuery2.png" />
+<figcaption>ComplexQuery2.png</figcaption>
+</figure>
+
+<figure>
+<img src="ComplexQueryAlgebraBox.png"
+title="ComplexQueryAlgebraBox.png" />
+<figcaption>ComplexQueryAlgebraBox.png</figcaption>
+</figure>
+
+#### Phenotype on Tree Mapping Specification
+
+<figure>
+<img src="TreeDisplayQuery.png" title="TreeDisplayQuery.png" />
+<figcaption>TreeDisplayQuery.png</figcaption>
+</figure>
+
+#### Biomart style interface
+
+<figure>
+<img src="BioMart1.png" title="BioMart1.png" />
+<figcaption>BioMart1.png</figcaption>
+</figure>
+
+<figure>
+<img src="BioMart2.png" title="BioMart2.png" />
+<figcaption>BioMart2.png</figcaption>
+</figure>
+
+#### November 2009 Version
+
+- user enters a phenotype specification, presses Done
+
+<figure>
+<img src="queries1.png" title="queries1.png" width="700" />
+<figcaption>queries1.png</figcaption>
+</figure>
+
+### Additional phenotype specification
+
+- bottom of page shows taxa which exhibit first phenotype
+- user pressed "+" under first phenotype and can enter another
+
+<figure>
+<img src="queries2.png" title="queries2.png" width="700" />
+<figcaption>queries2.png</figcaption>
+</figure>
+
+### Results
+
+- taxa exhibiting both phenotypes are shown
+
+<figure>
+<img src="queries3.png" title="queries3.png" width="700" />
+<figcaption>queries3.png</figcaption>
+</figure>
+
+### Comments
+
+What should happen upon clicking taxon names?
+--<a href="User%3AJpb15" class="wikilink" title="jim">jim</a> 11:38, 18
+November 2009 (EST)
+
+- go to taxon's page?
+- go to phenotype listing for that taxon and given phenotypes?
+- I have created pages with multiple versions for
+  <a href="Complex_Query_Specification" class="wikilink"
+  title="Complex Query Specification">Complex Query Specification</a>,
+  <a href="Map_Multiple_Phenotypes_on_Tree" class="wikilink"
+  title="Map Multiple Phenotypes on Tree">Map Multiple Phenotypes on
+  Tree</a> and <a href="Map_Qualities_on_Tree" class="wikilink"
+  title="Map Qualities on Tree">Map Qualities on Tree</a> --
+  <a href="User%3Apeteremidford@yahoo.com" class="wikilink"
+  title=" peter"> peter</a> 17:39, 19 January 2010

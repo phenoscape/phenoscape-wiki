@@ -1,0 +1,72 @@
+---
+title: Phenoscape web UI planning
+permalink: wiki/Phenoscape_web_UI_planning
+layout: wiki
+tags:
+ - Informatics
+---
+
+## Discussion, 2008-10-15
+
+Cartik, Jim, and Hilmar met to discuss web service requirements for the
+Phenoscape web application.
+
+### Services
+
+#### Term info
+
+- Could use OLS, but makes more sense to retrieve exact data we're
+  working off of in the database
+- Input: term ID
+- Output: name, parents & children (relation, ID, name), definition,
+  other properties?
+- Could return numerous formats (JSON, OBO, OBD-XML, OWL/RDF)
+  - JSON is most useful for web application
+  - OWL/RDF may be most useful for a standards-based alternative
+
+#### Text autocompletion
+
+- Input: typed text, ontology name(s) (optional), matching options
+  (name, synonym, definition)
+- Output: list of terms with ID & name, or more complex match objects
+  identifying the matched text and what it matched (name, synonym,
+  definition)
+  - JSON
+
+#### "Anatomy search"
+
+Didn't really cover this much in the discussion. What format should
+summary counts be returned in? These are then used to navigate to
+further data services.
+
+#### Publication detail
+
+This could potentially be handled by the term info service, if the
+client knew which properties to traverse from the publication to get the
+information it needed. This is a trade-off between general and more
+specific services.
+
+### Short-term plans
+
+#### Cartik
+
+- By Oct. 30
+  - Develop script for loading data files into database
+    - should be run both automated nightly and on-demand
+    - loading tool should check out latest data files from Phenoscape
+      SVN, and load latest versions of all needed ontologies
+    - this could be a collection of distinct tools which are chained
+      together in a shell script
+- By Nov. 6
+  - Determine how to distinguish between pre- and post-composed
+    compositional descriptions/relations - without hacks
+
+#### Jim
+
+- By Oct. 30
+  - Initiate OBD-WS project in OBO repository
+  - Define JSON schema for term info service
+  - Prepare formal architecture draft of web application
+  - Validate result of data loading script (identify missing data not
+    yet handled by OBDModelBridge.java)
+  - More comprehensively define data service requirements

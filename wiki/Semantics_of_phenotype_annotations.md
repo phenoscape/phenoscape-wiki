@@ -1,0 +1,67 @@
+---
+title: Semantics of phenotype annotations
+permalink: wiki/Semantics_of_phenotype_annotations
+layout: wiki
+tags:
+ - Reasoning
+ - EQ Annotation
+---
+
+In Phenoscape data annotation, we typically model a phenotype as a class
+expression describing a set of organisms, for example '*has_part* some
+(**caudal_fin** and *bearer_of* some **bifurcated**)'. How precisely
+this phenotype class is related to a taxon has important consequences
+for the resulting inferences and thus queries for phenotypes across the
+taxonomy. This is most important when making annotations to higher-level
+taxa. How should these annotations propagate to sub-taxa?
+
+This page assumes that taxa are represented as OWL individuals, and the
+taxonomy is a tree of *subclade_of*/*contains_clade* relationships. For
+example:
+
+***Ictalurus_punctatus*** *subclade_of* ***Ictalurus*** *subclade_of*
+***Ictaluridae**subclade_of''***Siluriformes**''
+
+These are transitive, so that Ictalurus is a *subclade_of* Siluriformes.
+Individual organisms are related to taxa via *member_of*/*has_member*. A
+*member_of* a taxon X which is a *subclade_of* taxon Y is also a
+*member_of* taxon Y.
+
+## Types of phenotype annotations
+
+Formatting key: ***OWL individual***, **OWL class**, *OWL property*
+
+### Class generalization
+
+(*member_of* value ***Siluriformes***) SubClassOf (*has_part* some
+(**caudal_fin** and *bearer_of* some **bifurcated**))
+
+Very strong statement - says that all Siluriformes have a bifurcated
+caudal fin, no exceptions. This allows no observation of polymorphism or
+evolutionary reversal. But it does allow you to make one statement and
+then return any catfish species in a query for species with members
+having bifurcated caudal fins. This is generally the logic of
+annotations in the existing Phenoscape Knowledgebase.
+
+### Observation annotation
+
+***Siluriformes*** Type (*has_member* some (*has_part* some
+(**caudal_fin** and *bearer_of* some **bifurcated**)))
+
+This type of annotation simply says that some member of the given taxon
+has been observed with the phenotype. This works very well with
+polymorphic conditions and has no problem with evolutionary reversals.
+This form is pretty weak as an annotation to a broad taxon like
+Siluriformes (an order), but would be the most appropriate choice for
+species-level data.
+
+### Ancestral state annotation
+
+***Siluriformes*** Type (*has_progenitor* some (*has_part* some
+(**caudal_fin** and *bearer_of* some **bifurcated**)))
+
+This annotation describes the ancestral state for the given taxon - the
+phenotype possessed by the nearest common ancestor of all the members of
+the taxon. This is like the "class generalization" but will not produce
+logical inconsistencies when previously unknown reversals are
+discovered.

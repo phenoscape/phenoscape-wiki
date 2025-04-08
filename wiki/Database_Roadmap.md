@@ -1,0 +1,82 @@
+---
+title: Database Roadmap
+permalink: wiki/Database_Roadmap
+layout: wiki
+tags:
+ - Archive
+---
+
+This is a development roadmap for the second production iteration of the
+Phenoscape database and web interface, intended for demonstration and
+testing at the [ASIH
+2009](http://www.dce.k-state.edu/conf/jointmeeting/) meeting.
+
+## Cartik
+
+This is an outline of my tasks in the coming months.
+
+### January 2009
+
+<sup>\*</sup> indicates task dependency
+
+- Work on moving database connection parameters from code to properties
+  file that does not go into SVN.
+  - STATUS: Complete
+- Document inherited database query module in OBD API\*
+  - STATUS: Deferred (lower priority)
+- Finish documentation of the OBD reasoner on the Wiki
+  - STATUS: Complete
+- Work on Unit test modules for database queries\*
+  - STATUS: Complete
+- Document performance metrics of database queries from Unit test
+  cases\*
+  - STATUS: Complete
+- Document query optimization patterns for database queries\*
+  - STATUS: Complete
+
+### February
+
+- Complete documentation of query execution methods\*
+  - STATUS: Complete
+- Implement improved query methods to speed up execution of anatomy data
+  services
+  - NOTE: contingent upon completion of previous related tasks marked
+    with \*
+  - STATUS: Complete
+- Investigate possible additions to OBD reasoner (with input from Hilmar
+  and Jim)
+  - STATUS: Added facet to add direct relationships between characters
+    and all of the states they may take. Complete
+- Add extinct/extant species information to the database
+  - STATUS: Complete
+- Automate data loader module
+  - STATUS: Complete
+
+### March
+
+- Add Gene data service to Phenoscape
+  - STATUS: Complete
+- Add collection information to the database
+  - STATUS: Complete
+- Add Taxon query service to Phenoscape
+  - STATUS: Complete
+
+### April
+
+- Add publication information to database
+  - NOTE: Dependant upon SICI and Endnote work
+- Investigate load sharing and connection pooling strategies for
+  Phenoscape prototype
+
+### May
+
+- Refine web services specifications as per Jim's requirements
+- Performance tuning
+
+### June
+
+- Testing and bug fixes
+
+### July
+
+- Public release at ASIH

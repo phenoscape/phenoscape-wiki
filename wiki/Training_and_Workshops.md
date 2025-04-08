@@ -1,0 +1,403 @@
+---
+title: Training and Workshops
+permalink: wiki/Training_and_Workshops
+layout: wiki
+tags:
+ - Community
+ - Events
+---
+
+## SSB 2020 Systematics in the Swamp Workshop: Phylogenetic comparative analysis of integrated anatomical traits
+
+**When**: January 6, 2020, 9 am - 12 pm  
+**Where**: Gainesville, Fl
+
+Attendees will learn how to use R packages such as RPhenoscape to access
+a knowledgebase of ontology-linked phenotypes, build character matrices
+that take anatomical dependencies into account, and use these to
+construct stochastic character maps on a phylogeny. The course will also
+include a practical introduction to community ontologies for
+biodiversity domain knowledge (anatomy, taxonomy, phenotypic quality).
+Further information can be found on the [SSB
+2020](https://systbiol.github.io/ssb2020/workshop.html) conference
+website.
+
+## Evolution 2019 Short Course: Phylogenetic comparative analysis of integrated anatomical traits
+
+**When**: June 26, 2019, 9 am - 12 pm  
+**Where**: Omni Hotel, Providence RI  
+Ontologies encode information about a domain of knowledge, such as how
+anatomical structures are related, which is crucial information for
+modeling character evolution. Phenoscape, in its current Semantic
+Comparative Analyses for Trait Evolution
+[(SCATE)](http://scate.phenoscape.org) project, is developing tools that
+use the computable knowledge in ontologies to improve phenotypic
+character modeling and inform analyses of trait evolution. To train
+evolutionary biologists and developers of comparative analysis tools to
+adopt these new capabilities, the SCATE team held a short course on
+using ontologies in comparative analyses of integrated anatomical
+traits, in conjunction with iEvoBio and the Evolution Meetings, on June
+26, 2019 in Providence, Rhode Island.
+
+Attendees learned how to use R packages such as
+[RPhenoscape](http://rphenoscape.phenoscape.org) to access the
+Phenoscape KB (kb.phenoscape.org), build character matrices that take
+anatomical dependencies into account, and use these to construct
+stochastic character maps on a phylogeny. The course also included a
+practical introduction to community ontologies for biodiversity domain
+knowledge (anatomy, taxonomy, phenotypic attribute).
+
+## Computable evolutionary phenotype knowledge: a hands-on workshop. Dec 11-14, 2017, Durham, NC
+
+The Phenoscape project held a hands-on workshop on Dec 11-14, 2017, at
+Duke University in Durham, North Carolina, to foster broader adoption,
+reuse, and interoperability of its flagship resource, the Phenoscape
+Knowledgebase (KB; <http://kb.phenoscape.org>). The KB offers
+programmable (API) access to natural language phenotype descriptions
+annotated with formal ontologies so that machines can understand and
+compute with the semantics of descriptions at scale. The API also
+provides online access to machine reasoning and other computational
+semantics algorithms for its data content, including synthesizing
+presence/absence character matrices, and finding evolutionary phenotype
+transitions semantically similar to gene phenotypes. The event brought
+together a diverse group of people to collaboratively design and work
+hands-on on targets of their interest that took advantage and promoted
+reuse of the KB’s data and services.
+
+Further information can be found at the workshop wiki:
+<https://github.com/phenoscape/KB-DataFest-2017/wiki>. Some participants
+have also [written blog posts about the
+event](https://www.phyloref.org/blog/2017/12/Phenoscape-hackathon/).
+
+## Evolution 2017 SSB workshop – Trees, traits and functions: semantics for comparative biology
+
+**Day**: Friday, June 23, 2017  
+**Time**: 1:30 PM - 5:00 PM  
+**Location**: Oregon Convention Center, Portland, Rm. B114  
+*An optional pre-conference event. Prior registration required (during
+conference registration).*
+
+Topic: A rich set of comparative phylogenetic methods has been developed
+in recent decades for the analysis of traits, functions, and other
+macroevolutionary patterns. A similarly rich set of tools, such as
+ontologies, data annotation models, and machine reasoners, have also
+recently been introduced allowing researchers to represent the semantics
+of phenotypes, traits, functions, and environmental properties in such a
+way that computers can access what had previously been the implicit
+knowledge of biological experts. Although these two efforts have
+remained largely separate from each other, a few studies at their
+intersection have shown that their synthesis has the potential to enable
+new classes of comparative analyses and provide an interdisciplinary
+bridge between different phylogenetics user communities. This symposium
+brings together research at the nexus of comparative phylogenetics and
+computable semantics of biological knowledge. The aim is to stimulate
+discussion and awareness of the opportunities that are emerging for the
+comparative biology community.
+
+Speakers:
+
+- Carrine Blank (U. Montana) *Use of natural language processing
+  algorithms, ontologies, and phylogenomic trees to automate and
+  accelerate phenotypic trait evolutionary studies for prokaryotes*
+- Paula Mabee (U. South Dakota) *Progress in comparative biology can be
+  accelerated through semantic annotation*
+- Paul Thomas (U. Southern California) *Modeling the evolution of gene
+  function using phylogenies and the Gene Ontology*
+- Martin Ramirez (Museo Argentino de Ciencias Naturales) *Tracing the
+  evolution of complex traits: the integration of atomized morphological
+  data on phylogenies*
+- Sergei Tarasov (NIMBioS, U. Tennessee, Knoxville) *Anatomy Ontology,
+  Bayesian Networks and Evo-Devo suggest a new framework for modeling
+  discrete morphological characters*
+- Josef Uyeda (Virginia Tech U.) *Can ontologies help understand trait
+  evolution (and vice versa)?*
+
+## Workshop on New Tools for Studying Phenotype Evolution in the Vertebrates, February 7-10, 2013
+
+What new research opportunities are opened up by the power to compute
+over phenotype information from thousands of species of vertebrates,
+together with phenotype and expression information for thousands of
+genes in multiple model organisms? The first release of the Phenoscape
+Knowledgebase includes over 500K species phenotypes linked to 4,000+
+genes from zebrafish, and is currently being extended to capture
+phenotype data from other vertebrates and linked to phenotype and
+expression data for other model organisms (including mouse and Xenopus).
+Scientists were invited through an open call and invitations to
+participate in a workshop facilitated by
+[KnowInnovation](http://knowinnovation.com/), with the aim of initiating
+new collaborations to drive the development of the Phenoscape tool
+set/interface and present new and creative ways to deepen understanding
+of phenotypic evolution. We were particularly interested in a broad
+approach to this problem and welcomed scientists with backgrounds in
+computational and systems biology, mathematics, development, genomics,
+and evolution. Phenoscape is supporting the initial steps in projects
+that were the outcome of this successful workshop. Supplemental funding
+for facilitation was generously awarded from the [National Science
+Foundation](http://www.nsf.gov/). Funding for participation of
+ichthyologists in this workshop was provided by the [DeepFin Research
+Coordination Network](http://http://www.deepfin.org/). Location:
+[California Academy of Sciences](http://www.calacademy.org/).
+Organizers: David Blackburn, Paula Mabee and Todd Vision, together with
+KnowInnovation.
+
+## [Anatomy Ontology Summer Course](https://academy.nescent.org/wiki/Anatomy_ontologies): July 30 to August 3, 2012
+
+A summer course on anatomy ontologies was offered in Durham NC, made
+possible by the NESCent Academy and the Phenotype Ontology Research
+Coordination Network.
+
+## <a href="PATO_workshop" class="wikilink" title="PATO workshop">PATO
+workshop</a>: September 25-27, 2010
+
+Members of Phenoscape met with personnel from the Hymenoptera Anatomy
+Ontology (HAO) project, TAIR and the Phenotype and Trait Ontology (PATO)
+at the University of Oregon to discuss and find solutions to reasoning
+issues that have arisen as a result of PATO ontology structure, and ways
+to represent phenotypes using the EQ model.
+
+## <a href="Skeletal_Anatomy_Jamboree" class="wikilink"
+title="Skeletal Anatomy Jamboree">Skeletal Anatomy Jamboree</a>: April 9-10, 2010
+
+The meeting focused on re-evaluating the high-level skeletal system
+ontology hierarchy for fishes, particularly in relation to anatomy
+ontologies of other vertebrates. Participants re-examined existing terms
+and definitions (cells, tissues, development, anatomical structures) for
+their applicability across vertebrates, and discussed how to represent
+of bone development within the structurally-defined hierarchy.
+
+## <a href="FMNH_2010_Workshop" class="wikilink"
+title="Workshop @ The Field Museum">Workshop @ The Field Museum</a>: March 19, 2010
+
+The purpose of this meeting was outreach and training to local
+morphologists at the Field Museum and University of Chicago, informal
+usability testing of Phenoscape Knowledgebase interface, and to conduct
+a Phenoscape project meeting.
+
+## <a href="ASIH09_workshop" class="wikilink"
+title="Ontologies for Ichthyology and Herpetology: July 25, 2009">Ontologies
+for Ichthyology and Herpetology: July 25, 2009</a>
+
+<figure>
+<img src="asih2009ontologyworkshop.png"
+title="asih2009ontologyworkshop.png" />
+<figcaption>asih2009ontologyworkshop.png</figcaption>
+</figure>
+
+Organizers:
+
+- Paula Mabee, Professor, Dept. of Biology, University of South Dakota
+- Anne Maglia, Professor, Missouri University of Science and Technology
+- Todd Vision, Assistant Director, National Evolutionary Synthesis
+  Center (NESCent) and Associate Professor, Dept. of Biology, University
+  of North Carolina
+- Monte Westerfield, Director, Zebrafish Information Network and
+  Professor, Institute of Neuroscience, University of Oregon
+
+The aim of this workshop to promote the integration of ichtyological and
+herpetological data with genetic, genomic, and developmental data for
+the purposes of understanding the genetic basis for phenotypic variation
+and diversification. The focus will be on major anatomical ontology
+efforts already underway in these organisms, and their use within new
+and existing morphological databases.
+
+While knowledge from model organism biology can inform our understanding
+of natural phenotypic variation and evolution, differing vocabularies
+and scientific cultures make it difficult for individuals to find the
+latent connections between these two fields. Ontologies, controlled
+vocabularies with well-defined relations among terms, are a key tool in
+scientific data integration; by using ontologies, scientists from
+different disciplines can know when they are referring to the same
+entity by different names, and new discoveries are enabled by computer
+software being able to reason across disciplines and over large
+datasets. Already widely used in genomics, ontologies are of growing
+importance in systematics, ecology, behavior, genetics, morphology and
+physiology. This workshop aims to explore the utility of ontologies for
+ichthyology and herpetology, using the Teleost Anatomy Ontology and the
+Amphibian Anatomy Ontology as case studies of community resources that
+are being actively developed and used by members of ASIH. Participants
+will present examples of how these ontologies are being used to address
+novel research questions in the evolutionary of phenotype using model
+organism data, and to provide new ways of exploring data within
+morphological databases.
+
+More information
+<a href="ASIH09_workshop" class="wikilink" title="here">here</a>.
+
+## <a href="Phenotype_Ontology_Coordination_Workshop" class="wikilink"
+title="Phenotype Ontology Coordination Workshop">Phenotype Ontology
+Coordination Workshop</a>: April 27-28, 2009
+
+The goal of this workshop was to discuss plans for an [RCN (Research
+Coordination
+Network)](http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11691) or
+[INTEROP (Community-based Data Interoperability
+Networks)](http://www.nsf.gov/pubs/2007/nsf07565/nsf07565.htm)
+application to NSF that we would submit in July or August 2009.
+
+## Evolutionary Biology and Ontologies Workshop II: January 5, 2009
+
+This workshop will be held in conjunction with the [2009 SICB Annual
+Meeting](http://www.sicb.org/meetings/2009/) in Boston, MA, in the
+morning of January 5, 2009. It is cosponsored by the [National
+Evolutionary Synthesis Center](http://www.nescent.org) (NESCent) and the
+[National Center for Biomedical Ontologies](http://bioontology.org)
+(NCBO).
+
+Organizers: Paula Mabee (U. South Dakota), Barry Smith (SUNY Buffalo), Todd Vision (UNC Chapel Hill, NESCent), Monte Westerfield (U. Oregon, ZFIN)  
+
+<!-- -->
+
+Goals: The workshop is focused on the application of ontologies to studies in comparative biology, with a particular emphasis on morphological and behavioral phenotypes. The goal is to introduce what ontologies are, how they are built, what makes an ontology useful, how ontologies can help researchers collaborate across disciplines, and to highlight several applications of this approach to comparative biology.  
+
+<!-- -->
+
+Registration: Registration is open to attendees of the SICB 2009 conference at no additional cost.  
+
+Further information can be found at the [workshop page at the NCBO
+wiki](http://www.bioontology.org/wiki/index.php/Evolutionary_Biology_and_Ontologies_2009).
+There is also a [workshop
+abstract](http://www.sicb.org/meetings/2009/schedule/abstractdetails.php3?id=1385)
+for dissemination at the SICB website or as
+<a href="Media:SICB_-_2009_meeting_-_Workshop_Flyer.pdf"
+class="wikilink" title="a single-page flyer in PDF">a single-page flyer
+in PDF</a>. Please feel free to distribute the link to your colleagues
+and students.
+
+### Presentations
+
+- <a href="Media:EvoBioOnt_SICB09_Smith.ppt" class="wikilink"
+  title="Barry Smith">Barry Smith</a> - An introduction to ontologies
+  for evolutionary biologists
+- <a href="Media:EvoBioOnt_SICB09_Westerfield.ppt" class="wikilink"
+  title="Monte Westerfield">Monte Westerfield</a> - Linking animal
+  models and human diseases
+- <a href="Media:EvoBioOnt_SICB09_Mabee.pdf" class="wikilink"
+  title="Paula Mabee">Paula Mabee</a> - Phenoscape: extending model
+  organism ontologies for devo-studies of evolutionary phenotypes
+- <a href="Media:EvoBioOnt_SICB09_Dahdul.pdf" class="wikilink"
+  title="Wasila Dahdul">Wasila Dahdul</a> - Challenges of developing
+  multi-species anatomy ontologies
+- <a href="Media:EvoBioOnt_SICB09_Vision_sicb.pdf" class="wikilink"
+  title="Todd Vision">Todd Vision</a> - Software and database resources
+  for curation and management of evolutionary phenotypes
+- <a href="Media:EvoBioOnt_SICB09_Deans.pdf" class="wikilink"
+  title="Andy Deans">Andy Deans</a> - Developing a Hymenopteran ontology
+- <a href="Media:EvoBioOnt_SICB09_Midford.ppt" class="wikilink"
+  title="Peter Midford">Peter Midford</a> - Comparative Analysis of
+  behavior using ontologies
+- <a href="Media:EvoBioOnt_SICB09_Maglia.ppt" class="wikilink"
+  title="Anne Maglia">Anne Maglia</a> - Developing an amphibian ontology
+
+## Second Data Roundup: September 28-October 1, 2008
+
+The second Morphology Data Jamboree, later renamed to
+<span class="plainlinks">[Data
+Roundup](http://www.travelsd.com/about/events/buffaloroundup.asp)</span>,
+took place in Rapid City and Sylvan Lake Lodge, South Dakota, and
+included project personnel, affiliated curators, and external advisors.
+
+- <a href="Data_Jamboree_2" class="wikilink"
+  title="Data Jamboree overview">Data Jamboree overview</a> with links
+  to agenda and related material
+- <a href="Media:Phenoscape_Data_Roundup.pdf" class="wikilink"
+  title="Final report">Final report</a> from the event
+
+## Evolutionary Biology and Ontologies Workshop I: June 20, 2008
+
+![](Evolution2008-OntologyWorkshop.png "Evolution2008-OntologyWorkshop.png")
+This workshop will be held in conjunction with the [Evolution
+2008](http://www.cce.umn.edu/conferences/evolution/) meeting in
+Minneapolis, MN, 20 June 2008. It is organized under the auspices of the
+[National Center for Biomedical Ontologies](http://ncbo.us) (NCBO) in
+collaboration with the [National Evolutionary Synthesis
+Center](http://www.nescent.org/) (NESCent).
+
+Organizers: Barry Smith (Buffalo), Paula Mabee (University of South Dakota), Todd Vision (University of North Carolina, Chapel Hill), Monte Westerfield (University of Oregon)  
+
+<!-- -->
+
+Focus: This meeting is focused on the application of ontologies to studies in evolutionary biology and related disciplines, with a particular emphasis on studies of the phenotype.  
+
+<!-- -->
+
+Goals:  
+
+:# Introducing what ontologies are, how they should be built, what makes
+an ontology useful, and how ontologies help people collaborate across
+disciplines;
+
+:# Giving illustrations of ontologies actually being used to address
+problems of interest to evolutionary biologists;
+
+:# Networking and planning: what do we do next in order to advance
+ontology-based information integration in evolutionary biology?
+
+Registration: Registration will be open to attendees of the Evolution 2008 conference at no additional cost.  
+
+Further information can be found at the [workshop page at the NCBO
+wiki](http://www.bioontology.org/wiki/index.php/Evolutionary_Biology_and_Ontologies).
+There is also a <a href="Media:EBO_Flyer.pdf" class="wikilink"
+title="workshop flier ">workshop flier </a> for dissemination. Please
+feel free to distribute the flier to your colleagues and students.
+
+### Presentations
+
+- <a href="Media:Balhoff.pdf" class="wikilink" title="Jim Balhoff">Jim
+  Balhoff</a>
+- <a href="Media:Evo2008.MAH.ppt" class="wikilink"
+  title="Melissa Haendel">Melissa Haendel</a>
+- <a href="Media:SuziLewis_Evo2008.pdf" class="wikilink"
+  title="Suzi Lewis">Suzi Lewis</a>
+- <a href="Media:Mabee.pdf" class="wikilink" title="Paula Mabee">Paula
+  Mabee</a>
+- <a href="Media:Maglia.ppt" class="wikilink" title="Anne Maglia">Anne
+  Maglia</a>
+- <a href="Media:Midford.ppt" class="wikilink" title="Peter Midford">Peter
+  Midford</a>
+- <a href="Media:Mungall.ppt" class="wikilink" title="Chris Mungall">Chris
+  Mungall</a>
+- <a href="Media:Ramirez.pdf" class="wikilink"
+  title="Martin Ramirez">Martin Ramirez</a>
+- <a href="Media:Smith.ppt" class="wikilink" title="Barry Smith">Barry
+  Smith</a>
+- <a href="Media:Vision_evont08.pdf" class="wikilink"
+  title="Todd Vision">Todd Vision</a>
+- <a href="Media:Westerfield.ppt" class="wikilink"
+  title="Monte Westerfield">Monte Westerfield</a>
+
+## First Morphology Data Jamboree: April 18-20, 2008
+
+The first Data Jamboree on Morphology with project personnel, affiliated
+ichthyologists and curators, and external advisors was held at NESCent
+on April 18-20, 2008.
+
+- <a href="Data_Jamboree_1" class="wikilink"
+  title="Data Jamboree overview">Data Jamboree overview</a> with links
+  to agenda and related material
+- <a href="Media:phenoscape.jamboree.report.apr08.pdf" class="wikilink"
+  title="Final report">Final report</a> from the event
+
+## Needs Analysis Workshop: September 17-18, 2007
+
+The Needs Analysis Workshop brought together leading scientists from the
+fields of morphology, development, evolution, genetics, and ichthyology
+to identify driving biological research questions that take the most
+advantage of the evolutionary, anatomical, developmental, and genetics
+data that the Phenoscape will integrate. In particular, the workshop
+aimed to identify what informatic tools are needed in order to answer
+those questions. The workshop was held at NESCent on September 17-18,
+2007.
+
+- <a href="Needs_Analysis_Workshop" class="wikilink"
+  title="Overview page of the workshop">Overview page of the workshop</a>,
+  with links to presentations and break-out group notes
+- <a href="Needs_Analysis_Workshop/Summary" class="wikilink"
+  title="Summary report">Summary report</a>
+
+## Summer Training Opportunities
+
+Opportunities in summer 2009 are available to graduate students and
+postdocs for training in data curation and software development at
+NESCent and the University of South Dakota.
+<a href="SummerTraining2009" class="wikilink"
+title="More information">More information</a>.

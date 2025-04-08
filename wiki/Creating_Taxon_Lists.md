@@ -1,0 +1,166 @@
+---
+title: Creating Taxon Lists
+permalink: wiki/Creating_Taxon_Lists
+layout: wiki
+tags:
+ - Curation
+---
+
+The following instructions provide details on how to build a Taxon List
+from a published materials list using Phenex.
+
+### Step 1: create the file for your taxon list
+
+Make sure that you have an internet connection before starting Phenex,
+because the software needs to download updated ontology files.
+
+1.  Create and save your file using File\>Save, naming the file for the
+    publication and appending .xml to the end (e.g. Smith_2008.xml).
+
+### Step 2: make a list of taxon names from the Materials section of the publication
+
+1.  Choose the **Taxa** panel and click the ‘+’ button to add an entry
+    to the taxon list: the first row will be gray. By clicking on the
+    column within the row you will be able to add data.
+2.  Go to:**Data Set** panel, go to Publication, and type in the
+    author(s) and year for the publication (e.g., Smith 2008), and hit
+    enter/return.
+3.  Go to **Taxa** panel and click into the Publication Taxon field.
+    Paste the taxon name into this field that you copied from the pdf
+    Material and Methods list and hit enter/return.
+4.  Now, paste the same taxon name into the “Valid Taxon” field. Because
+    the "Valid Taxon" field is linked to the taxonomy ontology, you
+    should see a drop-down menu appear with the taxon name; hit
+    enter/return, and note that the name appears in the spreadsheet. (If
+    the name does not appear in the drop-down box, then leave it blank).
+5.  Repeat step 3 for the entire taxon list, adding a new row by
+    clicking the "+" button for each new entry.
+
+Note: Be sure to hit enter/return after typing or pasting data,
+otherwise Phenex may not record the entry.
+
+#### Issues and special cases
+
+1.  Synonyms: for example, the paper that you are annotating has “*Danio
+    devario*” in the Materials list. Paste this species name in the
+    Valid Taxon field, and you will notice that “*Danio devario*\[syn\]”
+    appears in the drop down menu. When you chose this, notice that the
+    valid name “*Devario devario*” is automatically entered. You should
+    record "Danio devario" in the Publication Taxon list as a record of
+    the name used by the author in that publication.
+2.  If the taxon name isn’t in the drop down menu of Valid Taxon field,
+    make sure the taxon name is in the field “Publication Taxon” and
+    continue to adding the next taxon. You may add any notes (e.g. “Name
+    appears to be misspelled”) in the Comments field.
+3.  If a taxon is not identified to species in the materials list, then
+    leave the Valid Taxon field blank. For example, *Arius* sp. might be
+    listed in the materials list; do not choose *Arius* from Valid
+    Taxon; simply type *Arius* sp. in Publication Taxon. Likewise, an
+    author may indicate uncertainty in a species identification (e.g.,
+    *Devario* cf. *devario* or *Devario* aff. *devario*) and therefore
+    Valid Taxon should be left blank.\*\*NB: Do not choose a taxon name
+    from the drop down menu if it includes citation to another
+    publication; using the example above, you might find Arius sp.
+    (Jones 1990) in the drop down menu, but don't choose this as the
+    Valid Taxon because it refers to an Arius sp. in another
+    publication. By leaving the Valid Taxon field blank, Peter or Wasila
+    will know to add Arius sp. (Smith 2008) to the taxonomy ontology,
+    and we will update this file at a later time with this Valid Taxon
+    name.
+
+#### Hints
+
+- In the Annotation Table tab, the ‘-‘ button will delete the currently
+  selected row(s).
+- All data entry can be done in the Annotation Table by double or triple
+  clicking cells until a blinking cursor appears.
+
+### Step 3: add voucher specimens to the taxon names
+
+1.  When you are finished adding all of the taxa, go to the **Specimens
+    for Taxon** tab.
+2.  To add a specimen, click the ‘+’ button in the Specimens panel. Now
+    click twice in the first cell in the Collection column (you will see
+    a blinking cursor) and start typing the collection code (for
+    example, MNHN). When the desired collection abbreviation appears in
+    the menu, select it from the menu or type the abbreviation and hit
+    return/enter.
+3.  Now double-click on the adjacent cell in the Specimen ID column, and
+    a box for entering text will appear – enter the ID (lot number) and
+    press enter/return. You may want to copy and paste this from the pdf
+    of the paper that you are annotating in order to avoid making
+    mistakes (but double-check that you are not pasting extra
+    characters).
+4.  If there are multiple specimens listed for a taxon, use the ‘+’
+    button to add another row, and select cells in the second row to
+    enter the collection code and specimen ID.
+
+**Requests for missing museum abbreviations:** Use the Fish Collection
+Codes spreadsheet on Google Docs to request the addition of missing
+codes, or request addition of synonyms of an existing code:
+
+1.  Add code and full name of museum to the \*last line\* of the
+    spreadsheet. If you are adding a synonym to an existing collection
+    code, use columns C or D as necessary
+2.  In the Status field, type "pending", and record the date of request
+    and your initials in the Request Notes field.
+3.  In the Phenex file, make a note in the Publication notes field
+    (under "Data Set" tab) describing your request (e.g., "museum code
+    XYZ missing; code added to Google Docs on 8/3/2008, Your Initials").
+
+**Notes:**
+
+- Try typing the full name of the museum if you can't find the
+  appropriate museum code ( (e.g., Los Angeles County Museum of Natural
+  History instead of LACMNH). See instructions on requesting missing
+  museum codes, if this is necessary.
+- Look at the list of existing specimen codes in the Google doc - it may
+  simply be misspelled.
+- Search for the author's definition of that abbreviation in the
+  publication, and then see if the full name of the collection is in our
+  list but under another name.
+- Specimens will sometimes be listed as 'uncataloged' (e.g., MNHN
+  uncat.); in this case, choose the appropriate museum abbreviation and
+  type 'uncat.' in the Specimen ID field.
+- Occasionally, a specimen entry will be missing a collection code
+  (e.g., no museum is listed next to the species name; or the specimen
+  is an uncataloged aquarium specimen). Just enter the taxon name, leave
+  Specimens fields blank, and make a comment in the Taxon Comments
+  field.
+- If a paper has multiple consecutive lots containing specimens of the
+  same species, the individual lots should be entered separately only
+  when there are less than 10 lots listed; for example:
+
+1.  Materials List has KIZ 846140-846142; Enter into Phenote as: KIZ
+    846140, KIZ 846141, KIZ 846142
+2.  Materials List has AMNH 20050 – 20075; Enter into Phenote as: AMNH
+    20050 – 20075
+
+### When you finish a taxon list:
+
+1.  Copy the file to the appropriate folder in the Phenoscape data
+    repository.
+2.  Update the curation log to indicate the work done on the taxon list.
+    See below for example:
+    ![](endnote-taxlist.jpg "endnote-taxlist.jpg")
+3.  Send email to taxon expert (ask Paula or Wasila if you don’t know),
+    and always cc: Paula and Wasila. Here is a sample email:
+
+"Dear Curator,
+
+Attached is a copy of the taxon list for Schaefer 1990 that I just
+completed. You will notice that the list of publication taxa is complete
+(copied and pasted from paper), but there are a number of valid taxa
+that are not apparently in the ontology (i.e. a valid name does not pop
+up when publication taxon name is entered in valid taxon field).
+
+I am sending this to you (taxon expert for catfish) to choose the
+appropriate valid taxon name and to update this file. Please notify
+Peter Midford if any new names are required in the Taxonomy Ontology.
+
+After you are done, please post the updated Taxon list for this paper to
+the “Taxon lists (phenote+)" folder on phenoscape-data.
+
+Thank you!
+
+Your name (Paula’s lab)"

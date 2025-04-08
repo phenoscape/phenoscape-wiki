@@ -1,0 +1,303 @@
+---
+title: OBD API Documentation
+permalink: wiki/OBD_API_Documentation
+layout: wiki
+tags:
+ - Informatics
+ -  API
+ -  Database
+---
+
+This section is to document the inherited (and sometimes modified) code
+in Java, Perl, and SQL, that downloads the ontologies and data from
+various repositories and locations online, and finally reasons with (as
+in infers implicit knowledge from) the downloaded data.
+
+WARNING: This section will probably never be properly formatted. It is
+meant mainly to be a breadcrumb trail for the author (Cartik).
+
+## OBD Data Model Entities
+
+**DataAdapter <Interface>** *\<org.bbop.dataadapter\>*
+
+- Uses a data adapter configuration (DataAdapterConfiguration) and a
+  Data Adapter UI (DataAdapterUI). A basic interface for data input and
+  output. This interface specifies nothing about the storage/access
+  method, the kind of operation, or what sort of data will be
+  manipulated. This class specifies a standard data adapter interface to
+  allow widgets for data adapter manipulation to be built.
+
+<!-- -->
+
+- Method declarations for
+  - Canceling data operation
+  - Returning list of operations
+  - Returning adapter configuration
+  - Generic method signature doOperation
+    - Performs the specified operation on the input using the given
+      configuration. The input value may be null if executing a
+      read-only operation. The return value may be null if executing a
+      write-only operation.
+
+**DataAdapterUI <Interface>** *\<org.bbop.dataadapter\>*
+
+- An interface to work with a data adapter. Uses an adapter
+  configuration and a UI Configuration.
+
+<!-- -->
+
+- Method declarations for:
+  - Initializing adapter given a data adapter, Iooperation and adapter
+    widget
+  - Getting and setting adapter configuration
+  - Getting and setting UI configuration
+  - Creating an empty configuration
+
+**Namespace <Interface>** *\<org.obo.datamodel\>*
+
+- Uses a path and id parameters, and a private id as well. Provides
+  implementations of comparators and equals methods where Ids are
+  compared. ID is the same as path.
+
+**IdentifiableObject <Interface>** *\<org.obo.datamodel\>*
+
+- Declares methods to get ID and determine if its anonymous
+
+**NestedValue <Interface>** *\<org.obo.datamodel\>*
+
+- Declares methods to get property values, add a property value, get and
+  set suggested comments and to get the name of the nested value
+
+**PropertyValue <Interface>** *\<org.obo.datamodel\>*
+
+- Implements a method to compare property values based upon first
+  comparing the property names and then comparing the property values.
+- Includes method declarations to get file name, name, line number
+  (int), get property name and value.
+
+**NamespacedObject <Interface>** *\<org.obo.datamodel\>*
+
+- Declares methods to get and set namespaces and namespace extensions
+
+**IdentifiedObject <Interface>** *\<org.obo.datamodel\>*
+
+- Declares methods to get type and property values, get and set type
+  extension, name, name extension, Id extension, anonymous extension,
+  and add and remove property values
+
+**Relationship <Interface>** *\<org.obo.datamodel\>*
+
+- Provides methods to get and set type (OBOProperty), child
+  (LinkObject), and nested values.
+
+**Link <Interface>** *\<org.obo.datamodel\>*
+
+- Adds to relationship. Provides methods to get and set parents and
+  namespaces to relationship methods
+
+**LinkedObject <Interface>** *\<org.obo.datamodel\>*
+
+- Provides methods to get children (Links), and add and remove parent,
+  and children, atomic or otherwise (Links)
+
+**DefinedObject <Interface>** *\<org.obo.datamodel\>*
+
+- Extends Identified Object. Declares methods to get and set definitions
+  and Default DBXrefs
+
+**DbXref <Interface>** *\<org.obo.datamodel\>*
+
+- Defines method for comparing DbXrefs on the basis of Database name and
+  Database ID comparisons. Can be of 5 kinds: anatomical, synonym,
+  unknown, analog, or definitional. Declares methods to get and set
+  database ids, databases, synonyms, descriptions, types (one of the 5
+  mentioned earlier), and nested values
+
+**DataType <Interface>** *\<org.obo.datamodel\>*
+
+- Includes a number of static members which are instances of
+  implementations for Strings, positive integers, dates, booleans,
+  durations, etc. Declares methods to get parent datatypes, value (In
+  terms of the datatype), and the actual name of the datatype (in String
+  form)
+
+**StringRelationship** *\<org.obo.dataadapter\>*
+
+- A class to represent relationships in subject – relation – object
+  format with namespace context. Includes parameters to capture relation
+  properties like inverse and cardinalities. Also provides a method to
+  forward Ids or change relation, subject, or object Ids from old to
+  new.
+
+**HistoryItem <Abstract>** *\<org.obo.history\>*
+
+- This class has been created to keep track of changes such as
+  redefinitions and obsoletions of OBO entities such as OBOClass,
+  OBORelation, OBORestriction etc. Every OBO entity contains a reference
+  to a collection of HistoryItems to keep track of all the versions it
+  has been through
+
+## Ontology Loader Entities
+
+**obd-create-db.pl**
+
+- Arguments
+  - Name of the database
+  - Name of text file that holds list of ontologies to be loaded. This
+    is in the '/conf' directory and the file is called
+    'obd-phenoscape.conf'
+
+<!-- -->
+
+- Steps
+  1.  Creates the database of the given name
+  2.  Invokes SQL scripts table, function, and view creation that are
+      stored in the '/sql' directory. The files are called
+      'obd-core-schema.sql' and 'obd-core-views.sql'
+  3.  Creates new language with the handsome name, 'PLPGSQL'
+  4.  Inserts metadata into one of the created tables
+  5.  Uses PLPGSQL scripts to create more stored procedures
+  6.  For every entry in the 'obd-phenoscape.conf' file, it invokes the
+      'obd-load-db-from-obo.pl' script
+
+**obd-load-db-from-obo.pl**
+
+- Arguments
+
+<!-- -->
+
+- - Name of the database to insert term definitions into
+  - The entry from the 'obd-phenoscape.conf' file which is mapped into a
+    PURL of an ontology
+
+<!-- -->
+
+- Steps
+
+\*# Each ontology is downloaded using the 'wget' method from Perl
+
+\*# After download, the 'obo2database" Shell script is invoked from the
+"../launch_scripts" directory for each ontology
+
+**obo2database**
+
+This is a wrapper shell script for the 'OBO2Database' Java class in the
+'\<org.oboedit.launcher\>' package. This script:
+
+1.  Gathers all the required library (JAR file) locations on the file
+    system and puts them together in a command line CLASSPATH argument
+2.  The name of the ontology file (download location), and name of the
+    database to load the definitions into are assembled as command line
+    arguments. IN addition to these, the command line argument also
+    includes options for 'allowdangling' and 'o'
+3.  VM options are assembled from the obo2database.vmoptions file in the
+    "/launch_scripts" directory. Typically, this file specifies the
+    memory usage requirements for the Java class as 1024 Kb
+    ('-Xmx1024m')
+4.  The OBO2Database class is now invoked with the assembled class path
+    and command line arguments to start loading the ontology terms into
+    the database
+
+**OBO2Database** *\<org.oboedit.launcher\>*
+
+This class does two things in order: reads in definitions from an OBO
+ontology and loads them into an OBOSession object, and then reads out
+from the OBOSession object and loads them into a relational database. To
+read in the OBO ontology, it uses an OBOFileAdapter
+*\<org.obo.dataadapter.OBOFileAdapter\>* object with a ReadConfiguration
+object. To write to the database, it uses an OBDSQLDatabaseAdapter
+\<org,obo.dataadapter.OBDSQLDatabaseAdapter\> with a WriteConfiguration
+object.
+
+The key method in this class is the *convertFiles()* method which has
+the OBOFileAdapter and OBDSQLDatabaseAdapter objects with all the
+attendant configuration parameters set to appropriate values
+('setBasicSave' is false, -allowdangling' is read in from the command
+line, the '-o' option creates a FilteredPath object with a
+SessionReasoner parameter set to false, etc), as arguments. The
+*converFiles()* method first calls the *doOperation()* method of the
+OBOFileAdapter class.
+
+Here is an outline of the flow of command
+
+1\. OBO2Database -\>
+convertFiles(OBOFileAdapter.OBOAdapterConfiguration,
+OBDSQLDatabaseAdapter.OBDSQLDatabaseAdapterConfiguration, false, false,
+false, null)
+
+calls
+
+1.1 OBOFileAdapter -\> doOperation(OBOAdapter.READ_ONTOLOGY,
+OBOFileAdapter.OBOAdapterConfiguration, null)
+
+In this method, a OBOSimpleParser
+\<org.obo.dataadapter.OBOSimpleParser\> object is created and all the
+read configuration parameters are set. This OBOSimpleParserObject is
+then used to create an OBOParseEngine
+\<org.obo.dataadapter.OBOParseEngine\> object. The *parse()* method of
+this OBOParseEngine object is now invoked. The method is defined in the
+AbstractParseEngine class *\<org.obo.dataadapter.AbstractParseEngine\>*
+
+1.1 OBOFileAdapter -\> doOperation(OBOAdapter.READ_ONTOLOGY,
+OBOFileAdapter.OBOAdapterConfiguration, null)
+
+calls
+
+1.1.1 AbstractParseEngine -\> parse();
+
+After a slew of method calls that initialize instance variables across
+OBOParseEngine, and SimpleOBOParser instances, this method (1.1.1) calls
+
+OBOParseEngine -\> doParse(String path)
+
+This is the method which actually READS the ontology file
+
+Line by line, this method invokes OBOParseEngine -\> parseTag() which
+invokes OBOParseEngine -\> parseTagValue() methods to work with the
+name-value definitions in the input OBO file
+
+*OBOParseEngine -\> parseTagValue()*
+
+In this method, depending on what tag is being processed, different
+methods are invoked to store the value of the tag.
+
+All these method definitions are in *DefaultOBOParser* class
+
+After all the definitions are stored in the "OBOSession" instance (which
+is what OBOFileAdapter -\> doOperation(OBOAdapter.READ_ONTOLOGY,
+OBOFileAdapter.OBOAdapterConfiguration, null) essentially does
+
+1\. OBO2Database -\>
+convertFiles(OBOFileAdapter.OBOAdapterConfiguration,
+OBDSQLDatabaseAdapter.OBDSQLDatabaseAdapterConfiguration, false, false,
+false, null)
+
+calls
+
+1.2 OBDSQLDatabaseAdapter -\>
+doOperation(OBDSQLDatabaseAdapter.WRITE_ONTOLOGY,
+OBDSQLDatabaseAdapter.OBDSQLDatabaseAdapterConfiguration, OBOSession)
+
+which starts to load in all the objects stored in OBOSession into the
+relational database
+
+1.2 OBDSQLDatabaseAdapter -\>
+doOperation(OBDSQLDatabaseAdapter.WRITE_ONTOLOGY,
+OBDSQLDatabaseAdapter.OBDSQLDatabaseAdapterConfiguration, OBOSession)
+
+calls
+
+*OBDSQLDatabaseAdapter -\> storeAll(OBOSession, LinkDatabase)*
+
+This method gets the connection to the database and starts to write to
+the database. First the subset categories such as "attribute_slim" etc
+are written in. Then the objects are cycled through.
+
+If object is not an annotation,
+
+*OBDSQLDatabaseAdapter -\> saveObject(IdentifiedObject)* is invoked.
+
+In this method, various stored procedures from
+'../sql/api/obd-mutable-api.plpgsql' PLPGSQL script file are invoked to
+store the nodes and defined links from each node. DbXRef, subset, and
+various other links are entered into the database in this method.

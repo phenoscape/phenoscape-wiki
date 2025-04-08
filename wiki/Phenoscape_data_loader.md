@@ -1,0 +1,91 @@
+---
+title: Phenoscape data loader
+permalink: wiki/Phenoscape_data_loader
+layout: wiki
+tags:
+ - Informatics
+ - Database
+---
+
+The Phenoscape Data Loader is being developed as a Perl module. This
+section offers an overview of the functioning of the Phenoscape Data
+Loader. The data loader has been installed on the dev application server
+at NESCent and can be found at
+/usr/local/projects/phenoscape-data-loader
+
+## The Phenoscape data loader - A step by step review
+
+The Phenoscape data loader performs the following steps in sequence
+
+### Downloads curated NeXML files from the Phenoscape SVN repositories
+
+Ichthyologists curate scientific publications using the
+<a href="Phenex" class="wikilink" title="Phenex">Phenex</a> character
+matrix annotator and these curations are stored in an SVN repository.
+The data loader downloads these data files for subsequent uploading into
+the relational database
+
+### Loads the requisite ontologies into the database
+
+The annotations of character matrices use terms that are defined in life
+science ontologies. These ontologies include the [Teleost Taxonomy
+Ontology (TTO)](http://bioportal.bioontology.org/ontologies/38703), the
+[Relations Ontology](http://www.obofoundry.org/ro/), the
+<a href="Teleost_Anatomy_Ontology" class="wikilink"
+title="Teleost Anatomy Ontology (TAO)">Teleost Anatomy Ontology
+(TAO)</a>, and the [Phenotype and Trait Ontology
+(PATO)](http://bioontology.org/wiki/index.php/PATO:Main_Page). The data
+loader loads all these definitions into the relational database
+
+### Loads the data from ZFIN model organism database
+
+[ZFIN](http://zfin.org) hosts data relating mutant phenotypes of the
+*Danio Rerio* (Zebrafish) organism to specific genes and genotypes. The
+data loader transcribes this data into OBD format and loads it into the
+database
+
+### Loads the data from the curated NeXML files into the database
+
+The data loader transforms the curated data from NeXML syntax to a set
+of relational tuples (records), which are then sequentially inserted
+into the database
+
+### Reasons with the data
+
+The data loader invokes the
+<a href="OBD_Reasoner" class="wikilink" title="OBD Reasoner">OBD
+Reasoner</a> to infer implicit knowledge from the assertions, in the
+form of new assertions. These inferred assertions are also added to the
+database.
+
+### Populates the data warehouse
+
+The data warehouse is necessary for speedy execution of queries invoked
+from the user interface. The data warehouse is populated by running
+stored procedures on the data, after the reasoning process has
+completed. As an additional step, the loader invokes a labelmaker
+procedure, which generates readable labels for "post composed" terms
+
+### Loads the homology data
+
+Homology data from the Phenoscape SVN files are loaded into the
+database. This includes assertions about homologies, the publications
+from which these are sourced, and the evidence codes used for these
+assertions.
+
+## Refreshing the data with the Phenoscape data loader
+
+The Phenoscape data loader runs as a cron job on the kb-dev server every
+Friday at 6 PM EST. Given that the application WAR points to one of two
+copies of the Phenoscape knowledgebase, the data loader refreshes the
+other copy of the knowledgebase, so the application is never "offline".
+After the data refresh is completed, the application WAR is redeployed
+so that it points to the newer version of the data.
+
+## <a href="OBD_API_Documentation" class="wikilink"
+title="OBD API Documentation">OBD API Documentation</a>
+
+For code specific details Specific details of OBD related classes and
+interfaces as documented by CK. These will be updated very often and are
+meant to be used as an addendum to the [The OBOEdit
+Javadoc](http://oboedit.org/?page=javadocs)

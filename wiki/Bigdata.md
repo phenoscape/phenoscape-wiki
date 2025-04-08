@@ -1,0 +1,134 @@
+---
+title: Bigdata
+permalink: wiki/Bigdata
+layout: wiki
+tags:
+ - Informatics
+ - Reasoning
+ - Database
+---
+
+For querying across the entire <a href="Phenoscape_KB" class="wikilink"
+title="Knowledgebase dataset">Knowledgebase dataset</a>, Phenoscape is
+using the [Bigdata RDF
+triplestore](http://wiki.bigdata.com/wiki/index.php/Main_Page). We
+selected Bigdata for several reasons:
+
+- Top SPARQL query performance among open-source triplestores
+- Support for [SPARQL 1.1 query
+  language](http://www.w3.org/TR/2013/REC-sparql11-query-20130321/).
+  This is required for aggregates such as `COUNT`. [Property
+  paths](http://www.w3.org/TR/sparql11-query/#propertypaths) also
+  provide basic transitivity reasoning at query time.
+- Embedded full-text index available within SPARQL queries.
+- [Concise bounded description](http://www.w3.org/Submission/CBD/) mode
+  for SPARQL `DESCRIBE` queries. When blank nodes are included in a
+  `DESCRIBE` result, this recursively describes them until the graph
+  terminates in named nodes in all directions. This is useful for
+  grabbing the necessary and sufficient RDF graph needed to reconstruct
+  OWL class expressions.
+- Easy installation as Java WAR within Apache Tomcat.
+
+The data that go into Bigdata are assembled via the
+<a href="KB_build_process" class="wikilink" title="KB build process">KB
+build process</a> into a
+<a href="KB_build_process#RDF_data_model" class="wikilink"
+title="graph data model">graph data model</a>.
+
+## Phenoscape machine configurations
+
+- SPARQL endpoint using the Bigdata NanoSparqlServer within Apache
+  Tomcat. This machine runs Ubuntu Linux, with 4 CPUs and 8 GB RAM.
+  Tomcat is allowed 6 GB RAM.
+  - This database holds about 35 million triples.
+- owlet service which expands SPARQL queries using the ELK reasoner and
+  submits them to the preceding Bigdata endpoint. This machine runs
+  Ubuntu Linux, with 4 CPUs and 16 GB RAM. Tomcat is allowed 12 GB RAM.
+  - The ELK instance holds about 750,000 logical axioms.
+  - This web application also contains the beginnings of a few web
+    services. These query the SPARQL endpoint over HTTP. Perhaps this
+    application should be revised to directly load Bigdata, as our
+    standalone compute scripts do (below).
+- Direct loading of Bigdata to answer long-running, high-memory queries
+  on the [DSCR cluster](https://wiki.duke.edu/display/SCSC/DSCR). We
+  have machines with many CPUs and over 100 GB RAM.
+  - Example script:
+    <https://github.com/phenoscape/presence-absence-matrix>
+
+## Querying with OWL semantics
+
+While OWL can be stored as RDF, thinking at the OWL axiom level can be
+quite different from thinking at the RDF triple level. While OWL matches
+up nicely with RDF and SPARQL when dealing with object property
+assertions for individuals, querying using complex class descriptions is
+much more straightforward using DL queries to an OWL reasoner rather
+than via SPARQL, which is designed for matching triple patterns.
+Querying SPARQL patterns which match pieces of the OWL-to-RDF
+serialization is error prone and will likely provide incomplete results.
+It is best to consider that triples using predicates from the OWL
+namespace are a private implementation detail (e.g. owl:onProperty,
+owl:someValuesFrom, etc.).
+
+Since Phenoscape annotations are composed largely of complex OWL class
+descriptions, we use two approaches to make use of OWL semantics within
+SPARQL queries:
+
+- Generated sets of named classes for useful expression patterns. These
+  include annotation property relations which make it easier to query
+  these "class-level relationships" from SPARQL.
+  - Existential restriction hierarchies, such as (part_of some X), where
+    X is every anatomical structure
+  - <a
+    href="KB_build_process#.22Absence.22_classes_for_OWL_EL_negation_classification_workaround"
+    class="wikilink" title="Absence classes">Absence classes</a>
+- [owlet](http://github.com/phenoscape/owlet), which allows embedding of
+  arbitrary DL queries into SPARQL. This provides for an infinite number
+  of possible expressions, but precludes using variables in the class
+  expression.
+
+## Issues we've encountered
+
+- Full text searches are quite a bit slower when more than one property
+  is considered. It would be really nice to be able to search
+  `?s rdfs:label|obo:related_synonym ?label`, but this is not really
+  feasible.
+- Some simple queries can be quite slow, for example counting the number
+  of triples in the database. It seems like there is some special
+  optimization for this in Virtuoso, which returns the answer instantly.
+- Overall query speed can be a little too slow to run a user-facing web
+  application. The current machines we are using for this may not be
+  optimal configurations.
+
+## Future applications
+
+### Semantic similarity
+
+For several applications we would like to query for data items which are
+[semantically
+similar](http://www.mendeley.com/catalog/similarity-between-semantic-description-sets-addressing-needs-beyond-data-integration/)
+to each other, meaning they are each annotated with sets of class
+descriptions which share semantics to a greater degree than with other
+data items. For example, a gene may be associated with a set of
+phenotypic expressions such as
+**`round`**` and `*`inheres_in`*` some `**`tail`**;
+**`small`**` and `*`inheres_in`*` some `**`eye`**. What other genes are
+annotated most similarly? Perhaps another also affects the tail but with
+a different shape. These semantic profiles could potentially contain
+just a few or dozens of expressions.
+
+Current implementations of semantic similarity compute scores for
+profile pairs and can run for several hours. It would be nice to develop
+a system which could query for similar entities on the fly, providing
+some sort of match score. Could
+[MPGraph](http://www.systap.com/mpgraph/api/html/index.html) play a role
+here?
+
+- A difficulty of implementing semantic similarity search using SPARQL
+  queries is the need to find the nearest common ancestor along the
+  subclass hierarchy. A graph traversal API could possibly facilitate
+  this. There may be multiple hierarchies of interest, according to
+  various dimensions along which similarity can be considered (normal
+  subclass hiearchy, existential restriction hiearchies, more complex
+  expression templates).
+- Scores could also take into account information content of matches,
+  giving more weight to higher information matches.

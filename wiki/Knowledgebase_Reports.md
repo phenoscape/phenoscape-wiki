@@ -1,0 +1,364 @@
+---
+title: Knowledgebase Reports
+permalink: wiki/Knowledgebase_Reports
+layout: wiki
+tags:
+ - Curation
+ - Database
+ - Queries
+---
+
+ALL of the files (unvetted annotations from Sandrine) are not loaded on
+any instance
+
+## Reports on production Phenoscape KB
+
+This contains consistency-checked and author-checked files (from
+'phenex-files'). It is updated irregularly (every 1-3 months). This
+contains all of the data files found
+[here](http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/data/phenex-files/).
+It contains the latest public versions of all ontologies at the time the
+data were loaded, with the exception of PATO (it currently contains an
+[experimental PATO revision](http://www.duke.edu/~jpb15/quality.obo)),
+and TAO (it contains an experimental TAO incorporating the new VAO -
+this will be removed at the next update of this system).
+
+- [Date on which these data were
+  loaded](http://kb.phenoscape.org/OBD-WS/timestamp/)
+- [Count of annotated publications, by higher level
+  taxon](http://kb.phenoscape.org/OBD-WS/report/count/publications)
+  - [pelvic fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/publications?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/publications?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/publications?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of all published
+  characters](http://kb.phenoscape.org/OBD-WS/report/count/characters/published)
+- [Count of all annotated
+  characters](http://kb.phenoscape.org/OBD-WS/report/count/characters/annotated)
+  - [pelvic fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/characters/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/characters/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/characters/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of all published character
+  states](http://kb.phenoscape.org/OBD-WS/report/count/characterstates/published)
+- [Count of all annotated character
+  states](http://kb.phenoscape.org/OBD-WS/report/count/characterstates/annotated)
+  - [pelvic fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/characterstates/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/characterstates/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/characterstates/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of publication taxa (OTUs) across all
+  publications](http://kb.phenoscape.org/OBD-WS/report/count/otus/published)
+- [Count of annotated taxa (valid taxa, i.e. terms in
+  TTO)](http://kb.phenoscape.org/OBD-WS/report/count/taxa/annotated)
+  - [pelvic fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/taxa/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/taxa/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/taxa/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of EQ statements curated (state to phenotype
+  links)](http://kb.phenoscape.org/OBD-WS/report/count/phenotypes/curated)
+- [Count of distinct phenotypes used in taxon
+  annotations](http://kb.phenoscape.org/OBD-WS/report/count/phenotypes/annotated)
+  - [pelvic fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/phenotypes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/phenotypes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/phenotypes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of curated taxon phenotype
+  annotations](http://kb.phenoscape.org/OBD-WS/report/count/annotations/taxa/curated)
+  - [pelvic fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/annotations/taxa/curated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/annotations/taxa/curated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/annotations/taxa/curated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of distinct taxon phenotype
+  annotations](http://kb.phenoscape.org/OBD-WS/report/count/annotations/taxa/distinct)
+  - [pelvic fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/annotations/taxa/distinct?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/annotations/taxa/distinct?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/annotations/taxa/distinct?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of annotated
+  genes](http://kb.phenoscape.org/OBD-WS/report/count/genes/annotated)
+  - [pelvic fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/genes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/genes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/genes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of genotype phenotype annotations (including morpholinos as
+  genotypes)](http://kb.phenoscape.org/OBD-WS/report/count/annotations/genotypes/curated)
+  - [pelvic fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/annotations/genotypes/curated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/annotations/genotypes/curated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/annotations/genotypes/curated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of distinct gene phenotype annotations (these are implied by
+  genotype and morpholino
+  annotations)](http://kb.phenoscape.org/OBD-WS/report/count/annotations/genes/distinct)
+  - [pelvic fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/annotations/genes/distinct?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/annotations/genes/distinct?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/annotations/genes/distinct?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of distinct phenotypes used in gene
+  annotations](http://kb.phenoscape.org/OBD-WS/report/count/phenotypes/genes/annotated)
+  - [pelvic fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/phenotypes/genes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/phenotypes/genes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb.phenoscape.org/OBD-WS/report/count/phenotypes/genes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+
+## Reports on kb-staging
+
+This contains consistency-checked and author-checked files (from
+'phenex-files'). It is updated irregularly (every 1-3 months). This
+contains all of the data files found
+[here](http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/data/phenex-files/).
+It contains the latest public versions of all ontologies at the time the
+data were loaded, with the exception of PATO (it currently contains an
+[experimental PATO revision](http://www.duke.edu/~jpb15/quality.obo)).
+
+- [Date on which these data were
+  loaded](http://kb-staging.phenoscape.org/OBD-WS/timestamp/)
+- [Count of annotated publications, by higher level
+  taxon](http://kb-staging.phenoscape.org/OBD-WS/report/count/publications)
+  - [pelvic fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/publications?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/publications?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/publications?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of all published
+  characters](http://kb-staging.phenoscape.org/OBD-WS/report/count/characters/published)
+- [Count of all annotated
+  characters](http://kb-staging.phenoscape.org/OBD-WS/report/count/characters/annotated)
+  - [pelvic fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/characters/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/characters/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/characters/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [Ostarioclupeomorpha
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/characters/annotated?query=%7B%22taxon%22%3A%5B%7B%22id%22%3A%22TTO%3A253%22%7D%5D%7D)
+- [Count of all published character
+  states](http://kb-staging.phenoscape.org/OBD-WS/report/count/characterstates/published)
+- [Count of all annotated character
+  states](http://kb-staging.phenoscape.org/OBD-WS/report/count/characterstates/annotated)
+  - [pelvic fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/characterstates/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/characterstates/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/characterstates/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [Ostarioclupeomorpha
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/characterstates/annotated?query=%7B%22taxon%22%3A%5B%7B%22id%22%3A%22TTO%3A253%22%7D%5D%7D)
+- [Count of publication taxa (OTUs) across all
+  publications](http://kb-staging.phenoscape.org/OBD-WS/report/count/otus/published)
+- [Count of annotated taxa (valid taxa, i.e. terms in
+  TTO)](http://kb-staging.phenoscape.org/OBD-WS/report/count/taxa/annotated)
+  - [pelvic fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/taxa/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/taxa/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/taxa/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [Ostarioclupeomorpha
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/taxa/annotated?query=%7B%22taxon%22%3A%5B%7B%22id%22%3A%22TTO%3A253%22%7D%5D%7D)
+- [Count of EQ statements curated (state to phenotype
+  links)](http://kb-staging.phenoscape.org/OBD-WS/report/count/phenotypes/curated)
+- [Count of distinct phenotypes used in taxon
+  annotations](http://kb-staging.phenoscape.org/OBD-WS/report/count/phenotypes/annotated)
+  - [pelvic fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/phenotypes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/phenotypes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/phenotypes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [Ostarioclupeomorpha
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/phenotypes/annotated?query=%7B%22taxon%22%3A%5B%7B%22id%22%3A%22TTO%3A253%22%7D%5D%7D)
+- [Count of curated taxon phenotype
+  annotations](http://kb-staging.phenoscape.org/OBD-WS/report/count/annotations/taxa/curated)
+  - [pelvic fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/annotations/taxa/curated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/annotations/taxa/curated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/annotations/taxa/curated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [Ostarioclupeomorpha
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/annotations/taxa/curated?query=%7B%22taxon%22%3A%5B%7B%22id%22%3A%22TTO%3A253%22%7D%5D%7D)
+- [Count of distinct taxon phenotype
+  annotations](http://kb-staging.phenoscape.org/OBD-WS/report/count/annotations/taxa/distinct)
+  - [pelvic fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/annotations/taxa/distinct?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/annotations/taxa/distinct?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/annotations/taxa/distinct?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [Ostarioclupeomorpha
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/annotations/taxa/distinct?query=%7B%22taxon%22%3A%5B%7B%22id%22%3A%22TTO%3A253%22%7D%5D%7D)
+- [Count of annotated
+  genes](http://kb-staging.phenoscape.org/OBD-WS/report/count/genes/annotated)
+  - [pelvic fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/genes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/genes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/genes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of genotype phenotype annotations (including morpholinos as
+  genotypes)](http://kb-staging.phenoscape.org/OBD-WS/report/count/annotations/genotypes/curated)
+  - [pelvic fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/annotations/genotypes/curated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/annotations/genotypes/curated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/annotations/genotypes/curated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of distinct gene phenotype annotations (these are implied by
+  genotype and morpholino
+  annotations)](http://kb-staging.phenoscape.org/OBD-WS/report/count/annotations/genes/distinct)
+  - [pelvic fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/annotations/genes/distinct?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/annotations/genes/distinct?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/annotations/genes/distinct?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of distinct phenotypes used in gene
+  annotations](http://kb-staging.phenoscape.org/OBD-WS/report/count/phenotypes/genes/annotated)
+  - [pelvic fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/phenotypes/genes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/phenotypes/genes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-staging.phenoscape.org/OBD-WS/report/count/phenotypes/genes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+
+## Reports on kb-dev
+
+This database is used for active development and may often be broken. It
+should usually not be relied upon for everyday use. This contains all of
+the data files found
+[here](http://phenoscape.svn.sourceforge.net/viewvc/phenoscape/trunk/data/phenex-files/).
+It contains the latest public versions of all ontologies at the time the
+data were loaded, with the exception of PATO (it currently contains an
+[experimental PATO revision](http://www.duke.edu/~jpb15/quality.obo)).
+It will have the tao with the vao ('new tao') for testing.
+
+- [Date on which these data were
+  loaded](http://kb-dev.phenoscape.org/OBD-WS/timestamp/)
+- [Count of annotated publications, by higher level
+  taxon](http://kb-dev.phenoscape.org/OBD-WS/report/count/publications)
+  - [pelvic fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/publications?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/publications?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/publications?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of all published
+  characters](http://kb-dev.phenoscape.org/OBD-WS/report/count/characters/published)
+- [Count of all annotated
+  characters](http://kb-dev.phenoscape.org/OBD-WS/report/count/characters/annotated)
+  - [present or absent quality
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/characters/annotated?query=%7B%22phenotype%22%3A%5B%7B%22quality%22%3A%7B%22id%22%3A%22PATO%3A0000462%22%7D%7D%2C%20%7B%22quality%22%3A%7B%22id%22%3A%22PATO%3A0000467%22%7D%7D%5D%2C%20%22match_all_phenotypes%22%3A%20false%7D)
+  - [pelvic fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/characters/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/characters/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/characters/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of all published character
+  states](http://kb-dev.phenoscape.org/OBD-WS/report/count/characterstates/published)
+- [Count of all annotated character
+  states](http://kb-dev.phenoscape.org/OBD-WS/report/count/characterstates/annotated)
+  - [pelvic fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/characterstates/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/characterstates/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/characterstates/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of publication taxa (OTUs) across all
+  publications](http://kb-dev.phenoscape.org/OBD-WS/report/count/otus/published)
+- [Count of annotated taxa (valid taxa, i.e. terms in
+  TTO)](http://kb-dev.phenoscape.org/OBD-WS/report/count/taxa/annotated)
+  - [pelvic fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/taxa/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/taxa/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/taxa/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of EQ statements curated (state to phenotype
+  links)](http://kb-dev.phenoscape.org/OBD-WS/report/count/phenotypes/curated)
+- [Count of distinct phenotypes used in taxon
+  annotations](http://kb-dev.phenoscape.org/OBD-WS/report/count/phenotypes/annotated)
+  - [pelvic fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/phenotypes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/phenotypes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/phenotypes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of curated taxon phenotype
+  annotations](http://kb-dev.phenoscape.org/OBD-WS/report/count/annotations/taxa/curated)
+  - [pelvic fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/annotations/taxa/curated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/annotations/taxa/curated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/annotations/taxa/curated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of distinct taxon phenotype
+  annotations](http://kb-dev.phenoscape.org/OBD-WS/report/count/annotations/taxa/distinct)
+  - [pelvic fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/annotations/taxa/distinct?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/annotations/taxa/distinct?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/annotations/taxa/distinct?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of annotated
+  genes](http://kb-dev.phenoscape.org/OBD-WS/report/count/genes/annotated)
+  - [pelvic fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/genes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/genes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/genes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of genotype phenotype annotations (including morpholinos as
+  genotypes)](http://kb-dev.phenoscape.org/OBD-WS/report/count/annotations/genotypes/curated)
+  - [pelvic fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/annotations/genotypes/curated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/annotations/genotypes/curated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/annotations/genotypes/curated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of distinct gene phenotype annotations (these are implied by
+  genotype and morpholino
+  annotations)](http://kb-dev.phenoscape.org/OBD-WS/report/count/annotations/genes/distinct)
+  - [pelvic fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/annotations/genes/distinct?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/annotations/genes/distinct?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/annotations/genes/distinct?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+- [Count of distinct phenotypes used in gene
+  annotations](http://kb-dev.phenoscape.org/OBD-WS/report/count/phenotypes/genes/annotated)
+  - [pelvic fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/phenotypes/genes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001184%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [pectoral fin and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/phenotypes/genes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0001161%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+  - [skeletal system and parts
+    only](http://kb-dev.phenoscape.org/OBD-WS/report/count/phenotypes/genes/annotated?query=%7B%22phenotype%22%3A%5B%7B%22entity%22%3A%7B%22id%22%3A%22TAO%3A0000434%22%2C%22including_parts%22%3A%20true%7D%7D%5D%7D)
+
+## kb-old
+
+This database has the old interface - its data are frozen as of May
+2010.

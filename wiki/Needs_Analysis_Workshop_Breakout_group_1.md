@@ -1,0 +1,156 @@
+---
+title: Needs Analysis Workshop/Breakout group 1
+permalink: wiki/Needs_Analysis_Workshop/Breakout_group_1
+layout: wiki
+tags:
+ - Needs Analysis Workshop
+---
+
+## Break-out Group 1: Developmental genetics of morphology
+
+Examples for driving research questions:
+
+- Which genes are known to be expressed in the development of a
+  particular morphological structure?
+- Is there a model organism mutant that has a phenotype similar to a
+  human disease?
+
+Characters
+
+GW - describe natural units - not necessarily arbitrary - can phenotype
+be decomposed into natural mechanistic units
+
+CK - could ontology hold you back from describing some things
+
+GW - can lead to confusion
+
+EJ - this database can be a way of discovering these units
+
+GW - would database be like GenBank - I could describe a fish and
+deposit my phenotypes - structure of data would be fluid
+
+PM - data is representation of current knowledge - can change over time
+
+GW - how is change in knowledge, like of orthology statements, handled
+in genome databases
+
+Manually updated, typically
+
+MW - We should move above mechanics and focus on biological questions
+
+EJ - how can we use data to identify discrete modules of variation
+within evolution
+
+GW - taxonomic work in mammals often involves tooth characters - usually
+cusps are individualized - actually character identity should be
+attached to tooth type rather than cusp as unit character - resolves
+many homology issues
+
+Question: See same tooth type evolving again and again. Developmentally,
+cusps don't come and go individually. - see covariance within mutants
+query for mutants that affect cusp X - always see that other cusp is
+affected
+
+GW - Homology and analogy - often too "yes or no" - instead could have
+"character model" - contain kind of cells within, location in body,
+relation to other characters, what kind of states can it assume -
+represent variational tendencies of a chunk of the body - avoid
+simplifying biological reality - open-ended structure
+
+CK - can you really ask question like "what are modules of evolution"
+from database - is that too big
+
+PM and MW - hope to draw such conclusions from database
+
+EJ - quantify levels of covariation across clade as well as across
+experimental phenotypes
+
+Question: Paired appendages in vertebrates - fins and limbs etc.
+Homologous, but endoskeletons are not comparable though Do fish have
+digits (digit homolog)? Is there a skeletal structure that is
+historically continuous with digits? Are there mutants in the mouse that
+affect phalanges? Are there similar zebrafish mutants that affect
+radials? Position, shape, cell type of skeletal elements? Similar gene
+expression patterns? Does it support continuity of developmental
+identity? Evidence that there are intermediate forms - continuity -
+require fossil data
+
+1.  Are there mutants that affect phalanges?
+2.  What genes are involved?
+3.  Are there mutants in "similar" structures affected by any of those
+    genes?
+    - Point you to best candidates in terms of phenotypic similarity,
+      membership in pathway
+
+Compare in database?
+
+Question: Comparative catalog of cell types
+
+Question: Does antennal structure vary more than legs in beetles?
+Developmental reasons why? Or function/natural selection? Hypothesis:
+pathways mediating development of leg is more tightly hardwired than in
+development of antenna Data needed:
+
+- score amount of variation across phenotypes, mutant affects, pathways
+- measure phenotypic affect of a mutation on leg vs. antenna - how to
+  measure magnitude of phenotypic change in either structure?
+  - current data are biased by screens
+
+Where do patterns of covariation change within evolution?
+
+- identify using database, give hints to experimental work
+
+See change in developmental affects in genes - do you see similar
+evolutionary change?
+
+See rapid evolutionary change in gene sequence within phylogeny - what
+phenotypic changes are associated with that part of phylogeny?
+
+- investigate possible correlations
+- requires phylogeny
+- map phenotypic changes on phylogeny
+  - Generate phylogenies on the fly
+  - User submit phylogeny
+  - User play with topology on screen and see results
+
+Negative information?
+
+- Database tell you what the gaps are that would allow you to answer a
+  particular question
+
+Estimate rates of trait evolution?
+
+View synapomorphies for groups
+
+As data is provided by users from field
+
+- need latitude and longitude for specimen - can immediately interface
+  with ecological data
+- developmental stage of specimen? usually adult, usually give you size
+- from specimen ID, we can cross reference to much of this information
+
+Gene networks
+
+- are phenotypic changes non-randomly placed within gene networks?
+- hypothesis: can't play around much with receptors, but other
+  components in signaling pathway can vary
+- is particular node within pathway correlated with major phenotypic
+  change
+
+Repository of micro-CT data - slice electronically - sort into series -
+find by ontological term association
+
+Map where shape changes on phylogeny
+
+- ask what else changes more than expected along those particular nodes
+- are than any structures changing in other groups in structures
+  considered homologues
+
+Back to module discovery... what questions would you ask?
+
+- Look for discrete piece of development in developmental series
+- What pieces of development share a piece of genetic program?
+- Are the structures influenced by a common developmental trigger? Even
+  if not contiguous in space...
+- Intermodule connections are biologically less stable than intramodule
+- what is known about signals that co-influence structures?

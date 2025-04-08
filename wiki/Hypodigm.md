@@ -1,0 +1,59 @@
+---
+title: Hypodigm
+permalink: wiki/Hypodigm
+layout: wiki
+tags:
+ - Curation
+ - Specimen Annotation
+redirect_from:
+ - wiki/Ambiguous_specimen_information%3A_annotating_phenotypes_for_specimens_or_species
+---
+
+## Ambiguous specimen information: annotating phenotypes for specimens or species
+
+### Problem
+
+How to handle the uncertainty of tying phenotype annotations to
+specimens within publications has been at issue. Our existing data model
+held all phenotype annotations at the level of particular specimens.
+Handling ambiguity at this level was causing difficulty in determining
+the proper OBO semantics, since authors often do not explicitly
+reference specimens, but instead discuss taxonomic groups. Since a list
+of specimens is included in the paper, we know that at least one of
+them, and maybe more, were examined for the described character. This
+"someOf" semantics is not currently available within OBO and may not be
+logically desirable.
+
+This level of detail raises questions of what our goals should be:
+trying to model the logic within the published descriptions exactly, or
+rather creating a knowledge base of phenotypic diversity which uses the
+publications for support.
+
+### Resolution
+
+Our discussion at the Biocuration meeting led to a new data model in
+which all phenotype annotations are expressed as properties of species.
+Any annotation is assigned an evidence code such as those used by the GO
+project. An phenotypic description explicitly tied to a specimen will be
+given a "strong" evidence code, such as "direct observation by author",
+requiring a supplemental museum catalog number or numbers. A phenotypic
+description in which the author just says, "species X has phenotype Y",
+without pointing to a specimen, will be curated as well, but the
+evidence code will be something like "traceable author statement", and
+no catalog numbers attached (even though some for that species may be
+listed in the materials and methods).
+
+The same methodology can be extended to statements about higher taxa. In
+this case, individual species-level phenotype annotations should be
+generated for every species of that taxon listed in the materials list.
+These will generally all get the weaker evidence code. If the author
+happened to point out one or more particular specimens illustrating the
+phenotype, these particular species can be given the stronger evidence
+code with catalog numbers attached.
+
+We need to standardize the list of evidence codes and their meaning for
+our data. Here is a [GO page about
+them](http://www.geneontology.org/GO.evidence.shtml), and here is [an
+evidence_code
+ontology](http://obofoundry.org/cgi-bin/detail.cgi?id=evidence_code),
+with many more codes:

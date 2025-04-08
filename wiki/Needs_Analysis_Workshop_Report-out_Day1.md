@@ -1,0 +1,61 @@
+---
+title: Needs Analysis Workshop/Report-out Day1
+permalink: wiki/Needs_Analysis_Workshop/Report-out_Day1
+layout: wiki
+tags:
+ - Needs Analysis Workshop
+---
+
+### Evo Group report-out
+
+- need to improve ontologies, e.g. for describing behavior
+- need to improve tools for analyzing images
+- covariance of entities, attributes
+- broader queries of entities within particular constraints, such as
+  structures
+- need capacity to store media (e.g., images, movies)
+- need environmental, ecological, and geographical data
+
+### Devo Group report-out
+
+- identifying homologies among distantly related taxa
+  - for example, do fishes have digits? E.g., if genes have similar
+    effects on fins as on digit development.
+- patterns of covariation
+  - for example, cusps on mammalian teeth
+  - could be used to identify "character modules" that are
+    well-connected
+  - connections within modules should be more stable than between
+- for a branch hypothesized to be under positive selection (from e.g. a
+  molecular analysis), identify candidate phenotypes that could have
+  been selected for
+  - map synapomorphies onto a phylogeny
+  - identify phenotypes with highest rate of change on that lineage
+  - needs phylogeny that is selectable and manipulable
+- use the database to point out holes in the knowledge
+
+### Discussion
+
+<figure>
+<img src="Day2-brainstorming1.whiteboard.JPG"
+title="Analysis Pipeline, Character Modules" width="384" />
+<figcaption>Analysis Pipeline, Character Modules</figcaption>
+</figure>
+
+- enrichment analysis: given a list of genes, which phenotype terms are
+  overrepresented among them
+- capturing representing variation seems to be a general problem and
+  challenge, but critically needed
+  - variation in regulatory (or morphogenic) gene expression and
+    corresponding phenotypic changes (Hox gene expression example)
+  - polyphenism: variability of phenotype that can distinguish species
+    but is also dependent on environmental factors or variable levels of
+    gene expression
+  - do we need to capture frequencies for polymorphisms to represent
+    variability
+  - there are morphological differences even between inbred strains, for
+    example for JAX mouse strains in cranial morphology
+- integrating with genomic resources:
+  - linking out to genome databases seems mandatory
+- alerting features
+  - for example, saving queries as RSS feeds

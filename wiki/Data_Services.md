@@ -1,0 +1,1705 @@
+---
+title: Data Services
+permalink: wiki/Data_Services
+layout: wiki
+tags:
+ - Informatics
+ - API
+redirect_from:
+ - wiki/API
+---
+
+This page details the data services that query the Phenoscape OBD
+database and transfer the retrieved results to the Phenoscape UI. Each
+service may support multiple media types. The desired media type can be
+specified by appending `?media=json` or similar to the request URL. URI
+specifications are defined (loosely) using [URI
+Templates](http://bitworking.org/projects/URI-Templates/draft-gregorio-uritemplate-00.html).
+
+# Phenoscape Knowledgebase data services
+
+These are available at the base URI <http://fish.phenoscape.org/OBD-WS>.
+
+## Timestamp
+
+**URI**
+
+<BASE URI>`/timestamp`
+
+This service returns the date on which the Knowledgebase content was
+refreshed.
+
+**Returns**
+
+JSON: <javascript> { "refresh_date":"2010-01-09" }
+
+</javascript>
+
+## Term info
+
+**URI**
+
+<BASE URI>`/term/{term_id}`
+
+This is a generic term info service returning basic properties and
+relationships of a term, given its ID. The returned relationships are
+those included in the source ontology for the term, not all links to the
+term in the Knowledgebase.
+
+**Returns**
+
+JSON: <javascript> {
+
+`   "id": "TAO:0000620",`  
+`   "definition": "Endochondral bone that is part of the antero-lateral region of the palate.`
+
+Commonly, it articulates with the maxilla anterolaterally and with the
+ethmoidal region medially. It may also articulate with the dermopalatine
+ventro-laterally and with the entopterygoid posteriorly. The
+autopalatine is paired.",
+
+`   "name": "autopalatine",`  
+`   "synonyms": [`  
+`   {`  
+`       "name": "palatine bone", "scope": "EXACT", "type": {"id":"COMMONNAME"}`  
+`   }],`  
+`   "parents": [`  
+`   {`  
+`       "relation": {`  
+`           "id": "OBO_REL:part_of",`  
+`           "name": "part_of"`  
+`       },`  
+`       "target": {`  
+`           "id": "TAO:0001272",`  
+`           "name": "palatoquadrate arch"`  
+`       }`  
+`   },`  
+`   {`  
+`       "relation": {`  
+`           "id": "develops_from",`  
+`           "name": "develops from"`  
+`       },`  
+`       "target": {`  
+`           "id": "TAO:0001399",`  
+`           "name": "palatoquadrate cartilage"`  
+`       }`  
+`   },`  
+`   {`  
+`       "relation": {`  
+`           "id": "OBO_REL:is_a",`  
+`           "name": "is_a"`  
+`       },`  
+`       "target": {`  
+`           "id": "TAO:0001591",`  
+`           "name": "endochondral bone"`  
+`       }`  
+`   },`  
+`   {`  
+`       "relation": {`  
+`           "id": "overlaps",`  
+`           "name": "overlaps"`  
+`       },`  
+`       "target": {`  
+`           "id": "TAO:0001942",`  
+`           "name": "autopalatine-maxillary joint"`  
+`       }`  
+`   },`  
+`   {`  
+`       "relation": {`  
+`           "id": "overlaps",`  
+`           "name": "overlaps"`  
+`       },`  
+`       "target": {`  
+`           "id": "TAO:0001784",`  
+`           "name": "autopalatine-vomer joint"`  
+`       }`  
+`   },`  
+`   {`  
+`       "relation": {`  
+`           "id": "overlaps",`  
+`           "name": "overlaps"`  
+`       },`  
+`       "target": {`  
+`           "id": "TAO:0001608",`  
+`           "name": "autopalatine-lateral ethmoid joint"`  
+`       }`  
+`   }],`  
+`   "children": [`  
+`   {`  
+`       "relation": {`  
+`           "id": "develops_from",`  
+`           "name": "develops from"`  
+`       },`  
+`       "target": {`  
+`           "id": "TAO:0002158",`  
+`           "name": "palatine"`  
+`       }`  
+`   },`  
+`   {`  
+`       "relation": {`  
+`           "id": "OBO_REL:part_of",`  
+`           "name": "part_of"`  
+`       },`  
+`       "target": {`  
+`           "id": "TAO:0001578",`  
+`           "name": "anterior dorsomedial process of autopalatine"`  
+`       }`  
+`   }]`
+
+} </javascript>
+
+**Error**
+
+If there is no term with the given ID, the service should return "404
+Not Found".
+
+## Path to root term info
+
+**URI**
+
+<BASE URI>`/term/{term_id}/path`
+
+This returns an array of term info objects from the ontology root to the
+given term.
+
+**Returns**
+
+JSON: <javascript> {
+
+`   "path":[`
+
+//sequence of term info objects as returned by the term info service
+
+`    ]`
+
+} </javascript>
+
+**Error**
+
+If there is no term with the given ID, the service should return "404
+Not Found".
+
+## Taxon term info
+
+**URI**
+
+<BASE URI>`/term/taxon/{term_id}`
+
+This is a specialized term info service which returns data in a format
+customized for taxa.
+
+**Returns**
+
+JSON: <javascript> {
+
+`   "id": "TTO:101020",`  
+`   "extinct": false,`  
+`   "rank": {`  
+`       "id": "TAXRANK:0000005",`  
+`       "name": "genus"`  
+`   },`  
+`   "name": "Ictalurus",`  
+`   "species_count": 231,`  
+`   "common_names":[{"scope":"RELATED","name":"Zebra danio","type":{"id":"COMMONNAME"}}]`  
+`   "synonyms": [{`  
+`       "name": "Villarius"`  
+`   },`  
+`   {`  
+`       "name": "Haustor"`  
+`   },`  
+`   {`  
+`       "name": "Elliops"`  
+`   },`  
+`   {`  
+`       "name": "Istlarius"`  
+`   },`  
+`   {`  
+`       "name": "Synechoglanis"`  
+`   }],`  
+`   "parent": {`  
+`       "id": "TTO:10930",`  
+`       "extinct": false,`  
+`       "rank": {`  
+`           "id": "TAXRANK:0000004",`  
+`           "name": "family"`  
+`       },`  
+`       "name": "Ictaluridae"`  
+`   },`  
+`   "children": [{`  
+`       "id": "TTO:10000452",`  
+`       "extinct": false,`  
+`       "rank": {`  
+`           "id": "TAXRANK:0000006",`  
+`           "name": "species"`  
+`       },`  
+`       "name": "Ictalurus sp. (Vigliotta 2008)"`  
+`   },`  
+`   {`  
+`       "id": "TTO:1004548",`  
+`       "extinct": false,`  
+`       "rank": {`  
+`           "id": "TAXRANK:0000006",`  
+`           "name": "species"`  
+`       },`  
+`       "name": "Ictalurus lupus"`  
+`   },`  
+`   {`  
+`       "id": "TTO:1049346",`  
+`       "extinct": false,`  
+`       "rank": {`  
+`           "id": "TAXRANK:0000006",`  
+`           "name": "species"`  
+`       },`  
+`       "name": "Ictalurus mexicanus"`  
+`   },`  
+`   {`  
+`       "id": "TTO:1004550",`  
+`       "extinct": false,`  
+`       "rank": {`  
+`           "id": "TAXRANK:0000006",`  
+`           "name": "species"`  
+`       },`  
+`       "name": "Ictalurus meridionalis"`  
+`   },`  
+`   {`  
+`       "id": "TTO:1005781",`  
+`       "extinct": false,`  
+`       "rank": {`  
+`           "id": "TAXRANK:0000006",`  
+`           "name": "species"`  
+`       },`  
+`       "name": "Ictalurus balsanus"`  
+`   },`  
+`   {`  
+`       "id": "TTO:1045587",`  
+`       "extinct": false,`  
+`       "rank": {`  
+`           "id": "TAXRANK:0000006",`  
+`           "name": "species"`  
+`       },`  
+`       "name": "Ictalurus australis"`  
+`   },`  
+`   {`  
+`       "id": "TTO:1005768",`  
+`       "extinct": false,`  
+`       "rank": {`  
+`           "id": "TAXRANK:0000006",`  
+`           "name": "species"`  
+`       },`  
+`       "name": "Ictalurus pricei"`  
+`   },`  
+`   {`  
+`       "id": "TTO:1039419",`  
+`       "extinct": false,`  
+`       "rank": {`  
+`           "id": "TAXRANK:0000006",`  
+`           "name": "species"`  
+`       },`  
+`       "name": "Ictalurus ochoterenai"`  
+`   },`  
+`   {`  
+`       "id": "TTO:1004547",`  
+`       "extinct": false,`  
+`       "rank": {`  
+`           "id": "TAXRANK:0000006",`  
+`           "name": "species"`  
+`       },`  
+`       "name": "Ictalurus furcatus"`  
+`   },`  
+`   {`  
+`       "id": "TTO:1054206",`  
+`       "extinct": false,`  
+`       "rank": {`  
+`           "id": "TAXRANK:0000006",`  
+`           "name": "species"`  
+`       },`  
+`       "name": "Ictalurus punctatus"`  
+`   },`  
+`   {`  
+`       "id": "TTO:10000228",`  
+`       "extinct": false,`  
+`       "rank": {`  
+`           "id": "TAXRANK:0000006",`  
+`           "name": "species"`  
+`       },`  
+`       "name": "Ictalurus sp. (Mo 1991)"`  
+`   },`  
+`   {`  
+`       "id": "TTO:10000044",`  
+`       "extinct": false,`  
+`       "rank": {`  
+`           "id": "TAXRANK:0000006",`  
+`           "name": "species"`  
+`       },`  
+`       "name": "Ictalurus sp. (Fink and Fink 1981)"`  
+`   },`  
+`   {`  
+`       "id": "TTO:1046960",`  
+`       "extinct": false,`  
+`       "rank": {`  
+`           "id": "TAXRANK:0000006",`  
+`           "name": "species"`  
+`       },`  
+`       "name": "Ictalurus dugesii"`  
+`   }]`
+
+} </javascript>
+
+**Error**
+
+If there is no term with the given ID, the service should return "404
+Not Found".
+
+## Publication term info
+
+**URI**
+
+<BASE URI>`/term/publication/{term_id}`
+
+This is a specialized term info service which returns data in a format
+customized for publications.
+
+**Returns**
+
+JSON: <javascript> {
+
+`   "id": "PSPUB:0000042",`  
+`   "name": "Lundberg 1982",`  
+`   "abstract": "The skeletal and soft anatomy of Trogloglanis pattersoni Eigenmann are described and compared to other ictalurids.`
+
+Trogloglanis is shown to possess a distinctive mosaic of relatively
+primitive and highly derived character states. Many of its features are
+paralleled in rother troglobitic catfishes, some of its features are
+paedomorphic. Phylogenetic analysis leads to the following
+
+`hypothesis of inter-relationships. Pylodictis and Satan are sister groups, Noturus is monophyletic and is the sister group of Prietella,`
+
+the subgenus Amiurus of Ictalurus is monophyletic and is the sister
+group of Noturus + Prietella + Pylodictis + Satan. In turn this large
+lineage is the sister group of Trogloglanis. The subgenus Ictalurus is
+monophyletic and is the sister group of all other living ictalurids.
+Geological and paleontological data suggest that Trogloglanis could not
+have evolved in situ before middle Eocene, but that its immediate
+repigean ancestors evolved by middle Oligocene.",
+
+`   "citation": "Lundberg, J. G. 1982. The comparative anatomy of the toothless blindcat, Trogloglanis pattersoni Eigenmann, with a phylogenetic analysis of the ictalurid catfishes.",`  
+`   "source": {`  
+`       "id": "phenoscape_pub",`  
+`       "name": "Phenoscape-annotated publications"`  
+`   },`  
+`  "doi":"some doi" //may not be present`
+
+} </javascript>
+
+**Error**
+
+If there is no term with the given ID, the service should return "404
+Not Found".
+
+## Publication data matrix
+
+<BASE URI>`/term/publication/{term_id}/matrix`
+
+Returns a data matrix containing all characters and OTUs loaded from a
+published dataset.
+
+**Returns**
+
+JSON: <javascript> {
+
+`   "matrix": {`  
+`       "2875e05f-9479-4456-91fb-81b8709a7b44": {`  
+`           "6d6adec7-a220-4629-883c-b65346beba25": {`  
+`               "label": "absent"`  
+`           },`  
+`           "92087cf1-a738-4315-be78-58a0bc28079d": {`  
+`               "label": "absent"`  
+`           },`  
+`           "c34ce73c-fc2e-4919-886a-68200eb19704": {`  
+`               "label": "passing through these bones"`  
+`           },`  
+`           "c306421f-9fcc-4dee-90b1-ea96428cf672": {`  
+`               "label": "fused with articular"`  
+`           }},`
+
+"dc038812-e6e7-47ed-9656-576cd46f8da5": {
+
+`           "6d6adec7-a220-4629-883c-b65346beba25": {`  
+`               "label": "absent"`  
+`           },`  
+`           "92087cf1-a738-4315-be78-58a0bc28079d": {`  
+`               "label": "present"`  
+`           },`  
+`           "c34ce73c-fc2e-4919-886a-68200eb19704": {`  
+`               "label": "passing through these bones"`  
+`           },`  
+`           "8b710077-4b7c-433c-81eb-cc20ce920bfa": {`  
+`               "label": "present"`  
+`           },`  
+`           "c306421f-9fcc-4dee-90b1-ea96428cf672": {`  
+`               "label": "fused with articular"`  
+`           }},`
+
+"otus": \[{
+
+`       "id": "2875e05f-9479-4456-91fb-81b8709a7b44",`  
+`       "label": "Armigatus brevissimus",`  
+`       "taxon": {`  
+`           "id": "TTO:10000250",`  
+`           "extinct": true,`  
+`           "rank": {`  
+`               "id": "TAXRANK:0000006",`  
+`               "label": "species"`  
+`           },`  
+`           "label": "Armigatus brevissimus"`  
+`       }`  
+`   },`  
+`   {`  
+`       "id": "99c913d0-f84c-4340-afac-cd0ad3ba0f0a",`  
+`       "label": "Clupea harengus",`  
+`       "taxon": {`  
+`           "id": "TTO:1001154",`  
+`           "extinct": false,`  
+`           "rank": {`  
+`               "id": "TAXRANK:0000006",`  
+`               "label": "species"`  
+`           },`  
+`           "label": "Clupea harengus"`  
+`       }`  
+`   }],`
+
+"characters": \[{
+
+`       "id": "92087cf1-a738-4315-be78-58a0bc28079d",`  
+`       "num": "1",`  
+`       "label": "Recessus lateralis"`  
+`   },`  
+`   {`  
+`       "id": "4b6e04bd-affa-47cc-95a2-b314cc17c20d",`  
+`       "num": "2",`  
+`       "label": "Otophysic connection involving a diverticulum of the swimbladder that penetraates the exoccipital and extends into the prootic within the lateral wall of the braincase"`  
+`   },`  
+`   {`  
+`       "id": "597b3b2b-10f2-4b4a-a8ce-07bd84b8e261",`  
+`       "num": "3",`  
+`       "label": "Preepiotic fossa"`  
+`   },`  
+`   {`  
+`       "id": "b71d0cb7-f67c-4100-9325-6e0450ea21b3",`  
+`       "num": "4",`  
+`       "label": "Parietals "`  
+`   }]`
+
+} </javascript>
+
+**Error**
+
+If there is no publication with the given ID, the service should return
+"404 Not Found".
+
+## Publication OTUs list
+
+<BASE URI>`/term/publication/{term_id}/otus`
+
+Returns a list of all OTUs in the data matrix for the given publication.
+For each OTU, the valid taxon TTO identifier and a list of specimens is
+provided.
+
+**Returns**
+
+JSON: <javascript> {
+
+`   "otus": [{`  
+`       "label": "Glyptothorax sp.",`  
+`       "specimens": [{`  
+`           "catalog_number": "288474",`  
+`           "collection": {`  
+`               "id": "COLLECTION:0000417",`  
+`               "name": "USNM"`  
+`           }`  
+`       },`  
+`       {`  
+`           "catalog_number": "288474",`  
+`           "collection": {`  
+`               "id": "COLLECTION:0000417",`  
+`               "name": "USNM"`  
+`           }`  
+`       },`  
+`       {`  
+`           "catalog_number": "288474",`  
+`           "collection": {`  
+`               "id": "COLLECTION:0000417",`  
+`               "name": "USNM"`  
+`           }`  
+`       }],`  
+`       "taxon": {`  
+`           "id": "TTO:10000098",`  
+`           "extinct": false,`  
+`           "rank": {`  
+`               "id": "TAXRANK:0000006",`  
+`               "name": "species"`  
+`           },`  
+`           "name": "Glyptothorax sp. (de Pinna 1996)"`  
+`       }`  
+`   },`  
+`   {`  
+`       "label": "Glyptothorax telchitta",`  
+`       "specimens": [{`  
+`           "catalog_number": "208876",`  
+`           "collection": {`  
+`               "id": "COLLECTION:0000403",`  
+`               "name": "UMMZ"`  
+`           }`  
+`       },`  
+`       {`  
+`           "catalog_number": "208876",`  
+`           "collection": {`  
+`               "id": "COLLECTION:0000403",`  
+`               "name": "UMMZ"`  
+`           }`  
+`       }],`  
+`       "taxon": {`  
+`           "id": "TTO:1051772",`  
+`           "extinct": false,`  
+`           "rank": {`  
+`               "id": "TAXRANK:0000006",`  
+`               "name": "species"`  
+`           },`  
+`           "name": "Glyptothorax telchitta"`  
+`       }`  
+`   },`  
+`   {`  
+`       "label": "Breitensteinia insignis",`  
+`       "specimens": [{`  
+`           "catalog_number": "58378",`  
+`           "collection": {`  
+`               "id": "COLLECTION:0000009",`  
+`               "name": "AMNH"`  
+`           }`  
+`       },`  
+`       {`  
+`           "catalog_number": "58378",`  
+`           "collection": {`  
+`               "id": "COLLECTION:0000009",`  
+`               "name": "AMNH"`  
+`           }`  
+`       },`  
+`       {`  
+`           "catalog_number": "58378",`  
+`           "collection": {`  
+`               "id": "COLLECTION:0000009",`  
+`               "name": "AMNH"`  
+`           }`  
+`       }],`  
+`       "taxon": {`  
+`           "id": "TTO:1005733",`  
+`           "extinct": false,`  
+`           "rank": {`  
+`               "id": "TAXRANK:0000006",`  
+`               "name": "species"`  
+`           },`  
+`           "name": "Breitensteinia insignis"`  
+`       }`  
+`   }`  
+`   ]`
+
+} </javascript>
+
+**Error**
+
+If there is no publication with the given ID, the service should return
+"404 Not Found".
+
+## Bulk term name mapper
+
+**URI**
+
+<BASE URI>`/term/names`
+
+This service accepts a list of term IDs and returns a JSON mapping of
+IDs to names. Rank and extinct status are included in the output for
+taxon terms. The `render_postcompositions` key is optional, and can take
+the values "none" (the default), "structure", "semantic_label", or
+"simple_label".
+
+**Accepts via POST**
+
+JSON: <javascript> { "ids":\["TAO:0000620", "TTO:1380", "TTO:11021",
+"ZFIN:ZDB-GENE-061116-1"\], "render_postcompositions": "none" }
+</javascript>
+
+**Returns**
+
+JSON: <javascript> {"terms":\[
+{"id":"TAO:0000620","name":"autopalatine"},
+{"id":"TTO:1380","extinct":false,"rank":{"id":"TAXRANK:0000003","name":"order"},"name":"Siluriformes"},
+{"id":"TTO:11021","extinct":false,"rank":{"id":"TAXRANK:0000004","name":"family"},"name":"Erethistidae"},
+{"id":"ZFIN:ZDB-GENE-061116-1","name":"foxe1"}\]} </javascript>
+
+## Autocomplete
+
+**URI**
+
+<BASE URI>`/term/search?text=[input]&name=[true|false]&syn=[true|false]&ontology=[ont1,ont2,...]&type=[type1,type2,...]&limit=[count]`
+
+All URI parameters are optional except for `text`. Default values are
+`name=true`, `syn=false`. The `ontology` parameter should be a
+comma-separated list of ontology prefixes to search within (any of
+`tao, go, pato, tto, zfin, pspub`). The `type` parameter should be any
+of: `entity, quality, taxon, gene, pub`. If no ontology or type is
+given, the default is to search all ontologies. The `limit` parameter
+limits the number of results to the given integer count.
+
+**Returns**
+
+JSON: <javascript> {
+
+`   "matches": [{`  
+`       "match_text": "Brachydanio rerio",`  
+`       "id": "TTO:1001979",`  
+`       "match_type": "syn",`  
+`       "name": "Danio rerio",`  
+`       "source": "teleost-taxonomy"`  
+`   },`  
+`   {`  
+`       "match_text": "Cyprinus rerio",`  
+`       "id": "TTO:1001979",`  
+`       "match_type": "syn",`  
+`       "name": "Danio rerio",`  
+`       "source": "teleost-taxonomy"`  
+`   },`  
+`   {`  
+`       "match_text": "Danio rerio",`  
+`       "id": "TTO:1001979",`  
+`       "match_type": "name",`  
+`       "name": "Danio rerio",`  
+`       "source": "teleost-taxonomy"`  
+`   }],`  
+`   "search_term": "rerio"`
+
+} </javascript>
+
+**Error**
+
+If there are no terms matching the given input, a document should still
+be returned, containing an empty results list.
+
+## Attribute qualities
+
+**URI**
+
+<BASE URI>`/term/attributes`
+
+This service returns the quality terms which have been marked as
+"attributes", commonly used to categorize phenotype data for display.
+
+**Returns**
+
+JSON: <javascript> {
+
+`   "attributes": [`  
+`   {`  
+`       "id": "PATO:0000150",`  
+`       "name": "texture"`  
+`   },`  
+`   {`  
+`       "id": "PATO:0000141",`  
+`       "name": "structure"`  
+`   },`  
+`   {`  
+`       "id": "PATO:0000117",`  
+`       "name": "size"`  
+`   },`  
+`   {`  
+`       "id": "PATO:0002281",`  
+`       "name": "Shape+Size"`  
+`   },`  
+`   {`  
+`       "id": "PATO:0000052",`  
+`       "name": "shape"`  
+`   },`  
+`   {`  
+`       "id": "PATO:0001546",`  
+`       "name": "quality of a solid"`  
+`   },`  
+`   {`  
+`       "id": "PATO:0000140",`  
+`       "name": "position"`  
+`   },`  
+`   {`  
+`       "id": "PATO:0002062",`  
+`       "name": "physical quality of a process"`  
+`   },`  
+`   {`  
+`       "id": "PATO:0000004",`  
+`       "name": "mobility"`  
+`   },`  
+`   {`  
+`       "id": "PATO:0000125",`  
+`       "name": "mass"`  
+`   },`  
+`   {`  
+`       "id": "PATO:0000070",`  
+`       "name": "count"`  
+`   },`  
+`   {`  
+`       "id": "PATO:0000025",`  
+`       "name": "composition"`  
+`   },`  
+`   {`  
+`       "id": "PATO:0002282",`  
+`       "name": "Closure+Structure"`  
+`   },`  
+`   {`  
+`       "id": "PATO:0000136",`  
+`       "name": "closure"`  
+`   },`  
+`   {`  
+`       "id": "PATO:0001396",`  
+`       "name": "cellular quality"`  
+`   },`  
+`   {`  
+`       "id": "PATO:0000186",`  
+`       "name": "behavioral quality"`  
+`   }`  
+`   ]`
+
+} </javascript>
+
+## Gene annotations
+
+**URI**
+
+<BASE URI>`/annotation/gene?query=[url-encoded-json]&sortby=[gene|entity|quality|relatedentity]&limit=[count]&index=[start_index]&desc=[true|false]&postcompositions=[none|structure|simple|semantic]`
+
+All URI parameters are optional. If no JSON-formatted query
+specification is provided, all gene annotations will be returned. The
+`limit` parameter limits the number of results to the given integer
+count. This must be a positive integer. The `index` parameter can be
+used for pagination under a given sorting and limit regime. It should be
+greater than or equal to zero (the default). `desc` can be used to
+return the results in descending order (it is false by default). If a
+value is not provided for `sortby`, the sort order, limit, and start
+index are not very useful. The `postcompositions` parameter is optional,
+and is "none" by default. Rendering postcompositions should only be
+requested for a limited number of returned results.
+
+**Phenotype query specification**
+
+The value of the `query` parameter should be an annotation query
+represented as JSON, following this structure (in practice it should be
+collapsed as far as possible to shorten the URL):
+
+<javascript> {
+
+`   "gene": [`  
+`   {`  
+`       "id": "ZFIN:XXXX"`  
+`   },`  
+`   {`  
+`       "id": "ZFIN:YYYY"`  
+`   }`  
+`   ],`  
+`   "phenotype": [`  
+`   {`  
+`       "entity": {`  
+`           "id": "TAO:XXXX",`  
+`           "including_parts": false`  
+`       },`  
+`       "quality": {`  
+`           "id": "PATO:XXXX"`  
+`       },`  
+`       "related_entity": {`  
+`           "id": "TAO:YYYYY"`  
+`       }`  
+`   }`  
+`   ],`  
+`   "include_inferred": false`
+
+} </javascript> It should be URL-encoded to include in the request.
+
+**Returns**
+
+JSON: <javascript> {
+
+`   "total": 5478,`  
+`   "annotations": [`  
+`   {`  
+`       "gene": {`  
+`           "id": "TAO0001514",`  
+`           "name": "brph1"`  
+`       },`  
+`       "entity": {`  
+`           "id": "TAO0001516",`  
+`           "name": "basihyal bone"`  
+`       },`  
+`       "quality": {`  
+`           "id": "TAO0001517",`  
+`           "name": "fused with"`  
+`       },`  
+`       "related_entity": {`  
+`           "id": "TAO0001518",`  
+`           "name": "posterior ceratohyal"`  
+`       }`  
+`   },`  
+`   {`  
+`       "gene": {`  
+`           "id": "TAO0001522",`  
+`           "name": "brph2"`  
+`       },`  
+`       "entity": {`  
+`           "id": "TAO0001524",`  
+`           "name": "fossa of basihyal bone"`  
+`       },`  
+`       "quality": {`  
+`           "id": "TAO0001525",`  
+`           "name": "decreased width"`  
+`       },`  
+`       "related_entity": null`  
+`   }`  
+`   ]`
+
+} </javascript>
+
+## Gene annotation sources
+
+**URI**
+
+<BASE URI>`/annotation/gene/source?query=[url-encoded-json]&postcompositions=[none|structure|simple|semantic]`
+
+A JSON-formatted query specification must be provided. It must contain
+entries for one annotation, including gene, entity, quality, and
+optional related entity. While the gene and phenotype entries are lists,
+this is just for consistency with the query format used in other
+services - each list should contain only one entry. The
+`postcompositions` parameter is optional, and is "none" by default.
+
+**Phenotype query specification**
+
+The value of the `query` parameter should be an annotation query
+represented as JSON, following this structure (in practice it should be
+collapsed as far as possible to shorten the URL):
+
+<javascript> {
+
+`   "gene": [`  
+`   {`  
+`       "id": "ZFIN:XXXX"`  
+`   }`  
+`   ],`  
+`   "phenotype": [`  
+`   {`  
+`       "entity": {`  
+`           "id": "TAO:XXXX"`  
+`       },`  
+`       "quality": {`  
+`           "id": "PATO:XXXX"`  
+`       },`  
+`       "related_entity": {`  
+`           "id": "TAO:YYYYY"`  
+`       }`  
+`   }`  
+`   ]`
+
+} </javascript> It should be URL-encoded to include in the request.
+
+**Returns**
+
+JSON: <javascript> {"annotations":\[
+{"gene":{"id":"ZFIN:ZDB-GENE-040426-731","name":"brpf1"},
+"entity":{"id":"TAO:0000316","name":"basihyal bone"},
+"quality":{"id":"PATO:0000587","name":"decreased size"},
+"genotype":{"id":"ZFIN:ZDB-GENO-080925-12","name":"brpf1<sup>b943/b943\<\\sup\>","type":{"id":"SO:0001027","name":"genotype"}},
+"publication":{"id":"ZFIN:ZDB-PUB-080515-4","name":"Laue, K., Daujat,
+S., Crump, J.G., Plaster, N., Roehl, H.H.; Tübingen 2000 Screen
+Consortium, Kimmel, C.B., Schneider, R., and Hammerschmidt, M.. 2008.
+The multidomain protein Brpf1 binds histones and is required for Hox
+gene expression and segmental identity. Development
+135(11):1935-1946."}},
+{"gene":{"id":"ZFIN:ZDB-GENE-040426-731","name":"brpf1"},
+"entity":{"id":"TAO:0000316","name":"basihyal bone"},
+"quality":{"id":"PATO:0000587","name":"decreased size"},
+"genotype":{"id":"ZFIN:ZDB-GENO-080925-13","name":"brpf1<sup>t20002/t20002\<\\sup\>","type":{"id":"SO:0001027","name":"genotype"}},
+"publication":{"id":"ZFIN:ZDB-PUB-080515-4","name":"Laue, K., Daujat,
+S., Crump, J.G., Plaster, N., Roehl, H.H.; Tübingen 2000 Screen
+Consortium, Kimmel, C.B., Schneider, R., and Hammerschmidt, M.. 2008.
+The multidomain protein Brpf1 binds histones and is required for Hox
+gene expression and segmental identity. Development
+135(11):1935-1946."}} \]} </javascript>
+
+## Genes
+
+**URI**
+
+<BASE URI>`/gene/annotated?query=[url-encoded-json]&sortby=[gene|fullname]&limit=[count]&index=[start_index]&desc=[true|false]`
+
+All URI parameters are optional. If no JSON-formatted query
+specification is provided, all annotated genes will be returned. The
+`limit` parameter limits the number of results to the given integer
+count. This must be a positive integer. The `index` parameter can be
+used for pagination under a given sorting and limit regime. It should be
+greater than or equal to zero (the default). `desc` can be used to
+return the results in descending order (it is false by default). If a
+value is not provided for `sortby`, the sort order, limit, and start
+index are not very useful.
+
+**Phenotype query specification**
+
+The value of the `query` parameter should be an annotation query
+represented as JSON, following this structure (in practice it should be
+collapsed as far as possible to shorten the URL):
+
+<javascript> {
+
+`   "phenotype": [`  
+`   {`  
+`       "entity": {`  
+`           "id": "TAO:XXXX",`  
+`           "including_parts": false`  
+`       },`  
+`       "quality": {`  
+`           "id": "PATO:XXXX"`  
+`       },`  
+`       "related_entity": {`  
+`           "id": "TAO:YYYYY"`  
+`       }`  
+`   }`  
+`   ],`  
+`   "match_all_phenotypes": false`
+
+} </javascript> It should be URL-encoded to include in the request.
+
+**Returns**
+
+JSON <javascript> {"total":1690, "genes":\[
+{"id":"ZFIN:ZDB-GENE-040426-1995","name":"abce1","fullname":"ATP-binding
+cassette, sub-family E (OABP), member 1"},
+{"id":"ZFIN:ZDB-GENE-070117-775","name":"abf","fullname":"about face"},
+{"id":"ZFIN:ZDB-GENE-040909-1","name":"abhd11","fullname":"abhydrolase
+domain containing 11"},
+{"id":"ZFIN:ZDB-GENE-030131-55","name":"acta1b","fullname":"actin, alpha
+1b, skeletal muscle"},
+{"id":"ZFIN:ZDB-GENE-020419-36","name":"actl6a","fullname":"actin-like
+6A"}, {"id":"ZFIN:ZDB-GENE-990415-9","name":"acvr1l","fullname":"activin
+A receptor, type I like"},
+{"id":"ZFIN:ZDB-GENE-021003-1","name":"acvrl1","fullname":"activin A
+receptor type II-like 1"}\]} </javascript>
+
+## Taxon annotations
+
+**URI**
+
+<BASE URI>`/annotation/taxon/distinct?query=[url-encoded-json]&sortby=[taxon|entity|quality|relatedentity]&limit=[count]&index=[start_index]&desc=[true|false]&postcompositions=[none|structure|simple|semantic]`
+
+All URI parameters are optional. If no JSON-formatted query
+specification is provided, all taxon annotations will be returned. The
+`limit` parameter limits the number of results to the given integer
+count. This must be a positive integer. The `index` parameter can be
+used for pagination under a given sorting and limit regime. It should be
+greater than or equal to zero (the default). `desc` can be used to
+return the results in descending order (it is false by default). If a
+value is not provided for `sortby`, the sort order, limit, and start
+index are not very useful. The `postcompositions` parameter is optional,
+and is "none" by default. Rendering postcompositions should only be
+requested for a limited number of returned results.
+
+**Phenotype query specification**
+
+The value of the `query` parameter should be an annotation query
+represented as JSON, following this structure (in practice it should be
+collapsed as far as possible to shorten the URL):
+
+<javascript> {
+
+`   "taxon": [`  
+`   {`  
+`       "id": "TTO:XXXX"`  
+`   },`  
+`   {`  
+`       "id": "TTO:YYYY"`  
+`   }`  
+`   ],`  
+`   "phenotype": [`  
+`   {`  
+`       "entity": {`  
+`           "id": "TAO:XXXX",`  
+`           "including_parts": false`  
+`       },`  
+`       "quality": {`  
+`           "id": "PATO:XXXX"`  
+`       },`  
+`       "related_entity": {`  
+`           "id": "TAO:YYYYY"`  
+`       }`  
+`   }`  
+`   ],`  
+`   "publication": [`  
+`    {`  
+`      "id": "PSPUB:1243"`  
+`    }`  
+`   ],`  
+`   "include_inferred": false`
+
+} </javascript> It should be URL-encoded to include in the request.
+
+**Returns**
+
+JSON <javascript> {
+
+`   "total": 5478,`  
+`   "annotations": [`  
+`   {`  
+`       "taxon": {`  
+`           "id": "TAO0001514",`  
+`           "name": "Ictalurus punctatus",`  
+`           "rank": {`  
+`                "id": "TAXRANK:00000",`  
+`                "name": "species"`  
+`           },`  
+`           "extinct": false`  
+`       },`  
+`       "entity": {`  
+`           "id": "TAO0001516",`  
+`           "name": "basihyal bone"`  
+`       },`  
+`       "quality": {`  
+`           "id": "TAO0001517",`  
+`           "name": "fused with"`  
+`       },`  
+`       "related_entity": {`  
+`           "id": "TAO0001518",`  
+`           "name": "posterior ceratohyal"`  
+`       }`  
+`   },`  
+`   {`  
+`       "taxon": {`  
+`           "id": "TAO0001522",`  
+`           "name": "Danio rerio",`  
+`           "rank": {`  
+`                "id": "TAXRANK:00000",`  
+`                "name": "species"`  
+`           },`  
+`           "extinct": false`  
+`       },`  
+`       "entity": {`  
+`           "id": "TAO0001524",`  
+`           "name": "fossa of basihyal bone"`  
+`       },`  
+`       "quality": {`  
+`           "id": "TAO0001525",`  
+`           "name": "decreased width"`  
+`       },`  
+`       "related_entity": null`  
+`   }`  
+`   ]`
+
+} </javascript>
+
+## Taxon annotation sources
+
+**URI**
+
+<BASE URI>`/annotation/taxon/source?query=[url-encoded-json]&postcompositions=[none|structure|simple|semantic]`
+
+A JSON-formatted query specification must be provided. It must contain
+entries for one annotation, including taxon, entity, quality, and
+optional related entity. While the taxon and phenotype entries are
+lists, this is just for consistency with the query format used in other
+services - each list should contain only one entry. The "publication"
+list is optional, but may contain multiple publications within which to
+constrain the results. The `postcompositions` parameter is optional, and
+is "none" by default.
+
+**Phenotype query specification**
+
+The value of the `query` parameter should be an annotation query
+represented as JSON, following this structure (in practice it should be
+collapsed as far as possible to shorten the URL):
+
+<javascript> {
+
+`   "taxon": [`  
+`   {`  
+`       "id": "TTO:XXXX"`  
+`   }`  
+`   ],`  
+`   "phenotype": [`  
+`   {`  
+`       "entity": {`  
+`           "id": "TAO:XXXX"`  
+`       },`  
+`       "quality": {`  
+`           "id": "PATO:XXXX"`  
+`       },`  
+`       "related_entity": {`  
+`           "id": "TAO:YYYYY"`  
+`       }`  
+`   }`  
+`   ],`  
+`   "publication": [`  
+`    {`  
+`      "id": "PSPUB:1243"`  
+`    }`  
+`   ]`
+
+} </javascript> It should be URL-encoded to include in the request.
+
+**Returns**
+
+JSON: <javascript> {"annotations":\[{"otu":"Silurus glanis",
+"entity":{"id":"TAO:0000316","name":"basihyal bone"},
+"state":{"text":"basihyal absent"},
+"quality":{"id":"PATO:0000462","name":"absent"},
+"taxon":{"id":"TTO:1005466","extinct":false,"rank":{"id":"TAXRANK:0000006","name":"species"},"name":"Silurus
+glanis"}, "character":{"text":"Basihyal","character_number":"240"},
+"publication":{"id":"PSPUB:0000022","name":"de Pinna 1993"}}\]}
+</javascript>
+
+## Taxa
+
+**URI**
+
+<BASE URI>`/taxon/annotated?query=[url-encoded-json]&sortby=[taxon|family|order]&limit=[count]&index=[start_index]&desc=[true|false]`
+
+All URI parameters are optional. If no JSON-formatted query
+specification is provided, all annotated taxa will be returned. The
+`limit` parameter limits the number of results to the given integer
+count. This must be a positive integer. The `index` parameter can be
+used for pagination under a given sorting and limit regime. It should be
+greater than or equal to zero (the default). `desc` can be used to
+return the results in descending order (it is false by default). If a
+value is not provided for `sortby`, the sort order, limit, and start
+index are not very useful.
+
+**Phenotype query specification**
+
+The value of the `query` parameter should be an annotation query
+represented as JSON, following this structure (in practice it should be
+collapsed as far as possible to shorten the URL):
+
+<javascript> {
+
+`   "taxon": [`  
+`   {`  
+`       "id": "TTO:XXXX"`  
+`   },`  
+`   {`  
+`       "id": "TTO:YYYY"`  
+`   }`  
+`   ],`  
+`   "phenotype": [`  
+`   {`  
+`       "entity": {`  
+`           "id": "TAO:XXXX",`  
+`           "including_parts": false`  
+`       },`  
+`       "quality": {`  
+`           "id": "PATO:XXXX"`  
+`       },`  
+`       "related_entity": {`  
+`           "id": "TAO:YYYYY"`  
+`       }`  
+`   }`  
+`   ],`  
+`   "publication": [`  
+`    {`  
+`      "id": "PSPUB:1243"`  
+`    }`  
+`   ],`  
+`   "match_all_phenotypes": false,`  
+`   "match_all_publications": false,`  
+`   "include_inferred": false`
+
+} </javascript> It should be URL-encoded to include in the request.
+
+**Returns**
+
+JSON <javascript> {"total":2312, "taxa":\[
+{"id":"TTO:1068687","extinct":false,
+"rank":{"id":"TAXRANK:0000006","name":"species"},
+"order":{"id":"TTO:1360","extinct":false,"name":"Cypriniformes"},
+"family":{"id":"TTO:10760","extinct":false,"name":"Cyprinidae"},
+"name":"Abbottina binhi"}, {"id":"TTO:1004289","extinct":false,
+"rank":{"id":"TAXRANK:0000006","name":"species"},
+"order":{"id":"TTO:1370","extinct":false,"name":"Characiformes"},
+"family":{"id":"TTO:10856","extinct":false,"name":"Anostomidae"},
+"name":"Abramites hypselonotus"} \] } </javascript>
+
+## Phenotypes
+
+**URI**
+
+<BASE URI>`/phenotype?query=[url-encoded-json]&sortby=[entity|quality|related_entity]&limit=[count]&index=[start_index]&desc=[true|false]`
+
+All URI parameters are optional. If no JSON-formatted query
+specification is provided, all phenotypes will be returned. The `limit`
+parameter limits the number of results to the given integer count. This
+must be a positive integer. The `index` parameter can be used for
+pagination under a given sorting and limit regime. It should be greater
+than or equal to zero (the default). `desc` can be used to return the
+results in descending order (it is false by default). If a value is not
+provided for `sortby`, the sort order, limit, and start index are not
+very useful.
+
+**Phenotype query specification**
+
+The value of the `query` parameter should be an annotation query
+represented as JSON, following this structure (in practice it should be
+collapsed as far as possible to shorten the URL):
+
+<javascript> {
+
+`   "gene": [`  
+`   {`  
+`       "id": "ZFIN:XXXX"`  
+`   },`  
+`   {`  
+`       "id": "ZFIN:YYYY"`  
+`   }`  
+`   ],`  
+`   "gene_class": [`  
+`   {`  
+`       "id": "`[`GO:XXXX`](GO:XXXX)`"`  
+`   },`  
+`   {`  
+`       "id": "`[`GO:YYYY`](GO:YYYY)`"`  
+`   }`  
+`   ],`  
+`   "taxon": [`  
+`   {`  
+`       "id": "TTO:XXXX"`  
+`   },`  
+`   {`  
+`       "id": "TTO:YYYY"`  
+`   }`  
+`   ],`  
+`   "phenotype": [`  
+`   {`  
+`       "entity": {`  
+`           "id": "TAO:XXXX",`  
+`           "including_parts": false`  
+`       },`  
+`       "quality": {`  
+`           "id": "PATO:XXXX"`  
+`       },`  
+`       "related_entity": {`  
+`           "id": "TAO:YYYYY"`  
+`       }`  
+`   }`  
+`   ],`  
+`   "publication": [`  
+`    {`  
+`      "id": "PSPUB:1243"`  
+`    }`  
+`   ],`  
+`   "match_all_taxa": false,`  
+`   "match_all_publications": false,`  
+`   "include_inferred": false`
+
+} </javascript> It should be URL-encoded to include in the request.
+
+**Returns**
+
+JSON <javascript> {"total":2312, "taxa":\[
+{"id":"TTO:1068687","extinct":false,
+"rank":{"id":"TAXRANK:0000006","name":"species"},
+"order":{"id":"TTO:1360","extinct":false,"name":"Cypriniformes"},
+"family":{"id":"TTO:10760","extinct":false,"name":"Cyprinidae"},
+"name":"Abbottina binhi"}, {"id":"TTO:1004289","extinct":false,
+"rank":{"id":"TAXRANK:0000006","name":"species"},
+"order":{"id":"TTO:1370","extinct":false,"name":"Characiformes"},
+"family":{"id":"TTO:10856","extinct":false,"name":"Anostomidae"},
+"name":"Abramites hypselonotus"} \] } </javascript>
+
+## Publications
+
+**URI**
+
+<BASE URI>`/publication/annotated?query=[url-encoded-json]&sortby=[publication]&limit=[count]&index=[start_index]&desc=[true|false]`
+
+All URI parameters are optional. If no JSON-formatted query
+specification is provided, all annotated publications will be returned.
+The `limit` parameter limits the number of results to the given integer
+count. This must be a positive integer. The `index` parameter can be
+used for pagination under a given sorting and limit regime. It should be
+greater than or equal to zero (the default). `desc` can be used to
+return the results in descending order (it is false by default). If a
+value is not provided for `sortby`, the sort order, limit, and start
+index are not very useful.
+
+**Phenotype query specification**
+
+The value of the `query` parameter should be an annotation query
+represented as JSON, following this structure (in practice it should be
+collapsed as far as possible to shorten the URL):
+
+<javascript> {
+
+`   "taxon": [`  
+`   {`  
+`       "id": "TTO:XXXX"`  
+`   },`  
+`   {`  
+`       "id": "TTO:YYYY"`  
+`   }`  
+`   ],`  
+`   "phenotype": [`  
+`   {`  
+`       "entity": {`  
+`           "id": "TAO:XXXX",`  
+`           "including_parts": false`  
+`       },`  
+`       "quality": {`  
+`           "id": "PATO:XXXX"`  
+`       },`  
+`       "related_entity": {`  
+`           "id": "TAO:YYYYY"`  
+`       }`  
+`   }`  
+`   ],`  
+`   "match_all_phenotypes": false,`  
+`   "match_all_taxa": false`
+
+} </javascript> It should be URL-encoded to include in the request.
+
+**Returns**
+
+JSON <javascript> {"total":19, "publications":\[
+{"id":"PSPUB:0000002","name":"Armbruster 2004"},
+{"id":"PSPUB:0000006","name":"Bockmann 1998"},
+{"id":"PSPUB:0000009","name":"Bornbusch 1995"},
+{"id":"PSPUB:0000011","name":"Britto 2003"},
+{"id":"PSPUB:0000018","name":"Chen 1994"}\]} </javascript>
+
+## Phenotype facet counts
+
+**URI**
+
+<BASE URI>`/phenotype/facet/{facet}?path=[ids]entity=[entity-id]&quality=[quality-id]&related_entity=[related_entity-id]&taxon=[taxon-id]&gene=[gene-id]&part_of=[true|false]`
+
+A facet name of either "entity", "quality", "related_entity", "taxon",
+or "gene" must be substituted in the URI path. All URI parameters are
+optional. It is an error to supply query parameter matching the facet
+name, i.e. for '.../phenotype/facet/entity', do not provide
+'?entity=xx'. The "path" parameter accepts a comma-separated list of
+IDs, ordered parent-to-child. The "part_of" parameter affects the entity
+traversal - the default is "false".
+
+**Returns**
+
+JSON <javascript> {
+
+`   "facet": [{`  
+`       "count": 13892`  
+`   },`  
+`   {`  
+`       "id": "TAO:0000037",`  
+`       "count": 8841`  
+`   },`  
+`   {`  
+`       "id": "TAO:0001477",`  
+`       "count": 3841,`  
+`       "children": [{`  
+`           "id": "TAO:0007009",`  
+`           "count": 51`  
+`       },`  
+`       {`  
+`           "id": "TAO:0000393",`  
+`           "count": 9`  
+`       },`  
+`       {`  
+`           "id": "TAO:0001082",`  
+`           "count": 2`  
+`       },`  
+`       {`  
+`           "id": "TAO:0001821",`  
+`           "count": 4`  
+`       },`  
+`       {`  
+`           "id": "TAO:0002189",`  
+`           "count": 1`  
+`       },`  
+`       {`  
+`           "id": "TAO:0000190",`  
+`           "count": 26`  
+`       },`  
+`       {`  
+`           "id": "TAO:0000089",`  
+`           "count": 11`  
+`       },`  
+`       {`  
+`           "id": "TAO:0001122",`  
+`           "count": 21`  
+`       },`  
+`       {`  
+`           "id": "TAO:0001641",`  
+`           "count": 3558`  
+`       },`  
+`       {`  
+`           "id": "TAO:0002205",`  
+`           "count": 1`  
+`       },`  
+`       {`  
+`           "id": "TAO:0005125",`  
+`           "count": 6`  
+`       },`  
+`       {`  
+`           "id": "TAO:0002223",`  
+`           "count": 10`  
+`       },`  
+`       {`  
+`           "id": "TAO:0002215",`  
+`           "count": 1`  
+`       },`  
+`       {`  
+`           "id": "TAO:0005147",`  
+`           "count": 13`  
+`       },`  
+`       {`  
+`           "id": "TAO:0005145",`  
+`           "count": 50`  
+`       },`  
+`       {`  
+`           "id": "TAO:0002193",`  
+`           "count": 1`  
+`       },`  
+`       {`  
+`           "id": "TAO:0001486",`  
+`           "count": 33`  
+`       },`  
+`       {`  
+`           "id": "TAO:0000135",`  
+`           "count": 43`  
+`       }]`  
+`   }]`
+
+} </javascript>
+
+## Phenotypic profile match service
+
+**URI**
+
+<BASE URI>`/phenotype/profile?taxon=[taxonID]&query=[url-encoded-json]`
+
+The JSON-formatted query specification should contain only a list of
+phenotypes, and a value for the `include_inferred` option. The `taxon`
+parameter is optional. If included, the results will contain profile
+match counts for each of the taxon's children. If not provided, the
+service will return data the highest taxon which has children with
+different match counts (useful for starting the tree display).
+
+**Phenotype query specification**
+
+The value of the `query` parameter should be an annotation query
+represented as JSON, following this structure (in practice it should be
+collapsed as far as possible to shorten the URL):
+
+<javascript> {
+
+`   "phenotype": [`  
+`   {`  
+`       "entity": {`  
+`           "id": "TAO:XXXX",`  
+`           "including_parts": false`  
+`       },`  
+`       "quality": {`  
+`           "id": "PATO:XXXX"`  
+`       },`  
+`       "related_entity": {`  
+`           "id": "TAO:YYYYY"`  
+`       }`  
+`   }`  
+`   ],`  
+`   "include_inferred": false`
+
+} </javascript> It should be URL-encoded to include in the request.
+
+**Returns**
+
+JSON <javascript> {
+
+`   "matches": [{`  
+`       "taxon_id": "TTO:10000304",`  
+`       "greatest_profile_match": 1`  
+`   },`  
+`   {`  
+`       "taxon_id": "TTO:10000293",`  
+`       "greatest_profile_match": 1`  
+`   },`  
+`   {`  
+`       "taxon_id": "TTO:251",`  
+`       "greatest_profile_match": 2`  
+`   },`  
+`   {`  
+`       "taxon_id": "TTO:10000352",`  
+`       "greatest_profile_match": 1`  
+`   },`  
+`   {`  
+`       "taxon_id": "TTO:10000326",`  
+`       "greatest_profile_match": 1`  
+`   },`  
+`   {`  
+`       "taxon_id": "TTO:10000316",`  
+`       "greatest_profile_match": 1`  
+`   },`  
+`   {`  
+`       "taxon_id": "TTO:254",`  
+`       "greatest_profile_match": 2`  
+`   },`  
+`   {`  
+`       "taxon_id": "TTO:10000357",`  
+`       "greatest_profile_match": 1`  
+`   },`  
+`   {`  
+`       "taxon_id": "TTO:253",`  
+`       "greatest_profile_match": 2`  
+`   },`  
+`   {`  
+`       "taxon_id": "TTO:252",`  
+`       "greatest_profile_match": 2`  
+`   }]`
+
+} </javascript>
+
+## Phenotypic variation sets service
+
+**URI**
+
+<BASE URI>`/phenotype/variationsets?taxon=[taxonID]&exclude_unannotated=[true|false]&exclude_attribute=[true|false]&query=[url-encoded-json]`
+
+The JSON-formatted query specification should contain only a single
+phenotype. The `taxon` parameter is optional. If included, the results
+will contain variation sets for the taxon's children. If not provided,
+the service will return data for the highest taxon which has children in
+more than one variation set (useful for starting the tree display). If
+`exclude_unannotated` is true, no child taxa without annotations to the
+given phenotype will be returned. If `exclude_attribute` is true,
+annotations to the queried attribute (and no more specific quality) will
+not be returned.
+
+**Alternative usage:** if the `taxon` parameter has the value "suggest",
+a list of taxa are returned which represent suggested starting points
+for browsing the taxonomic tree using this service.
+
+**Phenotype query specification**
+
+The value of the `query` parameter should be an annotation query
+represented as JSON, following this structure (in practice it should be
+collapsed as far as possible to shorten the URL):
+
+<javascript> {
+
+`   "phenotype": [`  
+`   {`  
+`       "entity": {`  
+`           "id": "TAO:XXXX"`  
+`       },`  
+`       "quality": {`  
+`           "id": "PATO:XXXX"`  
+`       },`  
+`       "related_entity": {`  
+`           "id": "TAO:YYYYY"`  
+`       }`  
+`   }`  
+`   ]`
+
+} </javascript> It should be URL-encoded to include in the request.
+
+**Returns**
+
+JSON <javascript> {
+
+`   "parent_taxon" : "TTO:1234",`  
+`   "phenotype_sets": [{`  
+`       "phenotypes": [{`  
+`           "entity": {`  
+`               "id": "TAO:0001058",`  
+`               "name": "caudal fin"`  
+`           },`  
+`           "quality": {`  
+`               "id": "PATO:0001784",`  
+`               "name": "bifurcated"`  
+`           }`  
+`       }],`  
+`       "taxa": ["TTO:11020", "TTO:103997", "TTO:109064", "TTO:10980", "TTO:10940", "TTO:107212", "TTO:11085", "TTO:11160", "TTO:10960", "TTO:102898", "TTO:10920", "TTO:101648", "TTO:102441", "TTO:101629", "TTO:10990", "TTO:11010", "TTO:11080", "TTO:11130", "TTO:107449", "TTO:10000017", "TTO:11110", "TTO:109385", "TTO:11180", "TTO:10000012", "TTO:10950", "TTO:10970", "TTO:10000015", "TTO:101263", "TTO:10000014"]`  
+`   },`  
+`   {`  
+`       "phenotypes": [{`  
+`           "entity": {`  
+`               "id": "TAO:0001058",`  
+`               "name": "caudal fin"`  
+`           },`  
+`           "quality": {`  
+`               "id": "PATO:0001877",`  
+`               "name": "lanceolate"`  
+`           }`  
+`       },`  
+`       {`  
+`           "entity": {`  
+`               "id": "TAO:0001058",`  
+`               "name": "caudal fin"`  
+`           },`  
+`           "quality": {`  
+`               "id": "PATO:0000936",`  
+`               "name": "truncated"`  
+`           }`  
+`       },`  
+`       {`  
+`           "entity": {`  
+`               "id": "TAO:0001058",`  
+`               "name": "caudal fin"`  
+`           },`  
+`           "quality": {`  
+`               "id": "PATO:0000411",`  
+`               "name": "round"`  
+`           }`  
+`       }],`  
+`       "taxa": ["TTO:11050", "TTO:11090", "TTO:11040", "TTO:11190", "TTO:11181", "TTO:11030"]`  
+`   }]`
+
+} </javascript>
+
+or
+
+JSON <javascript> </javascript>
+
+# Other ontology service definitions (for comparison)
+
+- [Ontology Lookup Service (OLS)](http://www.ebi.ac.uk/ontology-lookup/)
+  at the EBI. <cite>cote2006</cite> According to the website, the OLS
+  can integrate any ontology available in OBO format. OLS is implemented
+  as a web-service. The website has documentation on
+  - [web-service
+    API](http://www.ebi.ac.uk/ontology-lookup/WSDLDocumentation.do)
+    (representing the WSDL) with [JavaDoc for the interface
+    contract](http://www.ebi.ac.uk/ontology-lookup/api/uk/ac/ebi/ook/web/interfaces/QueryImpl.html),
+    and
+  - [implementation
+    overview](http://www.ebi.ac.uk/ontology-lookup/implementationOverview.do)
+    (architecture)
+  - OLS also provides 3 ReST-style services, similar to some of the
+    lookups described above. These queries return a simple key-value XML
+    format.
+    - Term info:
+      <http://www.ebi.ac.uk/ontology-lookup/ajax.view?q=termmetadata&termid=ID&ontologyname=LABEL>
+    - Completion list:
+      <http://www.ebi.ac.uk/ontology-lookup/ajax.view?q=termautocomplete&termname=NAME&ontologyname=LABEL>
+    - Term name for ID:
+      <http://www.ebi.ac.uk/ontology-lookup/ajax.view?q=termname&termid=ID&ontologyname=LABEL>
+- The NCBO
+  [BioPortal](http://www.bioontology.org/ncbo/faces/index.xhtml)
+  supports a [SOAP-based web-service
+  API](http://www.bioontology.org/docs/bioportal/development/web_services.html):
+  - WSDL:
+    <http://www.bioontology.org/ncboservicebeans/NCBOWebserviceBean?wsdl>
+  - Java JUnit test:
+    [test.webservice.NCBOServiceTest](http://smi-protege.stanford.edu/repos/cbio/ncbo/trunk/test/webservice/NCBOServiceTest.java)
+- The [Zthes profile for
+  SRU](http://zthes.z3950.org/srw/zthes-srw-1.0.html) is a specification
+  for navigating and querying remote thesauri
+  - [SRU](http://www.loc.gov/sru/) is a Library of Congress-sponsored
+    standard for query interoperability between digital repositories
+  - The Zthes profile for SRU is based on an [abstract model for
+    thesaurus
+    representation](http://zthes.z3950.org/model/zthes-model-1.0.html),
+    which is also available as an XML Schema implementation.
