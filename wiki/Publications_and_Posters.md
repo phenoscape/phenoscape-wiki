@@ -1,7 +1,7 @@
 ---
 title: Publications and Posters
 permalink: wiki/Publications_and_Posters
-layout: wiki
+layout: page
 tags:
  - Curation
  - Community
